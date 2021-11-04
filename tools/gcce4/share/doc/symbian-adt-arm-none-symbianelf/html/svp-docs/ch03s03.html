@@ -1,0 +1,30 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>3.3. Interrupt Controller</title><link rel="stylesheet" href="cs.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.74.0"><link rel="home" href="index.html" title="Symbian ADT Sourcery G++ Lite"><link rel="up" href="chap-devices.html" title="Chapter 3. Base Platform Devices"><link rel="prev" href="ch03s02.html" title="3.2. Platform Device"><link rel="next" href="ch03s04.html" title="3.4. Serial Port"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">3.3. Interrupt Controller</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ch03s02.html">Prev</a> </td><th width="60%" align="center">Chapter 3. Base Platform Devices</th><td width="20%" align="right"> <a accesskey="n" href="ch03s04.html">Next</a></td></tr></table><hr></div><div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="id362191"></a>3.3. Interrupt Controller</h2></div></div></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id362197"></a>3.3.1. Description</h3></div></div></div><p>
+    This device is a simple interrupt controller.
+    It has multiple input IRQs and a single output IRQ.
+    Each input IRQ can be enabled and disabled independently.  In addition
+    all inputs can be disabled in a single operation.
+   </p><p>
+    All inputs are level-triggered.
+    An input is <em class="firstterm">active</em> if it is enabled and raised.
+   </p><p>
+    The output IRQ is asserted iff there are any active IRQs.
+   </p></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id362221"></a>3.3.2. Device Properties</h3></div></div></div><div class="variablelist"><dl><dt><span class="term"><code class="literal">compatible</code></span></dt><dd><code class="literal">syborg,interrupt</code></dd><dt><span class="term"><code class="literal">num-interrupts</code></span></dt><dd><p>
+       Number of interrupt sources (optional, default 64).
+      </p></dd></dl></div></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id362271"></a>3.3.3. Registers</h3></div></div></div><p>
+    </p><div class="table"><a name="id362280"></a><p class="title"><b>Table 3.2. Interrupt Controller Registers</b></p><div class="table-contents"><table summary="Interrupt Controller Registers" border="1"><colgroup><col><col><col><col><col></colgroup><thead><tr><th>Offset</th><th>Access</th><th>Reset</th><th>Name</th><th>Description</th></tr></thead><tbody><tr><td>0x000</td><td>R</td><td>0xc51d0000</td><td>ID</td><td><p>
+          Peripheral ID.
+        </p></td></tr><tr><td>0x004</td><td>R</td><td>0x00000000</td><td>STATUS</td><td><p>
+          Number of active interrupts.
+        </p></td></tr><tr><td>0x008</td><td>R</td><td>0xffffffff</td><td>CURRENT</td><td><p>
+          Current active interrupt.  Lower numbers are higher priority.
+          0xffffffff if no interrupts are active.
+        </p></td></tr><tr><td>0x00c</td><td>W</td><td>N/A</td><td>DISABLE_ALL</td><td><p>
+          Writing any value disables all inputs.
+        </p></td></tr><tr><td>0x010</td><td>W</td><td>N/A</td><td>DISABLE</td><td><p>
+          Disable a single interrupt.
+        </p></td></tr><tr><td>0x014</td><td>W</td><td>N/A</td><td>ENABLE</td><td><p>
+          Enable a single interrupt.
+        </p></td></tr><tr><td>0x018</td><td>R</td><td>impl def</td><td>TOTAL</td><td><p>
+          The total number of inputs (active or inactive).
+        </p></td></tr></tbody></table></div></div><p><br class="table-break">
+   </p></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ch03s02.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="chap-devices.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="ch03s04.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">3.2. Platform Device </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> 3.4. Serial Port</td></tr></table></div></body></html>

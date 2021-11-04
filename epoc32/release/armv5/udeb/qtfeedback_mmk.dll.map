@@ -1,0 +1,422 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../../unhosted.s                         0x00000000   Number         0  switch8.o ABSOLUTE
+    M:\\epoc32\\build\\euser\\c_e18a23aea4fd210f\\edll_lib\\armv5\\udeb\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\\sf\\os\\kernelhwsrv\\kernel\\eka\\compsupp\\rvct\\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\epoc32\build\euser\c_e18a23aea4fd210f\edll_lib\armv5\udeb\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\dllexp.cpp 0x00000000   Number         0  dllexp.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    S:\sf\mw\qtmobility\build\Release\qtfeedback_mmk\moc\moc_qfeedback.cpp 0x00000000   Number         0  moc_qfeedback.o ABSOLUTE
+    S:\sf\mw\qtmobility\plugins\feedback\mmk\qfeedback.cpp 0x00000000   Number         0  qfeedback.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    Symbian$$eit_base                        0x00008014   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$eit_limit                       0x00008018   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_base                   0x0000801c   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_limit                  0x00008020   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$reserved                        0x00008024   Data           4  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       52  ucppinit.o(.emb_text)
+    loop                                     0x0000803c   ARM Code       0  ucppinit.o(.emb_text)
+    ret                                      0x00008044   ARM Code       0  ucppinit.o(.emb_text)
+    base                                     0x00008054   Data           0  ucppinit.o(.emb_text)
+    limit                                    0x00008058   Data           0  ucppinit.o(.emb_text)
+    .text                                    0x000081d4   Section      252  moc_qfeedback.o(.text)
+    .text                                    0x000082d0   Section     2084  qfeedback.o(.text)
+    |L1.1108|                                0x00008724   Data           0  qfeedback.o(.text)
+    .text                                    0x00008af4   Section       24  switch8.o(.text)
+    .text                                    0x00008b0c   Section       80  uc_dll.o(.text)
+    .text                                    0x00008b5c   Section      180  ucppfini.o(.text)
+    .text                                    0x00008c10   Section        4  dllexp.o(.text)
+    .text.clean                              0x00008c14   Section      156  qfeedback.o(.text.clean)
+    i._ZN10QtMobility22QFeedbackFileInterfaceD0Ev 0x00008cb0   Section       18  qfeedback.o(i._ZN10QtMobility22QFeedbackFileInterfaceD0Ev)
+    i._ZN10QtMobility22QFeedbackFileInterfaceD2Ev 0x00008cc2   Section        2  qfeedback.o(i._ZN10QtMobility22QFeedbackFileInterfaceD2Ev)
+    i._ZN11QMetaObject12invokeMethodEP7QObjectPKc16QGenericArgumentS4_S4_S4_S4_S4_S4_S4_S4_S4_ 0x00008cc4   Section      120  qfeedback.o(i._ZN11QMetaObject12invokeMethodEP7QObjectPKc16QGenericArgumentS4_S4_S4_S4_S4_S4_S4_S4_S4_)
+    i._ZN12QFeedbackMMK12FeedbackInfoC1ERKS0_ 0x00008d3c   Section       14  qfeedback.o(i._ZN12QFeedbackMMK12FeedbackInfoC1ERKS0_)
+    i._ZN15QBasicAtomicInt3refEv             0x00008d4a   Section       24  qfeedback.o(i._ZN15QBasicAtomicInt3refEv)
+    i._ZN15QBasicAtomicInt5derefEv           0x00008d62   Section       24  qfeedback.o(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN17QForeachContainerI5QListIN12QFeedbackMMK12FeedbackInfoEEED1Ev 0x00008d7a   Section       14  qfeedback.o(i._ZN17QForeachContainerI5QListIN12QFeedbackMMK12FeedbackInfoEEED1Ev)
+    i._ZN9QHashData8willGrowEv               0x00008d88   Section       32  qfeedback.o(i._ZN9QHashData8willGrowEv)
+    i._ZN9QHashData9hasShrunkEv              0x00008da8   Section       82  qfeedback.o(i._ZN9QHashData9hasShrunkEv)
+    i._ZNK15QBasicAtomicIntneEi              0x00008dfa   Section       16  qfeedback.o(i._ZNK15QBasicAtomicIntneEi)
+    i._ZNK9QListData3endEv                   0x00008e0a   Section       16  qfeedback.o(i._ZNK9QListData3endEv)
+    i._ZNK9QListData5beginEv                 0x00008e1a   Section       16  qfeedback.o(i._ZNK9QListData5beginEv)
+    i._ZdlPvS_                               0x00008e2a   Section        2  qfeedback.o(i._ZdlPvS_)
+    i._ZnwjPv                                0x00008e2c   Section        6  qfeedback.o(i._ZnwjPv)
+    t._Z12qobject_castIP12QSoundEffectET_P7QObject 0x00008e34   Section       32  qfeedback.o(t._Z12qobject_castIP12QSoundEffectET_P7QObject)
+    t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE11deleteNode2EPN9QHashData4NodeE 0x00008e54   Section        6  qfeedback.o(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE11deleteNode2EPN9QHashData4NodeE)
+    t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE13detach_helperEv 0x00008e5c   Section       60  qfeedback.o(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE13detach_helperEv)
+    t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE13duplicateNodeEPN9QHashData4NodeEPv 0x00008e98   Section       46  qfeedback.o(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE13duplicateNodeEPN9QHashData4NodeEPv)
+    t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE6detachEv 0x00008ec6   Section       28  qfeedback.o(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE6detachEv)
+    t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE6insertERKS2_RKS5_ 0x00008ee2   Section      182  qfeedback.o(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE6insertERKS2_RKS5_)
+    t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE6insertERKS2_RKS5_.clean 0x00008f98   Section        4  qfeedback.o(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE6insertERKS2_RKS5_.clean)
+    t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE6removeERKS2_ 0x00008f9c   Section      158  qfeedback.o(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE6removeERKS2_)
+    t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE8freeDataEP9QHashData 0x0000903c   Section       20  qfeedback.o(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE8freeDataEP9QHashData)
+    t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEED1Ev 0x00009050   Section       30  qfeedback.o(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEED1Ev)
+    t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE11deleteNode2EPN9QHashData4NodeE 0x0000906e   Section        6  qfeedback.o(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE11deleteNode2EPN9QHashData4NodeE)
+    t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE13detach_helperEv 0x00009074   Section       60  qfeedback.o(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE13detach_helperEv)
+    t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE13duplicateNodeEPN9QHashData4NodeEPv 0x000090b0   Section       46  qfeedback.o(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE13duplicateNodeEPN9QHashData4NodeEPv)
+    t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE13duplicateNodeEPN9QHashData4NodeEPv.clean 0x000090de   Section       14  qfeedback.o(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE13duplicateNodeEPN9QHashData4NodeEPv.clean)
+    t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6detachEv 0x000090ec   Section       28  qfeedback.o(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6detachEv)
+    t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6insertERKS3_RKS5_ 0x00009108   Section      184  qfeedback.o(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6insertERKS3_RKS5_)
+    t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6insertERKS3_RKS5_.clean 0x000091c0   Section       14  qfeedback.o(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6insertERKS3_RKS5_.clean)
+    t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6removeERKS3_ 0x000091ce   Section      158  qfeedback.o(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6removeERKS3_)
+    t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE8freeDataEP9QHashData 0x0000926c   Section       20  qfeedback.o(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE8freeDataEP9QHashData)
+    t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEED1Ev 0x00009280   Section       30  qfeedback.o(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEED1Ev)
+    t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE13detach_helperEi 0x0000929e   Section       94  qfeedback.o(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE13detach_helperEi)
+    t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE13detach_helperEi.clean 0x000092fc   Section        8  qfeedback.o(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE13detach_helperEi.clean)
+    t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE13detach_helperEv 0x00009304   Section       16  qfeedback.o(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE13detach_helperEv)
+    t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE13node_destructEPNS2_4NodeES4_ 0x00009314   Section       26  qfeedback.o(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE13node_destructEPNS2_4NodeES4_)
+    t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE14node_constructEPNS2_4NodeERKS1_ 0x0000932e   Section       34  qfeedback.o(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE14node_constructEPNS2_4NodeERKS1_)
+    t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE14node_constructEPNS2_4NodeERKS1_.clean 0x00009350   Section       14  qfeedback.o(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE14node_constructEPNS2_4NodeERKS1_.clean)
+    t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE18detach_helper_growEii 0x0000935e   Section      208  qfeedback.o(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE18detach_helper_growEii)
+    t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE18detach_helper_growEii.clean 0x0000942e   Section       16  qfeedback.o(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE18detach_helper_growEii.clean)
+    t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE4freeEPN9QListData4DataE 0x0000943e   Section       58  qfeedback.o(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE4freeEPN9QListData4DataE)
+    t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE6appendERKS1_ 0x00009478   Section      112  qfeedback.o(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE6appendERKS1_)
+    t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE6appendERKS1_.clean 0x000094e8   Section       14  qfeedback.o(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE6appendERKS1_.clean)
+    t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE7reserveEi 0x000094f6   Section       46  qfeedback.o(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE7reserveEi)
+    t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE9node_copyEPNS2_4NodeES4_S4_ 0x00009524   Section       80  qfeedback.o(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE9node_copyEPNS2_4NodeES4_S4_)
+    t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE9node_copyEPNS2_4NodeES4_S4_.clean 0x00009574   Section       22  qfeedback.o(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE9node_copyEPNS2_4NodeES4_S4_.clean)
+    t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEED1Ev 0x0000958a   Section       32  qfeedback.o(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEED1Ev)
+    t._ZN8QPointerI7QObjectED1Ev             0x000095aa   Section       14  qfeedback.o(t._ZN8QPointerI7QObjectED1Ev)
+    t._ZN9QHashNodeIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEEC1ERKS3_RKS5_ 0x000095b8   Section       30  qfeedback.o(t._ZN9QHashNodeIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEEC1ERKS3_RKS5_)
+    t._ZNK5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE5valueERKS2_ 0x000095d6   Section       40  qfeedback.o(t._ZNK5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE5valueERKS2_)
+    t._ZNK5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE8findNodeERKS2_Pj 0x000095fe   Section      104  qfeedback.o(t._ZNK5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE8findNodeERKS2_Pj)
+    t._ZNK5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE5valueERKS3_ 0x00009666   Section       62  qfeedback.o(t._ZNK5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE5valueERKS3_)
+    t._ZNK5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6valuesEv 0x000096a4   Section      152  qfeedback.o(t._ZNK5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6valuesEv)
+    t._ZNK5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6valuesEv.clean 0x0000973c   Section       10  qfeedback.o(t._ZNK5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6valuesEv.clean)
+    t._ZNK5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE8findNodeERKS3_Pj 0x00009746   Section      104  qfeedback.o(t._ZNK5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE8findNodeERKS3_Pj)
+    .extab._ZN12QFeedbackMMKC1Ev             0x000097b0   Data           0  qfeedback.o(.ARM.extab)
+    .extab.qt_plugin_instance                0x000097c8   Data           0  qfeedback.o(.ARM.extab)
+    .extab._ZN12QFeedbackMMKD1Ev             0x000097e0   Data           0  qfeedback.o(.ARM.extab)
+    .extab._ZN12QFeedbackMMK9setLoadedEPN10QtMobility19QFeedbackFileEffectEb 0x00009828   Data           0  qfeedback.o(.ARM.extab)
+    .extab._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE9node_copyEPNS2_4NodeES4_S4_ 0x00009840   Data           0  qfeedback.o(.ARM.extab)
+    .extab._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE13detach_helperEi 0x00009864   Data           0  qfeedback.o(.ARM.extab)
+    .extab._ZN9QHashData9hasShrunkEv         0x00009880   Data           0  qfeedback.o(.ARM.extab)
+    .extab._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE14node_constructEPNS2_4NodeERKS1_ 0x00009894   Data           0  qfeedback.o(.ARM.extab)
+    .extab._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE18detach_helper_growEii 0x000098a4   Data           0  qfeedback.o(.ARM.extab)
+    .extab._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE6appendERKS1_ 0x000098d4   Data           0  qfeedback.o(.ARM.extab)
+    .extab._ZNK5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6valuesEv 0x00009904   Data           0  qfeedback.o(.ARM.extab)
+    .extab._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6insertERKS3_RKS5_ 0x00009914   Data           0  qfeedback.o(.ARM.extab)
+    .extab._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE13duplicateNodeEPN9QHashData4NodeEPv 0x0000992c   Data           0  qfeedback.o(.ARM.extab)
+    .extab._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE6insertERKS2_RKS5_ 0x0000993c   Data           0  qfeedback.o(.ARM.extab)
+    .constdata$1                             0x0000994c   Data           0  moc_qfeedback.o(.constdata)
+    qt_meta_data_QFeedbackMMK                0x0000994c   Data         100  moc_qfeedback.o(.constdata)
+    .constdata                               0x0000994c   Section      188  moc_qfeedback.o(.constdata)
+    qt_meta_stringdata_QFeedbackMMK          0x000099b0   Data          70  moc_qfeedback.o(.constdata)
+    .constdata$1                             0x00009a08   Data           0  qfeedback.o(.constdata)
+    qt_plugin_verification_data              0x00009a08   Data          91  qfeedback.o(.constdata)
+    .constdata                               0x00009a08   Section       91  qfeedback.o(.constdata)
+    .constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE 0x00009a64   Section        4  moc_qfeedback.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE 0x00009a68   Section        4  moc_qfeedback.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE 0x00009a6c   Section        4  moc_qfeedback.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE 0x00009a70   Section        4  moc_qfeedback.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE 0x00009a74   Section        4  moc_qfeedback.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE 0x00009a78   Section        1  moc_qfeedback.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE 0x00009a7c   Section        4  moc_qfeedback.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE 0x00009a80   Section        4  moc_qfeedback.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE 0x00009a84   Section        4  moc_qfeedback.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE 0x00009a88   Section        4  moc_qfeedback.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE 0x00009a8c   Section        4  moc_qfeedback.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE 0x00009a90   Section        4  moc_qfeedback.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE 0x00009a94   Section        4  moc_qfeedback.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE 0x00009a98   Section        4  moc_qfeedback.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    .constdata__ZTI12QFeedbackMMK            0x00009a9c   Section       32  moc_qfeedback.o(.constdata__ZTI12QFeedbackMMK)
+    .constdata__ZTIN10QtMobility18QFeedbackInterfaceE 0x00009abc   Section        8  moc_qfeedback.o(.constdata__ZTIN10QtMobility18QFeedbackInterfaceE)
+    .constdata__ZTIN10QtMobility22QFeedbackFileInterfaceE 0x00009ac4   Section       12  moc_qfeedback.o(.constdata__ZTIN10QtMobility22QFeedbackFileInterfaceE)
+    .constdata__ZTS12QFeedbackMMK            0x00009ad0   Section       15  moc_qfeedback.o(.constdata__ZTS12QFeedbackMMK)
+    .constdata__ZTSN10QtMobility18QFeedbackInterfaceE 0x00009adf   Section       35  moc_qfeedback.o(.constdata__ZTSN10QtMobility18QFeedbackInterfaceE)
+    .constdata__ZTSN10QtMobility22QFeedbackFileInterfaceE 0x00009b02   Section       39  moc_qfeedback.o(.constdata__ZTSN10QtMobility22QFeedbackFileInterfaceE)
+    .constdata__ZTV12QFeedbackMMK            0x00009b2c   Section      112  moc_qfeedback.o(.constdata__ZTV12QFeedbackMMK)
+    .constdata__ZTVN10QtMobility22QFeedbackFileInterfaceE 0x00009b9c   Section       36  qfeedback.o(.constdata__ZTVN10QtMobility22QFeedbackFileInterfaceE)
+    .ARM.exidx                               0x00009bc0   Section        8  ucppinit.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  qfeedback.o(.data)
+    _ZGV_instance@qt_plugin_instance_0       0x00400000   Data           4  qfeedback.o(.data)
+    .data                                    0x00400000   Section        8  qfeedback.o(.data)
+    _instance@qt_plugin_instance_1           0x00400004   Data           4  qfeedback.o(.data)
+    .data$0                                  0x00400008   Data           0  ucppfini.o(.data)
+    .data                                    0x00400008   Section        4  ucppfini.o(.data)
+    .data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE 0x0040000c   Section       12  moc_qfeedback.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    .bss$5                                   0x00400018   Data           0  ucppfini.o(.bss)
+    .bss                                     0x00400018   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$VFPv2$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$IEEEJ$EBA8$UX$FPIC$INDIRECT$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    QtCore{00040703}[2001b2dc].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtFeedback{00010103}[2002bfce].dll       0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtMultimediaKit{00010103}[2002ac77].dll  0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    euser{000a0000}[100039e5].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    libc{00010001}[10207369].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    qtfeedback_mmk{000a0000}[200315ff].dll   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    stdnew{000a0000}[20022178].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    qFree(void*)                              - Undefined Reference
+    _Z5qFreePv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QtMobility::QFeedbackInterface::reportError(const QtMobility::QFeedbackEffect*, QtMobility::QFeedbackEffect::ErrorType)  - Undefined Reference
+    _ZN10QtMobility18QFeedbackInterface11reportErrorEPKNS_15QFeedbackEffectENS1_9ErrorTypeE@QtFeedback{00010103}[2002bfce].dll  - Undefined Reference
+    QtMobility::QFeedbackFileInterface::reportLoadFinished(QtMobility::QFeedbackFileEffect*, bool)  - Undefined Reference
+    _ZN10QtMobility22QFeedbackFileInterface18reportLoadFinishedEPNS_19QFeedbackFileEffectEb@QtFeedback{00010103}[2002bfce].dll  - Undefined Reference
+    QMetaObject::changeGuard(QObject**, QObject*)  - Undefined Reference
+    _ZN11QMetaObject11changeGuardEPP7QObjectS1_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::removeGuard(QObject**)       - Undefined Reference
+    _ZN11QMetaObject11removeGuardEPP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::invokeMethod(QObject*, const char*, Qt::ConnectionType, QGenericReturnArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument)  - Undefined Reference
+    _ZN11QMetaObject12invokeMethodEP7QObjectPKcN2Qt14ConnectionTypeE22QGenericReturnArgument16QGenericArgumentS7_S7_S7_S7_S7_S7_S7_S7_S7_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QSoundEffect::staticMetaObject            - Undefined Reference
+    _ZN12QSoundEffect16staticMetaObjectE@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QSoundEffect::supportedMimeTypes()        - Undefined Reference
+    _ZN12QSoundEffect18supportedMimeTypesEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QSoundEffect::play()                      - Undefined Reference
+    _ZN12QSoundEffect4playEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QSoundEffect::stop()                      - Undefined Reference
+    _ZN12QSoundEffect4stopEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QSoundEffect::setSource(const QUrl&)      - Undefined Reference
+    _ZN12QSoundEffect9setSourceERK4QUrl@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QSoundEffect::QSoundEffect(QObject*)      - Undefined Reference
+    _ZN12QSoundEffectC1EP7QObject@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCoreApplication::self                    - Undefined Reference
+    _ZN16QCoreApplication4selfE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::~QUrl()                             - Undefined Reference
+    _ZN4QUrlD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    User::LockedDec(int&)                     - Undefined Reference
+    _ZN4User9LockedDecERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::LockedInc(int&)                     - Undefined Reference
+    _ZN4User9LockedIncERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QObject::childEvent(QChildEvent*)         - Undefined Reference
+    _ZN7QObject10childEventEP11QChildEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::timerEvent(QTimerEvent*)         - Undefined Reference
+    _ZN7QObject10timerEventEP11QTimerEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::customEvent(QEvent*)             - Undefined Reference
+    _ZN7QObject11customEventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::deleteLater()                    - Undefined Reference
+    _ZN7QObject11deleteLaterEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::eventFilter(QObject*, QEvent*)   - Undefined Reference
+    _ZN7QObject11eventFilterEPS_P6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN7QObject11qt_metacallEN11QMetaObject4CallEiPPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::qt_metacast(const char*)         - Undefined Reference
+    _ZN7QObject11qt_metacastEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connectNotify(const char*)       - Undefined Reference
+    _ZN7QObject13connectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::disconnectNotify(const char*)    - Undefined Reference
+    _ZN7QObject16disconnectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::staticMetaObject                 - Undefined Reference
+    _ZN7QObject16staticMetaObjectE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::event(QEvent*)                   - Undefined Reference
+    _ZN7QObject5eventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connect(const QObject*, const char*, const QObject*, const char*, Qt::ConnectionType)  - Undefined Reference
+    _ZN7QObject7connectEPKS_PKcS1_S3_N2Qt14ConnectionTypeE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::QObject(QObject*)                - Undefined Reference
+    _ZN7QObjectC1EPS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::~QObject()                       - Undefined Reference
+    _ZN7QObjectD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::free_helper(void(*)(QHashData::Node*))  - Undefined Reference
+    _ZN9QHashData11free_helperEPFvPNS_4NodeEE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::shared_null                    - Undefined Reference
+    _ZN9QHashData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::allocateNode(int)              - Undefined Reference
+    _ZN9QHashData12allocateNodeEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::detach_helper2(void(*)(QHashData::Node*, void*), void(*)(QHashData::Node*), int, int)  - Undefined Reference
+    _ZN9QHashData14detach_helper2EPFvPNS_4NodeEPvEPFvS1_Eii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::rehash(int)                    - Undefined Reference
+    _ZN9QHashData6rehashEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::freeNode(void*)                - Undefined Reference
+    _ZN9QHashData8freeNodeEPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::nextNode(QHashData::Node*)     - Undefined Reference
+    _ZN9QHashData8nextNodeEPNS_4NodeE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach_grow(int*, int)         - Undefined Reference
+    _ZN9QListData11detach_growEPii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::shared_null                    - Undefined Reference
+    _ZN9QListData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::append()                       - Undefined Reference
+    _ZN9QListData6appendEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach(int)                    - Undefined Reference
+    _ZN9QListData6detachEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::realloc(int)                   - Undefined Reference
+    _ZN9QListData7reallocEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QtMobility::QFeedbackFileEffect::source() const  - Undefined Reference
+    _ZNK10QtMobility19QFeedbackFileEffect6sourceEv@QtFeedback{00010103}[2002bfce].dll  - Undefined Reference
+    QMetaObject::cast(QObject*) const         - Undefined Reference
+    _ZNK11QMetaObject4castEP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QSoundEffect::status() const              - Undefined Reference
+    _ZNK12QSoundEffect6statusEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QSoundEffect::isPlaying() const           - Undefined Reference
+    _ZNK12QSoundEffect9isPlayingEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QObject::sender() const                   - Undefined Reference
+    _ZNK7QObject6senderEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for QObject                      - Undefined Reference
+    _ZTI7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for std::bad_alloc               - Undefined Reference
+    _ZTISt9bad_alloc@stdnew{000a0000}[20022178].dll  - Undefined Reference
+    vtable for __cxxabiv1::__class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv117__class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv120__si_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    vtable for __cxxabiv1::__vmi_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv121__vmi_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    operator delete (void*)                   - Undefined Reference
+    _ZdlPv@stdnew{000a0000}[20022178].dll     - Undefined Reference
+    operator new(unsigned)                    - Undefined Reference
+    _Znwj@stdnew{000a0000}[20022178].dll      - Undefined Reference
+    __aeabi_memcpy4                           - Undefined Reference
+    __aeabi_memcpy4@drtaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_uidivmod                          - Undefined Reference
+    __aeabi_uidivmod@drtaeabi{000a0000}.dll   - Undefined Reference
+    __aeabi_unwind_cpp_pr0                    - Undefined Reference
+    __aeabi_unwind_cpp_pr0@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_begin_catch                         - Undefined Reference
+    __cxa_begin_catch@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_end_catch                           - Undefined Reference
+    __cxa_end_catch@drtaeabi{000a0000}.dll    - Undefined Reference
+    __cxa_end_cleanup                         - Undefined Reference
+    __cxa_end_cleanup@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_abort                         - Undefined Reference
+    __cxa_guard_abort@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_acquire                       - Undefined Reference
+    __cxa_guard_acquire@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_release                       - Undefined Reference
+    __cxa_guard_release@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_pure_virtual                        - Undefined Reference
+    __cxa_pure_virtual@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_rethrow                             - Undefined Reference
+    __cxa_rethrow@drtaeabi{000a0000}.dll      - Undefined Reference
+    strcmp                                    - Undefined Reference
+    strcmp@libc{00010001}[10207369].dll       - Undefined Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      52  ucppinit.o(.emb_text)
+    std::nothrow                             0x0000805c   ARM Code       0  ucppinit.o(.emb_text)
+    __PLT                                    0x0000805c   ARM Code       0  anon$$obj.o(.plt)
+    QFeedbackMMK::getStaticMetaObject()      0x000081d5   Thumb Code     4  moc_qfeedback.o(.text)
+    QFeedbackMMK::metaObject() const         0x000081d9   Thumb Code    28  moc_qfeedback.o(.text)
+    QFeedbackMMK::qt_metacast(const char*)   0x000081f5   Thumb Code    76  moc_qfeedback.o(.text)
+    QFeedbackMMK::qt_metacall(QMetaObject::Call, int, void**) 0x00008241   Thumb Code    72  moc_qfeedback.o(.text)
+    qt_plugin_query_verification_data        0x000082d1   Thumb Code     4  qfeedback.o(.text)
+    QFeedbackMMK::QFeedbackMMK()             0x000082d5   Thumb Code    80  qfeedback.o(.text)
+    QFeedbackMMK::QFeedbackMMK__sub_object() 0x000082d5   Thumb Code     0  qfeedback.o(.text)
+    qt_plugin_instance                       0x00008325   Thumb Code   120  qfeedback.o(.text)
+    QFeedbackMMK::~QFeedbackMMK()            0x0000839d   Thumb Code   354  qfeedback.o(.text)
+    QFeedbackMMK::~QFeedbackMMK__sub_object() 0x0000839d   Thumb Code     0  qfeedback.o(.text)
+    QFeedbackMMK::~QFeedbackMMK__deallocating() 0x000084ff   Thumb Code    22  qfeedback.o(.text)
+    thunk{-8} to QFeedbackMMK::~QFeedbackMMK__deallocating() 0x00008515   Thumb Code    14  qfeedback.o(.text)
+    thunk{-8} to QFeedbackMMK::~QFeedbackMMK() 0x00008523   Thumb Code    14  qfeedback.o(.text)
+    QFeedbackMMK::setLoaded(QtMobility::QFeedbackFileEffect*, bool) 0x00008531   Thumb Code   516  qfeedback.o(.text)
+    thunk{-8} to QFeedbackMMK::setLoaded(QtMobility::QFeedbackFileEffect*, bool) 0x00008735   Thumb Code    22  qfeedback.o(.text)
+    QFeedbackMMK::setEffectState(QtMobility::QFeedbackFileEffect*, QtMobility::QFeedbackEffect::State) 0x0000874b   Thumb Code   140  qfeedback.o(.text)
+    thunk{-8} to QFeedbackMMK::setEffectState(QtMobility::QFeedbackFileEffect*, QtMobility::QFeedbackEffect::State) 0x000087d7   Thumb Code    22  qfeedback.o(.text)
+    QFeedbackMMK::effectState(const QtMobility::QFeedbackFileEffect*) 0x000087ed   Thumb Code    58  qfeedback.o(.text)
+    thunk{-8} to QFeedbackMMK::effectState(const QtMobility::QFeedbackFileEffect*) 0x00008827   Thumb Code    18  qfeedback.o(.text)
+    QFeedbackMMK::effectDuration(const QtMobility::QFeedbackFileEffect*) 0x00008839   Thumb Code    10  qfeedback.o(.text)
+    thunk{-8} to QFeedbackMMK::effectDuration(const QtMobility::QFeedbackFileEffect*) 0x00008843   Thumb Code    18  qfeedback.o(.text)
+    QFeedbackMMK::supportedMimeTypes()       0x00008855   Thumb Code    14  qfeedback.o(.text)
+    thunk{-8} to QFeedbackMMK::supportedMimeTypes() 0x00008863   Thumb Code    18  qfeedback.o(.text)
+    QFeedbackMMK::soundEffectStatusChanged() 0x00008875   Thumb Code   358  qfeedback.o(.text)
+    QFeedbackMMK::soundEffectPlayingChanged() 0x000089db   Thumb Code   276  qfeedback.o(.text)
+    __ARM_switch8                            0x00008af4   ARM Code      24  switch8.o(.text)
+    __rt_switch8                             0x00008af4   ARM Code       0  switch8.o(.text)
+    _E32Dll_Body                             0x00008b0c   ARM Code      76  uc_dll.o(.text)
+    __aeabi_atexit                           0x00008b5c   ARM Code      40  ucppfini.o(.text)
+    __cxa_atexit                             0x00008b84   ARM Code      64  ucppfini.o(.text)
+    __cxa_finalize                           0x00008bc4   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x00008bf4   ARM Code      16  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x00008c10   ARM Code       4  dllexp.o(.text)
+    QtMobility::QFeedbackFileInterface::~QFeedbackFileInterface__deallocating() 0x00008cb1   Thumb Code    18  qfeedback.o(i._ZN10QtMobility22QFeedbackFileInterfaceD0Ev)
+    QtMobility::QFeedbackFileInterface::~QFeedbackFileInterface() 0x00008cc3   Thumb Code     0  qfeedback.o(i._ZN10QtMobility22QFeedbackFileInterfaceD2Ev)
+    QtMobility::QFeedbackFileInterface::~QFeedbackFileInterface__sub_object() 0x00008cc3   Thumb Code     2  qfeedback.o(i._ZN10QtMobility22QFeedbackFileInterfaceD2Ev)
+    QMetaObject::invokeMethod(QObject*, const char*, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument) 0x00008cc5   Thumb Code   120  qfeedback.o(i._ZN11QMetaObject12invokeMethodEP7QObjectPKc16QGenericArgumentS4_S4_S4_S4_S4_S4_S4_S4_S4_)
+    QFeedbackMMK::FeedbackInfo::FeedbackInfo(const QFeedbackMMK::FeedbackInfo&) 0x00008d3d   Thumb Code    14  qfeedback.o(i._ZN12QFeedbackMMK12FeedbackInfoC1ERKS0_)
+    QFeedbackMMK::FeedbackInfo::FeedbackInfo__sub_object(const QFeedbackMMK::FeedbackInfo&) 0x00008d3d   Thumb Code     0  qfeedback.o(i._ZN12QFeedbackMMK12FeedbackInfoC1ERKS0_)
+    QBasicAtomicInt::ref()                   0x00008d4b   Thumb Code    24  qfeedback.o(i._ZN15QBasicAtomicInt3refEv)
+    QBasicAtomicInt::deref()                 0x00008d63   Thumb Code    24  qfeedback.o(i._ZN15QBasicAtomicInt5derefEv)
+    QForeachContainer<QList<QFeedbackMMK::FeedbackInfo>>::~QForeachContainer() 0x00008d7b   Thumb Code    14  qfeedback.o(i._ZN17QForeachContainerI5QListIN12QFeedbackMMK12FeedbackInfoEEED1Ev)
+    QForeachContainer<QList<QFeedbackMMK::FeedbackInfo>>::~QForeachContainer__sub_object() 0x00008d7b   Thumb Code     0  qfeedback.o(i._ZN17QForeachContainerI5QListIN12QFeedbackMMK12FeedbackInfoEEED1Ev)
+    QHashData::willGrow()                    0x00008d89   Thumb Code    32  qfeedback.o(i._ZN9QHashData8willGrowEv)
+    QHashData::hasShrunk()                   0x00008da9   Thumb Code    82  qfeedback.o(i._ZN9QHashData9hasShrunkEv)
+    QBasicAtomicInt::operator !=(int) const  0x00008dfb   Thumb Code    16  qfeedback.o(i._ZNK15QBasicAtomicIntneEi)
+    QListData::end() const                   0x00008e0b   Thumb Code    16  qfeedback.o(i._ZNK9QListData3endEv)
+    QListData::begin() const                 0x00008e1b   Thumb Code    16  qfeedback.o(i._ZNK9QListData5beginEv)
+    operator delete (void*, void*)           0x00008e2b   Thumb Code     2  qfeedback.o(i._ZdlPvS_)
+    operator new(unsigned, void*)            0x00008e2d   Thumb Code     6  qfeedback.o(i._ZnwjPv)
+    qobject_cast<QSoundEffect*>(QObject*)    0x00008e35   Thumb Code    26  qfeedback.o(t._Z12qobject_castIP12QSoundEffectET_P7QObject)
+    QHash<const QSoundEffect*, QtMobility::QFeedbackFileEffect*>::deleteNode2(QHashData::Node*) 0x00008e55   Thumb Code     6  qfeedback.o(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE11deleteNode2EPN9QHashData4NodeE)
+    QHash<const QSoundEffect*, QtMobility::QFeedbackFileEffect*>::detach_helper() 0x00008e5d   Thumb Code    52  qfeedback.o(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE13detach_helperEv)
+    QHash<const QSoundEffect*, QtMobility::QFeedbackFileEffect*>::duplicateNode(QHashData::Node*, void*) 0x00008e99   Thumb Code    46  qfeedback.o(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE13duplicateNodeEPN9QHashData4NodeEPv)
+    QHash<const QSoundEffect*, QtMobility::QFeedbackFileEffect*>::detach() 0x00008ec7   Thumb Code    28  qfeedback.o(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE6detachEv)
+    QHash<const QSoundEffect*, QtMobility::QFeedbackFileEffect*>::insert(const QSoundEffect*const &, QtMobility::QFeedbackFileEffect*const &) 0x00008ee3   Thumb Code   182  qfeedback.o(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE6insertERKS2_RKS5_)
+    QHash<const QSoundEffect*, QtMobility::QFeedbackFileEffect*>::remove(const QSoundEffect*const &) 0x00008f9d   Thumb Code   158  qfeedback.o(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE6removeERKS2_)
+    QHash<const QSoundEffect*, QtMobility::QFeedbackFileEffect*>::freeData(QHashData*) 0x0000903d   Thumb Code    16  qfeedback.o(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE8freeDataEP9QHashData)
+    QHash<const QSoundEffect*, QtMobility::QFeedbackFileEffect*>::~QHash() 0x00009051   Thumb Code    30  qfeedback.o(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEED1Ev)
+    QHash<const QSoundEffect*, QtMobility::QFeedbackFileEffect*>::~QHash__sub_object() 0x00009051   Thumb Code     0  qfeedback.o(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEED1Ev)
+    QHash<const QtMobility::QFeedbackFileEffect*, QFeedbackMMK::FeedbackInfo>::deleteNode2(QHashData::Node*) 0x0000906f   Thumb Code     6  qfeedback.o(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE11deleteNode2EPN9QHashData4NodeE)
+    QHash<const QtMobility::QFeedbackFileEffect*, QFeedbackMMK::FeedbackInfo>::detach_helper() 0x00009075   Thumb Code    52  qfeedback.o(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE13detach_helperEv)
+    QHash<const QtMobility::QFeedbackFileEffect*, QFeedbackMMK::FeedbackInfo>::duplicateNode(QHashData::Node*, void*) 0x000090b1   Thumb Code    46  qfeedback.o(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE13duplicateNodeEPN9QHashData4NodeEPv)
+    QHash<const QtMobility::QFeedbackFileEffect*, QFeedbackMMK::FeedbackInfo>::detach() 0x000090ed   Thumb Code    28  qfeedback.o(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6detachEv)
+    QHash<const QtMobility::QFeedbackFileEffect*, QFeedbackMMK::FeedbackInfo>::insert(const QtMobility::QFeedbackFileEffect*const &, const QFeedbackMMK::FeedbackInfo&) 0x00009109   Thumb Code   184  qfeedback.o(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6insertERKS3_RKS5_)
+    QHash<const QtMobility::QFeedbackFileEffect*, QFeedbackMMK::FeedbackInfo>::remove(const QtMobility::QFeedbackFileEffect*const &) 0x000091cf   Thumb Code   158  qfeedback.o(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6removeERKS3_)
+    QHash<const QtMobility::QFeedbackFileEffect*, QFeedbackMMK::FeedbackInfo>::freeData(QHashData*) 0x0000926d   Thumb Code    16  qfeedback.o(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE8freeDataEP9QHashData)
+    QHash<const QtMobility::QFeedbackFileEffect*, QFeedbackMMK::FeedbackInfo>::~QHash() 0x00009281   Thumb Code    30  qfeedback.o(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEED1Ev)
+    QHash<const QtMobility::QFeedbackFileEffect*, QFeedbackMMK::FeedbackInfo>::~QHash__sub_object() 0x00009281   Thumb Code     0  qfeedback.o(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEED1Ev)
+    QList<QFeedbackMMK::FeedbackInfo>::detach_helper(int) 0x0000929f   Thumb Code    94  qfeedback.o(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE13detach_helperEi)
+    QList<QFeedbackMMK::FeedbackInfo>::detach_helper() 0x00009305   Thumb Code    16  qfeedback.o(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE13detach_helperEv)
+    QList<QFeedbackMMK::FeedbackInfo>::node_destruct(QList<QFeedbackMMK::FeedbackInfo>::Node*, QList<QFeedbackMMK::FeedbackInfo>::Node*) 0x00009315   Thumb Code    26  qfeedback.o(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE13node_destructEPNS2_4NodeES4_)
+    QList<QFeedbackMMK::FeedbackInfo>::node_construct(QList<QFeedbackMMK::FeedbackInfo>::Node*, const QFeedbackMMK::FeedbackInfo&) 0x0000932f   Thumb Code    34  qfeedback.o(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE14node_constructEPNS2_4NodeERKS1_)
+    QList<QFeedbackMMK::FeedbackInfo>::detach_helper_grow(int, int) 0x0000935f   Thumb Code   208  qfeedback.o(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE18detach_helper_growEii)
+    QList<QFeedbackMMK::FeedbackInfo>::free(QListData::Data*) 0x0000943f   Thumb Code    58  qfeedback.o(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE4freeEPN9QListData4DataE)
+    QList<QFeedbackMMK::FeedbackInfo>::append(const QFeedbackMMK::FeedbackInfo&) 0x00009479   Thumb Code   106  qfeedback.o(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE6appendERKS1_)
+    QList<QFeedbackMMK::FeedbackInfo>::reserve(int) 0x000094f7   Thumb Code    46  qfeedback.o(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE7reserveEi)
+    QList<QFeedbackMMK::FeedbackInfo>::node_copy(QList<QFeedbackMMK::FeedbackInfo>::Node*, QList<QFeedbackMMK::FeedbackInfo>::Node*, QList<QFeedbackMMK::FeedbackInfo>::Node*) 0x00009525   Thumb Code    80  qfeedback.o(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE9node_copyEPNS2_4NodeES4_S4_)
+    QList<QFeedbackMMK::FeedbackInfo>::~QList() 0x0000958b   Thumb Code    32  qfeedback.o(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEED1Ev)
+    QList<QFeedbackMMK::FeedbackInfo>::~QList__sub_object() 0x0000958b   Thumb Code     0  qfeedback.o(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEED1Ev)
+    QPointer<QObject>::~QPointer()           0x000095ab   Thumb Code    14  qfeedback.o(t._ZN8QPointerI7QObjectED1Ev)
+    QPointer<QObject>::~QPointer__sub_object() 0x000095ab   Thumb Code     0  qfeedback.o(t._ZN8QPointerI7QObjectED1Ev)
+    QHashNode<const QtMobility::QFeedbackFileEffect*, QFeedbackMMK::FeedbackInfo>::QHashNode(const QtMobility::QFeedbackFileEffect*const &, const QFeedbackMMK::FeedbackInfo&) 0x000095b9   Thumb Code    30  qfeedback.o(t._ZN9QHashNodeIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEEC1ERKS3_RKS5_)
+    QHashNode<const QtMobility::QFeedbackFileEffect*, QFeedbackMMK::FeedbackInfo>::QHashNode__sub_object(const QtMobility::QFeedbackFileEffect*const &, const QFeedbackMMK::FeedbackInfo&) 0x000095b9   Thumb Code     0  qfeedback.o(t._ZN9QHashNodeIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEEC1ERKS3_RKS5_)
+    QHash<const QSoundEffect*, QtMobility::QFeedbackFileEffect*>::value(const QSoundEffect*const &) const 0x000095d7   Thumb Code    40  qfeedback.o(t._ZNK5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE5valueERKS2_)
+    QHash<const QSoundEffect*, QtMobility::QFeedbackFileEffect*>::findNode(const QSoundEffect*const &, unsigned*) const 0x000095ff   Thumb Code   104  qfeedback.o(t._ZNK5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE8findNodeERKS2_Pj)
+    QHash<const QtMobility::QFeedbackFileEffect*, QFeedbackMMK::FeedbackInfo>::value(const QtMobility::QFeedbackFileEffect*const &) const 0x00009667   Thumb Code    62  qfeedback.o(t._ZNK5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE5valueERKS3_)
+    QHash<const QtMobility::QFeedbackFileEffect*, QFeedbackMMK::FeedbackInfo>::values() const 0x000096a5   Thumb Code   148  qfeedback.o(t._ZNK5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6valuesEv)
+    QHash<const QtMobility::QFeedbackFileEffect*, QFeedbackMMK::FeedbackInfo>::findNode(const QtMobility::QFeedbackFileEffect*const &, unsigned*) const 0x00009747   Thumb Code   104  qfeedback.o(t._ZNK5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE8findNodeERKS3_Pj)
+    QFeedbackMMK::staticMetaObject           0x000099f8   Data          16  moc_qfeedback.o(.constdata)
+    stlp_priv::_Integer_limits<signed char, (signed char)-128, (signed char)127, (int)-1, (bool)1>::digits 0x00009a64   Data           4  moc_qfeedback.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<bool, (bool)0, (bool)1, (int)1, (bool)0>::digits 0x00009a68   Data           4  moc_qfeedback.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    stlp_priv::_Integer_limits<char, (char)128, (char)127, (int)-1, (bool)1>::digits 0x00009a6c   Data           4  moc_qfeedback.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned char, (unsigned char)0, (unsigned char)255, (int)-1, (bool)1>::digits 0x00009a70   Data           4  moc_qfeedback.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::digits 0x00009a74   Data           4  moc_qfeedback.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::is_signed 0x00009a78   Data           1  moc_qfeedback.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    stlp_priv::_Integer_limits<unsigned, (unsigned)0, (unsigned)4294967295, (int)-1, (bool)1>::digits 0x00009a7c   Data           4  moc_qfeedback.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long, (long)-2147483648, (long)2147483647, (int)-1, (bool)1>::digits 0x00009a80   Data           4  moc_qfeedback.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long, (unsigned long)0, (unsigned long)4294967295, (int)-1, (bool)1>::digits 0x00009a84   Data           4  moc_qfeedback.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<short, (short)-32768, (short)32767, (int)-1, (bool)1>::digits 0x00009a88   Data           4  moc_qfeedback.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned short, (unsigned short)0, (unsigned short)65535, (int)-1, (bool)1>::digits 0x00009a8c   Data           4  moc_qfeedback.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<wchar_t, (wchar_t)0, (wchar_t)65535, (int)-1, (bool)1>::digits 0x00009a90   Data           4  moc_qfeedback.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long long, (long long)-9223372036854775808, (long long)9223372036854775807, (int)-1, (bool)1>::digits 0x00009a94   Data           4  moc_qfeedback.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long long, (unsigned long long)0, (unsigned long long)18446744073709551615, (int)-1, (bool)1>::digits 0x00009a98   Data           4  moc_qfeedback.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    typeinfo for QFeedbackMMK                0x00009a9c   Data          32  moc_qfeedback.o(.constdata__ZTI12QFeedbackMMK)
+    typeinfo for QtMobility::QFeedbackInterface 0x00009abc   Data           8  moc_qfeedback.o(.constdata__ZTIN10QtMobility18QFeedbackInterfaceE)
+    typeinfo for QtMobility::QFeedbackFileInterface 0x00009ac4   Data          12  moc_qfeedback.o(.constdata__ZTIN10QtMobility22QFeedbackFileInterfaceE)
+    typeinfo name for QFeedbackMMK           0x00009ad0   Data          15  moc_qfeedback.o(.constdata__ZTS12QFeedbackMMK)
+    typeinfo name for QtMobility::QFeedbackInterface 0x00009adf   Data          35  moc_qfeedback.o(.constdata__ZTSN10QtMobility18QFeedbackInterfaceE)
+    typeinfo name for QtMobility::QFeedbackFileInterface 0x00009b02   Data          39  moc_qfeedback.o(.constdata__ZTSN10QtMobility22QFeedbackFileInterfaceE)
+    vtable for QFeedbackMMK                  0x00009b2c   Data         112  moc_qfeedback.o(.constdata__ZTV12QFeedbackMMK)
+    vtable for QtMobility::QFeedbackFileInterface 0x00009b9c   Data          36  qfeedback.o(.constdata__ZTVN10QtMobility22QFeedbackFileInterfaceE)
+    .ARM.exidx$$Base                         0x00009bc0   Number         0  ucppinit.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x00009de0   Number         0  qfeedback.o(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x00009de0   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    __dso_handle                             0x00400008   Data           4  ucppfini.o(.data)
+    std::_Atomic_swap_struct<(int)1>::_S_swap_lock 0x0040000c   Data          12  moc_qfeedback.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    dtor_rec                                 0x00400018   Data        2048  ucppfini.o(.bss)
+

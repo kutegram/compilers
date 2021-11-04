@@ -1,0 +1,54 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>5.8. Interfacing with C code</title><link rel="stylesheet" href="cs.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.74.0"><link rel="home" href="index.html" title="Symbian ADT Sourcery G++ Lite"><link rel="up" href="chap-plugins.html" title="Chapter 5. Device Plugins"><link rel="prev" href="ch05s07.html" title="5.7. Mouse"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">5.8. Interfacing with C code</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ch05s07.html">Prev</a> </td><th width="60%" align="center">Chapter 5. Device Plugins</th><td width="20%" align="right"> </td></tr></table><hr></div><div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="id362653"></a>5.8. Interfacing with C code</h2></div></div></div><p>
+   Device plugins may be implemented in any language (e.g. C/C++).  However
+   in order to do this a Python interface to this code must be created.
+   The simplest way to do this is to use SWIG
+   (<a class="ulink" href="http://www.swig.org/" target="_top">http://www.swig.org/</a>) to generate the interface.
+  </p><p>
+   SWIG uses an interface file to generate the Python interface code.
+   In simple cases this interface file is very similar to the C header file
+   used to declare the functions.
+  </p><p>
+   This is best demonstrated by a simple example.  Consider the following C
+   code (<code class="filename">myfoo.c</code>):
+</p><pre class="programlisting">int myfoo(int a, int b)
+{
+ return a * b;
+}</pre><p>
+  </p><p>
+   The SWIG interface file (<code class="filename">foo.i</code>) for this is as
+   follows:
+</p><pre class="programlisting">%module foo
+%{
+int myfoo(int a, int b);
+%}
+int myfoo(int a, int b);
+</pre><p>
+  </p><p>
+   The interface file consists of two parts. The section inside
+   <code class="literal">%{</code>/<code class="literal">%}</code> is used to generate the
+   interface code, and the second declaration is used to provide C
+   prototypes and inline code for use by this interface code.
+   <code class="literal">#include</code> directives can be used to avoid this
+   duplication.
+  </p><p>
+   The following command generates the Python interface code for this module:
+   </p><pre class="screen">swig -python foo.i</pre><p>
+   This command creates two files, <code class="filename">foo.py</code> and
+   <code class="filename">foo_wrap.c</code>.  <code class="filename">foo.py</code> provides
+   the Python part of the module.  <code class="filename">foo_wrap.c</code> should be
+   linked with your C code to provide the actual implementation module as
+   follows:
+   </p><pre class="screen">gcc -shared -o _foo.pyd foo_wrap.c myfoo.c -I <em class="replaceable"><code>qemu-installdir</code></em>\include <em class="replaceable"><code>qemu-installdir</code></em>\lib\python26.dll</pre><p>
+   The files <code class="filename">foo.py</code> and <code class="filename">_foo.pyd</code>
+   should then be copied to <code class="filename">share\qemu\plugins</code> so that
+   they can be found by other plugins.
+  </p><p>
+   To use this module from a Python plugin it should first be imported with
+   <code class="literal">import foo</code>. It can then be used the same as any other
+   Python module, for example <code class="literal">print foo.myfoo(2, 3)</code> will
+   print <code class="literal">6</code>.
+  </p><p>
+   For more details about using SWIG, including more complicated examples and
+   how to call Python routines from C, see see
+   <a class="ulink" href="http://www.swig.org/Doc1.1/HTML/Python.html" target="_top">http://www.swig.org/Doc1.1/HTML/Python.html</a>.
+  </p></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ch05s07.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="chap-plugins.html">Up</a></td><td width="40%" align="right"> </td></tr><tr><td width="40%" align="left" valign="top">5.7. Mouse </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> </td></tr></table></div></body></html>

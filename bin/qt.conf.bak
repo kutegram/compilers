@@ -1,0 +1,8 @@
+[Paths]
+Data = $(EPOCROOT)
+Headers = $(EPOCROOT)include
+Binaries = $(EPOCROOT)bin
+Prefix = $(EPOCROOT)
+Demos = $(EPOCROOT)../../../Demos/4.7
+Examples = $(EPOCROOT)../../../Examples/4.7
+

@@ -1,0 +1,676 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../../unhosted.s                         0x00000000   Number         0  switch8.o ABSOLUTE
+    M:\\epoc32\\build\\euser\\c_e18a23aea4fd210f\\edll_lib\\armv5\\udeb\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\\sf\\os\\kernelhwsrv\\kernel\\eka\\compsupp\\rvct\\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\epoc32\build\euser\c_e18a23aea4fd210f\edll_lib\armv5\udeb\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\dllexp.cpp 0x00000000   Number         0  dllexp.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    S:\sf\mw\qt\src\imports\folderlistmodel\plugin.cpp 0x00000000   Number         0  plugin.o ABSOLUTE
+    S:\sf\mw\qt\src\imports\folderlistmodel\qdeclarativefolderlistmodel.cpp 0x00000000   Number         0  qdeclarativefolderlistmodel.o ABSOLUTE
+    S:\sf\mw\qt\src\imports\folderlistmodel\tmp\moc\debug_shared\moc_qdeclarativefolderlistmodel.cpp 0x00000000   Number         0  moc_qdeclarativefolderlistmodel.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    Symbian$$eit_base                        0x00008014   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$eit_limit                       0x00008018   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_base                   0x0000801c   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_limit                  0x00008020   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$reserved                        0x00008024   Data           4  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       52  ucppinit.o(.emb_text)
+    loop                                     0x0000803c   ARM Code       0  ucppinit.o(.emb_text)
+    ret                                      0x00008044   ARM Code       0  ucppinit.o(.emb_text)
+    base                                     0x00008054   Data           0  ucppinit.o(.emb_text)
+    limit                                    0x00008058   Data           0  ucppinit.o(.emb_text)
+    .text                                    0x0000835c   Section     3428  qdeclarativefolderlistmodel.o(.text)
+    |L1.2076|                                0x00008b78   Data           0  qdeclarativefolderlistmodel.o(.text)
+    .text                                    0x000090c0   Section      276  plugin.o(.text)
+    .text                                    0x000091d4   Section      856  moc_qdeclarativefolderlistmodel.o(.text)
+    .text                                    0x0000952c   Section       24  switch8.o(.text)
+    .text                                    0x00009544   Section       80  uc_dll.o(.text)
+    .text                                    0x00009594   Section      180  ucppfini.o(.text)
+    .text                                    0x00009648   Section        4  dllexp.o(.text)
+    .text.clean                              0x0000964c   Section      424  qdeclarativefolderlistmodel.o(.text.clean)
+    .text.clean                              0x000097f4   Section       28  plugin.o(.text.clean)
+    .text.clean                              0x00009810   Section       36  moc_qdeclarativefolderlistmodel.o(.text.clean)
+    i._ZN10QByteArrayC1ERKS_                 0x00009834   Section       20  plugin.o(i._ZN10QByteArrayC1ERKS_)
+    i._ZN10QByteArrayD1Ev                    0x00009848   Section       24  qdeclarativefolderlistmodel.o(i._ZN10QByteArrayD1Ev)
+    i._ZN11QMetaObject12invokeMethodEP7QObjectPKcN2Qt14ConnectionTypeE16QGenericArgumentS6_S6_S6_S6_S6_S6_S6_S6_S6_ 0x00009860   Section      130  qdeclarativefolderlistmodel.o(i._ZN11QMetaObject12invokeMethodEP7QObjectPKcN2Qt14ConnectionTypeE16QGenericArgumentS6_S6_S6_S6_S6_S6_S6_S6_S6_)
+    i._ZN11QModelIndexC1Ev                   0x000098e2   Section       16  qdeclarativefolderlistmodel.o(i._ZN11QModelIndexC1Ev)
+    i._ZN11QModelIndexD1Ev                   0x000098f2   Section        8  qdeclarativefolderlistmodel.o(i._ZN11QModelIndexD1Ev)
+    i._ZN11QStringListD1Ev                   0x000098fa   Section       14  qdeclarativefolderlistmodel.o(i._ZN11QStringListD1Ev)
+    i._ZN15QBasicAtomicInt3refEv             0x00009908   Section       24  qdeclarativefolderlistmodel.o(i._ZN15QBasicAtomicInt3refEv)
+    i._ZN15QBasicAtomicInt5derefEv           0x00009920   Section       24  qdeclarativefolderlistmodel.o(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN15QtSharedPointer20ExternalRefCountData7destroyEv 0x00009938   Section        6  qdeclarativefolderlistmodel.o(i._ZN15QtSharedPointer20ExternalRefCountData7destroyEv)
+    i._ZN15QtSharedPointer20ExternalRefCountDataD0Ev 0x0000993e   Section       22  qdeclarativefolderlistmodel.o(i._ZN15QtSharedPointer20ExternalRefCountDataD0Ev)
+    i._ZN15QtSharedPointer20ExternalRefCountDataD1Ev 0x00009954   Section      108  qdeclarativefolderlistmodel.o(i._ZN15QtSharedPointer20ExternalRefCountDataD1Ev)
+    i._ZN19QDeclarativePrivate12RegisterTypeD1Ev 0x000099c0   Section       20  plugin.o(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementI27QDeclarativeFolderListModelED0Ev 0x000099d4   Section       22  plugin.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI27QDeclarativeFolderListModelED0Ev)
+    i._ZN24QmlFolderListModelPlugin13registerTypesEPKc 0x000099ec   Section      244  plugin.o(i._ZN24QmlFolderListModelPlugin13registerTypesEPKc)
+    i._ZN24QmlFolderListModelPluginD0Ev      0x00009ae0   Section       24  plugin.o(i._ZN24QmlFolderListModelPluginD0Ev)
+    i._ZN24QmlFolderListModelPluginD1Ev      0x00009af8   Section       14  plugin.o(i._ZN24QmlFolderListModelPluginD1Ev)
+    i._ZN34QDeclarativeFolderListModelPrivate13updateSortingEv 0x00009b06   Section      138  qdeclarativefolderlistmodel.o(i._ZN34QDeclarativeFolderListModelPrivate13updateSortingEv)
+    i._ZN34QDeclarativeFolderListModelPrivateC1Ev 0x00009b90   Section      124  qdeclarativefolderlistmodel.o(i._ZN34QDeclarativeFolderListModelPrivateC1Ev)
+    i._ZN34QDeclarativeFolderListModelPrivateC1Ev.clean 0x00009c0c   Section       52  qdeclarativefolderlistmodel.o(i._ZN34QDeclarativeFolderListModelPrivateC1Ev.clean)
+    i._ZN7QStringC1ERK13QLatin1String        0x00009c40   Section       26  qdeclarativefolderlistmodel.o(i._ZN7QStringC1ERK13QLatin1String)
+    i._ZN7QStringC1ERKS_                     0x00009c5c   Section      124  qdeclarativefolderlistmodel.o(i._ZN7QStringC1ERKS_)
+    i._ZN7QStringD1Ev                        0x00009cd8   Section       24  qdeclarativefolderlistmodel.o(i._ZN7QStringD1Ev)
+    i._ZNK11QModelIndex7isValidEv            0x00009cf0   Section       28  qdeclarativefolderlistmodel.o(i._ZNK11QModelIndex7isValidEv)
+    i._ZNK11QModelIndexeqERKS_               0x00009d0c   Section       42  qdeclarativefolderlistmodel.o(i._ZNK11QModelIndexeqERKS_)
+    i._ZNK15QBasicAtomicIntneEi              0x00009d36   Section       16  qdeclarativefolderlistmodel.o(i._ZNK15QBasicAtomicIntneEi)
+    i._ZNK15QBasicAtomicIntntEv              0x00009d46   Section       16  plugin.o(i._ZNK15QBasicAtomicIntntEv)
+    i._ZNK7QString7isEmptyEv                 0x00009d56   Section       18  qdeclarativefolderlistmodel.o(i._ZNK7QString7isEmptyEv)
+    i._ZNK9QListData3endEv                   0x00009d68   Section       16  qdeclarativefolderlistmodel.o(i._ZNK9QListData3endEv)
+    i._ZNK9QListData5beginEv                 0x00009d78   Section       16  qdeclarativefolderlistmodel.o(i._ZNK9QListData5beginEv)
+    i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI27QDeclarativeFolderListModelED0Ev 0x00009d88   Section       14  plugin.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI27QDeclarativeFolderListModelED0Ev)
+    i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI27QDeclarativeFolderListModelED1Ev 0x00009d96   Section       14  plugin.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI27QDeclarativeFolderListModelED1Ev)
+    i._ZThn8_N24QmlFolderListModelPlugin13registerTypesEPKc 0x00009da4   Section       18  plugin.o(i._ZThn8_N24QmlFolderListModelPlugin13registerTypesEPKc)
+    i._ZThn8_N24QmlFolderListModelPluginD0Ev 0x00009db6   Section       14  plugin.o(i._ZThn8_N24QmlFolderListModelPluginD0Ev)
+    i._ZThn8_N24QmlFolderListModelPluginD1Ev 0x00009dc4   Section       18  plugin.o(i._ZThn8_N24QmlFolderListModelPluginD1Ev)
+    i._ZdlPvS_                               0x00009dd6   Section        2  qdeclarativefolderlistmodel.o(i._ZdlPvS_)
+    i._ZnwjPv                                0x00009dd8   Section        6  qdeclarativefolderlistmodel.o(i._ZnwjPv)
+    t._Z15qmlRegisterTypeI27QDeclarativeFolderListModelEiPKciiS2_ 0x00009de0   Section      408  plugin.o(t._Z15qmlRegisterTypeI27QDeclarativeFolderListModelEiPKciiS2_)
+    t._Z15qmlRegisterTypeI27QDeclarativeFolderListModelEiPKciiS2_.clean 0x00009f78   Section       82  plugin.o(t._Z15qmlRegisterTypeI27QDeclarativeFolderListModelEiPKciiS2_.clean)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI27QDeclarativeFolderListModelEEiPKcPT_ 0x00009fcc   Section      168  plugin.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI27QDeclarativeFolderListModelEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIP27QDeclarativeFolderListModelEiPKcPT_ 0x0000a074   Section      144  plugin.o(t._Z17qRegisterMetaTypeIP27QDeclarativeFolderListModelEiPKcPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI27QDeclarativeFolderListModelEEvPT_ 0x0000a104   Section       12  plugin.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI27QDeclarativeFolderListModelEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIP27QDeclarativeFolderListModelEvPT_ 0x0000a110   Section       12  plugin.o(t._Z21qMetaTypeDeleteHelperIP27QDeclarativeFolderListModelEvPT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI27QDeclarativeFolderListModelEEPvPKT_ 0x0000a11c   Section      150  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI27QDeclarativeFolderListModelEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI27QDeclarativeFolderListModelEEPvPKT_.clean 0x0000a1b2   Section        4  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI27QDeclarativeFolderListModelEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperIP27QDeclarativeFolderListModelEPvPKT_ 0x0000a1b6   Section       50  plugin.o(t._Z24qMetaTypeConstructHelperIP27QDeclarativeFolderListModelEPvPKT_)
+    t._ZN19QDeclarativePrivate10createIntoI27QDeclarativeFolderListModelEEvPv 0x0000a1e8   Section       48  plugin.o(t._ZN19QDeclarativePrivate10createIntoI27QDeclarativeFolderListModelEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoI27QDeclarativeFolderListModelEEvPv.clean 0x0000a218   Section       12  plugin.o(t._ZN19QDeclarativePrivate10createIntoI27QDeclarativeFolderListModelEEvPv.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI27QDeclarativeFolderListModelED1Ev 0x0000a224   Section       32  plugin.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI27QDeclarativeFolderListModelED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI27QDeclarativeFolderListModelED1Ev.clean 0x0000a244   Section       10  plugin.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI27QDeclarativeFolderListModelED1Ev.clean)
+    t._ZN5QHashIi10QByteArrayE11deleteNode2EPN9QHashData4NodeE 0x0000a24e   Section       24  qdeclarativefolderlistmodel.o(t._ZN5QHashIi10QByteArrayE11deleteNode2EPN9QHashData4NodeE)
+    t._ZN5QHashIi10QByteArrayE13detach_helperEv 0x0000a268   Section       60  qdeclarativefolderlistmodel.o(t._ZN5QHashIi10QByteArrayE13detach_helperEv)
+    t._ZN5QHashIi10QByteArrayE13duplicateNodeEPN9QHashData4NodeEPv 0x0000a2a4   Section       46  qdeclarativefolderlistmodel.o(t._ZN5QHashIi10QByteArrayE13duplicateNodeEPN9QHashData4NodeEPv)
+    t._ZN5QHashIi10QByteArrayE13duplicateNodeEPN9QHashData4NodeEPv.clean 0x0000a2d2   Section       14  qdeclarativefolderlistmodel.o(t._ZN5QHashIi10QByteArrayE13duplicateNodeEPN9QHashData4NodeEPv.clean)
+    t._ZN5QHashIi10QByteArrayE8freeDataEP9QHashData 0x0000a2e0   Section       20  qdeclarativefolderlistmodel.o(t._ZN5QHashIi10QByteArrayE8freeDataEP9QHashData)
+    t._ZN5QHashIi10QByteArrayED1Ev           0x0000a2f4   Section       30  qdeclarativefolderlistmodel.o(t._ZN5QHashIi10QByteArrayED1Ev)
+    t._ZN5QHashIi10QByteArrayEixERKi         0x0000a314   Section      248  qdeclarativefolderlistmodel.o(t._ZN5QHashIi10QByteArrayEixERKi)
+    t._ZN5QHashIi10QByteArrayEixERKi.clean   0x0000a40c   Section       24  qdeclarativefolderlistmodel.o(t._ZN5QHashIi10QByteArrayEixERKi.clean)
+    t._ZN5QListI7QStringE13detach_helperEi   0x0000a424   Section       94  qdeclarativefolderlistmodel.o(t._ZN5QListI7QStringE13detach_helperEi)
+    t._ZN5QListI7QStringE13detach_helperEi.clean 0x0000a482   Section        8  qdeclarativefolderlistmodel.o(t._ZN5QListI7QStringE13detach_helperEi.clean)
+    t._ZN5QListI7QStringE13detach_helperEv   0x0000a48a   Section       16  qdeclarativefolderlistmodel.o(t._ZN5QListI7QStringE13detach_helperEv)
+    t._ZN5QListI7QStringE13node_destructEPNS1_4NodeES3_ 0x0000a49a   Section       26  qdeclarativefolderlistmodel.o(t._ZN5QListI7QStringE13node_destructEPNS1_4NodeES3_)
+    t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_ 0x0000a4b4   Section       36  qdeclarativefolderlistmodel.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_)
+    t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_.clean 0x0000a4d8   Section       14  qdeclarativefolderlistmodel.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_.clean)
+    t._ZN5QListI7QStringE18detach_helper_growEii 0x0000a4e6   Section      208  qdeclarativefolderlistmodel.o(t._ZN5QListI7QStringE18detach_helper_growEii)
+    t._ZN5QListI7QStringE18detach_helper_growEii.clean 0x0000a5b6   Section       16  qdeclarativefolderlistmodel.o(t._ZN5QListI7QStringE18detach_helper_growEii.clean)
+    t._ZN5QListI7QStringE4freeEPN9QListData4DataE 0x0000a5c6   Section       58  qdeclarativefolderlistmodel.o(t._ZN5QListI7QStringE4freeEPN9QListData4DataE)
+    t._ZN5QListI7QStringE6appendERKS0_       0x0000a600   Section      120  qdeclarativefolderlistmodel.o(t._ZN5QListI7QStringE6appendERKS0_)
+    t._ZN5QListI7QStringE6appendERKS0_.clean 0x0000a678   Section       14  qdeclarativefolderlistmodel.o(t._ZN5QListI7QStringE6appendERKS0_.clean)
+    t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_ 0x0000a686   Section       82  qdeclarativefolderlistmodel.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_)
+    t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_.clean 0x0000a6d8   Section       22  qdeclarativefolderlistmodel.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_.clean)
+    t._ZN5QListI7QStringED1Ev                0x0000a6ee   Section       32  qdeclarativefolderlistmodel.o(t._ZN5QListI7QStringED1Ev)
+    t._ZN8QPointerI7QObjectED1Ev             0x0000a70e   Section       14  plugin.o(t._ZN8QPointerI7QObjectED1Ev)
+    t._ZN9QHashNodeIi10QByteArrayEC1EiRKS0_  0x0000a71c   Section       30  qdeclarativefolderlistmodel.o(t._ZN9QHashNodeIi10QByteArrayEC1EiRKS0_)
+    t._ZNK14QScopedPointerI11QObjectData21QScopedPointerDeleterIS0_EEptEv 0x0000a73c   Section       40  plugin.o(t._ZNK14QScopedPointerI11QObjectData21QScopedPointerDeleterIS0_EEptEv)
+    t._ZNK5QHashIi10QByteArrayE8findNodeERKiPj 0x0000a764   Section      216  qdeclarativefolderlistmodel.o(t._ZNK5QHashIi10QByteArrayE8findNodeERKiPj)
+    t._ZNK6QFlagsIN4QDir6FilterEEntEv        0x0000a83c   Section       16  qdeclarativefolderlistmodel.o(t._ZNK6QFlagsIN4QDir6FilterEEntEv)
+    t._ZNK6QFlagsIN4QDir6FilterEEorES1_      0x0000a84c   Section       16  qdeclarativefolderlistmodel.o(t._ZNK6QFlagsIN4QDir6FilterEEorES1_)
+    .extab._ZN27QDeclarativeFolderListModelC1EP7QObject 0x0000a85c   Data           0  qdeclarativefolderlistmodel.o(.ARM.extab)
+    .extab._ZN27QDeclarativeFolderListModelD1Ev 0x0000a894   Data           0  qdeclarativefolderlistmodel.o(.ARM.extab)
+    .extab._ZNK27QDeclarativeFolderListModel4dataERK11QModelIndexi 0x0000a8c4   Data           0  qdeclarativefolderlistmodel.o(.ARM.extab)
+    .extab._ZN27QDeclarativeFolderListModel9setFolderERK4QUrl 0x0000a94c   Data           0  qdeclarativefolderlistmodel.o(.ARM.extab)
+    .extab._ZNK27QDeclarativeFolderListModel12parentFolderEv 0x0000a974   Data           0  qdeclarativefolderlistmodel.o(.ARM.extab)
+    .extab._ZNK27QDeclarativeFolderListModel8isFolderEi 0x0000a9ec   Data           0  qdeclarativefolderlistmodel.o(.ARM.extab)
+    .extab._ZN27QDeclarativeFolderListModel17componentCompleteEv 0x0000a9fc   Data           0  qdeclarativefolderlistmodel.o(.ARM.extab)
+    .extab._ZN27QDeclarativeFolderListModel7refreshEv 0x0000aa7c   Data           0  qdeclarativefolderlistmodel.o(.ARM.extab)
+    .extab._ZN27QDeclarativeFolderListModel8insertedERK11QModelIndexii 0x0000aa9c   Data           0  qdeclarativefolderlistmodel.o(.ARM.extab)
+    .extab._ZN27QDeclarativeFolderListModel7removedERK11QModelIndexii 0x0000aaac   Data           0  qdeclarativefolderlistmodel.o(.ARM.extab)
+    .extab._ZN27QDeclarativeFolderListModel17handleDataChangedERK11QModelIndexS2_ 0x0000aabc   Data           0  qdeclarativefolderlistmodel.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_ 0x0000aaf4   Data           0  qdeclarativefolderlistmodel.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE13detach_helperEi 0x0000ab18   Data           0  qdeclarativefolderlistmodel.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_ 0x0000ab34   Data           0  qdeclarativefolderlistmodel.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE18detach_helper_growEii 0x0000ab44   Data           0  qdeclarativefolderlistmodel.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE6appendERKS0_  0x0000ab74   Data           0  qdeclarativefolderlistmodel.o(.ARM.extab)
+    .extab._ZN5QHashIi10QByteArrayEixERKi    0x0000aba4   Data           0  qdeclarativefolderlistmodel.o(.ARM.extab)
+    .extab._ZN34QDeclarativeFolderListModelPrivateC1Ev 0x0000abc4   Data           0  qdeclarativefolderlistmodel.o(.ARM.extab)
+    .extab._ZN5QHashIi10QByteArrayE13duplicateNodeEPN9QHashData4NodeEPv 0x0000abfc   Data           0  qdeclarativefolderlistmodel.o(.ARM.extab)
+    .extab.qt_plugin_instance                0x0000ac0c   Data           0  plugin.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeI27QDeclarativeFolderListModelEiPKciiS2_ 0x0000ac24   Data           0  plugin.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementI27QDeclarativeFolderListModelED1Ev 0x0000acac   Data           0  plugin.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoI27QDeclarativeFolderListModelEEvPv 0x0000acbc   Data           0  plugin.o(.ARM.extab)
+    .extab._ZN27QDeclarativeFolderListModel11qt_metacallEN11QMetaObject4CallEiPPv 0x0000accc   Data           0  moc_qdeclarativefolderlistmodel.o(.ARM.extab)
+    .constdata$1                             0x0000acf4   Data           0  qdeclarativefolderlistmodel.o(.constdata)
+    .constdata                               0x0000acf4   Section     1176  qdeclarativefolderlistmodel.o(.constdata)
+    .constdata$1                             0x0000b18c   Data           0  plugin.o(.constdata)
+    qt_meta_data_QmlFolderListModelPlugin    0x0000b18c   Data          60  plugin.o(.constdata)
+    .constdata                               0x0000b18c   Section      260  plugin.o(.constdata)
+    qt_meta_stringdata_QmlFolderListModelPlugin 0x0000b1c8   Data          26  plugin.o(.constdata)
+    qt_plugin_verification_data              0x0000b1e2   Data          90  plugin.o(.constdata)
+    .constdata$1                             0x0000b290   Data           0  moc_qdeclarativefolderlistmodel.o(.constdata)
+    qt_meta_data_QDeclarativeFolderListModel 0x0000b290   Data         380  moc_qdeclarativefolderlistmodel.o(.constdata)
+    .constdata                               0x0000b290   Section      840  moc_qdeclarativefolderlistmodel.o(.constdata)
+    qt_meta_stringdata_QDeclarativeFolderListModel 0x0000b40c   Data         373  moc_qdeclarativefolderlistmodel.o(.constdata)
+    .constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE 0x0000b5d8   Section        4  qdeclarativefolderlistmodel.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE 0x0000b5dc   Section        4  qdeclarativefolderlistmodel.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE 0x0000b5e0   Section        4  qdeclarativefolderlistmodel.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE 0x0000b5e4   Section        4  qdeclarativefolderlistmodel.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE 0x0000b5e8   Section        4  qdeclarativefolderlistmodel.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE 0x0000b5ec   Section        1  qdeclarativefolderlistmodel.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE 0x0000b5f0   Section        4  qdeclarativefolderlistmodel.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE 0x0000b5f4   Section        4  qdeclarativefolderlistmodel.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE 0x0000b5f8   Section        4  qdeclarativefolderlistmodel.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE 0x0000b5fc   Section        4  qdeclarativefolderlistmodel.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE 0x0000b600   Section        4  qdeclarativefolderlistmodel.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE 0x0000b604   Section        4  qdeclarativefolderlistmodel.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE 0x0000b608   Section        4  qdeclarativefolderlistmodel.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE 0x0000b60c   Section        4  qdeclarativefolderlistmodel.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    .constdata__ZTI24QmlFolderListModelPlugin 0x0000b610   Section       12  plugin.o(.constdata__ZTI24QmlFolderListModelPlugin)
+    .constdata__ZTI27QDeclarativeFolderListModel 0x0000b61c   Section       32  moc_qdeclarativefolderlistmodel.o(.constdata__ZTI27QDeclarativeFolderListModel)
+    .constdata__ZTIN15QtSharedPointer20ExternalRefCountDataE 0x0000b63c   Section        8  qdeclarativefolderlistmodel.o(.constdata__ZTIN15QtSharedPointer20ExternalRefCountDataE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI27QDeclarativeFolderListModelEE 0x0000b644   Section       12  plugin.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI27QDeclarativeFolderListModelEE)
+    .constdata__ZTS24QmlFolderListModelPlugin 0x0000b650   Section       27  plugin.o(.constdata__ZTS24QmlFolderListModelPlugin)
+    .constdata__ZTS27QDeclarativeFolderListModel 0x0000b66b   Section       30  moc_qdeclarativefolderlistmodel.o(.constdata__ZTS27QDeclarativeFolderListModel)
+    .constdata__ZTSN15QtSharedPointer20ExternalRefCountDataE 0x0000b689   Section       42  qdeclarativefolderlistmodel.o(.constdata__ZTSN15QtSharedPointer20ExternalRefCountDataE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI27QDeclarativeFolderListModelEE 0x0000b6b3   Section       76  plugin.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI27QDeclarativeFolderListModelEE)
+    .constdata__ZTV24QmlFolderListModelPlugin 0x0000b700   Section       88  plugin.o(.constdata__ZTV24QmlFolderListModelPlugin)
+    .constdata__ZTV27QDeclarativeFolderListModel 0x0000b758   Section      200  moc_qdeclarativefolderlistmodel.o(.constdata__ZTV27QDeclarativeFolderListModel)
+    .constdata__ZTVN15QtSharedPointer20ExternalRefCountDataE 0x0000b820   Section       20  qdeclarativefolderlistmodel.o(.constdata__ZTVN15QtSharedPointer20ExternalRefCountDataE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI27QDeclarativeFolderListModelEE 0x0000b834   Section      200  plugin.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI27QDeclarativeFolderListModelEE)
+    __ARM_d__Z15qmlRegisterTypeI27QDeclarativeFolderListModelEiPKciiS2_$52 0x0000b8fc   Data           0  plugin.o(__ARM_d__Z15qmlRegisterTypeI27QDeclarativeFolderListModelEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI27QDeclarativeFolderListModelEiPKciiS2_ 0x0000b8fc   Section       76  plugin.o(__ARM_d__Z15qmlRegisterTypeI27QDeclarativeFolderListModelEiPKciiS2_)
+    .ARM.exidx                               0x0000b948   Section        8  ucppinit.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  plugin.o(.data)
+    _ZGV_instance@qt_plugin_instance_0       0x00400000   Data           4  plugin.o(.data)
+    .data                                    0x00400000   Section        8  plugin.o(.data)
+    _instance@qt_plugin_instance_1           0x00400004   Data           4  plugin.o(.data)
+    .data$0                                  0x00400008   Data           0  ucppfini.o(.data)
+    .data                                    0x00400008   Section        4  ucppfini.o(.data)
+    .data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE 0x0040000c   Section       12  qdeclarativefolderlistmodel.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    .data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI27QDeclarativeFolderListModelEE14qt_metatype_idEvE11metatype_id 0x00400018   Section        4  plugin.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI27QDeclarativeFolderListModelEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIP27QDeclarativeFolderListModelE14qt_metatype_idEvE11metatype_id 0x0040001c   Section        4  plugin.o(.data__ZZN11QMetaTypeIdIP27QDeclarativeFolderListModelE14qt_metatype_idEvE11metatype_id)
+    .bss$5                                   0x00400020   Data           0  ucppfini.o(.bss)
+    .bss                                     0x00400020   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$VFPv2$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$IEEEJ$EBA8$UX$FPIC$INDIRECT$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    QtCore{00040703}[2001b2dc].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtDeclarative{00040703}[2001e623].dll    0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtGui{00040703}[2001b2dd].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    euser{000a0000}[100039e5].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    libc{00010001}[10207369].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    qmlfolderlistmodelplugin{00040703}[20021320].dll 0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    stdnew{000a0000}[20022178].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    qFlagLocation(const char*)                - Undefined Reference
+    _Z13qFlagLocationPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qFree(void*)                              - Undefined Reference
+    _Z5qFreePv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qstrcmp(const char*, const char*)         - Undefined Reference
+    _Z7qstrcmpPKcS0_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qt_assert(const char*, const char*, int)  - Undefined Reference
+    _Z9qt_assertPKcS0_i@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::shared_null                   - Undefined Reference
+    _ZN10QByteArray11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::append(const char*)           - Undefined Reference
+    _ZN10QByteArray6appendEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::append(const QByteArray&)     - Undefined Reference
+    _ZN10QByteArray6appendERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::append(char)                  - Undefined Reference
+    _ZN10QByteArray6appendEc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::QByteArray(const char*)       - Undefined Reference
+    _ZN10QByteArrayC1EPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::operator =(const char*)       - Undefined Reference
+    _ZN10QByteArrayaSEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::changeGuard(QObject**, QObject*)  - Undefined Reference
+    _ZN11QMetaObject11changeGuardEPP7QObjectS1_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::removeGuard(QObject**)       - Undefined Reference
+    _ZN11QMetaObject11removeGuardEPP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::invokeMethod(QObject*, const char*, Qt::ConnectionType, QGenericReturnArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument)  - Undefined Reference
+    _ZN11QMetaObject12invokeMethodEP7QObjectPKcN2Qt14ConnectionTypeE22QGenericReturnArgument16QGenericArgumentS7_S7_S7_S7_S7_S7_S7_S7_S7_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::activate(QObject*, const QMetaObject*, int, void**)  - Undefined Reference
+    _ZN11QMetaObject8activateEP7QObjectPKS_iPPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::insertRows(int, int, const QModelIndex&)  - Undefined Reference
+    _ZN18QAbstractItemModel10insertRowsEiiRK11QModelIndex@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::removeRows(int, int, const QModelIndex&)  - Undefined Reference
+    _ZN18QAbstractItemModel10removeRowsEiiRK11QModelIndex@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::dataChanged(const QModelIndex&, const QModelIndex&)  - Undefined Reference
+    _ZN18QAbstractItemModel11dataChangedERK11QModelIndexS2_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::setItemData(const QModelIndex&, const QMap<int, QVariant>&)  - Undefined Reference
+    _ZN18QAbstractItemModel11setItemDataERK11QModelIndexRK4QMapIi8QVariantE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::setRoleNames(const QHash<int, QByteArray>&)  - Undefined Reference
+    _ZN18QAbstractItemModel12setRoleNamesERK5QHashIi10QByteArrayE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::endInsertRows()       - Undefined Reference
+    _ZN18QAbstractItemModel13endInsertRowsEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::endRemoveRows()       - Undefined Reference
+    _ZN18QAbstractItemModel13endRemoveRowsEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::insertColumns(int, int, const QModelIndex&)  - Undefined Reference
+    _ZN18QAbstractItemModel13insertColumnsEiiRK11QModelIndex@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::removeColumns(int, int, const QModelIndex&)  - Undefined Reference
+    _ZN18QAbstractItemModel13removeColumnsEiiRK11QModelIndex@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::setHeaderData(int, Qt::Orientation, const QVariant&, int)  - Undefined Reference
+    _ZN18QAbstractItemModel13setHeaderDataEiN2Qt11OrientationERK8QVarianti@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::beginInsertRows(const QModelIndex&, int, int)  - Undefined Reference
+    _ZN18QAbstractItemModel15beginInsertRowsERK11QModelIndexii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::beginRemoveRows(const QModelIndex&, int, int)  - Undefined Reference
+    _ZN18QAbstractItemModel15beginRemoveRowsERK11QModelIndexii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::sort(int, Qt::SortOrder)  - Undefined Reference
+    _ZN18QAbstractItemModel4sortEiN2Qt9SortOrderE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::revert()              - Undefined Reference
+    _ZN18QAbstractItemModel6revertEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::submit()              - Undefined Reference
+    _ZN18QAbstractItemModel6submitEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::setData(const QModelIndex&, const QVariant&, int)  - Undefined Reference
+    _ZN18QAbstractItemModel7setDataERK11QModelIndexRK8QVarianti@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::fetchMore(const QModelIndex&)  - Undefined Reference
+    _ZN18QAbstractItemModel9fetchMoreERK11QModelIndex@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractListModel::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN18QAbstractListModel11qt_metacallEN11QMetaObject4CallEiPPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractListModel::qt_metacast(const char*)  - Undefined Reference
+    _ZN18QAbstractListModel11qt_metacastEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractListModel::dropMimeData(const QMimeData*, Qt::DropAction, int, int, const QModelIndex&)  - Undefined Reference
+    _ZN18QAbstractListModel12dropMimeDataEPK9QMimeDataN2Qt10DropActionEiiRK11QModelIndex@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractListModel::staticMetaObject      - Undefined Reference
+    _ZN18QAbstractListModel16staticMetaObjectE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractListModel::QAbstractListModel__sub_object(QObject*)  - Undefined Reference
+    _ZN18QAbstractListModelC2EP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractListModel::~QAbstractListModel__sub_object()  - Undefined Reference
+    _ZN18QAbstractListModelD2Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDeclarativePrivate::qmlregister(QDeclarativePrivate::RegistrationType, void*)  - Undefined Reference
+    _ZN19QDeclarativePrivate11qmlregisterENS_16RegistrationTypeEPv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativePrivate::qdeclarativeelement_destructor(QObject*)  - Undefined Reference
+    _ZN19QDeclarativePrivate30qdeclarativeelement_destructorEP7QObject@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeParserStatus::QDeclarativeParserStatus__sub_object()  - Undefined Reference
+    _ZN24QDeclarativeParserStatusC2Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeParserStatus::~QDeclarativeParserStatus__sub_object()  - Undefined Reference
+    _ZN24QDeclarativeParserStatusD2Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin11qt_metacallEN11QMetaObject4CallEiPPv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::qt_metacast(const char*)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin11qt_metacastEPKc@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::initializeEngine(QDeclarativeEngine*, const char*)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin16initializeEngineEP18QDeclarativeEnginePKc@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::staticMetaObject  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin16staticMetaObjectE@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::QDeclarativeExtensionPlugin__sub_object(QObject*)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPluginC2EP7QObject@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::~QDeclarativeExtensionPlugin__sub_object()  - Undefined Reference
+    _ZN27QDeclarativeExtensionPluginD2Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDir::currentPath()                       - Undefined Reference
+    _ZN4QDir11currentPathEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDir::cdUp()                              - Undefined Reference
+    _ZN4QDir4cdUpEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDir::setPath(const QString&)             - Undefined Reference
+    _ZN4QDir7setPathERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDir::QDir(const QString&)                - Undefined Reference
+    _ZN4QDirC1ERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDir::~QDir()                             - Undefined Reference
+    _ZN4QDirD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::fromLocalFile(const QString&)       - Undefined Reference
+    _ZN4QUrl13fromLocalFileERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::QUrl(const QString&)                - Undefined Reference
+    _ZN4QUrlC1ERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::QUrl(const QUrl&)                   - Undefined Reference
+    _ZN4QUrlC1ERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::QUrl()                              - Undefined Reference
+    _ZN4QUrlC1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::~QUrl()                             - Undefined Reference
+    _ZN4QUrlD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::operator =(const QUrl&)             - Undefined Reference
+    _ZN4QUrlaSERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    User::LockedDec(int&)                     - Undefined Reference
+    _ZN4User9LockedDecERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::LockedInc(int&)                     - Undefined Reference
+    _ZN4User9LockedIncERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QObject::childEvent(QChildEvent*)         - Undefined Reference
+    _ZN7QObject10childEventEP11QChildEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::timerEvent(QTimerEvent*)         - Undefined Reference
+    _ZN7QObject10timerEventEP11QTimerEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::customEvent(QEvent*)             - Undefined Reference
+    _ZN7QObject11customEventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::eventFilter(QObject*, QEvent*)   - Undefined Reference
+    _ZN7QObject11eventFilterEPS_P6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connectNotify(const char*)       - Undefined Reference
+    _ZN7QObject13connectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::disconnectNotify(const char*)    - Undefined Reference
+    _ZN7QObject16disconnectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::event(QEvent*)                   - Undefined Reference
+    _ZN7QObject5eventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connect(const QObject*, const char*, const QObject*, const char*, Qt::ConnectionType)  - Undefined Reference
+    _ZN7QObject7connectEPKS_PKcS1_S3_N2Qt14ConnectionTypeE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::shared_null                      - Undefined Reference
+    _ZN7QString11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromAscii_helper(const char*, int)  - Undefined Reference
+    _ZN7QString16fromAscii_helperEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromLatin1_helper(const char*, int)  - Undefined Reference
+    _ZN7QString17fromLatin1_helperEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::free(QString::Data*)             - Undefined Reference
+    _ZN7QString4freeEPNS_4DataE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::append(const QString&)           - Undefined Reference
+    _ZN7QString6appendERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::operator =(const QString&)       - Undefined Reference
+    _ZN7QStringaSERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::QVariant(const QUrl&)           - Undefined Reference
+    _ZN8QVariantC1ERK4QUrl@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::QVariant(const QString&)        - Undefined Reference
+    _ZN8QVariantC1ERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::~QVariant()                     - Undefined Reference
+    _ZN8QVariantD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::operator =(const QVariant&)     - Undefined Reference
+    _ZN8QVariantaSERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDirModel::setSorting(QFlags<QDir::SortFlag>)  - Undefined Reference
+    _ZN9QDirModel10setSortingE6QFlagsIN4QDir8SortFlagEE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QDirModel::setNameFilters(const QStringList&)  - Undefined Reference
+    _ZN9QDirModel14setNameFiltersERK11QStringList@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QDirModel::setFilter(QFlags<QDir::Filter>)  - Undefined Reference
+    _ZN9QDirModel9setFilterE6QFlagsIN4QDir6FilterEE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QDirModel::QDirModel(QObject*)            - Undefined Reference
+    _ZN9QDirModelC1EP7QObject@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QDirModel::~QDirModel()                   - Undefined Reference
+    _ZN9QDirModelD1Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QHashData::free_helper(void(*)(QHashData::Node*))  - Undefined Reference
+    _ZN9QHashData11free_helperEPFvPNS_4NodeEE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::shared_null                    - Undefined Reference
+    _ZN9QHashData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::allocateNode(int)              - Undefined Reference
+    _ZN9QHashData12allocateNodeEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::detach_helper2(void(*)(QHashData::Node*, void*), void(*)(QHashData::Node*), int, int)  - Undefined Reference
+    _ZN9QHashData14detach_helper2EPFvPNS_4NodeEPvEPFvS1_Eii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::rehash(int)                    - Undefined Reference
+    _ZN9QHashData6rehashEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach_grow(int*, int)         - Undefined Reference
+    _ZN9QListData11detach_growEPii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::shared_null                    - Undefined Reference
+    _ZN9QListData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::append()                       - Undefined Reference
+    _ZN9QListData6appendEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach(int)                    - Undefined Reference
+    _ZN9QListData6detachEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaType::registerType(const char*, void(*)(void*), void*(*)(const void*))  - Undefined Reference
+    _ZN9QMetaType12registerTypeEPKcPFvPvEPFS2_PKvE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaType::registerTypedef(const char*, int)  - Undefined Reference
+    _ZN9QMetaType15registerTypedefEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::headerData(int, Qt::Orientation, int) const  - Undefined Reference
+    _ZNK18QAbstractItemModel10headerDataEiN2Qt11OrientationEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::canFetchMore(const QModelIndex&) const  - Undefined Reference
+    _ZNK18QAbstractItemModel12canFetchMoreERK11QModelIndex@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::supportedDropActions() const  - Undefined Reference
+    _ZNK18QAbstractItemModel20supportedDropActionsEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::span(const QModelIndex&) const  - Undefined Reference
+    _ZNK18QAbstractItemModel4spanERK11QModelIndex@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::buddy(const QModelIndex&) const  - Undefined Reference
+    _ZNK18QAbstractItemModel5buddyERK11QModelIndex@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::flags(const QModelIndex&) const  - Undefined Reference
+    _ZNK18QAbstractItemModel5flagsERK11QModelIndex@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::match(const QModelIndex&, int, const QVariant&, int, QFlags<Qt::MatchFlag>) const  - Undefined Reference
+    _ZNK18QAbstractItemModel5matchERK11QModelIndexiRK8QVarianti6QFlagsIN2Qt9MatchFlagEE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::itemData(const QModelIndex&) const  - Undefined Reference
+    _ZNK18QAbstractItemModel8itemDataERK11QModelIndex@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::mimeData(const QList<QModelIndex>&) const  - Undefined Reference
+    _ZNK18QAbstractItemModel8mimeDataERK5QListI11QModelIndexE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::mimeTypes() const     - Undefined Reference
+    _ZNK18QAbstractItemModel9mimeTypesEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractListModel::columnCount(const QModelIndex&) const  - Undefined Reference
+    _ZNK18QAbstractListModel11columnCountERK11QModelIndex@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractListModel::hasChildren(const QModelIndex&) const  - Undefined Reference
+    _ZNK18QAbstractListModel11hasChildrenERK11QModelIndex@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractListModel::index(int, int, const QModelIndex&) const  - Undefined Reference
+    _ZNK18QAbstractListModel5indexEiiRK11QModelIndex@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractListModel::parent(const QModelIndex&) const  - Undefined Reference
+    _ZNK18QAbstractListModel6parentERK11QModelIndex@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDir::path() const                        - Undefined Reference
+    _ZNK4QDir4pathEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDir::exists(const QString&) const        - Undefined Reference
+    _ZNK4QDir6existsERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDir::isRoot() const                      - Undefined Reference
+    _ZNK4QDir6isRootEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::toLocalFile() const                 - Undefined Reference
+    _ZNK4QUrl11toLocalFileEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::path() const                        - Undefined Reference
+    _ZNK4QUrl4pathEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::isValid() const                     - Undefined Reference
+    _ZNK4QUrl7isValidEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::operator ==(const QUrl&) const      - Undefined Reference
+    _ZNK4QUrleqERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::lastIndexOf(QChar, int, Qt::CaseSensitivity) const  - Undefined Reference
+    _ZNK7QString11lastIndexOfE5QChariN2Qt15CaseSensitivityE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::left(int) const                  - Undefined Reference
+    _ZNK7QString4leftEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::toString() const                - Undefined Reference
+    _ZNK8QVariant8toStringEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDirModel::data(const QModelIndex&, int) const  - Undefined Reference
+    _ZNK9QDirModel4dataERK11QModelIndexi@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QDirModel::index(const QString&, int) const  - Undefined Reference
+    _ZNK9QDirModel5indexERK7QStringi@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QDirModel::index(int, int, const QModelIndex&) const  - Undefined Reference
+    _ZNK9QDirModel5indexEiiRK11QModelIndex@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QDirModel::isDir(const QModelIndex&) const  - Undefined Reference
+    _ZNK9QDirModel5isDirERK11QModelIndex@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QDirModel::filter() const                 - Undefined Reference
+    _ZNK9QDirModel6filterEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QDirModel::rowCount(const QModelIndex&) const  - Undefined Reference
+    _ZNK9QDirModel8rowCountERK11QModelIndex@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    typeinfo for QAbstractListModel           - Undefined Reference
+    _ZTI18QAbstractListModel@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for QDeclarativeParserStatus     - Undefined Reference
+    _ZTI24QDeclarativeParserStatus@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    typeinfo for QDeclarativeExtensionPlugin  - Undefined Reference
+    _ZTI27QDeclarativeExtensionPlugin@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    vtable for __cxxabiv1::__class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv117__class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv120__si_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    vtable for __cxxabiv1::__vmi_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv121__vmi_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    thunk{-8} to QDeclarativeExtensionPlugin::initializeEngine(QDeclarativeEngine*, const char*)  - Undefined Reference
+    _ZThn8_N27QDeclarativeExtensionPlugin16initializeEngineEP18QDeclarativeEnginePKc@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    operator delete (void*)                   - Undefined Reference
+    _ZdlPv@stdnew{000a0000}[20022178].dll     - Undefined Reference
+    operator new(unsigned)                    - Undefined Reference
+    _Znwj@stdnew{000a0000}[20022178].dll      - Undefined Reference
+    __aeabi_memcpy4                           - Undefined Reference
+    __aeabi_memcpy4@drtaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_uidivmod                          - Undefined Reference
+    __aeabi_uidivmod@drtaeabi{000a0000}.dll   - Undefined Reference
+    __aeabi_unwind_cpp_pr0                    - Undefined Reference
+    __aeabi_unwind_cpp_pr0@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_begin_catch                         - Undefined Reference
+    __cxa_begin_catch@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_end_catch                           - Undefined Reference
+    __cxa_end_catch@drtaeabi{000a0000}.dll    - Undefined Reference
+    __cxa_end_cleanup                         - Undefined Reference
+    __cxa_end_cleanup@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_abort                         - Undefined Reference
+    __cxa_guard_abort@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_acquire                       - Undefined Reference
+    __cxa_guard_acquire@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_release                       - Undefined Reference
+    __cxa_guard_release@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_rethrow                             - Undefined Reference
+    __cxa_rethrow@drtaeabi{000a0000}.dll      - Undefined Reference
+    strcmp                                    - Undefined Reference
+    strcmp@libc{00010001}[10207369].dll       - Undefined Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      52  ucppinit.o(.emb_text)
+    std::nothrow                             0x0000805c   ARM Code       0  ucppinit.o(.emb_text)
+    __PLT                                    0x0000805c   ARM Code       0  anon$$obj.o(.plt)
+    QDeclarativeFolderListModel::QDeclarativeFolderListModel(QObject*) 0x0000835d   Thumb Code   410  qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::QDeclarativeFolderListModel__sub_object(QObject*) 0x0000835d   Thumb Code     0  qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::~QDeclarativeFolderListModel() 0x000084f7   Thumb Code    92  qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::~QDeclarativeFolderListModel__sub_object() 0x000084f7   Thumb Code     0  qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::~QDeclarativeFolderListModel__deallocating() 0x00008553   Thumb Code    22  qdeclarativefolderlistmodel.o(.text)
+    thunk{-8} to QDeclarativeFolderListModel::~QDeclarativeFolderListModel__deallocating() 0x00008569   Thumb Code    14  qdeclarativefolderlistmodel.o(.text)
+    thunk{-8} to QDeclarativeFolderListModel::~QDeclarativeFolderListModel() 0x00008577   Thumb Code    14  qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::rowCount(const QModelIndex&) const 0x00008585   Thumb Code    12  qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::data(const QModelIndex&, int) const 0x00008591   Thumb Code   236  qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::folder() const 0x0000867d   Thumb Code    22  qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::setFolder(const QUrl&) 0x00008693   Thumb Code   350  qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::parentFolder() const 0x000087f1   Thumb Code   254  qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::nameFilters() const 0x000088ef   Thumb Code    52  qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::setNameFilters(const QStringList&) 0x00008923   Thumb Code    84  qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::sortField() const 0x00008977   Thumb Code     8  qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::setSortField(QDeclarativeFolderListModel::SortField) 0x0000897f   Thumb Code    26  qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::sortReversed() const 0x00008999   Thumb Code    10  qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::setSortReversed(bool) 0x000089a3   Thumb Code    30  qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::showDirs() const 0x000089c1   Thumb Code    48  qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::setShowDirs(bool) 0x000089f1   Thumb Code   216  qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::showDotAndDotDot() const 0x00008ac9   Thumb Code    42  qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::setShowDotAndDotDot(bool) 0x00008af3   Thumb Code   150  qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::showOnlyReadable() const 0x00008b89   Thumb Code    46  qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::setShowOnlyReadable(bool) 0x00008bb7   Thumb Code   136  qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::isFolder(int) const 0x00008c3f   Thumb Code    78  qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::classBegin() 0x00008c8d   Thumb Code     2  qdeclarativefolderlistmodel.o(.text)
+    thunk{-8} to QDeclarativeFolderListModel::classBegin() 0x00008c8f   Thumb Code    14  qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::componentComplete() 0x00008c9d   Thumb Code   440  qdeclarativefolderlistmodel.o(.text)
+    thunk{-8} to QDeclarativeFolderListModel::componentComplete() 0x00008e55   Thumb Code    14  qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::refresh()   0x00008e63   Thumb Code   188  qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::inserted(const QModelIndex&, int, int) 0x00008f1f   Thumb Code    84  qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::removed(const QModelIndex&, int, int) 0x00008f73   Thumb Code    84  qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::handleDataChanged(const QModelIndex&, const QModelIndex&) 0x00008fc7   Thumb Code   250  qdeclarativefolderlistmodel.o(.text)
+    qt_plugin_query_verification_data        0x000090c1   Thumb Code     4  plugin.o(.text)
+    qt_plugin_instance                       0x000090c5   Thumb Code   134  plugin.o(.text)
+    QmlFolderListModelPlugin::getStaticMetaObject() 0x0000914b   Thumb Code     4  plugin.o(.text)
+    QmlFolderListModelPlugin::metaObject() const 0x0000914f   Thumb Code    30  plugin.o(.text)
+    QmlFolderListModelPlugin::qt_metacast(const char*) 0x0000916d   Thumb Code    42  plugin.o(.text)
+    QmlFolderListModelPlugin::qt_metacall(QMetaObject::Call, int, void**) 0x00009197   Thumb Code    36  plugin.o(.text)
+    QDeclarativeFolderListModel::getStaticMetaObject() 0x000091d5   Thumb Code     4  moc_qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::metaObject() const 0x000091d9   Thumb Code    30  moc_qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::qt_metacast(const char*) 0x000091f7   Thumb Code    76  moc_qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::folderChanged() 0x00009243   Thumb Code    18  moc_qdeclarativefolderlistmodel.o(.text)
+    QDeclarativeFolderListModel::qt_metacall(QMetaObject::Call, int, void**) 0x00009255   Thumb Code   648  moc_qdeclarativefolderlistmodel.o(.text)
+    __ARM_switch8                            0x0000952c   ARM Code      24  switch8.o(.text)
+    __rt_switch8                             0x0000952c   ARM Code       0  switch8.o(.text)
+    _E32Dll_Body                             0x00009544   ARM Code      76  uc_dll.o(.text)
+    __aeabi_atexit                           0x00009594   ARM Code      40  ucppfini.o(.text)
+    __cxa_atexit                             0x000095bc   ARM Code      64  ucppfini.o(.text)
+    __cxa_finalize                           0x000095fc   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x0000962c   ARM Code      16  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x00009648   ARM Code       4  dllexp.o(.text)
+    QByteArray::QByteArray(const QByteArray&) 0x00009835   Thumb Code    20  plugin.o(i._ZN10QByteArrayC1ERKS_)
+    QByteArray::QByteArray__sub_object(const QByteArray&) 0x00009835   Thumb Code     0  plugin.o(i._ZN10QByteArrayC1ERKS_)
+    QByteArray::~QByteArray()                0x00009849   Thumb Code    24  qdeclarativefolderlistmodel.o(i._ZN10QByteArrayD1Ev)
+    QByteArray::~QByteArray__sub_object()    0x00009849   Thumb Code     0  qdeclarativefolderlistmodel.o(i._ZN10QByteArrayD1Ev)
+    QMetaObject::invokeMethod(QObject*, const char*, Qt::ConnectionType, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument) 0x00009861   Thumb Code   130  qdeclarativefolderlistmodel.o(i._ZN11QMetaObject12invokeMethodEP7QObjectPKcN2Qt14ConnectionTypeE16QGenericArgumentS6_S6_S6_S6_S6_S6_S6_S6_S6_)
+    QModelIndex::QModelIndex()               0x000098e3   Thumb Code    16  qdeclarativefolderlistmodel.o(i._ZN11QModelIndexC1Ev)
+    QModelIndex::QModelIndex__sub_object()   0x000098e3   Thumb Code     0  qdeclarativefolderlistmodel.o(i._ZN11QModelIndexC1Ev)
+    QModelIndex::~QModelIndex()              0x000098f3   Thumb Code     8  qdeclarativefolderlistmodel.o(i._ZN11QModelIndexD1Ev)
+    QModelIndex::~QModelIndex__sub_object()  0x000098f3   Thumb Code     0  qdeclarativefolderlistmodel.o(i._ZN11QModelIndexD1Ev)
+    QStringList::~QStringList()              0x000098fb   Thumb Code    14  qdeclarativefolderlistmodel.o(i._ZN11QStringListD1Ev)
+    QStringList::~QStringList__sub_object()  0x000098fb   Thumb Code     0  qdeclarativefolderlistmodel.o(i._ZN11QStringListD1Ev)
+    QBasicAtomicInt::ref()                   0x00009909   Thumb Code    24  qdeclarativefolderlistmodel.o(i._ZN15QBasicAtomicInt3refEv)
+    QBasicAtomicInt::deref()                 0x00009921   Thumb Code    24  qdeclarativefolderlistmodel.o(i._ZN15QBasicAtomicInt5derefEv)
+    QtSharedPointer::ExternalRefCountData::destroy() 0x00009939   Thumb Code     6  qdeclarativefolderlistmodel.o(i._ZN15QtSharedPointer20ExternalRefCountData7destroyEv)
+    QtSharedPointer::ExternalRefCountData::~ExternalRefCountData__deallocating() 0x0000993f   Thumb Code    22  qdeclarativefolderlistmodel.o(i._ZN15QtSharedPointer20ExternalRefCountDataD0Ev)
+    QtSharedPointer::ExternalRefCountData::~ExternalRefCountData() 0x00009955   Thumb Code    70  qdeclarativefolderlistmodel.o(i._ZN15QtSharedPointer20ExternalRefCountDataD1Ev)
+    QtSharedPointer::ExternalRefCountData::~ExternalRefCountData__sub_object() 0x00009955   Thumb Code     0  qdeclarativefolderlistmodel.o(i._ZN15QtSharedPointer20ExternalRefCountDataD1Ev)
+    QDeclarativePrivate::RegisterType::~RegisterType() 0x000099c1   Thumb Code    20  plugin.o(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    QDeclarativePrivate::RegisterType::~RegisterType__sub_object() 0x000099c1   Thumb Code     0  plugin.o(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeFolderListModel>::~QDeclarativeElement__deallocating() 0x000099d5   Thumb Code    22  plugin.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI27QDeclarativeFolderListModelED0Ev)
+    QmlFolderListModelPlugin::registerTypes(const char*) 0x000099ed   Thumb Code    86  plugin.o(i._ZN24QmlFolderListModelPlugin13registerTypesEPKc)
+    QmlFolderListModelPlugin::~QmlFolderListModelPlugin__deallocating() 0x00009ae1   Thumb Code    24  plugin.o(i._ZN24QmlFolderListModelPluginD0Ev)
+    QmlFolderListModelPlugin::~QmlFolderListModelPlugin() 0x00009af9   Thumb Code    14  plugin.o(i._ZN24QmlFolderListModelPluginD1Ev)
+    QmlFolderListModelPlugin::~QmlFolderListModelPlugin__sub_object() 0x00009af9   Thumb Code     0  plugin.o(i._ZN24QmlFolderListModelPluginD1Ev)
+    QDeclarativeFolderListModelPrivate::updateSorting() 0x00009b07   Thumb Code   138  qdeclarativefolderlistmodel.o(i._ZN34QDeclarativeFolderListModelPrivate13updateSortingEv)
+    QDeclarativeFolderListModelPrivate::QDeclarativeFolderListModelPrivate() 0x00009b91   Thumb Code   114  qdeclarativefolderlistmodel.o(i._ZN34QDeclarativeFolderListModelPrivateC1Ev)
+    QDeclarativeFolderListModelPrivate::QDeclarativeFolderListModelPrivate__sub_object() 0x00009b91   Thumb Code     0  qdeclarativefolderlistmodel.o(i._ZN34QDeclarativeFolderListModelPrivateC1Ev)
+    QString::QString(const QLatin1String&)   0x00009c41   Thumb Code    26  qdeclarativefolderlistmodel.o(i._ZN7QStringC1ERK13QLatin1String)
+    QString::QString__sub_object(const QLatin1String&) 0x00009c41   Thumb Code     0  qdeclarativefolderlistmodel.o(i._ZN7QStringC1ERK13QLatin1String)
+    QString::QString(const QString&)         0x00009c5d   Thumb Code    40  qdeclarativefolderlistmodel.o(i._ZN7QStringC1ERKS_)
+    QString::QString__sub_object(const QString&) 0x00009c5d   Thumb Code     0  qdeclarativefolderlistmodel.o(i._ZN7QStringC1ERKS_)
+    QString::~QString()                      0x00009cd9   Thumb Code    24  qdeclarativefolderlistmodel.o(i._ZN7QStringD1Ev)
+    QString::~QString__sub_object()          0x00009cd9   Thumb Code     0  qdeclarativefolderlistmodel.o(i._ZN7QStringD1Ev)
+    QModelIndex::isValid() const             0x00009cf1   Thumb Code    28  qdeclarativefolderlistmodel.o(i._ZNK11QModelIndex7isValidEv)
+    QModelIndex::operator ==(const QModelIndex&) const 0x00009d0d   Thumb Code    42  qdeclarativefolderlistmodel.o(i._ZNK11QModelIndexeqERKS_)
+    QBasicAtomicInt::operator !=(int) const  0x00009d37   Thumb Code    16  qdeclarativefolderlistmodel.o(i._ZNK15QBasicAtomicIntneEi)
+    QBasicAtomicInt::operator !() const      0x00009d47   Thumb Code    16  plugin.o(i._ZNK15QBasicAtomicIntntEv)
+    QString::isEmpty() const                 0x00009d57   Thumb Code    18  qdeclarativefolderlistmodel.o(i._ZNK7QString7isEmptyEv)
+    QListData::end() const                   0x00009d69   Thumb Code    16  qdeclarativefolderlistmodel.o(i._ZNK9QListData3endEv)
+    QListData::begin() const                 0x00009d79   Thumb Code    16  qdeclarativefolderlistmodel.o(i._ZNK9QListData5beginEv)
+    thunk{-8} to QDeclarativePrivate::QDeclarativeElement<QDeclarativeFolderListModel>::~QDeclarativeElement__deallocating() 0x00009d89   Thumb Code    14  plugin.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI27QDeclarativeFolderListModelED0Ev)
+    thunk{-8} to QDeclarativePrivate::QDeclarativeElement<QDeclarativeFolderListModel>::~QDeclarativeElement() 0x00009d97   Thumb Code    14  plugin.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI27QDeclarativeFolderListModelED1Ev)
+    thunk{-8} to QmlFolderListModelPlugin::registerTypes(const char*) 0x00009da5   Thumb Code    18  plugin.o(i._ZThn8_N24QmlFolderListModelPlugin13registerTypesEPKc)
+    thunk{-8} to QmlFolderListModelPlugin::~QmlFolderListModelPlugin__deallocating() 0x00009db7   Thumb Code    14  plugin.o(i._ZThn8_N24QmlFolderListModelPluginD0Ev)
+    thunk{-8} to QmlFolderListModelPlugin::~QmlFolderListModelPlugin() 0x00009dc5   Thumb Code    18  plugin.o(i._ZThn8_N24QmlFolderListModelPluginD1Ev)
+    operator delete (void*, void*)           0x00009dd7   Thumb Code     2  qdeclarativefolderlistmodel.o(i._ZdlPvS_)
+    operator new(unsigned, void*)            0x00009dd9   Thumb Code     6  qdeclarativefolderlistmodel.o(i._ZnwjPv)
+    qmlRegisterType<QDeclarativeFolderListModel>(const char*, int, int, const char*) 0x00009de1   Thumb Code   364  plugin.o(t._Z15qmlRegisterTypeI27QDeclarativeFolderListModelEiPKciiS2_)
+    qRegisterMetaType<QDeclarativeListProperty<QDeclarativeFolderListModel>>(const char*, T1*) 0x00009fcd   Thumb Code   100  plugin.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI27QDeclarativeFolderListModelEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeFolderListModel*>(const char*, T1*) 0x0000a075   Thumb Code   100  plugin.o(t._Z17qRegisterMetaTypeIP27QDeclarativeFolderListModelEiPKcPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QDeclarativeFolderListModel>>(T1*) 0x0000a105   Thumb Code    12  plugin.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI27QDeclarativeFolderListModelEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeFolderListModel*>(T1*) 0x0000a111   Thumb Code    12  plugin.o(t._Z21qMetaTypeDeleteHelperIP27QDeclarativeFolderListModelEvPT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QDeclarativeFolderListModel>>(const T1*) 0x0000a11d   Thumb Code   150  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI27QDeclarativeFolderListModelEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeFolderListModel*>(const T1*) 0x0000a1b7   Thumb Code    50  plugin.o(t._Z24qMetaTypeConstructHelperIP27QDeclarativeFolderListModelEPvPKT_)
+    QDeclarativePrivate::createInto<QDeclarativeFolderListModel>(void*) 0x0000a1e9   Thumb Code    42  plugin.o(t._ZN19QDeclarativePrivate10createIntoI27QDeclarativeFolderListModelEEvPv)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeFolderListModel>::~QDeclarativeElement() 0x0000a225   Thumb Code    28  plugin.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI27QDeclarativeFolderListModelED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeFolderListModel>::~QDeclarativeElement__sub_object() 0x0000a225   Thumb Code     0  plugin.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI27QDeclarativeFolderListModelED1Ev)
+    QHash<int, QByteArray>::deleteNode2(QHashData::Node*) 0x0000a24f   Thumb Code    24  qdeclarativefolderlistmodel.o(t._ZN5QHashIi10QByteArrayE11deleteNode2EPN9QHashData4NodeE)
+    QHash<int, QByteArray>::detach_helper()  0x0000a269   Thumb Code    52  qdeclarativefolderlistmodel.o(t._ZN5QHashIi10QByteArrayE13detach_helperEv)
+    QHash<int, QByteArray>::duplicateNode(QHashData::Node*, void*) 0x0000a2a5   Thumb Code    46  qdeclarativefolderlistmodel.o(t._ZN5QHashIi10QByteArrayE13duplicateNodeEPN9QHashData4NodeEPv)
+    QHash<int, QByteArray>::freeData(QHashData*) 0x0000a2e1   Thumb Code    16  qdeclarativefolderlistmodel.o(t._ZN5QHashIi10QByteArrayE8freeDataEP9QHashData)
+    QHash<int, QByteArray>::~QHash()         0x0000a2f5   Thumb Code    30  qdeclarativefolderlistmodel.o(t._ZN5QHashIi10QByteArrayED1Ev)
+    QHash<int, QByteArray>::~QHash__sub_object() 0x0000a2f5   Thumb Code     0  qdeclarativefolderlistmodel.o(t._ZN5QHashIi10QByteArrayED1Ev)
+    QHash<int, QByteArray>::operator [](const int&) 0x0000a315   Thumb Code   244  qdeclarativefolderlistmodel.o(t._ZN5QHashIi10QByteArrayEixERKi)
+    QList<QString>::detach_helper(int)       0x0000a425   Thumb Code    94  qdeclarativefolderlistmodel.o(t._ZN5QListI7QStringE13detach_helperEi)
+    QList<QString>::detach_helper()          0x0000a48b   Thumb Code    16  qdeclarativefolderlistmodel.o(t._ZN5QListI7QStringE13detach_helperEv)
+    QList<QString>::node_destruct(QList<QString>::Node*, QList<QString>::Node*) 0x0000a49b   Thumb Code    26  qdeclarativefolderlistmodel.o(t._ZN5QListI7QStringE13node_destructEPNS1_4NodeES3_)
+    QList<QString>::node_construct(QList<QString>::Node*, const QString&) 0x0000a4b5   Thumb Code    36  qdeclarativefolderlistmodel.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_)
+    QList<QString>::detach_helper_grow(int, int) 0x0000a4e7   Thumb Code   208  qdeclarativefolderlistmodel.o(t._ZN5QListI7QStringE18detach_helper_growEii)
+    QList<QString>::free(QListData::Data*)   0x0000a5c7   Thumb Code    58  qdeclarativefolderlistmodel.o(t._ZN5QListI7QStringE4freeEPN9QListData4DataE)
+    QList<QString>::append(const QString&)   0x0000a601   Thumb Code   114  qdeclarativefolderlistmodel.o(t._ZN5QListI7QStringE6appendERKS0_)
+    QList<QString>::node_copy(QList<QString>::Node*, QList<QString>::Node*, QList<QString>::Node*) 0x0000a687   Thumb Code    82  qdeclarativefolderlistmodel.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_)
+    QList<QString>::~QList()                 0x0000a6ef   Thumb Code    32  qdeclarativefolderlistmodel.o(t._ZN5QListI7QStringED1Ev)
+    QList<QString>::~QList__sub_object()     0x0000a6ef   Thumb Code     0  qdeclarativefolderlistmodel.o(t._ZN5QListI7QStringED1Ev)
+    QPointer<QObject>::~QPointer()           0x0000a70f   Thumb Code    14  plugin.o(t._ZN8QPointerI7QObjectED1Ev)
+    QPointer<QObject>::~QPointer__sub_object() 0x0000a70f   Thumb Code     0  plugin.o(t._ZN8QPointerI7QObjectED1Ev)
+    QHashNode<int, QByteArray>::QHashNode(int, const QByteArray&) 0x0000a71d   Thumb Code    30  qdeclarativefolderlistmodel.o(t._ZN9QHashNodeIi10QByteArrayEC1EiRKS0_)
+    QHashNode<int, QByteArray>::QHashNode__sub_object(int, const QByteArray&) 0x0000a71d   Thumb Code     0  qdeclarativefolderlistmodel.o(t._ZN9QHashNodeIi10QByteArrayEC1EiRKS0_)
+    QScopedPointer<QObjectData, QScopedPointerDeleter<QObjectData>>::operator ->() const 0x0000a73d   Thumb Code    30  plugin.o(t._ZNK14QScopedPointerI11QObjectData21QScopedPointerDeleterIS0_EEptEv)
+    QHash<int, QByteArray>::findNode(const int&, unsigned*) const 0x0000a765   Thumb Code   128  qdeclarativefolderlistmodel.o(t._ZNK5QHashIi10QByteArrayE8findNodeERKiPj)
+    QFlags<QDir::Filter>::operator !() const 0x0000a83d   Thumb Code    16  qdeclarativefolderlistmodel.o(t._ZNK6QFlagsIN4QDir6FilterEEntEv)
+    QFlags<QDir::Filter>::operator |(QDir::Filter) const 0x0000a84d   Thumb Code    16  qdeclarativefolderlistmodel.o(t._ZNK6QFlagsIN4QDir6FilterEEorES1_)
+    QmlFolderListModelPlugin::staticMetaObject 0x0000b23c   Data          16  plugin.o(.constdata)
+    QDeclarativeFolderListModel::staticMetaObject 0x0000b584   Data          16  moc_qdeclarativefolderlistmodel.o(.constdata)
+    stlp_priv::_Integer_limits<signed char, (signed char)-128, (signed char)127, (int)-1, (bool)1>::digits 0x0000b5d8   Data           4  qdeclarativefolderlistmodel.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<bool, (bool)0, (bool)1, (int)1, (bool)0>::digits 0x0000b5dc   Data           4  qdeclarativefolderlistmodel.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    stlp_priv::_Integer_limits<char, (char)128, (char)127, (int)-1, (bool)1>::digits 0x0000b5e0   Data           4  qdeclarativefolderlistmodel.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned char, (unsigned char)0, (unsigned char)255, (int)-1, (bool)1>::digits 0x0000b5e4   Data           4  qdeclarativefolderlistmodel.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::digits 0x0000b5e8   Data           4  qdeclarativefolderlistmodel.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::is_signed 0x0000b5ec   Data           1  qdeclarativefolderlistmodel.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    stlp_priv::_Integer_limits<unsigned, (unsigned)0, (unsigned)4294967295, (int)-1, (bool)1>::digits 0x0000b5f0   Data           4  qdeclarativefolderlistmodel.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long, (long)-2147483648, (long)2147483647, (int)-1, (bool)1>::digits 0x0000b5f4   Data           4  qdeclarativefolderlistmodel.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long, (unsigned long)0, (unsigned long)4294967295, (int)-1, (bool)1>::digits 0x0000b5f8   Data           4  qdeclarativefolderlistmodel.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<short, (short)-32768, (short)32767, (int)-1, (bool)1>::digits 0x0000b5fc   Data           4  qdeclarativefolderlistmodel.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned short, (unsigned short)0, (unsigned short)65535, (int)-1, (bool)1>::digits 0x0000b600   Data           4  qdeclarativefolderlistmodel.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<wchar_t, (wchar_t)0, (wchar_t)65535, (int)-1, (bool)1>::digits 0x0000b604   Data           4  qdeclarativefolderlistmodel.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long long, (long long)-9223372036854775808, (long long)9223372036854775807, (int)-1, (bool)1>::digits 0x0000b608   Data           4  qdeclarativefolderlistmodel.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long long, (unsigned long long)0, (unsigned long long)18446744073709551615, (int)-1, (bool)1>::digits 0x0000b60c   Data           4  qdeclarativefolderlistmodel.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    typeinfo for QmlFolderListModelPlugin    0x0000b610   Data          12  plugin.o(.constdata__ZTI24QmlFolderListModelPlugin)
+    typeinfo for QDeclarativeFolderListModel 0x0000b61c   Data          32  moc_qdeclarativefolderlistmodel.o(.constdata__ZTI27QDeclarativeFolderListModel)
+    typeinfo for QtSharedPointer::ExternalRefCountData 0x0000b63c   Data           8  qdeclarativefolderlistmodel.o(.constdata__ZTIN15QtSharedPointer20ExternalRefCountDataE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QDeclarativeFolderListModel> 0x0000b644   Data          12  plugin.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI27QDeclarativeFolderListModelEE)
+    typeinfo name for QmlFolderListModelPlugin 0x0000b650   Data          27  plugin.o(.constdata__ZTS24QmlFolderListModelPlugin)
+    typeinfo name for QDeclarativeFolderListModel 0x0000b66b   Data          30  moc_qdeclarativefolderlistmodel.o(.constdata__ZTS27QDeclarativeFolderListModel)
+    typeinfo name for QtSharedPointer::ExternalRefCountData 0x0000b689   Data          42  qdeclarativefolderlistmodel.o(.constdata__ZTSN15QtSharedPointer20ExternalRefCountDataE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QDeclarativeFolderListModel> 0x0000b6b3   Data          76  plugin.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI27QDeclarativeFolderListModelEE)
+    vtable for QmlFolderListModelPlugin      0x0000b700   Data          88  plugin.o(.constdata__ZTV24QmlFolderListModelPlugin)
+    vtable for QDeclarativeFolderListModel   0x0000b758   Data         200  moc_qdeclarativefolderlistmodel.o(.constdata__ZTV27QDeclarativeFolderListModel)
+    vtable for QtSharedPointer::ExternalRefCountData 0x0000b820   Data          20  qdeclarativefolderlistmodel.o(.constdata__ZTVN15QtSharedPointer20ExternalRefCountDataE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QDeclarativeFolderListModel> 0x0000b834   Data         200  plugin.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI27QDeclarativeFolderListModelEE)
+    .ARM.exidx$$Base                         0x0000b948   Number         0  ucppinit.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x0000bc58   Number         0  qdeclarativefolderlistmodel.o(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x0000bc58   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    __dso_handle                             0x00400008   Data           4  ucppfini.o(.data)
+    std::_Atomic_swap_struct<(int)1>::_S_swap_lock 0x0040000c   Data          12  qdeclarativefolderlistmodel.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    QMetaTypeId<QDeclarativeListProperty<QDeclarativeFolderListModel>>::qt_metatype_id()::metatype_id 0x00400018   Data           4  plugin.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI27QDeclarativeFolderListModelEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeFolderListModel*>::qt_metatype_id()::metatype_id 0x0040001c   Data           4  plugin.o(.data__ZZN11QMetaTypeIdIP27QDeclarativeFolderListModelE14qt_metatype_idEvE11metatype_id)
+    dtor_rec                                 0x00400020   Data        2048  ucppfini.o(.bss)
+

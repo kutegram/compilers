@@ -1,0 +1,36 @@
+// BAERRRSVR.RH
+//
+// Copyright (c)Symbian Software Ltd 2003 - 2007.  All rights reserved.
+//
+
+/** @file
+@publishedAll
+
+*/
+
+#if !defined(__BAERRRSVR_RH__)
+#define __BAERRRSVR_RH__
+
+// Error Resolver
+
+STRUCT ERROR_SET
+	{
+	WORD dummy = 0x0;
+	WORD version = 0x02;
+	STRUCT errorarrays[];
+	}
+
+STRUCT ERROR_ARRAY
+	{
+	LLINK title=0;
+	LONG startError;
+	LLINK errors;
+	}
+
+STRUCT SINGLE_ERROR
+	{
+	BYTE flags=0;
+	LLINK text=0;
+	}
+
+#endif

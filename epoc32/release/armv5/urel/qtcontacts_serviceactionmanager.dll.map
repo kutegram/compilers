@@ -1,0 +1,650 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1789.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3689.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3098.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1794.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3691.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3139.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1830.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-56.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3609.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2082.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-70.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3610.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2134.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-73.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2197.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2141.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  libc{00010000}-350.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2418.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2142.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-670.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-274.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2143.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtServiceFramework{00010103}-101.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-275.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2188.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtServiceFramework{00010103}-12.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3097.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtServiceFramework{00010103}-65.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtServiceFramework{00010103}-32.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1671.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtServiceFramework{00010103}-8.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtServiceFramework{00010103}-41.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1674.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtServiceFramework{00010103}-87.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtServiceFramework{00010103}-45.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-671.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtServiceFramework{00010103}-88.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtServiceFramework{00010103}-61.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1785.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtServiceFramework{00010103}-96.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1768.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1763.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtContacts{00010103}-813.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1773.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1764.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtContacts{00010103}-817.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1777.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1766.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1676.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1784.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1767.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1760.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-187.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1670.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtContacts{00010103}-893.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-188.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-183.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtContacts{00010103}-904.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-190.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-184.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  libstdcpp{00010000}-988.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtContacts{00010103}-854.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-186.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  libstdcpp{00010000}-992.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtContacts{00010103}-892.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-155.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-180.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-158.o ABSOLUTE
+    ..\..\..\..\EPOC32\BUILD\s60\osext\mobileruntime\group\LIBSTDCPP\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\src\cedar\generic\base\e32\compsupp\DRTAEABI\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\src\cedar\generic\base\e32\euser\EDLL\ARMV5\urel\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    \EPOC32\BUILD\src\cedar\generic\base\e32\euser\EUSER\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBC\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBDL\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBM\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBPTHREAD\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \\EPOC32\\BUILD\\src\\cedar\\generic\\base\\e32\\euser\\EDLL\\ARMV5\\urel\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    \\src\\cedar\\generic\\base\\e32\\compsupp\\RVCT2_2\\ucppinit_aeabi.cpp 0x00000000   Number         0  ucppinit_aeabi.o ABSOLUTE
+    \dev\symb\SDKs\32\EPOC32\BUILD\iwmake\buildS60____PADDING________\src\QTCORE_DLL\ARMV6\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \dev\symb\SDKs\32\EPOC32\BUILD\iwmake\buildS60____PADDING________\src\QTGUI_DLL\ARMV6\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \s60\5.0\EPOC32\BUILD\scripts\5.0\qtmobility\QTCONTACTS_DLL\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \s60\5.0\EPOC32\BUILD\scripts\5.0\qtmobility\QTCONTACTS_SERVICEACTIONMANAGER_DLL\ARMV5\urel\qtcontacts_serviceactionmanager{000a0000}.s 0x00000000   Number         0  qtcontacts_serviceactionmanager{000a0000}.exp ABSOLUTE
+    \s60\5.0\EPOC32\BUILD\scripts\5.0\qtmobility\QTSERVICEFRAMEWORK_DLL\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \scripts\5.0\qtmobility\plugins\contacts\serviceactionmanager\qcontactactionservicemanager_p.cpp 0x00000000   Number         0  qtcontacts_serviceactionmanager.in ABSOLUTE
+    \src\cedar\generic\base\e32\compsupp\RVCT2_2\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    \src\cedar\generic\base\e32\compsupp\RVCT2_2\ucppinit_aeabi.cpp 0x00000000   Number         0  ucppinit_aeabi.o ABSOLUTE
+    \src\cedar\generic\base\e32\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       72  ucppinit_aeabi.o(.emb_text)
+    skip                                     0x0000803c   ARM Code       0  ucppinit_aeabi.o(.emb_text)
+    loop                                     0x0000804c   ARM Code       0  ucppinit_aeabi.o(.emb_text)
+    fpinit                                   0x00008064   Data           0  ucppinit_aeabi.o(.emb_text)
+    base                                     0x00008068   Data           0  ucppinit_aeabi.o(.emb_text)
+    limit                                    0x0000806c   Data           0  ucppinit_aeabi.o(.emb_text)
+    .text                                    0x00008070   Section     2060  qtcontacts_serviceactionmanager.in(.text)
+    QtMobility::contactActionServiceManagerInstance() 0x0000876b   Thumb Code   114  qtcontacts_serviceactionmanager.in(.text)
+    .text                                    0x0000887c   Section       40  uc_dll.o(.text)
+    .text                                    0x000088a4   Section      148  ucppfini.o(.text)
+    .text.clean                              0x00008938   Section      356  qtcontacts_serviceactionmanager.in(.text.clean)
+    ExportTable                              0x00008a9c   Section       16  qtcontacts_serviceactionmanager{000a0000}.exp(ExportTable)
+    StubCode                                 0x00008aac   Section        8  QtServiceFramework{00010103}-101.o(StubCode)
+    theImportedSymbol                        0x00008ab0   Data           0  QtServiceFramework{00010103}-101.o(StubCode)
+    StubCode                                 0x00008ab4   Section        8  QtServiceFramework{00010103}-12.o(StubCode)
+    theImportedSymbol                        0x00008ab8   Data           0  QtServiceFramework{00010103}-12.o(StubCode)
+    StubCode                                 0x00008abc   Section        8  QtServiceFramework{00010103}-32.o(StubCode)
+    theImportedSymbol                        0x00008ac0   Data           0  QtServiceFramework{00010103}-32.o(StubCode)
+    StubCode                                 0x00008ac4   Section        8  QtServiceFramework{00010103}-41.o(StubCode)
+    theImportedSymbol                        0x00008ac8   Data           0  QtServiceFramework{00010103}-41.o(StubCode)
+    StubCode                                 0x00008acc   Section        8  QtServiceFramework{00010103}-45.o(StubCode)
+    theImportedSymbol                        0x00008ad0   Data           0  QtServiceFramework{00010103}-45.o(StubCode)
+    StubCode                                 0x00008ad4   Section        8  QtServiceFramework{00010103}-61.o(StubCode)
+    theImportedSymbol                        0x00008ad8   Data           0  QtServiceFramework{00010103}-61.o(StubCode)
+    StubCode                                 0x00008adc   Section        8  QtServiceFramework{00010103}-65.o(StubCode)
+    theImportedSymbol                        0x00008ae0   Data           0  QtServiceFramework{00010103}-65.o(StubCode)
+    StubCode                                 0x00008ae4   Section        8  QtServiceFramework{00010103}-8.o(StubCode)
+    theImportedSymbol                        0x00008ae8   Data           0  QtServiceFramework{00010103}-8.o(StubCode)
+    StubCode                                 0x00008aec   Section        8  QtServiceFramework{00010103}-87.o(StubCode)
+    theImportedSymbol                        0x00008af0   Data           0  QtServiceFramework{00010103}-87.o(StubCode)
+    StubCode                                 0x00008af4   Section        8  QtServiceFramework{00010103}-88.o(StubCode)
+    theImportedSymbol                        0x00008af8   Data           0  QtServiceFramework{00010103}-88.o(StubCode)
+    StubCode                                 0x00008afc   Section        8  QtServiceFramework{00010103}-96.o(StubCode)
+    theImportedSymbol                        0x00008b00   Data           0  QtServiceFramework{00010103}-96.o(StubCode)
+    StubCode                                 0x00008b04   Section        8  QtContacts{00010103}-813.o(StubCode)
+    theImportedSymbol                        0x00008b08   Data           0  QtContacts{00010103}-813.o(StubCode)
+    StubCode                                 0x00008b0c   Section        8  QtContacts{00010103}-817.o(StubCode)
+    theImportedSymbol                        0x00008b10   Data           0  QtContacts{00010103}-817.o(StubCode)
+    StubCode                                 0x00008b14   Section        8  QtContacts{00010103}-854.o(StubCode)
+    theImportedSymbol                        0x00008b18   Data           0  QtContacts{00010103}-854.o(StubCode)
+    StubCode                                 0x00008b1c   Section        8  QtContacts{00010103}-892.o(StubCode)
+    theImportedSymbol                        0x00008b20   Data           0  QtContacts{00010103}-892.o(StubCode)
+    StubCode                                 0x00008b24   Section        8  QtContacts{00010103}-893.o(StubCode)
+    theImportedSymbol                        0x00008b28   Data           0  QtContacts{00010103}-893.o(StubCode)
+    StubCode                                 0x00008b2c   Section        8  QtContacts{00010103}-904.o(StubCode)
+    theImportedSymbol                        0x00008b30   Data           0  QtContacts{00010103}-904.o(StubCode)
+    StubCode                                 0x00008b34   Section        8  libstdcpp{00010000}-988.o(StubCode)
+    theImportedSymbol                        0x00008b38   Data           0  libstdcpp{00010000}-988.o(StubCode)
+    StubCode                                 0x00008b3c   Section        8  libstdcpp{00010000}-992.o(StubCode)
+    theImportedSymbol                        0x00008b40   Data           0  libstdcpp{00010000}-992.o(StubCode)
+    StubCode                                 0x00008b44   Section        8  QtCore{00040703}-1670.o(StubCode)
+    theImportedSymbol                        0x00008b48   Data           0  QtCore{00040703}-1670.o(StubCode)
+    StubCode                                 0x00008b4c   Section        8  QtCore{00040703}-1671.o(StubCode)
+    theImportedSymbol                        0x00008b50   Data           0  QtCore{00040703}-1671.o(StubCode)
+    StubCode                                 0x00008b54   Section        8  QtCore{00040703}-1674.o(StubCode)
+    theImportedSymbol                        0x00008b58   Data           0  QtCore{00040703}-1674.o(StubCode)
+    StubCode                                 0x00008b5c   Section        8  QtCore{00040703}-1676.o(StubCode)
+    theImportedSymbol                        0x00008b60   Data           0  QtCore{00040703}-1676.o(StubCode)
+    StubCode                                 0x00008b64   Section        8  QtCore{00040703}-1760.o(StubCode)
+    theImportedSymbol                        0x00008b68   Data           0  QtCore{00040703}-1760.o(StubCode)
+    StubCode                                 0x00008b6c   Section        8  QtCore{00040703}-1763.o(StubCode)
+    theImportedSymbol                        0x00008b70   Data           0  QtCore{00040703}-1763.o(StubCode)
+    StubCode                                 0x00008b74   Section        8  QtCore{00040703}-1764.o(StubCode)
+    theImportedSymbol                        0x00008b78   Data           0  QtCore{00040703}-1764.o(StubCode)
+    StubCode                                 0x00008b7c   Section        8  QtCore{00040703}-1766.o(StubCode)
+    theImportedSymbol                        0x00008b80   Data           0  QtCore{00040703}-1766.o(StubCode)
+    StubCode                                 0x00008b84   Section        8  QtCore{00040703}-1767.o(StubCode)
+    theImportedSymbol                        0x00008b88   Data           0  QtCore{00040703}-1767.o(StubCode)
+    StubCode                                 0x00008b8c   Section        8  QtCore{00040703}-1768.o(StubCode)
+    theImportedSymbol                        0x00008b90   Data           0  QtCore{00040703}-1768.o(StubCode)
+    StubCode                                 0x00008b94   Section        8  QtCore{00040703}-1773.o(StubCode)
+    theImportedSymbol                        0x00008b98   Data           0  QtCore{00040703}-1773.o(StubCode)
+    StubCode                                 0x00008b9c   Section        8  QtCore{00040703}-1777.o(StubCode)
+    theImportedSymbol                        0x00008ba0   Data           0  QtCore{00040703}-1777.o(StubCode)
+    StubCode                                 0x00008ba4   Section        8  QtCore{00040703}-1784.o(StubCode)
+    theImportedSymbol                        0x00008ba8   Data           0  QtCore{00040703}-1784.o(StubCode)
+    StubCode                                 0x00008bac   Section        8  QtCore{00040703}-1785.o(StubCode)
+    theImportedSymbol                        0x00008bb0   Data           0  QtCore{00040703}-1785.o(StubCode)
+    StubCode                                 0x00008bb4   Section        8  QtCore{00040703}-1789.o(StubCode)
+    theImportedSymbol                        0x00008bb8   Data           0  QtCore{00040703}-1789.o(StubCode)
+    StubCode                                 0x00008bbc   Section        8  QtCore{00040703}-1794.o(StubCode)
+    theImportedSymbol                        0x00008bc0   Data           0  QtCore{00040703}-1794.o(StubCode)
+    StubCode                                 0x00008bc4   Section        8  QtCore{00040703}-1830.o(StubCode)
+    theImportedSymbol                        0x00008bc8   Data           0  QtCore{00040703}-1830.o(StubCode)
+    StubCode                                 0x00008bcc   Section        8  QtCore{00040703}-2082.o(StubCode)
+    theImportedSymbol                        0x00008bd0   Data           0  QtCore{00040703}-2082.o(StubCode)
+    StubCode                                 0x00008bd4   Section        8  QtCore{00040703}-2134.o(StubCode)
+    theImportedSymbol                        0x00008bd8   Data           0  QtCore{00040703}-2134.o(StubCode)
+    StubCode                                 0x00008bdc   Section        8  QtCore{00040703}-2141.o(StubCode)
+    theImportedSymbol                        0x00008be0   Data           0  QtCore{00040703}-2141.o(StubCode)
+    StubCode                                 0x00008be4   Section        8  QtCore{00040703}-2142.o(StubCode)
+    theImportedSymbol                        0x00008be8   Data           0  QtCore{00040703}-2142.o(StubCode)
+    StubCode                                 0x00008bec   Section        8  QtCore{00040703}-2143.o(StubCode)
+    theImportedSymbol                        0x00008bf0   Data           0  QtCore{00040703}-2143.o(StubCode)
+    StubCode                                 0x00008bf4   Section        8  QtCore{00040703}-2188.o(StubCode)
+    theImportedSymbol                        0x00008bf8   Data           0  QtCore{00040703}-2188.o(StubCode)
+    StubCode                                 0x00008bfc   Section        8  QtCore{00040703}-2197.o(StubCode)
+    theImportedSymbol                        0x00008c00   Data           0  QtCore{00040703}-2197.o(StubCode)
+    StubCode                                 0x00008c04   Section        8  QtCore{00040703}-2418.o(StubCode)
+    theImportedSymbol                        0x00008c08   Data           0  QtCore{00040703}-2418.o(StubCode)
+    StubCode                                 0x00008c0c   Section        8  QtCore{00040703}-274.o(StubCode)
+    theImportedSymbol                        0x00008c10   Data           0  QtCore{00040703}-274.o(StubCode)
+    StubCode                                 0x00008c14   Section        8  QtCore{00040703}-275.o(StubCode)
+    theImportedSymbol                        0x00008c18   Data           0  QtCore{00040703}-275.o(StubCode)
+    StubCode                                 0x00008c1c   Section        8  QtCore{00040703}-3097.o(StubCode)
+    theImportedSymbol                        0x00008c20   Data           0  QtCore{00040703}-3097.o(StubCode)
+    StubCode                                 0x00008c24   Section        8  QtCore{00040703}-3098.o(StubCode)
+    theImportedSymbol                        0x00008c28   Data           0  QtCore{00040703}-3098.o(StubCode)
+    StubCode                                 0x00008c2c   Section        8  QtCore{00040703}-3139.o(StubCode)
+    theImportedSymbol                        0x00008c30   Data           0  QtCore{00040703}-3139.o(StubCode)
+    StubCode                                 0x00008c34   Section        8  QtCore{00040703}-3609.o(StubCode)
+    theImportedSymbol                        0x00008c38   Data           0  QtCore{00040703}-3609.o(StubCode)
+    StubCode                                 0x00008c3c   Section        8  QtCore{00040703}-3610.o(StubCode)
+    theImportedSymbol                        0x00008c40   Data           0  QtCore{00040703}-3610.o(StubCode)
+    StubCode                                 0x00008c44   Section        8  QtCore{00040703}-3689.o(StubCode)
+    theImportedSymbol                        0x00008c48   Data           0  QtCore{00040703}-3689.o(StubCode)
+    StubCode                                 0x00008c4c   Section        8  QtCore{00040703}-3691.o(StubCode)
+    theImportedSymbol                        0x00008c50   Data           0  QtCore{00040703}-3691.o(StubCode)
+    StubCode                                 0x00008c54   Section        8  QtCore{00040703}-56.o(StubCode)
+    theImportedSymbol                        0x00008c58   Data           0  QtCore{00040703}-56.o(StubCode)
+    StubCode                                 0x00008c5c   Section        8  QtCore{00040703}-70.o(StubCode)
+    theImportedSymbol                        0x00008c60   Data           0  QtCore{00040703}-70.o(StubCode)
+    StubCode                                 0x00008c64   Section        8  QtCore{00040703}-73.o(StubCode)
+    theImportedSymbol                        0x00008c68   Data           0  QtCore{00040703}-73.o(StubCode)
+    StubCode                                 0x00008c6c   Section        8  libc{00010000}-350.o(StubCode)
+    theImportedSymbol                        0x00008c70   Data           0  libc{00010000}-350.o(StubCode)
+    StubCode                                 0x00008c74   Section        8  euser{000a0000}-670.o(StubCode)
+    theImportedSymbol                        0x00008c78   Data           0  euser{000a0000}-670.o(StubCode)
+    StubCode                                 0x00008c7c   Section        8  euser{000a0000}-671.o(StubCode)
+    theImportedSymbol                        0x00008c80   Data           0  euser{000a0000}-671.o(StubCode)
+    StubCode                                 0x00008c84   Section        8  drtaeabi{000a0000}-155.o(StubCode)
+    theImportedSymbol                        0x00008c88   Data           0  drtaeabi{000a0000}-155.o(StubCode)
+    StubCode                                 0x00008c8c   Section        8  drtaeabi{000a0000}-158.o(StubCode)
+    theImportedSymbol                        0x00008c90   Data           0  drtaeabi{000a0000}-158.o(StubCode)
+    StubCode                                 0x00008c94   Section        8  drtaeabi{000a0000}-180.o(StubCode)
+    theImportedSymbol                        0x00008c98   Data           0  drtaeabi{000a0000}-180.o(StubCode)
+    StubCode                                 0x00008c9c   Section        8  drtaeabi{000a0000}-183.o(StubCode)
+    theImportedSymbol                        0x00008ca0   Data           0  drtaeabi{000a0000}-183.o(StubCode)
+    StubCode                                 0x00008ca4   Section        8  drtaeabi{000a0000}-184.o(StubCode)
+    theImportedSymbol                        0x00008ca8   Data           0  drtaeabi{000a0000}-184.o(StubCode)
+    StubCode                                 0x00008cac   Section        8  drtaeabi{000a0000}-186.o(StubCode)
+    theImportedSymbol                        0x00008cb0   Data           0  drtaeabi{000a0000}-186.o(StubCode)
+    StubCode                                 0x00008cb4   Section        8  drtaeabi{000a0000}-187.o(StubCode)
+    theImportedSymbol                        0x00008cb8   Data           0  drtaeabi{000a0000}-187.o(StubCode)
+    StubCode                                 0x00008cbc   Section        8  drtaeabi{000a0000}-188.o(StubCode)
+    theImportedSymbol                        0x00008cc0   Data           0  drtaeabi{000a0000}-188.o(StubCode)
+    StubCode                                 0x00008cc4   Section        8  drtaeabi{000a0000}-190.o(StubCode)
+    theImportedSymbol                        0x00008cc8   Data           0  drtaeabi{000a0000}-190.o(StubCode)
+    i._ZN10QMultiHashI7QStringN10QtMobility24QContactActionDescriptorEED1Ev 0x00008ccc   Section        8  qtcontacts_serviceactionmanager.in(i._ZN10QMultiHashI7QStringN10QtMobility24QContactActionDescriptorEED1Ev)
+    i._ZN12QMutexLockerC1EP6QMutex           0x00008cd4   Section       28  qtcontacts_serviceactionmanager.in(i._ZN12QMutexLockerC1EP6QMutex)
+    i._ZN12QMutexLockerD1Ev                  0x00008cf0   Section       28  qtcontacts_serviceactionmanager.in(i._ZN12QMutexLockerD1Ev)
+    i._ZN15QBasicAtomicInt3refEv             0x00008d0c   Section       18  qtcontacts_serviceactionmanager.in(i._ZN15QBasicAtomicInt3refEv)
+    i._ZN15QBasicAtomicInt5derefEv           0x00008d1e   Section       18  qtcontacts_serviceactionmanager.in(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN17QForeachContainerI5QListIN10QtMobility24QContactActionDescriptorEEED1Ev 0x00008d30   Section        8  qtcontacts_serviceactionmanager.in(i._ZN17QForeachContainerI5QListIN10QtMobility24QContactActionDescriptorEEED1Ev)
+    i._ZN17QForeachContainerI5QListIN10QtMobility27QServiceInterfaceDescriptorEEED1Ev 0x00008d38   Section        8  qtcontacts_serviceactionmanager.in(i._ZN17QForeachContainerI5QListIN10QtMobility27QServiceInterfaceDescriptorEEED1Ev)
+    i._ZN4QSetIPN10QtMobility21QContactActionFactoryEED1Ev 0x00008d40   Section        8  qtcontacts_serviceactionmanager.in(i._ZN4QSetIPN10QtMobility21QContactActionFactoryEED1Ev)
+    i._ZN7QStringD1Ev                        0x00008d48   Section       24  qtcontacts_serviceactionmanager.in(i._ZN7QStringD1Ev)
+    i._ZN9QHashData8willGrowEv               0x00008d60   Section       28  qtcontacts_serviceactionmanager.in(i._ZN9QHashData8willGrowEv)
+    i._ZNK15QBasicAtomicIntneEi              0x00008d7c   Section       14  qtcontacts_serviceactionmanager.in(i._ZNK15QBasicAtomicIntneEi)
+    i._ZNK9QListData3endEv                   0x00008d8a   Section       12  qtcontacts_serviceactionmanager.in(i._ZNK9QListData3endEv)
+    i._ZNK9QListData5beginEv                 0x00008d96   Section       12  qtcontacts_serviceactionmanager.in(i._ZNK9QListData5beginEv)
+    i._ZdlPvS_                               0x00008da2   Section        2  qtcontacts_serviceactionmanager.in(i._ZdlPvS_)
+    i._ZnwjPv                                0x00008da4   Section        4  qtcontacts_serviceactionmanager.in(i._ZnwjPv)
+    t._Z12qobject_castIPN10QtMobility21QContactActionFactoryEET_P7QObject 0x00008da8   Section       16  qtcontacts_serviceactionmanager.in(t._Z12qobject_castIPN10QtMobility21QContactActionFactoryEET_P7QObject)
+    t._Z20qForeachContainerNewI5QListIN10QtMobility24QContactActionDescriptorEEE17QForeachContainerIT_ERKS5_ 0x00008db8   Section       62  qtcontacts_serviceactionmanager.in(t._Z20qForeachContainerNewI5QListIN10QtMobility24QContactActionDescriptorEEE17QForeachContainerIT_ERKS5_)
+    t._Z20qForeachContainerNewI5QListIN10QtMobility24QContactActionDescriptorEEE17QForeachContainerIT_ERKS5_.clean 0x00008df6   Section       10  qtcontacts_serviceactionmanager.in(t._Z20qForeachContainerNewI5QListIN10QtMobility24QContactActionDescriptorEEE17QForeachContainerIT_ERKS5_.clean)
+    t._Z20qForeachContainerNewI5QListIN10QtMobility27QServiceInterfaceDescriptorEEE17QForeachContainerIT_ERKS5_ 0x00008e00   Section       62  qtcontacts_serviceactionmanager.in(t._Z20qForeachContainerNewI5QListIN10QtMobility27QServiceInterfaceDescriptorEEE17QForeachContainerIT_ERKS5_)
+    t._Z20qForeachContainerNewI5QListIN10QtMobility27QServiceInterfaceDescriptorEEE17QForeachContainerIT_ERKS5_.clean 0x00008e3e   Section       10  qtcontacts_serviceactionmanager.in(t._Z20qForeachContainerNewI5QListIN10QtMobility27QServiceInterfaceDescriptorEEE17QForeachContainerIT_ERKS5_.clean)
+    t._ZN10QMultiHashI7QStringN10QtMobility24QContactActionDescriptorEE6insertERKS0_RKS2_ 0x00008e48   Section       86  qtcontacts_serviceactionmanager.in(t._ZN10QMultiHashI7QStringN10QtMobility24QContactActionDescriptorEE6insertERKS0_RKS2_)
+    t._ZN10QMultiHashI7QStringN10QtMobility24QContactActionDescriptorEE6insertERKS0_RKS2_.clean 0x00008e9e   Section       12  qtcontacts_serviceactionmanager.in(t._ZN10QMultiHashI7QStringN10QtMobility24QContactActionDescriptorEE6insertERKS0_RKS2_.clean)
+    t._ZN10QMultiHashI7QStringN10QtMobility24QContactActionDescriptorEE6removeERKS0_RKS2_ 0x00008eaa   Section      100  qtcontacts_serviceactionmanager.in(t._ZN10QMultiHashI7QStringN10QtMobility24QContactActionDescriptorEE6removeERKS0_RKS2_)
+    t._ZN10QtMobilityeqILi38EEEbRK7QStringRKNS_15QLatin1ConstantIXT_EEE 0x00008f0e   Section       12  qtcontacts_serviceactionmanager.in(t._ZN10QtMobilityeqILi38EEEbRK7QStringRKNS_15QLatin1ConstantIXT_EEE)
+    t._ZN20QGlobalStaticDeleterIN10QtMobility28QContactActionServiceManagerEED1Ev 0x00008f1a   Section       34  qtcontacts_serviceactionmanager.in(t._ZN20QGlobalStaticDeleterIN10QtMobility28QContactActionServiceManagerEED1Ev)
+    t._ZN5QHashI7QStringN10QtMobility24QContactActionDescriptorEE11deleteNode2EPN9QHashData4NodeE 0x00008f3c   Section       18  qtcontacts_serviceactionmanager.in(t._ZN5QHashI7QStringN10QtMobility24QContactActionDescriptorEE11deleteNode2EPN9QHashData4NodeE)
+    t._ZN5QHashI7QStringN10QtMobility24QContactActionDescriptorEE11deleteNode2EPN9QHashData4NodeE.clean 0x00008f4e   Section       12  qtcontacts_serviceactionmanager.in(t._ZN5QHashI7QStringN10QtMobility24QContactActionDescriptorEE11deleteNode2EPN9QHashData4NodeE.clean)
+    t._ZN5QHashI7QStringN10QtMobility24QContactActionDescriptorEE13duplicateNodeEPN9QHashData4NodeEPv 0x00008f5a   Section       30  qtcontacts_serviceactionmanager.in(t._ZN5QHashI7QStringN10QtMobility24QContactActionDescriptorEE13duplicateNodeEPN9QHashData4NodeEPv)
+    t._ZN5QHashI7QStringN10QtMobility24QContactActionDescriptorEE13duplicateNodeEPN9QHashData4NodeEPv.clean 0x00008f78   Section       12  qtcontacts_serviceactionmanager.in(t._ZN5QHashI7QStringN10QtMobility24QContactActionDescriptorEE13duplicateNodeEPN9QHashData4NodeEPv.clean)
+    t._ZN5QHashI7QStringN10QtMobility24QContactActionDescriptorEE5eraseENS3_8iteratorE 0x00008f84   Section       80  qtcontacts_serviceactionmanager.in(t._ZN5QHashI7QStringN10QtMobility24QContactActionDescriptorEE5eraseENS3_8iteratorE)
+    t._ZN5QHashI7QStringN10QtMobility24QContactActionDescriptorEE6detachEv 0x00008fd4   Section       68  qtcontacts_serviceactionmanager.in(t._ZN5QHashI7QStringN10QtMobility24QContactActionDescriptorEE6detachEv)
+    t._ZN5QHashI7QStringN10QtMobility24QContactActionDescriptorEE8freeDataEP9QHashData 0x00009018   Section       16  qtcontacts_serviceactionmanager.in(t._ZN5QHashI7QStringN10QtMobility24QContactActionDescriptorEE8freeDataEP9QHashData)
+    t._ZN5QHashI7QStringN10QtMobility24QContactActionDescriptorEED1Ev 0x00009028   Section       28  qtcontacts_serviceactionmanager.in(t._ZN5QHashI7QStringN10QtMobility24QContactActionDescriptorEED1Ev)
+    t._ZN5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE11deleteNode2EPN9QHashData4NodeE 0x00009044   Section       10  qtcontacts_serviceactionmanager.in(t._ZN5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE11deleteNode2EPN9QHashData4NodeE)
+    t._ZN5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE13duplicateNodeEPN9QHashData4NodeEPv 0x0000904e   Section       30  qtcontacts_serviceactionmanager.in(t._ZN5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE13duplicateNodeEPN9QHashData4NodeEPv)
+    t._ZN5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE13duplicateNodeEPN9QHashData4NodeEPv.clean 0x0000906c   Section       12  qtcontacts_serviceactionmanager.in(t._ZN5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE13duplicateNodeEPN9QHashData4NodeEPv.clean)
+    t._ZN5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE6detachEv 0x00009078   Section       68  qtcontacts_serviceactionmanager.in(t._ZN5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE6detachEv)
+    t._ZN5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE6insertERKS1_RKS3_ 0x000090bc   Section      118  qtcontacts_serviceactionmanager.in(t._ZN5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE6insertERKS1_RKS3_)
+    t._ZN5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE6insertERKS1_RKS3_.clean 0x00009132   Section       12  qtcontacts_serviceactionmanager.in(t._ZN5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE6insertERKS1_RKS3_.clean)
+    t._ZN5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE6removeERKS1_ 0x0000913e   Section      186  qtcontacts_serviceactionmanager.in(t._ZN5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE6removeERKS1_)
+    t._ZN5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE8freeDataEP9QHashData 0x000091f8   Section       16  qtcontacts_serviceactionmanager.in(t._ZN5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE8freeDataEP9QHashData)
+    t._ZN5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEED1Ev 0x00009208   Section       28  qtcontacts_serviceactionmanager.in(t._ZN5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEED1Ev)
+    t._ZN5QHashIPN10QtMobility21QContactActionFactoryE15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE 0x00009224   Section        2  qtcontacts_serviceactionmanager.in(t._ZN5QHashIPN10QtMobility21QContactActionFactoryE15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE)
+    t._ZN5QHashIPN10QtMobility21QContactActionFactoryE15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv 0x00009226   Section       20  qtcontacts_serviceactionmanager.in(t._ZN5QHashIPN10QtMobility21QContactActionFactoryE15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv)
+    t._ZN5QHashIPN10QtMobility21QContactActionFactoryE15QHashDummyValueE6insertERKS2_RKS3_ 0x0000923c   Section      160  qtcontacts_serviceactionmanager.in(t._ZN5QHashIPN10QtMobility21QContactActionFactoryE15QHashDummyValueE6insertERKS2_RKS3_)
+    t._ZN5QHashIPN10QtMobility21QContactActionFactoryE15QHashDummyValueE8freeDataEP9QHashData 0x000092dc   Section       16  qtcontacts_serviceactionmanager.in(t._ZN5QHashIPN10QtMobility21QContactActionFactoryE15QHashDummyValueE8freeDataEP9QHashData)
+    t._ZN5QHashIPN10QtMobility21QContactActionFactoryE15QHashDummyValueED1Ev 0x000092ec   Section       28  qtcontacts_serviceactionmanager.in(t._ZN5QHashIPN10QtMobility21QContactActionFactoryE15QHashDummyValueED1Ev)
+    t._ZN5QListIN10QtMobility24QContactActionDescriptorEE13detach_helperEi 0x00009308   Section       86  qtcontacts_serviceactionmanager.in(t._ZN5QListIN10QtMobility24QContactActionDescriptorEE13detach_helperEi)
+    t._ZN5QListIN10QtMobility24QContactActionDescriptorEE13detach_helperEi.clean 0x0000935e   Section        8  qtcontacts_serviceactionmanager.in(t._ZN5QListIN10QtMobility24QContactActionDescriptorEE13detach_helperEi.clean)
+    t._ZN5QListIN10QtMobility24QContactActionDescriptorEE14node_constructEPNS2_4NodeERKS1_ 0x00009366   Section       26  qtcontacts_serviceactionmanager.in(t._ZN5QListIN10QtMobility24QContactActionDescriptorEE14node_constructEPNS2_4NodeERKS1_)
+    t._ZN5QListIN10QtMobility24QContactActionDescriptorEE14node_constructEPNS2_4NodeERKS1_.clean 0x00009380   Section       12  qtcontacts_serviceactionmanager.in(t._ZN5QListIN10QtMobility24QContactActionDescriptorEE14node_constructEPNS2_4NodeERKS1_.clean)
+    t._ZN5QListIN10QtMobility24QContactActionDescriptorEE18detach_helper_growEii 0x0000938c   Section      186  qtcontacts_serviceactionmanager.in(t._ZN5QListIN10QtMobility24QContactActionDescriptorEE18detach_helper_growEii)
+    t._ZN5QListIN10QtMobility24QContactActionDescriptorEE18detach_helper_growEii.clean 0x00009446   Section        8  qtcontacts_serviceactionmanager.in(t._ZN5QListIN10QtMobility24QContactActionDescriptorEE18detach_helper_growEii.clean)
+    t._ZN5QListIN10QtMobility24QContactActionDescriptorEE4freeEPN9QListData4DataE 0x0000944e   Section       48  qtcontacts_serviceactionmanager.in(t._ZN5QListIN10QtMobility24QContactActionDescriptorEE4freeEPN9QListData4DataE)
+    t._ZN5QListIN10QtMobility24QContactActionDescriptorEE6appendERKS1_ 0x00009480   Section      100  qtcontacts_serviceactionmanager.in(t._ZN5QListIN10QtMobility24QContactActionDescriptorEE6appendERKS1_)
+    t._ZN5QListIN10QtMobility24QContactActionDescriptorEE6appendERKS1_.clean 0x000094e4   Section        8  qtcontacts_serviceactionmanager.in(t._ZN5QListIN10QtMobility24QContactActionDescriptorEE6appendERKS1_.clean)
+    t._ZN5QListIN10QtMobility24QContactActionDescriptorEE9node_copyEPNS2_4NodeES4_S4_ 0x000094ec   Section       70  qtcontacts_serviceactionmanager.in(t._ZN5QListIN10QtMobility24QContactActionDescriptorEE9node_copyEPNS2_4NodeES4_S4_)
+    t._ZN5QListIN10QtMobility24QContactActionDescriptorEE9node_copyEPNS2_4NodeES4_S4_.clean 0x00009532   Section       22  qtcontacts_serviceactionmanager.in(t._ZN5QListIN10QtMobility24QContactActionDescriptorEE9node_copyEPNS2_4NodeES4_S4_.clean)
+    t._ZN5QListIN10QtMobility24QContactActionDescriptorEED1Ev 0x00009548   Section       30  qtcontacts_serviceactionmanager.in(t._ZN5QListIN10QtMobility24QContactActionDescriptorEED1Ev)
+    t._ZN5QListIN10QtMobility27QServiceInterfaceDescriptorEE13detach_helperEi 0x00009566   Section      152  qtcontacts_serviceactionmanager.in(t._ZN5QListIN10QtMobility27QServiceInterfaceDescriptorEE13detach_helperEi)
+    t._ZN5QListIN10QtMobility27QServiceInterfaceDescriptorEE13detach_helperEi.clean 0x000095fe   Section       18  qtcontacts_serviceactionmanager.in(t._ZN5QListIN10QtMobility27QServiceInterfaceDescriptorEE13detach_helperEi.clean)
+    t._ZN5QListIN10QtMobility27QServiceInterfaceDescriptorEE4freeEPN9QListData4DataE 0x00009610   Section       56  qtcontacts_serviceactionmanager.in(t._ZN5QListIN10QtMobility27QServiceInterfaceDescriptorEE4freeEPN9QListData4DataE)
+    t._ZN5QListIN10QtMobility27QServiceInterfaceDescriptorEED1Ev 0x00009648   Section       30  qtcontacts_serviceactionmanager.in(t._ZN5QListIN10QtMobility27QServiceInterfaceDescriptorEED1Ev)
+    t._ZN8QPointerI7QObjectED1Ev             0x00009666   Section       12  qtcontacts_serviceactionmanager.in(t._ZN8QPointerI7QObjectED1Ev)
+    t._ZN9QHashNodeI7QStringN10QtMobility24QContactActionDescriptorEEC1ERKS0_RKS2_ 0x00009672   Section       32  qtcontacts_serviceactionmanager.in(t._ZN9QHashNodeI7QStringN10QtMobility24QContactActionDescriptorEEC1ERKS0_RKS2_)
+    t._ZN9QHashNodeI7QStringN10QtMobility24QContactActionDescriptorEEC1ERKS0_RKS2_.clean 0x00009692   Section       12  qtcontacts_serviceactionmanager.in(t._ZN9QHashNodeI7QStringN10QtMobility24QContactActionDescriptorEEC1ERKS0_RKS2_.clean)
+    t._ZN9QHashNodeIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEEC1ERKS1_RKS3_ 0x0000969e   Section       18  qtcontacts_serviceactionmanager.in(t._ZN9QHashNodeIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEEC1ERKS1_RKS3_)
+    t._ZNK17QForeachContainerI5QListIN10QtMobility24QContactActionDescriptorEEE9conditionEv 0x000096b0   Section       26  qtcontacts_serviceactionmanager.in(t._ZNK17QForeachContainerI5QListIN10QtMobility24QContactActionDescriptorEEE9conditionEv)
+    t._ZNK17QForeachContainerI5QListIN10QtMobility27QServiceInterfaceDescriptorEEE9conditionEv 0x000096ca   Section       26  qtcontacts_serviceactionmanager.in(t._ZNK17QForeachContainerI5QListIN10QtMobility27QServiceInterfaceDescriptorEEE9conditionEv)
+    t._ZNK5QHashI7QStringN10QtMobility24QContactActionDescriptorEE8findNodeERKS0_Pj 0x000096e4   Section       90  qtcontacts_serviceactionmanager.in(t._ZNK5QHashI7QStringN10QtMobility24QContactActionDescriptorEE8findNodeERKS0_Pj)
+    t._ZNK5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE4keysEv 0x00009740   Section      116  qtcontacts_serviceactionmanager.in(t._ZNK5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE4keysEv)
+    t._ZNK5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE4keysEv.clean 0x000097b4   Section       10  qtcontacts_serviceactionmanager.in(t._ZNK5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE4keysEv.clean)
+    t._ZNK5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE5valueERKS1_ 0x000097be   Section       36  qtcontacts_serviceactionmanager.in(t._ZNK5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE5valueERKS1_)
+    t._ZNK5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE8findNodeERKS1_Pj 0x000097e2   Section       90  qtcontacts_serviceactionmanager.in(t._ZNK5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE8findNodeERKS1_Pj)
+    t._ZNK5QHashIPN10QtMobility21QContactActionFactoryE15QHashDummyValueE8findNodeERKS2_Pj 0x0000983c   Section       62  qtcontacts_serviceactionmanager.in(t._ZNK5QHashIPN10QtMobility21QContactActionFactoryE15QHashDummyValueE8findNodeERKS2_Pj)
+    .extab._ZN10QtMobility28QContactActionServiceManagerC1Ev 0x0000987c   Data           0  qtcontacts_serviceactionmanager.in(.ARM.extab)
+    .extab.qt_plugin_instance                0x000098a4   Data           0  qtcontacts_serviceactionmanager.in(.ARM.extab)
+    .extab._ZN10QtMobility28QContactActionServiceManager14serviceRemovedERK7QString 0x000098bc   Data           0  qtcontacts_serviceactionmanager.in(.ARM.extab)
+    .extab._ZN10QtMobility28QContactActionServiceManager12serviceAddedERK7QString 0x0000994c   Data           0  qtcontacts_serviceactionmanager.in(.ARM.extab)
+    .extab._ZN10QtMobility28QContactActionServiceManagerD1Ev 0x000099cc   Data           0  qtcontacts_serviceactionmanager.in(.ARM.extab)
+    .extab._ZN10QtMobility28QContactActionServiceManager4initEv 0x00009a2c   Data           0  qtcontacts_serviceactionmanager.in(.ARM.extab)
+    .extab._ZN10QtMobility28QContactActionServiceManager17actionFactoryHashEv 0x00009aa4   Data           0  qtcontacts_serviceactionmanager.in(.ARM.extab)
+    .extab._ZN10QtMobility28QContactActionServiceManager14descriptorHashEv 0x00009ab4   Data           0  qtcontacts_serviceactionmanager.in(.ARM.extab)
+    .extab._ZN10QtMobility35contactActionServiceManagerInstanceEv 0x00009ac4   Data           0  qtcontacts_serviceactionmanager.in(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility24QContactActionDescriptorEE9node_copyEPNS2_4NodeES4_S4_ 0x00009adc   Data           0  qtcontacts_serviceactionmanager.in(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility24QContactActionDescriptorEE13detach_helperEi 0x00009b00   Data           0  qtcontacts_serviceactionmanager.in(.ARM.extab)
+    .extab._Z20qForeachContainerNewI5QListIN10QtMobility24QContactActionDescriptorEEE17QForeachContainerIT_ERKS5_ 0x00009b1c   Data           0  qtcontacts_serviceactionmanager.in(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility27QServiceInterfaceDescriptorEE13detach_helperEi 0x00009b2c   Data           0  qtcontacts_serviceactionmanager.in(.ARM.extab)
+    .extab._Z20qForeachContainerNewI5QListIN10QtMobility27QServiceInterfaceDescriptorEEE17QForeachContainerIT_ERKS5_ 0x00009b70   Data           0  qtcontacts_serviceactionmanager.in(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility24QContactActionDescriptorEE18detach_helper_growEii 0x00009b80   Data           0  qtcontacts_serviceactionmanager.in(.ARM.extab)
+    .extab._ZN9QHashNodeI7QStringN10QtMobility24QContactActionDescriptorEEC1ERKS0_RKS2_ 0x00009bb0   Data           0  qtcontacts_serviceactionmanager.in(.ARM.extab)
+    .extab._ZN5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE6removeERKS1_ 0x00009bc0   Data           0  qtcontacts_serviceactionmanager.in(.ARM.extab)
+    .extab._ZNK5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE4keysEv 0x00009bd4   Data           0  qtcontacts_serviceactionmanager.in(.ARM.extab)
+    .extab._ZN5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE6insertERKS1_RKS3_ 0x00009be4   Data           0  qtcontacts_serviceactionmanager.in(.ARM.extab)
+    .extab._ZN10QMultiHashI7QStringN10QtMobility24QContactActionDescriptorEE6insertERKS0_RKS2_ 0x00009bf4   Data           0  qtcontacts_serviceactionmanager.in(.ARM.extab)
+    .extab._ZN5QHashI7QStringN10QtMobility24QContactActionDescriptorEE11deleteNode2EPN9QHashData4NodeE 0x00009c04   Data           0  qtcontacts_serviceactionmanager.in(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility24QContactActionDescriptorEE6appendERKS1_ 0x00009c14   Data           0  qtcontacts_serviceactionmanager.in(.ARM.extab)
+    .extab._ZN5QHashI7QStringN10QtMobility24QContactActionDescriptorEE13duplicateNodeEPN9QHashData4NodeEPv 0x00009c44   Data           0  qtcontacts_serviceactionmanager.in(.ARM.extab)
+    .extab._ZN5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE13duplicateNodeEPN9QHashData4NodeEPv 0x00009c54   Data           0  qtcontacts_serviceactionmanager.in(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility24QContactActionDescriptorEE14node_constructEPNS2_4NodeERKS1_ 0x00009c64   Data           0  qtcontacts_serviceactionmanager.in(.ARM.extab)
+    .constdata$1                             0x00009c74   Data           0  qtcontacts_serviceactionmanager.in(.constdata)
+    .constdata                               0x00009c74   Section      196  qtcontacts_serviceactionmanager.in(.constdata)
+    QtMobility::qt_plugin_verification_data  0x00009c84   Data          91  qtcontacts_serviceactionmanager.in(.constdata)
+    QtMobility::qt_meta_stringdata_QContactActionServiceManager 0x00009cdf   Data          89  qtcontacts_serviceactionmanager.in(.constdata)
+    .constdata$28                            0x00009d38   Data           0  qtcontacts_serviceactionmanager.in(.constdata)
+    QtMobility::qt_meta_data_QContactActionServiceManager 0x00009d38   Data         100  qtcontacts_serviceactionmanager.in(.constdata)
+    .constdata                               0x00009d38   Section      100  qtcontacts_serviceactionmanager.in(.constdata)
+    .constdata__ZTIN10QtMobility27QContactActionManagerPluginE 0x00009d9c   Section        8  qtcontacts_serviceactionmanager.in(.constdata__ZTIN10QtMobility27QContactActionManagerPluginE)
+    .constdata__ZTIN10QtMobility28QContactActionServiceManagerE 0x00009da4   Section       32  qtcontacts_serviceactionmanager.in(.constdata__ZTIN10QtMobility28QContactActionServiceManagerE)
+    .constdata__ZTISt9bad_alloc              0x00009dc4   Section       12  qtcontacts_serviceactionmanager.in(.constdata__ZTISt9bad_alloc)
+    .constdata__ZTSN10QtMobility27QContactActionManagerPluginE 0x00009dd0   Section       44  qtcontacts_serviceactionmanager.in(.constdata__ZTSN10QtMobility27QContactActionManagerPluginE)
+    .constdata__ZTSN10QtMobility28QContactActionServiceManagerE 0x00009dfc   Section       45  qtcontacts_serviceactionmanager.in(.constdata__ZTSN10QtMobility28QContactActionServiceManagerE)
+    .constdata__ZTSSt9bad_alloc              0x00009e29   Section       13  qtcontacts_serviceactionmanager.in(.constdata__ZTSSt9bad_alloc)
+    .constdata__ZTVN10QtMobility28QContactActionServiceManagerE 0x00009e38   Section       80  qtcontacts_serviceactionmanager.in(.constdata__ZTVN10QtMobility28QContactActionServiceManagerE)
+    .ARM.exidx                               0x00009e88   Section        8  ucppinit_aeabi.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  qtcontacts_serviceactionmanager.in(.data)
+    _ZGV_instance@qt_plugin_instance_0       0x00400000   Data           4  qtcontacts_serviceactionmanager.in(.data)
+    .data                                    0x00400000   Section       24  qtcontacts_serviceactionmanager.in(.data)
+    _instance@qt_plugin_instance_1           0x00400004   Data           4  qtcontacts_serviceactionmanager.in(.data)
+    _ZGVcleanup@_ZN10QtMobility35contactActionServiceManagerInstanceEv_0 0x00400008   Data           4  qtcontacts_serviceactionmanager.in(.data)
+    cleanup@_ZN10QtMobility35contactActionServiceManagerInstanceEv_1 0x0040000c   Data           4  qtcontacts_serviceactionmanager.in(.data)
+    QtMobility::this_contactActionServiceManagerInstance 0x00400010   Data           8  qtcontacts_serviceactionmanager.in(.data)
+    .data$0                                  0x00400018   Data           0  ucppfini.o(.data)
+    .data                                    0x00400018   Section        4  ucppfini.o(.data)
+    .bss$5                                   0x0040001c   Data           0  ucppfini.o(.bss)
+    dtor_rec                                 0x0040001c   Data        2048  ucppfini.o(.bss)
+    .bss                                     0x0040001c   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$IEEEJ$EBA8$UX$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    #<DLL>QtContacts{00010103}[2002ac7a].dll#<\DLL>32d  - Undefined Reference
+    #<DLL>QtContacts{00010103}[2002ac7a].dll#<\DLL>331  - Undefined Reference
+    #<DLL>QtContacts{00010103}[2002ac7a].dll#<\DLL>356  - Undefined Reference
+    #<DLL>QtContacts{00010103}[2002ac7a].dll#<\DLL>37c  - Undefined Reference
+    #<DLL>QtContacts{00010103}[2002ac7a].dll#<\DLL>37d  - Undefined Reference
+    #<DLL>QtContacts{00010103}[2002ac7a].dll#<\DLL>388  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>112  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>113  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>38  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>46  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>49  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>686  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>687  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>68a  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>68c  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e0  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e3  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e4  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e6  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e7  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e8  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6ed  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6f1  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6f8  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6f9  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6fd  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>702  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>726  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>822  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>856  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>85d  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>85e  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>85f  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>88c  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>895  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>972  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>c19  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>c1a  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>c43  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>e19  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>e1a  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>e69  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>e6b  - Undefined Reference
+    #<DLL>QtServiceFramework{00010103}[2002ac84].dll#<\DLL>20  - Undefined Reference
+    #<DLL>QtServiceFramework{00010103}[2002ac84].dll#<\DLL>29  - Undefined Reference
+    #<DLL>QtServiceFramework{00010103}[2002ac84].dll#<\DLL>2d  - Undefined Reference
+    #<DLL>QtServiceFramework{00010103}[2002ac84].dll#<\DLL>3d  - Undefined Reference
+    #<DLL>QtServiceFramework{00010103}[2002ac84].dll#<\DLL>41  - Undefined Reference
+    #<DLL>QtServiceFramework{00010103}[2002ac84].dll#<\DLL>57  - Undefined Reference
+    #<DLL>QtServiceFramework{00010103}[2002ac84].dll#<\DLL>58  - Undefined Reference
+    #<DLL>QtServiceFramework{00010103}[2002ac84].dll#<\DLL>60  - Undefined Reference
+    #<DLL>QtServiceFramework{00010103}[2002ac84].dll#<\DLL>65  - Undefined Reference
+    #<DLL>QtServiceFramework{00010103}[2002ac84].dll#<\DLL>8  - Undefined Reference
+    #<DLL>QtServiceFramework{00010103}[2002ac84].dll#<\DLL>c  - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>9b     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>9e     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>b4     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>b7     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>b8     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>ba     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>bb     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>bc     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>be     - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>29e  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>29f  - Undefined Reference
+    #<DLL>libc{00010000}[10207369].dll#<\DLL>15e  - Undefined Reference
+    #<DLL>libstdcpp{00010000}[10282872].dll#<\DLL>3dc  - Undefined Reference
+    #<DLL>libstdcpp{00010000}[10282872].dll#<\DLL>3e0  - Undefined Reference
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    QtMobility::QContactActionFactory::InterfaceName  - Undefined Reference
+    QtMobility::QContactActionFactory::staticMetaObject  - Undefined Reference
+    QObject::staticMetaObject                 - Undefined Reference
+    QHashData::shared_null                    - Undefined Reference
+    QListData::shared_null                    - Undefined Reference
+    typeinfo for QObject                      - Undefined Reference
+    typeinfo for std::exception               - Undefined Reference
+    vtable for __cxxabiv1::__class_type_info  - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    vtable for __cxxabiv1::__vmi_class_type_info  - Undefined Reference
+    _fp_init                                  - Undefined Weak Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      72  ucppinit_aeabi.o(.emb_text)
+    std::nothrow                             0x00008071   Thumb Code     0  ucppinit_aeabi.o(.emb_text)
+    qt_plugin_query_verification_data        0x00008071   Thumb Code     4  qtcontacts_serviceactionmanager.in(.text)
+    QtMobility::QContactActionServiceManager::QContactActionServiceManager() 0x00008075   Thumb Code    88  qtcontacts_serviceactionmanager.in(.text)
+    QtMobility::QContactActionServiceManager::QContactActionServiceManager__sub_object() 0x00008075   Thumb Code     0  qtcontacts_serviceactionmanager.in(.text)
+    qt_plugin_instance                       0x000080cd   Thumb Code    94  qtcontacts_serviceactionmanager.in(.text)
+    QtMobility::QContactActionServiceManager::getStaticMetaObject() 0x0000812b   Thumb Code     6  qtcontacts_serviceactionmanager.in(.text)
+    QtMobility::QContactActionServiceManager::metaObject() const 0x00008131   Thumb Code    14  qtcontacts_serviceactionmanager.in(.text)
+    QtMobility::QContactActionServiceManager::qt_metacast(const char*) 0x0000813f   Thumb Code    72  qtcontacts_serviceactionmanager.in(.text)
+    QtMobility::QContactActionServiceManager::serviceRemoved(const QString&) 0x00008187   Thumb Code   324  qtcontacts_serviceactionmanager.in(.text)
+    QtMobility::QContactActionServiceManager::serviceAdded(const QString&) 0x000082cb   Thumb Code   304  qtcontacts_serviceactionmanager.in(.text)
+    QtMobility::QContactActionServiceManager::qt_metacall(QMetaObject::Call, int, void**) 0x000083fb   Thumb Code   170  qtcontacts_serviceactionmanager.in(.text)
+    QtMobility::QContactActionServiceManager::instance() 0x000084a5   Thumb Code     8  qtcontacts_serviceactionmanager.in(.text)
+    QtMobility::QContactActionServiceManager::~QContactActionServiceManager() 0x000084ad   Thumb Code   228  qtcontacts_serviceactionmanager.in(.text)
+    QtMobility::QContactActionServiceManager::~QContactActionServiceManager__sub_object() 0x000084ad   Thumb Code     0  qtcontacts_serviceactionmanager.in(.text)
+    QtMobility::QContactActionServiceManager::~QContactActionServiceManager__deallocating() 0x00008591   Thumb Code    16  qtcontacts_serviceactionmanager.in(.text)
+    QtMobility::QContactActionServiceManager::init() 0x000085a1   Thumb Code   346  qtcontacts_serviceactionmanager.in(.text)
+    QtMobility::QContactActionServiceManager::actionFactoryHash() 0x000086fb   Thumb Code    52  qtcontacts_serviceactionmanager.in(.text)
+    thunk{-8} to QtMobility::QContactActionServiceManager::actionFactoryHash() 0x0000872f   Thumb Code     4  qtcontacts_serviceactionmanager.in(.text)
+    QtMobility::QContactActionServiceManager::descriptorHash() 0x00008733   Thumb Code    52  qtcontacts_serviceactionmanager.in(.text)
+    thunk{-8} to QtMobility::QContactActionServiceManager::descriptorHash() 0x00008767   Thumb Code     4  qtcontacts_serviceactionmanager.in(.text)
+    _E32Dll_Body                             0x0000887d   Thumb Code    34  uc_dll.o(.text)
+    CppBSSInitializationError                0x000088a4   ARM Code       4  ucppfini.o(.text)
+    __aeabi_atexit                           0x000088a8   ARM Code      28  ucppfini.o(.text)
+    __cxa_atexit                             0x000088c4   ARM Code      48  ucppfini.o(.text)
+    __cxa_finalize                           0x000088f4   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x00008924   ARM Code       8  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x00008a9c   ARM Code       0  qtcontacts_serviceactionmanager{000a0000}.exp(ExportTable)
+    DLL##ExportTableSize                     0x00008aa0   Data           0  qtcontacts_serviceactionmanager{000a0000}.exp(ExportTable)
+    DLL##ExportTable                         0x00008aa4   Data           0  qtcontacts_serviceactionmanager{000a0000}.exp(ExportTable)
+    QtMobility::QServiceInterfaceDescriptor::attribute(QtMobility::QServiceInterfaceDescriptor::Attribute) const 0x00008aac   ARM Code       0  QtServiceFramework{00010103}-101.o(StubCode)
+    QtMobility::QServiceFilter::~QServiceFilter() 0x00008ab4   ARM Code       0  QtServiceFramework{00010103}-12.o(StubCode)
+    QtMobility::QServiceManager::loadInterface(const QtMobility::QServiceInterfaceDescriptor&, QtMobility::QServiceContext*, QtMobility::QAbstractSecuritySession*) 0x00008abc   ARM Code       0  QtServiceFramework{00010103}-32.o(StubCode)
+    QtMobility::QServiceManager::QServiceManager(QObject*) 0x00008ac4   ARM Code       0  QtServiceFramework{00010103}-41.o(StubCode)
+    QtMobility::QServiceManager::~QServiceManager() 0x00008acc   ARM Code       0  QtServiceFramework{00010103}-45.o(StubCode)
+    QtMobility::QServiceInterfaceDescriptor::QServiceInterfaceDescriptor(const QtMobility::QServiceInterfaceDescriptor&) 0x00008ad4   ARM Code       0  QtServiceFramework{00010103}-61.o(StubCode)
+    QtMobility::QServiceInterfaceDescriptor::~QServiceInterfaceDescriptor() 0x00008adc   ARM Code       0  QtServiceFramework{00010103}-65.o(StubCode)
+    QtMobility::QServiceFilter::QServiceFilter() 0x00008ae4   ARM Code       0  QtServiceFramework{00010103}-8.o(StubCode)
+    QtMobility::QServiceManager::findInterfaces(const QString&) const 0x00008aec   ARM Code       0  QtServiceFramework{00010103}-87.o(StubCode)
+    QtMobility::QServiceManager::findInterfaces(const QtMobility::QServiceFilter&) const 0x00008af4   ARM Code       0  QtServiceFramework{00010103}-88.o(StubCode)
+    QtMobility::QServiceInterfaceDescriptor::interfaceName() const 0x00008afc   ARM Code       0  QtServiceFramework{00010103}-96.o(StubCode)
+    QtMobility::QContactActionDescriptor::QContactActionDescriptor(const QtMobility::QContactActionDescriptor&) 0x00008b04   ARM Code       0  QtContacts{00010103}-813.o(StubCode)
+    QtMobility::QContactActionDescriptor::~QContactActionDescriptor() 0x00008b0c   ARM Code       0  QtContacts{00010103}-817.o(StubCode)
+    QtMobility::qHash(const QtMobility::QContactActionDescriptor&) 0x00008b14   ARM Code       0  QtContacts{00010103}-854.o(StubCode)
+    QtMobility::QContactActionDescriptor::actionName() const 0x00008b1c   ARM Code       0  QtContacts{00010103}-892.o(StubCode)
+    QtMobility::QContactActionDescriptor::serviceName() const 0x00008b24   ARM Code       0  QtContacts{00010103}-893.o(StubCode)
+    QtMobility::QContactActionDescriptor::operator ==(const QtMobility::QContactActionDescriptor&) const 0x00008b2c   ARM Code       0  QtContacts{00010103}-904.o(StubCode)
+    operator delete (void*)                  0x00008b34   ARM Code       0  libstdcpp{00010000}-988.o(StubCode)
+    operator new(unsigned)                   0x00008b3c   ARM Code       0  libstdcpp{00010000}-992.o(StubCode)
+    QMutex::lock()                           0x00008b44   ARM Code       0  QtCore{00040703}-1670.o(StubCode)
+    QMutex::unlock()                         0x00008b4c   ARM Code       0  QtCore{00040703}-1671.o(StubCode)
+    QMutex::QMutex(QMutex::RecursionMode)    0x00008b54   ARM Code       0  QtCore{00040703}-1674.o(StubCode)
+    QMutex::~QMutex()                        0x00008b5c   ARM Code       0  QtCore{00040703}-1676.o(StubCode)
+    QObject::childEvent(QChildEvent*)        0x00008b64   ARM Code       0  QtCore{00040703}-1760.o(StubCode)
+    QObject::timerEvent(QTimerEvent*)        0x00008b6c   ARM Code       0  QtCore{00040703}-1763.o(StubCode)
+    QObject::customEvent(QEvent*)            0x00008b74   ARM Code       0  QtCore{00040703}-1764.o(StubCode)
+    QObject::eventFilter(QObject*, QEvent*)  0x00008b7c   ARM Code       0  QtCore{00040703}-1766.o(StubCode)
+    QObject::qt_metacall(QMetaObject::Call, int, void**) 0x00008b84   ARM Code       0  QtCore{00040703}-1767.o(StubCode)
+    QObject::qt_metacast(const char*)        0x00008b8c   ARM Code       0  QtCore{00040703}-1768.o(StubCode)
+    QObject::connectNotify(const char*)      0x00008b94   ARM Code       0  QtCore{00040703}-1773.o(StubCode)
+    QObject::disconnectNotify(const char*)   0x00008b9c   ARM Code       0  QtCore{00040703}-1777.o(StubCode)
+    QObject::event(QEvent*)                  0x00008ba4   ARM Code       0  QtCore{00040703}-1784.o(StubCode)
+    QObject::connect(const QObject*, const char*, const QObject*, const char*, Qt::ConnectionType) 0x00008bac   ARM Code       0  QtCore{00040703}-1785.o(StubCode)
+    QObject::QObject(QObject*)               0x00008bb4   ARM Code       0  QtCore{00040703}-1789.o(StubCode)
+    QObject::~QObject()                      0x00008bbc   ARM Code       0  QtCore{00040703}-1794.o(StubCode)
+    QString::free(QString::Data*)            0x00008bc4   ARM Code       0  QtCore{00040703}-1830.o(StubCode)
+    QVariant::~QVariant()                    0x00008bcc   ARM Code       0  QtCore{00040703}-2082.o(StubCode)
+    QHashData::free_helper(void(*)(QHashData::Node*)) 0x00008bd4   ARM Code       0  QtCore{00040703}-2134.o(StubCode)
+    QHashData::rehash(int)                   0x00008bdc   ARM Code       0  QtCore{00040703}-2141.o(StubCode)
+    QHashData::freeNode(void*)               0x00008be4   ARM Code       0  QtCore{00040703}-2142.o(StubCode)
+    QHashData::nextNode(QHashData::Node*)    0x00008bec   ARM Code       0  QtCore{00040703}-2143.o(StubCode)
+    QListData::append()                      0x00008bf4   ARM Code       0  QtCore{00040703}-2188.o(StubCode)
+    QListData::realloc(int)                  0x00008bfc   ARM Code       0  QtCore{00040703}-2197.o(StubCode)
+    QMetaObject::cast(QObject*) const        0x00008c04   ARM Code       0  QtCore{00040703}-2418.o(StubCode)
+    QMetaObject::changeGuard(QObject**, QObject*) 0x00008c0c   ARM Code       0  QtCore{00040703}-274.o(StubCode)
+    QMetaObject::removeGuard(QObject**)      0x00008c14   ARM Code       0  QtCore{00040703}-275.o(StubCode)
+    QString::operator ==(const QLatin1String&) const 0x00008c1c   ARM Code       0  QtCore{00040703}-3097.o(StubCode)
+    QString::operator ==(const QString&) const 0x00008c24   ARM Code       0  QtCore{00040703}-3098.o(StubCode)
+    QVariant::toInt(bool*) const             0x00008c2c   ARM Code       0  QtCore{00040703}-3139.o(StubCode)
+    QHashData::allocateNode(int)             0x00008c34   ARM Code       0  QtCore{00040703}-3609.o(StubCode)
+    QHashData::detach_helper2(void(*)(QHashData::Node*, void*), void(*)(QHashData::Node*), int, int) 0x00008c3c   ARM Code       0  QtCore{00040703}-3610.o(StubCode)
+    QListData::detach_grow(int*, int)        0x00008c44   ARM Code       0  QtCore{00040703}-3689.o(StubCode)
+    QListData::detach(int)                   0x00008c4c   ARM Code       0  QtCore{00040703}-3691.o(StubCode)
+    QBasicAtomicPointer_testAndSetOrdered(void*volatile *, void*, void*) 0x00008c54   ARM Code       0  QtCore{00040703}-56.o(StubCode)
+    qFree(void*)                             0x00008c5c   ARM Code       0  QtCore{00040703}-70.o(StubCode)
+    qHash(const QString&)                    0x00008c64   ARM Code       0  QtCore{00040703}-73.o(StubCode)
+    strcmp                                   0x00008c6c   ARM Code       0  libc{00010000}-350.o(StubCode)
+    User::LockedDec(int&)                    0x00008c74   ARM Code       0  euser{000a0000}-670.o(StubCode)
+    User::LockedInc(int&)                    0x00008c7c   ARM Code       0  euser{000a0000}-671.o(StubCode)
+    __aeabi_uidivmod                         0x00008c84   ARM Code       0  drtaeabi{000a0000}-155.o(StubCode)
+    __aeabi_unwind_cpp_pr0                   0x00008c8c   ARM Code       0  drtaeabi{000a0000}-158.o(StubCode)
+    __cxa_begin_catch                        0x00008c94   ARM Code       0  drtaeabi{000a0000}-180.o(StubCode)
+    __cxa_end_catch                          0x00008c9c   ARM Code       0  drtaeabi{000a0000}-183.o(StubCode)
+    __cxa_end_cleanup                        0x00008ca4   ARM Code       0  drtaeabi{000a0000}-184.o(StubCode)
+    __cxa_guard_abort                        0x00008cac   ARM Code       0  drtaeabi{000a0000}-186.o(StubCode)
+    __cxa_guard_acquire                      0x00008cb4   ARM Code       0  drtaeabi{000a0000}-187.o(StubCode)
+    __cxa_guard_release                      0x00008cbc   ARM Code       0  drtaeabi{000a0000}-188.o(StubCode)
+    __cxa_rethrow                            0x00008cc4   ARM Code       0  drtaeabi{000a0000}-190.o(StubCode)
+    QMultiHash<QString, QtMobility::QContactActionDescriptor>::~QMultiHash() 0x00008ccd   Thumb Code     8  qtcontacts_serviceactionmanager.in(i._ZN10QMultiHashI7QStringN10QtMobility24QContactActionDescriptorEED1Ev)
+    QMultiHash<QString, QtMobility::QContactActionDescriptor>::~QMultiHash__sub_object() 0x00008ccd   Thumb Code     0  qtcontacts_serviceactionmanager.in(i._ZN10QMultiHashI7QStringN10QtMobility24QContactActionDescriptorEED1Ev)
+    QMutexLocker::QMutexLocker(QMutex*)      0x00008cd5   Thumb Code    28  qtcontacts_serviceactionmanager.in(i._ZN12QMutexLockerC1EP6QMutex)
+    QMutexLocker::QMutexLocker__sub_object(QMutex*) 0x00008cd5   Thumb Code     0  qtcontacts_serviceactionmanager.in(i._ZN12QMutexLockerC1EP6QMutex)
+    QMutexLocker::~QMutexLocker()            0x00008cf1   Thumb Code    28  qtcontacts_serviceactionmanager.in(i._ZN12QMutexLockerD1Ev)
+    QMutexLocker::~QMutexLocker__sub_object() 0x00008cf1   Thumb Code     0  qtcontacts_serviceactionmanager.in(i._ZN12QMutexLockerD1Ev)
+    QBasicAtomicInt::ref()                   0x00008d0d   Thumb Code    18  qtcontacts_serviceactionmanager.in(i._ZN15QBasicAtomicInt3refEv)
+    QBasicAtomicInt::deref()                 0x00008d1f   Thumb Code    18  qtcontacts_serviceactionmanager.in(i._ZN15QBasicAtomicInt5derefEv)
+    QForeachContainer<QList<QtMobility::QContactActionDescriptor>>::~QForeachContainer() 0x00008d31   Thumb Code     8  qtcontacts_serviceactionmanager.in(i._ZN17QForeachContainerI5QListIN10QtMobility24QContactActionDescriptorEEED1Ev)
+    QForeachContainer<QList<QtMobility::QContactActionDescriptor>>::~QForeachContainer__sub_object() 0x00008d31   Thumb Code     0  qtcontacts_serviceactionmanager.in(i._ZN17QForeachContainerI5QListIN10QtMobility24QContactActionDescriptorEEED1Ev)
+    QForeachContainer<QList<QtMobility::QServiceInterfaceDescriptor>>::~QForeachContainer() 0x00008d39   Thumb Code     8  qtcontacts_serviceactionmanager.in(i._ZN17QForeachContainerI5QListIN10QtMobility27QServiceInterfaceDescriptorEEED1Ev)
+    QForeachContainer<QList<QtMobility::QServiceInterfaceDescriptor>>::~QForeachContainer__sub_object() 0x00008d39   Thumb Code     0  qtcontacts_serviceactionmanager.in(i._ZN17QForeachContainerI5QListIN10QtMobility27QServiceInterfaceDescriptorEEED1Ev)
+    QSet<QtMobility::QContactActionFactory*>::~QSet() 0x00008d41   Thumb Code     8  qtcontacts_serviceactionmanager.in(i._ZN4QSetIPN10QtMobility21QContactActionFactoryEED1Ev)
+    QSet<QtMobility::QContactActionFactory*>::~QSet__sub_object() 0x00008d41   Thumb Code     0  qtcontacts_serviceactionmanager.in(i._ZN4QSetIPN10QtMobility21QContactActionFactoryEED1Ev)
+    QString::~QString()                      0x00008d49   Thumb Code    24  qtcontacts_serviceactionmanager.in(i._ZN7QStringD1Ev)
+    QString::~QString__sub_object()          0x00008d49   Thumb Code     0  qtcontacts_serviceactionmanager.in(i._ZN7QStringD1Ev)
+    QHashData::willGrow()                    0x00008d61   Thumb Code    28  qtcontacts_serviceactionmanager.in(i._ZN9QHashData8willGrowEv)
+    QBasicAtomicInt::operator !=(int) const  0x00008d7d   Thumb Code    14  qtcontacts_serviceactionmanager.in(i._ZNK15QBasicAtomicIntneEi)
+    QListData::end() const                   0x00008d8b   Thumb Code    12  qtcontacts_serviceactionmanager.in(i._ZNK9QListData3endEv)
+    QListData::begin() const                 0x00008d97   Thumb Code    12  qtcontacts_serviceactionmanager.in(i._ZNK9QListData5beginEv)
+    operator delete (void*, void*)           0x00008da3   Thumb Code     2  qtcontacts_serviceactionmanager.in(i._ZdlPvS_)
+    operator new(unsigned, void*)            0x00008da5   Thumb Code     4  qtcontacts_serviceactionmanager.in(i._ZnwjPv)
+    qobject_cast<QtMobility::QContactActionFactory*>(QObject*) 0x00008da9   Thumb Code    12  qtcontacts_serviceactionmanager.in(t._Z12qobject_castIPN10QtMobility21QContactActionFactoryEET_P7QObject)
+    qForeachContainerNew<QList<QtMobility::QContactActionDescriptor>>(const T1&) 0x00008db9   Thumb Code    62  qtcontacts_serviceactionmanager.in(t._Z20qForeachContainerNewI5QListIN10QtMobility24QContactActionDescriptorEEE17QForeachContainerIT_ERKS5_)
+    qForeachContainerNew<QList<QtMobility::QServiceInterfaceDescriptor>>(const T1&) 0x00008e01   Thumb Code    62  qtcontacts_serviceactionmanager.in(t._Z20qForeachContainerNewI5QListIN10QtMobility27QServiceInterfaceDescriptorEEE17QForeachContainerIT_ERKS5_)
+    QMultiHash<QString, QtMobility::QContactActionDescriptor>::insert(const QString&, const QtMobility::QContactActionDescriptor&) 0x00008e49   Thumb Code    86  qtcontacts_serviceactionmanager.in(t._ZN10QMultiHashI7QStringN10QtMobility24QContactActionDescriptorEE6insertERKS0_RKS2_)
+    QMultiHash<QString, QtMobility::QContactActionDescriptor>::remove(const QString&, const QtMobility::QContactActionDescriptor&) 0x00008eab   Thumb Code   100  qtcontacts_serviceactionmanager.in(t._ZN10QMultiHashI7QStringN10QtMobility24QContactActionDescriptorEE6removeERKS0_RKS2_)
+    QtMobility::operator ==<(int)38>(const QString&, const QtMobility::QLatin1Constant<T1>&) 0x00008f0f   Thumb Code    12  qtcontacts_serviceactionmanager.in(t._ZN10QtMobilityeqILi38EEEbRK7QStringRKNS_15QLatin1ConstantIXT_EEE)
+    QGlobalStaticDeleter<QtMobility::QContactActionServiceManager>::~QGlobalStaticDeleter() 0x00008f1b   Thumb Code    34  qtcontacts_serviceactionmanager.in(t._ZN20QGlobalStaticDeleterIN10QtMobility28QContactActionServiceManagerEED1Ev)
+    QGlobalStaticDeleter<QtMobility::QContactActionServiceManager>::~QGlobalStaticDeleter__sub_object() 0x00008f1b   Thumb Code     0  qtcontacts_serviceactionmanager.in(t._ZN20QGlobalStaticDeleterIN10QtMobility28QContactActionServiceManagerEED1Ev)
+    QHash<QString, QtMobility::QContactActionDescriptor>::deleteNode2(QHashData::Node*) 0x00008f3d   Thumb Code    18  qtcontacts_serviceactionmanager.in(t._ZN5QHashI7QStringN10QtMobility24QContactActionDescriptorEE11deleteNode2EPN9QHashData4NodeE)
+    QHash<QString, QtMobility::QContactActionDescriptor>::duplicateNode(QHashData::Node*, void*) 0x00008f5b   Thumb Code    30  qtcontacts_serviceactionmanager.in(t._ZN5QHashI7QStringN10QtMobility24QContactActionDescriptorEE13duplicateNodeEPN9QHashData4NodeEPv)
+    QHash<QString, QtMobility::QContactActionDescriptor>::erase(QHash<QString, QtMobility::QContactActionDescriptor>::iterator) 0x00008f85   Thumb Code    80  qtcontacts_serviceactionmanager.in(t._ZN5QHashI7QStringN10QtMobility24QContactActionDescriptorEE5eraseENS3_8iteratorE)
+    QHash<QString, QtMobility::QContactActionDescriptor>::detach() 0x00008fd5   Thumb Code    60  qtcontacts_serviceactionmanager.in(t._ZN5QHashI7QStringN10QtMobility24QContactActionDescriptorEE6detachEv)
+    QHash<QString, QtMobility::QContactActionDescriptor>::freeData(QHashData*) 0x00009019   Thumb Code    12  qtcontacts_serviceactionmanager.in(t._ZN5QHashI7QStringN10QtMobility24QContactActionDescriptorEE8freeDataEP9QHashData)
+    QHash<QString, QtMobility::QContactActionDescriptor>::~QHash() 0x00009029   Thumb Code    28  qtcontacts_serviceactionmanager.in(t._ZN5QHashI7QStringN10QtMobility24QContactActionDescriptorEED1Ev)
+    QHash<QString, QtMobility::QContactActionDescriptor>::~QHash__sub_object() 0x00009029   Thumb Code     0  qtcontacts_serviceactionmanager.in(t._ZN5QHashI7QStringN10QtMobility24QContactActionDescriptorEED1Ev)
+    QHash<QtMobility::QContactActionDescriptor, QtMobility::QContactActionFactory*>::deleteNode2(QHashData::Node*) 0x00009045   Thumb Code    10  qtcontacts_serviceactionmanager.in(t._ZN5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE11deleteNode2EPN9QHashData4NodeE)
+    QHash<QtMobility::QContactActionDescriptor, QtMobility::QContactActionFactory*>::duplicateNode(QHashData::Node*, void*) 0x0000904f   Thumb Code    30  qtcontacts_serviceactionmanager.in(t._ZN5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE13duplicateNodeEPN9QHashData4NodeEPv)
+    QHash<QtMobility::QContactActionDescriptor, QtMobility::QContactActionFactory*>::detach() 0x00009079   Thumb Code    60  qtcontacts_serviceactionmanager.in(t._ZN5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE6detachEv)
+    QHash<QtMobility::QContactActionDescriptor, QtMobility::QContactActionFactory*>::insert(const QtMobility::QContactActionDescriptor&, QtMobility::QContactActionFactory*const &) 0x000090bd   Thumb Code   118  qtcontacts_serviceactionmanager.in(t._ZN5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE6insertERKS1_RKS3_)
+    QHash<QtMobility::QContactActionDescriptor, QtMobility::QContactActionFactory*>::remove(const QtMobility::QContactActionDescriptor&) 0x0000913f   Thumb Code   186  qtcontacts_serviceactionmanager.in(t._ZN5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE6removeERKS1_)
+    QHash<QtMobility::QContactActionDescriptor, QtMobility::QContactActionFactory*>::freeData(QHashData*) 0x000091f9   Thumb Code    12  qtcontacts_serviceactionmanager.in(t._ZN5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE8freeDataEP9QHashData)
+    QHash<QtMobility::QContactActionDescriptor, QtMobility::QContactActionFactory*>::~QHash() 0x00009209   Thumb Code    28  qtcontacts_serviceactionmanager.in(t._ZN5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEED1Ev)
+    QHash<QtMobility::QContactActionDescriptor, QtMobility::QContactActionFactory*>::~QHash__sub_object() 0x00009209   Thumb Code     0  qtcontacts_serviceactionmanager.in(t._ZN5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEED1Ev)
+    QHash<QtMobility::QContactActionFactory*, QHashDummyValue>::deleteNode2(QHashData::Node*) 0x00009225   Thumb Code     2  qtcontacts_serviceactionmanager.in(t._ZN5QHashIPN10QtMobility21QContactActionFactoryE15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE)
+    QHash<QtMobility::QContactActionFactory*, QHashDummyValue>::duplicateNode(QHashData::Node*, void*) 0x00009227   Thumb Code    20  qtcontacts_serviceactionmanager.in(t._ZN5QHashIPN10QtMobility21QContactActionFactoryE15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv)
+    QHash<QtMobility::QContactActionFactory*, QHashDummyValue>::insert(QtMobility::QContactActionFactory*const &, const QHashDummyValue&) 0x0000923d   Thumb Code   152  qtcontacts_serviceactionmanager.in(t._ZN5QHashIPN10QtMobility21QContactActionFactoryE15QHashDummyValueE6insertERKS2_RKS3_)
+    QHash<QtMobility::QContactActionFactory*, QHashDummyValue>::freeData(QHashData*) 0x000092dd   Thumb Code    12  qtcontacts_serviceactionmanager.in(t._ZN5QHashIPN10QtMobility21QContactActionFactoryE15QHashDummyValueE8freeDataEP9QHashData)
+    QHash<QtMobility::QContactActionFactory*, QHashDummyValue>::~QHash() 0x000092ed   Thumb Code    28  qtcontacts_serviceactionmanager.in(t._ZN5QHashIPN10QtMobility21QContactActionFactoryE15QHashDummyValueED1Ev)
+    QHash<QtMobility::QContactActionFactory*, QHashDummyValue>::~QHash__sub_object() 0x000092ed   Thumb Code     0  qtcontacts_serviceactionmanager.in(t._ZN5QHashIPN10QtMobility21QContactActionFactoryE15QHashDummyValueED1Ev)
+    QList<QtMobility::QContactActionDescriptor>::detach_helper(int) 0x00009309   Thumb Code    86  qtcontacts_serviceactionmanager.in(t._ZN5QListIN10QtMobility24QContactActionDescriptorEE13detach_helperEi)
+    QList<QtMobility::QContactActionDescriptor>::node_construct(QList<QtMobility::QContactActionDescriptor>::Node*, const QtMobility::QContactActionDescriptor&) 0x00009367   Thumb Code    26  qtcontacts_serviceactionmanager.in(t._ZN5QListIN10QtMobility24QContactActionDescriptorEE14node_constructEPNS2_4NodeERKS1_)
+    QList<QtMobility::QContactActionDescriptor>::detach_helper_grow(int, int) 0x0000938d   Thumb Code   186  qtcontacts_serviceactionmanager.in(t._ZN5QListIN10QtMobility24QContactActionDescriptorEE18detach_helper_growEii)
+    QList<QtMobility::QContactActionDescriptor>::free(QListData::Data*) 0x0000944f   Thumb Code    48  qtcontacts_serviceactionmanager.in(t._ZN5QListIN10QtMobility24QContactActionDescriptorEE4freeEPN9QListData4DataE)
+    QList<QtMobility::QContactActionDescriptor>::append(const QtMobility::QContactActionDescriptor&) 0x00009481   Thumb Code    94  qtcontacts_serviceactionmanager.in(t._ZN5QListIN10QtMobility24QContactActionDescriptorEE6appendERKS1_)
+    QList<QtMobility::QContactActionDescriptor>::node_copy(QList<QtMobility::QContactActionDescriptor>::Node*, QList<QtMobility::QContactActionDescriptor>::Node*, QList<QtMobility::QContactActionDescriptor>::Node*) 0x000094ed   Thumb Code    70  qtcontacts_serviceactionmanager.in(t._ZN5QListIN10QtMobility24QContactActionDescriptorEE9node_copyEPNS2_4NodeES4_S4_)
+    QList<QtMobility::QContactActionDescriptor>::~QList() 0x00009549   Thumb Code    30  qtcontacts_serviceactionmanager.in(t._ZN5QListIN10QtMobility24QContactActionDescriptorEED1Ev)
+    QList<QtMobility::QContactActionDescriptor>::~QList__sub_object() 0x00009549   Thumb Code     0  qtcontacts_serviceactionmanager.in(t._ZN5QListIN10QtMobility24QContactActionDescriptorEED1Ev)
+    QList<QtMobility::QServiceInterfaceDescriptor>::detach_helper(int) 0x00009567   Thumb Code   152  qtcontacts_serviceactionmanager.in(t._ZN5QListIN10QtMobility27QServiceInterfaceDescriptorEE13detach_helperEi)
+    QList<QtMobility::QServiceInterfaceDescriptor>::free(QListData::Data*) 0x00009611   Thumb Code    56  qtcontacts_serviceactionmanager.in(t._ZN5QListIN10QtMobility27QServiceInterfaceDescriptorEE4freeEPN9QListData4DataE)
+    QList<QtMobility::QServiceInterfaceDescriptor>::~QList() 0x00009649   Thumb Code    30  qtcontacts_serviceactionmanager.in(t._ZN5QListIN10QtMobility27QServiceInterfaceDescriptorEED1Ev)
+    QList<QtMobility::QServiceInterfaceDescriptor>::~QList__sub_object() 0x00009649   Thumb Code     0  qtcontacts_serviceactionmanager.in(t._ZN5QListIN10QtMobility27QServiceInterfaceDescriptorEED1Ev)
+    QPointer<QObject>::~QPointer()           0x00009667   Thumb Code    12  qtcontacts_serviceactionmanager.in(t._ZN8QPointerI7QObjectED1Ev)
+    QPointer<QObject>::~QPointer__sub_object() 0x00009667   Thumb Code     0  qtcontacts_serviceactionmanager.in(t._ZN8QPointerI7QObjectED1Ev)
+    QHashNode<QString, QtMobility::QContactActionDescriptor>::QHashNode(const QString&, const QtMobility::QContactActionDescriptor&) 0x00009673   Thumb Code    32  qtcontacts_serviceactionmanager.in(t._ZN9QHashNodeI7QStringN10QtMobility24QContactActionDescriptorEEC1ERKS0_RKS2_)
+    QHashNode<QString, QtMobility::QContactActionDescriptor>::QHashNode__sub_object(const QString&, const QtMobility::QContactActionDescriptor&) 0x00009673   Thumb Code     0  qtcontacts_serviceactionmanager.in(t._ZN9QHashNodeI7QStringN10QtMobility24QContactActionDescriptorEEC1ERKS0_RKS2_)
+    QHashNode<QtMobility::QContactActionDescriptor, QtMobility::QContactActionFactory*>::QHashNode(const QtMobility::QContactActionDescriptor&, QtMobility::QContactActionFactory*const &) 0x0000969f   Thumb Code    18  qtcontacts_serviceactionmanager.in(t._ZN9QHashNodeIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEEC1ERKS1_RKS3_)
+    QHashNode<QtMobility::QContactActionDescriptor, QtMobility::QContactActionFactory*>::QHashNode__sub_object(const QtMobility::QContactActionDescriptor&, QtMobility::QContactActionFactory*const &) 0x0000969f   Thumb Code     0  qtcontacts_serviceactionmanager.in(t._ZN9QHashNodeIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEEC1ERKS1_RKS3_)
+    QForeachContainer<QList<QtMobility::QContactActionDescriptor>>::condition() const 0x000096b1   Thumb Code    26  qtcontacts_serviceactionmanager.in(t._ZNK17QForeachContainerI5QListIN10QtMobility24QContactActionDescriptorEEE9conditionEv)
+    QForeachContainer<QList<QtMobility::QServiceInterfaceDescriptor>>::condition() const 0x000096cb   Thumb Code    26  qtcontacts_serviceactionmanager.in(t._ZNK17QForeachContainerI5QListIN10QtMobility27QServiceInterfaceDescriptorEEE9conditionEv)
+    QHash<QString, QtMobility::QContactActionDescriptor>::findNode(const QString&, unsigned*) const 0x000096e5   Thumb Code    90  qtcontacts_serviceactionmanager.in(t._ZNK5QHashI7QStringN10QtMobility24QContactActionDescriptorEE8findNodeERKS0_Pj)
+    QHash<QtMobility::QContactActionDescriptor, QtMobility::QContactActionFactory*>::keys() const 0x00009741   Thumb Code   112  qtcontacts_serviceactionmanager.in(t._ZNK5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE4keysEv)
+    QHash<QtMobility::QContactActionDescriptor, QtMobility::QContactActionFactory*>::value(const QtMobility::QContactActionDescriptor&) const 0x000097bf   Thumb Code    36  qtcontacts_serviceactionmanager.in(t._ZNK5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE5valueERKS1_)
+    QHash<QtMobility::QContactActionDescriptor, QtMobility::QContactActionFactory*>::findNode(const QtMobility::QContactActionDescriptor&, unsigned*) const 0x000097e3   Thumb Code    90  qtcontacts_serviceactionmanager.in(t._ZNK5QHashIN10QtMobility24QContactActionDescriptorEPNS0_21QContactActionFactoryEE8findNodeERKS1_Pj)
+    QHash<QtMobility::QContactActionFactory*, QHashDummyValue>::findNode(QtMobility::QContactActionFactory*const &, unsigned*) const 0x0000983d   Thumb Code    62  qtcontacts_serviceactionmanager.in(t._ZNK5QHashIPN10QtMobility21QContactActionFactoryE15QHashDummyValueE8findNodeERKS2_Pj)
+    QtMobility::QContactActionServiceManager::staticMetaObject 0x00009c74   Data          16  qtcontacts_serviceactionmanager.in(.constdata)
+    typeinfo for QtMobility::QContactActionManagerPlugin 0x00009d9c   Data           8  qtcontacts_serviceactionmanager.in(.constdata__ZTIN10QtMobility27QContactActionManagerPluginE)
+    typeinfo for QtMobility::QContactActionServiceManager 0x00009da4   Data          32  qtcontacts_serviceactionmanager.in(.constdata__ZTIN10QtMobility28QContactActionServiceManagerE)
+    typeinfo for std::bad_alloc              0x00009dc4   Data          12  qtcontacts_serviceactionmanager.in(.constdata__ZTISt9bad_alloc)
+    typeinfo name for QtMobility::QContactActionManagerPlugin 0x00009dd0   Data          44  qtcontacts_serviceactionmanager.in(.constdata__ZTSN10QtMobility27QContactActionManagerPluginE)
+    typeinfo name for QtMobility::QContactActionServiceManager 0x00009dfc   Data          45  qtcontacts_serviceactionmanager.in(.constdata__ZTSN10QtMobility28QContactActionServiceManagerE)
+    typeinfo name for std::bad_alloc         0x00009e29   Data          13  qtcontacts_serviceactionmanager.in(.constdata__ZTSSt9bad_alloc)
+    vtable for QtMobility::QContactActionServiceManager 0x00009e38   Data          80  qtcontacts_serviceactionmanager.in(.constdata__ZTVN10QtMobility28QContactActionServiceManagerE)
+    .ARM.exidx$$Base                         0x00009e88   Number         0  ucppinit_aeabi.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x0000a0e0   Number         0  qtcontacts_serviceactionmanager.in(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x0000a0e0   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    __dso_handle                             0x00400018   Data           4  ucppfini.o(.data)
+

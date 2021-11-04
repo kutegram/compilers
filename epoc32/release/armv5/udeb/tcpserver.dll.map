@@ -1,0 +1,276 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../../unhosted.s                         0x00000000   Number         0  switch8.o ABSOLUTE
+    M:\\epoc32\\build\\euser\\c_e18a23aea4fd210f\\edll_lib\\armv5\\udeb\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\\sf\\os\\kernelhwsrv\\kernel\\eka\\compsupp\\rvct\\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\epoc32\build\euser\c_e18a23aea4fd210f\edll_lib\armv5\udeb\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\dllexp.cpp 0x00000000   Number         0  dllexp.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    S:\sf\mw\qt\src\plugins\qmltooling\tcpserver\qtcpserverconnection.cpp 0x00000000   Number         0  qtcpserverconnection.o ABSOLUTE
+    S:\sf\mw\qt\src\plugins\qmltooling\tcpserver\tmp\moc\debug_shared\moc_qtcpserverconnection.cpp 0x00000000   Number         0  moc_qtcpserverconnection.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    Symbian$$eit_base                        0x00008014   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$eit_limit                       0x00008018   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_base                   0x0000801c   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_limit                  0x00008020   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$reserved                        0x00008024   Data           4  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       52  ucppinit.o(.emb_text)
+    loop                                     0x0000803c   ARM Code       0  ucppinit.o(.emb_text)
+    ret                                      0x00008044   ARM Code       0  ucppinit.o(.emb_text)
+    base                                     0x00008054   Data           0  ucppinit.o(.emb_text)
+    limit                                    0x00008058   Data           0  ucppinit.o(.emb_text)
+    .text                                    0x00008174   Section     1156  qtcpserverconnection.o(.text)
+    .text                                    0x000085f8   Section      284  moc_qtcpserverconnection.o(.text)
+    .text                                    0x00008714   Section       24  switch8.o(.text)
+    .text                                    0x0000872c   Section       80  uc_dll.o(.text)
+    .text                                    0x0000877c   Section      180  ucppfini.o(.text)
+    .text                                    0x00008830   Section        4  dllexp.o(.text)
+    .text.clean                              0x00008834   Section      128  qtcpserverconnection.o(.text.clean)
+    i._ZN10QByteArrayD1Ev                    0x000088b4   Section       38  qtcpserverconnection.o(i._ZN10QByteArrayD1Ev)
+    i._ZN33QDeclarativeDebugServerConnectionD0Ev 0x000088da   Section       18  qtcpserverconnection.o(i._ZN33QDeclarativeDebugServerConnectionD0Ev)
+    i._ZN33QDeclarativeDebugServerConnectionD2Ev 0x000088ec   Section        2  qtcpserverconnection.o(i._ZN33QDeclarativeDebugServerConnectionD2Ev)
+    t._ZN8QPointerI7QObjectED1Ev             0x000088ee   Section       14  qtcpserverconnection.o(t._ZN8QPointerI7QObjectED1Ev)
+    t._ZNK14QScopedPointerI11QObjectData21QScopedPointerDeleterIS0_EEptEv 0x000088fc   Section       40  moc_qtcpserverconnection.o(t._ZNK14QScopedPointerI11QObjectData21QScopedPointerDeleterIS0_EEptEv)
+    .extab._ZN20QTcpServerConnectionC1Ev     0x00008924   Data           0  qtcpserverconnection.o(.ARM.extab)
+    .extab.qt_plugin_instance                0x0000893c   Data           0  qtcpserverconnection.o(.ARM.extab)
+    .extab._ZN20QTcpServerConnection6listenEv 0x00008954   Data           0  qtcpserverconnection.o(.ARM.extab)
+    .extab._ZN20QTcpServerConnection4sendERK10QByteArray 0x0000896c   Data           0  qtcpserverconnection.o(.ARM.extab)
+    .extab._ZN20QTcpServerConnection9readyReadEv 0x0000897c   Data           0  qtcpserverconnection.o(.ARM.extab)
+    .extab._ZN20QTcpServerConnection13newConnectionEv 0x0000899c   Data           0  qtcpserverconnection.o(.ARM.extab)
+    .constdata$1                             0x000089ac   Data           0  qtcpserverconnection.o(.constdata)
+    qt_plugin_verification_data              0x000089ac   Data          90  qtcpserverconnection.o(.constdata)
+    .constdata                               0x000089ac   Section      452  qtcpserverconnection.o(.constdata)
+    .constdata$1                             0x00008b70   Data           0  moc_qtcpserverconnection.o(.constdata)
+    qt_meta_data_QTcpServerConnection        0x00008b70   Data         100  moc_qtcpserverconnection.o(.constdata)
+    .constdata                               0x00008b70   Section      236  moc_qtcpserverconnection.o(.constdata)
+    qt_meta_stringdata_QTcpServerConnection  0x00008bd4   Data          51  moc_qtcpserverconnection.o(.constdata)
+    .constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE 0x00008c5c   Section        4  qtcpserverconnection.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE 0x00008c60   Section        4  qtcpserverconnection.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE 0x00008c64   Section        4  qtcpserverconnection.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE 0x00008c68   Section        4  qtcpserverconnection.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE 0x00008c6c   Section        4  qtcpserverconnection.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE 0x00008c70   Section        1  qtcpserverconnection.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE 0x00008c74   Section        4  qtcpserverconnection.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE 0x00008c78   Section        4  qtcpserverconnection.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE 0x00008c7c   Section        4  qtcpserverconnection.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE 0x00008c80   Section        4  qtcpserverconnection.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE 0x00008c84   Section        4  qtcpserverconnection.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE 0x00008c88   Section        4  qtcpserverconnection.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE 0x00008c8c   Section        4  qtcpserverconnection.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE 0x00008c90   Section        4  qtcpserverconnection.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    .constdata__ZTI20QTcpServerConnection    0x00008c94   Section       32  moc_qtcpserverconnection.o(.constdata__ZTI20QTcpServerConnection)
+    .constdata__ZTI33QDeclarativeDebugServerConnection 0x00008cb4   Section        8  qtcpserverconnection.o(.constdata__ZTI33QDeclarativeDebugServerConnection)
+    .constdata__ZTS20QTcpServerConnection    0x00008cbc   Section       23  moc_qtcpserverconnection.o(.constdata__ZTS20QTcpServerConnection)
+    .constdata__ZTS33QDeclarativeDebugServerConnection 0x00008cd3   Section       36  qtcpserverconnection.o(.constdata__ZTS33QDeclarativeDebugServerConnection)
+    .constdata__ZTV20QTcpServerConnection    0x00008cf8   Section      112  moc_qtcpserverconnection.o(.constdata__ZTV20QTcpServerConnection)
+    .constdata__ZTV33QDeclarativeDebugServerConnection 0x00008d68   Section       36  qtcpserverconnection.o(.constdata__ZTV33QDeclarativeDebugServerConnection)
+    .ARM.exidx                               0x00008d8c   Section        8  ucppinit.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  qtcpserverconnection.o(.data)
+    _ZGV_instance@qt_plugin_instance_0       0x00400000   Data           4  qtcpserverconnection.o(.data)
+    .data                                    0x00400000   Section        8  qtcpserverconnection.o(.data)
+    _instance@qt_plugin_instance_1           0x00400004   Data           4  qtcpserverconnection.o(.data)
+    .data$0                                  0x00400008   Data           0  ucppfini.o(.data)
+    .data                                    0x00400008   Section        4  ucppfini.o(.data)
+    .data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE 0x0040000c   Section       12  qtcpserverconnection.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    .bss$5                                   0x00400018   Data           0  ucppfini.o(.bss)
+    .bss                                     0x00400018   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$VFPv2$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$IEEEJ$EBA8$UX$FPIC$INDIRECT$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    QtCore{00040703}[2001b2dc].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtDeclarative{00040703}[2001e623].dll    0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtNetwork{00040703}[2001b2de].dll        0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    euser{000a0000}[100039e5].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    libc{00010001}[10207369].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    stdnew{000a0000}[20022178].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    tcpserver{00040703}[20031e90].dll        0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    qFlagLocation(const char*)                - Undefined Reference
+    _Z13qFlagLocationPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qFree(void*)                              - Undefined Reference
+    _Z5qFreePv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qWarning(const char*, ...)                - Undefined Reference
+    _Z8qWarningPKcz@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qt_assert(const char*, const char*, int)  - Undefined Reference
+    _Z9qt_assertPKcS0_i@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTcpServer::waitForNewConnection(int, bool*)  - Undefined Reference
+    _ZN10QTcpServer20waitForNewConnectionEiPb@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QTcpServer::listen(const QHostAddress&, unsigned short)  - Undefined Reference
+    _ZN10QTcpServer6listenERK12QHostAddresst@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QTcpServer::QTcpServer(QObject*)          - Undefined Reference
+    _ZN10QTcpServerC1EP7QObject@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QDataStream::writeRawData(const char*, int)  - Undefined Reference
+    _ZN11QDataStream12writeRawDataEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::changeGuard(QObject**, QObject*)  - Undefined Reference
+    _ZN11QMetaObject11changeGuardEPP7QObjectS1_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::removeGuard(QObject**)       - Undefined Reference
+    _ZN11QMetaObject11removeGuardEPP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHostAddress::QHostAddress(QHostAddress::SpecialAddress)  - Undefined Reference
+    _ZN12QHostAddressC1ENS_14SpecialAddressE@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QHostAddress::~QHostAddress()             - Undefined Reference
+    _ZN12QHostAddressD1Ev@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QAbstractSocket::flush()                  - Undefined Reference
+    _ZN15QAbstractSocket5flushEv@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QPacketProtocol::read()                   - Undefined Reference
+    _ZN15QPacketProtocol4readEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QPacketProtocol::send(const QPacket&)     - Undefined Reference
+    _ZN15QPacketProtocol4sendERK7QPacket@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QPacketProtocol::QPacketProtocol(QIODevice*, QObject*)  - Undefined Reference
+    _ZN15QPacketProtocolC1EP9QIODeviceP7QObject@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeDebugServer::receiveMessage(const QByteArray&)  - Undefined Reference
+    _ZN23QDeclarativeDebugServer14receiveMessageERK10QByteArray@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    User::LockedDec(int&)                     - Undefined Reference
+    _ZN4User9LockedDecERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QObject::childEvent(QChildEvent*)         - Undefined Reference
+    _ZN7QObject10childEventEP11QChildEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::timerEvent(QTimerEvent*)         - Undefined Reference
+    _ZN7QObject10timerEventEP11QTimerEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::customEvent(QEvent*)             - Undefined Reference
+    _ZN7QObject11customEventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::eventFilter(QObject*, QEvent*)   - Undefined Reference
+    _ZN7QObject11eventFilterEPS_P6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN7QObject11qt_metacallEN11QMetaObject4CallEiPPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::qt_metacast(const char*)         - Undefined Reference
+    _ZN7QObject11qt_metacastEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connectNotify(const char*)       - Undefined Reference
+    _ZN7QObject13connectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::disconnectNotify(const char*)    - Undefined Reference
+    _ZN7QObject16disconnectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::staticMetaObject                 - Undefined Reference
+    _ZN7QObject16staticMetaObjectE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::event(QEvent*)                   - Undefined Reference
+    _ZN7QObject5eventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connect(const QObject*, const char*, const QObject*, const char*, Qt::ConnectionType)  - Undefined Reference
+    _ZN7QObject7connectEPKS_PKcS1_S3_N2Qt14ConnectionTypeE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::setParent(QObject*)              - Undefined Reference
+    _ZN7QObject9setParentEPS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::QObject(QObject*)                - Undefined Reference
+    _ZN7QObjectC1EPS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::~QObject()                       - Undefined Reference
+    _ZN7QObjectD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QPacket::QPacket()                        - Undefined Reference
+    _ZN7QPacketC1Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QPacket::~QPacket()                       - Undefined Reference
+    _ZN7QPacketD1Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QAbstractSocket::state() const            - Undefined Reference
+    _ZNK15QAbstractSocket5stateEv@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QPacket::data() const                     - Undefined Reference
+    _ZNK7QPacket4dataEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    typeinfo for QObject                      - Undefined Reference
+    _ZTI7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    vtable for __cxxabiv1::__class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv117__class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    vtable for __cxxabiv1::__vmi_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv121__vmi_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    operator delete (void*)                   - Undefined Reference
+    _ZdlPv@stdnew{000a0000}[20022178].dll     - Undefined Reference
+    operator new(unsigned)                    - Undefined Reference
+    _Znwj@stdnew{000a0000}[20022178].dll      - Undefined Reference
+    __aeabi_unwind_cpp_pr0                    - Undefined Reference
+    __aeabi_unwind_cpp_pr0@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_end_cleanup                         - Undefined Reference
+    __cxa_end_cleanup@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_abort                         - Undefined Reference
+    __cxa_guard_abort@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_acquire                       - Undefined Reference
+    __cxa_guard_acquire@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_release                       - Undefined Reference
+    __cxa_guard_release@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_pure_virtual                        - Undefined Reference
+    __cxa_pure_virtual@drtaeabi{000a0000}.dll  - Undefined Reference
+    strcmp                                    - Undefined Reference
+    strcmp@libc{00010001}[10207369].dll       - Undefined Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      52  ucppinit.o(.emb_text)
+    std::nothrow                             0x0000805c   ARM Code       0  ucppinit.o(.emb_text)
+    __PLT                                    0x0000805c   ARM Code       0  anon$$obj.o(.plt)
+    qt_plugin_query_verification_data        0x00008175   Thumb Code     4  qtcpserverconnection.o(.text)
+    QTcpServerConnectionPrivate::QTcpServerConnectionPrivate() 0x00008179   Thumb Code    14  qtcpserverconnection.o(.text)
+    QTcpServerConnectionPrivate::QTcpServerConnectionPrivate__sub_object() 0x00008179   Thumb Code     0  qtcpserverconnection.o(.text)
+    QTcpServerConnection::QTcpServerConnection() 0x00008187   Thumb Code    62  qtcpserverconnection.o(.text)
+    QTcpServerConnection::QTcpServerConnection__sub_object() 0x00008187   Thumb Code     0  qtcpserverconnection.o(.text)
+    qt_plugin_instance                       0x000081c5   Thumb Code   120  qtcpserverconnection.o(.text)
+    QTcpServerConnection::~QTcpServerConnection() 0x0000823d   Thumb Code    36  qtcpserverconnection.o(.text)
+    QTcpServerConnection::~QTcpServerConnection__sub_object() 0x0000823d   Thumb Code     0  qtcpserverconnection.o(.text)
+    QTcpServerConnection::~QTcpServerConnection__deallocating() 0x00008261   Thumb Code    22  qtcpserverconnection.o(.text)
+    thunk{-8} to QTcpServerConnection::~QTcpServerConnection__deallocating() 0x00008277   Thumb Code    14  qtcpserverconnection.o(.text)
+    thunk{-8} to QTcpServerConnection::~QTcpServerConnection() 0x00008285   Thumb Code    14  qtcpserverconnection.o(.text)
+    QTcpServerConnection::setServer(QDeclarativeDebugServer*) 0x00008293   Thumb Code    14  qtcpserverconnection.o(.text)
+    thunk{-8} to QTcpServerConnection::setServer(QDeclarativeDebugServer*) 0x000082a1   Thumb Code    18  qtcpserverconnection.o(.text)
+    QTcpServerConnection::listen()           0x000082b3   Thumb Code   142  qtcpserverconnection.o(.text)
+    QTcpServerConnection::setPort(int, bool) 0x00008341   Thumb Code    42  qtcpserverconnection.o(.text)
+    thunk{-8} to QTcpServerConnection::setPort(int, bool) 0x0000836b   Thumb Code    22  qtcpserverconnection.o(.text)
+    QTcpServerConnection::isConnected() const 0x00008381   Thumb Code    38  qtcpserverconnection.o(.text)
+    thunk{-8} to QTcpServerConnection::isConnected() const 0x000083a7   Thumb Code    14  qtcpserverconnection.o(.text)
+    QTcpServerConnection::send(const QByteArray&) 0x000083b5   Thumb Code    88  qtcpserverconnection.o(.text)
+    thunk{-8} to QTcpServerConnection::send(const QByteArray&) 0x0000840d   Thumb Code    18  qtcpserverconnection.o(.text)
+    QTcpServerConnection::disconnect()       0x0000841f   Thumb Code    56  qtcpserverconnection.o(.text)
+    thunk{-8} to QTcpServerConnection::disconnect() 0x00008457   Thumb Code    14  qtcpserverconnection.o(.text)
+    QTcpServerConnection::readyRead()        0x00008465   Thumb Code    56  qtcpserverconnection.o(.text)
+    QTcpServerConnection::newConnection()    0x0000849d   Thumb Code   348  qtcpserverconnection.o(.text)
+    QTcpServerConnection::getStaticMetaObject() 0x000085f9   Thumb Code     4  moc_qtcpserverconnection.o(.text)
+    QTcpServerConnection::metaObject() const 0x000085fd   Thumb Code    30  moc_qtcpserverconnection.o(.text)
+    QTcpServerConnection::qt_metacast(const char*) 0x0000861b   Thumb Code    76  moc_qtcpserverconnection.o(.text)
+    QTcpServerConnection::qt_metacall(QMetaObject::Call, int, void**) 0x00008667   Thumb Code    72  moc_qtcpserverconnection.o(.text)
+    __ARM_switch8                            0x00008714   ARM Code      24  switch8.o(.text)
+    __rt_switch8                             0x00008714   ARM Code       0  switch8.o(.text)
+    _E32Dll_Body                             0x0000872c   ARM Code      76  uc_dll.o(.text)
+    __aeabi_atexit                           0x0000877c   ARM Code      40  ucppfini.o(.text)
+    __cxa_atexit                             0x000087a4   ARM Code      64  ucppfini.o(.text)
+    __cxa_finalize                           0x000087e4   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x00008814   ARM Code      16  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x00008830   ARM Code       4  dllexp.o(.text)
+    QByteArray::~QByteArray()                0x000088b5   Thumb Code    38  qtcpserverconnection.o(i._ZN10QByteArrayD1Ev)
+    QByteArray::~QByteArray__sub_object()    0x000088b5   Thumb Code     0  qtcpserverconnection.o(i._ZN10QByteArrayD1Ev)
+    QDeclarativeDebugServerConnection::~QDeclarativeDebugServerConnection__deallocating() 0x000088db   Thumb Code    18  qtcpserverconnection.o(i._ZN33QDeclarativeDebugServerConnectionD0Ev)
+    QDeclarativeDebugServerConnection::~QDeclarativeDebugServerConnection() 0x000088ed   Thumb Code     0  qtcpserverconnection.o(i._ZN33QDeclarativeDebugServerConnectionD2Ev)
+    QDeclarativeDebugServerConnection::~QDeclarativeDebugServerConnection__sub_object() 0x000088ed   Thumb Code     2  qtcpserverconnection.o(i._ZN33QDeclarativeDebugServerConnectionD2Ev)
+    QPointer<QObject>::~QPointer()           0x000088ef   Thumb Code    14  qtcpserverconnection.o(t._ZN8QPointerI7QObjectED1Ev)
+    QPointer<QObject>::~QPointer__sub_object() 0x000088ef   Thumb Code     0  qtcpserverconnection.o(t._ZN8QPointerI7QObjectED1Ev)
+    QScopedPointer<QObjectData, QScopedPointerDeleter<QObjectData>>::operator ->() const 0x000088fd   Thumb Code    30  moc_qtcpserverconnection.o(t._ZNK14QScopedPointerI11QObjectData21QScopedPointerDeleterIS0_EEptEv)
+    QTcpServerConnection::staticMetaObject   0x00008c08   Data          16  moc_qtcpserverconnection.o(.constdata)
+    stlp_priv::_Integer_limits<signed char, (signed char)-128, (signed char)127, (int)-1, (bool)1>::digits 0x00008c5c   Data           4  qtcpserverconnection.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<bool, (bool)0, (bool)1, (int)1, (bool)0>::digits 0x00008c60   Data           4  qtcpserverconnection.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    stlp_priv::_Integer_limits<char, (char)128, (char)127, (int)-1, (bool)1>::digits 0x00008c64   Data           4  qtcpserverconnection.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned char, (unsigned char)0, (unsigned char)255, (int)-1, (bool)1>::digits 0x00008c68   Data           4  qtcpserverconnection.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::digits 0x00008c6c   Data           4  qtcpserverconnection.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::is_signed 0x00008c70   Data           1  qtcpserverconnection.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    stlp_priv::_Integer_limits<unsigned, (unsigned)0, (unsigned)4294967295, (int)-1, (bool)1>::digits 0x00008c74   Data           4  qtcpserverconnection.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long, (long)-2147483648, (long)2147483647, (int)-1, (bool)1>::digits 0x00008c78   Data           4  qtcpserverconnection.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long, (unsigned long)0, (unsigned long)4294967295, (int)-1, (bool)1>::digits 0x00008c7c   Data           4  qtcpserverconnection.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<short, (short)-32768, (short)32767, (int)-1, (bool)1>::digits 0x00008c80   Data           4  qtcpserverconnection.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned short, (unsigned short)0, (unsigned short)65535, (int)-1, (bool)1>::digits 0x00008c84   Data           4  qtcpserverconnection.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<wchar_t, (wchar_t)0, (wchar_t)65535, (int)-1, (bool)1>::digits 0x00008c88   Data           4  qtcpserverconnection.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long long, (long long)-9223372036854775808, (long long)9223372036854775807, (int)-1, (bool)1>::digits 0x00008c8c   Data           4  qtcpserverconnection.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long long, (unsigned long long)0, (unsigned long long)18446744073709551615, (int)-1, (bool)1>::digits 0x00008c90   Data           4  qtcpserverconnection.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    typeinfo for QTcpServerConnection        0x00008c94   Data          32  moc_qtcpserverconnection.o(.constdata__ZTI20QTcpServerConnection)
+    typeinfo for QDeclarativeDebugServerConnection 0x00008cb4   Data           8  qtcpserverconnection.o(.constdata__ZTI33QDeclarativeDebugServerConnection)
+    typeinfo name for QTcpServerConnection   0x00008cbc   Data          23  moc_qtcpserverconnection.o(.constdata__ZTS20QTcpServerConnection)
+    typeinfo name for QDeclarativeDebugServerConnection 0x00008cd3   Data          36  qtcpserverconnection.o(.constdata__ZTS33QDeclarativeDebugServerConnection)
+    vtable for QTcpServerConnection          0x00008cf8   Data         112  moc_qtcpserverconnection.o(.constdata__ZTV20QTcpServerConnection)
+    vtable for QDeclarativeDebugServerConnection 0x00008d68   Data          36  qtcpserverconnection.o(.constdata__ZTV33QDeclarativeDebugServerConnection)
+    .ARM.exidx$$Base                         0x00008d8c   Number         0  ucppinit.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x00008e5c   Number         0  qtcpserverconnection.o(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x00008e5c   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    __dso_handle                             0x00400008   Data           4  ucppfini.o(.data)
+    std::_Atomic_swap_struct<(int)1>::_S_swap_lock 0x0040000c   Data          12  qtcpserverconnection.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    dtor_rec                                 0x00400018   Data        2048  ucppfini.o(.bss)
+

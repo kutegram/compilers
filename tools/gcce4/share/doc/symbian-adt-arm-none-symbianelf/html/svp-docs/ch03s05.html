@@ -1,0 +1,28 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>3.5. Keyboard Controller</title><link rel="stylesheet" href="cs.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.74.0"><link rel="home" href="index.html" title="Symbian ADT Sourcery G++ Lite"><link rel="up" href="chap-devices.html" title="Chapter 3. Base Platform Devices"><link rel="prev" href="ch03s04.html" title="3.4. Serial Port"><link rel="next" href="ch03s06.html" title="3.6. Interval Timer"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">3.5. Keyboard Controller</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ch03s04.html">Prev</a> </td><th width="60%" align="center">Chapter 3. Base Platform Devices</th><td width="20%" align="right"> <a accesskey="n" href="ch03s06.html">Next</a></td></tr></table><hr></div><div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="id358699"></a>3.5. Keyboard Controller</h2></div></div></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id358705"></a>3.5.1. Description</h3></div></div></div><p>
+    This device receives keyboard button press/release events.
+    One event is generated for each press or release action.
+    The low 8 bits of the value is the PC scan code identifying the key.
+    The most significant bit (bit 31) is zero for key-down events, and set
+    for key-up events.
+   </p><p>
+    A maskable interrupt is raised when the event FIFO is not empty.
+   </p></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id358722"></a>3.5.2. Device Properties</h3></div></div></div><div class="variablelist"><dl><dt><span class="term"><code class="literal">compatible</code></span></dt><dd><code class="literal">syborg,keyboard</code></dd><dt><span class="term"><code class="literal">fifo-size</code></span></dt><dd><p>
+         The maximum number of events the FIFO can hold (optional, default 16).
+       </p></dd></dl></div></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id358773"></a>3.5.3. Registers</h3></div></div></div><p>
+    </p><div class="table"><a name="id358781"></a><p class="title"><b>Table 3.4. Keyboard Controller Registers</b></p><div class="table-contents"><table summary="Keyboard Controller Registers" border="1"><colgroup><col><col><col><col><col></colgroup><thead><tr><th>Offset</th><th>Access</th><th>Reset</th><th>Name</th><th>Description</th></tr></thead><tbody><tr><td>0x000</td><td>R</td><td>0xc51d1002</td><td>ID</td><td><p>
+          Peripheral ID.
+        </p></td></tr><tr><td>0x004</td><td>R</td><td>0xffffffff</td><td>DATA</td><td><p>
+          Reads and removes the next event from the FIFO, or 0xffffffff
+          if the FIFO is empty.
+        </p></td></tr><tr><td>0x008</td><td>R</td><td>0x00000000</td><td>FIFO_COUNT</td><td><p>
+          The number of events currently in the FIFO.
+        </p></td></tr><tr><td>0x00c</td><td>RW</td><td>0x00000000</td><td>INT_ENABLE</td><td>
+         <div class="variablelist"><dl><dt><span class="term"><code class="literal">0</code></span></dt><dd><p>
+             Interrupt masked.
+            </p></dd><dt><span class="term"><code class="literal">1</code></span></dt><dd><p>
+             Interrupt enabled.
+            </p></dd></dl></div>
+        </td></tr><tr><td>0x010</td><td>R</td><td>impl def</td><td>FIFO_SIZE</td><td><p>
+          The size of the FIFO.
+        </p></td></tr></tbody></table></div></div><p><br class="table-break">
+   </p></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ch03s04.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="chap-devices.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="ch03s06.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">3.4. Serial Port </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> 3.6. Interval Timer</td></tr></table></div></body></html>

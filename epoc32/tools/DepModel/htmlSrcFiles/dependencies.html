@@ -1,0 +1,215 @@
+<html>
+
+<head>
+
+<title>DepModel - SMG Dependency Tool Home Page</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1; no-cache">
+<script language="JavaScript" src="builds.js"></script>
+<script language="JavaScript" src="curBldInfo.js"></script>
+</head>
+
+<body>
+<table  width=100% bgcolor="#FF9900">
+<tr>
+<td height=69>
+<font size="5" face="Arial, Helvetica, sans-serif" color="#006699">
+<b>&nbsp;&nbsp;&nbsp;DepModel - Static Dependency Tool Home Page</b>
+</font>
+<font size="2" face="Arial, Helvetica, sans-serif" color="#006699">
+<script language="JavaScript">write_TD_bldinfo();</script>
+</font>
+</td>
+</tr>
+</table>
+<table>
+<tr valign="top">
+<td>
+<br>
+<ul>
+<font face="Arial, Helvetica, sans-serif" size="2" color="#006699">
+<li>DepModel static dependency tool home page
+<li><a href="depsUseCases.html">DepModel static dependency use cases</a>
+<!--
+<li><a href="http://saglinx/cgi-bin/oci/config.cgi">CGI tool for configuration analysis</a>
+<li><a href="depsSecurity.txt">Results of<br>capabilities<br>check</a>
+<li><a href="modarchBreaks.html">Results of<br>Modular Architecture<br>check</a>
+<li><a href="indepftrs.html">Independent Features<br>dependency analysis</a>
+<li><a href="http://saglinx/deps_jetstream0/deps/dependencies.html">Dependencies for initial Jet Stream build 01001 (13 May 2002)</a>
+<li><a href="http://saglinx/">SMG Home</a>
+<li><a href="http://web.intra">Intranet Home</a>
+-->
+</font>
+</ul>
+</td>
+
+<td>
+<font face="Arial, Helvetica, sans-serif">
+<table border=0 cellspacing=4 width=100% summary="Links">
+<tr>
+<td width="31%" valign="TOP" bgcolor="#ffffff">
+<font size=-2> DEPMODEL STATIC DEPENDENCY HOME PAGE </font></a>
+</td>
+<td width="23%" valign="TOP" bgcolor="#ffffff">
+<a href="./Subsystems.html"><font size=-2> SUBSYSTEMS INDEX </font></a>
+</td>
+<td width="23%" valign="TOP" bgcolor="#ffffff">
+<a href="./Components.html"><font size=-2> COMPONENTS INDEX </font></a>
+</td>
+<td width="23%" valign="TOP" bgcolor="#ffffff">
+<a href="./Executables.html"><font size=-2> EXECUTABLES INDEX </font>
+</td>
+</tr>
+</table>
+</font>
+
+<font size="4" face="Arial, Helvetica, sans-serif" color="#006699"><br>DepModel Static Dependency Modelling Tool</font>
+
+<p>
+<font size="3" face="Arial, Helvetica, sans-serif" color="#000000">
+<script language="JavaScript">depsBuilds();</script>
+
+The pages referenced by this dependency modelling tool provide all the information developers 
+need on static dependencies in Symbian OS, giving static dependency information on every 
+executable (EXE or DLL), component and subsystem in Symbian OS.
+</p>
+<p>
+For top-level access to this information use one of the index pages at 
+<a href="./Subsystems.html"><font size=-2> SUBSYSTEMS INDEX </font></a>&nbsp;
+<a href="./Components.html"><font size=-2> COMPONENTS INDEX </font></a>&nbsp;
+<a href="./Executables.html"><font size=-2> EXECUTABLES INDEX </font></a>. 
+These index pages provide easy access to the information on the other pages. Hyperlinks to 
+each of these index pages are provided at the top of almost every other page in the tool,
+as shown on this page itself.</p>
+<p>
+Using these pages does not require technical expertise. You can use this service to:
+<ul>
+<li>Find textual dependency information on any executable/component/subsystem.</li>
+<li>Find the dependency diagram for any executable/component/subsystem, with hotspots enabling easy 
+navigation between pages.</li>
+<li>Find out why any executable/component/subsystem depends on any others (imports and exports).</li>
+<li>Find a list of all executables sorted by subsystem and component with a brief description 
+explaining the executable's purpose.</li>
+<li>Drill down to the precise function calls that cause an executable/component/subsystem to depend 
+on another.</li>
+<li>Find out the dependency layering between all executables (or components or subsystems).</li>
+<li>Find a one-line description of most executables and components, size information, 
+build files, etc.</li>
+</ul>
+</p>
+<p>
+Key use cases for using this service can be found
+<a href="depsUseCases.html">here</a>.
+</p>
+
+<p>
+The scripts that generated these pages can be used to generate similar pages based on any release 
+or on a licensee ROM.
+</p>
+
+<hr>
+
+<font size="4" face="Arial, Helvetica, sans-serif" color="#006699">Further general information</font>
+
+<p>
+Using <a href="./Subsystems.html"><font size=-2> SUBSYSTEMS INDEX </font></a>&nbsp;
+<a href="./Components.html"><font size=-2> COMPONENTS INDEX </font></a>&nbsp;
+<a href="./Executables.html"><font size=-2> EXECUTABLES INDEX </font></a> index pages you 
+can follow a link to the dependency information page for each item
+on that page, to see the details of these dependencies both in textual and graphical formats.
+Here the word 'item' indicates either an Executable, Component or Subsystem depending
+on the specific index being used.
+As well as providing an alphabetic listing of the items, these index pages show how the items 
+are layered by dependency. Items with circular dependencies are treated as being at the same level.
+</p>
+<p>
+In the dependency trees, a trailing '+' after the name indicates a collapsed item that is
+expanded elsewhere in the same tree at the position furthest to the right.
+</p>
+
+<p>
+<font face="Arial, Helvetica, sans-serif" size="3" color="#006699">
+
+<ul>
+<li><b><a href="Executables.html">View dependencies between executable ROM Files</a></b>
+	<br>
+
+	<font face="Arial, Helvetica, sans-serif" size="2" color="#006699">
+
+	These dependencies are found by direct analysis of the binary files using the PETRAN tool. These dependencies will 
+	correspond to the library declarations specified in each SymbianOS executable's MAKE file (*.mmp).<br>
+	<br>
+	Each executable is in exactly one subsystem/component.<br>
+	<br>
+	The executables view lists all DLLs and EXEs layered by dependency, with further links to dependency trees and graphs 
+	for each executable.
+	<br><br>
+	The <img src='zoomin.bmp' border = '0'> icon after a ROM file's name is a link to detailed information, giving the fully qualified C++
+	function names of all imports and exports used by the current page's file. E.g. when 
+	viewing <a href="Executables/agnmodel.dll.html">agnmodel.dll's page</a>,
+	clicking the icon in "agsvexe.exe<a href="Executables/depinfo/agsvexe.exe.html#_imp_agnmodel.dll"><img src='zoomin.bmp' border = '0'></a>", which uses agnmodel.dll, links to the list of functions that agsvexe.exe imports from 
+	agnmodel.dll. Similarly clicking the icon in "apparc.dll<a href="Executables/depinfo/agnmodel.dll.html#_imp_apparc.dll"><img src='zoomin.bmp' border = '0'></a>", which is used by agnmodel.dll, links to the list of functions
+	that agnmodel.dll imports from apparc.dll.
+	</font>
+</li>
+</p>
+
+<p>
+<li><b><a href="Components.html">View dependencies between Components</a></b>
+	<br>
+	<font face="Arial, Helvetica, sans-serif" size="2" color="#006699">
+
+	A component is a collection of releasables from one source tree with strong interdependencies
+	between its ROM files. Many components make up a ROM. Each subsystem/component belongs in exactly 
+	one subsystem.
+	The ROM files in a component are specified in the component's bld.inf files (and the location
+	of the bld.inf files for GT is specified, in turn, in the GT.txt file used in the mainline build process).
+	<br><br>
+	This view simply treats componentA as dependent on componentB if any executable in componentA depends on 
+	any in componentB, so it is fully determined by the executable ROM File dependency. 
+
+	</font>
+</li>
+</p>
+
+<p>
+
+<li><b><a href="Subsystems.html">View dependencies between Subsystems</a></b>
+
+	<br>
+
+	<font face="Arial, Helvetica, sans-serif" size="2" color="#006699">
+
+	A subsystem is intended to be a logical grouping of components. In some cases this grouping is currently not
+	logical. As a result of this dependency analysis, it is planned that components will be reassigned to other or to new Subsystems where
+	they more logically and architecturally fit.
+	<br><br>
+	This view treats subsystemA as dependendent on subsystemB if any component in subsystemA depends on 
+	any in subsystemB, so it is also fully determined by the executable dependency. 
+
+	</font>
+</p>
+</li>
+
+</ul>
+</font>
+
+</td>
+</tr>
+
+<tr>
+
+<td colSpan=2>
+<hr>
+<p>
+<font face="Arial, Helvetica, sans-serif" size="1" color="#006699">
+	Created by <a href="mailto:howard.price@symbian.com">Howard Price</a>, last updated 24th July 2003</font>
+</p>
+</td>
+
+</tr>
+
+</table>
+</body>
+</html>
+

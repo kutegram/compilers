@@ -1,0 +1,178 @@
+//	MSVSTD.HRH
+//
+// Copyright (c) 1998-2007 Symbian Software Ltd.  All rights reserved.
+//
+/**
+* @file
+* @publishedAll
+* 
+*/
+#if !defined(__MSVSTD_HRH__)
+#define __MSVSTD_HRH__
+
+// predefined entry ids (can go upto 0x100000)
+/**
+* @publishedPartner
+* 
+*/
+#define KMsvNullIndexEntryIdValue			0
+/**
+* @publishedPartner
+* 
+*/
+#define KMsvTempIndexEntryIdValue			1
+/**
+* @publishedPartner
+* 
+*/
+#define KMsvRootIndexEntryIdValue			0x1000
+/**
+* @publishedPartner
+* 
+*/
+#define KMsvLocalServiceIndexEntryIdValue	0x1001
+/**
+* @publishedPartner
+* 
+*/
+#define KMsvGlobalInBoxIndexEntryIdValue	0x1002
+/**
+* @publishedPartner
+* 
+*/
+#define KMsvGlobalOutBoxIndexEntryIdValue	0x1003
+/**
+* @publishedPartner
+* 
+*/
+#define KMsvDraftEntryIdValue				0x1004
+/**
+* @publishedPartner
+* 
+*/
+#define KMsvSentEntryIdValue				0x1005
+/**
+* @publishedPartner
+* 
+*/
+#define KMsvDeletedEntryFolderEntryIdValue	0x1006
+/**
+* @publishedPartner
+* 
+*/
+#define KMsvUnkownServiceIndexEntryIdValue	0x1007
+/**
+* @publishedPartner
+* 
+*/
+// Entry type values
+/**
+* @publishedPartner
+* 
+*/
+#define KUidMsvRootEntryValue				0x10000F67
+/**
+* @publishedPartner
+* 
+*/
+#define KUidMsvServiceEntryValue			0x10000F68
+/**
+* @publishedPartner
+* 
+*/
+#define KUidMsvFolderEntryValue				0x10000F69
+/**
+* @publishedPartner
+* 
+*/
+#define KUidMsvMessageEntryValue			0x10000F6A
+/**
+* @publishedPartner
+* 
+*/
+#define KUidMsvAttachmentEntryValue			0x10000F6B
+
+// local service mtm
+/**
+* @publishedPartner
+* 
+*/
+#define KUidMsvLocalServiceMtmValue			0x10000F71
+/**
+* @publishedPartner
+* 
+*/
+#define KUidMsvServerMtmValue				0x1000589A
+
+// function ids
+/**
+* @publishedPartner
+* 
+*/
+#define KMtmFirstFreeMtmFunctionId 			0x100000 // MTM can use any value above this
+/**
+* @publishedPartner
+* 
+*/
+#define KMtmFirstFreeStandardMtmFunctionId	0xFC000	 // 16K function IDs available below free MTM function IDs
+/**
+* @publishedPartner
+* 
+*/
+#define KMtmFirstFreeInternalFunctionId		0x10000  // INTERNAL to message server
+
+// Mtm component Uid's
+/**
+* @publishedPartner
+* 
+*/
+#define KUidMtmServerComponentVal	0x10003C5E
+/**
+* @publishedPartner
+* 
+*/
+#define KUidMtmClientComponentVal	0x10003C5F
+/**
+* @publishedPartner
+* 
+*/
+#define KUidMtmUiComponentVal		0x10003C60
+/**
+* @publishedPartner
+* 
+*/
+#define KUidMtmUiDataComponentVal	0x10003C61
+/**
+* @publishedPartner
+* 
+*/
+#define KUidMtmDefaultSpecificVal	0x10202D51
+/**
+* Should be the same as KMaxFilename in e32const.h
+* @publishedPartner
+* 
+*/
+#define KMsvMaxFilenameLength		0x100 
+/**
+* @publishedPartner
+* 
+*/
+#define KMtmComponentCurrentMajorVersionNumber	2
+/**
+* @publishedPartner
+* 
+*/
+#define KMtmComponentCurrentMinorVersionNumber	0
+/**
+* @publishedPartner
+* 
+*/
+#define KMtmComponentCurrentBuildVersionNumber	0
+/**
+* @publishedPartner
+* 
+*/
+#define KMsvCurrentSecurityCapabilitySetVersion		1
+
+
+#endif

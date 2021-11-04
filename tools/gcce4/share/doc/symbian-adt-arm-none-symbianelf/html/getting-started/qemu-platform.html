@@ -1,0 +1,48 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>4.3. Running Applications with QEMU Platform Emulator</title><link rel="stylesheet" href="cs.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.74.0"><link rel="home" href="index.html" title="Symbian ADT Sourcery G++ Lite"><link rel="up" href="chap-building.html" title="Chapter 4. Using Sourcery G++ from the Command Line"><link rel="prev" href="ch04s02.html" title="4.2. Running Applications on the Target System"><link rel="next" href="sec-remote-debugging.html" title="4.4. Running Applications from GDB"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">4.3. Running Applications with QEMU Platform Emulator</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ch04s02.html">Prev</a> </td><th width="60%" align="center">Chapter 4. Using Sourcery G++ from the Command Line</th><td width="20%" align="right"> <a accesskey="n" href="sec-remote-debugging.html">Next</a></td></tr></table><hr></div><div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="qemu-platform"></a>4.3. Running Applications with QEMU Platform Emulator</h2></div></div></div><p>
+    Symbian ADT Sourcery G++ Lite includes the QEMU emulator.  This is a program which 
+    runs on your host computer and allows you to run and debug 
+    ARM SymbianOS applications without target hardware.
+  </p><p>
+    The QEMU emulator is invoked as follows:
+
+    </p><pre class="screen">&gt; arm-none-symbianelf-qemu-system \
+  -kernel <em class="replaceable"><code>kernel-image</code></em> -M <em class="replaceable"><code>device-tree</code></em> \
+  [-serial <em class="replaceable"><code>serial-ports</code></em>]</pre><p>
+  </p><p>
+    The <em class="replaceable"><code>kernel-image</code></em> file is the
+    SymbianOS kernel image you wish to use.  The
+    <em class="replaceable"><code>device-tree</code></em> file describes the
+    emulated devices that are to be provided.
+  </p><p>
+    The optional <em class="replaceable"><code>serial-ports</code></em> specifies how
+    virtual serial ports are made available.  For example, a port is
+    required for debugging.  The following serial ports are available:
+
+    </p><div class="variablelist"><dl><dt><span class="term"><code class="literal">vc</code></span></dt><dd><p>Provide a virtual
+	console.</p></dd><dt><span class="term"><code class="literal">tcp:</code><em class="replaceable"><code>hostname</code></em><code class="literal">:</code><em class="replaceable"><code>portnum</code></em>[<code class="literal">,</code><em class="replaceable"><code>options</code></em>]</span></dt><dd><p>Provide a TCP connection listening on
+<em class="replaceable"><code>hostname</code></em>:<em class="replaceable"><code>portnum</code></em>.
+        You can optionally specify a comma-separated list of
+        <em class="replaceable"><code>options</code></em> keywords:
+
+        </p><div class="variablelist"><dl><dt><span class="term"><code class="literal">server</code></span></dt><dd><p>Listen for incoming requests.
+          </p></dd><dt><span class="term"><code class="literal">nowait</code></span></dt><dd><p>Disable the Nagle wait delay heuristic.
+          This improves the latency of interactive connections at the
+          expense of bandwidth.</p></dd></dl></div><p>
+      </p></dd></dl></div><p>
+  </p><p>
+    For instance, to start a SymbianOS emulation with the
+    first virtual serial port connected to a virtual console and the
+    second listening on port 5555 on the local host, use:
+
+    </p><pre class="screen">&gt; arm-none-symbianelf-qemu-system \
+  -kernel syborg_001.TextShell.IMG -M syborg.dtb \
+  -serial vc -serial tcp:127.0.0.1:5555,server,nowait</pre><p>
+
+    Refer to Syborg documentation for information on creating the
+    kernel image and device tree.
+  </p><p>
+    The version of QEMU included with Symbian ADT Sourcery G++ Lite for ARM SymbianOS
+    is configured to run in platform emulation mode only, and other
+    QEMU features not documented here are not supported in Symbian ADT Sourcery G++ Lite.
+    For additional information about QEMU, visit the <a class="ulink" href="http://fabrice.bellard.free.fr/qemu" target="_top">QEMU web site</a>.
+  </p></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ch04s02.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="chap-building.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="sec-remote-debugging.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">4.2. Running Applications on the Target System </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> 4.4. Running Applications from GDB</td></tr></table></div></body></html>

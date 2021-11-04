@@ -1,0 +1,69 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>5.2. Device Classes</title><link rel="stylesheet" href="cs.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.74.0"><link rel="home" href="index.html" title="Symbian ADT Sourcery G++ Lite"><link rel="up" href="chap-plugins.html" title="Chapter 5. Device Plugins"><link rel="prev" href="chap-plugins.html" title="Chapter 5. Device Plugins"><link rel="next" href="ch05s03.html" title="5.3. Device Object Methods"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">5.2. Device Classes</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="chap-plugins.html">Prev</a> </td><th width="60%" align="center">Chapter 5. Device Plugins</th><td width="20%" align="right"> <a accesskey="n" href="ch05s03.html">Next</a></td></tr></table><hr></div><div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="id354677"></a>5.2. Device Classes</h2></div></div></div><p>
+   A device class corresponds to a particular type of device.
+   Device classes are implemented as a Python class derived from
+   qemu.devclass.  This class type is then used to instantiate individual
+   devices.
+  </p><p>
+   A device class should be derived from <code class="literal">qemu.devclass</code>.
+   New device classes can be registered by calling
+   <code class="literal">qemu.register_device(newclass)</code>.
+  </p><p>
+   The class should define the following attributes:
+   </p><div class="variablelist"><dl><dt><span class="term"><code class="literal">irqs</code></span></dt><dd><p>
+       The number of IRQ outputs used by the device.
+      </p></dd><dt><span class="term"><code class="literal">regions</code></span></dt><dd><p>
+       A list of <code class="literal">qemu.ioregion</code> objects describing memory
+       mapped IO regions provided by the device.  Each entry in the list
+       corresponds to an entry in the <code class="literal">reg</code> machine
+       description property.
+      </p><p>
+       Each <code class="literal">qemu.ioregion</code> object has the following
+       attributes:
+       </p><div class="variablelist"><dl><dt><span class="term"><code class="literal">size</code></span></dt><dd><p>
+           The size of the region, in bytes.  This should be a power of two.
+          </p></dd><dt><span class="term"><code class="literal">readl</code></span></dt><dd><p>
+           This function will be called when a read operation occurs.
+           This should be a method of the containing class. The method
+           will be called with the offset from the start of the region, and
+           should return the value read.
+          </p></dd><dt><span class="term"><code class="literal">writel</code></span></dt><dd><p>
+           This function will be called when a write operation occurs.
+           This should be a method of the containing class. The method
+           will be called with the offset from the start of the region and
+           the value to be written.
+          </p></dd></dl></div><p>
+      </p></dd><dt><span class="term"><code class="literal">name</code></span></dt><dd><p>
+       The name of the device.  This is matched against the
+       <code class="literal">compatible</code> machine description property.
+      </p></dd><dt><span class="term"><code class="literal">properties</code></span></dt><dd><p>
+       A dictionary of {<code class="literal">name</code>:<code class="literal">value</code>}
+       pairs.  Each name is matched against properties in the machine
+       description.  The value specifies the default value for the property,
+       and the property type (string or integer) is inferred from the default
+       value.  When a device is instantiated the <code class="literal">properties</code>
+       attribute of the device object will be populated with values
+       from the machine description.  If the machine description does not
+       specify a property then the default will be used.
+      </p><p>
+       The <code class="literal">chardev</code> property is special.  If
+       present this should be given a default value of
+       <code class="literal">None</code>.  This will be replaced with a
+       <code class="literal">qemu.chardev</code> object when the device is instantiated.
+      </p></dd></dl></div><p>
+  </p><p>
+   Device classes should override the following methods:
+   </p><div class="variablelist"><dl><dt><span class="term"><code class="literal">create(self)</code></span></dt><dd><p>
+       Initialize the device.  The <code class="literal">properties</code> attribute
+       is populated with values from the machine description before this
+       method is called.
+      </p><p>
+       Any attributes or data required by the device should be added in this
+       function.
+      </p></dd><dt><span class="term"><code class="literal">save(self, state)</code></span></dt><dd><p>
+       Save device state.
+      </p></dd><dt><span class="term"><code class="literal">load(self, state)</code></span></dt><dd><p>
+       Restore device state from state.
+      </p></dd></dl></div><p>
+  </p><div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Warning</h3><p>
+    The <code class="literal">__init__</code> method should not be overridden.
+   </p></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="chap-plugins.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="chap-plugins.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="ch05s03.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Chapter 5. Device Plugins </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> 5.3. Device Object Methods</td></tr></table></div></body></html>

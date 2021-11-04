@@ -1,0 +1,20 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>2.4. Sample XML File</title><link rel="stylesheet" href="cs.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.74.0"><link rel="home" href="index.html" title="Symbian ADT Sourcery G++ Lite"><link rel="up" href="chap-gui.html" title="Chapter 2. GUI Configuration"><link rel="prev" href="ch02s03.html" title="2.3. GUI XML File Specification"><link rel="next" href="chap-devices.html" title="Chapter 3. Base Platform Devices"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">2.4. Sample XML File</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ch02s03.html">Prev</a> </td><th width="60%" align="center">Chapter 2. GUI Configuration</th><td width="20%" align="right"> <a accesskey="n" href="chap-devices.html">Next</a></td></tr></table><hr></div><div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="id353722"></a>2.4. Sample XML File</h2></div></div></div><p>
+   The following example demonstrates a configuration for a GUI having
+   two virtual terminals, the first with a button, a display area, and a
+   a pointer area, and the second with just a display area.
+  </p><p>
+   </p><pre class="programlisting">&lt;gui&gt;
+ &lt;vt background="syborg.png" width="600" height="480"&gt;
+  &lt;button x="20" y="206" width="26" height="14" action="sendkey"
+   parameter="1" pressedimg="pressed_button.png
+   pressedimg_x="21" pressedimg_y="207"/&gt;
+  &lt;displayarea devid="framebuffer@0" x="22" y="40"
+   width="100" height="105"/&gt;
+  &lt;pointerarea devid="touchscreen@0" x="22" y="40"
+   width="100" height="105" grabonclick="0"/&gt;
+ &lt;/vt&gt;
+ &lt;vt background="syborg_back.png" width="600" height="480"&gt;
+  &lt;displayarea devid="0" x="20" y="20" width="70" height="70"/&gt;
+  &lt;/vt&gt;
+&lt;/gui&gt;</pre><p>
+  </p></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ch02s03.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="chap-gui.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="chap-devices.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">2.3. GUI XML File Specification </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> Chapter 3. Base Platform Devices</td></tr></table></div></body></html>

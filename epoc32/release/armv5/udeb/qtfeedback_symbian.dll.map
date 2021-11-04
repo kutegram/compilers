@@ -1,0 +1,639 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../../unhosted.s                         0x00000000   Number         0  switch8.o ABSOLUTE
+    M:\\epoc32\\build\\euser\\c_e18a23aea4fd210f\\edll_lib\\armv5\\udeb\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\\sf\\os\\kernelhwsrv\\kernel\\eka\\compsupp\\rvct\\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\epoc32\build\euser\c_e18a23aea4fd210f\edll_lib\armv5\udeb\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\dllexp.cpp 0x00000000   Number         0  dllexp.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    S:\sf\mw\qtmobility\build\Release\qtfeedback_symbian\moc\moc_qfeedback_symbian.cpp 0x00000000   Number         0  moc_qfeedback_symbian.o ABSOLUTE
+    S:\sf\mw\qtmobility\plugins\feedback\symbian\qfeedback_chwrmhaptics.cpp 0x00000000   Number         0  qfeedback_chwrmhaptics.o ABSOLUTE
+    S:\sf\mw\qtmobility\plugins\feedback\symbian\qfeedback_symbian.cpp 0x00000000   Number         0  qfeedback_symbian.o ABSOLUTE
+    S:\sf\mw\qtmobility\plugins\feedback\symbian\qfeedback_themed.cpp 0x00000000   Number         0  qfeedback_themed.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    Symbian$$eit_base                        0x00008014   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$eit_limit                       0x00008018   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_base                   0x0000801c   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_limit                  0x00008020   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$reserved                        0x00008024   Data           4  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       52  ucppinit.o(.emb_text)
+    loop                                     0x0000803c   ARM Code       0  ucppinit.o(.emb_text)
+    ret                                      0x00008044   ARM Code       0  ucppinit.o(.emb_text)
+    base                                     0x00008054   Data           0  ucppinit.o(.emb_text)
+    limit                                    0x00008058   Data           0  ucppinit.o(.emb_text)
+    .text                                    0x000082f4   Section      472  moc_qfeedback_symbian.o(.text)
+    .text                                    0x000084cc   Section      924  qfeedback_symbian.o(.text)
+    convertToSymbian(QtMobility::QFeedbackEffect::ThemeEffect) 0x00008869   Thumb Code   186  qfeedback_themed.o(.text)
+    .text                                    0x00008868   Section      416  qfeedback_themed.o(.text)
+    .text                                    0x00008a08   Section     3812  qfeedback_chwrmhaptics.o(.text)
+    .text                                    0x000098ec   Section       24  switch8.o(.text)
+    .text                                    0x00009904   Section       80  uc_dll.o(.text)
+    .text                                    0x00009954   Section      180  ucppfini.o(.text)
+    .text                                    0x00009a08   Section        4  dllexp.o(.text)
+    .text.clean                              0x00009a0c   Section      252  qfeedback_symbian.o(.text.clean)
+    .text.clean                              0x00009b08   Section       20  qfeedback_themed.o(.text.clean)
+    .text.clean                              0x00009b1c   Section      162  qfeedback_chwrmhaptics.o(.text.clean)
+    i._Z6qRoundf                             0x00009bc0   Section      156  qfeedback_chwrmhaptics.o(i._Z6qRoundf)
+    i._ZN10QByteArrayD1Ev                    0x00009c5c   Section       24  qfeedback_symbian.o(i._ZN10QByteArrayD1Ev)
+    i._ZN10QtMobility22QFeedbackFileInterfaceD0Ev 0x00009c74   Section       18  qfeedback_symbian.o(i._ZN10QtMobility22QFeedbackFileInterfaceD0Ev)
+    i._ZN10QtMobility22QFeedbackFileInterfaceD2Ev 0x00009c86   Section        2  qfeedback_symbian.o(i._ZN10QtMobility22QFeedbackFileInterfaceD2Ev)
+    i._ZN10QtMobility23QFeedbackThemeInterfaceD0Ev 0x00009c88   Section       18  qfeedback_symbian.o(i._ZN10QtMobility23QFeedbackThemeInterfaceD0Ev)
+    i._ZN10QtMobility23QFeedbackThemeInterfaceD2Ev 0x00009c9a   Section        2  qfeedback_symbian.o(i._ZN10QtMobility23QFeedbackThemeInterfaceD2Ev)
+    i._ZN10QtMobility25QFeedbackHapticsInterfaceD0Ev 0x00009c9c   Section       18  qfeedback_symbian.o(i._ZN10QtMobility25QFeedbackHapticsInterfaceD0Ev)
+    i._ZN10QtMobility25QFeedbackHapticsInterfaceD2Ev 0x00009cae   Section        2  qfeedback_symbian.o(i._ZN10QtMobility25QFeedbackHapticsInterfaceD2Ev)
+    i._ZN11QStringListD1Ev                   0x00009cb0   Section       14  qfeedback_chwrmhaptics.o(i._ZN11QStringListD1Ev)
+    i._ZN15QBasicAtomicInt3refEv             0x00009cbe   Section       24  qfeedback_symbian.o(i._ZN15QBasicAtomicInt3refEv)
+    i._ZN15QBasicAtomicInt5derefEv           0x00009cd6   Section       24  qfeedback_symbian.o(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN16QFeedbackSymbian11FileContentD1Ev 0x00009cee   Section       16  qfeedback_symbian.o(i._ZN16QFeedbackSymbian11FileContentD1Ev)
+    i._ZN7QStringC1ERKS_                     0x00009cfe   Section       22  qfeedback_chwrmhaptics.o(i._ZN7QStringC1ERKS_)
+    i._ZN7QStringD1Ev                        0x00009d14   Section       24  qfeedback_symbian.o(i._ZN7QStringD1Ev)
+    i._ZN9QHashData8willGrowEv               0x00009d2c   Section       32  qfeedback_chwrmhaptics.o(i._ZN9QHashData8willGrowEv)
+    i._ZN9QHashData9hasShrunkEv              0x00009d4c   Section       82  qfeedback_chwrmhaptics.o(i._ZN9QHashData9hasShrunkEv)
+    i._ZNK15QBasicAtomicIntneEi              0x00009d9e   Section       16  qfeedback_chwrmhaptics.o(i._ZNK15QBasicAtomicIntneEi)
+    i._ZNK9QListData3endEv                   0x00009dae   Section       16  qfeedback_symbian.o(i._ZNK9QListData3endEv)
+    i._ZNK9QListData5beginEv                 0x00009dbe   Section       16  qfeedback_symbian.o(i._ZNK9QListData5beginEv)
+    i._ZdlPvS_                               0x00009dce   Section        2  qfeedback_chwrmhaptics.o(i._ZdlPvS_)
+    i._ZnwjPv                                0x00009dd0   Section        6  qfeedback_chwrmhaptics.o(i._ZnwjPv)
+    t._Z10qDeleteAllIN5QHashI21THWRMLogicalActuatorsP12CHWRMHapticsE14const_iteratorEEvT_S6_ 0x00009dd6   Section       60  qfeedback_symbian.o(t._Z10qDeleteAllIN5QHashI21THWRMLogicalActuatorsP12CHWRMHapticsE14const_iteratorEEvT_S6_)
+    t._ZN5QHashI21THWRMLogicalActuatorsP12CHWRMHapticsE11deleteNode2EPN9QHashData4NodeE 0x00009e12   Section        6  qfeedback_symbian.o(t._ZN5QHashI21THWRMLogicalActuatorsP12CHWRMHapticsE11deleteNode2EPN9QHashData4NodeE)
+    t._ZN5QHashI21THWRMLogicalActuatorsP12CHWRMHapticsE13detach_helperEv 0x00009e18   Section       60  qfeedback_chwrmhaptics.o(t._ZN5QHashI21THWRMLogicalActuatorsP12CHWRMHapticsE13detach_helperEv)
+    t._ZN5QHashI21THWRMLogicalActuatorsP12CHWRMHapticsE13duplicateNodeEPN9QHashData4NodeEPv 0x00009e54   Section       46  qfeedback_chwrmhaptics.o(t._ZN5QHashI21THWRMLogicalActuatorsP12CHWRMHapticsE13duplicateNodeEPN9QHashData4NodeEPv)
+    t._ZN5QHashI21THWRMLogicalActuatorsP12CHWRMHapticsE6insertERKS0_RKS2_ 0x00009e82   Section      200  qfeedback_chwrmhaptics.o(t._ZN5QHashI21THWRMLogicalActuatorsP12CHWRMHapticsE6insertERKS0_RKS2_)
+    t._ZN5QHashI21THWRMLogicalActuatorsP12CHWRMHapticsE6insertERKS0_RKS2_.clean 0x00009f4a   Section        4  qfeedback_chwrmhaptics.o(t._ZN5QHashI21THWRMLogicalActuatorsP12CHWRMHapticsE6insertERKS0_RKS2_.clean)
+    t._ZN5QHashI21THWRMLogicalActuatorsP12CHWRMHapticsE8freeDataEP9QHashData 0x00009f50   Section       20  qfeedback_symbian.o(t._ZN5QHashI21THWRMLogicalActuatorsP12CHWRMHapticsE8freeDataEP9QHashData)
+    t._ZN5QHashI21THWRMLogicalActuatorsP12CHWRMHapticsED1Ev 0x00009f64   Section       30  qfeedback_symbian.o(t._ZN5QHashI21THWRMLogicalActuatorsP12CHWRMHapticsED1Ev)
+    t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEE11deleteNode2EPN9QHashData4NodeE 0x00009f82   Section       36  qfeedback_symbian.o(t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEE11deleteNode2EPN9QHashData4NodeE)
+    t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEE11deleteNode2EPN9QHashData4NodeE.clean 0x00009fa6   Section       12  qfeedback_symbian.o(t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEE11deleteNode2EPN9QHashData4NodeE.clean)
+    t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEE13detach_helperEv 0x00009fb4   Section       60  qfeedback_chwrmhaptics.o(t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEE13detach_helperEv)
+    t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEE13duplicateNodeEPN9QHashData4NodeEPv 0x00009ff0   Section       46  qfeedback_chwrmhaptics.o(t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEE13duplicateNodeEPN9QHashData4NodeEPv)
+    t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEE13duplicateNodeEPN9QHashData4NodeEPv.clean 0x0000a01e   Section       14  qfeedback_chwrmhaptics.o(t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEE13duplicateNodeEPN9QHashData4NodeEPv.clean)
+    t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEE6detachEv 0x0000a02c   Section       28  qfeedback_chwrmhaptics.o(t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEE6detachEv)
+    t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEE6removeERKS0_ 0x0000a048   Section      164  qfeedback_chwrmhaptics.o(t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEE6removeERKS0_)
+    t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEE8freeDataEP9QHashData 0x0000a0ec   Section       20  qfeedback_symbian.o(t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEE8freeDataEP9QHashData)
+    t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEED1Ev 0x0000a100   Section       30  qfeedback_symbian.o(t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEED1Ev)
+    t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEEixERKS0_ 0x0000a120   Section      232  qfeedback_chwrmhaptics.o(t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEEixERKS0_)
+    t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEEixERKS0_.clean 0x0000a208   Section       24  qfeedback_chwrmhaptics.o(t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEEixERKS0_.clean)
+    t._ZN5QHashIPKN10QtMobility15QFeedbackEffectEiE11deleteNode2EPN9QHashData4NodeE 0x0000a220   Section        6  qfeedback_symbian.o(t._ZN5QHashIPKN10QtMobility15QFeedbackEffectEiE11deleteNode2EPN9QHashData4NodeE)
+    t._ZN5QHashIPKN10QtMobility15QFeedbackEffectEiE13detach_helperEv 0x0000a228   Section       60  qfeedback_chwrmhaptics.o(t._ZN5QHashIPKN10QtMobility15QFeedbackEffectEiE13detach_helperEv)
+    t._ZN5QHashIPKN10QtMobility15QFeedbackEffectEiE13duplicateNodeEPN9QHashData4NodeEPv 0x0000a264   Section       46  qfeedback_chwrmhaptics.o(t._ZN5QHashIPKN10QtMobility15QFeedbackEffectEiE13duplicateNodeEPN9QHashData4NodeEPv)
+    t._ZN5QHashIPKN10QtMobility15QFeedbackEffectEiE6detachEv 0x0000a292   Section       28  qfeedback_chwrmhaptics.o(t._ZN5QHashIPKN10QtMobility15QFeedbackEffectEiE6detachEv)
+    t._ZN5QHashIPKN10QtMobility15QFeedbackEffectEiE6insertERKS3_RKi 0x0000a2ae   Section      182  qfeedback_chwrmhaptics.o(t._ZN5QHashIPKN10QtMobility15QFeedbackEffectEiE6insertERKS3_RKi)
+    t._ZN5QHashIPKN10QtMobility15QFeedbackEffectEiE6insertERKS3_RKi.clean 0x0000a364   Section        4  qfeedback_chwrmhaptics.o(t._ZN5QHashIPKN10QtMobility15QFeedbackEffectEiE6insertERKS3_RKi.clean)
+    t._ZN5QHashIPKN10QtMobility15QFeedbackEffectEiE6removeERKS3_ 0x0000a368   Section      158  qfeedback_chwrmhaptics.o(t._ZN5QHashIPKN10QtMobility15QFeedbackEffectEiE6removeERKS3_)
+    t._ZN5QHashIPKN10QtMobility15QFeedbackEffectEiE8freeDataEP9QHashData 0x0000a408   Section       20  qfeedback_symbian.o(t._ZN5QHashIPKN10QtMobility15QFeedbackEffectEiE8freeDataEP9QHashData)
+    t._ZN5QHashIPKN10QtMobility15QFeedbackEffectEiED1Ev 0x0000a41c   Section       30  qfeedback_symbian.o(t._ZN5QHashIPKN10QtMobility15QFeedbackEffectEiED1Ev)
+    t._ZN5QHashIiPKN10QtMobility15QFeedbackEffectEE11deleteNode2EPN9QHashData4NodeE 0x0000a43a   Section        6  qfeedback_symbian.o(t._ZN5QHashIiPKN10QtMobility15QFeedbackEffectEE11deleteNode2EPN9QHashData4NodeE)
+    t._ZN5QHashIiPKN10QtMobility15QFeedbackEffectEE13detach_helperEv 0x0000a440   Section       60  qfeedback_chwrmhaptics.o(t._ZN5QHashIiPKN10QtMobility15QFeedbackEffectEE13detach_helperEv)
+    t._ZN5QHashIiPKN10QtMobility15QFeedbackEffectEE13duplicateNodeEPN9QHashData4NodeEPv 0x0000a47c   Section       42  qfeedback_chwrmhaptics.o(t._ZN5QHashIiPKN10QtMobility15QFeedbackEffectEE13duplicateNodeEPN9QHashData4NodeEPv)
+    t._ZN5QHashIiPKN10QtMobility15QFeedbackEffectEE6detachEv 0x0000a4a6   Section       28  qfeedback_chwrmhaptics.o(t._ZN5QHashIiPKN10QtMobility15QFeedbackEffectEE6detachEv)
+    t._ZN5QHashIiPKN10QtMobility15QFeedbackEffectEE6insertERKiRKS3_ 0x0000a4c2   Section      178  qfeedback_chwrmhaptics.o(t._ZN5QHashIiPKN10QtMobility15QFeedbackEffectEE6insertERKiRKS3_)
+    t._ZN5QHashIiPKN10QtMobility15QFeedbackEffectEE6insertERKiRKS3_.clean 0x0000a574   Section        4  qfeedback_chwrmhaptics.o(t._ZN5QHashIiPKN10QtMobility15QFeedbackEffectEE6insertERKiRKS3_.clean)
+    t._ZN5QHashIiPKN10QtMobility15QFeedbackEffectEE6removeERKi 0x0000a578   Section      158  qfeedback_chwrmhaptics.o(t._ZN5QHashIiPKN10QtMobility15QFeedbackEffectEE6removeERKi)
+    t._ZN5QHashIiPKN10QtMobility15QFeedbackEffectEE8freeDataEP9QHashData 0x0000a618   Section       20  qfeedback_symbian.o(t._ZN5QHashIiPKN10QtMobility15QFeedbackEffectEE8freeDataEP9QHashData)
+    t._ZN5QHashIiPKN10QtMobility15QFeedbackEffectEED1Ev 0x0000a62c   Section       30  qfeedback_symbian.o(t._ZN5QHashIiPKN10QtMobility15QFeedbackEffectEED1Ev)
+    t._ZN5QListI7QStringE13detach_helperEi   0x0000a64a   Section       94  qfeedback_chwrmhaptics.o(t._ZN5QListI7QStringE13detach_helperEi)
+    t._ZN5QListI7QStringE13detach_helperEi.clean 0x0000a6a8   Section        8  qfeedback_chwrmhaptics.o(t._ZN5QListI7QStringE13detach_helperEi.clean)
+    t._ZN5QListI7QStringE13detach_helperEv   0x0000a6b0   Section       16  qfeedback_chwrmhaptics.o(t._ZN5QListI7QStringE13detach_helperEv)
+    t._ZN5QListI7QStringE13node_destructEPNS1_4NodeES3_ 0x0000a6c0   Section       26  qfeedback_chwrmhaptics.o(t._ZN5QListI7QStringE13node_destructEPNS1_4NodeES3_)
+    t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_ 0x0000a6da   Section       36  qfeedback_chwrmhaptics.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_)
+    t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_.clean 0x0000a6fe   Section       14  qfeedback_chwrmhaptics.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_.clean)
+    t._ZN5QListI7QStringE18detach_helper_growEii 0x0000a70c   Section      208  qfeedback_chwrmhaptics.o(t._ZN5QListI7QStringE18detach_helper_growEii)
+    t._ZN5QListI7QStringE18detach_helper_growEii.clean 0x0000a7dc   Section       16  qfeedback_chwrmhaptics.o(t._ZN5QListI7QStringE18detach_helper_growEii.clean)
+    t._ZN5QListI7QStringE4freeEPN9QListData4DataE 0x0000a7ec   Section       58  qfeedback_chwrmhaptics.o(t._ZN5QListI7QStringE4freeEPN9QListData4DataE)
+    t._ZN5QListI7QStringE6appendERKS0_       0x0000a828   Section      120  qfeedback_chwrmhaptics.o(t._ZN5QListI7QStringE6appendERKS0_)
+    t._ZN5QListI7QStringE6appendERKS0_.clean 0x0000a8a0   Section       14  qfeedback_chwrmhaptics.o(t._ZN5QListI7QStringE6appendERKS0_.clean)
+    t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_ 0x0000a8ae   Section       82  qfeedback_chwrmhaptics.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_)
+    t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_.clean 0x0000a900   Section       22  qfeedback_chwrmhaptics.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_.clean)
+    t._ZN5QListI7QStringED1Ev                0x0000a916   Section       32  qfeedback_chwrmhaptics.o(t._ZN5QListI7QStringED1Ev)
+    t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE13detach_helperEi 0x0000a936   Section       94  qfeedback_symbian.o(t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE13detach_helperEi)
+    t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE13detach_helperEi.clean 0x0000a994   Section        8  qfeedback_symbian.o(t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE13detach_helperEi.clean)
+    t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE13detach_helperEv 0x0000a99c   Section       16  qfeedback_symbian.o(t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE13detach_helperEv)
+    t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE18detach_helper_growEii 0x0000a9ac   Section      204  qfeedback_symbian.o(t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE18detach_helper_growEii)
+    t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE18detach_helper_growEii.clean 0x0000aa78   Section       16  qfeedback_symbian.o(t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE18detach_helper_growEii.clean)
+    t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE4freeEPN9QListData4DataE 0x0000aa88   Section       58  qfeedback_symbian.o(t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE4freeEPN9QListData4DataE)
+    t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE6appendERKS2_ 0x0000aac4   Section      104  qfeedback_symbian.o(t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE6appendERKS2_)
+    t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE6appendERKS2_.clean 0x0000ab2c   Section       10  qfeedback_symbian.o(t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE6appendERKS2_.clean)
+    t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE9node_copyEPNS3_4NodeES5_S5_ 0x0000ab36   Section       46  qfeedback_symbian.o(t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE9node_copyEPNS3_4NodeES5_S5_)
+    t._ZN5QListIPN10QtMobility17QFeedbackActuatorEED1Ev 0x0000ab64   Section       32  qfeedback_symbian.o(t._ZN5QListIPN10QtMobility17QFeedbackActuatorEED1Ev)
+    t._ZN8QPointerI7QObjectED1Ev             0x0000ab84   Section       14  qfeedback_symbian.o(t._ZN8QPointerI7QObjectED1Ev)
+    t._ZN9QHashNodeI7QStringN16QFeedbackSymbian11FileContentEEC1ERKS0_RKS2_ 0x0000ab92   Section       68  qfeedback_chwrmhaptics.o(t._ZN9QHashNodeI7QStringN16QFeedbackSymbian11FileContentEEC1ERKS0_RKS2_)
+    t._ZN9QHashNodeI7QStringN16QFeedbackSymbian11FileContentEEC1ERKS0_RKS2_.clean 0x0000abd6   Section       12  qfeedback_chwrmhaptics.o(t._ZN9QHashNodeI7QStringN16QFeedbackSymbian11FileContentEEC1ERKS0_RKS2_.clean)
+    t._ZNK5QHashI21THWRMLogicalActuatorsP12CHWRMHapticsE8findNodeERKS0_Pj 0x0000abe2   Section      100  qfeedback_chwrmhaptics.o(t._ZNK5QHashI21THWRMLogicalActuatorsP12CHWRMHapticsE8findNodeERKS0_Pj)
+    t._ZNK5QHashI7QStringN16QFeedbackSymbian11FileContentEE8findNodeERKS0_Pj 0x0000ac46   Section      116  qfeedback_chwrmhaptics.o(t._ZNK5QHashI7QStringN16QFeedbackSymbian11FileContentEE8findNodeERKS0_Pj)
+    t._ZNK5QHashIPKN10QtMobility15QFeedbackEffectEiE5valueERKS3_ 0x0000acba   Section       40  qfeedback_chwrmhaptics.o(t._ZNK5QHashIPKN10QtMobility15QFeedbackEffectEiE5valueERKS3_)
+    t._ZNK5QHashIPKN10QtMobility15QFeedbackEffectEiE8findNodeERKS3_Pj 0x0000ace2   Section      104  qfeedback_chwrmhaptics.o(t._ZNK5QHashIPKN10QtMobility15QFeedbackEffectEiE8findNodeERKS3_Pj)
+    t._ZNK5QHashIiPKN10QtMobility15QFeedbackEffectEE8findNodeERKiPj 0x0000ad4a   Section       94  qfeedback_chwrmhaptics.o(t._ZNK5QHashIiPKN10QtMobility15QFeedbackEffectEE8findNodeERKiPj)
+    .extab._ZN16QFeedbackSymbian13initActuatorsEv 0x0000ada8   Data           0  qfeedback_symbian.o(.ARM.extab)
+    .extab._ZN16QFeedbackSymbianC1Ev         0x0000add8   Data           0  qfeedback_symbian.o(.ARM.extab)
+    .extab.qt_plugin_instance                0x0000ae10   Data           0  qfeedback_symbian.o(.ARM.extab)
+    .extab._ZN16QFeedbackSymbianD1Ev         0x0000ae28   Data           0  qfeedback_symbian.o(.ARM.extab)
+    .extab._ZN5QListIPN10QtMobility17QFeedbackActuatorEE18detach_helper_growEii 0x0000ae60   Data           0  qfeedback_symbian.o(.ARM.extab)
+    .extab._ZN5QListIPN10QtMobility17QFeedbackActuatorEE6appendERKS2_ 0x0000ae90   Data           0  qfeedback_symbian.o(.ARM.extab)
+    .extab._ZN5QListIPN10QtMobility17QFeedbackActuatorEE13detach_helperEi 0x0000aeac   Data           0  qfeedback_symbian.o(.ARM.extab)
+    .extab._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEE11deleteNode2EPN9QHashData4NodeE 0x0000aec8   Data           0  qfeedback_symbian.o(.ARM.extab)
+    .extab._ZN16QFeedbackSymbian13touchInstanceEv 0x0000aed8   Data           0  qfeedback_themed.o(.ARM.extab)
+    .extab._ZN16QFeedbackSymbian4playEN10QtMobility15QFeedbackEffect11ThemeEffectE 0x0000af08   Data           0  qfeedback_themed.o(.ARM.extab)
+    .extab._ZN16QFeedbackSymbian7hapticsEi   0x0000af38   Data           0  qfeedback_chwrmhaptics.o(.ARM.extab)
+    .extab._ZN16QFeedbackSymbian19setActuatorPropertyERKN10QtMobility17QFeedbackActuatorENS0_25QFeedbackHapticsInterface16ActuatorPropertyERK8QVariant 0x0000af90   Data           0  qfeedback_chwrmhaptics.o(.ARM.extab)
+    .extab._ZN16QFeedbackSymbian16actuatorPropertyERKN10QtMobility17QFeedbackActuatorENS0_25QFeedbackHapticsInterface16ActuatorPropertyE 0x0000afc0   Data           0  qfeedback_chwrmhaptics.o(.ARM.extab)
+    .extab._ZN16QFeedbackSymbian20updateEffectPropertyEPKN10QtMobility22QFeedbackHapticsEffectENS0_25QFeedbackHapticsInterface14EffectPropertyE 0x0000b030   Data           0  qfeedback_chwrmhaptics.o(.ARM.extab)
+    .extab._ZN16QFeedbackSymbian14setEffectStateEPKN10QtMobility22QFeedbackHapticsEffectENS0_15QFeedbackEffect5StateE 0x0000b088   Data           0  qfeedback_chwrmhaptics.o(.ARM.extab)
+    .extab._ZN16QFeedbackSymbian9setLoadedEPN10QtMobility19QFeedbackFileEffectEb 0x0000b158   Data           0  qfeedback_chwrmhaptics.o(.ARM.extab)
+    .extab._ZN16QFeedbackSymbian14setEffectStateEPN10QtMobility19QFeedbackFileEffectENS0_15QFeedbackEffect5StateE 0x0000b1a8   Data           0  qfeedback_chwrmhaptics.o(.ARM.extab)
+    .extab._ZN16QFeedbackSymbian18supportedMimeTypesEv 0x0000b1c0   Data           0  qfeedback_chwrmhaptics.o(.ARM.extab)
+    .extab._ZN9QHashData9hasShrunkEv         0x0000b1e0   Data           0  qfeedback_chwrmhaptics.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_ 0x0000b1f4   Data           0  qfeedback_chwrmhaptics.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE13detach_helperEi 0x0000b218   Data           0  qfeedback_chwrmhaptics.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_ 0x0000b234   Data           0  qfeedback_chwrmhaptics.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE18detach_helper_growEii 0x0000b244   Data           0  qfeedback_chwrmhaptics.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE6appendERKS0_  0x0000b274   Data           0  qfeedback_chwrmhaptics.o(.ARM.extab)
+    .extab._ZN5QHashIiPKN10QtMobility15QFeedbackEffectEE6insertERKiRKS3_ 0x0000b2a4   Data           0  qfeedback_chwrmhaptics.o(.ARM.extab)
+    .extab._ZN5QHashIPKN10QtMobility15QFeedbackEffectEiE6insertERKS3_RKi 0x0000b2b4   Data           0  qfeedback_chwrmhaptics.o(.ARM.extab)
+    .extab._ZN9QHashNodeI7QStringN16QFeedbackSymbian11FileContentEEC1ERKS0_RKS2_ 0x0000b2c4   Data           0  qfeedback_chwrmhaptics.o(.ARM.extab)
+    .extab._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEEixERKS0_ 0x0000b2d4   Data           0  qfeedback_chwrmhaptics.o(.ARM.extab)
+    .extab._ZN5QHashI21THWRMLogicalActuatorsP12CHWRMHapticsE6insertERKS0_RKS2_ 0x0000b2f4   Data           0  qfeedback_chwrmhaptics.o(.ARM.extab)
+    .extab._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEE13duplicateNodeEPN9QHashData4NodeEPv 0x0000b304   Data           0  qfeedback_chwrmhaptics.o(.ARM.extab)
+    .constdata$1                             0x0000b314   Data           0  moc_qfeedback_symbian.o(.constdata)
+    qt_meta_data_QFeedbackSymbian            0x0000b314   Data          60  moc_qfeedback_symbian.o(.constdata)
+    .constdata                               0x0000b314   Section       96  moc_qfeedback_symbian.o(.constdata)
+    qt_meta_stringdata_QFeedbackSymbian      0x0000b350   Data          18  moc_qfeedback_symbian.o(.constdata)
+    .constdata$1                             0x0000b374   Data           0  qfeedback_symbian.o(.constdata)
+    qt_plugin_verification_data              0x0000b374   Data          91  qfeedback_symbian.o(.constdata)
+    .constdata                               0x0000b374   Section       91  qfeedback_symbian.o(.constdata)
+    .constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE 0x0000b3d0   Section        4  moc_qfeedback_symbian.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE 0x0000b3d4   Section        4  moc_qfeedback_symbian.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE 0x0000b3d8   Section        4  moc_qfeedback_symbian.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE 0x0000b3dc   Section        4  moc_qfeedback_symbian.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE 0x0000b3e0   Section        4  moc_qfeedback_symbian.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE 0x0000b3e4   Section        1  moc_qfeedback_symbian.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE 0x0000b3e8   Section        4  moc_qfeedback_symbian.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE 0x0000b3ec   Section        4  moc_qfeedback_symbian.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE 0x0000b3f0   Section        4  moc_qfeedback_symbian.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE 0x0000b3f4   Section        4  moc_qfeedback_symbian.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE 0x0000b3f8   Section        4  moc_qfeedback_symbian.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE 0x0000b3fc   Section        4  moc_qfeedback_symbian.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE 0x0000b400   Section        4  moc_qfeedback_symbian.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE 0x0000b404   Section        4  moc_qfeedback_symbian.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    .constdata__ZTI16QFeedbackSymbian        0x0000b408   Section       56  moc_qfeedback_symbian.o(.constdata__ZTI16QFeedbackSymbian)
+    .constdata__ZTI20MHWRMHapticsObserver    0x0000b440   Section        8  moc_qfeedback_symbian.o(.constdata__ZTI20MHWRMHapticsObserver)
+    .constdata__ZTIN10QtMobility18QFeedbackInterfaceE 0x0000b448   Section        8  moc_qfeedback_symbian.o(.constdata__ZTIN10QtMobility18QFeedbackInterfaceE)
+    .constdata__ZTIN10QtMobility22QFeedbackFileInterfaceE 0x0000b450   Section       12  moc_qfeedback_symbian.o(.constdata__ZTIN10QtMobility22QFeedbackFileInterfaceE)
+    .constdata__ZTIN10QtMobility23QFeedbackThemeInterfaceE 0x0000b45c   Section       12  moc_qfeedback_symbian.o(.constdata__ZTIN10QtMobility23QFeedbackThemeInterfaceE)
+    .constdata__ZTIN10QtMobility25QFeedbackHapticsInterfaceE 0x0000b468   Section       12  moc_qfeedback_symbian.o(.constdata__ZTIN10QtMobility25QFeedbackHapticsInterfaceE)
+    .constdata__ZTS16QFeedbackSymbian        0x0000b474   Section       19  moc_qfeedback_symbian.o(.constdata__ZTS16QFeedbackSymbian)
+    .constdata__ZTS20MHWRMHapticsObserver    0x0000b487   Section       23  moc_qfeedback_symbian.o(.constdata__ZTS20MHWRMHapticsObserver)
+    .constdata__ZTSN10QtMobility18QFeedbackInterfaceE 0x0000b49e   Section       35  moc_qfeedback_symbian.o(.constdata__ZTSN10QtMobility18QFeedbackInterfaceE)
+    .constdata__ZTSN10QtMobility22QFeedbackFileInterfaceE 0x0000b4c1   Section       39  moc_qfeedback_symbian.o(.constdata__ZTSN10QtMobility22QFeedbackFileInterfaceE)
+    .constdata__ZTSN10QtMobility23QFeedbackThemeInterfaceE 0x0000b4e8   Section       40  moc_qfeedback_symbian.o(.constdata__ZTSN10QtMobility23QFeedbackThemeInterfaceE)
+    .constdata__ZTSN10QtMobility25QFeedbackHapticsInterfaceE 0x0000b510   Section       42  moc_qfeedback_symbian.o(.constdata__ZTSN10QtMobility25QFeedbackHapticsInterfaceE)
+    .constdata__ZTV16QFeedbackSymbian        0x0000b53c   Section      244  moc_qfeedback_symbian.o(.constdata__ZTV16QFeedbackSymbian)
+    .constdata__ZTV20MHWRMHapticsObserver    0x0000b630   Section       16  qfeedback_symbian.o(.constdata__ZTV20MHWRMHapticsObserver)
+    .constdata__ZTVN10QtMobility22QFeedbackFileInterfaceE 0x0000b640   Section       36  qfeedback_symbian.o(.constdata__ZTVN10QtMobility22QFeedbackFileInterfaceE)
+    .constdata__ZTVN10QtMobility23QFeedbackThemeInterfaceE 0x0000b664   Section       24  qfeedback_symbian.o(.constdata__ZTVN10QtMobility23QFeedbackThemeInterfaceE)
+    .constdata__ZTVN10QtMobility25QFeedbackHapticsInterfaceE 0x0000b67c   Section       48  qfeedback_symbian.o(.constdata__ZTVN10QtMobility25QFeedbackHapticsInterfaceE)
+    .ARM.exidx                               0x0000b6ac   Section        8  ucppinit.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  qfeedback_symbian.o(.data)
+    _ZGV_instance@qt_plugin_instance_0       0x00400000   Data           4  qfeedback_symbian.o(.data)
+    .data                                    0x00400000   Section        8  qfeedback_symbian.o(.data)
+    _instance@qt_plugin_instance_1           0x00400004   Data           4  qfeedback_symbian.o(.data)
+    .data$0                                  0x00400008   Data           0  qfeedback_themed.o(.data)
+    ret@_ZN16QFeedbackSymbian13touchInstanceEv_0 0x00400008   Data           4  qfeedback_themed.o(.data)
+    .data                                    0x00400008   Section        4  qfeedback_themed.o(.data)
+    .data$0                                  0x0040000c   Data           0  ucppfini.o(.data)
+    .data                                    0x0040000c   Section        4  ucppfini.o(.data)
+    .data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE 0x00400010   Section       12  moc_qfeedback_symbian.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    .bss$5                                   0x0040001c   Data           0  ucppfini.o(.bss)
+    .bss                                     0x0040001c   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$VFPv2$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$IEEEJ$EBA8$UX$FPIC$INDIRECT$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    QtCore{00040703}[2001b2dc].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtFeedback{00010103}[2002bfce].dll       0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtGui{00040703}[2001b2dd].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    dfpaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtrvct2_2{000a0000}.dll                 0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    euser{000a0000}[100039e5].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    hwrmhapticsclient{000a0000}[200184bb].dll 0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    libc{00010001}[10207369].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    qtfeedback_symbian{000a0000}[200315fe].dll 0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    stdnew{000a0000}[20022178].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    touchfeedback{000a0000}[2000b491].dll    0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    qt_symbian_throwIfError(int)              - Undefined Reference
+    _Z23qt_symbian_throwIfErrori@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qFree(void*)                              - Undefined Reference
+    _Z5qFreePv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qHash(const QString&)                     - Undefined Reference
+    _Z5qHashRK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::shared_null                   - Undefined Reference
+    _ZN10QByteArray11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::operator =(const QByteArray&)  - Undefined Reference
+    _ZN10QByteArrayaSERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QtMobility::QFeedbackInterface::reportError(const QtMobility::QFeedbackEffect*, QtMobility::QFeedbackEffect::ErrorType)  - Undefined Reference
+    _ZN10QtMobility18QFeedbackInterface11reportErrorEPKNS_15QFeedbackEffectENS1_9ErrorTypeE@QtFeedback{00010103}[2002bfce].dll  - Undefined Reference
+    QtMobility::QFeedbackFileInterface::reportLoadFinished(QtMobility::QFeedbackFileEffect*, bool)  - Undefined Reference
+    _ZN10QtMobility22QFeedbackFileInterface18reportLoadFinishedEPNS_19QFeedbackFileEffectEb@QtFeedback{00010103}[2002bfce].dll  - Undefined Reference
+    QtMobility::QFeedbackHapticsInterface::createFeedbackActuator(QObject*, int)  - Undefined Reference
+    _ZN10QtMobility25QFeedbackHapticsInterface22createFeedbackActuatorEP7QObjecti@QtFeedback{00010103}[2002bfce].dll  - Undefined Reference
+    QMetaObject::changeGuard(QObject**, QObject*)  - Undefined Reference
+    _ZN11QMetaObject11changeGuardEPP7QObjectS1_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::removeGuard(QObject**)       - Undefined Reference
+    _ZN11QMetaObject11removeGuardEPP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::invokeMethod(QObject*, const char*, Qt::ConnectionType, QGenericReturnArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument)  - Undefined Reference
+    _ZN11QMetaObject12invokeMethodEP7QObjectPKcN2Qt14ConnectionTypeE22QGenericReturnArgument16QGenericArgumentS7_S7_S7_S7_S7_S7_S7_S7_S7_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    CHWRMHaptics::NewL(MHWRMHapticsObserver*, MHWRMHapticsActuatorObserver*)  - Undefined Reference
+    _ZN12CHWRMHaptics4NewLEP20MHWRMHapticsObserverP28MHWRMHapticsActuatorObserver@hwrmhapticsclient{000a0000}[200184bb].dll  - Undefined Reference
+    QApplication::activeWindow()              - Undefined Reference
+    _ZN12QApplication12activeWindowEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    MTouchFeedback::CreateInstanceL()         - Undefined Reference
+    _ZN14MTouchFeedback15CreateInstanceLEv@touchfeedback{000a0000}[2000b491].dll  - Undefined Reference
+    MTouchFeedback::Instance()                - Undefined Reference
+    _ZN14MTouchFeedback8InstanceEv@touchfeedback{000a0000}[2000b491].dll  - Undefined Reference
+    QUrl::~QUrl()                             - Undefined Reference
+    _ZN4QUrlD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    User::MarkCleanupStack()                  - Undefined Reference
+    _ZN4User16MarkCleanupStackEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::UnMarkCleanupStack(TTrapHandler*)   - Undefined Reference
+    _ZN4User18UnMarkCleanupStackEP12TTrapHandler@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::Invariant()                         - Undefined Reference
+    _ZN4User9InvariantEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::LockedDec(int&)                     - Undefined Reference
+    _ZN4User9LockedDecERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::LockedInc(int&)                     - Undefined Reference
+    _ZN4User9LockedIncERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QFile::open(QFlags<QIODevice::OpenModeFlag>)  - Undefined Reference
+    _ZN5QFile4openE6QFlagsIN9QIODevice12OpenModeFlagEE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QFile::QFile(const QString&)              - Undefined Reference
+    _ZN5QFileC1ERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QFile::~QFile()                           - Undefined Reference
+    _ZN5QFileD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    TPtrC8::TPtrC8(const unsigned char*, int)  - Undefined Reference
+    _ZN6TPtrC8C1EPKhi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QObject::childEvent(QChildEvent*)         - Undefined Reference
+    _ZN7QObject10childEventEP11QChildEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::timerEvent(QTimerEvent*)         - Undefined Reference
+    _ZN7QObject10timerEventEP11QTimerEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::customEvent(QEvent*)             - Undefined Reference
+    _ZN7QObject11customEventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::eventFilter(QObject*, QEvent*)   - Undefined Reference
+    _ZN7QObject11eventFilterEPS_P6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN7QObject11qt_metacallEN11QMetaObject4CallEiPPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::qt_metacast(const char*)         - Undefined Reference
+    _ZN7QObject11qt_metacastEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connectNotify(const char*)       - Undefined Reference
+    _ZN7QObject13connectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::disconnectNotify(const char*)    - Undefined Reference
+    _ZN7QObject16disconnectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::staticMetaObject                 - Undefined Reference
+    _ZN7QObject16staticMetaObjectE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::event(QEvent*)                   - Undefined Reference
+    _ZN7QObject5eventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::QObject(QObject*)                - Undefined Reference
+    _ZN7QObjectC1EPS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::~QObject()                       - Undefined Reference
+    _ZN7QObjectD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromAscii_helper(const char*, int)  - Undefined Reference
+    _ZN7QString16fromAscii_helperEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromLatin1_helper(const char*, int)  - Undefined Reference
+    _ZN7QString17fromLatin1_helperEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::free(QString::Data*)             - Undefined Reference
+    _ZN7QString4freeEPNS_4DataE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::QVariant(const QString&)        - Undefined Reference
+    _ZN8QVariantC1ERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::QVariant(bool)                  - Undefined Reference
+    _ZN8QVariantC1Eb@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::QVariant(int)                   - Undefined Reference
+    _ZN8QVariantC1Ei@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::QVariant(int, const void*, unsigned)  - Undefined Reference
+    _ZN8QVariantC1EiPKvj@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::free_helper(void(*)(QHashData::Node*))  - Undefined Reference
+    _ZN9QHashData11free_helperEPFvPNS_4NodeEE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::shared_null                    - Undefined Reference
+    _ZN9QHashData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::allocateNode(int)              - Undefined Reference
+    _ZN9QHashData12allocateNodeEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::detach_helper2(void(*)(QHashData::Node*, void*), void(*)(QHashData::Node*), int, int)  - Undefined Reference
+    _ZN9QHashData14detach_helper2EPFvPNS_4NodeEPvEPFvS1_Eii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::rehash(int)                    - Undefined Reference
+    _ZN9QHashData6rehashEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::freeNode(void*)                - Undefined Reference
+    _ZN9QHashData8freeNodeEPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::nextNode(QHashData::Node*)     - Undefined Reference
+    _ZN9QHashData8nextNodeEPNS_4NodeE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QIODevice::readAll()                      - Undefined Reference
+    _ZN9QIODevice7readAllEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach_grow(int*, int)         - Undefined Reference
+    _ZN9QListData11detach_growEPii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::shared_null                    - Undefined Reference
+    _ZN9QListData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::append()                       - Undefined Reference
+    _ZN9QListData6appendEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach(int)                    - Undefined Reference
+    _ZN9QListData6detachEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QtMobility::QFeedbackActuator::id() const  - Undefined Reference
+    _ZNK10QtMobility17QFeedbackActuator2idEv@QtFeedback{00010103}[2002bfce].dll  - Undefined Reference
+    QtMobility::QFeedbackFileEffect::source() const  - Undefined Reference
+    _ZNK10QtMobility19QFeedbackFileEffect6sourceEv@QtFeedback{00010103}[2002bfce].dll  - Undefined Reference
+    QtMobility::QFeedbackHapticsEffect::attackTime() const  - Undefined Reference
+    _ZNK10QtMobility22QFeedbackHapticsEffect10attackTimeEv@QtFeedback{00010103}[2002bfce].dll  - Undefined Reference
+    QtMobility::QFeedbackHapticsEffect::fadeIntensity() const  - Undefined Reference
+    _ZNK10QtMobility22QFeedbackHapticsEffect13fadeIntensityEv@QtFeedback{00010103}[2002bfce].dll  - Undefined Reference
+    QtMobility::QFeedbackHapticsEffect::attackIntensity() const  - Undefined Reference
+    _ZNK10QtMobility22QFeedbackHapticsEffect15attackIntensityEv@QtFeedback{00010103}[2002bfce].dll  - Undefined Reference
+    QtMobility::QFeedbackHapticsEffect::period() const  - Undefined Reference
+    _ZNK10QtMobility22QFeedbackHapticsEffect6periodEv@QtFeedback{00010103}[2002bfce].dll  - Undefined Reference
+    QtMobility::QFeedbackHapticsEffect::actuator() const  - Undefined Reference
+    _ZNK10QtMobility22QFeedbackHapticsEffect8actuatorEv@QtFeedback{00010103}[2002bfce].dll  - Undefined Reference
+    QtMobility::QFeedbackHapticsEffect::fadeTime() const  - Undefined Reference
+    _ZNK10QtMobility22QFeedbackHapticsEffect8fadeTimeEv@QtFeedback{00010103}[2002bfce].dll  - Undefined Reference
+    QtMobility::QFeedbackHapticsEffect::intensity() const  - Undefined Reference
+    _ZNK10QtMobility22QFeedbackHapticsEffect9intensityEv@QtFeedback{00010103}[2002bfce].dll  - Undefined Reference
+    XLeaveException::GetReason() const        - Undefined Reference
+    _ZNK15XLeaveException9GetReasonEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QUrl::toLocalFile() const                 - Undefined Reference
+    _ZNK4QUrl11toLocalFileEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QFile::size() const                       - Undefined Reference
+    _ZNK5QFile4sizeEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::arg(long long, int, int, const QChar&) const  - Undefined Reference
+    _ZNK7QString3argExiiRK5QChar@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::operator ==(const QString&) const  - Undefined Reference
+    _ZNK7QStringeqERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QWidget::winId() const                    - Undefined Reference
+    _ZNK7QWidget5winIdEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QVariant::toBool() const                  - Undefined Reference
+    _ZNK8QVariant6toBoolEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for XLeaveException              - Undefined Reference
+    _ZTI15XLeaveException@drtaeabi{000a0000}.dll  - Undefined Reference
+    typeinfo for QObject                      - Undefined Reference
+    _ZTI7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for std::bad_alloc               - Undefined Reference
+    _ZTISt9bad_alloc@stdnew{000a0000}[20022178].dll  - Undefined Reference
+    vtable for __cxxabiv1::__class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv117__class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv120__si_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    vtable for __cxxabiv1::__vmi_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv121__vmi_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    operator delete (void*)                   - Undefined Reference
+    _ZdlPv@stdnew{000a0000}[20022178].dll     - Undefined Reference
+    operator new(unsigned)                    - Undefined Reference
+    _Znwj@stdnew{000a0000}[20022178].dll      - Undefined Reference
+    __ARM_ll_cmpge                            - Undefined Reference
+    __ARM_ll_cmpge@drtrvct2_2{000a0000}.dll   - Undefined Reference
+    __aeabi_cdrcmple                          - Undefined Reference
+    __aeabi_cdrcmple@dfpaeabi{000a0000}.dll   - Undefined Reference
+    __aeabi_d2iz                              - Undefined Reference
+    __aeabi_d2iz@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_dadd                              - Undefined Reference
+    __aeabi_dadd@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_f2d                               - Undefined Reference
+    __aeabi_f2d@dfpaeabi{000a0000}.dll        - Undefined Reference
+    __aeabi_f2iz                              - Undefined Reference
+    __aeabi_f2iz@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_fmul                              - Undefined Reference
+    __aeabi_fmul@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_frsub                             - Undefined Reference
+    __aeabi_frsub@dfpaeabi{000a0000}.dll      - Undefined Reference
+    __aeabi_fsub                              - Undefined Reference
+    __aeabi_fsub@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_i2f                               - Undefined Reference
+    __aeabi_i2f@dfpaeabi{000a0000}.dll        - Undefined Reference
+    __aeabi_memcpy4                           - Undefined Reference
+    __aeabi_memcpy4@drtaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_uidivmod                          - Undefined Reference
+    __aeabi_uidivmod@drtaeabi{000a0000}.dll   - Undefined Reference
+    __aeabi_unwind_cpp_pr0                    - Undefined Reference
+    __aeabi_unwind_cpp_pr0@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_begin_catch                         - Undefined Reference
+    __cxa_begin_catch@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_end_catch                           - Undefined Reference
+    __cxa_end_catch@drtaeabi{000a0000}.dll    - Undefined Reference
+    __cxa_end_cleanup                         - Undefined Reference
+    __cxa_end_cleanup@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_abort                         - Undefined Reference
+    __cxa_guard_abort@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_acquire                       - Undefined Reference
+    __cxa_guard_acquire@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_release                       - Undefined Reference
+    __cxa_guard_release@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_pure_virtual                        - Undefined Reference
+    __cxa_pure_virtual@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_rethrow                             - Undefined Reference
+    __cxa_rethrow@drtaeabi{000a0000}.dll      - Undefined Reference
+    strcmp                                    - Undefined Reference
+    strcmp@libc{00010001}[10207369].dll       - Undefined Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      52  ucppinit.o(.emb_text)
+    std::nothrow                             0x0000805c   ARM Code       0  ucppinit.o(.emb_text)
+    __PLT                                    0x0000805c   ARM Code       0  anon$$obj.o(.plt)
+    QFeedbackSymbian::getStaticMetaObject()  0x000082f5   Thumb Code     4  moc_qfeedback_symbian.o(.text)
+    QFeedbackSymbian::metaObject() const     0x000082f9   Thumb Code    28  moc_qfeedback_symbian.o(.text)
+    QFeedbackSymbian::qt_metacast(const char*) 0x00008315   Thumb Code   166  moc_qfeedback_symbian.o(.text)
+    QFeedbackSymbian::qt_metacall(QMetaObject::Call, int, void**) 0x000083bb   Thumb Code    36  moc_qfeedback_symbian.o(.text)
+    qt_plugin_query_verification_data        0x000084cd   Thumb Code     4  qfeedback_symbian.o(.text)
+    QFeedbackSymbian::initActuators()        0x000084d1   Thumb Code   188  qfeedback_symbian.o(.text)
+    QFeedbackSymbian::QFeedbackSymbian()     0x0000858d   Thumb Code   164  qfeedback_symbian.o(.text)
+    QFeedbackSymbian::QFeedbackSymbian__sub_object() 0x0000858d   Thumb Code     0  qfeedback_symbian.o(.text)
+    qt_plugin_instance                       0x00008631   Thumb Code   120  qfeedback_symbian.o(.text)
+    QFeedbackSymbian::~QFeedbackSymbian()    0x000086a9   Thumb Code   180  qfeedback_symbian.o(.text)
+    QFeedbackSymbian::~QFeedbackSymbian__sub_object() 0x000086a9   Thumb Code     0  qfeedback_symbian.o(.text)
+    QFeedbackSymbian::~QFeedbackSymbian__deallocating() 0x0000875d   Thumb Code    22  qfeedback_symbian.o(.text)
+    thunk{-16} to QFeedbackSymbian::~QFeedbackSymbian__deallocating() 0x00008773   Thumb Code    14  qfeedback_symbian.o(.text)
+    thunk{-12} to QFeedbackSymbian::~QFeedbackSymbian__deallocating() 0x00008781   Thumb Code    14  qfeedback_symbian.o(.text)
+    thunk{-8} to QFeedbackSymbian::~QFeedbackSymbian__deallocating() 0x0000878f   Thumb Code    14  qfeedback_symbian.o(.text)
+    thunk{-16} to QFeedbackSymbian::~QFeedbackSymbian() 0x0000879d   Thumb Code    14  qfeedback_symbian.o(.text)
+    thunk{-12} to QFeedbackSymbian::~QFeedbackSymbian() 0x000087ab   Thumb Code    14  qfeedback_symbian.o(.text)
+    thunk{-8} to QFeedbackSymbian::~QFeedbackSymbian() 0x000087b9   Thumb Code    14  qfeedback_symbian.o(.text)
+    QFeedbackSymbian::pluginPriority()       0x000087c7   Thumb Code     6  qfeedback_symbian.o(.text)
+    thunk{-12} to QFeedbackSymbian::pluginPriority() 0x000087cd   Thumb Code    14  qfeedback_symbian.o(.text)
+    thunk{-8} to QFeedbackSymbian::pluginPriority() 0x000087db   Thumb Code    14  qfeedback_symbian.o(.text)
+    QFeedbackSymbian::actuators()            0x000087e9   Thumb Code    40  qfeedback_symbian.o(.text)
+    thunk{-8} to QFeedbackSymbian::actuators() 0x00008811   Thumb Code    18  qfeedback_symbian.o(.text)
+    QFeedbackSymbian::defaultWidget()        0x00008823   Thumb Code    26  qfeedback_symbian.o(.text)
+    QFeedbackSymbian::touchInstance()        0x00008923   Thumb Code   102  qfeedback_themed.o(.text)
+    QFeedbackSymbian::play(QtMobility::QFeedbackEffect::ThemeEffect) 0x00008989   Thumb Code   104  qfeedback_themed.o(.text)
+    thunk{-12} to QFeedbackSymbian::play(QtMobility::QFeedbackEffect::ThemeEffect) 0x000089f1   Thumb Code    18  qfeedback_themed.o(.text)
+    QFeedbackSymbian::haptics(int)           0x00008a09   Thumb Code   226  qfeedback_chwrmhaptics.o(.text)
+    QFeedbackSymbian::setActuatorProperty(const QtMobility::QFeedbackActuator&, QtMobility::QFeedbackHapticsInterface::ActuatorProperty, const QVariant&) 0x00008aeb   Thumb Code   106  qfeedback_chwrmhaptics.o(.text)
+    thunk{-8} to QFeedbackSymbian::setActuatorProperty(const QtMobility::QFeedbackActuator&, QtMobility::QFeedbackHapticsInterface::ActuatorProperty, const QVariant&) 0x00008b55   Thumb Code    26  qfeedback_chwrmhaptics.o(.text)
+    QFeedbackSymbian::actuatorProperty(const QtMobility::QFeedbackActuator&, QtMobility::QFeedbackHapticsInterface::ActuatorProperty) 0x00008b6f   Thumb Code   406  qfeedback_chwrmhaptics.o(.text)
+    thunk{-8} to QFeedbackSymbian::actuatorProperty(const QtMobility::QFeedbackActuator&, QtMobility::QFeedbackHapticsInterface::ActuatorProperty) 0x00008d05   Thumb Code    26  qfeedback_chwrmhaptics.o(.text)
+    QFeedbackSymbian::isActuatorCapabilitySupported(const QtMobility::QFeedbackActuator&, QtMobility::QFeedbackActuator::Capability) 0x00008d1f   Thumb Code    26  qfeedback_chwrmhaptics.o(.text)
+    thunk{-8} to QFeedbackSymbian::isActuatorCapabilitySupported(const QtMobility::QFeedbackActuator&, QtMobility::QFeedbackActuator::Capability) 0x00008d39   Thumb Code    22  qfeedback_chwrmhaptics.o(.text)
+    QFeedbackSymbian::updateEffectProperty(const QtMobility::QFeedbackHapticsEffect*, QtMobility::QFeedbackHapticsInterface::EffectProperty) 0x00008d4f   Thumb Code   452  qfeedback_chwrmhaptics.o(.text)
+    thunk{-8} to QFeedbackSymbian::updateEffectProperty(const QtMobility::QFeedbackHapticsEffect*, QtMobility::QFeedbackHapticsInterface::EffectProperty) 0x00008f13   Thumb Code    54  qfeedback_chwrmhaptics.o(.text)
+    QFeedbackSymbian::setEffectState(const QtMobility::QFeedbackHapticsEffect*, QtMobility::QFeedbackEffect::State) 0x00008f49   Thumb Code   840  qfeedback_chwrmhaptics.o(.text)
+    thunk{-8} to QFeedbackSymbian::setEffectState(const QtMobility::QFeedbackHapticsEffect*, QtMobility::QFeedbackEffect::State) 0x00009291   Thumb Code    22  qfeedback_chwrmhaptics.o(.text)
+    QFeedbackSymbian::effectState(const QtMobility::QFeedbackHapticsEffect*) 0x000092a7   Thumb Code   106  qfeedback_chwrmhaptics.o(.text)
+    thunk{-8} to QFeedbackSymbian::effectState(const QtMobility::QFeedbackHapticsEffect*) 0x00009311   Thumb Code    18  qfeedback_chwrmhaptics.o(.text)
+    QFeedbackSymbian::fileHaptics()          0x00009323   Thumb Code    14  qfeedback_chwrmhaptics.o(.text)
+    QFeedbackSymbian::setLoaded(QtMobility::QFeedbackFileEffect*, bool) 0x00009331   Thumb Code   420  qfeedback_chwrmhaptics.o(.text)
+    thunk{-16} to QFeedbackSymbian::setLoaded(QtMobility::QFeedbackFileEffect*, bool) 0x000094d5   Thumb Code    22  qfeedback_chwrmhaptics.o(.text)
+    QFeedbackSymbian::setEffectState(QtMobility::QFeedbackFileEffect*, QtMobility::QFeedbackEffect::State) 0x000094eb   Thumb Code   276  qfeedback_chwrmhaptics.o(.text)
+    thunk{-16} to QFeedbackSymbian::setEffectState(QtMobility::QFeedbackFileEffect*, QtMobility::QFeedbackEffect::State) 0x000095ff   Thumb Code    22  qfeedback_chwrmhaptics.o(.text)
+    QFeedbackSymbian::effectState(const QtMobility::QFeedbackFileEffect*) 0x00009615   Thumb Code    88  qfeedback_chwrmhaptics.o(.text)
+    thunk{-16} to QFeedbackSymbian::effectState(const QtMobility::QFeedbackFileEffect*) 0x0000966d   Thumb Code    18  qfeedback_chwrmhaptics.o(.text)
+    QFeedbackSymbian::effectDuration(const QtMobility::QFeedbackFileEffect*) 0x0000967f   Thumb Code    68  qfeedback_chwrmhaptics.o(.text)
+    thunk{-16} to QFeedbackSymbian::effectDuration(const QtMobility::QFeedbackFileEffect*) 0x000096c3   Thumb Code    18  qfeedback_chwrmhaptics.o(.text)
+    QFeedbackSymbian::supportedMimeTypes()   0x000096d5   Thumb Code   128  qfeedback_chwrmhaptics.o(.text)
+    thunk{-16} to QFeedbackSymbian::supportedMimeTypes() 0x00009755   Thumb Code    18  qfeedback_chwrmhaptics.o(.text)
+    QFeedbackSymbian::EffectCompletedL(int, int) 0x00009767   Thumb Code   312  qfeedback_chwrmhaptics.o(.text)
+    thunk{-20} to QFeedbackSymbian::EffectCompletedL(int, int) 0x0000989f   Thumb Code    22  qfeedback_chwrmhaptics.o(.text)
+    QFeedbackSymbian::HapticsStatusChangedL(MHWRMHapticsObserver::THWRMHapticsStatus) 0x000098b5   Thumb Code     6  qfeedback_chwrmhaptics.o(.text)
+    thunk{-20} to QFeedbackSymbian::HapticsStatusChangedL(MHWRMHapticsObserver::THWRMHapticsStatus) 0x000098bb   Thumb Code    18  qfeedback_chwrmhaptics.o(.text)
+    __ARM_switch8                            0x000098ec   ARM Code      24  switch8.o(.text)
+    __rt_switch8                             0x000098ec   ARM Code       0  switch8.o(.text)
+    _E32Dll_Body                             0x00009904   ARM Code      76  uc_dll.o(.text)
+    __aeabi_atexit                           0x00009954   ARM Code      40  ucppfini.o(.text)
+    __cxa_atexit                             0x0000997c   ARM Code      64  ucppfini.o(.text)
+    __cxa_finalize                           0x000099bc   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x000099ec   ARM Code      16  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x00009a08   ARM Code       4  dllexp.o(.text)
+    qRound(float)                            0x00009bc1   Thumb Code   140  qfeedback_chwrmhaptics.o(i._Z6qRoundf)
+    QByteArray::~QByteArray()                0x00009c5d   Thumb Code    24  qfeedback_symbian.o(i._ZN10QByteArrayD1Ev)
+    QByteArray::~QByteArray__sub_object()    0x00009c5d   Thumb Code     0  qfeedback_symbian.o(i._ZN10QByteArrayD1Ev)
+    QtMobility::QFeedbackFileInterface::~QFeedbackFileInterface__deallocating() 0x00009c75   Thumb Code    18  qfeedback_symbian.o(i._ZN10QtMobility22QFeedbackFileInterfaceD0Ev)
+    QtMobility::QFeedbackFileInterface::~QFeedbackFileInterface() 0x00009c87   Thumb Code     0  qfeedback_symbian.o(i._ZN10QtMobility22QFeedbackFileInterfaceD2Ev)
+    QtMobility::QFeedbackFileInterface::~QFeedbackFileInterface__sub_object() 0x00009c87   Thumb Code     2  qfeedback_symbian.o(i._ZN10QtMobility22QFeedbackFileInterfaceD2Ev)
+    QtMobility::QFeedbackThemeInterface::~QFeedbackThemeInterface__deallocating() 0x00009c89   Thumb Code    18  qfeedback_symbian.o(i._ZN10QtMobility23QFeedbackThemeInterfaceD0Ev)
+    QtMobility::QFeedbackThemeInterface::~QFeedbackThemeInterface() 0x00009c9b   Thumb Code     0  qfeedback_symbian.o(i._ZN10QtMobility23QFeedbackThemeInterfaceD2Ev)
+    QtMobility::QFeedbackThemeInterface::~QFeedbackThemeInterface__sub_object() 0x00009c9b   Thumb Code     2  qfeedback_symbian.o(i._ZN10QtMobility23QFeedbackThemeInterfaceD2Ev)
+    QtMobility::QFeedbackHapticsInterface::~QFeedbackHapticsInterface__deallocating() 0x00009c9d   Thumb Code    18  qfeedback_symbian.o(i._ZN10QtMobility25QFeedbackHapticsInterfaceD0Ev)
+    QtMobility::QFeedbackHapticsInterface::~QFeedbackHapticsInterface() 0x00009caf   Thumb Code     0  qfeedback_symbian.o(i._ZN10QtMobility25QFeedbackHapticsInterfaceD2Ev)
+    QtMobility::QFeedbackHapticsInterface::~QFeedbackHapticsInterface__sub_object() 0x00009caf   Thumb Code     2  qfeedback_symbian.o(i._ZN10QtMobility25QFeedbackHapticsInterfaceD2Ev)
+    QStringList::~QStringList()              0x00009cb1   Thumb Code    14  qfeedback_chwrmhaptics.o(i._ZN11QStringListD1Ev)
+    QStringList::~QStringList__sub_object()  0x00009cb1   Thumb Code     0  qfeedback_chwrmhaptics.o(i._ZN11QStringListD1Ev)
+    QBasicAtomicInt::ref()                   0x00009cbf   Thumb Code    24  qfeedback_symbian.o(i._ZN15QBasicAtomicInt3refEv)
+    QBasicAtomicInt::deref()                 0x00009cd7   Thumb Code    24  qfeedback_symbian.o(i._ZN15QBasicAtomicInt5derefEv)
+    QFeedbackSymbian::FileContent::~FileContent() 0x00009cef   Thumb Code    16  qfeedback_symbian.o(i._ZN16QFeedbackSymbian11FileContentD1Ev)
+    QFeedbackSymbian::FileContent::~FileContent__sub_object() 0x00009cef   Thumb Code     0  qfeedback_symbian.o(i._ZN16QFeedbackSymbian11FileContentD1Ev)
+    QString::QString(const QString&)         0x00009cff   Thumb Code    22  qfeedback_chwrmhaptics.o(i._ZN7QStringC1ERKS_)
+    QString::QString__sub_object(const QString&) 0x00009cff   Thumb Code     0  qfeedback_chwrmhaptics.o(i._ZN7QStringC1ERKS_)
+    QString::~QString()                      0x00009d15   Thumb Code    24  qfeedback_symbian.o(i._ZN7QStringD1Ev)
+    QString::~QString__sub_object()          0x00009d15   Thumb Code     0  qfeedback_symbian.o(i._ZN7QStringD1Ev)
+    QHashData::willGrow()                    0x00009d2d   Thumb Code    32  qfeedback_chwrmhaptics.o(i._ZN9QHashData8willGrowEv)
+    QHashData::hasShrunk()                   0x00009d4d   Thumb Code    82  qfeedback_chwrmhaptics.o(i._ZN9QHashData9hasShrunkEv)
+    QBasicAtomicInt::operator !=(int) const  0x00009d9f   Thumb Code    16  qfeedback_chwrmhaptics.o(i._ZNK15QBasicAtomicIntneEi)
+    QListData::end() const                   0x00009daf   Thumb Code    16  qfeedback_symbian.o(i._ZNK9QListData3endEv)
+    QListData::begin() const                 0x00009dbf   Thumb Code    16  qfeedback_symbian.o(i._ZNK9QListData5beginEv)
+    operator delete (void*, void*)           0x00009dcf   Thumb Code     2  qfeedback_chwrmhaptics.o(i._ZdlPvS_)
+    operator new(unsigned, void*)            0x00009dd1   Thumb Code     6  qfeedback_chwrmhaptics.o(i._ZnwjPv)
+    qDeleteAll<QHash<THWRMLogicalActuators, CHWRMHaptics*>::const_iterator>(T1, T1) 0x00009dd7   Thumb Code    60  qfeedback_symbian.o(t._Z10qDeleteAllIN5QHashI21THWRMLogicalActuatorsP12CHWRMHapticsE14const_iteratorEEvT_S6_)
+    QHash<THWRMLogicalActuators, CHWRMHaptics*>::deleteNode2(QHashData::Node*) 0x00009e13   Thumb Code     6  qfeedback_symbian.o(t._ZN5QHashI21THWRMLogicalActuatorsP12CHWRMHapticsE11deleteNode2EPN9QHashData4NodeE)
+    QHash<THWRMLogicalActuators, CHWRMHaptics*>::detach_helper() 0x00009e19   Thumb Code    52  qfeedback_chwrmhaptics.o(t._ZN5QHashI21THWRMLogicalActuatorsP12CHWRMHapticsE13detach_helperEv)
+    QHash<THWRMLogicalActuators, CHWRMHaptics*>::duplicateNode(QHashData::Node*, void*) 0x00009e55   Thumb Code    46  qfeedback_chwrmhaptics.o(t._ZN5QHashI21THWRMLogicalActuatorsP12CHWRMHapticsE13duplicateNodeEPN9QHashData4NodeEPv)
+    QHash<THWRMLogicalActuators, CHWRMHaptics*>::insert(const THWRMLogicalActuators&, CHWRMHaptics*const &) 0x00009e83   Thumb Code   200  qfeedback_chwrmhaptics.o(t._ZN5QHashI21THWRMLogicalActuatorsP12CHWRMHapticsE6insertERKS0_RKS2_)
+    QHash<THWRMLogicalActuators, CHWRMHaptics*>::freeData(QHashData*) 0x00009f51   Thumb Code    16  qfeedback_symbian.o(t._ZN5QHashI21THWRMLogicalActuatorsP12CHWRMHapticsE8freeDataEP9QHashData)
+    QHash<THWRMLogicalActuators, CHWRMHaptics*>::~QHash() 0x00009f65   Thumb Code    30  qfeedback_symbian.o(t._ZN5QHashI21THWRMLogicalActuatorsP12CHWRMHapticsED1Ev)
+    QHash<THWRMLogicalActuators, CHWRMHaptics*>::~QHash__sub_object() 0x00009f65   Thumb Code     0  qfeedback_symbian.o(t._ZN5QHashI21THWRMLogicalActuatorsP12CHWRMHapticsED1Ev)
+    QHash<QString, QFeedbackSymbian::FileContent>::deleteNode2(QHashData::Node*) 0x00009f83   Thumb Code    36  qfeedback_symbian.o(t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEE11deleteNode2EPN9QHashData4NodeE)
+    QHash<QString, QFeedbackSymbian::FileContent>::detach_helper() 0x00009fb5   Thumb Code    52  qfeedback_chwrmhaptics.o(t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEE13detach_helperEv)
+    QHash<QString, QFeedbackSymbian::FileContent>::duplicateNode(QHashData::Node*, void*) 0x00009ff1   Thumb Code    46  qfeedback_chwrmhaptics.o(t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEE13duplicateNodeEPN9QHashData4NodeEPv)
+    QHash<QString, QFeedbackSymbian::FileContent>::detach() 0x0000a02d   Thumb Code    28  qfeedback_chwrmhaptics.o(t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEE6detachEv)
+    QHash<QString, QFeedbackSymbian::FileContent>::remove(const QString&) 0x0000a049   Thumb Code   164  qfeedback_chwrmhaptics.o(t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEE6removeERKS0_)
+    QHash<QString, QFeedbackSymbian::FileContent>::freeData(QHashData*) 0x0000a0ed   Thumb Code    16  qfeedback_symbian.o(t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEE8freeDataEP9QHashData)
+    QHash<QString, QFeedbackSymbian::FileContent>::~QHash() 0x0000a101   Thumb Code    30  qfeedback_symbian.o(t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEED1Ev)
+    QHash<QString, QFeedbackSymbian::FileContent>::~QHash__sub_object() 0x0000a101   Thumb Code     0  qfeedback_symbian.o(t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEED1Ev)
+    QHash<QString, QFeedbackSymbian::FileContent>::operator [](const QString&) 0x0000a121   Thumb Code   226  qfeedback_chwrmhaptics.o(t._ZN5QHashI7QStringN16QFeedbackSymbian11FileContentEEixERKS0_)
+    QHash<const QtMobility::QFeedbackEffect*, int>::deleteNode2(QHashData::Node*) 0x0000a221   Thumb Code     6  qfeedback_symbian.o(t._ZN5QHashIPKN10QtMobility15QFeedbackEffectEiE11deleteNode2EPN9QHashData4NodeE)
+    QHash<const QtMobility::QFeedbackEffect*, int>::detach_helper() 0x0000a229   Thumb Code    52  qfeedback_chwrmhaptics.o(t._ZN5QHashIPKN10QtMobility15QFeedbackEffectEiE13detach_helperEv)
+    QHash<const QtMobility::QFeedbackEffect*, int>::duplicateNode(QHashData::Node*, void*) 0x0000a265   Thumb Code    46  qfeedback_chwrmhaptics.o(t._ZN5QHashIPKN10QtMobility15QFeedbackEffectEiE13duplicateNodeEPN9QHashData4NodeEPv)
+    QHash<const QtMobility::QFeedbackEffect*, int>::detach() 0x0000a293   Thumb Code    28  qfeedback_chwrmhaptics.o(t._ZN5QHashIPKN10QtMobility15QFeedbackEffectEiE6detachEv)
+    QHash<const QtMobility::QFeedbackEffect*, int>::insert(const QtMobility::QFeedbackEffect*const &, const int&) 0x0000a2af   Thumb Code   182  qfeedback_chwrmhaptics.o(t._ZN5QHashIPKN10QtMobility15QFeedbackEffectEiE6insertERKS3_RKi)
+    QHash<const QtMobility::QFeedbackEffect*, int>::remove(const QtMobility::QFeedbackEffect*const &) 0x0000a369   Thumb Code   158  qfeedback_chwrmhaptics.o(t._ZN5QHashIPKN10QtMobility15QFeedbackEffectEiE6removeERKS3_)
+    QHash<const QtMobility::QFeedbackEffect*, int>::freeData(QHashData*) 0x0000a409   Thumb Code    16  qfeedback_symbian.o(t._ZN5QHashIPKN10QtMobility15QFeedbackEffectEiE8freeDataEP9QHashData)
+    QHash<const QtMobility::QFeedbackEffect*, int>::~QHash() 0x0000a41d   Thumb Code    30  qfeedback_symbian.o(t._ZN5QHashIPKN10QtMobility15QFeedbackEffectEiED1Ev)
+    QHash<const QtMobility::QFeedbackEffect*, int>::~QHash__sub_object() 0x0000a41d   Thumb Code     0  qfeedback_symbian.o(t._ZN5QHashIPKN10QtMobility15QFeedbackEffectEiED1Ev)
+    QHash<int, const QtMobility::QFeedbackEffect*>::deleteNode2(QHashData::Node*) 0x0000a43b   Thumb Code     6  qfeedback_symbian.o(t._ZN5QHashIiPKN10QtMobility15QFeedbackEffectEE11deleteNode2EPN9QHashData4NodeE)
+    QHash<int, const QtMobility::QFeedbackEffect*>::detach_helper() 0x0000a441   Thumb Code    52  qfeedback_chwrmhaptics.o(t._ZN5QHashIiPKN10QtMobility15QFeedbackEffectEE13detach_helperEv)
+    QHash<int, const QtMobility::QFeedbackEffect*>::duplicateNode(QHashData::Node*, void*) 0x0000a47d   Thumb Code    42  qfeedback_chwrmhaptics.o(t._ZN5QHashIiPKN10QtMobility15QFeedbackEffectEE13duplicateNodeEPN9QHashData4NodeEPv)
+    QHash<int, const QtMobility::QFeedbackEffect*>::detach() 0x0000a4a7   Thumb Code    28  qfeedback_chwrmhaptics.o(t._ZN5QHashIiPKN10QtMobility15QFeedbackEffectEE6detachEv)
+    QHash<int, const QtMobility::QFeedbackEffect*>::insert(const int&, const QtMobility::QFeedbackEffect*const &) 0x0000a4c3   Thumb Code   178  qfeedback_chwrmhaptics.o(t._ZN5QHashIiPKN10QtMobility15QFeedbackEffectEE6insertERKiRKS3_)
+    QHash<int, const QtMobility::QFeedbackEffect*>::remove(const int&) 0x0000a579   Thumb Code   158  qfeedback_chwrmhaptics.o(t._ZN5QHashIiPKN10QtMobility15QFeedbackEffectEE6removeERKi)
+    QHash<int, const QtMobility::QFeedbackEffect*>::freeData(QHashData*) 0x0000a619   Thumb Code    16  qfeedback_symbian.o(t._ZN5QHashIiPKN10QtMobility15QFeedbackEffectEE8freeDataEP9QHashData)
+    QHash<int, const QtMobility::QFeedbackEffect*>::~QHash() 0x0000a62d   Thumb Code    30  qfeedback_symbian.o(t._ZN5QHashIiPKN10QtMobility15QFeedbackEffectEED1Ev)
+    QHash<int, const QtMobility::QFeedbackEffect*>::~QHash__sub_object() 0x0000a62d   Thumb Code     0  qfeedback_symbian.o(t._ZN5QHashIiPKN10QtMobility15QFeedbackEffectEED1Ev)
+    QList<QString>::detach_helper(int)       0x0000a64b   Thumb Code    94  qfeedback_chwrmhaptics.o(t._ZN5QListI7QStringE13detach_helperEi)
+    QList<QString>::detach_helper()          0x0000a6b1   Thumb Code    16  qfeedback_chwrmhaptics.o(t._ZN5QListI7QStringE13detach_helperEv)
+    QList<QString>::node_destruct(QList<QString>::Node*, QList<QString>::Node*) 0x0000a6c1   Thumb Code    26  qfeedback_chwrmhaptics.o(t._ZN5QListI7QStringE13node_destructEPNS1_4NodeES3_)
+    QList<QString>::node_construct(QList<QString>::Node*, const QString&) 0x0000a6db   Thumb Code    36  qfeedback_chwrmhaptics.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_)
+    QList<QString>::detach_helper_grow(int, int) 0x0000a70d   Thumb Code   208  qfeedback_chwrmhaptics.o(t._ZN5QListI7QStringE18detach_helper_growEii)
+    QList<QString>::free(QListData::Data*)   0x0000a7ed   Thumb Code    58  qfeedback_chwrmhaptics.o(t._ZN5QListI7QStringE4freeEPN9QListData4DataE)
+    QList<QString>::append(const QString&)   0x0000a829   Thumb Code   114  qfeedback_chwrmhaptics.o(t._ZN5QListI7QStringE6appendERKS0_)
+    QList<QString>::node_copy(QList<QString>::Node*, QList<QString>::Node*, QList<QString>::Node*) 0x0000a8af   Thumb Code    82  qfeedback_chwrmhaptics.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_)
+    QList<QString>::~QList()                 0x0000a917   Thumb Code    32  qfeedback_chwrmhaptics.o(t._ZN5QListI7QStringED1Ev)
+    QList<QString>::~QList__sub_object()     0x0000a917   Thumb Code     0  qfeedback_chwrmhaptics.o(t._ZN5QListI7QStringED1Ev)
+    QList<QtMobility::QFeedbackActuator*>::detach_helper(int) 0x0000a937   Thumb Code    94  qfeedback_symbian.o(t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE13detach_helperEi)
+    QList<QtMobility::QFeedbackActuator*>::detach_helper() 0x0000a99d   Thumb Code    16  qfeedback_symbian.o(t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE13detach_helperEv)
+    QList<QtMobility::QFeedbackActuator*>::detach_helper_grow(int, int) 0x0000a9ad   Thumb Code   204  qfeedback_symbian.o(t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE18detach_helper_growEii)
+    QList<QtMobility::QFeedbackActuator*>::free(QListData::Data*) 0x0000aa89   Thumb Code    58  qfeedback_symbian.o(t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE4freeEPN9QListData4DataE)
+    QList<QtMobility::QFeedbackActuator*>::append(QtMobility::QFeedbackActuator*const &) 0x0000aac5   Thumb Code   100  qfeedback_symbian.o(t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE6appendERKS2_)
+    QList<QtMobility::QFeedbackActuator*>::node_copy(QList<QtMobility::QFeedbackActuator*>::Node*, QList<QtMobility::QFeedbackActuator*>::Node*, QList<QtMobility::QFeedbackActuator*>::Node*) 0x0000ab37   Thumb Code    46  qfeedback_symbian.o(t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE9node_copyEPNS3_4NodeES5_S5_)
+    QList<QtMobility::QFeedbackActuator*>::~QList() 0x0000ab65   Thumb Code    32  qfeedback_symbian.o(t._ZN5QListIPN10QtMobility17QFeedbackActuatorEED1Ev)
+    QList<QtMobility::QFeedbackActuator*>::~QList__sub_object() 0x0000ab65   Thumb Code     0  qfeedback_symbian.o(t._ZN5QListIPN10QtMobility17QFeedbackActuatorEED1Ev)
+    QPointer<QObject>::~QPointer()           0x0000ab85   Thumb Code    14  qfeedback_symbian.o(t._ZN8QPointerI7QObjectED1Ev)
+    QPointer<QObject>::~QPointer__sub_object() 0x0000ab85   Thumb Code     0  qfeedback_symbian.o(t._ZN8QPointerI7QObjectED1Ev)
+    QHashNode<QString, QFeedbackSymbian::FileContent>::QHashNode(const QString&, const QFeedbackSymbian::FileContent&) 0x0000ab93   Thumb Code    68  qfeedback_chwrmhaptics.o(t._ZN9QHashNodeI7QStringN16QFeedbackSymbian11FileContentEEC1ERKS0_RKS2_)
+    QHashNode<QString, QFeedbackSymbian::FileContent>::QHashNode__sub_object(const QString&, const QFeedbackSymbian::FileContent&) 0x0000ab93   Thumb Code     0  qfeedback_chwrmhaptics.o(t._ZN9QHashNodeI7QStringN16QFeedbackSymbian11FileContentEEC1ERKS0_RKS2_)
+    QHash<THWRMLogicalActuators, CHWRMHaptics*>::findNode(const THWRMLogicalActuators&, unsigned*) const 0x0000abe3   Thumb Code   100  qfeedback_chwrmhaptics.o(t._ZNK5QHashI21THWRMLogicalActuatorsP12CHWRMHapticsE8findNodeERKS0_Pj)
+    QHash<QString, QFeedbackSymbian::FileContent>::findNode(const QString&, unsigned*) const 0x0000ac47   Thumb Code   116  qfeedback_chwrmhaptics.o(t._ZNK5QHashI7QStringN16QFeedbackSymbian11FileContentEE8findNodeERKS0_Pj)
+    QHash<const QtMobility::QFeedbackEffect*, int>::value(const QtMobility::QFeedbackEffect*const &) const 0x0000acbb   Thumb Code    40  qfeedback_chwrmhaptics.o(t._ZNK5QHashIPKN10QtMobility15QFeedbackEffectEiE5valueERKS3_)
+    QHash<const QtMobility::QFeedbackEffect*, int>::findNode(const QtMobility::QFeedbackEffect*const &, unsigned*) const 0x0000ace3   Thumb Code   104  qfeedback_chwrmhaptics.o(t._ZNK5QHashIPKN10QtMobility15QFeedbackEffectEiE8findNodeERKS3_Pj)
+    QHash<int, const QtMobility::QFeedbackEffect*>::findNode(const int&, unsigned*) const 0x0000ad4b   Thumb Code    94  qfeedback_chwrmhaptics.o(t._ZNK5QHashIiPKN10QtMobility15QFeedbackEffectEE8findNodeERKiPj)
+    QFeedbackSymbian::staticMetaObject       0x0000b364   Data          16  moc_qfeedback_symbian.o(.constdata)
+    stlp_priv::_Integer_limits<signed char, (signed char)-128, (signed char)127, (int)-1, (bool)1>::digits 0x0000b3d0   Data           4  moc_qfeedback_symbian.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<bool, (bool)0, (bool)1, (int)1, (bool)0>::digits 0x0000b3d4   Data           4  moc_qfeedback_symbian.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    stlp_priv::_Integer_limits<char, (char)128, (char)127, (int)-1, (bool)1>::digits 0x0000b3d8   Data           4  moc_qfeedback_symbian.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned char, (unsigned char)0, (unsigned char)255, (int)-1, (bool)1>::digits 0x0000b3dc   Data           4  moc_qfeedback_symbian.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::digits 0x0000b3e0   Data           4  moc_qfeedback_symbian.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::is_signed 0x0000b3e4   Data           1  moc_qfeedback_symbian.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    stlp_priv::_Integer_limits<unsigned, (unsigned)0, (unsigned)4294967295, (int)-1, (bool)1>::digits 0x0000b3e8   Data           4  moc_qfeedback_symbian.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long, (long)-2147483648, (long)2147483647, (int)-1, (bool)1>::digits 0x0000b3ec   Data           4  moc_qfeedback_symbian.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long, (unsigned long)0, (unsigned long)4294967295, (int)-1, (bool)1>::digits 0x0000b3f0   Data           4  moc_qfeedback_symbian.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<short, (short)-32768, (short)32767, (int)-1, (bool)1>::digits 0x0000b3f4   Data           4  moc_qfeedback_symbian.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned short, (unsigned short)0, (unsigned short)65535, (int)-1, (bool)1>::digits 0x0000b3f8   Data           4  moc_qfeedback_symbian.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<wchar_t, (wchar_t)0, (wchar_t)65535, (int)-1, (bool)1>::digits 0x0000b3fc   Data           4  moc_qfeedback_symbian.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long long, (long long)-9223372036854775808, (long long)9223372036854775807, (int)-1, (bool)1>::digits 0x0000b400   Data           4  moc_qfeedback_symbian.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long long, (unsigned long long)0, (unsigned long long)18446744073709551615, (int)-1, (bool)1>::digits 0x0000b404   Data           4  moc_qfeedback_symbian.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    typeinfo for QFeedbackSymbian            0x0000b408   Data          56  moc_qfeedback_symbian.o(.constdata__ZTI16QFeedbackSymbian)
+    typeinfo for MHWRMHapticsObserver        0x0000b440   Data           8  moc_qfeedback_symbian.o(.constdata__ZTI20MHWRMHapticsObserver)
+    typeinfo for QtMobility::QFeedbackInterface 0x0000b448   Data           8  moc_qfeedback_symbian.o(.constdata__ZTIN10QtMobility18QFeedbackInterfaceE)
+    typeinfo for QtMobility::QFeedbackFileInterface 0x0000b450   Data          12  moc_qfeedback_symbian.o(.constdata__ZTIN10QtMobility22QFeedbackFileInterfaceE)
+    typeinfo for QtMobility::QFeedbackThemeInterface 0x0000b45c   Data          12  moc_qfeedback_symbian.o(.constdata__ZTIN10QtMobility23QFeedbackThemeInterfaceE)
+    typeinfo for QtMobility::QFeedbackHapticsInterface 0x0000b468   Data          12  moc_qfeedback_symbian.o(.constdata__ZTIN10QtMobility25QFeedbackHapticsInterfaceE)
+    typeinfo name for QFeedbackSymbian       0x0000b474   Data          19  moc_qfeedback_symbian.o(.constdata__ZTS16QFeedbackSymbian)
+    typeinfo name for MHWRMHapticsObserver   0x0000b487   Data          23  moc_qfeedback_symbian.o(.constdata__ZTS20MHWRMHapticsObserver)
+    typeinfo name for QtMobility::QFeedbackInterface 0x0000b49e   Data          35  moc_qfeedback_symbian.o(.constdata__ZTSN10QtMobility18QFeedbackInterfaceE)
+    typeinfo name for QtMobility::QFeedbackFileInterface 0x0000b4c1   Data          39  moc_qfeedback_symbian.o(.constdata__ZTSN10QtMobility22QFeedbackFileInterfaceE)
+    typeinfo name for QtMobility::QFeedbackThemeInterface 0x0000b4e8   Data          40  moc_qfeedback_symbian.o(.constdata__ZTSN10QtMobility23QFeedbackThemeInterfaceE)
+    typeinfo name for QtMobility::QFeedbackHapticsInterface 0x0000b510   Data          42  moc_qfeedback_symbian.o(.constdata__ZTSN10QtMobility25QFeedbackHapticsInterfaceE)
+    vtable for QFeedbackSymbian              0x0000b53c   Data         244  moc_qfeedback_symbian.o(.constdata__ZTV16QFeedbackSymbian)
+    vtable for MHWRMHapticsObserver          0x0000b630   Data          16  qfeedback_symbian.o(.constdata__ZTV20MHWRMHapticsObserver)
+    vtable for QtMobility::QFeedbackFileInterface 0x0000b640   Data          36  qfeedback_symbian.o(.constdata__ZTVN10QtMobility22QFeedbackFileInterfaceE)
+    vtable for QtMobility::QFeedbackThemeInterface 0x0000b664   Data          24  qfeedback_symbian.o(.constdata__ZTVN10QtMobility23QFeedbackThemeInterfaceE)
+    vtable for QtMobility::QFeedbackHapticsInterface 0x0000b67c   Data          48  qfeedback_symbian.o(.constdata__ZTVN10QtMobility25QFeedbackHapticsInterfaceE)
+    .ARM.exidx$$Base                         0x0000b6ac   Number         0  ucppinit.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x0000ba54   Number         0  qfeedback_chwrmhaptics.o(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x0000ba54   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    __dso_handle                             0x0040000c   Data           4  ucppfini.o(.data)
+    std::_Atomic_swap_struct<(int)1>::_S_swap_lock 0x00400010   Data          12  moc_qfeedback_symbian.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    dtor_rec                                 0x0040001c   Data        2048  ucppfini.o(.bss)
+

@@ -1,0 +1,37 @@
+/*
+* ============================================================================
+*  Name     : AvkonIcons.hrh
+*  Part of  : Avkon
+*
+*  Description:
+*     Contains definitions related to Avkon's icons.
+*
+*  Version:
+*
+*  Copyright © 2004 Nokia Corporation.
+*  This material, including documentation and any related 
+*  computer programs, is protected by copyright controlled by 
+*  Nokia Corporation. All rights are reserved. Copying, 
+*  including reproducing, storing,  adapting or translating, any 
+*  or all of this material requires the prior written consent of 
+*  Nokia Corporation. This material also contains confidential 
+*  information which may not be disclosed to others without the 
+*  prior written consent of Nokia Corporation.
+* ============================================================================
+*/
+#ifndef __AVKON_ICONS_HRH__
+#define __AVKON_ICONS_HRH__
+
+/**
+* Series 60 platform software may not hardcode Avkon's icon file name anywhere,
+* because its name will be changed.
+*
+* In code, method AknIconUtils::AvkonIconFileName should be used.
+* In resource files, the following macro should be used.
+*/
+
+#define AVKON_ICON_FILE     "z:\\resource\\apps\\avkon2.mbm"
+
+#endif // __AVKON_ICONS_HRH__
+
+// End of file

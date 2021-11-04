@@ -1,0 +1,312 @@
+<html>
+
+<head>
+
+<title>DepModel static dependency tool use cases</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1; no-cache">
+
+</head>
+
+<body>
+<table>
+<tr bgcolor="#FF9900">
+<td colSpan=2 height=69>
+<font size="5" face="Arial, Helvetica, sans-serif" color="#006699"><b>&nbsp;&nbsp;&nbsp;DepModel Static Dependency Tool Use Cases</b></font>
+</td>
+</tr>
+<tr valign="top">
+
+<td>
+<br>
+<ul>
+<font face="Arial, Helvetica, sans-serif" size="2" color="#006699">
+<LI><a href="dependencies.html">DepModel Static Dependency tool home page</a>
+<LI>DepModel Static Dependency Tool Use Cases
+<!--
+<li><a href="http://saglinx/">SMG Home</a>
+<li><a href="http://web.intra">Intranet Home</a>
+-->
+</font>
+</ul>
+</td>
+
+<td>
+<font face="Arial, Helvetica, sans-serif">
+<TABLE BORDER=0 CELLSPACING=4 WIDTH=100% SUMMARY="Links">
+<TR>
+<TD WIDTH="31%" VALIGN="TOP" BGCOLOR="#ffffff">
+<A HREF="dependencies.html"><FONT size=-2> DEPMODEL STATIC DEPENDENCY HOME PAGE </FONT></A>
+</TD>
+<TD WIDTH="23%" VALIGN="TOP" BGCOLOR="#ffffff">
+<A HREF="./Subsystems.html"><FONT size=-2> SUBSYSTEMS INDEX </FONT></A>
+</TD>
+<TD WIDTH="23%" VALIGN="TOP" BGCOLOR="#ffffff">
+<A HREF="./Components.html"><FONT size=-2> COMPONENTS INDEX </FONT></A>
+</TD>
+<TD WIDTH="23%" VALIGN="TOP" BGCOLOR="#ffffff">
+<A HREF="./Executables.html"><FONT size=-2> EXECUTABLES INDEX </FONT>
+</font>
+</TD>
+</TR>
+</TABLE>
+
+<font size="4" face="Arial, Helvetica, sans-serif" color="#006699"><br>Static Dependency Use Cases</font>
+
+<P>
+<font size="3" face="Arial, Helvetica, sans-serif" color="#000000">
+Here you can find information on some typical use cases of the DepModel static dependency 
+tool. DepModel home page is <A HREF="dependencies.html">here</A>.
+</P>
+
+<H4>Use case index</H4>
+<P>The use cases for Executables, Components and Subsystems are very similar. For convenience they are listed separately here.</P>
+
+<P>Uses cases for executables:</P>
+<UL>
+<LI><A HREF="#UC.Exec.1">UC.Exec.1</A>: Find textual information on an arbitrary executable
+<LI><A HREF="#UC.Exec.2">UC.Exec.2</A>: Find the dependency diagram for an arbitrary executable
+<LI><A HREF="#UC.Exec.3">UC.Exec.3</A>: Find out why an executable depends on one or more others (using imports)
+<LI><A HREF="#UC.Exec.4">UC.Exec.4</A>: Find out why several executables depend on another executable (using exports)
+</UL>
+<P>Use cases for components:</P>
+<UL>
+<LI><A HREF="#UC.Comp.1">UC.Comp.1</A>: Find textual information on an arbitrary component
+<LI><A HREF="#UC.Comp.2">UC.Comp.2</A>: Find the dependency diagram for an arbitrary component
+<LI><A HREF="#UC.Comp.3">UC.Comp.3</A>: Find out why a component depends on one or more others (using imports)
+<LI><A HREF="#UC.Comp.4">UC.Comp.4</A>: Find out why several components depend on another component (using exports)
+</UL>
+<P>Use cases for subsystems:</P>
+<UL>
+<LI><A HREF="#UC.Subsys.1">UC.Subsys.1</A>: Find textual information on an arbitrary subsystem
+<LI><A HREF="#UC.Subsys.2">UC.Subsys.2</A>: Find the dependency diagram for an arbitrary subsystem
+<LI><A HREF="#UC.Subsys.3">UC.Subsys.3</A>: Find out why a subsystem depends on one or more others (using imports)
+<LI><A HREF="#UC.Subsys.4">UC.Subsys.4</A>: Find out why several subsystems depend on another subsystem (using exports)
+</UL>
+<P>Other use cases:</P>
+<UL>
+<LI><A HREF="#UC.General.1">UC.General.1</A>: Find a list of all executables sorted by component and subsystem
+</UL>
+<HR>
+
+<H4><A name="UC.Exec.1">UC.Exec.1</A>: Find textual information on an arbitrary executable</H4>
+<P>Concrete case: Find information on cntmodel.dll [shortcut: <A HREF="Executables/cntmodel.dll.html">deps/Executables/cntmodel.dll.html</A>]</P>
+<OL>
+<LI>navigate to the index of all executables, using the hyperlink <A HREF="./Executables.html">
+<FONT size=-2>EXECUTABLES INDEX</FONT></A> at top of each page (including this page)
+<LI>use the alphabetic links at the top of the <FONT size=-2> EXECUTABLES INDEX </FONT> page
+to find cntmodel.dll on the index page
+<LI>follow the link to  cntmodel.dll
+</OL>
+<P>The table at the top of the page lists:</P>
+<UL>
+<LI>Purpose of the executable (if documented)
+<LI>Subsystem/Component of the executable
+<LI>Target path
+<LI>Sizes
+<LI>Build files (for finding headers)
+<LI>Make file (for finding source code)
+</UL>
+<P>The rest of the page provides dependency information:</P>
+<UL>
+<LI>Exports: the list of executables cntmodel.dll exports to
+<LI>Imports: the list of executables cntmodel.dll imports from
+<LI>Dependency tree: the tree.
+</UL>
+
+<HR>
+
+<H4><A name="UC.Exec.2">UC.Exec.2</A>: Find the dependency diagram for an arbitrary executable</H4>
+<P>Concrete case: Find the diagram for cntmodel.dll</P>
+<OL>
+<LI>navigate to cntmodel.dll's textual dependency page using use case <A HREF="#UC.Exec.1">UC.Exec.1</A>
+<LI>click on the 'Graphical representation' hyperlink near the top of the text page.
+</OL>
+
+<HR>
+
+<H4><A name="UC.Exec.3">UC.Exec.3</A>: Find out why an executable depends on one or more others (using imports)</H4>
+<P>Concrete case: Find out why cntmodel.dll depends on bafl.dll and on versit.dll</P>
+</UL>
+<OL>
+<LI>navigate to cntmodel.dll's textual dependency page using use case <A HREF="#UC.Exec.1">UC.Exec.1</A>
+<LI>scroll down to cntmodel.dll's imports
+<LI>click on the magnifying glass icon next to the link to bafl.dll's text page to drill down 
+to the list of functions that cntmodel.dll imports from bafl.dll
+<LI>go back to the previous page
+<LI>click on the magnifying glass icon next to the link to versit.dll's text page to drill down 
+to the list of functions that cntmodel.dll imports from versit.dll.
+</OL>
+
+<HR>
+
+<H4><A name="UC.Exec.4">UC.Exec.4</A>: Find out why several executables depend on another executable (using exports)</H4>
+<P>Concrete case: Find out why cntvcard.dll and contacui.dll depend on cntmodel.dll</P>
+<OL>
+<LI>navigate to cntmodel.dll's textual dependency page using use case <A HREF="#UC.Exec.1">UC.Exec.1</A>
+<LI>scroll down to cntmodel.dll's exports
+<LI>click on the magnifying glass icon next to the link to cntvcard.dll's text page to drill down 
+to the list of functions that cntvcard.dll imports from cntmodel.dll
+<LI>go back to the previous page
+<LI>click on the magnifying glass icon next to the link to contacui.dll's text page to drill down 
+to the list of functions that contacui.dll imports from cntmodel.dll.
+</OL>
+
+<HR>
+
+<H4><A name="UC.Comp.1">UC.Comp.1</A>: Find textual information on an arbitrary component</H4>
+<P>Concrete case: Find information on component DBMS [shortcut: <A HREF="Components/dbms.html">deps/Components/dbms.html</A>]</P>
+<OL>
+<LI>navigate to the index of all components, using the hyperlink <A HREF="./Components.html">
+<FONT size=-2>COMPONENTS INDEX</FONT></A> at top of each page (including this page)
+<LI>use the alphabetic links at the top of the <FONT size=-2> COMPONENTS INDEX </FONT> page
+to find DBMS on the index page
+<LI>follow the link to  DBMS
+</OL>
+<P>The table at the top of the page lists:</P>
+<UL>
+<LI>Description of the component (if documented)
+<LI>Subsystem of the component
+<LI>Build files (for finding headers)
+<LI>A list of the executables contained by the component.
+</UL>
+<P>The rest of the page provides dependency information:</P>
+<UL>
+<LI>Exports: the list of components DBMS exports to
+<LI>Imports: the list of components DBMS imports from
+<LI>Dependency tree: the tree.
+</UL>
+
+<HR>
+
+<H4><A name="UC.Comp.2">UC.Comp.2</A>: Find the dependency diagram for an arbitrary component</H4>
+<P>Concrete case: Find the diagram for component DBMS</P>
+<OL>
+<LI>navigate to DBMS component's textual dependency page using use case <A HREF="#UC.Comp.1">UC.Comp.1</A>
+<LI>click on the 'Graphical representation' hyperlink near the top of the text page.
+</OL>
+
+<HR>
+
+<H4><A name="UC.Comp.3">UC.Comp.3</A>: Find out why a component depends on one or more others (using imports)</H4>
+<P>Concrete case: Find out why DBMS component depends on STORE (or F32 or E32).</P>
+</UL>
+<OL>
+<LI>navigate to DBMS component's textual dependency page using use case <A HREF="#UC.Comp.1">UC.Comp.1</A>
+<LI>scroll down to DBMS's imports
+<LI>click on the magnifying glass icon to drill down to the list of executables that DBMS's executables
+import from
+<LI>find the entries for STORE (or F32 or E32) using your browser's 'Find on page' option
+<LI>click on the magnifying glass icon to drill down to the list of functions that each executable in DBMS
+imports from executables in STORE (or F32 or E32).
+</OL>
+
+<HR>
+
+<H4><A name="UC.Comp.4">UC.Comp.4</A>: Find out why several components depend on another component (using exports)</H4>
+<P>Concrete case: Find out why CNTMODEL and COMMDB depend on DBMS</P>
+<OL>
+<LI>navigate to DBMS component's textual dependency page using use case <A HREF="#UC.Comp.1">UC.Comp.1</A>
+<LI>scroll down to DBMS's exports
+<LI>click on the magnifying glass icon next to the link to CNTMODEL's text page to drill down 
+to the list of DBMS's executables that CNTMODEL imports from
+<LI>find the entries for DBMS using your browser's 'Find on page' option
+<LI>click on the magnifying glass icon to drill down to the list of functions that each executable in CNTMODEL
+imports from DBMS
+<LI>go back to the DBMS export list to repeat the same steps for COMMDB.
+</OL>
+
+<HR>
+
+<H4><A name="UC.Subsys.1">UC.Subsys.1</A>: Find textual information on an arbitrary subsystem</H4>
+<P>Concrete case: Find information on subsystem COMMS-INFRAS [shortcut: <A HREF="Subsystems/comms-infras.html">deps/Subsystems/comms-infras.html</A>]</P>
+<OL>
+<LI>navigate to the index of all subsystems, using the hyperlink <A HREF="./Subsystems.html">
+<FONT size=-2>SUBSYSTEMS INDEX</FONT></A> at top of each page (including this page)
+<LI>use the alphabetic links at the top of the <FONT size=-2>SUBSYSTEMS INDEX</FONT> page
+to find COMMS-INFRAS on the index page
+<LI>follow the link to COMMS-INFRAS
+</OL>
+<P>At the top of the page is a list of the components contained by the subsystem.</P>
+
+<P>The rest of the page provides dependency information:</P>
+<UL>
+<LI>Exports: the list of subsystems COMMS-INFRAS exports to
+<LI>Imports: the list of subsystems COMMS-INFRAS imports from
+<LI>Dependency tree: the tree.
+</UL>
+
+<HR>
+
+<H4><A name="UC.Subsys.2">UC.Subsys.2</A>: Find the dependency diagram for an arbitrary subsystem</H4>
+<P>Concrete case: Find the diagram for subsystem COMMS-INFRAS</P>
+<OL>
+<LI>navigate to COMMS-INFRAS subsystem's textual dependency page using use case <A HREF="#UC.Subsys.1">UC.Subsys.1</A>
+<LI>click on the 'Graphical representation' hyperlink near the top of the text page.
+</OL>
+
+<HR>
+
+<H4><A name="UC.Subsys.3">UC.Subsys.3</A>: Find out why a subsystem depends on one or more others (using imports)</H4>
+<P>Concrete case: Find out why COMMS-INFRAS subsystem depends on NETWORKING (or TELEPHONY, SER-COMMS, etc.).</P>
+</UL>
+<OL>
+<LI>navigate to COMMS-INFRAS subsystem's textual dependency page using use case <A HREF="#UC.Subsys.1">UC.Subsys.1</A>
+<LI>scroll down to the imports section
+<LI>click on the magnifying glass icon to drill down to the list of executables that COMMS-INFRAS's executables
+import from
+<LI>find the entries for NETWORKING (or TELEPHONY, SER-COMMS, etc.) using your browser's 'Find on page' option
+<LI>click on the magnifying glass icon to drill down to the list of functions that each executable in COMMS-INFRAS
+imports from executables in NETWORKING (or TELEPHONY, SER-COMMS, etc.).
+</OL>
+
+<HR>
+
+<H4><A name="UC.Subsys.4">UC.Subsys.4</A>: Find out why several subsystems depend on another subsystem (using exports)</H4>
+<P>Concrete case: Find out why BASE and MESSAGING depend on COMMS-INFRAS</P>
+<OL>
+<LI>navigate to COMMS-INFRAS subsystem's textual dependency page using use case <A HREF="#UC.Subsys.1">UC.Subsys.1</A>
+<LI>scroll down to the exports section
+<LI>click on the magnifying glass icon next to the link to BASE's text page to drill down 
+to the list of executables that BASE imports from
+<LI>find the entries for COMMS-INFRAS using your browser's 'Find on page' option
+<LI>click on the magnifying glass icon to drill down to the list of functions that each executable in BASE
+imports from COMMS-INFRAS
+<LI>go back to the COMMS-INFRAS export list to repeat the same steps for MESSAGING.
+</OL>
+
+<HR>
+
+<H4><A name="UC.General.1">UC.General.1</A>: Find a list of all executables sorted by component and subsystem</H4>
+<P>Shortcut: <A HREF="Executables.html#fullList">deps/Executables.html#fullList</A></P>
+<OL>
+<LI>navigate to the index of all executables, using the hyperlink <A HREF="./Executables.html">
+<FONT size=-2>EXECUTABLES INDEX</FONT></A> at top of each page (including this page)
+<LI>Click on the hyperlink to 'Executables list sorted by Subsystem/Component' near the top of that page.
+<HR>
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+
+</body>
+</html>

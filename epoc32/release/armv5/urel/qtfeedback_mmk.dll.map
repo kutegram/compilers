@@ -1,0 +1,536 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2188.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-671.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtMultimediaKit{00010103}-173.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2197.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1767.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtMultimediaKit{00010103}-176.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2418.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1768.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtMultimediaKit{00010103}-178.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-274.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1773.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtFeedback{00010103}-23.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-275.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1777.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtFeedback{00010103}-39.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-276.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1784.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtFeedback{00010103}-73.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3006.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1785.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  libstdcpp{00010000}-988.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3609.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1789.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  libstdcpp{00010000}-992.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3610.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1794.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1531.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3689.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2134.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1760.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3691.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2141.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1763.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-70.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2142.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1764.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  libc{00010000}-350.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2143.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1765.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-670.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtMultimediaKit{00010103}-1620.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1766.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-155.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-187.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-186.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-158.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-188.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-183.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-180.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-190.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-184.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-147.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtMultimediaKit{00010103}-1612.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtMultimediaKit{00010103}-1611.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtMultimediaKit{00010103}-1619.o ABSOLUTE
+    ..\..\..\..\EPOC32\BUILD\s60\osext\mobileruntime\group\LIBSTDCPP\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\src\cedar\generic\base\e32\compsupp\DRTAEABI\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\src\cedar\generic\base\e32\euser\EDLL\ARMV5\urel\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    \EPOC32\BUILD\src\cedar\generic\base\e32\euser\EUSER\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBC\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBDL\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBM\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBPTHREAD\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \\EPOC32\\BUILD\\src\\cedar\\generic\\base\\e32\\euser\\EDLL\\ARMV5\\urel\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    \\src\\cedar\\generic\\base\\e32\\compsupp\\RVCT2_2\\ucppinit_aeabi.cpp 0x00000000   Number         0  ucppinit_aeabi.o ABSOLUTE
+    \dev\symb\SDKs\32\EPOC32\BUILD\iwmake\buildS60____PADDING________\src\QTCORE_DLL\ARMV6\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \dev\symb\SDKs\32\EPOC32\BUILD\iwmake\buildS60____PADDING________\src\QTGUI_DLL\ARMV6\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \dev\symb\SDKs\32\EPOC32\BUILD\iwmake\buildS60____PADDING________\src\QTNETWORK_DLL\ARMV6\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \s60\5.0\EPOC32\BUILD\scripts\5.0\qtmobility\QTFEEDBACK_DLL\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \s60\5.0\EPOC32\BUILD\scripts\5.0\qtmobility\QTFEEDBACK_MMK_DLL\ARMV5\urel\qtfeedback_mmk{000a0000}.s 0x00000000   Number         0  qtfeedback_mmk{000a0000}.exp ABSOLUTE
+    \s60\5.0\EPOC32\BUILD\scripts\5.0\qtmobility\QTMULTIMEDIAKIT_DLL\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \scripts\5.0\qtmobility\build\Release\qtfeedback_mmk\moc\moc_qfeedback.cpp 0x00000000   Number         0  qtfeedback_mmk.in ABSOLUTE
+    \scripts\5.0\qtmobility\plugins\feedback\mmk\qfeedback.cpp 0x00000000   Number         0  qtfeedback_mmk.in ABSOLUTE
+    \src\cedar\generic\base\e32\compsupp\RVCT2_2\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    \src\cedar\generic\base\e32\compsupp\RVCT2_2\ucppinit_aeabi.cpp 0x00000000   Number         0  ucppinit_aeabi.o ABSOLUTE
+    \src\cedar\generic\base\e32\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       72  ucppinit_aeabi.o(.emb_text)
+    skip                                     0x0000803c   ARM Code       0  ucppinit_aeabi.o(.emb_text)
+    loop                                     0x0000804c   ARM Code       0  ucppinit_aeabi.o(.emb_text)
+    fpinit                                   0x00008064   Data           0  ucppinit_aeabi.o(.emb_text)
+    base                                     0x00008068   Data           0  ucppinit_aeabi.o(.emb_text)
+    limit                                    0x0000806c   Data           0  ucppinit_aeabi.o(.emb_text)
+    .text                                    0x00008070   Section      204  qtfeedback_mmk.in(.text)
+    .text                                    0x0000813c   Section     1348  qtfeedback_mmk.in(.text)
+    |L1.1144|                                0x000085b4   Data           0  qtfeedback_mmk.in(.text)
+    .text                                    0x00008680   Section       40  uc_dll.o(.text)
+    .text                                    0x000086a8   Section      148  ucppfini.o(.text)
+    .text.clean                              0x0000873c   Section      136  qtfeedback_mmk.in(.text.clean)
+    ExportTable                              0x000087c4   Section       16  qtfeedback_mmk{000a0000}.exp(ExportTable)
+    StubCode                                 0x000087d4   Section        8  QtMultimediaKit{00010103}-1611.o(StubCode)
+    theImportedSymbol                        0x000087d8   Data           0  QtMultimediaKit{00010103}-1611.o(StubCode)
+    StubCode                                 0x000087dc   Section        8  QtMultimediaKit{00010103}-1612.o(StubCode)
+    theImportedSymbol                        0x000087e0   Data           0  QtMultimediaKit{00010103}-1612.o(StubCode)
+    StubCode                                 0x000087e4   Section        8  QtMultimediaKit{00010103}-1619.o(StubCode)
+    theImportedSymbol                        0x000087e8   Data           0  QtMultimediaKit{00010103}-1619.o(StubCode)
+    StubCode                                 0x000087ec   Section        8  QtMultimediaKit{00010103}-1620.o(StubCode)
+    theImportedSymbol                        0x000087f0   Data           0  QtMultimediaKit{00010103}-1620.o(StubCode)
+    StubCode                                 0x000087f4   Section        8  QtMultimediaKit{00010103}-173.o(StubCode)
+    theImportedSymbol                        0x000087f8   Data           0  QtMultimediaKit{00010103}-173.o(StubCode)
+    StubCode                                 0x000087fc   Section        8  QtMultimediaKit{00010103}-176.o(StubCode)
+    theImportedSymbol                        0x00008800   Data           0  QtMultimediaKit{00010103}-176.o(StubCode)
+    StubCode                                 0x00008804   Section        8  QtMultimediaKit{00010103}-178.o(StubCode)
+    theImportedSymbol                        0x00008808   Data           0  QtMultimediaKit{00010103}-178.o(StubCode)
+    StubCode                                 0x0000880c   Section        8  QtFeedback{00010103}-23.o(StubCode)
+    theImportedSymbol                        0x00008810   Data           0  QtFeedback{00010103}-23.o(StubCode)
+    StubCode                                 0x00008814   Section        8  QtFeedback{00010103}-39.o(StubCode)
+    theImportedSymbol                        0x00008818   Data           0  QtFeedback{00010103}-39.o(StubCode)
+    StubCode                                 0x0000881c   Section        8  QtFeedback{00010103}-73.o(StubCode)
+    theImportedSymbol                        0x00008820   Data           0  QtFeedback{00010103}-73.o(StubCode)
+    StubCode                                 0x00008824   Section        8  libstdcpp{00010000}-988.o(StubCode)
+    theImportedSymbol                        0x00008828   Data           0  libstdcpp{00010000}-988.o(StubCode)
+    StubCode                                 0x0000882c   Section        8  libstdcpp{00010000}-992.o(StubCode)
+    theImportedSymbol                        0x00008830   Data           0  libstdcpp{00010000}-992.o(StubCode)
+    StubCode                                 0x00008834   Section        8  QtCore{00040703}-1531.o(StubCode)
+    theImportedSymbol                        0x00008838   Data           0  QtCore{00040703}-1531.o(StubCode)
+    StubCode                                 0x0000883c   Section        8  QtCore{00040703}-1760.o(StubCode)
+    theImportedSymbol                        0x00008840   Data           0  QtCore{00040703}-1760.o(StubCode)
+    StubCode                                 0x00008844   Section        8  QtCore{00040703}-1763.o(StubCode)
+    theImportedSymbol                        0x00008848   Data           0  QtCore{00040703}-1763.o(StubCode)
+    StubCode                                 0x0000884c   Section        8  QtCore{00040703}-1764.o(StubCode)
+    theImportedSymbol                        0x00008850   Data           0  QtCore{00040703}-1764.o(StubCode)
+    StubCode                                 0x00008854   Section        8  QtCore{00040703}-1765.o(StubCode)
+    theImportedSymbol                        0x00008858   Data           0  QtCore{00040703}-1765.o(StubCode)
+    StubCode                                 0x0000885c   Section        8  QtCore{00040703}-1766.o(StubCode)
+    theImportedSymbol                        0x00008860   Data           0  QtCore{00040703}-1766.o(StubCode)
+    StubCode                                 0x00008864   Section        8  QtCore{00040703}-1767.o(StubCode)
+    theImportedSymbol                        0x00008868   Data           0  QtCore{00040703}-1767.o(StubCode)
+    StubCode                                 0x0000886c   Section        8  QtCore{00040703}-1768.o(StubCode)
+    theImportedSymbol                        0x00008870   Data           0  QtCore{00040703}-1768.o(StubCode)
+    StubCode                                 0x00008874   Section        8  QtCore{00040703}-1773.o(StubCode)
+    theImportedSymbol                        0x00008878   Data           0  QtCore{00040703}-1773.o(StubCode)
+    StubCode                                 0x0000887c   Section        8  QtCore{00040703}-1777.o(StubCode)
+    theImportedSymbol                        0x00008880   Data           0  QtCore{00040703}-1777.o(StubCode)
+    StubCode                                 0x00008884   Section        8  QtCore{00040703}-1784.o(StubCode)
+    theImportedSymbol                        0x00008888   Data           0  QtCore{00040703}-1784.o(StubCode)
+    StubCode                                 0x0000888c   Section        8  QtCore{00040703}-1785.o(StubCode)
+    theImportedSymbol                        0x00008890   Data           0  QtCore{00040703}-1785.o(StubCode)
+    StubCode                                 0x00008894   Section        8  QtCore{00040703}-1789.o(StubCode)
+    theImportedSymbol                        0x00008898   Data           0  QtCore{00040703}-1789.o(StubCode)
+    StubCode                                 0x0000889c   Section        8  QtCore{00040703}-1794.o(StubCode)
+    theImportedSymbol                        0x000088a0   Data           0  QtCore{00040703}-1794.o(StubCode)
+    StubCode                                 0x000088a4   Section        8  QtCore{00040703}-2134.o(StubCode)
+    theImportedSymbol                        0x000088a8   Data           0  QtCore{00040703}-2134.o(StubCode)
+    StubCode                                 0x000088ac   Section        8  QtCore{00040703}-2141.o(StubCode)
+    theImportedSymbol                        0x000088b0   Data           0  QtCore{00040703}-2141.o(StubCode)
+    StubCode                                 0x000088b4   Section        8  QtCore{00040703}-2142.o(StubCode)
+    theImportedSymbol                        0x000088b8   Data           0  QtCore{00040703}-2142.o(StubCode)
+    StubCode                                 0x000088bc   Section        8  QtCore{00040703}-2143.o(StubCode)
+    theImportedSymbol                        0x000088c0   Data           0  QtCore{00040703}-2143.o(StubCode)
+    StubCode                                 0x000088c4   Section        8  QtCore{00040703}-2188.o(StubCode)
+    theImportedSymbol                        0x000088c8   Data           0  QtCore{00040703}-2188.o(StubCode)
+    StubCode                                 0x000088cc   Section        8  QtCore{00040703}-2197.o(StubCode)
+    theImportedSymbol                        0x000088d0   Data           0  QtCore{00040703}-2197.o(StubCode)
+    StubCode                                 0x000088d4   Section        8  QtCore{00040703}-2418.o(StubCode)
+    theImportedSymbol                        0x000088d8   Data           0  QtCore{00040703}-2418.o(StubCode)
+    StubCode                                 0x000088dc   Section        8  QtCore{00040703}-274.o(StubCode)
+    theImportedSymbol                        0x000088e0   Data           0  QtCore{00040703}-274.o(StubCode)
+    StubCode                                 0x000088e4   Section        8  QtCore{00040703}-275.o(StubCode)
+    theImportedSymbol                        0x000088e8   Data           0  QtCore{00040703}-275.o(StubCode)
+    StubCode                                 0x000088ec   Section        8  QtCore{00040703}-276.o(StubCode)
+    theImportedSymbol                        0x000088f0   Data           0  QtCore{00040703}-276.o(StubCode)
+    StubCode                                 0x000088f4   Section        8  QtCore{00040703}-3006.o(StubCode)
+    theImportedSymbol                        0x000088f8   Data           0  QtCore{00040703}-3006.o(StubCode)
+    StubCode                                 0x000088fc   Section        8  QtCore{00040703}-3609.o(StubCode)
+    theImportedSymbol                        0x00008900   Data           0  QtCore{00040703}-3609.o(StubCode)
+    StubCode                                 0x00008904   Section        8  QtCore{00040703}-3610.o(StubCode)
+    theImportedSymbol                        0x00008908   Data           0  QtCore{00040703}-3610.o(StubCode)
+    StubCode                                 0x0000890c   Section        8  QtCore{00040703}-3689.o(StubCode)
+    theImportedSymbol                        0x00008910   Data           0  QtCore{00040703}-3689.o(StubCode)
+    StubCode                                 0x00008914   Section        8  QtCore{00040703}-3691.o(StubCode)
+    theImportedSymbol                        0x00008918   Data           0  QtCore{00040703}-3691.o(StubCode)
+    StubCode                                 0x0000891c   Section        8  QtCore{00040703}-70.o(StubCode)
+    theImportedSymbol                        0x00008920   Data           0  QtCore{00040703}-70.o(StubCode)
+    StubCode                                 0x00008924   Section        8  libc{00010000}-350.o(StubCode)
+    theImportedSymbol                        0x00008928   Data           0  libc{00010000}-350.o(StubCode)
+    StubCode                                 0x0000892c   Section        8  euser{000a0000}-670.o(StubCode)
+    theImportedSymbol                        0x00008930   Data           0  euser{000a0000}-670.o(StubCode)
+    StubCode                                 0x00008934   Section        8  euser{000a0000}-671.o(StubCode)
+    theImportedSymbol                        0x00008938   Data           0  euser{000a0000}-671.o(StubCode)
+    StubCode                                 0x0000893c   Section        8  drtaeabi{000a0000}-147.o(StubCode)
+    theImportedSymbol                        0x00008940   Data           0  drtaeabi{000a0000}-147.o(StubCode)
+    StubCode                                 0x00008944   Section        8  drtaeabi{000a0000}-155.o(StubCode)
+    theImportedSymbol                        0x00008948   Data           0  drtaeabi{000a0000}-155.o(StubCode)
+    StubCode                                 0x0000894c   Section        8  drtaeabi{000a0000}-158.o(StubCode)
+    theImportedSymbol                        0x00008950   Data           0  drtaeabi{000a0000}-158.o(StubCode)
+    StubCode                                 0x00008954   Section        8  drtaeabi{000a0000}-180.o(StubCode)
+    theImportedSymbol                        0x00008958   Data           0  drtaeabi{000a0000}-180.o(StubCode)
+    StubCode                                 0x0000895c   Section        8  drtaeabi{000a0000}-183.o(StubCode)
+    theImportedSymbol                        0x00008960   Data           0  drtaeabi{000a0000}-183.o(StubCode)
+    StubCode                                 0x00008964   Section        8  drtaeabi{000a0000}-184.o(StubCode)
+    theImportedSymbol                        0x00008968   Data           0  drtaeabi{000a0000}-184.o(StubCode)
+    StubCode                                 0x0000896c   Section        8  drtaeabi{000a0000}-186.o(StubCode)
+    theImportedSymbol                        0x00008970   Data           0  drtaeabi{000a0000}-186.o(StubCode)
+    StubCode                                 0x00008974   Section        8  drtaeabi{000a0000}-187.o(StubCode)
+    theImportedSymbol                        0x00008978   Data           0  drtaeabi{000a0000}-187.o(StubCode)
+    StubCode                                 0x0000897c   Section        8  drtaeabi{000a0000}-188.o(StubCode)
+    theImportedSymbol                        0x00008980   Data           0  drtaeabi{000a0000}-188.o(StubCode)
+    StubCode                                 0x00008984   Section        8  drtaeabi{000a0000}-190.o(StubCode)
+    theImportedSymbol                        0x00008988   Data           0  drtaeabi{000a0000}-190.o(StubCode)
+    i._ZN10QtMobility22QFeedbackFileInterfaceD2Ev 0x0000898c   Section        2  qtfeedback_mmk.in(i._ZN10QtMobility22QFeedbackFileInterfaceD2Ev)
+    i._ZN11QMetaObject12invokeMethodEP7QObjectPKc16QGenericArgumentS4_S4_S4_S4_S4_S4_S4_S4_S4_ 0x0000898e   Section      110  qtfeedback_mmk.in(i._ZN11QMetaObject12invokeMethodEP7QObjectPKc16QGenericArgumentS4_S4_S4_S4_S4_S4_S4_S4_S4_)
+    i._ZN12QFeedbackMMK12FeedbackInfoC1ERKS0_ 0x000089fc   Section       14  qtfeedback_mmk.in(i._ZN12QFeedbackMMK12FeedbackInfoC1ERKS0_)
+    i._ZN15QBasicAtomicInt3refEv             0x00008a0a   Section       18  qtfeedback_mmk.in(i._ZN15QBasicAtomicInt3refEv)
+    i._ZN15QBasicAtomicInt5derefEv           0x00008a1c   Section       18  qtfeedback_mmk.in(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN17QForeachContainerI5QListIN12QFeedbackMMK12FeedbackInfoEEED1Ev 0x00008a2e   Section        8  qtfeedback_mmk.in(i._ZN17QForeachContainerI5QListIN12QFeedbackMMK12FeedbackInfoEEED1Ev)
+    i._ZN9QHashData8willGrowEv               0x00008a36   Section       28  qtfeedback_mmk.in(i._ZN9QHashData8willGrowEv)
+    i._ZN9QHashData9hasShrunkEv              0x00008a52   Section       60  qtfeedback_mmk.in(i._ZN9QHashData9hasShrunkEv)
+    i._ZNK15QBasicAtomicIntneEi              0x00008a8e   Section       14  qtfeedback_mmk.in(i._ZNK15QBasicAtomicIntneEi)
+    i._ZNK9QListData3endEv                   0x00008a9c   Section       12  qtfeedback_mmk.in(i._ZNK9QListData3endEv)
+    i._ZNK9QListData5beginEv                 0x00008aa8   Section       12  qtfeedback_mmk.in(i._ZNK9QListData5beginEv)
+    i._ZdlPvS_                               0x00008ab4   Section        2  qtfeedback_mmk.in(i._ZdlPvS_)
+    i._ZnwjPv                                0x00008ab6   Section        4  qtfeedback_mmk.in(i._ZnwjPv)
+    t._Z12qobject_castIP12QSoundEffectET_P7QObject 0x00008abc   Section       16  qtfeedback_mmk.in(t._Z12qobject_castIP12QSoundEffectET_P7QObject)
+    t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE11deleteNode2EPN9QHashData4NodeE 0x00008acc   Section        2  qtfeedback_mmk.in(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE11deleteNode2EPN9QHashData4NodeE)
+    t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE13duplicateNodeEPN9QHashData4NodeEPv 0x00008ace   Section       24  qtfeedback_mmk.in(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE13duplicateNodeEPN9QHashData4NodeEPv)
+    t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE6detachEv 0x00008ae8   Section       68  qtfeedback_mmk.in(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE6detachEv)
+    t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE6insertERKS2_RKS5_ 0x00008b2c   Section      116  qtfeedback_mmk.in(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE6insertERKS2_RKS5_)
+    t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE6removeERKS2_ 0x00008ba0   Section      104  qtfeedback_mmk.in(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE6removeERKS2_)
+    t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE8freeDataEP9QHashData 0x00008c08   Section       16  qtfeedback_mmk.in(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE8freeDataEP9QHashData)
+    t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEED1Ev 0x00008c18   Section       28  qtfeedback_mmk.in(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEED1Ev)
+    t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE11deleteNode2EPN9QHashData4NodeE 0x00008c34   Section        2  qtfeedback_mmk.in(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE11deleteNode2EPN9QHashData4NodeE)
+    t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE13duplicateNodeEPN9QHashData4NodeEPv 0x00008c36   Section       30  qtfeedback_mmk.in(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE13duplicateNodeEPN9QHashData4NodeEPv)
+    t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE13duplicateNodeEPN9QHashData4NodeEPv.clean 0x00008c54   Section       12  qtfeedback_mmk.in(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE13duplicateNodeEPN9QHashData4NodeEPv.clean)
+    t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6detachEv 0x00008c60   Section       68  qtfeedback_mmk.in(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6detachEv)
+    t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6insertERKS3_RKS5_ 0x00008ca4   Section      124  qtfeedback_mmk.in(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6insertERKS3_RKS5_)
+    t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6insertERKS3_RKS5_.clean 0x00008d20   Section       12  qtfeedback_mmk.in(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6insertERKS3_RKS5_.clean)
+    t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6removeERKS3_ 0x00008d2c   Section      104  qtfeedback_mmk.in(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6removeERKS3_)
+    t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE8freeDataEP9QHashData 0x00008d94   Section       16  qtfeedback_mmk.in(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE8freeDataEP9QHashData)
+    t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEED1Ev 0x00008da4   Section       28  qtfeedback_mmk.in(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEED1Ev)
+    t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE13detach_helperEi 0x00008dc0   Section       86  qtfeedback_mmk.in(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE13detach_helperEi)
+    t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE13detach_helperEi.clean 0x00008e16   Section        8  qtfeedback_mmk.in(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE13detach_helperEi.clean)
+    t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE13node_destructEPNS2_4NodeES4_ 0x00008e1e   Section       22  qtfeedback_mmk.in(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE13node_destructEPNS2_4NodeES4_)
+    t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE14node_constructEPNS2_4NodeERKS1_ 0x00008e34   Section       32  qtfeedback_mmk.in(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE14node_constructEPNS2_4NodeERKS1_)
+    t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE14node_constructEPNS2_4NodeERKS1_.clean 0x00008e54   Section       10  qtfeedback_mmk.in(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE14node_constructEPNS2_4NodeERKS1_.clean)
+    t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE18detach_helper_growEii 0x00008e5e   Section      180  qtfeedback_mmk.in(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE18detach_helper_growEii)
+    t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE18detach_helper_growEii.clean 0x00008f12   Section        8  qtfeedback_mmk.in(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE18detach_helper_growEii.clean)
+    t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE4freeEPN9QListData4DataE 0x00008f1a   Section       38  qtfeedback_mmk.in(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE4freeEPN9QListData4DataE)
+    t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE6appendERKS1_ 0x00008f40   Section       96  qtfeedback_mmk.in(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE6appendERKS1_)
+    t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE6appendERKS1_.clean 0x00008fa0   Section        8  qtfeedback_mmk.in(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE6appendERKS1_.clean)
+    t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE9node_copyEPNS2_4NodeES4_S4_ 0x00008fa8   Section       72  qtfeedback_mmk.in(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE9node_copyEPNS2_4NodeES4_S4_)
+    t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE9node_copyEPNS2_4NodeES4_S4_.clean 0x00008ff0   Section       18  qtfeedback_mmk.in(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE9node_copyEPNS2_4NodeES4_S4_.clean)
+    t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEED1Ev 0x00009002   Section       30  qtfeedback_mmk.in(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEED1Ev)
+    t._ZN8QPointerI7QObjectED1Ev             0x00009020   Section       12  qtfeedback_mmk.in(t._ZN8QPointerI7QObjectED1Ev)
+    t._ZN9QHashNodeIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEEC1ERKS3_RKS5_ 0x0000902c   Section       18  qtfeedback_mmk.in(t._ZN9QHashNodeIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEEC1ERKS3_RKS5_)
+    t._ZNK5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE5valueERKS2_ 0x0000903e   Section       36  qtfeedback_mmk.in(t._ZNK5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE5valueERKS2_)
+    t._ZNK5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE8findNodeERKS2_Pj 0x00009062   Section       62  qtfeedback_mmk.in(t._ZNK5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE8findNodeERKS2_Pj)
+    t._ZNK5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE5valueERKS3_ 0x000090a0   Section       54  qtfeedback_mmk.in(t._ZNK5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE5valueERKS3_)
+    t._ZNK5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6valuesEv 0x000090d8   Section      116  qtfeedback_mmk.in(t._ZNK5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6valuesEv)
+    t._ZNK5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6valuesEv.clean 0x0000914c   Section       10  qtfeedback_mmk.in(t._ZNK5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6valuesEv.clean)
+    t._ZNK5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE8findNodeERKS3_Pj 0x00009156   Section       62  qtfeedback_mmk.in(t._ZNK5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE8findNodeERKS3_Pj)
+    .extab._ZN12QFeedbackMMKC1Ev             0x00009194   Data           0  qtfeedback_mmk.in(.ARM.extab)
+    .extab.qt_plugin_instance                0x000091ac   Data           0  qtfeedback_mmk.in(.ARM.extab)
+    .extab._ZN12QFeedbackMMKD1Ev             0x000091c4   Data           0  qtfeedback_mmk.in(.ARM.extab)
+    .extab._ZN12QFeedbackMMK9setLoadedEPN10QtMobility19QFeedbackFileEffectEb 0x0000920c   Data           0  qtfeedback_mmk.in(.ARM.extab)
+    .extab._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE9node_copyEPNS2_4NodeES4_S4_ 0x00009224   Data           0  qtfeedback_mmk.in(.ARM.extab)
+    .extab._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE13detach_helperEi 0x00009248   Data           0  qtfeedback_mmk.in(.ARM.extab)
+    .extab._ZN9QHashData9hasShrunkEv         0x00009264   Data           0  qtfeedback_mmk.in(.ARM.extab)
+    .extab._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE14node_constructEPNS2_4NodeERKS1_ 0x00009278   Data           0  qtfeedback_mmk.in(.ARM.extab)
+    .extab._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE18detach_helper_growEii 0x00009288   Data           0  qtfeedback_mmk.in(.ARM.extab)
+    .extab._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6insertERKS3_RKS5_ 0x000092b8   Data           0  qtfeedback_mmk.in(.ARM.extab)
+    .extab._ZNK5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6valuesEv 0x000092c8   Data           0  qtfeedback_mmk.in(.ARM.extab)
+    .extab._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE13duplicateNodeEPN9QHashData4NodeEPv 0x000092d8   Data           0  qtfeedback_mmk.in(.ARM.extab)
+    .extab._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE6appendERKS1_ 0x000092e8   Data           0  qtfeedback_mmk.in(.ARM.extab)
+    .constdata$1                             0x00009318   Data           0  qtfeedback_mmk.in(.constdata)
+    qt_meta_stringdata_QFeedbackMMK          0x00009318   Data          70  qtfeedback_mmk.in(.constdata)
+    .constdata                               0x00009318   Section       88  qtfeedback_mmk.in(.constdata)
+    .constdata$10                            0x00009370   Data           0  qtfeedback_mmk.in(.constdata)
+    qt_meta_data_QFeedbackMMK                0x00009370   Data         100  qtfeedback_mmk.in(.constdata)
+    .constdata                               0x00009370   Section      100  qtfeedback_mmk.in(.constdata)
+    .constdata$1                             0x000093d4   Data           0  qtfeedback_mmk.in(.constdata)
+    qt_plugin_verification_data              0x000093d4   Data          91  qtfeedback_mmk.in(.constdata)
+    .constdata                               0x000093d4   Section       91  qtfeedback_mmk.in(.constdata)
+    .constdata__ZTI12QFeedbackMMK            0x00009430   Section       32  qtfeedback_mmk.in(.constdata__ZTI12QFeedbackMMK)
+    .constdata__ZTIN10QtMobility18QFeedbackInterfaceE 0x00009450   Section        8  qtfeedback_mmk.in(.constdata__ZTIN10QtMobility18QFeedbackInterfaceE)
+    .constdata__ZTIN10QtMobility22QFeedbackFileInterfaceE 0x00009458   Section       12  qtfeedback_mmk.in(.constdata__ZTIN10QtMobility22QFeedbackFileInterfaceE)
+    .constdata__ZTISt9bad_alloc              0x00009464   Section       12  qtfeedback_mmk.in(.constdata__ZTISt9bad_alloc)
+    .constdata__ZTS12QFeedbackMMK            0x00009470   Section       15  qtfeedback_mmk.in(.constdata__ZTS12QFeedbackMMK)
+    .constdata__ZTSN10QtMobility18QFeedbackInterfaceE 0x0000947f   Section       35  qtfeedback_mmk.in(.constdata__ZTSN10QtMobility18QFeedbackInterfaceE)
+    .constdata__ZTSN10QtMobility22QFeedbackFileInterfaceE 0x000094a2   Section       39  qtfeedback_mmk.in(.constdata__ZTSN10QtMobility22QFeedbackFileInterfaceE)
+    .constdata__ZTSSt9bad_alloc              0x000094c9   Section       13  qtfeedback_mmk.in(.constdata__ZTSSt9bad_alloc)
+    .constdata__ZTV12QFeedbackMMK            0x000094d8   Section      112  qtfeedback_mmk.in(.constdata__ZTV12QFeedbackMMK)
+    .ARM.exidx                               0x00009548   Section        8  ucppinit_aeabi.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  qtfeedback_mmk.in(.data)
+    _ZGV_instance@qt_plugin_instance_0       0x00400000   Data           4  qtfeedback_mmk.in(.data)
+    .data                                    0x00400000   Section        8  qtfeedback_mmk.in(.data)
+    _instance@qt_plugin_instance_1           0x00400004   Data           4  qtfeedback_mmk.in(.data)
+    .data$0                                  0x00400008   Data           0  ucppfini.o(.data)
+    .data                                    0x00400008   Section        4  ucppfini.o(.data)
+    .bss$5                                   0x0040000c   Data           0  ucppfini.o(.bss)
+    dtor_rec                                 0x0040000c   Data        2048  ucppfini.o(.bss)
+    .bss                                     0x0040000c   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$IEEEJ$EBA8$UX$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>112  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>113  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>114  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>46  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>5fb  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e0  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e3  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e4  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e5  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e6  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e7  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e8  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6ed  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6f1  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6f8  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6f9  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6fd  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>702  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>856  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>85d  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>85e  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>85f  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>88c  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>895  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>972  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>bbe  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>e19  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>e1a  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>e69  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>e6b  - Undefined Reference
+    #<DLL>QtFeedback{00010103}[2002bfce].dll#<\DLL>17  - Undefined Reference
+    #<DLL>QtFeedback{00010103}[2002bfce].dll#<\DLL>27  - Undefined Reference
+    #<DLL>QtFeedback{00010103}[2002bfce].dll#<\DLL>49  - Undefined Reference
+    #<DLL>QtMultimediaKit{00010103}[2002ac77].dll#<\DLL>64b  - Undefined Reference
+    #<DLL>QtMultimediaKit{00010103}[2002ac77].dll#<\DLL>64c  - Undefined Reference
+    #<DLL>QtMultimediaKit{00010103}[2002ac77].dll#<\DLL>653  - Undefined Reference
+    #<DLL>QtMultimediaKit{00010103}[2002ac77].dll#<\DLL>654  - Undefined Reference
+    #<DLL>QtMultimediaKit{00010103}[2002ac77].dll#<\DLL>ad  - Undefined Reference
+    #<DLL>QtMultimediaKit{00010103}[2002ac77].dll#<\DLL>b0  - Undefined Reference
+    #<DLL>QtMultimediaKit{00010103}[2002ac77].dll#<\DLL>b2  - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>93     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>9b     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>9e     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>b4     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>b7     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>b8     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>ba     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>bb     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>bc     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>be     - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>29e  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>29f  - Undefined Reference
+    #<DLL>libc{00010000}[10207369].dll#<\DLL>15e  - Undefined Reference
+    #<DLL>libstdcpp{00010000}[10282872].dll#<\DLL>3dc  - Undefined Reference
+    #<DLL>libstdcpp{00010000}[10282872].dll#<\DLL>3e0  - Undefined Reference
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    QSoundEffect::staticMetaObject            - Undefined Reference
+    QCoreApplication::self                    - Undefined Reference
+    QObject::staticMetaObject                 - Undefined Reference
+    QHashData::shared_null                    - Undefined Reference
+    QListData::shared_null                    - Undefined Reference
+    typeinfo for QObject                      - Undefined Reference
+    typeinfo for std::exception               - Undefined Reference
+    vtable for __cxxabiv1::__class_type_info  - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    vtable for __cxxabiv1::__vmi_class_type_info  - Undefined Reference
+    _fp_init                                  - Undefined Weak Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      72  ucppinit_aeabi.o(.emb_text)
+    QFeedbackMMK::getStaticMetaObject()      0x00008071   Thumb Code     4  qtfeedback_mmk.in(.text)
+    std::nothrow                             0x00008071   Thumb Code     0  ucppinit_aeabi.o(.emb_text)
+    QFeedbackMMK::metaObject() const         0x00008075   Thumb Code    12  qtfeedback_mmk.in(.text)
+    QFeedbackMMK::qt_metacast(const char*)   0x00008081   Thumb Code    72  qtfeedback_mmk.in(.text)
+    QFeedbackMMK::qt_metacall(QMetaObject::Call, int, void**) 0x000080c9   Thumb Code    46  qtfeedback_mmk.in(.text)
+    qt_plugin_query_verification_data        0x0000813d   Thumb Code     4  qtfeedback_mmk.in(.text)
+    QFeedbackMMK::QFeedbackMMK()             0x00008141   Thumb Code    46  qtfeedback_mmk.in(.text)
+    QFeedbackMMK::QFeedbackMMK__sub_object() 0x00008141   Thumb Code     0  qtfeedback_mmk.in(.text)
+    qt_plugin_instance                       0x0000816f   Thumb Code    94  qtfeedback_mmk.in(.text)
+    QFeedbackMMK::~QFeedbackMMK()            0x000081cd   Thumb Code   194  qtfeedback_mmk.in(.text)
+    QFeedbackMMK::~QFeedbackMMK__sub_object() 0x000081cd   Thumb Code     0  qtfeedback_mmk.in(.text)
+    QFeedbackMMK::~QFeedbackMMK__deallocating() 0x0000828f   Thumb Code    16  qtfeedback_mmk.in(.text)
+    thunk{-8} to QFeedbackMMK::~QFeedbackMMK__deallocating() 0x0000829f   Thumb Code     4  qtfeedback_mmk.in(.text)
+    thunk{-8} to QFeedbackMMK::~QFeedbackMMK() 0x000082a3   Thumb Code     4  qtfeedback_mmk.in(.text)
+    QFeedbackMMK::setLoaded(QtMobility::QFeedbackFileEffect*, bool) 0x000082a7   Thumb Code   246  qtfeedback_mmk.in(.text)
+    thunk{-8} to QFeedbackMMK::setLoaded(QtMobility::QFeedbackFileEffect*, bool) 0x0000839d   Thumb Code     4  qtfeedback_mmk.in(.text)
+    QFeedbackMMK::setEffectState(QtMobility::QFeedbackFileEffect*, QtMobility::QFeedbackEffect::State) 0x000083a1   Thumb Code   114  qtfeedback_mmk.in(.text)
+    thunk{-8} to QFeedbackMMK::setEffectState(QtMobility::QFeedbackFileEffect*, QtMobility::QFeedbackEffect::State) 0x00008413   Thumb Code     4  qtfeedback_mmk.in(.text)
+    QFeedbackMMK::effectState(const QtMobility::QFeedbackFileEffect*) 0x00008417   Thumb Code    52  qtfeedback_mmk.in(.text)
+    thunk{-8} to QFeedbackMMK::effectState(const QtMobility::QFeedbackFileEffect*) 0x0000844b   Thumb Code     4  qtfeedback_mmk.in(.text)
+    QFeedbackMMK::effectDuration(const QtMobility::QFeedbackFileEffect*) 0x0000844f   Thumb Code     4  qtfeedback_mmk.in(.text)
+    thunk{-8} to QFeedbackMMK::effectDuration(const QtMobility::QFeedbackFileEffect*) 0x00008453   Thumb Code     4  qtfeedback_mmk.in(.text)
+    QFeedbackMMK::supportedMimeTypes()       0x00008457   Thumb Code     8  qtfeedback_mmk.in(.text)
+    thunk{-8} to QFeedbackMMK::supportedMimeTypes() 0x0000845f   Thumb Code     8  qtfeedback_mmk.in(.text)
+    QFeedbackMMK::soundEffectStatusChanged() 0x00008467   Thumb Code   380  qtfeedback_mmk.in(.text)
+    QFeedbackMMK::soundEffectPlayingChanged() 0x000085e3   Thumb Code   154  qtfeedback_mmk.in(.text)
+    _E32Dll_Body                             0x00008681   Thumb Code    34  uc_dll.o(.text)
+    CppBSSInitializationError                0x000086a8   ARM Code       4  ucppfini.o(.text)
+    __aeabi_atexit                           0x000086ac   ARM Code      28  ucppfini.o(.text)
+    __cxa_atexit                             0x000086c8   ARM Code      48  ucppfini.o(.text)
+    __cxa_finalize                           0x000086f8   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x00008728   ARM Code       8  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x000087c4   ARM Code       0  qtfeedback_mmk{000a0000}.exp(ExportTable)
+    DLL##ExportTableSize                     0x000087c8   Data           0  qtfeedback_mmk{000a0000}.exp(ExportTable)
+    DLL##ExportTable                         0x000087cc   Data           0  qtfeedback_mmk{000a0000}.exp(ExportTable)
+    QSoundEffect::supportedMimeTypes()       0x000087d4   ARM Code       0  QtMultimediaKit{00010103}-1611.o(StubCode)
+    QSoundEffect::stop()                     0x000087dc   ARM Code       0  QtMultimediaKit{00010103}-1612.o(StubCode)
+    QSoundEffect::status() const             0x000087e4   ARM Code       0  QtMultimediaKit{00010103}-1619.o(StubCode)
+    QSoundEffect::isPlaying() const          0x000087ec   ARM Code       0  QtMultimediaKit{00010103}-1620.o(StubCode)
+    QSoundEffect::play()                     0x000087f4   ARM Code       0  QtMultimediaKit{00010103}-173.o(StubCode)
+    QSoundEffect::setSource(const QUrl&)     0x000087fc   ARM Code       0  QtMultimediaKit{00010103}-176.o(StubCode)
+    QSoundEffect::QSoundEffect(QObject*)     0x00008804   ARM Code       0  QtMultimediaKit{00010103}-178.o(StubCode)
+    QtMobility::QFeedbackInterface::reportError(const QtMobility::QFeedbackEffect*, QtMobility::QFeedbackEffect::ErrorType) 0x0000880c   ARM Code       0  QtFeedback{00010103}-23.o(StubCode)
+    QtMobility::QFeedbackFileInterface::reportLoadFinished(QtMobility::QFeedbackFileEffect*, bool) 0x00008814   ARM Code       0  QtFeedback{00010103}-39.o(StubCode)
+    QtMobility::QFeedbackFileEffect::source() const 0x0000881c   ARM Code       0  QtFeedback{00010103}-73.o(StubCode)
+    operator delete (void*)                  0x00008824   ARM Code       0  libstdcpp{00010000}-988.o(StubCode)
+    operator new(unsigned)                   0x0000882c   ARM Code       0  libstdcpp{00010000}-992.o(StubCode)
+    QUrl::~QUrl()                            0x00008834   ARM Code       0  QtCore{00040703}-1531.o(StubCode)
+    QObject::childEvent(QChildEvent*)        0x0000883c   ARM Code       0  QtCore{00040703}-1760.o(StubCode)
+    QObject::timerEvent(QTimerEvent*)        0x00008844   ARM Code       0  QtCore{00040703}-1763.o(StubCode)
+    QObject::customEvent(QEvent*)            0x0000884c   ARM Code       0  QtCore{00040703}-1764.o(StubCode)
+    QObject::deleteLater()                   0x00008854   ARM Code       0  QtCore{00040703}-1765.o(StubCode)
+    QObject::eventFilter(QObject*, QEvent*)  0x0000885c   ARM Code       0  QtCore{00040703}-1766.o(StubCode)
+    QObject::qt_metacall(QMetaObject::Call, int, void**) 0x00008864   ARM Code       0  QtCore{00040703}-1767.o(StubCode)
+    QObject::qt_metacast(const char*)        0x0000886c   ARM Code       0  QtCore{00040703}-1768.o(StubCode)
+    QObject::connectNotify(const char*)      0x00008874   ARM Code       0  QtCore{00040703}-1773.o(StubCode)
+    QObject::disconnectNotify(const char*)   0x0000887c   ARM Code       0  QtCore{00040703}-1777.o(StubCode)
+    QObject::event(QEvent*)                  0x00008884   ARM Code       0  QtCore{00040703}-1784.o(StubCode)
+    QObject::connect(const QObject*, const char*, const QObject*, const char*, Qt::ConnectionType) 0x0000888c   ARM Code       0  QtCore{00040703}-1785.o(StubCode)
+    QObject::QObject(QObject*)               0x00008894   ARM Code       0  QtCore{00040703}-1789.o(StubCode)
+    QObject::~QObject()                      0x0000889c   ARM Code       0  QtCore{00040703}-1794.o(StubCode)
+    QHashData::free_helper(void(*)(QHashData::Node*)) 0x000088a4   ARM Code       0  QtCore{00040703}-2134.o(StubCode)
+    QHashData::rehash(int)                   0x000088ac   ARM Code       0  QtCore{00040703}-2141.o(StubCode)
+    QHashData::freeNode(void*)               0x000088b4   ARM Code       0  QtCore{00040703}-2142.o(StubCode)
+    QHashData::nextNode(QHashData::Node*)    0x000088bc   ARM Code       0  QtCore{00040703}-2143.o(StubCode)
+    QListData::append()                      0x000088c4   ARM Code       0  QtCore{00040703}-2188.o(StubCode)
+    QListData::realloc(int)                  0x000088cc   ARM Code       0  QtCore{00040703}-2197.o(StubCode)
+    QMetaObject::cast(QObject*) const        0x000088d4   ARM Code       0  QtCore{00040703}-2418.o(StubCode)
+    QMetaObject::changeGuard(QObject**, QObject*) 0x000088dc   ARM Code       0  QtCore{00040703}-274.o(StubCode)
+    QMetaObject::removeGuard(QObject**)      0x000088e4   ARM Code       0  QtCore{00040703}-275.o(StubCode)
+    QMetaObject::invokeMethod(QObject*, const char*, Qt::ConnectionType, QGenericReturnArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument) 0x000088ec   ARM Code       0  QtCore{00040703}-276.o(StubCode)
+    QObject::sender() const                  0x000088f4   ARM Code       0  QtCore{00040703}-3006.o(StubCode)
+    QHashData::allocateNode(int)             0x000088fc   ARM Code       0  QtCore{00040703}-3609.o(StubCode)
+    QHashData::detach_helper2(void(*)(QHashData::Node*, void*), void(*)(QHashData::Node*), int, int) 0x00008904   ARM Code       0  QtCore{00040703}-3610.o(StubCode)
+    QListData::detach_grow(int*, int)        0x0000890c   ARM Code       0  QtCore{00040703}-3689.o(StubCode)
+    QListData::detach(int)                   0x00008914   ARM Code       0  QtCore{00040703}-3691.o(StubCode)
+    qFree(void*)                             0x0000891c   ARM Code       0  QtCore{00040703}-70.o(StubCode)
+    strcmp                                   0x00008924   ARM Code       0  libc{00010000}-350.o(StubCode)
+    User::LockedDec(int&)                    0x0000892c   ARM Code       0  euser{000a0000}-670.o(StubCode)
+    User::LockedInc(int&)                    0x00008934   ARM Code       0  euser{000a0000}-671.o(StubCode)
+    __aeabi_memcpy4                          0x0000893c   ARM Code       0  drtaeabi{000a0000}-147.o(StubCode)
+    __aeabi_uidivmod                         0x00008944   ARM Code       0  drtaeabi{000a0000}-155.o(StubCode)
+    __aeabi_unwind_cpp_pr0                   0x0000894c   ARM Code       0  drtaeabi{000a0000}-158.o(StubCode)
+    __cxa_begin_catch                        0x00008954   ARM Code       0  drtaeabi{000a0000}-180.o(StubCode)
+    __cxa_end_catch                          0x0000895c   ARM Code       0  drtaeabi{000a0000}-183.o(StubCode)
+    __cxa_end_cleanup                        0x00008964   ARM Code       0  drtaeabi{000a0000}-184.o(StubCode)
+    __cxa_guard_abort                        0x0000896c   ARM Code       0  drtaeabi{000a0000}-186.o(StubCode)
+    __cxa_guard_acquire                      0x00008974   ARM Code       0  drtaeabi{000a0000}-187.o(StubCode)
+    __cxa_guard_release                      0x0000897c   ARM Code       0  drtaeabi{000a0000}-188.o(StubCode)
+    __cxa_rethrow                            0x00008984   ARM Code       0  drtaeabi{000a0000}-190.o(StubCode)
+    QtMobility::QFeedbackFileInterface::~QFeedbackFileInterface() 0x0000898d   Thumb Code     0  qtfeedback_mmk.in(i._ZN10QtMobility22QFeedbackFileInterfaceD2Ev)
+    QtMobility::QFeedbackFileInterface::~QFeedbackFileInterface__sub_object() 0x0000898d   Thumb Code     2  qtfeedback_mmk.in(i._ZN10QtMobility22QFeedbackFileInterfaceD2Ev)
+    QMetaObject::invokeMethod(QObject*, const char*, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument) 0x0000898f   Thumb Code   110  qtfeedback_mmk.in(i._ZN11QMetaObject12invokeMethodEP7QObjectPKc16QGenericArgumentS4_S4_S4_S4_S4_S4_S4_S4_S4_)
+    QFeedbackMMK::FeedbackInfo::FeedbackInfo(const QFeedbackMMK::FeedbackInfo&) 0x000089fd   Thumb Code    14  qtfeedback_mmk.in(i._ZN12QFeedbackMMK12FeedbackInfoC1ERKS0_)
+    QFeedbackMMK::FeedbackInfo::FeedbackInfo__sub_object(const QFeedbackMMK::FeedbackInfo&) 0x000089fd   Thumb Code     0  qtfeedback_mmk.in(i._ZN12QFeedbackMMK12FeedbackInfoC1ERKS0_)
+    QBasicAtomicInt::ref()                   0x00008a0b   Thumb Code    18  qtfeedback_mmk.in(i._ZN15QBasicAtomicInt3refEv)
+    QBasicAtomicInt::deref()                 0x00008a1d   Thumb Code    18  qtfeedback_mmk.in(i._ZN15QBasicAtomicInt5derefEv)
+    QForeachContainer<QList<QFeedbackMMK::FeedbackInfo>>::~QForeachContainer() 0x00008a2f   Thumb Code     8  qtfeedback_mmk.in(i._ZN17QForeachContainerI5QListIN12QFeedbackMMK12FeedbackInfoEEED1Ev)
+    QForeachContainer<QList<QFeedbackMMK::FeedbackInfo>>::~QForeachContainer__sub_object() 0x00008a2f   Thumb Code     0  qtfeedback_mmk.in(i._ZN17QForeachContainerI5QListIN12QFeedbackMMK12FeedbackInfoEEED1Ev)
+    QHashData::willGrow()                    0x00008a37   Thumb Code    28  qtfeedback_mmk.in(i._ZN9QHashData8willGrowEv)
+    QHashData::hasShrunk()                   0x00008a53   Thumb Code    60  qtfeedback_mmk.in(i._ZN9QHashData9hasShrunkEv)
+    QBasicAtomicInt::operator !=(int) const  0x00008a8f   Thumb Code    14  qtfeedback_mmk.in(i._ZNK15QBasicAtomicIntneEi)
+    QListData::end() const                   0x00008a9d   Thumb Code    12  qtfeedback_mmk.in(i._ZNK9QListData3endEv)
+    QListData::begin() const                 0x00008aa9   Thumb Code    12  qtfeedback_mmk.in(i._ZNK9QListData5beginEv)
+    operator delete (void*, void*)           0x00008ab5   Thumb Code     2  qtfeedback_mmk.in(i._ZdlPvS_)
+    operator new(unsigned, void*)            0x00008ab7   Thumb Code     4  qtfeedback_mmk.in(i._ZnwjPv)
+    qobject_cast<QSoundEffect*>(QObject*)    0x00008abd   Thumb Code    12  qtfeedback_mmk.in(t._Z12qobject_castIP12QSoundEffectET_P7QObject)
+    QHash<const QSoundEffect*, QtMobility::QFeedbackFileEffect*>::deleteNode2(QHashData::Node*) 0x00008acd   Thumb Code     2  qtfeedback_mmk.in(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE11deleteNode2EPN9QHashData4NodeE)
+    QHash<const QSoundEffect*, QtMobility::QFeedbackFileEffect*>::duplicateNode(QHashData::Node*, void*) 0x00008acf   Thumb Code    24  qtfeedback_mmk.in(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE13duplicateNodeEPN9QHashData4NodeEPv)
+    QHash<const QSoundEffect*, QtMobility::QFeedbackFileEffect*>::detach() 0x00008ae9   Thumb Code    60  qtfeedback_mmk.in(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE6detachEv)
+    QHash<const QSoundEffect*, QtMobility::QFeedbackFileEffect*>::insert(const QSoundEffect*const &, QtMobility::QFeedbackFileEffect*const &) 0x00008b2d   Thumb Code   116  qtfeedback_mmk.in(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE6insertERKS2_RKS5_)
+    QHash<const QSoundEffect*, QtMobility::QFeedbackFileEffect*>::remove(const QSoundEffect*const &) 0x00008ba1   Thumb Code   104  qtfeedback_mmk.in(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE6removeERKS2_)
+    QHash<const QSoundEffect*, QtMobility::QFeedbackFileEffect*>::freeData(QHashData*) 0x00008c09   Thumb Code    12  qtfeedback_mmk.in(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE8freeDataEP9QHashData)
+    QHash<const QSoundEffect*, QtMobility::QFeedbackFileEffect*>::~QHash() 0x00008c19   Thumb Code    28  qtfeedback_mmk.in(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEED1Ev)
+    QHash<const QSoundEffect*, QtMobility::QFeedbackFileEffect*>::~QHash__sub_object() 0x00008c19   Thumb Code     0  qtfeedback_mmk.in(t._ZN5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEED1Ev)
+    QHash<const QtMobility::QFeedbackFileEffect*, QFeedbackMMK::FeedbackInfo>::deleteNode2(QHashData::Node*) 0x00008c35   Thumb Code     2  qtfeedback_mmk.in(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE11deleteNode2EPN9QHashData4NodeE)
+    QHash<const QtMobility::QFeedbackFileEffect*, QFeedbackMMK::FeedbackInfo>::duplicateNode(QHashData::Node*, void*) 0x00008c37   Thumb Code    30  qtfeedback_mmk.in(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE13duplicateNodeEPN9QHashData4NodeEPv)
+    QHash<const QtMobility::QFeedbackFileEffect*, QFeedbackMMK::FeedbackInfo>::detach() 0x00008c61   Thumb Code    60  qtfeedback_mmk.in(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6detachEv)
+    QHash<const QtMobility::QFeedbackFileEffect*, QFeedbackMMK::FeedbackInfo>::insert(const QtMobility::QFeedbackFileEffect*const &, const QFeedbackMMK::FeedbackInfo&) 0x00008ca5   Thumb Code   124  qtfeedback_mmk.in(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6insertERKS3_RKS5_)
+    QHash<const QtMobility::QFeedbackFileEffect*, QFeedbackMMK::FeedbackInfo>::remove(const QtMobility::QFeedbackFileEffect*const &) 0x00008d2d   Thumb Code   104  qtfeedback_mmk.in(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6removeERKS3_)
+    QHash<const QtMobility::QFeedbackFileEffect*, QFeedbackMMK::FeedbackInfo>::freeData(QHashData*) 0x00008d95   Thumb Code    12  qtfeedback_mmk.in(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE8freeDataEP9QHashData)
+    QHash<const QtMobility::QFeedbackFileEffect*, QFeedbackMMK::FeedbackInfo>::~QHash() 0x00008da5   Thumb Code    28  qtfeedback_mmk.in(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEED1Ev)
+    QHash<const QtMobility::QFeedbackFileEffect*, QFeedbackMMK::FeedbackInfo>::~QHash__sub_object() 0x00008da5   Thumb Code     0  qtfeedback_mmk.in(t._ZN5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEED1Ev)
+    QList<QFeedbackMMK::FeedbackInfo>::detach_helper(int) 0x00008dc1   Thumb Code    86  qtfeedback_mmk.in(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE13detach_helperEi)
+    QList<QFeedbackMMK::FeedbackInfo>::node_destruct(QList<QFeedbackMMK::FeedbackInfo>::Node*, QList<QFeedbackMMK::FeedbackInfo>::Node*) 0x00008e1f   Thumb Code    22  qtfeedback_mmk.in(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE13node_destructEPNS2_4NodeES4_)
+    QList<QFeedbackMMK::FeedbackInfo>::node_construct(QList<QFeedbackMMK::FeedbackInfo>::Node*, const QFeedbackMMK::FeedbackInfo&) 0x00008e35   Thumb Code    32  qtfeedback_mmk.in(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE14node_constructEPNS2_4NodeERKS1_)
+    QList<QFeedbackMMK::FeedbackInfo>::detach_helper_grow(int, int) 0x00008e5f   Thumb Code   180  qtfeedback_mmk.in(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE18detach_helper_growEii)
+    QList<QFeedbackMMK::FeedbackInfo>::free(QListData::Data*) 0x00008f1b   Thumb Code    38  qtfeedback_mmk.in(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE4freeEPN9QListData4DataE)
+    QList<QFeedbackMMK::FeedbackInfo>::append(const QFeedbackMMK::FeedbackInfo&) 0x00008f41   Thumb Code    90  qtfeedback_mmk.in(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE6appendERKS1_)
+    QList<QFeedbackMMK::FeedbackInfo>::node_copy(QList<QFeedbackMMK::FeedbackInfo>::Node*, QList<QFeedbackMMK::FeedbackInfo>::Node*, QList<QFeedbackMMK::FeedbackInfo>::Node*) 0x00008fa9   Thumb Code    72  qtfeedback_mmk.in(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEE9node_copyEPNS2_4NodeES4_S4_)
+    QList<QFeedbackMMK::FeedbackInfo>::~QList() 0x00009003   Thumb Code    30  qtfeedback_mmk.in(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEED1Ev)
+    QList<QFeedbackMMK::FeedbackInfo>::~QList__sub_object() 0x00009003   Thumb Code     0  qtfeedback_mmk.in(t._ZN5QListIN12QFeedbackMMK12FeedbackInfoEED1Ev)
+    QPointer<QObject>::~QPointer()           0x00009021   Thumb Code    12  qtfeedback_mmk.in(t._ZN8QPointerI7QObjectED1Ev)
+    QPointer<QObject>::~QPointer__sub_object() 0x00009021   Thumb Code     0  qtfeedback_mmk.in(t._ZN8QPointerI7QObjectED1Ev)
+    QHashNode<const QtMobility::QFeedbackFileEffect*, QFeedbackMMK::FeedbackInfo>::QHashNode(const QtMobility::QFeedbackFileEffect*const &, const QFeedbackMMK::FeedbackInfo&) 0x0000902d   Thumb Code    18  qtfeedback_mmk.in(t._ZN9QHashNodeIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEEC1ERKS3_RKS5_)
+    QHashNode<const QtMobility::QFeedbackFileEffect*, QFeedbackMMK::FeedbackInfo>::QHashNode__sub_object(const QtMobility::QFeedbackFileEffect*const &, const QFeedbackMMK::FeedbackInfo&) 0x0000902d   Thumb Code     0  qtfeedback_mmk.in(t._ZN9QHashNodeIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEEC1ERKS3_RKS5_)
+    QHash<const QSoundEffect*, QtMobility::QFeedbackFileEffect*>::value(const QSoundEffect*const &) const 0x0000903f   Thumb Code    36  qtfeedback_mmk.in(t._ZNK5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE5valueERKS2_)
+    QHash<const QSoundEffect*, QtMobility::QFeedbackFileEffect*>::findNode(const QSoundEffect*const &, unsigned*) const 0x00009063   Thumb Code    62  qtfeedback_mmk.in(t._ZNK5QHashIPK12QSoundEffectPN10QtMobility19QFeedbackFileEffectEE8findNodeERKS2_Pj)
+    QHash<const QtMobility::QFeedbackFileEffect*, QFeedbackMMK::FeedbackInfo>::value(const QtMobility::QFeedbackFileEffect*const &) const 0x000090a1   Thumb Code    54  qtfeedback_mmk.in(t._ZNK5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE5valueERKS3_)
+    QHash<const QtMobility::QFeedbackFileEffect*, QFeedbackMMK::FeedbackInfo>::values() const 0x000090d9   Thumb Code   112  qtfeedback_mmk.in(t._ZNK5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE6valuesEv)
+    QHash<const QtMobility::QFeedbackFileEffect*, QFeedbackMMK::FeedbackInfo>::findNode(const QtMobility::QFeedbackFileEffect*const &, unsigned*) const 0x00009157   Thumb Code    62  qtfeedback_mmk.in(t._ZNK5QHashIPKN10QtMobility19QFeedbackFileEffectEN12QFeedbackMMK12FeedbackInfoEE8findNodeERKS3_Pj)
+    QFeedbackMMK::staticMetaObject           0x00009360   Data          16  qtfeedback_mmk.in(.constdata)
+    typeinfo for QFeedbackMMK                0x00009430   Data          32  qtfeedback_mmk.in(.constdata__ZTI12QFeedbackMMK)
+    typeinfo for QtMobility::QFeedbackInterface 0x00009450   Data           8  qtfeedback_mmk.in(.constdata__ZTIN10QtMobility18QFeedbackInterfaceE)
+    typeinfo for QtMobility::QFeedbackFileInterface 0x00009458   Data          12  qtfeedback_mmk.in(.constdata__ZTIN10QtMobility22QFeedbackFileInterfaceE)
+    typeinfo for std::bad_alloc              0x00009464   Data          12  qtfeedback_mmk.in(.constdata__ZTISt9bad_alloc)
+    typeinfo name for QFeedbackMMK           0x00009470   Data          15  qtfeedback_mmk.in(.constdata__ZTS12QFeedbackMMK)
+    typeinfo name for QtMobility::QFeedbackInterface 0x0000947f   Data          35  qtfeedback_mmk.in(.constdata__ZTSN10QtMobility18QFeedbackInterfaceE)
+    typeinfo name for QtMobility::QFeedbackFileInterface 0x000094a2   Data          39  qtfeedback_mmk.in(.constdata__ZTSN10QtMobility22QFeedbackFileInterfaceE)
+    typeinfo name for std::bad_alloc         0x000094c9   Data          13  qtfeedback_mmk.in(.constdata__ZTSSt9bad_alloc)
+    vtable for QFeedbackMMK                  0x000094d8   Data         112  qtfeedback_mmk.in(.constdata__ZTV12QFeedbackMMK)
+    .ARM.exidx$$Base                         0x00009548   Number         0  ucppinit_aeabi.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x000096e8   Number         0  qtfeedback_mmk.in(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x000096e8   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    __dso_handle                             0x00400008   Data           4  ucppfini.o(.data)
+

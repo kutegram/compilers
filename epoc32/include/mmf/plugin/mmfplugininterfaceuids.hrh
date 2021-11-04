@@ -1,0 +1,21 @@
+//   mmfPluginInterfaceUIDs.hrh
+//
+// Copyright (c) 2002 Symbian Ltd.  All rights reserved.
+//
+
+#ifndef __MMF_PLUGININTERFACEUIDS_HRH__
+#define __MMF_PLUGININTERFACEUIDS_HRH__
+
+
+// These are the ECOM Interface UIDs for the Multi Media Framework Plugins
+
+
+#define KMmfUidPluginInterfaceFormatEncode		0x101F53BF
+#define KMmfUidPluginInterfaceFormatDecode		0x101F53BE
+#define KMmfUidPluginInterfaceCodec				0x101F4AA6
+#define KMmfUidPluginInterfaceDataSource		0x101F53AF
+#define KMmfUidPluginInterfaceDataSink			0x101F53B0
+#define KMmfUidPluginInterfaceController		0x101F4F47
+#define KMmfUidPluginInterfaceHwDevice			0x101F4AA8
+
+#endif

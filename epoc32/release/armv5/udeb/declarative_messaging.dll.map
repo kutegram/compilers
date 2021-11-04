@@ -1,0 +1,1356 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../../unhosted.s                         0x00000000   Number         0  switch8.o ABSOLUTE
+    M:\\epoc32\\build\\euser\\c_e18a23aea4fd210f\\edll_lib\\armv5\\udeb\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\\sf\\os\\kernelhwsrv\\kernel\\eka\\compsupp\\rvct\\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\epoc32\build\euser\c_e18a23aea4fd210f\edll_lib\armv5\udeb\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\dllexp.cpp 0x00000000   Number         0  dllexp.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    S:\sf\mw\qtmobility\build\Release\declarative_messaging\moc\moc_qdeclarativemessagefilter.cpp 0x00000000   Number         0  moc_qdeclarativemessagefilter.o ABSOLUTE
+    S:\sf\mw\qtmobility\build\Release\declarative_messaging\moc\moc_qdeclarativemessagemodel.cpp 0x00000000   Number         0  moc_qdeclarativemessagemodel.o ABSOLUTE
+    S:\sf\mw\qtmobility\plugins\declarative\messaging\plugin.cpp 0x00000000   Number         0  plugin.o ABSOLUTE
+    S:\sf\mw\qtmobility\plugins\declarative\messaging\qdeclarativemessagefilter.cpp 0x00000000   Number         0  qdeclarativemessagefilter.o ABSOLUTE
+    S:\sf\mw\qtmobility\plugins\declarative\messaging\qdeclarativemessagemodel.cpp 0x00000000   Number         0  qdeclarativemessagemodel.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    Symbian$$eit_base                        0x00008014   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$eit_limit                       0x00008018   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_base                   0x0000801c   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_limit                  0x00008020   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$reserved                        0x00008024   Data           4  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       52  ucppinit.o(.emb_text)
+    loop                                     0x0000803c   ARM Code       0  ucppinit.o(.emb_text)
+    ret                                      0x00008044   ARM Code       0  ucppinit.o(.emb_text)
+    base                                     0x00008054   Data           0  ucppinit.o(.emb_text)
+    limit                                    0x00008058   Data           0  ucppinit.o(.emb_text)
+    .text                                    0x000085d4   Section     1112  moc_qdeclarativemessagefilter.o(.text)
+    .text                                    0x00008a2c   Section      728  moc_qdeclarativemessagemodel.o(.text)
+    .text                                    0x00008d04   Section     2900  qdeclarativemessagefilter.o(.text)
+    .text                                    0x00009858   Section     6200  qdeclarativemessagemodel.o(.text)
+    |L1.1072|                                0x00009c88   Data           0  qdeclarativemessagemodel.o(.text)
+    .text                                    0x0000b090   Section      272  plugin.o(.text)
+    .text                                    0x0000b1a0   Section       24  switch8.o(.text)
+    .text                                    0x0000b1b8   Section       80  uc_dll.o(.text)
+    .text                                    0x0000b208   Section      180  ucppfini.o(.text)
+    .text                                    0x0000b2bc   Section        4  dllexp.o(.text)
+    .text.clean                              0x0000b2c0   Section       10  moc_qdeclarativemessagefilter.o(.text.clean)
+    .text.clean                              0x0000b2ca   Section       10  moc_qdeclarativemessagemodel.o(.text.clean)
+    .text.clean                              0x0000b2d4   Section      444  qdeclarativemessagefilter.o(.text.clean)
+    .text.clean                              0x0000b490   Section      742  qdeclarativemessagemodel.o(.text.clean)
+    .text.clean                              0x0000b778   Section       28  plugin.o(.text.clean)
+    i._ZN10QByteArrayC1ERKS_                 0x0000b794   Section       20  plugin.o(i._ZN10QByteArrayC1ERKS_)
+    i._ZN10QByteArrayD1Ev                    0x0000b7a8   Section       24  qdeclarativemessagemodel.o(i._ZN10QByteArrayD1Ev)
+    i._ZN11QMetaObject12invokeMethodEP7QObjectPKcN2Qt14ConnectionTypeE16QGenericArgumentS6_S6_S6_S6_S6_S6_S6_S6_S6_ 0x0000b7c0   Section      130  qdeclarativemessagemodel.o(i._ZN11QMetaObject12invokeMethodEP7QObjectPKcN2Qt14ConnectionTypeE16QGenericArgumentS6_S6_S6_S6_S6_S6_S6_S6_S6_)
+    i._ZN11QModelIndexC1Ev                   0x0000b842   Section       16  qdeclarativemessagemodel.o(i._ZN11QModelIndexC1Ev)
+    i._ZN11QModelIndexD1Ev                   0x0000b852   Section        8  moc_qdeclarativemessagemodel.o(i._ZN11QModelIndexD1Ev)
+    i._ZN11QStringListD1Ev                   0x0000b85a   Section       14  qdeclarativemessagemodel.o(i._ZN11QStringListD1Ev)
+    i._ZN12QMutexLocker6unlockEv             0x0000b868   Section       38  qdeclarativemessagemodel.o(i._ZN12QMutexLocker6unlockEv)
+    i._ZN12QMutexLockerC1EP6QMutex           0x0000b88e   Section       34  qdeclarativemessagemodel.o(i._ZN12QMutexLockerC1EP6QMutex)
+    i._ZN12QMutexLockerD1Ev                  0x0000b8b0   Section       14  qdeclarativemessagemodel.o(i._ZN12QMutexLockerD1Ev)
+    i._ZN15QBasicAtomicInt3refEv             0x0000b8be   Section       24  qdeclarativemessagefilter.o(i._ZN15QBasicAtomicInt3refEv)
+    i._ZN15QBasicAtomicInt5derefEv           0x0000b8d6   Section       24  qdeclarativemessagefilter.o(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN16QDeclarativeInfolsEPKc            0x0000b8ee   Section       48  qdeclarativemessagefilter.o(i._ZN16QDeclarativeInfolsEPKc)
+    i._ZN16QDeclarativeInfolsEPKc.clean      0x0000b91e   Section       10  qdeclarativemessagefilter.o(i._ZN16QDeclarativeInfolsEPKc.clean)
+    i._ZN17QForeachContainerI5QListIN10QtMobility15QMessageAddressEEED1Ev 0x0000b928   Section       14  qdeclarativemessagemodel.o(i._ZN17QForeachContainerI5QListIN10QtMobility15QMessageAddressEEED1Ev)
+    i._ZN18MessageModelWorker10getMessageERKN10QtMobility10QMessageIdE 0x0000b938   Section      328  qdeclarativemessagemodel.o(i._ZN18MessageModelWorker10getMessageERKN10QtMobility10QMessageIdE)
+    i._ZN18MessageModelWorker10getMessageERKN10QtMobility10QMessageIdE.clean 0x0000ba80   Section       10  qdeclarativemessagemodel.o(i._ZN18MessageModelWorker10getMessageERKN10QtMobility10QMessageIdE.clean)
+    i._ZN18MessageModelWorker11requestBodyERKN10QtMobility10QMessageIdE 0x0000ba8c   Section      204  qdeclarativemessagemodel.o(i._ZN18MessageModelWorker11requestBodyERKN10QtMobility10QMessageIdE)
+    i._ZN18MessageModelWorker11requestBodyERKN10QtMobility10QMessageIdE.clean 0x0000bb58   Section       10  qdeclarativemessagemodel.o(i._ZN18MessageModelWorker11requestBodyERKN10QtMobility10QMessageIdE.clean)
+    i._ZN18MessageModelWorker12cacheMessageERKN10QtMobility10QMessageIdE 0x0000bb62   Section      140  qdeclarativemessagemodel.o(i._ZN18MessageModelWorker12cacheMessageERKN10QtMobility10QMessageIdE)
+    i._ZN18MessageModelWorker12cacheMessageERKN10QtMobility10QMessageIdE.clean 0x0000bbee   Section       20  qdeclarativemessagemodel.o(i._ZN18MessageModelWorker12cacheMessageERKN10QtMobility10QMessageIdE.clean)
+    i._ZN18MessageModelWorker15removeFromCacheERKN10QtMobility10QMessageIdE 0x0000bc02   Section       34  qdeclarativemessagemodel.o(i._ZN18MessageModelWorker15removeFromCacheERKN10QtMobility10QMessageIdE)
+    i._ZN18MessageModelWorker15removeFromCacheERKN10QtMobility10QMessageIdE.clean 0x0000bc24   Section       10  qdeclarativemessagemodel.o(i._ZN18MessageModelWorker15removeFromCacheERKN10QtMobility10QMessageIdE.clean)
+    i._ZN18MessageModelWorkerD0Ev            0x0000bc2e   Section       22  qdeclarativemessagemodel.o(i._ZN18MessageModelWorkerD0Ev)
+    i._ZN18MessageModelWorkerD1Ev            0x0000bc44   Section      120  qdeclarativemessagemodel.o(i._ZN18MessageModelWorkerD1Ev)
+    i._ZN18MessageModelWorkerD1Ev.clean      0x0000bcbc   Section       94  qdeclarativemessagemodel.o(i._ZN18MessageModelWorkerD1Ev.clean)
+    i._ZN19QDeclarativePrivate12RegisterTypeD1Ev 0x0000bd1a   Section       20  plugin.o(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementI24QDeclarativeMessageModelED0Ev 0x0000bd2e   Section       22  plugin.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI24QDeclarativeMessageModelED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementI25QDeclarativeMessageFilterED0Ev 0x0000bd44   Section       22  plugin.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI25QDeclarativeMessageFilterED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementI30QDeclarativeMessageUnionFilterED0Ev 0x0000bd5a   Section       22  plugin.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI30QDeclarativeMessageUnionFilterED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementI37QDeclarativeMessageIntersectionFilterED0Ev 0x0000bd70   Section       22  plugin.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI37QDeclarativeMessageIntersectionFilterED0Ev)
+    i._ZN24QDeclarativeMessageModel10classBeginEv 0x0000bd86   Section        2  moc_qdeclarativemessagemodel.o(i._ZN24QDeclarativeMessageModel10classBeginEv)
+    i._ZN25QDeclarativeMessageFilterD0Ev     0x0000bd88   Section       24  moc_qdeclarativemessagefilter.o(i._ZN25QDeclarativeMessageFilterD0Ev)
+    i._ZN25QDeclarativeMessageFilterD1Ev     0x0000bda0   Section       14  moc_qdeclarativemessagefilter.o(i._ZN25QDeclarativeMessageFilterD1Ev)
+    i._ZN29QDeclarativeMessageFilterBaseD0Ev 0x0000bdae   Section       22  moc_qdeclarativemessagefilter.o(i._ZN29QDeclarativeMessageFilterBaseD0Ev)
+    i._ZN29QDeclarativeMessageFilterBaseD2Ev 0x0000bdc4   Section       14  moc_qdeclarativemessagefilter.o(i._ZN29QDeclarativeMessageFilterBaseD2Ev)
+    i._ZN30QDeclarativeMessageModelPlugin13registerTypesEPKc 0x0000bdd4   Section      284  plugin.o(i._ZN30QDeclarativeMessageModelPlugin13registerTypesEPKc)
+    i._ZN30QDeclarativeMessageModelPlugin13registerTypesEPKc.clean 0x0000bef0   Section       10  plugin.o(i._ZN30QDeclarativeMessageModelPlugin13registerTypesEPKc.clean)
+    i._ZN30QDeclarativeMessageModelPluginD0Ev 0x0000befa   Section       24  plugin.o(i._ZN30QDeclarativeMessageModelPluginD0Ev)
+    i._ZN30QDeclarativeMessageModelPluginD1Ev 0x0000bf12   Section       14  plugin.o(i._ZN30QDeclarativeMessageModelPluginD1Ev)
+    i._ZN30QDeclarativeMessageUnionFilterD0Ev 0x0000bf20   Section       22  moc_qdeclarativemessagefilter.o(i._ZN30QDeclarativeMessageUnionFilterD0Ev)
+    i._ZN30QDeclarativeMessageUnionFilterD1Ev 0x0000bf38   Section       36  moc_qdeclarativemessagefilter.o(i._ZN30QDeclarativeMessageUnionFilterD1Ev)
+    i._ZN30QDeclarativeMessageUnionFilterD1Ev.clean 0x0000bf5c   Section       10  moc_qdeclarativemessagefilter.o(i._ZN30QDeclarativeMessageUnionFilterD1Ev.clean)
+    i._ZN31QDeclarativeMessageModelPrivateC1EP24QDeclarativeMessageModel 0x0000bf68   Section      480  qdeclarativemessagemodel.o(i._ZN31QDeclarativeMessageModelPrivateC1EP24QDeclarativeMessageModel)
+    i._ZN31QDeclarativeMessageModelPrivateC1EP24QDeclarativeMessageModel.clean 0x0000c148   Section       46  qdeclarativemessagemodel.o(i._ZN31QDeclarativeMessageModelPrivateC1EP24QDeclarativeMessageModel.clean)
+    i._ZN37QDeclarativeMessageIntersectionFilterD0Ev 0x0000c176   Section       22  moc_qdeclarativemessagefilter.o(i._ZN37QDeclarativeMessageIntersectionFilterD0Ev)
+    i._ZN37QDeclarativeMessageIntersectionFilterD1Ev 0x0000c18c   Section       36  moc_qdeclarativemessagefilter.o(i._ZN37QDeclarativeMessageIntersectionFilterD1Ev)
+    i._ZN37QDeclarativeMessageIntersectionFilterD1Ev.clean 0x0000c1b0   Section       10  moc_qdeclarativemessagefilter.o(i._ZN37QDeclarativeMessageIntersectionFilterD1Ev.clean)
+    i._ZN4QSetIiED1Ev                        0x0000c1ba   Section       14  qdeclarativemessagemodel.o(i._ZN4QSetIiED1Ev)
+    i._ZN6QDebug10maybeSpaceEv               0x0000c1c8   Section       24  qdeclarativemessagefilter.o(i._ZN6QDebug10maybeSpaceEv)
+    i._ZN7QStringC1ERKS_                     0x0000c1e0   Section       22  qdeclarativemessagemodel.o(i._ZN7QStringC1ERKS_)
+    i._ZN7QStringC1Ev                        0x0000c1f8   Section       24  qdeclarativemessagemodel.o(i._ZN7QStringC1Ev)
+    i._ZN7QStringD1Ev                        0x0000c210   Section       24  qdeclarativemessagefilter.o(i._ZN7QStringD1Ev)
+    i._ZN9QHashData8willGrowEv               0x0000c228   Section       32  qdeclarativemessagemodel.o(i._ZN9QHashData8willGrowEv)
+    i._ZNK15QBasicAtomicIntneEi              0x0000c248   Section       16  qdeclarativemessagefilter.o(i._ZNK15QBasicAtomicIntneEi)
+    i._ZNK15QBasicAtomicIntntEv              0x0000c258   Section       16  plugin.o(i._ZNK15QBasicAtomicIntntEv)
+    i._ZNK9QListData2atEi                    0x0000c268   Section       20  qdeclarativemessagemodel.o(i._ZNK9QListData2atEi)
+    i._ZNK9QListData3endEv                   0x0000c27c   Section       16  qdeclarativemessagefilter.o(i._ZNK9QListData3endEv)
+    i._ZNK9QListData5beginEv                 0x0000c28c   Section       16  qdeclarativemessagefilter.o(i._ZNK9QListData5beginEv)
+    i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI24QDeclarativeMessageModelED0Ev 0x0000c29c   Section       14  plugin.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI24QDeclarativeMessageModelED0Ev)
+    i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI24QDeclarativeMessageModelED1Ev 0x0000c2aa   Section       14  plugin.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI24QDeclarativeMessageModelED1Ev)
+    i._ZThn8_N24QDeclarativeMessageModel10classBeginEv 0x0000c2b8   Section        4  moc_qdeclarativemessagemodel.o(i._ZThn8_N24QDeclarativeMessageModel10classBeginEv)
+    i._ZThn8_N30QDeclarativeMessageModelPlugin13registerTypesEPKc 0x0000c2bc   Section       18  plugin.o(i._ZThn8_N30QDeclarativeMessageModelPlugin13registerTypesEPKc)
+    i._ZThn8_N30QDeclarativeMessageModelPluginD0Ev 0x0000c2ce   Section       14  plugin.o(i._ZThn8_N30QDeclarativeMessageModelPluginD0Ev)
+    i._ZThn8_N30QDeclarativeMessageModelPluginD1Ev 0x0000c2dc   Section       18  plugin.o(i._ZThn8_N30QDeclarativeMessageModelPluginD1Ev)
+    i._ZdlPvS_                               0x0000c2ee   Section        2  qdeclarativemessagemodel.o(i._ZdlPvS_)
+    i._ZnwjPv                                0x0000c2f0   Section        6  qdeclarativemessagemodel.o(i._ZnwjPv)
+    i._ZplPKcRK10QByteArray                  0x0000c2f6   Section       46  plugin.o(i._ZplPKcRK10QByteArray)
+    i._ZplPKcRK10QByteArray.clean            0x0000c324   Section       10  plugin.o(i._ZplPKcRK10QByteArray.clean)
+    i._ZplRK10QByteArrayPKc                  0x0000c32e   Section       46  plugin.o(i._ZplRK10QByteArrayPKc)
+    i._ZplRK10QByteArrayPKc.clean            0x0000c35c   Section       10  plugin.o(i._ZplRK10QByteArrayPKc.clean)
+    i._ZplRK10QByteArrayc                    0x0000c366   Section       46  plugin.o(i._ZplRK10QByteArrayc)
+    i._ZplRK10QByteArrayc.clean              0x0000c394   Section       10  plugin.o(i._ZplRK10QByteArrayc.clean)
+    t._Z15qmlRegisterTypeI24QDeclarativeMessageModelEiPKciiS2_ 0x0000c3a0   Section      288  plugin.o(t._Z15qmlRegisterTypeI24QDeclarativeMessageModelEiPKciiS2_)
+    t._Z15qmlRegisterTypeI24QDeclarativeMessageModelEiPKciiS2_.clean 0x0000c4c0   Section       52  plugin.o(t._Z15qmlRegisterTypeI24QDeclarativeMessageModelEiPKciiS2_.clean)
+    t._Z15qmlRegisterTypeI25QDeclarativeMessageFilterEiPKciiS2_ 0x0000c4f4   Section      280  plugin.o(t._Z15qmlRegisterTypeI25QDeclarativeMessageFilterEiPKciiS2_)
+    t._Z15qmlRegisterTypeI25QDeclarativeMessageFilterEiPKciiS2_.clean 0x0000c60c   Section       52  plugin.o(t._Z15qmlRegisterTypeI25QDeclarativeMessageFilterEiPKciiS2_.clean)
+    t._Z15qmlRegisterTypeI30QDeclarativeMessageUnionFilterEiPKciiS2_ 0x0000c640   Section      280  plugin.o(t._Z15qmlRegisterTypeI30QDeclarativeMessageUnionFilterEiPKciiS2_)
+    t._Z15qmlRegisterTypeI30QDeclarativeMessageUnionFilterEiPKciiS2_.clean 0x0000c758   Section       52  plugin.o(t._Z15qmlRegisterTypeI30QDeclarativeMessageUnionFilterEiPKciiS2_.clean)
+    t._Z15qmlRegisterTypeI37QDeclarativeMessageIntersectionFilterEiPKciiS2_ 0x0000c78c   Section      280  plugin.o(t._Z15qmlRegisterTypeI37QDeclarativeMessageIntersectionFilterEiPKciiS2_)
+    t._Z15qmlRegisterTypeI37QDeclarativeMessageIntersectionFilterEiPKciiS2_.clean 0x0000c8a4   Section       52  plugin.o(t._Z15qmlRegisterTypeI37QDeclarativeMessageIntersectionFilterEiPKciiS2_.clean)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI24QDeclarativeMessageModelEEiPKcPT_ 0x0000c8d8   Section      164  plugin.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI24QDeclarativeMessageModelEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI25QDeclarativeMessageFilterEEiPKcPT_ 0x0000c97c   Section      164  plugin.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI25QDeclarativeMessageFilterEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI29QDeclarativeMessageFilterBaseEEiPKcPT_ 0x0000ca20   Section      168  plugin.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI29QDeclarativeMessageFilterBaseEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI30QDeclarativeMessageUnionFilterEEiPKcPT_ 0x0000cac8   Section      172  plugin.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI30QDeclarativeMessageUnionFilterEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI37QDeclarativeMessageIntersectionFilterEEiPKcPT_ 0x0000cb74   Section      176  plugin.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI37QDeclarativeMessageIntersectionFilterEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI5QListIN10QtMobility10QMessageIdEEEiPKcPT_ 0x0000cc24   Section       64  plugin.o(t._Z17qRegisterMetaTypeI5QListIN10QtMobility10QMessageIdEEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIN10QtMobility10QMessageIdEEiPKcPT_ 0x0000cc64   Section      148  plugin.o(t._Z17qRegisterMetaTypeIN10QtMobility10QMessageIdEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIP24QDeclarativeMessageModelEiPKcPT_ 0x0000ccf8   Section      140  plugin.o(t._Z17qRegisterMetaTypeIP24QDeclarativeMessageModelEiPKcPT_)
+    t._Z17qRegisterMetaTypeIP25QDeclarativeMessageFilterEiPKcPT_ 0x0000cd84   Section      140  plugin.o(t._Z17qRegisterMetaTypeIP25QDeclarativeMessageFilterEiPKcPT_)
+    t._Z17qRegisterMetaTypeIP29QDeclarativeMessageFilterBaseEiPKcPT_ 0x0000ce10   Section      144  plugin.o(t._Z17qRegisterMetaTypeIP29QDeclarativeMessageFilterBaseEiPKcPT_)
+    t._Z17qRegisterMetaTypeIP30QDeclarativeMessageUnionFilterEiPKcPT_ 0x0000cea0   Section      148  plugin.o(t._Z17qRegisterMetaTypeIP30QDeclarativeMessageUnionFilterEiPKcPT_)
+    t._Z17qRegisterMetaTypeIP37QDeclarativeMessageIntersectionFilterEiPKcPT_ 0x0000cf34   Section      152  plugin.o(t._Z17qRegisterMetaTypeIP37QDeclarativeMessageIntersectionFilterEiPKcPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI24QDeclarativeMessageModelEEvPT_ 0x0000cfcc   Section       12  plugin.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI24QDeclarativeMessageModelEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI25QDeclarativeMessageFilterEEvPT_ 0x0000cfd8   Section       12  plugin.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI25QDeclarativeMessageFilterEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI29QDeclarativeMessageFilterBaseEEvPT_ 0x0000cfe4   Section       12  plugin.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI29QDeclarativeMessageFilterBaseEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI30QDeclarativeMessageUnionFilterEEvPT_ 0x0000cff0   Section       12  plugin.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI30QDeclarativeMessageUnionFilterEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI37QDeclarativeMessageIntersectionFilterEEvPT_ 0x0000cffc   Section       12  plugin.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI37QDeclarativeMessageIntersectionFilterEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI5QListIN10QtMobility10QMessageIdEEEvPT_ 0x0000d008   Section       22  plugin.o(t._Z21qMetaTypeDeleteHelperI5QListIN10QtMobility10QMessageIdEEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIN10QtMobility10QMessageIdEEvPT_ 0x0000d01e   Section       22  plugin.o(t._Z21qMetaTypeDeleteHelperIN10QtMobility10QMessageIdEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIP24QDeclarativeMessageModelEvPT_ 0x0000d034   Section       12  plugin.o(t._Z21qMetaTypeDeleteHelperIP24QDeclarativeMessageModelEvPT_)
+    t._Z21qMetaTypeDeleteHelperIP25QDeclarativeMessageFilterEvPT_ 0x0000d040   Section       12  plugin.o(t._Z21qMetaTypeDeleteHelperIP25QDeclarativeMessageFilterEvPT_)
+    t._Z21qMetaTypeDeleteHelperIP29QDeclarativeMessageFilterBaseEvPT_ 0x0000d04c   Section       12  plugin.o(t._Z21qMetaTypeDeleteHelperIP29QDeclarativeMessageFilterBaseEvPT_)
+    t._Z21qMetaTypeDeleteHelperIP30QDeclarativeMessageUnionFilterEvPT_ 0x0000d058   Section       12  plugin.o(t._Z21qMetaTypeDeleteHelperIP30QDeclarativeMessageUnionFilterEvPT_)
+    t._Z21qMetaTypeDeleteHelperIP37QDeclarativeMessageIntersectionFilterEvPT_ 0x0000d064   Section       12  plugin.o(t._Z21qMetaTypeDeleteHelperIP37QDeclarativeMessageIntersectionFilterEvPT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI24QDeclarativeMessageModelEEPvPKT_ 0x0000d070   Section      150  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI24QDeclarativeMessageModelEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI24QDeclarativeMessageModelEEPvPKT_.clean 0x0000d106   Section        4  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI24QDeclarativeMessageModelEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI25QDeclarativeMessageFilterEEPvPKT_ 0x0000d10a   Section      150  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI25QDeclarativeMessageFilterEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI25QDeclarativeMessageFilterEEPvPKT_.clean 0x0000d1a0   Section        4  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI25QDeclarativeMessageFilterEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI29QDeclarativeMessageFilterBaseEEPvPKT_ 0x0000d1a4   Section      150  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI29QDeclarativeMessageFilterBaseEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI29QDeclarativeMessageFilterBaseEEPvPKT_.clean 0x0000d23a   Section        4  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI29QDeclarativeMessageFilterBaseEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI30QDeclarativeMessageUnionFilterEEPvPKT_ 0x0000d23e   Section      150  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI30QDeclarativeMessageUnionFilterEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI30QDeclarativeMessageUnionFilterEEPvPKT_.clean 0x0000d2d4   Section        4  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI30QDeclarativeMessageUnionFilterEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI37QDeclarativeMessageIntersectionFilterEEPvPKT_ 0x0000d2d8   Section      150  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI37QDeclarativeMessageIntersectionFilterEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI37QDeclarativeMessageIntersectionFilterEEPvPKT_.clean 0x0000d36e   Section        4  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI37QDeclarativeMessageIntersectionFilterEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI5QListIN10QtMobility10QMessageIdEEEPvPKT_ 0x0000d374   Section      116  plugin.o(t._Z24qMetaTypeConstructHelperI5QListIN10QtMobility10QMessageIdEEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI5QListIN10QtMobility10QMessageIdEEEPvPKT_.clean 0x0000d3e8   Section       28  plugin.o(t._Z24qMetaTypeConstructHelperI5QListIN10QtMobility10QMessageIdEEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperIN10QtMobility10QMessageIdEEPvPKT_ 0x0000d404   Section       80  plugin.o(t._Z24qMetaTypeConstructHelperIN10QtMobility10QMessageIdEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIN10QtMobility10QMessageIdEEPvPKT_.clean 0x0000d454   Section       28  plugin.o(t._Z24qMetaTypeConstructHelperIN10QtMobility10QMessageIdEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperIP24QDeclarativeMessageModelEPvPKT_ 0x0000d470   Section       50  plugin.o(t._Z24qMetaTypeConstructHelperIP24QDeclarativeMessageModelEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIP25QDeclarativeMessageFilterEPvPKT_ 0x0000d4a2   Section       50  plugin.o(t._Z24qMetaTypeConstructHelperIP25QDeclarativeMessageFilterEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIP29QDeclarativeMessageFilterBaseEPvPKT_ 0x0000d4d4   Section       50  plugin.o(t._Z24qMetaTypeConstructHelperIP29QDeclarativeMessageFilterBaseEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIP30QDeclarativeMessageUnionFilterEPvPKT_ 0x0000d506   Section       50  plugin.o(t._Z24qMetaTypeConstructHelperIP30QDeclarativeMessageUnionFilterEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIP37QDeclarativeMessageIntersectionFilterEPvPKT_ 0x0000d538   Section       50  plugin.o(t._Z24qMetaTypeConstructHelperIP37QDeclarativeMessageIntersectionFilterEPvPKT_)
+    t._Z26qmlRegisterUncreatableTypeI29QDeclarativeMessageFilterBaseEiPKciiS2_RK7QString 0x0000d56c   Section      292  plugin.o(t._Z26qmlRegisterUncreatableTypeI29QDeclarativeMessageFilterBaseEiPKciiS2_RK7QString)
+    t._Z26qmlRegisterUncreatableTypeI29QDeclarativeMessageFilterBaseEiPKciiS2_RK7QString.clean 0x0000d690   Section       52  plugin.o(t._Z26qmlRegisterUncreatableTypeI29QDeclarativeMessageFilterBaseEiPKciiS2_RK7QString.clean)
+    t._ZN19QDeclarativePrivate10createIntoI24QDeclarativeMessageModelEEvPv 0x0000d6c4   Section       48  plugin.o(t._ZN19QDeclarativePrivate10createIntoI24QDeclarativeMessageModelEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoI24QDeclarativeMessageModelEEvPv.clean 0x0000d6f4   Section       12  plugin.o(t._ZN19QDeclarativePrivate10createIntoI24QDeclarativeMessageModelEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoI25QDeclarativeMessageFilterEEvPv 0x0000d700   Section       44  plugin.o(t._ZN19QDeclarativePrivate10createIntoI25QDeclarativeMessageFilterEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoI25QDeclarativeMessageFilterEEvPv.clean 0x0000d72c   Section       12  plugin.o(t._ZN19QDeclarativePrivate10createIntoI25QDeclarativeMessageFilterEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoI30QDeclarativeMessageUnionFilterEEvPv 0x0000d738   Section       44  plugin.o(t._ZN19QDeclarativePrivate10createIntoI30QDeclarativeMessageUnionFilterEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoI30QDeclarativeMessageUnionFilterEEvPv.clean 0x0000d764   Section       12  plugin.o(t._ZN19QDeclarativePrivate10createIntoI30QDeclarativeMessageUnionFilterEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoI37QDeclarativeMessageIntersectionFilterEEvPv 0x0000d770   Section       44  plugin.o(t._ZN19QDeclarativePrivate10createIntoI37QDeclarativeMessageIntersectionFilterEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoI37QDeclarativeMessageIntersectionFilterEEvPv.clean 0x0000d79c   Section       12  plugin.o(t._ZN19QDeclarativePrivate10createIntoI37QDeclarativeMessageIntersectionFilterEEvPv.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI24QDeclarativeMessageModelED1Ev 0x0000d7a8   Section       32  plugin.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI24QDeclarativeMessageModelED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI24QDeclarativeMessageModelED1Ev.clean 0x0000d7c8   Section       10  plugin.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI24QDeclarativeMessageModelED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI25QDeclarativeMessageFilterED1Ev 0x0000d7d4   Section       32  plugin.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI25QDeclarativeMessageFilterED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI25QDeclarativeMessageFilterED1Ev.clean 0x0000d7f4   Section       10  plugin.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI25QDeclarativeMessageFilterED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI30QDeclarativeMessageUnionFilterED1Ev 0x0000d800   Section       28  plugin.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI30QDeclarativeMessageUnionFilterED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI30QDeclarativeMessageUnionFilterED1Ev.clean 0x0000d81c   Section       10  plugin.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI30QDeclarativeMessageUnionFilterED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI37QDeclarativeMessageIntersectionFilterED1Ev 0x0000d828   Section       28  plugin.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI37QDeclarativeMessageIntersectionFilterED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI37QDeclarativeMessageIntersectionFilterED1Ev.clean 0x0000d844   Section       10  plugin.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI37QDeclarativeMessageIntersectionFilterED1Ev.clean)
+    t._ZN24QDeclarativeListPropertyI29QDeclarativeMessageFilterBaseE11qlist_clearEPS1_ 0x0000d84e   Section       12  qdeclarativemessagefilter.o(t._ZN24QDeclarativeListPropertyI29QDeclarativeMessageFilterBaseE11qlist_clearEPS1_)
+    t._ZN24QDeclarativeListPropertyI29QDeclarativeMessageFilterBaseE11qlist_countEPS1_ 0x0000d85a   Section       12  qdeclarativemessagefilter.o(t._ZN24QDeclarativeListPropertyI29QDeclarativeMessageFilterBaseE11qlist_countEPS1_)
+    t._ZN24QDeclarativeListPropertyI29QDeclarativeMessageFilterBaseE12qlist_appendEPS1_PS0_ 0x0000d866   Section       14  qdeclarativemessagefilter.o(t._ZN24QDeclarativeListPropertyI29QDeclarativeMessageFilterBaseE12qlist_appendEPS1_PS0_)
+    t._ZN24QDeclarativeListPropertyI29QDeclarativeMessageFilterBaseE8qlist_atEPS1_i 0x0000d874   Section       18  qdeclarativemessagefilter.o(t._ZN24QDeclarativeListPropertyI29QDeclarativeMessageFilterBaseE8qlist_atEPS1_i)
+    t._ZN24QDeclarativeListPropertyI29QDeclarativeMessageFilterBaseEC1EP7QObjectR5QListIPS0_E 0x0000d888   Section       44  qdeclarativemessagefilter.o(t._ZN24QDeclarativeListPropertyI29QDeclarativeMessageFilterBaseEC1EP7QObjectR5QListIPS0_E)
+    t._ZN4QSetIiEC1ERKS0_                    0x0000d8b4   Section       62  qdeclarativemessagemodel.o(t._ZN4QSetIiEC1ERKS0_)
+    t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE11deleteNode2EPN9QHashData4NodeE 0x0000d8f2   Section       24  qdeclarativemessagemodel.o(t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE11deleteNode2EPN9QHashData4NodeE)
+    t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE13detach_helperEv 0x0000d90c   Section       60  qdeclarativemessagemodel.o(t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE13detach_helperEv)
+    t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE13duplicateNodeEPN9QHashData4NodeEPv 0x0000d948   Section       46  qdeclarativemessagemodel.o(t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE13duplicateNodeEPN9QHashData4NodeEPv)
+    t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE13duplicateNodeEPN9QHashData4NodeEPv.clean 0x0000d976   Section       14  qdeclarativemessagemodel.o(t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE13duplicateNodeEPN9QHashData4NodeEPv.clean)
+    t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE4findERKS1_ 0x0000d984   Section       30  qdeclarativemessagemodel.o(t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE4findERKS1_)
+    t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE6detachEv 0x0000d9a2   Section       28  qdeclarativemessagemodel.o(t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE6detachEv)
+    t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE6insertERKS1_RKS5_ 0x0000d9be   Section      184  qdeclarativemessagemodel.o(t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE6insertERKS1_RKS5_)
+    t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE6insertERKS1_RKS5_.clean 0x0000da76   Section       14  qdeclarativemessagemodel.o(t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE6insertERKS1_RKS5_.clean)
+    t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE6removeERKS1_ 0x0000da84   Section      260  qdeclarativemessagemodel.o(t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE6removeERKS1_)
+    t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE8freeDataEP9QHashData 0x0000db88   Section       20  qdeclarativemessagemodel.o(t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE8freeDataEP9QHashData)
+    t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEEC1Ev 0x0000db9c   Section       28  qdeclarativemessagemodel.o(t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEEC1Ev)
+    t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEED1Ev 0x0000dbb8   Section       30  qdeclarativemessagemodel.o(t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEED1Ev)
+    t._ZN5QHashIi10QByteArrayE11deleteNode2EPN9QHashData4NodeE 0x0000dbd6   Section       24  qdeclarativemessagemodel.o(t._ZN5QHashIi10QByteArrayE11deleteNode2EPN9QHashData4NodeE)
+    t._ZN5QHashIi10QByteArrayE13detach_helperEv 0x0000dbf0   Section       60  qdeclarativemessagemodel.o(t._ZN5QHashIi10QByteArrayE13detach_helperEv)
+    t._ZN5QHashIi10QByteArrayE13duplicateNodeEPN9QHashData4NodeEPv 0x0000dc2c   Section       46  qdeclarativemessagemodel.o(t._ZN5QHashIi10QByteArrayE13duplicateNodeEPN9QHashData4NodeEPv)
+    t._ZN5QHashIi10QByteArrayE13duplicateNodeEPN9QHashData4NodeEPv.clean 0x0000dc5a   Section       14  qdeclarativemessagemodel.o(t._ZN5QHashIi10QByteArrayE13duplicateNodeEPN9QHashData4NodeEPv.clean)
+    t._ZN5QHashIi10QByteArrayE8freeDataEP9QHashData 0x0000dc68   Section       20  qdeclarativemessagemodel.o(t._ZN5QHashIi10QByteArrayE8freeDataEP9QHashData)
+    t._ZN5QHashIi10QByteArrayED1Ev           0x0000dc7c   Section       30  qdeclarativemessagemodel.o(t._ZN5QHashIi10QByteArrayED1Ev)
+    t._ZN5QHashIi10QByteArrayEixERKi         0x0000dc9c   Section      220  qdeclarativemessagemodel.o(t._ZN5QHashIi10QByteArrayEixERKi)
+    t._ZN5QHashIi10QByteArrayEixERKi.clean   0x0000dd78   Section       24  qdeclarativemessagemodel.o(t._ZN5QHashIi10QByteArrayEixERKi.clean)
+    t._ZN5QHashIi15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE 0x0000dd90   Section        6  qdeclarativemessagemodel.o(t._ZN5QHashIi15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE)
+    t._ZN5QHashIi15QHashDummyValueE13detach_helperEv 0x0000dd98   Section       60  qdeclarativemessagemodel.o(t._ZN5QHashIi15QHashDummyValueE13detach_helperEv)
+    t._ZN5QHashIi15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv 0x0000ddd4   Section       34  qdeclarativemessagemodel.o(t._ZN5QHashIi15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv)
+    t._ZN5QHashIi15QHashDummyValueE8freeDataEP9QHashData 0x0000ddf8   Section       20  qdeclarativemessagemodel.o(t._ZN5QHashIi15QHashDummyValueE8freeDataEP9QHashData)
+    t._ZN5QHashIi15QHashDummyValueED1Ev      0x0000de0c   Section       30  qdeclarativemessagemodel.o(t._ZN5QHashIi15QHashDummyValueED1Ev)
+    t._ZN5QListI7QStringE13node_destructEPNS1_4NodeES3_ 0x0000de2a   Section       26  qdeclarativemessagemodel.o(t._ZN5QListI7QStringE13node_destructEPNS1_4NodeES3_)
+    t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_ 0x0000de44   Section       36  qdeclarativemessagemodel.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_)
+    t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_.clean 0x0000de68   Section       14  qdeclarativemessagemodel.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_.clean)
+    t._ZN5QListI7QStringE18detach_helper_growEii 0x0000de76   Section      208  qdeclarativemessagemodel.o(t._ZN5QListI7QStringE18detach_helper_growEii)
+    t._ZN5QListI7QStringE18detach_helper_growEii.clean 0x0000df46   Section       16  qdeclarativemessagemodel.o(t._ZN5QListI7QStringE18detach_helper_growEii.clean)
+    t._ZN5QListI7QStringE4freeEPN9QListData4DataE 0x0000df56   Section       58  qdeclarativemessagemodel.o(t._ZN5QListI7QStringE4freeEPN9QListData4DataE)
+    t._ZN5QListI7QStringE6appendERKS0_       0x0000df90   Section      120  qdeclarativemessagemodel.o(t._ZN5QListI7QStringE6appendERKS0_)
+    t._ZN5QListI7QStringE6appendERKS0_.clean 0x0000e008   Section       14  qdeclarativemessagemodel.o(t._ZN5QListI7QStringE6appendERKS0_.clean)
+    t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_ 0x0000e016   Section       82  qdeclarativemessagemodel.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_)
+    t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_.clean 0x0000e068   Section       22  qdeclarativemessagemodel.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_.clean)
+    t._ZN5QListI7QStringED1Ev                0x0000e07e   Section       32  qdeclarativemessagemodel.o(t._ZN5QListI7QStringED1Ev)
+    t._ZN5QListIN10QtMobility10QMessageIdEE13detach_helperEi 0x0000e09e   Section       94  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEE13detach_helperEi)
+    t._ZN5QListIN10QtMobility10QMessageIdEE13detach_helperEi.clean 0x0000e0fc   Section        8  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEE13detach_helperEi.clean)
+    t._ZN5QListIN10QtMobility10QMessageIdEE13detach_helperEv 0x0000e104   Section       16  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEE13detach_helperEv)
+    t._ZN5QListIN10QtMobility10QMessageIdEE13node_destructEPNS2_4NodeE 0x0000e114   Section       28  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEE13node_destructEPNS2_4NodeE)
+    t._ZN5QListIN10QtMobility10QMessageIdEE13node_destructEPNS2_4NodeES4_ 0x0000e130   Section       38  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEE13node_destructEPNS2_4NodeES4_)
+    t._ZN5QListIN10QtMobility10QMessageIdEE14node_constructEPNS2_4NodeERKS1_ 0x0000e156   Section       34  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEE14node_constructEPNS2_4NodeERKS1_)
+    t._ZN5QListIN10QtMobility10QMessageIdEE14node_constructEPNS2_4NodeERKS1_.clean 0x0000e178   Section       14  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEE14node_constructEPNS2_4NodeERKS1_.clean)
+    t._ZN5QListIN10QtMobility10QMessageIdEE18detach_helper_growEii 0x0000e186   Section      208  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEE18detach_helper_growEii)
+    t._ZN5QListIN10QtMobility10QMessageIdEE18detach_helper_growEii.clean 0x0000e256   Section       16  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEE18detach_helper_growEii.clean)
+    t._ZN5QListIN10QtMobility10QMessageIdEE3endEv 0x0000e266   Section       26  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEE3endEv)
+    t._ZN5QListIN10QtMobility10QMessageIdEE4freeEPN9QListData4DataE 0x0000e280   Section       58  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEE4freeEPN9QListData4DataE)
+    t._ZN5QListIN10QtMobility10QMessageIdEE6appendERKS1_ 0x0000e2bc   Section      112  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEE6appendERKS1_)
+    t._ZN5QListIN10QtMobility10QMessageIdEE6appendERKS1_.clean 0x0000e32c   Section       14  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEE6appendERKS1_.clean)
+    t._ZN5QListIN10QtMobility10QMessageIdEE6detachEv 0x0000e33a   Section       24  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEE6detachEv)
+    t._ZN5QListIN10QtMobility10QMessageIdEE9node_copyEPNS2_4NodeES4_S4_ 0x0000e352   Section       92  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEE9node_copyEPNS2_4NodeES4_S4_)
+    t._ZN5QListIN10QtMobility10QMessageIdEE9node_copyEPNS2_4NodeES4_S4_.clean 0x0000e3ae   Section       22  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEE9node_copyEPNS2_4NodeES4_S4_.clean)
+    t._ZN5QListIN10QtMobility10QMessageIdEE9removeAllERKS1_ 0x0000e3c4   Section      136  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEE9removeAllERKS1_)
+    t._ZN5QListIN10QtMobility10QMessageIdEE9removeAllERKS1_.clean 0x0000e44c   Section       10  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEE9removeAllERKS1_.clean)
+    t._ZN5QListIN10QtMobility10QMessageIdEEC1Ev 0x0000e458   Section       24  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEEC1Ev)
+    t._ZN5QListIN10QtMobility10QMessageIdEED1Ev 0x0000e470   Section       32  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEED1Ev)
+    t._ZN5QListIN10QtMobility15QMessageAddressEE13detach_helperEi 0x0000e490   Section      198  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility15QMessageAddressEE13detach_helperEi)
+    t._ZN5QListIN10QtMobility15QMessageAddressEE13detach_helperEi.clean 0x0000e556   Section       32  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility15QMessageAddressEE13detach_helperEi.clean)
+    t._ZN5QListIN10QtMobility15QMessageAddressEE13detach_helperEv 0x0000e576   Section       16  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility15QMessageAddressEE13detach_helperEv)
+    t._ZN5QListIN10QtMobility15QMessageAddressEE4freeEPN9QListData4DataE 0x0000e586   Section       80  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility15QMessageAddressEE4freeEPN9QListData4DataE)
+    t._ZN5QListIN10QtMobility15QMessageAddressEED1Ev 0x0000e5d6   Section       32  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility15QMessageAddressEED1Ev)
+    t._ZN5QListIP29QDeclarativeMessageFilterBaseE13detach_helperEi 0x0000e5f6   Section       94  qdeclarativemessagefilter.o(t._ZN5QListIP29QDeclarativeMessageFilterBaseE13detach_helperEi)
+    t._ZN5QListIP29QDeclarativeMessageFilterBaseE13detach_helperEi.clean 0x0000e654   Section        8  qdeclarativemessagefilter.o(t._ZN5QListIP29QDeclarativeMessageFilterBaseE13detach_helperEi.clean)
+    t._ZN5QListIP29QDeclarativeMessageFilterBaseE13detach_helperEv 0x0000e65c   Section       16  qdeclarativemessagefilter.o(t._ZN5QListIP29QDeclarativeMessageFilterBaseE13detach_helperEv)
+    t._ZN5QListIP29QDeclarativeMessageFilterBaseE18detach_helper_growEii 0x0000e66c   Section      204  qdeclarativemessagefilter.o(t._ZN5QListIP29QDeclarativeMessageFilterBaseE18detach_helper_growEii)
+    t._ZN5QListIP29QDeclarativeMessageFilterBaseE18detach_helper_growEii.clean 0x0000e738   Section       16  qdeclarativemessagefilter.o(t._ZN5QListIP29QDeclarativeMessageFilterBaseE18detach_helper_growEii.clean)
+    t._ZN5QListIP29QDeclarativeMessageFilterBaseE4freeEPN9QListData4DataE 0x0000e748   Section       58  moc_qdeclarativemessagefilter.o(t._ZN5QListIP29QDeclarativeMessageFilterBaseE4freeEPN9QListData4DataE)
+    t._ZN5QListIP29QDeclarativeMessageFilterBaseE5clearEv 0x0000e782   Section       76  qdeclarativemessagefilter.o(t._ZN5QListIP29QDeclarativeMessageFilterBaseE5clearEv)
+    t._ZN5QListIP29QDeclarativeMessageFilterBaseE5clearEv.clean 0x0000e7ce   Section       10  qdeclarativemessagefilter.o(t._ZN5QListIP29QDeclarativeMessageFilterBaseE5clearEv.clean)
+    t._ZN5QListIP29QDeclarativeMessageFilterBaseE5firstEv 0x0000e7d8   Section       50  qdeclarativemessagefilter.o(t._ZN5QListIP29QDeclarativeMessageFilterBaseE5firstEv)
+    t._ZN5QListIP29QDeclarativeMessageFilterBaseE6appendERKS1_ 0x0000e80c   Section      100  qdeclarativemessagefilter.o(t._ZN5QListIP29QDeclarativeMessageFilterBaseE6appendERKS1_)
+    t._ZN5QListIP29QDeclarativeMessageFilterBaseE6appendERKS1_.clean 0x0000e870   Section       10  qdeclarativemessagefilter.o(t._ZN5QListIP29QDeclarativeMessageFilterBaseE6appendERKS1_.clean)
+    t._ZN5QListIP29QDeclarativeMessageFilterBaseE9node_copyEPNS2_4NodeES4_S4_ 0x0000e87a   Section       46  qdeclarativemessagefilter.o(t._ZN5QListIP29QDeclarativeMessageFilterBaseE9node_copyEPNS2_4NodeES4_S4_)
+    t._ZN5QListIP29QDeclarativeMessageFilterBaseEC1Ev 0x0000e8a8   Section       24  qdeclarativemessagefilter.o(t._ZN5QListIP29QDeclarativeMessageFilterBaseEC1Ev)
+    t._ZN5QListIP29QDeclarativeMessageFilterBaseED1Ev 0x0000e8c0   Section       32  qdeclarativemessagefilter.o(t._ZN5QListIP29QDeclarativeMessageFilterBaseED1Ev)
+    t._ZN6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEE4trimEi 0x0000e8e0   Section       44  qdeclarativemessagemodel.o(t._ZN6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEE4trimEi)
+    t._ZN6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEE5clearEv 0x0000e90c   Section      128  qdeclarativemessagemodel.o(t._ZN6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEE5clearEv)
+    t._ZN6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEE5clearEv.clean 0x0000e98c   Section       10  qdeclarativemessagemodel.o(t._ZN6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEE5clearEv.clean)
+    t._ZN6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEE6insertERKS1_PS2_i 0x0000e996   Section      158  qdeclarativemessagemodel.o(t._ZN6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEE6insertERKS1_PS2_i)
+    t._ZN6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEE6removeERKS1_ 0x0000ea34   Section       76  qdeclarativemessagemodel.o(t._ZN6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEE6removeERKS1_)
+    t._ZN6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEE6unlinkERNS3_4NodeE 0x0000ea80   Section       84  qdeclarativemessagemodel.o(t._ZN6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEE6unlinkERNS3_4NodeE)
+    t._ZN6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEED1Ev 0x0000ead4   Section       26  qdeclarativemessagemodel.o(t._ZN6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEED1Ev)
+    t._ZN6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEED1Ev.clean 0x0000eaee   Section       12  qdeclarativemessagemodel.o(t._ZN6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEED1Ev.clean)
+    t._ZN8QPointerI7QObjectED1Ev             0x0000eafa   Section       14  plugin.o(t._ZN8QPointerI7QObjectED1Ev)
+    t._ZN9QHashNodeIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEEC1ERKS1_RKS5_ 0x0000eb08   Section       46  qdeclarativemessagemodel.o(t._ZN9QHashNodeIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEEC1ERKS1_RKS5_)
+    t._ZN9QHashNodeIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEEC1ERKS1_RKS5_.clean 0x0000eb36   Section        4  qdeclarativemessagemodel.o(t._ZN9QHashNodeIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEEC1ERKS1_RKS5_.clean)
+    t._ZN9QHashNodeIi10QByteArrayEC1EiRKS0_  0x0000eb3a   Section       30  qdeclarativemessagemodel.o(t._ZN9QHashNodeIi10QByteArrayEC1EiRKS0_)
+    t._ZNK5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE14const_iteratoreqERKS7_ 0x0000eb58   Section       18  qdeclarativemessagemodel.o(t._ZNK5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE14const_iteratoreqERKS7_)
+    t._ZNK5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE8findNodeERKS1_Pj 0x0000eb6a   Section      116  qdeclarativemessagemodel.o(t._ZNK5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE8findNodeERKS1_Pj)
+    t._ZNK5QHashIi10QByteArrayE8findNodeERKiPj 0x0000ebde   Section       94  qdeclarativemessagemodel.o(t._ZNK5QHashIi10QByteArrayE8findNodeERKiPj)
+    t._ZNK5QListIN10QtMobility10QMessageIdEE2atEi 0x0000ec3c   Section       22  qdeclarativemessagemodel.o(t._ZNK5QListIN10QtMobility10QMessageIdEE2atEi)
+    t._ZNK5QListIN10QtMobility10QMessageIdEE5countEv 0x0000ec52   Section       16  qdeclarativemessagemodel.o(t._ZNK5QListIN10QtMobility10QMessageIdEE5countEv)
+    t._ZNK5QListIN10QtMobility10QMessageIdEE8containsERKS1_ 0x0000ec62   Section       72  qdeclarativemessagemodel.o(t._ZNK5QListIN10QtMobility10QMessageIdEE8containsERKS1_)
+    t._ZNK5QListIP29QDeclarativeMessageFilterBaseE2atEi 0x0000ecaa   Section       30  qdeclarativemessagefilter.o(t._ZNK5QListIP29QDeclarativeMessageFilterBaseE2atEi)
+    t._ZNK5QListIP29QDeclarativeMessageFilterBaseE5countEv 0x0000ecc8   Section       16  qdeclarativemessagefilter.o(t._ZNK5QListIP29QDeclarativeMessageFilterBaseE5countEv)
+    t._ZNK6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEE6objectERKS1_ 0x0000ecd8   Section      126  qdeclarativemessagemodel.o(t._ZNK6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEE6objectERKS1_)
+    t._ZNK6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEE8containsERKS1_ 0x0000ed56   Section       36  qdeclarativemessagemodel.o(t._ZNK6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEE8containsERKS1_)
+    .extab._ZN25QDeclarativeMessageFilter11qt_metacallEN11QMetaObject4CallEiPPv 0x0000ed7c   Data           0  moc_qdeclarativemessagefilter.o(.ARM.extab)
+    .extab._ZN37QDeclarativeMessageIntersectionFilterD1Ev 0x0000ed8c   Data           0  moc_qdeclarativemessagefilter.o(.ARM.extab)
+    .extab._ZN30QDeclarativeMessageUnionFilterD1Ev 0x0000ed9c   Data           0  moc_qdeclarativemessagefilter.o(.ARM.extab)
+    .extab._ZN24QDeclarativeMessageModel11qt_metacallEN11QMetaObject4CallEiPPv 0x0000edac   Data           0  moc_qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN37QDeclarativeMessageIntersectionFilterC1EP7QObject 0x0000edbc   Data           0  qdeclarativemessagefilter.o(.ARM.extab)
+    .extab._ZN37QDeclarativeMessageIntersectionFilter6filterEv 0x0000edcc   Data           0  qdeclarativemessagefilter.o(.ARM.extab)
+    .extab._ZN30QDeclarativeMessageUnionFilterC1EP7QObject 0x0000edf4   Data           0  qdeclarativemessagefilter.o(.ARM.extab)
+    .extab._ZN30QDeclarativeMessageUnionFilter6filterEv 0x0000ee04   Data           0  qdeclarativemessagefilter.o(.ARM.extab)
+    .extab._ZN25QDeclarativeMessageFilterC1EP7QObject 0x0000ee2c   Data           0  qdeclarativemessagefilter.o(.ARM.extab)
+    .extab._ZN25QDeclarativeMessageFilter6filterEv 0x0000ee3c   Data           0  qdeclarativemessagefilter.o(.ARM.extab)
+    .extab._ZN5QListIP29QDeclarativeMessageFilterBaseE13detach_helperEi 0x0000f184   Data           0  qdeclarativemessagefilter.o(.ARM.extab)
+    .extab._ZN5QListIP29QDeclarativeMessageFilterBaseE5clearEv 0x0000f1a0   Data           0  qdeclarativemessagefilter.o(.ARM.extab)
+    .extab._ZN5QListIP29QDeclarativeMessageFilterBaseE18detach_helper_growEii 0x0000f1b0   Data           0  qdeclarativemessagefilter.o(.ARM.extab)
+    .extab._ZN5QListIP29QDeclarativeMessageFilterBaseE6appendERKS1_ 0x0000f1e0   Data           0  qdeclarativemessagefilter.o(.ARM.extab)
+    .extab._ZN16QDeclarativeInfolsEPKc       0x0000f1fc   Data           0  qdeclarativemessagefilter.o(.ARM.extab)
+    .extab._ZN18MessageModelWorkerC1Ev       0x0000f20c   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN24QDeclarativeMessageModelC1EP7QObject 0x0000f254   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN24QDeclarativeMessageModelD1Ev 0x0000f28c   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZNK24QDeclarativeMessageModel4dataERK11QModelIndexi 0x0000f2bc   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN31QDeclarativeMessageModelPrivate12updateFilterEv 0x0000f4e4   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN24QDeclarativeMessageModel13messagesFoundERK5QListIN10QtMobility10QMessageIdEE 0x0000f5d4   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN24QDeclarativeMessageModel14messageUpdatedERKN10QtMobility10QMessageIdE 0x0000f5e4   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN24QDeclarativeMessageModel14messageRemovedERKN10QtMobility10QMessageIdE 0x0000f5fc   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN18MessageModelWorker7getBodyERKN10QtMobility10QMessageIdE 0x0000f60c   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN18MessageModelWorker4initEv    0x0000f63c   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN18MessageModelWorker12getRequestedEv 0x0000f654   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN18MessageModelWorker11qt_metacallEN11QMetaObject4CallEiPPv 0x0000f6ac   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility15QMessageAddressEE13detach_helperEi 0x0000f6e4   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_ 0x0000f728   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_ 0x0000f738   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE18detach_helper_growEii 0x0000f75c   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE6appendERKS0_  0x0000f78c   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN5QHashIi10QByteArrayEixERKi    0x0000f7bc   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN31QDeclarativeMessageModelPrivateC1EP24QDeclarativeMessageModel 0x0000f7dc   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility10QMessageIdEE14node_constructEPNS2_4NodeERKS1_ 0x0000f80c   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility10QMessageIdEE9node_copyEPNS2_4NodeES4_S4_ 0x0000f81c   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility10QMessageIdEE18detach_helper_growEii 0x0000f840   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility10QMessageIdEE6appendERKS1_ 0x0000f870   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility10QMessageIdEE13detach_helperEi 0x0000f8a0   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility10QMessageIdEE9removeAllERKS1_ 0x0000f8bc   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE6removeERKS1_ 0x0000f8cc   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN18MessageModelWorker12cacheMessageERKN10QtMobility10QMessageIdE 0x0000f8e0   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN18MessageModelWorker15removeFromCacheERKN10QtMobility10QMessageIdE 0x0000f900   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN18MessageModelWorkerD1Ev       0x0000f910   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN5QHashIi10QByteArrayE13duplicateNodeEPN9QHashData4NodeEPv 0x0000f958   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE13duplicateNodeEPN9QHashData4NodeEPv 0x0000f968   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEED1Ev 0x0000f978   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN18MessageModelWorker11requestBodyERKN10QtMobility10QMessageIdE 0x0000f988   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN18MessageModelWorker10getMessageERKN10QtMobility10QMessageIdE 0x0000f998   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE6insertERKS1_RKS5_ 0x0000f9b0   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab._ZN6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEE5clearEv 0x0000f9c8   Data           0  qdeclarativemessagemodel.o(.ARM.extab)
+    .extab.qt_plugin_instance                0x0000f9d8   Data           0  plugin.o(.ARM.extab)
+    .extab._ZplRK10QByteArrayPKc             0x0000f9f0   Data           0  plugin.o(.ARM.extab)
+    .extab._ZplRK10QByteArrayc               0x0000fa00   Data           0  plugin.o(.ARM.extab)
+    .extab._ZplPKcRK10QByteArray             0x0000fa10   Data           0  plugin.o(.ARM.extab)
+    .extab._Z24qMetaTypeConstructHelperIN10QtMobility10QMessageIdEEPvPKT_ 0x0000fa20   Data           0  plugin.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeI24QDeclarativeMessageModelEiPKciiS2_ 0x0000fa38   Data           0  plugin.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeI37QDeclarativeMessageIntersectionFilterEiPKciiS2_ 0x0000faa8   Data           0  plugin.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeI30QDeclarativeMessageUnionFilterEiPKciiS2_ 0x0000fb18   Data           0  plugin.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeI25QDeclarativeMessageFilterEiPKciiS2_ 0x0000fb88   Data           0  plugin.o(.ARM.extab)
+    .extab._Z26qmlRegisterUncreatableTypeI29QDeclarativeMessageFilterBaseEiPKciiS2_RK7QString 0x0000fbf8   Data           0  plugin.o(.ARM.extab)
+    .extab._Z24qMetaTypeConstructHelperI5QListIN10QtMobility10QMessageIdEEEPvPKT_ 0x0000fc68   Data           0  plugin.o(.ARM.extab)
+    .extab._ZN30QDeclarativeMessageModelPlugin13registerTypesEPKc 0x0000fc80   Data           0  plugin.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementI24QDeclarativeMessageModelED1Ev 0x0000fc90   Data           0  plugin.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoI24QDeclarativeMessageModelEEvPv 0x0000fca0   Data           0  plugin.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoI37QDeclarativeMessageIntersectionFilterEEvPv 0x0000fcb0   Data           0  plugin.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoI30QDeclarativeMessageUnionFilterEEvPv 0x0000fcc0   Data           0  plugin.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoI25QDeclarativeMessageFilterEEvPv 0x0000fcd0   Data           0  plugin.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementI37QDeclarativeMessageIntersectionFilterED1Ev 0x0000fce0   Data           0  plugin.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementI30QDeclarativeMessageUnionFilterED1Ev 0x0000fcf0   Data           0  plugin.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementI25QDeclarativeMessageFilterED1Ev 0x0000fd00   Data           0  plugin.o(.ARM.extab)
+    .constdata$1                             0x0000fd10   Data           0  moc_qdeclarativemessagefilter.o(.constdata)
+    qt_meta_data_QDeclarativeMessageFilterBase 0x0000fd10   Data          96  moc_qdeclarativemessagefilter.o(.constdata)
+    .constdata                               0x0000fd10   Section     1576  moc_qdeclarativemessagefilter.o(.constdata)
+    qt_meta_stringdata_QDeclarativeMessageFilterBase 0x0000fd70   Data          62  moc_qdeclarativemessagefilter.o(.constdata)
+    qt_meta_data_QDeclarativeMessageIntersectionFilter 0x0000fdb0   Data          80  moc_qdeclarativemessagefilter.o(.constdata)
+    qt_meta_stringdata_QDeclarativeMessageIntersectionFilter 0x0000fe00   Data         119  moc_qdeclarativemessagefilter.o(.constdata)
+    qt_meta_data_QDeclarativeMessageUnionFilter 0x0000fe78   Data          80  moc_qdeclarativemessagefilter.o(.constdata)
+    qt_meta_stringdata_QDeclarativeMessageUnionFilter 0x0000fec8   Data         112  moc_qdeclarativemessagefilter.o(.constdata)
+    qt_meta_data_QDeclarativeMessageFilter   0x0000ff38   Data         504  moc_qdeclarativemessagefilter.o(.constdata)
+    qt_meta_stringdata_QDeclarativeMessageFilter 0x00010130   Data         453  moc_qdeclarativemessagefilter.o(.constdata)
+    .constdata$1                             0x00010338   Data           0  moc_qdeclarativemessagemodel.o(.constdata)
+    qt_meta_data_QDeclarativeMessageModel    0x00010338   Data         528  moc_qdeclarativemessagemodel.o(.constdata)
+    .constdata                               0x00010338   Section     1080  moc_qdeclarativemessagemodel.o(.constdata)
+    qt_meta_stringdata_QDeclarativeMessageModel 0x00010548   Data         534  moc_qdeclarativemessagemodel.o(.constdata)
+    .constdata$1                             0x00010770   Data           0  qdeclarativemessagefilter.o(.constdata)
+    .constdata                               0x00010770   Section      212  qdeclarativemessagefilter.o(.constdata)
+    .constdata$1                             0x00010844   Data           0  qdeclarativemessagemodel.o(.constdata)
+    qt_meta_data_MessageModelWorker          0x00010844   Data         360  qdeclarativemessagemodel.o(.constdata)
+    .constdata                               0x00010844   Section     1440  qdeclarativemessagemodel.o(.constdata)
+    qt_meta_stringdata_MessageModelWorker    0x000109ac   Data         567  qdeclarativemessagemodel.o(.constdata)
+    .constdata$1                             0x00010de4   Data           0  plugin.o(.constdata)
+    qt_plugin_verification_data              0x00010de4   Data          91  plugin.o(.constdata)
+    .constdata                               0x00010de4   Section      200  plugin.o(.constdata)
+    qt_meta_data_QDeclarativeMessageModelPlugin 0x00010e40   Data          60  plugin.o(.constdata)
+    qt_meta_stringdata_QDeclarativeMessageModelPlugin 0x00010e7c   Data          32  plugin.o(.constdata)
+    .constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE 0x00010eac   Section        4  moc_qdeclarativemessagefilter.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE 0x00010eb0   Section        4  moc_qdeclarativemessagefilter.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE 0x00010eb4   Section        4  moc_qdeclarativemessagefilter.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE 0x00010eb8   Section        4  moc_qdeclarativemessagefilter.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE 0x00010ebc   Section        4  moc_qdeclarativemessagefilter.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE 0x00010ec0   Section        1  moc_qdeclarativemessagefilter.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE 0x00010ec4   Section        4  moc_qdeclarativemessagefilter.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE 0x00010ec8   Section        4  moc_qdeclarativemessagefilter.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE 0x00010ecc   Section        4  moc_qdeclarativemessagefilter.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE 0x00010ed0   Section        4  moc_qdeclarativemessagefilter.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE 0x00010ed4   Section        4  moc_qdeclarativemessagefilter.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE 0x00010ed8   Section        4  moc_qdeclarativemessagefilter.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE 0x00010edc   Section        4  moc_qdeclarativemessagefilter.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE 0x00010ee0   Section        4  moc_qdeclarativemessagefilter.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    .constdata__ZTI18MessageModelWorker      0x00010ee4   Section       12  qdeclarativemessagemodel.o(.constdata__ZTI18MessageModelWorker)
+    .constdata__ZTI24QDeclarativeMessageModel 0x00010ef0   Section       32  moc_qdeclarativemessagemodel.o(.constdata__ZTI24QDeclarativeMessageModel)
+    .constdata__ZTI25QDeclarativeMessageFilter 0x00010f10   Section       12  moc_qdeclarativemessagefilter.o(.constdata__ZTI25QDeclarativeMessageFilter)
+    .constdata__ZTI29QDeclarativeMessageFilterBase 0x00010f1c   Section       12  moc_qdeclarativemessagefilter.o(.constdata__ZTI29QDeclarativeMessageFilterBase)
+    .constdata__ZTI30QDeclarativeMessageModelPlugin 0x00010f28   Section       12  plugin.o(.constdata__ZTI30QDeclarativeMessageModelPlugin)
+    .constdata__ZTI30QDeclarativeMessageUnionFilter 0x00010f34   Section       12  moc_qdeclarativemessagefilter.o(.constdata__ZTI30QDeclarativeMessageUnionFilter)
+    .constdata__ZTI37QDeclarativeMessageIntersectionFilter 0x00010f40   Section       12  moc_qdeclarativemessagefilter.o(.constdata__ZTI37QDeclarativeMessageIntersectionFilter)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI24QDeclarativeMessageModelEE 0x00010f4c   Section       12  plugin.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI24QDeclarativeMessageModelEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI25QDeclarativeMessageFilterEE 0x00010f58   Section       12  plugin.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI25QDeclarativeMessageFilterEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI30QDeclarativeMessageUnionFilterEE 0x00010f64   Section       12  plugin.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI30QDeclarativeMessageUnionFilterEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI37QDeclarativeMessageIntersectionFilterEE 0x00010f70   Section       12  plugin.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI37QDeclarativeMessageIntersectionFilterEE)
+    .constdata__ZTS18MessageModelWorker      0x00010f7c   Section       21  qdeclarativemessagemodel.o(.constdata__ZTS18MessageModelWorker)
+    .constdata__ZTS24QDeclarativeMessageModel 0x00010f91   Section       27  moc_qdeclarativemessagemodel.o(.constdata__ZTS24QDeclarativeMessageModel)
+    .constdata__ZTS25QDeclarativeMessageFilter 0x00010fac   Section       28  moc_qdeclarativemessagefilter.o(.constdata__ZTS25QDeclarativeMessageFilter)
+    .constdata__ZTS29QDeclarativeMessageFilterBase 0x00010fc8   Section       32  moc_qdeclarativemessagefilter.o(.constdata__ZTS29QDeclarativeMessageFilterBase)
+    .constdata__ZTS30QDeclarativeMessageModelPlugin 0x00010fe8   Section       33  plugin.o(.constdata__ZTS30QDeclarativeMessageModelPlugin)
+    .constdata__ZTS30QDeclarativeMessageUnionFilter 0x00011009   Section       33  moc_qdeclarativemessagefilter.o(.constdata__ZTS30QDeclarativeMessageUnionFilter)
+    .constdata__ZTS37QDeclarativeMessageIntersectionFilter 0x0001102a   Section       40  moc_qdeclarativemessagefilter.o(.constdata__ZTS37QDeclarativeMessageIntersectionFilter)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI24QDeclarativeMessageModelEE 0x00011052   Section       73  plugin.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI24QDeclarativeMessageModelEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI25QDeclarativeMessageFilterEE 0x0001109b   Section       74  plugin.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI25QDeclarativeMessageFilterEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI30QDeclarativeMessageUnionFilterEE 0x000110e5   Section       79  plugin.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI30QDeclarativeMessageUnionFilterEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI37QDeclarativeMessageIntersectionFilterEE 0x00011134   Section       86  plugin.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI37QDeclarativeMessageIntersectionFilterEE)
+    .constdata__ZTV18MessageModelWorker      0x0001118c   Section       56  qdeclarativemessagemodel.o(.constdata__ZTV18MessageModelWorker)
+    .constdata__ZTV24QDeclarativeMessageModel 0x000111c4   Section      200  moc_qdeclarativemessagemodel.o(.constdata__ZTV24QDeclarativeMessageModel)
+    .constdata__ZTV25QDeclarativeMessageFilter 0x0001128c   Section       60  moc_qdeclarativemessagefilter.o(.constdata__ZTV25QDeclarativeMessageFilter)
+    .constdata__ZTV29QDeclarativeMessageFilterBase 0x000112c8   Section       60  moc_qdeclarativemessagefilter.o(.constdata__ZTV29QDeclarativeMessageFilterBase)
+    .constdata__ZTV30QDeclarativeMessageModelPlugin 0x00011304   Section       88  plugin.o(.constdata__ZTV30QDeclarativeMessageModelPlugin)
+    .constdata__ZTV30QDeclarativeMessageUnionFilter 0x0001135c   Section       60  moc_qdeclarativemessagefilter.o(.constdata__ZTV30QDeclarativeMessageUnionFilter)
+    .constdata__ZTV37QDeclarativeMessageIntersectionFilter 0x00011398   Section       60  moc_qdeclarativemessagefilter.o(.constdata__ZTV37QDeclarativeMessageIntersectionFilter)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI24QDeclarativeMessageModelEE 0x000113d4   Section      200  plugin.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI24QDeclarativeMessageModelEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI25QDeclarativeMessageFilterEE 0x0001149c   Section       60  plugin.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI25QDeclarativeMessageFilterEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI30QDeclarativeMessageUnionFilterEE 0x000114d8   Section       60  plugin.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI30QDeclarativeMessageUnionFilterEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI37QDeclarativeMessageIntersectionFilterEE 0x00011514   Section       60  plugin.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI37QDeclarativeMessageIntersectionFilterEE)
+    __ARM_d__Z15qmlRegisterTypeI24QDeclarativeMessageModelEiPKciiS2_$52 0x00011550   Data           0  plugin.o(__ARM_d__Z15qmlRegisterTypeI24QDeclarativeMessageModelEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI24QDeclarativeMessageModelEiPKciiS2_ 0x00011550   Section       76  plugin.o(__ARM_d__Z15qmlRegisterTypeI24QDeclarativeMessageModelEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI25QDeclarativeMessageFilterEiPKciiS2_$61 0x0001159c   Data           0  plugin.o(__ARM_d__Z15qmlRegisterTypeI25QDeclarativeMessageFilterEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI25QDeclarativeMessageFilterEiPKciiS2_ 0x0001159c   Section       76  plugin.o(__ARM_d__Z15qmlRegisterTypeI25QDeclarativeMessageFilterEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI30QDeclarativeMessageUnionFilterEiPKciiS2_$58 0x000115e8   Data           0  plugin.o(__ARM_d__Z15qmlRegisterTypeI30QDeclarativeMessageUnionFilterEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI30QDeclarativeMessageUnionFilterEiPKciiS2_ 0x000115e8   Section       76  plugin.o(__ARM_d__Z15qmlRegisterTypeI30QDeclarativeMessageUnionFilterEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI37QDeclarativeMessageIntersectionFilterEiPKciiS2_$55 0x00011634   Data           0  plugin.o(__ARM_d__Z15qmlRegisterTypeI37QDeclarativeMessageIntersectionFilterEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI37QDeclarativeMessageIntersectionFilterEiPKciiS2_ 0x00011634   Section       76  plugin.o(__ARM_d__Z15qmlRegisterTypeI37QDeclarativeMessageIntersectionFilterEiPKciiS2_)
+    __ARM_d__Z26qmlRegisterUncreatableTypeI29QDeclarativeMessageFilterBaseEiPKciiS2_RK7QString$64 0x00011680   Data           0  plugin.o(__ARM_d__Z26qmlRegisterUncreatableTypeI29QDeclarativeMessageFilterBaseEiPKciiS2_RK7QString)
+    __ARM_d__Z26qmlRegisterUncreatableTypeI29QDeclarativeMessageFilterBaseEiPKciiS2_RK7QString 0x00011680   Section       76  plugin.o(__ARM_d__Z26qmlRegisterUncreatableTypeI29QDeclarativeMessageFilterBaseEiPKciiS2_RK7QString)
+    .ARM.exidx                               0x000116cc   Section        8  ucppinit.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  plugin.o(.data)
+    _ZGV_instance@qt_plugin_instance_0       0x00400000   Data           4  plugin.o(.data)
+    .data                                    0x00400000   Section        8  plugin.o(.data)
+    _instance@qt_plugin_instance_1           0x00400004   Data           4  plugin.o(.data)
+    .data$0                                  0x00400008   Data           0  ucppfini.o(.data)
+    .data                                    0x00400008   Section        4  ucppfini.o(.data)
+    .data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE 0x0040000c   Section       12  moc_qdeclarativemessagefilter.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    .data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI24QDeclarativeMessageModelEE14qt_metatype_idEvE11metatype_id 0x00400018   Section        4  plugin.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI24QDeclarativeMessageModelEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI25QDeclarativeMessageFilterEE14qt_metatype_idEvE11metatype_id 0x0040001c   Section        4  plugin.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI25QDeclarativeMessageFilterEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI29QDeclarativeMessageFilterBaseEE14qt_metatype_idEvE11metatype_id 0x00400020   Section        4  plugin.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI29QDeclarativeMessageFilterBaseEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI30QDeclarativeMessageUnionFilterEE14qt_metatype_idEvE11metatype_id 0x00400024   Section        4  plugin.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI30QDeclarativeMessageUnionFilterEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI37QDeclarativeMessageIntersectionFilterEE14qt_metatype_idEvE11metatype_id 0x00400028   Section        4  plugin.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI37QDeclarativeMessageIntersectionFilterEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIN10QtMobility10QMessageIdEE14qt_metatype_idEvE11metatype_id 0x0040002c   Section        4  plugin.o(.data__ZZN11QMetaTypeIdIN10QtMobility10QMessageIdEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIP24QDeclarativeMessageModelE14qt_metatype_idEvE11metatype_id 0x00400030   Section        4  plugin.o(.data__ZZN11QMetaTypeIdIP24QDeclarativeMessageModelE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIP25QDeclarativeMessageFilterE14qt_metatype_idEvE11metatype_id 0x00400034   Section        4  plugin.o(.data__ZZN11QMetaTypeIdIP25QDeclarativeMessageFilterE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIP29QDeclarativeMessageFilterBaseE14qt_metatype_idEvE11metatype_id 0x00400038   Section        4  plugin.o(.data__ZZN11QMetaTypeIdIP29QDeclarativeMessageFilterBaseE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIP30QDeclarativeMessageUnionFilterE14qt_metatype_idEvE11metatype_id 0x0040003c   Section        4  plugin.o(.data__ZZN11QMetaTypeIdIP30QDeclarativeMessageUnionFilterE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIP37QDeclarativeMessageIntersectionFilterE14qt_metatype_idEvE11metatype_id 0x00400040   Section        4  plugin.o(.data__ZZN11QMetaTypeIdIP37QDeclarativeMessageIntersectionFilterE14qt_metatype_idEvE11metatype_id)
+    .bss$5                                   0x00400044   Data           0  ucppfini.o(.bss)
+    .bss                                     0x00400044   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$VFPv2$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$IEEEJ$EBA8$UX$FPIC$INDIRECT$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    QtCore{00040703}[2001b2dc].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtDeclarative{00040703}[2001e623].dll    0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtMessaging{00010103}[2002ac82].dll      0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    declarative_messaging{000a0000}[20031601].dll 0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    euser{000a0000}[100039e5].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    libc{00010001}[10207369].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    stdnew{000a0000}[20022178].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    qFree(void*)                              - Undefined Reference
+    _Z5qFreePv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qmlInfo(const QObject*)                   - Undefined Reference
+    _Z7qmlInfoPK7QObject@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QByteArray::shared_null                   - Undefined Reference
+    _ZN10QByteArray11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::append(const char*)           - Undefined Reference
+    _ZN10QByteArray6appendEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::append(const QByteArray&)     - Undefined Reference
+    _ZN10QByteArray6appendERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::append(char)                  - Undefined Reference
+    _ZN10QByteArray6appendEc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::QByteArray(const char*)       - Undefined Reference
+    _ZN10QByteArrayC1EPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::operator =(const char*)       - Undefined Reference
+    _ZN10QByteArrayaSEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QtMobility::QMessageId::QMessageId(const QtMobility::QMessageId&)  - Undefined Reference
+    _ZN10QtMobility10QMessageIdC1ERKS0_@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageId::QMessageId()      - Undefined Reference
+    _ZN10QtMobility10QMessageIdC1Ev@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageId::~QMessageId()     - Undefined Reference
+    _ZN10QtMobility10QMessageIdD1Ev@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageId::operator =(const QtMobility::QMessageId&)  - Undefined Reference
+    _ZN10QtMobility10QMessageIdaSERKS0_@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageFilter::byPriority(QtMobility::QMessage::Priority, QtMobility::QMessageDataComparator::EqualityComparator)  - Undefined Reference
+    _ZN10QtMobility14QMessageFilter10byPriorityENS_8QMessage8PriorityENS_22QMessageDataComparator18EqualityComparatorE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageFilter::byTimeStamp(const QDateTime&, QtMobility::QMessageDataComparator::EqualityComparator)  - Undefined Reference
+    _ZN10QtMobility14QMessageFilter11byTimeStampERK9QDateTimeNS_22QMessageDataComparator18EqualityComparatorE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageFilter::byTimeStamp(const QDateTime&, QtMobility::QMessageDataComparator::RelationComparator)  - Undefined Reference
+    _ZN10QtMobility14QMessageFilter11byTimeStampERK9QDateTimeNS_22QMessageDataComparator18RelationComparatorE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageFilter::byRecipients(const QString&, QtMobility::QMessageDataComparator::InclusionComparator)  - Undefined Reference
+    _ZN10QtMobility14QMessageFilter12byRecipientsERK7QStringNS_22QMessageDataComparator19InclusionComparatorE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageFilter::byParentFolderId(const QtMobility::QMessageFolderFilter&, QtMobility::QMessageDataComparator::InclusionComparator)  - Undefined Reference
+    _ZN10QtMobility14QMessageFilter16byParentFolderIdERKNS_20QMessageFolderFilterENS_22QMessageDataComparator19InclusionComparatorE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageFilter::byStandardFolder(QtMobility::QMessage::StandardFolder, QtMobility::QMessageDataComparator::EqualityComparator)  - Undefined Reference
+    _ZN10QtMobility14QMessageFilter16byStandardFolderENS_8QMessage14StandardFolderENS_22QMessageDataComparator18EqualityComparatorE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageFilter::byAncestorFolderIds(const QtMobility::QMessageFolderFilter&, QtMobility::QMessageDataComparator::InclusionComparator)  - Undefined Reference
+    _ZN10QtMobility14QMessageFilter19byAncestorFolderIdsERKNS_20QMessageFolderFilterENS_22QMessageDataComparator19InclusionComparatorE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageFilter::byReceptionTimeStamp(const QDateTime&, QtMobility::QMessageDataComparator::EqualityComparator)  - Undefined Reference
+    _ZN10QtMobility14QMessageFilter20byReceptionTimeStampERK9QDateTimeNS_22QMessageDataComparator18EqualityComparatorE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageFilter::byReceptionTimeStamp(const QDateTime&, QtMobility::QMessageDataComparator::RelationComparator)  - Undefined Reference
+    _ZN10QtMobility14QMessageFilter20byReceptionTimeStampERK9QDateTimeNS_22QMessageDataComparator18RelationComparatorE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageFilter::bySize(int, QtMobility::QMessageDataComparator::EqualityComparator)  - Undefined Reference
+    _ZN10QtMobility14QMessageFilter6bySizeEiNS_22QMessageDataComparator18EqualityComparatorE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageFilter::bySize(int, QtMobility::QMessageDataComparator::RelationComparator)  - Undefined Reference
+    _ZN10QtMobility14QMessageFilter6bySizeEiNS_22QMessageDataComparator18RelationComparatorE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageFilter::byType(QFlags<QtMobility::QMessage::Type>, QtMobility::QMessageDataComparator::InclusionComparator)  - Undefined Reference
+    _ZN10QtMobility14QMessageFilter6byTypeE6QFlagsINS_8QMessage4TypeEENS_22QMessageDataComparator19InclusionComparatorE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageFilter::byType(QtMobility::QMessage::Type, QtMobility::QMessageDataComparator::EqualityComparator)  - Undefined Reference
+    _ZN10QtMobility14QMessageFilter6byTypeENS_8QMessage4TypeENS_22QMessageDataComparator18EqualityComparatorE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageFilter::bySender(const QString&, QtMobility::QMessageDataComparator::EqualityComparator)  - Undefined Reference
+    _ZN10QtMobility14QMessageFilter8bySenderERK7QStringNS_22QMessageDataComparator18EqualityComparatorE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageFilter::bySender(const QString&, QtMobility::QMessageDataComparator::InclusionComparator)  - Undefined Reference
+    _ZN10QtMobility14QMessageFilter8bySenderERK7QStringNS_22QMessageDataComparator19InclusionComparatorE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageFilter::byStatus(QFlags<QtMobility::QMessage::Status>, QtMobility::QMessageDataComparator::InclusionComparator)  - Undefined Reference
+    _ZN10QtMobility14QMessageFilter8byStatusE6QFlagsINS_8QMessage6StatusEENS_22QMessageDataComparator19InclusionComparatorE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageFilter::byStatus(QtMobility::QMessage::Status, QtMobility::QMessageDataComparator::EqualityComparator)  - Undefined Reference
+    _ZN10QtMobility14QMessageFilter8byStatusENS_8QMessage6StatusENS_22QMessageDataComparator18EqualityComparatorE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageFilter::bySubject(const QString&, QtMobility::QMessageDataComparator::EqualityComparator)  - Undefined Reference
+    _ZN10QtMobility14QMessageFilter9bySubjectERK7QStringNS_22QMessageDataComparator18EqualityComparatorE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageFilter::bySubject(const QString&, QtMobility::QMessageDataComparator::InclusionComparator)  - Undefined Reference
+    _ZN10QtMobility14QMessageFilter9bySubjectERK7QStringNS_22QMessageDataComparator19InclusionComparatorE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageFilter::QMessageFilter(const QtMobility::QMessageFilter&)  - Undefined Reference
+    _ZN10QtMobility14QMessageFilterC1ERKS0_@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageFilter::QMessageFilter()  - Undefined Reference
+    _ZN10QtMobility14QMessageFilterC1Ev@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageFilter::~QMessageFilter()  - Undefined Reference
+    _ZN10QtMobility14QMessageFilterD1Ev@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageFilter::operator &=(const QtMobility::QMessageFilter&)  - Undefined Reference
+    _ZN10QtMobility14QMessageFilteraNERKS0_@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageFilter::operator =(const QtMobility::QMessageFilter&)  - Undefined Reference
+    _ZN10QtMobility14QMessageFilteraSERKS0_@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageFilter::operator |=(const QtMobility::QMessageFilter&)  - Undefined Reference
+    _ZN10QtMobility14QMessageFilteroRERKS0_@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageAddress::QMessageAddress(const QtMobility::QMessageAddress&)  - Undefined Reference
+    _ZN10QtMobility15QMessageAddressC1ERKS0_@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageAddress::~QMessageAddress()  - Undefined Reference
+    _ZN10QtMobility15QMessageAddressD1Ev@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageManager::removeMessage(const QtMobility::QMessageId&, QtMobility::QMessageManager::RemovalOption)  - Undefined Reference
+    _ZN10QtMobility15QMessageManager13removeMessageERKNS_10QMessageIdENS0_13RemovalOptionE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageManager::registerNotificationFilter(const QtMobility::QMessageFilter&)  - Undefined Reference
+    _ZN10QtMobility15QMessageManager26registerNotificationFilterERKNS_14QMessageFilterE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageManager::unregisterNotificationFilter(int)  - Undefined Reference
+    _ZN10QtMobility15QMessageManager28unregisterNotificationFilterEi@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageManager::QMessageManager(QObject*)  - Undefined Reference
+    _ZN10QtMobility15QMessageManagerC1EP7QObject@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageService::retrieveBody(const QtMobility::QMessageId&)  - Undefined Reference
+    _ZN10QtMobility15QMessageService12retrieveBodyERKNS_10QMessageIdE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageService::queryMessages(const QtMobility::QMessageFilter&, const QtMobility::QMessageSortOrder&, unsigned, unsigned)  - Undefined Reference
+    _ZN10QtMobility15QMessageService13queryMessagesERKNS_14QMessageFilterERKNS_17QMessageSortOrderEjj@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageService::show(const QtMobility::QMessageId&)  - Undefined Reference
+    _ZN10QtMobility15QMessageService4showERKNS_10QMessageIdE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageService::cancel()     - Undefined Reference
+    _ZN10QtMobility15QMessageService6cancelEv@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageService::QMessageService(QObject*)  - Undefined Reference
+    _ZN10QtMobility15QMessageServiceC1EP7QObject@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageSortOrder::byPriority(Qt::SortOrder)  - Undefined Reference
+    _ZN10QtMobility17QMessageSortOrder10byPriorityEN2Qt9SortOrderE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageSortOrder::byTimeStamp(Qt::SortOrder)  - Undefined Reference
+    _ZN10QtMobility17QMessageSortOrder11byTimeStampEN2Qt9SortOrderE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageSortOrder::byRecipients(Qt::SortOrder)  - Undefined Reference
+    _ZN10QtMobility17QMessageSortOrder12byRecipientsEN2Qt9SortOrderE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageSortOrder::byReceptionTimeStamp(Qt::SortOrder)  - Undefined Reference
+    _ZN10QtMobility17QMessageSortOrder20byReceptionTimeStampEN2Qt9SortOrderE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageSortOrder::bySize(Qt::SortOrder)  - Undefined Reference
+    _ZN10QtMobility17QMessageSortOrder6bySizeEN2Qt9SortOrderE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageSortOrder::byType(Qt::SortOrder)  - Undefined Reference
+    _ZN10QtMobility17QMessageSortOrder6byTypeEN2Qt9SortOrderE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageSortOrder::bySender(Qt::SortOrder)  - Undefined Reference
+    _ZN10QtMobility17QMessageSortOrder8bySenderEN2Qt9SortOrderE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageSortOrder::byStatus(QtMobility::QMessage::Status, Qt::SortOrder)  - Undefined Reference
+    _ZN10QtMobility17QMessageSortOrder8byStatusENS_8QMessage6StatusEN2Qt9SortOrderE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageSortOrder::bySubject(Qt::SortOrder)  - Undefined Reference
+    _ZN10QtMobility17QMessageSortOrder9bySubjectEN2Qt9SortOrderE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageSortOrder::QMessageSortOrder(const QtMobility::QMessageSortOrder&)  - Undefined Reference
+    _ZN10QtMobility17QMessageSortOrderC1ERKS0_@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageSortOrder::QMessageSortOrder()  - Undefined Reference
+    _ZN10QtMobility17QMessageSortOrderC1Ev@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageSortOrder::~QMessageSortOrder()  - Undefined Reference
+    _ZN10QtMobility17QMessageSortOrderD1Ev@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageSortOrder::operator =(const QtMobility::QMessageSortOrder&)  - Undefined Reference
+    _ZN10QtMobility17QMessageSortOrderaSERKS0_@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageFolderFilter::byPath(const QString&, QtMobility::QMessageDataComparator::EqualityComparator)  - Undefined Reference
+    _ZN10QtMobility20QMessageFolderFilter6byPathERK7QStringNS_22QMessageDataComparator18EqualityComparatorE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageFolderFilter::byPath(const QString&, QtMobility::QMessageDataComparator::InclusionComparator)  - Undefined Reference
+    _ZN10QtMobility20QMessageFolderFilter6byPathERK7QStringNS_22QMessageDataComparator19InclusionComparatorE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageFolderFilter::~QMessageFolderFilter()  - Undefined Reference
+    _ZN10QtMobility20QMessageFolderFilterD1Ev@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageContentContainer::~QMessageContentContainer()  - Undefined Reference
+    _ZN10QtMobility24QMessageContentContainerD1Ev@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageContentContainerId::~QMessageContentContainerId()  - Undefined Reference
+    _ZN10QtMobility26QMessageContentContainerIdD1Ev@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::qHash(const QtMobility::QMessageId&)  - Undefined Reference
+    _ZN10QtMobility5qHashERKNS_10QMessageIdE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessage::QMessage(const QtMobility::QMessageId&)  - Undefined Reference
+    _ZN10QtMobility8QMessageC1ERKNS_10QMessageIdE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessage::QMessage(const QtMobility::QMessage&)  - Undefined Reference
+    _ZN10QtMobility8QMessageC1ERKS0_@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessage::QMessage()          - Undefined Reference
+    _ZN10QtMobility8QMessageC1Ev@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessage::~QMessage()         - Undefined Reference
+    _ZN10QtMobility8QMessageD1Ev@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessage::operator =(const QtMobility::QMessage&)  - Undefined Reference
+    _ZN10QtMobility8QMessageaSERKS0_@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QMetaObject::changeGuard(QObject**, QObject*)  - Undefined Reference
+    _ZN11QMetaObject11changeGuardEPP7QObjectS1_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::removeGuard(QObject**)       - Undefined Reference
+    _ZN11QMetaObject11removeGuardEPP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::invokeMethod(QObject*, const char*, Qt::ConnectionType, QGenericReturnArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument)  - Undefined Reference
+    _ZN11QMetaObject12invokeMethodEP7QObjectPKcN2Qt14ConnectionTypeE22QGenericReturnArgument16QGenericArgumentS7_S7_S7_S7_S7_S7_S7_S7_S7_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::activate(QObject*, const QMetaObject*, int, void**)  - Undefined Reference
+    _ZN11QMetaObject8activateEP7QObjectPKS_iPPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::operator <<(const QString&)  - Undefined Reference
+    _ZN11QTextStreamlsERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::operator <<(char)            - Undefined Reference
+    _ZN11QTextStreamlsEc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::operator <<(int)             - Undefined Reference
+    _ZN11QTextStreamlsEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDeclarativeInfo::~QDeclarativeInfo()     - Undefined Reference
+    _ZN16QDeclarativeInfoD1Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QAbstractItemModel::insertRows(int, int, const QModelIndex&)  - Undefined Reference
+    _ZN18QAbstractItemModel10insertRowsEiiRK11QModelIndex@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::removeRows(int, int, const QModelIndex&)  - Undefined Reference
+    _ZN18QAbstractItemModel10removeRowsEiiRK11QModelIndex@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::dataChanged(const QModelIndex&, const QModelIndex&)  - Undefined Reference
+    _ZN18QAbstractItemModel11dataChangedERK11QModelIndexS2_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::setItemData(const QModelIndex&, const QMap<int, QVariant>&)  - Undefined Reference
+    _ZN18QAbstractItemModel11setItemDataERK11QModelIndexRK4QMapIi8QVariantE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::setRoleNames(const QHash<int, QByteArray>&)  - Undefined Reference
+    _ZN18QAbstractItemModel12setRoleNamesERK5QHashIi10QByteArrayE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::endRemoveRows()       - Undefined Reference
+    _ZN18QAbstractItemModel13endRemoveRowsEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::endResetModel()       - Undefined Reference
+    _ZN18QAbstractItemModel13endResetModelEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::insertColumns(int, int, const QModelIndex&)  - Undefined Reference
+    _ZN18QAbstractItemModel13insertColumnsEiiRK11QModelIndex@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::removeColumns(int, int, const QModelIndex&)  - Undefined Reference
+    _ZN18QAbstractItemModel13removeColumnsEiiRK11QModelIndex@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::setHeaderData(int, Qt::Orientation, const QVariant&, int)  - Undefined Reference
+    _ZN18QAbstractItemModel13setHeaderDataEiN2Qt11OrientationERK8QVarianti@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::beginRemoveRows(const QModelIndex&, int, int)  - Undefined Reference
+    _ZN18QAbstractItemModel15beginRemoveRowsERK11QModelIndexii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::beginResetModel()     - Undefined Reference
+    _ZN18QAbstractItemModel15beginResetModelEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::sort(int, Qt::SortOrder)  - Undefined Reference
+    _ZN18QAbstractItemModel4sortEiN2Qt9SortOrderE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::revert()              - Undefined Reference
+    _ZN18QAbstractItemModel6revertEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::submit()              - Undefined Reference
+    _ZN18QAbstractItemModel6submitEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::setData(const QModelIndex&, const QVariant&, int)  - Undefined Reference
+    _ZN18QAbstractItemModel7setDataERK11QModelIndexRK8QVarianti@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::fetchMore(const QModelIndex&)  - Undefined Reference
+    _ZN18QAbstractItemModel9fetchMoreERK11QModelIndex@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractListModel::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN18QAbstractListModel11qt_metacallEN11QMetaObject4CallEiPPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractListModel::qt_metacast(const char*)  - Undefined Reference
+    _ZN18QAbstractListModel11qt_metacastEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractListModel::dropMimeData(const QMimeData*, Qt::DropAction, int, int, const QModelIndex&)  - Undefined Reference
+    _ZN18QAbstractListModel12dropMimeDataEPK9QMimeDataN2Qt10DropActionEiiRK11QModelIndex@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractListModel::staticMetaObject      - Undefined Reference
+    _ZN18QAbstractListModel16staticMetaObjectE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractListModel::QAbstractListModel__sub_object(QObject*)  - Undefined Reference
+    _ZN18QAbstractListModelC2EP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractListModel::~QAbstractListModel__sub_object()  - Undefined Reference
+    _ZN18QAbstractListModelD2Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDeclarativePrivate::qmlregister(QDeclarativePrivate::RegistrationType, void*)  - Undefined Reference
+    _ZN19QDeclarativePrivate11qmlregisterENS_16RegistrationTypeEPv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativePrivate::qdeclarativeelement_destructor(QObject*)  - Undefined Reference
+    _ZN19QDeclarativePrivate30qdeclarativeelement_destructorEP7QObject@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeParserStatus::QDeclarativeParserStatus__sub_object()  - Undefined Reference
+    _ZN24QDeclarativeParserStatusC2Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeParserStatus::~QDeclarativeParserStatus__sub_object()  - Undefined Reference
+    _ZN24QDeclarativeParserStatusD2Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin11qt_metacallEN11QMetaObject4CallEiPPv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::qt_metacast(const char*)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin11qt_metacastEPKc@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::initializeEngine(QDeclarativeEngine*, const char*)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin16initializeEngineEP18QDeclarativeEnginePKc@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::staticMetaObject  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin16staticMetaObjectE@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::QDeclarativeExtensionPlugin__sub_object(QObject*)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPluginC2EP7QObject@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::~QDeclarativeExtensionPlugin__sub_object()  - Undefined Reference
+    _ZN27QDeclarativeExtensionPluginD2Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    User::LockedDec(int&)                     - Undefined Reference
+    _ZN4User9LockedDecERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::LockedInc(int&)                     - Undefined Reference
+    _ZN4User9LockedIncERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QMutex::lock()                            - Undefined Reference
+    _ZN6QMutex4lockEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMutex::unlock()                          - Undefined Reference
+    _ZN6QMutex6unlockEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMutex::QMutex(QMutex::RecursionMode)     - Undefined Reference
+    _ZN6QMutexC1ENS_13RecursionModeE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMutex::~QMutex()                         - Undefined Reference
+    _ZN6QMutexD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::childEvent(QChildEvent*)         - Undefined Reference
+    _ZN7QObject10childEventEP11QChildEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::timerEvent(QTimerEvent*)         - Undefined Reference
+    _ZN7QObject10timerEventEP11QTimerEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::customEvent(QEvent*)             - Undefined Reference
+    _ZN7QObject11customEventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::eventFilter(QObject*, QEvent*)   - Undefined Reference
+    _ZN7QObject11eventFilterEPS_P6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN7QObject11qt_metacallEN11QMetaObject4CallEiPPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::qt_metacast(const char*)         - Undefined Reference
+    _ZN7QObject11qt_metacastEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::moveToThread(QThread*)           - Undefined Reference
+    _ZN7QObject12moveToThreadEP7QThread@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connectNotify(const char*)       - Undefined Reference
+    _ZN7QObject13connectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::disconnectNotify(const char*)    - Undefined Reference
+    _ZN7QObject16disconnectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::staticMetaObject                 - Undefined Reference
+    _ZN7QObject16staticMetaObjectE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::event(QEvent*)                   - Undefined Reference
+    _ZN7QObject5eventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connect(const QObject*, const char*, const QObject*, const char*, Qt::ConnectionType)  - Undefined Reference
+    _ZN7QObject7connectEPKS_PKcS1_S3_N2Qt14ConnectionTypeE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::QObject(QObject*)                - Undefined Reference
+    _ZN7QObjectC1EPS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::~QObject()                       - Undefined Reference
+    _ZN7QObjectD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::shared_null                      - Undefined Reference
+    _ZN7QString11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::free(QString::Data*)             - Undefined Reference
+    _ZN7QString4freeEPNS_4DataE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromAscii(const char*, int)      - Undefined Reference
+    _ZN7QString9fromAsciiEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QThread::quit()                           - Undefined Reference
+    _ZN7QThread4quitEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QThread::wait(unsigned long)              - Undefined Reference
+    _ZN7QThread4waitEm@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QThread::start(QThread::Priority)         - Undefined Reference
+    _ZN7QThread5startENS_8PriorityE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QThread::QThread(QObject*)                - Undefined Reference
+    _ZN7QThreadC1EP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QThread::~QThread()                       - Undefined Reference
+    _ZN7QThreadD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::QVariant(const QStringList&)    - Undefined Reference
+    _ZN8QVariantC1ERK11QStringList@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::QVariant(const QString&)        - Undefined Reference
+    _ZN8QVariantC1ERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::QVariant(const QDateTime&)      - Undefined Reference
+    _ZN8QVariantC1ERK9QDateTime@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::QVariant(const QVariant&)       - Undefined Reference
+    _ZN8QVariantC1ERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::QVariant(bool)                  - Undefined Reference
+    _ZN8QVariantC1Eb@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::QVariant(int)                   - Undefined Reference
+    _ZN8QVariantC1Ei@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::QVariant(unsigned)              - Undefined Reference
+    _ZN8QVariantC1Ej@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::~QVariant()                     - Undefined Reference
+    _ZN8QVariantD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::operator =(const QVariant&)     - Undefined Reference
+    _ZN8QVariantaSERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDateTime::~QDateTime()                   - Undefined Reference
+    _ZN9QDateTimeD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::free_helper(void(*)(QHashData::Node*))  - Undefined Reference
+    _ZN9QHashData11free_helperEPFvPNS_4NodeEE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::shared_null                    - Undefined Reference
+    _ZN9QHashData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::allocateNode(int)              - Undefined Reference
+    _ZN9QHashData12allocateNodeEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::detach_helper2(void(*)(QHashData::Node*, void*), void(*)(QHashData::Node*), int, int)  - Undefined Reference
+    _ZN9QHashData14detach_helper2EPFvPNS_4NodeEPvEPFvS1_Eii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::rehash(int)                    - Undefined Reference
+    _ZN9QHashData6rehashEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::freeNode(void*)                - Undefined Reference
+    _ZN9QHashData8freeNodeEPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach_grow(int*, int)         - Undefined Reference
+    _ZN9QListData11detach_growEPii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::shared_null                    - Undefined Reference
+    _ZN9QListData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::erase(void**)                  - Undefined Reference
+    _ZN9QListData5eraseEPPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::append()                       - Undefined Reference
+    _ZN9QListData6appendEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach(int)                    - Undefined Reference
+    _ZN9QListData6detachEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::remove(int)                    - Undefined Reference
+    _ZN9QListData6removeEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaType::registerType(const char*, void(*)(void*), void*(*)(const void*))  - Undefined Reference
+    _ZN9QMetaType12registerTypeEPKcPFvPvEPFS2_PKvE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaType::registerTypedef(const char*, int)  - Undefined Reference
+    _ZN9QMetaType15registerTypedefEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QtMobility::QMessageId::isValid() const   - Undefined Reference
+    _ZNK10QtMobility10QMessageId7isValidEv@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageId::operator ==(const QtMobility::QMessageId&) const  - Undefined Reference
+    _ZNK10QtMobility10QMessageIdeqERKS0_@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageId::operator !=(const QtMobility::QMessageId&) const  - Undefined Reference
+    _ZNK10QtMobility10QMessageIdneERKS0_@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageFilter::operator ~() const  - Undefined Reference
+    _ZNK10QtMobility14QMessageFiltercoEv@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageAddress::addressee() const  - Undefined Reference
+    _ZNK10QtMobility15QMessageAddress9addresseeEv@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageService::state() const  - Undefined Reference
+    _ZNK10QtMobility15QMessageService5stateEv@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageContentContainer::textContent() const  - Undefined Reference
+    _ZNK10QtMobility24QMessageContentContainer11textContentEv@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageContentContainer::isContentAvailable() const  - Undefined Reference
+    _ZNK10QtMobility24QMessageContentContainer18isContentAvailableEv@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageContentContainer::find(const QtMobility::QMessageContentContainerId&) const  - Undefined Reference
+    _ZNK10QtMobility24QMessageContentContainer4findERKNS_26QMessageContentContainerIdE@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessageContentContainerId::isValid() const  - Undefined Reference
+    _ZNK10QtMobility26QMessageContentContainerId7isValidEv@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessage::receivedDate() const  - Undefined Reference
+    _ZNK10QtMobility8QMessage12receivedDateEv@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessage::id() const          - Undefined Reference
+    _ZNK10QtMobility8QMessage2idEv@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessage::to() const          - Undefined Reference
+    _ZNK10QtMobility8QMessage2toEv@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessage::date() const        - Undefined Reference
+    _ZNK10QtMobility8QMessage4dateEv@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessage::from() const        - Undefined Reference
+    _ZNK10QtMobility8QMessage4fromEv@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessage::size() const        - Undefined Reference
+    _ZNK10QtMobility8QMessage4sizeEv@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessage::type() const        - Undefined Reference
+    _ZNK10QtMobility8QMessage4typeEv@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessage::bodyId() const      - Undefined Reference
+    _ZNK10QtMobility8QMessage6bodyIdEv@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessage::subject() const     - Undefined Reference
+    _ZNK10QtMobility8QMessage7subjectEv@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QtMobility::QMessage::priority() const    - Undefined Reference
+    _ZNK10QtMobility8QMessage8priorityEv@QtMessaging{00010103}[2002ac82].dll  - Undefined Reference
+    QMetaObject::tr(const char*, const char*) const  - Undefined Reference
+    _ZNK11QMetaObject2trEPKcS1_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::headerData(int, Qt::Orientation, int) const  - Undefined Reference
+    _ZNK18QAbstractItemModel10headerDataEiN2Qt11OrientationEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::canFetchMore(const QModelIndex&) const  - Undefined Reference
+    _ZNK18QAbstractItemModel12canFetchMoreERK11QModelIndex@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::supportedDropActions() const  - Undefined Reference
+    _ZNK18QAbstractItemModel20supportedDropActionsEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::span(const QModelIndex&) const  - Undefined Reference
+    _ZNK18QAbstractItemModel4spanERK11QModelIndex@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::buddy(const QModelIndex&) const  - Undefined Reference
+    _ZNK18QAbstractItemModel5buddyERK11QModelIndex@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::flags(const QModelIndex&) const  - Undefined Reference
+    _ZNK18QAbstractItemModel5flagsERK11QModelIndex@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::match(const QModelIndex&, int, const QVariant&, int, QFlags<Qt::MatchFlag>) const  - Undefined Reference
+    _ZNK18QAbstractItemModel5matchERK11QModelIndexiRK8QVarianti6QFlagsIN2Qt9MatchFlagEE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::itemData(const QModelIndex&) const  - Undefined Reference
+    _ZNK18QAbstractItemModel8itemDataERK11QModelIndex@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::mimeData(const QList<QModelIndex>&) const  - Undefined Reference
+    _ZNK18QAbstractItemModel8mimeDataERK5QListI11QModelIndexE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractItemModel::mimeTypes() const     - Undefined Reference
+    _ZNK18QAbstractItemModel9mimeTypesEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractListModel::columnCount(const QModelIndex&) const  - Undefined Reference
+    _ZNK18QAbstractListModel11columnCountERK11QModelIndex@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractListModel::hasChildren(const QModelIndex&) const  - Undefined Reference
+    _ZNK18QAbstractListModel11hasChildrenERK11QModelIndex@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractListModel::index(int, int, const QModelIndex&) const  - Undefined Reference
+    _ZNK18QAbstractListModel5indexEiiRK11QModelIndex@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractListModel::parent(const QModelIndex&) const  - Undefined Reference
+    _ZNK18QAbstractListModel6parentERK11QModelIndex@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::toDateTime() const              - Undefined Reference
+    _ZNK8QVariant10toDateTimeEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::cmp(const QVariant&) const      - Undefined Reference
+    _ZNK8QVariant3cmpERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::toInt(bool*) const              - Undefined Reference
+    _ZNK8QVariant5toIntEPb@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::toString() const                - Undefined Reference
+    _ZNK8QVariant8toStringEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for QAbstractListModel           - Undefined Reference
+    _ZTI18QAbstractListModel@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for QDeclarativeParserStatus     - Undefined Reference
+    _ZTI24QDeclarativeParserStatus@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    typeinfo for QDeclarativeExtensionPlugin  - Undefined Reference
+    _ZTI27QDeclarativeExtensionPlugin@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    typeinfo for QObject                      - Undefined Reference
+    _ZTI7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for std::bad_alloc               - Undefined Reference
+    _ZTISt9bad_alloc@stdnew{000a0000}[20022178].dll  - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv120__si_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    vtable for __cxxabiv1::__vmi_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv121__vmi_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    thunk{-8} to QDeclarativeExtensionPlugin::initializeEngine(QDeclarativeEngine*, const char*)  - Undefined Reference
+    _ZThn8_N27QDeclarativeExtensionPlugin16initializeEngineEP18QDeclarativeEnginePKc@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    operator delete (void*)                   - Undefined Reference
+    _ZdlPv@stdnew{000a0000}[20022178].dll     - Undefined Reference
+    operator new(unsigned)                    - Undefined Reference
+    _Znwj@stdnew{000a0000}[20022178].dll      - Undefined Reference
+    __aeabi_memcpy4                           - Undefined Reference
+    __aeabi_memcpy4@drtaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_uidivmod                          - Undefined Reference
+    __aeabi_uidivmod@drtaeabi{000a0000}.dll   - Undefined Reference
+    __aeabi_unwind_cpp_pr0                    - Undefined Reference
+    __aeabi_unwind_cpp_pr0@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_begin_catch                         - Undefined Reference
+    __cxa_begin_catch@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_end_catch                           - Undefined Reference
+    __cxa_end_catch@drtaeabi{000a0000}.dll    - Undefined Reference
+    __cxa_end_cleanup                         - Undefined Reference
+    __cxa_end_cleanup@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_abort                         - Undefined Reference
+    __cxa_guard_abort@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_acquire                       - Undefined Reference
+    __cxa_guard_acquire@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_release                       - Undefined Reference
+    __cxa_guard_release@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_pure_virtual                        - Undefined Reference
+    __cxa_pure_virtual@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_rethrow                             - Undefined Reference
+    __cxa_rethrow@drtaeabi{000a0000}.dll      - Undefined Reference
+    strcmp                                    - Undefined Reference
+    strcmp@libc{00010001}[10207369].dll       - Undefined Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      52  ucppinit.o(.emb_text)
+    std::nothrow                             0x0000805c   ARM Code       0  ucppinit.o(.emb_text)
+    __PLT                                    0x0000805c   ARM Code       0  anon$$obj.o(.plt)
+    QDeclarativeMessageFilterBase::getStaticMetaObject() 0x000085d5   Thumb Code     4  moc_qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageFilterBase::metaObject() const 0x000085d9   Thumb Code    28  moc_qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageFilterBase::qt_metacast(const char*) 0x000085f5   Thumb Code    40  moc_qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageFilterBase::negatedChanged() 0x0000861d   Thumb Code    18  moc_qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageFilterBase::qt_metacall(QMetaObject::Call, int, void**) 0x0000862f   Thumb Code   160  moc_qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageIntersectionFilter::getStaticMetaObject() 0x000086cf   Thumb Code     4  moc_qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageIntersectionFilter::metaObject() const 0x000086d3   Thumb Code    28  moc_qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageIntersectionFilter::qt_metacast(const char*) 0x000086ef   Thumb Code    42  moc_qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageIntersectionFilter::qt_metacall(QMetaObject::Call, int, void**) 0x00008719   Thumb Code   118  moc_qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageUnionFilter::getStaticMetaObject() 0x0000878f   Thumb Code     4  moc_qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageUnionFilter::metaObject() const 0x00008793   Thumb Code    28  moc_qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageUnionFilter::qt_metacast(const char*) 0x000087af   Thumb Code    40  moc_qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageUnionFilter::qt_metacall(QMetaObject::Call, int, void**) 0x000087d7   Thumb Code   118  moc_qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageFilter::getStaticMetaObject() 0x0000884d   Thumb Code     4  moc_qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageFilter::metaObject() const 0x00008851   Thumb Code    28  moc_qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageFilter::qt_metacast(const char*) 0x0000886d   Thumb Code    40  moc_qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageFilter::comparatorChanged() 0x00008895   Thumb Code    18  moc_qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageFilter::valueChanged() 0x000088a7   Thumb Code    18  moc_qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageFilter::typeChanged() 0x000088b9   Thumb Code    18  moc_qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageFilter::qt_metacall(QMetaObject::Call, int, void**) 0x000088cb   Thumb Code   354  moc_qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageModel::getStaticMetaObject() 0x00008a2d   Thumb Code     4  moc_qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::metaObject() const 0x00008a31   Thumb Code    28  moc_qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::qt_metacast(const char*) 0x00008a4d   Thumb Code    76  moc_qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::messageAdded() 0x00008a99   Thumb Code    18  moc_qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::countChanged() 0x00008aab   Thumb Code    18  moc_qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::limitChanged() 0x00008abd   Thumb Code    18  moc_qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::sortOrderChanged() 0x00008acf   Thumb Code    18  moc_qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::sortByChanged() 0x00008ae1   Thumb Code    18  moc_qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::filterChanged() 0x00008af3   Thumb Code    18  moc_qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::qt_metacall(QMetaObject::Call, int, void**) 0x00008b05   Thumb Code   432  moc_qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageFilterBase::QDeclarativeMessageFilterBase__sub_object(QObject*) 0x00008d05   Thumb Code    28  qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageFilterBase::negated() const 0x00008d21   Thumb Code     6  qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageFilterBase::setNegated(bool) 0x00008d27   Thumb Code    24  qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageIntersectionFilter::QDeclarativeMessageIntersectionFilter(QObject*) 0x00008d3f   Thumb Code    36  qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageIntersectionFilter::QDeclarativeMessageIntersectionFilter__sub_object(QObject*) 0x00008d3f   Thumb Code     0  qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageIntersectionFilter::filters() 0x00008d63   Thumb Code    34  qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageIntersectionFilter::filter() 0x00008d85   Thumb Code   144  qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageUnionFilter::QDeclarativeMessageUnionFilter(QObject*) 0x00008e15   Thumb Code    36  qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageUnionFilter::QDeclarativeMessageUnionFilter__sub_object(QObject*) 0x00008e15   Thumb Code     0  qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageUnionFilter::filters() 0x00008e39   Thumb Code    34  qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageUnionFilter::filter() 0x00008e5b   Thumb Code   144  qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageFilter::QDeclarativeMessageFilter(QObject*) 0x00008eeb   Thumb Code   102  qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageFilter::QDeclarativeMessageFilter__sub_object(QObject*) 0x00008eeb   Thumb Code     0  qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageFilter::type() const  0x00008f51   Thumb Code     8  qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageFilter::setType(QDeclarativeMessageFilter::FilterType) 0x00008f59   Thumb Code    28  qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageFilter::value() const 0x00008f75   Thumb Code    22  qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageFilter::setValue(const QVariant&) 0x00008f8b   Thumb Code    46  qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageFilter::comparator() const 0x00008fb9   Thumb Code     8  qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageFilter::setComparator(QDeclarativeMessageFilter::Comparator) 0x00008fc1   Thumb Code    28  qdeclarativemessagefilter.o(.text)
+    QDeclarativeMessageFilter::filter()      0x00008fdd   Thumb Code  2038  qdeclarativemessagefilter.o(.text)
+    MessageModelWorker::MessageModelWorker() 0x00009859   Thumb Code   202  qdeclarativemessagemodel.o(.text)
+    MessageModelWorker::MessageModelWorker__sub_object() 0x00009859   Thumb Code     0  qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::QDeclarativeMessageModel(QObject*) 0x00009923   Thumb Code   306  qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::QDeclarativeMessageModel__sub_object(QObject*) 0x00009923   Thumb Code     0  qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::~QDeclarativeMessageModel() 0x00009a55   Thumb Code   122  qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::~QDeclarativeMessageModel__sub_object() 0x00009a55   Thumb Code     0  qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::~QDeclarativeMessageModel__deallocating() 0x00009acf   Thumb Code    22  qdeclarativemessagemodel.o(.text)
+    thunk{-8} to QDeclarativeMessageModel::~QDeclarativeMessageModel__deallocating() 0x00009ae5   Thumb Code    14  qdeclarativemessagemodel.o(.text)
+    thunk{-8} to QDeclarativeMessageModel::~QDeclarativeMessageModel() 0x00009af3   Thumb Code    14  qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::filter() const 0x00009b01   Thumb Code     8  qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::scheduleUpdate() 0x00009b09   Thumb Code   206  qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::setFilter(QDeclarativeMessageFilterBase*) 0x00009bd7   Thumb Code    34  qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::sortBy() const 0x00009bf9   Thumb Code     8  qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::setSortBy(QDeclarativeMessageModel::SortKey) 0x00009c01   Thumb Code   152  qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::sortOrder() const 0x00009c99   Thumb Code     8  qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::setSortOrder(QDeclarativeMessageModel::SortOrder) 0x00009ca1   Thumb Code    34  qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::showMessage(int) const 0x00009cc3   Thumb Code   224  qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::removeMessage(int) 0x00009da3   Thumb Code   224  qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::limit() const  0x00009e83   Thumb Code     8  qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::setLimit(int)  0x00009e8b   Thumb Code    34  qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::rowCount(const QModelIndex&) const 0x00009ead   Thumb Code    18  qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::data(const QModelIndex&, int) const 0x00009ebf   Thumb Code  1282  qdeclarativemessagemodel.o(.text)
+    MessageModelWorker::setFilter(QtMobility::QMessageFilter, QtMobility::QMessageSortOrder, int) 0x0000a3c1   Thumb Code   234  qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModelPrivate::updateFilter() 0x0000a4ab   Thumb Code   432  qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::componentComplete() 0x0000a65b   Thumb Code    30  qdeclarativemessagemodel.o(.text)
+    thunk{-8} to QDeclarativeMessageModel::componentComplete() 0x0000a679   Thumb Code    14  qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::messagesFound(const QList<QtMobility::QMessageId>&) 0x0000a687   Thumb Code   114  qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::serviceProgressChanged(unsigned, unsigned) 0x0000a6f9   Thumb Code     2  qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::messageUpdated(const QtMobility::QMessageId&) 0x0000a6fb   Thumb Code   114  qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::messageRemoved(const QtMobility::QMessageId&) 0x0000a76d   Thumb Code   150  qdeclarativemessagemodel.o(.text)
+    QDeclarativeMessageModel::updateFilter() 0x0000a803   Thumb Code    12  qdeclarativemessagemodel.o(.text)
+    MessageModelWorker::getStaticMetaObject() 0x0000a80f   Thumb Code     4  qdeclarativemessagemodel.o(.text)
+    MessageModelWorker::metaObject() const   0x0000a813   Thumb Code    28  qdeclarativemessagemodel.o(.text)
+    MessageModelWorker::qt_metacast(const char*) 0x0000a82f   Thumb Code    54  qdeclarativemessagemodel.o(.text)
+    MessageModelWorker::messageUpdated(const QtMobility::QMessageId&) 0x0000a865   Thumb Code    30  qdeclarativemessagemodel.o(.text)
+    MessageModelWorker::messageUpdated(const QtMobility::QMessageId&, QSet<int>) 0x0000a883   Thumb Code    34  qdeclarativemessagemodel.o(.text)
+    MessageModelWorker::messageRemoved(const QtMobility::QMessageId&) 0x0000a8a5   Thumb Code    30  qdeclarativemessagemodel.o(.text)
+    MessageModelWorker::messageRemoved(const QtMobility::QMessageId&, QSet<int>) 0x0000a8c3   Thumb Code    26  qdeclarativemessagemodel.o(.text)
+    MessageModelWorker::messageAdded(const QtMobility::QMessageId&) 0x0000a8dd   Thumb Code    30  qdeclarativemessagemodel.o(.text)
+    MessageModelWorker::messageAdded(const QtMobility::QMessageId&, QSet<int>) 0x0000a8fb   Thumb Code   202  qdeclarativemessagemodel.o(.text)
+    MessageModelWorker::serviceStateChanged(QtMobility::QMessageService::State) 0x0000a9c5   Thumb Code    68  qdeclarativemessagemodel.o(.text)
+    MessageModelWorker::getBody(const QtMobility::QMessageId&) 0x0000aa09   Thumb Code   142  qdeclarativemessagemodel.o(.text)
+    MessageModelWorker::init()               0x0000aa97   Thumb Code   220  qdeclarativemessagemodel.o(.text)
+    MessageModelWorker::getRequested()       0x0000ab73   Thumb Code   710  qdeclarativemessagemodel.o(.text)
+    MessageModelWorker::updateFilter()       0x0000ae39   Thumb Code    94  qdeclarativemessagemodel.o(.text)
+    MessageModelWorker::remove(const QtMobility::QMessageId&) 0x0000ae97   Thumb Code    24  qdeclarativemessagemodel.o(.text)
+    MessageModelWorker::show(const QtMobility::QMessageId&) 0x0000aeaf   Thumb Code    22  qdeclarativemessagemodel.o(.text)
+    MessageModelWorker::serviceProgressChanged(unsigned, unsigned) 0x0000aec5   Thumb Code    40  qdeclarativemessagemodel.o(.text)
+    MessageModelWorker::messagesFound(const QList<QtMobility::QMessageId>&) 0x0000aeed   Thumb Code    30  qdeclarativemessagemodel.o(.text)
+    MessageModelWorker::qt_metacall(QMetaObject::Call, int, void**) 0x0000af0b   Thumb Code   368  qdeclarativemessagemodel.o(.text)
+    qt_plugin_query_verification_data        0x0000b091   Thumb Code     4  plugin.o(.text)
+    qt_plugin_instance                       0x0000b095   Thumb Code   134  plugin.o(.text)
+    QDeclarativeMessageModelPlugin::getStaticMetaObject() 0x0000b11b   Thumb Code     4  plugin.o(.text)
+    QDeclarativeMessageModelPlugin::metaObject() const 0x0000b11f   Thumb Code    28  plugin.o(.text)
+    QDeclarativeMessageModelPlugin::qt_metacast(const char*) 0x0000b13b   Thumb Code    42  plugin.o(.text)
+    QDeclarativeMessageModelPlugin::qt_metacall(QMetaObject::Call, int, void**) 0x0000b165   Thumb Code    36  plugin.o(.text)
+    __ARM_switch8                            0x0000b1a0   ARM Code      24  switch8.o(.text)
+    __rt_switch8                             0x0000b1a0   ARM Code       0  switch8.o(.text)
+    _E32Dll_Body                             0x0000b1b8   ARM Code      76  uc_dll.o(.text)
+    __aeabi_atexit                           0x0000b208   ARM Code      40  ucppfini.o(.text)
+    __cxa_atexit                             0x0000b230   ARM Code      64  ucppfini.o(.text)
+    __cxa_finalize                           0x0000b270   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x0000b2a0   ARM Code      16  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x0000b2bc   ARM Code       4  dllexp.o(.text)
+    QByteArray::QByteArray(const QByteArray&) 0x0000b795   Thumb Code    20  plugin.o(i._ZN10QByteArrayC1ERKS_)
+    QByteArray::QByteArray__sub_object(const QByteArray&) 0x0000b795   Thumb Code     0  plugin.o(i._ZN10QByteArrayC1ERKS_)
+    QByteArray::~QByteArray()                0x0000b7a9   Thumb Code    24  qdeclarativemessagemodel.o(i._ZN10QByteArrayD1Ev)
+    QByteArray::~QByteArray__sub_object()    0x0000b7a9   Thumb Code     0  qdeclarativemessagemodel.o(i._ZN10QByteArrayD1Ev)
+    QMetaObject::invokeMethod(QObject*, const char*, Qt::ConnectionType, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument) 0x0000b7c1   Thumb Code   130  qdeclarativemessagemodel.o(i._ZN11QMetaObject12invokeMethodEP7QObjectPKcN2Qt14ConnectionTypeE16QGenericArgumentS6_S6_S6_S6_S6_S6_S6_S6_S6_)
+    QModelIndex::QModelIndex()               0x0000b843   Thumb Code    16  qdeclarativemessagemodel.o(i._ZN11QModelIndexC1Ev)
+    QModelIndex::QModelIndex__sub_object()   0x0000b843   Thumb Code     0  qdeclarativemessagemodel.o(i._ZN11QModelIndexC1Ev)
+    QModelIndex::~QModelIndex()              0x0000b853   Thumb Code     8  moc_qdeclarativemessagemodel.o(i._ZN11QModelIndexD1Ev)
+    QModelIndex::~QModelIndex__sub_object()  0x0000b853   Thumb Code     0  moc_qdeclarativemessagemodel.o(i._ZN11QModelIndexD1Ev)
+    QStringList::~QStringList()              0x0000b85b   Thumb Code    14  qdeclarativemessagemodel.o(i._ZN11QStringListD1Ev)
+    QStringList::~QStringList__sub_object()  0x0000b85b   Thumb Code     0  qdeclarativemessagemodel.o(i._ZN11QStringListD1Ev)
+    QMutexLocker::unlock()                   0x0000b869   Thumb Code    38  qdeclarativemessagemodel.o(i._ZN12QMutexLocker6unlockEv)
+    QMutexLocker::QMutexLocker(QMutex*)      0x0000b88f   Thumb Code    34  qdeclarativemessagemodel.o(i._ZN12QMutexLockerC1EP6QMutex)
+    QMutexLocker::QMutexLocker__sub_object(QMutex*) 0x0000b88f   Thumb Code     0  qdeclarativemessagemodel.o(i._ZN12QMutexLockerC1EP6QMutex)
+    QMutexLocker::~QMutexLocker()            0x0000b8b1   Thumb Code    14  qdeclarativemessagemodel.o(i._ZN12QMutexLockerD1Ev)
+    QMutexLocker::~QMutexLocker__sub_object() 0x0000b8b1   Thumb Code     0  qdeclarativemessagemodel.o(i._ZN12QMutexLockerD1Ev)
+    QBasicAtomicInt::ref()                   0x0000b8bf   Thumb Code    24  qdeclarativemessagefilter.o(i._ZN15QBasicAtomicInt3refEv)
+    QBasicAtomicInt::deref()                 0x0000b8d7   Thumb Code    24  qdeclarativemessagefilter.o(i._ZN15QBasicAtomicInt5derefEv)
+    QDeclarativeInfo::operator <<(const char*) 0x0000b8ef   Thumb Code    48  qdeclarativemessagefilter.o(i._ZN16QDeclarativeInfolsEPKc)
+    QForeachContainer<QList<QtMobility::QMessageAddress>>::~QForeachContainer() 0x0000b929   Thumb Code    14  qdeclarativemessagemodel.o(i._ZN17QForeachContainerI5QListIN10QtMobility15QMessageAddressEEED1Ev)
+    QForeachContainer<QList<QtMobility::QMessageAddress>>::~QForeachContainer__sub_object() 0x0000b929   Thumb Code     0  qdeclarativemessagemodel.o(i._ZN17QForeachContainerI5QListIN10QtMobility15QMessageAddressEEED1Ev)
+    MessageModelWorker::getMessage(const QtMobility::QMessageId&) 0x0000b939   Thumb Code   312  qdeclarativemessagemodel.o(i._ZN18MessageModelWorker10getMessageERKN10QtMobility10QMessageIdE)
+    MessageModelWorker::requestBody(const QtMobility::QMessageId&) 0x0000ba8d   Thumb Code   188  qdeclarativemessagemodel.o(i._ZN18MessageModelWorker11requestBodyERKN10QtMobility10QMessageIdE)
+    MessageModelWorker::cacheMessage(const QtMobility::QMessageId&) 0x0000bb63   Thumb Code   140  qdeclarativemessagemodel.o(i._ZN18MessageModelWorker12cacheMessageERKN10QtMobility10QMessageIdE)
+    MessageModelWorker::removeFromCache(const QtMobility::QMessageId&) 0x0000bc03   Thumb Code    34  qdeclarativemessagemodel.o(i._ZN18MessageModelWorker15removeFromCacheERKN10QtMobility10QMessageIdE)
+    MessageModelWorker::~MessageModelWorker__deallocating() 0x0000bc2f   Thumb Code    22  qdeclarativemessagemodel.o(i._ZN18MessageModelWorkerD0Ev)
+    MessageModelWorker::~MessageModelWorker() 0x0000bc45   Thumb Code   114  qdeclarativemessagemodel.o(i._ZN18MessageModelWorkerD1Ev)
+    MessageModelWorker::~MessageModelWorker__sub_object() 0x0000bc45   Thumb Code     0  qdeclarativemessagemodel.o(i._ZN18MessageModelWorkerD1Ev)
+    QDeclarativePrivate::RegisterType::~RegisterType() 0x0000bd1b   Thumb Code    20  plugin.o(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    QDeclarativePrivate::RegisterType::~RegisterType__sub_object() 0x0000bd1b   Thumb Code     0  plugin.o(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeMessageModel>::~QDeclarativeElement__deallocating() 0x0000bd2f   Thumb Code    22  plugin.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI24QDeclarativeMessageModelED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeMessageFilter>::~QDeclarativeElement__deallocating() 0x0000bd45   Thumb Code    22  plugin.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI25QDeclarativeMessageFilterED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeMessageUnionFilter>::~QDeclarativeElement__deallocating() 0x0000bd5b   Thumb Code    22  plugin.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI30QDeclarativeMessageUnionFilterED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeMessageIntersectionFilter>::~QDeclarativeElement__deallocating() 0x0000bd71   Thumb Code    22  plugin.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI37QDeclarativeMessageIntersectionFilterED0Ev)
+    QDeclarativeMessageModel::classBegin()   0x0000bd87   Thumb Code     2  moc_qdeclarativemessagemodel.o(i._ZN24QDeclarativeMessageModel10classBeginEv)
+    QDeclarativeMessageFilter::~QDeclarativeMessageFilter__deallocating() 0x0000bd89   Thumb Code    24  moc_qdeclarativemessagefilter.o(i._ZN25QDeclarativeMessageFilterD0Ev)
+    QDeclarativeMessageFilter::~QDeclarativeMessageFilter() 0x0000bda1   Thumb Code    14  moc_qdeclarativemessagefilter.o(i._ZN25QDeclarativeMessageFilterD1Ev)
+    QDeclarativeMessageFilter::~QDeclarativeMessageFilter__sub_object() 0x0000bda1   Thumb Code     0  moc_qdeclarativemessagefilter.o(i._ZN25QDeclarativeMessageFilterD1Ev)
+    QDeclarativeMessageFilterBase::~QDeclarativeMessageFilterBase__deallocating() 0x0000bdaf   Thumb Code    22  moc_qdeclarativemessagefilter.o(i._ZN29QDeclarativeMessageFilterBaseD0Ev)
+    QDeclarativeMessageFilterBase::~QDeclarativeMessageFilterBase() 0x0000bdc5   Thumb Code     0  moc_qdeclarativemessagefilter.o(i._ZN29QDeclarativeMessageFilterBaseD2Ev)
+    QDeclarativeMessageFilterBase::~QDeclarativeMessageFilterBase__sub_object() 0x0000bdc5   Thumb Code    14  moc_qdeclarativemessagefilter.o(i._ZN29QDeclarativeMessageFilterBaseD2Ev)
+    QDeclarativeMessageModelPlugin::registerTypes(const char*) 0x0000bdd5   Thumb Code   112  plugin.o(i._ZN30QDeclarativeMessageModelPlugin13registerTypesEPKc)
+    QDeclarativeMessageModelPlugin::~QDeclarativeMessageModelPlugin__deallocating() 0x0000befb   Thumb Code    24  plugin.o(i._ZN30QDeclarativeMessageModelPluginD0Ev)
+    QDeclarativeMessageModelPlugin::~QDeclarativeMessageModelPlugin() 0x0000bf13   Thumb Code    14  plugin.o(i._ZN30QDeclarativeMessageModelPluginD1Ev)
+    QDeclarativeMessageModelPlugin::~QDeclarativeMessageModelPlugin__sub_object() 0x0000bf13   Thumb Code     0  plugin.o(i._ZN30QDeclarativeMessageModelPluginD1Ev)
+    QDeclarativeMessageUnionFilter::~QDeclarativeMessageUnionFilter__deallocating() 0x0000bf21   Thumb Code    22  moc_qdeclarativemessagefilter.o(i._ZN30QDeclarativeMessageUnionFilterD0Ev)
+    QDeclarativeMessageUnionFilter::~QDeclarativeMessageUnionFilter() 0x0000bf39   Thumb Code    30  moc_qdeclarativemessagefilter.o(i._ZN30QDeclarativeMessageUnionFilterD1Ev)
+    QDeclarativeMessageUnionFilter::~QDeclarativeMessageUnionFilter__sub_object() 0x0000bf39   Thumb Code     0  moc_qdeclarativemessagefilter.o(i._ZN30QDeclarativeMessageUnionFilterD1Ev)
+    QDeclarativeMessageModelPrivate::QDeclarativeMessageModelPrivate(QDeclarativeMessageModel*) 0x0000bf69   Thumb Code   480  qdeclarativemessagemodel.o(i._ZN31QDeclarativeMessageModelPrivateC1EP24QDeclarativeMessageModel)
+    QDeclarativeMessageModelPrivate::QDeclarativeMessageModelPrivate__sub_object(QDeclarativeMessageModel*) 0x0000bf69   Thumb Code     0  qdeclarativemessagemodel.o(i._ZN31QDeclarativeMessageModelPrivateC1EP24QDeclarativeMessageModel)
+    QDeclarativeMessageIntersectionFilter::~QDeclarativeMessageIntersectionFilter__deallocating() 0x0000c177   Thumb Code    22  moc_qdeclarativemessagefilter.o(i._ZN37QDeclarativeMessageIntersectionFilterD0Ev)
+    QDeclarativeMessageIntersectionFilter::~QDeclarativeMessageIntersectionFilter() 0x0000c18d   Thumb Code    30  moc_qdeclarativemessagefilter.o(i._ZN37QDeclarativeMessageIntersectionFilterD1Ev)
+    QDeclarativeMessageIntersectionFilter::~QDeclarativeMessageIntersectionFilter__sub_object() 0x0000c18d   Thumb Code     0  moc_qdeclarativemessagefilter.o(i._ZN37QDeclarativeMessageIntersectionFilterD1Ev)
+    QSet<int>::~QSet()                       0x0000c1bb   Thumb Code    14  qdeclarativemessagemodel.o(i._ZN4QSetIiED1Ev)
+    QSet<int>::~QSet__sub_object()           0x0000c1bb   Thumb Code     0  qdeclarativemessagemodel.o(i._ZN4QSetIiED1Ev)
+    QDebug::maybeSpace()                     0x0000c1c9   Thumb Code    24  qdeclarativemessagefilter.o(i._ZN6QDebug10maybeSpaceEv)
+    QString::QString(const QString&)         0x0000c1e1   Thumb Code    22  qdeclarativemessagemodel.o(i._ZN7QStringC1ERKS_)
+    QString::QString__sub_object(const QString&) 0x0000c1e1   Thumb Code     0  qdeclarativemessagemodel.o(i._ZN7QStringC1ERKS_)
+    QString::QString()                       0x0000c1f9   Thumb Code    18  qdeclarativemessagemodel.o(i._ZN7QStringC1Ev)
+    QString::QString__sub_object()           0x0000c1f9   Thumb Code     0  qdeclarativemessagemodel.o(i._ZN7QStringC1Ev)
+    QString::~QString()                      0x0000c211   Thumb Code    24  qdeclarativemessagefilter.o(i._ZN7QStringD1Ev)
+    QString::~QString__sub_object()          0x0000c211   Thumb Code     0  qdeclarativemessagefilter.o(i._ZN7QStringD1Ev)
+    QHashData::willGrow()                    0x0000c229   Thumb Code    32  qdeclarativemessagemodel.o(i._ZN9QHashData8willGrowEv)
+    QBasicAtomicInt::operator !=(int) const  0x0000c249   Thumb Code    16  qdeclarativemessagefilter.o(i._ZNK15QBasicAtomicIntneEi)
+    QBasicAtomicInt::operator !() const      0x0000c259   Thumb Code    16  plugin.o(i._ZNK15QBasicAtomicIntntEv)
+    QListData::at(int) const                 0x0000c269   Thumb Code    20  qdeclarativemessagemodel.o(i._ZNK9QListData2atEi)
+    QListData::end() const                   0x0000c27d   Thumb Code    16  qdeclarativemessagefilter.o(i._ZNK9QListData3endEv)
+    QListData::begin() const                 0x0000c28d   Thumb Code    16  qdeclarativemessagefilter.o(i._ZNK9QListData5beginEv)
+    thunk{-8} to QDeclarativePrivate::QDeclarativeElement<QDeclarativeMessageModel>::~QDeclarativeElement__deallocating() 0x0000c29d   Thumb Code    14  plugin.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI24QDeclarativeMessageModelED0Ev)
+    thunk{-8} to QDeclarativePrivate::QDeclarativeElement<QDeclarativeMessageModel>::~QDeclarativeElement() 0x0000c2ab   Thumb Code    14  plugin.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI24QDeclarativeMessageModelED1Ev)
+    thunk{-8} to QDeclarativeMessageModel::classBegin() 0x0000c2b9   Thumb Code     4  moc_qdeclarativemessagemodel.o(i._ZThn8_N24QDeclarativeMessageModel10classBeginEv)
+    thunk{-8} to QDeclarativeMessageModelPlugin::registerTypes(const char*) 0x0000c2bd   Thumb Code    18  plugin.o(i._ZThn8_N30QDeclarativeMessageModelPlugin13registerTypesEPKc)
+    thunk{-8} to QDeclarativeMessageModelPlugin::~QDeclarativeMessageModelPlugin__deallocating() 0x0000c2cf   Thumb Code    14  plugin.o(i._ZThn8_N30QDeclarativeMessageModelPluginD0Ev)
+    thunk{-8} to QDeclarativeMessageModelPlugin::~QDeclarativeMessageModelPlugin() 0x0000c2dd   Thumb Code    18  plugin.o(i._ZThn8_N30QDeclarativeMessageModelPluginD1Ev)
+    operator delete (void*, void*)           0x0000c2ef   Thumb Code     2  qdeclarativemessagemodel.o(i._ZdlPvS_)
+    operator new(unsigned, void*)            0x0000c2f1   Thumb Code     6  qdeclarativemessagemodel.o(i._ZnwjPv)
+    operator +(const char*, const QByteArray&) 0x0000c2f7   Thumb Code    46  plugin.o(i._ZplPKcRK10QByteArray)
+    operator +(const QByteArray&, const char*) 0x0000c32f   Thumb Code    46  plugin.o(i._ZplRK10QByteArrayPKc)
+    operator +(const QByteArray&, char)      0x0000c367   Thumb Code    46  plugin.o(i._ZplRK10QByteArrayc)
+    qmlRegisterType<QDeclarativeMessageModel>(const char*, int, int, const char*) 0x0000c3a1   Thumb Code   248  plugin.o(t._Z15qmlRegisterTypeI24QDeclarativeMessageModelEiPKciiS2_)
+    qmlRegisterType<QDeclarativeMessageFilter>(const char*, int, int, const char*) 0x0000c4f5   Thumb Code   238  plugin.o(t._Z15qmlRegisterTypeI25QDeclarativeMessageFilterEiPKciiS2_)
+    qmlRegisterType<QDeclarativeMessageUnionFilter>(const char*, int, int, const char*) 0x0000c641   Thumb Code   238  plugin.o(t._Z15qmlRegisterTypeI30QDeclarativeMessageUnionFilterEiPKciiS2_)
+    qmlRegisterType<QDeclarativeMessageIntersectionFilter>(const char*, int, int, const char*) 0x0000c78d   Thumb Code   238  plugin.o(t._Z15qmlRegisterTypeI37QDeclarativeMessageIntersectionFilterEiPKciiS2_)
+    qRegisterMetaType<QDeclarativeListProperty<QDeclarativeMessageModel>>(const char*, T1*) 0x0000c8d9   Thumb Code   100  plugin.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI24QDeclarativeMessageModelEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QDeclarativeMessageFilter>>(const char*, T1*) 0x0000c97d   Thumb Code   100  plugin.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI25QDeclarativeMessageFilterEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QDeclarativeMessageFilterBase>>(const char*, T1*) 0x0000ca21   Thumb Code   100  plugin.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI29QDeclarativeMessageFilterBaseEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QDeclarativeMessageUnionFilter>>(const char*, T1*) 0x0000cac9   Thumb Code   100  plugin.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI30QDeclarativeMessageUnionFilterEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QDeclarativeMessageIntersectionFilter>>(const char*, T1*) 0x0000cb75   Thumb Code   100  plugin.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI37QDeclarativeMessageIntersectionFilterEEiPKcPT_)
+    qRegisterMetaType<QList<QtMobility::QMessageId>>(const char*, T1*) 0x0000cc25   Thumb Code    56  plugin.o(t._Z17qRegisterMetaTypeI5QListIN10QtMobility10QMessageIdEEEiPKcPT_)
+    qRegisterMetaType<QtMobility::QMessageId>(const char*, T1*) 0x0000cc65   Thumb Code   100  plugin.o(t._Z17qRegisterMetaTypeIN10QtMobility10QMessageIdEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeMessageModel*>(const char*, T1*) 0x0000ccf9   Thumb Code   100  plugin.o(t._Z17qRegisterMetaTypeIP24QDeclarativeMessageModelEiPKcPT_)
+    qRegisterMetaType<QDeclarativeMessageFilter*>(const char*, T1*) 0x0000cd85   Thumb Code   100  plugin.o(t._Z17qRegisterMetaTypeIP25QDeclarativeMessageFilterEiPKcPT_)
+    qRegisterMetaType<QDeclarativeMessageFilterBase*>(const char*, T1*) 0x0000ce11   Thumb Code   100  plugin.o(t._Z17qRegisterMetaTypeIP29QDeclarativeMessageFilterBaseEiPKcPT_)
+    qRegisterMetaType<QDeclarativeMessageUnionFilter*>(const char*, T1*) 0x0000cea1   Thumb Code   100  plugin.o(t._Z17qRegisterMetaTypeIP30QDeclarativeMessageUnionFilterEiPKcPT_)
+    qRegisterMetaType<QDeclarativeMessageIntersectionFilter*>(const char*, T1*) 0x0000cf35   Thumb Code   100  plugin.o(t._Z17qRegisterMetaTypeIP37QDeclarativeMessageIntersectionFilterEiPKcPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QDeclarativeMessageModel>>(T1*) 0x0000cfcd   Thumb Code    12  plugin.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI24QDeclarativeMessageModelEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QDeclarativeMessageFilter>>(T1*) 0x0000cfd9   Thumb Code    12  plugin.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI25QDeclarativeMessageFilterEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QDeclarativeMessageFilterBase>>(T1*) 0x0000cfe5   Thumb Code    12  plugin.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI29QDeclarativeMessageFilterBaseEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QDeclarativeMessageUnionFilter>>(T1*) 0x0000cff1   Thumb Code    12  plugin.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI30QDeclarativeMessageUnionFilterEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QDeclarativeMessageIntersectionFilter>>(T1*) 0x0000cffd   Thumb Code    12  plugin.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI37QDeclarativeMessageIntersectionFilterEEvPT_)
+    qMetaTypeDeleteHelper<QList<QtMobility::QMessageId>>(T1*) 0x0000d009   Thumb Code    22  plugin.o(t._Z21qMetaTypeDeleteHelperI5QListIN10QtMobility10QMessageIdEEEvPT_)
+    qMetaTypeDeleteHelper<QtMobility::QMessageId>(T1*) 0x0000d01f   Thumb Code    22  plugin.o(t._Z21qMetaTypeDeleteHelperIN10QtMobility10QMessageIdEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeMessageModel*>(T1*) 0x0000d035   Thumb Code    12  plugin.o(t._Z21qMetaTypeDeleteHelperIP24QDeclarativeMessageModelEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeMessageFilter*>(T1*) 0x0000d041   Thumb Code    12  plugin.o(t._Z21qMetaTypeDeleteHelperIP25QDeclarativeMessageFilterEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeMessageFilterBase*>(T1*) 0x0000d04d   Thumb Code    12  plugin.o(t._Z21qMetaTypeDeleteHelperIP29QDeclarativeMessageFilterBaseEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeMessageUnionFilter*>(T1*) 0x0000d059   Thumb Code    12  plugin.o(t._Z21qMetaTypeDeleteHelperIP30QDeclarativeMessageUnionFilterEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeMessageIntersectionFilter*>(T1*) 0x0000d065   Thumb Code    12  plugin.o(t._Z21qMetaTypeDeleteHelperIP37QDeclarativeMessageIntersectionFilterEvPT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QDeclarativeMessageModel>>(const T1*) 0x0000d071   Thumb Code   150  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI24QDeclarativeMessageModelEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QDeclarativeMessageFilter>>(const T1*) 0x0000d10b   Thumb Code   150  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI25QDeclarativeMessageFilterEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QDeclarativeMessageFilterBase>>(const T1*) 0x0000d1a5   Thumb Code   150  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI29QDeclarativeMessageFilterBaseEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QDeclarativeMessageUnionFilter>>(const T1*) 0x0000d23f   Thumb Code   150  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI30QDeclarativeMessageUnionFilterEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QDeclarativeMessageIntersectionFilter>>(const T1*) 0x0000d2d9   Thumb Code   150  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI37QDeclarativeMessageIntersectionFilterEEPvPKT_)
+    qMetaTypeConstructHelper<QList<QtMobility::QMessageId>>(const T1*) 0x0000d375   Thumb Code   112  plugin.o(t._Z24qMetaTypeConstructHelperI5QListIN10QtMobility10QMessageIdEEEPvPKT_)
+    qMetaTypeConstructHelper<QtMobility::QMessageId>(const T1*) 0x0000d405   Thumb Code    80  plugin.o(t._Z24qMetaTypeConstructHelperIN10QtMobility10QMessageIdEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeMessageModel*>(const T1*) 0x0000d471   Thumb Code    50  plugin.o(t._Z24qMetaTypeConstructHelperIP24QDeclarativeMessageModelEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeMessageFilter*>(const T1*) 0x0000d4a3   Thumb Code    50  plugin.o(t._Z24qMetaTypeConstructHelperIP25QDeclarativeMessageFilterEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeMessageFilterBase*>(const T1*) 0x0000d4d5   Thumb Code    50  plugin.o(t._Z24qMetaTypeConstructHelperIP29QDeclarativeMessageFilterBaseEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeMessageUnionFilter*>(const T1*) 0x0000d507   Thumb Code    50  plugin.o(t._Z24qMetaTypeConstructHelperIP30QDeclarativeMessageUnionFilterEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeMessageIntersectionFilter*>(const T1*) 0x0000d539   Thumb Code    50  plugin.o(t._Z24qMetaTypeConstructHelperIP37QDeclarativeMessageIntersectionFilterEPvPKT_)
+    qmlRegisterUncreatableType<QDeclarativeMessageFilterBase>(const char*, int, int, const char*, const QString&) 0x0000d56d   Thumb Code   250  plugin.o(t._Z26qmlRegisterUncreatableTypeI29QDeclarativeMessageFilterBaseEiPKciiS2_RK7QString)
+    QDeclarativePrivate::createInto<QDeclarativeMessageModel>(void*) 0x0000d6c5   Thumb Code    42  plugin.o(t._ZN19QDeclarativePrivate10createIntoI24QDeclarativeMessageModelEEvPv)
+    QDeclarativePrivate::createInto<QDeclarativeMessageFilter>(void*) 0x0000d701   Thumb Code    38  plugin.o(t._ZN19QDeclarativePrivate10createIntoI25QDeclarativeMessageFilterEEvPv)
+    QDeclarativePrivate::createInto<QDeclarativeMessageUnionFilter>(void*) 0x0000d739   Thumb Code    38  plugin.o(t._ZN19QDeclarativePrivate10createIntoI30QDeclarativeMessageUnionFilterEEvPv)
+    QDeclarativePrivate::createInto<QDeclarativeMessageIntersectionFilter>(void*) 0x0000d771   Thumb Code    38  plugin.o(t._ZN19QDeclarativePrivate10createIntoI37QDeclarativeMessageIntersectionFilterEEvPv)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeMessageModel>::~QDeclarativeElement() 0x0000d7a9   Thumb Code    28  plugin.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI24QDeclarativeMessageModelED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeMessageModel>::~QDeclarativeElement__sub_object() 0x0000d7a9   Thumb Code     0  plugin.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI24QDeclarativeMessageModelED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeMessageFilter>::~QDeclarativeElement() 0x0000d7d5   Thumb Code    26  plugin.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI25QDeclarativeMessageFilterED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeMessageFilter>::~QDeclarativeElement__sub_object() 0x0000d7d5   Thumb Code     0  plugin.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI25QDeclarativeMessageFilterED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeMessageUnionFilter>::~QDeclarativeElement() 0x0000d801   Thumb Code    24  plugin.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI30QDeclarativeMessageUnionFilterED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeMessageUnionFilter>::~QDeclarativeElement__sub_object() 0x0000d801   Thumb Code     0  plugin.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI30QDeclarativeMessageUnionFilterED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeMessageIntersectionFilter>::~QDeclarativeElement() 0x0000d829   Thumb Code    24  plugin.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI37QDeclarativeMessageIntersectionFilterED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeMessageIntersectionFilter>::~QDeclarativeElement__sub_object() 0x0000d829   Thumb Code     0  plugin.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI37QDeclarativeMessageIntersectionFilterED1Ev)
+    QDeclarativeListProperty<QDeclarativeMessageFilterBase>::qlist_clear(QDeclarativeListProperty<QDeclarativeMessageFilterBase>*) 0x0000d84f   Thumb Code    12  qdeclarativemessagefilter.o(t._ZN24QDeclarativeListPropertyI29QDeclarativeMessageFilterBaseE11qlist_clearEPS1_)
+    QDeclarativeListProperty<QDeclarativeMessageFilterBase>::qlist_count(QDeclarativeListProperty<QDeclarativeMessageFilterBase>*) 0x0000d85b   Thumb Code    12  qdeclarativemessagefilter.o(t._ZN24QDeclarativeListPropertyI29QDeclarativeMessageFilterBaseE11qlist_countEPS1_)
+    QDeclarativeListProperty<QDeclarativeMessageFilterBase>::qlist_append(QDeclarativeListProperty<QDeclarativeMessageFilterBase>*, QDeclarativeMessageFilterBase*) 0x0000d867   Thumb Code    14  qdeclarativemessagefilter.o(t._ZN24QDeclarativeListPropertyI29QDeclarativeMessageFilterBaseE12qlist_appendEPS1_PS0_)
+    QDeclarativeListProperty<QDeclarativeMessageFilterBase>::qlist_at(QDeclarativeListProperty<QDeclarativeMessageFilterBase>*, int) 0x0000d875   Thumb Code    18  qdeclarativemessagefilter.o(t._ZN24QDeclarativeListPropertyI29QDeclarativeMessageFilterBaseE8qlist_atEPS1_i)
+    QDeclarativeListProperty<QDeclarativeMessageFilterBase>::QDeclarativeListProperty(QObject*, QList<QDeclarativeMessageFilterBase*>&) 0x0000d889   Thumb Code    28  qdeclarativemessagefilter.o(t._ZN24QDeclarativeListPropertyI29QDeclarativeMessageFilterBaseEC1EP7QObjectR5QListIPS0_E)
+    QDeclarativeListProperty<QDeclarativeMessageFilterBase>::QDeclarativeListProperty__sub_object(QObject*, QList<QDeclarativeMessageFilterBase*>&) 0x0000d889   Thumb Code     0  qdeclarativemessagefilter.o(t._ZN24QDeclarativeListPropertyI29QDeclarativeMessageFilterBaseEC1EP7QObjectR5QListIPS0_E)
+    QSet<int>::QSet(const QSet<int>&)        0x0000d8b5   Thumb Code    62  qdeclarativemessagemodel.o(t._ZN4QSetIiEC1ERKS0_)
+    QSet<int>::QSet__sub_object(const QSet<int>&) 0x0000d8b5   Thumb Code     0  qdeclarativemessagemodel.o(t._ZN4QSetIiEC1ERKS0_)
+    QHash<QtMobility::QMessageId, QCache<QtMobility::QMessageId, QtMobility::QMessage>::Node>::deleteNode2(QHashData::Node*) 0x0000d8f3   Thumb Code    24  qdeclarativemessagemodel.o(t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE11deleteNode2EPN9QHashData4NodeE)
+    QHash<QtMobility::QMessageId, QCache<QtMobility::QMessageId, QtMobility::QMessage>::Node>::detach_helper() 0x0000d90d   Thumb Code    52  qdeclarativemessagemodel.o(t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE13detach_helperEv)
+    QHash<QtMobility::QMessageId, QCache<QtMobility::QMessageId, QtMobility::QMessage>::Node>::duplicateNode(QHashData::Node*, void*) 0x0000d949   Thumb Code    46  qdeclarativemessagemodel.o(t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE13duplicateNodeEPN9QHashData4NodeEPv)
+    QHash<QtMobility::QMessageId, QCache<QtMobility::QMessageId, QtMobility::QMessage>::Node>::find(const QtMobility::QMessageId&) 0x0000d985   Thumb Code    30  qdeclarativemessagemodel.o(t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE4findERKS1_)
+    QHash<QtMobility::QMessageId, QCache<QtMobility::QMessageId, QtMobility::QMessage>::Node>::detach() 0x0000d9a3   Thumb Code    28  qdeclarativemessagemodel.o(t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE6detachEv)
+    QHash<QtMobility::QMessageId, QCache<QtMobility::QMessageId, QtMobility::QMessage>::Node>::insert(const QtMobility::QMessageId&, const QCache<QtMobility::QMessageId, QtMobility::QMessage>::Node&) 0x0000d9bf   Thumb Code   184  qdeclarativemessagemodel.o(t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE6insertERKS1_RKS5_)
+    QHash<QtMobility::QMessageId, QCache<QtMobility::QMessageId, QtMobility::QMessage>::Node>::remove(const QtMobility::QMessageId&) 0x0000da85   Thumb Code   260  qdeclarativemessagemodel.o(t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE6removeERKS1_)
+    QHash<QtMobility::QMessageId, QCache<QtMobility::QMessageId, QtMobility::QMessage>::Node>::freeData(QHashData*) 0x0000db89   Thumb Code    16  qdeclarativemessagemodel.o(t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE8freeDataEP9QHashData)
+    QHash<QtMobility::QMessageId, QCache<QtMobility::QMessageId, QtMobility::QMessage>::Node>::QHash() 0x0000db9d   Thumb Code    22  qdeclarativemessagemodel.o(t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEEC1Ev)
+    QHash<QtMobility::QMessageId, QCache<QtMobility::QMessageId, QtMobility::QMessage>::Node>::QHash__sub_object() 0x0000db9d   Thumb Code     0  qdeclarativemessagemodel.o(t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEEC1Ev)
+    QHash<QtMobility::QMessageId, QCache<QtMobility::QMessageId, QtMobility::QMessage>::Node>::~QHash() 0x0000dbb9   Thumb Code    30  qdeclarativemessagemodel.o(t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEED1Ev)
+    QHash<QtMobility::QMessageId, QCache<QtMobility::QMessageId, QtMobility::QMessage>::Node>::~QHash__sub_object() 0x0000dbb9   Thumb Code     0  qdeclarativemessagemodel.o(t._ZN5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEED1Ev)
+    QHash<int, QByteArray>::deleteNode2(QHashData::Node*) 0x0000dbd7   Thumb Code    24  qdeclarativemessagemodel.o(t._ZN5QHashIi10QByteArrayE11deleteNode2EPN9QHashData4NodeE)
+    QHash<int, QByteArray>::detach_helper()  0x0000dbf1   Thumb Code    52  qdeclarativemessagemodel.o(t._ZN5QHashIi10QByteArrayE13detach_helperEv)
+    QHash<int, QByteArray>::duplicateNode(QHashData::Node*, void*) 0x0000dc2d   Thumb Code    46  qdeclarativemessagemodel.o(t._ZN5QHashIi10QByteArrayE13duplicateNodeEPN9QHashData4NodeEPv)
+    QHash<int, QByteArray>::freeData(QHashData*) 0x0000dc69   Thumb Code    16  qdeclarativemessagemodel.o(t._ZN5QHashIi10QByteArrayE8freeDataEP9QHashData)
+    QHash<int, QByteArray>::~QHash()         0x0000dc7d   Thumb Code    30  qdeclarativemessagemodel.o(t._ZN5QHashIi10QByteArrayED1Ev)
+    QHash<int, QByteArray>::~QHash__sub_object() 0x0000dc7d   Thumb Code     0  qdeclarativemessagemodel.o(t._ZN5QHashIi10QByteArrayED1Ev)
+    QHash<int, QByteArray>::operator [](const int&) 0x0000dc9d   Thumb Code   216  qdeclarativemessagemodel.o(t._ZN5QHashIi10QByteArrayEixERKi)
+    QHash<int, QHashDummyValue>::deleteNode2(QHashData::Node*) 0x0000dd91   Thumb Code     6  qdeclarativemessagemodel.o(t._ZN5QHashIi15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE)
+    QHash<int, QHashDummyValue>::detach_helper() 0x0000dd99   Thumb Code    52  qdeclarativemessagemodel.o(t._ZN5QHashIi15QHashDummyValueE13detach_helperEv)
+    QHash<int, QHashDummyValue>::duplicateNode(QHashData::Node*, void*) 0x0000ddd5   Thumb Code    34  qdeclarativemessagemodel.o(t._ZN5QHashIi15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv)
+    QHash<int, QHashDummyValue>::freeData(QHashData*) 0x0000ddf9   Thumb Code    16  qdeclarativemessagemodel.o(t._ZN5QHashIi15QHashDummyValueE8freeDataEP9QHashData)
+    QHash<int, QHashDummyValue>::~QHash()    0x0000de0d   Thumb Code    30  qdeclarativemessagemodel.o(t._ZN5QHashIi15QHashDummyValueED1Ev)
+    QHash<int, QHashDummyValue>::~QHash__sub_object() 0x0000de0d   Thumb Code     0  qdeclarativemessagemodel.o(t._ZN5QHashIi15QHashDummyValueED1Ev)
+    QList<QString>::node_destruct(QList<QString>::Node*, QList<QString>::Node*) 0x0000de2b   Thumb Code    26  qdeclarativemessagemodel.o(t._ZN5QListI7QStringE13node_destructEPNS1_4NodeES3_)
+    QList<QString>::node_construct(QList<QString>::Node*, const QString&) 0x0000de45   Thumb Code    36  qdeclarativemessagemodel.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_)
+    QList<QString>::detach_helper_grow(int, int) 0x0000de77   Thumb Code   208  qdeclarativemessagemodel.o(t._ZN5QListI7QStringE18detach_helper_growEii)
+    QList<QString>::free(QListData::Data*)   0x0000df57   Thumb Code    58  qdeclarativemessagemodel.o(t._ZN5QListI7QStringE4freeEPN9QListData4DataE)
+    QList<QString>::append(const QString&)   0x0000df91   Thumb Code   114  qdeclarativemessagemodel.o(t._ZN5QListI7QStringE6appendERKS0_)
+    QList<QString>::node_copy(QList<QString>::Node*, QList<QString>::Node*, QList<QString>::Node*) 0x0000e017   Thumb Code    82  qdeclarativemessagemodel.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_)
+    QList<QString>::~QList()                 0x0000e07f   Thumb Code    32  qdeclarativemessagemodel.o(t._ZN5QListI7QStringED1Ev)
+    QList<QString>::~QList__sub_object()     0x0000e07f   Thumb Code     0  qdeclarativemessagemodel.o(t._ZN5QListI7QStringED1Ev)
+    QList<QtMobility::QMessageId>::detach_helper(int) 0x0000e09f   Thumb Code    94  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEE13detach_helperEi)
+    QList<QtMobility::QMessageId>::detach_helper() 0x0000e105   Thumb Code    16  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEE13detach_helperEv)
+    QList<QtMobility::QMessageId>::node_destruct(QList<QtMobility::QMessageId>::Node*) 0x0000e115   Thumb Code    28  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEE13node_destructEPNS2_4NodeE)
+    QList<QtMobility::QMessageId>::node_destruct(QList<QtMobility::QMessageId>::Node*, QList<QtMobility::QMessageId>::Node*) 0x0000e131   Thumb Code    38  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEE13node_destructEPNS2_4NodeES4_)
+    QList<QtMobility::QMessageId>::node_construct(QList<QtMobility::QMessageId>::Node*, const QtMobility::QMessageId&) 0x0000e157   Thumb Code    34  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEE14node_constructEPNS2_4NodeERKS1_)
+    QList<QtMobility::QMessageId>::detach_helper_grow(int, int) 0x0000e187   Thumb Code   208  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEE18detach_helper_growEii)
+    QList<QtMobility::QMessageId>::end()     0x0000e267   Thumb Code    26  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEE3endEv)
+    QList<QtMobility::QMessageId>::free(QListData::Data*) 0x0000e281   Thumb Code    58  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEE4freeEPN9QListData4DataE)
+    QList<QtMobility::QMessageId>::append(const QtMobility::QMessageId&) 0x0000e2bd   Thumb Code   106  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEE6appendERKS1_)
+    QList<QtMobility::QMessageId>::detach()  0x0000e33b   Thumb Code    24  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEE6detachEv)
+    QList<QtMobility::QMessageId>::node_copy(QList<QtMobility::QMessageId>::Node*, QList<QtMobility::QMessageId>::Node*, QList<QtMobility::QMessageId>::Node*) 0x0000e353   Thumb Code    92  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEE9node_copyEPNS2_4NodeES4_S4_)
+    QList<QtMobility::QMessageId>::removeAll(const QtMobility::QMessageId&) 0x0000e3c5   Thumb Code   132  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEE9removeAllERKS1_)
+    QList<QtMobility::QMessageId>::QList()   0x0000e459   Thumb Code    18  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEEC1Ev)
+    QList<QtMobility::QMessageId>::QList__sub_object() 0x0000e459   Thumb Code     0  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEEC1Ev)
+    QList<QtMobility::QMessageId>::~QList()  0x0000e471   Thumb Code    32  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEED1Ev)
+    QList<QtMobility::QMessageId>::~QList__sub_object() 0x0000e471   Thumb Code     0  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility10QMessageIdEED1Ev)
+    QList<QtMobility::QMessageAddress>::detach_helper(int) 0x0000e491   Thumb Code   198  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility15QMessageAddressEE13detach_helperEi)
+    QList<QtMobility::QMessageAddress>::detach_helper() 0x0000e577   Thumb Code    16  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility15QMessageAddressEE13detach_helperEv)
+    QList<QtMobility::QMessageAddress>::free(QListData::Data*) 0x0000e587   Thumb Code    80  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility15QMessageAddressEE4freeEPN9QListData4DataE)
+    QList<QtMobility::QMessageAddress>::~QList() 0x0000e5d7   Thumb Code    32  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility15QMessageAddressEED1Ev)
+    QList<QtMobility::QMessageAddress>::~QList__sub_object() 0x0000e5d7   Thumb Code     0  qdeclarativemessagemodel.o(t._ZN5QListIN10QtMobility15QMessageAddressEED1Ev)
+    QList<QDeclarativeMessageFilterBase*>::detach_helper(int) 0x0000e5f7   Thumb Code    94  qdeclarativemessagefilter.o(t._ZN5QListIP29QDeclarativeMessageFilterBaseE13detach_helperEi)
+    QList<QDeclarativeMessageFilterBase*>::detach_helper() 0x0000e65d   Thumb Code    16  qdeclarativemessagefilter.o(t._ZN5QListIP29QDeclarativeMessageFilterBaseE13detach_helperEv)
+    QList<QDeclarativeMessageFilterBase*>::detach_helper_grow(int, int) 0x0000e66d   Thumb Code   204  qdeclarativemessagefilter.o(t._ZN5QListIP29QDeclarativeMessageFilterBaseE18detach_helper_growEii)
+    QList<QDeclarativeMessageFilterBase*>::free(QListData::Data*) 0x0000e749   Thumb Code    58  moc_qdeclarativemessagefilter.o(t._ZN5QListIP29QDeclarativeMessageFilterBaseE4freeEPN9QListData4DataE)
+    QList<QDeclarativeMessageFilterBase*>::clear() 0x0000e783   Thumb Code    76  qdeclarativemessagefilter.o(t._ZN5QListIP29QDeclarativeMessageFilterBaseE5clearEv)
+    QList<QDeclarativeMessageFilterBase*>::first() 0x0000e7d9   Thumb Code    50  qdeclarativemessagefilter.o(t._ZN5QListIP29QDeclarativeMessageFilterBaseE5firstEv)
+    QList<QDeclarativeMessageFilterBase*>::append(QDeclarativeMessageFilterBase*const &) 0x0000e80d   Thumb Code    94  qdeclarativemessagefilter.o(t._ZN5QListIP29QDeclarativeMessageFilterBaseE6appendERKS1_)
+    QList<QDeclarativeMessageFilterBase*>::node_copy(QList<QDeclarativeMessageFilterBase*>::Node*, QList<QDeclarativeMessageFilterBase*>::Node*, QList<QDeclarativeMessageFilterBase*>::Node*) 0x0000e87b   Thumb Code    46  qdeclarativemessagefilter.o(t._ZN5QListIP29QDeclarativeMessageFilterBaseE9node_copyEPNS2_4NodeES4_S4_)
+    QList<QDeclarativeMessageFilterBase*>::QList() 0x0000e8a9   Thumb Code    18  qdeclarativemessagefilter.o(t._ZN5QListIP29QDeclarativeMessageFilterBaseEC1Ev)
+    QList<QDeclarativeMessageFilterBase*>::QList__sub_object() 0x0000e8a9   Thumb Code     0  qdeclarativemessagefilter.o(t._ZN5QListIP29QDeclarativeMessageFilterBaseEC1Ev)
+    QList<QDeclarativeMessageFilterBase*>::~QList() 0x0000e8c1   Thumb Code    32  qdeclarativemessagefilter.o(t._ZN5QListIP29QDeclarativeMessageFilterBaseED1Ev)
+    QList<QDeclarativeMessageFilterBase*>::~QList__sub_object() 0x0000e8c1   Thumb Code     0  qdeclarativemessagefilter.o(t._ZN5QListIP29QDeclarativeMessageFilterBaseED1Ev)
+    QCache<QtMobility::QMessageId, QtMobility::QMessage>::trim(int) 0x0000e8e1   Thumb Code    44  qdeclarativemessagemodel.o(t._ZN6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEE4trimEi)
+    QCache<QtMobility::QMessageId, QtMobility::QMessage>::clear() 0x0000e90d   Thumb Code   128  qdeclarativemessagemodel.o(t._ZN6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEE5clearEv)
+    QCache<QtMobility::QMessageId, QtMobility::QMessage>::insert(const QtMobility::QMessageId&, QtMobility::QMessage*, int) 0x0000e997   Thumb Code   158  qdeclarativemessagemodel.o(t._ZN6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEE6insertERKS1_PS2_i)
+    QCache<QtMobility::QMessageId, QtMobility::QMessage>::remove(const QtMobility::QMessageId&) 0x0000ea35   Thumb Code    76  qdeclarativemessagemodel.o(t._ZN6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEE6removeERKS1_)
+    QCache<QtMobility::QMessageId, QtMobility::QMessage>::unlink(QCache<QtMobility::QMessageId, QtMobility::QMessage>::Node&) 0x0000ea81   Thumb Code    84  qdeclarativemessagemodel.o(t._ZN6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEE6unlinkERNS3_4NodeE)
+    QCache<QtMobility::QMessageId, QtMobility::QMessage>::~QCache() 0x0000ead5   Thumb Code    26  qdeclarativemessagemodel.o(t._ZN6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEED1Ev)
+    QCache<QtMobility::QMessageId, QtMobility::QMessage>::~QCache__sub_object() 0x0000ead5   Thumb Code     0  qdeclarativemessagemodel.o(t._ZN6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEED1Ev)
+    QPointer<QObject>::~QPointer()           0x0000eafb   Thumb Code    14  plugin.o(t._ZN8QPointerI7QObjectED1Ev)
+    QPointer<QObject>::~QPointer__sub_object() 0x0000eafb   Thumb Code     0  plugin.o(t._ZN8QPointerI7QObjectED1Ev)
+    QHashNode<QtMobility::QMessageId, QCache<QtMobility::QMessageId, QtMobility::QMessage>::Node>::QHashNode(const QtMobility::QMessageId&, const QCache<QtMobility::QMessageId, QtMobility::QMessage>::Node&) 0x0000eb09   Thumb Code    46  qdeclarativemessagemodel.o(t._ZN9QHashNodeIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEEC1ERKS1_RKS5_)
+    QHashNode<QtMobility::QMessageId, QCache<QtMobility::QMessageId, QtMobility::QMessage>::Node>::QHashNode__sub_object(const QtMobility::QMessageId&, const QCache<QtMobility::QMessageId, QtMobility::QMessage>::Node&) 0x0000eb09   Thumb Code     0  qdeclarativemessagemodel.o(t._ZN9QHashNodeIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEEC1ERKS1_RKS5_)
+    QHashNode<int, QByteArray>::QHashNode(int, const QByteArray&) 0x0000eb3b   Thumb Code    30  qdeclarativemessagemodel.o(t._ZN9QHashNodeIi10QByteArrayEC1EiRKS0_)
+    QHashNode<int, QByteArray>::QHashNode__sub_object(int, const QByteArray&) 0x0000eb3b   Thumb Code     0  qdeclarativemessagemodel.o(t._ZN9QHashNodeIi10QByteArrayEC1EiRKS0_)
+    QHash<QtMobility::QMessageId, QCache<QtMobility::QMessageId, QtMobility::QMessage>::Node>::const_iterator::operator ==(const QHash<QtMobility::QMessageId, QCache<QtMobility::QMessageId, QtMobility::QMessage>::Node>::const_iterator&) const 0x0000eb59   Thumb Code    18  qdeclarativemessagemodel.o(t._ZNK5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE14const_iteratoreqERKS7_)
+    QHash<QtMobility::QMessageId, QCache<QtMobility::QMessageId, QtMobility::QMessage>::Node>::findNode(const QtMobility::QMessageId&, unsigned*) const 0x0000eb6b   Thumb Code   116  qdeclarativemessagemodel.o(t._ZNK5QHashIN10QtMobility10QMessageIdEN6QCacheIS1_NS0_8QMessageEE4NodeEE8findNodeERKS1_Pj)
+    QHash<int, QByteArray>::findNode(const int&, unsigned*) const 0x0000ebdf   Thumb Code    94  qdeclarativemessagemodel.o(t._ZNK5QHashIi10QByteArrayE8findNodeERKiPj)
+    QList<QtMobility::QMessageId>::at(int) const 0x0000ec3d   Thumb Code    22  qdeclarativemessagemodel.o(t._ZNK5QListIN10QtMobility10QMessageIdEE2atEi)
+    QList<QtMobility::QMessageId>::count() const 0x0000ec53   Thumb Code    16  qdeclarativemessagemodel.o(t._ZNK5QListIN10QtMobility10QMessageIdEE5countEv)
+    QList<QtMobility::QMessageId>::contains(const QtMobility::QMessageId&) const 0x0000ec63   Thumb Code    72  qdeclarativemessagemodel.o(t._ZNK5QListIN10QtMobility10QMessageIdEE8containsERKS1_)
+    QList<QDeclarativeMessageFilterBase*>::at(int) const 0x0000ecab   Thumb Code    30  qdeclarativemessagefilter.o(t._ZNK5QListIP29QDeclarativeMessageFilterBaseE2atEi)
+    QList<QDeclarativeMessageFilterBase*>::count() const 0x0000ecc9   Thumb Code    16  qdeclarativemessagefilter.o(t._ZNK5QListIP29QDeclarativeMessageFilterBaseE5countEv)
+    QCache<QtMobility::QMessageId, QtMobility::QMessage>::object(const QtMobility::QMessageId&) const 0x0000ecd9   Thumb Code   126  qdeclarativemessagemodel.o(t._ZNK6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEE6objectERKS1_)
+    QCache<QtMobility::QMessageId, QtMobility::QMessage>::contains(const QtMobility::QMessageId&) const 0x0000ed57   Thumb Code    36  qdeclarativemessagemodel.o(t._ZNK6QCacheIN10QtMobility10QMessageIdENS0_8QMessageEE8containsERKS1_)
+    QDeclarativeMessageFilterBase::staticMetaObject 0x000102f8   Data          16  moc_qdeclarativemessagefilter.o(.constdata)
+    QDeclarativeMessageIntersectionFilter::staticMetaObject 0x00010308   Data          16  moc_qdeclarativemessagefilter.o(.constdata)
+    QDeclarativeMessageUnionFilter::staticMetaObject 0x00010318   Data          16  moc_qdeclarativemessagefilter.o(.constdata)
+    QDeclarativeMessageFilter::staticMetaObject 0x00010328   Data          16  moc_qdeclarativemessagefilter.o(.constdata)
+    QDeclarativeMessageModel::staticMetaObject 0x00010760   Data          16  moc_qdeclarativemessagemodel.o(.constdata)
+    MessageModelWorker::staticMetaObject     0x00010be4   Data          16  qdeclarativemessagemodel.o(.constdata)
+    QDeclarativeMessageModelPlugin::staticMetaObject 0x00010e9c   Data          16  plugin.o(.constdata)
+    stlp_priv::_Integer_limits<signed char, (signed char)-128, (signed char)127, (int)-1, (bool)1>::digits 0x00010eac   Data           4  moc_qdeclarativemessagefilter.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<bool, (bool)0, (bool)1, (int)1, (bool)0>::digits 0x00010eb0   Data           4  moc_qdeclarativemessagefilter.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    stlp_priv::_Integer_limits<char, (char)128, (char)127, (int)-1, (bool)1>::digits 0x00010eb4   Data           4  moc_qdeclarativemessagefilter.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned char, (unsigned char)0, (unsigned char)255, (int)-1, (bool)1>::digits 0x00010eb8   Data           4  moc_qdeclarativemessagefilter.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::digits 0x00010ebc   Data           4  moc_qdeclarativemessagefilter.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::is_signed 0x00010ec0   Data           1  moc_qdeclarativemessagefilter.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    stlp_priv::_Integer_limits<unsigned, (unsigned)0, (unsigned)4294967295, (int)-1, (bool)1>::digits 0x00010ec4   Data           4  moc_qdeclarativemessagefilter.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long, (long)-2147483648, (long)2147483647, (int)-1, (bool)1>::digits 0x00010ec8   Data           4  moc_qdeclarativemessagefilter.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long, (unsigned long)0, (unsigned long)4294967295, (int)-1, (bool)1>::digits 0x00010ecc   Data           4  moc_qdeclarativemessagefilter.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<short, (short)-32768, (short)32767, (int)-1, (bool)1>::digits 0x00010ed0   Data           4  moc_qdeclarativemessagefilter.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned short, (unsigned short)0, (unsigned short)65535, (int)-1, (bool)1>::digits 0x00010ed4   Data           4  moc_qdeclarativemessagefilter.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<wchar_t, (wchar_t)0, (wchar_t)65535, (int)-1, (bool)1>::digits 0x00010ed8   Data           4  moc_qdeclarativemessagefilter.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long long, (long long)-9223372036854775808, (long long)9223372036854775807, (int)-1, (bool)1>::digits 0x00010edc   Data           4  moc_qdeclarativemessagefilter.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long long, (unsigned long long)0, (unsigned long long)18446744073709551615, (int)-1, (bool)1>::digits 0x00010ee0   Data           4  moc_qdeclarativemessagefilter.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    typeinfo for MessageModelWorker          0x00010ee4   Data          12  qdeclarativemessagemodel.o(.constdata__ZTI18MessageModelWorker)
+    typeinfo for QDeclarativeMessageModel    0x00010ef0   Data          32  moc_qdeclarativemessagemodel.o(.constdata__ZTI24QDeclarativeMessageModel)
+    typeinfo for QDeclarativeMessageFilter   0x00010f10   Data          12  moc_qdeclarativemessagefilter.o(.constdata__ZTI25QDeclarativeMessageFilter)
+    typeinfo for QDeclarativeMessageFilterBase 0x00010f1c   Data          12  moc_qdeclarativemessagefilter.o(.constdata__ZTI29QDeclarativeMessageFilterBase)
+    typeinfo for QDeclarativeMessageModelPlugin 0x00010f28   Data          12  plugin.o(.constdata__ZTI30QDeclarativeMessageModelPlugin)
+    typeinfo for QDeclarativeMessageUnionFilter 0x00010f34   Data          12  moc_qdeclarativemessagefilter.o(.constdata__ZTI30QDeclarativeMessageUnionFilter)
+    typeinfo for QDeclarativeMessageIntersectionFilter 0x00010f40   Data          12  moc_qdeclarativemessagefilter.o(.constdata__ZTI37QDeclarativeMessageIntersectionFilter)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QDeclarativeMessageModel> 0x00010f4c   Data          12  plugin.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI24QDeclarativeMessageModelEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QDeclarativeMessageFilter> 0x00010f58   Data          12  plugin.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI25QDeclarativeMessageFilterEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QDeclarativeMessageUnionFilter> 0x00010f64   Data          12  plugin.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI30QDeclarativeMessageUnionFilterEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QDeclarativeMessageIntersectionFilter> 0x00010f70   Data          12  plugin.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI37QDeclarativeMessageIntersectionFilterEE)
+    typeinfo name for MessageModelWorker     0x00010f7c   Data          21  qdeclarativemessagemodel.o(.constdata__ZTS18MessageModelWorker)
+    typeinfo name for QDeclarativeMessageModel 0x00010f91   Data          27  moc_qdeclarativemessagemodel.o(.constdata__ZTS24QDeclarativeMessageModel)
+    typeinfo name for QDeclarativeMessageFilter 0x00010fac   Data          28  moc_qdeclarativemessagefilter.o(.constdata__ZTS25QDeclarativeMessageFilter)
+    typeinfo name for QDeclarativeMessageFilterBase 0x00010fc8   Data          32  moc_qdeclarativemessagefilter.o(.constdata__ZTS29QDeclarativeMessageFilterBase)
+    typeinfo name for QDeclarativeMessageModelPlugin 0x00010fe8   Data          33  plugin.o(.constdata__ZTS30QDeclarativeMessageModelPlugin)
+    typeinfo name for QDeclarativeMessageUnionFilter 0x00011009   Data          33  moc_qdeclarativemessagefilter.o(.constdata__ZTS30QDeclarativeMessageUnionFilter)
+    typeinfo name for QDeclarativeMessageIntersectionFilter 0x0001102a   Data          40  moc_qdeclarativemessagefilter.o(.constdata__ZTS37QDeclarativeMessageIntersectionFilter)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QDeclarativeMessageModel> 0x00011052   Data          73  plugin.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI24QDeclarativeMessageModelEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QDeclarativeMessageFilter> 0x0001109b   Data          74  plugin.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI25QDeclarativeMessageFilterEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QDeclarativeMessageUnionFilter> 0x000110e5   Data          79  plugin.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI30QDeclarativeMessageUnionFilterEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QDeclarativeMessageIntersectionFilter> 0x00011134   Data          86  plugin.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI37QDeclarativeMessageIntersectionFilterEE)
+    vtable for MessageModelWorker            0x0001118c   Data          56  qdeclarativemessagemodel.o(.constdata__ZTV18MessageModelWorker)
+    vtable for QDeclarativeMessageModel      0x000111c4   Data         200  moc_qdeclarativemessagemodel.o(.constdata__ZTV24QDeclarativeMessageModel)
+    vtable for QDeclarativeMessageFilter     0x0001128c   Data          60  moc_qdeclarativemessagefilter.o(.constdata__ZTV25QDeclarativeMessageFilter)
+    vtable for QDeclarativeMessageFilterBase 0x000112c8   Data          60  moc_qdeclarativemessagefilter.o(.constdata__ZTV29QDeclarativeMessageFilterBase)
+    vtable for QDeclarativeMessageModelPlugin 0x00011304   Data          88  plugin.o(.constdata__ZTV30QDeclarativeMessageModelPlugin)
+    vtable for QDeclarativeMessageUnionFilter 0x0001135c   Data          60  moc_qdeclarativemessagefilter.o(.constdata__ZTV30QDeclarativeMessageUnionFilter)
+    vtable for QDeclarativeMessageIntersectionFilter 0x00011398   Data          60  moc_qdeclarativemessagefilter.o(.constdata__ZTV37QDeclarativeMessageIntersectionFilter)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QDeclarativeMessageModel> 0x000113d4   Data         200  plugin.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI24QDeclarativeMessageModelEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QDeclarativeMessageFilter> 0x0001149c   Data          60  plugin.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI25QDeclarativeMessageFilterEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QDeclarativeMessageUnionFilter> 0x000114d8   Data          60  plugin.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI30QDeclarativeMessageUnionFilterEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QDeclarativeMessageIntersectionFilter> 0x00011514   Data          60  plugin.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI37QDeclarativeMessageIntersectionFilterEE)
+    .ARM.exidx$$Base                         0x000116cc   Number         0  ucppinit.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x00011eec   Number         0  qdeclarativemessagemodel.o(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x00011eec   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    __dso_handle                             0x00400008   Data           4  ucppfini.o(.data)
+    std::_Atomic_swap_struct<(int)1>::_S_swap_lock 0x0040000c   Data          12  moc_qdeclarativemessagefilter.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    QMetaTypeId<QDeclarativeListProperty<QDeclarativeMessageModel>>::qt_metatype_id()::metatype_id 0x00400018   Data           4  plugin.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI24QDeclarativeMessageModelEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeListProperty<QDeclarativeMessageFilter>>::qt_metatype_id()::metatype_id 0x0040001c   Data           4  plugin.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI25QDeclarativeMessageFilterEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeListProperty<QDeclarativeMessageFilterBase>>::qt_metatype_id()::metatype_id 0x00400020   Data           4  plugin.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI29QDeclarativeMessageFilterBaseEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeListProperty<QDeclarativeMessageUnionFilter>>::qt_metatype_id()::metatype_id 0x00400024   Data           4  plugin.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI30QDeclarativeMessageUnionFilterEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeListProperty<QDeclarativeMessageIntersectionFilter>>::qt_metatype_id()::metatype_id 0x00400028   Data           4  plugin.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI37QDeclarativeMessageIntersectionFilterEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QtMobility::QMessageId>::qt_metatype_id()::metatype_id 0x0040002c   Data           4  plugin.o(.data__ZZN11QMetaTypeIdIN10QtMobility10QMessageIdEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeMessageModel*>::qt_metatype_id()::metatype_id 0x00400030   Data           4  plugin.o(.data__ZZN11QMetaTypeIdIP24QDeclarativeMessageModelE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeMessageFilter*>::qt_metatype_id()::metatype_id 0x00400034   Data           4  plugin.o(.data__ZZN11QMetaTypeIdIP25QDeclarativeMessageFilterE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeMessageFilterBase*>::qt_metatype_id()::metatype_id 0x00400038   Data           4  plugin.o(.data__ZZN11QMetaTypeIdIP29QDeclarativeMessageFilterBaseE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeMessageUnionFilter*>::qt_metatype_id()::metatype_id 0x0040003c   Data           4  plugin.o(.data__ZZN11QMetaTypeIdIP30QDeclarativeMessageUnionFilterE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeMessageIntersectionFilter*>::qt_metatype_id()::metatype_id 0x00400040   Data           4  plugin.o(.data__ZZN11QMetaTypeIdIP37QDeclarativeMessageIntersectionFilterE14qt_metatype_idEvE11metatype_id)
+    dtor_rec                                 0x00400044   Data        2048  ucppfini.o(.bss)
+

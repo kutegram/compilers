@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    PrimitiveTypes.xsd
+    XML Schema File with definitions of primitive types used
+    in Symbian OS
+    
+    Copyright (c) 2003, Symbian Ltd.
+    All Rights Reserved
+-->
+<xsd:schema elementFormDefault="qualified" xmlns="SymbianOS.Generic.Primitives" 
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <!--
+          Symbian "Text" primitive
+      -->
+      <xsd:simpleType name="Text">
+            <xsd:restriction base="xsd:string"/>
+      </xsd:simpleType>
+      <!--
+          Symbian "TUint32" primitive
+      -->
+      <xsd:simpleType name="TUint32">
+            <xsd:restriction base="xsd:long">
+                  <xsd:minInclusive value="-1"/>
+                  <xsd:maxInclusive value="4294967295"/>
+            </xsd:restriction>
+      </xsd:simpleType>
+      <!--
+          Symbian "TUint8" primitive
+      -->
+      <xsd:simpleType name="TUint8">
+            <xsd:restriction base="xsd:long">
+                  <xsd:minInclusive value="0"/>
+                  <xsd:maxInclusive value="256"/>
+            </xsd:restriction>
+      </xsd:simpleType>
+      <!--
+          Symbian "TBool" primitive
+      -->
+      <xsd:simpleType name="TBool">
+            <xsd:restriction base="xsd:string">
+                  <xsd:enumeration value="TRUE"/>
+                  <xsd:enumeration value="FALSE"/>
+            </xsd:restriction>
+      </xsd:simpleType>
+</xsd:schema>

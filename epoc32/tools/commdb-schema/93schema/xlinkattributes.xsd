@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    XLinkAttributes.xsd
+    XML Schema with the definitions of the
+    XLink attributes used in CommDB
+    
+    Copyright (c) 2003, Symbian Ltd.
+    All Rights Reserved
+-->
+<xsd:schema elementFormDefault="qualified" targetNamespace="http://www.w3.org/1999/xlink"
+      xmlns="http://www.w3.org/1999/xlink" xmlns:xlink="http://www.w3.org/1999/xlink" 
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <!--
+          Definition of the TypeEnum type
+      -->
+      <xsd:simpleType name="TypeEnum">
+            <xsd:restriction base="xsd:string">
+                  <xsd:enumeration value="simple"/>
+                  <xsd:enumeration value="extended"/>
+                  <xsd:enumeration value="locator"/>
+                  <xsd:enumeration value="arc"/>
+                  <xsd:enumeration value="resource"/>
+                  <xsd:enumeration value="title"/>
+            </xsd:restriction>
+      </xsd:simpleType>
+      <!-- 
+            Definition of XLink attributes
+      -->
+      <xsd:attribute name="href" type="xsd:anyURI"/>
+      <xsd:attribute name="title" type="xsd:string"/>
+      <xsd:attribute name="role" type="xsd:QName"/>
+      <xsd:attribute name="type" type="TypeEnum"/>
+</xsd:schema>

@@ -1,0 +1,140 @@
+// MTMUIDEF.HRH
+//
+// Copyright (c) 1998-2007 Symbian Ltd.  All rights reserved.
+//
+
+/**
+* @file
+* @publishedAll
+* 
+*/
+// Function ids
+
+/**
+* @publishedPartner
+* 
+*/
+#define KMtmUiFunctionPrint			 				0x200000	// KMtmFirstFreeMtmFunctionId + 0x100000
+/**
+* @publishedPartner
+* 
+*/
+#define KMtmUiFunctionPrintPreview	 				0x200001
+/**
+* @publishedPartner
+* 
+*/
+#define KMtmUiMessagingInitialisation	 			0x200002
+/**
+* @publishedPartner
+* 
+*/
+#define KMtmUiFunctionGetNew						0x200003
+/**
+* @publishedPartner
+* 
+*/
+#define KMtmUiFunctionSendAs						0x200004
+/**
+* @publishedPartner
+* 
+*/
+#define KMtmUiFunctionFetchAll						0x200005
+/**
+* @publishedPartner
+* 
+*/
+#define KMtmUiFunctionFetchNew						0x200006
+/**
+* @publishedPartner
+* 
+*/
+#define KMtmUiFunctionFetchSelected					0x200007
+/**
+* @internalComponent
+* 
+*/
+#define KMtmFirstFreeMtmUiFunctionId 				0x201000	
+/**
+* @publishedPartner
+* 
+*/
+
+// Capabilities 
+/**
+* @publishedPartner
+* 
+*/
+#define KUidMsvMtmUiQueryCanPrintMsgValue			0x100017FF	
+/**
+* @publishedPartner
+* 
+*/
+#define KUidMsvMtmUiQueryCanPrintPreviewMsgValue	0x1000182D
+/**
+* @publishedPartner
+* 
+*/
+#define KUidMsvMtmUiQueryConnectionOrientedServices	0x100038EC
+/**
+* @publishedPartner
+* 
+*/
+#define KUidMsvMtmUiQueryMessagingInitialisation	0x1000484E
+/**
+* @publishedPartner
+* 
+*/
+#define KUidMsvMtmUiQueryServiceAttributes			0x10004F4D
+/**
+* @publishedPartner
+* 
+*/
+#define KUidMsvMtmUiQueryCanGetNew					0x100055A7
+/**
+* @publishedPartner
+* 
+*/
+#define KUidMsvMtmUiQueryCanOpenServiceOnAction		0x100055A8
+/**
+* @publishedPartner
+* 
+*/
+#define KUidMsvMtmUiQueryExtendedOpenProgress		0x1000560E
+/**
+* @publishedPartner
+* 
+*/
+
+// Flags for KUidMsvMtmUiQueryServiceAttributes
+/**
+* @publishedPartner
+* 
+*/
+#define	EMtmUiAttributeLaunchingService				0x0001
+/**
+* @publishedPartner
+* 
+*/
+#define	EMtmUiAttributeContainerService				0x0002
+/**
+* @publishedPartner
+* 
+*/
+#define	EMtmUiAttributeConnectionOrientedService	0x0004
+/**
+* @publishedPartner
+* 
+*/
+
+// Preferences
+/**
+* @publishedPartner
+* 
+*/
+#define EMtmUiFlagEditorPreferEmbedded				0x0001
+/**
+* @publishedPartner
+* 
+*/
+#define EMtmUiFlagEditorNoWaitForExit				0x0002

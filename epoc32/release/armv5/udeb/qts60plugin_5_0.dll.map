@@ -1,0 +1,184 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../../unhosted.s                         0x00000000   Number         0  switch8.o ABSOLUTE
+    M:\\epoc32\\build\\euser\\c_e18a23aea4fd210f\\edll_lib\\armv5\\udeb\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\\sf\\os\\kernelhwsrv\\kernel\\eka\\compsupp\\rvct\\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\epoc32\build\euser\c_e18a23aea4fd210f\edll_lib\armv5\udeb\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\dllexp.cpp 0x00000000   Number         0  dllexp.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    S:\sf\mw\qt\src\plugins\s60\src\qcoreapplication_3_2.cpp 0x00000000   Number         0  qcoreapplication_3_2.o ABSOLUTE
+    S:\sf\mw\qt\src\plugins\s60\src\qdesktopservices_3_2.cpp 0x00000000   Number         0  qdesktopservices_3_2.o ABSOLUTE
+    S:\sf\mw\qt\src\plugins\s60\src\qlocale_3_2.cpp 0x00000000   Number         0  qlocale_3_2.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    Symbian$$eit_base                        0x00008014   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$eit_limit                       0x00008018   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_base                   0x0000801c   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_limit                  0x00008020   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$reserved                        0x00008024   Data           4  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       52  ucppinit.o(.emb_text)
+    loop                                     0x0000803c   ARM Code       0  ucppinit.o(.emb_text)
+    ret                                      0x00008044   ARM Code       0  ucppinit.o(.emb_text)
+    base                                     0x00008054   Data           0  ucppinit.o(.emb_text)
+    limit                                    0x00008058   Data           0  ucppinit.o(.emb_text)
+    .text                                    0x0000815c   Section       72  qlocale_3_2.o(.text)
+    .text                                    0x000081a4   Section      266  qdesktopservices_3_2.o(.text)
+    .text                                    0x000082ae   Section       10  qcoreapplication_3_2.o(.text)
+    .text                                    0x000082b8   Section       24  switch8.o(.text)
+    .text                                    0x000082d0   Section       80  uc_dll.o(.text)
+    .text                                    0x00008320   Section        4  dllexp.o(.text)
+    .text.clean                              0x00008324   Section       54  qdesktopservices_3_2.o(.text.clean)
+    i._ZN7QStringC1Ev                        0x0000835c   Section       36  qdesktopservices_3_2.o(i._ZN7QStringC1Ev)
+    i._ZN7QStringD1Ev                        0x00008380   Section       38  qdesktopservices_3_2.o(i._ZN7QStringD1Ev)
+    .extab._Z22localizedDirectoryNameR7QString 0x000083a8   Data           0  qdesktopservices_3_2.o(.ARM.extab)
+    .constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE 0x00008444   Section        4  qdesktopservices_3_2.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE 0x00008448   Section        4  qdesktopservices_3_2.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE 0x0000844c   Section        4  qdesktopservices_3_2.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE 0x00008450   Section        4  qdesktopservices_3_2.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE 0x00008454   Section        4  qdesktopservices_3_2.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE 0x00008458   Section        1  qdesktopservices_3_2.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE 0x0000845c   Section        4  qdesktopservices_3_2.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE 0x00008460   Section        4  qdesktopservices_3_2.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE 0x00008464   Section        4  qdesktopservices_3_2.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE 0x00008468   Section        4  qdesktopservices_3_2.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE 0x0000846c   Section        4  qdesktopservices_3_2.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE 0x00008470   Section        4  qdesktopservices_3_2.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE 0x00008474   Section        4  qdesktopservices_3_2.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE 0x00008478   Section        4  qdesktopservices_3_2.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    .ARM.exidx                               0x0000847c   Section        8  ucppinit.o(.ARM.exidx)
+    .data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE 0x00400000   Section       12  qdesktopservices_3_2.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$VFPv2$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$IEEEJ$EBA8$UX$FPIC$INDIRECT$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    DirectoryLocalizer{000a0000}[1000fc55].dll 0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtCore{00040703}[2001b2dc].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    efsrv{000a0000}[100039e4].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    euser{000a0000}[100039e5].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    qts60plugin_5_0{00040703}[2001e622].dll  0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    stdnew{000a0000}[20022178].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    qt_TDesC2QString(const TDesC16&)          - Undefined Reference
+    _Z16qt_TDesC2QStringRK7TDesC16@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qt_symbian_exception2Error(const std::exception&)  - Undefined Reference
+    _Z26qt_symbian_exception2ErrorRKSt9exception@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    CleanupStack::PopAndDestroy()             - Undefined Reference
+    _ZN12CleanupStack13PopAndDestroyEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CleanupStack::Check(void*)                - Undefined Reference
+    _ZN12CleanupStack5CheckEPv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CleanupStack::PushL(CBase*)               - Undefined Reference
+    _ZN12CleanupStack5PushLEP5CBase@euser{000a0000}[100039e5].dll  - Undefined Reference
+    TExtendedLocale::GetTimeFormatSpec()      - Undefined Reference
+    _ZN15TExtendedLocale17GetTimeFormatSpecEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    TExtendedLocale::GetLongDateFormatSpec()  - Undefined Reference
+    _ZN15TExtendedLocale21GetLongDateFormatSpecEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    TExtendedLocale::GetShortDateFormatSpec()  - Undefined Reference
+    _ZN15TExtendedLocale22GetShortDateFormatSpecEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CDirectoryLocalizer::SetFullPath(const TDesC16&)  - Undefined Reference
+    _ZN19CDirectoryLocalizer11SetFullPathERK7TDesC16@DirectoryLocalizer{000a0000}[1000fc55].dll  - Undefined Reference
+    CDirectoryLocalizer::NewL()               - Undefined Reference
+    _ZN19CDirectoryLocalizer4NewLEv@DirectoryLocalizer{000a0000}[1000fc55].dll  - Undefined Reference
+    RFs::GetSystemDrive()                     - Undefined Reference
+    _ZN3RFs14GetSystemDriveEv@efsrv{000a0000}[100039e4].dll  - Undefined Reference
+    QDir::toNativeSeparators(const QString&)  - Undefined Reference
+    _ZN4QDir18toNativeSeparatorsERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    User::LeaveIfError(int)                   - Undefined Reference
+    _ZN4User12LeaveIfErrorEi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::MarkCleanupStack()                  - Undefined Reference
+    _ZN4User16MarkCleanupStackEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::UnMarkCleanupStack(TTrapHandler*)   - Undefined Reference
+    _ZN4User18UnMarkCleanupStackEP12TTrapHandler@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::Invariant()                         - Undefined Reference
+    _ZN4User9InvariantEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::LockedDec(int&)                     - Undefined Reference
+    _ZN4User9LockedDecERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::LockedInc(int&)                     - Undefined Reference
+    _ZN4User9LockedIncERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QString::shared_null                      - Undefined Reference
+    _ZN7QString11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::free(QString::Data*)             - Undefined Reference
+    _ZN7QString4freeEPNS_4DataE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::operator =(const QString&)       - Undefined Reference
+    _ZN7QStringaSERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    TPtrC16::TPtrC16(const unsigned short*, int)  - Undefined Reference
+    _ZN7TPtrC16C1EPKti@euser{000a0000}[100039e5].dll  - Undefined Reference
+    TPtrC16::TPtrC16(const TDesC16&)          - Undefined Reference
+    _ZN7TPtrC16C1ERK7TDesC16@euser{000a0000}[100039e5].dll  - Undefined Reference
+    XLeaveException::GetReason() const        - Undefined Reference
+    _ZNK15XLeaveException9GetReasonEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CDirectoryLocalizer::IsLocalized() const  - Undefined Reference
+    _ZNK19CDirectoryLocalizer11IsLocalizedEv@DirectoryLocalizer{000a0000}[1000fc55].dll  - Undefined Reference
+    CDirectoryLocalizer::LocalizedName() const  - Undefined Reference
+    _ZNK19CDirectoryLocalizer13LocalizedNameEv@DirectoryLocalizer{000a0000}[1000fc55].dll  - Undefined Reference
+    TTime::FormatL(TDes16&, const TDesC16&, const TLocale&) const  - Undefined Reference
+    _ZNK5TTime7FormatLER6TDes16RK7TDesC16RK7TLocale@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QString::utf16() const                    - Undefined Reference
+    _ZNK7QString5utf16Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    std::exception::exception()               - Undefined Reference
+    _ZNSt9exceptionC1Ev@stdnew{000a0000}[20022178].dll  - Undefined Reference
+    std::exception::~exception()              - Undefined Reference
+    _ZNSt9exceptionD1Ev@stdnew{000a0000}[20022178].dll  - Undefined Reference
+    typeinfo for XLeaveException              - Undefined Reference
+    _ZTI15XLeaveException@drtaeabi{000a0000}.dll  - Undefined Reference
+    typeinfo for std::exception               - Undefined Reference
+    _ZTISt9exception@stdnew{000a0000}[20022178].dll  - Undefined Reference
+    __aeabi_unwind_cpp_pr0                    - Undefined Reference
+    __aeabi_unwind_cpp_pr0@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_begin_catch                         - Undefined Reference
+    __cxa_begin_catch@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_end_catch                           - Undefined Reference
+    __cxa_end_catch@drtaeabi{000a0000}.dll    - Undefined Reference
+    __cxa_end_cleanup                         - Undefined Reference
+    __cxa_end_cleanup@drtaeabi{000a0000}.dll  - Undefined Reference
+    run_static_dtors                          - Undefined Weak Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      52  ucppinit.o(.emb_text)
+    std::nothrow                             0x0000805c   ARM Code       0  ucppinit.o(.emb_text)
+    __PLT                                    0x0000805c   ARM Code       0  anon$$obj.o(.plt)
+    defaultGetLongDateFormatSpec(TExtendedLocale&) 0x0000815d   Thumb Code    16  qlocale_3_2.o(.text)
+    defaultGetShortDateFormatSpec(TExtendedLocale&) 0x0000816d   Thumb Code    16  qlocale_3_2.o(.text)
+    defaultGetTimeFormatSpec(TExtendedLocale&) 0x0000817d   Thumb Code    16  qlocale_3_2.o(.text)
+    defaultFormatL(TTime&, TDes16&, const TDesC16&, const TLocale&) 0x0000818d   Thumb Code    24  qlocale_3_2.o(.text)
+    localizedDirectoryName(QString&)         0x000081a5   Thumb Code   266  qdesktopservices_3_2.o(.text)
+    systemDrive(RFs&)                        0x000082af   Thumb Code    10  qcoreapplication_3_2.o(.text)
+    __ARM_switch8                            0x000082b8   ARM Code      24  switch8.o(.text)
+    __rt_switch8                             0x000082b8   ARM Code       0  switch8.o(.text)
+    _E32Dll_Body                             0x000082d0   ARM Code      76  uc_dll.o(.text)
+    __DLL_Export_Table__                     0x00008320   ARM Code       4  dllexp.o(.text)
+    QString::QString()                       0x0000835d   Thumb Code    30  qdesktopservices_3_2.o(i._ZN7QStringC1Ev)
+    QString::QString__sub_object()           0x0000835d   Thumb Code     0  qdesktopservices_3_2.o(i._ZN7QStringC1Ev)
+    QString::~QString()                      0x00008381   Thumb Code    38  qdesktopservices_3_2.o(i._ZN7QStringD1Ev)
+    QString::~QString__sub_object()          0x00008381   Thumb Code     0  qdesktopservices_3_2.o(i._ZN7QStringD1Ev)
+    stlp_priv::_Integer_limits<signed char, (signed char)-128, (signed char)127, (int)-1, (bool)1>::digits 0x00008444   Data           4  qdesktopservices_3_2.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<bool, (bool)0, (bool)1, (int)1, (bool)0>::digits 0x00008448   Data           4  qdesktopservices_3_2.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    stlp_priv::_Integer_limits<char, (char)128, (char)127, (int)-1, (bool)1>::digits 0x0000844c   Data           4  qdesktopservices_3_2.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned char, (unsigned char)0, (unsigned char)255, (int)-1, (bool)1>::digits 0x00008450   Data           4  qdesktopservices_3_2.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::digits 0x00008454   Data           4  qdesktopservices_3_2.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::is_signed 0x00008458   Data           1  qdesktopservices_3_2.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    stlp_priv::_Integer_limits<unsigned, (unsigned)0, (unsigned)4294967295, (int)-1, (bool)1>::digits 0x0000845c   Data           4  qdesktopservices_3_2.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long, (long)-2147483648, (long)2147483647, (int)-1, (bool)1>::digits 0x00008460   Data           4  qdesktopservices_3_2.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long, (unsigned long)0, (unsigned long)4294967295, (int)-1, (bool)1>::digits 0x00008464   Data           4  qdesktopservices_3_2.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<short, (short)-32768, (short)32767, (int)-1, (bool)1>::digits 0x00008468   Data           4  qdesktopservices_3_2.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned short, (unsigned short)0, (unsigned short)65535, (int)-1, (bool)1>::digits 0x0000846c   Data           4  qdesktopservices_3_2.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<wchar_t, (wchar_t)0, (wchar_t)65535, (int)-1, (bool)1>::digits 0x00008470   Data           4  qdesktopservices_3_2.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long long, (long long)-9223372036854775808, (long long)9223372036854775807, (int)-1, (bool)1>::digits 0x00008474   Data           4  qdesktopservices_3_2.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long long, (unsigned long long)0, (unsigned long long)18446744073709551615, (int)-1, (bool)1>::digits 0x00008478   Data           4  qdesktopservices_3_2.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    .ARM.exidx$$Base                         0x0000847c   Number         0  ucppinit.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x000084b4   Number         0  qdesktopservices_3_2.o(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x000084b4   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    std::_Atomic_swap_struct<(int)1>::_S_swap_lock 0x00400000   Data          12  qdesktopservices_3_2.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+

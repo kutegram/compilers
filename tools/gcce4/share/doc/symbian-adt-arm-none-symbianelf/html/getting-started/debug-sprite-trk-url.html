@@ -1,0 +1,42 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>5.4. SymbianOS TRK Interface</title><link rel="stylesheet" href="cs.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.74.0"><link rel="home" href="index.html" title="Symbian ADT Sourcery G++ Lite"><link rel="up" href="sprite.html" title="Chapter 5. Sourcery G++ Debug Sprite"><link rel="prev" href="sec-sprite-options.html" title="5.3. Sourcery G++ Debug Sprite Options"><link rel="next" href="ch05s05.html" title="5.5. Debugging a Remote Board"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">5.4. SymbianOS TRK Interface</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="sec-sprite-options.html">Prev</a> </td><th width="60%" align="center">Chapter 5. Sourcery G++ Debug Sprite</th><td width="20%" align="right"> <a accesskey="n" href="ch05s05.html">Next</a></td></tr></table><hr></div><div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="debug-sprite-trk-url"></a>5.4. SymbianOS TRK Interface</h2></div></div></div><p>
+  The Debug Sprite supports debugging SymbianOS programs via the
+  Target Resident Kernel (TRK) interface.  The
+  <em class="replaceable"><code>device-url</code></em> is:
+
+  </p><pre class="screen">trk://<em class="replaceable"><code>host</code></em>[:<em class="replaceable"><code>port</code></em>][/<em class="replaceable"><code>target-program</code></em>]</pre><p>
+
+  The <em class="replaceable"><code>host</code></em> and
+  <em class="replaceable"><code>port</code></em> indicate the TRK server location.
+  The <em class="replaceable"><code>target-program</code></em> specifies the location
+  of the program you wish to debug, on the remote target's file
+  system.
+  </p><p>
+  In order to connect the Debug Sprite to the SymbianOS system,
+  you must start the SymbianOS debug server on your target.  Enter the
+  following in your target console:
+
+   </p><pre class="screen">&gt; trkconsole</pre><p>
+  </p><p>
+  For example, if you started a platform simulator with the
+  <code class="literal">-serial tcp:127.0.0.1:5555,server,nowait</code> option
+  (see <a class="xref" href="qemu-platform.html" title="4.3. Running Applications with QEMU Platform Emulator">Section 4.3, &#8220;Running Applications with QEMU Platform Emulator&#8221;</a> for how to start the QEMU
+  simulator) you can invoke the Debug Sprite on the same host with the
+  following command from GDB:
+
+  </p><pre class="screen">(gdb) target extended-remote | \
+    arm-none-symbianelf-sprite trk://127.0.0.1:5555 symbian</pre><p>
+
+  Then use the following commands to copy your program to the target,
+  and start it:
+
+  </p><pre class="screen">(gdb) remote put <em class="replaceable"><code>program</code></em>.exe "\\sys\\bin\\<em class="replaceable"><code>program</code></em>.exe"
+...
+(gdb) set remote exec-file \sys\bin\<em class="replaceable"><code>program</code></em>.exe
+...
+(gdb) run</pre><p>
+
+  The different quoting in the <code class="command">remote put</code> and the
+  <code class="command">set remote exec-file</code> commands is deliberate.
+  Normal SymbianOS kernels can only run programs from the
+  <code class="filename">\sys\bin</code> directory.
+  </p></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="sec-sprite-options.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="sprite.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="ch05s05.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">5.3. Sourcery G++ Debug Sprite Options </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> 5.5. Debugging a Remote Board</td></tr></table></div></body></html>

@@ -1,0 +1,126 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>3.14. Audio Device</title><link rel="stylesheet" href="cs.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.74.0"><link rel="home" href="index.html" title="Symbian ADT Sourcery G++ Lite"><link rel="up" href="chap-devices.html" title="Chapter 3. Base Platform Devices"><link rel="prev" href="ch03s13.html" title="3.13. NAND Flash Device"><link rel="next" href="chap-virtio.html" title="Chapter 4. Virtio"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">3.14. Audio Device</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ch03s13.html">Prev</a> </td><th width="60%" align="center">Chapter 3. Base Platform Devices</th><td width="20%" align="right"> <a accesskey="n" href="chap-virtio.html">Next</a></td></tr></table><hr></div><div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="id370898"></a>3.14. Audio Device</h2></div></div></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id370903"></a>3.14.1. Description</h3></div></div></div><p>
+    This device provides audio playback and recording.  It is based on
+    the Linux virtio-net interface.  For details of the Virtio interface
+    see <a class="xref" href="chap-virtio.html" title="Chapter 4. Virtio">Chapter 4, &#8220;Virtio&#8221;</a>.
+   </p><p>
+    Three Virtio queues are used.  The first queue is a command queue, used
+    to configure the device.  The remaining queues form two independent
+    audio streams.  Each stream can be configured for either
+    output (playback) or input (recording).
+   </p><p>
+    Each stream queue transfers sample data to/from the associated stream.
+    Sample data is organised in frames, with each frame containing one
+    sample for each channel.
+   </p><p>
+    This first 256 bytes of device address space is control registers, as
+    with other devices.  Offsets from 0x100 onwards provide access to the
+    virtio-net config space, and accepts accesses of any size.
+   </p></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id370934"></a>3.14.2. Configuration Commands</h3></div></div></div><p>
+    The device is configured by placing commands in the command queue.
+    A command is 12 bytes long, represented by the following structure:
+</p><pre class="programlisting">struct virtio_audio_cmd
+{
+  uint32_t command;
+  uint32_t stream;
+  uint32_t arg;
+};</pre><p>
+    Each command applied to a single stream.  The meaning of the argument
+    is dependent on the command.  Multiple commands may be submitted in a
+    single request.  Some commands write a result value, others simply
+    effect stream operation.
+   </p><p>
+    </p><div class="table"><a name="id370954"></a><p class="title"><b>Table 3.13. Audio Device commands</b></p><div class="table-contents"><table summary="Audio Device commands" border="1"><colgroup><col><col><col></colgroup><thead><tr><th>Command</th><th>value</th><th>Description</th></tr></thead><tbody><tr><td>Set Endian</td><td>1</td><td>
+         <p>
+          Set the endianess of sample data.
+          </p><div class="variablelist"><dl><dt><span class="term">arg=0</span></dt><dd>Little endian</dd><dt><span class="term">arg=1</span></dt><dd>Big endian</dd></dl></div><p>
+         </p>
+        </td></tr><tr><td>Set Channels</td><td>2</td><td>
+         <p>
+          Set the number of channels.
+          </p><div class="variablelist"><dl><dt><span class="term">1</span></dt><dd>Mono</dd><dt><span class="term">2</span></dt><dd>Stereo</dd></dl></div><p>
+         </p>
+        </td></tr><tr><td>Set Format</td><td>3</td><td>
+         <p>
+          Set the sample format.
+          </p><div class="variablelist"><dl><dt><span class="term">0</span></dt><dd>Unsigned 8-integer</dd><dt><span class="term">1</span></dt><dd>Signed 8-bit integer</dd><dt><span class="term">2</span></dt><dd>Unsigned 16-integer</dd><dt><span class="term">3</span></dt><dd>Signed 16-bit integer</dd><dt><span class="term">4</span></dt><dd>Unsigned 32-integer</dd><dt><span class="term">5</span></dt><dd>Signed 32-bit integer</dd></dl></div><p>
+         </p>
+        </td></tr><tr><td>Set Frequency</td><td>4</td><td>
+         <p>
+          Set the number of frames per second.
+         </p>
+        </td></tr><tr><td>Init</td><td>5</td><td>
+         <p>
+          Prepare a stream for operation.  This should be done after
+          setting the sample format and frequency, and before setting
+          the stream running.
+          </p><div class="variablelist"><dl><dt><span class="term">0</span></dt><dd>Stream is receiving data (capture)</dd><dt><span class="term">1</span></dt><dd>Stream is sending data (playback)</dd></dl></div><p>
+         </p>
+         <p>
+          This command returns a 32-bit integer specifying the size in
+          bytes of the hardware buffer associated with this stream.  This
+          value may be zero if the size is not known.
+         </p>
+        </td></tr><tr><td>Run</td><td>6</td><td>
+         <p>
+          Start for stop stream operation.
+          </p><div class="variablelist"><dl><dt><span class="term">0</span></dt><dd>Stop stream</dd><dt><span class="term">1</span></dt><dd>Start stream</dd></dl></div><p>
+         </p>
+        </td></tr></tbody></table></div></div><p><br class="table-break">
+   </p></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id371234"></a>3.14.3. Device Properties</h3></div></div></div><div class="variablelist"><dl><dt><span class="term"><code class="literal">compatible</code></span></dt><dd><code class="literal">syborg,virtio-audio</code></dd></dl></div></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id371262"></a>3.14.4. Registers</h3></div></div></div><p>
+    </p><div class="table"><a name="id371269"></a><p class="title"><b>Table 3.14. Audio Device Registers</b></p><div class="table-contents"><table summary="Audio Device Registers" border="1"><colgroup><col><col><col><col><col></colgroup><thead><tr><th>Offset</th><th>Access</th><th>Reset</th><th>Name</th><th>Description</th></tr></thead><tbody><tr><td>0x000</td><td>R</td><td>0xc51d000a</td><td>ID</td><td><p>
+          Peripheral ID.
+        </p></td></tr><tr><td>0x004</td><td>R</td><td>0x0000ffff</td><td>DEVTYPE</td><td><p>
+          Virtio device ID.
+        </p></td></tr><tr><td>0x008</td><td>R</td><td>impl def</td><td>HOST_FEATURES</td><td><p>
+          For future expansion.  Allows the device to expose a set of
+          feature bits.
+        </p></td></tr><tr><td>0x00c</td><td>RW</td><td>0x00000000</td><td>GUEST_FEATURES</td><td><p>
+          For future expansion.  Allows the driver to acknowledge support for
+          a set of features.
+        </p></td></tr><tr><td>0x010</td><td>RW</td><td>0x00000000</td><td>QUEUE_BASE</td><td><p>
+          Set the address of the selected virtqueue.  Should be aligned on
+          a 4k boundary.
+        </p></td></tr><tr><td>0x014</td><td>R</td><td>impl def</td><td>QUEUE_NUM</td><td><p>
+          The size of the selected virtqueue ring.  Will be zero for
+          unimplemented queues.
+        </p></td></tr><tr><td>0x018</td><td>RW</td><td>0x00000000</td><td>QUEUE_SEL</td><td><p>
+          Select which virtqueue is accesses by the
+          <code class="literal">QUEUE_BASE</code> and <code class="literal">QUEUE_NUM</code>
+          registers.  Writing a value of 0 selects is the first queue and
+          writing 1 selects the second.
+        </p></td></tr><tr><td>0x01c</td><td>W</td><td>N/A</td><td>QUEUE_NOTIFY</td><td><p>
+          Notify the device that new requests have been placed in a virtqueue.
+          The value written determines which queue is checked.
+        </p></td></tr><tr><td>0x020</td><td>RW</td><td>0x00000000</td><td>STATUS</td><td><p>
+          Set Virtio device status bits.  This is used to inform the device
+          about the state of the OS driver.  The device will not begin
+          servicing requests until the device driver indicates that it is
+          ready.  A combination of the following bitflags should be used:
+          </p><div class="variablelist"><dl><dt><span class="term">1</span></dt><dd><p>
+              The device has been detected.
+            </p></dd><dt><span class="term">2</span></dt><dd><p>
+              A driver has been associated with the device.
+            </p></dd><dt><span class="term">4</span></dt><dd><p>
+              The device driver has completed initialization and it read
+              for operation.
+            </p></dd></dl></div><p>
+         </p>
+         <p>
+          Writing zero to this register resets the device.
+         </p>
+        </td></tr><tr><td>0x024</td><td>RW</td><td>0x00000000</td><td>INT_ENABLE</td><td>
+         <div class="variablelist"><dl><dt><span class="term"><code class="literal">0</code></span></dt><dd><p>
+             Interrupt masked.
+            </p></dd><dt><span class="term"><code class="literal">1</code></span></dt><dd><p>
+             Interrupt enabled.
+            </p></dd></dl></div>
+        </td></tr><tr><td>0x028</td><td>RW</td><td>0x00000000</td><td>INT_STATUS</td><td><p>
+          Write 0x00000001 to this register to clear the interrupt.
+          Reads will have the low bit set if the notification
+          interrupt is pending.
+        </p></td></tr><tr><td>0x100</td><td>RW</td><td>impl def</td><td>config</td><td><p>
+          The device config is accessible from this offset.  The first
+          bytes the device config can be read to determine the 
+          number of streams implemented by the device.
+        </p></td></tr></tbody></table></div></div><p><br class="table-break">
+   </p></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ch03s13.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="chap-devices.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="chap-virtio.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">3.13. NAND Flash Device </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> Chapter 4. Virtio</td></tr></table></div></body></html>

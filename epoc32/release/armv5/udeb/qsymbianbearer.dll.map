@@ -1,0 +1,1253 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../../unhosted.s                         0x00000000   Number         0  switch8.o ABSOLUTE
+    M:\\epoc32\\build\\euser\\c_e18a23aea4fd210f\\edll_lib\\armv5\\udeb\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\\sf\\os\\kernelhwsrv\\kernel\\eka\\compsupp\\rvct\\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\epoc32\build\euser\c_e18a23aea4fd210f\edll_lib\armv5\udeb\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\dllexp.cpp 0x00000000   Number         0  dllexp.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    S:\sf\mw\qt\src\plugins\bearer\symbian\main.cpp 0x00000000   Number         0  main.o ABSOLUTE
+    S:\sf\mw\qt\src\plugins\bearer\symbian\qnetworksession_impl.cpp 0x00000000   Number         0  qnetworksession_impl.o ABSOLUTE
+    S:\sf\mw\qt\src\plugins\bearer\symbian\symbian_3\tmp\moc\debug_shared\moc_qnetworksession_impl.cpp 0x00000000   Number         0  moc_qnetworksession_impl.o ABSOLUTE
+    S:\sf\mw\qt\src\plugins\bearer\symbian\symbian_3\tmp\moc\debug_shared\moc_symbianengine.cpp 0x00000000   Number         0  moc_symbianengine.o ABSOLUTE
+    S:\sf\mw\qt\src\plugins\bearer\symbian\symbianengine.cpp 0x00000000   Number         0  symbianengine.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    Symbian$$eit_base                        0x00008014   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$eit_limit                       0x00008018   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_base                   0x0000801c   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_limit                  0x00008020   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$reserved                        0x00008024   Data           4  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       52  ucppinit.o(.emb_text)
+    loop                                     0x0000803c   ARM Code       0  ucppinit.o(.emb_text)
+    ret                                      0x00008044   ARM Code       0  ucppinit.o(.emb_text)
+    base                                     0x00008054   Data           0  ucppinit.o(.emb_text)
+    limit                                    0x00008058   Data           0  ucppinit.o(.emb_text)
+    .text                                    0x00008794   Section    12280  symbianengine.o(.text)
+    |L1.2168|                                0x0000900c   Data           0  symbianengine.o(.text)
+    |L1.2228|                                0x00009048   Data           0  symbianengine.o(.text)
+    .text                                    0x0000b78c   Section    10332  qnetworksession_impl.o(.text)
+    |L1.3188|                                0x0000c400   Data           0  qnetworksession_impl.o(.text)
+    |L1.7268|                                0x0000d3f0   Data           0  qnetworksession_impl.o(.text)
+    .text                                    0x0000dfe8   Section      464  main.o(.text)
+    .text                                    0x0000e1b8   Section      352  moc_symbianengine.o(.text)
+    .text                                    0x0000e318   Section      296  moc_qnetworksession_impl.o(.text)
+    .text                                    0x0000e440   Section       24  switch8.o(.text)
+    .text                                    0x0000e458   Section       80  uc_dll.o(.text)
+    .text                                    0x0000e4a8   Section      180  ucppfini.o(.text)
+    .text                                    0x0000e55c   Section        4  dllexp.o(.text)
+    .text.clean                              0x0000e560   Section     1626  symbianengine.o(.text.clean)
+    .text.clean                              0x0000ebbc   Section      872  qnetworksession_impl.o(.text.clean)
+    .text.clean                              0x0000ef24   Section       60  main.o(.text.clean)
+    .text.clean                              0x0000ef60   Section       18  moc_qnetworksession_impl.o(.text.clean)
+    i._Z6qDebugv                             0x0000ef72   Section       92  qnetworksession_impl.o(i._Z6qDebugv)
+    i._Z6qDebugv.clean                       0x0000efce   Section       24  qnetworksession_impl.o(i._Z6qDebugv.clean)
+    i._ZN10QByteArrayD1Ev                    0x0000efe6   Section       24  qnetworksession_impl.o(i._ZN10QByteArrayD1Ev)
+    i._ZN11QMetaObject12invokeMethodEP7QObjectPKcN2Qt14ConnectionTypeE16QGenericArgumentS6_S6_S6_S6_S6_S6_S6_S6_S6_ 0x0000effe   Section      130  qnetworksession_impl.o(i._ZN11QMetaObject12invokeMethodEP7QObjectPKcN2Qt14ConnectionTypeE16QGenericArgumentS6_S6_S6_S6_S6_S6_S6_S6_S6_)
+    i._ZN11QStringListD1Ev                   0x0000f080   Section       14  qnetworksession_impl.o(i._ZN11QStringListD1Ev)
+    i._ZN11TConnMonIapC1Ev                   0x0000f08e   Section        6  symbianengine.o(i._ZN11TConnMonIapC1Ev)
+    i._ZN12CleanupStack13PopAndDestroyEPv    0x0000f094   Section       16  symbianengine.o(i._ZN12CleanupStack13PopAndDestroyEPv)
+    i._ZN12QMapIteratorIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEED1Ev 0x0000f0a4   Section       14  symbianengine.o(i._ZN12QMapIteratorIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEED1Ev)
+    i._ZN12QMutexLocker6unlockEv             0x0000f0b2   Section       38  symbianengine.o(i._ZN12QMutexLocker6unlockEv)
+    i._ZN12QMutexLockerC1EP6QMutex           0x0000f0d8   Section      168  symbianengine.o(i._ZN12QMutexLockerC1EP6QMutex)
+    i._ZN12QMutexLockerD1Ev                  0x0000f180   Section       14  symbianengine.o(i._ZN12QMutexLockerD1Ev)
+    i._ZN15QBasicAtomicInt3refEv             0x0000f18e   Section       24  symbianengine.o(i._ZN15QBasicAtomicInt3refEv)
+    i._ZN15QBasicAtomicInt5derefEv           0x0000f1a6   Section       24  symbianengine.o(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN15QtSharedPointer20ExternalRefCountData7destroyEv 0x0000f1be   Section        6  symbianengine.o(i._ZN15QtSharedPointer20ExternalRefCountData7destroyEv)
+    i._ZN15QtSharedPointer20ExternalRefCountDataD0Ev 0x0000f1c4   Section       22  symbianengine.o(i._ZN15QtSharedPointer20ExternalRefCountDataD0Ev)
+    i._ZN15QtSharedPointer20ExternalRefCountDataD1Ev 0x0000f1dc   Section      108  symbianengine.o(i._ZN15QtSharedPointer20ExternalRefCountDataD1Ev)
+    i._ZN17QForeachContainerI5QListI7QStringEED1Ev 0x0000f248   Section       14  symbianengine.o(i._ZN17QForeachContainerI5QListI7QStringEED1Ev)
+    i._ZN17TExtendedConnPrefD1Ev             0x0000f256   Section       14  qnetworksession_impl.o(i._ZN17TExtendedConnPrefD1Ev)
+    i._ZN22QNetworkSessionPrivateD2Ev        0x0000f264   Section       60  qnetworksession_impl.o(i._ZN22QNetworkSessionPrivateD2Ev)
+    i._ZN22QNetworkSessionPrivateD2Ev.clean  0x0000f2a0   Section       34  qnetworksession_impl.o(i._ZN22QNetworkSessionPrivateD2Ev.clean)
+    i._ZN26QNetworkSessionPrivateImpl2trEPKcS1_ 0x0000f2c4   Section       28  qnetworksession_impl.o(i._ZN26QNetworkSessionPrivateImpl2trEPKcS1_)
+    i._ZN26QNetworkSessionPrivateImpl5closeEv 0x0000f2e0   Section       14  moc_qnetworksession_impl.o(i._ZN26QNetworkSessionPrivateImpl5closeEv)
+    i._ZN28QNetworkConfigurationPrivateC1Ev  0x0000f2f0   Section      108  symbianengine.o(i._ZN28QNetworkConfigurationPrivateC1Ev)
+    i._ZN28QNetworkConfigurationPrivateC1Ev.clean 0x0000f35c   Section       36  symbianengine.o(i._ZN28QNetworkConfigurationPrivateC1Ev.clean)
+    i._ZN28QNetworkConfigurationPrivateD0Ev  0x0000f380   Section       22  symbianengine.o(i._ZN28QNetworkConfigurationPrivateD0Ev)
+    i._ZN28QNetworkConfigurationPrivateD1Ev  0x0000f398   Section       92  symbianengine.o(i._ZN28QNetworkConfigurationPrivateD1Ev)
+    i._ZN28QNetworkConfigurationPrivateD1Ev.clean 0x0000f3f4   Section       58  symbianengine.o(i._ZN28QNetworkConfigurationPrivateD1Ev.clean)
+    i._ZN5CBasenwEj                          0x0000f42e   Section       16  symbianengine.o(i._ZN5CBasenwEj)
+    i._ZN6QDebug10maybeSpaceEv               0x0000f43e   Section       24  qnetworksession_impl.o(i._ZN6QDebug10maybeSpaceEv)
+    i._ZN6QDebugD1Ev                         0x0000f456   Section      144  qnetworksession_impl.o(i._ZN6QDebugD1Ev)
+    i._ZN6QDebugD1Ev.clean                   0x0000f4e6   Section       20  qnetworksession_impl.o(i._ZN6QDebugD1Ev.clean)
+    i._ZN6QDebuglsEPKc                       0x0000f4fa   Section       44  qnetworksession_impl.o(i._ZN6QDebuglsEPKc)
+    i._ZN6QDebuglsEPKc.clean                 0x0000f526   Section       10  qnetworksession_impl.o(i._ZN6QDebuglsEPKc.clean)
+    i._ZN7QStringC1ERK13QLatin1String        0x0000f530   Section       26  symbianengine.o(i._ZN7QStringC1ERK13QLatin1String)
+    i._ZN7QStringC1ERKS_                     0x0000f54c   Section      124  symbianengine.o(i._ZN7QStringC1ERKS_)
+    i._ZN7QStringC1Ev                        0x0000f5c8   Section       24  symbianengine.o(i._ZN7QStringC1Ev)
+    i._ZN7QStringD1Ev                        0x0000f5e0   Section       24  symbianengine.o(i._ZN7QStringD1Ev)
+    i._ZN9QHashData9firstNodeEv              0x0000f5f8   Section       36  symbianengine.o(i._ZN9QHashData9firstNodeEv)
+    i._ZNK15QBasicAtomicIntneEi              0x0000f61c   Section       16  symbianengine.o(i._ZNK15QBasicAtomicIntneEi)
+    i._ZNK22QNetworkSessionPrivate20privateConfigurationERK21QNetworkConfiguration 0x0000f62c   Section       20  qnetworksession_impl.o(i._ZNK22QNetworkSessionPrivate20privateConfigurationERK21QNetworkConfiguration)
+    i._ZNK28QNetworkConfigurationPrivate14bearerTypeNameEv 0x0000f640   Section       32  symbianengine.o(i._ZNK28QNetworkConfigurationPrivate14bearerTypeNameEv)
+    i._ZNK34SymbianNetworkConfigurationPrivate17configMappingNameEv 0x0000f660   Section       36  qnetworksession_impl.o(i._ZNK34SymbianNetworkConfigurationPrivate17configMappingNameEv)
+    i._ZNK34SymbianNetworkConfigurationPrivate17configMappingNameEv.clean 0x0000f684   Section       10  qnetworksession_impl.o(i._ZNK34SymbianNetworkConfigurationPrivate17configMappingNameEv.clean)
+    i._ZNK34SymbianNetworkConfigurationPrivate17numericIdentifierEv 0x0000f68e   Section       26  qnetworksession_impl.o(i._ZNK34SymbianNetworkConfigurationPrivate17numericIdentifierEv)
+    i._ZNK34SymbianNetworkConfigurationPrivate20connectionIdentifierEv 0x0000f6a8   Section       28  symbianengine.o(i._ZNK34SymbianNetworkConfigurationPrivate20connectionIdentifierEv)
+    i._ZNK7CActive8IsActiveEv                0x0000f6c4   Section       10  symbianengine.o(i._ZNK7CActive8IsActiveEv)
+    i._ZNK7QString7isEmptyEv                 0x0000f6ce   Section       18  qnetworksession_impl.o(i._ZNK7QString7isEmptyEv)
+    i._ZNK7QStringneERKS_                    0x0000f6e0   Section       20  qnetworksession_impl.o(i._ZNK7QStringneERKS_)
+    i._ZNK8QVariant7isValidEv                0x0000f6f4   Section       18  qnetworksession_impl.o(i._ZNK8QVariant7isValidEv)
+    i._ZNK9QListData2atEi                    0x0000f706   Section       20  symbianengine.o(i._ZNK9QListData2atEi)
+    i._ZNK9QListData3endEv                   0x0000f71a   Section       16  symbianengine.o(i._ZNK9QListData3endEv)
+    i._ZNK9QListData4sizeEv                  0x0000f72a   Section       14  qnetworksession_impl.o(i._ZNK9QListData4sizeEv)
+    i._ZNK9QListData5beginEv                 0x0000f738   Section       16  symbianengine.o(i._ZNK9QListData5beginEv)
+    i._ZdlPvS_                               0x0000f748   Section        2  symbianengine.o(i._ZdlPvS_)
+    i._ZnwjPv                                0x0000f74a   Section        6  symbianengine.o(i._ZnwjPv)
+    i._ZplRK7QStringS1_                      0x0000f750   Section       44  symbianengine.o(i._ZplRK7QStringS1_)
+    i._ZplRK7QStringS1_.clean                0x0000f77c   Section       10  symbianengine.o(i._ZplRK7QStringS1_.clean)
+    t._Z15qMapLessThanKeyIjEbRKT_S2_         0x0000f786   Section       18  symbianengine.o(t._Z15qMapLessThanKeyIjEbRKT_S2_)
+    t._Z17CleanupClosePushLI19RCmConnectionMethodEvRT_ 0x0000f798   Section       28  symbianengine.o(t._Z17CleanupClosePushLI19RCmConnectionMethodEvRT_)
+    t._Z17CleanupClosePushLI6RArrayImEEvRT_  0x0000f7b4   Section       28  symbianengine.o(t._Z17CleanupClosePushLI6RArrayImEEvRT_)
+    t._Z20qForeachContainerNewI5QListI7QStringEE17QForeachContainerIT_ERKS4_ 0x0000f7d0   Section      102  symbianengine.o(t._Z20qForeachContainerNewI5QListI7QStringEE17QForeachContainerIT_ERKS4_)
+    t._Z20qForeachContainerNewI5QListI7QStringEE17QForeachContainerIT_ERKS4_.clean 0x0000f836   Section       10  symbianengine.o(t._Z20qForeachContainerNewI5QListI7QStringEE17QForeachContainerIT_ERKS4_.clean)
+    t._ZN12CleanupCloseI14RCmDestinationE5CloseEPv 0x0000f840   Section       12  symbianengine.o(t._ZN12CleanupCloseI14RCmDestinationE5CloseEPv)
+    t._ZN12CleanupCloseI19RCmConnectionMethodE5CloseEPv 0x0000f84c   Section       12  symbianengine.o(t._ZN12CleanupCloseI19RCmConnectionMethodE5CloseEPv)
+    t._ZN12CleanupCloseI6RArrayImEE5CloseEPv 0x0000f858   Section       14  symbianengine.o(t._ZN12CleanupCloseI6RArrayImEE5CloseEPv)
+    t._ZN19QMutableMapIteratorIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEED1Ev 0x0000f866   Section       16  symbianengine.o(t._ZN19QMutableMapIteratorIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEED1Ev)
+    t._ZN28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEC1EPS0_ 0x0000f876   Section       26  symbianengine.o(t._ZN28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEC1EPS0_)
+    t._ZN28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEC1ERKS1_ 0x0000f890   Section       28  symbianengine.o(t._ZN28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEC1ERKS1_)
+    t._ZN28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateED1Ev 0x0000f8ac   Section       42  symbianengine.o(t._ZN28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateED1Ev)
+    t._ZN28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEaSERKS1_ 0x0000f8d6   Section       66  symbianengine.o(t._ZN28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEaSERKS1_)
+    t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE11node_createEP8QMapDataPPNS4_4NodeERKjRKS2_ 0x0000f918   Section      130  symbianengine.o(t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE11node_createEP8QMapDataPPNS4_4NodeERKjRKS2_)
+    t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE11node_createEP8QMapDataPPNS4_4NodeERKjRKS2_.clean 0x0000f99a   Section       28  symbianengine.o(t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE11node_createEP8QMapDataPPNS4_4NodeERKjRKS2_.clean)
+    t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE11setSharableEb 0x0000f9b6   Section       38  symbianengine.o(t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE11setSharableEb)
+    t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE13detach_helperEv 0x0000f9dc   Section      146  symbianengine.o(t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE13detach_helperEv)
+    t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE13detach_helperEv.clean 0x0000fa6e   Section        8  symbianengine.o(t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE13detach_helperEv.clean)
+    t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE3endEv 0x0000fa76   Section       18  symbianengine.o(t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE3endEv)
+    t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE5eraseENS3_8iteratorE 0x0000fa88   Section      266  symbianengine.o(t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE5eraseENS3_8iteratorE)
+    t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE6detachEv 0x0000fb92   Section       28  symbianengine.o(t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE6detachEv)
+    t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE8freeDataEP8QMapData 0x0000fbae   Section       56  symbianengine.o(t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE8freeDataEP8QMapData)
+    t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEEC1Ev 0x0000fbe8   Section       28  symbianengine.o(t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEEC1Ev)
+    t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEED1Ev 0x0000fc04   Section       38  symbianengine.o(t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEED1Ev)
+    t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEEaSERKS3_ 0x0000fc2a   Section       70  symbianengine.o(t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEEaSERKS3_)
+    t._ZN4TBufILi128EEC1Ev                   0x0000fc70   Section       16  qnetworksession_impl.o(t._ZN4TBufILi128EEC1Ev)
+    t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE11deleteNode2EPN9QHashData4NodeE 0x0000fc80   Section       36  symbianengine.o(t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE11deleteNode2EPN9QHashData4NodeE)
+    t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE11deleteNode2EPN9QHashData4NodeE.clean 0x0000fca4   Section       12  symbianengine.o(t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE11deleteNode2EPN9QHashData4NodeE.clean)
+    t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE13detach_helperEv 0x0000fcb0   Section       60  symbianengine.o(t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE13detach_helperEv)
+    t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE13duplicateNodeEPN9QHashData4NodeEPv 0x0000fcec   Section       46  symbianengine.o(t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE13duplicateNodeEPN9QHashData4NodeEPv)
+    t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE13duplicateNodeEPN9QHashData4NodeEPv.clean 0x0000fd1a   Section       14  symbianengine.o(t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE13duplicateNodeEPN9QHashData4NodeEPv.clean)
+    t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE14const_iteratorppEv 0x0000fd28   Section       16  symbianengine.o(t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE14const_iteratorppEv)
+    t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE4takeERKS0_ 0x0000fd38   Section      236  symbianengine.o(t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE4takeERKS0_)
+    t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE4takeERKS0_.clean 0x0000fe24   Section       10  symbianengine.o(t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE4takeERKS0_.clean)
+    t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE6detachEv 0x0000fe2e   Section       28  symbianengine.o(t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE6detachEv)
+    t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE6insertERKS0_RKS3_ 0x0000fe4a   Section      210  symbianengine.o(t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE6insertERKS0_RKS3_)
+    t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE6insertERKS0_RKS3_.clean 0x0000ff1c   Section       14  symbianengine.o(t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE6insertERKS0_RKS3_.clean)
+    t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE8freeDataEP9QHashData 0x0000ff2c   Section       20  symbianengine.o(t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE8freeDataEP9QHashData)
+    t._ZN5QListI21QNetworkConfigurationE13detach_helperEi 0x0000ff40   Section      200  qnetworksession_impl.o(t._ZN5QListI21QNetworkConfigurationE13detach_helperEi)
+    t._ZN5QListI21QNetworkConfigurationE13detach_helperEi.clean 0x00010008   Section       32  qnetworksession_impl.o(t._ZN5QListI21QNetworkConfigurationE13detach_helperEi.clean)
+    t._ZN5QListI21QNetworkConfigurationE13detach_helperEv 0x00010028   Section       16  qnetworksession_impl.o(t._ZN5QListI21QNetworkConfigurationE13detach_helperEv)
+    t._ZN5QListI21QNetworkConfigurationE4freeEPN9QListData4DataE 0x00010038   Section       82  qnetworksession_impl.o(t._ZN5QListI21QNetworkConfigurationE4freeEPN9QListData4DataE)
+    t._ZN5QListI21QNetworkConfigurationED1Ev 0x0001008a   Section       32  qnetworksession_impl.o(t._ZN5QListI21QNetworkConfigurationED1Ev)
+    t._ZN5QListI21QNetworkConfigurationEixEi 0x000100ac   Section      180  qnetworksession_impl.o(t._ZN5QListI21QNetworkConfigurationEixEi)
+    t._ZN5QListI7QStringE13detach_helperEi   0x00010160   Section       94  symbianengine.o(t._ZN5QListI7QStringE13detach_helperEi)
+    t._ZN5QListI7QStringE13detach_helperEi.clean 0x000101be   Section        8  symbianengine.o(t._ZN5QListI7QStringE13detach_helperEi.clean)
+    t._ZN5QListI7QStringE13detach_helperEv   0x000101c6   Section       16  symbianengine.o(t._ZN5QListI7QStringE13detach_helperEv)
+    t._ZN5QListI7QStringE13node_destructEPNS1_4NodeES3_ 0x000101d6   Section       26  symbianengine.o(t._ZN5QListI7QStringE13node_destructEPNS1_4NodeES3_)
+    t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_ 0x000101f0   Section       36  symbianengine.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_)
+    t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_.clean 0x00010214   Section       14  symbianengine.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_.clean)
+    t._ZN5QListI7QStringE18detach_helper_growEii 0x00010222   Section      208  symbianengine.o(t._ZN5QListI7QStringE18detach_helper_growEii)
+    t._ZN5QListI7QStringE18detach_helper_growEii.clean 0x000102f2   Section       16  symbianengine.o(t._ZN5QListI7QStringE18detach_helper_growEii.clean)
+    t._ZN5QListI7QStringE4freeEPN9QListData4DataE 0x00010302   Section       58  symbianengine.o(t._ZN5QListI7QStringE4freeEPN9QListData4DataE)
+    t._ZN5QListI7QStringE6appendERKS0_       0x0001033c   Section      120  symbianengine.o(t._ZN5QListI7QStringE6appendERKS0_)
+    t._ZN5QListI7QStringE6appendERKS0_.clean 0x000103b4   Section       14  symbianengine.o(t._ZN5QListI7QStringE6appendERKS0_.clean)
+    t._ZN5QListI7QStringE7reserveEi          0x000103c2   Section       46  symbianengine.o(t._ZN5QListI7QStringE7reserveEi)
+    t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_ 0x000103f0   Section       82  symbianengine.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_)
+    t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_.clean 0x00010442   Section       22  symbianengine.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_.clean)
+    t._ZN5QListI7QStringE9removeOneERKS0_    0x00010458   Section      132  symbianengine.o(t._ZN5QListI7QStringE9removeOneERKS0_)
+    t._ZN5QListI7QStringEC1ERKS1_            0x000104dc   Section       36  symbianengine.o(t._ZN5QListI7QStringEC1ERKS1_)
+    t._ZN5QListI7QStringED1Ev                0x00010500   Section       32  symbianengine.o(t._ZN5QListI7QStringED1Ev)
+    t._ZN5QListI7QStringEaSERKS1_            0x00010520   Section       64  qnetworksession_impl.o(t._ZN5QListI7QStringEaSERKS1_)
+    t._ZN5QListI7QStringEixEi                0x00010560   Section      180  qnetworksession_impl.o(t._ZN5QListI7QStringEixEi)
+    t._ZN8QPointerI7QObjectED1Ev             0x00010614   Section       14  main.o(t._ZN8QPointerI7QObjectED1Ev)
+    t._ZN9QHashNodeI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEEC1ERKS0_RKS3_ 0x00010622   Section       40  symbianengine.o(t._ZN9QHashNodeI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEEC1ERKS0_RKS3_)
+    t._ZN9QHashNodeI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEEC1ERKS0_RKS3_.clean 0x0001064a   Section       12  symbianengine.o(t._ZN9QHashNodeI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEEC1ERKS0_RKS3_.clean)
+    t._ZNK14QScopedPointerI11QObjectData21QScopedPointerDeleterIS0_EEptEv 0x00010658   Section       40  moc_symbianengine.o(t._ZNK14QScopedPointerI11QObjectData21QScopedPointerDeleterIS0_EEptEv)
+    t._ZNK17QForeachContainerI5QListI7QStringEE9conditionEv 0x00010680   Section       40  symbianengine.o(t._ZNK17QForeachContainerI5QListI7QStringEE9conditionEv)
+    t._ZNK28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEcvbEv 0x000106a8   Section       16  symbianengine.o(t._ZNK28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEcvbEv)
+    t._ZNK28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEntEv 0x000106b8   Section       16  symbianengine.o(t._ZNK28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEntEv)
+    t._ZNK4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE14const_iteratorneERKS4_ 0x000106c8   Section       18  symbianengine.o(t._ZNK4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE14const_iteratorneERKS4_)
+    t._ZNK4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE15mutableFindNodeEPPN8QMapData4NodeERKj 0x000106da   Section      108  symbianengine.o(t._ZNK4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE15mutableFindNodeEPPN8QMapData4NodeERKj)
+    t._ZNK4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEEeqERKS3_ 0x00010746   Section      234  symbianengine.o(t._ZNK4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEEeqERKS3_)
+    t._ZNK5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE10constBeginEv 0x00010830   Section       18  symbianengine.o(t._ZNK5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE10constBeginEv)
+    t._ZNK5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE14const_iteratorneERKS5_ 0x00010842   Section       18  symbianengine.o(t._ZNK5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE14const_iteratorneERKS5_)
+    t._ZNK5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE4keysEv 0x00010854   Section      104  symbianengine.o(t._ZNK5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE4keysEv)
+    t._ZNK5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE4keysEv.clean 0x000108bc   Section       10  symbianengine.o(t._ZNK5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE4keysEv.clean)
+    t._ZNK5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE5valueERKS0_ 0x000108c6   Section       58  symbianengine.o(t._ZNK5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE5valueERKS0_)
+    t._ZNK5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE8containsERKS0_ 0x00010900   Section       32  symbianengine.o(t._ZNK5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE8containsERKS0_)
+    t._ZNK5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE8findNodeERKS0_Pj 0x00010920   Section      240  symbianengine.o(t._ZNK5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE8findNodeERKS0_Pj)
+    t._ZNK5QListI21QNetworkConfigurationE5countEv 0x00010a10   Section       12  qnetworksession_impl.o(t._ZNK5QListI21QNetworkConfigurationE5countEv)
+    t._ZNK5QListI7QStringE5countEv           0x00010a1c   Section       12  qnetworksession_impl.o(t._ZNK5QListI7QStringE5countEv)
+    t._ZNK5QListI7QStringE7indexOfERKS0_i    0x00010a28   Section      136  symbianengine.o(t._ZNK5QListI7QStringE7indexOfERKS0_i)
+    t._ZNK5QListI7QStringEixEi               0x00010ab0   Section      160  qnetworksession_impl.o(t._ZNK5QListI7QStringEixEi)
+    t._ZNK6QFlagsIN21QNetworkConfiguration9StateFlagEEorES2_ 0x00010b50   Section       20  symbianengine.o(t._ZNK6QFlagsIN21QNetworkConfiguration9StateFlagEEorES2_)
+    t._ZNK6QFlagsIN28QNetworkConfigurationManager10CapabilityEEorES1_ 0x00010b64   Section       16  symbianengine.o(t._ZNK6QFlagsIN28QNetworkConfigurationManager10CapabilityEEorES1_)
+    .extab._ZN34SymbianNetworkConfigurationPrivateC1Ev 0x00010b74   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN34SymbianNetworkConfigurationPrivateD1Ev 0x00010b84   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN13SymbianEngineC1EP7QObject    0x00010b94   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN13SymbianEngineD1Ev            0x00010bac   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN13SymbianEngine13hasIdentifierERK7QString 0x00010bcc   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN31AccessPointsAvailabilityScannerC1ER13SymbianEngineR18RConnectionMonitor 0x00010bdc   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN13SymbianEngine27updateAvailableAccessPointsEv 0x00010bf4   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN13SymbianEngine26changeConfigurationStateToE28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateE6QFlagsIN21QNetworkConfiguration9StateFlagEE 0x00010c04   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN13SymbianEngine19updateStatesToSnapsEv 0x00010c14   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN13SymbianEngine21defaultConfigurationLEv 0x00010cac   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN13SymbianEngine31changeConfigurationStateAtMaxToE28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateE6QFlagsIN21QNetworkConfiguration9StateFlagEE 0x00010d64   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN13SymbianEngine25configurationFromEasyWlanEmj 0x00010d74   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN13SymbianEngine24updateActiveAccessPointsEv 0x00010dbc   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN13SymbianEngine27configFromConnectionMethodLER19RCmConnectionMethod 0x00010e9c   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN13SymbianEngine21updateConfigurationsLEv 0x00010fbc   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN13SymbianEngine20updateConfigurationsEv 0x00011488   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN13SymbianEngine10initializeEv  0x000114b8   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN13SymbianEngine13requestUpdateEv 0x00011620   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN13SymbianEngine20createSessionBackendEv 0x00011630   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN13SymbianEngine20defaultConfigurationEv 0x00011640   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN13SymbianEngine35accessPointConfigurationIdentifiersEv 0x00011650   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN13SymbianEngine21configurationFromSsidERK7QString 0x00011670   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN13SymbianEngine30configurationStateChangeReportEmN15QNetworkSession5StateE 0x000116b8   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN13SymbianEngine26delayedConfigurationUpdateEv 0x00011738   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN13SymbianEngine31changeConfigurationStateAtMinToE28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateE6QFlagsIN21QNetworkConfiguration9StateFlagEE 0x00011778   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN13SymbianEngine27updateMobileBearerToConfigsE18TConnMonBearerInfo 0x00011788   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN13SymbianEngine24accessPointScanningReadyEi15TConnMonIapInfo 0x000117a8   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN13SymbianEngine18dataByConnectionIdEj 0x00011848   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN13SymbianEngine4RunLEv         0x00011888   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN13SymbianEngine8DoCancelEv     0x00011898   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN13SymbianEngine6EventLERK17CConnMonEventBase 0x000118a8   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN31AccessPointsAvailabilityScannerD1Ev 0x00011b8c   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN31AccessPointsAvailabilityScanner4RunLEv 0x00011b9c   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZplRK7QStringS1_                 0x00011be4   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_ 0x00011bf4   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE13detach_helperEi 0x00011c18   Data           0  symbianengine.o(.ARM.extab)
+    .extab._Z20qForeachContainerNewI5QListI7QStringEE17QForeachContainerIT_ERKS4_ 0x00011c34   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_ 0x00011c44   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE18detach_helper_growEii 0x00011c54   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE6appendERKS0_  0x00011c84   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE11node_createEP8QMapDataPPNS4_4NodeERKjRKS2_ 0x00011cb4   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE13detach_helperEv 0x00011cec   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN28QNetworkConfigurationPrivateD1Ev 0x00011d08   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN9QHashNodeI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEEC1ERKS0_RKS3_ 0x00011d38   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE4takeERKS0_ 0x00011d48   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZNK5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE4keysEv 0x00011d64   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE6insertERKS0_RKS3_ 0x00011d74   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN28QNetworkConfigurationPrivateC1Ev 0x00011d8c   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE11deleteNode2EPN9QHashData4NodeE 0x00011dac   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE13duplicateNodeEPN9QHashData4NodeEPv 0x00011dbc   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN5CBasenwEj                     0x00011dcc   Data           0  symbianengine.o(.ARM.extab)
+    .extab._ZN26QNetworkSessionPrivateImplC1EP13SymbianEngine 0x00011ddc   Data           0  qnetworksession_impl.o(.ARM.extab)
+    .extab._ZNK26QNetworkSessionPrivateImpl12setDefaultIfERK7QString 0x00011e64   Data           0  qnetworksession_impl.o(.ARM.extab)
+    .extab._ZN26QNetworkSessionPrivateImplD1Ev 0x00011e7c   Data           0  qnetworksession_impl.o(.ARM.extab)
+    .extab._ZNK26QNetworkSessionPrivateImpl18bestConfigFromSNAPERK21QNetworkConfiguration 0x00011ec4   Data           0  qnetworksession_impl.o(.ARM.extab)
+    .extab._ZNK26QNetworkSessionPrivateImpl9interfaceEj 0x00011ee4   Data           0  qnetworksession_impl.o(.ARM.extab)
+    .extab._ZNK26QNetworkSessionPrivateImpl17easyWlanTrueIapIdERm 0x00011f18   Data           0  qnetworksession_impl.o(.ARM.extab)
+    .extab._ZNK26QNetworkSessionPrivateImpl19activeConfigurationEm 0x00011f78   Data           0  qnetworksession_impl.o(.ARM.extab)
+    .extab._ZN26QNetworkSessionPrivateImpl8newStateEN15QNetworkSession5StateEj 0x00012120   Data           0  qnetworksession_impl.o(.ARM.extab)
+    .extab._ZN26ConnectionProgressNotifierC1ER26QNetworkSessionPrivateImplR11RConnection 0x000121a0   Data           0  qnetworksession_impl.o(.ARM.extab)
+    .extab._ZN26QNetworkSessionPrivateImpl4openEv 0x000121b0   Data           0  qnetworksession_impl.o(.ARM.extab)
+    .extab._ZNK26QNetworkSessionPrivateImpl14unsetDefaultIfEv 0x00012200   Data           0  qnetworksession_impl.o(.ARM.extab)
+    .extab._ZN26QNetworkSessionPrivateImpl5closeEb 0x00012210   Data           0  qnetworksession_impl.o(.ARM.extab)
+    .extab._ZN26QNetworkSessionPrivateImpl6acceptEv 0x00012220   Data           0  qnetworksession_impl.o(.ARM.extab)
+    .extab._ZN26QNetworkSessionPrivateImpl6rejectEv 0x00012240   Data           0  qnetworksession_impl.o(.ARM.extab)
+    .extab._ZNK26QNetworkSessionPrivateImpl15transferredDataEj 0x00012260   Data           0  qnetworksession_impl.o(.ARM.extab)
+    .extab._ZNK26QNetworkSessionPrivateImpl10activeTimeEv 0x00012290   Data           0  qnetworksession_impl.o(.ARM.extab)
+    .extab._ZN26QNetworkSessionPrivateImpl25PreferredCarrierAvailableE16TAccessPointInfoS0_ii 0x000122a0   Data           0  qnetworksession_impl.o(.ARM.extab)
+    .extab._ZThn60_N26QNetworkSessionPrivateImpl25PreferredCarrierAvailableE16TAccessPointInfoS0_ii 0x000122bc   Data           0  qnetworksession_impl.o(.ARM.extab)
+    .extab._ZN26QNetworkSessionPrivateImpl16NewCarrierActiveE16TAccessPointInfoi 0x000122d8   Data           0  qnetworksession_impl.o(.ARM.extab)
+    .extab._ZN26QNetworkSessionPrivateImpl5ErrorEi 0x000122ec   Data           0  qnetworksession_impl.o(.ARM.extab)
+    .extab._ZN26QNetworkSessionPrivateImpl4RunLEv 0x0001231c   Data           0  qnetworksession_impl.o(.ARM.extab)
+    .extab._ZN26QNetworkSessionPrivateImpl20configurationRemovedE28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateE 0x00012458   Data           0  qnetworksession_impl.o(.ARM.extab)
+    .extab._ZN26ConnectionProgressNotifierD1Ev 0x00012470   Data           0  qnetworksession_impl.o(.ARM.extab)
+    .extab._ZN26ConnectionProgressNotifier4RunLEv 0x00012480   Data           0  qnetworksession_impl.o(.ARM.extab)
+    .extab._Z6qDebugv                        0x0001249c   Data           0  qnetworksession_impl.o(.ARM.extab)
+    .extab._ZN6QDebugD1Ev                    0x000124b4   Data           0  qnetworksession_impl.o(.ARM.extab)
+    .extab._ZN6QDebuglsEPKc                  0x000124d8   Data           0  qnetworksession_impl.o(.ARM.extab)
+    .extab._ZN22QNetworkSessionPrivateD2Ev   0x000124e8   Data           0  qnetworksession_impl.o(.ARM.extab)
+    .extab._ZN5QListI21QNetworkConfigurationE13detach_helperEi 0x00012508   Data           0  qnetworksession_impl.o(.ARM.extab)
+    .extab._ZNK34SymbianNetworkConfigurationPrivate17configMappingNameEv 0x0001254c   Data           0  qnetworksession_impl.o(.ARM.extab)
+    .extab.qt_plugin_instance                0x0001255c   Data           0  main.o(.ARM.extab)
+    .extab._ZNK20QSymbianEnginePlugin4keysEv 0x00012574   Data           0  main.o(.ARM.extab)
+    .extab._ZNK20QSymbianEnginePlugin6createERK7QString 0x00012594   Data           0  main.o(.ARM.extab)
+    .extab._ZN26QNetworkSessionPrivateImpl11qt_metacallEN11QMetaObject4CallEiPPv 0x000125a4   Data           0  moc_qnetworksession_impl.o(.ARM.extab)
+    .constdata$1                             0x000125bc   Data           0  symbianengine.o(.constdata)
+    .constdata                               0x000125bc   Section      168  symbianengine.o(.constdata)
+    .constdata$1                             0x00012664   Data           0  qnetworksession_impl.o(.constdata)
+    KNullDesC                                0x00012664   Data           8  qnetworksession_impl.o(.constdata)
+    .constdata                               0x00012664   Section      888  qnetworksession_impl.o(.constdata)
+    KSetting@_ZNK26QNetworkSessionPrivateImpl19activeConfigurationEm_0 0x0001266c   Data          20  qnetworksession_impl.o(.constdata)
+    .constdata$1                             0x000129dc   Data           0  main.o(.constdata)
+    qt_plugin_verification_data              0x000129dc   Data          90  main.o(.constdata)
+    .constdata                               0x000129dc   Section      168  main.o(.constdata)
+    .constdata$1                             0x00012a84   Data           0  moc_symbianengine.o(.constdata)
+    qt_meta_data_SymbianEngine               0x00012a84   Data         180  moc_symbianengine.o(.constdata)
+    .constdata                               0x00012a84   Section      572  moc_symbianengine.o(.constdata)
+    qt_meta_stringdata_SymbianEngine         0x00012b38   Data         230  moc_symbianengine.o(.constdata)
+    .constdata$1                             0x00012cc0   Data           0  moc_qnetworksession_impl.o(.constdata)
+    qt_meta_data_QNetworkSessionPrivateImpl  0x00012cc0   Data         120  moc_qnetworksession_impl.o(.constdata)
+    .constdata                               0x00012cc0   Section      532  moc_qnetworksession_impl.o(.constdata)
+    qt_meta_stringdata_QNetworkSessionPrivateImpl 0x00012d38   Data         249  moc_qnetworksession_impl.o(.constdata)
+    .constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE 0x00012ed4   Section        4  symbianengine.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE 0x00012ed8   Section        4  symbianengine.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE 0x00012edc   Section        4  symbianengine.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE 0x00012ee0   Section        4  symbianengine.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE 0x00012ee4   Section        4  symbianengine.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE 0x00012ee8   Section        1  symbianengine.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE 0x00012eec   Section        4  symbianengine.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE 0x00012ef0   Section        4  symbianengine.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE 0x00012ef4   Section        4  symbianengine.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE 0x00012ef8   Section        4  symbianengine.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE 0x00012efc   Section        4  symbianengine.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE 0x00012f00   Section        4  symbianengine.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE 0x00012f04   Section        4  symbianengine.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE 0x00012f08   Section        4  symbianengine.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    .constdata__ZTI11QSharedData             0x00012f0c   Section        8  symbianengine.o(.constdata__ZTI11QSharedData)
+    .constdata__ZTI13SymbianEngine           0x00012f14   Section       40  moc_symbianengine.o(.constdata__ZTI13SymbianEngine)
+    .constdata__ZTI20QSymbianEnginePlugin    0x00012f3c   Section       12  main.o(.constdata__ZTI20QSymbianEnginePlugin)
+    .constdata__ZTI21MMobilityProtocolResp   0x00012f48   Section        8  qnetworksession_impl.o(.constdata__ZTI21MMobilityProtocolResp)
+    .constdata__ZTI26ConnectionProgressNotifier 0x00012f50   Section       12  qnetworksession_impl.o(.constdata__ZTI26ConnectionProgressNotifier)
+    .constdata__ZTI26MConnectionMonitorObserver 0x00012f5c   Section        8  symbianengine.o(.constdata__ZTI26MConnectionMonitorObserver)
+    .constdata__ZTI26QNetworkSessionPrivateImpl 0x00012f64   Section       40  moc_qnetworksession_impl.o(.constdata__ZTI26QNetworkSessionPrivateImpl)
+    .constdata__ZTI28QNetworkConfigurationPrivate 0x00012f8c   Section       24  symbianengine.o(.constdata__ZTI28QNetworkConfigurationPrivate)
+    .constdata__ZTI31AccessPointsAvailabilityScanner 0x00012fa4   Section       12  symbianengine.o(.constdata__ZTI31AccessPointsAvailabilityScanner)
+    .constdata__ZTI34SymbianNetworkConfigurationPrivate 0x00012fb0   Section       12  symbianengine.o(.constdata__ZTI34SymbianNetworkConfigurationPrivate)
+    .constdata__ZTIN15QtSharedPointer20ExternalRefCountDataE 0x00012fbc   Section        8  symbianengine.o(.constdata__ZTIN15QtSharedPointer20ExternalRefCountDataE)
+    .constdata__ZTS11QSharedData             0x00012fc4   Section       14  symbianengine.o(.constdata__ZTS11QSharedData)
+    .constdata__ZTS13SymbianEngine           0x00012fd2   Section       16  moc_symbianengine.o(.constdata__ZTS13SymbianEngine)
+    .constdata__ZTS20QSymbianEnginePlugin    0x00012fe2   Section       23  main.o(.constdata__ZTS20QSymbianEnginePlugin)
+    .constdata__ZTS21MMobilityProtocolResp   0x00012ff9   Section       24  qnetworksession_impl.o(.constdata__ZTS21MMobilityProtocolResp)
+    .constdata__ZTS26ConnectionProgressNotifier 0x00013011   Section       29  qnetworksession_impl.o(.constdata__ZTS26ConnectionProgressNotifier)
+    .constdata__ZTS26MConnectionMonitorObserver 0x0001302e   Section       29  symbianengine.o(.constdata__ZTS26MConnectionMonitorObserver)
+    .constdata__ZTS26QNetworkSessionPrivateImpl 0x0001304b   Section       29  moc_qnetworksession_impl.o(.constdata__ZTS26QNetworkSessionPrivateImpl)
+    .constdata__ZTS28QNetworkConfigurationPrivate 0x00013068   Section       31  symbianengine.o(.constdata__ZTS28QNetworkConfigurationPrivate)
+    .constdata__ZTS31AccessPointsAvailabilityScanner 0x00013087   Section       34  symbianengine.o(.constdata__ZTS31AccessPointsAvailabilityScanner)
+    .constdata__ZTS34SymbianNetworkConfigurationPrivate 0x000130a9   Section       37  symbianengine.o(.constdata__ZTS34SymbianNetworkConfigurationPrivate)
+    .constdata__ZTSN15QtSharedPointer20ExternalRefCountDataE 0x000130ce   Section       42  symbianengine.o(.constdata__ZTSN15QtSharedPointer20ExternalRefCountDataE)
+    .constdata__ZTV13SymbianEngine           0x000130f8   Section      132  moc_symbianengine.o(.constdata__ZTV13SymbianEngine)
+    .constdata__ZTV20QSymbianEnginePlugin    0x0001317c   Section       88  main.o(.constdata__ZTV20QSymbianEnginePlugin)
+    .constdata__ZTV21MMobilityProtocolResp   0x000131d4   Section       20  qnetworksession_impl.o(.constdata__ZTV21MMobilityProtocolResp)
+    .constdata__ZTV26ConnectionProgressNotifier 0x000131e8   Section       32  qnetworksession_impl.o(.constdata__ZTV26ConnectionProgressNotifier)
+    .constdata__ZTV26MConnectionMonitorObserver 0x00013208   Section       12  symbianengine.o(.constdata__ZTV26MConnectionMonitorObserver)
+    .constdata__ZTV26QNetworkSessionPrivateImpl 0x00013214   Section      196  moc_qnetworksession_impl.o(.constdata__ZTV26QNetworkSessionPrivateImpl)
+    .constdata__ZTV28QNetworkConfigurationPrivate 0x000132d8   Section       20  symbianengine.o(.constdata__ZTV28QNetworkConfigurationPrivate)
+    .constdata__ZTV31AccessPointsAvailabilityScanner 0x000132ec   Section       32  symbianengine.o(.constdata__ZTV31AccessPointsAvailabilityScanner)
+    .constdata__ZTV34SymbianNetworkConfigurationPrivate 0x0001330c   Section       20  symbianengine.o(.constdata__ZTV34SymbianNetworkConfigurationPrivate)
+    .constdata__ZTVN15QtSharedPointer20ExternalRefCountDataE 0x00013320   Section       20  symbianengine.o(.constdata__ZTVN15QtSharedPointer20ExternalRefCountDataE)
+    .ARM.exidx                               0x00013334   Section        8  ucppinit.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  main.o(.data)
+    _ZGV_instance@qt_plugin_instance_0       0x00400000   Data           4  main.o(.data)
+    .data                                    0x00400000   Section        8  main.o(.data)
+    _instance@qt_plugin_instance_1           0x00400004   Data           4  main.o(.data)
+    .data$0                                  0x00400008   Data           0  ucppfini.o(.data)
+    .data                                    0x00400008   Section        4  ucppfini.o(.data)
+    .data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE 0x0040000c   Section       12  symbianengine.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    .bss$5                                   0x00400018   Data           0  ucppfini.o(.bss)
+    .bss                                     0x00400018   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$VFPv2$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$IEEEJ$EBA8$UX$FPIC$INDIRECT$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    ConnMon{000a0000}[101f6cee].dll          0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtCore{00040703}[2001b2dc].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtNetwork{00040703}[2001b2de].dll        0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    cmmanager{000a0000}[10207376].dll        0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    commdb{000a0000}[10004e1c].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtrvct2_2{000a0000}.dll                 0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    esock{000a0000}[10003d3f].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    euser{000a0000}[100039e5].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    extendedconnpref{000a0000}[20027034].dll 0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    insock{000a0000}[10003d44].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    libc{00010001}[10207369].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    netmeta{000a0000}[1020430b].dll          0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    qsymbianbearer{00040703}[20021319].dll   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    stdnew{000a0000}[20022178].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    qt_assert_x(const char*, const char*, const char*, int)  - Undefined Reference
+    _Z11qt_assert_xPKcS0_S0_i@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qFlagLocation(const char*)                - Undefined Reference
+    _Z13qFlagLocationPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qt_message_output(QtMsgType, const char*)  - Undefined Reference
+    _Z17qt_message_output9QtMsgTypePKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qt_symbian_exception2Error(const std::exception&)  - Undefined Reference
+    _Z26qt_symbian_exception2ErrorRKSt9exception@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qFree(void*)                              - Undefined Reference
+    _Z5qFreePv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qHash(const QString&)                     - Undefined Reference
+    _Z5qHashRK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qrand()                                   - Undefined Reference
+    _Z5qrandv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qsrand(unsigned)                          - Undefined Reference
+    _Z6qsrandj@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qstrcpy(char*, const char*)               - Undefined Reference
+    _Z7qstrcpyPcPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qt_assert(const char*, const char*, int)  - Undefined Reference
+    _Z9qt_assertPKcS0_i@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::realloc(int)                  - Undefined Reference
+    _ZN10QByteArray7reallocEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    RArrayBase::Close()                       - Undefined Reference
+    _ZN10RArrayBase5CloseEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RArrayBase::RArrayBase(int)               - Undefined Reference
+    _ZN10RArrayBaseC1Ei@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RCmManager::ReadDefConnL(TCmDefConnValue&)  - Undefined Reference
+    _ZN10RCmManager12ReadDefConnLER15TCmDefConnValue@cmmanager{000a0000}[10207376].dll  - Undefined Reference
+    RCmManager::Close()                       - Undefined Reference
+    _ZN10RCmManager5CloseEv@cmmanager{000a0000}[10207376].dll  - Undefined Reference
+    RCmManager::OpenL()                       - Undefined Reference
+    _ZN10RCmManager5OpenLEv@cmmanager{000a0000}[10207376].dll  - Undefined Reference
+    TBufBase16::TBufBase16(int)               - Undefined Reference
+    _ZN10TBufBase16C1Ei@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QMetaObject::changeGuard(QObject**, QObject*)  - Undefined Reference
+    _ZN11QMetaObject11changeGuardEPP7QObjectS1_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::removeGuard(QObject**)       - Undefined Reference
+    _ZN11QMetaObject11removeGuardEPP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::invokeMethod(QObject*, const char*, Qt::ConnectionType, QGenericReturnArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument)  - Undefined Reference
+    _ZN11QMetaObject12invokeMethodEP7QObjectPKcN2Qt14ConnectionTypeE22QGenericReturnArgument16QGenericArgumentS7_S7_S7_S7_S7_S7_S7_S7_S7_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::activate(QObject*, const QMetaObject*, int, void**)  - Undefined Reference
+    _ZN11QMetaObject8activateEP7QObjectPKS_iPPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::QTextStream(QString*, QFlags<QIODevice::OpenModeFlag>)  - Undefined Reference
+    _ZN11QTextStreamC1EP7QString6QFlagsIN9QIODevice12OpenModeFlagEE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::~QTextStream()               - Undefined Reference
+    _ZN11QTextStreamD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::operator <<(const QString&)  - Undefined Reference
+    _ZN11QTextStreamlsERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::operator <<(char)            - Undefined Reference
+    _ZN11QTextStreamlsEc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    RConnection::GetIntSetting(const TDesC16&, unsigned long&)  - Undefined Reference
+    _ZN11RConnection13GetIntSettingERK7TDesC16Rm@esock{000a0000}[10003d3f].dll  - Undefined Reference
+    RConnection::ProgressNotification(TPckgBuf<TNifProgress>&, TRequestStatus&, unsigned)  - Undefined Reference
+    _ZN11RConnection20ProgressNotificationER8TPckgBufI12TNifProgressER14TRequestStatusj@esock{000a0000}[10003d3f].dll  - Undefined Reference
+    RConnection::CancelProgressNotification()  - Undefined Reference
+    _ZN11RConnection26CancelProgressNotificationEv@esock{000a0000}[10003d3f].dll  - Undefined Reference
+    RConnection::Open(RSocketServ&, unsigned)  - Undefined Reference
+    _ZN11RConnection4OpenER11RSocketServj@esock{000a0000}[10003d3f].dll  - Undefined Reference
+    RConnection::Stop(RConnection::TConnStopType)  - Undefined Reference
+    _ZN11RConnection4StopENS_13TConnStopTypeE@esock{000a0000}[10003d3f].dll  - Undefined Reference
+    RConnection::Close()                      - Undefined Reference
+    _ZN11RConnection5CloseEv@esock{000a0000}[10003d3f].dll  - Undefined Reference
+    RConnection::Start(TRequestStatus&)       - Undefined Reference
+    _ZN11RConnection5StartER14TRequestStatus@esock{000a0000}[10003d3f].dll  - Undefined Reference
+    RConnection::Start(TConnPref&, TRequestStatus&)  - Undefined Reference
+    _ZN11RConnection5StartER9TConnPrefR14TRequestStatus@esock{000a0000}[10003d3f].dll  - Undefined Reference
+    RConnection::RConnection()                - Undefined Reference
+    _ZN11RConnectionC1Ev@esock{000a0000}[10003d3f].dll  - Undefined Reference
+    RConnection::~RConnection()               - Undefined Reference
+    _ZN11RConnectionD1Ev@esock{000a0000}[10003d3f].dll  - Undefined Reference
+    RHandleBase::Close()                      - Undefined Reference
+    _ZN11RHandleBase5CloseEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RSocketServ::Connect(unsigned)            - Undefined Reference
+    _ZN11RSocketServ7ConnectEj@esock{000a0000}[10003d3f].dll  - Undefined Reference
+    RSocketServ::RSocketServ()                - Undefined Reference
+    _ZN11RSocketServC1Ev@esock{000a0000}[10003d3f].dll  - Undefined Reference
+    CTrapCleanup::New()                       - Undefined Reference
+    _ZN12CTrapCleanup3NewEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CleanupStack::PopAndDestroy()             - Undefined Reference
+    _ZN12CleanupStack13PopAndDestroyEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CleanupStack::Check(void*)                - Undefined Reference
+    _ZN12CleanupStack5CheckEPv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CleanupStack::PushL(TCleanupItem)         - Undefined Reference
+    _ZN12CleanupStack5PushLE12TCleanupItem@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CleanupStack::PushL(void*)                - Undefined Reference
+    _ZN12CleanupStack5PushLEPv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QBearerEngine::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN13QBearerEngine11qt_metacallEN11QMetaObject4CallEiPPv@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QBearerEngine::qt_metacast(const char*)   - Undefined Reference
+    _ZN13QBearerEngine11qt_metacastEPKc@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QBearerEngine::updateCompleted()          - Undefined Reference
+    _ZN13QBearerEngine15updateCompletedEv@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QBearerEngine::staticMetaObject           - Undefined Reference
+    _ZN13QBearerEngine16staticMetaObjectE@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QBearerEngine::configurationAdded(QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>)  - Undefined Reference
+    _ZN13QBearerEngine18configurationAddedE28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateE@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QBearerEngine::configurationChanged(QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>)  - Undefined Reference
+    _ZN13QBearerEngine20configurationChangedE28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateE@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QBearerEngine::configurationRemoved(QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>)  - Undefined Reference
+    _ZN13QBearerEngine20configurationRemovedE28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateE@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QBearerEngine::QBearerEngine__sub_object(QObject*)  - Undefined Reference
+    _ZN13QBearerEngineC2EP7QObject@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QBearerEngine::~QBearerEngine__sub_object()  - Undefined Reference
+    _ZN13QBearerEngineD2Ev@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    TConnPrefList::AppendL(Meta::SMetaDataECom*)  - Undefined Reference
+    _ZN13TConnPrefList7AppendLEPN4Meta13SMetaDataEComE@esock{000a0000}[10003d3f].dll  - Undefined Reference
+    TConnPrefList::TConnPrefList()            - Undefined Reference
+    _ZN13TConnPrefListC1Ev@esock{000a0000}[10003d3f].dll  - Undefined Reference
+    TConnPrefList::~TConnPrefList()           - Undefined Reference
+    _ZN13TConnPrefListD1Ev@esock{000a0000}[10003d3f].dll  - Undefined Reference
+    CCommsDatabase::NewL(TCommDbDatabaseType)  - Undefined Reference
+    _ZN14CCommsDatabase4NewLE19TCommDbDatabaseType@commdb{000a0000}[10004e1c].dll  - Undefined Reference
+    RCmDestination::Close()                   - Undefined Reference
+    _ZN14RCmDestination5CloseEv@cmmanager{000a0000}[10207376].dll  - Undefined Reference
+    RCmDestination::RCmDestination()          - Undefined Reference
+    _ZN14RCmDestinationC1Ev@cmmanager{000a0000}[10207376].dll  - Undefined Reference
+    RCmDestination::~RCmDestination()         - Undefined Reference
+    _ZN14RCmDestinationD1Ev@cmmanager{000a0000}[10207376].dll  - Undefined Reference
+    RCmDestination::operator =(const RCmDestination&)  - Undefined Reference
+    _ZN14RCmDestinationaSERKS_@cmmanager{000a0000}[10207376].dll  - Undefined Reference
+    CActiveScheduler::Add(CActive*)           - Undefined Reference
+    _ZN16CActiveScheduler3AddEP7CActive@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QCoreApplication::applicationPid()        - Undefined Reference
+    _ZN16QCoreApplication14applicationPidEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QNetworkInterface::interfaceFromName(const QString&)  - Undefined Reference
+    _ZN17QNetworkInterface17interfaceFromNameERK7QString@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QNetworkInterface::QNetworkInterface(const QNetworkInterface&)  - Undefined Reference
+    _ZN17QNetworkInterfaceC1ERKS_@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QNetworkInterface::QNetworkInterface()    - Undefined Reference
+    _ZN17QNetworkInterfaceC1Ev@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QNetworkInterface::~QNetworkInterface()   - Undefined Reference
+    _ZN17QNetworkInterfaceD1Ev@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QNetworkInterface::operator =(const QNetworkInterface&)  - Undefined Reference
+    _ZN17QNetworkInterfaceaSERKS_@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    TExtendedConnPref::SetNoteBehaviour(unsigned long)  - Undefined Reference
+    _ZN17TExtendedConnPref16SetNoteBehaviourEm@extendedconnpref{000a0000}[20027034].dll  - Undefined Reference
+    TExtendedConnPref::SetIapId(unsigned long)  - Undefined Reference
+    _ZN17TExtendedConnPref8SetIapIdEm@extendedconnpref{000a0000}[20027034].dll  - Undefined Reference
+    TExtendedConnPref::SetSnapId(unsigned long)  - Undefined Reference
+    _ZN17TExtendedConnPref9SetSnapIdEm@extendedconnpref{000a0000}[20027034].dll  - Undefined Reference
+    TExtendedConnPref::TExtendedConnPref()    - Undefined Reference
+    _ZN17TExtendedConnPrefC1Ev@extendedconnpref{000a0000}[20027034].dll  - Undefined Reference
+    CCommsDatabaseBase::RequestNotification(TRequestStatus&)  - Undefined Reference
+    _ZN18CCommsDatabaseBase19RequestNotificationER14TRequestStatus@commdb{000a0000}[10004e1c].dll  - Undefined Reference
+    CCommsDatabaseBase::CancelRequestNotification()  - Undefined Reference
+    _ZN18CCommsDatabaseBase25CancelRequestNotificationEv@commdb{000a0000}[10004e1c].dll  - Undefined Reference
+    RConnectionMonitor::NotifyEventL(MConnectionMonitorObserver&)  - Undefined Reference
+    _ZN18RConnectionMonitor12NotifyEventLER26MConnectionMonitorObserver@ConnMon{000a0000}[101f6cee].dll  - Undefined Reference
+    RConnectionMonitor::GetIntAttribute(unsigned, unsigned, unsigned, int&, TRequestStatus&)  - Undefined Reference
+    _ZN18RConnectionMonitor15GetIntAttributeEjjjRiR14TRequestStatus@ConnMon{000a0000}[101f6cee].dll  - Undefined Reference
+    RConnectionMonitor::GetUintAttribute(unsigned, unsigned, unsigned, unsigned&, TRequestStatus&)  - Undefined Reference
+    _ZN18RConnectionMonitor16GetUintAttributeEjjjRjR14TRequestStatus@ConnMon{000a0000}[101f6cee].dll  - Undefined Reference
+    RConnectionMonitor::CancelAsyncRequest(int)  - Undefined Reference
+    _ZN18RConnectionMonitor18CancelAsyncRequestEi@ConnMon{000a0000}[101f6cee].dll  - Undefined Reference
+    RConnectionMonitor::GetConnectionCount(unsigned&, TRequestStatus&)  - Undefined Reference
+    _ZN18RConnectionMonitor18GetConnectionCountERjR14TRequestStatus@ConnMon{000a0000}[101f6cee].dll  - Undefined Reference
+    RConnectionMonitor::CancelNotifications()  - Undefined Reference
+    _ZN18RConnectionMonitor19CancelNotificationsEv@ConnMon{000a0000}[101f6cee].dll  - Undefined Reference
+    RConnectionMonitor::Close()               - Undefined Reference
+    _ZN18RConnectionMonitor5CloseEv@ConnMon{000a0000}[101f6cee].dll  - Undefined Reference
+    RConnectionMonitor::ConnectL()            - Undefined Reference
+    _ZN18RConnectionMonitor8ConnectLEv@ConnMon{000a0000}[101f6cee].dll  - Undefined Reference
+    QBearerEnginePlugin::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN19QBearerEnginePlugin11qt_metacallEN11QMetaObject4CallEiPPv@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QBearerEnginePlugin::qt_metacast(const char*)  - Undefined Reference
+    _ZN19QBearerEnginePlugin11qt_metacastEPKc@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QBearerEnginePlugin::QBearerEnginePlugin__sub_object(QObject*)  - Undefined Reference
+    _ZN19QBearerEnginePluginC2EP7QObject@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QBearerEnginePlugin::~QBearerEnginePlugin__sub_object()  - Undefined Reference
+    _ZN19QBearerEnginePluginD2Ev@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    RCmConnectionMethod::Close()              - Undefined Reference
+    _ZN19RCmConnectionMethod5CloseEv@cmmanager{000a0000}[10207376].dll  - Undefined Reference
+    RCmConnectionMethod::~RCmConnectionMethod()  - Undefined Reference
+    _ZN19RCmConnectionMethodD1Ev@cmmanager{000a0000}[10207376].dll  - Undefined Reference
+    QNetworkConfiguration::QNetworkConfiguration(const QNetworkConfiguration&)  - Undefined Reference
+    _ZN21QNetworkConfigurationC1ERKS_@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QNetworkConfiguration::QNetworkConfiguration()  - Undefined Reference
+    _ZN21QNetworkConfigurationC1Ev@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QNetworkConfiguration::~QNetworkConfiguration()  - Undefined Reference
+    _ZN21QNetworkConfigurationD1Ev@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QNetworkConfiguration::operator =(const QNetworkConfiguration&)  - Undefined Reference
+    _ZN21QNetworkConfigurationaSERKS_@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QNetworkSessionPrivate::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN22QNetworkSessionPrivate11qt_metacallEN11QMetaObject4CallEiPPv@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QNetworkSessionPrivate::qt_metacast(const char*)  - Undefined Reference
+    _ZN22QNetworkSessionPrivate11qt_metacastEPKc@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QNetworkSessionPrivate::stateChanged(QNetworkSession::State)  - Undefined Reference
+    _ZN22QNetworkSessionPrivate12stateChangedEN15QNetworkSession5StateE@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QNetworkSessionPrivate::staticMetaObject  - Undefined Reference
+    _ZN22QNetworkSessionPrivate16staticMetaObjectE@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QNetworkSessionPrivate::newConfigurationActivated()  - Undefined Reference
+    _ZN22QNetworkSessionPrivate25newConfigurationActivatedEv@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QNetworkSessionPrivate::quitPendingWaitsForOpened()  - Undefined Reference
+    _ZN22QNetworkSessionPrivate25quitPendingWaitsForOpenedEv@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QNetworkSessionPrivate::preferredConfigurationChanged(const QNetworkConfiguration&, bool)  - Undefined Reference
+    _ZN22QNetworkSessionPrivate29preferredConfigurationChangedERK21QNetworkConfigurationb@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QNetworkSessionPrivate::error(QNetworkSession::SessionError)  - Undefined Reference
+    _ZN22QNetworkSessionPrivate5errorEN15QNetworkSession12SessionErrorE@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QNetworkSessionPrivate::closed()          - Undefined Reference
+    _ZN22QNetworkSessionPrivate6closedEv@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    CActiveCommsMobilityApiExt::NewCarrierAccepted()  - Undefined Reference
+    _ZN26CActiveCommsMobilityApiExt18NewCarrierAcceptedEv@esock{000a0000}[10003d3f].dll  - Undefined Reference
+    CActiveCommsMobilityApiExt::NewCarrierRejected()  - Undefined Reference
+    _ZN26CActiveCommsMobilityApiExt18NewCarrierRejectedEv@esock{000a0000}[10003d3f].dll  - Undefined Reference
+    CActiveCommsMobilityApiExt::IgnorePreferredCarrier()  - Undefined Reference
+    _ZN26CActiveCommsMobilityApiExt22IgnorePreferredCarrierEv@esock{000a0000}[10003d3f].dll  - Undefined Reference
+    CActiveCommsMobilityApiExt::MigrateToPreferredCarrier()  - Undefined Reference
+    _ZN26CActiveCommsMobilityApiExt25MigrateToPreferredCarrierEv@esock{000a0000}[10003d3f].dll  - Undefined Reference
+    CActiveCommsMobilityApiExt::NewL(RCommsSubSession&, MMobilityProtocolResp&)  - Undefined Reference
+    _ZN26CActiveCommsMobilityApiExt4NewLER16RCommsSubSessionR21MMobilityProtocolResp@esock{000a0000}[10003d3f].dll  - Undefined Reference
+    QNetworkConfigurationManager::QNetworkConfigurationManager(QObject*)  - Undefined Reference
+    _ZN28QNetworkConfigurationManagerC1EP7QObject@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QNetworkConfigurationManager::~QNetworkConfigurationManager()  - Undefined Reference
+    _ZN28QNetworkConfigurationManagerD1Ev@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    Meta::SMetaDataECom::~SMetaDataECom__sub_object()  - Undefined Reference
+    _ZN4Meta13SMetaDataEComD2Ev@netmeta{000a0000}[1020430b].dll  - Undefined Reference
+    User::LeaveIfError(int)                   - Undefined Reference
+    _ZN4User12LeaveIfErrorEi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::WaitForRequest(TRequestStatus&)     - Undefined Reference
+    _ZN4User14WaitForRequestER14TRequestStatus@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::MarkCleanupStack()                  - Undefined Reference
+    _ZN4User16MarkCleanupStackEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::UnMarkCleanupStack(TTrapHandler*)   - Undefined Reference
+    _ZN4User18UnMarkCleanupStackEP12TTrapHandler@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::AllocZ(int)                         - Undefined Reference
+    _ZN4User6AllocZEi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::Invariant()                         - Undefined Reference
+    _ZN4User9InvariantEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::LockedDec(int&)                     - Undefined Reference
+    _ZN4User9LockedDecERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::LockedInc(int&)                     - Undefined Reference
+    _ZN4User9LockedIncERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QTime::currentTime()                      - Undefined Reference
+    _ZN5QTime11currentTimeEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTime::QTime(int, int, int, int)          - Undefined Reference
+    _ZN5QTimeC1Eiiii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    TPtr8::TPtr8(unsigned char*, int, int)    - Undefined Reference
+    _ZN5TPtr8C1EPhii@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QMutex::lock()                            - Undefined Reference
+    _ZN6QMutex4lockEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMutex::unlock()                          - Undefined Reference
+    _ZN6QMutex6unlockEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMutex::QMutex(QMutex::RecursionMode)     - Undefined Reference
+    _ZN6QMutexC1ENS_13RecursionModeE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMutex::~QMutex()                         - Undefined Reference
+    _ZN6QMutexD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTimer::singleShot(int, QObject*, const char*)  - Undefined Reference
+    _ZN6QTimer10singleShotEiP7QObjectPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    TDes16::Copy(const TDesC16&)              - Undefined Reference
+    _ZN6TDes164CopyERK7TDesC16@euser{000a0000}[100039e5].dll  - Undefined Reference
+    TPtrC8::TPtrC8(const unsigned char*, int)  - Undefined Reference
+    _ZN6TPtrC8C1EPKhi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CActive::Extension_(unsigned, void*&, void*)  - Undefined Reference
+    _ZN7CActive10Extension_EjRPvS0_@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CActive::Cancel()                         - Undefined Reference
+    _ZN7CActive6CancelEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CActive::RunError(int)                    - Undefined Reference
+    _ZN7CActive8RunErrorEi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CActive::SetActive()                      - Undefined Reference
+    _ZN7CActive9SetActiveEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CActive::CActive__sub_object(int)         - Undefined Reference
+    _ZN7CActiveC2Ei@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CActive::~CActive__sub_object()           - Undefined Reference
+    _ZN7CActiveD2Ev@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QObject::childEvent(QChildEvent*)         - Undefined Reference
+    _ZN7QObject10childEventEP11QChildEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::timerEvent(QTimerEvent*)         - Undefined Reference
+    _ZN7QObject10timerEventEP11QTimerEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::customEvent(QEvent*)             - Undefined Reference
+    _ZN7QObject11customEventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::eventFilter(QObject*, QEvent*)   - Undefined Reference
+    _ZN7QObject11eventFilterEPS_P6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connectNotify(const char*)       - Undefined Reference
+    _ZN7QObject13connectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::disconnectNotify(const char*)    - Undefined Reference
+    _ZN7QObject16disconnectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::event(QEvent*)                   - Undefined Reference
+    _ZN7QObject5eventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connect(const QObject*, const char*, const QObject*, const char*, Qt::ConnectionType)  - Undefined Reference
+    _ZN7QObject7connectEPKS_PKcS1_S3_N2Qt14ConnectionTypeE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::QObject(QObject*)                - Undefined Reference
+    _ZN7QObjectC1EPS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::~QObject()                       - Undefined Reference
+    _ZN7QObjectD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::shared_null                      - Undefined Reference
+    _ZN7QString11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromLatin1_helper(const char*, int)  - Undefined Reference
+    _ZN7QString17fromLatin1_helperEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::free(QString::Data*)             - Undefined Reference
+    _ZN7QString4freeEPNS_4DataE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::append(const QString&)           - Undefined Reference
+    _ZN7QString6appendERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::number(unsigned, int)            - Undefined Reference
+    _ZN7QString6numberEji@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromAscii(const char*, int)      - Undefined Reference
+    _ZN7QString9fromAsciiEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromUtf16(const unsigned short*, int)  - Undefined Reference
+    _ZN7QString9fromUtf16EPKti@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::operator =(const QString&)       - Undefined Reference
+    _ZN7QStringaSERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    RSocket::Open(RSocketServ&, const TDesC16&)  - Undefined Reference
+    _ZN7RSocket4OpenER11RSocketServRK7TDesC16@esock{000a0000}[10003d3f].dll  - Undefined Reference
+    RSocket::Close()                          - Undefined Reference
+    _ZN7RSocket5CloseEv@esock{000a0000}[10003d3f].dll  - Undefined Reference
+    RSocket::GetOpt(unsigned, unsigned, TDes8&)  - Undefined Reference
+    _ZN7RSocket6GetOptEjjR5TDes8@esock{000a0000}[10003d3f].dll  - Undefined Reference
+    RSocket::SetOpt(unsigned, unsigned, const TDesC8&)  - Undefined Reference
+    _ZN7RSocket6SetOptEjjRK6TDesC8@esock{000a0000}[10003d3f].dll  - Undefined Reference
+    RSocket::RSocket()                        - Undefined Reference
+    _ZN7RSocketC1Ev@esock{000a0000}[10003d3f].dll  - Undefined Reference
+    TPtrC16::TPtrC16(const unsigned short*)   - Undefined Reference
+    _ZN7TPtrC16C1EPKt@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QMapData::createData(int)                 - Undefined Reference
+    _ZN8QMapData10createDataEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMapData::node_create(QMapData::Node**, int, int)  - Undefined Reference
+    _ZN8QMapData11node_createEPPNS_4NodeEii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMapData::node_delete(QMapData::Node**, int, QMapData::Node*)  - Undefined Reference
+    _ZN8QMapData11node_deleteEPPNS_4NodeEiS1_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMapData::shared_null                     - Undefined Reference
+    _ZN8QMapData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMapData::continueFreeData(int)           - Undefined Reference
+    _ZN8QMapData16continueFreeDataEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::QVariant(bool)                  - Undefined Reference
+    _ZN8QVariantC1Eb@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::QVariant(int)                   - Undefined Reference
+    _ZN8QVariantC1Ei@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    RLibrary::Load(const TDesC16&, const TDesC16&)  - Undefined Reference
+    _ZN8RLibrary4LoadERK7TDesC16S2_@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RLibrary::Close()                         - Undefined Reference
+    _ZN8RLibrary5CloseEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QDateTime::currentDateTime()              - Undefined Reference
+    _ZN9QDateTime15currentDateTimeEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDateTime::QDateTime()                    - Undefined Reference
+    _ZN9QDateTimeC1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDateTime::~QDateTime()                   - Undefined Reference
+    _ZN9QDateTimeD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDateTime::operator =(const QDateTime&)   - Undefined Reference
+    _ZN9QDateTimeaSERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::free_helper(void(*)(QHashData::Node*))  - Undefined Reference
+    _ZN9QHashData11free_helperEPFvPNS_4NodeEE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::allocateNode(int)              - Undefined Reference
+    _ZN9QHashData12allocateNodeEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::detach_helper2(void(*)(QHashData::Node*, void*), void(*)(QHashData::Node*), int, int)  - Undefined Reference
+    _ZN9QHashData14detach_helper2EPFvPNS_4NodeEPvEPFvS1_Eii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::rehash(int)                    - Undefined Reference
+    _ZN9QHashData6rehashEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::freeNode(void*)                - Undefined Reference
+    _ZN9QHashData8freeNodeEPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::nextNode(QHashData::Node*)     - Undefined Reference
+    _ZN9QHashData8nextNodeEPNS_4NodeE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach_grow(int*, int)         - Undefined Reference
+    _ZN9QListData11detach_growEPii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::shared_null                    - Undefined Reference
+    _ZN9QListData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::append()                       - Undefined Reference
+    _ZN9QListData6appendEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach(int)                    - Undefined Reference
+    _ZN9QListData6detachEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::remove(int)                    - Undefined Reference
+    _ZN9QListData6removeEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::realloc(int)                   - Undefined Reference
+    _ZN9QListData7reallocEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    TBufBase8::TBufBase8(int, int)            - Undefined Reference
+    _ZN9TBufBase8C1Eii@euser{000a0000}[100039e5].dll  - Undefined Reference
+    TInetAddr::TInetAddr()                    - Undefined Reference
+    _ZN9TInetAddrC1Ev@insock{000a0000}[10003d44].dll  - Undefined Reference
+    TSockAddr::TSockAddr()                    - Undefined Reference
+    _ZN9TSockAddrC1Ev@esock{000a0000}[10003d3f].dll  - Undefined Reference
+    RArrayBase::At(int) const                 - Undefined Reference
+    _ZNK10RArrayBase2AtEi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RArrayBase::Count() const                 - Undefined Reference
+    _ZNK10RArrayBase5CountEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RCmManager::EasyWlanIdL() const           - Undefined Reference
+    _ZNK10RCmManager11EasyWlanIdLEv@cmmanager{000a0000}[10207376].dll  - Undefined Reference
+    RCmManager::DestinationL(unsigned long) const  - Undefined Reference
+    _ZNK10RCmManager12DestinationLEm@cmmanager{000a0000}[10207376].dll  - Undefined Reference
+    RCmManager::AllDestinationsL(RArray<unsigned long>&) const  - Undefined Reference
+    _ZNK10RCmManager16AllDestinationsLER6RArrayImE@cmmanager{000a0000}[10207376].dll  - Undefined Reference
+    RCmManager::ConnectionMethodL(RArray<unsigned long>&, int, int, int) const  - Undefined Reference
+    _ZNK10RCmManager17ConnectionMethodLER6RArrayImEiii@cmmanager{000a0000}[10207376].dll  - Undefined Reference
+    RCmManager::ConnectionMethodL(unsigned long) const  - Undefined Reference
+    _ZNK10RCmManager17ConnectionMethodLEm@cmmanager{000a0000}[10207376].dll  - Undefined Reference
+    QMetaObject::tr(const char*, const char*) const  - Undefined Reference
+    _ZNK11QMetaObject2trEPKcS1_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QBearerEngine::requiresPolling() const    - Undefined Reference
+    _ZNK13QBearerEngine15requiresPollingEv@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    RCmDestination::ConnectionMethodL(int) const  - Undefined Reference
+    _ZNK14RCmDestination17ConnectionMethodLEi@cmmanager{000a0000}[10207376].dll  - Undefined Reference
+    RCmDestination::ConnectionMethodCount() const  - Undefined Reference
+    _ZNK14RCmDestination21ConnectionMethodCountEv@cmmanager{000a0000}[10207376].dll  - Undefined Reference
+    RCmDestination::Id() const                - Undefined Reference
+    _ZNK14RCmDestination2IdEv@cmmanager{000a0000}[10207376].dll  - Undefined Reference
+    RCmDestination::NameLC() const            - Undefined Reference
+    _ZNK14RCmDestination6NameLCEv@cmmanager{000a0000}[10207376].dll  - Undefined Reference
+    RCmDestination::PriorityL(const RCmConnectionMethod&) const  - Undefined Reference
+    _ZNK14RCmDestination9PriorityLERK19RCmConnectionMethod@cmmanager{000a0000}[10207376].dll  - Undefined Reference
+    XLeaveException::GetReason() const        - Undefined Reference
+    _ZNK15XLeaveException9GetReasonEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    CConnMonEventBase::ConnectionId() const   - Undefined Reference
+    _ZNK17CConnMonEventBase12ConnectionIdEv@ConnMon{000a0000}[101f6cee].dll  - Undefined Reference
+    CConnMonEventBase::EventType() const      - Undefined Reference
+    _ZNK17CConnMonEventBase9EventTypeEv@ConnMon{000a0000}[101f6cee].dll  - Undefined Reference
+    RConnectionMonitor::GetPckgAttribute(unsigned, unsigned, unsigned, TDes8&, TRequestStatus&) const  - Undefined Reference
+    _ZNK18RConnectionMonitor16GetPckgAttributeEjjjR5TDes8R14TRequestStatus@ConnMon{000a0000}[101f6cee].dll  - Undefined Reference
+    RConnectionMonitor::SetBoolAttribute(unsigned, unsigned, unsigned, int) const  - Undefined Reference
+    _ZNK18RConnectionMonitor16SetBoolAttributeEjjji@ConnMon{000a0000}[101f6cee].dll  - Undefined Reference
+    RConnectionMonitor::SetUintAttribute(unsigned, unsigned, unsigned, unsigned) const  - Undefined Reference
+    _ZNK18RConnectionMonitor16SetUintAttributeEjjjj@ConnMon{000a0000}[101f6cee].dll  - Undefined Reference
+    RConnectionMonitor::GetConnectionInfo(unsigned, unsigned&, unsigned&) const  - Undefined Reference
+    _ZNK18RConnectionMonitor17GetConnectionInfoEjRjS0_@ConnMon{000a0000}[101f6cee].dll  - Undefined Reference
+    RConnectionMonitor::GetStringAttribute(unsigned, unsigned, unsigned, TDes16&, TRequestStatus&) const  - Undefined Reference
+    _ZNK18RConnectionMonitor18GetStringAttributeEjjjR6TDes16R14TRequestStatus@ConnMon{000a0000}[101f6cee].dll  - Undefined Reference
+    QBearerEnginePlugin::metaObject() const   - Undefined Reference
+    _ZNK19QBearerEnginePlugin10metaObjectEv@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    RCmConnectionMethod::GetIntAttributeL(unsigned long) const  - Undefined Reference
+    _ZNK19RCmConnectionMethod16GetIntAttributeLEm@cmmanager{000a0000}[10207376].dll  - Undefined Reference
+    RCmConnectionMethod::GetBoolAttributeL(unsigned long) const  - Undefined Reference
+    _ZNK19RCmConnectionMethod17GetBoolAttributeLEm@cmmanager{000a0000}[10207376].dll  - Undefined Reference
+    RCmConnectionMethod::GetStringAttributeL(unsigned long) const  - Undefined Reference
+    _ZNK19RCmConnectionMethod19GetStringAttributeLEm@cmmanager{000a0000}[10207376].dll  - Undefined Reference
+    QNetworkConfiguration::identifier() const  - Undefined Reference
+    _ZNK21QNetworkConfiguration10identifierEv@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QNetworkConfiguration::name() const       - Undefined Reference
+    _ZNK21QNetworkConfiguration4nameEv@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QNetworkConfiguration::type() const       - Undefined Reference
+    _ZNK21QNetworkConfiguration4typeEv@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QNetworkConfiguration::state() const      - Undefined Reference
+    _ZNK21QNetworkConfiguration5stateEv@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QNetworkConfiguration::isValid() const    - Undefined Reference
+    _ZNK21QNetworkConfiguration7isValidEv@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QNetworkConfiguration::children() const   - Undefined Reference
+    _ZNK21QNetworkConfiguration8childrenEv@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    CConnMonBearerInfoChange::BearerInfo() const  - Undefined Reference
+    _ZNK24CConnMonBearerInfoChange10BearerInfoEv@ConnMon{000a0000}[101f6cee].dll  - Undefined Reference
+    QNetworkConfigurationManager::configurationFromIdentifier(const QString&) const  - Undefined Reference
+    _ZNK28QNetworkConfigurationManager27configurationFromIdentifierERK7QString@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    CConnMonIapAvailabilityChange::IapAvailability() const  - Undefined Reference
+    _ZNK29CConnMonIapAvailabilityChange15IapAvailabilityEv@ConnMon{000a0000}[101f6cee].dll  - Undefined Reference
+    CConnMonConnectionStatusChange::ConnectionStatus() const  - Undefined Reference
+    _ZNK30CConnMonConnectionStatusChange16ConnectionStatusEv@ConnMon{000a0000}[101f6cee].dll  - Undefined Reference
+    QTime::secsTo(const QTime&) const         - Undefined Reference
+    _ZNK5QTime6secsToERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::thread() const                   - Undefined Reference
+    _ZNK7QObject6threadEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::toLocal8Bit() const              - Undefined Reference
+    _ZNK7QString11toLocal8BitEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::toUtf8() const                   - Undefined Reference
+    _ZNK7QString6toUtf8Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::operator ==(const QLatin1String&) const  - Undefined Reference
+    _ZNK7QStringeqERK13QLatin1String@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::operator ==(const QString&) const  - Undefined Reference
+    _ZNK7QStringeqERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    TDesC16::Ptr() const                      - Undefined Reference
+    _ZNK7TDesC163PtrEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QVariant::toBool() const                  - Undefined Reference
+    _ZNK8QVariant6toBoolEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    RLibrary::Lookup(int) const               - Undefined Reference
+    _ZNK8RLibrary6LookupEi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QDateTime::isNull() const                 - Undefined Reference
+    _ZNK9QDateTime6isNullEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDateTime::secsTo(const QDateTime&) const  - Undefined Reference
+    _ZNK9QDateTime6secsToERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    TInetAddr::Address() const                - Undefined Reference
+    _ZNK9TInetAddr7AddressEv@insock{000a0000}[10003d44].dll  - Undefined Reference
+    typeinfo for QBearerEngine                - Undefined Reference
+    _ZTI13QBearerEngine@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    typeinfo for XLeaveException              - Undefined Reference
+    _ZTI15XLeaveException@drtaeabi{000a0000}.dll  - Undefined Reference
+    typeinfo for QBearerEnginePlugin          - Undefined Reference
+    _ZTI19QBearerEnginePlugin@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    typeinfo for QNetworkSessionPrivate       - Undefined Reference
+    _ZTI22QNetworkSessionPrivate@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    typeinfo for CActive                      - Undefined Reference
+    _ZTI7CActive@euser{000a0000}[100039e5].dll  - Undefined Reference
+    typeinfo for std::bad_alloc               - Undefined Reference
+    _ZTISt9bad_alloc@stdnew{000a0000}[20022178].dll  - Undefined Reference
+    typeinfo for std::exception               - Undefined Reference
+    _ZTISt9exception@stdnew{000a0000}[20022178].dll  - Undefined Reference
+    vtable for QNetworkSessionPrivate         - Undefined Reference
+    _ZTV22QNetworkSessionPrivate@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    vtable for __cxxabiv1::__class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv117__class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv120__si_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    vtable for __cxxabiv1::__vmi_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv121__vmi_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    operator delete (void*)                   - Undefined Reference
+    _ZdlPv@stdnew{000a0000}[20022178].dll     - Undefined Reference
+    operator new(unsigned)                    - Undefined Reference
+    _Znwj@stdnew{000a0000}[20022178].dll      - Undefined Reference
+    __ARM_ll_addls                            - Undefined Reference
+    __ARM_ll_addls@drtrvct2_2{000a0000}.dll   - Undefined Reference
+    __aeabi_idivmod                           - Undefined Reference
+    __aeabi_idivmod@drtaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_memclr4                           - Undefined Reference
+    __aeabi_memclr4@drtaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_memcpy4                           - Undefined Reference
+    __aeabi_memcpy4@drtaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_uidivmod                          - Undefined Reference
+    __aeabi_uidivmod@drtaeabi{000a0000}.dll   - Undefined Reference
+    __aeabi_unwind_cpp_pr0                    - Undefined Reference
+    __aeabi_unwind_cpp_pr0@drtaeabi{000a0000}.dll  - Undefined Reference
+    __aeabi_unwind_cpp_pr1                    - Undefined Reference
+    __aeabi_unwind_cpp_pr1@drtaeabi{000a0000}.dll  - Undefined Reference
+    __aeabi_vec_ctor_nocookie_nodtor          - Undefined Reference
+    __aeabi_vec_ctor_nocookie_nodtor@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_begin_catch                         - Undefined Reference
+    __cxa_begin_catch@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_call_unexpected                     - Undefined Reference
+    __cxa_call_unexpected@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_end_catch                           - Undefined Reference
+    __cxa_end_catch@drtaeabi{000a0000}.dll    - Undefined Reference
+    __cxa_end_cleanup                         - Undefined Reference
+    __cxa_end_cleanup@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_abort                         - Undefined Reference
+    __cxa_guard_abort@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_acquire                       - Undefined Reference
+    __cxa_guard_acquire@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_release                       - Undefined Reference
+    __cxa_guard_release@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_pure_virtual                        - Undefined Reference
+    __cxa_pure_virtual@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_rethrow                             - Undefined Reference
+    __cxa_rethrow@drtaeabi{000a0000}.dll      - Undefined Reference
+    setdefaultif                              - Undefined Reference
+    setdefaultif@libc{00010001}[10207369].dll  - Undefined Reference
+    strcmp                                    - Undefined Reference
+    strcmp@libc{00010001}[10207369].dll       - Undefined Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      52  ucppinit.o(.emb_text)
+    std::nothrow                             0x0000805c   ARM Code       0  ucppinit.o(.emb_text)
+    __PLT                                    0x0000805c   ARM Code       0  anon$$obj.o(.plt)
+    SymbianNetworkConfigurationPrivate::SymbianNetworkConfigurationPrivate() 0x00008795   Thumb Code    38  symbianengine.o(.text)
+    SymbianNetworkConfigurationPrivate::SymbianNetworkConfigurationPrivate__sub_object() 0x00008795   Thumb Code     0  symbianengine.o(.text)
+    SymbianNetworkConfigurationPrivate::~SymbianNetworkConfigurationPrivate() 0x000087bb   Thumb Code    30  symbianengine.o(.text)
+    SymbianNetworkConfigurationPrivate::~SymbianNetworkConfigurationPrivate__sub_object() 0x000087bb   Thumb Code     0  symbianengine.o(.text)
+    SymbianNetworkConfigurationPrivate::~SymbianNetworkConfigurationPrivate__deallocating() 0x000087d9   Thumb Code    22  symbianengine.o(.text)
+    SymbianEngine::SymbianEngine(QObject*)   0x000087ef   Thumb Code   136  symbianengine.o(.text)
+    SymbianEngine::SymbianEngine__sub_object(QObject*) 0x000087ef   Thumb Code     0  symbianengine.o(.text)
+    SymbianEngine::~SymbianEngine()          0x00008877   Thumb Code   136  symbianengine.o(.text)
+    SymbianEngine::~SymbianEngine__sub_object() 0x00008877   Thumb Code     0  symbianengine.o(.text)
+    SymbianEngine::~SymbianEngine__deallocating() 0x000088ff   Thumb Code    22  symbianengine.o(.text)
+    thunk{-24} to SymbianEngine::~SymbianEngine__deallocating() 0x00008915   Thumb Code    14  symbianengine.o(.text)
+    thunk{-24} to SymbianEngine::~SymbianEngine() 0x00008923   Thumb Code    14  symbianengine.o(.text)
+    SymbianEngine::hasIdentifier(const QString&) 0x00008931   Thumb Code    78  symbianengine.o(.text)
+    SymbianEngine::startCommsDatabaseNotifications() 0x0000897f   Thumb Code    46  symbianengine.o(.text)
+    AccessPointsAvailabilityScanner::StartScanning() 0x000089ad   Thumb Code   122  symbianengine.o(.text)
+    AccessPointsAvailabilityScanner::AccessPointsAvailabilityScanner(SymbianEngine&, RConnectionMonitor&) 0x00008a27   Thumb Code   112  symbianengine.o(.text)
+    AccessPointsAvailabilityScanner::AccessPointsAvailabilityScanner__sub_object(SymbianEngine&, RConnectionMonitor&) 0x00008a27   Thumb Code     0  symbianengine.o(.text)
+    SymbianEngine::updateAvailableAccessPoints() 0x00008a97   Thumb Code    70  symbianengine.o(.text)
+    SymbianEngine::changeConfigurationStateTo(QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>, QFlags<QNetworkConfiguration::StateFlag>) 0x00008add   Thumb Code   156  symbianengine.o(.text)
+    SymbianEngine::updateStatesToSnaps()     0x00008b79   Thumb Code   644  symbianengine.o(.text)
+    SymbianEngine::defaultConfigurationL()   0x00008dfd   Thumb Code   332  symbianengine.o(.text)
+    SymbianEngine::stopCommsDatabaseNotifications() 0x00008f49   Thumb Code    24  symbianengine.o(.text)
+    SymbianEngine::changeConfigurationStateAtMaxTo(QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>, QFlags<QNetworkConfiguration::StateFlag>) 0x00008f61   Thumb Code   274  symbianengine.o(.text)
+    SymbianEngine::configurationFromEasyWlan(unsigned long, unsigned) 0x00009073   Thumb Code   276  symbianengine.o(.text)
+    SymbianEngine::updateActiveAccessPoints() 0x00009187   Thumb Code   694  symbianengine.o(.text)
+    SymbianEngine::configFromConnectionMethodL(RCmConnectionMethod&) 0x0000943d   Thumb Code   780  symbianengine.o(.text)
+    SymbianEngine::updateConfigurationsL()   0x00009749   Thumb Code  2924  symbianengine.o(.text)
+    SymbianEngine::updateConfigurations()    0x0000a2b5   Thumb Code    64  symbianengine.o(.text)
+    SymbianEngine::initialize()              0x0000a2f5   Thumb Code   644  symbianengine.o(.text)
+    SymbianEngine::requestUpdate()           0x0000a579   Thumb Code    66  symbianengine.o(.text)
+    SymbianEngine::capabilities() const      0x0000a5bb   Thumb Code   148  symbianengine.o(.text)
+    SymbianEngine::createSessionBackend()    0x0000a64f   Thumb Code    40  symbianengine.o(.text)
+    SymbianEngine::defaultConfiguration()    0x0000a677   Thumb Code    38  symbianengine.o(.text)
+    SymbianEngine::accessPointConfigurationIdentifiers() 0x0000a69d   Thumb Code    56  symbianengine.o(.text)
+    SymbianEngine::configurationFromSsid(const QString&) 0x0000a6d5   Thumb Code   184  symbianengine.o(.text)
+    SymbianEngine::configurationStateChangeReport(unsigned long, QNetworkSession::State) 0x0000a78d   Thumb Code   318  symbianengine.o(.text)
+    SymbianEngine::delayedConfigurationUpdate() 0x0000a8cb   Thumb Code   130  symbianengine.o(.text)
+    SymbianEngine::changeConfigurationStateAtMinTo(QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>, QFlags<QNetworkConfiguration::StateFlag>) 0x0000a94d   Thumb Code   190  symbianengine.o(.text)
+    SymbianEngine::updateMobileBearerToConfigs(TConnMonBearerInfo) 0x0000aa0b   Thumb Code   222  symbianengine.o(.text)
+    SymbianEngine::accessPointScanningReady(int, TConnMonIapInfo) 0x0000aae9   Thumb Code   470  symbianengine.o(.text)
+    SymbianEngine::updateConfigurationsAfterRandomTime() 0x0000acbf   Thumb Code    80  symbianengine.o(.text)
+    SymbianEngine::dataByConnectionId(unsigned) 0x0000ad0f   Thumb Code   172  symbianengine.o(.text)
+    SymbianEngine::RunL()                    0x0000adbb   Thumb Code   134  symbianengine.o(.text)
+    thunk{-24} to SymbianEngine::RunL()      0x0000ae41   Thumb Code    14  symbianengine.o(.text)
+    SymbianEngine::DoCancel()                0x0000ae4f   Thumb Code    28  symbianengine.o(.text)
+    thunk{-24} to SymbianEngine::DoCancel()  0x0000ae6b   Thumb Code    14  symbianengine.o(.text)
+    SymbianEngine::EventL(const CConnMonEventBase&) 0x0000ae79   Thumb Code  2044  symbianengine.o(.text)
+    thunk{-52} to SymbianEngine::EventL(const CConnMonEventBase&) 0x0000b675   Thumb Code    18  symbianengine.o(.text)
+    AccessPointsAvailabilityScanner::~AccessPointsAvailabilityScanner() 0x0000b687   Thumb Code    24  symbianengine.o(.text)
+    AccessPointsAvailabilityScanner::~AccessPointsAvailabilityScanner__sub_object() 0x0000b687   Thumb Code     0  symbianengine.o(.text)
+    AccessPointsAvailabilityScanner::~AccessPointsAvailabilityScanner__deallocating() 0x0000b69f   Thumb Code    22  symbianengine.o(.text)
+    AccessPointsAvailabilityScanner::RunL()  0x0000b6b5   Thumb Code   180  symbianengine.o(.text)
+    AccessPointsAvailabilityScanner::DoCancel() 0x0000b769   Thumb Code    28  symbianengine.o(.text)
+    QNetworkSessionPrivateImpl::QNetworkSessionPrivateImpl(SymbianEngine*) 0x0000b78d   Thumb Code   396  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::QNetworkSessionPrivateImpl__sub_object(SymbianEngine*) 0x0000b78d   Thumb Code     0  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::setDefaultIf(const QString&) const 0x0000b919   Thumb Code   150  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::~QNetworkSessionPrivateImpl() 0x0000b9af   Thumb Code   210  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::~QNetworkSessionPrivateImpl__sub_object() 0x0000b9af   Thumb Code     0  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::~QNetworkSessionPrivateImpl__deallocating() 0x0000ba81   Thumb Code    22  qnetworksession_impl.o(.text)
+    thunk{-32} to QNetworkSessionPrivateImpl::~QNetworkSessionPrivateImpl__deallocating() 0x0000ba97   Thumb Code    14  qnetworksession_impl.o(.text)
+    thunk{-32} to QNetworkSessionPrivateImpl::~QNetworkSessionPrivateImpl() 0x0000baa5   Thumb Code    14  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::bestConfigFromSNAP(const QNetworkConfiguration&) const 0x0000bab3   Thumb Code   254  qnetworksession_impl.o(.text)
+    ConnectionProgressNotifier::StopNotifications() 0x0000bbb1   Thumb Code    12  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::interface(unsigned) const 0x0000bbbd   Thumb Code   516  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::easyWlanTrueIapId(unsigned long&) const 0x0000bdc1   Thumb Code   376  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::activeConfiguration(unsigned long) const 0x0000bf39   Thumb Code  1562  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::newState(QNetworkSession::State, unsigned) 0x0000c553   Thumb Code  1016  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::syncStateWithInterface() 0x0000c94b   Thumb Code   216  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::currentInterface() const 0x0000ca23   Thumb Code    48  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::sessionProperty(const QString&) const 0x0000ca53   Thumb Code   118  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::setSessionProperty(const QString&, const QVariant&) 0x0000cac9   Thumb Code   106  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::setALREnabled(bool) 0x0000cb33   Thumb Code    28  qnetworksession_impl.o(.text)
+    ConnectionProgressNotifier::StartNotifications() 0x0000cb4f   Thumb Code    38  qnetworksession_impl.o(.text)
+    ConnectionProgressNotifier::ConnectionProgressNotifier(QNetworkSessionPrivateImpl&, RConnection&) 0x0000cb75   Thumb Code    92  qnetworksession_impl.o(.text)
+    ConnectionProgressNotifier::ConnectionProgressNotifier__sub_object(QNetworkSessionPrivateImpl&, RConnection&) 0x0000cb75   Thumb Code     0  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::open()       0x0000cbd1   Thumb Code   830  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::unsetDefaultIf() const 0x0000cf0f   Thumb Code    54  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::close(bool)  0x0000cf45   Thumb Code   196  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::stop()       0x0000d009   Thumb Code   308  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::migrate()    0x0000d13d   Thumb Code    28  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::accept()     0x0000d159   Thumb Code    76  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::ignore()     0x0000d1a5   Thumb Code    54  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::reject()     0x0000d1db   Thumb Code    96  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::errorString() const 0x0000d23b   Thumb Code    92  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::error() const 0x0000d297   Thumb Code     8  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::transferredData(unsigned) const 0x0000d29f   Thumb Code   720  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::bytesWritten() const 0x0000d56f   Thumb Code    18  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::bytesReceived() const 0x0000d581   Thumb Code    18  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::activeTime() const 0x0000d593   Thumb Code    70  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::PreferredCarrierAvailable(TAccessPointInfo, TAccessPointInfo, int, int) 0x0000d5d9   Thumb Code   192  qnetworksession_impl.o(.text)
+    thunk{-60} to QNetworkSessionPrivateImpl::PreferredCarrierAvailable(TAccessPointInfo, TAccessPointInfo, int, int) 0x0000d699   Thumb Code   192  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::NewCarrierActive(TAccessPointInfo, int) 0x0000d759   Thumb Code    44  qnetworksession_impl.o(.text)
+    thunk{-60} to QNetworkSessionPrivateImpl::NewCarrierActive(TAccessPointInfo, int) 0x0000d785   Thumb Code    20  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::Error(int)   0x0000d799   Thumb Code   188  qnetworksession_impl.o(.text)
+    thunk{-60} to QNetworkSessionPrivateImpl::Error(int) 0x0000d855   Thumb Code    18  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::RunL()       0x0000d867   Thumb Code   964  qnetworksession_impl.o(.text)
+    thunk{-32} to QNetworkSessionPrivateImpl::RunL() 0x0000dc2b   Thumb Code    14  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::DoCancel()   0x0000dc39   Thumb Code    14  qnetworksession_impl.o(.text)
+    thunk{-32} to QNetworkSessionPrivateImpl::DoCancel() 0x0000dc47   Thumb Code    14  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::configurationStateChanged(unsigned, unsigned, QNetworkSession::State) 0x0000dc55   Thumb Code    34  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::configurationRemoved(QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>) 0x0000dc77   Thumb Code   112  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::configurationAdded(QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>) 0x0000dce7   Thumb Code    46  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::iapClientCount(unsigned) const 0x0000dd15   Thumb Code   200  qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::handleSymbianConnectionStatusChange(int, int, unsigned) 0x0000dddd   Thumb Code   350  qnetworksession_impl.o(.text)
+    ConnectionProgressNotifier::~ConnectionProgressNotifier() 0x0000df3b   Thumb Code    24  qnetworksession_impl.o(.text)
+    ConnectionProgressNotifier::~ConnectionProgressNotifier__sub_object() 0x0000df3b   Thumb Code     0  qnetworksession_impl.o(.text)
+    ConnectionProgressNotifier::~ConnectionProgressNotifier__deallocating() 0x0000df53   Thumb Code    22  qnetworksession_impl.o(.text)
+    ConnectionProgressNotifier::RunL()       0x0000df69   Thumb Code   100  qnetworksession_impl.o(.text)
+    ConnectionProgressNotifier::DoCancel()   0x0000dfcd   Thumb Code    12  qnetworksession_impl.o(.text)
+    qt_plugin_query_verification_data        0x0000dfe9   Thumb Code     4  main.o(.text)
+    QSymbianEnginePlugin::QSymbianEnginePlugin() 0x0000dfed   Thumb Code    26  main.o(.text)
+    QSymbianEnginePlugin::QSymbianEnginePlugin__sub_object() 0x0000dfed   Thumb Code     0  main.o(.text)
+    qt_plugin_instance                       0x0000e007   Thumb Code   120  main.o(.text)
+    QSymbianEnginePlugin::~QSymbianEnginePlugin() 0x0000e07f   Thumb Code    14  main.o(.text)
+    QSymbianEnginePlugin::~QSymbianEnginePlugin__sub_object() 0x0000e07f   Thumb Code     0  main.o(.text)
+    QSymbianEnginePlugin::~QSymbianEnginePlugin__deallocating() 0x0000e08d   Thumb Code    22  main.o(.text)
+    thunk{-8} to QSymbianEnginePlugin::~QSymbianEnginePlugin__deallocating() 0x0000e0a3   Thumb Code    14  main.o(.text)
+    thunk{-8} to QSymbianEnginePlugin::~QSymbianEnginePlugin() 0x0000e0b1   Thumb Code    14  main.o(.text)
+    QSymbianEnginePlugin::keys() const       0x0000e0bf   Thumb Code   116  main.o(.text)
+    thunk{-8} to QSymbianEnginePlugin::keys() const 0x0000e133   Thumb Code    18  main.o(.text)
+    QSymbianEnginePlugin::create(const QString&) const 0x0000e145   Thumb Code    64  main.o(.text)
+    thunk{-8} to QSymbianEnginePlugin::create(const QString&) const 0x0000e185   Thumb Code    18  main.o(.text)
+    SymbianEngine::getStaticMetaObject()     0x0000e1b9   Thumb Code     4  moc_symbianengine.o(.text)
+    SymbianEngine::metaObject() const        0x0000e1bd   Thumb Code    30  moc_symbianengine.o(.text)
+    SymbianEngine::qt_metacast(const char*)  0x0000e1db   Thumb Code    76  moc_symbianengine.o(.text)
+    SymbianEngine::configurationStateChanged(unsigned, unsigned, QNetworkSession::State) 0x0000e227   Thumb Code    44  moc_symbianengine.o(.text)
+    SymbianEngine::onlineStateChanged(bool)  0x0000e253   Thumb Code    30  moc_symbianengine.o(.text)
+    SymbianEngine::qt_metacall(QMetaObject::Call, int, void**) 0x0000e271   Thumb Code   124  moc_symbianengine.o(.text)
+    QNetworkSessionPrivateImpl::getStaticMetaObject() 0x0000e319   Thumb Code     4  moc_qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::metaObject() const 0x0000e31d   Thumb Code    30  moc_qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::qt_metacast(const char*) 0x0000e33b   Thumb Code    76  moc_qnetworksession_impl.o(.text)
+    QNetworkSessionPrivateImpl::qt_metacall(QMetaObject::Call, int, void**) 0x0000e387   Thumb Code   146  moc_qnetworksession_impl.o(.text)
+    __ARM_switch8                            0x0000e440   ARM Code      24  switch8.o(.text)
+    __rt_switch8                             0x0000e440   ARM Code       0  switch8.o(.text)
+    _E32Dll_Body                             0x0000e458   ARM Code      76  uc_dll.o(.text)
+    __aeabi_atexit                           0x0000e4a8   ARM Code      40  ucppfini.o(.text)
+    __cxa_atexit                             0x0000e4d0   ARM Code      64  ucppfini.o(.text)
+    __cxa_finalize                           0x0000e510   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x0000e540   ARM Code      16  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x0000e55c   ARM Code       4  dllexp.o(.text)
+    qDebug()                                 0x0000ef73   Thumb Code    92  qnetworksession_impl.o(i._Z6qDebugv)
+    QByteArray::~QByteArray()                0x0000efe7   Thumb Code    24  qnetworksession_impl.o(i._ZN10QByteArrayD1Ev)
+    QByteArray::~QByteArray__sub_object()    0x0000efe7   Thumb Code     0  qnetworksession_impl.o(i._ZN10QByteArrayD1Ev)
+    QMetaObject::invokeMethod(QObject*, const char*, Qt::ConnectionType, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument) 0x0000efff   Thumb Code   130  qnetworksession_impl.o(i._ZN11QMetaObject12invokeMethodEP7QObjectPKcN2Qt14ConnectionTypeE16QGenericArgumentS6_S6_S6_S6_S6_S6_S6_S6_S6_)
+    QStringList::~QStringList()              0x0000f081   Thumb Code    14  qnetworksession_impl.o(i._ZN11QStringListD1Ev)
+    QStringList::~QStringList__sub_object()  0x0000f081   Thumb Code     0  qnetworksession_impl.o(i._ZN11QStringListD1Ev)
+    TConnMonIap::TConnMonIap()               0x0000f08f   Thumb Code     6  symbianengine.o(i._ZN11TConnMonIapC1Ev)
+    TConnMonIap::TConnMonIap__sub_object()   0x0000f08f   Thumb Code     0  symbianengine.o(i._ZN11TConnMonIapC1Ev)
+    CleanupStack::PopAndDestroy(void*)       0x0000f095   Thumb Code    16  symbianengine.o(i._ZN12CleanupStack13PopAndDestroyEPv)
+    QMapIterator<unsigned, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::~QMapIterator() 0x0000f0a5   Thumb Code    14  symbianengine.o(i._ZN12QMapIteratorIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEED1Ev)
+    QMapIterator<unsigned, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::~QMapIterator__sub_object() 0x0000f0a5   Thumb Code     0  symbianengine.o(i._ZN12QMapIteratorIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEED1Ev)
+    QMutexLocker::unlock()                   0x0000f0b3   Thumb Code    38  symbianengine.o(i._ZN12QMutexLocker6unlockEv)
+    QMutexLocker::QMutexLocker(QMutex*)      0x0000f0d9   Thumb Code    56  symbianengine.o(i._ZN12QMutexLockerC1EP6QMutex)
+    QMutexLocker::QMutexLocker__sub_object(QMutex*) 0x0000f0d9   Thumb Code     0  symbianengine.o(i._ZN12QMutexLockerC1EP6QMutex)
+    QMutexLocker::~QMutexLocker()            0x0000f181   Thumb Code    14  symbianengine.o(i._ZN12QMutexLockerD1Ev)
+    QMutexLocker::~QMutexLocker__sub_object() 0x0000f181   Thumb Code     0  symbianengine.o(i._ZN12QMutexLockerD1Ev)
+    QBasicAtomicInt::ref()                   0x0000f18f   Thumb Code    24  symbianengine.o(i._ZN15QBasicAtomicInt3refEv)
+    QBasicAtomicInt::deref()                 0x0000f1a7   Thumb Code    24  symbianengine.o(i._ZN15QBasicAtomicInt5derefEv)
+    QtSharedPointer::ExternalRefCountData::destroy() 0x0000f1bf   Thumb Code     6  symbianengine.o(i._ZN15QtSharedPointer20ExternalRefCountData7destroyEv)
+    QtSharedPointer::ExternalRefCountData::~ExternalRefCountData__deallocating() 0x0000f1c5   Thumb Code    22  symbianengine.o(i._ZN15QtSharedPointer20ExternalRefCountDataD0Ev)
+    QtSharedPointer::ExternalRefCountData::~ExternalRefCountData() 0x0000f1dd   Thumb Code    70  symbianengine.o(i._ZN15QtSharedPointer20ExternalRefCountDataD1Ev)
+    QtSharedPointer::ExternalRefCountData::~ExternalRefCountData__sub_object() 0x0000f1dd   Thumb Code     0  symbianengine.o(i._ZN15QtSharedPointer20ExternalRefCountDataD1Ev)
+    QForeachContainer<QList<QString>>::~QForeachContainer() 0x0000f249   Thumb Code    14  symbianengine.o(i._ZN17QForeachContainerI5QListI7QStringEED1Ev)
+    QForeachContainer<QList<QString>>::~QForeachContainer__sub_object() 0x0000f249   Thumb Code     0  symbianengine.o(i._ZN17QForeachContainerI5QListI7QStringEED1Ev)
+    TExtendedConnPref::~TExtendedConnPref()  0x0000f257   Thumb Code    14  qnetworksession_impl.o(i._ZN17TExtendedConnPrefD1Ev)
+    TExtendedConnPref::~TExtendedConnPref__sub_object() 0x0000f257   Thumb Code     0  qnetworksession_impl.o(i._ZN17TExtendedConnPrefD1Ev)
+    QNetworkSessionPrivate::~QNetworkSessionPrivate() 0x0000f265   Thumb Code     0  qnetworksession_impl.o(i._ZN22QNetworkSessionPrivateD2Ev)
+    QNetworkSessionPrivate::~QNetworkSessionPrivate__sub_object() 0x0000f265   Thumb Code    54  qnetworksession_impl.o(i._ZN22QNetworkSessionPrivateD2Ev)
+    QNetworkSessionPrivateImpl::tr(const char*, const char*) 0x0000f2c5   Thumb Code    22  qnetworksession_impl.o(i._ZN26QNetworkSessionPrivateImpl2trEPKcS1_)
+    QNetworkSessionPrivateImpl::close()      0x0000f2e1   Thumb Code    14  moc_qnetworksession_impl.o(i._ZN26QNetworkSessionPrivateImpl5closeEv)
+    QNetworkConfigurationPrivate::QNetworkConfigurationPrivate() 0x0000f2f1   Thumb Code   104  symbianengine.o(i._ZN28QNetworkConfigurationPrivateC1Ev)
+    QNetworkConfigurationPrivate::QNetworkConfigurationPrivate__sub_object() 0x0000f2f1   Thumb Code     0  symbianengine.o(i._ZN28QNetworkConfigurationPrivateC1Ev)
+    QNetworkConfigurationPrivate::~QNetworkConfigurationPrivate__deallocating() 0x0000f381   Thumb Code    22  symbianengine.o(i._ZN28QNetworkConfigurationPrivateD0Ev)
+    QNetworkConfigurationPrivate::~QNetworkConfigurationPrivate() 0x0000f399   Thumb Code    88  symbianengine.o(i._ZN28QNetworkConfigurationPrivateD1Ev)
+    QNetworkConfigurationPrivate::~QNetworkConfigurationPrivate__sub_object() 0x0000f399   Thumb Code     0  symbianengine.o(i._ZN28QNetworkConfigurationPrivateD1Ev)
+    CBase::operator new(unsigned)            0x0000f42f   Thumb Code    16  symbianengine.o(i._ZN5CBasenwEj)
+    QDebug::maybeSpace()                     0x0000f43f   Thumb Code    24  qnetworksession_impl.o(i._ZN6QDebug10maybeSpaceEv)
+    QDebug::~QDebug()                        0x0000f457   Thumb Code   144  qnetworksession_impl.o(i._ZN6QDebugD1Ev)
+    QDebug::~QDebug__sub_object()            0x0000f457   Thumb Code     0  qnetworksession_impl.o(i._ZN6QDebugD1Ev)
+    QDebug::operator <<(const char*)         0x0000f4fb   Thumb Code    44  qnetworksession_impl.o(i._ZN6QDebuglsEPKc)
+    QString::QString(const QLatin1String&)   0x0000f531   Thumb Code    26  symbianengine.o(i._ZN7QStringC1ERK13QLatin1String)
+    QString::QString__sub_object(const QLatin1String&) 0x0000f531   Thumb Code     0  symbianengine.o(i._ZN7QStringC1ERK13QLatin1String)
+    QString::QString(const QString&)         0x0000f54d   Thumb Code    40  symbianengine.o(i._ZN7QStringC1ERKS_)
+    QString::QString__sub_object(const QString&) 0x0000f54d   Thumb Code     0  symbianengine.o(i._ZN7QStringC1ERKS_)
+    QString::QString()                       0x0000f5c9   Thumb Code    18  symbianengine.o(i._ZN7QStringC1Ev)
+    QString::QString__sub_object()           0x0000f5c9   Thumb Code     0  symbianengine.o(i._ZN7QStringC1Ev)
+    QString::~QString()                      0x0000f5e1   Thumb Code    24  symbianengine.o(i._ZN7QStringD1Ev)
+    QString::~QString__sub_object()          0x0000f5e1   Thumb Code     0  symbianengine.o(i._ZN7QStringD1Ev)
+    QHashData::firstNode()                   0x0000f5f9   Thumb Code    36  symbianengine.o(i._ZN9QHashData9firstNodeEv)
+    QBasicAtomicInt::operator !=(int) const  0x0000f61d   Thumb Code    16  symbianengine.o(i._ZNK15QBasicAtomicIntneEi)
+    QNetworkSessionPrivate::privateConfiguration(const QNetworkConfiguration&) const 0x0000f62d   Thumb Code    20  qnetworksession_impl.o(i._ZNK22QNetworkSessionPrivate20privateConfigurationERK21QNetworkConfiguration)
+    QNetworkConfigurationPrivate::bearerTypeName() const 0x0000f641   Thumb Code    24  symbianengine.o(i._ZNK28QNetworkConfigurationPrivate14bearerTypeNameEv)
+    SymbianNetworkConfigurationPrivate::configMappingName() const 0x0000f661   Thumb Code    36  qnetworksession_impl.o(i._ZNK34SymbianNetworkConfigurationPrivate17configMappingNameEv)
+    SymbianNetworkConfigurationPrivate::numericIdentifier() const 0x0000f68f   Thumb Code    26  qnetworksession_impl.o(i._ZNK34SymbianNetworkConfigurationPrivate17numericIdentifierEv)
+    SymbianNetworkConfigurationPrivate::connectionIdentifier() const 0x0000f6a9   Thumb Code    28  symbianengine.o(i._ZNK34SymbianNetworkConfigurationPrivate20connectionIdentifierEv)
+    CActive::IsActive() const                0x0000f6c5   Thumb Code    10  symbianengine.o(i._ZNK7CActive8IsActiveEv)
+    QString::isEmpty() const                 0x0000f6cf   Thumb Code    18  qnetworksession_impl.o(i._ZNK7QString7isEmptyEv)
+    QString::operator !=(const QString&) const 0x0000f6e1   Thumb Code    20  qnetworksession_impl.o(i._ZNK7QStringneERKS_)
+    QVariant::isValid() const                0x0000f6f5   Thumb Code    18  qnetworksession_impl.o(i._ZNK8QVariant7isValidEv)
+    QListData::at(int) const                 0x0000f707   Thumb Code    20  symbianengine.o(i._ZNK9QListData2atEi)
+    QListData::end() const                   0x0000f71b   Thumb Code    16  symbianengine.o(i._ZNK9QListData3endEv)
+    QListData::size() const                  0x0000f72b   Thumb Code    14  qnetworksession_impl.o(i._ZNK9QListData4sizeEv)
+    QListData::begin() const                 0x0000f739   Thumb Code    16  symbianengine.o(i._ZNK9QListData5beginEv)
+    operator delete (void*, void*)           0x0000f749   Thumb Code     2  symbianengine.o(i._ZdlPvS_)
+    operator new(unsigned, void*)            0x0000f74b   Thumb Code     6  symbianengine.o(i._ZnwjPv)
+    operator +(const QString&, const QString&) 0x0000f751   Thumb Code    44  symbianengine.o(i._ZplRK7QStringS1_)
+    qMapLessThanKey<unsigned>(const T1&, const T1&) 0x0000f787   Thumb Code    18  symbianengine.o(t._Z15qMapLessThanKeyIjEbRKT_S2_)
+    CleanupClosePushL<RCmConnectionMethod>(T1&) 0x0000f799   Thumb Code    24  symbianengine.o(t._Z17CleanupClosePushLI19RCmConnectionMethodEvRT_)
+    CleanupClosePushL<RArray<unsigned long>>(T1&) 0x0000f7b5   Thumb Code    24  symbianengine.o(t._Z17CleanupClosePushLI6RArrayImEEvRT_)
+    qForeachContainerNew<QList<QString>>(const T1&) 0x0000f7d1   Thumb Code   102  symbianengine.o(t._Z20qForeachContainerNewI5QListI7QStringEE17QForeachContainerIT_ERKS4_)
+    CleanupClose<RCmDestination>::Close(void*) 0x0000f841   Thumb Code    12  symbianengine.o(t._ZN12CleanupCloseI14RCmDestinationE5CloseEPv)
+    CleanupClose<RCmConnectionMethod>::Close(void*) 0x0000f84d   Thumb Code    12  symbianengine.o(t._ZN12CleanupCloseI19RCmConnectionMethodE5CloseEPv)
+    CleanupClose<RArray<unsigned long>>::Close(void*) 0x0000f859   Thumb Code    14  symbianengine.o(t._ZN12CleanupCloseI6RArrayImEE5CloseEPv)
+    QMutableMapIterator<unsigned, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::~QMutableMapIterator() 0x0000f867   Thumb Code    16  symbianengine.o(t._ZN19QMutableMapIteratorIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEED1Ev)
+    QMutableMapIterator<unsigned, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::~QMutableMapIterator__sub_object() 0x0000f867   Thumb Code     0  symbianengine.o(t._ZN19QMutableMapIteratorIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEED1Ev)
+    QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>::QExplicitlySharedDataPointer(QNetworkConfigurationPrivate*) 0x0000f877   Thumb Code    26  symbianengine.o(t._ZN28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEC1EPS0_)
+    QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>::QExplicitlySharedDataPointer__sub_object(QNetworkConfigurationPrivate*) 0x0000f877   Thumb Code     0  symbianengine.o(t._ZN28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEC1EPS0_)
+    QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>::QExplicitlySharedDataPointer(const QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>&) 0x0000f891   Thumb Code    28  symbianengine.o(t._ZN28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEC1ERKS1_)
+    QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>::QExplicitlySharedDataPointer__sub_object(const QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>&) 0x0000f891   Thumb Code     0  symbianengine.o(t._ZN28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEC1ERKS1_)
+    QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>::~QExplicitlySharedDataPointer() 0x0000f8ad   Thumb Code    42  symbianengine.o(t._ZN28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateED1Ev)
+    QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>::~QExplicitlySharedDataPointer__sub_object() 0x0000f8ad   Thumb Code     0  symbianengine.o(t._ZN28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateED1Ev)
+    QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>::operator =(const QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>&) 0x0000f8d7   Thumb Code    66  symbianengine.o(t._ZN28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEaSERKS1_)
+    QMap<unsigned, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::node_create(QMapData*, QMapData::Node**, const unsigned&, const QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>&) 0x0000f919   Thumb Code   130  symbianengine.o(t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE11node_createEP8QMapDataPPNS4_4NodeERKjRKS2_)
+    QMap<unsigned, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::setSharable(bool) 0x0000f9b7   Thumb Code    38  symbianengine.o(t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE11setSharableEb)
+    QMap<unsigned, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::detach_helper() 0x0000f9dd   Thumb Code   146  symbianengine.o(t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE13detach_helperEv)
+    QMap<unsigned, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::end() 0x0000fa77   Thumb Code    18  symbianengine.o(t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE3endEv)
+    QMap<unsigned, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::erase(QMap<unsigned, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::iterator) 0x0000fa89   Thumb Code   266  symbianengine.o(t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE5eraseENS3_8iteratorE)
+    QMap<unsigned, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::detach() 0x0000fb93   Thumb Code    28  symbianengine.o(t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE6detachEv)
+    QMap<unsigned, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::freeData(QMapData*) 0x0000fbaf   Thumb Code    56  symbianengine.o(t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE8freeDataEP8QMapData)
+    QMap<unsigned, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::QMap() 0x0000fbe9   Thumb Code    22  symbianengine.o(t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEEC1Ev)
+    QMap<unsigned, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::QMap__sub_object() 0x0000fbe9   Thumb Code     0  symbianengine.o(t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEEC1Ev)
+    QMap<unsigned, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::~QMap() 0x0000fc05   Thumb Code    38  symbianengine.o(t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEED1Ev)
+    QMap<unsigned, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::~QMap__sub_object() 0x0000fc05   Thumb Code     0  symbianengine.o(t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEED1Ev)
+    QMap<unsigned, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::operator =(const QMap<unsigned, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>&) 0x0000fc2b   Thumb Code    70  symbianengine.o(t._ZN4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEEaSERKS3_)
+    TBuf<(int)128>::TBuf()                   0x0000fc71   Thumb Code    16  qnetworksession_impl.o(t._ZN4TBufILi128EEC1Ev)
+    TBuf<(int)128>::TBuf__sub_object()       0x0000fc71   Thumb Code     0  qnetworksession_impl.o(t._ZN4TBufILi128EEC1Ev)
+    QHash<QString, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::deleteNode2(QHashData::Node*) 0x0000fc81   Thumb Code    36  symbianengine.o(t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE11deleteNode2EPN9QHashData4NodeE)
+    QHash<QString, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::detach_helper() 0x0000fcb1   Thumb Code    52  symbianengine.o(t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE13detach_helperEv)
+    QHash<QString, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::duplicateNode(QHashData::Node*, void*) 0x0000fced   Thumb Code    46  symbianengine.o(t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE13duplicateNodeEPN9QHashData4NodeEPv)
+    QHash<QString, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::const_iterator::operator ++() 0x0000fd29   Thumb Code    16  symbianengine.o(t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE14const_iteratorppEv)
+    QHash<QString, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::take(const QString&) 0x0000fd39   Thumb Code   236  symbianengine.o(t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE4takeERKS0_)
+    QHash<QString, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::detach() 0x0000fe2f   Thumb Code    28  symbianengine.o(t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE6detachEv)
+    QHash<QString, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::insert(const QString&, const QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>&) 0x0000fe4b   Thumb Code   210  symbianengine.o(t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE6insertERKS0_RKS3_)
+    QHash<QString, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::freeData(QHashData*) 0x0000ff2d   Thumb Code    16  symbianengine.o(t._ZN5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE8freeDataEP9QHashData)
+    QList<QNetworkConfiguration>::detach_helper(int) 0x0000ff41   Thumb Code   200  qnetworksession_impl.o(t._ZN5QListI21QNetworkConfigurationE13detach_helperEi)
+    QList<QNetworkConfiguration>::detach_helper() 0x00010029   Thumb Code    16  qnetworksession_impl.o(t._ZN5QListI21QNetworkConfigurationE13detach_helperEv)
+    QList<QNetworkConfiguration>::free(QListData::Data*) 0x00010039   Thumb Code    82  qnetworksession_impl.o(t._ZN5QListI21QNetworkConfigurationE4freeEPN9QListData4DataE)
+    QList<QNetworkConfiguration>::~QList()   0x0001008b   Thumb Code    32  qnetworksession_impl.o(t._ZN5QListI21QNetworkConfigurationED1Ev)
+    QList<QNetworkConfiguration>::~QList__sub_object() 0x0001008b   Thumb Code     0  qnetworksession_impl.o(t._ZN5QListI21QNetworkConfigurationED1Ev)
+    QList<QNetworkConfiguration>::operator [](int) 0x000100ad   Thumb Code    74  qnetworksession_impl.o(t._ZN5QListI21QNetworkConfigurationEixEi)
+    QList<QString>::detach_helper(int)       0x00010161   Thumb Code    94  symbianengine.o(t._ZN5QListI7QStringE13detach_helperEi)
+    QList<QString>::detach_helper()          0x000101c7   Thumb Code    16  symbianengine.o(t._ZN5QListI7QStringE13detach_helperEv)
+    QList<QString>::node_destruct(QList<QString>::Node*, QList<QString>::Node*) 0x000101d7   Thumb Code    26  symbianengine.o(t._ZN5QListI7QStringE13node_destructEPNS1_4NodeES3_)
+    QList<QString>::node_construct(QList<QString>::Node*, const QString&) 0x000101f1   Thumb Code    36  symbianengine.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_)
+    QList<QString>::detach_helper_grow(int, int) 0x00010223   Thumb Code   208  symbianengine.o(t._ZN5QListI7QStringE18detach_helper_growEii)
+    QList<QString>::free(QListData::Data*)   0x00010303   Thumb Code    58  symbianengine.o(t._ZN5QListI7QStringE4freeEPN9QListData4DataE)
+    QList<QString>::append(const QString&)   0x0001033d   Thumb Code   114  symbianengine.o(t._ZN5QListI7QStringE6appendERKS0_)
+    QList<QString>::reserve(int)             0x000103c3   Thumb Code    46  symbianengine.o(t._ZN5QListI7QStringE7reserveEi)
+    QList<QString>::node_copy(QList<QString>::Node*, QList<QString>::Node*, QList<QString>::Node*) 0x000103f1   Thumb Code    82  symbianengine.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_)
+    QList<QString>::removeOne(const QString&) 0x00010459   Thumb Code   128  symbianengine.o(t._ZN5QListI7QStringE9removeOneERKS0_)
+    QList<QString>::QList(const QList<QString>&) 0x000104dd   Thumb Code    36  symbianengine.o(t._ZN5QListI7QStringEC1ERKS1_)
+    QList<QString>::QList__sub_object(const QList<QString>&) 0x000104dd   Thumb Code     0  symbianengine.o(t._ZN5QListI7QStringEC1ERKS1_)
+    QList<QString>::~QList()                 0x00010501   Thumb Code    32  symbianengine.o(t._ZN5QListI7QStringED1Ev)
+    QList<QString>::~QList__sub_object()     0x00010501   Thumb Code     0  symbianengine.o(t._ZN5QListI7QStringED1Ev)
+    QList<QString>::operator =(const QList<QString>&) 0x00010521   Thumb Code    64  qnetworksession_impl.o(t._ZN5QListI7QStringEaSERKS1_)
+    QList<QString>::operator [](int)         0x00010561   Thumb Code    74  qnetworksession_impl.o(t._ZN5QListI7QStringEixEi)
+    QPointer<QObject>::~QPointer()           0x00010615   Thumb Code    14  main.o(t._ZN8QPointerI7QObjectED1Ev)
+    QPointer<QObject>::~QPointer__sub_object() 0x00010615   Thumb Code     0  main.o(t._ZN8QPointerI7QObjectED1Ev)
+    QHashNode<QString, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::QHashNode(const QString&, const QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>&) 0x00010623   Thumb Code    40  symbianengine.o(t._ZN9QHashNodeI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEEC1ERKS0_RKS3_)
+    QHashNode<QString, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::QHashNode__sub_object(const QString&, const QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>&) 0x00010623   Thumb Code     0  symbianengine.o(t._ZN9QHashNodeI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEEC1ERKS0_RKS3_)
+    QScopedPointer<QObjectData, QScopedPointerDeleter<QObjectData>>::operator ->() const 0x00010659   Thumb Code    30  moc_symbianengine.o(t._ZNK14QScopedPointerI11QObjectData21QScopedPointerDeleterIS0_EEptEv)
+    QForeachContainer<QList<QString>>::condition() const 0x00010681   Thumb Code    40  symbianengine.o(t._ZNK17QForeachContainerI5QListI7QStringEE9conditionEv)
+    QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>::operator bool() const 0x000106a9   Thumb Code    16  symbianengine.o(t._ZNK28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEcvbEv)
+    QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>::operator !() const 0x000106b9   Thumb Code    16  symbianengine.o(t._ZNK28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEntEv)
+    QMap<unsigned, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::const_iterator::operator !=(const QMap<unsigned, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::const_iterator&) const 0x000106c9   Thumb Code    18  symbianengine.o(t._ZNK4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE14const_iteratorneERKS4_)
+    QMap<unsigned, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::mutableFindNode(QMapData::Node**, const unsigned&) const 0x000106db   Thumb Code   108  symbianengine.o(t._ZNK4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE15mutableFindNodeEPPN8QMapData4NodeERKj)
+    QMap<unsigned, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::operator ==(const QMap<unsigned, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>&) const 0x00010747   Thumb Code   234  symbianengine.o(t._ZNK4QMapIj28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEEeqERKS3_)
+    QHash<QString, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::constBegin() const 0x00010831   Thumb Code    18  symbianengine.o(t._ZNK5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE10constBeginEv)
+    QHash<QString, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::const_iterator::operator !=(const QHash<QString, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::const_iterator&) const 0x00010843   Thumb Code    18  symbianengine.o(t._ZNK5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE14const_iteratorneERKS5_)
+    QHash<QString, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::keys() const 0x00010855   Thumb Code   100  symbianengine.o(t._ZNK5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE4keysEv)
+    QHash<QString, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::value(const QString&) const 0x000108c7   Thumb Code    58  symbianengine.o(t._ZNK5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE5valueERKS0_)
+    QHash<QString, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::contains(const QString&) const 0x00010901   Thumb Code    32  symbianengine.o(t._ZNK5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE8containsERKS0_)
+    QHash<QString, QExplicitlySharedDataPointer<QNetworkConfigurationPrivate>>::findNode(const QString&, unsigned*) const 0x00010921   Thumb Code   150  symbianengine.o(t._ZNK5QHashI7QString28QExplicitlySharedDataPointerI28QNetworkConfigurationPrivateEE8findNodeERKS0_Pj)
+    QList<QNetworkConfiguration>::count() const 0x00010a11   Thumb Code    12  qnetworksession_impl.o(t._ZNK5QListI21QNetworkConfigurationE5countEv)
+    QList<QString>::count() const            0x00010a1d   Thumb Code    12  qnetworksession_impl.o(t._ZNK5QListI7QStringE5countEv)
+    QList<QString>::indexOf(const QString&, int) const 0x00010a29   Thumb Code   136  symbianengine.o(t._ZNK5QListI7QStringE7indexOfERKS0_i)
+    QList<QString>::operator [](int) const   0x00010ab1   Thumb Code    54  qnetworksession_impl.o(t._ZNK5QListI7QStringEixEi)
+    QFlags<QNetworkConfiguration::StateFlag>::operator |(QFlags<QNetworkConfiguration::StateFlag>) const 0x00010b51   Thumb Code    20  symbianengine.o(t._ZNK6QFlagsIN21QNetworkConfiguration9StateFlagEEorES2_)
+    QFlags<QNetworkConfigurationManager::Capability>::operator |(QNetworkConfigurationManager::Capability) const 0x00010b65   Thumb Code    16  symbianengine.o(t._ZNK6QFlagsIN28QNetworkConfigurationManager10CapabilityEEorES1_)
+    SymbianEngine::staticMetaObject          0x00012c20   Data          16  moc_symbianengine.o(.constdata)
+    QNetworkSessionPrivateImpl::staticMetaObject 0x00012e34   Data          16  moc_qnetworksession_impl.o(.constdata)
+    stlp_priv::_Integer_limits<signed char, (signed char)-128, (signed char)127, (int)-1, (bool)1>::digits 0x00012ed4   Data           4  symbianengine.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<bool, (bool)0, (bool)1, (int)1, (bool)0>::digits 0x00012ed8   Data           4  symbianengine.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    stlp_priv::_Integer_limits<char, (char)128, (char)127, (int)-1, (bool)1>::digits 0x00012edc   Data           4  symbianengine.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned char, (unsigned char)0, (unsigned char)255, (int)-1, (bool)1>::digits 0x00012ee0   Data           4  symbianengine.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::digits 0x00012ee4   Data           4  symbianengine.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::is_signed 0x00012ee8   Data           1  symbianengine.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    stlp_priv::_Integer_limits<unsigned, (unsigned)0, (unsigned)4294967295, (int)-1, (bool)1>::digits 0x00012eec   Data           4  symbianengine.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long, (long)-2147483648, (long)2147483647, (int)-1, (bool)1>::digits 0x00012ef0   Data           4  symbianengine.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long, (unsigned long)0, (unsigned long)4294967295, (int)-1, (bool)1>::digits 0x00012ef4   Data           4  symbianengine.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<short, (short)-32768, (short)32767, (int)-1, (bool)1>::digits 0x00012ef8   Data           4  symbianengine.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned short, (unsigned short)0, (unsigned short)65535, (int)-1, (bool)1>::digits 0x00012efc   Data           4  symbianengine.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<wchar_t, (wchar_t)0, (wchar_t)65535, (int)-1, (bool)1>::digits 0x00012f00   Data           4  symbianengine.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long long, (long long)-9223372036854775808, (long long)9223372036854775807, (int)-1, (bool)1>::digits 0x00012f04   Data           4  symbianengine.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long long, (unsigned long long)0, (unsigned long long)18446744073709551615, (int)-1, (bool)1>::digits 0x00012f08   Data           4  symbianengine.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    typeinfo for QSharedData                 0x00012f0c   Data           8  symbianengine.o(.constdata__ZTI11QSharedData)
+    typeinfo for SymbianEngine               0x00012f14   Data          40  moc_symbianengine.o(.constdata__ZTI13SymbianEngine)
+    typeinfo for QSymbianEnginePlugin        0x00012f3c   Data          12  main.o(.constdata__ZTI20QSymbianEnginePlugin)
+    typeinfo for MMobilityProtocolResp       0x00012f48   Data           8  qnetworksession_impl.o(.constdata__ZTI21MMobilityProtocolResp)
+    typeinfo for ConnectionProgressNotifier  0x00012f50   Data          12  qnetworksession_impl.o(.constdata__ZTI26ConnectionProgressNotifier)
+    typeinfo for MConnectionMonitorObserver  0x00012f5c   Data           8  symbianengine.o(.constdata__ZTI26MConnectionMonitorObserver)
+    typeinfo for QNetworkSessionPrivateImpl  0x00012f64   Data          40  moc_qnetworksession_impl.o(.constdata__ZTI26QNetworkSessionPrivateImpl)
+    typeinfo for QNetworkConfigurationPrivate 0x00012f8c   Data          24  symbianengine.o(.constdata__ZTI28QNetworkConfigurationPrivate)
+    typeinfo for AccessPointsAvailabilityScanner 0x00012fa4   Data          12  symbianengine.o(.constdata__ZTI31AccessPointsAvailabilityScanner)
+    typeinfo for SymbianNetworkConfigurationPrivate 0x00012fb0   Data          12  symbianengine.o(.constdata__ZTI34SymbianNetworkConfigurationPrivate)
+    typeinfo for QtSharedPointer::ExternalRefCountData 0x00012fbc   Data           8  symbianengine.o(.constdata__ZTIN15QtSharedPointer20ExternalRefCountDataE)
+    typeinfo name for QSharedData            0x00012fc4   Data          14  symbianengine.o(.constdata__ZTS11QSharedData)
+    typeinfo name for SymbianEngine          0x00012fd2   Data          16  moc_symbianengine.o(.constdata__ZTS13SymbianEngine)
+    typeinfo name for QSymbianEnginePlugin   0x00012fe2   Data          23  main.o(.constdata__ZTS20QSymbianEnginePlugin)
+    typeinfo name for MMobilityProtocolResp  0x00012ff9   Data          24  qnetworksession_impl.o(.constdata__ZTS21MMobilityProtocolResp)
+    typeinfo name for ConnectionProgressNotifier 0x00013011   Data          29  qnetworksession_impl.o(.constdata__ZTS26ConnectionProgressNotifier)
+    typeinfo name for MConnectionMonitorObserver 0x0001302e   Data          29  symbianengine.o(.constdata__ZTS26MConnectionMonitorObserver)
+    typeinfo name for QNetworkSessionPrivateImpl 0x0001304b   Data          29  moc_qnetworksession_impl.o(.constdata__ZTS26QNetworkSessionPrivateImpl)
+    typeinfo name for QNetworkConfigurationPrivate 0x00013068   Data          31  symbianengine.o(.constdata__ZTS28QNetworkConfigurationPrivate)
+    typeinfo name for AccessPointsAvailabilityScanner 0x00013087   Data          34  symbianengine.o(.constdata__ZTS31AccessPointsAvailabilityScanner)
+    typeinfo name for SymbianNetworkConfigurationPrivate 0x000130a9   Data          37  symbianengine.o(.constdata__ZTS34SymbianNetworkConfigurationPrivate)
+    typeinfo name for QtSharedPointer::ExternalRefCountData 0x000130ce   Data          42  symbianengine.o(.constdata__ZTSN15QtSharedPointer20ExternalRefCountDataE)
+    vtable for SymbianEngine                 0x000130f8   Data         132  moc_symbianengine.o(.constdata__ZTV13SymbianEngine)
+    vtable for QSymbianEnginePlugin          0x0001317c   Data          88  main.o(.constdata__ZTV20QSymbianEnginePlugin)
+    vtable for MMobilityProtocolResp         0x000131d4   Data          20  qnetworksession_impl.o(.constdata__ZTV21MMobilityProtocolResp)
+    vtable for ConnectionProgressNotifier    0x000131e8   Data          32  qnetworksession_impl.o(.constdata__ZTV26ConnectionProgressNotifier)
+    vtable for MConnectionMonitorObserver    0x00013208   Data          12  symbianengine.o(.constdata__ZTV26MConnectionMonitorObserver)
+    vtable for QNetworkSessionPrivateImpl    0x00013214   Data         196  moc_qnetworksession_impl.o(.constdata__ZTV26QNetworkSessionPrivateImpl)
+    vtable for QNetworkConfigurationPrivate  0x000132d8   Data          20  symbianengine.o(.constdata__ZTV28QNetworkConfigurationPrivate)
+    vtable for AccessPointsAvailabilityScanner 0x000132ec   Data          32  symbianengine.o(.constdata__ZTV31AccessPointsAvailabilityScanner)
+    vtable for SymbianNetworkConfigurationPrivate 0x0001330c   Data          20  symbianengine.o(.constdata__ZTV34SymbianNetworkConfigurationPrivate)
+    vtable for QtSharedPointer::ExternalRefCountData 0x00013320   Data          20  symbianengine.o(.constdata__ZTVN15QtSharedPointer20ExternalRefCountDataE)
+    .ARM.exidx$$Base                         0x00013334   Number         0  ucppinit.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x00013a44   Number         0  symbianengine.o(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x00013a44   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    __dso_handle                             0x00400008   Data           4  ucppfini.o(.data)
+    std::_Atomic_swap_struct<(int)1>::_S_swap_lock 0x0040000c   Data          12  symbianengine.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    dtor_rec                                 0x00400018   Data        2048  ucppfini.o(.bss)
+

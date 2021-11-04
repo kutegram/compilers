@@ -1,0 +1,126 @@
+# Copyright (c) 2010-2011 Nokia Corporation and/or its subsidiary(-ies).
+# All rights reserved.
+# This component and the accompanying materials are made available
+# under the terms of the License "Eclipse Public License v1.0"
+# which accompanies this distribution, and is available
+# at the URL "http://www.eclipse.org/legal/epl-v10.html".
+#
+# Initial Contributors:
+# Nokia Corporation - initial contribution.
+#
+# Contributors:
+#
+# Description:
+# raptor script
+# manages common environment settings
+#
+
+# Ensure that the host type is set for Raptor:
+eval $($SBS_HOME/bin/gethost.sh -e)
+
+if [ -z "$HOSTPLATFORM" ]; then
+	echo "Error: HOSTPLATFORM could not be determined." 1>&2
+	exit 1
+fi
+
+if [ ! -d "$SBS_HOME/$HOSTPLATFORM_DIR" ]; then
+cat 1>&2 <<EOERROR
+Error: sbs has not been installed with support for your platform: "${HOSTPLATFORM}".
+
+The utilites for your platform should be in "$SBS_HOME/$HOSTPLATFORM_DIR" but sbs
+cannot find them there.
+
+sbs is supported on:
+	win32
+	linux i386 libc2_3 (Redhat 4)
+
+sbs has been known to work (but is not supported) on:
+	linux x86_64 libc2_5  (e.g. Centos/Redhat 5.3 64-bit)
+	linux i386 libc2_8  (e.g. Fedora 9 32-bit)
+	linux x86_64 libc2_10 (e.g. Fedora 11 64-bit)
+
+Even with the appropriate utilities it may be necessary to install 32-bit
+compatibility versions of some libraries (e.g. glibc) on these platforms,
+particularly for 3rd party tools which are not built natively such as
+compilers.
+
+It may be possible to build and install the utilities for your platform by
+entering $SBS_HOME/util and running
+	make -k
+A full development environment is required however.
+EOERROR
+	exit 1
+fi
+
+if [ "$OSTYPE" == "cygwin" ]; then
+	
+	# under Cygwin environment variables in "Windows form" should just be left
+	# as they are. But, the PATH should be filled with /cygdrive/c "Unix form"
+	# filenames, as Cygwin modifies that dynamically for each program.
+	
+	# Command for unixifying path strings. For example, "c:\some\path" and
+	# "/cygdrive/c/some/path" are converted into "/cygdrive/c/some/path".
+	u="/bin/cygpath.exe -u"
+	
+	__SBS__=$($u "$SBS_HOME")
+	
+	# use the internal MinGW unless SBS_MINGW is set
+	
+	__MINGW__=$($u "${SBS_MINGW:-$__SBS__/$HOSTPLATFORM_DIR/mingw}")
+			
+	# work out which version of Cygwin is in use.
+	# if SBS_CYGWIN17 is set then assume 1.7, otherwise assume 1.5
+	
+	if [ -z "$SBS_CYGWIN17" ]; then
+		# Tell Cygwin 1.5 not to map unix security attributes to
+		# windows to prevent raptor from creating read-only files
+		export CYGWIN='nontsec nosmbntsec'
+	else
+		# Tell Cygwin 1.7 not to complain about using DOS style
+		# filenames instead of /cygdrive ones.
+		# Make sure SBS_CYGWIN is the same as SBS_CYGWIN17
+		export SBS_CYGWIN=$SBS_CYGWIN17
+		export CYGWIN=nodosfilewarning
+	fi
+
+	export PATH=$__MINGW__/bin:/bin:$__SBS__/$HOSTPLATFORM_DIR/bin:$PATH
+
+	# The python and PYTHONPATH used by Raptor are determined by, in order of precedence:
+	#  1. the SBS_PYTHON and SBS_PYTHONPATH environment variables (if set)
+	#  2. the python shipped locally with Raptor (if present)
+	#  3. the python on the system PATH and PYTHONPATH/PYTHONHOME set in the system environment
+
+	# Python variables need to run in Cygwin but be understandable to a
+	# windows-centric interpreter, so we must use "mixed form" filenames.
+	
+	# Command for mixifying path strings. For example, "c:\some\path" and
+	# "/cygdrive/c/some/path" are converted into "c:/some/path".
+	m="/bin/cygpath.exe -m"
+	
+	__LOCAL_PYTHON__=$($m $SBS_HOME/win32/python27/python.exe)
+
+	if [ -n "$SBS_PYTHON" ]; then
+		__PYTHON__=$SBS_PYTHON
+	elif [ -f "$__LOCAL_PYTHON__" ]; then
+		__PYTHON__=$__LOCAL_PYTHON__
+		export SBS_PYTHON=$__PYTHON__
+		export PYTHONPATH=
+		export PYTHONHOME=
+	else
+		__PYTHON__=python.exe
+	fi
+	export __PYTHON__=$($m "$__PYTHON__")		
+	
+	if [ -n "$SBS_PYTHONPATH" ]; then
+		export PYTHONPATH=$SBS_PYTHONPATH
+	fi
+	export PYTHONPATH="$PYTHONPATH;$($m "$SBS_HOME/python")"
+else	
+	PYDIR=python27 # not exported on purpose
+	export PYTHONPATH=${SBS_PYTHONPATH:-$SBS_HOME/$HOSTPLATFORM_DIR/$PYDIR/lib}:$SBS_HOME/python
+	PATH=$SBS_HOME/$HOSTPLATFORM_DIR/$PYDIR/bin:$SBS_HOME/$HOSTPLATFORM_DIR/bin:$PATH
+	LD_LIBRARY_PATH=$SBS_HOME/$HOSTPLATFORM_DIR/$PYDIR/lib:$SBS_HOME/$HOSTPLATFORM_DIR/bv/lib:$LD_LIBRARY_PATH
+
+	export PATH LD_LIBRARY_PATH
+	export __PYTHON__=python
+fi

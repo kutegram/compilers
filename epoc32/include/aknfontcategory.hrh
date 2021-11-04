@@ -1,0 +1,49 @@
+/*
+* ============================================================================
+*  Name     : AknFontCategory.hrh
+*  Part of  : FontUtils
+*  Description : Avkon font categories correspond to the font "Category types" in the 
+*  Series60 layout tool
+*
+*  Copyright © 2002-2004 Nokia. All rights reserved.
+*  This material, including documentation and any related 
+*  computer programs, is protected by copyright controlled by 
+*  Nokia. All rights are reserved. Copying, including 
+*  reproducing, storing, adapting or translating, any 
+*  or all of this material requires the prior written consent of 
+*  Nokia. This material also contains confidential 
+*  information which may not be disclosed to others without the 
+*  prior written consent of Nokia.
+* ==============================================================================
+*/
+
+#ifndef AKNFONTCATEGORY_H
+#define AKNFONTCATEGORY_H
+
+
+/**
+* Definition of Series 60 logical font categories. 
+* Note: These are not logical font ids
+* 
+* @since Series 60 2.8
+*/
+#define KAknFontCategoryUndefined		0
+#define KAknFontCategoryPrimary			1
+#define KAknFontCategorySecondary		2
+#define KAknFontCategoryTitle			3
+#define KAknFontCategoryPrimarySmall	4
+#define KAknFontCategoryDigital			5
+
+enum TAknFontCategory
+	{
+	EAknFontCategoryUndefined =		KAknFontCategoryUndefined,
+	EAknFontCategoryPrimary =		KAknFontCategoryPrimary,
+	EAknFontCategorySecondary =		KAknFontCategorySecondary,
+	EAknFontCategoryTitle =			KAknFontCategoryTitle,
+	EAknFontCategoryPrimarySmall =	KAknFontCategoryPrimarySmall,
+	EAknFontCategoryDigital =		KAknFontCategoryDigital
+	};
+
+
+#endif
+// End of File

@@ -1,0 +1,48 @@
+/*
+* ==============================================================================
+*  Name        : DirectoryLocalizer.rh
+*  Part of     : Directory Localizer / directorylocalizer.dll
+*  Description : Resource header file
+*  Version     : 2.common
+*
+*  Copyright (c) 2006 Nokia Corporation.
+*  This material, including documentation and any related 
+*  computer programs, is protected by copyright controlled by 
+*  Nokia Corporation. All rights are reserved. Copying, 
+*  including reproducing, storing, adapting or translating, any 
+*  or all of this material requires the prior written consent of 
+*  Nokia Corporation. This material also contains confidential 
+*  information which may not be disclosed to others without the 
+*  prior written consent of Nokia Corporation.
+* ==============================================================================
+*/
+
+#ifndef DIRECTORYLOCALIZER_RH
+#define DIRECTORYLOCALIZER_RH
+
+// -----------------------------------------------------------------------------
+// DIRECTORY
+// A resource structure for a directory entry
+// -----------------------------------------------------------------------------
+//
+STRUCT DIRECTORY
+    {
+    LTEXT fullPath; // Full path of the directory including drive
+    LTEXT localizedName; // Localised name defined in LOC file
+    LTEXT extraData; // For example localised name for another layout
+    WORD iconIndex; // Index of an icon. 
+                    // See definition of CDirectoryLocalizer::Icon()
+    }
+
+// -----------------------------------------------------------------------------
+// DIRECTORYLOCALIZER
+// A resource structure for directory localizer.
+// Contains DIRECTORY structures.
+// -----------------------------------------------------------------------------
+//
+STRUCT DIRECTORYLOCALIZER
+    {
+    STRUCT directories[]; // An array of DIRECTORY structures.
+    }
+            
+#endif // DIRECTORYLOCALIZER_RH

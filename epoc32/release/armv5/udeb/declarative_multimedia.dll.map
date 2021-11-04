@@ -1,0 +1,1557 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../../unhosted.s                         0x00000000   Number         0  switch8.o ABSOLUTE
+    M:\\epoc32\\build\\euser\\c_e18a23aea4fd210f\\edll_lib\\armv5\\udeb\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\\sf\\os\\kernelhwsrv\\kernel\\eka\\compsupp\\rvct\\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\epoc32\build\euser\c_e18a23aea4fd210f\edll_lib\armv5\udeb\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\dllexp.cpp 0x00000000   Number         0  dllexp.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    S:\sf\mw\qtmobility\build\Release\declarative_multimedia\moc\moc_qdeclarativemediametadata_p.cpp 0x00000000   Number         0  moc_qdeclarativemediametadata_p.o ABSOLUTE
+    S:\sf\mw\qtmobility\plugins\declarative\multimedia\multimedia.cpp 0x00000000   Number         0  multimedia.o ABSOLUTE
+    S:\sf\mw\qtmobility\plugins\declarative\multimedia\qdeclarativeaudio.cpp 0x00000000   Number         0  qdeclarativeaudio.o ABSOLUTE
+    S:\sf\mw\qtmobility\plugins\declarative\multimedia\qdeclarativecamera.cpp 0x00000000   Number         0  qdeclarativecamera.o ABSOLUTE
+    S:\sf\mw\qtmobility\plugins\declarative\multimedia\qdeclarativecamerapreviewprovider.cpp 0x00000000   Number         0  qdeclarativecamerapreviewprovider.o ABSOLUTE
+    S:\sf\mw\qtmobility\plugins\declarative\multimedia\qdeclarativemediabase.cpp 0x00000000   Number         0  qdeclarativemediabase.o ABSOLUTE
+    S:\sf\mw\qtmobility\plugins\declarative\multimedia\qdeclarativevideo.cpp 0x00000000   Number         0  qdeclarativevideo.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    Symbian$$eit_base                        0x00008014   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$eit_limit                       0x00008018   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_base                   0x0000801c   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_limit                  0x00008020   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$reserved                        0x00008024   Data           4  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       52  ucppinit.o(.emb_text)
+    loop                                     0x0000803c   ARM Code       0  ucppinit.o(.emb_text)
+    ret                                      0x00008044   ARM Code       0  ucppinit.o(.emb_text)
+    base                                     0x00008054   Data           0  ucppinit.o(.emb_text)
+    limit                                    0x00008058   Data           0  ucppinit.o(.emb_text)
+    .text                                    0x0000863c   Section     2182  moc_qdeclarativemediametadata_p.o(.text)
+    .text                                    0x00008ec4   Section      272  multimedia.o(.text)
+    .text                                    0x00008fd4   Section     2136  qdeclarativeaudio.o(.text)
+    .text                                    0x0000982c   Section     3376  qdeclarativemediabase.o(.text)
+    .text                                    0x0000a55c   Section     2648  qdeclarativevideo.o(.text)
+    .text                                    0x0000afb4   Section     6172  qdeclarativecamera.o(.text)
+    |L1.2776|                                0x0000ba8c   Data           0  qdeclarativecamera.o(.text)
+    qDeclarativeCameraPreviewProviderPrivate() 0x0000c7d1   Thumb Code   192  qdeclarativecamerapreviewprovider.o(.text)
+    .text                                    0x0000c7d0   Section      576  qdeclarativecamerapreviewprovider.o(.text)
+    .text                                    0x0000ca10   Section       24  switch8.o(.text)
+    .text                                    0x0000ca28   Section       80  uc_dll.o(.text)
+    .text                                    0x0000ca78   Section      180  ucppfini.o(.text)
+    .text                                    0x0000cb2c   Section        4  dllexp.o(.text)
+    .text.clean                              0x0000cb30   Section      370  moc_qdeclarativemediametadata_p.o(.text.clean)
+    .text.clean                              0x0000cca4   Section       28  multimedia.o(.text.clean)
+    .text.clean                              0x0000ccc0   Section       74  qdeclarativeaudio.o(.text.clean)
+    .text.clean                              0x0000cd0a   Section      214  qdeclarativemediabase.o(.text.clean)
+    .text.clean                              0x0000cde0   Section       64  qdeclarativevideo.o(.text.clean)
+    .text.clean                              0x0000ce20   Section      286  qdeclarativecamera.o(.text.clean)
+    .text.clean                              0x0000cf40   Section      112  qdeclarativecamerapreviewprovider.o(.text.clean)
+    i._Z6qRoundf                             0x0000cfb0   Section      156  qdeclarativemediabase.o(i._Z6qRoundf)
+    i._ZN10QByteArrayC1ERKS_                 0x0000d04c   Section       20  multimedia.o(i._ZN10QByteArrayC1ERKS_)
+    i._ZN10QByteArrayD1Ev                    0x0000d060   Section       24  multimedia.o(i._ZN10QByteArrayD1Ev)
+    i._ZN11QBasicTimerD1Ev                   0x0000d078   Section       20  qdeclarativemediabase.o(i._ZN11QBasicTimerD1Ev)
+    i._ZN11QMetaObject12invokeMethodEP7QObjectPKcN2Qt14ConnectionTypeE16QGenericArgumentS6_S6_S6_S6_S6_S6_S6_S6_S6_ 0x0000d08c   Section      130  qdeclarativecamera.o(i._ZN11QMetaObject12invokeMethodEP7QObjectPKcN2Qt14ConnectionTypeE16QGenericArgumentS6_S6_S6_S6_S6_S6_S6_S6_S6_)
+    i._ZN12QMutexLockerC1EP6QMutex           0x0000d10e   Section       34  qdeclarativecamerapreviewprovider.o(i._ZN12QMutexLockerC1EP6QMutex)
+    i._ZN12QMutexLockerD1Ev                  0x0000d130   Section       42  qdeclarativecamerapreviewprovider.o(i._ZN12QMutexLockerD1Ev)
+    i._ZN13FocusZoneItem5paintEP8QPainterPK24QStyleOptionGraphicsItemP7QWidget 0x0000d15c   Section      460  qdeclarativecamera.o(i._ZN13FocusZoneItem5paintEP8QPainterPK24QStyleOptionGraphicsItemP7QWidget)
+    i._ZN13FocusZoneItem5paintEP8QPainterPK24QStyleOptionGraphicsItemP7QWidget.clean 0x0000d328   Section       16  qdeclarativecamera.o(i._ZN13FocusZoneItem5paintEP8QPainterPK24QStyleOptionGraphicsItemP7QWidget.clean)
+    i._ZN13FocusZoneItemD0Ev                 0x0000d338   Section       22  qdeclarativecamera.o(i._ZN13FocusZoneItemD0Ev)
+    i._ZN13FocusZoneItemD1Ev                 0x0000d350   Section       36  qdeclarativecamera.o(i._ZN13FocusZoneItemD1Ev)
+    i._ZN13FocusZoneItemD1Ev.clean           0x0000d374   Section       10  qdeclarativecamera.o(i._ZN13FocusZoneItemD1Ev.clean)
+    i._ZN15QBasicAtomicInt3refEv             0x0000d37e   Section       24  multimedia.o(i._ZN15QBasicAtomicInt3refEv)
+    i._ZN15QBasicAtomicInt5derefEv           0x0000d396   Section       24  multimedia.o(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN17QForeachContainerI5QListI16QCameraFocusZoneEED1Ev 0x0000d3ae   Section       14  qdeclarativecamera.o(i._ZN17QForeachContainerI5QListI16QCameraFocusZoneEED1Ev)
+    i._ZN19QDeclarativePrivate12RegisterTypeD1Ev 0x0000d3bc   Section       20  multimedia.o(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementI12QSoundEffectED0Ev 0x0000d3d0   Section       22  multimedia.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI12QSoundEffectED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioED0Ev 0x0000d3e6   Section       22  multimedia.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoED0Ev 0x0000d3fc   Section       22  multimedia.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraED0Ev 0x0000d412   Section       22  multimedia.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraED0Ev)
+    i._ZN25QDeclarativeMediaMetaDataD0Ev     0x0000d428   Section       24  moc_qdeclarativemediametadata_p.o(i._ZN25QDeclarativeMediaMetaDataD0Ev)
+    i._ZN25QDeclarativeMediaMetaDataD1Ev     0x0000d440   Section       14  moc_qdeclarativemediametadata_p.o(i._ZN25QDeclarativeMediaMetaDataD1Ev)
+    i._ZN27QDeclarativeMediaBaseObjectD0Ev   0x0000d44e   Section       24  qdeclarativemediabase.o(i._ZN27QDeclarativeMediaBaseObjectD0Ev)
+    i._ZN27QDeclarativeMediaBaseObjectD1Ev   0x0000d466   Section       14  qdeclarativemediabase.o(i._ZN27QDeclarativeMediaBaseObjectD1Ev)
+    i._ZN28QMultimediaDeclarativeModule13registerTypesEPKc 0x0000d474   Section      100  multimedia.o(i._ZN28QMultimediaDeclarativeModule13registerTypesEPKc)
+    i._ZN28QMultimediaDeclarativeModule16initializeEngineEP18QDeclarativeEnginePKc 0x0000d4d8   Section       76  multimedia.o(i._ZN28QMultimediaDeclarativeModule16initializeEngineEP18QDeclarativeEnginePKc)
+    i._ZN28QMultimediaDeclarativeModule16initializeEngineEP18QDeclarativeEnginePKc.clean 0x0000d524   Section       22  multimedia.o(i._ZN28QMultimediaDeclarativeModule16initializeEngineEP18QDeclarativeEnginePKc.clean)
+    i._ZN28QMultimediaDeclarativeModuleD0Ev  0x0000d53a   Section       24  multimedia.o(i._ZN28QMultimediaDeclarativeModuleD0Ev)
+    i._ZN28QMultimediaDeclarativeModuleD1Ev  0x0000d552   Section       14  multimedia.o(i._ZN28QMultimediaDeclarativeModuleD1Ev)
+    i._ZN30QDeclarativeMediaBaseAnimation10timerEventEP11QTimerEvent 0x0000d560   Section       96  qdeclarativemediabase.o(i._ZN30QDeclarativeMediaBaseAnimation10timerEventEP11QTimerEvent)
+    i._ZN30QDeclarativeMediaBaseAnimationD0Ev 0x0000d5c0   Section       22  qdeclarativemediabase.o(i._ZN30QDeclarativeMediaBaseAnimationD0Ev)
+    i._ZN30QDeclarativeMediaBaseAnimationD1Ev 0x0000d5d8   Section       36  qdeclarativemediabase.o(i._ZN30QDeclarativeMediaBaseAnimationD1Ev)
+    i._ZN30QDeclarativeMediaBaseAnimationD1Ev.clean 0x0000d5fc   Section       10  qdeclarativemediabase.o(i._ZN30QDeclarativeMediaBaseAnimationD1Ev.clean)
+    i._ZN34QDeclarativeMediaBasePlayerControl11setPositionEx 0x0000d606   Section        4  qdeclarativemediabase.o(i._ZN34QDeclarativeMediaBasePlayerControl11setPositionEx)
+    i._ZN34QDeclarativeMediaBasePlayerControl15setPlaybackRateEf 0x0000d60a   Section        2  qdeclarativemediabase.o(i._ZN34QDeclarativeMediaBasePlayerControl15setPlaybackRateEf)
+    i._ZN34QDeclarativeMediaBasePlayerControl4playEv 0x0000d60c   Section        2  qdeclarativemediabase.o(i._ZN34QDeclarativeMediaBasePlayerControl4playEv)
+    i._ZN34QDeclarativeMediaBasePlayerControl4stopEv 0x0000d60e   Section        2  qdeclarativemediabase.o(i._ZN34QDeclarativeMediaBasePlayerControl4stopEv)
+    i._ZN34QDeclarativeMediaBasePlayerControl5pauseEv 0x0000d610   Section        2  qdeclarativemediabase.o(i._ZN34QDeclarativeMediaBasePlayerControl5pauseEv)
+    i._ZN34QDeclarativeMediaBasePlayerControl8setMediaERK13QMediaContentP9QIODevice 0x0000d612   Section        2  qdeclarativemediabase.o(i._ZN34QDeclarativeMediaBasePlayerControl8setMediaERK13QMediaContentP9QIODevice)
+    i._ZN34QDeclarativeMediaBasePlayerControl8setMutedEb 0x0000d614   Section        2  qdeclarativemediabase.o(i._ZN34QDeclarativeMediaBasePlayerControl8setMutedEb)
+    i._ZN34QDeclarativeMediaBasePlayerControl9setVolumeEi 0x0000d616   Section        2  qdeclarativemediabase.o(i._ZN34QDeclarativeMediaBasePlayerControl9setVolumeEi)
+    i._ZN34QDeclarativeMediaBasePlayerControlD0Ev 0x0000d618   Section       24  qdeclarativemediabase.o(i._ZN34QDeclarativeMediaBasePlayerControlD0Ev)
+    i._ZN34QDeclarativeMediaBasePlayerControlD1Ev 0x0000d630   Section       14  qdeclarativemediabase.o(i._ZN34QDeclarativeMediaBasePlayerControlD1Ev)
+    i._ZN36QDeclarativeMediaBaseMetaDataControlD0Ev 0x0000d63e   Section       24  qdeclarativemediabase.o(i._ZN36QDeclarativeMediaBaseMetaDataControlD0Ev)
+    i._ZN36QDeclarativeMediaBaseMetaDataControlD1Ev 0x0000d656   Section       14  qdeclarativemediabase.o(i._ZN36QDeclarativeMediaBaseMetaDataControlD1Ev)
+    i._ZN40QDeclarativeCameraPreviewProviderPrivateD1Ev 0x0000d664   Section       34  qdeclarativecamerapreviewprovider.o(i._ZN40QDeclarativeCameraPreviewProviderPrivateD1Ev)
+    i._ZN40QDeclarativeCameraPreviewProviderPrivateD1Ev.clean 0x0000d686   Section       18  qdeclarativecamerapreviewprovider.o(i._ZN40QDeclarativeCameraPreviewProviderPrivateD1Ev.clean)
+    i._ZN7QStringC1ERKS_                     0x0000d698   Section       22  qdeclarativecamera.o(i._ZN7QStringC1ERKS_)
+    i._ZN7QStringC1Ev                        0x0000d6b0   Section       24  multimedia.o(i._ZN7QStringC1Ev)
+    i._ZN7QStringD1Ev                        0x0000d6c8   Section       24  multimedia.o(i._ZN7QStringD1Ev)
+    i._ZN8QPainter8drawLineERK7QPointFS2_    0x0000d6e0   Section       44  qdeclarativecamera.o(i._ZN8QPainter8drawLineERK7QPointFS2_)
+    i._ZN8QVariantC1Ev                       0x0000d70c   Section       38  qdeclarativemediabase.o(i._ZN8QVariantC1Ev)
+    i._ZNK13FocusZoneItem12boundingRectEv    0x0000d732   Section      180  qdeclarativecamera.o(i._ZNK13FocusZoneItem12boundingRectEv)
+    i._ZNK15QBasicAtomicIntntEv              0x0000d7e6   Section       16  multimedia.o(i._ZNK15QBasicAtomicIntntEv)
+    i._ZNK34QDeclarativeMediaBasePlayerControl10isSeekableEv 0x0000d7f6   Section        6  qdeclarativemediabase.o(i._ZNK34QDeclarativeMediaBasePlayerControl10isSeekableEv)
+    i._ZNK34QDeclarativeMediaBasePlayerControl11mediaStatusEv 0x0000d7fc   Section        6  qdeclarativemediabase.o(i._ZNK34QDeclarativeMediaBasePlayerControl11mediaStatusEv)
+    i._ZNK34QDeclarativeMediaBasePlayerControl11mediaStreamEv 0x0000d802   Section        6  qdeclarativemediabase.o(i._ZNK34QDeclarativeMediaBasePlayerControl11mediaStreamEv)
+    i._ZNK34QDeclarativeMediaBasePlayerControl12bufferStatusEv 0x0000d808   Section        6  qdeclarativemediabase.o(i._ZNK34QDeclarativeMediaBasePlayerControl12bufferStatusEv)
+    i._ZNK34QDeclarativeMediaBasePlayerControl12playbackRateEv 0x0000d80e   Section        8  qdeclarativemediabase.o(i._ZNK34QDeclarativeMediaBasePlayerControl12playbackRateEv)
+    i._ZNK34QDeclarativeMediaBasePlayerControl16isAudioAvailableEv 0x0000d816   Section        6  qdeclarativemediabase.o(i._ZNK34QDeclarativeMediaBasePlayerControl16isAudioAvailableEv)
+    i._ZNK34QDeclarativeMediaBasePlayerControl16isVideoAvailableEv 0x0000d81c   Section        6  qdeclarativemediabase.o(i._ZNK34QDeclarativeMediaBasePlayerControl16isVideoAvailableEv)
+    i._ZNK34QDeclarativeMediaBasePlayerControl23availablePlaybackRangesEv 0x0000d822   Section       16  qdeclarativemediabase.o(i._ZNK34QDeclarativeMediaBasePlayerControl23availablePlaybackRangesEv)
+    i._ZNK34QDeclarativeMediaBasePlayerControl5mediaEv 0x0000d832   Section       16  qdeclarativemediabase.o(i._ZNK34QDeclarativeMediaBasePlayerControl5mediaEv)
+    i._ZNK34QDeclarativeMediaBasePlayerControl5stateEv 0x0000d842   Section        6  qdeclarativemediabase.o(i._ZNK34QDeclarativeMediaBasePlayerControl5stateEv)
+    i._ZNK34QDeclarativeMediaBasePlayerControl6volumeEv 0x0000d848   Section        6  qdeclarativemediabase.o(i._ZNK34QDeclarativeMediaBasePlayerControl6volumeEv)
+    i._ZNK34QDeclarativeMediaBasePlayerControl7isMutedEv 0x0000d84e   Section        6  qdeclarativemediabase.o(i._ZNK34QDeclarativeMediaBasePlayerControl7isMutedEv)
+    i._ZNK34QDeclarativeMediaBasePlayerControl8durationEv 0x0000d854   Section       16  qdeclarativemediabase.o(i._ZNK34QDeclarativeMediaBasePlayerControl8durationEv)
+    i._ZNK34QDeclarativeMediaBasePlayerControl8positionEv 0x0000d864   Section       16  qdeclarativemediabase.o(i._ZNK34QDeclarativeMediaBasePlayerControl8positionEv)
+    i._ZNK36QDeclarativeMediaBaseMetaDataControl16extendedMetaDataERK7QString 0x0000d874   Section       18  qdeclarativemediabase.o(i._ZNK36QDeclarativeMediaBaseMetaDataControl16extendedMetaDataERK7QString)
+    i._ZNK36QDeclarativeMediaBaseMetaDataControl17availableMetaDataEv 0x0000d888   Section       28  qdeclarativemediabase.o(i._ZNK36QDeclarativeMediaBaseMetaDataControl17availableMetaDataEv)
+    i._ZNK36QDeclarativeMediaBaseMetaDataControl19isMetaDataAvailableEv 0x0000d8a4   Section        6  qdeclarativemediabase.o(i._ZNK36QDeclarativeMediaBaseMetaDataControl19isMetaDataAvailableEv)
+    i._ZNK36QDeclarativeMediaBaseMetaDataControl25availableExtendedMetaDataEv 0x0000d8ac   Section       36  qdeclarativemediabase.o(i._ZNK36QDeclarativeMediaBaseMetaDataControl25availableExtendedMetaDataEv)
+    i._ZNK36QDeclarativeMediaBaseMetaDataControl8metaDataEN15QtMultimediaKit8MetaDataE 0x0000d8d0   Section       18  qdeclarativemediabase.o(i._ZNK36QDeclarativeMediaBaseMetaDataControl8metaDataEN15QtMultimediaKit8MetaDataE)
+    i._ZNK6QRectF10bottomLeftEv              0x0000d8e2   Section       30  qdeclarativecamera.o(i._ZNK6QRectF10bottomLeftEv)
+    i._ZNK6QRectF11bottomRightEv             0x0000d900   Section       38  qdeclarativecamera.o(i._ZNK6QRectF11bottomRightEv)
+    i._ZNK6QRectF8topRightEv                 0x0000d926   Section       30  qdeclarativecamera.o(i._ZNK6QRectF8topRightEv)
+    i._ZNK9QListData3endEv                   0x0000d944   Section       16  qdeclarativecamera.o(i._ZNK9QListData3endEv)
+    i._ZNK9QListData5beginEv                 0x0000d954   Section       16  qdeclarativecamera.o(i._ZNK9QListData5beginEv)
+    i._ZThn16_N19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoED0Ev 0x0000d964   Section       14  multimedia.o(i._ZThn16_N19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoED0Ev)
+    i._ZThn16_N19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoED1Ev 0x0000d972   Section       14  multimedia.o(i._ZThn16_N19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoED1Ev)
+    i._ZThn16_N19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraED0Ev 0x0000d980   Section       14  multimedia.o(i._ZThn16_N19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraED0Ev)
+    i._ZThn16_N19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraED1Ev 0x0000d98e   Section       14  multimedia.o(i._ZThn16_N19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraED1Ev)
+    i._ZThn24_N19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoED0Ev 0x0000d99c   Section       14  multimedia.o(i._ZThn24_N19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoED0Ev)
+    i._ZThn24_N19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoED1Ev 0x0000d9aa   Section       14  multimedia.o(i._ZThn24_N19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoED1Ev)
+    i._ZThn80_N19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioED0Ev 0x0000d9b8   Section       14  multimedia.o(i._ZThn80_N19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioED0Ev)
+    i._ZThn80_N19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioED1Ev 0x0000d9c6   Section       14  multimedia.o(i._ZThn80_N19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioED1Ev)
+    i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioED0Ev 0x0000d9d4   Section       14  multimedia.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioED0Ev)
+    i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioED1Ev 0x0000d9e2   Section       14  multimedia.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioED1Ev)
+    i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoED0Ev 0x0000d9f0   Section       14  multimedia.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoED0Ev)
+    i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoED1Ev 0x0000d9fe   Section       14  multimedia.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoED1Ev)
+    i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraED0Ev 0x0000da0c   Section       14  multimedia.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraED0Ev)
+    i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraED1Ev 0x0000da1a   Section       14  multimedia.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraED1Ev)
+    i._ZThn8_N28QMultimediaDeclarativeModule13registerTypesEPKc 0x0000da28   Section       18  multimedia.o(i._ZThn8_N28QMultimediaDeclarativeModule13registerTypesEPKc)
+    i._ZThn8_N28QMultimediaDeclarativeModule16initializeEngineEP18QDeclarativeEnginePKc 0x0000da3a   Section       22  multimedia.o(i._ZThn8_N28QMultimediaDeclarativeModule16initializeEngineEP18QDeclarativeEnginePKc)
+    i._ZThn8_N28QMultimediaDeclarativeModuleD0Ev 0x0000da50   Section       14  multimedia.o(i._ZThn8_N28QMultimediaDeclarativeModuleD0Ev)
+    i._ZThn8_N28QMultimediaDeclarativeModuleD1Ev 0x0000da5e   Section       18  multimedia.o(i._ZThn8_N28QMultimediaDeclarativeModuleD1Ev)
+    i._ZdlPvS_                               0x0000da70   Section        2  multimedia.o(i._ZdlPvS_)
+    i._ZmiRK7QPointFS1_                      0x0000da72   Section       42  qdeclarativecamera.o(i._ZmiRK7QPointFS1_)
+    i._ZnwjPv                                0x0000da9c   Section        6  multimedia.o(i._ZnwjPv)
+    i._ZplPKcRK10QByteArray                  0x0000daa2   Section       46  multimedia.o(i._ZplPKcRK10QByteArray)
+    i._ZplPKcRK10QByteArray.clean            0x0000dad0   Section       10  multimedia.o(i._ZplPKcRK10QByteArray.clean)
+    i._ZplRK10QByteArrayPKc                  0x0000dada   Section       46  multimedia.o(i._ZplRK10QByteArrayPKc)
+    i._ZplRK10QByteArrayPKc.clean            0x0000db08   Section       10  multimedia.o(i._ZplRK10QByteArrayPKc.clean)
+    i._ZplRK10QByteArrayc                    0x0000db12   Section       46  multimedia.o(i._ZplRK10QByteArrayc)
+    i._ZplRK10QByteArrayc.clean              0x0000db40   Section       10  multimedia.o(i._ZplRK10QByteArrayc.clean)
+    i._ZplRK7QPointFS1_                      0x0000db4a   Section       42  qdeclarativecamera.o(i._ZplRK7QPointFS1_)
+    t._Z10qDeleteAllIN5QListIP13QGraphicsItemE14const_iteratorEEvT_S5_ 0x0000db74   Section       62  qdeclarativecamera.o(t._Z10qDeleteAllIN5QListIP13QGraphicsItemE14const_iteratorEEvT_S5_)
+    t._Z15qmlRegisterTypeI12QSoundEffectEiPKciiS2_ 0x0000dbb4   Section      280  multimedia.o(t._Z15qmlRegisterTypeI12QSoundEffectEiPKciiS2_)
+    t._Z15qmlRegisterTypeI12QSoundEffectEiPKciiS2_.clean 0x0000dccc   Section       52  multimedia.o(t._Z15qmlRegisterTypeI12QSoundEffectEiPKciiS2_.clean)
+    t._Z15qmlRegisterTypeI17QDeclarativeAudioEiPKciiS2_ 0x0000dd00   Section      292  multimedia.o(t._Z15qmlRegisterTypeI17QDeclarativeAudioEiPKciiS2_)
+    t._Z15qmlRegisterTypeI17QDeclarativeAudioEiPKciiS2_.clean 0x0000de24   Section       52  multimedia.o(t._Z15qmlRegisterTypeI17QDeclarativeAudioEiPKciiS2_.clean)
+    t._Z15qmlRegisterTypeI17QDeclarativeVideoEiPKciiS2_ 0x0000de58   Section      288  multimedia.o(t._Z15qmlRegisterTypeI17QDeclarativeVideoEiPKciiS2_)
+    t._Z15qmlRegisterTypeI17QDeclarativeVideoEiPKciiS2_.clean 0x0000df78   Section       52  multimedia.o(t._Z15qmlRegisterTypeI17QDeclarativeVideoEiPKciiS2_.clean)
+    t._Z15qmlRegisterTypeI18QDeclarativeCameraEiPKciiS2_ 0x0000dfac   Section      288  multimedia.o(t._Z15qmlRegisterTypeI18QDeclarativeCameraEiPKciiS2_)
+    t._Z15qmlRegisterTypeI18QDeclarativeCameraEiPKciiS2_.clean 0x0000e0cc   Section       52  multimedia.o(t._Z15qmlRegisterTypeI18QDeclarativeCameraEiPKciiS2_.clean)
+    t._Z15qmlRegisterTypeI25QDeclarativeMediaMetaDataEiv 0x0000e100   Section      264  multimedia.o(t._Z15qmlRegisterTypeI25QDeclarativeMediaMetaDataEiv)
+    t._Z15qmlRegisterTypeI25QDeclarativeMediaMetaDataEiv.clean 0x0000e208   Section       52  multimedia.o(t._Z15qmlRegisterTypeI25QDeclarativeMediaMetaDataEiv.clean)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI12QSoundEffectEEiPKcPT_ 0x0000e23c   Section      152  multimedia.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI12QSoundEffectEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI17QDeclarativeAudioEEiPKcPT_ 0x0000e2d4   Section      160  multimedia.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI17QDeclarativeAudioEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI17QDeclarativeVideoEEiPKcPT_ 0x0000e374   Section      160  multimedia.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI17QDeclarativeVideoEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI18QDeclarativeCameraEEiPKcPT_ 0x0000e414   Section      160  multimedia.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI18QDeclarativeCameraEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI25QDeclarativeMediaMetaDataEEiPKcPT_ 0x0000e4b4   Section      168  multimedia.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI25QDeclarativeMediaMetaDataEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIP12QSoundEffectEiPKcPT_ 0x0000e55c   Section      128  multimedia.o(t._Z17qRegisterMetaTypeIP12QSoundEffectEiPKcPT_)
+    t._Z17qRegisterMetaTypeIP17QDeclarativeAudioEiPKcPT_ 0x0000e5dc   Section      136  multimedia.o(t._Z17qRegisterMetaTypeIP17QDeclarativeAudioEiPKcPT_)
+    t._Z17qRegisterMetaTypeIP17QDeclarativeVideoEiPKcPT_ 0x0000e664   Section      136  multimedia.o(t._Z17qRegisterMetaTypeIP17QDeclarativeVideoEiPKcPT_)
+    t._Z17qRegisterMetaTypeIP18QDeclarativeCameraEiPKcPT_ 0x0000e6ec   Section      136  multimedia.o(t._Z17qRegisterMetaTypeIP18QDeclarativeCameraEiPKcPT_)
+    t._Z17qRegisterMetaTypeIP25QDeclarativeMediaMetaDataEiPKcPT_ 0x0000e774   Section      144  multimedia.o(t._Z17qRegisterMetaTypeIP25QDeclarativeMediaMetaDataEiPKcPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI12QSoundEffectEEvPT_ 0x0000e804   Section       12  multimedia.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI12QSoundEffectEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI17QDeclarativeAudioEEvPT_ 0x0000e810   Section       12  multimedia.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI17QDeclarativeAudioEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI17QDeclarativeVideoEEvPT_ 0x0000e81c   Section       12  multimedia.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI17QDeclarativeVideoEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI18QDeclarativeCameraEEvPT_ 0x0000e828   Section       12  multimedia.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI18QDeclarativeCameraEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI25QDeclarativeMediaMetaDataEEvPT_ 0x0000e834   Section       12  multimedia.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI25QDeclarativeMediaMetaDataEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIP12QSoundEffectEvPT_ 0x0000e840   Section       12  multimedia.o(t._Z21qMetaTypeDeleteHelperIP12QSoundEffectEvPT_)
+    t._Z21qMetaTypeDeleteHelperIP17QDeclarativeAudioEvPT_ 0x0000e84c   Section       12  multimedia.o(t._Z21qMetaTypeDeleteHelperIP17QDeclarativeAudioEvPT_)
+    t._Z21qMetaTypeDeleteHelperIP17QDeclarativeVideoEvPT_ 0x0000e858   Section       12  multimedia.o(t._Z21qMetaTypeDeleteHelperIP17QDeclarativeVideoEvPT_)
+    t._Z21qMetaTypeDeleteHelperIP18QDeclarativeCameraEvPT_ 0x0000e864   Section       12  multimedia.o(t._Z21qMetaTypeDeleteHelperIP18QDeclarativeCameraEvPT_)
+    t._Z21qMetaTypeDeleteHelperIP25QDeclarativeMediaMetaDataEvPT_ 0x0000e870   Section       12  multimedia.o(t._Z21qMetaTypeDeleteHelperIP25QDeclarativeMediaMetaDataEvPT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI12QSoundEffectEEPvPKT_ 0x0000e87c   Section      150  multimedia.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI12QSoundEffectEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI12QSoundEffectEEPvPKT_.clean 0x0000e912   Section        4  multimedia.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI12QSoundEffectEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI17QDeclarativeAudioEEPvPKT_ 0x0000e916   Section      150  multimedia.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI17QDeclarativeAudioEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI17QDeclarativeAudioEEPvPKT_.clean 0x0000e9ac   Section        4  multimedia.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI17QDeclarativeAudioEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI17QDeclarativeVideoEEPvPKT_ 0x0000e9b0   Section      150  multimedia.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI17QDeclarativeVideoEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI17QDeclarativeVideoEEPvPKT_.clean 0x0000ea46   Section        4  multimedia.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI17QDeclarativeVideoEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI18QDeclarativeCameraEEPvPKT_ 0x0000ea4a   Section      150  multimedia.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI18QDeclarativeCameraEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI18QDeclarativeCameraEEPvPKT_.clean 0x0000eae0   Section        4  multimedia.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI18QDeclarativeCameraEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI25QDeclarativeMediaMetaDataEEPvPKT_ 0x0000eae4   Section      150  multimedia.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI25QDeclarativeMediaMetaDataEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI25QDeclarativeMediaMetaDataEEPvPKT_.clean 0x0000eb7a   Section        4  multimedia.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI25QDeclarativeMediaMetaDataEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperIP12QSoundEffectEPvPKT_ 0x0000eb7e   Section       50  multimedia.o(t._Z24qMetaTypeConstructHelperIP12QSoundEffectEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIP17QDeclarativeAudioEPvPKT_ 0x0000ebb0   Section       50  multimedia.o(t._Z24qMetaTypeConstructHelperIP17QDeclarativeAudioEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIP17QDeclarativeVideoEPvPKT_ 0x0000ebe2   Section       50  multimedia.o(t._Z24qMetaTypeConstructHelperIP17QDeclarativeVideoEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIP18QDeclarativeCameraEPvPKT_ 0x0000ec14   Section       50  multimedia.o(t._Z24qMetaTypeConstructHelperIP18QDeclarativeCameraEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIP25QDeclarativeMediaMetaDataEPvPKT_ 0x0000ec46   Section       50  multimedia.o(t._Z24qMetaTypeConstructHelperIP25QDeclarativeMediaMetaDataEPvPKT_)
+    t._ZN14QScopedPointerI25QDeclarativeMediaMetaData21QScopedPointerDeleterIS0_EE5resetEPS0_ 0x0000ec78   Section       34  qdeclarativemediabase.o(t._ZN14QScopedPointerI25QDeclarativeMediaMetaData21QScopedPointerDeleterIS0_EE5resetEPS0_)
+    t._ZN14QScopedPointerI25QDeclarativeMediaMetaData21QScopedPointerDeleterIS0_EED1Ev 0x0000ec9a   Section       28  qdeclarativemediabase.o(t._ZN14QScopedPointerI25QDeclarativeMediaMetaData21QScopedPointerDeleterIS0_EED1Ev)
+    t._ZN19QDeclarativePrivate10createIntoI12QSoundEffectEEvPv 0x0000ecb8   Section       44  multimedia.o(t._ZN19QDeclarativePrivate10createIntoI12QSoundEffectEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoI12QSoundEffectEEvPv.clean 0x0000ece4   Section       12  multimedia.o(t._ZN19QDeclarativePrivate10createIntoI12QSoundEffectEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoI17QDeclarativeAudioEEvPv 0x0000ecf0   Section       52  multimedia.o(t._ZN19QDeclarativePrivate10createIntoI17QDeclarativeAudioEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoI17QDeclarativeAudioEEvPv.clean 0x0000ed24   Section       12  multimedia.o(t._ZN19QDeclarativePrivate10createIntoI17QDeclarativeAudioEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoI17QDeclarativeVideoEEvPv 0x0000ed30   Section       56  multimedia.o(t._ZN19QDeclarativePrivate10createIntoI17QDeclarativeVideoEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoI17QDeclarativeVideoEEvPv.clean 0x0000ed68   Section       12  multimedia.o(t._ZN19QDeclarativePrivate10createIntoI17QDeclarativeVideoEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoI18QDeclarativeCameraEEvPv 0x0000ed74   Section       52  multimedia.o(t._ZN19QDeclarativePrivate10createIntoI18QDeclarativeCameraEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoI18QDeclarativeCameraEEvPv.clean 0x0000eda8   Section       12  multimedia.o(t._ZN19QDeclarativePrivate10createIntoI18QDeclarativeCameraEEvPv.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI12QSoundEffectED1Ev 0x0000edb4   Section       28  multimedia.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI12QSoundEffectED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI12QSoundEffectED1Ev.clean 0x0000edd0   Section       10  multimedia.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI12QSoundEffectED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioED1Ev 0x0000eddc   Section       36  multimedia.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioED1Ev.clean 0x0000ee00   Section       10  multimedia.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoED1Ev 0x0000ee0c   Section       40  multimedia.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoED1Ev.clean 0x0000ee34   Section       10  multimedia.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraED1Ev 0x0000ee40   Section       36  multimedia.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraED1Ev.clean 0x0000ee64   Section       10  multimedia.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraED1Ev.clean)
+    t._ZN20QGlobalStaticDeleterI40QDeclarativeCameraPreviewProviderPrivateED1Ev 0x0000ee6e   Section       42  qdeclarativecamerapreviewprovider.o(t._ZN20QGlobalStaticDeleterI40QDeclarativeCameraPreviewProviderPrivateED1Ev)
+    t._ZN5QListI16QCameraFocusZoneE13detach_helperEi 0x0000ee98   Section      200  qdeclarativecamera.o(t._ZN5QListI16QCameraFocusZoneE13detach_helperEi)
+    t._ZN5QListI16QCameraFocusZoneE13detach_helperEi.clean 0x0000ef60   Section       32  qdeclarativecamera.o(t._ZN5QListI16QCameraFocusZoneE13detach_helperEi.clean)
+    t._ZN5QListI16QCameraFocusZoneE13detach_helperEv 0x0000ef80   Section       16  qdeclarativecamera.o(t._ZN5QListI16QCameraFocusZoneE13detach_helperEv)
+    t._ZN5QListI16QCameraFocusZoneE4freeEPN9QListData4DataE 0x0000ef90   Section       82  qdeclarativecamera.o(t._ZN5QListI16QCameraFocusZoneE4freeEPN9QListData4DataE)
+    t._ZN5QListI16QCameraFocusZoneED1Ev      0x0000efe2   Section       32  qdeclarativecamera.o(t._ZN5QListI16QCameraFocusZoneED1Ev)
+    t._ZN5QListI7QStringE4freeEPN9QListData4DataE 0x0000f002   Section       70  qdeclarativemediabase.o(t._ZN5QListI7QStringE4freeEPN9QListData4DataE)
+    t._ZN5QListI7QStringED1Ev                0x0000f048   Section       32  qdeclarativemediabase.o(t._ZN5QListI7QStringED1Ev)
+    t._ZN5QListIP13QGraphicsItemE13detach_helperEi 0x0000f068   Section       94  qdeclarativecamera.o(t._ZN5QListIP13QGraphicsItemE13detach_helperEi)
+    t._ZN5QListIP13QGraphicsItemE13detach_helperEi.clean 0x0000f0c6   Section        8  qdeclarativecamera.o(t._ZN5QListIP13QGraphicsItemE13detach_helperEi.clean)
+    t._ZN5QListIP13QGraphicsItemE13detach_helperEv 0x0000f0ce   Section       16  qdeclarativecamera.o(t._ZN5QListIP13QGraphicsItemE13detach_helperEv)
+    t._ZN5QListIP13QGraphicsItemE18detach_helper_growEii 0x0000f0de   Section      204  qdeclarativecamera.o(t._ZN5QListIP13QGraphicsItemE18detach_helper_growEii)
+    t._ZN5QListIP13QGraphicsItemE18detach_helper_growEii.clean 0x0000f1aa   Section       16  qdeclarativecamera.o(t._ZN5QListIP13QGraphicsItemE18detach_helper_growEii.clean)
+    t._ZN5QListIP13QGraphicsItemE4freeEPN9QListData4DataE 0x0000f1ba   Section       58  qdeclarativecamera.o(t._ZN5QListIP13QGraphicsItemE4freeEPN9QListData4DataE)
+    t._ZN5QListIP13QGraphicsItemE5clearEv    0x0000f1f4   Section       76  qdeclarativecamera.o(t._ZN5QListIP13QGraphicsItemE5clearEv)
+    t._ZN5QListIP13QGraphicsItemE5clearEv.clean 0x0000f240   Section       10  qdeclarativecamera.o(t._ZN5QListIP13QGraphicsItemE5clearEv.clean)
+    t._ZN5QListIP13QGraphicsItemE6appendERKS1_ 0x0000f24c   Section      104  qdeclarativecamera.o(t._ZN5QListIP13QGraphicsItemE6appendERKS1_)
+    t._ZN5QListIP13QGraphicsItemE6appendERKS1_.clean 0x0000f2b4   Section       10  qdeclarativecamera.o(t._ZN5QListIP13QGraphicsItemE6appendERKS1_.clean)
+    t._ZN5QListIP13QGraphicsItemE9node_copyEPNS2_4NodeES4_S4_ 0x0000f2be   Section       46  qdeclarativecamera.o(t._ZN5QListIP13QGraphicsItemE9node_copyEPNS2_4NodeES4_S4_)
+    t._ZN5QListIP13QGraphicsItemEC1Ev        0x0000f2ec   Section       24  qdeclarativecamera.o(t._ZN5QListIP13QGraphicsItemEC1Ev)
+    t._ZN5QListIP13QGraphicsItemED1Ev        0x0000f304   Section       32  qdeclarativecamera.o(t._ZN5QListIP13QGraphicsItemED1Ev)
+    t._ZN8QPointerI7QObjectED1Ev             0x0000f324   Section       14  multimedia.o(t._ZN8QPointerI7QObjectED1Ev)
+    .extab._ZN25QDeclarativeMediaMetaData11qt_metacallEN11QMetaObject4CallEiPPv 0x0000f334   Data           0  moc_qdeclarativemediametadata_p.o(.ARM.extab)
+    .extab.qt_plugin_instance                0x0000f4ac   Data           0  multimedia.o(.ARM.extab)
+    .extab._ZplRK10QByteArrayPKc             0x0000f4c4   Data           0  multimedia.o(.ARM.extab)
+    .extab._ZplRK10QByteArrayc               0x0000f4d4   Data           0  multimedia.o(.ARM.extab)
+    .extab._ZplPKcRK10QByteArray             0x0000f4e4   Data           0  multimedia.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeI12QSoundEffectEiPKciiS2_ 0x0000f4f4   Data           0  multimedia.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeI17QDeclarativeAudioEiPKciiS2_ 0x0000f564   Data           0  multimedia.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeI17QDeclarativeVideoEiPKciiS2_ 0x0000f5d4   Data           0  multimedia.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeI18QDeclarativeCameraEiPKciiS2_ 0x0000f644   Data           0  multimedia.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeI25QDeclarativeMediaMetaDataEiv 0x0000f6b4   Data           0  multimedia.o(.ARM.extab)
+    .extab._ZN28QMultimediaDeclarativeModule16initializeEngineEP18QDeclarativeEnginePKc 0x0000f724   Data           0  multimedia.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioED1Ev 0x0000f73c   Data           0  multimedia.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoED1Ev 0x0000f74c   Data           0  multimedia.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraED1Ev 0x0000f75c   Data           0  multimedia.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoI12QSoundEffectEEvPv 0x0000f76c   Data           0  multimedia.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoI17QDeclarativeAudioEEvPv 0x0000f77c   Data           0  multimedia.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoI17QDeclarativeVideoEEvPv 0x0000f78c   Data           0  multimedia.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoI18QDeclarativeCameraEEvPv 0x0000f79c   Data           0  multimedia.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementI12QSoundEffectED1Ev 0x0000f7ac   Data           0  multimedia.o(.ARM.extab)
+    .extab._ZN17QDeclarativeAudio11qt_metacallEN11QMetaObject4CallEiPPv 0x0000f7bc   Data           0  qdeclarativeaudio.o(.ARM.extab)
+    .extab._ZN17QDeclarativeAudioC1EP7QObject 0x0000f7d4   Data           0  qdeclarativeaudio.o(.ARM.extab)
+    .extab._ZN17QDeclarativeAudioD1Ev        0x0000f7ec   Data           0  qdeclarativeaudio.o(.ARM.extab)
+    .extab._ZN21QDeclarativeMediaBaseC2Ev    0x0000f80c   Data           0  qdeclarativemediabase.o(.ARM.extab)
+    .extab._ZN21QDeclarativeMediaBaseD2Ev    0x0000f824   Data           0  qdeclarativemediabase.o(.ARM.extab)
+    .extab._ZN21QDeclarativeMediaBase9setSourceERK4QUrl 0x0000f83c   Data           0  qdeclarativemediabase.o(.ARM.extab)
+    .extab._ZN21QDeclarativeMediaBase10setPlayingEb 0x0000f854   Data           0  qdeclarativemediabase.o(.ARM.extab)
+    .extab._ZN21QDeclarativeMediaBase9setPausedEb 0x0000f864   Data           0  qdeclarativemediabase.o(.ARM.extab)
+    .extab._ZN21QDeclarativeMediaBase9setVolumeEf 0x0000f874   Data           0  qdeclarativemediabase.o(.ARM.extab)
+    .extab._ZN21QDeclarativeMediaBase17componentCompleteEv 0x0000f8a4   Data           0  qdeclarativemediabase.o(.ARM.extab)
+    .extab._ZN21QDeclarativeMediaBase9setObjectEP7QObject 0x0000f8b4   Data           0  qdeclarativemediabase.o(.ARM.extab)
+    .extab._ZN30QDeclarativeMediaBaseAnimationD1Ev 0x0000f8fc   Data           0  qdeclarativemediabase.o(.ARM.extab)
+    .extab._ZN17QDeclarativeVideo11qt_metacallEN11QMetaObject4CallEiPPv 0x0000f90c   Data           0  qdeclarativevideo.o(.ARM.extab)
+    .extab._ZN17QDeclarativeVideoC1EP16QDeclarativeItem 0x0000f924   Data           0  qdeclarativevideo.o(.ARM.extab)
+    .extab._ZN17QDeclarativeVideoD1Ev        0x0000f934   Data           0  qdeclarativevideo.o(.ARM.extab)
+    .extab._ZN17QDeclarativeVideo10classBeginEv 0x0000f94c   Data           0  qdeclarativevideo.o(.ARM.extab)
+    .extab._ZN18QDeclarativeCamera19_q_updateFocusZonesEv 0x0000f95c   Data           0  qdeclarativecamera.o(.ARM.extab)
+    .extab._ZN18QDeclarativeCamera16_q_imageCapturedEiRK6QImage 0x0000f98c   Data           0  qdeclarativecamera.o(.ARM.extab)
+    .extab._ZN18QDeclarativeCamera12captureImageEv 0x0000f9cc   Data           0  qdeclarativecamera.o(.ARM.extab)
+    .extab._ZN18QDeclarativeCamera11qt_metacallEN11QMetaObject4CallEiPPv 0x0000f9dc   Data           0  qdeclarativecamera.o(.ARM.extab)
+    .extab._ZN18QDeclarativeCameraC1EP16QDeclarativeItem 0x0000f9f4   Data           0  qdeclarativecamera.o(.ARM.extab)
+    .extab._ZN18QDeclarativeCameraD1Ev       0x0000fa6c   Data           0  qdeclarativecamera.o(.ARM.extab)
+    .extab._ZN5QListI16QCameraFocusZoneE13detach_helperEi 0x0000fa9c   Data           0  qdeclarativecamera.o(.ARM.extab)
+    .extab._ZN5QListIP13QGraphicsItemE18detach_helper_growEii 0x0000fae0   Data           0  qdeclarativecamera.o(.ARM.extab)
+    .extab._ZN5QListIP13QGraphicsItemE6appendERKS1_ 0x0000fb10   Data           0  qdeclarativecamera.o(.ARM.extab)
+    .extab._ZN5QListIP13QGraphicsItemE13detach_helperEi 0x0000fb2c   Data           0  qdeclarativecamera.o(.ARM.extab)
+    .extab._ZN5QListIP13QGraphicsItemE5clearEv 0x0000fb48   Data           0  qdeclarativecamera.o(.ARM.extab)
+    .extab._ZN13FocusZoneItemD1Ev            0x0000fb58   Data           0  qdeclarativecamera.o(.ARM.extab)
+    .extab._ZN13FocusZoneItem5paintEP8QPainterPK24QStyleOptionGraphicsItemP7QWidget 0x0000fb68   Data           0  qdeclarativecamera.o(.ARM.extab)
+    .extab._Z40qDeclarativeCameraPreviewProviderPrivatev 0x0000fb88   Data           0  qdeclarativecamerapreviewprovider.o(.ARM.extab)
+    .extab._ZN33QDeclarativeCameraPreviewProviderD1Ev 0x0000fbb0   Data           0  qdeclarativecamerapreviewprovider.o(.ARM.extab)
+    .extab._ZN33QDeclarativeCameraPreviewProvider12requestImageERK7QStringP5QSizeRKS3_ 0x0000fbe8   Data           0  qdeclarativecamerapreviewprovider.o(.ARM.extab)
+    .extab._ZN33QDeclarativeCameraPreviewProvider15registerPreviewERK7QStringRK6QImage 0x0000fc20   Data           0  qdeclarativecamerapreviewprovider.o(.ARM.extab)
+    .extab._ZN40QDeclarativeCameraPreviewProviderPrivateD1Ev 0x0000fc30   Data           0  qdeclarativecamerapreviewprovider.o(.ARM.extab)
+    .constdata$1                             0x0000fc48   Data           0  moc_qdeclarativemediametadata_p.o(.constdata)
+    qt_meta_data_QDeclarativeMediaMetaData   0x0000fc48   Data         816  moc_qdeclarativemediametadata_p.o(.constdata)
+    .constdata                               0x0000fc48   Section     1384  moc_qdeclarativemediametadata_p.o(.constdata)
+    qt_meta_stringdata_QDeclarativeMediaMetaData 0x0000ff78   Data         551  moc_qdeclarativemediametadata_p.o(.constdata)
+    .constdata$1                             0x000101b0   Data           0  multimedia.o(.constdata)
+    qt_meta_data_QMultimediaDeclarativeModule 0x000101b0   Data          60  multimedia.o(.constdata)
+    .constdata                               0x000101b0   Section      200  multimedia.o(.constdata)
+    qt_meta_stringdata_QMultimediaDeclarativeModule 0x000101ec   Data          30  multimedia.o(.constdata)
+    qt_plugin_verification_data              0x0001020a   Data          91  multimedia.o(.constdata)
+    .constdata$1                             0x00010278   Data           0  qdeclarativeaudio.o(.constdata)
+    qt_meta_data_QDeclarativeAudio           0x00010278   Data         912  qdeclarativeaudio.o(.constdata)
+    .constdata                               0x00010278   Section     1704  qdeclarativeaudio.o(.constdata)
+    qt_meta_stringdata_QDeclarativeAudio     0x00010608   Data         775  qdeclarativeaudio.o(.constdata)
+    .constdata$1                             0x00010920   Data           0  qdeclarativevideo.o(.constdata)
+    qt_meta_data_QDeclarativeVideo           0x00010920   Data        1060  qdeclarativevideo.o(.constdata)
+    .constdata                               0x00010920   Section     2004  qdeclarativevideo.o(.constdata)
+    qt_meta_stringdata_QDeclarativeVideo     0x00010d44   Data         926  qdeclarativevideo.o(.constdata)
+    .constdata$1                             0x000110f4   Data           0  qdeclarativecamera.o(.constdata)
+    qt_meta_data_QDeclarativeCamera          0x000110f4   Data        1672  qdeclarativecamera.o(.constdata)
+    .constdata                               0x000110f4   Section     4468  qdeclarativecamera.o(.constdata)
+    qt_meta_stringdata_QDeclarativeCamera    0x0001177c   Data        2452  qdeclarativecamera.o(.constdata)
+    .constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE 0x00012268   Section        4  moc_qdeclarativemediametadata_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE 0x0001226c   Section        4  moc_qdeclarativemediametadata_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE 0x00012270   Section        4  moc_qdeclarativemediametadata_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE 0x00012274   Section        4  moc_qdeclarativemediametadata_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE 0x00012278   Section        4  moc_qdeclarativemediametadata_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE 0x0001227c   Section        1  moc_qdeclarativemediametadata_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE 0x00012280   Section        4  moc_qdeclarativemediametadata_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE 0x00012284   Section        4  moc_qdeclarativemediametadata_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE 0x00012288   Section        4  moc_qdeclarativemediametadata_p.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE 0x0001228c   Section        4  moc_qdeclarativemediametadata_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE 0x00012290   Section        4  moc_qdeclarativemediametadata_p.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE 0x00012294   Section        4  moc_qdeclarativemediametadata_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE 0x00012298   Section        4  moc_qdeclarativemediametadata_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE 0x0001229c   Section        4  moc_qdeclarativemediametadata_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    .constdata__ZTI13FocusZoneItem           0x000122a0   Section       12  qdeclarativecamera.o(.constdata__ZTI13FocusZoneItem)
+    .constdata__ZTI17QDeclarativeAudio       0x000122ac   Section       40  qdeclarativeaudio.o(.constdata__ZTI17QDeclarativeAudio)
+    .constdata__ZTI17QDeclarativeVideo       0x000122d4   Section       32  qdeclarativevideo.o(.constdata__ZTI17QDeclarativeVideo)
+    .constdata__ZTI18QDeclarativeCamera      0x000122f4   Section       12  qdeclarativecamera.o(.constdata__ZTI18QDeclarativeCamera)
+    .constdata__ZTI21QDeclarativeMediaBase   0x00012300   Section        8  qdeclarativemediabase.o(.constdata__ZTI21QDeclarativeMediaBase)
+    .constdata__ZTI25QDeclarativeMediaMetaData 0x00012308   Section       12  moc_qdeclarativemediametadata_p.o(.constdata__ZTI25QDeclarativeMediaMetaData)
+    .constdata__ZTI27QDeclarativeMediaBaseObject 0x00012314   Section       12  qdeclarativemediabase.o(.constdata__ZTI27QDeclarativeMediaBaseObject)
+    .constdata__ZTI28QMultimediaDeclarativeModule 0x00012320   Section       12  multimedia.o(.constdata__ZTI28QMultimediaDeclarativeModule)
+    .constdata__ZTI30QDeclarativeMediaBaseAnimation 0x0001232c   Section       12  qdeclarativemediabase.o(.constdata__ZTI30QDeclarativeMediaBaseAnimation)
+    .constdata__ZTI33QDeclarativeCameraPreviewProvider 0x00012338   Section       12  qdeclarativecamerapreviewprovider.o(.constdata__ZTI33QDeclarativeCameraPreviewProvider)
+    .constdata__ZTI34QDeclarativeMediaBasePlayerControl 0x00012344   Section       12  qdeclarativemediabase.o(.constdata__ZTI34QDeclarativeMediaBasePlayerControl)
+    .constdata__ZTI36QDeclarativeMediaBaseMetaDataControl 0x00012350   Section       12  qdeclarativemediabase.o(.constdata__ZTI36QDeclarativeMediaBaseMetaDataControl)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI12QSoundEffectEE 0x0001235c   Section       12  multimedia.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI12QSoundEffectEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioEE 0x00012368   Section       12  multimedia.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoEE 0x00012374   Section       12  multimedia.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraEE 0x00012380   Section       12  multimedia.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraEE)
+    .constdata__ZTS13FocusZoneItem           0x0001238c   Section       16  qdeclarativecamera.o(.constdata__ZTS13FocusZoneItem)
+    .constdata__ZTS17QDeclarativeAudio       0x0001239c   Section       20  qdeclarativeaudio.o(.constdata__ZTS17QDeclarativeAudio)
+    .constdata__ZTS17QDeclarativeVideo       0x000123b0   Section       20  qdeclarativevideo.o(.constdata__ZTS17QDeclarativeVideo)
+    .constdata__ZTS18QDeclarativeCamera      0x000123c4   Section       21  qdeclarativecamera.o(.constdata__ZTS18QDeclarativeCamera)
+    .constdata__ZTS21QDeclarativeMediaBase   0x000123d9   Section       24  qdeclarativemediabase.o(.constdata__ZTS21QDeclarativeMediaBase)
+    .constdata__ZTS25QDeclarativeMediaMetaData 0x000123f1   Section       28  moc_qdeclarativemediametadata_p.o(.constdata__ZTS25QDeclarativeMediaMetaData)
+    .constdata__ZTS27QDeclarativeMediaBaseObject 0x0001240d   Section       30  qdeclarativemediabase.o(.constdata__ZTS27QDeclarativeMediaBaseObject)
+    .constdata__ZTS28QMultimediaDeclarativeModule 0x0001242b   Section       31  multimedia.o(.constdata__ZTS28QMultimediaDeclarativeModule)
+    .constdata__ZTS30QDeclarativeMediaBaseAnimation 0x0001244a   Section       33  qdeclarativemediabase.o(.constdata__ZTS30QDeclarativeMediaBaseAnimation)
+    .constdata__ZTS33QDeclarativeCameraPreviewProvider 0x0001246b   Section       36  qdeclarativecamerapreviewprovider.o(.constdata__ZTS33QDeclarativeCameraPreviewProvider)
+    .constdata__ZTS34QDeclarativeMediaBasePlayerControl 0x0001248f   Section       37  qdeclarativemediabase.o(.constdata__ZTS34QDeclarativeMediaBasePlayerControl)
+    .constdata__ZTS36QDeclarativeMediaBaseMetaDataControl 0x000124b4   Section       39  qdeclarativemediabase.o(.constdata__ZTS36QDeclarativeMediaBaseMetaDataControl)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI12QSoundEffectEE 0x000124db   Section       61  multimedia.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI12QSoundEffectEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioEE 0x00012518   Section       66  multimedia.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoEE 0x0001255a   Section       66  multimedia.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraEE 0x0001259c   Section       67  multimedia.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraEE)
+    .constdata__ZTV13FocusZoneItem           0x000125e0   Section      156  qdeclarativecamera.o(.constdata__ZTV13FocusZoneItem)
+    .constdata__ZTV17QDeclarativeAudio       0x0001267c   Section      240  qdeclarativeaudio.o(.constdata__ZTV17QDeclarativeAudio)
+    .constdata__ZTV17QDeclarativeVideo       0x0001276c   Section      432  qdeclarativevideo.o(.constdata__ZTV17QDeclarativeVideo)
+    .constdata__ZTV18QDeclarativeCamera      0x0001291c   Section      280  qdeclarativecamera.o(.constdata__ZTV18QDeclarativeCamera)
+    .constdata__ZTV21QDeclarativeMediaBase   0x00012a34   Section       84  qdeclarativemediabase.o(.constdata__ZTV21QDeclarativeMediaBase)
+    .constdata__ZTV25QDeclarativeMediaMetaData 0x00012a88   Section       56  moc_qdeclarativemediametadata_p.o(.constdata__ZTV25QDeclarativeMediaMetaData)
+    .constdata__ZTV27QDeclarativeMediaBaseObject 0x00012ac0   Section       76  qdeclarativemediabase.o(.constdata__ZTV27QDeclarativeMediaBaseObject)
+    .constdata__ZTV28QMultimediaDeclarativeModule 0x00012b0c   Section       88  multimedia.o(.constdata__ZTV28QMultimediaDeclarativeModule)
+    .constdata__ZTV30QDeclarativeMediaBaseAnimation 0x00012b64   Section       56  qdeclarativemediabase.o(.constdata__ZTV30QDeclarativeMediaBaseAnimation)
+    .constdata__ZTV33QDeclarativeCameraPreviewProvider 0x00012b9c   Section       24  qdeclarativecamerapreviewprovider.o(.constdata__ZTV33QDeclarativeCameraPreviewProvider)
+    .constdata__ZTV34QDeclarativeMediaBasePlayerControl 0x00012bb4   Section      144  qdeclarativemediabase.o(.constdata__ZTV34QDeclarativeMediaBasePlayerControl)
+    .constdata__ZTV36QDeclarativeMediaBaseMetaDataControl 0x00012c44   Section       76  qdeclarativemediabase.o(.constdata__ZTV36QDeclarativeMediaBaseMetaDataControl)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI12QSoundEffectEE 0x00012c90   Section       56  multimedia.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI12QSoundEffectEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioEE 0x00012cc8   Section      240  multimedia.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoEE 0x00012db8   Section      432  multimedia.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraEE 0x00012f68   Section      280  multimedia.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraEE)
+    __ARM_d__Z15qmlRegisterTypeI12QSoundEffectEiPKciiS2_$52 0x00013080   Data           0  multimedia.o(__ARM_d__Z15qmlRegisterTypeI12QSoundEffectEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI12QSoundEffectEiPKciiS2_ 0x00013080   Section       76  multimedia.o(__ARM_d__Z15qmlRegisterTypeI12QSoundEffectEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI17QDeclarativeAudioEiPKciiS2_$55 0x000130cc   Data           0  multimedia.o(__ARM_d__Z15qmlRegisterTypeI17QDeclarativeAudioEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI17QDeclarativeAudioEiPKciiS2_ 0x000130cc   Section       76  multimedia.o(__ARM_d__Z15qmlRegisterTypeI17QDeclarativeAudioEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI17QDeclarativeVideoEiPKciiS2_$58 0x00013118   Data           0  multimedia.o(__ARM_d__Z15qmlRegisterTypeI17QDeclarativeVideoEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI17QDeclarativeVideoEiPKciiS2_ 0x00013118   Section       76  multimedia.o(__ARM_d__Z15qmlRegisterTypeI17QDeclarativeVideoEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI18QDeclarativeCameraEiPKciiS2_$61 0x00013164   Data           0  multimedia.o(__ARM_d__Z15qmlRegisterTypeI18QDeclarativeCameraEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI18QDeclarativeCameraEiPKciiS2_ 0x00013164   Section       76  multimedia.o(__ARM_d__Z15qmlRegisterTypeI18QDeclarativeCameraEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI25QDeclarativeMediaMetaDataEiv$64 0x000131b0   Data           0  multimedia.o(__ARM_d__Z15qmlRegisterTypeI25QDeclarativeMediaMetaDataEiv)
+    __ARM_d__Z15qmlRegisterTypeI25QDeclarativeMediaMetaDataEiv 0x000131b0   Section       76  multimedia.o(__ARM_d__Z15qmlRegisterTypeI25QDeclarativeMediaMetaDataEiv)
+    .ARM.exidx                               0x000131fc   Section        8  ucppinit.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  multimedia.o(.data)
+    _ZGV_instance@qt_plugin_instance_0       0x00400000   Data           4  multimedia.o(.data)
+    .data                                    0x00400000   Section        8  multimedia.o(.data)
+    _instance@qt_plugin_instance_1           0x00400004   Data           4  multimedia.o(.data)
+    .data$0                                  0x00400008   Data           0  qdeclarativecamerapreviewprovider.o(.data)
+    this_qDeclarativeCameraPreviewProviderPrivate 0x00400008   Data           8  qdeclarativecamerapreviewprovider.o(.data)
+    .data                                    0x00400008   Section       16  qdeclarativecamerapreviewprovider.o(.data)
+    _ZGVcleanup@_Z40qDeclarativeCameraPreviewProviderPrivatev_0 0x00400010   Data           4  qdeclarativecamerapreviewprovider.o(.data)
+    cleanup@_Z40qDeclarativeCameraPreviewProviderPrivatev_1 0x00400014   Data           4  qdeclarativecamerapreviewprovider.o(.data)
+    .data$0                                  0x00400018   Data           0  ucppfini.o(.data)
+    .data                                    0x00400018   Section        4  ucppfini.o(.data)
+    .data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE 0x0040001c   Section       12  moc_qdeclarativemediametadata_p.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    .data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI12QSoundEffectEE14qt_metatype_idEvE11metatype_id 0x00400028   Section        4  multimedia.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI12QSoundEffectEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI17QDeclarativeAudioEE14qt_metatype_idEvE11metatype_id 0x0040002c   Section        4  multimedia.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI17QDeclarativeAudioEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI17QDeclarativeVideoEE14qt_metatype_idEvE11metatype_id 0x00400030   Section        4  multimedia.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI17QDeclarativeVideoEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI18QDeclarativeCameraEE14qt_metatype_idEvE11metatype_id 0x00400034   Section        4  multimedia.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI18QDeclarativeCameraEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI25QDeclarativeMediaMetaDataEE14qt_metatype_idEvE11metatype_id 0x00400038   Section        4  multimedia.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI25QDeclarativeMediaMetaDataEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIP12QSoundEffectE14qt_metatype_idEvE11metatype_id 0x0040003c   Section        4  multimedia.o(.data__ZZN11QMetaTypeIdIP12QSoundEffectE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIP17QDeclarativeAudioE14qt_metatype_idEvE11metatype_id 0x00400040   Section        4  multimedia.o(.data__ZZN11QMetaTypeIdIP17QDeclarativeAudioE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIP17QDeclarativeVideoE14qt_metatype_idEvE11metatype_id 0x00400044   Section        4  multimedia.o(.data__ZZN11QMetaTypeIdIP17QDeclarativeVideoE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIP18QDeclarativeCameraE14qt_metatype_idEvE11metatype_id 0x00400048   Section        4  multimedia.o(.data__ZZN11QMetaTypeIdIP18QDeclarativeCameraE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIP25QDeclarativeMediaMetaDataE14qt_metatype_idEvE11metatype_id 0x0040004c   Section        4  multimedia.o(.data__ZZN11QMetaTypeIdIP25QDeclarativeMediaMetaDataE14qt_metatype_idEvE11metatype_id)
+    .bss$5                                   0x00400050   Data           0  ucppfini.o(.bss)
+    .bss                                     0x00400050   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$VFPv2$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$IEEEJ$EBA8$UX$FPIC$INDIRECT$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    QtCore{00040703}[2001b2dc].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtDeclarative{00040703}[2001e623].dll    0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtGui{00040703}[2001b2dd].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtMultimediaKit{00010103}[2002ac77].dll  0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    declarative_multimedia{000a0000}[20021313].dll 0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    dfpaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    euser{000a0000}[100039e5].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    libc{00010001}[10207369].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    stdnew{000a0000}[20022178].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    QBasicAtomicPointer_testAndSetOrdered(void*volatile *, void*, void*)  - Undefined Reference
+    _Z37QBasicAtomicPointer_testAndSetOrderedPVPvS_S_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qFree(void*)                              - Undefined Reference
+    _Z5qFreePv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qmlInfo(const QObject*)                   - Undefined Reference
+    _Z7qmlInfoPK7QObject@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QByteArray::append(const char*)           - Undefined Reference
+    _ZN10QByteArray6appendEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::append(const QByteArray&)     - Undefined Reference
+    _ZN10QByteArray6appendERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::append(char)                  - Undefined Reference
+    _ZN10QByteArray6appendEc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::QByteArray(const char*)       - Undefined Reference
+    _ZN10QByteArrayC1EPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QBasicTimer::stop()                       - Undefined Reference
+    _ZN11QBasicTimer4stopEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QBasicTimer::start(int, QObject*)         - Undefined Reference
+    _ZN11QBasicTimer5startEiP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::changeGuard(QObject**, QObject*)  - Undefined Reference
+    _ZN11QMetaObject11changeGuardEPP7QObjectS1_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::removeGuard(QObject**)       - Undefined Reference
+    _ZN11QMetaObject11removeGuardEPP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::invokeMethod(QObject*, const char*, Qt::ConnectionType, QGenericReturnArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument)  - Undefined Reference
+    _ZN11QMetaObject12invokeMethodEP7QObjectPKcN2Qt14ConnectionTypeE22QGenericReturnArgument16QGenericArgumentS7_S7_S7_S7_S7_S7_S7_S7_S7_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::activate(QObject*, const QMetaObject*, int, void**)  - Undefined Reference
+    _ZN11QMetaObject8activateEP7QObjectPKS_iPPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::operator <<(const QString&)  - Undefined Reference
+    _ZN11QTextStreamlsERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::operator <<(char)            - Undefined Reference
+    _ZN11QTextStreamlsEc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QCameraFocus::zoomTo(float, float)        - Undefined Reference
+    _ZN12QCameraFocus6zoomToEff@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaObject::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN12QMediaObject11qt_metacallEN11QMetaObject4CallEiPPv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaObject::qt_metacast(const char*)    - Undefined Reference
+    _ZN12QMediaObject11qt_metacastEPKc@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaObject::bind(QObject*)              - Undefined Reference
+    _ZN12QMediaObject4bindEP7QObject@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaObject::unbind(QObject*)            - Undefined Reference
+    _ZN12QMediaObject6unbindEP7QObject@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaObject::QMediaObject(QObject*, QMediaService*)  - Undefined Reference
+    _ZN12QMediaObjectC1EP7QObjectP13QMediaService@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaObject::~QMediaObject()             - Undefined Reference
+    _ZN12QMediaObjectD1Ev@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QSoundEffect::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN12QSoundEffect11qt_metacallEN11QMetaObject4CallEiPPv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QSoundEffect::qt_metacast(const char*)    - Undefined Reference
+    _ZN12QSoundEffect11qt_metacastEPKc@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QSoundEffect::staticMetaObject            - Undefined Reference
+    _ZN12QSoundEffect16staticMetaObjectE@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QSoundEffect::QSoundEffect(QObject*)      - Undefined Reference
+    _ZN12QSoundEffectC1EP7QObject@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QSoundEffect::~QSoundEffect()             - Undefined Reference
+    _ZN12QSoundEffectD1Ev@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QGraphicsItem::itemChange(QGraphicsItem::GraphicsItemChange, const QVariant&)  - Undefined Reference
+    _ZN13QGraphicsItem10itemChangeENS_18GraphicsItemChangeERK8QVariant@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::sceneEvent(QEvent*)        - Undefined Reference
+    _ZN13QGraphicsItem10sceneEventEP6QEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::wheelEvent(QGraphicsSceneWheelEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem10wheelEventEP24QGraphicsSceneWheelEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::focusInEvent(QFocusEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem12focusInEventEP11QFocusEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::setExtension(QGraphicsItem::Extension, const QVariant&)  - Undefined Reference
+    _ZN13QGraphicsItem12setExtensionENS_9ExtensionERK8QVariant@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::dragMoveEvent(QGraphicsSceneDragDropEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem13dragMoveEventEP27QGraphicsSceneDragDropEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::focusOutEvent(QFocusEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem13focusOutEventEP11QFocusEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::keyPressEvent(QKeyEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem13keyPressEventEP9QKeyEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::dragEnterEvent(QGraphicsSceneDragDropEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem14dragEnterEventEP27QGraphicsSceneDragDropEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::dragLeaveEvent(QGraphicsSceneDragDropEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem14dragLeaveEventEP27QGraphicsSceneDragDropEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::hoverMoveEvent(QGraphicsSceneHoverEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem14hoverMoveEventEP24QGraphicsSceneHoverEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::mouseMoveEvent(QGraphicsSceneMouseEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem14mouseMoveEventEP24QGraphicsSceneMouseEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::hoverEnterEvent(QGraphicsSceneHoverEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem15hoverEnterEventEP24QGraphicsSceneHoverEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::hoverLeaveEvent(QGraphicsSceneHoverEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem15hoverLeaveEventEP24QGraphicsSceneHoverEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::keyReleaseEvent(QKeyEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem15keyReleaseEventEP9QKeyEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::mousePressEvent(QGraphicsSceneMouseEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem15mousePressEventEP24QGraphicsSceneMouseEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::contextMenuEvent(QGraphicsSceneContextMenuEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem16contextMenuEventEP30QGraphicsSceneContextMenuEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::inputMethodEvent(QInputMethodEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem16inputMethodEventEP17QInputMethodEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::sceneEventFilter(QGraphicsItem*, QEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem16sceneEventFilterEPS_P6QEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::mouseReleaseEvent(QGraphicsSceneMouseEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem17mouseReleaseEventEP24QGraphicsSceneMouseEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::mouseDoubleClickEvent(QGraphicsSceneMouseEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem21mouseDoubleClickEventEP24QGraphicsSceneMouseEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::advance(int)               - Undefined Reference
+    _ZN13QGraphicsItem7advanceEi@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::dropEvent(QGraphicsSceneDragDropEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem9dropEventEP27QGraphicsSceneDragDropEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::QGraphicsItem__sub_object(QGraphicsItem*, QGraphicsScene*)  - Undefined Reference
+    _ZN13QGraphicsItemC2EPS_P14QGraphicsScene@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::~QGraphicsItem__sub_object()  - Undefined Reference
+    _ZN13QGraphicsItemD2Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QMediaContent::QMediaContent(const QUrl&)  - Undefined Reference
+    _ZN13QMediaContentC1ERK4QUrl@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaContent::QMediaContent()            - Undefined Reference
+    _ZN13QMediaContentC1Ev@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaContent::~QMediaContent()           - Undefined Reference
+    _ZN13QMediaContentD1Ev@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCameraExposure::setFlashMode(QFlags<QCameraExposure::FlashMode>)  - Undefined Reference
+    _ZN15QCameraExposure12setFlashModeE6QFlagsINS_9FlashModeEE@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCameraExposure::setExposureMode(QCameraExposure::ExposureMode)  - Undefined Reference
+    _ZN15QCameraExposure15setExposureModeENS_12ExposureModeE@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCameraExposure::setExposureCompensation(float)  - Undefined Reference
+    _ZN15QCameraExposure23setExposureCompensationEf@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCameraExposure::setManualIsoSensitivity(int)  - Undefined Reference
+    _ZN15QCameraExposure23setManualIsoSensitivityEi@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaTimeRange::QMediaTimeRange()        - Undefined Reference
+    _ZN15QMediaTimeRangeC1Ev@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCameraFocusZone::QCameraFocusZone(const QCameraFocusZone&)  - Undefined Reference
+    _ZN16QCameraFocusZoneC1ERKS_@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCameraFocusZone::~QCameraFocusZone()     - Undefined Reference
+    _ZN16QCameraFocusZoneD1Ev@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QDeclarativeInfo::~QDeclarativeInfo()     - Undefined Reference
+    _ZN16QDeclarativeInfoD1Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::classBegin()            - Undefined Reference
+    _ZN16QDeclarativeItem10classBeginEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::itemChange(QGraphicsItem::GraphicsItemChange, const QVariant&)  - Undefined Reference
+    _ZN16QDeclarativeItem10itemChangeEN13QGraphicsItem18GraphicsItemChangeERK8QVariant@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::sceneEvent(QEvent*)     - Undefined Reference
+    _ZN16QDeclarativeItem10sceneEventEP6QEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN16QDeclarativeItem11qt_metacallEN11QMetaObject4CallEiPPv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::qt_metacast(const char*)  - Undefined Reference
+    _ZN16QDeclarativeItem11qt_metacastEPKc@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::keyPressEvent(QKeyEvent*)  - Undefined Reference
+    _ZN16QDeclarativeItem13keyPressEventEP9QKeyEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::geometryChanged(const QRectF&, const QRectF&)  - Undefined Reference
+    _ZN16QDeclarativeItem15geometryChangedERK6QRectFS2_@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::keyReleaseEvent(QKeyEvent*)  - Undefined Reference
+    _ZN16QDeclarativeItem15keyReleaseEventEP9QKeyEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::inputMethodEvent(QInputMethodEvent*)  - Undefined Reference
+    _ZN16QDeclarativeItem16inputMethodEventEP17QInputMethodEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::setImplicitWidth(float)  - Undefined Reference
+    _ZN16QDeclarativeItem16setImplicitWidthEf@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::staticMetaObject        - Undefined Reference
+    _ZN16QDeclarativeItem16staticMetaObjectE@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::componentComplete()     - Undefined Reference
+    _ZN16QDeclarativeItem17componentCompleteEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::setImplicitHeight(float)  - Undefined Reference
+    _ZN16QDeclarativeItem17setImplicitHeightEf@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::event(QEvent*)          - Undefined Reference
+    _ZN16QDeclarativeItem5eventEP6QEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::QDeclarativeItem(QDeclarativeItem*)  - Undefined Reference
+    _ZN16QDeclarativeItemC1EPS_@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::~QDeclarativeItem()     - Undefined Reference
+    _ZN16QDeclarativeItemD1Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeEngine::addImageProvider(const QString&, QDeclarativeImageProvider*)  - Undefined Reference
+    _ZN18QDeclarativeEngine16addImageProviderERK7QStringP25QDeclarativeImageProvider@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QGraphicsVideoItem::setAspectRatioMode(Qt::AspectRatioMode)  - Undefined Reference
+    _ZN18QGraphicsVideoItem18setAspectRatioModeEN2Qt15AspectRatioModeE@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QGraphicsVideoItem::setSize(const QSizeF&)  - Undefined Reference
+    _ZN18QGraphicsVideoItem7setSizeERK6QSizeF@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QGraphicsVideoItem::QGraphicsVideoItem(QGraphicsItem*)  - Undefined Reference
+    _ZN18QGraphicsVideoItemC1EP13QGraphicsItem@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCameraImageCapture::setEncodingSettings(const QImageEncoderSettings&)  - Undefined Reference
+    _ZN19QCameraImageCapture19setEncodingSettingsERK21QImageEncoderSettings@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCameraImageCapture::capture(const QString&)  - Undefined Reference
+    _ZN19QCameraImageCapture7captureERK7QString@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCameraImageCapture::QCameraImageCapture(QMediaObject*, QObject*)  - Undefined Reference
+    _ZN19QCameraImageCaptureC1EP12QMediaObjectP7QObject@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QDeclarativePrivate::qmlregister(QDeclarativePrivate::RegistrationType, void*)  - Undefined Reference
+    _ZN19QDeclarativePrivate11qmlregisterENS_16RegistrationTypeEPv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativePrivate::qdeclarativeelement_destructor(QObject*)  - Undefined Reference
+    _ZN19QDeclarativePrivate30qdeclarativeelement_destructorEP7QObject@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QMediaPlayerControl::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN19QMediaPlayerControl11qt_metacallEN11QMetaObject4CallEiPPv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaPlayerControl::qt_metacast(const char*)  - Undefined Reference
+    _ZN19QMediaPlayerControl11qt_metacastEPKc@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaPlayerControl::staticMetaObject     - Undefined Reference
+    _ZN19QMediaPlayerControl16staticMetaObjectE@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaPlayerControl::QMediaPlayerControl__sub_object(QObject*)  - Undefined Reference
+    _ZN19QMediaPlayerControlC2EP7QObject@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaPlayerControl::~QMediaPlayerControl__sub_object()  - Undefined Reference
+    _ZN19QMediaPlayerControlD2Ev@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QImageEncoderSettings::setResolution(const QSize&)  - Undefined Reference
+    _ZN21QImageEncoderSettings13setResolutionERK5QSize@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QImageEncoderSettings::QImageEncoderSettings()  - Undefined Reference
+    _ZN21QImageEncoderSettingsC1Ev@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QImageEncoderSettings::~QImageEncoderSettings()  - Undefined Reference
+    _ZN21QImageEncoderSettingsD1Ev@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaServiceProvider::defaultServiceProvider()  - Undefined Reference
+    _ZN21QMediaServiceProvider22defaultServiceProviderEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCameraImageProcessing::setWhiteBalanceMode(QCameraImageProcessing::WhiteBalanceMode)  - Undefined Reference
+    _ZN22QCameraImageProcessing19setWhiteBalanceModeENS_16WhiteBalanceModeE@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCameraImageProcessing::setManualWhiteBalance(int)  - Undefined Reference
+    _ZN22QCameraImageProcessing21setManualWhiteBalanceEi@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMetaDataReaderControl::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN22QMetaDataReaderControl11qt_metacallEN11QMetaObject4CallEiPPv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMetaDataReaderControl::qt_metacast(const char*)  - Undefined Reference
+    _ZN22QMetaDataReaderControl11qt_metacastEPKc@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMetaDataReaderControl::staticMetaObject  - Undefined Reference
+    _ZN22QMetaDataReaderControl16staticMetaObjectE@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMetaDataReaderControl::QMetaDataReaderControl__sub_object(QObject*)  - Undefined Reference
+    _ZN22QMetaDataReaderControlC2EP7QObject@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMetaDataReaderControl::~QMetaDataReaderControl__sub_object()  - Undefined Reference
+    _ZN22QMetaDataReaderControlD2Ev@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QDeclarativeParserStatus::QDeclarativeParserStatus__sub_object()  - Undefined Reference
+    _ZN24QDeclarativeParserStatusC2Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeParserStatus::~QDeclarativeParserStatus__sub_object()  - Undefined Reference
+    _ZN24QDeclarativeParserStatusD2Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeImageProvider::requestPixmap(const QString&, QSize*, const QSize&)  - Undefined Reference
+    _ZN25QDeclarativeImageProvider13requestPixmapERK7QStringP5QSizeRKS3_@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeImageProvider::QDeclarativeImageProvider(QDeclarativeImageProvider::ImageType)  - Undefined Reference
+    _ZN25QDeclarativeImageProviderC1ENS_9ImageTypeE@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeImageProvider::~QDeclarativeImageProvider()  - Undefined Reference
+    _ZN25QDeclarativeImageProviderD1Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QMediaServiceProviderHint::QMediaServiceProviderHint()  - Undefined Reference
+    _ZN25QMediaServiceProviderHintC1Ev@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaServiceProviderHint::~QMediaServiceProviderHint()  - Undefined Reference
+    _ZN25QMediaServiceProviderHintD1Ev@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin11qt_metacallEN11QMetaObject4CallEiPPv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::qt_metacast(const char*)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin11qt_metacastEPKc@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::staticMetaObject  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin16staticMetaObjectE@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::QDeclarativeExtensionPlugin__sub_object(QObject*)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPluginC2EP7QObject@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::~QDeclarativeExtensionPlugin__sub_object()  - Undefined Reference
+    _ZN27QDeclarativeExtensionPluginD2Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QPen::QPen(const QBrush&, float, Qt::PenStyle, Qt::PenCapStyle, Qt::PenJoinStyle)  - Undefined Reference
+    _ZN4QPenC1ERK6QBrushfN2Qt8PenStyleENS3_11PenCapStyleENS3_12PenJoinStyleE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QPen::~QPen()                             - Undefined Reference
+    _ZN4QPenD1Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QUrl::QUrl(const QUrl&)                   - Undefined Reference
+    _ZN4QUrlC1ERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::QUrl()                              - Undefined Reference
+    _ZN4QUrlC1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::~QUrl()                             - Undefined Reference
+    _ZN4QUrlD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::operator =(const QUrl&)             - Undefined Reference
+    _ZN4QUrlaSERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    User::LockedDec(int&)                     - Undefined Reference
+    _ZN4User9LockedDecERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::LockedInc(int&)                     - Undefined Reference
+    _ZN4User9LockedIncERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QTime::currentTime()                      - Undefined Reference
+    _ZN5QTime11currentTimeEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QBrush::QBrush(const QColor&, Qt::BrushStyle)  - Undefined Reference
+    _ZN6QBrushC1ERK6QColorN2Qt10BrushStyleE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QBrush::~QBrush()                         - Undefined Reference
+    _ZN6QBrushD1Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QColor::invalidate()                      - Undefined Reference
+    _ZN6QColor10invalidateEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QColor::QColor(QColor::Spec)              - Undefined Reference
+    _ZN6QColorC1ENS_4SpecE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QColor::operator =(Qt::GlobalColor)       - Undefined Reference
+    _ZN6QColoraSEN2Qt11GlobalColorE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QColor::operator =(const QColor&)         - Undefined Reference
+    _ZN6QColoraSERKS_@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::QImage(const QImage&)             - Undefined Reference
+    _ZN6QImageC1ERKS_@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::QImage()                          - Undefined Reference
+    _ZN6QImageC1Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::~QImage()                         - Undefined Reference
+    _ZN6QImageD1Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::operator =(const QImage&)         - Undefined Reference
+    _ZN6QImageaSERKS_@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QMutex::lock()                            - Undefined Reference
+    _ZN6QMutex4lockEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMutex::unlock()                          - Undefined Reference
+    _ZN6QMutex6unlockEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMutex::QMutex(QMutex::RecursionMode)     - Undefined Reference
+    _ZN6QMutexC1ENS_13RecursionModeE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMutex::~QMutex()                         - Undefined Reference
+    _ZN6QMutexD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTimer::singleShot(int, QObject*, const char*)  - Undefined Reference
+    _ZN6QTimer10singleShotEiP7QObjectPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QCamera::searchAndLock()                  - Undefined Reference
+    _ZN7QCamera13searchAndLockEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCamera::setViewfinder(QGraphicsVideoItem*)  - Undefined Reference
+    _ZN7QCamera13setViewfinderEP18QGraphicsVideoItem@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCamera::load()                           - Undefined Reference
+    _ZN7QCamera4loadEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCamera::stop()                           - Undefined Reference
+    _ZN7QCamera4stopEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCamera::start()                          - Undefined Reference
+    _ZN7QCamera5startEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCamera::unload()                         - Undefined Reference
+    _ZN7QCamera6unloadEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCamera::unlock()                         - Undefined Reference
+    _ZN7QCamera6unlockEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCamera::QCamera(QObject*, QMediaServiceProvider*)  - Undefined Reference
+    _ZN7QCameraC1EP7QObjectP21QMediaServiceProvider@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QObject::childEvent(QChildEvent*)         - Undefined Reference
+    _ZN7QObject10childEventEP11QChildEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::timerEvent(QTimerEvent*)         - Undefined Reference
+    _ZN7QObject10timerEventEP11QTimerEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::customEvent(QEvent*)             - Undefined Reference
+    _ZN7QObject11customEventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::eventFilter(QObject*, QEvent*)   - Undefined Reference
+    _ZN7QObject11eventFilterEPS_P6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN7QObject11qt_metacallEN11QMetaObject4CallEiPPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::qt_metacast(const char*)         - Undefined Reference
+    _ZN7QObject11qt_metacastEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connectNotify(const char*)       - Undefined Reference
+    _ZN7QObject13connectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::disconnectNotify(const char*)    - Undefined Reference
+    _ZN7QObject16disconnectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::staticMetaObject                 - Undefined Reference
+    _ZN7QObject16staticMetaObjectE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::event(QEvent*)                   - Undefined Reference
+    _ZN7QObject5eventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connect(const QObject*, const char*, const QObject*, const char*, Qt::ConnectionType)  - Undefined Reference
+    _ZN7QObject7connectEPKS_PKcS1_S3_N2Qt14ConnectionTypeE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::QObject(QObject*)                - Undefined Reference
+    _ZN7QObjectC1EPS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::~QObject()                       - Undefined Reference
+    _ZN7QObjectD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::shared_null                      - Undefined Reference
+    _ZN7QString11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromAscii_helper(const char*, int)  - Undefined Reference
+    _ZN7QString16fromAscii_helperEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromLatin1_helper(const char*, int)  - Undefined Reference
+    _ZN7QString17fromLatin1_helperEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::free(QString::Data*)             - Undefined Reference
+    _ZN7QString4freeEPNS_4DataE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::append(const QString&)           - Undefined Reference
+    _ZN7QString6appendERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromAscii(const char*, int)      - Undefined Reference
+    _ZN7QString9fromAsciiEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::operator =(const QString&)       - Undefined Reference
+    _ZN7QStringaSERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QPainter::setPen(const QPen&)             - Undefined Reference
+    _ZN8QPainter6setPenERK4QPen@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QPainter::drawLines(const QLineF*, int)   - Undefined Reference
+    _ZN8QPainter9drawLinesEPK6QLineFi@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QVariant::~QVariant()                     - Undefined Reference
+    _ZN8QVariantD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::operator =(const QVariant&)     - Undefined Reference
+    _ZN8QVariantaSERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach_grow(int*, int)         - Undefined Reference
+    _ZN9QListData11detach_growEPii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::shared_null                    - Undefined Reference
+    _ZN9QListData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::append()                       - Undefined Reference
+    _ZN9QListData6appendEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach(int)                    - Undefined Reference
+    _ZN9QListData6detachEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaType::registerType(const char*, void(*)(void*), void*(*)(const void*))  - Undefined Reference
+    _ZN9QMetaType12registerTypeEPKcPFvPvEPFS2_PKvE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaType::registerTypedef(const char*, int)  - Undefined Reference
+    _ZN9QMetaType15registerTypedefEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::tr(const char*, const char*) const  - Undefined Reference
+    _ZNK11QMetaObject2trEPKcS1_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::cast(QObject*) const         - Undefined Reference
+    _ZNK11QMetaObject4castEP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QCameraFocus::focusZones() const          - Undefined Reference
+    _ZNK12QCameraFocus10focusZonesEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCameraFocus::digitalZoom() const         - Undefined Reference
+    _ZNK12QCameraFocus11digitalZoomEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCameraFocus::opticalZoom() const         - Undefined Reference
+    _ZNK12QCameraFocus11opticalZoomEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCameraFocus::maximumDigitalZoom() const  - Undefined Reference
+    _ZNK12QCameraFocus18maximumDigitalZoomEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCameraFocus::maximumOpticalZoom() const  - Undefined Reference
+    _ZNK12QCameraFocus18maximumOpticalZoomEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaObject::metaObject() const          - Undefined Reference
+    _ZNK12QMediaObject10metaObjectEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaObject::isAvailable() const         - Undefined Reference
+    _ZNK12QMediaObject11isAvailableEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaObject::availabilityError() const   - Undefined Reference
+    _ZNK12QMediaObject17availabilityErrorEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaObject::service() const             - Undefined Reference
+    _ZNK12QMediaObject7serviceEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QSoundEffect::metaObject() const          - Undefined Reference
+    _ZNK12QSoundEffect10metaObjectEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QGraphicsItem::opaqueArea() const         - Undefined Reference
+    _ZNK13QGraphicsItem10opaqueAreaEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::parentItem() const         - Undefined Reference
+    _ZNK13QGraphicsItem10parentItemEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::isObscuredBy(const QGraphicsItem*) const  - Undefined Reference
+    _ZNK13QGraphicsItem12isObscuredByEPKS_@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::collidesWithItem(const QGraphicsItem*, Qt::ItemSelectionMode) const  - Undefined Reference
+    _ZNK13QGraphicsItem16collidesWithItemEPKS_N2Qt17ItemSelectionModeE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::collidesWithPath(const QPainterPath&, Qt::ItemSelectionMode) const  - Undefined Reference
+    _ZNK13QGraphicsItem16collidesWithPathERK12QPainterPathN2Qt17ItemSelectionModeE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::inputMethodQuery(Qt::InputMethodQuery) const  - Undefined Reference
+    _ZNK13QGraphicsItem16inputMethodQueryEN2Qt16InputMethodQueryE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::supportsExtension(QGraphicsItem::Extension) const  - Undefined Reference
+    _ZNK13QGraphicsItem17supportsExtensionENS_9ExtensionE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::type() const               - Undefined Reference
+    _ZNK13QGraphicsItem4typeEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::shape() const              - Undefined Reference
+    _ZNK13QGraphicsItem5shapeEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::contains(const QPointF&) const  - Undefined Reference
+    _ZNK13QGraphicsItem8containsERK7QPointF@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::extension(const QVariant&) const  - Undefined Reference
+    _ZNK13QGraphicsItem9extensionERK8QVariant@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QCameraExposure::exposureMode() const     - Undefined Reference
+    _ZNK15QCameraExposure12exposureModeEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCameraExposure::shutterSpeed() const     - Undefined Reference
+    _ZNK15QCameraExposure12shutterSpeedEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCameraExposure::isoSensitivity() const   - Undefined Reference
+    _ZNK15QCameraExposure14isoSensitivityEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCameraExposure::exposureCompensation() const  - Undefined Reference
+    _ZNK15QCameraExposure20exposureCompensationEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCameraExposure::aperture() const         - Undefined Reference
+    _ZNK15QCameraExposure8apertureEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCameraExposure::flashMode() const        - Undefined Reference
+    _ZNK15QCameraExposure9flashModeEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCameraFocusZone::area() const            - Undefined Reference
+    _ZNK16QCameraFocusZone4areaEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCameraFocusZone::status() const          - Undefined Reference
+    _ZNK16QCameraFocusZone6statusEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QDeclarativeItem::boundingRect() const    - Undefined Reference
+    _ZNK16QDeclarativeItem12boundingRectEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::inputMethodQuery(Qt::InputMethodQuery) const  - Undefined Reference
+    _ZNK16QDeclarativeItem16inputMethodQueryEN2Qt16InputMethodQueryE@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QGraphicsVideoItem::aspectRatioMode() const  - Undefined Reference
+    _ZNK18QGraphicsVideoItem15aspectRatioModeEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaPlayerControl::metaObject() const   - Undefined Reference
+    _ZNK19QMediaPlayerControl10metaObjectEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QImageEncoderSettings::resolution() const  - Undefined Reference
+    _ZNK21QImageEncoderSettings10resolutionEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCameraImageProcessing::whiteBalanceMode() const  - Undefined Reference
+    _ZNK22QCameraImageProcessing16whiteBalanceModeEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCameraImageProcessing::manualWhiteBalance() const  - Undefined Reference
+    _ZNK22QCameraImageProcessing18manualWhiteBalanceEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMetaDataReaderControl::metaObject() const  - Undefined Reference
+    _ZNK22QMetaDataReaderControl10metaObjectEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QUrl::isEmpty() const                     - Undefined Reference
+    _ZNK4QUrl7isEmptyEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::operator ==(const QUrl&) const      - Undefined Reference
+    _ZNK4QUrleqERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTime::msecsTo(const QTime&) const        - Undefined Reference
+    _ZNK5QTime7msecsToERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QImage::size() const                      - Undefined Reference
+    _ZNK6QImage4sizeEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::scaled(const QSize&, Qt::AspectRatioMode, Qt::TransformationMode) const  - Undefined Reference
+    _ZNK6QImage6scaledERK5QSizeN2Qt15AspectRatioModeENS3_18TransformationModeE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QCamera::lockStatus(QCamera::LockType) const  - Undefined Reference
+    _ZNK7QCamera10lockStatusENS_8LockTypeE@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCamera::lockStatus() const               - Undefined Reference
+    _ZNK7QCamera10lockStatusEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCamera::captureMode() const              - Undefined Reference
+    _ZNK7QCamera11captureModeEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCamera::errorString() const              - Undefined Reference
+    _ZNK7QCamera11errorStringEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCamera::imageProcessing() const          - Undefined Reference
+    _ZNK7QCamera15imageProcessingEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCamera::error() const                    - Undefined Reference
+    _ZNK7QCamera5errorEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCamera::focus() const                    - Undefined Reference
+    _ZNK7QCamera5focusEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCamera::state() const                    - Undefined Reference
+    _ZNK7QCamera5stateEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QCamera::exposure() const                 - Undefined Reference
+    _ZNK7QCamera8exposureEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QObject::metaObject() const               - Undefined Reference
+    _ZNK7QObject10metaObjectEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::toLocal8Bit() const              - Undefined Reference
+    _ZNK7QString11toLocal8BitEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::arg(long long, int, int, const QChar&) const  - Undefined Reference
+    _ZNK7QString3argExiiRK5QChar@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::operator ==(const QString&) const  - Undefined Reference
+    _ZNK7QStringeqERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    RProcess::DoHasCapability(TCapability, const char*) const  - Undefined Reference
+    _ZNK8RProcess15DoHasCapabilityE11TCapabilityPKc@euser{000a0000}[100039e5].dll  - Undefined Reference
+    typeinfo for QMediaObject                 - Undefined Reference
+    _ZTI12QMediaObject@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    typeinfo for QSoundEffect                 - Undefined Reference
+    _ZTI12QSoundEffect@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    typeinfo for QGraphicsItem                - Undefined Reference
+    _ZTI13QGraphicsItem@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    typeinfo for QDeclarativeItem             - Undefined Reference
+    _ZTI16QDeclarativeItem@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    typeinfo for QMediaPlayerControl          - Undefined Reference
+    _ZTI19QMediaPlayerControl@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    typeinfo for QMetaDataReaderControl       - Undefined Reference
+    _ZTI22QMetaDataReaderControl@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    typeinfo for QDeclarativeParserStatus     - Undefined Reference
+    _ZTI24QDeclarativeParserStatus@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    typeinfo for QDeclarativeImageProvider    - Undefined Reference
+    _ZTI25QDeclarativeImageProvider@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    typeinfo for QDeclarativeExtensionPlugin  - Undefined Reference
+    _ZTI27QDeclarativeExtensionPlugin@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    typeinfo for QObject                      - Undefined Reference
+    _ZTI7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    vtable for __cxxabiv1::__class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv117__class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv120__si_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    vtable for __cxxabiv1::__vmi_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv121__vmi_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    thunk{-16} to QDeclarativeItem::classBegin()  - Undefined Reference
+    _ZThn16_N16QDeclarativeItem10classBeginEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-16} to QDeclarativeItem::componentComplete()  - Undefined Reference
+    _ZThn16_N16QDeclarativeItem17componentCompleteEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeItem::itemChange(QGraphicsItem::GraphicsItemChange, const QVariant&)  - Undefined Reference
+    _ZThn8_N16QDeclarativeItem10itemChangeEN13QGraphicsItem18GraphicsItemChangeERK8QVariant@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeItem::sceneEvent(QEvent*)  - Undefined Reference
+    _ZThn8_N16QDeclarativeItem10sceneEventEP6QEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeItem::keyPressEvent(QKeyEvent*)  - Undefined Reference
+    _ZThn8_N16QDeclarativeItem13keyPressEventEP9QKeyEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeItem::keyReleaseEvent(QKeyEvent*)  - Undefined Reference
+    _ZThn8_N16QDeclarativeItem15keyReleaseEventEP9QKeyEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeItem::inputMethodEvent(QInputMethodEvent*)  - Undefined Reference
+    _ZThn8_N16QDeclarativeItem16inputMethodEventEP17QInputMethodEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeItem::boundingRect() const  - Undefined Reference
+    _ZThn8_NK16QDeclarativeItem12boundingRectEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeItem::inputMethodQuery(Qt::InputMethodQuery) const  - Undefined Reference
+    _ZThn8_NK16QDeclarativeItem16inputMethodQueryEN2Qt16InputMethodQueryE@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    operator delete (void*)                   - Undefined Reference
+    _ZdlPv@stdnew{000a0000}[20022178].dll     - Undefined Reference
+    operator new(unsigned)                    - Undefined Reference
+    _Znwj@stdnew{000a0000}[20022178].dll      - Undefined Reference
+    __aeabi_cdrcmple                          - Undefined Reference
+    __aeabi_cdrcmple@dfpaeabi{000a0000}.dll   - Undefined Reference
+    __aeabi_cfcmpeq                           - Undefined Reference
+    __aeabi_cfcmpeq@dfpaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_cfcmple                           - Undefined Reference
+    __aeabi_cfcmple@dfpaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_cfrcmple                          - Undefined Reference
+    __aeabi_cfrcmple@dfpaeabi{000a0000}.dll   - Undefined Reference
+    __aeabi_d2iz                              - Undefined Reference
+    __aeabi_d2iz@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_dadd                              - Undefined Reference
+    __aeabi_dadd@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_f2d                               - Undefined Reference
+    __aeabi_f2d@dfpaeabi{000a0000}.dll        - Undefined Reference
+    __aeabi_f2iz                              - Undefined Reference
+    __aeabi_f2iz@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_fadd                              - Undefined Reference
+    __aeabi_fadd@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_fdiv                              - Undefined Reference
+    __aeabi_fdiv@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_fmul                              - Undefined Reference
+    __aeabi_fmul@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_frsub                             - Undefined Reference
+    __aeabi_frsub@dfpaeabi{000a0000}.dll      - Undefined Reference
+    __aeabi_fsub                              - Undefined Reference
+    __aeabi_fsub@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_i2f                               - Undefined Reference
+    __aeabi_i2f@dfpaeabi{000a0000}.dll        - Undefined Reference
+    __aeabi_memcpy                            - Undefined Reference
+    __aeabi_memcpy4                           - Undefined Reference
+    __aeabi_memcpy4@drtaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_memcpy@drtaeabi{000a0000}.dll     - Undefined Reference
+    __aeabi_unwind_cpp_pr0                    - Undefined Reference
+    __aeabi_unwind_cpp_pr0@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_begin_catch                         - Undefined Reference
+    __cxa_begin_catch@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_end_catch                           - Undefined Reference
+    __cxa_end_catch@drtaeabi{000a0000}.dll    - Undefined Reference
+    __cxa_end_cleanup                         - Undefined Reference
+    __cxa_end_cleanup@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_abort                         - Undefined Reference
+    __cxa_guard_abort@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_acquire                       - Undefined Reference
+    __cxa_guard_acquire@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_release                       - Undefined Reference
+    __cxa_guard_release@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_pure_virtual                        - Undefined Reference
+    __cxa_pure_virtual@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_rethrow                             - Undefined Reference
+    __cxa_rethrow@drtaeabi{000a0000}.dll      - Undefined Reference
+    strcmp                                    - Undefined Reference
+    strcmp@libc{00010001}[10207369].dll       - Undefined Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      52  ucppinit.o(.emb_text)
+    std::nothrow                             0x0000805c   ARM Code       0  ucppinit.o(.emb_text)
+    __PLT                                    0x0000805c   ARM Code       0  anon$$obj.o(.plt)
+    QDeclarativeMediaMetaData::getStaticMetaObject() 0x0000863d   Thumb Code     4  moc_qdeclarativemediametadata_p.o(.text)
+    QDeclarativeMediaMetaData::metaObject() const 0x00008641   Thumb Code    28  moc_qdeclarativemediametadata_p.o(.text)
+    QDeclarativeMediaMetaData::qt_metacast(const char*) 0x0000865d   Thumb Code    40  moc_qdeclarativemediametadata_p.o(.text)
+    QDeclarativeMediaMetaData::metaDataChanged() 0x00008685   Thumb Code    18  moc_qdeclarativemediametadata_p.o(.text)
+    QDeclarativeMediaMetaData::qt_metacall(QMetaObject::Call, int, void**) 0x00008697   Thumb Code  2092  moc_qdeclarativemediametadata_p.o(.text)
+    qt_plugin_query_verification_data        0x00008ec5   Thumb Code     4  multimedia.o(.text)
+    qt_plugin_instance                       0x00008ec9   Thumb Code   134  multimedia.o(.text)
+    QMultimediaDeclarativeModule::getStaticMetaObject() 0x00008f4f   Thumb Code     4  multimedia.o(.text)
+    QMultimediaDeclarativeModule::metaObject() const 0x00008f53   Thumb Code    28  multimedia.o(.text)
+    QMultimediaDeclarativeModule::qt_metacast(const char*) 0x00008f6f   Thumb Code    42  multimedia.o(.text)
+    QMultimediaDeclarativeModule::qt_metacall(QMetaObject::Call, int, void**) 0x00008f99   Thumb Code    36  multimedia.o(.text)
+    QDeclarativeAudio::getStaticMetaObject() 0x00008fd5   Thumb Code     4  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::metaObject() const    0x00008fd9   Thumb Code    28  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::qt_metacast(const char*) 0x00008ff5   Thumb Code    94  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::error() const         0x00009053   Thumb Code     6  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::status() const        0x00009059   Thumb Code     6  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::error(QDeclarativeAudio::Error, const QString&) 0x0000905f   Thumb Code    40  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::_q_error(int, const QString&) 0x00009087   Thumb Code    40  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::stop()                0x000090af   Thumb Code    34  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::pause()               0x000090d1   Thumb Code    34  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::play()                0x000090f3   Thumb Code    34  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::qt_metacall(QMetaObject::Call, int, void**) 0x00009115   Thumb Code  1012  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::QDeclarativeAudio(QObject*) 0x00009509   Thumb Code    56  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::QDeclarativeAudio__sub_object(QObject*) 0x00009509   Thumb Code     0  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::~QDeclarativeAudio()  0x00009541   Thumb Code    58  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::~QDeclarativeAudio__sub_object() 0x00009541   Thumb Code     0  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::~QDeclarativeAudio__deallocating() 0x0000957b   Thumb Code    22  qdeclarativeaudio.o(.text)
+    thunk{-80} to QDeclarativeAudio::~QDeclarativeAudio__deallocating() 0x00009591   Thumb Code    14  qdeclarativeaudio.o(.text)
+    thunk{-8} to QDeclarativeAudio::~QDeclarativeAudio__deallocating() 0x0000959f   Thumb Code    14  qdeclarativeaudio.o(.text)
+    thunk{-80} to QDeclarativeAudio::~QDeclarativeAudio() 0x000095ad   Thumb Code    14  qdeclarativeaudio.o(.text)
+    thunk{-8} to QDeclarativeAudio::~QDeclarativeAudio() 0x000095bb   Thumb Code    14  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::classBegin()          0x000095c9   Thumb Code    16  qdeclarativeaudio.o(.text)
+    thunk{-80} to QDeclarativeAudio::classBegin() 0x000095d9   Thumb Code    14  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::componentComplete()   0x000095e7   Thumb Code    14  qdeclarativeaudio.o(.text)
+    thunk{-80} to QDeclarativeAudio::componentComplete() 0x000095f5   Thumb Code    14  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::sourceChanged()       0x00009603   Thumb Code    18  qdeclarativeaudio.o(.text)
+    thunk{-8} to QDeclarativeAudio::sourceChanged() 0x00009615   Thumb Code    14  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::autoLoadChanged()     0x00009623   Thumb Code    18  qdeclarativeaudio.o(.text)
+    thunk{-8} to QDeclarativeAudio::autoLoadChanged() 0x00009635   Thumb Code    14  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::playingChanged()      0x00009643   Thumb Code    18  qdeclarativeaudio.o(.text)
+    thunk{-8} to QDeclarativeAudio::playingChanged() 0x00009655   Thumb Code    14  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::pausedChanged()       0x00009663   Thumb Code    18  qdeclarativeaudio.o(.text)
+    thunk{-8} to QDeclarativeAudio::pausedChanged() 0x00009675   Thumb Code    14  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::started()             0x00009683   Thumb Code    18  qdeclarativeaudio.o(.text)
+    thunk{-8} to QDeclarativeAudio::started() 0x00009695   Thumb Code    14  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::resumed()             0x000096a3   Thumb Code    18  qdeclarativeaudio.o(.text)
+    thunk{-8} to QDeclarativeAudio::resumed() 0x000096b5   Thumb Code    14  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::paused()              0x000096c3   Thumb Code    18  qdeclarativeaudio.o(.text)
+    thunk{-8} to QDeclarativeAudio::paused() 0x000096d5   Thumb Code    14  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::stopped()             0x000096e3   Thumb Code    18  qdeclarativeaudio.o(.text)
+    thunk{-8} to QDeclarativeAudio::stopped() 0x000096f5   Thumb Code    14  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::statusChanged()       0x00009703   Thumb Code    18  qdeclarativeaudio.o(.text)
+    thunk{-8} to QDeclarativeAudio::statusChanged() 0x00009715   Thumb Code    14  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::durationChanged()     0x00009723   Thumb Code    18  qdeclarativeaudio.o(.text)
+    thunk{-8} to QDeclarativeAudio::durationChanged() 0x00009735   Thumb Code    14  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::positionChanged()     0x00009743   Thumb Code    18  qdeclarativeaudio.o(.text)
+    thunk{-8} to QDeclarativeAudio::positionChanged() 0x00009755   Thumb Code    14  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::volumeChanged()       0x00009763   Thumb Code    18  qdeclarativeaudio.o(.text)
+    thunk{-8} to QDeclarativeAudio::volumeChanged() 0x00009775   Thumb Code    14  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::mutedChanged()        0x00009783   Thumb Code    18  qdeclarativeaudio.o(.text)
+    thunk{-8} to QDeclarativeAudio::mutedChanged() 0x00009795   Thumb Code    14  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::bufferProgressChanged() 0x000097a3   Thumb Code    18  qdeclarativeaudio.o(.text)
+    thunk{-8} to QDeclarativeAudio::bufferProgressChanged() 0x000097b5   Thumb Code    14  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::seekableChanged()     0x000097c3   Thumb Code    18  qdeclarativeaudio.o(.text)
+    thunk{-8} to QDeclarativeAudio::seekableChanged() 0x000097d5   Thumb Code    14  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::playbackRateChanged() 0x000097e3   Thumb Code    18  qdeclarativeaudio.o(.text)
+    thunk{-8} to QDeclarativeAudio::playbackRateChanged() 0x000097f5   Thumb Code    14  qdeclarativeaudio.o(.text)
+    QDeclarativeAudio::errorChanged()        0x00009803   Thumb Code    18  qdeclarativeaudio.o(.text)
+    thunk{-8} to QDeclarativeAudio::errorChanged() 0x00009815   Thumb Code    14  qdeclarativeaudio.o(.text)
+    QDeclarativeMediaBase::QDeclarativeMediaBase__sub_object() 0x0000982d   Thumb Code   100  qdeclarativemediabase.o(.text)
+    QDeclarativeMediaBase::~QDeclarativeMediaBase() 0x00009891   Thumb Code     0  qdeclarativemediabase.o(.text)
+    QDeclarativeMediaBase::~QDeclarativeMediaBase__sub_object() 0x00009891   Thumb Code    48  qdeclarativemediabase.o(.text)
+    QDeclarativeMediaBase::~QDeclarativeMediaBase__deallocating() 0x000098c1   Thumb Code    22  qdeclarativemediabase.o(.text)
+    QDeclarativeMediaBase::source() const    0x000098d7   Thumb Code    20  qdeclarativemediabase.o(.text)
+    QDeclarativeMediaBase::setSource(const QUrl&) 0x000098eb   Thumb Code   156  qdeclarativemediabase.o(.text)
+    QDeclarativeMediaBase::isAutoLoad() const 0x00009987   Thumb Code     6  qdeclarativemediabase.o(.text)
+    QDeclarativeMediaBase::setAutoLoad(bool) 0x0000998d   Thumb Code    26  qdeclarativemediabase.o(.text)
+    QDeclarativeMediaBase::isPlaying() const 0x000099a7   Thumb Code     6  qdeclarativemediabase.o(.text)
+    QDeclarativeMediaBase::setPlaying(bool)  0x000099ad   Thumb Code   154  qdeclarativemediabase.o(.text)
+    QDeclarativeMediaBase::isPaused() const  0x00009a47   Thumb Code     6  qdeclarativemediabase.o(.text)
+    QDeclarativeMediaBase::setPaused(bool)   0x00009a4d   Thumb Code   140  qdeclarativemediabase.o(.text)
+    QDeclarativeMediaBase::duration() const  0x00009ad9   Thumb Code    38  qdeclarativemediabase.o(.text)
+    QDeclarativeMediaBase::position() const  0x00009aff   Thumb Code    38  qdeclarativemediabase.o(.text)
+    QDeclarativeMediaBase::setPosition(int)  0x00009b25   Thumb Code    60  qdeclarativemediabase.o(.text)
+    QDeclarativeMediaBase::volume() const    0x00009b61   Thumb Code    40  qdeclarativemediabase.o(.text)
+    QDeclarativeMediaBase::setVolume(float)  0x00009b89   Thumb Code   264  qdeclarativemediabase.o(.text)
+    QDeclarativeMediaBase::isMuted() const   0x00009c91   Thumb Code    26  qdeclarativemediabase.o(.text)
+    QDeclarativeMediaBase::setMuted(bool)    0x00009cab   Thumb Code    46  qdeclarativemediabase.o(.text)
+    QDeclarativeMediaBase::bufferProgress() const 0x00009cd9   Thumb Code    38  qdeclarativemediabase.o(.text)
+    QDeclarativeMediaBase::isSeekable() const 0x00009cff   Thumb Code    24  qdeclarativemediabase.o(.text)
+    QDeclarativeMediaBase::playbackRate() const 0x00009d17   Thumb Code     6  qdeclarativemediabase.o(.text)
+    QDeclarativeMediaBase::setPlaybackRate(float) 0x00009d1d   Thumb Code    50  qdeclarativemediabase.o(.text)
+    QDeclarativeMediaBase::errorString() const 0x00009d4f   Thumb Code    26  qdeclarativemediabase.o(.text)
+    QDeclarativeMediaBase::metaData() const  0x00009d69   Thumb Code     8  qdeclarativemediabase.o(.text)
+    QDeclarativeMediaBase::_q_statusChanged() 0x00009d71   Thumb Code   408  qdeclarativemediabase.o(.text)
+    QDeclarativeMediaBase::componentComplete() 0x00009f09   Thumb Code   210  qdeclarativemediabase.o(.text)
+    QDeclarativeMediaBase::shutdown()        0x00009fdb   Thumb Code    70  qdeclarativemediabase.o(.text)
+    QDeclarativeMediaBase::setObject(QObject*) 0x0000a021   Thumb Code  1308  qdeclarativemediabase.o(.text)
+    QDeclarativeVideo::getStaticMetaObject() 0x0000a55d   Thumb Code     4  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::metaObject() const    0x0000a561   Thumb Code    28  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::qt_metacast(const char*) 0x0000a57d   Thumb Code    58  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::setFillMode(QDeclarativeVideo::FillMode) 0x0000a5b7   Thumb Code    16  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::fillMode() const      0x0000a5c7   Thumb Code    12  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::error() const         0x0000a5d3   Thumb Code     6  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::hasVideo() const      0x0000a5d9   Thumb Code    26  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::hasAudio() const      0x0000a5f3   Thumb Code    26  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::status() const        0x0000a60d   Thumb Code     6  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::error(QDeclarativeVideo::Error, const QString&) 0x0000a613   Thumb Code    40  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::_q_error(int, const QString&) 0x0000a63b   Thumb Code    42  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::_q_nativeSizeChanged(const QSizeF&) 0x0000a665   Thumb Code    36  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::stop()                0x0000a689   Thumb Code    36  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::pause()               0x0000a6ad   Thumb Code    36  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::play()                0x0000a6d1   Thumb Code    36  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::hasVideoChanged()     0x0000a6f5   Thumb Code    18  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::hasAudioChanged()     0x0000a707   Thumb Code    18  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::qt_metacall(QMetaObject::Call, int, void**) 0x0000a719   Thumb Code  1038  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::QDeclarativeVideo(QDeclarativeItem*) 0x0000ab27   Thumb Code    52  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::QDeclarativeVideo__sub_object(QDeclarativeItem*) 0x0000ab27   Thumb Code     0  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::~QDeclarativeVideo()  0x0000ab5b   Thumb Code    66  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::~QDeclarativeVideo__sub_object() 0x0000ab5b   Thumb Code     0  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::~QDeclarativeVideo__deallocating() 0x0000ab9d   Thumb Code    22  qdeclarativevideo.o(.text)
+    thunk{-24} to QDeclarativeVideo::~QDeclarativeVideo__deallocating() 0x0000abb3   Thumb Code    14  qdeclarativevideo.o(.text)
+    thunk{-16} to QDeclarativeVideo::~QDeclarativeVideo__deallocating() 0x0000abc1   Thumb Code    14  qdeclarativevideo.o(.text)
+    thunk{-8} to QDeclarativeVideo::~QDeclarativeVideo__deallocating() 0x0000abcf   Thumb Code    14  qdeclarativevideo.o(.text)
+    thunk{-24} to QDeclarativeVideo::~QDeclarativeVideo() 0x0000abdd   Thumb Code    14  qdeclarativevideo.o(.text)
+    thunk{-16} to QDeclarativeVideo::~QDeclarativeVideo() 0x0000abeb   Thumb Code    14  qdeclarativevideo.o(.text)
+    thunk{-8} to QDeclarativeVideo::~QDeclarativeVideo() 0x0000abf9   Thumb Code    14  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::paint(QPainter*, const QStyleOptionGraphicsItem*, QWidget*) 0x0000ac07   Thumb Code     2  qdeclarativevideo.o(.text)
+    thunk{-8} to QDeclarativeVideo::paint(QPainter*, const QStyleOptionGraphicsItem*, QWidget*) 0x0000ac09   Thumb Code    26  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::classBegin()          0x0000ac23   Thumb Code   108  qdeclarativevideo.o(.text)
+    thunk{-16} to QDeclarativeVideo::classBegin() 0x0000ac8f   Thumb Code    14  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::componentComplete()   0x0000ac9d   Thumb Code    14  qdeclarativevideo.o(.text)
+    thunk{-16} to QDeclarativeVideo::componentComplete() 0x0000acab   Thumb Code    14  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::sourceChanged()       0x0000acb9   Thumb Code    18  qdeclarativevideo.o(.text)
+    thunk{-24} to QDeclarativeVideo::sourceChanged() 0x0000accb   Thumb Code    14  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::autoLoadChanged()     0x0000acd9   Thumb Code    18  qdeclarativevideo.o(.text)
+    thunk{-24} to QDeclarativeVideo::autoLoadChanged() 0x0000aceb   Thumb Code    14  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::playingChanged()      0x0000acf9   Thumb Code    18  qdeclarativevideo.o(.text)
+    thunk{-24} to QDeclarativeVideo::playingChanged() 0x0000ad0b   Thumb Code    14  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::pausedChanged()       0x0000ad19   Thumb Code    18  qdeclarativevideo.o(.text)
+    thunk{-24} to QDeclarativeVideo::pausedChanged() 0x0000ad2b   Thumb Code    14  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::started()             0x0000ad39   Thumb Code    18  qdeclarativevideo.o(.text)
+    thunk{-24} to QDeclarativeVideo::started() 0x0000ad4b   Thumb Code    14  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::resumed()             0x0000ad59   Thumb Code    18  qdeclarativevideo.o(.text)
+    thunk{-24} to QDeclarativeVideo::resumed() 0x0000ad6b   Thumb Code    14  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::paused()              0x0000ad79   Thumb Code    18  qdeclarativevideo.o(.text)
+    thunk{-24} to QDeclarativeVideo::paused() 0x0000ad8b   Thumb Code    14  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::stopped()             0x0000ad99   Thumb Code    18  qdeclarativevideo.o(.text)
+    thunk{-24} to QDeclarativeVideo::stopped() 0x0000adab   Thumb Code    14  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::statusChanged()       0x0000adb9   Thumb Code    18  qdeclarativevideo.o(.text)
+    thunk{-24} to QDeclarativeVideo::statusChanged() 0x0000adcb   Thumb Code    14  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::durationChanged()     0x0000add9   Thumb Code    18  qdeclarativevideo.o(.text)
+    thunk{-24} to QDeclarativeVideo::durationChanged() 0x0000adeb   Thumb Code    14  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::positionChanged()     0x0000adf9   Thumb Code    18  qdeclarativevideo.o(.text)
+    thunk{-24} to QDeclarativeVideo::positionChanged() 0x0000ae0b   Thumb Code    14  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::volumeChanged()       0x0000ae19   Thumb Code    18  qdeclarativevideo.o(.text)
+    thunk{-24} to QDeclarativeVideo::volumeChanged() 0x0000ae2b   Thumb Code    14  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::mutedChanged()        0x0000ae39   Thumb Code    18  qdeclarativevideo.o(.text)
+    thunk{-24} to QDeclarativeVideo::mutedChanged() 0x0000ae4b   Thumb Code    14  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::bufferProgressChanged() 0x0000ae59   Thumb Code    18  qdeclarativevideo.o(.text)
+    thunk{-24} to QDeclarativeVideo::bufferProgressChanged() 0x0000ae6b   Thumb Code    14  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::seekableChanged()     0x0000ae79   Thumb Code    18  qdeclarativevideo.o(.text)
+    thunk{-24} to QDeclarativeVideo::seekableChanged() 0x0000ae8b   Thumb Code    14  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::playbackRateChanged() 0x0000ae99   Thumb Code    18  qdeclarativevideo.o(.text)
+    thunk{-24} to QDeclarativeVideo::playbackRateChanged() 0x0000aeab   Thumb Code    14  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::errorChanged()        0x0000aeb9   Thumb Code    18  qdeclarativevideo.o(.text)
+    thunk{-24} to QDeclarativeVideo::errorChanged() 0x0000aecb   Thumb Code    14  qdeclarativevideo.o(.text)
+    QDeclarativeVideo::geometryChanged(const QRectF&, const QRectF&) 0x0000aed9   Thumb Code   220  qdeclarativevideo.o(.text)
+    QDeclarativeCamera::getStaticMetaObject() 0x0000afb5   Thumb Code     4  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::metaObject() const   0x0000afb9   Thumb Code    28  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::qt_metacast(const char*) 0x0000afd5   Thumb Code    40  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::opticalZoom() const  0x0000affd   Thumb Code    22  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::setDigitalZoom(float) 0x0000b013   Thumb Code    34  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::digitalZoom() const  0x0000b035   Thumb Code    22  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::setOpticalZoom(float) 0x0000b04b   Thumb Code    34  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::captureResolutionChanged(const QSize&) 0x0000b06d   Thumb Code    30  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::setCaptureResolution(const QSize&) 0x0000b08b   Thumb Code   240  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::manualWhiteBalance() const 0x0000b17b   Thumb Code    28  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::manualWhiteBalanceChanged(int) const 0x0000b197   Thumb Code    32  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::setManualWhiteBalance(int) const 0x0000b1b7   Thumb Code    56  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::whiteBalanceMode() const 0x0000b1ef   Thumb Code    28  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::whiteBalanceModeChanged(QDeclarativeCamera::WhiteBalanceMode) const 0x0000b20b   Thumb Code    32  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::setWhiteBalanceMode(QDeclarativeCamera::WhiteBalanceMode) const 0x0000b22b   Thumb Code    56  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::flashModeChanged(int) 0x0000b263   Thumb Code    32  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::setFlashMode(int)    0x0000b283   Thumb Code    66  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::exposureMode() const 0x0000b2c5   Thumb Code    22  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::exposureModeChanged(QDeclarativeCamera::ExposureMode) 0x0000b2db   Thumb Code    32  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::setExposureMode(QDeclarativeCamera::ExposureMode) 0x0000b2fb   Thumb Code    52  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::setExposureCompensation(float) 0x0000b32f   Thumb Code    24  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::setManualIsoSensitivity(int) 0x0000b347   Thumb Code    58  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::setCameraState(QDeclarativeCamera::State) 0x0000b381   Thumb Code    66  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::maximumDigitalZoom() const 0x0000b3c3   Thumb Code    22  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::maximumOpticalZoom() const 0x0000b3d9   Thumb Code    22  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::captureResolution() const 0x0000b3ef   Thumb Code    42  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::flashMode() const    0x0000b419   Thumb Code    26  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::exposureCompensation() const 0x0000b433   Thumb Code    22  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::aperture() const     0x0000b449   Thumb Code    22  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::shutterSpeed() const 0x0000b45f   Thumb Code    22  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::isoSensitivity() const 0x0000b475   Thumb Code    22  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::capturedImagePath() const 0x0000b48b   Thumb Code    20  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::errorString() const  0x0000b49f   Thumb Code    34  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::lockStatus() const   0x0000b4c1   Thumb Code    22  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::cameraState() const  0x0000b4d7   Thumb Code    34  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::_q_applyPendingState() 0x0000b4f9   Thumb Code    28  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::_q_updateImageSettings() 0x0000b515   Thumb Code    30  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::_q_updateFocusZones() 0x0000b533   Thumb Code   622  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::_q_updateLockStatus(QCamera::LockType, QCamera::LockStatus, QCamera::LockChangeReason) 0x0000b7a1   Thumb Code    64  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::captureFailed(const QString&) 0x0000b7e1   Thumb Code    30  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::_q_captureFailed(int, QCameraImageCapture::Error, const QString&) 0x0000b7ff   Thumb Code    28  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::imageSaved(const QString&) 0x0000b81b   Thumb Code    30  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::_q_imageSaved(int, const QString&) 0x0000b839   Thumb Code    32  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::imageCaptured(const QString&) 0x0000b859   Thumb Code    30  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::_q_imageCaptured(int, const QImage&) 0x0000b877   Thumb Code   212  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::errorChanged()       0x0000b94b   Thumb Code    18  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::error(QDeclarativeCamera::Error, const QString&) 0x0000b95d   Thumb Code    40  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::_q_error(int, const QString&) 0x0000b985   Thumb Code    26  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::_q_nativeSizeChanged(const QSizeF&) 0x0000b99f   Thumb Code    36  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::cameraStateChanged(QDeclarativeCamera::State) 0x0000b9c3   Thumb Code    32  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::_q_updateState(QCamera::State) 0x0000b9e3   Thumb Code    16  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::captureImage()       0x0000b9f3   Thumb Code    38  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::unlock()             0x0000ba19   Thumb Code    20  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::searchAndLock()      0x0000ba2d   Thumb Code    20  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::stop()               0x0000ba41   Thumb Code    20  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::start()              0x0000ba55   Thumb Code    20  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::maximumDigitalZoomChanged(float) 0x0000ba69   Thumb Code    92  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::maximumOpticalZoomChanged(float) 0x0000bac5   Thumb Code    32  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::digitalZoomChanged(float) 0x0000bae5   Thumb Code    32  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::opticalZoomChanged(float) 0x0000bb05   Thumb Code    32  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::exposureCompensationChanged(float) 0x0000bb25   Thumb Code    32  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::shutterSpeedChanged(float) 0x0000bb45   Thumb Code    32  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::apertureChanged(float) 0x0000bb65   Thumb Code    32  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::isoSensitivityChanged(int) 0x0000bb85   Thumb Code    32  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::lockStatusChanged()  0x0000bba5   Thumb Code    18  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::qt_metacall(QMetaObject::Call, int, void**) 0x0000bbb7   Thumb Code  1164  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::QDeclarativeCamera(QDeclarativeItem*) 0x0000c043   Thumb Code  1430  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::QDeclarativeCamera__sub_object(QDeclarativeItem*) 0x0000c043   Thumb Code     0  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::~QDeclarativeCamera() 0x0000c5d9   Thumb Code   136  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::~QDeclarativeCamera__sub_object() 0x0000c5d9   Thumb Code     0  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::~QDeclarativeCamera__deallocating() 0x0000c661   Thumb Code    22  qdeclarativecamera.o(.text)
+    thunk{-16} to QDeclarativeCamera::~QDeclarativeCamera__deallocating() 0x0000c677   Thumb Code    14  qdeclarativecamera.o(.text)
+    thunk{-8} to QDeclarativeCamera::~QDeclarativeCamera__deallocating() 0x0000c685   Thumb Code    14  qdeclarativecamera.o(.text)
+    thunk{-16} to QDeclarativeCamera::~QDeclarativeCamera() 0x0000c693   Thumb Code    14  qdeclarativecamera.o(.text)
+    thunk{-8} to QDeclarativeCamera::~QDeclarativeCamera() 0x0000c6a1   Thumb Code    14  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::error() const        0x0000c6af   Thumb Code    24  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::capturedImagePreview() const 0x0000c6c7   Thumb Code    20  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::paint(QPainter*, const QStyleOptionGraphicsItem*, QWidget*) 0x0000c6db   Thumb Code     2  qdeclarativecamera.o(.text)
+    thunk{-8} to QDeclarativeCamera::paint(QPainter*, const QStyleOptionGraphicsItem*, QWidget*) 0x0000c6dd   Thumb Code    26  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::geometryChanged(const QRectF&, const QRectF&) 0x0000c6f7   Thumb Code    52  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::keyPressEvent(QKeyEvent*) 0x0000c72b   Thumb Code    68  qdeclarativecamera.o(.text)
+    thunk{-8} to QDeclarativeCamera::keyPressEvent(QKeyEvent*) 0x0000c76f   Thumb Code    18  qdeclarativecamera.o(.text)
+    QDeclarativeCamera::keyReleaseEvent(QKeyEvent*) 0x0000c781   Thumb Code    52  qdeclarativecamera.o(.text)
+    thunk{-8} to QDeclarativeCamera::keyReleaseEvent(QKeyEvent*) 0x0000c7b5   Thumb Code    18  qdeclarativecamera.o(.text)
+    QDeclarativeCameraPreviewProvider::QDeclarativeCameraPreviewProvider() 0x0000c891   Thumb Code    22  qdeclarativecamerapreviewprovider.o(.text)
+    QDeclarativeCameraPreviewProvider::QDeclarativeCameraPreviewProvider__sub_object() 0x0000c891   Thumb Code     0  qdeclarativecamerapreviewprovider.o(.text)
+    QDeclarativeCameraPreviewProvider::~QDeclarativeCameraPreviewProvider() 0x0000c8a7   Thumb Code   112  qdeclarativecamerapreviewprovider.o(.text)
+    QDeclarativeCameraPreviewProvider::~QDeclarativeCameraPreviewProvider__sub_object() 0x0000c8a7   Thumb Code     0  qdeclarativecamerapreviewprovider.o(.text)
+    QDeclarativeCameraPreviewProvider::~QDeclarativeCameraPreviewProvider__deallocating() 0x0000c917   Thumb Code    22  qdeclarativecamerapreviewprovider.o(.text)
+    QDeclarativeCameraPreviewProvider::requestImage(const QString&, QSize*, const QSize&) 0x0000c92d   Thumb Code   162  qdeclarativecamerapreviewprovider.o(.text)
+    QDeclarativeCameraPreviewProvider::registerPreview(const QString&, const QImage&) 0x0000c9cf   Thumb Code    46  qdeclarativecamerapreviewprovider.o(.text)
+    __ARM_switch8                            0x0000ca10   ARM Code      24  switch8.o(.text)
+    __rt_switch8                             0x0000ca10   ARM Code       0  switch8.o(.text)
+    _E32Dll_Body                             0x0000ca28   ARM Code      76  uc_dll.o(.text)
+    __aeabi_atexit                           0x0000ca78   ARM Code      40  ucppfini.o(.text)
+    __cxa_atexit                             0x0000caa0   ARM Code      64  ucppfini.o(.text)
+    __cxa_finalize                           0x0000cae0   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x0000cb10   ARM Code      16  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x0000cb2c   ARM Code       4  dllexp.o(.text)
+    qRound(float)                            0x0000cfb1   Thumb Code   140  qdeclarativemediabase.o(i._Z6qRoundf)
+    QByteArray::QByteArray(const QByteArray&) 0x0000d04d   Thumb Code    20  multimedia.o(i._ZN10QByteArrayC1ERKS_)
+    QByteArray::QByteArray__sub_object(const QByteArray&) 0x0000d04d   Thumb Code     0  multimedia.o(i._ZN10QByteArrayC1ERKS_)
+    QByteArray::~QByteArray()                0x0000d061   Thumb Code    24  multimedia.o(i._ZN10QByteArrayD1Ev)
+    QByteArray::~QByteArray__sub_object()    0x0000d061   Thumb Code     0  multimedia.o(i._ZN10QByteArrayD1Ev)
+    QBasicTimer::~QBasicTimer()              0x0000d079   Thumb Code    20  qdeclarativemediabase.o(i._ZN11QBasicTimerD1Ev)
+    QBasicTimer::~QBasicTimer__sub_object()  0x0000d079   Thumb Code     0  qdeclarativemediabase.o(i._ZN11QBasicTimerD1Ev)
+    QMetaObject::invokeMethod(QObject*, const char*, Qt::ConnectionType, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument) 0x0000d08d   Thumb Code   130  qdeclarativecamera.o(i._ZN11QMetaObject12invokeMethodEP7QObjectPKcN2Qt14ConnectionTypeE16QGenericArgumentS6_S6_S6_S6_S6_S6_S6_S6_S6_)
+    QMutexLocker::QMutexLocker(QMutex*)      0x0000d10f   Thumb Code    34  qdeclarativecamerapreviewprovider.o(i._ZN12QMutexLockerC1EP6QMutex)
+    QMutexLocker::QMutexLocker__sub_object(QMutex*) 0x0000d10f   Thumb Code     0  qdeclarativecamerapreviewprovider.o(i._ZN12QMutexLockerC1EP6QMutex)
+    QMutexLocker::~QMutexLocker()            0x0000d131   Thumb Code    42  qdeclarativecamerapreviewprovider.o(i._ZN12QMutexLockerD1Ev)
+    QMutexLocker::~QMutexLocker__sub_object() 0x0000d131   Thumb Code     0  qdeclarativecamerapreviewprovider.o(i._ZN12QMutexLockerD1Ev)
+    FocusZoneItem::paint(QPainter*, const QStyleOptionGraphicsItem*, QWidget*) 0x0000d15d   Thumb Code   450  qdeclarativecamera.o(i._ZN13FocusZoneItem5paintEP8QPainterPK24QStyleOptionGraphicsItemP7QWidget)
+    FocusZoneItem::~FocusZoneItem__deallocating() 0x0000d339   Thumb Code    22  qdeclarativecamera.o(i._ZN13FocusZoneItemD0Ev)
+    FocusZoneItem::~FocusZoneItem()          0x0000d351   Thumb Code    30  qdeclarativecamera.o(i._ZN13FocusZoneItemD1Ev)
+    FocusZoneItem::~FocusZoneItem__sub_object() 0x0000d351   Thumb Code     0  qdeclarativecamera.o(i._ZN13FocusZoneItemD1Ev)
+    QBasicAtomicInt::ref()                   0x0000d37f   Thumb Code    24  multimedia.o(i._ZN15QBasicAtomicInt3refEv)
+    QBasicAtomicInt::deref()                 0x0000d397   Thumb Code    24  multimedia.o(i._ZN15QBasicAtomicInt5derefEv)
+    QForeachContainer<QList<QCameraFocusZone>>::~QForeachContainer() 0x0000d3af   Thumb Code    14  qdeclarativecamera.o(i._ZN17QForeachContainerI5QListI16QCameraFocusZoneEED1Ev)
+    QForeachContainer<QList<QCameraFocusZone>>::~QForeachContainer__sub_object() 0x0000d3af   Thumb Code     0  qdeclarativecamera.o(i._ZN17QForeachContainerI5QListI16QCameraFocusZoneEED1Ev)
+    QDeclarativePrivate::RegisterType::~RegisterType() 0x0000d3bd   Thumb Code    20  multimedia.o(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    QDeclarativePrivate::RegisterType::~RegisterType__sub_object() 0x0000d3bd   Thumb Code     0  multimedia.o(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QSoundEffect>::~QDeclarativeElement__deallocating() 0x0000d3d1   Thumb Code    22  multimedia.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI12QSoundEffectED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeAudio>::~QDeclarativeElement__deallocating() 0x0000d3e7   Thumb Code    22  multimedia.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeVideo>::~QDeclarativeElement__deallocating() 0x0000d3fd   Thumb Code    22  multimedia.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeCamera>::~QDeclarativeElement__deallocating() 0x0000d413   Thumb Code    22  multimedia.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraED0Ev)
+    QDeclarativeMediaMetaData::~QDeclarativeMediaMetaData__deallocating() 0x0000d429   Thumb Code    24  moc_qdeclarativemediametadata_p.o(i._ZN25QDeclarativeMediaMetaDataD0Ev)
+    QDeclarativeMediaMetaData::~QDeclarativeMediaMetaData() 0x0000d441   Thumb Code    14  moc_qdeclarativemediametadata_p.o(i._ZN25QDeclarativeMediaMetaDataD1Ev)
+    QDeclarativeMediaMetaData::~QDeclarativeMediaMetaData__sub_object() 0x0000d441   Thumb Code     0  moc_qdeclarativemediametadata_p.o(i._ZN25QDeclarativeMediaMetaDataD1Ev)
+    QDeclarativeMediaBaseObject::~QDeclarativeMediaBaseObject__deallocating() 0x0000d44f   Thumb Code    24  qdeclarativemediabase.o(i._ZN27QDeclarativeMediaBaseObjectD0Ev)
+    QDeclarativeMediaBaseObject::~QDeclarativeMediaBaseObject() 0x0000d467   Thumb Code    14  qdeclarativemediabase.o(i._ZN27QDeclarativeMediaBaseObjectD1Ev)
+    QDeclarativeMediaBaseObject::~QDeclarativeMediaBaseObject__sub_object() 0x0000d467   Thumb Code     0  qdeclarativemediabase.o(i._ZN27QDeclarativeMediaBaseObjectD1Ev)
+    QMultimediaDeclarativeModule::registerTypes(const char*) 0x0000d475   Thumb Code    62  multimedia.o(i._ZN28QMultimediaDeclarativeModule13registerTypesEPKc)
+    QMultimediaDeclarativeModule::initializeEngine(QDeclarativeEngine*, const char*) 0x0000d4d9   Thumb Code    66  multimedia.o(i._ZN28QMultimediaDeclarativeModule16initializeEngineEP18QDeclarativeEnginePKc)
+    QMultimediaDeclarativeModule::~QMultimediaDeclarativeModule__deallocating() 0x0000d53b   Thumb Code    24  multimedia.o(i._ZN28QMultimediaDeclarativeModuleD0Ev)
+    QMultimediaDeclarativeModule::~QMultimediaDeclarativeModule() 0x0000d553   Thumb Code    14  multimedia.o(i._ZN28QMultimediaDeclarativeModuleD1Ev)
+    QMultimediaDeclarativeModule::~QMultimediaDeclarativeModule__sub_object() 0x0000d553   Thumb Code     0  multimedia.o(i._ZN28QMultimediaDeclarativeModuleD1Ev)
+    QDeclarativeMediaBaseAnimation::timerEvent(QTimerEvent*) 0x0000d561   Thumb Code    96  qdeclarativemediabase.o(i._ZN30QDeclarativeMediaBaseAnimation10timerEventEP11QTimerEvent)
+    QDeclarativeMediaBaseAnimation::~QDeclarativeMediaBaseAnimation__deallocating() 0x0000d5c1   Thumb Code    22  qdeclarativemediabase.o(i._ZN30QDeclarativeMediaBaseAnimationD0Ev)
+    QDeclarativeMediaBaseAnimation::~QDeclarativeMediaBaseAnimation() 0x0000d5d9   Thumb Code    30  qdeclarativemediabase.o(i._ZN30QDeclarativeMediaBaseAnimationD1Ev)
+    QDeclarativeMediaBaseAnimation::~QDeclarativeMediaBaseAnimation__sub_object() 0x0000d5d9   Thumb Code     0  qdeclarativemediabase.o(i._ZN30QDeclarativeMediaBaseAnimationD1Ev)
+    QDeclarativeMediaBasePlayerControl::setPosition(long long) 0x0000d607   Thumb Code     4  qdeclarativemediabase.o(i._ZN34QDeclarativeMediaBasePlayerControl11setPositionEx)
+    QDeclarativeMediaBasePlayerControl::setPlaybackRate(float) 0x0000d60b   Thumb Code     2  qdeclarativemediabase.o(i._ZN34QDeclarativeMediaBasePlayerControl15setPlaybackRateEf)
+    QDeclarativeMediaBasePlayerControl::play() 0x0000d60d   Thumb Code     2  qdeclarativemediabase.o(i._ZN34QDeclarativeMediaBasePlayerControl4playEv)
+    QDeclarativeMediaBasePlayerControl::stop() 0x0000d60f   Thumb Code     2  qdeclarativemediabase.o(i._ZN34QDeclarativeMediaBasePlayerControl4stopEv)
+    QDeclarativeMediaBasePlayerControl::pause() 0x0000d611   Thumb Code     2  qdeclarativemediabase.o(i._ZN34QDeclarativeMediaBasePlayerControl5pauseEv)
+    QDeclarativeMediaBasePlayerControl::setMedia(const QMediaContent&, QIODevice*) 0x0000d613   Thumb Code     2  qdeclarativemediabase.o(i._ZN34QDeclarativeMediaBasePlayerControl8setMediaERK13QMediaContentP9QIODevice)
+    QDeclarativeMediaBasePlayerControl::setMuted(bool) 0x0000d615   Thumb Code     2  qdeclarativemediabase.o(i._ZN34QDeclarativeMediaBasePlayerControl8setMutedEb)
+    QDeclarativeMediaBasePlayerControl::setVolume(int) 0x0000d617   Thumb Code     2  qdeclarativemediabase.o(i._ZN34QDeclarativeMediaBasePlayerControl9setVolumeEi)
+    QDeclarativeMediaBasePlayerControl::~QDeclarativeMediaBasePlayerControl__deallocating() 0x0000d619   Thumb Code    24  qdeclarativemediabase.o(i._ZN34QDeclarativeMediaBasePlayerControlD0Ev)
+    QDeclarativeMediaBasePlayerControl::~QDeclarativeMediaBasePlayerControl() 0x0000d631   Thumb Code    14  qdeclarativemediabase.o(i._ZN34QDeclarativeMediaBasePlayerControlD1Ev)
+    QDeclarativeMediaBasePlayerControl::~QDeclarativeMediaBasePlayerControl__sub_object() 0x0000d631   Thumb Code     0  qdeclarativemediabase.o(i._ZN34QDeclarativeMediaBasePlayerControlD1Ev)
+    QDeclarativeMediaBaseMetaDataControl::~QDeclarativeMediaBaseMetaDataControl__deallocating() 0x0000d63f   Thumb Code    24  qdeclarativemediabase.o(i._ZN36QDeclarativeMediaBaseMetaDataControlD0Ev)
+    QDeclarativeMediaBaseMetaDataControl::~QDeclarativeMediaBaseMetaDataControl() 0x0000d657   Thumb Code    14  qdeclarativemediabase.o(i._ZN36QDeclarativeMediaBaseMetaDataControlD1Ev)
+    QDeclarativeMediaBaseMetaDataControl::~QDeclarativeMediaBaseMetaDataControl__sub_object() 0x0000d657   Thumb Code     0  qdeclarativemediabase.o(i._ZN36QDeclarativeMediaBaseMetaDataControlD1Ev)
+    QDeclarativeCameraPreviewProviderPrivate::~QDeclarativeCameraPreviewProviderPrivate() 0x0000d665   Thumb Code    34  qdeclarativecamerapreviewprovider.o(i._ZN40QDeclarativeCameraPreviewProviderPrivateD1Ev)
+    QDeclarativeCameraPreviewProviderPrivate::~QDeclarativeCameraPreviewProviderPrivate__sub_object() 0x0000d665   Thumb Code     0  qdeclarativecamerapreviewprovider.o(i._ZN40QDeclarativeCameraPreviewProviderPrivateD1Ev)
+    QString::QString(const QString&)         0x0000d699   Thumb Code    22  qdeclarativecamera.o(i._ZN7QStringC1ERKS_)
+    QString::QString__sub_object(const QString&) 0x0000d699   Thumb Code     0  qdeclarativecamera.o(i._ZN7QStringC1ERKS_)
+    QString::QString()                       0x0000d6b1   Thumb Code    18  multimedia.o(i._ZN7QStringC1Ev)
+    QString::QString__sub_object()           0x0000d6b1   Thumb Code     0  multimedia.o(i._ZN7QStringC1Ev)
+    QString::~QString()                      0x0000d6c9   Thumb Code    24  multimedia.o(i._ZN7QStringD1Ev)
+    QString::~QString__sub_object()          0x0000d6c9   Thumb Code     0  multimedia.o(i._ZN7QStringD1Ev)
+    QPainter::drawLine(const QPointF&, const QPointF&) 0x0000d6e1   Thumb Code    44  qdeclarativecamera.o(i._ZN8QPainter8drawLineERK7QPointFS2_)
+    QVariant::QVariant()                     0x0000d70d   Thumb Code    38  qdeclarativemediabase.o(i._ZN8QVariantC1Ev)
+    QVariant::QVariant__sub_object()         0x0000d70d   Thumb Code     0  qdeclarativemediabase.o(i._ZN8QVariantC1Ev)
+    FocusZoneItem::boundingRect() const      0x0000d733   Thumb Code   180  qdeclarativecamera.o(i._ZNK13FocusZoneItem12boundingRectEv)
+    QBasicAtomicInt::operator !() const      0x0000d7e7   Thumb Code    16  multimedia.o(i._ZNK15QBasicAtomicIntntEv)
+    QDeclarativeMediaBasePlayerControl::isSeekable() const 0x0000d7f7   Thumb Code     6  qdeclarativemediabase.o(i._ZNK34QDeclarativeMediaBasePlayerControl10isSeekableEv)
+    QDeclarativeMediaBasePlayerControl::mediaStatus() const 0x0000d7fd   Thumb Code     6  qdeclarativemediabase.o(i._ZNK34QDeclarativeMediaBasePlayerControl11mediaStatusEv)
+    QDeclarativeMediaBasePlayerControl::mediaStream() const 0x0000d803   Thumb Code     6  qdeclarativemediabase.o(i._ZNK34QDeclarativeMediaBasePlayerControl11mediaStreamEv)
+    QDeclarativeMediaBasePlayerControl::bufferStatus() const 0x0000d809   Thumb Code     6  qdeclarativemediabase.o(i._ZNK34QDeclarativeMediaBasePlayerControl12bufferStatusEv)
+    QDeclarativeMediaBasePlayerControl::playbackRate() const 0x0000d80f   Thumb Code     8  qdeclarativemediabase.o(i._ZNK34QDeclarativeMediaBasePlayerControl12playbackRateEv)
+    QDeclarativeMediaBasePlayerControl::isAudioAvailable() const 0x0000d817   Thumb Code     6  qdeclarativemediabase.o(i._ZNK34QDeclarativeMediaBasePlayerControl16isAudioAvailableEv)
+    QDeclarativeMediaBasePlayerControl::isVideoAvailable() const 0x0000d81d   Thumb Code     6  qdeclarativemediabase.o(i._ZNK34QDeclarativeMediaBasePlayerControl16isVideoAvailableEv)
+    QDeclarativeMediaBasePlayerControl::availablePlaybackRanges() const 0x0000d823   Thumb Code    16  qdeclarativemediabase.o(i._ZNK34QDeclarativeMediaBasePlayerControl23availablePlaybackRangesEv)
+    QDeclarativeMediaBasePlayerControl::media() const 0x0000d833   Thumb Code    16  qdeclarativemediabase.o(i._ZNK34QDeclarativeMediaBasePlayerControl5mediaEv)
+    QDeclarativeMediaBasePlayerControl::state() const 0x0000d843   Thumb Code     6  qdeclarativemediabase.o(i._ZNK34QDeclarativeMediaBasePlayerControl5stateEv)
+    QDeclarativeMediaBasePlayerControl::volume() const 0x0000d849   Thumb Code     6  qdeclarativemediabase.o(i._ZNK34QDeclarativeMediaBasePlayerControl6volumeEv)
+    QDeclarativeMediaBasePlayerControl::isMuted() const 0x0000d84f   Thumb Code     6  qdeclarativemediabase.o(i._ZNK34QDeclarativeMediaBasePlayerControl7isMutedEv)
+    QDeclarativeMediaBasePlayerControl::duration() const 0x0000d855   Thumb Code     8  qdeclarativemediabase.o(i._ZNK34QDeclarativeMediaBasePlayerControl8durationEv)
+    QDeclarativeMediaBasePlayerControl::position() const 0x0000d865   Thumb Code     8  qdeclarativemediabase.o(i._ZNK34QDeclarativeMediaBasePlayerControl8positionEv)
+    QDeclarativeMediaBaseMetaDataControl::extendedMetaData(const QString&) const 0x0000d875   Thumb Code    18  qdeclarativemediabase.o(i._ZNK36QDeclarativeMediaBaseMetaDataControl16extendedMetaDataERK7QString)
+    QDeclarativeMediaBaseMetaDataControl::availableMetaData() const 0x0000d889   Thumb Code    22  qdeclarativemediabase.o(i._ZNK36QDeclarativeMediaBaseMetaDataControl17availableMetaDataEv)
+    QDeclarativeMediaBaseMetaDataControl::isMetaDataAvailable() const 0x0000d8a5   Thumb Code     6  qdeclarativemediabase.o(i._ZNK36QDeclarativeMediaBaseMetaDataControl19isMetaDataAvailableEv)
+    QDeclarativeMediaBaseMetaDataControl::availableExtendedMetaData() const 0x0000d8ad   Thumb Code    30  qdeclarativemediabase.o(i._ZNK36QDeclarativeMediaBaseMetaDataControl25availableExtendedMetaDataEv)
+    QDeclarativeMediaBaseMetaDataControl::metaData(QtMultimediaKit::MetaData) const 0x0000d8d1   Thumb Code    18  qdeclarativemediabase.o(i._ZNK36QDeclarativeMediaBaseMetaDataControl8metaDataEN15QtMultimediaKit8MetaDataE)
+    QRectF::bottomLeft() const               0x0000d8e3   Thumb Code    30  qdeclarativecamera.o(i._ZNK6QRectF10bottomLeftEv)
+    QRectF::bottomRight() const              0x0000d901   Thumb Code    38  qdeclarativecamera.o(i._ZNK6QRectF11bottomRightEv)
+    QRectF::topRight() const                 0x0000d927   Thumb Code    30  qdeclarativecamera.o(i._ZNK6QRectF8topRightEv)
+    QListData::end() const                   0x0000d945   Thumb Code    16  qdeclarativecamera.o(i._ZNK9QListData3endEv)
+    QListData::begin() const                 0x0000d955   Thumb Code    16  qdeclarativecamera.o(i._ZNK9QListData5beginEv)
+    thunk{-16} to QDeclarativePrivate::QDeclarativeElement<QDeclarativeVideo>::~QDeclarativeElement__deallocating() 0x0000d965   Thumb Code    14  multimedia.o(i._ZThn16_N19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoED0Ev)
+    thunk{-16} to QDeclarativePrivate::QDeclarativeElement<QDeclarativeVideo>::~QDeclarativeElement() 0x0000d973   Thumb Code    14  multimedia.o(i._ZThn16_N19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoED1Ev)
+    thunk{-16} to QDeclarativePrivate::QDeclarativeElement<QDeclarativeCamera>::~QDeclarativeElement__deallocating() 0x0000d981   Thumb Code    14  multimedia.o(i._ZThn16_N19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraED0Ev)
+    thunk{-16} to QDeclarativePrivate::QDeclarativeElement<QDeclarativeCamera>::~QDeclarativeElement() 0x0000d98f   Thumb Code    14  multimedia.o(i._ZThn16_N19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraED1Ev)
+    thunk{-24} to QDeclarativePrivate::QDeclarativeElement<QDeclarativeVideo>::~QDeclarativeElement__deallocating() 0x0000d99d   Thumb Code    14  multimedia.o(i._ZThn24_N19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoED0Ev)
+    thunk{-24} to QDeclarativePrivate::QDeclarativeElement<QDeclarativeVideo>::~QDeclarativeElement() 0x0000d9ab   Thumb Code    14  multimedia.o(i._ZThn24_N19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoED1Ev)
+    thunk{-80} to QDeclarativePrivate::QDeclarativeElement<QDeclarativeAudio>::~QDeclarativeElement__deallocating() 0x0000d9b9   Thumb Code    14  multimedia.o(i._ZThn80_N19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioED0Ev)
+    thunk{-80} to QDeclarativePrivate::QDeclarativeElement<QDeclarativeAudio>::~QDeclarativeElement() 0x0000d9c7   Thumb Code    14  multimedia.o(i._ZThn80_N19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioED1Ev)
+    thunk{-8} to QDeclarativePrivate::QDeclarativeElement<QDeclarativeAudio>::~QDeclarativeElement__deallocating() 0x0000d9d5   Thumb Code    14  multimedia.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioED0Ev)
+    thunk{-8} to QDeclarativePrivate::QDeclarativeElement<QDeclarativeAudio>::~QDeclarativeElement() 0x0000d9e3   Thumb Code    14  multimedia.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioED1Ev)
+    thunk{-8} to QDeclarativePrivate::QDeclarativeElement<QDeclarativeVideo>::~QDeclarativeElement__deallocating() 0x0000d9f1   Thumb Code    14  multimedia.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoED0Ev)
+    thunk{-8} to QDeclarativePrivate::QDeclarativeElement<QDeclarativeVideo>::~QDeclarativeElement() 0x0000d9ff   Thumb Code    14  multimedia.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoED1Ev)
+    thunk{-8} to QDeclarativePrivate::QDeclarativeElement<QDeclarativeCamera>::~QDeclarativeElement__deallocating() 0x0000da0d   Thumb Code    14  multimedia.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraED0Ev)
+    thunk{-8} to QDeclarativePrivate::QDeclarativeElement<QDeclarativeCamera>::~QDeclarativeElement() 0x0000da1b   Thumb Code    14  multimedia.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraED1Ev)
+    thunk{-8} to QMultimediaDeclarativeModule::registerTypes(const char*) 0x0000da29   Thumb Code    18  multimedia.o(i._ZThn8_N28QMultimediaDeclarativeModule13registerTypesEPKc)
+    thunk{-8} to QMultimediaDeclarativeModule::initializeEngine(QDeclarativeEngine*, const char*) 0x0000da3b   Thumb Code    22  multimedia.o(i._ZThn8_N28QMultimediaDeclarativeModule16initializeEngineEP18QDeclarativeEnginePKc)
+    thunk{-8} to QMultimediaDeclarativeModule::~QMultimediaDeclarativeModule__deallocating() 0x0000da51   Thumb Code    14  multimedia.o(i._ZThn8_N28QMultimediaDeclarativeModuleD0Ev)
+    thunk{-8} to QMultimediaDeclarativeModule::~QMultimediaDeclarativeModule() 0x0000da5f   Thumb Code    18  multimedia.o(i._ZThn8_N28QMultimediaDeclarativeModuleD1Ev)
+    operator delete (void*, void*)           0x0000da71   Thumb Code     2  multimedia.o(i._ZdlPvS_)
+    operator -(const QPointF&, const QPointF&) 0x0000da73   Thumb Code    42  qdeclarativecamera.o(i._ZmiRK7QPointFS1_)
+    operator new(unsigned, void*)            0x0000da9d   Thumb Code     6  multimedia.o(i._ZnwjPv)
+    operator +(const char*, const QByteArray&) 0x0000daa3   Thumb Code    46  multimedia.o(i._ZplPKcRK10QByteArray)
+    operator +(const QByteArray&, const char*) 0x0000dadb   Thumb Code    46  multimedia.o(i._ZplRK10QByteArrayPKc)
+    operator +(const QByteArray&, char)      0x0000db13   Thumb Code    46  multimedia.o(i._ZplRK10QByteArrayc)
+    operator +(const QPointF&, const QPointF&) 0x0000db4b   Thumb Code    42  qdeclarativecamera.o(i._ZplRK7QPointFS1_)
+    qDeleteAll<QList<QGraphicsItem*>::const_iterator>(T1, T1) 0x0000db75   Thumb Code    62  qdeclarativecamera.o(t._Z10qDeleteAllIN5QListIP13QGraphicsItemE14const_iteratorEEvT_S5_)
+    qmlRegisterType<QSoundEffect>(const char*, int, int, const char*) 0x0000dbb5   Thumb Code   238  multimedia.o(t._Z15qmlRegisterTypeI12QSoundEffectEiPKciiS2_)
+    qmlRegisterType<QDeclarativeAudio>(const char*, int, int, const char*) 0x0000dd01   Thumb Code   250  multimedia.o(t._Z15qmlRegisterTypeI17QDeclarativeAudioEiPKciiS2_)
+    qmlRegisterType<QDeclarativeVideo>(const char*, int, int, const char*) 0x0000de59   Thumb Code   248  multimedia.o(t._Z15qmlRegisterTypeI17QDeclarativeVideoEiPKciiS2_)
+    qmlRegisterType<QDeclarativeCamera>(const char*, int, int, const char*) 0x0000dfad   Thumb Code   248  multimedia.o(t._Z15qmlRegisterTypeI18QDeclarativeCameraEiPKciiS2_)
+    qmlRegisterType<QDeclarativeMediaMetaData>() 0x0000e101   Thumb Code   222  multimedia.o(t._Z15qmlRegisterTypeI25QDeclarativeMediaMetaDataEiv)
+    qRegisterMetaType<QDeclarativeListProperty<QSoundEffect>>(const char*, T1*) 0x0000e23d   Thumb Code   100  multimedia.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI12QSoundEffectEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QDeclarativeAudio>>(const char*, T1*) 0x0000e2d5   Thumb Code   100  multimedia.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI17QDeclarativeAudioEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QDeclarativeVideo>>(const char*, T1*) 0x0000e375   Thumb Code   100  multimedia.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI17QDeclarativeVideoEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QDeclarativeCamera>>(const char*, T1*) 0x0000e415   Thumb Code   100  multimedia.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI18QDeclarativeCameraEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QDeclarativeMediaMetaData>>(const char*, T1*) 0x0000e4b5   Thumb Code   100  multimedia.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI25QDeclarativeMediaMetaDataEEiPKcPT_)
+    qRegisterMetaType<QSoundEffect*>(const char*, T1*) 0x0000e55d   Thumb Code   100  multimedia.o(t._Z17qRegisterMetaTypeIP12QSoundEffectEiPKcPT_)
+    qRegisterMetaType<QDeclarativeAudio*>(const char*, T1*) 0x0000e5dd   Thumb Code   100  multimedia.o(t._Z17qRegisterMetaTypeIP17QDeclarativeAudioEiPKcPT_)
+    qRegisterMetaType<QDeclarativeVideo*>(const char*, T1*) 0x0000e665   Thumb Code   100  multimedia.o(t._Z17qRegisterMetaTypeIP17QDeclarativeVideoEiPKcPT_)
+    qRegisterMetaType<QDeclarativeCamera*>(const char*, T1*) 0x0000e6ed   Thumb Code   100  multimedia.o(t._Z17qRegisterMetaTypeIP18QDeclarativeCameraEiPKcPT_)
+    qRegisterMetaType<QDeclarativeMediaMetaData*>(const char*, T1*) 0x0000e775   Thumb Code   100  multimedia.o(t._Z17qRegisterMetaTypeIP25QDeclarativeMediaMetaDataEiPKcPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QSoundEffect>>(T1*) 0x0000e805   Thumb Code    12  multimedia.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI12QSoundEffectEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QDeclarativeAudio>>(T1*) 0x0000e811   Thumb Code    12  multimedia.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI17QDeclarativeAudioEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QDeclarativeVideo>>(T1*) 0x0000e81d   Thumb Code    12  multimedia.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI17QDeclarativeVideoEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QDeclarativeCamera>>(T1*) 0x0000e829   Thumb Code    12  multimedia.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI18QDeclarativeCameraEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QDeclarativeMediaMetaData>>(T1*) 0x0000e835   Thumb Code    12  multimedia.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI25QDeclarativeMediaMetaDataEEvPT_)
+    qMetaTypeDeleteHelper<QSoundEffect*>(T1*) 0x0000e841   Thumb Code    12  multimedia.o(t._Z21qMetaTypeDeleteHelperIP12QSoundEffectEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeAudio*>(T1*) 0x0000e84d   Thumb Code    12  multimedia.o(t._Z21qMetaTypeDeleteHelperIP17QDeclarativeAudioEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeVideo*>(T1*) 0x0000e859   Thumb Code    12  multimedia.o(t._Z21qMetaTypeDeleteHelperIP17QDeclarativeVideoEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeCamera*>(T1*) 0x0000e865   Thumb Code    12  multimedia.o(t._Z21qMetaTypeDeleteHelperIP18QDeclarativeCameraEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeMediaMetaData*>(T1*) 0x0000e871   Thumb Code    12  multimedia.o(t._Z21qMetaTypeDeleteHelperIP25QDeclarativeMediaMetaDataEvPT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QSoundEffect>>(const T1*) 0x0000e87d   Thumb Code   150  multimedia.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI12QSoundEffectEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QDeclarativeAudio>>(const T1*) 0x0000e917   Thumb Code   150  multimedia.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI17QDeclarativeAudioEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QDeclarativeVideo>>(const T1*) 0x0000e9b1   Thumb Code   150  multimedia.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI17QDeclarativeVideoEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QDeclarativeCamera>>(const T1*) 0x0000ea4b   Thumb Code   150  multimedia.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI18QDeclarativeCameraEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QDeclarativeMediaMetaData>>(const T1*) 0x0000eae5   Thumb Code   150  multimedia.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI25QDeclarativeMediaMetaDataEEPvPKT_)
+    qMetaTypeConstructHelper<QSoundEffect*>(const T1*) 0x0000eb7f   Thumb Code    50  multimedia.o(t._Z24qMetaTypeConstructHelperIP12QSoundEffectEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeAudio*>(const T1*) 0x0000ebb1   Thumb Code    50  multimedia.o(t._Z24qMetaTypeConstructHelperIP17QDeclarativeAudioEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeVideo*>(const T1*) 0x0000ebe3   Thumb Code    50  multimedia.o(t._Z24qMetaTypeConstructHelperIP17QDeclarativeVideoEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeCamera*>(const T1*) 0x0000ec15   Thumb Code    50  multimedia.o(t._Z24qMetaTypeConstructHelperIP18QDeclarativeCameraEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeMediaMetaData*>(const T1*) 0x0000ec47   Thumb Code    50  multimedia.o(t._Z24qMetaTypeConstructHelperIP25QDeclarativeMediaMetaDataEPvPKT_)
+    QScopedPointer<QDeclarativeMediaMetaData, QScopedPointerDeleter<QDeclarativeMediaMetaData>>::reset(QDeclarativeMediaMetaData*) 0x0000ec79   Thumb Code    34  qdeclarativemediabase.o(t._ZN14QScopedPointerI25QDeclarativeMediaMetaData21QScopedPointerDeleterIS0_EE5resetEPS0_)
+    QScopedPointer<QDeclarativeMediaMetaData, QScopedPointerDeleter<QDeclarativeMediaMetaData>>::~QScopedPointer() 0x0000ec9b   Thumb Code    28  qdeclarativemediabase.o(t._ZN14QScopedPointerI25QDeclarativeMediaMetaData21QScopedPointerDeleterIS0_EED1Ev)
+    QScopedPointer<QDeclarativeMediaMetaData, QScopedPointerDeleter<QDeclarativeMediaMetaData>>::~QScopedPointer__sub_object() 0x0000ec9b   Thumb Code     0  qdeclarativemediabase.o(t._ZN14QScopedPointerI25QDeclarativeMediaMetaData21QScopedPointerDeleterIS0_EED1Ev)
+    QDeclarativePrivate::createInto<QSoundEffect>(void*) 0x0000ecb9   Thumb Code    38  multimedia.o(t._ZN19QDeclarativePrivate10createIntoI12QSoundEffectEEvPv)
+    QDeclarativePrivate::createInto<QDeclarativeAudio>(void*) 0x0000ecf1   Thumb Code    46  multimedia.o(t._ZN19QDeclarativePrivate10createIntoI17QDeclarativeAudioEEvPv)
+    QDeclarativePrivate::createInto<QDeclarativeVideo>(void*) 0x0000ed31   Thumb Code    50  multimedia.o(t._ZN19QDeclarativePrivate10createIntoI17QDeclarativeVideoEEvPv)
+    QDeclarativePrivate::createInto<QDeclarativeCamera>(void*) 0x0000ed75   Thumb Code    46  multimedia.o(t._ZN19QDeclarativePrivate10createIntoI18QDeclarativeCameraEEvPv)
+    QDeclarativePrivate::QDeclarativeElement<QSoundEffect>::~QDeclarativeElement() 0x0000edb5   Thumb Code    24  multimedia.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI12QSoundEffectED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QSoundEffect>::~QDeclarativeElement__sub_object() 0x0000edb5   Thumb Code     0  multimedia.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI12QSoundEffectED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeAudio>::~QDeclarativeElement() 0x0000eddd   Thumb Code    32  multimedia.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeAudio>::~QDeclarativeElement__sub_object() 0x0000eddd   Thumb Code     0  multimedia.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeVideo>::~QDeclarativeElement() 0x0000ee0d   Thumb Code    36  multimedia.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeVideo>::~QDeclarativeElement__sub_object() 0x0000ee0d   Thumb Code     0  multimedia.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeCamera>::~QDeclarativeElement() 0x0000ee41   Thumb Code    32  multimedia.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeCamera>::~QDeclarativeElement__sub_object() 0x0000ee41   Thumb Code     0  multimedia.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraED1Ev)
+    QGlobalStaticDeleter<QDeclarativeCameraPreviewProviderPrivate>::~QGlobalStaticDeleter() 0x0000ee6f   Thumb Code    42  qdeclarativecamerapreviewprovider.o(t._ZN20QGlobalStaticDeleterI40QDeclarativeCameraPreviewProviderPrivateED1Ev)
+    QGlobalStaticDeleter<QDeclarativeCameraPreviewProviderPrivate>::~QGlobalStaticDeleter__sub_object() 0x0000ee6f   Thumb Code     0  qdeclarativecamerapreviewprovider.o(t._ZN20QGlobalStaticDeleterI40QDeclarativeCameraPreviewProviderPrivateED1Ev)
+    QList<QCameraFocusZone>::detach_helper(int) 0x0000ee99   Thumb Code   200  qdeclarativecamera.o(t._ZN5QListI16QCameraFocusZoneE13detach_helperEi)
+    QList<QCameraFocusZone>::detach_helper() 0x0000ef81   Thumb Code    16  qdeclarativecamera.o(t._ZN5QListI16QCameraFocusZoneE13detach_helperEv)
+    QList<QCameraFocusZone>::free(QListData::Data*) 0x0000ef91   Thumb Code    82  qdeclarativecamera.o(t._ZN5QListI16QCameraFocusZoneE4freeEPN9QListData4DataE)
+    QList<QCameraFocusZone>::~QList()        0x0000efe3   Thumb Code    32  qdeclarativecamera.o(t._ZN5QListI16QCameraFocusZoneED1Ev)
+    QList<QCameraFocusZone>::~QList__sub_object() 0x0000efe3   Thumb Code     0  qdeclarativecamera.o(t._ZN5QListI16QCameraFocusZoneED1Ev)
+    QList<QString>::free(QListData::Data*)   0x0000f003   Thumb Code    70  qdeclarativemediabase.o(t._ZN5QListI7QStringE4freeEPN9QListData4DataE)
+    QList<QString>::~QList()                 0x0000f049   Thumb Code    32  qdeclarativemediabase.o(t._ZN5QListI7QStringED1Ev)
+    QList<QString>::~QList__sub_object()     0x0000f049   Thumb Code     0  qdeclarativemediabase.o(t._ZN5QListI7QStringED1Ev)
+    QList<QGraphicsItem*>::detach_helper(int) 0x0000f069   Thumb Code    94  qdeclarativecamera.o(t._ZN5QListIP13QGraphicsItemE13detach_helperEi)
+    QList<QGraphicsItem*>::detach_helper()   0x0000f0cf   Thumb Code    16  qdeclarativecamera.o(t._ZN5QListIP13QGraphicsItemE13detach_helperEv)
+    QList<QGraphicsItem*>::detach_helper_grow(int, int) 0x0000f0df   Thumb Code   204  qdeclarativecamera.o(t._ZN5QListIP13QGraphicsItemE18detach_helper_growEii)
+    QList<QGraphicsItem*>::free(QListData::Data*) 0x0000f1bb   Thumb Code    58  qdeclarativecamera.o(t._ZN5QListIP13QGraphicsItemE4freeEPN9QListData4DataE)
+    QList<QGraphicsItem*>::clear()           0x0000f1f5   Thumb Code    76  qdeclarativecamera.o(t._ZN5QListIP13QGraphicsItemE5clearEv)
+    QList<QGraphicsItem*>::append(QGraphicsItem*const &) 0x0000f24d   Thumb Code   100  qdeclarativecamera.o(t._ZN5QListIP13QGraphicsItemE6appendERKS1_)
+    QList<QGraphicsItem*>::node_copy(QList<QGraphicsItem*>::Node*, QList<QGraphicsItem*>::Node*, QList<QGraphicsItem*>::Node*) 0x0000f2bf   Thumb Code    46  qdeclarativecamera.o(t._ZN5QListIP13QGraphicsItemE9node_copyEPNS2_4NodeES4_S4_)
+    QList<QGraphicsItem*>::QList()           0x0000f2ed   Thumb Code    18  qdeclarativecamera.o(t._ZN5QListIP13QGraphicsItemEC1Ev)
+    QList<QGraphicsItem*>::QList__sub_object() 0x0000f2ed   Thumb Code     0  qdeclarativecamera.o(t._ZN5QListIP13QGraphicsItemEC1Ev)
+    QList<QGraphicsItem*>::~QList()          0x0000f305   Thumb Code    32  qdeclarativecamera.o(t._ZN5QListIP13QGraphicsItemED1Ev)
+    QList<QGraphicsItem*>::~QList__sub_object() 0x0000f305   Thumb Code     0  qdeclarativecamera.o(t._ZN5QListIP13QGraphicsItemED1Ev)
+    QPointer<QObject>::~QPointer()           0x0000f325   Thumb Code    14  multimedia.o(t._ZN8QPointerI7QObjectED1Ev)
+    QPointer<QObject>::~QPointer__sub_object() 0x0000f325   Thumb Code     0  multimedia.o(t._ZN8QPointerI7QObjectED1Ev)
+    QDeclarativeMediaMetaData::staticMetaObject 0x000101a0   Data          16  moc_qdeclarativemediametadata_p.o(.constdata)
+    QMultimediaDeclarativeModule::staticMetaObject 0x00010268   Data          16  multimedia.o(.constdata)
+    QDeclarativeAudio::staticMetaObject      0x00010910   Data          16  qdeclarativeaudio.o(.constdata)
+    QDeclarativeVideo::staticMetaObject      0x000110e4   Data          16  qdeclarativevideo.o(.constdata)
+    QDeclarativeCamera::staticMetaObject     0x00012110   Data          16  qdeclarativecamera.o(.constdata)
+    stlp_priv::_Integer_limits<signed char, (signed char)-128, (signed char)127, (int)-1, (bool)1>::digits 0x00012268   Data           4  moc_qdeclarativemediametadata_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<bool, (bool)0, (bool)1, (int)1, (bool)0>::digits 0x0001226c   Data           4  moc_qdeclarativemediametadata_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    stlp_priv::_Integer_limits<char, (char)128, (char)127, (int)-1, (bool)1>::digits 0x00012270   Data           4  moc_qdeclarativemediametadata_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned char, (unsigned char)0, (unsigned char)255, (int)-1, (bool)1>::digits 0x00012274   Data           4  moc_qdeclarativemediametadata_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::digits 0x00012278   Data           4  moc_qdeclarativemediametadata_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::is_signed 0x0001227c   Data           1  moc_qdeclarativemediametadata_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    stlp_priv::_Integer_limits<unsigned, (unsigned)0, (unsigned)4294967295, (int)-1, (bool)1>::digits 0x00012280   Data           4  moc_qdeclarativemediametadata_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long, (long)-2147483648, (long)2147483647, (int)-1, (bool)1>::digits 0x00012284   Data           4  moc_qdeclarativemediametadata_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long, (unsigned long)0, (unsigned long)4294967295, (int)-1, (bool)1>::digits 0x00012288   Data           4  moc_qdeclarativemediametadata_p.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<short, (short)-32768, (short)32767, (int)-1, (bool)1>::digits 0x0001228c   Data           4  moc_qdeclarativemediametadata_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned short, (unsigned short)0, (unsigned short)65535, (int)-1, (bool)1>::digits 0x00012290   Data           4  moc_qdeclarativemediametadata_p.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<wchar_t, (wchar_t)0, (wchar_t)65535, (int)-1, (bool)1>::digits 0x00012294   Data           4  moc_qdeclarativemediametadata_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long long, (long long)-9223372036854775808, (long long)9223372036854775807, (int)-1, (bool)1>::digits 0x00012298   Data           4  moc_qdeclarativemediametadata_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long long, (unsigned long long)0, (unsigned long long)18446744073709551615, (int)-1, (bool)1>::digits 0x0001229c   Data           4  moc_qdeclarativemediametadata_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    typeinfo for FocusZoneItem               0x000122a0   Data          12  qdeclarativecamera.o(.constdata__ZTI13FocusZoneItem)
+    typeinfo for QDeclarativeAudio           0x000122ac   Data          40  qdeclarativeaudio.o(.constdata__ZTI17QDeclarativeAudio)
+    typeinfo for QDeclarativeVideo           0x000122d4   Data          32  qdeclarativevideo.o(.constdata__ZTI17QDeclarativeVideo)
+    typeinfo for QDeclarativeCamera          0x000122f4   Data          12  qdeclarativecamera.o(.constdata__ZTI18QDeclarativeCamera)
+    typeinfo for QDeclarativeMediaBase       0x00012300   Data           8  qdeclarativemediabase.o(.constdata__ZTI21QDeclarativeMediaBase)
+    typeinfo for QDeclarativeMediaMetaData   0x00012308   Data          12  moc_qdeclarativemediametadata_p.o(.constdata__ZTI25QDeclarativeMediaMetaData)
+    typeinfo for QDeclarativeMediaBaseObject 0x00012314   Data          12  qdeclarativemediabase.o(.constdata__ZTI27QDeclarativeMediaBaseObject)
+    typeinfo for QMultimediaDeclarativeModule 0x00012320   Data          12  multimedia.o(.constdata__ZTI28QMultimediaDeclarativeModule)
+    typeinfo for QDeclarativeMediaBaseAnimation 0x0001232c   Data          12  qdeclarativemediabase.o(.constdata__ZTI30QDeclarativeMediaBaseAnimation)
+    typeinfo for QDeclarativeCameraPreviewProvider 0x00012338   Data          12  qdeclarativecamerapreviewprovider.o(.constdata__ZTI33QDeclarativeCameraPreviewProvider)
+    typeinfo for QDeclarativeMediaBasePlayerControl 0x00012344   Data          12  qdeclarativemediabase.o(.constdata__ZTI34QDeclarativeMediaBasePlayerControl)
+    typeinfo for QDeclarativeMediaBaseMetaDataControl 0x00012350   Data          12  qdeclarativemediabase.o(.constdata__ZTI36QDeclarativeMediaBaseMetaDataControl)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QSoundEffect> 0x0001235c   Data          12  multimedia.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI12QSoundEffectEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QDeclarativeAudio> 0x00012368   Data          12  multimedia.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QDeclarativeVideo> 0x00012374   Data          12  multimedia.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QDeclarativeCamera> 0x00012380   Data          12  multimedia.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraEE)
+    typeinfo name for FocusZoneItem          0x0001238c   Data          16  qdeclarativecamera.o(.constdata__ZTS13FocusZoneItem)
+    typeinfo name for QDeclarativeAudio      0x0001239c   Data          20  qdeclarativeaudio.o(.constdata__ZTS17QDeclarativeAudio)
+    typeinfo name for QDeclarativeVideo      0x000123b0   Data          20  qdeclarativevideo.o(.constdata__ZTS17QDeclarativeVideo)
+    typeinfo name for QDeclarativeCamera     0x000123c4   Data          21  qdeclarativecamera.o(.constdata__ZTS18QDeclarativeCamera)
+    typeinfo name for QDeclarativeMediaBase  0x000123d9   Data          24  qdeclarativemediabase.o(.constdata__ZTS21QDeclarativeMediaBase)
+    typeinfo name for QDeclarativeMediaMetaData 0x000123f1   Data          28  moc_qdeclarativemediametadata_p.o(.constdata__ZTS25QDeclarativeMediaMetaData)
+    typeinfo name for QDeclarativeMediaBaseObject 0x0001240d   Data          30  qdeclarativemediabase.o(.constdata__ZTS27QDeclarativeMediaBaseObject)
+    typeinfo name for QMultimediaDeclarativeModule 0x0001242b   Data          31  multimedia.o(.constdata__ZTS28QMultimediaDeclarativeModule)
+    typeinfo name for QDeclarativeMediaBaseAnimation 0x0001244a   Data          33  qdeclarativemediabase.o(.constdata__ZTS30QDeclarativeMediaBaseAnimation)
+    typeinfo name for QDeclarativeCameraPreviewProvider 0x0001246b   Data          36  qdeclarativecamerapreviewprovider.o(.constdata__ZTS33QDeclarativeCameraPreviewProvider)
+    typeinfo name for QDeclarativeMediaBasePlayerControl 0x0001248f   Data          37  qdeclarativemediabase.o(.constdata__ZTS34QDeclarativeMediaBasePlayerControl)
+    typeinfo name for QDeclarativeMediaBaseMetaDataControl 0x000124b4   Data          39  qdeclarativemediabase.o(.constdata__ZTS36QDeclarativeMediaBaseMetaDataControl)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QSoundEffect> 0x000124db   Data          61  multimedia.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI12QSoundEffectEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QDeclarativeAudio> 0x00012518   Data          66  multimedia.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QDeclarativeVideo> 0x0001255a   Data          66  multimedia.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QDeclarativeCamera> 0x0001259c   Data          67  multimedia.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraEE)
+    vtable for FocusZoneItem                 0x000125e0   Data         156  qdeclarativecamera.o(.constdata__ZTV13FocusZoneItem)
+    vtable for QDeclarativeAudio             0x0001267c   Data         240  qdeclarativeaudio.o(.constdata__ZTV17QDeclarativeAudio)
+    vtable for QDeclarativeVideo             0x0001276c   Data         432  qdeclarativevideo.o(.constdata__ZTV17QDeclarativeVideo)
+    vtable for QDeclarativeCamera            0x0001291c   Data         280  qdeclarativecamera.o(.constdata__ZTV18QDeclarativeCamera)
+    vtable for QDeclarativeMediaBase         0x00012a34   Data          84  qdeclarativemediabase.o(.constdata__ZTV21QDeclarativeMediaBase)
+    vtable for QDeclarativeMediaMetaData     0x00012a88   Data          56  moc_qdeclarativemediametadata_p.o(.constdata__ZTV25QDeclarativeMediaMetaData)
+    vtable for QDeclarativeMediaBaseObject   0x00012ac0   Data          76  qdeclarativemediabase.o(.constdata__ZTV27QDeclarativeMediaBaseObject)
+    vtable for QMultimediaDeclarativeModule  0x00012b0c   Data          88  multimedia.o(.constdata__ZTV28QMultimediaDeclarativeModule)
+    vtable for QDeclarativeMediaBaseAnimation 0x00012b64   Data          56  qdeclarativemediabase.o(.constdata__ZTV30QDeclarativeMediaBaseAnimation)
+    vtable for QDeclarativeCameraPreviewProvider 0x00012b9c   Data          24  qdeclarativecamerapreviewprovider.o(.constdata__ZTV33QDeclarativeCameraPreviewProvider)
+    vtable for QDeclarativeMediaBasePlayerControl 0x00012bb4   Data         144  qdeclarativemediabase.o(.constdata__ZTV34QDeclarativeMediaBasePlayerControl)
+    vtable for QDeclarativeMediaBaseMetaDataControl 0x00012c44   Data          76  qdeclarativemediabase.o(.constdata__ZTV36QDeclarativeMediaBaseMetaDataControl)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QSoundEffect> 0x00012c90   Data          56  multimedia.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI12QSoundEffectEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QDeclarativeAudio> 0x00012cc8   Data         240  multimedia.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeAudioEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QDeclarativeVideo> 0x00012db8   Data         432  multimedia.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI17QDeclarativeVideoEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QDeclarativeCamera> 0x00012f68   Data         280  multimedia.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI18QDeclarativeCameraEE)
+    .ARM.exidx$$Base                         0x000131fc   Number         0  ucppinit.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x000138dc   Number         0  qdeclarativecamera.o(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x000138dc   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    __dso_handle                             0x00400018   Data           4  ucppfini.o(.data)
+    std::_Atomic_swap_struct<(int)1>::_S_swap_lock 0x0040001c   Data          12  moc_qdeclarativemediametadata_p.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    QMetaTypeId<QDeclarativeListProperty<QSoundEffect>>::qt_metatype_id()::metatype_id 0x00400028   Data           4  multimedia.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI12QSoundEffectEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeListProperty<QDeclarativeAudio>>::qt_metatype_id()::metatype_id 0x0040002c   Data           4  multimedia.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI17QDeclarativeAudioEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeListProperty<QDeclarativeVideo>>::qt_metatype_id()::metatype_id 0x00400030   Data           4  multimedia.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI17QDeclarativeVideoEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeListProperty<QDeclarativeCamera>>::qt_metatype_id()::metatype_id 0x00400034   Data           4  multimedia.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI18QDeclarativeCameraEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeListProperty<QDeclarativeMediaMetaData>>::qt_metatype_id()::metatype_id 0x00400038   Data           4  multimedia.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI25QDeclarativeMediaMetaDataEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QSoundEffect*>::qt_metatype_id()::metatype_id 0x0040003c   Data           4  multimedia.o(.data__ZZN11QMetaTypeIdIP12QSoundEffectE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeAudio*>::qt_metatype_id()::metatype_id 0x00400040   Data           4  multimedia.o(.data__ZZN11QMetaTypeIdIP17QDeclarativeAudioE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeVideo*>::qt_metatype_id()::metatype_id 0x00400044   Data           4  multimedia.o(.data__ZZN11QMetaTypeIdIP17QDeclarativeVideoE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeCamera*>::qt_metatype_id()::metatype_id 0x00400048   Data           4  multimedia.o(.data__ZZN11QMetaTypeIdIP18QDeclarativeCameraE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeMediaMetaData*>::qt_metatype_id()::metatype_id 0x0040004c   Data           4  multimedia.o(.data__ZZN11QMetaTypeIdIP25QDeclarativeMediaMetaDataE14qt_metatype_idEvE11metatype_id)
+    dtor_rec                                 0x00400050   Data        2048  ucppfini.o(.bss)
+

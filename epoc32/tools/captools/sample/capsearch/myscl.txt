@@ -1,0 +1,32 @@
+enum TCapability
+	{
+	ECapabilityCap0				= 0,
+	ECapabilityCap1			= 1,
+	ECapabilityCap2 = 2,
+	ECapabilityCap3 = 3,
+	ECapabilityCap4 = 4,
+	ECapabilityCap5 = 5,
+	ECapabilityCap6 = 6,
+	ECapabilityCap7 = 7,
+	ECapabilityCap8 = 8,
+	ECapabilityCap9 = 9,
+	ECapabilityCap10 = 10,
+	ECapabilityCap11 = 11,
+	ECapabilityCap12 = 12,
+	ECapabilityCap13 = 13,
+	ECapabilityCap14 = 14,
+	ECapabilityCap15 = 15,
+	ECapabilityCap16 = 16,
+	ECapabilityCap17 = 17,
+	ECapabilityCap18 = 18,
+	ECapabilityCap19 = 19,
+	ECapabilityCap20 = 20,
+	ECapabilityCap21 = 21,
+	ECapabilityCap22 = 22,
+
+	ECapability_Limit,					/**< @internalTechnology */
+
+	ECapability_HardLimit		= 255,	/**< @internalTechnology */
+
+	ECapability_None			= -1	
+	};

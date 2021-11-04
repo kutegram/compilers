@@ -1,0 +1,1404 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../../unhosted.s                         0x00000000   Number         0  switch8.o ABSOLUTE
+    M:\\epoc32\\build\\euser\\c_e18a23aea4fd210f\\edll_lib\\armv5\\urel\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\\sf\\os\\kernelhwsrv\\kernel\\eka\\compsupp\\rvct\\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\epoc32\build\euser\c_e18a23aea4fd210f\edll_lib\armv5\urel\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\dllexp.cpp 0x00000000   Number         0  dllexp.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_aux.c 0x00000000   Number         0  tif_aux.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_close.c 0x00000000   Number         0  tif_close.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_codec.c 0x00000000   Number         0  tif_codec.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_color.c 0x00000000   Number         0  tif_color.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_compress.c 0x00000000   Number         0  tif_compress.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_dir.c 0x00000000   Number         0  tif_dir.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_dirinfo.c 0x00000000   Number         0  tif_dirinfo.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_dirread.c 0x00000000   Number         0  tif_dirread.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_dirwrite.c 0x00000000   Number         0  tif_dirwrite.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_dumpmode.c 0x00000000   Number         0  tif_dumpmode.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_error.c 0x00000000   Number         0  tif_error.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_extension.c 0x00000000   Number         0  tif_extension.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_fax3.c 0x00000000   Number         0  tif_fax3.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_fax3sm.c 0x00000000   Number         0  tif_fax3sm.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_flush.c 0x00000000   Number         0  tif_flush.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_getimage.c 0x00000000   Number         0  tif_getimage.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_luv.c 0x00000000   Number         0  tif_luv.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_lzw.c 0x00000000   Number         0  tif_lzw.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_next.c 0x00000000   Number         0  tif_next.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_open.c 0x00000000   Number         0  tif_open.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_packbits.c 0x00000000   Number         0  tif_packbits.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_pixarlog.c 0x00000000   Number         0  tif_pixarlog.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_predict.c 0x00000000   Number         0  tif_predict.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_print.c 0x00000000   Number         0  tif_print.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_read.c 0x00000000   Number         0  tif_read.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_strip.c 0x00000000   Number         0  tif_strip.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_swab.c 0x00000000   Number         0  tif_swab.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_thunder.c 0x00000000   Number         0  tif_thunder.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_tile.c 0x00000000   Number         0  tif_tile.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_unix.c 0x00000000   Number         0  tif_unix.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_version.c 0x00000000   Number         0  tif_version.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_warning.c 0x00000000   Number         0  tif_warning.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_write.c 0x00000000   Number         0  tif_write.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\libtiff\tif_zip.c 0x00000000   Number         0  tif_zip.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libtiff\port\lfind.c 0x00000000   Number         0  lfind.o ABSOLUTE
+    S:\sf\mw\qt\src\gui\image\qtiffhandler.cpp 0x00000000   Number         0  qtiffhandler.o ABSOLUTE
+    S:\sf\mw\qt\src\plugins\imageformats\tiff\main.cpp 0x00000000   Number         0  main.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       52  ucppinit.o(.emb_text)
+    loop                                     0x0000803c   ARM Code       0  ucppinit.o(.emb_text)
+    base                                     0x00008054   Data           0  ucppinit.o(.emb_text)
+    limit                                    0x00008058   Data           0  ucppinit.o(.emb_text)
+    .text                                    0x000084d4   Section      956  tif_aux.o(.text)
+    TIFFDefaultTransferFunction              0x0000852b   Thumb Code   232  tif_aux.o(.text)
+    .text                                    0x00008890   Section      212  tif_close.o(.text)
+    _notConfigured                           0x00008965   Thumb Code    58  tif_codec.o(.text)
+    .text                                    0x00008964   Section      172  tif_codec.o(.text)
+    NotConfigured                            0x0000899f   Thumb Code    26  tif_codec.o(.text)
+    .text                                    0x00008a10   Section     1864  tif_color.o(.text)
+    .text                                    0x00009158   Section     1096  tif_compress.o(.text)
+    TIFFNoEncode                             0x00009189   Thumb Code    62  tif_compress.o(.text)
+    TIFFNoDecode                             0x000091d3   Thumb Code    62  tif_compress.o(.text)
+    _TIFFtrue                                0x0000934d   Thumb Code     4  tif_compress.o(.text)
+    _TIFFvoid                                0x00009351   Thumb Code     2  tif_compress.o(.text)
+    setByteArray                             0x000095a1   Thumb Code    74  tif_dir.o(.text)
+    .text                                    0x000095a0   Section     4988  tif_dir.o(.text)
+    _TIFFVSetField                           0x0000961d   Thumb Code  1916  tif_dir.o(.text)
+    |L1.1460|                                0x00009b54   Data           0  tif_dir.o(.text)
+    |L1.1468|                                0x00009b5c   Data           0  tif_dir.o(.text)
+    |L1.1480|                                0x00009b68   Data           0  tif_dir.o(.text)
+    _TIFFVGetField                           0x00009dd3   Thumb Code  1030  tif_dir.o(.text)
+    TIFFAdvanceDirectory                     0x0000a3c3   Thumb Code   372  tif_dir.o(.text)
+    setExtraSamples                          0x0000a711   Thumb Code    80  tif_dir.o(.text)
+    checkInkNamesString                      0x0000a761   Thumb Code    74  tif_dir.o(.text)
+    OkToChangeTag                            0x0000a7ab   Thumb Code   370  tif_dir.o(.text)
+    .text                                    0x0000a91c   Section     1412  tif_dirinfo.o(.text)
+    tagCompare                               0x0000a92d   Thumb Code    30  tif_dirinfo.o(.text)
+    tagNameCompare                           0x0000aaa9   Thumb Code    30  tif_dirinfo.o(.text)
+    ChopUpSingleUncompressedStrip            0x0000aea1   Thumb Code   218  tif_dirread.o(.text)
+    .text                                    0x0000aea0   Section     8424  tif_dirread.o(.text)
+    EstimateStripByteCounts                  0x0000af7b   Thumb Code   306  tif_dirread.o(.text)
+    TIFFFetchData                            0x0000b0ad   Thumb Code   204  tif_dirread.o(.text)
+    TIFFFetchString                          0x0000b179   Thumb Code    52  tif_dirread.o(.text)
+    cvtRational                              0x0000b1ad   Thumb Code    88  tif_dirread.o(.text)
+    CheckDirCount                            0x0000b205   Thumb Code   390  tif_dirread.o(.text)
+    TIFFFetchRationalArray                   0x0000b38b   Thumb Code    94  tif_dirread.o(.text)
+    TIFFFetchShortArray                      0x0000b3e9   Thumb Code    74  tif_dirread.o(.text)
+    TIFFFetchByteArray                       0x0000b433   Thumb Code   122  tif_dirread.o(.text)
+    TIFFFetchNormalTag                       0x0000b4ad   Thumb Code   812  tif_dirread.o(.text)
+    TIFFFetchStripThing                      0x0000b7d9   Thumb Code   200  tif_dirread.o(.text)
+    TIFFFetchAnyArray                        0x0000b8a1   Thumb Code   352  tif_dirread.o(.text)
+    TIFFFetchPerSampleAnys                   0x0000ba01   Thumb Code   166  tif_dirread.o(.text)
+    TIFFFetchPerSampleShorts                 0x0000baa7   Thumb Code   154  tif_dirread.o(.text)
+    TIFFFetchPerSampleLongs                  0x0000bb41   Thumb Code   324  tif_dirread.o(.text)
+    TIFFFetchDirectory                       0x0000bc85   Thumb Code   342  tif_dirread.o(.text)
+    |L1.4516|                                0x0000c044   Data           0  tif_dirread.o(.text)
+    |L1.4568|                                0x0000c078   Data           0  tif_dirread.o(.text)
+    |L1.5660|                                0x0000c4bc   Data           0  tif_dirread.o(.text)
+    |L1.5720|                                0x0000c4f8   Data           0  tif_dirread.o(.text)
+    MissingRequired                          0x0000cc55   Thumb Code    26  tif_dirread.o(.text)
+    TIFFFetchDoubleArray                     0x0000cc6f   Thumb Code    18  tif_dirread.o(.text)
+    TIFFFetchFloatArray                      0x0000cc81   Thumb Code    30  tif_dirread.o(.text)
+    TIFFFetchLongArray                       0x0000cc9f   Thumb Code    30  tif_dirread.o(.text)
+    TIFFFetchRefBlackWhite                   0x0000ccbd   Thumb Code   148  tif_dirread.o(.text)
+    TIFFFetchShortPair                       0x0000cd51   Thumb Code   426  tif_dirread.o(.text)
+    TIFFReadDirectoryFind                    0x0000cefb   Thumb Code    28  tif_dirread.o(.text)
+    TIFFCheckDirOffset                       0x0000cf17   Thumb Code    96  tif_dirread.o(.text)
+    TIFFWriteData                            0x0000cf89   Thumb Code   172  tif_dirwrite.o(.text)
+    .text                                    0x0000cf88   Section     5364  tif_dirwrite.o(.text)
+    TIFFWriteByteArray                       0x0000d035   Thumb Code   110  tif_dirwrite.o(.text)
+    TIFFWriteRationalArray                   0x0000d0a3   Thumb Code   224  tif_dirwrite.o(.text)
+    TIFFWriteShortArray                      0x0000d183   Thumb Code    56  tif_dirwrite.o(.text)
+    TIFFWriteNormalTag                       0x0000d1bb   Thumb Code   824  tif_dirwrite.o(.text)
+    TIFFSetupShortPair                       0x0000d4f3   Thumb Code    40  tif_dirwrite.o(.text)
+    TIFFWriteShortTable                      0x0000d51b   Thumb Code    76  tif_dirwrite.o(.text)
+    TIFFWriteAnyArray                        0x0000d567   Thumb Code   356  tif_dirwrite.o(.text)
+    TIFFSetupShort                           0x0000d6cb   Thumb Code    54  tif_dirwrite.o(.text)
+    TIFFSetupShortLong                       0x0000d701   Thumb Code    68  tif_dirwrite.o(.text)
+    TIFFLinkDirectory                        0x0000d745   Thumb Code   532  tif_dirwrite.o(.text)
+    |L1.2416|                                0x0000d8f8   Data           0  tif_dirwrite.o(.text)
+    |L1.2448|                                0x0000d918   Data           0  tif_dirwrite.o(.text)
+    |L1.2480|                                0x0000d938   Data           0  tif_dirwrite.o(.text)
+    _TIFFWriteDirectory                      0x0000d959   Thumb Code  1572  tif_dirwrite.o(.text)
+    |L1.3680|                                0x0000dde8   Data           0  tif_dirwrite.o(.text)
+    _TIFFWriteCustomDirectory                0x0000dfbf   Thumb Code   488  tif_dirwrite.o(.text)
+    TIFFWriteDoubleArray                     0x0000e311   Thumb Code     8  tif_dirwrite.o(.text)
+    TIFFWriteFloatArray                      0x0000e319   Thumb Code    22  tif_dirwrite.o(.text)
+    TIFFWriteLongArray                       0x0000e32f   Thumb Code    22  tif_dirwrite.o(.text)
+    TIFFWritePerSampleAnys                   0x0000e345   Thumb Code   118  tif_dirwrite.o(.text)
+    TIFFWritePerSampleShorts                 0x0000e3bb   Thumb Code   120  tif_dirwrite.o(.text)
+    DumpModeEncode                           0x0000e47d   Thumb Code    92  tif_dumpmode.o(.text)
+    .text                                    0x0000e47c   Section      284  tif_dumpmode.o(.text)
+    DumpModeDecode                           0x0000e4d9   Thumb Code    70  tif_dumpmode.o(.text)
+    DumpModeSeek                             0x0000e51f   Thumb Code    32  tif_dumpmode.o(.text)
+    .text                                    0x0000e598   Section      132  tif_error.o(.text)
+    .text                                    0x0000e61c   Section      162  tif_extension.o(.text)
+    Fax3PreDecode                            0x0000e6c1   Thumb Code    58  tif_fax3.o(.text)
+    .text                                    0x0000e6c0   Section    11444  tif_fax3.o(.text)
+    Fax3Unexpected                           0x0000e6fb   Thumb Code    64  tif_fax3.o(.text)
+    Fax3Extension                            0x0000e73b   Thumb Code    64  tif_fax3.o(.text)
+    Fax3BadLength                            0x0000e77b   Thumb Code    84  tif_fax3.o(.text)
+    Fax3PrematureEOF                         0x0000e7cf   Thumb Code    64  tif_fax3.o(.text)
+    Fax3Decode1D                             0x0000e80f   Thumb Code  1256  tif_fax3.o(.text)
+    Fax3Decode2D                             0x0000ecf7   Thumb Code  2428  tif_fax3.o(.text)
+    Fax3SetupState                           0x0000f813   Thumb Code   312  tif_fax3.o(.text)
+    Fax3PutBits                              0x0000f94b   Thumb Code   134  tif_fax3.o(.text)
+    putspan                                  0x0000f9d1   Thumb Code   414  tif_fax3.o(.text)
+    Fax3PutEOL                               0x0000fb6f   Thumb Code   256  tif_fax3.o(.text)
+    Fax3PreEncode                            0x0000fc6f   Thumb Code   170  tif_fax3.o(.text)
+    find0span                                0x0000fd19   Thumb Code   144  tif_fax3.o(.text)
+    find1span                                0x0000fda9   Thumb Code   148  tif_fax3.o(.text)
+    Fax3Encode1DRow                          0x0000fe3d   Thumb Code   182  tif_fax3.o(.text)
+    Fax3Encode2DRow                          0x0000fef3   Thumb Code   412  tif_fax3.o(.text)
+    Fax3Encode                               0x0001008f   Thumb Code   166  tif_fax3.o(.text)
+    Fax3PostEncode                           0x00010135   Thumb Code    62  tif_fax3.o(.text)
+    Fax3Close                                0x00010173   Thumb Code   112  tif_fax3.o(.text)
+    Fax3Cleanup                              0x000101e3   Thumb Code    92  tif_fax3.o(.text)
+    Fax3VSetField                            0x0001023f   Thumb Code   222  tif_fax3.o(.text)
+    Fax3VGetField                            0x0001031d   Thumb Code   134  tif_fax3.o(.text)
+    Fax3PrintDir                             0x000103a3   Thumb Code   638  tif_fax3.o(.text)
+    InitCCITTFax3                            0x00010621   Thumb Code   198  tif_fax3.o(.text)
+    Fax4Decode                               0x00010727   Thumb Code  1888  tif_fax3.o(.text)
+    Fax4Encode                               0x00010e87   Thumb Code    60  tif_fax3.o(.text)
+    Fax4PostEncode                           0x00010ec3   Thumb Code    86  tif_fax3.o(.text)
+    Fax3DecodeRLE                            0x00010f6f   Thumb Code   926  tif_fax3.o(.text)
+    .text                                    0x00011374   Section       94  tif_flush.o(.text)
+    .text                                    0x000113d4   Section    17072  tif_getimage.o(.text)
+    |L1.300|                                 0x00011500   Data           0  tif_getimage.o(.text)
+    |L1.352|                                 0x00011534   Data           0  tif_getimage.o(.text)
+    |L1.372|                                 0x00011548   Data           0  tif_getimage.o(.text)
+    |L1.404|                                 0x00011568   Data           0  tif_getimage.o(.text)
+    |L1.416|                                 0x00011574   Data           0  tif_getimage.o(.text)
+    |L1.460|                                 0x000115a0   Data           0  tif_getimage.o(.text)
+    |L1.476|                                 0x000115b0   Data           0  tif_getimage.o(.text)
+    putseparate8bitYCbCr11tile               0x00011689   Thumb Code   102  tif_getimage.o(.text)
+    initYCbCrConversion                      0x000116ef   Thumb Code   358  tif_getimage.o(.text)
+    |L1.840|                                 0x0001171c   Data           0  tif_getimage.o(.text)
+    |L1.852|                                 0x00011728   Data           0  tif_getimage.o(.text)
+    |L1.908|                                 0x00011760   Data           0  tif_getimage.o(.text)
+    |L1.944|                                 0x00011784   Data           0  tif_getimage.o(.text)
+    |L1.964|                                 0x00011798   Data           0  tif_getimage.o(.text)
+    |L1.1016|                                0x000117cc   Data           0  tif_getimage.o(.text)
+    putRGBseparate16bittile                  0x00011855   Thumb Code    78  tif_getimage.o(.text)
+    putRGBUAseparate16bittile                0x000118a3   Thumb Code   152  tif_getimage.o(.text)
+    putRGBAAseparate16bittile                0x0001193b   Thumb Code    86  tif_getimage.o(.text)
+    putRGBseparate8bittile                   0x00011991   Thumb Code   426  tif_getimage.o(.text)
+    putRGBUAseparate8bittile                 0x00011b3b   Thumb Code   138  tif_getimage.o(.text)
+    putRGBAAseparate8bittile                 0x00011bc5   Thumb Code   520  tif_getimage.o(.text)
+    setorientation                           0x00011dcd   Thumb Code   146  tif_getimage.o(.text)
+    gtStripSeparate                          0x00011e5f   Thumb Code   592  tif_getimage.o(.text)
+    gtTileSeparate                           0x000120af   Thumb Code   652  tif_getimage.o(.text)
+    |L1.3784|                                0x0001229c   Data           0  tif_getimage.o(.text)
+    putcontig8bitCIELab                      0x0001233b   Thumb Code   128  tif_getimage.o(.text)
+    initCIELabConversion                     0x000123bb   Thumb Code   156  tif_getimage.o(.text)
+    makecmap                                 0x00012457   Thumb Code   692  tif_getimage.o(.text)
+    makebwmap                                0x0001270b   Thumb Code   560  tif_getimage.o(.text)
+    setupMap                                 0x0001293b   Thumb Code   158  tif_getimage.o(.text)
+    buildMap                                 0x000129d9   Thumb Code   166  tif_getimage.o(.text)
+    putcontig8bitYCbCr11tile                 0x00012a7f   Thumb Code    96  tif_getimage.o(.text)
+    putcontig8bitYCbCr12tile                 0x00012adf   Thumb Code   244  tif_getimage.o(.text)
+    putcontig8bitYCbCr21tile                 0x00012bd3   Thumb Code   214  tif_getimage.o(.text)
+    putcontig8bitYCbCr22tile                 0x00012ca9   Thumb Code   622  tif_getimage.o(.text)
+    putcontig8bitYCbCr41tile                 0x00012f17   Thumb Code   410  tif_getimage.o(.text)
+    putcontig8bitYCbCr42tile                 0x000130b1   Thumb Code   958  tif_getimage.o(.text)
+    putcontig8bitYCbCr44tile                 0x0001346f   Thumb Code  1796  tif_getimage.o(.text)
+    put1bitbwtile                            0x00013b73   Thumb Code   140  tif_getimage.o(.text)
+    put2bitbwtile                            0x00013bff   Thumb Code   104  tif_getimage.o(.text)
+    put4bitbwtile                            0x00013c67   Thumb Code    74  tif_getimage.o(.text)
+    putgreytile                              0x00013cb1   Thumb Code    48  tif_getimage.o(.text)
+    put16bitbwtile                           0x00013ce1   Thumb Code    58  tif_getimage.o(.text)
+    put1bitcmaptile                          0x00013d1b   Thumb Code   140  tif_getimage.o(.text)
+    put2bitcmaptile                          0x00013da7   Thumb Code   104  tif_getimage.o(.text)
+    put4bitcmaptile                          0x00013e0f   Thumb Code    74  tif_getimage.o(.text)
+    put8bitcmaptile                          0x00013e59   Thumb Code    48  tif_getimage.o(.text)
+    putRGBcontig8bitCMYKMaptile              0x00013e89   Thumb Code   146  tif_getimage.o(.text)
+    putRGBcontig8bitCMYKtile                 0x00013f1b   Thumb Code  1234  tif_getimage.o(.text)
+    putRGBcontig16bittile                    0x000143ed   Thumb Code    76  tif_getimage.o(.text)
+    putRGBUAcontig16bittile                  0x00014439   Thumb Code   122  tif_getimage.o(.text)
+    putRGBAAcontig16bittile                  0x000144b3   Thumb Code    76  tif_getimage.o(.text)
+    putRGBcontig8bittile                     0x000144ff   Thumb Code   366  tif_getimage.o(.text)
+    putRGBUAcontig8bittile                   0x0001466d   Thumb Code   110  tif_getimage.o(.text)
+    putRGBAAcontig8bittile                   0x000146db   Thumb Code   422  tif_getimage.o(.text)
+    gtStripContig                            0x00014881   Thumb Code   406  tif_getimage.o(.text)
+    gtTileContig                             0x00014a17   Thumb Code   418  tif_getimage.o(.text)
+    PickContigCase                           0x00014bb9   Thumb Code   468  tif_getimage.o(.text)
+    PickSeparateCase                         0x000155b9   Thumb Code   160  tif_getimage.o(.text)
+    LogL16Decode                             0x00015685   Thumb Code   252  tif_luv.o(.text)
+    .text                                    0x00015684   Section     8620  tif_luv.o(.text)
+    LogLuvDecode24                           0x00015781   Thumb Code   144  tif_luv.o(.text)
+    LogLuvDecode32                           0x00015811   Thumb Code   246  tif_luv.o(.text)
+    LogLuvDecodeStrip                        0x00015907   Thumb Code    66  tif_luv.o(.text)
+    LogLuvDecodeTile                         0x00015949   Thumb Code    64  tif_luv.o(.text)
+    LogL16Encode                             0x00015989   Thumb Code   588  tif_luv.o(.text)
+    LogLuvEncode24                           0x00015bd5   Thumb Code   136  tif_luv.o(.text)
+    LogLuvEncode32                           0x00015c5d   Thumb Code   406  tif_luv.o(.text)
+    LogLuvEncodeStrip                        0x00015df3   Thumb Code    64  tif_luv.o(.text)
+    LogLuvEncodeTile                         0x00015e33   Thumb Code    64  tif_luv.o(.text)
+    L16toY                                   0x00015fe7   Thumb Code    36  tif_luv.o(.text)
+    L16toGry                                 0x0001600b   Thumb Code    96  tif_luv.o(.text)
+    L16fromY                                 0x0001606b   Thumb Code    38  tif_luv.o(.text)
+    |L1.2980|                                0x00016228   Data           0  tif_luv.o(.text)
+    |L1.2988|                                0x00016230   Data           0  tif_luv.o(.text)
+    |L1.3056|                                0x00016274   Data           0  tif_luv.o(.text)
+    oog_encode                               0x0001638d   Thumb Code   500  tif_luv.o(.text)
+    |L1.4148|                                0x000166b8   Data           0  tif_luv.o(.text)
+    |L1.4156|                                0x000166c0   Data           0  tif_luv.o(.text)
+    |L1.4164|                                0x000166c8   Data           0  tif_luv.o(.text)
+    |L1.4172|                                0x000166d0   Data           0  tif_luv.o(.text)
+    Luv24toXYZ                               0x00016975   Thumb Code    32  tif_luv.o(.text)
+    Luv24toLuv48                             0x00016995   Thumb Code   120  tif_luv.o(.text)
+    Luv24toRGB                               0x00016a0d   Thumb Code    38  tif_luv.o(.text)
+    Luv24fromXYZ                             0x00016a33   Thumb Code    34  tif_luv.o(.text)
+    Luv24fromLuv48                           0x00016a55   Thumb Code   346  tif_luv.o(.text)
+    |L1.5272|                                0x00016b1c   Data           0  tif_luv.o(.text)
+    |L1.5280|                                0x00016b24   Data           0  tif_luv.o(.text)
+    |L1.5288|                                0x00016b2c   Data           0  tif_luv.o(.text)
+    |L1.5300|                                0x00016b38   Data           0  tif_luv.o(.text)
+    |L1.5308|                                0x00016b40   Data           0  tif_luv.o(.text)
+    |L1.5316|                                0x00016b48   Data           0  tif_luv.o(.text)
+    |L1.5324|                                0x00016b50   Data           0  tif_luv.o(.text)
+    Luv32toXYZ                               0x00016e3b   Thumb Code    30  tif_luv.o(.text)
+    Luv32toLuv48                             0x00016e59   Thumb Code   136  tif_luv.o(.text)
+    Luv32toRGB                               0x00016ee1   Thumb Code    38  tif_luv.o(.text)
+    Luv32fromXYZ                             0x00016f07   Thumb Code    34  tif_luv.o(.text)
+    Luv32fromLuv48                           0x00016f29   Thumb Code   318  tif_luv.o(.text)
+    _logLuvNop                               0x00017067   Thumb Code     2  tif_luv.o(.text)
+    LogL16InitState                          0x00017069   Thumb Code   200  tif_luv.o(.text)
+    LogLuvInitState                          0x00017131   Thumb Code   248  tif_luv.o(.text)
+    LogLuvSetupDecode                        0x00017229   Thumb Code   434  tif_luv.o(.text)
+    LogLuvSetupEncode                        0x000173db   Thumb Code   188  tif_luv.o(.text)
+    LogLuvClose                              0x00017497   Thumb Code    28  tif_luv.o(.text)
+    LogLuvCleanup                            0x000174b3   Thumb Code    54  tif_luv.o(.text)
+    LogLuvVSetField                          0x000174e9   Thumb Code   468  tif_luv.o(.text)
+    LogLuvVGetField                          0x000176bd   Thumb Code    34  tif_luv.o(.text)
+    multiply                                 0x00017789   Thumb Code    30  tif_luv.o(.text)
+    LZWSetupDecode                           0x00017831   Thumb Code   144  tif_lzw.o(.text)
+    .text                                    0x00017830   Section     3480  tif_lzw.o(.text)
+    codeLoop                                 0x000178c1   Thumb Code    28  tif_lzw.o(.text)
+    LZWDecode                                0x000178dd   Thumb Code  1006  tif_lzw.o(.text)
+    |L1.592|                                 0x00017a80   Data           0  tif_lzw.o(.text)
+    |L1.740|                                 0x00017b14   Data           0  tif_lzw.o(.text)
+    |L1.800|                                 0x00017b50   Data           0  tif_lzw.o(.text)
+    LZWDecodeCompat                          0x00017ccb   Thumb Code   846  tif_lzw.o(.text)
+    LZWPreDecode                             0x00018019   Thumb Code   174  tif_lzw.o(.text)
+    LZWSetupEncode                           0x000180c7   Thumb Code    50  tif_lzw.o(.text)
+    cl_hash                                  0x000180f9   Thumb Code    62  tif_lzw.o(.text)
+    LZWPreEncode                             0x00018137   Thumb Code    98  tif_lzw.o(.text)
+    LZWEncode                                0x00018199   Thumb Code   696  tif_lzw.o(.text)
+    LZWPostEncode                            0x00018451   Thumb Code   150  tif_lzw.o(.text)
+    LZWCleanup                               0x000184e7   Thumb Code    58  tif_lzw.o(.text)
+    NeXTDecode                               0x000185c9   Thumb Code   302  tif_next.o(.text)
+    .text                                    0x000185c8   Section      372  tif_next.o(.text)
+    _tiffDummyMapProc                        0x0001873d   Thumb Code     4  tif_open.o(.text)
+    .text                                    0x0001873c   Section     1368  tif_open.o(.text)
+    _tiffDummyUnmapProc                      0x00018741   Thumb Code     2  tif_open.o(.text)
+    TIFFInitOrder                            0x00018743   Thumb Code    40  tif_open.o(.text)
+    PackBitsPreEncode                        0x00018c95   Thumb Code    52  tif_packbits.o(.text)
+    .text                                    0x00018c94   Section      876  tif_packbits.o(.text)
+    PackBitsPostEncode                       0x00018cc9   Thumb Code    22  tif_packbits.o(.text)
+    PackBitsEncode                           0x00018cdf   Thumb Code   358  tif_packbits.o(.text)
+    PackBitsEncodeChunk                      0x00018e45   Thumb Code    66  tif_packbits.o(.text)
+    PackBitsDecode                           0x00018e87   Thumb Code   204  tif_packbits.o(.text)
+    horizontalAccumulateF                    0x00019001   Thumb Code   332  tif_pixarlog.o(.text)
+    .text                                    0x00019000   Section     8272  tif_pixarlog.o(.text)
+    horizontalAccumulate12                   0x0001914d   Thumb Code   798  tif_pixarlog.o(.text)
+    horizontalAccumulate16                   0x0001946b   Thumb Code   296  tif_pixarlog.o(.text)
+    horizontalAccumulate11                   0x00019593   Thumb Code   216  tif_pixarlog.o(.text)
+    horizontalAccumulate8                    0x0001966b   Thumb Code   264  tif_pixarlog.o(.text)
+    horizontalAccumulate8abgr                0x00019773   Thumb Code   328  tif_pixarlog.o(.text)
+    PixarLogMakeTables                       0x000198bb   Thumb Code   850  tif_pixarlog.o(.text)
+    PixarLogGuessDataFmt                     0x00019c0d   Thumb Code   172  tif_pixarlog.o(.text)
+    |L1.3220|                                0x00019c94   Data           0  tif_pixarlog.o(.text)
+    PixarLogSetupDecode                      0x00019cb9   Thumb Code   162  tif_pixarlog.o(.text)
+    PixarLogPreDecode                        0x00019d5b   Thumb Code    44  tif_pixarlog.o(.text)
+    PixarLogDecode                           0x00019d87   Thumb Code   486  tif_pixarlog.o(.text)
+    PixarLogSetupEncode                      0x00019f6d   Thumb Code   442  tif_pixarlog.o(.text)
+    |L1.4068|                                0x00019fe4   Data           0  tif_pixarlog.o(.text)
+    |L1.4076|                                0x00019fec   Data           0  tif_pixarlog.o(.text)
+    |L1.4084|                                0x00019ff4   Data           0  tif_pixarlog.o(.text)
+    |L1.4164|                                0x0001a044   Data           0  tif_pixarlog.o(.text)
+    PixarLogPreEncode                        0x0001a127   Thumb Code    44  tif_pixarlog.o(.text)
+    horizontalDifferenceF                    0x0001a153   Thumb Code  2002  tif_pixarlog.o(.text)
+    |L1.5348|                                0x0001a4e4   Data           0  tif_pixarlog.o(.text)
+    |L1.5360|                                0x0001a4f0   Data           0  tif_pixarlog.o(.text)
+    horizontalDifference16                   0x0001a925   Thumb Code   334  tif_pixarlog.o(.text)
+    horizontalDifference8                    0x0001aa73   Thumb Code   304  tif_pixarlog.o(.text)
+    PixarLogEncode                           0x0001aba3   Thumb Code   346  tif_pixarlog.o(.text)
+    PixarLogPostEncode                       0x0001acfd   Thumb Code    98  tif_pixarlog.o(.text)
+    PixarLogClose                            0x0001ad5f   Thumb Code    12  tif_pixarlog.o(.text)
+    PixarLogCleanup                          0x0001ad6b   Thumb Code   152  tif_pixarlog.o(.text)
+    PixarLogVSetField                        0x0001ae03   Thumb Code   202  tif_pixarlog.o(.text)
+    PixarLogVGetField                        0x0001aecd   Thumb Code    44  tif_pixarlog.o(.text)
+    multiply                                 0x0001afa9   Thumb Code    30  tif_pixarlog.o(.text)
+    PredictorSetup                           0x0001b051   Thumb Code   124  tif_predict.o(.text)
+    .text                                    0x0001b050   Section     2928  tif_predict.o(.text)
+    PredictorDecodeTile                      0x0001b0cd   Thumb Code    60  tif_predict.o(.text)
+    PredictorDecodeRow                       0x0001b109   Thumb Code    46  tif_predict.o(.text)
+    fpAcc                                    0x0001b137   Thumb Code   192  tif_predict.o(.text)
+    swabHorAcc32                             0x0001b1f7   Thumb Code   128  tif_predict.o(.text)
+    horAcc32                                 0x0001b277   Thumb Code   118  tif_predict.o(.text)
+    swabHorAcc16                             0x0001b2ed   Thumb Code   126  tif_predict.o(.text)
+    horAcc16                                 0x0001b36b   Thumb Code   222  tif_predict.o(.text)
+    horAcc8                                  0x0001b449   Thumb Code   184  tif_predict.o(.text)
+    PredictorSetupDecode                     0x0001b501   Thumb Code   180  tif_predict.o(.text)
+    PredictorEncodeTile                      0x0001b5b5   Thumb Code   112  tif_predict.o(.text)
+    PredictorEncodeRow                       0x0001b625   Thumb Code    40  tif_predict.o(.text)
+    fpDiff                                   0x0001b64d   Thumb Code   208  tif_predict.o(.text)
+    horDiff32                                0x0001b71d   Thumb Code   126  tif_predict.o(.text)
+    horDiff16                                0x0001b79b   Thumb Code   124  tif_predict.o(.text)
+    horDiff8                                 0x0001b817   Thumb Code   290  tif_predict.o(.text)
+    PredictorSetupEncode                     0x0001b939   Thumb Code   108  tif_predict.o(.text)
+    PredictorVSetField                       0x0001b9a5   Thumb Code    54  tif_predict.o(.text)
+    PredictorVGetField                       0x0001b9db   Thumb Code    34  tif_predict.o(.text)
+    PredictorPrintDir                        0x0001b9fd   Thumb Code    88  tif_predict.o(.text)
+    _TIFFPrintField                          0x0001bbc1   Thumb Code   222  tif_print.o(.text)
+    .text                                    0x0001bbc0   Section     4452  tif_print.o(.text)
+    _TIFFPrettyPrintField                    0x0001bc9f   Thumb Code   540  tif_print.o(.text)
+    |L1.584|                                 0x0001be08   Data           0  tif_print.o(.text)
+    |L1.2060|                                0x0001c3cc   Data           0  tif_print.o(.text)
+    |L1.3696|                                0x0001ca30   Data           0  tif_print.o(.text)
+    TIFFStartStrip                           0x0001cd25   Thumb Code   112  tif_read.o(.text)
+    .text                                    0x0001cd24   Section     3248  tif_read.o(.text)
+    TIFFReadRawStrip1                        0x0001cd95   Thumb Code   168  tif_read.o(.text)
+    TIFFSeek                                 0x0001d0e1   Thumb Code   166  tif_read.o(.text)
+    TIFFCheckRead                            0x0001d187   Thumb Code    56  tif_read.o(.text)
+    TIFFStartTile                            0x0001d481   Thumb Code   158  tif_read.o(.text)
+    TIFFReadRawTile1                         0x0001d51f   Thumb Code   180  tif_read.o(.text)
+    summarize                                0x0001d9d5   Thumb Code    32  tif_strip.o(.text)
+    .text                                    0x0001d9d4   Section     1260  tif_strip.o(.text)
+    multiply                                 0x0001d9f5   Thumb Code    52  tif_strip.o(.text)
+    .text                                    0x0001dec0   Section      232  tif_swab.o(.text)
+    ThunderDecode                            0x0001dfa9   Thumb Code   388  tif_thunder.o(.text)
+    .text                                    0x0001dfa8   Section      536  tif_thunder.o(.text)
+    ThunderDecodeRow                         0x0001e12d   Thumb Code    46  tif_thunder.o(.text)
+    multiply                                 0x0001e1c1   Thumb Code    52  tif_tile.o(.text)
+    .text                                    0x0001e1c0   Section     1124  tif_tile.o(.text)
+    .text                                    0x0001e624   Section        8  tif_version.o(.text)
+    .text                                    0x0001e62c   Section      132  tif_warning.o(.text)
+    TIFFGrowStrips                           0x0001e6b1   Thumb Code   130  tif_write.o(.text)
+    .text                                    0x0001e6b0   Section     3000  tif_write.o(.text)
+    TIFFAppendToStrip                        0x0001ec1f   Thumb Code   166  tif_write.o(.text)
+    |L1.2036|                                0x0001eea4   Data           0  tif_write.o(.text)
+    ZIPSetupDecode                           0x0001f269   Thumb Code    84  tif_zip.o(.text)
+    .text                                    0x0001f268   Section     1276  tif_zip.o(.text)
+    ZIPPreDecode                             0x0001f2bd   Thumb Code    64  tif_zip.o(.text)
+    ZIPDecode                                0x0001f2fd   Thumb Code   142  tif_zip.o(.text)
+    ZIPSetupEncode                           0x0001f38b   Thumb Code    88  tif_zip.o(.text)
+    ZIPPreEncode                             0x0001f3e3   Thumb Code    64  tif_zip.o(.text)
+    ZIPEncode                                0x0001f423   Thumb Code    94  tif_zip.o(.text)
+    ZIPPostEncode                            0x0001f481   Thumb Code   100  tif_zip.o(.text)
+    ZIPCleanup                               0x0001f4e5   Thumb Code    84  tif_zip.o(.text)
+    ZIPVSetField                             0x0001f539   Thumb Code    84  tif_zip.o(.text)
+    ZIPVGetField                             0x0001f58d   Thumb Code    36  tif_zip.o(.text)
+    _tiffReadProc                            0x0001f765   Thumb Code     8  tif_unix.o(.text)
+    .text                                    0x0001f764   Section      436  tif_unix.o(.text)
+    _tiffWriteProc                           0x0001f76d   Thumb Code     8  tif_unix.o(.text)
+    _tiffSeekProc                            0x0001f775   Thumb Code    14  tif_unix.o(.text)
+    _tiffCloseProc                           0x0001f783   Thumb Code     8  tif_unix.o(.text)
+    _tiffSizeProc                            0x0001f78b   Thumb Code    24  tif_unix.o(.text)
+    _tiffMapProc                             0x0001f7a3   Thumb Code     4  tif_unix.o(.text)
+    _tiffUnmapProc                           0x0001f7a7   Thumb Code     2  tif_unix.o(.text)
+    unixWarningHandler                       0x0001f867   Thumb Code    58  tif_unix.o(.text)
+    unixErrorHandler                         0x0001f8a1   Thumb Code    48  tif_unix.o(.text)
+    .text                                    0x0001f918   Section       44  lfind.o(.text)
+    .text                                    0x0001f944   Section     3764  qtiffhandler.o(.text)
+    |L1.1244|                                0x0001fe20   Data           0  qtiffhandler.o(.text)
+    |L1.1280|                                0x0001fe44   Data           0  qtiffhandler.o(.text)
+    checkGrayscale(const QVector<unsigned>&) 0x0002079d   Thumb Code    92  qtiffhandler.o(.text)
+    .text                                    0x000207f8   Section      396  main.o(.text)
+    .text                                    0x00020984   Section       24  switch8.o(.text)
+    .text                                    0x0002099c   Section       60  uc_dll.o(.text)
+    .text                                    0x000209d8   Section      144  ucppfini.o(.text)
+    .text                                    0x00020a68   Section        4  dllexp.o(.text)
+    .text.clean                              0x00020a6c   Section      106  qtiffhandler.o(.text.clean)
+    .text.clean                              0x00020ad8   Section       60  main.o(.text.clean)
+    i._Z28rotate_right_mirror_verticalP6QImage 0x00020b14   Section      120  qtiffhandler.o(i._Z28rotate_right_mirror_verticalP6QImage)
+    i._Z28rotate_right_mirror_verticalP6QImage.clean 0x00020b8c   Section       10  qtiffhandler.o(i._Z28rotate_right_mirror_verticalP6QImage.clean)
+    i._Z30rotate_right_mirror_horizontalP6QImage 0x00020b96   Section      102  qtiffhandler.o(i._Z30rotate_right_mirror_horizontalP6QImage)
+    i._Z30rotate_right_mirror_horizontalP6QImage.clean 0x00020bfc   Section       10  qtiffhandler.o(i._Z30rotate_right_mirror_horizontalP6QImage.clean)
+    i._Z4qRgbiii                             0x00020c06   Section       24  qtiffhandler.o(i._Z4qRgbiii)
+    i._Z6qRoundf                             0x00020c1e   Section       70  qtiffhandler.o(i._Z6qRoundf)
+    i._ZN10QByteArrayD1Ev                    0x00020c64   Section       24  qtiffhandler.o(i._ZN10QByteArrayD1Ev)
+    i._ZN11QStringListD1Ev                   0x00020c7c   Section        8  main.o(i._ZN11QStringListD1Ev)
+    i._ZN11QStringListlsERK7QString          0x00020c84   Section       12  main.o(i._ZN11QStringListlsERK7QString)
+    i._ZN11QTiffPluginD0Ev                   0x00020c90   Section       16  main.o(i._ZN11QTiffPluginD0Ev)
+    i._ZN11QTiffPluginD1Ev                   0x00020ca0   Section        8  main.o(i._ZN11QTiffPluginD1Ev)
+    i._ZN12QTiffHandlerD0Ev                  0x00020ca8   Section       16  qtiffhandler.o(i._ZN12QTiffHandlerD0Ev)
+    i._ZN12QTiffHandlerD1Ev                  0x00020cb8   Section        8  qtiffhandler.o(i._ZN12QTiffHandlerD1Ev)
+    i._ZN15QBasicAtomicInt3refEv             0x00020cc0   Section       18  main.o(i._ZN15QBasicAtomicInt3refEv)
+    i._ZN15QBasicAtomicInt5derefEv           0x00020cd2   Section       18  qtiffhandler.o(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN7QStringC1ERK13QLatin1String        0x00020ce4   Section       20  main.o(i._ZN7QStringC1ERK13QLatin1String)
+    i._ZN7QStringC1ERKS_                     0x00020cf8   Section       16  main.o(i._ZN7QStringC1ERKS_)
+    i._ZN7QStringD1Ev                        0x00020d08   Section       24  main.o(i._ZN7QStringD1Ev)
+    i._ZNK10QByteArray7isEmptyEv             0x00020d20   Section       16  main.o(i._ZNK10QByteArray7isEmptyEv)
+    i._ZNK15QBasicAtomicIntneEi              0x00020d30   Section       14  qtiffhandler.o(i._ZNK15QBasicAtomicIntneEi)
+    i._ZNK6QImage4copyEiiii                  0x00020d3e   Section       30  qtiffhandler.o(i._ZNK6QImage4copyEiiii)
+    i._ZNK9QListData3endEv                   0x00020d5c   Section       12  main.o(i._ZNK9QListData3endEv)
+    i._ZNK9QListData5beginEv                 0x00020d68   Section       12  main.o(i._ZNK9QListData5beginEv)
+    i._ZThn8_N11QTiffPluginD0Ev              0x00020d74   Section       10  main.o(i._ZThn8_N11QTiffPluginD0Ev)
+    i._ZThn8_N11QTiffPluginD1Ev              0x00020d7e   Section       10  main.o(i._ZThn8_N11QTiffPluginD1Ev)
+    i._ZdlPvS_                               0x00020d88   Section        2  main.o(i._ZdlPvS_)
+    i._ZeqRK10QByteArrayPKc                  0x00020d8a   Section       28  main.o(i._ZeqRK10QByteArrayPKc)
+    i._ZeqRK10QByteArrayS1_                  0x00020da6   Section       34  qtiffhandler.o(i._ZeqRK10QByteArrayS1_)
+    i._ZneRK5QSizeS1_                        0x00020dc8   Section       24  qtiffhandler.o(i._ZneRK5QSizeS1_)
+    i._ZnwjPv                                0x00020de0   Section        4  main.o(i._ZnwjPv)
+    t._Z4qMinIiERKT_S2_S2_                   0x00020de4   Section       12  qtiffhandler.o(t._Z4qMinIiERKT_S2_S2_)
+    t._ZN5QListI7QStringE13detach_helperEv   0x00020df0   Section       88  main.o(t._ZN5QListI7QStringE13detach_helperEv)
+    t._ZN5QListI7QStringE13detach_helperEv.clean 0x00020e48   Section        8  main.o(t._ZN5QListI7QStringE13detach_helperEv.clean)
+    t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_ 0x00020e50   Section       26  main.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_)
+    t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_.clean 0x00020e6a   Section       12  main.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_.clean)
+    t._ZN5QListI7QStringE18detach_helper_growEii 0x00020e76   Section      186  main.o(t._ZN5QListI7QStringE18detach_helper_growEii)
+    t._ZN5QListI7QStringE18detach_helper_growEii.clean 0x00020f30   Section        8  main.o(t._ZN5QListI7QStringE18detach_helper_growEii.clean)
+    t._ZN5QListI7QStringE4freeEPN9QListData4DataE 0x00020f38   Section       48  main.o(t._ZN5QListI7QStringE4freeEPN9QListData4DataE)
+    t._ZN5QListI7QStringE6appendERKS0_       0x00020f68   Section       96  main.o(t._ZN5QListI7QStringE6appendERKS0_)
+    t._ZN5QListI7QStringE6appendERKS0_.clean 0x00020fc8   Section        8  main.o(t._ZN5QListI7QStringE6appendERKS0_.clean)
+    t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_ 0x00020fd0   Section       70  main.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_)
+    t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_.clean 0x00021016   Section       22  main.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_.clean)
+    t._ZN5QListI7QStringED1Ev                0x0002102c   Section       30  main.o(t._ZN5QListI7QStringED1Ev)
+    t._ZN7QVectorIjE13detach_helperEv        0x0002104a   Section       14  qtiffhandler.o(t._ZN7QVectorIjE13detach_helperEv)
+    t._ZN7QVectorIjE4freeEP16QVectorTypedDataIjE 0x00021058   Section       12  qtiffhandler.o(t._ZN7QVectorIjE4freeEP16QVectorTypedDataIjE)
+    t._ZN7QVectorIjE6mallocEi                0x00021064   Section       26  qtiffhandler.o(t._ZN7QVectorIjE6mallocEi)
+    t._ZN7QVectorIjE7reallocEii              0x0002107e   Section      234  qtiffhandler.o(t._ZN7QVectorIjE7reallocEii)
+    t._ZN7QVectorIjE7reallocEii.clean        0x00021168   Section        8  qtiffhandler.o(t._ZN7QVectorIjE7reallocEii.clean)
+    t._ZN7QVectorIjEC1ERKS0_                 0x00021170   Section       30  qtiffhandler.o(t._ZN7QVectorIjEC1ERKS0_)
+    t._ZN7QVectorIjEC1Ei                     0x0002118e   Section       56  qtiffhandler.o(t._ZN7QVectorIjEC1Ei)
+    t._ZN7QVectorIjED1Ev                     0x000211c6   Section       30  qtiffhandler.o(t._ZN7QVectorIjED1Ev)
+    t._ZN7QVectorIjEixEi                     0x000211e4   Section       34  qtiffhandler.o(t._ZN7QVectorIjEixEi)
+    t._ZN8QPointerI7QObjectED1Ev             0x00021206   Section       12  main.o(t._ZN8QPointerI7QObjectED1Ev)
+    .extab.TIFFReadRGBAImageOriented         0x00021214   Data           0  tif_getimage.o(.ARM.extab)
+    .extab.TIFFReadRGBAStrip                 0x00021220   Data           0  tif_getimage.o(.ARM.extab)
+    .extab.TIFFReadRGBATile                  0x0002122c   Data           0  tif_getimage.o(.ARM.extab)
+    .extab.oog_encode                        0x00021238   Data           0  tif_luv.o(.ARM.extab)
+    .extab._ZN12QTiffHandler7canReadEP9QIODevice 0x00021244   Data           0  qtiffhandler.o(.ARM.extab)
+    .extab._ZNK12QTiffHandler7canReadEv      0x00021274   Data           0  qtiffhandler.o(.ARM.extab)
+    .extab._ZN12QTiffHandler4readEP6QImage   0x00021284   Data           0  qtiffhandler.o(.ARM.extab)
+    .extab._ZN12QTiffHandler5writeERK6QImage 0x0002131c   Data           0  qtiffhandler.o(.ARM.extab)
+    .extab._Z30rotate_right_mirror_horizontalP6QImage 0x00021364   Data           0  qtiffhandler.o(.ARM.extab)
+    .extab._Z28rotate_right_mirror_verticalP6QImage 0x00021374   Data           0  qtiffhandler.o(.ARM.extab)
+    .extab._ZN7QVectorIjE7reallocEii         0x00021384   Data           0  qtiffhandler.o(.ARM.extab)
+    .extab.qt_plugin_instance                0x000213a0   Data           0  main.o(.ARM.extab)
+    .extab._ZNK11QTiffPlugin6createEP9QIODeviceRK10QByteArray 0x000213b8   Data           0  main.o(.ARM.extab)
+    .extab._ZNK11QTiffPlugin4keysEv          0x000213c8   Data           0  main.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_ 0x000213f8   Data           0  main.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE18detach_helper_growEii 0x0002141c   Data           0  main.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE13detach_helperEv 0x0002144c   Data           0  main.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE6appendERKS0_  0x00021468   Data           0  main.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_ 0x00021498   Data           0  main.o(.ARM.extab)
+    .constdata$1                             0x000214a8   Data           0  tif_dir.o(.constdata)
+    module@_TIFFVSetField_0                  0x000214a8   Data          15  tif_dir.o(.constdata)
+    .constdata                               0x000214a8   Section       56  tif_dir.o(.constdata)
+    module@TIFFAdvanceDirectory_0            0x000214b7   Data          21  tif_dir.o(.constdata)
+    module@TIFFUnlinkDirectory_0             0x000214cc   Data          20  tif_dir.o(.constdata)
+    .constdata$1                             0x000214e0   Data           0  tif_dirinfo.o(.constdata)
+    tiffFieldInfo                            0x000214e0   Data        3320  tif_dirinfo.o(.constdata)
+    .constdata                               0x000214e0   Section     4521  tif_dirinfo.o(.constdata)
+    exifFieldInfo                            0x000221d8   Data        1160  tif_dirinfo.o(.constdata)
+    module@_TIFFMergeFieldInfo_0             0x00022660   Data          20  tif_dirinfo.o(.constdata)
+    reason@_TIFFMergeFieldInfo_1             0x00022674   Data          21  tif_dirinfo.o(.constdata)
+    .constdata$1                             0x0002268c   Data           0  tif_dirread.o(.constdata)
+    module@TIFFReadDirectory_0               0x0002268c   Data          18  tif_dirread.o(.constdata)
+    .constdata                               0x0002268c   Section      616  tif_dirread.o(.constdata)
+    module@TIFFReadCustomDirectory_0         0x0002269e   Data          24  tif_dirread.o(.constdata)
+    module@EstimateStripByteCounts_0         0x000226b6   Data          24  tif_dirread.o(.constdata)
+    module@MissingRequired_0                 0x000226ce   Data          16  tif_dirread.o(.constdata)
+    module@TIFFFetchDirectory_0              0x000226de   Data          19  tif_dirread.o(.constdata)
+    mesg@TIFFFetchNormalTag_0                0x000226f1   Data          19  tif_dirread.o(.constdata)
+    mesg@TIFFFetchRefBlackWhite_0            0x00022704   Data          32  tif_dirread.o(.constdata)
+    .constdata$1                             0x000228f4   Data           0  tif_dirwrite.o(.constdata)
+    module@TIFFRewriteDirectory_0            0x000228f4   Data          21  tif_dirwrite.o(.constdata)
+    .constdata                               0x000228f4   Section      108  tif_dirwrite.o(.constdata)
+    module@TIFFLinkDirectory_0               0x00022909   Data          18  tif_dirwrite.o(.constdata)
+    .constdata$1                             0x00022960   Data           0  tif_fax3.o(.constdata)
+    .constdata                               0x00022960   Section     2288  tif_fax3.o(.constdata)
+    _msbmask                                 0x00022e7c   Data          36  tif_fax3.o(.constdata)
+    zeroruns                                 0x00022ea0   Data         256  tif_fax3.o(.constdata)
+    oneruns                                  0x00022fa0   Data         256  tif_fax3.o(.constdata)
+    vcodes                                   0x000230a0   Data          42  tif_fax3.o(.constdata)
+    faxFieldInfo                             0x000230cc   Data         220  tif_fax3.o(.constdata)
+    fax3FieldInfo                            0x000231a8   Data          20  tif_fax3.o(.constdata)
+    fax4FieldInfo                            0x000231bc   Data          20  tif_fax3.o(.constdata)
+    module@Fax3Decode1D_0                    0x000231d0   Data          13  tif_fax3.o(.constdata)
+    module@Fax3Decode2D_0                    0x000231dd   Data          13  tif_fax3.o(.constdata)
+    _fillmasks@_TIFFFax3fillruns_0           0x000231ea   Data           9  tif_fax3.o(.constdata)
+    module@Fax4Decode_0                      0x000231f3   Data          11  tif_fax3.o(.constdata)
+    module@Fax3DecodeRLE_0                   0x000231fe   Data          14  tif_fax3.o(.constdata)
+    .constdata$7                             0x00023250   Data           0  tif_fax3sm.o(.constdata)
+    .constdata                               0x00023250   Section     1024  tif_fax3sm.o(.constdata)
+    .constdata$13                            0x00023650   Data           0  tif_fax3sm.o(.constdata)
+    .constdata                               0x00023650   Section    32768  tif_fax3sm.o(.constdata)
+    .constdata$19                            0x0002b650   Data           0  tif_fax3sm.o(.constdata)
+    .constdata                               0x0002b650   Section    65536  tif_fax3sm.o(.constdata)
+    .constdata$1                             0x0003b650   Data           0  tif_getimage.o(.constdata)
+    photoTag                                 0x0003b650   Data          26  tif_getimage.o(.constdata)
+    .constdata                               0x0003b650   Section      180  tif_getimage.o(.constdata)
+    .constdata$1                             0x0003b704   Data           0  tif_luv.o(.constdata)
+    LogLuvFieldInfo                          0x0003b704   Data          40  tif_luv.o(.constdata)
+    .constdata                               0x0003b704   Section      160  tif_luv.o(.constdata)
+    module@LogL16InitState_0                 0x0003b72c   Data          16  tif_luv.o(.constdata)
+    module@LogLuvInitState_0                 0x0003b73c   Data          16  tif_luv.o(.constdata)
+    module@TIFFInitSGILog_0                  0x0003b74c   Data          15  tif_luv.o(.constdata)
+    .constdata$1                             0x0003b7a4   Data           0  tif_lzw.o(.constdata)
+    module@LZWSetupDecode_0                  0x0003b7a4   Data          16  tif_lzw.o(.constdata)
+    .constdata                               0x0003b7a4   Section      272  tif_lzw.o(.constdata)
+    module@LZWSetupEncode_0                  0x0003b7b4   Data          15  tif_lzw.o(.constdata)
+    .constdata$1                             0x0003b8b4   Data           0  tif_open.o(.constdata)
+    typemask                                 0x0003b8b4   Data          52  tif_open.o(.constdata)
+    .constdata                               0x0003b8b4   Section      252  tif_open.o(.constdata)
+    bigTypeshift                             0x0003b8e8   Data          52  tif_open.o(.constdata)
+    litTypeshift                             0x0003b91c   Data          52  tif_open.o(.constdata)
+    module@TIFFClientOpen_0                  0x0003b950   Data          15  tif_open.o(.constdata)
+    .constdata$1                             0x0003b9b0   Data           0  tif_pixarlog.o(.constdata)
+    pixarlogFieldInfo                        0x0003b9b0   Data          40  tif_pixarlog.o(.constdata)
+    .constdata                               0x0003b9b0   Section      320  tif_pixarlog.o(.constdata)
+    module@PixarLogSetupDecode_0             0x0003b9d8   Data          20  tif_pixarlog.o(.constdata)
+    module@PixarLogDecode_0                  0x0003b9ec   Data          15  tif_pixarlog.o(.constdata)
+    module@PixarLogSetupEncode_0             0x0003b9fb   Data          20  tif_pixarlog.o(.constdata)
+    module@PixarLogEncode_0                  0x0003ba0f   Data          15  tif_pixarlog.o(.constdata)
+    module@PixarLogPostEncode_0              0x0003ba1e   Data          19  tif_pixarlog.o(.constdata)
+    module@PixarLogVSetField_0               0x0003ba31   Data          18  tif_pixarlog.o(.constdata)
+    module@TIFFInitPixarLog_0                0x0003ba43   Data          17  tif_pixarlog.o(.constdata)
+    .constdata$1                             0x0003baf0   Data           0  tif_predict.o(.constdata)
+    predictFieldInfo                         0x0003baf0   Data          20  tif_predict.o(.constdata)
+    .constdata                               0x0003baf0   Section      128  tif_predict.o(.constdata)
+    module@PredictorSetup_0                  0x0003bb04   Data          15  tif_predict.o(.constdata)
+    module@PredictorEncodeTile_0             0x0003bb13   Data          20  tif_predict.o(.constdata)
+    .constdata$1                             0x0003bb70   Data           0  tif_read.o(.constdata)
+    module@TIFFReadRawStrip_0                0x0003bb70   Data          17  tif_read.o(.constdata)
+    .constdata                               0x0003bb70   Section      296  tif_read.o(.constdata)
+    module@TIFFFillStrip_0                   0x0003bb81   Data          14  tif_read.o(.constdata)
+    module@TIFFReadRawTile_0                 0x0003bb8f   Data          16  tif_read.o(.constdata)
+    module@TIFFFillTile_0                    0x0003bb9f   Data          13  tif_read.o(.constdata)
+    module@TIFFReadBufferSetup_0             0x0003bbac   Data          20  tif_read.o(.constdata)
+    .constdata$1                             0x0003bc98   Data           0  tif_swab.o(.constdata)
+    TIFFBitRevTable                          0x0003bc98   Data         256  tif_swab.o(.constdata)
+    .constdata                               0x0003bc98   Section      512  tif_swab.o(.constdata)
+    TIFFNoBitRevTable                        0x0003bd98   Data         256  tif_swab.o(.constdata)
+    .constdata$1                             0x0003be98   Data           0  tif_thunder.o(.constdata)
+    twobitdeltas                             0x0003be98   Data          16  tif_thunder.o(.constdata)
+    .constdata                               0x0003be98   Section       48  tif_thunder.o(.constdata)
+    threebitdeltas                           0x0003bea8   Data          32  tif_thunder.o(.constdata)
+    .constdata$1                             0x0003bec8   Data           0  tif_version.o(.constdata)
+    TIFFVersion                              0x0003bec8   Data         106  tif_version.o(.constdata)
+    .constdata                               0x0003bec8   Section      106  tif_version.o(.constdata)
+    .constdata$1                             0x0003bf32   Data           0  tif_write.o(.constdata)
+    module@TIFFWriteScanline_0               0x0003bf32   Data          18  tif_write.o(.constdata)
+    .constdata                               0x0003bf32   Section      135  tif_write.o(.constdata)
+    module@TIFFWriteEncodedStrip_0           0x0003bf44   Data          22  tif_write.o(.constdata)
+    module@TIFFWriteRawStrip_0               0x0003bf5a   Data          18  tif_write.o(.constdata)
+    module@TIFFWriteEncodedTile_0            0x0003bf6c   Data          21  tif_write.o(.constdata)
+    module@TIFFWriteRawTile_0                0x0003bf81   Data          17  tif_write.o(.constdata)
+    module@TIFFWriteBufferSetup_0            0x0003bf92   Data          21  tif_write.o(.constdata)
+    module@TIFFAppendToStrip_0               0x0003bfa7   Data          18  tif_write.o(.constdata)
+    .constdata$1                             0x0003bfbc   Data           0  tif_zip.o(.constdata)
+    zipFieldInfo                             0x0003bfbc   Data          20  tif_zip.o(.constdata)
+    .constdata                               0x0003bfbc   Section      109  tif_zip.o(.constdata)
+    module@ZIPSetupDecode_0                  0x0003bfd0   Data          15  tif_zip.o(.constdata)
+    module@ZIPDecode_0                       0x0003bfdf   Data          10  tif_zip.o(.constdata)
+    module@ZIPSetupEncode_0                  0x0003bfe9   Data          15  tif_zip.o(.constdata)
+    module@ZIPEncode_0                       0x0003bff8   Data          10  tif_zip.o(.constdata)
+    module@ZIPPostEncode_0                   0x0003c002   Data          14  tif_zip.o(.constdata)
+    module@ZIPVSetField_0                    0x0003c010   Data          13  tif_zip.o(.constdata)
+    module@TIFFInitZIP_0                     0x0003c01d   Data          12  tif_zip.o(.constdata)
+    .constdata$1                             0x0003c029   Data           0  tif_unix.o(.constdata)
+    module@TIFFOpen_0                        0x0003c029   Data           9  tif_unix.o(.constdata)
+    .constdata                               0x0003c029   Section        9  tif_unix.o(.constdata)
+    .constdata$1                             0x0003c032   Data           0  main.o(.constdata)
+    qt_plugin_verification_data              0x0003c032   Data          91  main.o(.constdata)
+    .constdata                               0x0003c032   Section       91  main.o(.constdata)
+    .constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE 0x0003c090   Section        4  qtiffhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE 0x0003c094   Section        4  qtiffhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE 0x0003c098   Section        4  qtiffhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE 0x0003c09c   Section        4  qtiffhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE 0x0003c0a0   Section        4  qtiffhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE 0x0003c0a4   Section        1  qtiffhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE 0x0003c0a8   Section        4  qtiffhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE 0x0003c0ac   Section        4  qtiffhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE 0x0003c0b0   Section        4  qtiffhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE 0x0003c0b4   Section        4  qtiffhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE 0x0003c0b8   Section        4  qtiffhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE 0x0003c0bc   Section        4  qtiffhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE 0x0003c0c0   Section        4  qtiffhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE 0x0003c0c4   Section        4  qtiffhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    .constdata__ZTI11QTiffPlugin             0x0003c0c8   Section       12  main.o(.constdata__ZTI11QTiffPlugin)
+    .constdata__ZTI12QTiffHandler            0x0003c0d4   Section       12  qtiffhandler.o(.constdata__ZTI12QTiffHandler)
+    .constdata__ZTS11QTiffPlugin             0x0003c0e0   Section       14  main.o(.constdata__ZTS11QTiffPlugin)
+    .constdata__ZTS12QTiffHandler            0x0003c0ee   Section       15  qtiffhandler.o(.constdata__ZTS12QTiffHandler)
+    .constdata__ZTV11QTiffPlugin             0x0003c100   Section       92  main.o(.constdata__ZTV11QTiffPlugin)
+    .constdata__ZTV12QTiffHandler            0x0003c15c   Section       72  qtiffhandler.o(.constdata__ZTV12QTiffHandler)
+    .conststring$9                           0x0003c1a4   Data           0  tif_codec.o(.conststring)
+    .conststring                             0x0003c1a4   Section      160  tif_codec.o(.conststring)
+    .conststring$3                           0x0003c237   Data           0  tif_dirinfo.o(.conststring)
+    .conststring                             0x0003c237   Section     2801  tif_dirinfo.o(.conststring)
+    .conststring$3                           0x0003ccb9   Data           0  tif_fax3.o(.conststring)
+    .conststring                             0x0003ccb9   Section      143  tif_fax3.o(.conststring)
+    .conststring$3                           0x0003cd3c   Data           0  tif_luv.o(.conststring)
+    .conststring                             0x0003cd3c   Section       27  tif_luv.o(.conststring)
+    .conststring$3                           0x0003cd57   Data           0  tif_predict.o(.conststring)
+    .conststring                             0x0003cd57   Section       10  tif_predict.o(.conststring)
+    .conststring$3                           0x0003cd61   Data           0  tif_print.o(.conststring)
+    .conststring                             0x0003cd61   Section      311  tif_print.o(.conststring)
+    .ARM.exidx                               0x0003ce98   Section        8  ucppinit.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  tif_aux.o(.data)
+    whitepoint@TIFFVGetFieldDefaulted_1      0x00400000   Data           8  tif_aux.o(.data)
+    .data                                    0x00400000   Section       44  tif_aux.o(.data)
+    ycbcrcoeffs@TIFFVGetFieldDefaulted_0     0x00400008   Data          12  tif_aux.o(.data)
+    ycbcr_refblackwhite@TIFFVGetFieldDefaulted_2 0x00400014   Data          24  tif_aux.o(.data)
+    .data$6                                  0x0040002c   Data           0  tif_codec.o(.data)
+    .data                                    0x0040002c   Section      216  tif_codec.o(.data)
+    .data$0                                  0x00400104   Data           0  tif_compress.o(.data)
+    registeredCODECS                         0x00400104   Data           4  tif_compress.o(.data)
+    .data                                    0x00400104   Section        4  tif_compress.o(.data)
+    .data$0                                  0x00400108   Data           0  tif_dir.o(.data)
+    _TIFFextender                            0x00400108   Data           4  tif_dir.o(.data)
+    .data                                    0x00400108   Section        8  tif_dir.o(.data)
+    tagcount@TIFFReassignTagToIgnore_1       0x0040010c   Data           4  tif_dir.o(.data)
+    .data$0                                  0x00400110   Data           0  tif_error.o(.data)
+    .data                                    0x00400110   Section        4  tif_error.o(.data)
+    .data$0                                  0x00400114   Data           0  tif_getimage.o(.data)
+    .data                                    0x00400114   Section      125  tif_getimage.o(.data)
+    module@initYCbCrConversion_0             0x00400168   Data          20  tif_getimage.o(.data)
+    module@initCIELabConversion_0            0x0040017c   Data          21  tif_getimage.o(.data)
+    .data$0                                  0x00400194   Data           0  tif_luv.o(.data)
+    initialized@oog_encode_1                 0x00400194   Data           4  tif_luv.o(.data)
+    .data                                    0x00400194   Section     1308  tif_luv.o(.data)
+    uv_row                                   0x00400198   Data        1304  tif_luv.o(.data)
+    .data$0                                  0x004006b0   Data           0  tif_pixarlog.o(.data)
+    Fltsize                                  0x004006b0   Data           4  tif_pixarlog.o(.data)
+    .data                                    0x004006b0   Section       12  tif_pixarlog.o(.data)
+    LogK1                                    0x004006b4   Data           4  tif_pixarlog.o(.data)
+    LogK2                                    0x004006b8   Data           4  tif_pixarlog.o(.data)
+    .data$0                                  0x004006bc   Data           0  tif_print.o(.data)
+    photoNames                               0x004006bc   Data          36  tif_print.o(.data)
+    .data                                    0x004006bc   Section       72  tif_print.o(.data)
+    orientNames                              0x004006e0   Data          36  tif_print.o(.data)
+    .data$0                                  0x00400704   Data           0  tif_warning.o(.data)
+    .data                                    0x00400704   Section        4  tif_warning.o(.data)
+    .data$6                                  0x00400708   Data           0  tif_unix.o(.data)
+    .data                                    0x00400708   Section        4  tif_unix.o(.data)
+    .data$12                                 0x0040070c   Data           0  tif_unix.o(.data)
+    .data                                    0x0040070c   Section        4  tif_unix.o(.data)
+    .data$0                                  0x00400710   Data           0  main.o(.data)
+    _ZGV_instance@qt_plugin_instance_0       0x00400710   Data           4  main.o(.data)
+    .data                                    0x00400710   Section        8  main.o(.data)
+    _instance@qt_plugin_instance_1           0x00400714   Data           4  main.o(.data)
+    .data$0                                  0x00400718   Data           0  ucppfini.o(.data)
+    .data                                    0x00400718   Section        4  ucppfini.o(.data)
+    .data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE 0x0040071c   Section       12  qtiffhandler.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    .bss$5                                   0x00400728   Data           0  tif_aux.o(.bss)
+    rgb_refblackwhite@TIFFVGetFieldDefaulted_3 0x00400728   Data          24  tif_aux.o(.bss)
+    .bss                                     0x00400728   Section       24  tif_aux.o(.bss)
+    .bss$5                                   0x00400740   Data           0  tif_dir.o(.bss)
+    TIFFignoretags@TIFFReassignTagToIgnore_0 0x00400740   Data         508  tif_dir.o(.bss)
+    .bss                                     0x00400740   Section      508  tif_dir.o(.bss)
+    .bss$5                                   0x0040093c   Data           0  tif_luv.o(.bss)
+    oog_table@oog_encode_0                   0x0040093c   Data         400  tif_luv.o(.bss)
+    .bss                                     0x0040093c   Section      400  tif_luv.o(.bss)
+    .bss$5                                   0x00400acc   Data           0  ucppfini.o(.bss)
+    .bss                                     0x00400acc   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$VFPv2$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$IEEEJ$EBA8$UX$FPIC$INDIRECT$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    QtCore{00040703}[2001b2dc].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtGui{00040703}[2001b2dd].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    dfpaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtrvct2_2{000a0000}.dll                 0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    euser{000a0000}[100039e5].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    libc{00010001}[10207369].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    libm{00010001}[102750d2].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    qtiff{00040703}[2001e617].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    stdnew{000a0000}[20022178].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    qFree(void*)                              - Undefined Reference
+    _Z5qFreePv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qMalloc(unsigned)                         - Undefined Reference
+    _Z7qMallocj@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qMemSet(void*, int, unsigned)             - Undefined Reference
+    _Z7qMemSetPvij@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qstrcmp(const QByteArray&, const char*)   - Undefined Reference
+    _Z7qstrcmpRK10QByteArrayPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qWarning(const char*, ...)                - Undefined Reference
+    _Z8qWarningPKcz@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qBadAlloc()                               - Undefined Reference
+    _Z9qBadAllocv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::fromRawData(const char*, int)  - Undefined Reference
+    _ZN10QByteArray11fromRawDataEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::QByteArray(const char*)       - Undefined Reference
+    _ZN10QByteArrayC1EPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::changeGuard(QObject**, QObject*)  - Undefined Reference
+    _ZN11QMetaObject11changeGuardEPP7QObjectS1_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::removeGuard(QObject**)       - Undefined Reference
+    _ZN11QMetaObject11removeGuardEPP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVectorData::reallocate(QVectorData*, int, int, int)  - Undefined Reference
+    _ZN11QVectorData10reallocateEPS_iii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVectorData::free(QVectorData*, int)      - Undefined Reference
+    _ZN11QVectorData4freeEPS_i@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVectorData::allocate(int, int)           - Undefined Reference
+    _ZN11QVectorData8allocateEii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QImageIOPlugin::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN14QImageIOPlugin11qt_metacallEN11QMetaObject4CallEiPPv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOPlugin::qt_metacast(const char*)  - Undefined Reference
+    _ZN14QImageIOPlugin11qt_metacastEPKc@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOPlugin::QImageIOPlugin__sub_object(QObject*)  - Undefined Reference
+    _ZN14QImageIOPluginC2EP7QObject@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOPlugin::~QImageIOPlugin__sub_object()  - Undefined Reference
+    _ZN14QImageIOPluginD2Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::jumpToImage(int)         - Undefined Reference
+    _ZN15QImageIOHandler11jumpToImageEi@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::jumpToNextImage()        - Undefined Reference
+    _ZN15QImageIOHandler15jumpToNextImageEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::setDevice(QIODevice*)    - Undefined Reference
+    _ZN15QImageIOHandler9setDeviceEP9QIODevice@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::setFormat(const QByteArray&)  - Undefined Reference
+    _ZN15QImageIOHandler9setFormatERK10QByteArray@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::QImageIOHandler__sub_object()  - Undefined Reference
+    _ZN15QImageIOHandlerC2Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::~QImageIOHandler__sub_object()  - Undefined Reference
+    _ZN15QImageIOHandlerD2Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    User::LockedDec(int&)                     - Undefined Reference
+    _ZN4User9LockedDecERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::LockedInc(int&)                     - Undefined Reference
+    _ZN4User9LockedIncERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QImage::setColorTable(QVector<unsigned>)  - Undefined Reference
+    _ZN6QImage13setColorTableE7QVectorIjE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::setDotsPerMeterX(int)             - Undefined Reference
+    _ZN6QImage16setDotsPerMeterXEi@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::setDotsPerMeterY(int)             - Undefined Reference
+    _ZN6QImage16setDotsPerMeterYEi@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::bits()                            - Undefined Reference
+    _ZN6QImage4bitsEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::scanLine(int)                     - Undefined Reference
+    _ZN6QImage8scanLineEi@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::QImage(int, int, QImage::Format)  - Undefined Reference
+    _ZN6QImageC1EiiNS_6FormatE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::~QImage()                         - Undefined Reference
+    _ZN6QImageD1Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::operator =(const QImage&)         - Undefined Reference
+    _ZN6QImageaSERKS_@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QMatrix::rotate(float)                    - Undefined Reference
+    _ZN7QMatrix6rotateEf@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QMatrix::QMatrix()                        - Undefined Reference
+    _ZN7QMatrixC1Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QObject::childEvent(QChildEvent*)         - Undefined Reference
+    _ZN7QObject10childEventEP11QChildEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::timerEvent(QTimerEvent*)         - Undefined Reference
+    _ZN7QObject10timerEventEP11QTimerEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::customEvent(QEvent*)             - Undefined Reference
+    _ZN7QObject11customEventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::eventFilter(QObject*, QEvent*)   - Undefined Reference
+    _ZN7QObject11eventFilterEPS_P6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connectNotify(const char*)       - Undefined Reference
+    _ZN7QObject13connectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::disconnectNotify(const char*)    - Undefined Reference
+    _ZN7QObject16disconnectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::event(QEvent*)                   - Undefined Reference
+    _ZN7QObject5eventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromLatin1_helper(const char*, int)  - Undefined Reference
+    _ZN7QString17fromLatin1_helperEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::free(QString::Data*)             - Undefined Reference
+    _ZN7QString4freeEPNS_4DataE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::QVariant(const QSize&)          - Undefined Reference
+    _ZN8QVariantC1ERK5QSize@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::QVariant(int)                   - Undefined Reference
+    _ZN8QVariantC1Ei@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QIODevice::peek(long long)                - Undefined Reference
+    _ZN9QIODevice4peekEx@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QIODevice::read(char*, long long)         - Undefined Reference
+    _ZN9QIODevice4readEPcx@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QIODevice::write(const char*, long long)  - Undefined Reference
+    _ZN9QIODevice5writeEPKcx@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach_grow(int*, int)         - Undefined Reference
+    _ZN9QListData11detach_growEPii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::shared_null                    - Undefined Reference
+    _ZN9QListData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::append()                       - Undefined Reference
+    _ZN9QListData6appendEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach(int)                    - Undefined Reference
+    _ZN9QListData6detachEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QImageIOPlugin::metaObject() const        - Undefined Reference
+    _ZNK14QImageIOPlugin10metaObjectEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::imageCount() const       - Undefined Reference
+    _ZNK15QImageIOHandler10imageCountEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::nextImageDelay() const   - Undefined Reference
+    _ZNK15QImageIOHandler14nextImageDelayEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::currentImageRect() const  - Undefined Reference
+    _ZNK15QImageIOHandler16currentImageRectEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::currentImageNumber() const  - Undefined Reference
+    _ZNK15QImageIOHandler18currentImageNumberEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::device() const           - Undefined Reference
+    _ZNK15QImageIOHandler6deviceEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::loopCount() const        - Undefined Reference
+    _ZNK15QImageIOHandler9loopCountEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::setFormat(const QByteArray&) const  - Undefined Reference
+    _ZNK15QImageIOHandler9setFormatERK10QByteArray@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::colorTable() const                - Undefined Reference
+    _ZNK6QImage10colorTableEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::transformed(const QMatrix&, Qt::TransformationMode) const  - Undefined Reference
+    _ZNK6QImage11transformedERK7QMatrixN2Qt18TransformationModeE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::dotsPerMeterX() const             - Undefined Reference
+    _ZNK6QImage13dotsPerMeterXEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::dotsPerMeterY() const             - Undefined Reference
+    _ZNK6QImage13dotsPerMeterYEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::convertToFormat(QImage::Format, QFlags<Qt::ImageConversionFlag>) const  - Undefined Reference
+    _ZNK6QImage15convertToFormatENS_6FormatE6QFlagsIN2Qt19ImageConversionFlagEE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::copy(const QRect&) const          - Undefined Reference
+    _ZNK6QImage4copyERK5QRect@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::size() const                      - Undefined Reference
+    _ZNK6QImage4sizeEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::width() const                     - Undefined Reference
+    _ZNK6QImage5widthEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::format() const                    - Undefined Reference
+    _ZNK6QImage6formatEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::height() const                    - Undefined Reference
+    _ZNK6QImage6heightEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::isNull() const                    - Undefined Reference
+    _ZNK6QImage6isNullEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::mirrored(bool, bool) const        - Undefined Reference
+    _ZNK6QImage8mirroredEbb@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QVariant::type() const                    - Undefined Reference
+    _ZNK8QVariant4typeEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::toInt(bool*) const              - Undefined Reference
+    _ZNK8QVariant5toIntEPb@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QIODevice::isReadable() const             - Undefined Reference
+    _ZNK9QIODevice10isReadableEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QIODevice::isWritable() const             - Undefined Reference
+    _ZNK9QIODevice10isWritableEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QIODevice::isOpen() const                 - Undefined Reference
+    _ZNK9QIODevice6isOpenEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for QImageIOPlugin               - Undefined Reference
+    _ZTI14QImageIOPlugin@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    typeinfo for QImageIOHandler              - Undefined Reference
+    _ZTI15QImageIOHandler@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    typeinfo for std::bad_alloc               - Undefined Reference
+    _ZTISt9bad_alloc@stdnew{000a0000}[20022178].dll  - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv120__si_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    operator delete (void*)                   - Undefined Reference
+    _ZdlPv@stdnew{000a0000}[20022178].dll     - Undefined Reference
+    operator new(unsigned)                    - Undefined Reference
+    _Znwj@stdnew{000a0000}[20022178].dll      - Undefined Reference
+    __ARM_ll_addlu                            - Undefined Reference
+    __ARM_ll_addlu@drtrvct2_2{000a0000}.dll   - Undefined Reference
+    __aeabi_cdcmpeq                           - Undefined Reference
+    __aeabi_cdcmpeq@dfpaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_cdcmple                           - Undefined Reference
+    __aeabi_cdcmple@dfpaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_cdrcmple                          - Undefined Reference
+    __aeabi_cdrcmple@dfpaeabi{000a0000}.dll   - Undefined Reference
+    __aeabi_cfcmple                           - Undefined Reference
+    __aeabi_cfcmple@dfpaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_cfrcmple                          - Undefined Reference
+    __aeabi_cfrcmple@dfpaeabi{000a0000}.dll   - Undefined Reference
+    __aeabi_d2f                               - Undefined Reference
+    __aeabi_d2f@dfpaeabi{000a0000}.dll        - Undefined Reference
+    __aeabi_d2iz                              - Undefined Reference
+    __aeabi_d2iz@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_d2uiz                             - Undefined Reference
+    __aeabi_d2uiz@dfpaeabi{000a0000}.dll      - Undefined Reference
+    __aeabi_dadd                              - Undefined Reference
+    __aeabi_dadd@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_ddiv                              - Undefined Reference
+    __aeabi_ddiv@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_dmul                              - Undefined Reference
+    __aeabi_dmul@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_drsub                             - Undefined Reference
+    __aeabi_drsub@dfpaeabi{000a0000}.dll      - Undefined Reference
+    __aeabi_dsub                              - Undefined Reference
+    __aeabi_dsub@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_f2d                               - Undefined Reference
+    __aeabi_f2d@dfpaeabi{000a0000}.dll        - Undefined Reference
+    __aeabi_f2iz                              - Undefined Reference
+    __aeabi_f2iz@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_f2uiz                             - Undefined Reference
+    __aeabi_f2uiz@dfpaeabi{000a0000}.dll      - Undefined Reference
+    __aeabi_fadd                              - Undefined Reference
+    __aeabi_fadd@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_fdiv                              - Undefined Reference
+    __aeabi_fdiv@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_fmul                              - Undefined Reference
+    __aeabi_fmul@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_frsub                             - Undefined Reference
+    __aeabi_frsub@dfpaeabi{000a0000}.dll      - Undefined Reference
+    __aeabi_fsub                              - Undefined Reference
+    __aeabi_fsub@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_i2d                               - Undefined Reference
+    __aeabi_i2d@dfpaeabi{000a0000}.dll        - Undefined Reference
+    __aeabi_i2f                               - Undefined Reference
+    __aeabi_i2f@dfpaeabi{000a0000}.dll        - Undefined Reference
+    __aeabi_idivmod                           - Undefined Reference
+    __aeabi_idivmod@drtaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_memclr4                           - Undefined Reference
+    __aeabi_memclr4@drtaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_memcpy                            - Undefined Reference
+    __aeabi_memcpy4                           - Undefined Reference
+    __aeabi_memcpy4@drtaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_memcpy@drtaeabi{000a0000}.dll     - Undefined Reference
+    __aeabi_memmove4                          - Undefined Reference
+    __aeabi_memmove4@drtaeabi{000a0000}.dll   - Undefined Reference
+    __aeabi_memset                            - Undefined Reference
+    __aeabi_memset@drtaeabi{000a0000}.dll     - Undefined Reference
+    __aeabi_ui2d                              - Undefined Reference
+    __aeabi_ui2d@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_ui2f                              - Undefined Reference
+    __aeabi_ui2f@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_uidivmod                          - Undefined Reference
+    __aeabi_uidivmod@drtaeabi{000a0000}.dll   - Undefined Reference
+    __aeabi_unwind_cpp_pr0                    - Undefined Reference
+    __aeabi_unwind_cpp_pr0@drtaeabi{000a0000}.dll  - Undefined Reference
+    __aeabi_unwind_cpp_pr1                    - Undefined Reference
+    __aeabi_unwind_cpp_pr1@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_begin_catch                         - Undefined Reference
+    __cxa_begin_catch@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_end_catch                           - Undefined Reference
+    __cxa_end_catch@drtaeabi{000a0000}.dll    - Undefined Reference
+    __cxa_end_cleanup                         - Undefined Reference
+    __cxa_end_cleanup@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_abort                         - Undefined Reference
+    __cxa_guard_abort@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_acquire                       - Undefined Reference
+    __cxa_guard_acquire@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_release                       - Undefined Reference
+    __cxa_guard_release@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_rethrow                             - Undefined Reference
+    __cxa_rethrow@drtaeabi{000a0000}.dll      - Undefined Reference
+    __stderr                                  - Undefined Reference
+    __stderr@libc{00010001}[10207369].dll     - Undefined Reference
+    atan2                                     - Undefined Reference
+    atan2@libm{00010001}[102750d2].dll        - Undefined Reference
+    bsearch                                   - Undefined Reference
+    bsearch@libc{00010001}[10207369].dll      - Undefined Reference
+    close                                     - Undefined Reference
+    close@libc{00010001}[10207369].dll        - Undefined Reference
+    deflate                                   - Undefined Reference
+    deflate@QtCore{00040703}[2001b2dc].dll    - Undefined Reference
+    deflateEnd                                - Undefined Reference
+    deflateEnd@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    deflateInit_                              - Undefined Reference
+    deflateInit_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    deflateParams                             - Undefined Reference
+    deflateParams@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    deflateReset                              - Undefined Reference
+    deflateReset@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    exp                                       - Undefined Reference
+    exp@libm{00010001}[102750d2].dll          - Undefined Reference
+    floor                                     - Undefined Reference
+    floor@libm{00010001}[102750d2].dll        - Undefined Reference
+    fprintf                                   - Undefined Reference
+    fprintf@libc{00010001}[10207369].dll      - Undefined Reference
+    fputc                                     - Undefined Reference
+    fputc@libc{00010001}[10207369].dll        - Undefined Reference
+    fputs                                     - Undefined Reference
+    fputs@libc{00010001}[10207369].dll        - Undefined Reference
+    free                                      - Undefined Reference
+    free@libc{00010001}[10207369].dll         - Undefined Reference
+    fstat                                     - Undefined Reference
+    fstat@libc{00010001}[10207369].dll        - Undefined Reference
+    inflate                                   - Undefined Reference
+    inflate@QtCore{00040703}[2001b2dc].dll    - Undefined Reference
+    inflateEnd                                - Undefined Reference
+    inflateEnd@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    inflateInit_                              - Undefined Reference
+    inflateInit_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    inflateReset                              - Undefined Reference
+    inflateReset@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    inflateSync                               - Undefined Reference
+    inflateSync@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    isprint                                   - Undefined Reference
+    isprint@libc{00010001}[10207369].dll      - Undefined Reference
+    log                                       - Undefined Reference
+    log@libm{00010001}[102750d2].dll          - Undefined Reference
+    lseek                                     - Undefined Reference
+    lseek@libc{00010001}[10207369].dll        - Undefined Reference
+    malloc                                    - Undefined Reference
+    malloc@libc{00010001}[10207369].dll       - Undefined Reference
+    memcmp                                    - Undefined Reference
+    memcmp@libc{00010001}[10207369].dll       - Undefined Reference
+    open                                      - Undefined Reference
+    open@libc{00010001}[10207369].dll         - Undefined Reference
+    pow                                       - Undefined Reference
+    pow@libm{00010001}[102750d2].dll          - Undefined Reference
+    qsort                                     - Undefined Reference
+    qsort@libc{00010001}[10207369].dll        - Undefined Reference
+    rand                                      - Undefined Reference
+    rand@libc{00010001}[10207369].dll         - Undefined Reference
+    read                                      - Undefined Reference
+    read@libc{00010001}[10207369].dll         - Undefined Reference
+    realloc                                   - Undefined Reference
+    realloc@libc{00010001}[10207369].dll      - Undefined Reference
+    sprintf                                   - Undefined Reference
+    sprintf@libc{00010001}[10207369].dll      - Undefined Reference
+    sqrt                                      - Undefined Reference
+    sqrt@libm{00010001}[102750d2].dll         - Undefined Reference
+    strchr                                    - Undefined Reference
+    strchr@libc{00010001}[10207369].dll       - Undefined Reference
+    strcmp                                    - Undefined Reference
+    strcmp@libc{00010001}[10207369].dll       - Undefined Reference
+    strcpy                                    - Undefined Reference
+    strcpy@libc{00010001}[10207369].dll       - Undefined Reference
+    strlen                                    - Undefined Reference
+    strlen@libc{00010001}[10207369].dll       - Undefined Reference
+    strncmp                                   - Undefined Reference
+    strncmp@libc{00010001}[10207369].dll      - Undefined Reference
+    vfprintf                                  - Undefined Reference
+    vfprintf@libc{00010001}[10207369].dll     - Undefined Reference
+    write                                     - Undefined Reference
+    write@libc{00010001}[10207369].dll        - Undefined Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      52  ucppinit.o(.emb_text)
+    std::nothrow                             0x0000805c   ARM Code       0  ucppinit.o(.emb_text)
+    __PLT                                    0x0000805c   ARM Code       0  anon$$obj.o(.plt)
+    _TIFFCheckRealloc                        0x000084d5   Thumb Code    70  tif_aux.o(.text)
+    _TIFFCheckMalloc                         0x0000851b   Thumb Code    16  tif_aux.o(.text)
+    TIFFVGetFieldDefaulted                   0x00008613   Thumb Code   514  tif_aux.o(.text)
+    TIFFGetFieldDefaulted                    0x00008815   Thumb Code    20  tif_aux.o(.text)
+    TIFFCleanup                              0x00008891   Thumb Code   180  tif_close.o(.text)
+    TIFFClose                                0x00008945   Thumb Code    22  tif_close.o(.text)
+    TIFFIsCODECConfigured                    0x000089b9   Thumb Code    30  tif_codec.o(.text)
+    TIFFCIELabToXYZ                          0x00008a11   Thumb Code   254  tif_color.o(.text)
+    TIFFXYZToRGB                             0x00008b0f   Thumb Code   498  tif_color.o(.text)
+    TIFFCIELabToRGBInit                      0x00008d01   Thumb Code   462  tif_color.o(.text)
+    TIFFYCbCrtoRGB                           0x00008ecf   Thumb Code   110  tif_color.o(.text)
+    TIFFYCbCrToRGBInit                       0x00008f3d   Thumb Code   530  tif_color.o(.text)
+    TIFFFindCODEC                            0x00009159   Thumb Code    48  tif_compress.o(.text)
+    _TIFFNoRowEncode                         0x000091c7   Thumb Code     4  tif_compress.o(.text)
+    _TIFFNoStripEncode                       0x000091cb   Thumb Code     4  tif_compress.o(.text)
+    _TIFFNoTileEncode                        0x000091cf   Thumb Code     4  tif_compress.o(.text)
+    _TIFFNoRowDecode                         0x00009211   Thumb Code     4  tif_compress.o(.text)
+    _TIFFNoStripDecode                       0x00009215   Thumb Code     4  tif_compress.o(.text)
+    _TIFFNoTileDecode                        0x00009219   Thumb Code     4  tif_compress.o(.text)
+    _TIFFNoSeek                              0x0000921d   Thumb Code   300  tif_compress.o(.text)
+    _TIFFNoPreCode                           0x00009349   Thumb Code     4  tif_compress.o(.text)
+    _TIFFSetDefaultCompressionState          0x00009353   Thumb Code    84  tif_compress.o(.text)
+    TIFFSetCompressionScheme                 0x000093a7   Thumb Code    38  tif_compress.o(.text)
+    TIFFRegisterCODEC                        0x000093cd   Thumb Code    78  tif_compress.o(.text)
+    TIFFUnRegisterCODEC                      0x0000941b   Thumb Code    44  tif_compress.o(.text)
+    TIFFGetConfiguredCODECs                  0x00009447   Thumb Code   148  tif_compress.o(.text)
+    _TIFFsetByteArray                        0x000095eb   Thumb Code     4  tif_dir.o(.text)
+    _TIFFsetString                           0x000095ef   Thumb Code    26  tif_dir.o(.text)
+    _TIFFsetNString                          0x00009609   Thumb Code     4  tif_dir.o(.text)
+    _TIFFsetShortArray                       0x0000960d   Thumb Code     4  tif_dir.o(.text)
+    _TIFFsetLongArray                        0x00009611   Thumb Code     4  tif_dir.o(.text)
+    _TIFFsetFloatArray                       0x00009615   Thumb Code     4  tif_dir.o(.text)
+    _TIFFsetDoubleArray                      0x00009619   Thumb Code     4  tif_dir.o(.text)
+    TIFFVSetField                            0x00009d99   Thumb Code    38  tif_dir.o(.text)
+    TIFFSetField                             0x00009dbf   Thumb Code    20  tif_dir.o(.text)
+    TIFFVGetField                            0x0000a1d9   Thumb Code    70  tif_dir.o(.text)
+    TIFFGetField                             0x0000a21f   Thumb Code    14  tif_dir.o(.text)
+    TIFFFreeDirectory                        0x0000a22d   Thumb Code   214  tif_dir.o(.text)
+    TIFFSetTagExtender                       0x0000a303   Thumb Code    10  tif_dir.o(.text)
+    TIFFDefaultDirectory                     0x0000a30d   Thumb Code   150  tif_dir.o(.text)
+    TIFFCreateDirectory                      0x0000a3a3   Thumb Code    32  tif_dir.o(.text)
+    TIFFNumberOfDirectories                  0x0000a537   Thumb Code    46  tif_dir.o(.text)
+    TIFFSetDirectory                         0x0000a565   Thumb Code    76  tif_dir.o(.text)
+    TIFFSetSubDirectory                      0x0000a5b1   Thumb Code    14  tif_dir.o(.text)
+    TIFFCurrentDirOffset                     0x0000a5bf   Thumb Code     4  tif_dir.o(.text)
+    TIFFLastDirectory                        0x0000a5c3   Thumb Code    14  tif_dir.o(.text)
+    TIFFUnlinkDirectory                      0x0000a5d1   Thumb Code   236  tif_dir.o(.text)
+    TIFFReassignTagToIgnore                  0x0000a6bd   Thumb Code    84  tif_dir.o(.text)
+    _TIFFGetFieldInfo                        0x0000a91d   Thumb Code     8  tif_dirinfo.o(.text)
+    _TIFFGetExifFieldInfo                    0x0000a925   Thumb Code     8  tif_dirinfo.o(.text)
+    TIFFFindFieldInfo                        0x0000a94b   Thumb Code    94  tif_dirinfo.o(.text)
+    _TIFFMergeFieldInfo                      0x0000a9a9   Thumb Code   148  tif_dirinfo.o(.text)
+    _TIFFSetupFieldInfo                      0x0000aa3d   Thumb Code   108  tif_dirinfo.o(.text)
+    TIFFMergeFieldInfo                       0x0000aac7   Thumb Code    34  tif_dirinfo.o(.text)
+    _TIFFPrintFieldInfo                      0x0000aae9   Thumb Code   104  tif_dirinfo.o(.text)
+    TIFFDataWidth                            0x0000ab51   Thumb Code    44  tif_dirinfo.o(.text)
+    _TIFFDataSize                            0x0000ab7d   Thumb Code    44  tif_dirinfo.o(.text)
+    _TIFFSampleToTagType                     0x0000aba9   Thumb Code    78  tif_dirinfo.o(.text)
+    TIFFFindFieldInfoByName                  0x0000abf7   Thumb Code   108  tif_dirinfo.o(.text)
+    TIFFFieldWithTag                         0x0000ac63   Thumb Code   342  tif_dirinfo.o(.text)
+    TIFFFieldWithName                        0x0000adb9   Thumb Code    38  tif_dirinfo.o(.text)
+    _TIFFCreateAnonFieldInfo                 0x0000addf   Thumb Code    84  tif_dirinfo.o(.text)
+    _TIFFFindOrRegisterFieldInfo             0x0000ae33   Thumb Code    48  tif_dirinfo.o(.text)
+    TIFFReadDirectory                        0x0000bddb   Thumb Code  3176  tif_dirread.o(.text)
+    TIFFReadCustomDirectory                  0x0000ca43   Thumb Code   504  tif_dirread.o(.text)
+    TIFFReadEXIFDirectory                    0x0000cc3b   Thumb Code    26  tif_dirread.o(.text)
+    TIFFWriteDirectory                       0x0000df7d   Thumb Code    10  tif_dirwrite.o(.text)
+    TIFFCheckpointDirectory                  0x0000df87   Thumb Code    56  tif_dirwrite.o(.text)
+    TIFFWriteCustomDirectory                 0x0000e1a7   Thumb Code     2  tif_dirwrite.o(.text)
+    TIFFRewriteDirectory                     0x0000e1a9   Thumb Code   360  tif_dirwrite.o(.text)
+    TIFFInitDumpMode                         0x0000e53f   Thumb Code    30  tif_dumpmode.o(.text)
+    TIFFSetErrorHandler                      0x0000e599   Thumb Code    10  tif_error.o(.text)
+    TIFFSetErrorHandlerExt                   0x0000e5a3   Thumb Code    10  tif_error.o(.text)
+    TIFFError                                0x0000e5ad   Thumb Code    50  tif_error.o(.text)
+    TIFFErrorExt                             0x0000e5df   Thumb Code    52  tif_error.o(.text)
+    TIFFGetTagListCount                      0x0000e61d   Thumb Code     6  tif_extension.o(.text)
+    TIFFGetTagListEntry                      0x0000e623   Thumb Code    32  tif_extension.o(.text)
+    TIFFAccessTagMethods                     0x0000e643   Thumb Code     8  tif_extension.o(.text)
+    TIFFGetClientInfo                        0x0000e64b   Thumb Code    40  tif_extension.o(.text)
+    TIFFSetClientInfo                        0x0000e673   Thumb Code    76  tif_extension.o(.text)
+    _TIFFFax3fillruns                        0x0000f673   Thumb Code   416  tif_fax3.o(.text)
+    TIFFInitCCITTFax3                        0x000106e7   Thumb Code    64  tif_fax3.o(.text)
+    TIFFInitCCITTFax4                        0x00010f19   Thumb Code    86  tif_fax3.o(.text)
+    TIFFInitCCITTRLE                         0x0001130d   Thumb Code    44  tif_fax3.o(.text)
+    TIFFInitCCITTRLEW                        0x00011339   Thumb Code    44  tif_fax3.o(.text)
+    TIFFFlushData                            0x00011375   Thumb Code    50  tif_flush.o(.text)
+    TIFFFlush                                0x000113a7   Thumb Code    44  tif_flush.o(.text)
+    TIFFRGBAImageOK                          0x000113d5   Thumb Code   602  tif_getimage.o(.text)
+    TIFFRGBAImageEnd                         0x0001162f   Thumb Code    90  tif_getimage.o(.text)
+    TIFFRGBAImageBegin                       0x00014d8d   Thumb Code  1008  tif_getimage.o(.text)
+    TIFFRGBAImageGet                         0x0001517d   Thumb Code    68  tif_getimage.o(.text)
+    TIFFReadRGBAImageOriented                0x000151c1   Thumb Code   148  tif_getimage.o(.text)
+    TIFFReadRGBAImage                        0x00015255   Thumb Code    24  tif_getimage.o(.text)
+    TIFFReadRGBAStrip                        0x0001526d   Thumb Code   204  tif_getimage.o(.text)
+    TIFFReadRGBATile                         0x00015339   Thumb Code   640  tif_getimage.o(.text)
+    LogL16toY                                0x00015e73   Thumb Code    60  tif_luv.o(.text)
+    LogL16fromY                              0x00015eaf   Thumb Code   312  tif_luv.o(.text)
+    XYZtoRGB24                               0x00016091   Thumb Code   564  tif_luv.o(.text)
+    LogL10toY                                0x000162c5   Thumb Code    46  tif_luv.o(.text)
+    LogL10fromY                              0x000162f3   Thumb Code   154  tif_luv.o(.text)
+    uv_encode                                0x00016581   Thumb Code   388  tif_luv.o(.text)
+    uv_decode                                0x00016705   Thumb Code   154  tif_luv.o(.text)
+    LogLuv24toXYZ                            0x0001679f   Thumb Code   264  tif_luv.o(.text)
+    LogLuv24fromXYZ                          0x000168a7   Thumb Code   206  tif_luv.o(.text)
+    LogLuv32toXYZ                            0x00016baf   Thumb Code   282  tif_luv.o(.text)
+    LogLuv32fromXYZ                          0x00016cc9   Thumb Code   370  tif_luv.o(.text)
+    TIFFInitSGILog                           0x000176df   Thumb Code   170  tif_luv.o(.text)
+    TIFFInitLZW                              0x00018521   Thumb Code   116  tif_lzw.o(.text)
+    TIFFInitNeXT                             0x000186f7   Thumb Code    18  tif_next.o(.text)
+    _TIFFgetMode                             0x0001876b   Thumb Code    56  tif_open.o(.text)
+    TIFFClientOpen                           0x000187a3   Thumb Code  1048  tif_open.o(.text)
+    TIFFFileName                             0x00018bbb   Thumb Code     4  tif_open.o(.text)
+    TIFFSetFileName                          0x00018bbf   Thumb Code     8  tif_open.o(.text)
+    TIFFFileno                               0x00018bc7   Thumb Code     4  tif_open.o(.text)
+    TIFFSetFileno                            0x00018bcb   Thumb Code     8  tif_open.o(.text)
+    TIFFClientdata                           0x00018bd3   Thumb Code    10  tif_open.o(.text)
+    TIFFSetClientdata                        0x00018bdd   Thumb Code    12  tif_open.o(.text)
+    TIFFGetMode                              0x00018be9   Thumb Code     4  tif_open.o(.text)
+    TIFFSetMode                              0x00018bed   Thumb Code     8  tif_open.o(.text)
+    TIFFIsTiled                              0x00018bf5   Thumb Code     8  tif_open.o(.text)
+    TIFFCurrentRow                           0x00018bfd   Thumb Code     8  tif_open.o(.text)
+    TIFFCurrentDirectory                     0x00018c05   Thumb Code     8  tif_open.o(.text)
+    TIFFCurrentStrip                         0x00018c0d   Thumb Code     8  tif_open.o(.text)
+    TIFFCurrentTile                          0x00018c15   Thumb Code     8  tif_open.o(.text)
+    TIFFIsByteSwapped                        0x00018c1d   Thumb Code     8  tif_open.o(.text)
+    TIFFIsUpSampled                          0x00018c25   Thumb Code     8  tif_open.o(.text)
+    TIFFIsMSB2LSB                            0x00018c2d   Thumb Code     8  tif_open.o(.text)
+    TIFFIsBigEndian                          0x00018c35   Thumb Code    20  tif_open.o(.text)
+    TIFFGetReadProc                          0x00018c49   Thumb Code    10  tif_open.o(.text)
+    TIFFGetWriteProc                         0x00018c53   Thumb Code    10  tif_open.o(.text)
+    TIFFGetSeekProc                          0x00018c5d   Thumb Code    10  tif_open.o(.text)
+    TIFFGetCloseProc                         0x00018c67   Thumb Code    10  tif_open.o(.text)
+    TIFFGetSizeProc                          0x00018c71   Thumb Code    10  tif_open.o(.text)
+    TIFFGetMapFileProc                       0x00018c7b   Thumb Code    10  tif_open.o(.text)
+    TIFFGetUnmapFileProc                     0x00018c85   Thumb Code    10  tif_open.o(.text)
+    TIFFInitPackBits                         0x00018f53   Thumb Code    36  tif_packbits.o(.text)
+    TIFFInitPixarLog                         0x0001aef9   Thumb Code   176  tif_pixarlog.o(.text)
+    TIFFPredictorInit                        0x0001ba55   Thumb Code   112  tif_predict.o(.text)
+    TIFFPredictorCleanup                     0x0001bac5   Thumb Code    42  tif_predict.o(.text)
+    _TIFFprintAscii                          0x0001bebb   Thumb Code    78  tif_print.o(.text)
+    TIFFPrintDirectory                       0x0001bf09   Thumb Code  3454  tif_print.o(.text)
+    _TIFFprintAsciiTag                       0x0001cc87   Thumb Code    32  tif_print.o(.text)
+    TIFFReadBufferSetup                      0x0001ce3d   Thumb Code   118  tif_read.o(.text)
+    TIFFFillStrip                            0x0001ceb3   Thumb Code   558  tif_read.o(.text)
+    TIFFReadScanline                         0x0001d1bf   Thumb Code    96  tif_read.o(.text)
+    TIFFReadEncodedStrip                     0x0001d21f   Thumb Code   480  tif_read.o(.text)
+    TIFFReadRawStrip                         0x0001d3ff   Thumb Code   130  tif_read.o(.text)
+    TIFFFillTile                             0x0001d5d3   Thumb Code   546  tif_read.o(.text)
+    TIFFReadEncodedTile                      0x0001d7f5   Thumb Code   140  tif_read.o(.text)
+    TIFFReadTile                             0x0001d881   Thumb Code    76  tif_read.o(.text)
+    TIFFReadRawTile                          0x0001d8cd   Thumb Code   116  tif_read.o(.text)
+    _TIFFNoPostDecode                        0x0001d941   Thumb Code     2  tif_read.o(.text)
+    _TIFFSwab16BitData                       0x0001d943   Thumb Code    16  tif_read.o(.text)
+    _TIFFSwab24BitData                       0x0001d953   Thumb Code    22  tif_read.o(.text)
+    _TIFFSwab32BitData                       0x0001d969   Thumb Code    18  tif_read.o(.text)
+    _TIFFSwab64BitData                       0x0001d97b   Thumb Code    18  tif_read.o(.text)
+    TIFFComputeStrip                         0x0001da29   Thumb Code    66  tif_strip.o(.text)
+    TIFFNumberOfStrips                       0x0001da6b   Thumb Code    48  tif_strip.o(.text)
+    TIFFScanlineSize                         0x0001da9b   Thumb Code   232  tif_strip.o(.text)
+    TIFFVStripSize                           0x0001db83   Thumb Code   224  tif_strip.o(.text)
+    TIFFRawStripSize                         0x0001dc63   Thumb Code    42  tif_strip.o(.text)
+    TIFFStripSize                            0x0001dc8d   Thumb Code    12  tif_strip.o(.text)
+    TIFFDefaultStripSize                     0x0001dc99   Thumb Code    10  tif_strip.o(.text)
+    _TIFFDefaultStripSize                    0x0001dca3   Thumb Code    36  tif_strip.o(.text)
+    TIFFOldScanlineSize                      0x0001dcc7   Thumb Code    50  tif_strip.o(.text)
+    TIFFNewScanlineSize                      0x0001dcf9   Thumb Code   364  tif_strip.o(.text)
+    TIFFRasterScanlineSize                   0x0001de65   Thumb Code    68  tif_strip.o(.text)
+    TIFFSwabShort                            0x0001dec1   Thumb Code    10  tif_swab.o(.text)
+    TIFFSwabLong                             0x0001decb   Thumb Code    18  tif_swab.o(.text)
+    TIFFSwabArrayOfShort                     0x0001dedd   Thumb Code    18  tif_swab.o(.text)
+    TIFFSwabArrayOfTriples                   0x0001deef   Thumb Code    18  tif_swab.o(.text)
+    TIFFSwabArrayOfLong                      0x0001df01   Thumb Code    26  tif_swab.o(.text)
+    TIFFSwabDouble                           0x0001df1b   Thumb Code    18  tif_swab.o(.text)
+    TIFFSwabArrayOfDouble                    0x0001df2d   Thumb Code    30  tif_swab.o(.text)
+    TIFFGetBitRevTable                       0x0001df4b   Thumb Code    12  tif_swab.o(.text)
+    TIFFReverseBits                          0x0001df57   Thumb Code    76  tif_swab.o(.text)
+    TIFFInitThunderScan                      0x0001e15b   Thumb Code    16  tif_thunder.o(.text)
+    TIFFComputeTile                          0x0001e1f5   Thumb Code   204  tif_tile.o(.text)
+    TIFFCheckTile                            0x0001e2c1   Thumb Code   114  tif_tile.o(.text)
+    TIFFNumberOfTiles                        0x0001e333   Thumb Code   128  tif_tile.o(.text)
+    TIFFTileRowSize                          0x0001e3b3   Thumb Code    66  tif_tile.o(.text)
+    TIFFVTileSize                            0x0001e3f5   Thumb Code   254  tif_tile.o(.text)
+    TIFFTileSize                             0x0001e4f3   Thumb Code     4  tif_tile.o(.text)
+    TIFFDefaultTileSize                      0x0001e4f7   Thumb Code    10  tif_tile.o(.text)
+    _TIFFDefaultTileSize                     0x0001e501   Thumb Code    50  tif_tile.o(.text)
+    TIFFGetVersion                           0x0001e625   Thumb Code     4  tif_version.o(.text)
+    TIFFSetWarningHandler                    0x0001e62d   Thumb Code    10  tif_warning.o(.text)
+    TIFFSetWarningHandlerExt                 0x0001e637   Thumb Code    10  tif_warning.o(.text)
+    TIFFWarning                              0x0001e641   Thumb Code    50  tif_warning.o(.text)
+    TIFFWarningExt                           0x0001e673   Thumb Code    52  tif_warning.o(.text)
+    TIFFWriteBufferSetup                     0x0001e733   Thumb Code   156  tif_write.o(.text)
+    TIFFSetupStrips                          0x0001e7cf   Thumb Code   154  tif_write.o(.text)
+    TIFFWriteCheck                           0x0001e869   Thumb Code   492  tif_write.o(.text)
+    TIFFWriteScanline                        0x0001ea55   Thumb Code   458  tif_write.o(.text)
+    TIFFWriteEncodedStrip                    0x0001ecc5   Thumb Code   606  tif_write.o(.text)
+    TIFFWriteRawStrip                        0x0001ef23   Thumb Code   154  tif_write.o(.text)
+    TIFFWriteEncodedTile                     0x0001efbd   Thumb Code   386  tif_write.o(.text)
+    TIFFWriteTile                            0x0001f13f   Thumb Code    64  tif_write.o(.text)
+    TIFFWriteRawTile                         0x0001f17f   Thumb Code    98  tif_write.o(.text)
+    TIFFFlushData1                           0x0001f1e1   Thumb Code    84  tif_write.o(.text)
+    TIFFSetWriteOffset                       0x0001f235   Thumb Code     8  tif_write.o(.text)
+    TIFFInitZIP                              0x0001f5b1   Thumb Code   436  tif_zip.o(.text)
+    TIFFFdOpen                               0x0001f7a9   Thumb Code    56  tif_unix.o(.text)
+    TIFFOpen                                 0x0001f7e1   Thumb Code    80  tif_unix.o(.text)
+    _TIFFmalloc                              0x0001f831   Thumb Code     8  tif_unix.o(.text)
+    _TIFFfree                                0x0001f839   Thumb Code     8  tif_unix.o(.text)
+    _TIFFrealloc                             0x0001f841   Thumb Code     8  tif_unix.o(.text)
+    _TIFFmemset                              0x0001f849   Thumb Code    14  tif_unix.o(.text)
+    _TIFFmemcpy                              0x0001f857   Thumb Code     8  tif_unix.o(.text)
+    _TIFFmemcmp                              0x0001f85f   Thumb Code     8  tif_unix.o(.text)
+    lfind                                    0x0001f919   Thumb Code    44  lfind.o(.text)
+    qtiffReadProc(void*, void*, int)         0x0001f945   Thumb Code    40  qtiffhandler.o(.text)
+    qtiffWriteProc(void*, void*, int)        0x0001f96d   Thumb Code    24  qtiffhandler.o(.text)
+    qtiffSeekProc(void*, unsigned, int)      0x0001f985   Thumb Code    74  qtiffhandler.o(.text)
+    qtiffCloseProc(void*)                    0x0001f9cf   Thumb Code     4  qtiffhandler.o(.text)
+    qtiffSizeProc(void*)                     0x0001f9d3   Thumb Code    14  qtiffhandler.o(.text)
+    qtiffMapProc(void*, void**, unsigned*)   0x0001f9e1   Thumb Code     4  qtiffhandler.o(.text)
+    qtiffUnmapProc(void*, void*, unsigned)   0x0001f9e5   Thumb Code     2  qtiffhandler.o(.text)
+    QTiffHandler::QTiffHandler()             0x0001f9e7   Thumb Code    16  qtiffhandler.o(.text)
+    QTiffHandler::QTiffHandler__sub_object() 0x0001f9e7   Thumb Code     0  qtiffhandler.o(.text)
+    QTiffHandler::canRead(QIODevice*)        0x0001f9f7   Thumb Code   108  qtiffhandler.o(.text)
+    QTiffHandler::canRead() const            0x0001fa63   Thumb Code    46  qtiffhandler.o(.text)
+    QTiffHandler::convert32BitOrder(void*, int) 0x0001fa91   Thumb Code    48  qtiffhandler.o(.text)
+    QTiffHandler::read(QImage*)              0x0001fac1   Thumb Code  1476  qtiffhandler.o(.text)
+    QTiffHandler::write(const QImage&)       0x00020085   Thumb Code  1448  qtiffhandler.o(.text)
+    QTiffHandler::name() const               0x0002062d   Thumb Code    10  qtiffhandler.o(.text)
+    QTiffHandler::option(QImageIOHandler::ImageOption) const 0x00020637   Thumb Code   214  qtiffhandler.o(.text)
+    QTiffHandler::setOption(QImageIOHandler::ImageOption, const QVariant&) 0x0002070d   Thumb Code    76  qtiffhandler.o(.text)
+    QTiffHandler::supportsOption(QImageIOHandler::ImageOption) const 0x00020759   Thumb Code    18  qtiffhandler.o(.text)
+    QTiffHandler::convert32BitOrderBigEndian(void*, int) 0x0002076b   Thumb Code    50  qtiffhandler.o(.text)
+    qt_plugin_query_verification_data        0x000207f9   Thumb Code     4  main.o(.text)
+    qt_plugin_instance                       0x000207fd   Thumb Code   100  main.o(.text)
+    QTiffPlugin::capabilities(QIODevice*, const QByteArray&) const 0x00020861   Thumb Code   106  main.o(.text)
+    QTiffPlugin::create(QIODevice*, const QByteArray&) const 0x000208cb   Thumb Code    38  main.o(.text)
+    thunk{-8} to QTiffPlugin::create(QIODevice*, const QByteArray&) const 0x000208f1   Thumb Code     4  main.o(.text)
+    QTiffPlugin::keys() const                0x000208f5   Thumb Code   102  main.o(.text)
+    thunk{-8} to QTiffPlugin::keys() const   0x0002095b   Thumb Code     4  main.o(.text)
+    __ARM_switch8                            0x00020984   ARM Code      24  switch8.o(.text)
+    __rt_switch8                             0x00020984   ARM Code       0  switch8.o(.text)
+    _E32Dll_Body                             0x0002099c   ARM Code      56  uc_dll.o(.text)
+    __aeabi_atexit                           0x000209d8   ARM Code      28  ucppfini.o(.text)
+    __cxa_atexit                             0x000209f4   ARM Code      48  ucppfini.o(.text)
+    __cxa_finalize                           0x00020a24   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x00020a54   ARM Code       8  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x00020a68   ARM Code       4  dllexp.o(.text)
+    rotate_right_mirror_vertical(QImage*)    0x00020b15   Thumb Code   120  qtiffhandler.o(i._Z28rotate_right_mirror_verticalP6QImage)
+    rotate_right_mirror_horizontal(QImage*)  0x00020b97   Thumb Code   102  qtiffhandler.o(i._Z30rotate_right_mirror_horizontalP6QImage)
+    qRgb(int, int, int)                      0x00020c07   Thumb Code    24  qtiffhandler.o(i._Z4qRgbiii)
+    qRound(float)                            0x00020c1f   Thumb Code    70  qtiffhandler.o(i._Z6qRoundf)
+    QByteArray::~QByteArray()                0x00020c65   Thumb Code    24  qtiffhandler.o(i._ZN10QByteArrayD1Ev)
+    QByteArray::~QByteArray__sub_object()    0x00020c65   Thumb Code     0  qtiffhandler.o(i._ZN10QByteArrayD1Ev)
+    QStringList::~QStringList()              0x00020c7d   Thumb Code     8  main.o(i._ZN11QStringListD1Ev)
+    QStringList::~QStringList__sub_object()  0x00020c7d   Thumb Code     0  main.o(i._ZN11QStringListD1Ev)
+    QStringList::operator <<(const QString&) 0x00020c85   Thumb Code    12  main.o(i._ZN11QStringListlsERK7QString)
+    QTiffPlugin::~QTiffPlugin__deallocating() 0x00020c91   Thumb Code    16  main.o(i._ZN11QTiffPluginD0Ev)
+    QTiffPlugin::~QTiffPlugin()              0x00020ca1   Thumb Code     8  main.o(i._ZN11QTiffPluginD1Ev)
+    QTiffPlugin::~QTiffPlugin__sub_object()  0x00020ca1   Thumb Code     0  main.o(i._ZN11QTiffPluginD1Ev)
+    QTiffHandler::~QTiffHandler__deallocating() 0x00020ca9   Thumb Code    16  qtiffhandler.o(i._ZN12QTiffHandlerD0Ev)
+    QTiffHandler::~QTiffHandler()            0x00020cb9   Thumb Code     8  qtiffhandler.o(i._ZN12QTiffHandlerD1Ev)
+    QTiffHandler::~QTiffHandler__sub_object() 0x00020cb9   Thumb Code     0  qtiffhandler.o(i._ZN12QTiffHandlerD1Ev)
+    QBasicAtomicInt::ref()                   0x00020cc1   Thumb Code    18  main.o(i._ZN15QBasicAtomicInt3refEv)
+    QBasicAtomicInt::deref()                 0x00020cd3   Thumb Code    18  qtiffhandler.o(i._ZN15QBasicAtomicInt5derefEv)
+    QString::QString(const QLatin1String&)   0x00020ce5   Thumb Code    20  main.o(i._ZN7QStringC1ERK13QLatin1String)
+    QString::QString__sub_object(const QLatin1String&) 0x00020ce5   Thumb Code     0  main.o(i._ZN7QStringC1ERK13QLatin1String)
+    QString::QString(const QString&)         0x00020cf9   Thumb Code    16  main.o(i._ZN7QStringC1ERKS_)
+    QString::QString__sub_object(const QString&) 0x00020cf9   Thumb Code     0  main.o(i._ZN7QStringC1ERKS_)
+    QString::~QString()                      0x00020d09   Thumb Code    24  main.o(i._ZN7QStringD1Ev)
+    QString::~QString__sub_object()          0x00020d09   Thumb Code     0  main.o(i._ZN7QStringD1Ev)
+    QByteArray::isEmpty() const              0x00020d21   Thumb Code    16  main.o(i._ZNK10QByteArray7isEmptyEv)
+    QBasicAtomicInt::operator !=(int) const  0x00020d31   Thumb Code    14  qtiffhandler.o(i._ZNK15QBasicAtomicIntneEi)
+    QImage::copy(int, int, int, int) const   0x00020d3f   Thumb Code    30  qtiffhandler.o(i._ZNK6QImage4copyEiiii)
+    QListData::end() const                   0x00020d5d   Thumb Code    12  main.o(i._ZNK9QListData3endEv)
+    QListData::begin() const                 0x00020d69   Thumb Code    12  main.o(i._ZNK9QListData5beginEv)
+    thunk{-8} to QTiffPlugin::~QTiffPlugin__deallocating() 0x00020d75   Thumb Code    10  main.o(i._ZThn8_N11QTiffPluginD0Ev)
+    thunk{-8} to QTiffPlugin::~QTiffPlugin() 0x00020d7f   Thumb Code    10  main.o(i._ZThn8_N11QTiffPluginD1Ev)
+    operator delete (void*, void*)           0x00020d89   Thumb Code     2  main.o(i._ZdlPvS_)
+    operator ==(const QByteArray&, const char*) 0x00020d8b   Thumb Code    28  main.o(i._ZeqRK10QByteArrayPKc)
+    operator ==(const QByteArray&, const QByteArray&) 0x00020da7   Thumb Code    34  qtiffhandler.o(i._ZeqRK10QByteArrayS1_)
+    operator !=(const QSize&, const QSize&)  0x00020dc9   Thumb Code    24  qtiffhandler.o(i._ZneRK5QSizeS1_)
+    operator new(unsigned, void*)            0x00020de1   Thumb Code     4  main.o(i._ZnwjPv)
+    qMin<int>(const T1&, const T1&)          0x00020de5   Thumb Code    12  qtiffhandler.o(t._Z4qMinIiERKT_S2_S2_)
+    QList<QString>::detach_helper()          0x00020df1   Thumb Code    88  main.o(t._ZN5QListI7QStringE13detach_helperEv)
+    QList<QString>::node_construct(QList<QString>::Node*, const QString&) 0x00020e51   Thumb Code    26  main.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_)
+    QList<QString>::detach_helper_grow(int, int) 0x00020e77   Thumb Code   186  main.o(t._ZN5QListI7QStringE18detach_helper_growEii)
+    QList<QString>::free(QListData::Data*)   0x00020f39   Thumb Code    48  main.o(t._ZN5QListI7QStringE4freeEPN9QListData4DataE)
+    QList<QString>::append(const QString&)   0x00020f69   Thumb Code    90  main.o(t._ZN5QListI7QStringE6appendERKS0_)
+    QList<QString>::node_copy(QList<QString>::Node*, QList<QString>::Node*, QList<QString>::Node*) 0x00020fd1   Thumb Code    70  main.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_)
+    QList<QString>::~QList()                 0x0002102d   Thumb Code    30  main.o(t._ZN5QListI7QStringED1Ev)
+    QList<QString>::~QList__sub_object()     0x0002102d   Thumb Code     0  main.o(t._ZN5QListI7QStringED1Ev)
+    QVector<unsigned>::detach_helper()       0x0002104b   Thumb Code    14  qtiffhandler.o(t._ZN7QVectorIjE13detach_helperEv)
+    QVector<unsigned>::free(QVectorTypedData<unsigned>*) 0x00021059   Thumb Code    12  qtiffhandler.o(t._ZN7QVectorIjE4freeEP16QVectorTypedDataIjE)
+    QVector<unsigned>::malloc(int)           0x00021065   Thumb Code    26  qtiffhandler.o(t._ZN7QVectorIjE6mallocEi)
+    QVector<unsigned>::realloc(int, int)     0x0002107f   Thumb Code   234  qtiffhandler.o(t._ZN7QVectorIjE7reallocEii)
+    QVector<unsigned>::QVector(const QVector<unsigned>&) 0x00021171   Thumb Code    30  qtiffhandler.o(t._ZN7QVectorIjEC1ERKS0_)
+    QVector<unsigned>::QVector__sub_object(const QVector<unsigned>&) 0x00021171   Thumb Code     0  qtiffhandler.o(t._ZN7QVectorIjEC1ERKS0_)
+    QVector<unsigned>::QVector(int)          0x0002118f   Thumb Code    56  qtiffhandler.o(t._ZN7QVectorIjEC1Ei)
+    QVector<unsigned>::QVector__sub_object(int) 0x0002118f   Thumb Code     0  qtiffhandler.o(t._ZN7QVectorIjEC1Ei)
+    QVector<unsigned>::~QVector()            0x000211c7   Thumb Code    30  qtiffhandler.o(t._ZN7QVectorIjED1Ev)
+    QVector<unsigned>::~QVector__sub_object() 0x000211c7   Thumb Code     0  qtiffhandler.o(t._ZN7QVectorIjED1Ev)
+    QVector<unsigned>::operator [](int)      0x000211e5   Thumb Code    34  qtiffhandler.o(t._ZN7QVectorIjEixEi)
+    QPointer<QObject>::~QPointer()           0x00021207   Thumb Code    12  main.o(t._ZN8QPointerI7QObjectED1Ev)
+    QPointer<QObject>::~QPointer__sub_object() 0x00021207   Thumb Code     0  main.o(t._ZN8QPointerI7QObjectED1Ev)
+    TIFFFaxWhiteCodes                        0x00022960   Data         654  tif_fax3.o(.constdata)
+    TIFFFaxBlackCodes                        0x00022bee   Data         654  tif_fax3.o(.constdata)
+    TIFFFaxMainTable                         0x00023250   Data        1024  tif_fax3sm.o(.constdata)
+    TIFFFaxWhiteTable                        0x00023650   Data       32768  tif_fax3sm.o(.constdata)
+    TIFFFaxBlackTable                        0x0002b650   Data       65536  tif_fax3sm.o(.constdata)
+    stlp_priv::_Integer_limits<signed char, (signed char)-128, (signed char)127, (int)-1, (bool)1>::digits 0x0003c090   Data           4  qtiffhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<bool, (bool)0, (bool)1, (int)1, (bool)0>::digits 0x0003c094   Data           4  qtiffhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    stlp_priv::_Integer_limits<char, (char)128, (char)127, (int)-1, (bool)1>::digits 0x0003c098   Data           4  qtiffhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned char, (unsigned char)0, (unsigned char)255, (int)-1, (bool)1>::digits 0x0003c09c   Data           4  qtiffhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::digits 0x0003c0a0   Data           4  qtiffhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::is_signed 0x0003c0a4   Data           1  qtiffhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    stlp_priv::_Integer_limits<unsigned, (unsigned)0, (unsigned)4294967295, (int)-1, (bool)1>::digits 0x0003c0a8   Data           4  qtiffhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long, (long)-2147483648, (long)2147483647, (int)-1, (bool)1>::digits 0x0003c0ac   Data           4  qtiffhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long, (unsigned long)0, (unsigned long)4294967295, (int)-1, (bool)1>::digits 0x0003c0b0   Data           4  qtiffhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<short, (short)-32768, (short)32767, (int)-1, (bool)1>::digits 0x0003c0b4   Data           4  qtiffhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned short, (unsigned short)0, (unsigned short)65535, (int)-1, (bool)1>::digits 0x0003c0b8   Data           4  qtiffhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<wchar_t, (wchar_t)0, (wchar_t)65535, (int)-1, (bool)1>::digits 0x0003c0bc   Data           4  qtiffhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long long, (long long)-9223372036854775808, (long long)9223372036854775807, (int)-1, (bool)1>::digits 0x0003c0c0   Data           4  qtiffhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long long, (unsigned long long)0, (unsigned long long)18446744073709551615, (int)-1, (bool)1>::digits 0x0003c0c4   Data           4  qtiffhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    typeinfo for QTiffPlugin                 0x0003c0c8   Data          12  main.o(.constdata__ZTI11QTiffPlugin)
+    typeinfo for QTiffHandler                0x0003c0d4   Data          12  qtiffhandler.o(.constdata__ZTI12QTiffHandler)
+    typeinfo name for QTiffPlugin            0x0003c0e0   Data          14  main.o(.constdata__ZTS11QTiffPlugin)
+    typeinfo name for QTiffHandler           0x0003c0ee   Data          15  qtiffhandler.o(.constdata__ZTS12QTiffHandler)
+    vtable for QTiffPlugin                   0x0003c100   Data          92  main.o(.constdata__ZTV11QTiffPlugin)
+    vtable for QTiffHandler                  0x0003c15c   Data          72  qtiffhandler.o(.constdata__ZTV12QTiffHandler)
+    .ARM.exidx$$Base                         0x0003ce98   Number         0  ucppinit.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x0003d9f0   Number         0  main.o(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x0003d9f0   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _TIFFBuiltinCODECS                       0x0040002c   Data         216  tif_codec.o(.data)
+    _TIFFerrorHandlerExt                     0x00400110   Data           4  tif_error.o(.data)
+    display_sRGB                             0x00400114   Data          84  tif_getimage.o(.data)
+    _TIFFwarningHandlerExt                   0x00400704   Data           4  tif_warning.o(.data)
+    _TIFFwarningHandler                      0x00400708   Data           4  tif_unix.o(.data)
+    _TIFFerrorHandler                        0x0040070c   Data           4  tif_unix.o(.data)
+    __dso_handle                             0x00400718   Data           4  ucppfini.o(.data)
+    std::_Atomic_swap_struct<(int)1>::_S_swap_lock 0x0040071c   Data          12  qtiffhandler.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    dtor_rec                                 0x00400acc   Data        2048  ucppfini.o(.bss)
+

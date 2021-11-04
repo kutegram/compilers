@@ -1,0 +1,35 @@
+
+symbian {
+    load(data_caging_paths)
+        INCLUDEPATH+= $$APP_LAYER_SYSTEMINCLUDE \
+		              $${EPOCROOT}epoc32/include/middleware/ovinotifications
+					  
+	# Add dependency to Ovi Notifications package to all projects besides Ovi Notifications  package itself.
+	# Mobility libs have UID3 0x2002EAB4
+	# self-signed Mobility libs have UID3 0x2002EAB4
+	contains(CONFIG, ovinotifications):!contains(TARGET.UID3, 0x2002EAB4):!contains(TARGET.UID3, 0x2002EAB4) {
+		ovinotifications_default_deployment.pkg_prerules += \
+			"; Default dependency to Ovi Notifications API libraries" \
+			"(0x2002EAB4), 1, 1, 11120, {\"Ovi Notifications API\"}"
+		DEPLOYMENT += ovinotifications_default_deployment
+	}
+    DEFINES *= ONE_PLUGIN_PATH=\"c:/resource/qt/plugins/oneplugin.qtplugin\"
+}
+
+
+simulator {
+ LIBS+= -L$${OVINOTIFICATION_LIB}
+ QMAKE_RPATHDIR+= $${OVINOTIFICATION_LIB}
+ INCLUDEPATH+= $${OVINOTIFICATION_INCLUDE}
+
+    windows {
+        OVINOTIFICATION_ABSOLUTE_PLUGIN_PATH = $$OVINOTIFICATION_ABSOLUTE_PLUGIN_PATH"/oneplugin.dll"
+     } 
+    mac : !unix {
+        OVINOTIFICATION_ABSOLUTE_PLUGIN_PATH = "liboneplugin.dylib"
+     }
+    unix {
+        OVINOTIFICATION_ABSOLUTE_PLUGIN_PATH  = $$OVINOTIFICATION_ABSOLUTE_PLUGIN_PATH"/liboneplugin.so" 
+     }
+    DEFINES *= ONE_PLUGIN_ABSOLUTE_PATH=\\\"$${OVINOTIFICATION_ABSOLUTE_PLUGIN_PATH}\\\"
+}

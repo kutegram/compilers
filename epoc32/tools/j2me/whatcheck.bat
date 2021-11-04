@@ -1,0 +1,1 @@
+@%* | perl %EPOCROOT%epoc32\tools\j2me\whatcheck\whatcheck.pl

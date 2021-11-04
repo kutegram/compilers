@@ -1,0 +1,1167 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../../unhosted.s                         0x00000000   Number         0  switch8.o ABSOLUTE
+    M:\\epoc32\\build\\euser\\c_e18a23aea4fd210f\\edll_lib\\armv5\\urel\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\\sf\\os\\kernelhwsrv\\kernel\\eka\\compsupp\\rvct\\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\epoc32\build\euser\c_e18a23aea4fd210f\edll_lib\armv5\urel\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\dllexp.cpp 0x00000000   Number         0  dllexp.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    S:\sf\mw\qtwebkit\WebKit\qt\declarative\moc_qdeclarativewebview_p.cpp 0x00000000   Number         0  moc_qdeclarativewebview_p.o ABSOLUTE
+    S:\sf\mw\qtwebkit\WebKit\qt\declarative\plugin.cpp 0x00000000   Number         0  plugin.o ABSOLUTE
+    S:\sf\mw\qtwebkit\WebKit\qt\declarative\qdeclarativewebview.cpp 0x00000000   Number         0  qdeclarativewebview.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       52  ucppinit.o(.emb_text)
+    loop                                     0x0000803c   ARM Code       0  ucppinit.o(.emb_text)
+    base                                     0x00008054   Data           0  ucppinit.o(.emb_text)
+    limit                                    0x00008058   Data           0  ucppinit.o(.emb_text)
+    qFuzzyCompare(float, float)              0x000085ad   Thumb Code    72  qdeclarativewebview.o(.text)
+    .text                                    0x000085ac   Section     4992  qdeclarativewebview.o(.text)
+    |L1.3068|                                0x000091a8   Data           0  qdeclarativewebview.o(.text)
+    .text                                    0x0000992c   Section      192  plugin.o(.text)
+    .text                                    0x000099ec   Section     2556  moc_qdeclarativewebview_p.o(.text)
+    .text                                    0x0000a3e8   Section       24  switch8.o(.text)
+    .text                                    0x0000a400   Section       60  uc_dll.o(.text)
+    .text                                    0x0000a43c   Section      144  ucppfini.o(.text)
+    .text                                    0x0000a4cc   Section        4  dllexp.o(.text)
+    .text.clean                              0x0000a4d0   Section      300  qdeclarativewebview.o(.text.clean)
+    .text.clean                              0x0000a5fc   Section       28  plugin.o(.text.clean)
+    .text.clean                              0x0000a618   Section       58  moc_qdeclarativewebview_p.o(.text.clean)
+    i._Z6qRoundf                             0x0000a652   Section       70  qdeclarativewebview.o(i._Z6qRoundf)
+    i._ZN10QByteArrayC1ERKS_                 0x0000a698   Section       16  plugin.o(i._ZN10QByteArrayC1ERKS_)
+    i._ZN10QByteArrayD1Ev                    0x0000a6a8   Section       24  qdeclarativewebview.o(i._ZN10QByteArrayD1Ev)
+    i._ZN11QBasicTimerD1Ev                   0x0000a6c0   Section       20  moc_qdeclarativewebview_p.o(i._ZN11QBasicTimerD1Ev)
+    i._ZN15GraphicsWebViewD0Ev               0x0000a6d4   Section       16  moc_qdeclarativewebview_p.o(i._ZN15GraphicsWebViewD0Ev)
+    i._ZN15GraphicsWebViewD1Ev               0x0000a6e4   Section       36  moc_qdeclarativewebview_p.o(i._ZN15GraphicsWebViewD1Ev)
+    i._ZN15GraphicsWebViewD1Ev.clean         0x0000a708   Section       10  moc_qdeclarativewebview_p.o(i._ZN15GraphicsWebViewD1Ev.clean)
+    i._ZN15QBasicAtomicInt3refEv             0x0000a712   Section       18  qdeclarativewebview.o(i._ZN15QBasicAtomicInt3refEv)
+    i._ZN15QBasicAtomicInt5derefEv           0x0000a724   Section       18  qdeclarativewebview.o(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN15WebKitQmlPlugin13registerTypesEPKc 0x0000a738   Section       28  plugin.o(i._ZN15WebKitQmlPlugin13registerTypesEPKc)
+    i._ZN15WebKitQmlPluginD0Ev               0x0000a754   Section       16  plugin.o(i._ZN15WebKitQmlPluginD0Ev)
+    i._ZN15WebKitQmlPluginD1Ev               0x0000a764   Section        8  plugin.o(i._ZN15WebKitQmlPluginD1Ev)
+    i._ZN19QDeclarativePrivate12RegisterTypeD1Ev 0x0000a76c   Section       12  plugin.o(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewED0Ev 0x0000a778   Section       16  plugin.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewED0Ev)
+    i._ZN23QDeclarativeWebSettingsD0Ev       0x0000a788   Section       16  moc_qdeclarativewebview_p.o(i._ZN23QDeclarativeWebSettingsD0Ev)
+    i._ZN23QDeclarativeWebSettingsD1Ev       0x0000a798   Section        8  qdeclarativewebview.o(i._ZN23QDeclarativeWebSettingsD1Ev)
+    i._ZN26QDeclarativeWebViewPrivate19windowObjectsAppendEP24QDeclarativeListPropertyI7QObjectEPS1_ 0x0000a7a0   Section       56  qdeclarativewebview.o(i._ZN26QDeclarativeWebViewPrivate19windowObjectsAppendEP24QDeclarativeListPropertyI7QObjectEPS1_)
+    i._ZN26QDeclarativeWebViewPrivate19windowObjectsAppendEP24QDeclarativeListPropertyI7QObjectEPS1_.clean 0x0000a7d8   Section       10  qdeclarativewebview.o(i._ZN26QDeclarativeWebViewPrivate19windowObjectsAppendEP24QDeclarativeListPropertyI7QObjectEPS1_.clean)
+    i._ZN26QDeclarativeWebViewPrivateC1EP19QDeclarativeWebView 0x0000a7e4   Section      132  qdeclarativewebview.o(i._ZN26QDeclarativeWebViewPrivateC1EP19QDeclarativeWebView)
+    i._ZN26QDeclarativeWebViewPrivateC1EP19QDeclarativeWebView.clean 0x0000a868   Section       70  qdeclarativewebview.o(i._ZN26QDeclarativeWebViewPrivateC1EP19QDeclarativeWebView.clean)
+    i._ZN26QDeclarativeWebViewPrivateD1Ev    0x0000a8ae   Section       80  qdeclarativewebview.o(i._ZN26QDeclarativeWebViewPrivateD1Ev)
+    i._ZN26QDeclarativeWebViewPrivateD1Ev.clean 0x0000a8fe   Section       70  qdeclarativewebview.o(i._ZN26QDeclarativeWebViewPrivateD1Ev.clean)
+    i._ZN27QDeclarativeWebViewAttachedD0Ev   0x0000a944   Section       16  moc_qdeclarativewebview_p.o(i._ZN27QDeclarativeWebViewAttachedD0Ev)
+    i._ZN27QDeclarativeWebViewAttachedD1Ev   0x0000a954   Section       28  moc_qdeclarativewebview_p.o(i._ZN27QDeclarativeWebViewAttachedD1Ev)
+    i._ZN27QDeclarativeWebViewAttachedD1Ev.clean 0x0000a970   Section       10  moc_qdeclarativewebview_p.o(i._ZN27QDeclarativeWebViewAttachedD1Ev.clean)
+    i._ZN7QStringC1ERK13QLatin1String        0x0000a97a   Section       20  qdeclarativewebview.o(i._ZN7QStringC1ERK13QLatin1String)
+    i._ZN7QStringC1ERKS_                     0x0000a98e   Section       16  qdeclarativewebview.o(i._ZN7QStringC1ERKS_)
+    i._ZN7QStringC1Ev                        0x0000a9a0   Section       20  qdeclarativewebview.o(i._ZN7QStringC1Ev)
+    i._ZN7QStringD1Ev                        0x0000a9b4   Section       24  qdeclarativewebview.o(i._ZN7QStringD1Ev)
+    i._ZNK15QBasicAtomicIntntEv              0x0000a9cc   Section       14  plugin.o(i._ZNK15QBasicAtomicIntntEv)
+    i._ZNK7QPointF7toPointEv                 0x0000a9da   Section       26  qdeclarativewebview.o(i._ZNK7QPointF7toPointEv)
+    i._ZNK7QString6isNullEv                  0x0000a9f4   Section       20  qdeclarativewebview.o(i._ZNK7QString6isNullEv)
+    i._ZNK9QListData2atEi                    0x0000aa08   Section       16  qdeclarativewebview.o(i._ZNK9QListData2atEi)
+    i._ZNK9QListData5beginEv                 0x0000aa18   Section       12  qdeclarativewebview.o(i._ZNK9QListData5beginEv)
+    i._ZThn16_N15GraphicsWebViewD0Ev         0x0000aa24   Section       10  moc_qdeclarativewebview_p.o(i._ZThn16_N15GraphicsWebViewD0Ev)
+    i._ZThn16_N15GraphicsWebViewD1Ev         0x0000aa2e   Section       10  moc_qdeclarativewebview_p.o(i._ZThn16_N15GraphicsWebViewD1Ev)
+    i._ZThn16_N19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewED0Ev 0x0000aa38   Section       10  plugin.o(i._ZThn16_N19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewED0Ev)
+    i._ZThn16_N19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewED1Ev 0x0000aa42   Section       10  plugin.o(i._ZThn16_N19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewED1Ev)
+    i._ZThn8_N15GraphicsWebViewD0Ev          0x0000aa4c   Section       10  moc_qdeclarativewebview_p.o(i._ZThn8_N15GraphicsWebViewD0Ev)
+    i._ZThn8_N15GraphicsWebViewD1Ev          0x0000aa56   Section       10  moc_qdeclarativewebview_p.o(i._ZThn8_N15GraphicsWebViewD1Ev)
+    i._ZThn8_N15WebKitQmlPlugin13registerTypesEPKc 0x0000aa60   Section       10  plugin.o(i._ZThn8_N15WebKitQmlPlugin13registerTypesEPKc)
+    i._ZThn8_N15WebKitQmlPluginD0Ev          0x0000aa6a   Section       10  plugin.o(i._ZThn8_N15WebKitQmlPluginD0Ev)
+    i._ZThn8_N15WebKitQmlPluginD1Ev          0x0000aa74   Section       10  plugin.o(i._ZThn8_N15WebKitQmlPluginD1Ev)
+    i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewED0Ev 0x0000aa7e   Section       10  plugin.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewED0Ev)
+    i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewED1Ev 0x0000aa88   Section       10  plugin.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewED1Ev)
+    i._ZdlPvS_                               0x0000aa92   Section        2  plugin.o(i._ZdlPvS_)
+    i._ZnwjPv                                0x0000aa94   Section        4  plugin.o(i._ZnwjPv)
+    i._ZplPKcRK10QByteArray                  0x0000aa98   Section       34  plugin.o(i._ZplPKcRK10QByteArray)
+    i._ZplPKcRK10QByteArray.clean            0x0000aaba   Section       10  plugin.o(i._ZplPKcRK10QByteArray.clean)
+    i._ZplRK10QByteArrayPKc                  0x0000aac4   Section       34  plugin.o(i._ZplRK10QByteArrayPKc)
+    i._ZplRK10QByteArrayPKc.clean            0x0000aae6   Section       10  plugin.o(i._ZplRK10QByteArrayPKc.clean)
+    i._ZplRK10QByteArrayc                    0x0000aaf0   Section       34  plugin.o(i._ZplRK10QByteArrayc)
+    i._ZplRK10QByteArrayc.clean              0x0000ab12   Section       10  plugin.o(i._ZplRK10QByteArrayc.clean)
+    t._Z15qmlRegisterTypeI19QDeclarativeWebViewEiPKciiS2_ 0x0000ab1c   Section      240  plugin.o(t._Z15qmlRegisterTypeI19QDeclarativeWebViewEiPKciiS2_)
+    t._Z15qmlRegisterTypeI19QDeclarativeWebViewEiPKciiS2_.clean 0x0000ac0c   Section       44  plugin.o(t._Z15qmlRegisterTypeI19QDeclarativeWebViewEiPKciiS2_.clean)
+    t._Z15qmlRegisterTypeI23QDeclarativeWebSettingsEiv 0x0000ac38   Section      212  plugin.o(t._Z15qmlRegisterTypeI23QDeclarativeWebSettingsEiv)
+    t._Z15qmlRegisterTypeI23QDeclarativeWebSettingsEiv.clean 0x0000ad0c   Section       44  plugin.o(t._Z15qmlRegisterTypeI23QDeclarativeWebSettingsEiv.clean)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI19QDeclarativeWebViewEEiPKcPT_ 0x0000ad38   Section      124  plugin.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI19QDeclarativeWebViewEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI23QDeclarativeWebSettingsEEiPKcPT_ 0x0000adb4   Section      128  plugin.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI23QDeclarativeWebSettingsEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIP19QDeclarativeWebViewEiPKcPT_ 0x0000ae34   Section      100  plugin.o(t._Z17qRegisterMetaTypeIP19QDeclarativeWebViewEiPKcPT_)
+    t._Z17qRegisterMetaTypeIP23QDeclarativeWebSettingsEiPKcPT_ 0x0000ae98   Section      104  plugin.o(t._Z17qRegisterMetaTypeIP23QDeclarativeWebSettingsEiPKcPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI19QDeclarativeWebViewEEvPT_ 0x0000af00   Section        8  plugin.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI19QDeclarativeWebViewEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI23QDeclarativeWebSettingsEEvPT_ 0x0000af08   Section        8  plugin.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI23QDeclarativeWebSettingsEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIP19QDeclarativeWebViewEvPT_ 0x0000af10   Section        8  plugin.o(t._Z21qMetaTypeDeleteHelperIP19QDeclarativeWebViewEvPT_)
+    t._Z21qMetaTypeDeleteHelperIP23QDeclarativeWebSettingsEvPT_ 0x0000af18   Section        8  plugin.o(t._Z21qMetaTypeDeleteHelperIP23QDeclarativeWebSettingsEvPT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI19QDeclarativeWebViewEEPvPKT_ 0x0000af20   Section       70  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI19QDeclarativeWebViewEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI19QDeclarativeWebViewEEPvPKT_.clean 0x0000af66   Section        4  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI19QDeclarativeWebViewEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI23QDeclarativeWebSettingsEEPvPKT_ 0x0000af6a   Section       70  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI23QDeclarativeWebSettingsEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI23QDeclarativeWebSettingsEEPvPKT_.clean 0x0000afb0   Section        4  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI23QDeclarativeWebSettingsEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperIP19QDeclarativeWebViewEPvPKT_ 0x0000afb4   Section       26  plugin.o(t._Z24qMetaTypeConstructHelperIP19QDeclarativeWebViewEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIP23QDeclarativeWebSettingsEPvPKT_ 0x0000afce   Section       26  plugin.o(t._Z24qMetaTypeConstructHelperIP23QDeclarativeWebSettingsEPvPKT_)
+    t._Z4qAbsIfET_RKS0_                      0x0000afe8   Section       14  qdeclarativewebview.o(t._Z4qAbsIfET_RKS0_)
+    t._Z4qMinIfERKT_S2_S2_                   0x0000aff6   Section       24  qdeclarativewebview.o(t._Z4qMinIfERKT_S2_S2_)
+    t._ZN19QDeclarativePrivate10createIntoI19QDeclarativeWebViewEEvPv 0x0000b010   Section       44  plugin.o(t._ZN19QDeclarativePrivate10createIntoI19QDeclarativeWebViewEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoI19QDeclarativeWebViewEEvPv.clean 0x0000b03c   Section       12  plugin.o(t._ZN19QDeclarativePrivate10createIntoI19QDeclarativeWebViewEEvPv.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewED1Ev 0x0000b048   Section       36  plugin.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewED1Ev.clean 0x0000b06c   Section       10  plugin.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewED1Ev.clean)
+    t._ZN19QDeclarativePrivate24AttachedPropertySelectorI19QDeclarativeWebViewLi1EE18attachedPropertiesEP7QObject 0x0000b076   Section        8  plugin.o(t._ZN19QDeclarativePrivate24AttachedPropertySelectorI19QDeclarativeWebViewLi1EE18attachedPropertiesEP7QObject)
+    t._ZN5QListIP13QGraphicsItemED1Ev        0x0000b07e   Section       34  qdeclarativewebview.o(t._ZN5QListIP13QGraphicsItemED1Ev)
+    t._ZN5QListIP7QObjectE18detach_helper_growEii 0x0000b0a0   Section      166  qdeclarativewebview.o(t._ZN5QListIP7QObjectE18detach_helper_growEii)
+    t._ZN5QListIP7QObjectE18detach_helper_growEii.clean 0x0000b146   Section        8  qdeclarativewebview.o(t._ZN5QListIP7QObjectE18detach_helper_growEii.clean)
+    t._ZN5QListIP7QObjectE4freeEPN9QListData4DataE 0x0000b14e   Section       16  qdeclarativewebview.o(t._ZN5QListIP7QObjectE4freeEPN9QListData4DataE)
+    t._ZN5QListIP7QObjectE9node_copyEPNS2_4NodeES4_S4_ 0x0000b15e   Section       28  qdeclarativewebview.o(t._ZN5QListIP7QObjectE9node_copyEPNS2_4NodeES4_S4_)
+    t._ZN5QListIP7QObjectED1Ev               0x0000b17a   Section       30  qdeclarativewebview.o(t._ZN5QListIP7QObjectED1Ev)
+    t._ZN8QPointerI7QObjectED1Ev             0x0000b198   Section       12  plugin.o(t._ZN8QPointerI7QObjectED1Ev)
+    .extab._ZN19QDeclarativeWebView12createWindowEN8QWebPage13WebWindowTypeE 0x0000b1a4   Data           0  qdeclarativewebview.o(.ARM.extab)
+    .extab._ZN15GraphicsWebView15mousePressEventEP24QGraphicsSceneMouseEvent 0x0000b1bc   Data           0  qdeclarativewebview.o(.ARM.extab)
+    .extab._ZN15GraphicsWebView21mouseDoubleClickEventEP24QGraphicsSceneMouseEvent 0x0000b1cc   Data           0  qdeclarativewebview.o(.ARM.extab)
+    .extab._ZN19QDeclarativeWebView4initEv   0x0000b1dc   Data           0  qdeclarativewebview.o(.ARM.extab)
+    .extab._ZN19QDeclarativeWebViewC1EP16QDeclarativeItem 0x0000b23c   Data           0  qdeclarativewebview.o(.ARM.extab)
+    .extab._ZN19QDeclarativeWebViewD1Ev      0x0000b24c   Data           0  qdeclarativewebview.o(.ARM.extab)
+    .extab._ZN19QDeclarativeWebView6setUrlERK4QUrl 0x0000b25c   Data           0  qdeclarativewebview.o(.ARM.extab)
+    .extab._ZNK19QDeclarativeWebView4iconEv  0x0000b28c   Data           0  qdeclarativewebview.o(.ARM.extab)
+    .extab._ZNK19QDeclarativeWebView13elementAreaAtEiiii 0x0000b29c   Data           0  qdeclarativewebview.o(.ARM.extab)
+    .extab._ZN19QDeclarativeWebView10setContentERK10QByteArrayRK7QStringRK4QUrl 0x0000b2dc   Data           0  qdeclarativewebview.o(.ARM.extab)
+    .extab._ZN26QDeclarativeWebViewPrivate19updateWindowObjectsEv 0x0000b2ec   Data           0  qdeclarativewebview.o(.ARM.extab)
+    .extab._ZN19QDeclarativeWebView21qmlAttachedPropertiesEP7QObject 0x0000b2fc   Data           0  qdeclarativewebview.o(.ARM.extab)
+    .extab._ZN19QDeclarativeWebView18setNewWindowParentEP16QDeclarativeItem 0x0000b314   Data           0  qdeclarativewebview.o(.ARM.extab)
+    .extab._ZN19QDeclarativeWebView14pageUrlChangedEv 0x0000b324   Data           0  qdeclarativewebview.o(.ARM.extab)
+    .extab._ZN5QListIP7QObjectE18detach_helper_growEii 0x0000b39c   Data           0  qdeclarativewebview.o(.ARM.extab)
+    .extab._ZN26QDeclarativeWebViewPrivateC1EP19QDeclarativeWebView 0x0000b3cc   Data           0  qdeclarativewebview.o(.ARM.extab)
+    .extab._ZN26QDeclarativeWebViewPrivateD1Ev 0x0000b404   Data           0  qdeclarativewebview.o(.ARM.extab)
+    .extab._ZN26QDeclarativeWebViewPrivate19windowObjectsAppendEP24QDeclarativeListPropertyI7QObjectEPS1_ 0x0000b43c   Data           0  qdeclarativewebview.o(.ARM.extab)
+    .extab.qt_plugin_instance                0x0000b458   Data           0  plugin.o(.ARM.extab)
+    .extab._ZplRK10QByteArrayPKc             0x0000b470   Data           0  plugin.o(.ARM.extab)
+    .extab._ZplRK10QByteArrayc               0x0000b480   Data           0  plugin.o(.ARM.extab)
+    .extab._ZplPKcRK10QByteArray             0x0000b490   Data           0  plugin.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeI23QDeclarativeWebSettingsEiv 0x0000b4a0   Data           0  plugin.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeI19QDeclarativeWebViewEiPKciiS2_ 0x0000b510   Data           0  plugin.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewED1Ev 0x0000b580   Data           0  plugin.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoI19QDeclarativeWebViewEEvPv 0x0000b590   Data           0  plugin.o(.ARM.extab)
+    .extab._ZN19QDeclarativeWebView11qt_metacallEN11QMetaObject4CallEiPPv 0x0000b5a0   Data           0  moc_qdeclarativewebview_p.o(.ARM.extab)
+    .extab._ZN27QDeclarativeWebViewAttached11qt_metacallEN11QMetaObject4CallEiPPv 0x0000b5e0   Data           0  moc_qdeclarativewebview_p.o(.ARM.extab)
+    .extab._ZN23QDeclarativeWebSettings11qt_metacallEN11QMetaObject4CallEiPPv 0x0000b5f0   Data           0  moc_qdeclarativewebview_p.o(.ARM.extab)
+    .extab._ZN15GraphicsWebViewD1Ev          0x0000b628   Data           0  moc_qdeclarativewebview_p.o(.ARM.extab)
+    .extab._ZN27QDeclarativeWebViewAttachedD1Ev 0x0000b638   Data           0  moc_qdeclarativewebview_p.o(.ARM.extab)
+    .constdata$1                             0x0000b648   Data           0  qdeclarativewebview.o(.constdata)
+    .constdata                               0x0000b648   Section      144  qdeclarativewebview.o(.constdata)
+    .constdata$1                             0x0000b6d8   Data           0  plugin.o(.constdata)
+    qt_meta_stringdata_WebKitQmlPlugin       0x0000b6d8   Data          17  plugin.o(.constdata)
+    .constdata                               0x0000b6d8   Section      132  plugin.o(.constdata)
+    qt_plugin_verification_data              0x0000b6e9   Data          91  plugin.o(.constdata)
+    .constdata$10                            0x0000b75c   Data           0  plugin.o(.constdata)
+    qt_meta_data_WebKitQmlPlugin             0x0000b75c   Data          60  plugin.o(.constdata)
+    .constdata                               0x0000b75c   Section       60  plugin.o(.constdata)
+    .constdata$1                             0x0000b798   Data           0  moc_qdeclarativewebview_p.o(.constdata)
+    qt_meta_stringdata_QDeclarativeWebPage   0x0000b798   Data          21  moc_qdeclarativewebview_p.o(.constdata)
+    .constdata                               0x0000b798   Section     2060  moc_qdeclarativewebview_p.o(.constdata)
+    qt_meta_stringdata_GraphicsWebView       0x0000b7ad   Data          53  moc_qdeclarativewebview_p.o(.constdata)
+    qt_meta_stringdata_QDeclarativeWebView   0x0000b7e2   Data        1279  moc_qdeclarativewebview_p.o(.constdata)
+    qt_meta_stringdata_QDeclarativeWebViewAttached 0x0000bce1   Data          54  moc_qdeclarativewebview_p.o(.constdata)
+    qt_meta_stringdata_QDeclarativeWebSettings 0x0000bd17   Data         572  moc_qdeclarativewebview_p.o(.constdata)
+    .constdata$22                            0x0000bfa4   Data           0  moc_qdeclarativewebview_p.o(.constdata)
+    qt_meta_data_QDeclarativeWebPage         0x0000bfa4   Data          60  moc_qdeclarativewebview_p.o(.constdata)
+    .constdata                               0x0000bfa4   Section       60  moc_qdeclarativewebview_p.o(.constdata)
+    .constdata$28                            0x0000bfe0   Data           0  moc_qdeclarativewebview_p.o(.constdata)
+    qt_meta_data_GraphicsWebView             0x0000bfe0   Data          80  moc_qdeclarativewebview_p.o(.constdata)
+    .constdata                               0x0000bfe0   Section       80  moc_qdeclarativewebview_p.o(.constdata)
+    .constdata$34                            0x0000c030   Data           0  moc_qdeclarativewebview_p.o(.constdata)
+    qt_meta_data_QDeclarativeWebView         0x0000c030   Data        1104  moc_qdeclarativewebview_p.o(.constdata)
+    .constdata                               0x0000c030   Section     1104  moc_qdeclarativewebview_p.o(.constdata)
+    .constdata$40                            0x0000c480   Data           0  moc_qdeclarativewebview_p.o(.constdata)
+    qt_meta_data_QDeclarativeWebViewAttached 0x0000c480   Data          72  moc_qdeclarativewebview_p.o(.constdata)
+    .constdata                               0x0000c480   Section       72  moc_qdeclarativewebview_p.o(.constdata)
+    .constdata$46                            0x0000c4c8   Data           0  moc_qdeclarativewebview_p.o(.constdata)
+    qt_meta_data_QDeclarativeWebSettings     0x0000c4c8   Data         360  moc_qdeclarativewebview_p.o(.constdata)
+    .constdata                               0x0000c4c8   Section      360  moc_qdeclarativewebview_p.o(.constdata)
+    .constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE 0x0000c630   Section        4  qdeclarativewebview.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE 0x0000c634   Section        4  qdeclarativewebview.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE 0x0000c638   Section        4  qdeclarativewebview.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE 0x0000c63c   Section        4  qdeclarativewebview.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE 0x0000c640   Section        4  qdeclarativewebview.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE 0x0000c644   Section        4  qdeclarativewebview.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE 0x0000c648   Section        4  qdeclarativewebview.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE 0x0000c64c   Section        4  qdeclarativewebview.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE 0x0000c650   Section        4  qdeclarativewebview.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE 0x0000c654   Section        4  qdeclarativewebview.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE 0x0000c658   Section        4  qdeclarativewebview.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    .constdata__ZTI15GraphicsWebView         0x0000c65c   Section       12  moc_qdeclarativewebview_p.o(.constdata__ZTI15GraphicsWebView)
+    .constdata__ZTI15WebKitQmlPlugin         0x0000c668   Section       12  plugin.o(.constdata__ZTI15WebKitQmlPlugin)
+    .constdata__ZTI19QDeclarativeWebPage     0x0000c674   Section       12  moc_qdeclarativewebview_p.o(.constdata__ZTI19QDeclarativeWebPage)
+    .constdata__ZTI19QDeclarativeWebView     0x0000c680   Section       12  moc_qdeclarativewebview_p.o(.constdata__ZTI19QDeclarativeWebView)
+    .constdata__ZTI23QDeclarativeWebSettings 0x0000c68c   Section       12  moc_qdeclarativewebview_p.o(.constdata__ZTI23QDeclarativeWebSettings)
+    .constdata__ZTI27QDeclarativeWebViewAttached 0x0000c698   Section       12  moc_qdeclarativewebview_p.o(.constdata__ZTI27QDeclarativeWebViewAttached)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewEE 0x0000c6a4   Section       12  plugin.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewEE)
+    .constdata__ZTS15GraphicsWebView         0x0000c6b0   Section       18  moc_qdeclarativewebview_p.o(.constdata__ZTS15GraphicsWebView)
+    .constdata__ZTS15WebKitQmlPlugin         0x0000c6c2   Section       18  plugin.o(.constdata__ZTS15WebKitQmlPlugin)
+    .constdata__ZTS19QDeclarativeWebPage     0x0000c6d4   Section       22  moc_qdeclarativewebview_p.o(.constdata__ZTS19QDeclarativeWebPage)
+    .constdata__ZTS19QDeclarativeWebView     0x0000c6ea   Section       22  moc_qdeclarativewebview_p.o(.constdata__ZTS19QDeclarativeWebView)
+    .constdata__ZTS23QDeclarativeWebSettings 0x0000c700   Section       26  moc_qdeclarativewebview_p.o(.constdata__ZTS23QDeclarativeWebSettings)
+    .constdata__ZTS27QDeclarativeWebViewAttached 0x0000c71a   Section       30  moc_qdeclarativewebview_p.o(.constdata__ZTS27QDeclarativeWebViewAttached)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewEE 0x0000c738   Section       68  plugin.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewEE)
+    .constdata__ZTV15GraphicsWebView         0x0000c77c   Section      424  moc_qdeclarativewebview_p.o(.constdata__ZTV15GraphicsWebView)
+    .constdata__ZTV15WebKitQmlPlugin         0x0000c924   Section       88  plugin.o(.constdata__ZTV15WebKitQmlPlugin)
+    .constdata__ZTV19QDeclarativeWebPage     0x0000c97c   Section      104  moc_qdeclarativewebview_p.o(.constdata__ZTV19QDeclarativeWebPage)
+    .constdata__ZTV19QDeclarativeWebView     0x0000c9e4   Section      280  moc_qdeclarativewebview_p.o(.constdata__ZTV19QDeclarativeWebView)
+    .constdata__ZTV23QDeclarativeWebSettings 0x0000cafc   Section       56  moc_qdeclarativewebview_p.o(.constdata__ZTV23QDeclarativeWebSettings)
+    .constdata__ZTV27QDeclarativeWebViewAttached 0x0000cb34   Section       56  moc_qdeclarativewebview_p.o(.constdata__ZTV27QDeclarativeWebViewAttached)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewEE 0x0000cb6c   Section      280  plugin.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewEE)
+    __ARM_d__Z15qmlRegisterTypeI19QDeclarativeWebViewEiPKciiS2_$52 0x0000cc84   Data           0  plugin.o(__ARM_d__Z15qmlRegisterTypeI19QDeclarativeWebViewEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI19QDeclarativeWebViewEiPKciiS2_ 0x0000cc84   Section       76  plugin.o(__ARM_d__Z15qmlRegisterTypeI19QDeclarativeWebViewEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI23QDeclarativeWebSettingsEiv$49 0x0000ccd0   Data           0  plugin.o(__ARM_d__Z15qmlRegisterTypeI23QDeclarativeWebSettingsEiv)
+    __ARM_d__Z15qmlRegisterTypeI23QDeclarativeWebSettingsEiv 0x0000ccd0   Section       76  plugin.o(__ARM_d__Z15qmlRegisterTypeI23QDeclarativeWebSettingsEiv)
+    .ARM.exidx                               0x0000cd1c   Section        8  ucppinit.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  plugin.o(.data)
+    _ZGV_instance@qt_plugin_instance_0       0x00400000   Data           4  plugin.o(.data)
+    .data                                    0x00400000   Section        8  plugin.o(.data)
+    _instance@qt_plugin_instance_1           0x00400004   Data           4  plugin.o(.data)
+    .data$0                                  0x00400008   Data           0  ucppfini.o(.data)
+    .data                                    0x00400008   Section        4  ucppfini.o(.data)
+    .data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE 0x0040000c   Section       12  qdeclarativewebview.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    .data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI19QDeclarativeWebViewEE14qt_metatype_idEvE11metatype_id 0x00400018   Section        4  plugin.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI19QDeclarativeWebViewEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI23QDeclarativeWebSettingsEE14qt_metatype_idEvE11metatype_id 0x0040001c   Section        4  plugin.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI23QDeclarativeWebSettingsEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIP19QDeclarativeWebViewE14qt_metatype_idEvE11metatype_id 0x00400020   Section        4  plugin.o(.data__ZZN11QMetaTypeIdIP19QDeclarativeWebViewE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIP23QDeclarativeWebSettingsE14qt_metatype_idEvE11metatype_id 0x00400024   Section        4  plugin.o(.data__ZZN11QMetaTypeIdIP23QDeclarativeWebSettingsE14qt_metatype_idEvE11metatype_id)
+    __ARM_d__Z27qmlAttachedPropertiesObjectI19QDeclarativeWebViewEP7QObjectPKS1_b$40 0x00400028   Data           0  qdeclarativewebview.o(__ARM_d__Z27qmlAttachedPropertiesObjectI19QDeclarativeWebViewEP7QObjectPKS1_b)
+    idx@_Z27qmlAttachedPropertiesObjectI19QDeclarativeWebViewEP7QObjectPKS1_b_0 0x00400028   Data           4  qdeclarativewebview.o(__ARM_d__Z27qmlAttachedPropertiesObjectI19QDeclarativeWebViewEP7QObjectPKS1_b)
+    __ARM_d__Z27qmlAttachedPropertiesObjectI19QDeclarativeWebViewEP7QObjectPKS1_b 0x00400028   Section        4  qdeclarativewebview.o(__ARM_d__Z27qmlAttachedPropertiesObjectI19QDeclarativeWebViewEP7QObjectPKS1_b)
+    .bss$5                                   0x0040002c   Data           0  ucppfini.o(.bss)
+    .bss                                     0x0040002c   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$VFPv2$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$IEEEJ$EBA8$UX$FPIC$INDIRECT$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    QtCore{00040703}[2001b2dc].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtDeclarative{00040703}[2001e623].dll    0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtGui{00040703}[2001b2dd].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtWebKit{00040800}[200267c2].dll         0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    dfpaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    euser{000a0000}[100039e5].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    libc{00010001}[10207369].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    qmlwebkitplugin{000a0000}[20021321].dll  0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    stdnew{000a0000}[20022178].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    qmlContext(const QObject*)                - Undefined Reference
+    _Z10qmlContextPK7QObject@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    qt_qFindChild_helper(const QObject*, const QString&, const QMetaObject&)  - Undefined Reference
+    _Z20qt_qFindChild_helperPK7QObjectRK7QStringRK11QMetaObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qmlAttachedPropertiesObject(int*, const QObject*, const QMetaObject*, bool)  - Undefined Reference
+    _Z27qmlAttachedPropertiesObjectPiPK7QObjectPK11QMetaObjectb@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    qFree(void*)                              - Undefined Reference
+    _Z5qFreePv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qWarning(const char*, ...)                - Undefined Reference
+    _Z8qWarningPKcz@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qmlEngine(const QObject*)                 - Undefined Reference
+    _Z9qmlEnginePK7QObject@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QByteArray::shared_null                   - Undefined Reference
+    _ZN10QByteArray11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::append(const char*)           - Undefined Reference
+    _ZN10QByteArray6appendEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::append(const QByteArray&)     - Undefined Reference
+    _ZN10QByteArray6appendERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::append(char)                  - Undefined Reference
+    _ZN10QByteArray6appendEc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::QByteArray(const char*)       - Undefined Reference
+    _ZN10QByteArrayC1EPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::operator =(const QByteArray&)  - Undefined Reference
+    _ZN10QByteArrayaSERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QBasicTimer::stop()                       - Undefined Reference
+    _ZN11QBasicTimer4stopEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QBasicTimer::start(int, QObject*)         - Undefined Reference
+    _ZN11QBasicTimer5startEiP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::changeGuard(QObject**, QObject*)  - Undefined Reference
+    _ZN11QMetaObject11changeGuardEPP7QObjectS1_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::removeGuard(QObject**)       - Undefined Reference
+    _ZN11QMetaObject11removeGuardEPP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::activate(QObject*, const QMetaObject*, int, void**)  - Undefined Reference
+    _ZN11QMetaObject8activateEP7QObjectPKS_iPPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMouseEvent::QMouseEvent(QEvent::Type, const QPoint&, Qt::MouseButton, QFlags<Qt::MouseButton>, QFlags<Qt::KeyboardModifier>)  - Undefined Reference
+    _ZN11QMouseEventC1EN6QEvent4TypeERK6QPointN2Qt11MouseButtonE6QFlagsIS6_ES7_INS5_16KeyboardModifierEE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QWebElement::~QWebElement()               - Undefined Reference
+    _ZN11QWebElementD1Ev@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebElement::operator =(const QWebElement&)  - Undefined Reference
+    _ZN11QWebElementaSERKS_@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QApplication::startDragDistance()         - Undefined Reference
+    _ZN12QApplication17startDragDistanceEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QWebSettings::setFontSize(QWebSettings::FontSize, int)  - Undefined Reference
+    _ZN12QWebSettings11setFontSizeENS_8FontSizeEi@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebSettings::setAttribute(QWebSettings::WebAttribute, bool)  - Undefined Reference
+    _ZN12QWebSettings12setAttributeENS_12WebAttributeEb@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebSettings::setFontFamily(QWebSettings::FontFamily, const QString&)  - Undefined Reference
+    _ZN12QWebSettings13setFontFamilyENS_10FontFamilyERK7QString@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebSettings::globalSettings()            - Undefined Reference
+    _ZN12QWebSettings14globalSettingsEv@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebSettings::iconDatabasePath()          - Undefined Reference
+    _ZN12QWebSettings16iconDatabasePathEv@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebSettings::offlineStoragePath()        - Undefined Reference
+    _ZN12QWebSettings18offlineStoragePathEv@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebSettings::enablePersistentStorage(const QString&)  - Undefined Reference
+    _ZN12QWebSettings23enablePersistentStorageERK7QString@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebSettings::offlineWebApplicationCachePath()  - Undefined Reference
+    _ZN12QWebSettings30offlineWebApplicationCachePathEv@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsItem::wheelEvent(QGraphicsSceneWheelEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem10wheelEventEP24QGraphicsSceneWheelEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::ungrabMouse()              - Undefined Reference
+    _ZN13QGraphicsItem11ungrabMouseEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::focusInEvent(QFocusEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem12focusInEventEP11QFocusEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::setExtension(QGraphicsItem::Extension, const QVariant&)  - Undefined Reference
+    _ZN13QGraphicsItem12setExtensionENS_9ExtensionERK8QVariant@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::dragMoveEvent(QGraphicsSceneDragDropEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem13dragMoveEventEP27QGraphicsSceneDragDropEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::focusOutEvent(QFocusEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem13focusOutEventEP11QFocusEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::setParentItem(QGraphicsItem*)  - Undefined Reference
+    _ZN13QGraphicsItem13setParentItemEPS_@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::dragEnterEvent(QGraphicsSceneDragDropEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem14dragEnterEventEP27QGraphicsSceneDragDropEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::dragLeaveEvent(QGraphicsSceneDragDropEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem14dragLeaveEventEP27QGraphicsSceneDragDropEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::hoverMoveEvent(QGraphicsSceneHoverEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem14hoverMoveEventEP24QGraphicsSceneHoverEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::mouseMoveEvent(QGraphicsSceneMouseEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem14mouseMoveEventEP24QGraphicsSceneMouseEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::hoverEnterEvent(QGraphicsSceneHoverEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem15hoverEnterEventEP24QGraphicsSceneHoverEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::hoverLeaveEvent(QGraphicsSceneHoverEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem15hoverLeaveEventEP24QGraphicsSceneHoverEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::mousePressEvent(QGraphicsSceneMouseEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem15mousePressEventEP24QGraphicsSceneMouseEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::contextMenuEvent(QGraphicsSceneContextMenuEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem16contextMenuEventEP30QGraphicsSceneContextMenuEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::sceneEventFilter(QGraphicsItem*, QEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem16sceneEventFilterEPS_P6QEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::mouseReleaseEvent(QGraphicsSceneMouseEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem17mouseReleaseEventEP24QGraphicsSceneMouseEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::mouseDoubleClickEvent(QGraphicsSceneMouseEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem21mouseDoubleClickEventEP24QGraphicsSceneMouseEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::setAcceptedMouseButtons(QFlags<Qt::MouseButton>)  - Undefined Reference
+    _ZN13QGraphicsItem23setAcceptedMouseButtonsE6QFlagsIN2Qt11MouseButtonEE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::advance(int)               - Undefined Reference
+    _ZN13QGraphicsItem7advanceEi@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::setFlag(QGraphicsItem::GraphicsItemFlag, bool)  - Undefined Reference
+    _ZN13QGraphicsItem7setFlagENS_16GraphicsItemFlagEb@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::setFocus(Qt::FocusReason)  - Undefined Reference
+    _ZN13QGraphicsItem8setFocusEN2Qt11FocusReasonE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::setScale(float)            - Undefined Reference
+    _ZN13QGraphicsItem8setScaleEf@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::dropEvent(QGraphicsSceneDragDropEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem9dropEventEP27QGraphicsSceneDragDropEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::grabMouse()                - Undefined Reference
+    _ZN13QGraphicsItem9grabMouseEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsWidget::closeEvent(QCloseEvent*)  - Undefined Reference
+    _ZN15QGraphicsWidget10closeEventEP11QCloseEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsWidget::changeEvent(QEvent*)     - Undefined Reference
+    _ZN15QGraphicsWidget11changeEventEP6QEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsWidget::polishEvent()            - Undefined Reference
+    _ZN15QGraphicsWidget11polishEventEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsWidget::resizeEvent(QGraphicsSceneResizeEvent*)  - Undefined Reference
+    _ZN15QGraphicsWidget11resizeEventEP25QGraphicsSceneResizeEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsWidget::grabMouseEvent(QEvent*)  - Undefined Reference
+    _ZN15QGraphicsWidget14grabMouseEventEP6QEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsWidget::propertyChange(const QString&, const QVariant&)  - Undefined Reference
+    _ZN15QGraphicsWidget14propertyChangeERK7QStringRK8QVariant@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsWidget::paintWindowFrame(QPainter*, const QStyleOptionGraphicsItem*, QWidget*)  - Undefined Reference
+    _ZN15QGraphicsWidget16paintWindowFrameEP8QPainterPK24QStyleOptionGraphicsItemP7QWidget@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsWidget::ungrabMouseEvent(QEvent*)  - Undefined Reference
+    _ZN15QGraphicsWidget16ungrabMouseEventEP6QEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsWidget::windowFrameEvent(QEvent*)  - Undefined Reference
+    _ZN15QGraphicsWidget16windowFrameEventEP6QEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsWidget::grabKeyboardEvent(QEvent*)  - Undefined Reference
+    _ZN15QGraphicsWidget17grabKeyboardEventEP6QEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsWidget::ungrabKeyboardEvent(QEvent*)  - Undefined Reference
+    _ZN15QGraphicsWidget19ungrabKeyboardEventEP6QEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsWidget::hideEvent(QHideEvent*)   - Undefined Reference
+    _ZN15QGraphicsWidget9hideEventEP10QHideEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsWidget::moveEvent(QGraphicsSceneMoveEvent*)  - Undefined Reference
+    _ZN15QGraphicsWidget9moveEventEP23QGraphicsSceneMoveEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsWidget::showEvent(QShowEvent*)   - Undefined Reference
+    _ZN15QGraphicsWidget9showEventEP10QShowEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QDeclarativeItem::classBegin()            - Undefined Reference
+    _ZN16QDeclarativeItem10classBeginEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::itemChange(QGraphicsItem::GraphicsItemChange, const QVariant&)  - Undefined Reference
+    _ZN16QDeclarativeItem10itemChangeEN13QGraphicsItem18GraphicsItemChangeERK8QVariant@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::sceneEvent(QEvent*)     - Undefined Reference
+    _ZN16QDeclarativeItem10sceneEventEP6QEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN16QDeclarativeItem11qt_metacallEN11QMetaObject4CallEiPPv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::qt_metacast(const char*)  - Undefined Reference
+    _ZN16QDeclarativeItem11qt_metacastEPKc@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::keyPressEvent(QKeyEvent*)  - Undefined Reference
+    _ZN16QDeclarativeItem13keyPressEventEP9QKeyEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::geometryChanged(const QRectF&, const QRectF&)  - Undefined Reference
+    _ZN16QDeclarativeItem15geometryChangedERK6QRectFS2_@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::keyReleaseEvent(QKeyEvent*)  - Undefined Reference
+    _ZN16QDeclarativeItem15keyReleaseEventEP9QKeyEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::forceActiveFocus()      - Undefined Reference
+    _ZN16QDeclarativeItem16forceActiveFocusEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::inputMethodEvent(QInputMethodEvent*)  - Undefined Reference
+    _ZN16QDeclarativeItem16inputMethodEventEP17QInputMethodEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::setImplicitWidth(float)  - Undefined Reference
+    _ZN16QDeclarativeItem16setImplicitWidthEf@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::setKeepMouseGrab(bool)  - Undefined Reference
+    _ZN16QDeclarativeItem16setKeepMouseGrabEb@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::staticMetaObject        - Undefined Reference
+    _ZN16QDeclarativeItem16staticMetaObjectE@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::componentComplete()     - Undefined Reference
+    _ZN16QDeclarativeItem17componentCompleteEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::setImplicitHeight(float)  - Undefined Reference
+    _ZN16QDeclarativeItem17setImplicitHeightEf@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::event(QEvent*)          - Undefined Reference
+    _ZN16QDeclarativeItem5eventEP6QEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::paint(QPainter*, const QStyleOptionGraphicsItem*, QWidget*)  - Undefined Reference
+    _ZN16QDeclarativeItem5paintEP8QPainterPK24QStyleOptionGraphicsItemP7QWidget@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::setClip(bool)           - Undefined Reference
+    _ZN16QDeclarativeItem7setClipEb@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::QDeclarativeItem(QDeclarativeItem*)  - Undefined Reference
+    _ZN16QDeclarativeItemC1EPS_@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::~QDeclarativeItem()     - Undefined Reference
+    _ZN16QDeclarativeItemD1Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QGraphicsWebView::itemChange(QGraphicsItem::GraphicsItemChange, const QVariant&)  - Undefined Reference
+    _ZN16QGraphicsWebView10itemChangeEN13QGraphicsItem18GraphicsItemChangeERK8QVariant@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::sceneEvent(QEvent*)     - Undefined Reference
+    _ZN16QGraphicsWebView10sceneEventEP6QEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::wheelEvent(QGraphicsSceneWheelEvent*)  - Undefined Reference
+    _ZN16QGraphicsWebView10wheelEventEP24QGraphicsSceneWheelEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN16QGraphicsWebView11qt_metacallEN11QMetaObject4CallEiPPv@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::qt_metacast(const char*)  - Undefined Reference
+    _ZN16QGraphicsWebView11qt_metacastEPKc@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::setGeometry(const QRectF&)  - Undefined Reference
+    _ZN16QGraphicsWebView11setGeometryERK6QRectF@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::focusInEvent(QFocusEvent*)  - Undefined Reference
+    _ZN16QGraphicsWebView12focusInEventEP11QFocusEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::dragMoveEvent(QGraphicsSceneDragDropEvent*)  - Undefined Reference
+    _ZN16QGraphicsWebView13dragMoveEventEP27QGraphicsSceneDragDropEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::focusOutEvent(QFocusEvent*)  - Undefined Reference
+    _ZN16QGraphicsWebView13focusOutEventEP11QFocusEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::keyPressEvent(QKeyEvent*)  - Undefined Reference
+    _ZN16QGraphicsWebView13keyPressEventEP9QKeyEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::dragEnterEvent(QGraphicsSceneDragDropEvent*)  - Undefined Reference
+    _ZN16QGraphicsWebView14dragEnterEventEP27QGraphicsSceneDragDropEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::dragLeaveEvent(QGraphicsSceneDragDropEvent*)  - Undefined Reference
+    _ZN16QGraphicsWebView14dragLeaveEventEP27QGraphicsSceneDragDropEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::hoverMoveEvent(QGraphicsSceneHoverEvent*)  - Undefined Reference
+    _ZN16QGraphicsWebView14hoverMoveEventEP24QGraphicsSceneHoverEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::mouseMoveEvent(QGraphicsSceneMouseEvent*)  - Undefined Reference
+    _ZN16QGraphicsWebView14mouseMoveEventEP24QGraphicsSceneMouseEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::updateGeometry()        - Undefined Reference
+    _ZN16QGraphicsWebView14updateGeometryEv@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::hoverLeaveEvent(QGraphicsSceneHoverEvent*)  - Undefined Reference
+    _ZN16QGraphicsWebView15hoverLeaveEventEP24QGraphicsSceneHoverEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::keyReleaseEvent(QKeyEvent*)  - Undefined Reference
+    _ZN16QGraphicsWebView15keyReleaseEventEP9QKeyEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::mousePressEvent(QGraphicsSceneMouseEvent*)  - Undefined Reference
+    _ZN16QGraphicsWebView15mousePressEventEP24QGraphicsSceneMouseEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::contextMenuEvent(QGraphicsSceneContextMenuEvent*)  - Undefined Reference
+    _ZN16QGraphicsWebView16contextMenuEventEP30QGraphicsSceneContextMenuEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::inputMethodEvent(QInputMethodEvent*)  - Undefined Reference
+    _ZN16QGraphicsWebView16inputMethodEventEP17QInputMethodEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::staticMetaObject        - Undefined Reference
+    _ZN16QGraphicsWebView16staticMetaObjectE@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::mouseReleaseEvent(QGraphicsSceneMouseEvent*)  - Undefined Reference
+    _ZN16QGraphicsWebView17mouseReleaseEventEP24QGraphicsSceneMouseEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::focusNextPrevChild(bool)  - Undefined Reference
+    _ZN16QGraphicsWebView18focusNextPrevChildEb@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::setResizesToContents(bool)  - Undefined Reference
+    _ZN16QGraphicsWebView20setResizesToContentsEb@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::setTiledBackingStoreFrozen(bool)  - Undefined Reference
+    _ZN16QGraphicsWebView26setTiledBackingStoreFrozenEb@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::event(QEvent*)          - Undefined Reference
+    _ZN16QGraphicsWebView5eventEP6QEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::paint(QPainter*, const QStyleOptionGraphicsItem*, QWidget*)  - Undefined Reference
+    _ZN16QGraphicsWebView5paintEP8QPainterPK24QStyleOptionGraphicsItemP7QWidget@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::setPage(QWebPage*)      - Undefined Reference
+    _ZN16QGraphicsWebView7setPageEP8QWebPage@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::dropEvent(QGraphicsSceneDragDropEvent*)  - Undefined Reference
+    _ZN16QGraphicsWebView9dropEventEP27QGraphicsSceneDragDropEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::QGraphicsWebView(QGraphicsItem*)  - Undefined Reference
+    _ZN16QGraphicsWebViewC1EP13QGraphicsItem@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::~QGraphicsWebView()     - Undefined Reference
+    _ZN16QGraphicsWebViewD1Ev@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebHitTestResult::~QWebHitTestResult()   - Undefined Reference
+    _ZN17QWebHitTestResultD1Ev@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QDeclarativeContext::resolvedUrl(const QUrl&)  - Undefined Reference
+    _ZN19QDeclarativeContext11resolvedUrlERK4QUrl@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeContext::QDeclarativeContext(QDeclarativeContext*, QObject*)  - Undefined Reference
+    _ZN19QDeclarativeContextC1EPS_P7QObject@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativePrivate::qmlregister(QDeclarativePrivate::RegistrationType, void*)  - Undefined Reference
+    _ZN19QDeclarativePrivate11qmlregisterENS_16RegistrationTypeEPv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativePrivate::qdeclarativeelement_destructor(QObject*)  - Undefined Reference
+    _ZN19QDeclarativePrivate30qdeclarativeelement_destructorEP7QObject@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin11qt_metacallEN11QMetaObject4CallEiPPv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::qt_metacast(const char*)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin11qt_metacastEPKc@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::initializeEngine(QDeclarativeEngine*, const char*)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin16initializeEngineEP18QDeclarativeEnginePKc@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::staticMetaObject  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin16staticMetaObjectE@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::QDeclarativeExtensionPlugin__sub_object(QObject*)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPluginC2EP7QObject@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::~QDeclarativeExtensionPlugin__sub_object()  - Undefined Reference
+    _ZN27QDeclarativeExtensionPluginD2Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QUrl::QUrl(const QString&)                - Undefined Reference
+    _ZN4QUrlC1ERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::QUrl(const QUrl&)                   - Undefined Reference
+    _ZN4QUrlC1ERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::QUrl()                              - Undefined Reference
+    _ZN4QUrlC1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::~QUrl()                             - Undefined Reference
+    _ZN4QUrlD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::operator =(const QUrl&)             - Undefined Reference
+    _ZN4QUrlaSERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    User::LockedDec(int&)                     - Undefined Reference
+    _ZN4User9LockedDecERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::LockedInc(int&)                     - Undefined Reference
+    _ZN4User9LockedIncERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QIcon::~QIcon()                           - Undefined Reference
+    _ZN5QIconD1Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QObject::childEvent(QChildEvent*)         - Undefined Reference
+    _ZN7QObject10childEventEP11QChildEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::timerEvent(QTimerEvent*)         - Undefined Reference
+    _ZN7QObject10timerEventEP11QTimerEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::customEvent(QEvent*)             - Undefined Reference
+    _ZN7QObject11customEventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::eventFilter(QObject*, QEvent*)   - Undefined Reference
+    _ZN7QObject11eventFilterEPS_P6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN7QObject11qt_metacallEN11QMetaObject4CallEiPPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::qt_metacast(const char*)         - Undefined Reference
+    _ZN7QObject11qt_metacastEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connectNotify(const char*)       - Undefined Reference
+    _ZN7QObject13connectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::disconnectNotify(const char*)    - Undefined Reference
+    _ZN7QObject16disconnectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::staticMetaObject                 - Undefined Reference
+    _ZN7QObject16staticMetaObjectE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::event(QEvent*)                   - Undefined Reference
+    _ZN7QObject5eventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connect(const QObject*, const char*, const QObject*, const char*, Qt::ConnectionType)  - Undefined Reference
+    _ZN7QObject7connectEPKS_PKcS1_S3_N2Qt14ConnectionTypeE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::setParent(QObject*)              - Undefined Reference
+    _ZN7QObject9setParentEPS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::QObject(QObject*)                - Undefined Reference
+    _ZN7QObjectC1EPS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::~QObject()                       - Undefined Reference
+    _ZN7QObjectD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QPixmap::~QPixmap()                       - Undefined Reference
+    _ZN7QPixmapD1Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QPixmap::operator =(const QPixmap&)       - Undefined Reference
+    _ZN7QPixmapaSERKS_@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QString::shared_null                      - Undefined Reference
+    _ZN7QString11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromLatin1_helper(const char*, int)  - Undefined Reference
+    _ZN7QString17fromLatin1_helperEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::free(QString::Data*)             - Undefined Reference
+    _ZN7QString4freeEPNS_4DataE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::operator =(const QString&)       - Undefined Reference
+    _ZN7QStringaSERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::~QVariant()                     - Undefined Reference
+    _ZN8QVariantD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::operator =(const QVariant&)     - Undefined Reference
+    _ZN8QVariantaSERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QWebPage::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN8QWebPage11qt_metacallEN11QMetaObject4CallEiPPv@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebPage::qt_metacast(const char*)        - Undefined Reference
+    _ZN8QWebPage11qt_metacastEPKc@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebPage::createPlugin(const QString&, const QUrl&, const QStringList&, const QStringList&)  - Undefined Reference
+    _ZN8QWebPage12createPluginERK7QStringRK4QUrlRK11QStringListS8_@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebPage::triggerAction(QWebPage::WebAction, bool)  - Undefined Reference
+    _ZN8QWebPage13triggerActionENS_9WebActionEb@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebPage::staticMetaObject                - Undefined Reference
+    _ZN8QWebPage16staticMetaObjectE@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebPage::acceptNavigationRequest(QWebFrame*, const QNetworkRequest&, QWebPage::NavigationType)  - Undefined Reference
+    _ZN8QWebPage23acceptNavigationRequestEP9QWebFrameRK15QNetworkRequestNS_14NavigationTypeE@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebPage::setNetworkAccessManager(QNetworkAccessManager*)  - Undefined Reference
+    _ZN8QWebPage23setNetworkAccessManagerEP21QNetworkAccessManager@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebPage::javaScriptConsoleMessage(const QString&, int, const QString&)  - Undefined Reference
+    _ZN8QWebPage24javaScriptConsoleMessageERK7QStringiS2_@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebPage::event(QEvent*)                  - Undefined Reference
+    _ZN8QWebPage5eventEP6QEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebPage::extension(QWebPage::Extension, const QWebPage::ExtensionOption*, QWebPage::ExtensionReturn*)  - Undefined Reference
+    _ZN8QWebPage9extensionENS_9ExtensionEPKNS_15ExtensionOptionEPNS_15ExtensionReturnE@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebPage::QWebPage(QObject*)              - Undefined Reference
+    _ZN8QWebPageC1EP7QObject@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebPage::~QWebPage()                     - Undefined Reference
+    _ZN8QWebPageD1Ev@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QListData::detach_grow(int*, int)         - Undefined Reference
+    _ZN9QListData11detach_growEPii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::shared_null                    - Undefined Reference
+    _ZN9QListData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::append()                       - Undefined Reference
+    _ZN9QListData6appendEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaType::registerType(const char*, void(*)(void*), void*(*)(const void*))  - Undefined Reference
+    _ZN9QMetaType12registerTypeEPKcPFvPvEPFS2_PKvE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaType::registerTypedef(const char*, int)  - Undefined Reference
+    _ZN9QMetaType15registerTypedefEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QWebFrame::setContent(const QByteArray&, const QString&, const QUrl&)  - Undefined Reference
+    _ZN9QWebFrame10setContentERK10QByteArrayRK7QStringRK4QUrl@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebFrame::evaluateJavaScript(const QString&)  - Undefined Reference
+    _ZN9QWebFrame18evaluateJavaScriptERK7QString@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebFrame::setScrollBarPolicy(Qt::Orientation, Qt::ScrollBarPolicy)  - Undefined Reference
+    _ZN9QWebFrame18setScrollBarPolicyEN2Qt11OrientationENS0_15ScrollBarPolicyE@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebFrame::addToJavaScriptWindowObject(const QString&, QObject*)  - Undefined Reference
+    _ZN9QWebFrame27addToJavaScriptWindowObjectERK7QStringP7QObject@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebFrame::load(const QNetworkRequest&, QNetworkAccessManager::Operation, const QByteArray&)  - Undefined Reference
+    _ZN9QWebFrame4loadERK15QNetworkRequestN21QNetworkAccessManager9OperationERK10QByteArray@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebFrame::load(const QUrl&)              - Undefined Reference
+    _ZN9QWebFrame4loadERK4QUrl@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebFrame::setHtml(const QString&, const QUrl&)  - Undefined Reference
+    _ZN9QWebFrame7setHtmlERK7QStringRK4QUrl@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QMetaObject::cast(QObject*) const         - Undefined Reference
+    _ZNK11QMetaObject4castEP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QWebElement::isNull() const               - Undefined Reference
+    _ZNK11QWebElement6isNullEv@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebElement::parent() const               - Undefined Reference
+    _ZNK11QWebElement6parentEv@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebElement::geometry() const             - Undefined Reference
+    _ZNK11QWebElement8geometryEv@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebSettings::fontFamily(QWebSettings::FontFamily) const  - Undefined Reference
+    _ZNK12QWebSettings10fontFamilyENS_10FontFamilyE@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebSettings::testAttribute(QWebSettings::WebAttribute) const  - Undefined Reference
+    _ZNK12QWebSettings13testAttributeENS_12WebAttributeE@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebSettings::localStoragePath() const    - Undefined Reference
+    _ZNK12QWebSettings16localStoragePathEv@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebSettings::fontSize(QWebSettings::FontSize) const  - Undefined Reference
+    _ZNK12QWebSettings8fontSizeENS_8FontSizeE@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsItem::childItems() const         - Undefined Reference
+    _ZNK13QGraphicsItem10childItemsEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::opaqueArea() const         - Undefined Reference
+    _ZNK13QGraphicsItem10opaqueAreaEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::isObscuredBy(const QGraphicsItem*) const  - Undefined Reference
+    _ZNK13QGraphicsItem12isObscuredByEPKS_@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::collidesWithItem(const QGraphicsItem*, Qt::ItemSelectionMode) const  - Undefined Reference
+    _ZNK13QGraphicsItem16collidesWithItemEPKS_N2Qt17ItemSelectionModeE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::collidesWithPath(const QPainterPath&, Qt::ItemSelectionMode) const  - Undefined Reference
+    _ZNK13QGraphicsItem16collidesWithPathERK12QPainterPathN2Qt17ItemSelectionModeE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::supportsExtension(QGraphicsItem::Extension) const  - Undefined Reference
+    _ZNK13QGraphicsItem17supportsExtensionENS_9ExtensionE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::type() const               - Undefined Reference
+    _ZNK13QGraphicsItem4typeEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::scale() const              - Undefined Reference
+    _ZNK13QGraphicsItem5scaleEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::shape() const              - Undefined Reference
+    _ZNK13QGraphicsItem5shapeEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::contains(const QPointF&) const  - Undefined Reference
+    _ZNK13QGraphicsItem8containsERK7QPointF@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::extension(const QVariant&) const  - Undefined Reference
+    _ZNK13QGraphicsItem9extensionERK8QVariant@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsWidget::boundingRect() const     - Undefined Reference
+    _ZNK15QGraphicsWidget12boundingRectEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsWidget::initStyleOption(QStyleOption*) const  - Undefined Reference
+    _ZNK15QGraphicsWidget15initStyleOptionEP12QStyleOption@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsWidget::getContentsMargins(float*, float*, float*, float*) const  - Undefined Reference
+    _ZNK15QGraphicsWidget18getContentsMarginsEPfS0_S0_S0_@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsWidget::windowFrameSectionAt(const QPointF&) const  - Undefined Reference
+    _ZNK15QGraphicsWidget20windowFrameSectionAtERK7QPointF@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsWidget::type() const             - Undefined Reference
+    _ZNK15QGraphicsWidget4typeEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsWidget::shape() const            - Undefined Reference
+    _ZNK15QGraphicsWidget5shapeEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QDeclarativeItem::widthValid() const      - Undefined Reference
+    _ZNK16QDeclarativeItem10widthValidEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::heightValid() const     - Undefined Reference
+    _ZNK16QDeclarativeItem11heightValidEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::boundingRect() const    - Undefined Reference
+    _ZNK16QDeclarativeItem12boundingRectEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::keepMouseGrab() const   - Undefined Reference
+    _ZNK16QDeclarativeItem13keepMouseGrabEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::inputMethodQuery(Qt::InputMethodQuery) const  - Undefined Reference
+    _ZNK16QDeclarativeItem16inputMethodQueryEN2Qt16InputMethodQueryE@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::isComponentComplete() const  - Undefined Reference
+    _ZNK16QDeclarativeItem19isComponentCompleteEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::width() const           - Undefined Reference
+    _ZNK16QDeclarativeItem5widthEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::height() const          - Undefined Reference
+    _ZNK16QDeclarativeItem6heightEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QGraphicsWebView::inputMethodQuery(Qt::InputMethodQuery) const  - Undefined Reference
+    _ZNK16QGraphicsWebView16inputMethodQueryEN2Qt16InputMethodQueryE@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::page() const            - Undefined Reference
+    _ZNK16QGraphicsWebView4pageEv@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QGraphicsWebView::sizeHint(Qt::SizeHint, const QSizeF&) const  - Undefined Reference
+    _ZNK16QGraphicsWebView8sizeHintEN2Qt8SizeHintERK6QSizeF@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebHitTestResult::boundingRect() const   - Undefined Reference
+    _ZNK17QWebHitTestResult12boundingRectEv@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebHitTestResult::isContentEditable() const  - Undefined Reference
+    _ZNK17QWebHitTestResult17isContentEditableEv@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebHitTestResult::enclosingBlockElement() const  - Undefined Reference
+    _ZNK17QWebHitTestResult21enclosingBlockElementEv@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QDeclarativeEngine::networkAccessManager() const  - Undefined Reference
+    _ZNK18QDeclarativeEngine20networkAccessManagerEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QGraphicsLayoutItem::geometry() const     - Undefined Reference
+    _ZNK19QGraphicsLayoutItem8geometryEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsSceneMouseEvent::pos() const     - Undefined Reference
+    _ZNK24QGraphicsSceneMouseEvent3posEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsSceneMouseEvent::button() const  - Undefined Reference
+    _ZNK24QGraphicsSceneMouseEvent6buttonEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsSceneMouseEvent::buttons() const  - Undefined Reference
+    _ZNK24QGraphicsSceneMouseEvent7buttonsEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QUrl::isEmpty() const                     - Undefined Reference
+    _ZNK4QUrl7isEmptyEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::operator ==(const QUrl&) const      - Undefined Reference
+    _ZNK4QUrleqERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::operator !=(const QUrl&) const      - Undefined Reference
+    _ZNK4QUrlneERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QIcon::pixmap(const QSize&, QIcon::Mode, QIcon::State) const  - Undefined Reference
+    _ZNK5QIcon6pixmapERK5QSizeNS_4ModeENS_5StateE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QPointF::manhattanLength() const          - Undefined Reference
+    _ZNK7QPointF15manhattanLengthEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QWebPage::userAgentForUrl(const QUrl&) const  - Undefined Reference
+    _ZNK8QWebPage15userAgentForUrlERK4QUrl@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebPage::supportsExtension(QWebPage::Extension) const  - Undefined Reference
+    _ZNK8QWebPage17supportsExtensionENS_9ExtensionE@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebPage::preferredContentsSize() const   - Undefined Reference
+    _ZNK8QWebPage21preferredContentsSizeEv@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebPage::setPreferredContentsSize(const QSize&) const  - Undefined Reference
+    _ZNK8QWebPage24setPreferredContentsSizeERK5QSize@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebPage::action(QWebPage::WebAction) const  - Undefined Reference
+    _ZNK8QWebPage6actionENS_9WebActionE@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebPage::history() const                 - Undefined Reference
+    _ZNK8QWebPage7historyEv@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebPage::settings() const                - Undefined Reference
+    _ZNK8QWebPage8settingsEv@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebPage::mainFrame() const               - Undefined Reference
+    _ZNK8QWebPage9mainFrameEv@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebFrame::contentsSize() const           - Undefined Reference
+    _ZNK9QWebFrame12contentsSizeEv@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebFrame::hitTestContent(const QPoint&) const  - Undefined Reference
+    _ZNK9QWebFrame14hitTestContentERK6QPoint@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebFrame::url() const                    - Undefined Reference
+    _ZNK9QWebFrame3urlEv@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebFrame::icon() const                   - Undefined Reference
+    _ZNK9QWebFrame4iconEv@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebFrame::title() const                  - Undefined Reference
+    _ZNK9QWebFrame5titleEv@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    QWebFrame::toHtml() const                 - Undefined Reference
+    _ZNK9QWebFrame6toHtmlEv@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    typeinfo for QDeclarativeItem             - Undefined Reference
+    _ZTI16QDeclarativeItem@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    typeinfo for QGraphicsWebView             - Undefined Reference
+    _ZTI16QGraphicsWebView@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    typeinfo for QDeclarativeExtensionPlugin  - Undefined Reference
+    _ZTI27QDeclarativeExtensionPlugin@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    typeinfo for QObject                      - Undefined Reference
+    _ZTI7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for QWebPage                     - Undefined Reference
+    _ZTI8QWebPage@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv120__si_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    thunk{-16} to QDeclarativeItem::classBegin()  - Undefined Reference
+    _ZThn16_N16QDeclarativeItem10classBeginEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-16} to QGraphicsWebView::setGeometry(const QRectF&)  - Undefined Reference
+    _ZThn16_N16QGraphicsWebView11setGeometryERK6QRectF@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    thunk{-16} to QGraphicsWebView::updateGeometry()  - Undefined Reference
+    _ZThn16_N16QGraphicsWebView14updateGeometryEv@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    thunk{-16} to QGraphicsWidget::getContentsMargins(float*, float*, float*, float*) const  - Undefined Reference
+    _ZThn16_NK15QGraphicsWidget18getContentsMarginsEPfS0_S0_S0_@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    thunk{-16} to QGraphicsWebView::sizeHint(Qt::SizeHint, const QSizeF&) const  - Undefined Reference
+    _ZThn16_NK16QGraphicsWebView8sizeHintEN2Qt8SizeHintERK6QSizeF@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeItem::itemChange(QGraphicsItem::GraphicsItemChange, const QVariant&)  - Undefined Reference
+    _ZThn8_N16QDeclarativeItem10itemChangeEN13QGraphicsItem18GraphicsItemChangeERK8QVariant@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeItem::sceneEvent(QEvent*)  - Undefined Reference
+    _ZThn8_N16QDeclarativeItem10sceneEventEP6QEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeItem::keyPressEvent(QKeyEvent*)  - Undefined Reference
+    _ZThn8_N16QDeclarativeItem13keyPressEventEP9QKeyEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeItem::keyReleaseEvent(QKeyEvent*)  - Undefined Reference
+    _ZThn8_N16QDeclarativeItem15keyReleaseEventEP9QKeyEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeItem::inputMethodEvent(QInputMethodEvent*)  - Undefined Reference
+    _ZThn8_N16QDeclarativeItem16inputMethodEventEP17QInputMethodEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeItem::paint(QPainter*, const QStyleOptionGraphicsItem*, QWidget*)  - Undefined Reference
+    _ZThn8_N16QDeclarativeItem5paintEP8QPainterPK24QStyleOptionGraphicsItemP7QWidget@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QGraphicsWebView::itemChange(QGraphicsItem::GraphicsItemChange, const QVariant&)  - Undefined Reference
+    _ZThn8_N16QGraphicsWebView10itemChangeEN13QGraphicsItem18GraphicsItemChangeERK8QVariant@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    thunk{-8} to QGraphicsWebView::wheelEvent(QGraphicsSceneWheelEvent*)  - Undefined Reference
+    _ZThn8_N16QGraphicsWebView10wheelEventEP24QGraphicsSceneWheelEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    thunk{-8} to QGraphicsWebView::focusInEvent(QFocusEvent*)  - Undefined Reference
+    _ZThn8_N16QGraphicsWebView12focusInEventEP11QFocusEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    thunk{-8} to QGraphicsWebView::dragMoveEvent(QGraphicsSceneDragDropEvent*)  - Undefined Reference
+    _ZThn8_N16QGraphicsWebView13dragMoveEventEP27QGraphicsSceneDragDropEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    thunk{-8} to QGraphicsWebView::focusOutEvent(QFocusEvent*)  - Undefined Reference
+    _ZThn8_N16QGraphicsWebView13focusOutEventEP11QFocusEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    thunk{-8} to QGraphicsWebView::keyPressEvent(QKeyEvent*)  - Undefined Reference
+    _ZThn8_N16QGraphicsWebView13keyPressEventEP9QKeyEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    thunk{-8} to QGraphicsWebView::dragEnterEvent(QGraphicsSceneDragDropEvent*)  - Undefined Reference
+    _ZThn8_N16QGraphicsWebView14dragEnterEventEP27QGraphicsSceneDragDropEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    thunk{-8} to QGraphicsWebView::dragLeaveEvent(QGraphicsSceneDragDropEvent*)  - Undefined Reference
+    _ZThn8_N16QGraphicsWebView14dragLeaveEventEP27QGraphicsSceneDragDropEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    thunk{-8} to QGraphicsWebView::hoverMoveEvent(QGraphicsSceneHoverEvent*)  - Undefined Reference
+    _ZThn8_N16QGraphicsWebView14hoverMoveEventEP24QGraphicsSceneHoverEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    thunk{-8} to QGraphicsWebView::hoverLeaveEvent(QGraphicsSceneHoverEvent*)  - Undefined Reference
+    _ZThn8_N16QGraphicsWebView15hoverLeaveEventEP24QGraphicsSceneHoverEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    thunk{-8} to QGraphicsWebView::keyReleaseEvent(QKeyEvent*)  - Undefined Reference
+    _ZThn8_N16QGraphicsWebView15keyReleaseEventEP9QKeyEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    thunk{-8} to QGraphicsWebView::contextMenuEvent(QGraphicsSceneContextMenuEvent*)  - Undefined Reference
+    _ZThn8_N16QGraphicsWebView16contextMenuEventEP30QGraphicsSceneContextMenuEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    thunk{-8} to QGraphicsWebView::inputMethodEvent(QInputMethodEvent*)  - Undefined Reference
+    _ZThn8_N16QGraphicsWebView16inputMethodEventEP17QInputMethodEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    thunk{-8} to QGraphicsWebView::paint(QPainter*, const QStyleOptionGraphicsItem*, QWidget*)  - Undefined Reference
+    _ZThn8_N16QGraphicsWebView5paintEP8QPainterPK24QStyleOptionGraphicsItemP7QWidget@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    thunk{-8} to QGraphicsWebView::dropEvent(QGraphicsSceneDragDropEvent*)  - Undefined Reference
+    _ZThn8_N16QGraphicsWebView9dropEventEP27QGraphicsSceneDragDropEvent@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeExtensionPlugin::initializeEngine(QDeclarativeEngine*, const char*)  - Undefined Reference
+    _ZThn8_N27QDeclarativeExtensionPlugin16initializeEngineEP18QDeclarativeEnginePKc@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QGraphicsWidget::boundingRect() const  - Undefined Reference
+    _ZThn8_NK15QGraphicsWidget12boundingRectEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    thunk{-8} to QGraphicsWidget::type() const  - Undefined Reference
+    _ZThn8_NK15QGraphicsWidget4typeEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    thunk{-8} to QGraphicsWidget::shape() const  - Undefined Reference
+    _ZThn8_NK15QGraphicsWidget5shapeEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeItem::boundingRect() const  - Undefined Reference
+    _ZThn8_NK16QDeclarativeItem12boundingRectEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeItem::inputMethodQuery(Qt::InputMethodQuery) const  - Undefined Reference
+    _ZThn8_NK16QDeclarativeItem16inputMethodQueryEN2Qt16InputMethodQueryE@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QGraphicsWebView::inputMethodQuery(Qt::InputMethodQuery) const  - Undefined Reference
+    _ZThn8_NK16QGraphicsWebView16inputMethodQueryEN2Qt16InputMethodQueryE@QtWebKit{00040800}[200267c2].dll  - Undefined Reference
+    operator delete (void*)                   - Undefined Reference
+    _ZdlPv@stdnew{000a0000}[20022178].dll     - Undefined Reference
+    operator new(unsigned)                    - Undefined Reference
+    _Znwj@stdnew{000a0000}[20022178].dll      - Undefined Reference
+    __aeabi_cdcmpeq                           - Undefined Reference
+    __aeabi_cdcmpeq@dfpaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_cfcmpeq                           - Undefined Reference
+    __aeabi_cfcmpeq@dfpaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_cfcmple                           - Undefined Reference
+    __aeabi_cfcmple@dfpaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_cfrcmple                          - Undefined Reference
+    __aeabi_cfrcmple@dfpaeabi{000a0000}.dll   - Undefined Reference
+    __aeabi_dmul                              - Undefined Reference
+    __aeabi_dmul@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_f2d                               - Undefined Reference
+    __aeabi_f2d@dfpaeabi{000a0000}.dll        - Undefined Reference
+    __aeabi_f2iz                              - Undefined Reference
+    __aeabi_f2iz@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_fadd                              - Undefined Reference
+    __aeabi_fadd@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_fdiv                              - Undefined Reference
+    __aeabi_fdiv@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_fmul                              - Undefined Reference
+    __aeabi_fmul@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_frsub                             - Undefined Reference
+    __aeabi_frsub@dfpaeabi{000a0000}.dll      - Undefined Reference
+    __aeabi_fsub                              - Undefined Reference
+    __aeabi_fsub@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_i2d                               - Undefined Reference
+    __aeabi_i2d@dfpaeabi{000a0000}.dll        - Undefined Reference
+    __aeabi_i2f                               - Undefined Reference
+    __aeabi_i2f@dfpaeabi{000a0000}.dll        - Undefined Reference
+    __aeabi_memcpy4                           - Undefined Reference
+    __aeabi_memcpy4@drtaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_unwind_cpp_pr0                    - Undefined Reference
+    __aeabi_unwind_cpp_pr0@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_begin_catch                         - Undefined Reference
+    __cxa_begin_catch@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_end_catch                           - Undefined Reference
+    __cxa_end_catch@drtaeabi{000a0000}.dll    - Undefined Reference
+    __cxa_end_cleanup                         - Undefined Reference
+    __cxa_end_cleanup@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_abort                         - Undefined Reference
+    __cxa_guard_abort@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_acquire                       - Undefined Reference
+    __cxa_guard_acquire@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_release                       - Undefined Reference
+    __cxa_guard_release@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_rethrow                             - Undefined Reference
+    __cxa_rethrow@drtaeabi{000a0000}.dll      - Undefined Reference
+    strcmp                                    - Undefined Reference
+    strcmp@libc{00010001}[10207369].dll       - Undefined Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      52  ucppinit.o(.emb_text)
+    std::nothrow                             0x0000805c   ARM Code       0  ucppinit.o(.emb_text)
+    __PLT                                    0x0000805c   ARM Code       0  anon$$obj.o(.plt)
+    QDeclarativeWebPage::QDeclarativeWebPage(QDeclarativeWebView*) 0x000085f5   Thumb Code    12  qdeclarativewebview.o(.text)
+    QDeclarativeWebPage::QDeclarativeWebPage__sub_object(QDeclarativeWebView*) 0x000085f5   Thumb Code     0  qdeclarativewebview.o(.text)
+    QDeclarativeWebPage::~QDeclarativeWebPage() 0x00008601   Thumb Code     8  qdeclarativewebview.o(.text)
+    QDeclarativeWebPage::~QDeclarativeWebPage__sub_object() 0x00008601   Thumb Code     0  qdeclarativewebview.o(.text)
+    QDeclarativeWebPage::~QDeclarativeWebPage__deallocating() 0x00008609   Thumb Code    16  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::page() const        0x00008619   Thumb Code    12  qdeclarativewebview.o(.text)
+    QDeclarativeWebPage::viewItem()          0x00008625   Thumb Code     6  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::createWindow(QWebPage::WebWindowType) 0x0000862b   Thumb Code   196  qdeclarativewebview.o(.text)
+    QDeclarativeWebPage::createWindow(QWebPage::WebWindowType) 0x000086ef   Thumb Code    24  qdeclarativewebview.o(.text)
+    QDeclarativeWebPage::chooseFile(QWebFrame*, const QString&) 0x00008707   Thumb Code    10  qdeclarativewebview.o(.text)
+    QDeclarativeWebPage::javaScriptAlert(QWebFrame*, const QString&) 0x00008711   Thumb Code    14  qdeclarativewebview.o(.text)
+    QDeclarativeWebPage::javaScriptConfirm(QWebFrame*, const QString&) 0x0000871f   Thumb Code     4  qdeclarativewebview.o(.text)
+    QDeclarativeWebPage::javaScriptPrompt(QWebFrame*, const QString&, const QString&, QString*) 0x00008723   Thumb Code     4  qdeclarativewebview.o(.text)
+    GraphicsWebView::GraphicsWebView(QDeclarativeWebView*) 0x00008727   Thumb Code    48  qdeclarativewebview.o(.text)
+    GraphicsWebView::GraphicsWebView__sub_object(QDeclarativeWebView*) 0x00008727   Thumb Code     0  qdeclarativewebview.o(.text)
+    GraphicsWebView::mousePressEvent(QGraphicsSceneMouseEvent*) 0x00008757   Thumb Code   124  qdeclarativewebview.o(.text)
+    thunk{-8} to GraphicsWebView::mousePressEvent(QGraphicsSceneMouseEvent*) 0x000087d3   Thumb Code     4  qdeclarativewebview.o(.text)
+    GraphicsWebView::mouseReleaseEvent(QGraphicsSceneMouseEvent*) 0x000087d7   Thumb Code    34  qdeclarativewebview.o(.text)
+    thunk{-8} to GraphicsWebView::mouseReleaseEvent(QGraphicsSceneMouseEvent*) 0x000087f9   Thumb Code     4  qdeclarativewebview.o(.text)
+    GraphicsWebView::mouseMoveEvent(QGraphicsSceneMouseEvent*) 0x000087fd   Thumb Code    98  qdeclarativewebview.o(.text)
+    thunk{-8} to GraphicsWebView::mouseMoveEvent(QGraphicsSceneMouseEvent*) 0x0000885f   Thumb Code     4  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::contentsScale() const 0x00008863   Thumb Code    14  qdeclarativewebview.o(.text)
+    GraphicsWebView::mouseDoubleClickEvent(QGraphicsSceneMouseEvent*) 0x00008871   Thumb Code   158  qdeclarativewebview.o(.text)
+    thunk{-8} to GraphicsWebView::mouseDoubleClickEvent(QGraphicsSceneMouseEvent*) 0x0000890f   Thumb Code     4  qdeclarativewebview.o(.text)
+    GraphicsWebView::timerEvent(QTimerEvent*) 0x00008913   Thumb Code    38  qdeclarativewebview.o(.text)
+    GraphicsWebView::sceneEvent(QEvent*)     0x00008939   Thumb Code    38  qdeclarativewebview.o(.text)
+    thunk{-8} to GraphicsWebView::sceneEvent(QEvent*) 0x0000895f   Thumb Code     4  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::updateContentsSize() 0x00008963   Thumb Code   106  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::setPage(QWebPage*)  0x000089cd   Thumb Code   680  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::init()              0x00008c75   Thumb Code   308  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::QDeclarativeWebView(QDeclarativeItem*) 0x00008da9   Thumb Code    30  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::QDeclarativeWebView__sub_object(QDeclarativeItem*) 0x00008da9   Thumb Code     0  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::~QDeclarativeWebView() 0x00008dc7   Thumb Code    38  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::~QDeclarativeWebView__sub_object() 0x00008dc7   Thumb Code     0  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::~QDeclarativeWebView__deallocating() 0x00008ded   Thumb Code    16  qdeclarativewebview.o(.text)
+    thunk{-16} to QDeclarativeWebView::~QDeclarativeWebView__deallocating() 0x00008dfd   Thumb Code     4  qdeclarativewebview.o(.text)
+    thunk{-8} to QDeclarativeWebView::~QDeclarativeWebView__deallocating() 0x00008e01   Thumb Code     4  qdeclarativewebview.o(.text)
+    thunk{-16} to QDeclarativeWebView::~QDeclarativeWebView() 0x00008e05   Thumb Code     4  qdeclarativewebview.o(.text)
+    thunk{-8} to QDeclarativeWebView::~QDeclarativeWebView() 0x00008e09   Thumb Code     4  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::url() const         0x00008e0d   Thumb Code    12  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::setUrl(const QUrl&) 0x00008e19   Thumb Code   152  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::title() const       0x00008eb1   Thumb Code    24  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::icon() const        0x00008ec9   Thumb Code    56  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::elementAreaAt(int, int, int, int) const 0x00008f01   Thumb Code   204  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::heuristicZoom(int, int, float) 0x00008fcd   Thumb Code   506  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::pressGrabTime() const 0x000091c7   Thumb Code     8  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::setPressGrabTime(int) 0x000091cf   Thumb Code    20  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::preferredWidth() const 0x000091e3   Thumb Code     6  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::setPreferredWidth(int) 0x000091e9   Thumb Code    28  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::preferredHeight() const 0x00009205   Thumb Code     6  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::setPreferredHeight(int) 0x0000920b   Thumb Code    28  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::status() const      0x00009227   Thumb Code     6  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::progress() const    0x0000922d   Thumb Code     6  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::statusText() const  0x00009233   Thumb Code    12  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::reloadAction() const 0x0000923f   Thumb Code    14  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::backAction() const  0x0000924d   Thumb Code    14  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::forwardAction() const 0x0000925b   Thumb Code    14  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::stopAction() const  0x00009269   Thumb Code    14  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::load(const QNetworkRequest&, QNetworkAccessManager::Operation, const QByteArray&) 0x00009277   Thumb Code    28  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::html() const        0x00009293   Thumb Code    24  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::setHtml(const QString&, const QUrl&) 0x000092ab   Thumb Code    76  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::setContent(const QByteArray&, const QString&, const QUrl&) 0x000092f7   Thumb Code   106  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::history() const     0x00009361   Thumb Code    12  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::settings() const    0x0000936d   Thumb Code    12  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::settingsObject() const 0x00009379   Thumb Code    22  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::renderingEnabled() const 0x0000938f   Thumb Code     8  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::setRenderingEnabled(bool) 0x00009397   Thumb Code    38  qdeclarativewebview.o(.text)
+    QDeclarativeWebViewPrivate::updateWindowObjects() 0x000093bd   Thumb Code   150  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::javaScriptWindowObjects() 0x00009453   Thumb Code    38  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::qmlAttachedProperties(QObject*) 0x00009479   Thumb Code    36  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::newWindowComponent() const 0x0000949d   Thumb Code     6  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::setNewWindowComponent(QDeclarativeComponent*) 0x000094a3   Thumb Code    18  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::newWindowParent() const 0x000094b5   Thumb Code     6  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::setNewWindowParent(QDeclarativeItem*) 0x000094bb   Thumb Code    98  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::contentsSize() const 0x0000951d   Thumb Code    72  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::updateDeclarativeWebViewSize() 0x00009565   Thumb Code    70  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::setContentsScale(float) 0x000095ab   Thumb Code    50  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::evaluateJavaScript(const QString&) 0x000095dd   Thumb Code    28  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::doLoadStarted()     0x000095f9   Thumb Code    36  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::doLoadProgress(int) 0x0000961d   Thumb Code    66  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::doLoadFinished(bool) 0x0000965f   Thumb Code    54  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::setStatusText(const QString&) 0x00009695   Thumb Code    20  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::windowObjectCleared() 0x000096a9   Thumb Code     4  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::pageUrlChanged()    0x000096ad   Thumb Code   374  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::initialLayout()     0x00009823   Thumb Code     2  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::geometryChanged(const QRectF&, const QRectF&) 0x00009825   Thumb Code   158  qdeclarativewebview.o(.text)
+    QDeclarativeWebView::componentComplete() 0x000098c3   Thumb Code   102  qdeclarativewebview.o(.text)
+    thunk{-16} to QDeclarativeWebView::componentComplete() 0x00009929   Thumb Code     4  qdeclarativewebview.o(.text)
+    qt_plugin_query_verification_data        0x0000992d   Thumb Code     4  plugin.o(.text)
+    qt_plugin_instance                       0x00009931   Thumb Code   100  plugin.o(.text)
+    WebKitQmlPlugin::getStaticMetaObject()   0x00009995   Thumb Code     6  plugin.o(.text)
+    WebKitQmlPlugin::metaObject() const      0x0000999b   Thumb Code    14  plugin.o(.text)
+    WebKitQmlPlugin::qt_metacast(const char*) 0x000099a9   Thumb Code    40  plugin.o(.text)
+    WebKitQmlPlugin::qt_metacall(QMetaObject::Call, int, void**) 0x000099d1   Thumb Code     8  plugin.o(.text)
+    QDeclarativeWebPage::getStaticMetaObject() 0x000099ed   Thumb Code     4  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebPage::metaObject() const  0x000099f1   Thumb Code    12  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebPage::qt_metacast(const char*) 0x000099fd   Thumb Code    38  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebPage::qt_metacall(QMetaObject::Call, int, void**) 0x00009a23   Thumb Code     8  moc_qdeclarativewebview_p.o(.text)
+    GraphicsWebView::getStaticMetaObject()   0x00009a2b   Thumb Code     6  moc_qdeclarativewebview_p.o(.text)
+    GraphicsWebView::metaObject() const      0x00009a31   Thumb Code    14  moc_qdeclarativewebview_p.o(.text)
+    GraphicsWebView::qt_metacast(const char*) 0x00009a3f   Thumb Code    40  moc_qdeclarativewebview_p.o(.text)
+    GraphicsWebView::doubleClick(int, int)   0x00009a67   Thumb Code    36  moc_qdeclarativewebview_p.o(.text)
+    GraphicsWebView::qt_metacall(QMetaObject::Call, int, void**) 0x00009a8b   Thumb Code    44  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebView::getStaticMetaObject() 0x00009ab7   Thumb Code     6  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebView::metaObject() const  0x00009abd   Thumb Code    14  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebView::qt_metacast(const char*) 0x00009acb   Thumb Code    40  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebView::alert(const QString&) 0x00009af3   Thumb Code    26  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebView::zoomTo(float, int, int) 0x00009b0d   Thumb Code    42  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebView::doubleClick(int, int) 0x00009b37   Thumb Code    36  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebView::loadFailed()        0x00009b5b   Thumb Code    16  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebView::loadFinished()      0x00009b6b   Thumb Code    16  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebView::loadStarted()       0x00009b7b   Thumb Code    16  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebView::contentsScaleChanged() 0x00009b8b   Thumb Code    16  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebView::contentsSizeChanged(const QSize&) 0x00009b9b   Thumb Code    26  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebView::renderingEnabledChanged() 0x00009bb5   Thumb Code    16  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebView::newWindowParentChanged() 0x00009bc5   Thumb Code    16  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebView::newWindowComponentChanged() 0x00009bd5   Thumb Code    16  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebView::pressGrabTimeChanged() 0x00009be5   Thumb Code    16  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebView::htmlChanged()       0x00009bf5   Thumb Code    16  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebView::statusTextChanged() 0x00009c05   Thumb Code    16  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebView::iconChanged()       0x00009c15   Thumb Code    16  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebView::titleChanged(const QString&) 0x00009c25   Thumb Code    26  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebView::statusChanged(QDeclarativeWebView::Status) 0x00009c3f   Thumb Code    32  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebView::progressChanged()   0x00009c5f   Thumb Code    16  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebView::urlChanged()        0x00009c6f   Thumb Code    16  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebView::preferredHeightChanged() 0x00009c7f   Thumb Code    16  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebView::preferredWidthChanged() 0x00009c8f   Thumb Code    16  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebView::qt_metacall(QMetaObject::Call, int, void**) 0x00009c9f   Thumb Code   902  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebViewAttached::getStaticMetaObject() 0x0000a025   Thumb Code     4  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebViewAttached::metaObject() const 0x0000a029   Thumb Code    12  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebViewAttached::qt_metacast(const char*) 0x0000a035   Thumb Code    38  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebViewAttached::qt_metacall(QMetaObject::Call, int, void**) 0x0000a05b   Thumb Code   100  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebSettings::getStaticMetaObject() 0x0000a0bf   Thumb Code     6  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebSettings::metaObject() const 0x0000a0c5   Thumb Code    14  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebSettings::qt_metacast(const char*) 0x0000a0d3   Thumb Code    40  moc_qdeclarativewebview_p.o(.text)
+    QDeclarativeWebSettings::qt_metacall(QMetaObject::Call, int, void**) 0x0000a0fb   Thumb Code   750  moc_qdeclarativewebview_p.o(.text)
+    __ARM_switch8                            0x0000a3e8   ARM Code      24  switch8.o(.text)
+    __rt_switch8                             0x0000a3e8   ARM Code       0  switch8.o(.text)
+    _E32Dll_Body                             0x0000a400   ARM Code      56  uc_dll.o(.text)
+    __aeabi_atexit                           0x0000a43c   ARM Code      28  ucppfini.o(.text)
+    __cxa_atexit                             0x0000a458   ARM Code      48  ucppfini.o(.text)
+    __cxa_finalize                           0x0000a488   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x0000a4b8   ARM Code       8  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x0000a4cc   ARM Code       4  dllexp.o(.text)
+    qRound(float)                            0x0000a653   Thumb Code    70  qdeclarativewebview.o(i._Z6qRoundf)
+    QByteArray::QByteArray(const QByteArray&) 0x0000a699   Thumb Code    16  plugin.o(i._ZN10QByteArrayC1ERKS_)
+    QByteArray::QByteArray__sub_object(const QByteArray&) 0x0000a699   Thumb Code     0  plugin.o(i._ZN10QByteArrayC1ERKS_)
+    QByteArray::~QByteArray()                0x0000a6a9   Thumb Code    24  qdeclarativewebview.o(i._ZN10QByteArrayD1Ev)
+    QByteArray::~QByteArray__sub_object()    0x0000a6a9   Thumb Code     0  qdeclarativewebview.o(i._ZN10QByteArrayD1Ev)
+    QBasicTimer::~QBasicTimer()              0x0000a6c1   Thumb Code    20  moc_qdeclarativewebview_p.o(i._ZN11QBasicTimerD1Ev)
+    QBasicTimer::~QBasicTimer__sub_object()  0x0000a6c1   Thumb Code     0  moc_qdeclarativewebview_p.o(i._ZN11QBasicTimerD1Ev)
+    GraphicsWebView::~GraphicsWebView__deallocating() 0x0000a6d5   Thumb Code    16  moc_qdeclarativewebview_p.o(i._ZN15GraphicsWebViewD0Ev)
+    GraphicsWebView::~GraphicsWebView()      0x0000a6e5   Thumb Code    32  moc_qdeclarativewebview_p.o(i._ZN15GraphicsWebViewD1Ev)
+    GraphicsWebView::~GraphicsWebView__sub_object() 0x0000a6e5   Thumb Code     0  moc_qdeclarativewebview_p.o(i._ZN15GraphicsWebViewD1Ev)
+    QBasicAtomicInt::ref()                   0x0000a713   Thumb Code    18  qdeclarativewebview.o(i._ZN15QBasicAtomicInt3refEv)
+    QBasicAtomicInt::deref()                 0x0000a725   Thumb Code    18  qdeclarativewebview.o(i._ZN15QBasicAtomicInt5derefEv)
+    WebKitQmlPlugin::registerTypes(const char*) 0x0000a739   Thumb Code    22  plugin.o(i._ZN15WebKitQmlPlugin13registerTypesEPKc)
+    WebKitQmlPlugin::~WebKitQmlPlugin__deallocating() 0x0000a755   Thumb Code    16  plugin.o(i._ZN15WebKitQmlPluginD0Ev)
+    WebKitQmlPlugin::~WebKitQmlPlugin()      0x0000a765   Thumb Code     8  plugin.o(i._ZN15WebKitQmlPluginD1Ev)
+    WebKitQmlPlugin::~WebKitQmlPlugin__sub_object() 0x0000a765   Thumb Code     0  plugin.o(i._ZN15WebKitQmlPluginD1Ev)
+    QDeclarativePrivate::RegisterType::~RegisterType() 0x0000a76d   Thumb Code    12  plugin.o(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    QDeclarativePrivate::RegisterType::~RegisterType__sub_object() 0x0000a76d   Thumb Code     0  plugin.o(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeWebView>::~QDeclarativeElement__deallocating() 0x0000a779   Thumb Code    16  plugin.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewED0Ev)
+    QDeclarativeWebSettings::~QDeclarativeWebSettings__deallocating() 0x0000a789   Thumb Code    16  moc_qdeclarativewebview_p.o(i._ZN23QDeclarativeWebSettingsD0Ev)
+    QDeclarativeWebSettings::~QDeclarativeWebSettings() 0x0000a799   Thumb Code     8  qdeclarativewebview.o(i._ZN23QDeclarativeWebSettingsD1Ev)
+    QDeclarativeWebSettings::~QDeclarativeWebSettings__sub_object() 0x0000a799   Thumb Code     0  qdeclarativewebview.o(i._ZN23QDeclarativeWebSettingsD1Ev)
+    QDeclarativeWebViewPrivate::windowObjectsAppend(QDeclarativeListProperty<QObject>*, QObject*) 0x0000a7a1   Thumb Code    50  qdeclarativewebview.o(i._ZN26QDeclarativeWebViewPrivate19windowObjectsAppendEP24QDeclarativeListPropertyI7QObjectEPS1_)
+    QDeclarativeWebViewPrivate::QDeclarativeWebViewPrivate(QDeclarativeWebView*) 0x0000a7e5   Thumb Code   118  qdeclarativewebview.o(i._ZN26QDeclarativeWebViewPrivateC1EP19QDeclarativeWebView)
+    QDeclarativeWebViewPrivate::QDeclarativeWebViewPrivate__sub_object(QDeclarativeWebView*) 0x0000a7e5   Thumb Code     0  qdeclarativewebview.o(i._ZN26QDeclarativeWebViewPrivateC1EP19QDeclarativeWebView)
+    QDeclarativeWebViewPrivate::~QDeclarativeWebViewPrivate() 0x0000a8af   Thumb Code    80  qdeclarativewebview.o(i._ZN26QDeclarativeWebViewPrivateD1Ev)
+    QDeclarativeWebViewPrivate::~QDeclarativeWebViewPrivate__sub_object() 0x0000a8af   Thumb Code     0  qdeclarativewebview.o(i._ZN26QDeclarativeWebViewPrivateD1Ev)
+    QDeclarativeWebViewAttached::~QDeclarativeWebViewAttached__deallocating() 0x0000a945   Thumb Code    16  moc_qdeclarativewebview_p.o(i._ZN27QDeclarativeWebViewAttachedD0Ev)
+    QDeclarativeWebViewAttached::~QDeclarativeWebViewAttached() 0x0000a955   Thumb Code    24  moc_qdeclarativewebview_p.o(i._ZN27QDeclarativeWebViewAttachedD1Ev)
+    QDeclarativeWebViewAttached::~QDeclarativeWebViewAttached__sub_object() 0x0000a955   Thumb Code     0  moc_qdeclarativewebview_p.o(i._ZN27QDeclarativeWebViewAttachedD1Ev)
+    QString::QString(const QLatin1String&)   0x0000a97b   Thumb Code    20  qdeclarativewebview.o(i._ZN7QStringC1ERK13QLatin1String)
+    QString::QString__sub_object(const QLatin1String&) 0x0000a97b   Thumb Code     0  qdeclarativewebview.o(i._ZN7QStringC1ERK13QLatin1String)
+    QString::QString(const QString&)         0x0000a98f   Thumb Code    16  qdeclarativewebview.o(i._ZN7QStringC1ERKS_)
+    QString::QString__sub_object(const QString&) 0x0000a98f   Thumb Code     0  qdeclarativewebview.o(i._ZN7QStringC1ERKS_)
+    QString::QString()                       0x0000a9a1   Thumb Code    16  qdeclarativewebview.o(i._ZN7QStringC1Ev)
+    QString::QString__sub_object()           0x0000a9a1   Thumb Code     0  qdeclarativewebview.o(i._ZN7QStringC1Ev)
+    QString::~QString()                      0x0000a9b5   Thumb Code    24  qdeclarativewebview.o(i._ZN7QStringD1Ev)
+    QString::~QString__sub_object()          0x0000a9b5   Thumb Code     0  qdeclarativewebview.o(i._ZN7QStringD1Ev)
+    QBasicAtomicInt::operator !() const      0x0000a9cd   Thumb Code    14  plugin.o(i._ZNK15QBasicAtomicIntntEv)
+    QPointF::toPoint() const                 0x0000a9db   Thumb Code    26  qdeclarativewebview.o(i._ZNK7QPointF7toPointEv)
+    QString::isNull() const                  0x0000a9f5   Thumb Code    16  qdeclarativewebview.o(i._ZNK7QString6isNullEv)
+    QListData::at(int) const                 0x0000aa09   Thumb Code    16  qdeclarativewebview.o(i._ZNK9QListData2atEi)
+    QListData::begin() const                 0x0000aa19   Thumb Code    12  qdeclarativewebview.o(i._ZNK9QListData5beginEv)
+    thunk{-16} to GraphicsWebView::~GraphicsWebView__deallocating() 0x0000aa25   Thumb Code    10  moc_qdeclarativewebview_p.o(i._ZThn16_N15GraphicsWebViewD0Ev)
+    thunk{-16} to GraphicsWebView::~GraphicsWebView() 0x0000aa2f   Thumb Code    10  moc_qdeclarativewebview_p.o(i._ZThn16_N15GraphicsWebViewD1Ev)
+    thunk{-16} to QDeclarativePrivate::QDeclarativeElement<QDeclarativeWebView>::~QDeclarativeElement__deallocating() 0x0000aa39   Thumb Code    10  plugin.o(i._ZThn16_N19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewED0Ev)
+    thunk{-16} to QDeclarativePrivate::QDeclarativeElement<QDeclarativeWebView>::~QDeclarativeElement() 0x0000aa43   Thumb Code    10  plugin.o(i._ZThn16_N19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewED1Ev)
+    thunk{-8} to GraphicsWebView::~GraphicsWebView__deallocating() 0x0000aa4d   Thumb Code    10  moc_qdeclarativewebview_p.o(i._ZThn8_N15GraphicsWebViewD0Ev)
+    thunk{-8} to GraphicsWebView::~GraphicsWebView() 0x0000aa57   Thumb Code    10  moc_qdeclarativewebview_p.o(i._ZThn8_N15GraphicsWebViewD1Ev)
+    thunk{-8} to WebKitQmlPlugin::registerTypes(const char*) 0x0000aa61   Thumb Code    10  plugin.o(i._ZThn8_N15WebKitQmlPlugin13registerTypesEPKc)
+    thunk{-8} to WebKitQmlPlugin::~WebKitQmlPlugin__deallocating() 0x0000aa6b   Thumb Code    10  plugin.o(i._ZThn8_N15WebKitQmlPluginD0Ev)
+    thunk{-8} to WebKitQmlPlugin::~WebKitQmlPlugin() 0x0000aa75   Thumb Code    10  plugin.o(i._ZThn8_N15WebKitQmlPluginD1Ev)
+    thunk{-8} to QDeclarativePrivate::QDeclarativeElement<QDeclarativeWebView>::~QDeclarativeElement__deallocating() 0x0000aa7f   Thumb Code    10  plugin.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewED0Ev)
+    thunk{-8} to QDeclarativePrivate::QDeclarativeElement<QDeclarativeWebView>::~QDeclarativeElement() 0x0000aa89   Thumb Code    10  plugin.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewED1Ev)
+    operator delete (void*, void*)           0x0000aa93   Thumb Code     2  plugin.o(i._ZdlPvS_)
+    operator new(unsigned, void*)            0x0000aa95   Thumb Code     4  plugin.o(i._ZnwjPv)
+    operator +(const char*, const QByteArray&) 0x0000aa99   Thumb Code    34  plugin.o(i._ZplPKcRK10QByteArray)
+    operator +(const QByteArray&, const char*) 0x0000aac5   Thumb Code    34  plugin.o(i._ZplRK10QByteArrayPKc)
+    operator +(const QByteArray&, char)      0x0000aaf1   Thumb Code    34  plugin.o(i._ZplRK10QByteArrayc)
+    qmlRegisterType<QDeclarativeWebView>(const char*, int, int, const char*) 0x0000ab1d   Thumb Code   190  plugin.o(t._Z15qmlRegisterTypeI19QDeclarativeWebViewEiPKciiS2_)
+    qmlRegisterType<QDeclarativeWebSettings>() 0x0000ac39   Thumb Code   172  plugin.o(t._Z15qmlRegisterTypeI23QDeclarativeWebSettingsEiv)
+    qRegisterMetaType<QDeclarativeListProperty<QDeclarativeWebView>>(const char*, T1*) 0x0000ad39   Thumb Code    64  plugin.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI19QDeclarativeWebViewEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QDeclarativeWebSettings>>(const char*, T1*) 0x0000adb5   Thumb Code    64  plugin.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI23QDeclarativeWebSettingsEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeWebView*>(const char*, T1*) 0x0000ae35   Thumb Code    64  plugin.o(t._Z17qRegisterMetaTypeIP19QDeclarativeWebViewEiPKcPT_)
+    qRegisterMetaType<QDeclarativeWebSettings*>(const char*, T1*) 0x0000ae99   Thumb Code    64  plugin.o(t._Z17qRegisterMetaTypeIP23QDeclarativeWebSettingsEiPKcPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QDeclarativeWebView>>(T1*) 0x0000af01   Thumb Code     8  plugin.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI19QDeclarativeWebViewEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QDeclarativeWebSettings>>(T1*) 0x0000af09   Thumb Code     8  plugin.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI23QDeclarativeWebSettingsEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeWebView*>(T1*) 0x0000af11   Thumb Code     8  plugin.o(t._Z21qMetaTypeDeleteHelperIP19QDeclarativeWebViewEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeWebSettings*>(T1*) 0x0000af19   Thumb Code     8  plugin.o(t._Z21qMetaTypeDeleteHelperIP23QDeclarativeWebSettingsEvPT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QDeclarativeWebView>>(const T1*) 0x0000af21   Thumb Code    70  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI19QDeclarativeWebViewEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QDeclarativeWebSettings>>(const T1*) 0x0000af6b   Thumb Code    70  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI23QDeclarativeWebSettingsEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeWebView*>(const T1*) 0x0000afb5   Thumb Code    26  plugin.o(t._Z24qMetaTypeConstructHelperIP19QDeclarativeWebViewEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeWebSettings*>(const T1*) 0x0000afcf   Thumb Code    26  plugin.o(t._Z24qMetaTypeConstructHelperIP23QDeclarativeWebSettingsEPvPKT_)
+    qAbs<float>(const T1&)                   0x0000afe9   Thumb Code    14  qdeclarativewebview.o(t._Z4qAbsIfET_RKS0_)
+    qMin<float>(const T1&, const T1&)        0x0000aff7   Thumb Code    24  qdeclarativewebview.o(t._Z4qMinIfERKT_S2_S2_)
+    QDeclarativePrivate::createInto<QDeclarativeWebView>(void*) 0x0000b011   Thumb Code    38  plugin.o(t._ZN19QDeclarativePrivate10createIntoI19QDeclarativeWebViewEEvPv)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeWebView>::~QDeclarativeElement() 0x0000b049   Thumb Code    30  plugin.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeWebView>::~QDeclarativeElement__sub_object() 0x0000b049   Thumb Code     0  plugin.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewED1Ev)
+    QDeclarativePrivate::AttachedPropertySelector<QDeclarativeWebView, (int)1>::attachedProperties(QObject*) 0x0000b077   Thumb Code     8  plugin.o(t._ZN19QDeclarativePrivate24AttachedPropertySelectorI19QDeclarativeWebViewLi1EE18attachedPropertiesEP7QObject)
+    QList<QGraphicsItem*>::~QList()          0x0000b07f   Thumb Code    34  qdeclarativewebview.o(t._ZN5QListIP13QGraphicsItemED1Ev)
+    QList<QGraphicsItem*>::~QList__sub_object() 0x0000b07f   Thumb Code     0  qdeclarativewebview.o(t._ZN5QListIP13QGraphicsItemED1Ev)
+    QList<QObject*>::detach_helper_grow(int, int) 0x0000b0a1   Thumb Code   166  qdeclarativewebview.o(t._ZN5QListIP7QObjectE18detach_helper_growEii)
+    QList<QObject*>::free(QListData::Data*)  0x0000b14f   Thumb Code    16  qdeclarativewebview.o(t._ZN5QListIP7QObjectE4freeEPN9QListData4DataE)
+    QList<QObject*>::node_copy(QList<QObject*>::Node*, QList<QObject*>::Node*, QList<QObject*>::Node*) 0x0000b15f   Thumb Code    28  qdeclarativewebview.o(t._ZN5QListIP7QObjectE9node_copyEPNS2_4NodeES4_S4_)
+    QList<QObject*>::~QList()                0x0000b17b   Thumb Code    30  qdeclarativewebview.o(t._ZN5QListIP7QObjectED1Ev)
+    QList<QObject*>::~QList__sub_object()    0x0000b17b   Thumb Code     0  qdeclarativewebview.o(t._ZN5QListIP7QObjectED1Ev)
+    QPointer<QObject>::~QPointer()           0x0000b199   Thumb Code    12  plugin.o(t._ZN8QPointerI7QObjectED1Ev)
+    QPointer<QObject>::~QPointer__sub_object() 0x0000b199   Thumb Code     0  plugin.o(t._ZN8QPointerI7QObjectED1Ev)
+    WebKitQmlPlugin::staticMetaObject        0x0000b744   Data          16  plugin.o(.constdata)
+    QDeclarativeWebPage::staticMetaObject    0x0000bf54   Data          16  moc_qdeclarativewebview_p.o(.constdata)
+    GraphicsWebView::staticMetaObject        0x0000bf64   Data          16  moc_qdeclarativewebview_p.o(.constdata)
+    QDeclarativeWebView::staticMetaObject    0x0000bf74   Data          16  moc_qdeclarativewebview_p.o(.constdata)
+    QDeclarativeWebViewAttached::staticMetaObject 0x0000bf84   Data          16  moc_qdeclarativewebview_p.o(.constdata)
+    QDeclarativeWebSettings::staticMetaObject 0x0000bf94   Data          16  moc_qdeclarativewebview_p.o(.constdata)
+    stlp_priv::_Integer_limits<signed char, (signed char)-128, (signed char)127, (int)-1, (bool)1>::digits 0x0000c630   Data           4  qdeclarativewebview.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<bool, (bool)0, (bool)1, (int)1, (bool)0>::digits 0x0000c634   Data           4  qdeclarativewebview.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    stlp_priv::_Integer_limits<char, (char)128, (char)127, (int)-1, (bool)1>::digits 0x0000c638   Data           4  qdeclarativewebview.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned char, (unsigned char)0, (unsigned char)255, (int)-1, (bool)1>::digits 0x0000c63c   Data           4  qdeclarativewebview.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::digits 0x0000c640   Data           4  qdeclarativewebview.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned, (unsigned)0, (unsigned)4294967295, (int)-1, (bool)1>::digits 0x0000c644   Data           4  qdeclarativewebview.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long, (long)-2147483648, (long)2147483647, (int)-1, (bool)1>::digits 0x0000c648   Data           4  qdeclarativewebview.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long, (unsigned long)0, (unsigned long)4294967295, (int)-1, (bool)1>::digits 0x0000c64c   Data           4  qdeclarativewebview.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<short, (short)-32768, (short)32767, (int)-1, (bool)1>::digits 0x0000c650   Data           4  qdeclarativewebview.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned short, (unsigned short)0, (unsigned short)65535, (int)-1, (bool)1>::digits 0x0000c654   Data           4  qdeclarativewebview.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<wchar_t, (wchar_t)0, (wchar_t)65535, (int)-1, (bool)1>::digits 0x0000c658   Data           4  qdeclarativewebview.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    typeinfo for GraphicsWebView             0x0000c65c   Data          12  moc_qdeclarativewebview_p.o(.constdata__ZTI15GraphicsWebView)
+    typeinfo for WebKitQmlPlugin             0x0000c668   Data          12  plugin.o(.constdata__ZTI15WebKitQmlPlugin)
+    typeinfo for QDeclarativeWebPage         0x0000c674   Data          12  moc_qdeclarativewebview_p.o(.constdata__ZTI19QDeclarativeWebPage)
+    typeinfo for QDeclarativeWebView         0x0000c680   Data          12  moc_qdeclarativewebview_p.o(.constdata__ZTI19QDeclarativeWebView)
+    typeinfo for QDeclarativeWebSettings     0x0000c68c   Data          12  moc_qdeclarativewebview_p.o(.constdata__ZTI23QDeclarativeWebSettings)
+    typeinfo for QDeclarativeWebViewAttached 0x0000c698   Data          12  moc_qdeclarativewebview_p.o(.constdata__ZTI27QDeclarativeWebViewAttached)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QDeclarativeWebView> 0x0000c6a4   Data          12  plugin.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewEE)
+    typeinfo name for GraphicsWebView        0x0000c6b0   Data          18  moc_qdeclarativewebview_p.o(.constdata__ZTS15GraphicsWebView)
+    typeinfo name for WebKitQmlPlugin        0x0000c6c2   Data          18  plugin.o(.constdata__ZTS15WebKitQmlPlugin)
+    typeinfo name for QDeclarativeWebPage    0x0000c6d4   Data          22  moc_qdeclarativewebview_p.o(.constdata__ZTS19QDeclarativeWebPage)
+    typeinfo name for QDeclarativeWebView    0x0000c6ea   Data          22  moc_qdeclarativewebview_p.o(.constdata__ZTS19QDeclarativeWebView)
+    typeinfo name for QDeclarativeWebSettings 0x0000c700   Data          26  moc_qdeclarativewebview_p.o(.constdata__ZTS23QDeclarativeWebSettings)
+    typeinfo name for QDeclarativeWebViewAttached 0x0000c71a   Data          30  moc_qdeclarativewebview_p.o(.constdata__ZTS27QDeclarativeWebViewAttached)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QDeclarativeWebView> 0x0000c738   Data          68  plugin.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewEE)
+    vtable for GraphicsWebView               0x0000c77c   Data         424  moc_qdeclarativewebview_p.o(.constdata__ZTV15GraphicsWebView)
+    vtable for WebKitQmlPlugin               0x0000c924   Data          88  plugin.o(.constdata__ZTV15WebKitQmlPlugin)
+    vtable for QDeclarativeWebPage           0x0000c97c   Data         104  moc_qdeclarativewebview_p.o(.constdata__ZTV19QDeclarativeWebPage)
+    vtable for QDeclarativeWebView           0x0000c9e4   Data         280  moc_qdeclarativewebview_p.o(.constdata__ZTV19QDeclarativeWebView)
+    vtable for QDeclarativeWebSettings       0x0000cafc   Data          56  moc_qdeclarativewebview_p.o(.constdata__ZTV23QDeclarativeWebSettings)
+    vtable for QDeclarativeWebViewAttached   0x0000cb34   Data          56  moc_qdeclarativewebview_p.o(.constdata__ZTV27QDeclarativeWebViewAttached)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QDeclarativeWebView> 0x0000cb6c   Data         280  plugin.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI19QDeclarativeWebViewEE)
+    .ARM.exidx$$Base                         0x0000cd1c   Number         0  ucppinit.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x0000d0cc   Number         0  qdeclarativewebview.o(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x0000d0cc   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    __dso_handle                             0x00400008   Data           4  ucppfini.o(.data)
+    std::_Atomic_swap_struct<(int)1>::_S_swap_lock 0x0040000c   Data          12  qdeclarativewebview.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    QMetaTypeId<QDeclarativeListProperty<QDeclarativeWebView>>::qt_metatype_id()::metatype_id 0x00400018   Data           4  plugin.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI19QDeclarativeWebViewEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeListProperty<QDeclarativeWebSettings>>::qt_metatype_id()::metatype_id 0x0040001c   Data           4  plugin.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI23QDeclarativeWebSettingsEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeWebView*>::qt_metatype_id()::metatype_id 0x00400020   Data           4  plugin.o(.data__ZZN11QMetaTypeIdIP19QDeclarativeWebViewE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeWebSettings*>::qt_metatype_id()::metatype_id 0x00400024   Data           4  plugin.o(.data__ZZN11QMetaTypeIdIP23QDeclarativeWebSettingsE14qt_metatype_idEvE11metatype_id)
+    dtor_rec                                 0x0040002c   Data        2048  ucppfini.o(.bss)
+

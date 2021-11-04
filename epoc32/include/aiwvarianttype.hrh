@@ -1,0 +1,43 @@
+/*
+* ============================================================================
+*  Name        : AiwVariantType.hrh
+*  Part of     : Application Interworking Framework / ServiceHandler
+*  Interface   : SDK, AIW Generic Parameter API
+*  Description : Variant data type for Generic Parameters library.
+*  Version:
+*
+*  Copyright © 2003-2005 Nokia. All rights reserved.
+*  This material, including documentation and any related 
+*  computer programs, is protected by copyright controlled by 
+*  Nokia. All rights are reserved. Copying, including 
+*  reproducing, storing, adapting or translating, any 
+*  or all of this material requires the prior written consent of 
+*  Nokia. This material also contains confidential 
+*  information which may not be disclosed to others without the 
+*  prior written consent of Nokia.
+* ============================================================================
+*/
+
+#ifndef AIW_VARIANT_TYPE_HRH
+#define AIW_VARIANT_TYPE_HRH
+
+/**
+* Data formats supported by TAiwVariant class.
+*/
+enum TVariantTypeId
+    {
+    EVariantTypeAny        = -1,  ///< Used only in searching
+    EVariantTypeNull       = 0,   ///< Null (empty) type
+
+    EVariantTypeTInt32     = 1,   ///< 32 bit Integer
+    EVariantTypeTUid       = 2,   ///< Globally unique UID
+    EVariantTypeDesC       = 3,   ///< Constant text literal
+    EVariantTypeTTime      = 4,   ///< Date and time
+    EVariantTypeDesC8      = 5,   ///< 8-bit data buffer
+    EVariantTypeFileHandle = 6    ///< File handle
+    };
+
+#endif // AIW_VARIANT_TYPE_HRH
+
+// End of file
+

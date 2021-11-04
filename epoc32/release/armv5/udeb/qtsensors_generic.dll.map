@@ -1,0 +1,480 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../../unhosted.s                         0x00000000   Number         0  switch8.o ABSOLUTE
+    M:\\epoc32\\build\\euser\\c_e18a23aea4fd210f\\edll_lib\\armv5\\udeb\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\\sf\\os\\kernelhwsrv\\kernel\\eka\\compsupp\\rvct\\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\epoc32\build\euser\c_e18a23aea4fd210f\edll_lib\armv5\udeb\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\dllexp.cpp 0x00000000   Number         0  dllexp.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    S:\sf\mw\qtmobility\plugins\sensors\generic\genericorientationsensor.cpp 0x00000000   Number         0  genericorientationsensor.o ABSOLUTE
+    S:\sf\mw\qtmobility\plugins\sensors\generic\genericrotationsensor.cpp 0x00000000   Number         0  genericrotationsensor.o ABSOLUTE
+    S:\sf\mw\qtmobility\plugins\sensors\generic\main.cpp 0x00000000   Number         0  main.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    Symbian$$eit_base                        0x00008014   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$eit_limit                       0x00008018   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_base                   0x0000801c   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_limit                  0x00008020   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$reserved                        0x00008024   Data           4  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       52  ucppinit.o(.emb_text)
+    loop                                     0x0000803c   ARM Code       0  ucppinit.o(.emb_text)
+    ret                                      0x00008044   ARM Code       0  ucppinit.o(.emb_text)
+    base                                     0x00008054   Data           0  ucppinit.o(.emb_text)
+    limit                                    0x00008058   Data           0  ucppinit.o(.emb_text)
+    .text                                    0x000082ec   Section      688  genericorientationsensor.o(.text)
+    .text                                    0x0000859c   Section      444  main.o(.text)
+    .text                                    0x00008758   Section      856  genericrotationsensor.o(.text)
+    .text                                    0x00008ab0   Section       24  switch8.o(.text)
+    .text                                    0x00008ac8   Section       80  uc_dll.o(.text)
+    .text                                    0x00008b18   Section      180  ucppfini.o(.text)
+    .text                                    0x00008bcc   Section        4  dllexp.o(.text)
+    .text.clean                              0x00008bd0   Section       96  genericorientationsensor.o(.text.clean)
+    .text.clean                              0x00008c30   Section       32  main.o(.text.clean)
+    .text.clean                              0x00008c50   Section      104  genericrotationsensor.o(.text.clean)
+    i._Z5qAtanf                              0x00008cb8   Section       34  genericrotationsensor.o(i._Z5qAtanf)
+    i._Z6qDebugv                             0x00008cdc   Section      132  main.o(i._Z6qDebugv)
+    i._Z6qDebugv.clean                       0x00008d60   Section       24  main.o(i._Z6qDebugv.clean)
+    i._ZN10QByteArrayD1Ev                    0x00008d78   Section       24  main.o(i._ZN10QByteArrayD1Ev)
+    i._ZN10QtMobility20QAccelerometerFilter6filterEPNS_14QSensorReadingE 0x00008d90   Section       18  genericorientationsensor.o(i._ZN10QtMobility20QAccelerometerFilter6filterEPNS_14QSensorReadingE)
+    i._ZN10QtMobility20QAccelerometerFilterD2Ev 0x00008da2   Section       14  genericorientationsensor.o(i._ZN10QtMobility20QAccelerometerFilterD2Ev)
+    i._ZN15QBasicAtomicInt5derefEv           0x00008db0   Section       24  main.o(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN19genericSensorPlugin13createBackendEPN10QtMobility7QSensorE 0x00008dc8   Section      436  main.o(i._ZN19genericSensorPlugin13createBackendEPN10QtMobility7QSensorE)
+    i._ZN19genericSensorPlugin13createBackendEPN10QtMobility7QSensorE.clean 0x00008f7c   Section       98  main.o(i._ZN19genericSensorPlugin13createBackendEPN10QtMobility7QSensorE.clean)
+    i._ZN19genericSensorPlugin15registerSensorsEv 0x00008fe0   Section      164  main.o(i._ZN19genericSensorPlugin15registerSensorsEv)
+    i._ZN19genericSensorPlugin15registerSensorsEv.clean 0x00009084   Section       38  main.o(i._ZN19genericSensorPlugin15registerSensorsEv.clean)
+    i._ZN19genericSensorPluginD0Ev           0x000090aa   Section       22  main.o(i._ZN19genericSensorPluginD0Ev)
+    i._ZN19genericSensorPluginD1Ev           0x000090c0   Section       30  main.o(i._ZN19genericSensorPluginD1Ev)
+    i._ZN19genericSensorPluginD1Ev.clean     0x000090de   Section        4  main.o(i._ZN19genericSensorPluginD1Ev.clean)
+    i._ZN21genericrotationsensorD0Ev         0x000090e2   Section       22  genericrotationsensor.o(i._ZN21genericrotationsensorD0Ev)
+    i._ZN21genericrotationsensorD1Ev         0x000090f8   Section       52  genericrotationsensor.o(i._ZN21genericrotationsensorD1Ev)
+    i._ZN21genericrotationsensorD1Ev.clean   0x0000912c   Section       22  genericrotationsensor.o(i._ZN21genericrotationsensorD1Ev.clean)
+    i._ZN24genericorientationsensorD0Ev      0x00009142   Section       22  genericorientationsensor.o(i._ZN24genericorientationsensorD0Ev)
+    i._ZN24genericorientationsensorD1Ev      0x00009158   Section       52  genericorientationsensor.o(i._ZN24genericorientationsensorD1Ev)
+    i._ZN24genericorientationsensorD1Ev.clean 0x0000918c   Section       22  genericorientationsensor.o(i._ZN24genericorientationsensorD1Ev.clean)
+    i._ZN6QDebug10maybeSpaceEv               0x000091a2   Section       24  main.o(i._ZN6QDebug10maybeSpaceEv)
+    i._ZN6QDebugD1Ev                         0x000091ba   Section      150  main.o(i._ZN6QDebugD1Ev)
+    i._ZN6QDebugD1Ev.clean                   0x00009250   Section       20  main.o(i._ZN6QDebugD1Ev.clean)
+    i._ZN6QDebuglsEPKc                       0x00009264   Section       44  main.o(i._ZN6QDebuglsEPKc)
+    i._ZN6QDebuglsEPKc.clean                 0x00009290   Section       10  main.o(i._ZN6QDebuglsEPKc.clean)
+    i._ZN6QDebuglsERK10QByteArray            0x0000929a   Section       38  main.o(i._ZN6QDebuglsERK10QByteArray)
+    i._ZN7QStringD1Ev                        0x000092c0   Section       24  main.o(i._ZN7QStringD1Ev)
+    i._ZNK10QByteArray7isEmptyEv             0x000092d8   Section       18  main.o(i._ZNK10QByteArray7isEmptyEv)
+    i._ZThn12_N19genericSensorPlugin13createBackendEPN10QtMobility7QSensorE 0x000092ea   Section       18  main.o(i._ZThn12_N19genericSensorPlugin13createBackendEPN10QtMobility7QSensorE)
+    i._ZThn8_N19genericSensorPlugin15registerSensorsEv 0x000092fc   Section       14  main.o(i._ZThn8_N19genericSensorPlugin15registerSensorsEv)
+    i._ZeqRK10QByteArrayPKc                  0x0000930a   Section       38  main.o(i._ZeqRK10QByteArrayPKc)
+    t._ZN8QPointerI7QObjectED1Ev             0x00009330   Section       14  main.o(t._ZN8QPointerI7QObjectED1Ev)
+    .extab._ZN24genericorientationsensorC1EPN10QtMobility7QSensorE 0x00009340   Data           0  genericorientationsensor.o(.ARM.extab)
+    .extab._ZN24genericorientationsensorD1Ev 0x000093a0   Data           0  genericorientationsensor.o(.ARM.extab)
+    .extab.qt_plugin_instance                0x000093b8   Data           0  main.o(.ARM.extab)
+    .extab._Z6qDebugv                        0x000093d0   Data           0  main.o(.ARM.extab)
+    .extab._ZN6QDebugD1Ev                    0x000093e8   Data           0  main.o(.ARM.extab)
+    .extab._ZN6QDebuglsEPKc                  0x0000940c   Data           0  main.o(.ARM.extab)
+    .extab._ZN19genericSensorPlugin15registerSensorsEv 0x0000941c   Data           0  main.o(.ARM.extab)
+    .extab._ZN19genericSensorPlugin13createBackendEPN10QtMobility7QSensorE 0x0000945c   Data           0  main.o(.ARM.extab)
+    .extab._ZN21genericrotationsensorC1EPN10QtMobility7QSensorE 0x000094e4   Data           0  genericrotationsensor.o(.ARM.extab)
+    .extab._ZN21genericrotationsensorD1Ev    0x00009554   Data           0  genericrotationsensor.o(.ARM.extab)
+    .constdata$1                             0x0000956c   Data           0  genericorientationsensor.o(.constdata)
+    .constdata                               0x0000956c   Section        4  genericorientationsensor.o(.constdata)
+    .constdata$1                             0x00009570   Data           0  main.o(.constdata)
+    qt_plugin_verification_data              0x00009570   Data          91  main.o(.constdata)
+    .constdata                               0x00009570   Section      192  main.o(.constdata)
+    qt_meta_data_genericSensorPlugin         0x000095cc   Data          60  main.o(.constdata)
+    qt_meta_stringdata_genericSensorPlugin   0x00009608   Data          21  main.o(.constdata)
+    .constdata$1                             0x00009630   Data           0  genericrotationsensor.o(.constdata)
+    .constdata                               0x00009630   Section        4  genericrotationsensor.o(.constdata)
+    .constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE 0x00009634   Section        4  genericorientationsensor.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE 0x00009638   Section        4  genericorientationsensor.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE 0x0000963c   Section        4  genericorientationsensor.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE 0x00009640   Section        4  genericorientationsensor.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE 0x00009644   Section        4  genericorientationsensor.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE 0x00009648   Section        1  genericorientationsensor.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE 0x0000964c   Section        4  genericorientationsensor.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE 0x00009650   Section        4  genericorientationsensor.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE 0x00009654   Section        4  genericorientationsensor.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE 0x00009658   Section        4  genericorientationsensor.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE 0x0000965c   Section        4  genericorientationsensor.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE 0x00009660   Section        4  genericorientationsensor.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE 0x00009664   Section        4  genericorientationsensor.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE 0x00009668   Section        4  genericorientationsensor.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    .constdata__ZTI19genericSensorPlugin     0x0000966c   Section       40  main.o(.constdata__ZTI19genericSensorPlugin)
+    .constdata__ZTI21genericrotationsensor   0x00009694   Section       32  genericrotationsensor.o(.constdata__ZTI21genericrotationsensor)
+    .constdata__ZTI24genericorientationsensor 0x000096b4   Section       32  genericorientationsensor.o(.constdata__ZTI24genericorientationsensor)
+    .constdata__ZTIN10QtMobility20QAccelerometerFilterE 0x000096d4   Section       12  genericorientationsensor.o(.constdata__ZTIN10QtMobility20QAccelerometerFilterE)
+    .constdata__ZTIN10QtMobility21QSensorBackendFactoryE 0x000096e0   Section        8  main.o(.constdata__ZTIN10QtMobility21QSensorBackendFactoryE)
+    .constdata__ZTIN10QtMobility22QSensorPluginInterfaceE 0x000096e8   Section        8  main.o(.constdata__ZTIN10QtMobility22QSensorPluginInterfaceE)
+    .constdata__ZTS19genericSensorPlugin     0x000096f0   Section       22  main.o(.constdata__ZTS19genericSensorPlugin)
+    .constdata__ZTS21genericrotationsensor   0x00009706   Section       24  genericrotationsensor.o(.constdata__ZTS21genericrotationsensor)
+    .constdata__ZTS24genericorientationsensor 0x0000971e   Section       27  genericorientationsensor.o(.constdata__ZTS24genericorientationsensor)
+    .constdata__ZTSN10QtMobility20QAccelerometerFilterE 0x00009739   Section       37  genericorientationsensor.o(.constdata__ZTSN10QtMobility20QAccelerometerFilterE)
+    .constdata__ZTSN10QtMobility21QSensorBackendFactoryE 0x0000975e   Section       38  main.o(.constdata__ZTSN10QtMobility21QSensorBackendFactoryE)
+    .constdata__ZTSN10QtMobility22QSensorPluginInterfaceE 0x00009784   Section       39  main.o(.constdata__ZTSN10QtMobility22QSensorPluginInterfaceE)
+    .constdata__ZTV19genericSensorPlugin     0x000097ac   Section       88  main.o(.constdata__ZTV19genericSensorPlugin)
+    .constdata__ZTV21genericrotationsensor   0x00009804   Section       84  genericrotationsensor.o(.constdata__ZTV21genericrotationsensor)
+    .constdata__ZTV24genericorientationsensor 0x00009858   Section       88  genericorientationsensor.o(.constdata__ZTV24genericorientationsensor)
+    .constdata__ZTVN10QtMobility20QAccelerometerFilterE 0x000098b0   Section       20  genericorientationsensor.o(.constdata__ZTVN10QtMobility20QAccelerometerFilterE)
+    .constdata__ZTVN10QtMobility21QSensorBackendFactoryE 0x000098c4   Section       12  main.o(.constdata__ZTVN10QtMobility21QSensorBackendFactoryE)
+    .constdata__ZTVN10QtMobility22QSensorPluginInterfaceE 0x000098d0   Section       12  main.o(.constdata__ZTVN10QtMobility22QSensorPluginInterfaceE)
+    .conststring$3                           0x000098dc   Data           0  genericorientationsensor.o(.conststring)
+    .conststring                             0x000098dc   Section       20  genericorientationsensor.o(.conststring)
+    .conststring$3                           0x000098f0   Data           0  genericrotationsensor.o(.conststring)
+    .conststring                             0x000098f0   Section       17  genericrotationsensor.o(.conststring)
+    .ARM.exidx                               0x00009904   Section        8  ucppinit.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  main.o(.data)
+    _ZGV_instance@qt_plugin_instance_0       0x00400000   Data           4  main.o(.data)
+    .data                                    0x00400000   Section        8  main.o(.data)
+    _instance@qt_plugin_instance_1           0x00400004   Data           4  main.o(.data)
+    .data$0                                  0x00400008   Data           0  ucppfini.o(.data)
+    .data                                    0x00400008   Section        4  ucppfini.o(.data)
+    .data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE 0x0040000c   Section       12  genericorientationsensor.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    .bss$5                                   0x00400018   Data           0  ucppfini.o(.bss)
+    .bss                                     0x00400018   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$VFPv2$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$IEEEJ$EBA8$UX$FPIC$INDIRECT$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    QtCore{00040703}[2001b2dc].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtSensors{00010103}[2002bfc0].dll        0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    dfpaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    euser{000a0000}[100039e5].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    libc{00010001}[10207369].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    libm{00010001}[102750d2].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    qtsensors_generic{00000101}[2002bfc3].dll 0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    stdnew{000a0000}[20022178].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    qt_message_output(QtMsgType, const char*)  - Undefined Reference
+    _Z17qt_message_output9QtMsgTypePKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qFree(void*)                              - Undefined Reference
+    _Z5qFreePv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qstrcmp(const QByteArray&, const char*)   - Undefined Reference
+    _Z7qstrcmpRK10QByteArrayPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::realloc(int)                  - Undefined Reference
+    _ZN10QByteArray7reallocEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::QByteArray(const char*)       - Undefined Reference
+    _ZN10QByteArrayC1EPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QtMobility::QSensorFilter::setSensor(QtMobility::QSensor*)  - Undefined Reference
+    _ZN10QtMobility13QSensorFilter9setSensorEPNS_7QSensorE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QSensorFilter::QSensorFilter__sub_object()  - Undefined Reference
+    _ZN10QtMobility13QSensorFilterC2Ev@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QSensorFilter::~QSensorFilter__sub_object()  - Undefined Reference
+    _ZN10QtMobility13QSensorFilterD2Ev@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QAccelerometer::type          - Undefined Reference
+    _ZN10QtMobility14QAccelerometer4typeE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QSensorBackend::sensorBusy()  - Undefined Reference
+    _ZN10QtMobility14QSensorBackend10sensorBusyEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QSensorBackend::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN10QtMobility14QSensorBackend11qt_metacallEN11QMetaObject4CallEiPPv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QSensorBackend::qt_metacast(const char*)  - Undefined Reference
+    _ZN10QtMobility14QSensorBackend11qt_metacastEPKc@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QSensorBackend::setReadings(QtMobility::QSensorReading*, QtMobility::QSensorReading*, QtMobility::QSensorReading*)  - Undefined Reference
+    _ZN10QtMobility14QSensorBackend11setReadingsEPNS_14QSensorReadingES2_S2_@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QSensorBackend::setDataRates(const QtMobility::QSensor*)  - Undefined Reference
+    _ZN10QtMobility14QSensorBackend12setDataRatesEPKNS_7QSensorE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QSensorBackend::sensorStopped()  - Undefined Reference
+    _ZN10QtMobility14QSensorBackend13sensorStoppedEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QSensorBackend::newReadingAvailable()  - Undefined Reference
+    _ZN10QtMobility14QSensorBackend19newReadingAvailableEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QSensorBackend::QSensorBackend__sub_object(QtMobility::QSensor*)  - Undefined Reference
+    _ZN10QtMobility14QSensorBackendC2EPNS_7QSensorE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QSensorBackend::~QSensorBackend__sub_object()  - Undefined Reference
+    _ZN10QtMobility14QSensorBackendD2Ev@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QSensorManager::registerBackend(const QByteArray&, const QByteArray&, QtMobility::QSensorBackendFactory*)  - Undefined Reference
+    _ZN10QtMobility14QSensorManager15registerBackendERK10QByteArrayS3_PNS_21QSensorBackendFactoryE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QSensorReading::setTimestamp(QtMobility::qtimestamp)  - Undefined Reference
+    _ZN10QtMobility14QSensorReading12setTimestampENS_10qtimestampE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QRotationSensor::type         - Undefined Reference
+    _ZN10QtMobility15QRotationSensor4typeE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QRotationReading::setX(float)  - Undefined Reference
+    _ZN10QtMobility16QRotationReading4setXEf@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QRotationReading::setY(float)  - Undefined Reference
+    _ZN10QtMobility16QRotationReading4setYEf@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QRotationReading::setZ(float)  - Undefined Reference
+    _ZN10QtMobility16QRotationReading4setZEf@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QRotationReading::QRotationReading(QObject*)  - Undefined Reference
+    _ZN10QtMobility16QRotationReadingC1EP7QObject@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QRotationReading::~QRotationReading()  - Undefined Reference
+    _ZN10QtMobility16QRotationReadingD1Ev@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QOrientationSensor::type      - Undefined Reference
+    _ZN10QtMobility18QOrientationSensor4typeE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QOrientationReading::setOrientation(QtMobility::QOrientationReading::Orientation)  - Undefined Reference
+    _ZN10QtMobility19QOrientationReading14setOrientationENS0_11OrientationE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QOrientationReading::QOrientationReading(QObject*)  - Undefined Reference
+    _ZN10QtMobility19QOrientationReadingC1EP7QObject@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QOrientationReading::~QOrientationReading()  - Undefined Reference
+    _ZN10QtMobility19QOrientationReadingD1Ev@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QAccelerometerReading::staticMetaObject  - Undefined Reference
+    _ZN10QtMobility21QAccelerometerReading16staticMetaObjectE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QSensor::setDataRate(int)     - Undefined Reference
+    _ZN10QtMobility7QSensor11setDataRateEi@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QSensor::connectToBackend()   - Undefined Reference
+    _ZN10QtMobility7QSensor16connectToBackendEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QSensor::defaultSensorForType(const QByteArray&)  - Undefined Reference
+    _ZN10QtMobility7QSensor20defaultSensorForTypeERK10QByteArray@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QSensor::stop()               - Undefined Reference
+    _ZN10QtMobility7QSensor4stopEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QSensor::start()              - Undefined Reference
+    _ZN10QtMobility7QSensor5startEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QSensor::addFilter(QtMobility::QSensorFilter*)  - Undefined Reference
+    _ZN10QtMobility7QSensor9addFilterEPNS_13QSensorFilterE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QSensor::QSensor(const QByteArray&, QObject*)  - Undefined Reference
+    _ZN10QtMobility7QSensorC1ERK10QByteArrayP7QObject@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QMetaObject::changeGuard(QObject**, QObject*)  - Undefined Reference
+    _ZN11QMetaObject11changeGuardEPP7QObjectS1_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::removeGuard(QObject**)       - Undefined Reference
+    _ZN11QMetaObject11removeGuardEPP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::QTextStream(QString*, QFlags<QIODevice::OpenModeFlag>)  - Undefined Reference
+    _ZN11QTextStreamC1EP7QString6QFlagsIN9QIODevice12OpenModeFlagEE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::~QTextStream()               - Undefined Reference
+    _ZN11QTextStreamD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::operator <<(const QByteArray&)  - Undefined Reference
+    _ZN11QTextStreamlsERK10QByteArray@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::operator <<(const QString&)  - Undefined Reference
+    _ZN11QTextStreamlsERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::operator <<(char)            - Undefined Reference
+    _ZN11QTextStreamlsEc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    Math::ATan(double&, const double&)        - Undefined Reference
+    _ZN4Math4ATanERdRKd@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::LockedDec(int&)                     - Undefined Reference
+    _ZN4User9LockedDecERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::LockedInc(int&)                     - Undefined Reference
+    _ZN4User9LockedIncERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QObject::childEvent(QChildEvent*)         - Undefined Reference
+    _ZN7QObject10childEventEP11QChildEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::timerEvent(QTimerEvent*)         - Undefined Reference
+    _ZN7QObject10timerEventEP11QTimerEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::customEvent(QEvent*)             - Undefined Reference
+    _ZN7QObject11customEventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::eventFilter(QObject*, QEvent*)   - Undefined Reference
+    _ZN7QObject11eventFilterEPS_P6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN7QObject11qt_metacallEN11QMetaObject4CallEiPPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::qt_metacast(const char*)         - Undefined Reference
+    _ZN7QObject11qt_metacastEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::setProperty(const char*, const QVariant&)  - Undefined Reference
+    _ZN7QObject11setPropertyEPKcRK8QVariant@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connectNotify(const char*)       - Undefined Reference
+    _ZN7QObject13connectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::disconnectNotify(const char*)    - Undefined Reference
+    _ZN7QObject16disconnectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::staticMetaObject                 - Undefined Reference
+    _ZN7QObject16staticMetaObjectE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::event(QEvent*)                   - Undefined Reference
+    _ZN7QObject5eventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::QObject(QObject*)                - Undefined Reference
+    _ZN7QObjectC1EPS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::~QObject()                       - Undefined Reference
+    _ZN7QObjectD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::shared_null                      - Undefined Reference
+    _ZN7QString11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::free(QString::Data*)             - Undefined Reference
+    _ZN7QString4freeEPNS_4DataE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromAscii(const char*, int)      - Undefined Reference
+    _ZN7QString9fromAsciiEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::QVariant(bool)                  - Undefined Reference
+    _ZN8QVariantC1Eb@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::~QVariant()                     - Undefined Reference
+    _ZN8QVariantD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QtMobility::QSensorBackend::metaObject() const  - Undefined Reference
+    _ZNK10QtMobility14QSensorBackend10metaObjectEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QSensorReading::timestamp() const  - Undefined Reference
+    _ZNK10QtMobility14QSensorReading9timestampEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QOrientationReading::orientation() const  - Undefined Reference
+    _ZNK10QtMobility19QOrientationReading11orientationEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QAccelerometerReading::x() const  - Undefined Reference
+    _ZNK10QtMobility21QAccelerometerReading1xEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QAccelerometerReading::y() const  - Undefined Reference
+    _ZNK10QtMobility21QAccelerometerReading1yEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QAccelerometerReading::z() const  - Undefined Reference
+    _ZNK10QtMobility21QAccelerometerReading1zEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QSensor::identifier() const   - Undefined Reference
+    _ZNK10QtMobility7QSensor10identifierEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QSensor::isBusy() const       - Undefined Reference
+    _ZNK10QtMobility7QSensor6isBusyEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QSensor::dataRate() const     - Undefined Reference
+    _ZNK10QtMobility7QSensor8dataRateEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QSensor::isActive() const     - Undefined Reference
+    _ZNK10QtMobility7QSensor8isActiveEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QMetaObject::cast(QObject*) const         - Undefined Reference
+    _ZNK11QMetaObject4castEP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::toLocal8Bit() const              - Undefined Reference
+    _ZNK7QString11toLocal8BitEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for QObject                      - Undefined Reference
+    _ZTI7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for QtMobility::QSensorFilter    - Undefined Reference
+    _ZTIN10QtMobility13QSensorFilterE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    typeinfo for QtMobility::QSensorBackend   - Undefined Reference
+    _ZTIN10QtMobility14QSensorBackendE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    typeinfo for std::bad_alloc               - Undefined Reference
+    _ZTISt9bad_alloc@stdnew{000a0000}[20022178].dll  - Undefined Reference
+    vtable for QtMobility::QAccelerometer     - Undefined Reference
+    _ZTVN10QtMobility14QAccelerometerE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    vtable for __cxxabiv1::__class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv117__class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv120__si_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    vtable for __cxxabiv1::__vmi_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv121__vmi_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    operator delete (void*)                   - Undefined Reference
+    _ZdlPv@stdnew{000a0000}[20022178].dll     - Undefined Reference
+    operator new(unsigned)                    - Undefined Reference
+    _Znwj@stdnew{000a0000}[20022178].dll      - Undefined Reference
+    __aeabi_cdcmple                           - Undefined Reference
+    __aeabi_cdcmple@dfpaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_cdrcmple                          - Undefined Reference
+    __aeabi_cdrcmple@dfpaeabi{000a0000}.dll   - Undefined Reference
+    __aeabi_cfcmple                           - Undefined Reference
+    __aeabi_cfcmple@dfpaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_cfrcmple                          - Undefined Reference
+    __aeabi_cfrcmple@dfpaeabi{000a0000}.dll   - Undefined Reference
+    __aeabi_d2f                               - Undefined Reference
+    __aeabi_d2f@dfpaeabi{000a0000}.dll        - Undefined Reference
+    __aeabi_dmul                              - Undefined Reference
+    __aeabi_dmul@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_f2d                               - Undefined Reference
+    __aeabi_f2d@dfpaeabi{000a0000}.dll        - Undefined Reference
+    __aeabi_fadd                              - Undefined Reference
+    __aeabi_fadd@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_fdiv                              - Undefined Reference
+    __aeabi_fdiv@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_fmul                              - Undefined Reference
+    __aeabi_fmul@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_fsub                              - Undefined Reference
+    __aeabi_fsub@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_unwind_cpp_pr0                    - Undefined Reference
+    __aeabi_unwind_cpp_pr0@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_begin_catch                         - Undefined Reference
+    __cxa_begin_catch@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_end_catch                           - Undefined Reference
+    __cxa_end_catch@drtaeabi{000a0000}.dll    - Undefined Reference
+    __cxa_end_cleanup                         - Undefined Reference
+    __cxa_end_cleanup@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_abort                         - Undefined Reference
+    __cxa_guard_abort@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_acquire                       - Undefined Reference
+    __cxa_guard_acquire@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_release                       - Undefined Reference
+    __cxa_guard_release@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_pure_virtual                        - Undefined Reference
+    __cxa_pure_virtual@drtaeabi{000a0000}.dll  - Undefined Reference
+    sqrtf                                     - Undefined Reference
+    sqrtf@libm{00010001}[102750d2].dll        - Undefined Reference
+    strcmp                                    - Undefined Reference
+    strcmp@libc{00010001}[10207369].dll       - Undefined Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      52  ucppinit.o(.emb_text)
+    std::nothrow                             0x0000805c   ARM Code       0  ucppinit.o(.emb_text)
+    __PLT                                    0x0000805c   ARM Code       0  anon$$obj.o(.plt)
+    genericorientationsensor::genericorientationsensor(QtMobility::QSensor*) 0x000082ed   Thumb Code   302  genericorientationsensor.o(.text)
+    genericorientationsensor::genericorientationsensor__sub_object(QtMobility::QSensor*) 0x000082ed   Thumb Code     0  genericorientationsensor.o(.text)
+    genericorientationsensor::start()        0x0000841b   Thumb Code    64  genericorientationsensor.o(.text)
+    genericorientationsensor::stop()         0x0000845b   Thumb Code    12  genericorientationsensor.o(.text)
+    genericorientationsensor::filter(QtMobility::QAccelerometerReading*) 0x00008467   Thumb Code   258  genericorientationsensor.o(.text)
+    thunk{-12} to genericorientationsensor::filter(QtMobility::QAccelerometerReading*) 0x00008569   Thumb Code    18  genericorientationsensor.o(.text)
+    qt_plugin_query_verification_data        0x0000859d   Thumb Code     4  main.o(.text)
+    qt_plugin_instance                       0x000085a1   Thumb Code   154  main.o(.text)
+    genericSensorPlugin::getStaticMetaObject() 0x0000863b   Thumb Code     4  main.o(.text)
+    genericSensorPlugin::metaObject() const  0x0000863f   Thumb Code    28  main.o(.text)
+    genericSensorPlugin::qt_metacast(const char*) 0x0000865b   Thumb Code    96  main.o(.text)
+    genericSensorPlugin::qt_metacall(QMetaObject::Call, int, void**) 0x000086bb   Thumb Code    36  main.o(.text)
+    genericrotationsensor::genericrotationsensor(QtMobility::QSensor*) 0x00008759   Thumb Code   316  genericrotationsensor.o(.text)
+    genericrotationsensor::genericrotationsensor__sub_object(QtMobility::QSensor*) 0x00008759   Thumb Code     0  genericrotationsensor.o(.text)
+    genericrotationsensor::start()           0x00008895   Thumb Code    64  genericrotationsensor.o(.text)
+    genericrotationsensor::stop()            0x000088d5   Thumb Code    12  genericrotationsensor.o(.text)
+    genericrotationsensor::filter(QtMobility::QSensorReading*) 0x000088e1   Thumb Code   406  genericrotationsensor.o(.text)
+    thunk{-12} to genericrotationsensor::filter(QtMobility::QSensorReading*) 0x00008a77   Thumb Code    18  genericrotationsensor.o(.text)
+    __ARM_switch8                            0x00008ab0   ARM Code      24  switch8.o(.text)
+    __rt_switch8                             0x00008ab0   ARM Code       0  switch8.o(.text)
+    _E32Dll_Body                             0x00008ac8   ARM Code      76  uc_dll.o(.text)
+    __aeabi_atexit                           0x00008b18   ARM Code      40  ucppfini.o(.text)
+    __cxa_atexit                             0x00008b40   ARM Code      64  ucppfini.o(.text)
+    __cxa_finalize                           0x00008b80   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x00008bb0   ARM Code      16  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x00008bcc   ARM Code       4  dllexp.o(.text)
+    qAtan(float)                             0x00008cb9   Thumb Code    34  genericrotationsensor.o(i._Z5qAtanf)
+    qDebug()                                 0x00008cdd   Thumb Code   128  main.o(i._Z6qDebugv)
+    QByteArray::~QByteArray()                0x00008d79   Thumb Code    24  main.o(i._ZN10QByteArrayD1Ev)
+    QByteArray::~QByteArray__sub_object()    0x00008d79   Thumb Code     0  main.o(i._ZN10QByteArrayD1Ev)
+    QtMobility::QAccelerometerFilter::filter(QtMobility::QSensorReading*) 0x00008d91   Thumb Code    18  genericorientationsensor.o(i._ZN10QtMobility20QAccelerometerFilter6filterEPNS_14QSensorReadingE)
+    QtMobility::QAccelerometerFilter::~QAccelerometerFilter() 0x00008da3   Thumb Code     0  genericorientationsensor.o(i._ZN10QtMobility20QAccelerometerFilterD2Ev)
+    QtMobility::QAccelerometerFilter::~QAccelerometerFilter__sub_object() 0x00008da3   Thumb Code    14  genericorientationsensor.o(i._ZN10QtMobility20QAccelerometerFilterD2Ev)
+    QBasicAtomicInt::deref()                 0x00008db1   Thumb Code    24  main.o(i._ZN15QBasicAtomicInt5derefEv)
+    genericSensorPlugin::createBackend(QtMobility::QSensor*) 0x00008dc9   Thumb Code   382  main.o(i._ZN19genericSensorPlugin13createBackendEPN10QtMobility7QSensorE)
+    genericSensorPlugin::registerSensors()   0x00008fe1   Thumb Code   118  main.o(i._ZN19genericSensorPlugin15registerSensorsEv)
+    genericSensorPlugin::~genericSensorPlugin__deallocating() 0x000090ab   Thumb Code    22  main.o(i._ZN19genericSensorPluginD0Ev)
+    genericSensorPlugin::~genericSensorPlugin() 0x000090c1   Thumb Code    30  main.o(i._ZN19genericSensorPluginD1Ev)
+    genericSensorPlugin::~genericSensorPlugin__sub_object() 0x000090c1   Thumb Code     0  main.o(i._ZN19genericSensorPluginD1Ev)
+    genericrotationsensor::~genericrotationsensor__deallocating() 0x000090e3   Thumb Code    22  genericrotationsensor.o(i._ZN21genericrotationsensorD0Ev)
+    genericrotationsensor::~genericrotationsensor() 0x000090f9   Thumb Code    46  genericrotationsensor.o(i._ZN21genericrotationsensorD1Ev)
+    genericrotationsensor::~genericrotationsensor__sub_object() 0x000090f9   Thumb Code     0  genericrotationsensor.o(i._ZN21genericrotationsensorD1Ev)
+    genericorientationsensor::~genericorientationsensor__deallocating() 0x00009143   Thumb Code    22  genericorientationsensor.o(i._ZN24genericorientationsensorD0Ev)
+    genericorientationsensor::~genericorientationsensor() 0x00009159   Thumb Code    48  genericorientationsensor.o(i._ZN24genericorientationsensorD1Ev)
+    genericorientationsensor::~genericorientationsensor__sub_object() 0x00009159   Thumb Code     0  genericorientationsensor.o(i._ZN24genericorientationsensorD1Ev)
+    QDebug::maybeSpace()                     0x000091a3   Thumb Code    24  main.o(i._ZN6QDebug10maybeSpaceEv)
+    QDebug::~QDebug()                        0x000091bb   Thumb Code   150  main.o(i._ZN6QDebugD1Ev)
+    QDebug::~QDebug__sub_object()            0x000091bb   Thumb Code     0  main.o(i._ZN6QDebugD1Ev)
+    QDebug::operator <<(const char*)         0x00009265   Thumb Code    44  main.o(i._ZN6QDebuglsEPKc)
+    QDebug::operator <<(const QByteArray&)   0x0000929b   Thumb Code    38  main.o(i._ZN6QDebuglsERK10QByteArray)
+    QString::~QString()                      0x000092c1   Thumb Code    24  main.o(i._ZN7QStringD1Ev)
+    QString::~QString__sub_object()          0x000092c1   Thumb Code     0  main.o(i._ZN7QStringD1Ev)
+    QByteArray::isEmpty() const              0x000092d9   Thumb Code    18  main.o(i._ZNK10QByteArray7isEmptyEv)
+    thunk{-12} to genericSensorPlugin::createBackend(QtMobility::QSensor*) 0x000092eb   Thumb Code    18  main.o(i._ZThn12_N19genericSensorPlugin13createBackendEPN10QtMobility7QSensorE)
+    thunk{-8} to genericSensorPlugin::registerSensors() 0x000092fd   Thumb Code    14  main.o(i._ZThn8_N19genericSensorPlugin15registerSensorsEv)
+    operator ==(const QByteArray&, const char*) 0x0000930b   Thumb Code    38  main.o(i._ZeqRK10QByteArrayPKc)
+    QPointer<QObject>::~QPointer()           0x00009331   Thumb Code    14  main.o(t._ZN8QPointerI7QObjectED1Ev)
+    QPointer<QObject>::~QPointer__sub_object() 0x00009331   Thumb Code     0  main.o(t._ZN8QPointerI7QObjectED1Ev)
+    genericorientationsensor::id             0x0000956c   Data           4  genericorientationsensor.o(.constdata)
+    genericSensorPlugin::staticMetaObject    0x00009620   Data          16  main.o(.constdata)
+    genericrotationsensor::id                0x00009630   Data           4  genericrotationsensor.o(.constdata)
+    stlp_priv::_Integer_limits<signed char, (signed char)-128, (signed char)127, (int)-1, (bool)1>::digits 0x00009634   Data           4  genericorientationsensor.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<bool, (bool)0, (bool)1, (int)1, (bool)0>::digits 0x00009638   Data           4  genericorientationsensor.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    stlp_priv::_Integer_limits<char, (char)128, (char)127, (int)-1, (bool)1>::digits 0x0000963c   Data           4  genericorientationsensor.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned char, (unsigned char)0, (unsigned char)255, (int)-1, (bool)1>::digits 0x00009640   Data           4  genericorientationsensor.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::digits 0x00009644   Data           4  genericorientationsensor.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::is_signed 0x00009648   Data           1  genericorientationsensor.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    stlp_priv::_Integer_limits<unsigned, (unsigned)0, (unsigned)4294967295, (int)-1, (bool)1>::digits 0x0000964c   Data           4  genericorientationsensor.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long, (long)-2147483648, (long)2147483647, (int)-1, (bool)1>::digits 0x00009650   Data           4  genericorientationsensor.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long, (unsigned long)0, (unsigned long)4294967295, (int)-1, (bool)1>::digits 0x00009654   Data           4  genericorientationsensor.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<short, (short)-32768, (short)32767, (int)-1, (bool)1>::digits 0x00009658   Data           4  genericorientationsensor.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned short, (unsigned short)0, (unsigned short)65535, (int)-1, (bool)1>::digits 0x0000965c   Data           4  genericorientationsensor.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<wchar_t, (wchar_t)0, (wchar_t)65535, (int)-1, (bool)1>::digits 0x00009660   Data           4  genericorientationsensor.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long long, (long long)-9223372036854775808, (long long)9223372036854775807, (int)-1, (bool)1>::digits 0x00009664   Data           4  genericorientationsensor.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long long, (unsigned long long)0, (unsigned long long)18446744073709551615, (int)-1, (bool)1>::digits 0x00009668   Data           4  genericorientationsensor.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    typeinfo for genericSensorPlugin         0x0000966c   Data          40  main.o(.constdata__ZTI19genericSensorPlugin)
+    typeinfo for genericrotationsensor       0x00009694   Data          32  genericrotationsensor.o(.constdata__ZTI21genericrotationsensor)
+    typeinfo for genericorientationsensor    0x000096b4   Data          32  genericorientationsensor.o(.constdata__ZTI24genericorientationsensor)
+    typeinfo for QtMobility::QAccelerometerFilter 0x000096d4   Data          12  genericorientationsensor.o(.constdata__ZTIN10QtMobility20QAccelerometerFilterE)
+    typeinfo for QtMobility::QSensorBackendFactory 0x000096e0   Data           8  main.o(.constdata__ZTIN10QtMobility21QSensorBackendFactoryE)
+    typeinfo for QtMobility::QSensorPluginInterface 0x000096e8   Data           8  main.o(.constdata__ZTIN10QtMobility22QSensorPluginInterfaceE)
+    typeinfo name for genericSensorPlugin    0x000096f0   Data          22  main.o(.constdata__ZTS19genericSensorPlugin)
+    typeinfo name for genericrotationsensor  0x00009706   Data          24  genericrotationsensor.o(.constdata__ZTS21genericrotationsensor)
+    typeinfo name for genericorientationsensor 0x0000971e   Data          27  genericorientationsensor.o(.constdata__ZTS24genericorientationsensor)
+    typeinfo name for QtMobility::QAccelerometerFilter 0x00009739   Data          37  genericorientationsensor.o(.constdata__ZTSN10QtMobility20QAccelerometerFilterE)
+    typeinfo name for QtMobility::QSensorBackendFactory 0x0000975e   Data          38  main.o(.constdata__ZTSN10QtMobility21QSensorBackendFactoryE)
+    typeinfo name for QtMobility::QSensorPluginInterface 0x00009784   Data          39  main.o(.constdata__ZTSN10QtMobility22QSensorPluginInterfaceE)
+    vtable for genericSensorPlugin           0x000097ac   Data          88  main.o(.constdata__ZTV19genericSensorPlugin)
+    vtable for genericrotationsensor         0x00009804   Data          84  genericrotationsensor.o(.constdata__ZTV21genericrotationsensor)
+    vtable for genericorientationsensor      0x00009858   Data          88  genericorientationsensor.o(.constdata__ZTV24genericorientationsensor)
+    vtable for QtMobility::QAccelerometerFilter 0x000098b0   Data          20  genericorientationsensor.o(.constdata__ZTVN10QtMobility20QAccelerometerFilterE)
+    vtable for QtMobility::QSensorBackendFactory 0x000098c4   Data          12  main.o(.constdata__ZTVN10QtMobility21QSensorBackendFactoryE)
+    vtable for QtMobility::QSensorPluginInterface 0x000098d0   Data          12  main.o(.constdata__ZTVN10QtMobility22QSensorPluginInterfaceE)
+    .ARM.exidx$$Base                         0x00009904   Number         0  ucppinit.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x00009a94   Number         0  main.o(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x00009a94   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    __dso_handle                             0x00400008   Data           4  ucppfini.o(.data)
+    std::_Atomic_swap_struct<(int)1>::_S_swap_lock 0x0040000c   Data          12  genericorientationsensor.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    dtor_rec                                 0x00400018   Data        2048  ucppfini.o(.bss)
+

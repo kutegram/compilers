@@ -1,0 +1,48 @@
+The PREPROCESS global target is available for use in core builds.
+
+When specified, rather than performing a build, Raptor uses the compilers that
+would normally be invoked in the build to generate preprocessed versions of
+a component's source files.  These files are generated into the source tree
+alongside the source files themselves, and have filenames that are
+appropriately tagged based on the configurations used.  No further build is
+performed.  The general format of the generated filenames is as follows:
+
+    source_filename.build_platform.build_variant.target_name.pre
+
+An example, based on the build of a helloworld.exe component using the default
+winscw and armv5 configurations:
+
+    G:\HelloWorld>dir /b
+    bld.inf
+    HelloWorld.cpp
+    HelloWorld.mmp
+
+    G:\HelloWorld>sbs preprocess
+
+    G:\HelloWorld>dir /b
+    bld.inf
+    HelloWorld.cpp
+    HelloWorld.cpp.armv5.udeb.helloworld.exe.pre
+    HelloWorld.cpp.armv5.urel.helloworld.exe.pre
+    HelloWorld.cpp.winscw.udeb.helloworld.exe.pre
+    HelloWorld.cpp.winscw.urel.helloworld.exe.pre
+    HelloWorld.mmp
+
+The PREPROCESS target currently works for files listed in .mmp files using
+SOURCE and that would, in normal build operation, be compiled for e32 and
+emulator configurations; .pre files represent what would be compiled for the
+processed configurations in an actual build by the compilers used.
+
+Notes:
+
+*  The PREPROCESS target assumes that source dependencies are satisfied,
+   therefore would typically be used "post-normal build" where the build itself
+   generates source that is used in compilation.
+*  As this is primarily a developer aid, .pre files are not reported as
+   releasable output.  However, they are removed in clean operations if the
+   PREPROCESS target is used.
+*  For configurations where PREPROCESS is not currently supported, it will
+   simply do nothing.
+*  TARGET name is used in generated filenames in order to support distinct
+   preprocessor output for source files that are built from more than one .mmp
+   file.

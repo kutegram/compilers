@@ -1,0 +1,2011 @@
+
+ROMBUILD - Rom builder V2.05 (Build 502)
+Copyright (c) 1996-2002 Symbian Ltd.
+
+No kernel stack run address supplied. Generating automatically...
+
+Creating Rom image lubbock_001.techview.img
+MemModel: 0
+ChunkSize: 00100000
+PageSize: 00001000
+Loading E32Image file \epoc32\release\ARM4\udeb\_lubbock_ekern.exe 
+Loading E32Image file \epoc32\release\ARM4\udeb\_lubbock_kacotulla.dll 
+Loading E32Image file \epoc32\release\ARM4\udeb\_lubbock_ecust.dll 
+Loading E32Image file \epoc32\release\ARM4\udeb\_lubbock_monitor.dll 
+Loading E32Image file \epoc32\release\ARM4\udeb\_lubbock_power.dll 
+Loading E32Image file \epoc32\release\ARM4\udeb\_lubbock_dma.dll 
+Loading E32Image file \epoc32\release\ARM4\udeb\_lubbock_lcd.dll 
+Loading E32Image file \epoc32\release\ARM4\udeb\elocd.ldd 
+Loading E32Image file \epoc32\release\ARM4\udeb\_lubbock_epbus.dll 
+Loading E32Image file \epoc32\release\ARM4\udeb\efile.exe 
+Loading E32Image file \epoc32\release\ARM4\udeb\efsrv.dll 
+Loading E32Image file \epoc32\release\ARM4\udeb\elocal.fsy 
+Loading E32Image file \epoc32\release\ARM4\udeb\elffs.fsy 
+Loading E32Image file \epoc32\release\ARM4\udeb\esocksvr.dll 
+Loading E32Image file \epoc32\release\ARM4\urel\irda.prt 
+Loading E32Image file \epoc32\release\ARM4\urel\bt.prt 
+Loading E32Image file \epoc32\release\ARM4\udeb\tcpip6.prt 
+Loading E32Image file \epoc32\release\ARM4\urel\cntmodel.dll 
+Loading E32Image file \epoc32\release\ARM4\urel\cntvcard.dll 
+Loading E32Image file \epoc32\release\ARM4\urel\cntview.dll 
+Loading E32Image file \epoc32\release\ARM4\urel\cntphone.dll 
+Loading E32Image file \epoc32\release\ARM4\urel\cntsrv.exe 
+Loading E32Image file \epoc32\release\ARM4\udeb\etel.dll 
+Loading E32Image file \epoc32\release\ARM4\udeb\SmsProt.prt 
+Loading E32Image file \epoc32\release\ARM4\udeb\WapProt.prt 
+Loading E32Image file \epoc32\release\ARM4\udeb\apserv.dll
+Loading E32Image file \epoc32\release\ARM4\udeb\MM.TSY 
+Loading E32Image file \epoc32\release\ARM4\urel\phbksyncplugin.dll 
+Loading E32Image file \epoc32\release\ARM4\urel\phbksync.dll 
+Loading E32Image file \epoc32\release\ARM4\urel\phbksyncsvr.exe 
+Loading E32Image file \epoc32\release\ARM4\urel\WEBURLREC.MDL 
+Loading E32Image file \epoc32\release\ARM4\urel\EBOOKMARKREC.MDL 
+Loading E32Image file \epoc32\release\ARM4\urel\RECWAP.MDL 
+
+Loading E32Image file \epoc32\release\ARM4\urel\med.dll 
+Loading E32Image file \epoc32\release\ARM4\urel\MsgEditor.app 
+Loading E32Image file \epoc32\release\ARM4\urel\EmailEditor.dll 
+Loading E32Image file \epoc32\release\ARM4\urel\SmsEditor.dll 
+Loading E32Image file \epoc32\release\ARM4\urel\MmsEditor.dll 
+Loading E32Image file \epoc32\release\ARM4\urel\BioViewer.dll 
+
+Variant 09080004, 24 Files:
+Primary      EKern.exe[09080004] DataSize=  1690 DataOffset=     0
+Variant      ECust.dll[09080004] DataSize=   290 DataOffset=  1690
+Extension kacotulla.dll[09080004] DataSize=   3d0 DataOffset=  1920
+Extension  Monitor.dll[09080004] DataSize=  10c0 DataOffset=  1cf0
+Extension    Power.dll[09080004] DataSize=    10 DataOffset=  2db0
+Extension      dma.dll[09080004] DataSize=   620 DataOffset=  2dc0
+Extension      Lcd.dll[09080004] DataSize=   400 DataOffset=  33e0
+Extension    EKeyb.dll[09080004] DataSize=     0 DataOffset=  37e0
+Extension    EXyin.dll[09080004] DataSize=     0 DataOffset=  37e0
+Extension    ELocD.ldd[09080004] DataSize=    80 DataOffset=  37e0
+Extension    EPBus.dll[09080004] DataSize=    40 DataOffset=  3860
+Extension   MedInt.pdd[09080004] DataSize=     0 DataOffset=  38a0
+Extension   EPBusV.dll[09080004] DataSize=     0 DataOffset=  38a0
+Extension   MedLFS.pdd[09080004] DataSize=    30 DataOffset=  38a0
+Extension  EPBUSMV.DLL[09080004] DataSize=     0 DataOffset=  38d0
+Extension   EPBUSM.DLL[09080004] DataSize=    30 DataOffset=  38d0
+Extension   MedMmc.pdd[09080004] DataSize=     0 DataOffset=  3900
+Extension  ExStart.dll[09080004] DataSize=    20 DataOffset=  3900
+Device      EUart1.pdd[09080004] DataSize=    10 DataOffset=  3920
+Device      MedATA.pdd[09080004] DataSize=     0 DataOffset=  3930
+Device       EComm.ldd[09080004] DataSize=     0 DataOffset=  3930
+Device      ESound.ldd[09080004] DataSize=     0 DataOffset=  3930
+Device        ENet.ldd[09080004] DataSize=     0 DataOffset=  3930
+Device    Ethernet.pdd[09080004] DataSize=     0 DataOffset=  3930
+
+Total SvData size=  3930
+
+Building dependence graph.
+
+Calculating data addresses.
+
+Code Align to 50009000.  Skipped 3224 bytes
+
+********************************************************************
+Processing file \epoc32\release\ARM4\udeb\_lubbock_ekern.exe
+[Primary]
+Load Address:            50008f98
+Size:                    0003e778
+Uids:                    1000007a 1000008b 100041af (6bf50df9)
+Entry point:             500090bc
+Code start addr:         50009000
+Data start addr:         50046f14
+DataBssLinearBase:       80000000
+Text size:               0003df14
+Code size:               0003e6d4
+Data size:               000000a4
+BssSize:                 000015e8
+Total data size:         0000168c
+Heap min:                00008000
+Heap max:                00ffc000
+Stack size:              00001000
+Dll ref table:           00000000
+Export directory:        50046fb8
+Export dir count:        000001f0
+Hardware variant:        09080004
+Flags:                   85000022
+Capability:	00000000 0f80ffff
+Dll ref table size:      00000000
+
+
+********************************************************************
+Processing file \epoc32\release\ARM4\udeb\_lubbock_kacotulla.dll
+Load Address:            50047780
+Size:                    00004464
+Uids:                    10000079 1000008d 100000b9 (55084d55)
+Entry point:             500477e8
+Code start addr:         500477e8
+Data start addr:         5004b90c
+DataBssLinearBase:       80001920
+Text size:               00004124
+Code size:               00004434
+Data size:               00000028
+BssSize:                 000003a8
+Total data size:         000003d0
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           5004bc44
+Export directory:        5004b934
+Export dir count:        000000c4
+Hardware variant:        09080004
+Flags:                   21800023
+Capability:	00000000 0f80ffff
+Dll ref table size:      00000008
+
+
+********************************************************************
+Processing file \epoc32\release\ARM4\udeb\_lubbock_ecust.dll
+Load Address:            5004bc50
+Size:                    00002b4c
+Uids:                    10000079 1000008d 100039e8 (ea0570db)
+Entry point:             5004bcb8
+Code start addr:         5004bcb8
+Data start addr:         00000000
+DataBssLinearBase:       80001690
+Text size:               000028e4
+Code size:               00002b44
+Data size:               00000000
+BssSize:                 00000290
+Total data size:         00000290
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           5004e7fc
+Export directory:        5004e59c
+Export dir count:        00000098
+Hardware variant:        09080004
+Flags:                   41800023
+Capability:	00000000 0f80ffff
+Dll ref table size:      00000008
+
+
+********************************************************************
+Processing file \epoc32\release\ARM4\udeb\_lubbock_monitor.dll
+Load Address:            5004e810
+Size:                    00003350
+Uids:                    10000079 1000008d 100039e8 (ea0570db)
+Entry point:             5004e878
+Code start addr:         5004e878
+Data start addr:         00000000
+DataBssLinearBase:       80001cf0
+Text size:               00003348
+Code size:               00003348
+Data size:               00000000
+BssSize:                 000010b8
+Total data size:         000010b8
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           50051bc0
+Export directory:        00000000
+Export dir count:        00000000
+Hardware variant:        09080004
+Flags:                   21800023
+Capability:	00000000 0f80ffff
+Dll ref table size:      00000008
+
+
+********************************************************************
+Processing file \epoc32\release\ARM4\udeb\_lubbock_power.dll
+Load Address:            50051bd0
+Size:                    00000614
+Uids:                    10000079 1000008d 100039e8 (ea0570db)
+Entry point:             50051c38
+Code start addr:         50051c38
+Data start addr:         00000000
+DataBssLinearBase:       80002db0
+Text size:               0000060c
+Code size:               0000060c
+Data size:               00000000
+BssSize:                 00000008
+Total data size:         00000008
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           50052244
+Export directory:        00000000
+Export dir count:        00000000
+Hardware variant:        09080004
+Flags:                   21800023
+Capability:	00000000 00000020
+Dll ref table size:      00000008
+
+
+********************************************************************
+Processing file \epoc32\release\ARM4\udeb\_lubbock_dma.dll
+Load Address:            50052250
+Size:                    0000261c
+Uids:                    10000079 00000000 00000000 (045a0d7e)
+Entry point:             500522b8
+Code start addr:         500522b8
+Data start addr:         5005483c
+DataBssLinearBase:       80002dc0
+Text size:               00002584
+Code size:               000025b0
+Data size:               00000064
+BssSize:                 000005bc
+Total data size:         00000620
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           500548cc
+Export directory:        500548a0
+Export dir count:        0000000b
+Hardware variant:        09080004
+Flags:                   21800023
+Capability:	00000000 0001ffff
+Dll ref table size:      00000008
+
+
+********************************************************************
+Processing file \epoc32\release\ARM4\udeb\_lubbock_lcd.dll
+Load Address:            500548e0
+Size:                    00001c0c
+Uids:                    10000079 1000008d 100039e8 (ea0570db)
+Entry point:             50054948
+Code start addr:         50054948
+Data start addr:         5005614c
+DataBssLinearBase:       800033e0
+Text size:               00001804
+Code size:               00001804
+Data size:               00000400
+BssSize:                 00000000
+Total data size:         00000400
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           5005654c
+Export directory:        00000000
+Export dir count:        00000000
+Hardware variant:        09080004
+Flags:                   21800023
+Capability:	00000000 0f80ffff
+Dll ref table size:      00000008
+
+********************************************************************
+Processing file \epoc32\release\ARM4\udeb\elocd.ldd
+Load Address:            5005a2c0
+Size:                    00003b48
+Uids:                    10000079 100000af 100000c9 (55089f2a)
+Entry point:             5005a328
+Code start addr:         5005a328
+Data start addr:         5005ddbc
+DataBssLinearBase:       800037e0
+Text size:               00003a94
+Code size:               00003b38
+Data size:               00000008
+BssSize:                 0000006c
+Total data size:         00000074
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           5005de68
+Export directory:        5005ddc4
+Export dir count:        00000029
+Hardware variant:        09080004
+Flags:                   21800023
+Capability:	00000000 0f80ffff
+Dll ref table size:      00000008
+
+
+********************************************************************
+Processing file \epoc32\release\ARM4\udeb\_lubbock_epbus.dll
+Load Address:            5005de70
+Size:                    000074bc
+Uids:                    10000079 1000008d 10004087 (58c46bcf)
+Entry point:             5005ded8
+Code start addr:         5005ded8
+Data start addr:         500652c8
+DataBssLinearBase:       80003860
+Text size:               000073f0
+Code size:               000074b0
+Data size:               00000004
+BssSize:                 00000030
+Total data size:         00000034
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           5006538c
+Export directory:        500652cc
+Export dir count:        00000030
+Hardware variant:        09080004
+Flags:                   21800023
+Capability:	00000000 0f80ffff
+Dll ref table size:      00000008
+
+
+********************************************************************
+Processing file \epoc32\release\ARM4\udeb\efile.exe
+[Secondary]
+Load Address:            500c42b0
+Size:                    00023c14
+Uids:                    1000007a 1000008c 100039e3 (ea051475)
+Entry point:             500c4318
+Code start addr:         500c4318
+Data start addr:         500e7df8
+DataBssLinearBase:       80100000
+Text size:               00023ae0
+Code size:               00023bf4
+Data size:               00000020
+BssSize:                 00000e78
+Total data size:         00000e98
+Heap min:                00001000
+Heap max:                01000000
+Stack size:              00004000
+Dll ref table:           00000000
+Export directory:        500e7e18
+Export dir count:        00000045
+Hardware variant:        01000000
+Flags:                   0d000026
+Capability:	00000000 0f80ffff
+Dll ref table size:      00000000
+
+
+********************************************************************
+Processing file \epoc32\release\ARM4\udeb\efsrv.dll
+Load Address:            500e7f30
+Size:                    00008b2c
+Uids:                    10000079 1000008d 100039e4 (ea0535b6)
+Entry point:             500e7f98
+Code start addr:         500e7f98
+Data start addr:         00000000
+DataBssLinearBase:       00400000
+Text size:               00008754
+Code size:               00008b2c
+Data size:               00000000
+BssSize:                 00000000
+Total data size:         00000000
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           00000000
+Export directory:        500f06ec
+Export dir count:        000000f6
+Hardware variant:        01000000
+Flags:                   00000023
+Capability:	00000000 0f80ffff
+Dll ref table size:      00000000
+
+
+********************************************************************
+Processing file \epoc32\release\ARM4\udeb\elocal.fsy
+Load Address:            500f0ad0
+Size:                    00011e54
+Uids:                    10000079 100039df 100000d6 (8a96ce12)
+Entry point:             500f0b38
+Code start addr:         500f0b38
+Data start addr:         00000000
+DataBssLinearBase:       00400000
+Text size:               00011e48
+Code size:               00011e4c
+Data size:               00000000
+BssSize:                 00000000
+Total data size:         00000000
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           50102984
+Export directory:        50102980
+Export dir count:        00000001
+Hardware variant:        01000000
+Flags:                   01800023
+Capability:	00000000 0f80ffff
+Dll ref table size:      00000008
+
+
+********************************************************************
+Processing file \epoc32\release\ARM4\udeb\elffs.fsy
+Load Address:            50102990
+Size:                    00054bd0
+Uids:                    10000079 100039df 100000d6 (8a96ce12)
+Entry point:             501029f8
+Code start addr:         501029f8
+Data start addr:         00000000
+DataBssLinearBase:       00400000
+Text size:               00054bc4
+Code size:               00054bc8
+Data size:               00000000
+BssSize:                 00000000
+Total data size:         00000000
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           501575c0
+Export directory:        501575bc
+Export dir count:        00000001
+Hardware variant:        01000000
+Flags:                   01800023
+Capability:	00000000 0f80ffff
+Dll ref table size:      00000008
+
+********************************************************************
+Processing file \epoc32\release\ARM4\udeb\esocksvr.dll
+Load Address:            5018baa0
+Size:                    00010a28
+Uids:                    10000079 101f7417 101f7482 (1911b682)
+Entry point:             5018bb08
+Code start addr:         5018bb08
+Data start addr:         00000000
+DataBssLinearBase:       00400000
+Text size:               00010934
+Code size:               00010a28
+Data size:               00000000
+BssSize:                 00000000
+Total data size:         00000000
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           00000000
+Export directory:        5019c43c
+Export dir count:        0000003d
+Hardware variant:        01000000
+Flags:                   00000023
+Capability:	00000000 0003ffff
+Dll ref table size:      00000000
+
+
+********************************************************************
+Processing file \epoc32\release\ARM4\urel\irda.prt
+Load Address:            5019c530
+Size:                    0001582c
+Uids:                    10000079 10003d38 10003d54 (33ae662f)
+Entry point:             5019c598
+Code start addr:         5019c598
+Data start addr:         00000000
+DataBssLinearBase:       00400000
+Text size:               000157d8
+Code size:               0001582c
+Data size:               00000000
+BssSize:                 00000000
+Total data size:         00000000
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           00000000
+Export directory:        501b1d70
+Export dir count:        00000015
+Hardware variant:        01000000
+Flags:                   00000023
+Capability:	00000000 0003ffff
+Dll ref table size:      00000000
+
+
+********************************************************************
+Reading resource \epoc32\data\z\Private\101f7989\irda_port1.esk to rom linear address 501b1dd0
+Size:                    000000f0
+
+********************************************************************
+Processing file \epoc32\release\ARM4\urel\bt.prt
+Load Address:            501cc550
+Size:                    00031344
+Uids:                    10000079 10003d38 1000961c (f22ae24a)
+Entry point:             501cc5b8
+Code start addr:         501cc5b8
+Data start addr:         00000000
+DataBssLinearBase:       00400000
+Text size:               0003133c
+Code size:               00031344
+Data size:               00000000
+BssSize:                 00000000
+Total data size:         00000000
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           00000000
+Export directory:        501fd8f4
+Export dir count:        00000002
+Hardware variant:        01000000
+Flags:                   00000023
+Capability:	00000000 0f80fffe
+Dll ref table size:      00000000
+
+********************************************************************
+Processing file \epoc32\release\ARM4\urel\bafl.dll
+Load Address:            5032fd10
+Size:                    00009fe0
+Uids:                    10000079 1000008d 10003a0f (bf56f9fe)
+Entry point:             5032fd78
+Code start addr:         5032fd78
+Data start addr:         00000000
+DataBssLinearBase:       00400000
+Text size:               00009bf0
+Code size:               00009fe0
+Data size:               00000000
+BssSize:                 00000000
+Total data size:         00000000
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           00000000
+Export directory:        50339968
+Export dir count:        000000fc
+Hardware variant:        01000000
+Flags:                   00000023
+Capability:	00000000 0f80ffff
+Dll ref table size:      00000000
+
+
+********************************************************************
+Reading resource \epoc32\data\Z\Private\101f7989\tcpip.ini to rom linear address 5046eaa0
+Size:                    000000d7
+
+********************************************************************
+Reading resource \epoc32\data\Z\Private\101f7989\tcpip.esk to rom linear address 5046eb80
+Size:                    000001f3
+
+********************************************************************
+Reading resource \epoc32\data\Z\System\Errors\TCPIP6ERR.R01 to rom linear address 5046ed80
+Size:                    0000139b
+
+********************************************************************
+Processing file \epoc32\release\ARM4\udeb\tcpip6.prt
+Load Address:            50470120
+Size:                    0002e234
+Uids:                    10000079 10003d38 1000088d (c9cec990)
+Entry point:             50470188
+Code start addr:         50470188
+Data start addr:         00000000
+DataBssLinearBase:       00400000
+Text size:               0002e230
+Code size:               0002e234
+Data size:               00000000
+BssSize:                 00000000
+Total data size:         00000000
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           00000000
+Export directory:        5049e3b8
+Export dir count:        00000001
+Hardware variant:        01000000
+Flags:                   00000023
+Capability:	00000000 0f80fffe
+Dll ref table size:      00000000
+
+********************************************************************
+Reading resource \epoc32\data\Z\System\Install\Cntmodel.sis to rom linear address 50515300
+Size:                    00000077
+
+********************************************************************
+Processing file \epoc32\release\ARM4\urel\cntmodel.dll
+Load Address:            50515380
+Size:                    0001b83c
+Uids:                    10000079 1000008d 10003a71 (bf56d2a8)
+Entry point:             505153e8
+Code start addr:         505153e8
+Data start addr:         00000000
+DataBssLinearBase:       00400000
+Text size:               0001b188
+Code size:               0001b83c
+Data size:               00000000
+BssSize:                 00000000
+Total data size:         00000000
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           00000000
+Export directory:        50530570
+Export dir count:        000001ad
+Hardware variant:        01000000
+Flags:                   00000023
+Capability:	00000000 0f80fffe
+Dll ref table size:      00000000
+
+
+********************************************************************
+Processing file \epoc32\release\ARM4\urel\cntvcard.dll
+Load Address:            50530c30
+Size:                    00006150
+Uids:                    10000079 10009d8d 101f8b37 (6d73961c)
+Entry point:             50530c98
+Code start addr:         50530c98
+Data start addr:         00000000
+DataBssLinearBase:       00400000
+Text size:               0000614c
+Code size:               00006150
+Data size:               00000000
+BssSize:                 00000000
+Total data size:         00000000
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           00000000
+Export directory:        50536de4
+Export dir count:        00000001
+Hardware variant:        01000000
+Flags:                   00000023
+Capability:	00000000 0f8080e0
+Dll ref table size:      00000000
+
+
+********************************************************************
+Reading resource \epoc32\data\Z\Private\10009D8F\Import\101F8B37.RSC to rom linear address 50536df0
+Size:                    00000063
+
+********************************************************************
+Processing file \epoc32\release\ARM4\urel\cntview.dll
+Load Address:            50536e60
+Size:                    0000340c
+Uids:                    10000079 1000008d 101f3d54 (26c1c865)
+Entry point:             50536ec8
+Code start addr:         50536ec8
+Data start addr:         00000000
+DataBssLinearBase:       00400000
+Text size:               000033d0
+Code size:               0000340c
+Data size:               00000000
+BssSize:                 00000000
+Total data size:         00000000
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           00000000
+Export directory:        5053a298
+Export dir count:        0000000f
+Hardware variant:        01000000
+Flags:                   00000023
+Capability:	00000000 0f808060
+Dll ref table size:      00000000
+
+
+********************************************************************
+Processing file \epoc32\release\ARM4\urel\cntphone.dll
+Load Address:            5053a2e0
+Size:                    000003cc
+Uids:                    10000079 10009d8d 101f8b39 (6d73b513)
+Entry point:             5053a348
+Code start addr:         5053a348
+Data start addr:         00000000
+DataBssLinearBase:       00400000
+Text size:               000003c8
+Code size:               000003cc
+Data size:               00000000
+BssSize:                 00000000
+Total data size:         00000000
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           00000000
+Export directory:        5053a710
+Export dir count:        00000001
+Hardware variant:        01000000
+Flags:                   00000023
+Capability:	00000000 0f808020
+Dll ref table size:      00000000
+
+
+********************************************************************
+Reading resource \epoc32\data\Z\Private\10009D8F\Import\101F8B39.RSC to rom linear address 5053a720
+Size:                    00000061
+
+********************************************************************
+Processing file \epoc32\release\ARM4\urel\cntsrv.exe
+Load Address:            5053a790
+Size:                    0000434c
+Uids:                    1000007a 10004019 10003a73 (d1ca7644)
+Entry point:             5053a7f8
+Code start addr:         5053a7f8
+Data start addr:         5053eb3c
+DataBssLinearBase:       00400000
+Text size:               00004344
+Code size:               00004344
+Data size:               00000008
+BssSize:                 00000000
+Total data size:         00000008
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           00000000
+Export directory:        00000000
+Export dir count:        00000000
+Hardware variant:        01000000
+Flags:                   05000022
+Capability:	00000000 098080e0
+Dll ref table size:      00000000
+
+********************************************************************
+Processing file \epoc32\release\ARM4\udeb\etel.dll
+Load Address:            50608290
+Size:                    00003ed0
+Uids:                    10000079 1000008d 101f72d8 (3b339690)
+Entry point:             506082f8
+Code start addr:         506082f8
+Data start addr:         00000000
+DataBssLinearBase:       00400000
+Text size:               00003c58
+Code size:               00003ed0
+Data size:               00000000
+BssSize:                 00000000
+Total data size:         00000000
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           00000000
+Export directory:        5060bf50
+Export dir count:        0000009e
+Hardware variant:        01000000
+Flags:                   00000023
+Capability:	00000000 0f80fffe
+Dll ref table size:      00000000
+
+********************************************************************
+Processing file \epoc32\release\ARM4\udeb\SmsProt.prt
+Load Address:            506ab420
+Size:                    0001864c
+Uids:                    10000079 10003d38 10000899 (c9ce0627)
+Entry point:             506ab488
+Code start addr:         506ab488
+Data start addr:         00000000
+DataBssLinearBase:       00400000
+Text size:               00018648
+Code size:               0001864c
+Data size:               00000000
+BssSize:                 00000000
+Total data size:         00000000
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           00000000
+Export directory:        506c3ad0
+Export dir count:        00000001
+Hardware variant:        01000000
+Flags:                   00000023
+Capability:	00000000 0f80fffe
+Dll ref table size:      00000000
+
+
+********************************************************************
+Processing file \epoc32\release\ARM4\udeb\WapProt.prt
+Load Address:            506c3ae0
+Size:                    0000a928
+Uids:                    10000079 10003d38 10003d5d (33aedcb7)
+Entry point:             506c3b48
+Code start addr:         506c3b48
+Data start addr:         00000000
+DataBssLinearBase:       00400000
+Text size:               0000a924
+Code size:               0000a928
+Data size:               00000000
+BssSize:                 00000000
+Total data size:         00000000
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           00000000
+Export directory:        506ce46c
+Export dir count:        00000001
+Hardware variant:        01000000
+Flags:                   00000023
+Capability:	00000000 0f80fffe
+Dll ref table size:      00000000
+
+********************************************************************
+Processing file \epoc32\release\ARM4\udeb\MM.TSY
+Load Address:            507c1850
+Size:                    00045f40
+Uids:                    10000079 10003d3c 100039c2 (ff6a1e93)
+Entry point:             507c18b8
+Code start addr:         507c18b8
+Data start addr:         00000000
+DataBssLinearBase:       00400000
+Text size:               00045f3c
+Code size:               00045f40
+Data size:               00000000
+BssSize:                 00000000
+Total data size:         00000000
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           00000000
+Export directory:        508077f4
+Export dir count:        00000001
+Hardware variant:        01000000
+Flags:                   00000023
+Capability:	00000000 0f80fffe
+Dll ref table size:      00000000
+
+
+********************************************************************
+Reading resource \epoc32\data\MMTSY.RSC to rom linear address 50807800
+Size:                    0000002d
+
+
+********************************************************************
+Processing file \epoc32\release\ARM4\urel\phbksyncplugin.dll
+Load Address:            5080aff0
+Size:                    00000c10
+Uids:                    10000079 10009d8d 101f8b4e (6d7324dd)
+Entry point:             5080b058
+Code start addr:         5080b058
+Data start addr:         00000000
+DataBssLinearBase:       00400000
+Text size:               00000c0c
+Code size:               00000c10
+Data size:               00000000
+BssSize:                 00000000
+Total data size:         00000000
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           00000000
+Export directory:        5080bc64
+Export dir count:        00000001
+Hardware variant:        01000000
+Flags:                   00000023
+Capability:	00000000 0f80fffe
+Dll ref table size:      00000000
+
+
+********************************************************************
+Reading resource \epoc32\data\Z\Private\10009D8F\Import\101F8B4E.RSC to rom linear address 5080bc70
+Size:                    00000067
+
+********************************************************************
+Processing file \epoc32\release\ARM4\urel\phbksync.dll
+Load Address:            5080bce0
+Size:                    000033b8
+Uids:                    10000079 101f4131 101f7321 (102aee78)
+Entry point:             5080bd48
+Code start addr:         5080bd48
+Data start addr:         00000000
+DataBssLinearBase:       00400000
+Text size:               00003318
+Code size:               000033b8
+Data size:               00000000
+BssSize:                 00000000
+Total data size:         00000000
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           00000000
+Export directory:        5080f060
+Export dir count:        00000028
+Hardware variant:        01000000
+Flags:                   00000023
+Capability:	00000000 0f80fffe
+Dll ref table size:      00000000
+
+
+********************************************************************
+Processing file \epoc32\release\ARM4\urel\phbksyncsvr.exe
+Load Address:            5080f100
+Size:                    0000a5d4
+Uids:                    1000007a 101f4131 101f7322 (102a75cb)
+Entry point:             5080f168
+Code start addr:         5080f168
+Data start addr:         00000000
+DataBssLinearBase:       00400000
+Text size:               0000a5d4
+Code size:               0000a5d4
+Data size:               00000000
+BssSize:                 00000004
+Total data size:         00000004
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           00000000
+Export directory:        00000000
+Export dir count:        00000000
+Hardware variant:        01000000
+Flags:                   05000022
+Capability:	00000000 0f80fffe
+Dll ref table size:      00000000
+
+********************************************************************
+Processing file \epoc32\release\ARM4\urel\WEBURLREC.MDL
+Load Address:            50a0e850
+Size:                    000003d8
+Uids:                    10000079 10009d8d 100064de (6dffdfe8)
+Entry point:             50a0e8b8
+Code start addr:         50a0e8b8
+Data start addr:         00000000
+DataBssLinearBase:       00400000
+Text size:               000003d4
+Code size:               000003d8
+Data size:               00000000
+BssSize:                 00000000
+Total data size:         00000000
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           00000000
+Export directory:        50a0ec8c
+Export dir count:        00000001
+Hardware variant:        01000000
+Flags:                   00000023
+Capability:	00000000 0f80fffe
+Dll ref table size:      00000000
+
+
+********************************************************************
+Reading resource \epoc32\data\Z\Private\10009D8F\Import\100064DE.RSC to rom linear address 50a0ec90
+Size:                    00000042
+
+********************************************************************
+Processing file \epoc32\release\ARM4\urel\EBOOKMARKREC.MDL
+Load Address:            50a0ece0
+Size:                    00000328
+Uids:                    10000079 10009d8d 10008ed4 (92863023)
+Entry point:             50a0ed48
+Code start addr:         50a0ed48
+Data start addr:         00000000
+DataBssLinearBase:       00400000
+Text size:               00000324
+Code size:               00000328
+Data size:               00000000
+BssSize:                 00000000
+Total data size:         00000000
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           00000000
+Export directory:        50a0f06c
+Export dir count:        00000001
+Hardware variant:        01000000
+Flags:                   00000023
+Capability:	00000000 0f80fffe
+Dll ref table size:      00000000
+
+
+********************************************************************
+Reading resource \epoc32\data\Z\Private\10009D8F\Import\10008ED4.RSC to rom linear address 50a0f070
+Size:                    00000044
+
+********************************************************************
+Processing file \epoc32\release\ARM4\urel\RECWAP.MDL
+Load Address:            50a0f0c0
+Size:                    000004d4
+Uids:                    10000079 10009d8d 1000515e (979fc470)
+Entry point:             50a0f128
+Code start addr:         50a0f128
+Data start addr:         00000000
+DataBssLinearBase:       00400000
+Text size:               000004d0
+Code size:               000004d4
+Data size:               00000000
+BssSize:                 00000000
+Total data size:         00000000
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           00000000
+Export directory:        50a0f5f8
+Export dir count:        00000001
+Hardware variant:        01000000
+Flags:                   00000023
+Capability:	00000000 00001060
+Dll ref table size:      00000000
+
+********************************************************************
+Processing file \epoc32\release\ARM4\urel\med.dll
+Load Address:            50cbf1b0
+Size:                    00003d78
+Uids:                    10000079 1000008d 101f4385 (0d97ee73)
+Entry point:             50cbf218
+Code start addr:         50cbf218
+Data start addr:         00000000
+DataBssLinearBase:       00400000
+Text size:               00003ba0
+Code size:               00003d78
+Data size:               00000000
+BssSize:                 00000000
+Total data size:         00000000
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           00000000
+Export directory:        50cc2db8
+Export dir count:        00000076
+Hardware variant:        01000000
+Flags:                   00000023
+Capability:	00000000 07000140
+Dll ref table size:      00000000
+
+
+********************************************************************
+Processing file \epoc32\release\ARM4\urel\MsgEditor.app
+Load Address:            50cc2f90
+Size:                    00003c94
+Uids:                    10000079 100039ce 101f4384 (d2092802)
+Entry point:             50cc2ff8
+Code start addr:         50cc2ff8
+Data start addr:         00000000
+DataBssLinearBase:       00400000
+Text size:               00003c90
+Code size:               00003c94
+Data size:               00000000
+BssSize:                 00000000
+Total data size:         00000000
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           00000000
+Export directory:        50cc6c88
+Export dir count:        00000001
+Hardware variant:        01000000
+Flags:                   00000023
+Capability:	00000000 07000040
+Dll ref table size:      00000000
+
+
+********************************************************************
+Reading resource \epoc32\data\Z\Resource\apps\UIResourceFiles\MsgEditor.RSC to rom linear address 50cc6c90
+Size:                    00000723
+
+********************************************************************
+Reading resource \epoc32\data\Z\Resource\apps\RegistrationResourceFiles\MsgEditor_reg.RSC to rom linear address 50cc73c0
+Size:                    00000065
+
+********************************************************************
+Reading resource \epoc32\data\Z\Resource\apps\LocalisableFiles\MsgEditor_loc.RSC to rom linear address 50cc7430
+Size:                    0000002b
+
+********************************************************************
+Processing file \epoc32\release\ARM4\urel\EmailEditor.dll
+Load Address:            50ccded0
+Size:                    00005ab0
+Uids:                    10000079 10009d8d 101f4a94 (4816de31)
+Entry point:             50ccdf38
+Code start addr:         50ccdf38
+Data start addr:         00000000
+DataBssLinearBase:       00400000
+Text size:               00005aac
+Code size:               00005ab0
+Data size:               00000000
+BssSize:                 00000000
+Total data size:         00000000
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           00000000
+Export directory:        50cd39e4
+Export dir count:        00000001
+Hardware variant:        01000000
+Flags:                   00000023
+Capability:	00000000 07000040
+Dll ref table size:      00000000
+
+
+********************************************************************
+Processing file \epoc32\release\ARM4\urel\SmsEditor.dll
+Load Address:            50cf6e60
+Size:                    0000356c
+Uids:                    10000079 10009d8d 101f5018 (a4ae80c4)
+Entry point:             50cf6ec8
+Code start addr:         50cf6ec8
+Data start addr:         00000000
+DataBssLinearBase:       00400000
+Text size:               00003568
+Code size:               0000356c
+Data size:               00000000
+BssSize:                 00000000
+Total data size:         00000000
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           00000000
+Export directory:        50cfa430
+Export dir count:        00000001
+Hardware variant:        01000000
+Flags:                   00000023
+Capability:	00000000 07000040
+Dll ref table size:      00000000
+
+
+********************************************************************
+Reading resource \epoc32\data\Z\Private\10009D8F\Import\101F5018.rsc to rom linear address 50cfa440
+Size:                    00000060
+
+********************************************************************
+Reading resource \epoc32\data\Z\Resource\messagingui\UIResourceFiles\SmsEditor.RSC to rom linear address 50cfa4a0
+Size:                    0000052e
+
+********************************************************************
+Processing file \epoc32\release\ARM4\urel\MmsEditor.dll
+Load Address:            50d01f70
+Size:                    0000c5a0
+Uids:                    10000079 10009d8d 101f512f (979f1cc6)
+Entry point:             50d01fd8
+Code start addr:         50d01fd8
+Data start addr:         00000000
+DataBssLinearBase:       00400000
+Text size:               0000c59c
+Code size:               0000c5a0
+Data size:               00000000
+BssSize:                 00000000
+Total data size:         00000000
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           00000000
+Export directory:        50d0e574
+Export dir count:        00000001
+Hardware variant:        01000000
+Flags:                   00000023
+Capability:	00000000 07000040
+Dll ref table size:      00000000
+
+
+********************************************************************
+Reading resource \epoc32\data\Z\Private\10009D8F\Import\101F512F.rsc to rom linear address 50d0e580
+Size:                    00000060
+
+********************************************************************
+Reading resource \epoc32\data\Z\Resource\messagingui\UIResourceFiles\MmsEditor.RSC to rom linear address 50d0e5e0
+Size:                    00000786
+
+********************************************************************
+Processing file \epoc32\release\ARM4\urel\BioViewer.dll
+Load Address:            50d12660
+Size:                    00001104
+Uids:                    10000079 10009d8d 10001264 (cf002e2e)
+Entry point:             50d126c8
+Code start addr:         50d126c8
+Data start addr:         00000000
+DataBssLinearBase:       00400000
+Text size:               00001100
+Code size:               00001104
+Data size:               00000000
+BssSize:                 00000000
+Total data size:         00000000
+Heap min:                00001000
+Heap max:                00100000
+Stack size:              00002000
+Dll ref table:           00000000
+Export directory:        50d137c8
+Export dir count:        00000001
+Hardware variant:        01000000
+Flags:                   00000023
+Capability:	00000000 07000040
+Dll ref table size:      00000000
+
+
+Resolving Dll reference tables.
+Resolving Imports.
+
+00d58930 of 01200000 bytes used.
+
+
+Rom details:
+Version 0.01(000)
+Hardware version:        00000000
+Language Support:        0000000000000000
+Linear base address:     50000000
+Size:                    00e00000
+Root directory list:     500011f0
+Kernel data address:     80000000
+Kernel stack address:    80c00000
+Primary file address:    50001200
+Secondary file address:  5000154c
+First variant address:   50001240
+First extension address: 5000121c
+Checksum word:           3f06b2cb
+TotalSvDataSize:         00003930
+TraceMask:               00000000
+DebugPort:               ffffffff
+User data address:       40000000
+TotalUserDataSize:       00000000
+Relocation Info Address: 00000000
+
+Root directories:
+Directory  0 09080004 5000827c
+Rom 32bit words sum to   12345678
+Rom 8bit checksum        5a8c04dd
+Rom 8bit odd checksum    3c380972
+Rom 8bit even checksum   1e53fb6b
+
+Primary details (Multiple Kernels):
+
+Kernel 1:
+Uids:                    1000007a 1000008b 100041af (6bf50df9)
+Entry point:             500090bc
+Code start addr:         50009000
+Data start addr:         50046f14
+DataBssLinearBase:       80000000
+Text size:               0003df14
+Code size:               0003e6d4
+Data size:               000000a4
+BssSize:                 000015e8
+Total data size:         0000168c
+Heap min:                00008000
+Heap max:                00ffc000
+Stack size:              00001000
+Dll ref table:           00000000
+Export directory:        50046fb8
+Export dir count:        000001f0
+Hardware variant:        09080004
+Flags:                   85000022
+Capability:	00000000 0f80ffff
+
+Summary of file sizes in rom:
+Overhead (bootstrap+gaps+sectioning)	13072
+Overhead (directory size)	28932
+\epoc32\release\ARM4\udeb\_lubbock_ekern.exe	255968
+\epoc32\release\ARM4\udeb\_lubbock_kacotulla.dll	17612
+\epoc32\release\ARM4\udeb\_lubbock_ecust.dll	11188
+\epoc32\release\ARM4\udeb\_lubbock_monitor.dll	13240
+\epoc32\release\ARM4\udeb\_lubbock_power.dll	1660
+\epoc32\release\ARM4\udeb\_lubbock_dma.dll	9860
+\epoc32\release\ARM4\udeb\_lubbock_lcd.dll	7284
+\epoc32\release\ARM4\udeb\_lubbock_ekeyb.dll	2576
+\epoc32\release\ARM4\udeb\_lubbock_exyin.dll	7848
+\epoc32\release\ARM4\udeb\_lubbock_euart.pdd	5268
+\epoc32\release\ARM4\udeb\elocd.ldd	15280
+\epoc32\release\ARM4\udeb\_lubbock_epbus.dll	29988
+\epoc32\release\ARM4\udeb\_lubbock_medint.pdd	3408
+\epoc32\release\ARM4\udeb\_lubbock_epbusv.dll	3596
+\epoc32\release\ARM4\udeb\_lubbock_medlfs.pdd	8036
+\epoc32\release\ARM4\udeb\_lubbock_medatala.pdd	15512
+\epoc32\release\ARM4\udeb\_lubbock_EPBUSMV.DLL	11516
+\epoc32\release\ARM4\udeb\EPBUSMMC.DLL	40188
+\epoc32\release\ARM4\udeb\medmmc.pdd	13148
+\epoc32\release\ARM4\udeb\ecomm.ldd	12004
+\epoc32\release\ARM4\udeb\esound.ldd	6048
+\epoc32\release\ARM4\udeb\enet.ldd	7388
+\epoc32\release\ARM4\udeb\_lubbock_ethernet.pdd	6700
+\epoc32\release\ARM4\udeb\exstart.dll	1160
+\epoc32\release\ARM4\udeb\euser.dll	246600
+\epoc32\release\ARM4\udeb\userstub.dll	432
+\epoc32\release\ARM4\udeb\ektran.dll	6648
+\epoc32\release\ARM4\urel\_lubbock_hal.dll	6404
+\epoc32\release\ARM4\udeb\efile.exe	146556
+\epoc32\release\ARM4\udeb\efsrv.dll	35732
+\epoc32\release\ARM4\udeb\elocal.fsy	73404
+\epoc32\release\ARM4\udeb\elffs.fsy	347192
+\epoc32\release\ARM4\udeb\e32strt.exe	7232
+\epoc32\release\ARM4\udeb\eshell.exe	56688
+\epoc32\release\ARM4\udeb\d_exc.exe	7088
+\epoc32\release\ARM4\urel\_lubbock_scdv.dll	64252
+\epoc32\release\ARM4\udeb\domainSrv.exe	6064
+\epoc32\release\ARM4\udeb\domainCli.dll	1932
+\epoc32\release\ARM4\udeb\domainPolicy.dll	416
+\epoc32\release\ARM4\udeb\c32srv.dll	17304
+\epoc32\release\ARM4\udeb\c32.dll	5780
+\epoc32\release\ARM4\udeb\ecuart.csy	9828
+\epoc32\data\ECUART.RSC	34
+\epoc32\release\ARM4\udeb\flogger.dll	21628
+\epoc32\release\ARM4\udeb\flogsvr.exe	492
+\epoc32\release\wins\udeb\z\Resource\flogger.ini	2359
+\epoc32\release\ARM4\udeb\esock.dll	13044
+\epoc32\release\ARM4\udeb\esocksvr.dll	68240
+\epoc32\release\ARM4\urel\irda.prt	88212
+\epoc32\data\z\Private\101f7989\irda_port1.esk	240
+\epoc32\release\ARM4\urel\ircomm.csy	22976
+\epoc32\release\ARM4\urel\irobex.dll	32640
+\epoc32\release\ARM4\urel\irtranp.dll	15444
+\epoc32\data\Z\System\Libs\IRCOMM.RSC	36
+\epoc32\data\Z\Private\101f7989\bt_port2.esk	313
+\epoc32\release\ARM4\urel\hci.dll	32844
+\epoc32\release\ARM4\urel\bluetooth.dll	3884
+\epoc32\release\ARM4\urel\bt.prt	201644
+\epoc32\release\ARM4\urel\btcomm.csy	35792
+\epoc32\release\ARM4\urel\btdevice.dll	7100
+\epoc32\release\ARM4\urel\btmanclient.dll	7200
+\epoc32\release\ARM4\urel\btmanserver.exe	23408
+\epoc32\release\ARM4\urel\btextnotifiers.dll	824
+\epoc32\release\ARM4\urel\sdpserver.exe	18448
+\epoc32\release\ARM4\urel\sdpdatabase.dll	24876
+\epoc32\release\ARM4\urel\sdpagent.dll	8404
+\epoc32\release\ARM4\urel\gdi.dll	24628
+\epoc32\release\ARM4\urel\linebreak.dll	15216
+\epoc32\release\ARM4\urel\bidi.dll	13624
+\epoc32\release\ARM4\urel\fntstr.dll	25304
+\epoc32\release\ARM4\urel\fbserv.exe	13340
+\epoc32\release\ARM4\urel\fbscli.dll	47532
+\epoc32\release\ARM4\urel\bitgdi.dll	83960
+\epoc32\release\ARM4\urel\wserv.exe	145060
+\epoc32\release\ARM4\urel\ws32.dll	30276
+\epoc32\release\ARM4\urel\apparc.dll	17356
+\epoc32\release\ARM4\urel\apfile.dll	5352
+\epoc32\release\ARM4\urel\apgrfx.dll	28808
+\epoc32\release\ARM4\urel\apserv.dll	13200
+\epoc32\release\ARM4\urel\apsexe.dll	1412
+\epoc32\data\Z\resource\apparc\default.MBM	1092
+\epoc32\release\ARM4\urel\recapp.dll	1140
+\epoc32\data\Z\Private\10009D8F\Import\101F7D8B.RSC	56
+\epoc32\release\ARM4\urel\recexe.dll	1240
+\epoc32\data\Z\Private\10009D8F\Import\101F7D8A.RSC	57
+\epoc32\release\ARM4\urel\apmime.dll	7832
+\epoc32\release\ARM4\urel\rectxt.dll	1060
+\epoc32\data\Z\Private\10009D8F\Import\100012FB.RSC	54
+\epoc32\release\ARM4\urel\recweb.dll	1772
+\epoc32\data\Z\Private\10009D8F\Import\10001315.RSC	54
+\epoc32\release\ARM4\urel\recapp2.dll	776
+\epoc32\data\Z\Private\10009D8F\Import\1000415F.RSC	55
+\epoc32\release\ARM4\urel\estor.dll	74776
+\epoc32\release\ARM4\urel\field.dll	11132
+\epoc32\release\ARM4\urel\etext.dll	92432
+\epoc32\release\ARM4\urel\form.dll	57132
+\epoc32\release\ARM4\urel\tagma.dll	64456
+\epoc32\release\ARM4\urel\form_and_etext_editor.dll	4648
+\epoc32\release\ARM4\urel\undo.dll	30592
+\epoc32\release\ARM4\urel\grid.dll	52368
+\epoc32\release\ARM4\urel\clock.dll	6324
+\epoc32\release\ARM4\urel\clocka.dll	20476
+\epoc32\release\ARM4\urel\PrintClient.dll	3104
+\epoc32\release\ARM4\urel\PrintServer.exe	9412
+\epoc32\release\ARM4\urel\PrintDriver.dll	6460
+\epoc32\release\ARM4\urel\pdrstr.dll	40244
+\epoc32\release\ARM4\urel\print.dll	10708
+\epoc32\release\ARM4\urel\prev.dll	10748
+\epoc32\release\ARM4\urel\worldclient.dll	4724
+\epoc32\release\ARM4\urel\worldserver.exe	51020
+\epoc32\data\Z\Resource\wld_data.DBZ	52907
+\epoc32\release\ARM4\urel\alarmshared.dll	1260
+\epoc32\release\ARM4\urel\alarmclient.dll	5252
+\epoc32\release\ARM4\urel\alarmserver.exe	37556
+\epoc32\release\ARM4\urel\bafl.dll	41032
+\epoc32\release\ARM4\urel\baksrv.dll	7116
+\epoc32\release\ARM4\urel\baksrvs.exe	1340
+\epoc32\release\ARM4\urel\bacodec.dll	8232
+\epoc32\release\ARM4\udeb\cone.dll	42460
+\epoc32\release\ARM4\udeb\egul.dll	32012
+\epoc32\release\ARM4\urel\dial.dll	7400
+\epoc32\release\ARM4\urel\BmpAnim.dll	3396
+\epoc32\release\ARM4\urel\BmpAnSRv.dll	7040
+\epoc32\release\ARM4\urel\fepbase.dll	9224
+\epoc32\release\ARM4\urel\CANON.PDL	3256
+\epoc32\data\Z\Resource\Printers\CANON.PDR	1159
+\epoc32\data\Z\Resource\Printers\Canon.r01	69
+\epoc32\release\ARM4\urel\pcl5.pdl	4680
+\epoc32\data\Z\Resource\Printers\pcl5.pdr	13125
+\epoc32\data\Z\Resource\Printers\Pcl5.r01	120
+\epoc32\release\ARM4\urel\epson.pdl	2892
+\epoc32\data\Z\Resource\Printers\epson.pdr	2821
+\epoc32\data\Z\Resource\Printers\Epson.r01	107
+\epoc32\release\ARM4\urel\general.pdl	2148
+\epoc32\data\Z\Resource\Printers\general.pdr	232
+\epoc32\data\Z\Resource\Printers\general.r01	51
+\epoc32\data\Z\System\Install\printdrv.sis	119
+\epoc32\data\Z\System\Install\MediaServer.sis	125
+\epoc32\data\Z\RESOURCE\MEDIASERVER\PLUGIN\SoundDevice.rsc	760
+\epoc32\data\Z\RESOURCE\MEDIASERVER\PLUGIN\Generic.rsc	373
+\epoc32\data\Z\System\Install\MdaGenericPlugin.sis	139
+\epoc32\data\Z\RESOURCE\MEDIASERVER\PLUGIN\AudioFormats.rsc	1679
+\epoc32\data\Z\RESOURCE\MEDIASERVER\PLUGIN\AudioStream.rsc	48
+\epoc32\data\Z\System\Install\MdaAudioPlugin.sis	134
+\epoc32\data\Z\RESOURCE\MEDIASERVER\PLUGIN\ImageFormats.rsc	1124
+\epoc32\data\Z\System\Install\MdaImagePlugin.sis	138
+\epoc32\data\Z\RESOURCE\MEDIASERVER\PLUGIN\DevImageFormats.rsc	760
+\epoc32\data\Z\System\Install\MdaDevImagePlugin.sis	144
+\epoc32\data\Z\RESOURCE\MEDIASERVER\PLUGIN\GifFormat.rsc	206
+\epoc32\data\Z\System\Install\MdaGifPlugin.sis	132
+\epoc32\data\Z\RESOURCE\MEDIASERVER\PLUGIN\GSM610.rsc	79
+\epoc32\data\Z\System\Install\MdaGSM610Plugin.sis	141
+\epoc32\release\ARM4\urel\MediaServerStub.exe	888
+\epoc32\release\ARM4\udeb\MediaServer.dll	88252
+\epoc32\release\ARM4\urel\MediaServerAudio.dll	45956
+\epoc32\release\ARM4\urel\MediaServerVideo.dll	38100
+\epoc32\release\ARM4\urel\SoundDevice.mda	20444
+\epoc32\release\ARM4\urel\MediaServerJpeg.dll	33768
+\epoc32\release\ARM4\urel\Generic.mda	7788
+\epoc32\release\ARM4\urel\AudioFormats.mda	27452
+\epoc32\release\ARM4\urel\AudioStream.mda	4944
+\epoc32\release\ARM4\urel\ImageFormats.mda	37116
+\epoc32\release\ARM4\urel\ezlib.dll	51084
+\epoc32\release\ARM4\urel\ezip.dll	5960
+\epoc32\release\ARM4\urel\DevImageFormats.mda	38684
+\epoc32\release\ARM4\urel\GifFormat.mda	14192
+\epoc32\release\ARM4\urel\GSM610.mda	16220
+\epoc32\release\ARM4\urel\MediaClient.dll	10996
+\epoc32\release\ARM4\urel\MediaClientAudio.dll	28484
+\epoc32\release\ARM4\urel\MediaClientAudioStream.dll	4768
+\epoc32\release\ARM4\urel\MediaClientImage.dll	21448
+\epoc32\release\ARM4\urel\sysagt.dll	2304
+\epoc32\release\ARM4\urel\sysagx.exe	6788
+\epoc32\release\ARM4\urel\edbms.dll	127584
+\epoc32\release\ARM4\urel\edbsrv.exe	560
+\epoc32\release\ARM4\urel\edbsrvNDC.exe	520
+\epoc32\release\ARM4\udeb\commdb.dll	39908
+\epoc32\data\Z\CDB\DefaultCdbv3.dat	12164
+\epoc32\release\ARM4\udeb\t_editdb.exe	79732
+\epoc32\release\ARM4\udeb\t_createdb.exe	928
+\epoc32\release\ARM4\udeb\ced.exe	74584
+\epoc32\release\ARM4\udeb\ceddump.exe	31040
+\epoc32\data\Z\System\data\ced.cfg	22753
+\epoc32\release\ARM4\urel\LogWrap.dll	4640
+\epoc32\release\ARM4\urel\LogCli.dll	13364
+\epoc32\release\ARM4\urel\LogServ.exe	49664
+\Epoc32\Data\Z\Resource\LogEngine\logwrap.RSC	885
+\Epoc32\Data\Z\Resource\LogEngine\LogCli.rsc	5607
+\epoc32\release\ARM4\udeb\nifman.dll	73988
+\epoc32\release\ARM4\udeb\mbufmgr.dll	14596
+\epoc32\release\ARM4\udeb\c32exe.exe	968
+\epoc32\release\ARM4\udeb\c32root.dll	3128
+\epoc32\release\ARM4\udeb\c32rootsrv.dll	14996
+\epoc32\release\ARM4\udeb\c32start.exe	6072
+\epoc32\release\ARM4\udeb\insock.dll	10328
+\epoc32\release\ARM4\udeb\inhook6.dll	15788
+\epoc32\data\Z\Private\101f7989\tcpip.ini	215
+\epoc32\data\Z\Private\101f7989\tcpip.esk	499
+\epoc32\data\Z\System\Errors\TCPIP6ERR.R01	5019
+\epoc32\release\ARM4\udeb\tcpip6.prt	189084
+\epoc32\release\ARM4\udeb\dnd.exe	39508
+\epoc32\data\Z\Public\dnd.ini	538
+\epoc32\release\ARM4\urel\hash.dll	19704
+\epoc32\release\ARM4\urel\random.dll	1428
+\epoc32\release\ARM4\urel\randsvr.exe	3020
+\epoc32\release\ARM4\urel\cryptalg.dll	56388
+\epoc32\release\ARM4\urel\bigint.dll	47280
+\epoc32\release\ARM4\urel\privkey.dll	5000
+\epoc32\release\ARM4\urel\INetProtUtil.dll	41604
+\epoc32\release\ARM4\urel\CHARCONV.DLL	25272
+\epoc32\release\ARM4\urel\CONVNAMES.DLL	1628
+\epoc32\data\z\resource\Charconv\BASIC.SNM	1418
+\epoc32\data\z\resource\Charconv\BUILTIN.RSC	127
+\epoc32\release\ARM4\urel\ISO885910.CPL	1508
+\epoc32\data\Z\Private\10009D8F\Import\ISO885910.RSC	46
+\epoc32\data\Z\Private\10009D8F\Import\10008A2B.rsc	66
+\epoc32\release\ARM4\urel\ISO885913.CPL	1508
+\epoc32\data\Z\Private\10009D8F\Import\ISO885913.RSC	46
+\epoc32\data\Z\Private\10009D8F\Import\10008A2C.rsc	66
+\epoc32\release\ARM4\urel\ISO885914.CPL	1508
+\epoc32\data\Z\Private\10009D8F\Import\ISO885914.RSC	46
+\epoc32\data\Z\Private\10009D8F\Import\10008A2D.rsc	66
+\epoc32\release\ARM4\urel\ISO885915.CPL	1160
+\epoc32\data\Z\Private\10009D8F\Import\ISO885915.RSC	46
+\epoc32\data\Z\Private\10009D8F\Import\10008A2E.rsc	66
+\epoc32\release\ARM4\urel\ISO88592.CPL	1508
+\epoc32\data\Z\Private\10009D8F\Import\ISO88592.RSC	45
+\epoc32\data\Z\Private\10009D8F\Import\1000507E.rsc	64
+\epoc32\release\ARM4\urel\ISO88593.CPL	1524
+\epoc32\data\Z\Private\10009D8F\Import\ISO88593.RSC	45
+\epoc32\data\Z\Private\10009D8F\Import\10008A28.rsc	64
+\epoc32\release\ARM4\urel\ISO88594.CPL	1508
+\epoc32\data\Z\Private\10009D8F\Import\ISO88594.RSC	45
+\epoc32\data\Z\Private\10009D8F\Import\1000507F.rsc	64
+\epoc32\release\ARM4\urel\ISO88595.CPL	1092
+\epoc32\data\Z\Private\10009D8F\Import\ISO88595.RSC	45
+\epoc32\data\Z\Private\10009D8F\Import\10005080.rsc	64
+\epoc32\release\ARM4\urel\ISO88596.CPL	1052
+\epoc32\data\Z\Private\10009D8F\Import\ISO88596.RSC	45
+\epoc32\data\Z\Private\10009D8F\Import\10008A29.rsc	64
+\epoc32\release\ARM4\urel\ISO88597.CPL	1212
+\epoc32\data\Z\Private\10009D8F\Import\ISO88597.RSC	45
+\epoc32\data\Z\Private\10009D8F\Import\10005081.rsc	64
+\epoc32\release\ARM4\urel\ISO88598.CPL	1144
+\epoc32\data\Z\Private\10009D8F\Import\ISO88598.RSC	45
+\epoc32\data\Z\Private\10009D8F\Import\10008A2A.rsc	64
+\epoc32\release\ARM4\urel\ISO88599.CPL	1140
+\epoc32\data\Z\Private\10009D8F\Import\ISO88599.RSC	45
+\epoc32\data\Z\Private\10009D8F\Import\10005082.rsc	64
+\epoc32\release\ARM4\urel\MSexe.exe	488
+\epoc32\release\ARM4\urel\MSGS.dll	150320
+\epoc32\data\Z\RESOURCE\Msg\msgs.RSC	228
+\epoc32\data\Z\System\Install\Msg.sis	130
+\epoc32\release\ARM4\urel\versit.dll	34860
+\epoc32\release\ARM4\urel\vcal.dll	14476
+\epoc32\release\ARM4\urel\vcard.dll	5204
+\epoc32\release\ARM4\urel\RVERSIT.DLL	1160
+\epoc32\data\Z\Private\10009D8F\Import\100047EB.RSC	58
+\epoc32\release\ARM4\urel\conarc.dll	8592
+\epoc32\data\Z\System\Install\wpeng.sis	113
+\epoc32\release\ARM4\urel\wpeng.dll	6460
+\epoc32\release\ARM4\urel\txtwordconv.dll	3432
+\epoc32\release\ARM4\urel\TxtWord.dll	1016
+\epoc32\data\Z\Private\10009D8F\Import\101f81b8.RSC	54
+\epoc32\data\z\Resource\convert\10001823.RSC	61
+\epoc32\data\z\Resource\convert\10001824.RSC	61
+\epoc32\data\Z\System\Install\Cntmodel.sis	119
+\epoc32\release\ARM4\urel\cntmodel.dll	112804
+\epoc32\release\ARM4\urel\cntvcard.dll	25016
+\epoc32\data\Z\Private\10009D8F\Import\101F8B37.RSC	99
+\epoc32\release\ARM4\urel\cntview.dll	13428
+\epoc32\release\ARM4\urel\cntphone.dll	1076
+\epoc32\data\Z\Private\10009D8F\Import\101F8B39.RSC	97
+\epoc32\release\ARM4\urel\cntsrv.exe	17332
+\epoc32\release\ARM4\urel\richtexttohtmlconvertor.dll	6220
+\epoc32\release\ARM4\urel\imcm.dll	111172
+\epoc32\release\ARM4\urel\imut.dll	70628
+\epoc32\release\ARM4\urel\pops.dll	39036
+\epoc32\release\ARM4\urel\smts.dll	18628
+\epoc32\release\ARM4\urel\cntwrapper.dll	1724
+\epoc32\release\ARM4\urel\autosend.exe	2080
+\epoc32\release\ARM4\urel\imps.dll	86936
+\epoc32\data\Z\RESOURCE\Msg\imcm.RSC	593
+\epoc32\data\Z\System\Install\GtSmtp.sis	119
+\epoc32\data\Z\System\Install\GtPop.sis	120
+\epoc32\data\Z\System\Install\GtImap.sis	120
+\epoc32\release\ARM4\urel\Http.dll	29912
+\epoc32\data\Z\Resource\errors\HttpClientErr.R01	3963
+\epoc32\release\ARM4\urel\Tfcorefilters.dll	16252
+\epoc32\data\Z\Private\10009D8F\Import\101F446E.RSC	231
+\epoc32\release\ARM4\urel\Httptcphnd.dll	10776
+\epoc32\release\ARM4\urel\Httptextprt.dll	21692
+\epoc32\data\Z\Private\10009D8F\Import\1000a442.RSC	165
+\epoc32\release\ARM4\urel\httpheadercodec.dll	18460
+\epoc32\release\ARM4\urel\ctframeworkbase.dll	6840
+\epoc32\release\ARM4\urel\ctframework.dll	6568
+\epoc32\release\ARM4\urel\pbe.dll	9568
+\epoc32\release\ARM4\urel\asnpkcs.dll	7296
+\epoc32\release\ARM4\urel\fstokencli.dll	27812
+\epoc32\release\ARM4\urel\fstokenserver.exe	62480
+\epoc32\release\ARM4\urel\filecertstore.dll	352
+\epoc32\data\Z\Private\10009D8F\Import\101F5015.RSC	116
+\epoc32\release\ARM4\urel\filekeystore.dll	352
+\epoc32\data\Z\Private\10009D8F\Import\101F7332.RSC	115
+\epoc32\data\z\RESOURCE\FSTOKENSERVER.RSC	75
+\epoc32\release\ARM4\urel\asn1.dll	16732
+\epoc32\release\ARM4\urel\certstore.dll	18512
+\epoc32\release\ARM4\urel\crypto.dll	4316
+\epoc32\release\ARM4\urel\ocsp.dll	13300
+\epoc32\release\ARM4\urel\ocsptransport.dll	4628
+\epoc32\release\ARM4\urel\pkcs10.dll	1256
+\epoc32\release\ARM4\urel\pkixcert.dll	18604
+\epoc32\release\ARM4\urel\reccert.dll	1672
+\epoc32\release\ARM4\urel\x500.dll	7416
+\epoc32\release\ARM4\urel\x509.dll	36440
+\epoc32\release\ARM4\urel\wtlscert.dll	15596
+\epoc32\release\wins\udeb\z\private\101f72a6\CACerts.dat	66
+\epoc32\data\Z\Private\10009D8F\Import\000047eb.rsc	55
+\epoc32\release\ARM4\udeb\ssl.dll	65420
+\epoc32\release\ARM4\udeb\SECDLGSV.DLL	8284
+\epoc32\release\ARM4\udeb\securesocket.DLL	3468
+\epoc32\release\ARM4\udeb\ssladaptor.DLL	8236
+\epoc32\release\ARM4\udeb\netcon.dll	29600
+\epoc32\release\ARM4\urel\faxio.dll	5524
+\epoc32\release\ARM4\urel\faxstrm.dll	5288
+\epoc32\release\ARM4\udeb\etel.dll	16184
+\epoc32\release\ARM4\udeb\etelsvr.dll	43744
+\epoc32\release\ARM4\urel\faxsvr.DLL	45188
+\epoc32\release\ARM4\urel\faxcli.DLL	11000
+\epoc32\release\ARM4\urel\etelmm.dll	46420
+\epoc32\release\ARM4\udeb\csd.agt	67144
+\epoc32\release\ARM4\urel\etelpckt.dll	10204
+\epoc32\release\ARM4\udeb\psd.agt	29772
+\epoc32\release\ARM4\udeb\NullAgt.agt	2876
+\epoc32\release\ARM4\udeb\agentdialog.dll	19988
+\epoc32\data\Z\Private\101f7989\ppp.ini	205
+\epoc32\data\Z\Private\101f7989\ccp.ini	229
+\epoc32\release\ARM4\urel\ppp.nif	71820
+\epoc32\release\ARM4\udeb\des.dll	7880
+\epoc32\release\ARM4\udeb\vjcomp.dll	8920
+\epoc32\release\ARM4\udeb\predcomp.dll	6796
+\epoc32\release\ARM4\udeb\staccomp.dll	13112
+\epoc32\release\ARM4\udeb\mscomp.dll	10644
+\epoc32\release\ARM4\udeb\ftp.exe	13244
+\epoc32\release\ARM4\udeb\ftpsess.dll	12108
+\epoc32\release\ARM4\udeb\ftpprot.dll	28396
+\epoc32\release\ARM4\udeb\telsess.dll	26124
+\epoc32\release\ARM4\urel\elocl.01	3020
+\epoc32\release\ARM4\urel\elocl.dll	2792
+\epoc32\release\ARM4\urel\_lubbock_ekdata.dll	3236
+\epoc32\data\Z\Private\10003b20\WSINI.ini	184
+\epoc32\release\ARM4\urel\schsvr.dll	28888
+\epoc32\release\ARM4\urel\schexe.exe	560
+\epoc32\release\ARM4\urel\schsendexe.exe	6876
+\epoc32\release\ARM4\urel\schsend.dll	17348
+\epoc32\release\ARM4\urel\send.dll	7368
+\epoc32\release\ARM4\urel\mtur.dll	7656
+\epoc32\release\ARM4\urel\MSGURLREC.DLL	1244
+\epoc32\data\Z\Private\10009D8F\Import\1000A7FB.RSC	57
+\epoc32\release\ARM4\udeb\GsmU.dll	68056
+\epoc32\release\ARM4\udeb\SmsU.dll	28516
+\epoc32\release\ARM4\udeb\SmsProt.prt	100020
+\epoc32\release\ARM4\udeb\WapProt.prt	43408
+\epoc32\data\Z\Private\101f7989\Sms.esk	71
+\epoc32\data\Z\Private\101f7989\Wap.esk	128
+\epoc32\release\ARM4\urel\bifu.dll	6200
+\epoc32\release\ARM4\urel\biut.dll	4616
+\epoc32\release\ARM4\urel\biodb.dll	7720
+\epoc32\release\ARM4\urel\BioWatcher.dll	9828
+\epoc32\release\ARM4\urel\estlib.dll	90372
+\epoc32\release\ARM4\urel\redircli.dll	1976
+\epoc32\release\ARM4\urel\WAPSTKSRV.EXE	289660
+\epoc32\release\ARM4\urel\WAPSTDLIB.DLL	11748
+\epoc32\release\ARM4\urel\CAPCODEC.DLL	15244
+\epoc32\release\ARM4\urel\WAPSTKCLI.DLL	7960
+\epoc32\release\ARM4\urel\smcm.dll	18432
+\epoc32\release\ARM4\urel\smss.dll	25476
+\epoc32\data\Z\RESOURCE\Msg\smss.RSC	448
+\epoc32\data\Z\System\Install\GtSms.sis	118
+\epoc32\release\ARM4\urel\faxs.dll	22344
+\epoc32\release\ARM4\urel\fxcm.dll	20320
+\epoc32\release\ARM4\urel\FaxPrnt2.pdl	6172
+\epoc32\data\Z\System\Data\faxs.RSC	480
+\epoc32\data\z\Resource\Printers\FaxPrnt2.pdr	66
+\epoc32\data\Z\System\Install\GtFax.sis	119
+\epoc32\release\ARM4\urel\watcher.exe	5768
+\epoc32\data\Z\RESOURCE\Msg\watchers\indicatorwatcher.RSC	48
+\epoc32\data\Z\RESOURCE\Msg\watchers\signalstrengthwatcher.RSC	53
+\epoc32\data\Z\RESOURCE\Msg\watchers\nbswatcher.RSC	42
+\epoc32\data\Z\RESOURCE\Msg\watchers\pushwatcher.RSC	43
+\epoc32\data\Z\RESOURCE\Msg\watchers\wapwatcher.RSC	42
+\epoc32\release\ARM4\urel\faxwatcher.dll	7428
+\epoc32\release\ARM4\urel\bios.dll	3408
+\epoc32\release\ARM4\urel\bioc.dll	1688
+\epoc32\data\Z\System\Install\BioMsg.sis	129
+\epoc32\release\ARM4\urel\cbcp.dll	7996
+\epoc32\data\Z\RESOURCE\bif\cbcp.RSC	189
+\epoc32\data\Z\RESOURCE\bif\cbcp.mbm	175
+\epoc32\release\ARM4\urel\enp.dll	5152
+\epoc32\data\Z\RESOURCE\bif\enp.RSC	172
+\epoc32\data\Z\RESOURCE\bif\enp.mbm	228
+\epoc32\release\ARM4\urel\iacp.dll	36164
+\epoc32\data\Z\RESOURCE\bif\iacp.RSC	193
+\epoc32\data\Z\RESOURCE\bif\iacp.mbm	185
+\epoc32\release\ARM4\urel\gfp.dll	1912
+\epoc32\data\Z\RESOURCE\bif\vcdp.RSC	196
+\epoc32\data\Z\RESOURCE\bif\vcdp.mbm	179
+\epoc32\data\Z\RESOURCE\bif\vclp.RSC	233
+\epoc32\data\Z\RESOURCE\bif\vclp.mbm	182
+\epoc32\data\Z\RESOURCE\bif\rtp.RSC	162
+\epoc32\data\Z\RESOURCE\bif\rtp.mbm	174
+\epoc32\data\Z\RESOURCE\bif\olp.RSC	164
+\epoc32\data\Z\RESOURCE\bif\olp.mbm	183
+\epoc32\release\ARM4\urel\wapp.dll	34164
+\epoc32\data\Z\RESOURCE\bif\wapp.RSC	168
+\epoc32\data\Z\RESOURCE\bif\wapp.mbm	183
+\epoc32\release\ARM4\urel\nbswatcher.dll	5096
+\epoc32\release\ARM4\urel\wapmsgcli.dll	2332
+\epoc32\release\ARM4\urel\wapmsg.dll	6548
+\epoc32\data\Z\Private\10009D8F\Import\101f4479.RSC	699
+\epoc32\release\ARM4\urel\wapwatcher.dll	5324
+\epoc32\release\ARM4\urel\sync.dll	6816
+\epoc32\release\ARM4\urel\syns.dll	1032
+\epoc32\data\Z\System\Install\PcMTMSisStub.sis	132
+\epoc32\release\ARM4\urel\Irc.dll	7692
+\epoc32\release\ARM4\urel\Irs.dll	1000
+\epoc32\release\ARM4\urel\IrObUtil.dll	1628
+\epoc32\data\Z\System\Install\IrMtmSisStub.sis	125
+\epoc32\data\Z\System\Data\IrClientIdent.RSC	49
+\epoc32\release\ARM4\urel\mmsclientmtm.dll	13408
+\epoc32\data\Z\RESOURCE\msg\mms\mmsclientmtm.RSC	666
+\epoc32\release\ARM4\urel\mmscodec.dll	25680
+\epoc32\data\Z\RESOURCE\msg\mms\mmscodec.RSC	212
+\epoc32\release\ARM4\urel\mmss.dll	25464
+\epoc32\data\Z\RESOURCE\msg\mms\mmsservermtm.RSC	36
+\epoc32\data\Z\RESOURCE\msg\mms\mmshttp.RSC	137
+\epoc32\release\ARM4\urel\smiltranslator.dll	60136
+\epoc32\release\ARM4\urel\mmsutils.dll	23864
+\epoc32\release\ARM4\urel\Wutil.dll	1624
+\epoc32\release\ARM4\urel\wnode.dll	4608
+\epoc32\release\ARM4\urel\dtdmdl.dll	33808
+\epoc32\release\ARM4\urel\bnf.dll	9124
+\epoc32\release\ARM4\urel\XmlElemt.dll	3236
+\epoc32\release\ARM4\urel\WbxmlLib.dll	11904
+\epoc32\release\ARM4\urel\HTTPResponse.dll	8032
+\epoc32\release\ARM4\urel\Xmllib.dll	24704
+\epoc32\release\ARM4\urel\wappushutils.dll	19068
+\epoc32\release\ARM4\urel\PushContentHandler.dll	13524
+\epoc32\data\Z\Private\10009D8F\Import\101F3E5B.RSC	342
+\epoc32\release\ARM4\urel\PushAppHandler.dll	1432
+\epoc32\data\Z\Private\10009D8F\Import\101F3E5F.RSC	958
+\epoc32\release\ARM4\urel\PushSecurity.dll	1408
+\epoc32\data\Z\Private\10009D8F\Import\101F3E57.RSC	188
+\epoc32\release\ARM4\urel\pushwatcher.dll	5588
+\epoc32\release\ARM4\urel\wappushmtmclientserver.dll	2568
+\epoc32\data\Z\Resource\msg\WapPush\si.dtd	1727
+\epoc32\data\Z\Resource\msg\WapPush\sl.dtd	1057
+\epoc32\data\Z\Resource\msg\WapPush\si10.tok	3892
+\epoc32\data\Z\Resource\msg\WapPush\sl10.tok	3881
+\epoc32\release\ARM4\urel\MMSAPPHANDLER.DLL	1436
+\epoc32\data\Z\Private\10009D8F\Import\101F3EAD.RSC	205
+\epoc32\release\ARM4\urel\MMSINDHANDLER.DLL	6512
+\epoc32\data\Z\Private\10009D8F\Import\101F3EA0.RSC	231
+\epoc32\release\ARM4\udeb\MM.TSY	286632
+\epoc32\data\MMTSY.RSC	45
+\epoc32\release\ARM4\urel\etelsat.dll	14268
+\epoc32\release\ARM4\urel\phbksyncplugin.dll	3192
+\epoc32\data\Z\Private\10009D8F\Import\101F8B4E.RSC	103
+\epoc32\release\ARM4\urel\phbksync.dll	13344
+\epoc32\release\ARM4\urel\phbksyncsvr.exe	42556
+\epoc32\release\ARM4\urel\freetype.dll	95752
+\epoc32\data\Z\Private\10009D8F\Import\100012a7.rsc	310
+\epoc32\data\Z\Private\10003a16\Import\fonts\ntmrru.ttf	158468
+\epoc32\data\Z\Private\10003a16\Import\fonts\ntmbru.ttf	154520
+\epoc32\data\Z\Private\10003a16\Import\fonts\ntmriu.ttf	153964
+\epoc32\data\Z\Private\10003a16\Import\fonts\ntmbiu.ttf	142708
+\epoc32\data\Z\Private\10003a16\Import\fonts\swarru.ttf	117140
+\epoc32\data\Z\Private\10003a16\Import\fonts\swabru.ttf	117256
+\epoc32\data\Z\Private\10003a16\Import\fonts\ncrriu.ttf	178744
+\epoc32\data\Z\Private\10003a16\Import\fonts\ncrbiu.ttf	169824
+\epoc32\data\Z\Private\10003a16\Import\fonts\ncrrru.ttf	157000
+\epoc32\data\Z\Private\10003a16\Import\fonts\ncrbru.ttf	164972
+\epoc32\data\Z\Private\10003a16\Import\fonts\swariu.ttf	117012
+\epoc32\data\Z\Private\10003a16\Import\fonts\swabiu.ttf	136716
+\epoc32\release\ARM4\urel\htmltorichtext.dll	16808
+\epoc32\release\ARM4\urel\CHtmlToCrtConverter.dll	1172
+\epoc32\data\Z\Private\10009D8F\Import\101f8120.RSC	45
+\epoc32\data\Z\Resource\convert\1000a90e.RSC	94
+\epoc32\data\Z\Resource\convert\CHtmlToCrtConverter.rsc	71
+\epoc32\release\ARM4\urel\sawatcherbase_ps.dll	8808
+\epoc32\release\ARM4\urel\indicatorwatcher_ps.dll	5892
+\epoc32\release\ARM4\urel\signalstrengthwatcher_ps.dll	3776
+\epoc32\data\Z\RESOURCE\Msg\watchers\indicatorwatcher_ps.RSC	51
+\epoc32\data\Z\RESOURCE\Msg\watchers\signalstrengthwatcher_ps.RSC	56
+\epoc32\release\ARM4\urel\sawatcherbase.dll	7944
+\epoc32\release\ARM4\urel\indicatorwatcher.dll	4368
+\epoc32\release\ARM4\urel\signalstrengthwatcher.dll	3072
+\epoc32\release\ARM4\urel\Rt2htmcv.dll	6544
+\epoc32\data\Z\Private\10009D8F\Import\10003a68.RSC	45
+\epoc32\data\z\Resource\convert\1000071c.RSC	94
+\epoc32\release\ARM4\urel\KeyClickRef.dll	4008
+\epoc32\data\Z\Resource\Errors\ECOMERR.R01	2280
+\epoc32\release\ARM4\urel\ECOM.dll	7524
+\epoc32\release\ARM4\urel\ECOMSERVER.exe	24224
+\epoc32\release\ARM4\urel\nwsswsptrhnd.dll	21800
+\epoc32\data\Z\Private\10009D8F\Import\1000a44b.RSC	211
+\epoc32\release\ARM4\urel\WspProtocolHandler.dll	68668
+\epoc32\data\Z\Private\10009D8F\Import\101f4489.R01	165
+\epoc32\release\ARM4\urel\WEBURLREC.MDL	1088
+\epoc32\data\Z\Private\10009D8F\Import\100064DE.RSC	66
+\epoc32\release\ARM4\urel\EBOOKMARKREC.MDL	912
+\epoc32\data\Z\Private\10009D8F\Import\10008ED4.RSC	68
+\epoc32\release\ARM4\urel\RECWAP.MDL	1340
+\epoc32\data\Z\Private\10009D8F\Import\1000515E.RSC	62
+\epoc32\release\ARM4\urel\installclient.dll	14408
+\epoc32\release\ARM4\urel\InstalledAppsRegistry.dll	15284
+\epoc32\release\ARM4\urel\InstalledAppsRegistryClient.dll	4452
+\epoc32\release\ARM4\urel\installserver.exe	19492
+\epoc32\release\ARM4\urel\IntegritySupport.dll	25316
+\epoc32\release\ARM4\urel\ServerSISInstaller.dll	14452
+\epoc32\release\ARM4\urel\ServerSISRemover.dll	6584
+\epoc32\release\ARM4\urel\SISFile.dll	18108
+\epoc32\release\ARM4\urel\SISHelper.dll	2988
+\epoc32\release\ARM4\urel\SISResult.dll	836
+\epoc32\release\ARM4\urel\SWIMarshaller.dll	1772
+\epoc32\release\ARM4\udeb\eikmsg.dll	4096
+\epoc32\release\ARM4\urel\Soundplayer.dll	3836
+\epoc32\release\ARM4\urel\lafshut.exe	7532
+\epoc32\data\z\resource\uiklaf\EIKON.MBM	28441
+\epoc32\data\z\resource\uiklaf\LAFCURS.MBM	2802
+\epoc32\data\z\resource\uiklaf\EIKPRIV.RSC	933
+\epoc32\data\z\resource\uiklaf\EIKCORE.RSC	1959
+\epoc32\data\z\resource\uiklaf\EIKCOCTL.RSC	1143
+\epoc32\release\ARM4\udeb\eikcore.dll	58604
+\epoc32\release\ARM4\urel\eiksrv.dll	27148
+\epoc32\release\ARM4\udeb\eiksrvs.exe	1036
+\epoc32\release\ARM4\urel\eiksrvc.dll	2188
+\epoc32\release\ARM4\urel\apprun.exe	996
+\epoc32\release\ARM4\urel\eikbackupsrv.dll	6028
+\epoc32\release\ARM4\urel\uiklaf.dll	5680
+\epoc32\data\Z\Resource\Apps\LocalisableFiles\default_app_icon.mbm	2125
+\epoc32\data\Z\Resource\errors\ERRORRESGT.R01	12124
+\epoc32\release\ARM4\urel\viewsrv.dll	20424
+\epoc32\release\ARM4\urel\viewcli.dll	5164
+\epoc32\release\ARM4\urel\eikinit.dll	3752
+\epoc32\data\Z\Private\10009D8F\Import\100048A6.RSC	44
+\epoc32\release\ARM4\urel\eikctl.dll	149520
+\epoc32\data\Z\Resource\Toolkit\UIResourceFiles\EIKCTL.R01	1691
+\epoc32\release\ARM4\urel\eikdlg.dll	55760
+\epoc32\data\Z\Resource\Toolkit\UIResourceFiles\EIKDLG.RSC	61
+\epoc32\release\ARM4\udeb\eikcdlg.dll	38308
+\epoc32\data\Z\Resource\Toolkit\UIResourceFiles\EIKCDLG.RSC	5096
+\epoc32\release\ARM4\urel\printinit.dll	948
+\epoc32\release\ARM4\urel\eikprint.dll	22936
+\epoc32\data\Z\Resource\Toolkit\UIResourceFiles\EIKPRINT.RSC	3751
+\epoc32\data\Z\Private\10009D8F\Import\101F727D.RSC	44
+\epoc32\release\ARM4\urel\eikfile.dll	64312
+\epoc32\data\Z\Resource\Toolkit\UIResourceFiles\EIKFILE.RSC	1414
+\epoc32\release\ARM4\urel\irinit.dll	960
+\epoc32\release\ARM4\urel\eikir.dll	48964
+\epoc32\data\Z\Resource\Toolkit\UIResourceFiles\EIKIR.RSC	1448
+\epoc32\data\Z\Private\10009D8F\Import\101F727C.RSC	44
+\epoc32\release\ARM4\urel\miscinit.dll	824
+\epoc32\release\ARM4\urel\eikmisc.dll	13792
+\epoc32\data\Z\Resource\Toolkit\UIResourceFiles\EIKMISC.RSC	337
+\epoc32\data\Z\Resource\Toolkit\LocalisableFiles\EIKMISC.mbm	328
+\epoc32\data\Z\Private\10009D8F\Import\101F727E.RSC	44
+\epoc32\release\ARM4\urel\eiksrvui.dll	30224
+\epoc32\data\Z\Resource\Toolkit\UIResourceFiles\EIKSRVUI.RSC	1771
+\epoc32\release\ARM4\urel\techviewinit.dll	856
+\epoc32\release\ARM4\urel\techviewctl.dll	4832
+\epoc32\data\Z\Resource\Toolkit\UIResourceFiles\techviewctl.R01	121
+\epoc32\data\Z\Resource\Toolkit\LocalisableFiles\techviewctl.mbm	248
+\epoc32\data\Z\Private\10009D8F\Import\10144ABE.RSC	44
+\epoc32\release\ARM4\urel\exparser.dll	1420
+\epoc32\release\ARM4\udeb\econseik.dll	4692
+\epoc32\release\ARM4\urel\eikcoctl.dll	220616
+\epoc32\release\ARM4\urel\worldinit.dll	836
+\epoc32\release\ARM4\urel\worldctl.dll	9124
+\epoc32\data\Z\Resource\Toolkit\UIResourceFiles\worldctl.RSC	129
+\epoc32\data\Z\Private\10009D8F\Import\101F735E.RSC	44
+\epoc32\data\Z\Private\10003a16\Import\Fonts\eon14.gdr	188562
+\epoc32\release\ARM4\urel\extras.dll	19864
+\epoc32\release\ARM4\urel\shell.app	135748
+\epoc32\data\Z\Resource\Apps\LocalisableFiles\shell.MBM	27133
+\epoc32\data\Z\Resource\Apps\LocalisableFiles\shell_app_icon.MBM	2773
+\epoc32\release\ARM4\urel\Start.exe	5776
+\epoc32\release\ARM4\urel\splash.exe	3116
+\epoc32\data\Z\Resource\Toolkit\UIResourceFiles\Start.RSC	160
+\epoc32\data\Z\Resource\Toolkit\LocalisableFiles\splash.mbm	9139
+\epoc32\data\Z\Resource\Toolkit\UIResourceFiles\DefaultFileInit.RSC	26
+\epoc32\release\ARM4\urel\DefaultFileInit.exe	1376
+\epoc32\release\ARM4\urel\panes.dll	6432
+\epoc32\release\ARM4\urel\spaneinit.dll	1504
+\epoc32\data\Z\Resource\Toolkit\UIResourceFiles\SPANEINIT.RSC	449
+\epoc32\data\Z\Private\10009D8F\Import\10009B30.RSC	44
+\epoc32\data\Z\System\Install\agnmodel.sis	119
+\epoc32\release\ARM4\urel\Agnmodel.dll	237228
+\epoc32\release\ARM4\urel\Agsvexe.exe	964
+\epoc32\release\ARM4\urel\Agnvcal.dll	26812
+\epoc32\release\ARM4\urel\Agenda.app	309284
+\epoc32\data\Z\resource\Apps\localisablefiles\Agendaicon.mbm	3060
+\epoc32\data\Z\resource\Apps\localisablefiles\Agenda.mbm	799
+\epoc32\data\Z\resource\Apps\UIResourceFiles\agenda.RSC	25540
+\epoc32\data\Z\resource\Apps\localisablefiles\agenda_loc.RSC	244
+\epoc32\data\Z\resource\apps\RegistrationResourceFiles\agenda_reg.RSC	95
+\epoc32\data\Z\Resource\Agenda\AgnDefs	791
+\epoc32\release\ARM4\urel\calc.app	68096
+\epoc32\data\Z\resource\apps\LocalisableFiles\calc.MBM	2848
+\epoc32\data\Z\resource\apps\LocalisableFiles\calc_icon.MBM	2942
+\epoc32\data\Z\resource\apps\RegistrationResourceFiles\Calc_Reg.RSC	91
+\epoc32\data\Z\resource\apps\LocalisableFiles\Calc_Loc.RSC	84
+\epoc32\data\Z\resource\apps\UIResourceFiles\CALC.RSC	6191
+\epoc32\release\ARM4\urel\contacui.dll	77244
+\epoc32\data\Z\resource\Apps\UIResourceFiles\CONTACUI.RSC	5071
+\epoc32\data\Z\Resource\CNTMODEL\CNTMODEL.RSC	2035
+\epoc32\release\ARM4\urel\contacts.app	93272
+\epoc32\release\ARM4\urel\ContactsInterfaceDefinition.dll	588
+\epoc32\release\ARM4\urel\ContactsEikIRLibraryLoader.dll	1100
+\epoc32\data\Z\Private\10009D8F\Import\101F9569.RSC	44
+\epoc32\data\Z\resource\Apps\localisablefiles\contacts.mbm	1756
+\epoc32\data\Z\resource\Apps\localisablefiles\contactsicon.mbm	3579
+\epoc32\data\Z\resource\Apps\UIResourceFiles\contacts.RSC	9043
+\epoc32\data\Z\resource\Apps\localisablefiles\contacts_loc.RSC	256
+\epoc32\data\Z\resource\Apps\RegistrationResourceFiles\contacts_reg.RSC	99
+\epoc32\release\ARM4\urel\paint.app	67312
+\epoc32\data\Z\resource\apps\RegistrationResourceFiles\Paint_reg.RSC	219
+\epoc32\data\Z\resource\apps\LocalisableFiles\Paint_loc.RSC	86
+\epoc32\data\Z\resource\apps\UIResourceFiles\Paint.RSC	4307
+\epoc32\data\Z\resource\apps\LocalisableFiles\paint.MBM	7381
+\epoc32\data\Z\resource\apps\LocalisableFiles\paint_icon.MBM	4590
+\epoc32\release\ARM4\urel\timewutil.dll	8036
+\epoc32\release\ARM4\urel\time.app	35644
+\epoc32\data\Z\resource\apps\LocalisableFiles\time.MBM	1846
+\epoc32\data\Z\resource\apps\LocalisableFiles\time_icon.MBM	2467
+\epoc32\data\Z\resource\apps\RegistrationResourceFiles\Time_Reg.RSC	91
+\epoc32\data\Z\resource\apps\LocalisableFiles\Time_Loc.RSC	84
+\epoc32\data\Z\resource\apps\UIResourceFiles\Time.RSC	3089
+\epoc32\release\ARM4\urel\world.app	42072
+\epoc32\data\Z\resource\apps\LocalisableFiles\world.MBM	11723
+\epoc32\data\Z\resource\apps\LocalisableFiles\world_icon.MBM	4076
+\epoc32\data\Z\resource\apps\RegistrationResourceFiles\World_Reg.RSC	93
+\epoc32\data\Z\resource\apps\LocalisableFiles\World_Loc.RSC	86
+\epoc32\data\Z\resource\apps\UIResourceFiles\World.RSC	3011
+\epoc32\release\ARM4\urel\word.app	85500
+\epoc32\data\Z\resource\Apps\localisablefiles\word.mbm	1964
+\epoc32\data\Z\resource\Apps\localisablefiles\wordicon.mbm	3362
+\epoc32\data\Z\resource\Apps\UIResourceFiles\word.RSC	9160
+\epoc32\data\Z\resource\Apps\localisablefiles\word_loc.RSC	83
+\epoc32\data\Z\resource\Apps\RegistrationResourceFiles\word_reg.RSC	91
+\epoc32\data\Z\private\10003a64\Blank.UK	281
+\epoc32\release\ARM4\urel\Certman.dll	8924
+\epoc32\data\Z\resource\controls\certman.RSC	1119
+\epoc32\data\Z\Private\10009D8F\Import\100052f7.RSC	97
+\epoc32\data\Z\resource\controls\certman_icon.MBM	1415
+\epoc32\data\Z\Resource\Apps\UIResourceFiles\certuiutil.RSC	3181
+\epoc32\release\ARM4\urel\certuiutil.dll	14488
+\epoc32\release\ARM4\urel\addcert.app	2688
+\epoc32\data\Z\Resource\Apps\UIResourceFiles\addcert.rsc	122
+\epoc32\data\Z\Resource\apps\LocalisableFiles\addcert_loc.RSC	81
+\epoc32\data\Z\Resource\apps\RegistrationResourceFiles\addcert_reg.RSC	202
+\epoc32\data\Z\resource\apps\LocalisableFiles\addcert_icon.MBM	2741
+\epoc32\data\Z\resource\apps\UIResourceFiles\secdlg.RSC	1485
+\epoc32\data\Z\Private\10009D8F\Import\10001234.RSC	46
+\epoc32\release\ARM4\urel\secdlg.dll	11152
+\epoc32\release\ARM4\urel\instapp.app	19680
+\epoc32\data\Z\Resource\Apps\UIResourceFiles\instapp.rsc	6821
+\epoc32\data\Z\Resource\apps\LocalisableFiles\instapp_loc.RSC	81
+\epoc32\data\Z\Resource\apps\RegistrationResourceFiles\instapp_reg.RSC	97
+\epoc32\data\Z\resource\apps\LocalisableFiles\instapp_icon.MBM	3315
+\epoc32\data\Z\resource\apps\LocalisableFiles\instapp.MBM	3403
+\epoc32\release\ARM4\urel\instctrl.dll	9156
+\epoc32\data\Z\resource\controls\instctrl.RSC	1254
+\epoc32\data\Z\Private\10009D8F\Import\100003f1.RSC	96
+\epoc32\data\Z\resource\controls\instctrl_icon.MBM	1716
+\epoc32\release\ARM4\urel\MCentre.app	70616
+\epoc32\data\Z\Resource\apps\UIResourceFiles\MCentre.RSC	8118
+\epoc32\data\Z\Resource\apps\RegistrationResourceFiles\mce_reg.RSC	93
+\epoc32\data\Z\Resource\apps\LocalisableFiles\mce_loc.RSC	88
+\epoc32\data\Z\resource\apps\LocalisableFiles\MCE_ICON.MBM	3960
+\epoc32\release\ARM4\urel\MsgBrowser.dll	50828
+\epoc32\data\Z\Resource\messagingui\UIResourceFiles\MsgBrowser.RSC	842
+\epoc32\data\Z\resource\messagingui\LocalisableFiles\MsgBrowser.MBM	4481
+\epoc32\release\ARM4\urel\med.dll	15840
+\epoc32\release\ARM4\urel\MsgEditor.app	15612
+\epoc32\data\Z\Resource\apps\UIResourceFiles\MsgEditor.RSC	1827
+\epoc32\data\Z\Resource\apps\RegistrationResourceFiles\MsgEditor_reg.RSC	101
+\epoc32\data\Z\Resource\apps\LocalisableFiles\MsgEditor_loc.RSC	43
+\epoc32\release\ARM4\urel\mailinit.exe	4244
+\epoc32\data\Z\RESOURCE\messagingui\UIResourceFiles\init.RSC	68
+\epoc32\release\ARM4\urel\Muiu.dll	22260
+\epoc32\data\Z\Resource\messagingui\UIResourceFiles\Muiu.RSC	637
+\epoc32\release\ARM4\urel\EmailEditor.dll	23320
+\epoc32\data\Z\Private\10009D8F\Import\101F4A94.rsc	140
+\epoc32\data\Z\Resource\messagingui\UIResourceFiles\EmailEditor.RSC	1747
+\epoc32\release\ARM4\urel\imum.dll	121412
+\epoc32\data\Z\RESOURCE\msg\mtmui\imum.R01	12343
+\epoc32\data\Z\RESOURCE\msg\mtmui\imum.mbm	8235
+\epoc32\data\Z\RESOURCE\msg\mtm\imap.rsc	190
+\epoc32\data\Z\RESOURCE\msg\mtm\pop.rsc	188
+\epoc32\data\Z\RESOURCE\msg\mtm\smtp.rsc	188
+\epoc32\release\ARM4\urel\SmsEditor.dll	13780
+\epoc32\data\Z\Private\10009D8F\Import\101F5018.rsc	96
+\epoc32\data\Z\Resource\messagingui\UIResourceFiles\SmsEditor.RSC	1326
+\epoc32\release\ARM4\urel\smum.dll	26332
+\epoc32\data\Z\RESOURCE\msg\mtmui\smum.R01	2527
+\epoc32\data\Z\RESOURCE\msg\mtmui\smum.mbm	1050
+\epoc32\data\Z\RESOURCE\msg\mtm\sms.rsc	186
+\epoc32\release\ARM4\urel\MmsEditor.dll	50696
+\epoc32\data\Z\Private\10009D8F\Import\101F512F.rsc	96
+\epoc32\data\Z\Resource\messagingui\UIResourceFiles\MmsEditor.RSC	1926
+\epoc32\release\ARM4\urel\MmsMtmUi.dll	11848
+\epoc32\data\Z\RESOURCE\msg\mtmui\MmsMtmUi.RSC	1393
+\epoc32\data\Z\RESOURCE\msg\mtmui\MmsMtmUi.mbm	1091
+\epoc32\data\Z\RESOURCE\msg\mtm\mms.rsc	206
+\epoc32\release\ARM4\urel\BioViewer.dll	4460
+\epoc32\data\Z\Private\10009D8F\Import\10001264.rsc	67
+\epoc32\data\Z\Resource\messagingui\UIResourceFiles\BioViewer.RSC	341
+\epoc32\release\ARM4\urel\bium.dll	7168
+\epoc32\data\Z\RESOURCE\msg\mtmui\bium.R01	301
+\epoc32\data\Z\RESOURCE\msg\mtmui\bium.mbm	453
+\epoc32\data\Z\RESOURCE\msg\mtm\bio.rsc	186
+\epoc32\release\ARM4\urel\msgdebugger.app	75472
+\epoc32\data\Z\Resource\apps\UIResourceFiles\msgdebugger.RSC	4302
+\epoc32\data\Z\Resource\apps\LocalisableFiles\msgdebugger_loc.RSC	95
+\epoc32\data\Z\Resource\apps\RegistrationResourceFiles\msgdebugger_reg.RSC	105
+\epoc32\data\Z\Resource\apps\LocalisableFiles\msgdebugger_icon.mbm	1332
+\epoc32\data\Z\Resource\apps\LocalisableFiles\msgdebugger.mbm	4893
+\epoc32\data\Z\Resource\messagingui\UIResourceFiles\uids.txt	6158
+\epoc32\data\Z\Private\10009D8F\Import\10009804.RSC	76
+\epoc32\release\ARM4\urel\btuinotifiers.dll	10492
+\epoc32\release\ARM4\urel\btuiutility.dll	5292
+\epoc32\release\ARM4\urel\btonoff.dll	1432
+\epoc32\release\ARM4\urel\btsharedui.dll	15224
+\epoc32\release\ARM4\urel\btconfig.dll	11808
+\epoc32\data\Z\Resource\Controls\btconfig.mbm	1755
+\epoc32\data\Z\Resource\Controls\btuictrlpanel.RSC	1013
+\epoc32\data\Z\Private\10009D8F\Import\10005FE1.RSC	100
+\epoc32\data\Z\Resource\Controls\btuictrlpanel_icon.mbm	832
+\epoc32\data\Z\resource\Apps\localisablefiles\btuinotifier.mbm	901
+\epoc32\data\Z\Resource\Apps\UIResourceFiles\passkeydlg.RSC	279
+\epoc32\data\Z\Resource\Apps\UIResourceFiles\selectdlg.RSC	547
+\epoc32\data\Z\Resource\Apps\UIResourceFiles\authdlg.RSC	306
+\epoc32\data\Z\Resource\Apps\UIResourceFiles\btradiodlg.RSC	205
+\epoc32\release\ARM4\urel\phone.app	20400
+\epoc32\data\Z\resource\Apps\localisablefiles\phoneicon.mbm	1280
+\epoc32\data\Z\resource\Apps\UIResourceFiles\Phone.RSC	2074
+\epoc32\data\Z\resource\Apps\localisablefiles\phone_loc.RSC	88
+\epoc32\data\Z\resource\Apps\RegistrationResourceFiles\phone_reg.RSC	93
+\epoc32\release\ARM4\urel\CCTLCOLSCHEME.DLL	2560
+\epoc32\data\Z\Private\10009D8F\Import\10004907.RSC	103
+\epoc32\data\Z\Resource\Controls\CCTLCOLSCHEME_ICON.MBM	2338
+\epoc32\data\Z\Resource\Controls\CCTLCOLSCHEME.RSC	2623
+\epoc32\release\ARM4\urel\fepkeyboard.dll	21928
+\epoc32\release\ARM4\urel\feppenmouse.dll	19592
+\epoc32\release\ARM4\urel\feparabichebrew.dll	9400
+\epoc32\release\ARM4\urel\feppenmouseBE.ANI	5600
+\epoc32\data\Z\Resource\Fep\fepkeyboard.R01	182
+\epoc32\data\Z\Resource\Fep\feppenmouse.R01	321
+\epoc32\data\Z\Resource\Fep\feparabichebrew.RSC	154
+\epoc32\data\Z\Private\10009D8F\Import\190056de.RSC	65
+\epoc32\data\Z\Private\10009D8F\Import\100013f8.RSC	60
+\epoc32\data\Z\Private\10009D8F\Import\10003eaa.RSC	61
+\epoc32\release\ARM4\urel\fepsetup.dll	3024
+\epoc32\data\Z\Private\10009D8F\Import\1000169f.RSC	89
+\epoc32\data\Z\Resource\Controls\FepSetup.RSC	261
+\epoc32\data\Z\Resource\Controls\FepSetup.MBM	1067
+\epoc32\release\ARM4\urel\EXESTARTER.DLL	2156
+\epoc32\data\Z\Private\10009D8F\Import\101F8056.RSC	99
+\epoc32\data\Z\Resource\Controls\EXESTARTER_ICON.MBM	1166
+\epoc32\data\Z\Resource\Controls\EXESTARTER.RSC	94
+\epoc32\release\ARM4\urel\CCTLPRINTER.DLL	5092
+\epoc32\data\Z\resource\controls\cctlprinter.RSC	226
+\epoc32\data\Z\Private\10009D8F\Import\101F7EB3.RSC	92
+\epoc32\data\Z\resource\controls\printer_icon.MBM	1506
+\epoc32\rom\include\techview.oby	1898
+\epoc32\data\Z\Resource\Toolkit\UIResourceFiles\Extras.RSC	400
+\epoc32\data\Z\resource\apps\UIResourceFiles\Shell.RSC	15662
+\epoc32\data\Z\Resource\Apps\RegistrationResourceFiles\Shell_Reg.RSC	93
+\epoc32\data\Z\resource\apps\LocalisableFiles\Shell_Loc.RSC	90
+\epoc32\data\Z\Resource\Wallpaper\SymbianOS.MBM	9489
+
+Total used	13994288
+Free	685776
+
+Writing Rom image without header to file lubbock_001.techview.img

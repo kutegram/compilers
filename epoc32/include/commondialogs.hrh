@@ -1,0 +1,39 @@
+/*
+* ==============================================================================
+*  Name        : CommonDialogs.hrh
+*  Part of     : Common File Dialogs / CommonDialogs.dll
+*  Interface   : ?Interface_category, ?Interface_name
+*  Description : This file contains declarations for resources.
+*                The file can be included in C++ or resource file.
+*  Version     : ?Version
+*
+*  Copyright (c) 2002-2006 Nokia Corporation.
+*  This material, including documentation and any related
+*  computer programs, is protected by copyright controlled by
+*  Nokia Corporation. All rights are reserved. Copying,
+*  including reproducing, storing, adapting or translating, any
+*  or all of this material requires the prior written consent of
+*  Nokia Corporation. This material also contains confidential
+*  information which may not be disclosed to others without the
+*  prior written consent of Nokia Corporation.
+* ==============================================================================
+*/
+
+#ifndef COMMONDIALOGS_HRH
+#define COMMONDIALOGS_HRH
+
+enum TFileFilterType
+    {
+    EFilenameFilter = 0,
+    EAttributeFilter
+    };
+
+enum TFileFilterStyle
+    {
+    EInclusiveFilter = 0,
+    EExclusiveFilter
+    };
+
+#endif // COMMONDIALOGS_HRH
+
+// End of File

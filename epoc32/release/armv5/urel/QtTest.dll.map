@@ -1,0 +1,1474 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../../unhosted.s                         0x00000000   Number         0  switch8.o ABSOLUTE
+    M:\\epoc32\\build\\euser\\c_e18a23aea4fd210f\\edll_lib\\armv5\\urel\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\\sf\\os\\kernelhwsrv\\kernel\\eka\\compsupp\\rvct\\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\epoc32\build\euser\c_e18a23aea4fd210f\edll_lib\armv5\urel\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\dllexp.cpp 0x00000000   Number         0  dllexp.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    S:\sf\mw\qt\src\testlib\qabstracttestlogger.cpp 0x00000000   Number         0  qabstracttestlogger.o ABSOLUTE
+    S:\sf\mw\qt\src\testlib\qasciikey.cpp    0x00000000   Number         0  qasciikey.o ABSOLUTE
+    S:\sf\mw\qt\src\testlib\qbenchmark.cpp   0x00000000   Number         0  qbenchmark.o ABSOLUTE
+    S:\sf\mw\qt\src\testlib\qbenchmarkevent.cpp 0x00000000   Number         0  qbenchmarkevent.o ABSOLUTE
+    S:\sf\mw\qt\src\testlib\qbenchmarkmeasurement.cpp 0x00000000   Number         0  qbenchmarkmeasurement.o ABSOLUTE
+    S:\sf\mw\qt\src\testlib\qbenchmarkmetric.cpp 0x00000000   Number         0  qbenchmarkmetric.o ABSOLUTE
+    S:\sf\mw\qt\src\testlib\qbenchmarkvalgrind.cpp 0x00000000   Number         0  qbenchmarkvalgrind.o ABSOLUTE
+    S:\sf\mw\qt\src\testlib\qplaintestlogger.cpp 0x00000000   Number         0  qplaintestlogger.o ABSOLUTE
+    S:\sf\mw\qt\src\testlib\qsignaldumper.cpp 0x00000000   Number         0  qsignaldumper.o ABSOLUTE
+    S:\sf\mw\qt\src\testlib\qtestbasicstreamer.cpp 0x00000000   Number         0  qtestbasicstreamer.o ABSOLUTE
+    S:\sf\mw\qt\src\testlib\qtestcase.cpp    0x00000000   Number         0  qtestcase.o ABSOLUTE
+    S:\sf\mw\qt\src\testlib\qtestdata.cpp    0x00000000   Number         0  qtestdata.o ABSOLUTE
+    S:\sf\mw\qt\src\testlib\qtestelement.cpp 0x00000000   Number         0  qtestelement.o ABSOLUTE
+    S:\sf\mw\qt\src\testlib\qtestelementattribute.cpp 0x00000000   Number         0  qtestelementattribute.o ABSOLUTE
+    S:\sf\mw\qt\src\testlib\qtestfilelogger.cpp 0x00000000   Number         0  qtestfilelogger.o ABSOLUTE
+    S:\sf\mw\qt\src\testlib\qtestlightxmlstreamer.cpp 0x00000000   Number         0  qtestlightxmlstreamer.o ABSOLUTE
+    S:\sf\mw\qt\src\testlib\qtestlog.cpp     0x00000000   Number         0  qtestlog.o ABSOLUTE
+    S:\sf\mw\qt\src\testlib\qtestlogger.cpp  0x00000000   Number         0  qtestlogger.o ABSOLUTE
+    S:\sf\mw\qt\src\testlib\qtestresult.cpp  0x00000000   Number         0  qtestresult.o ABSOLUTE
+    S:\sf\mw\qt\src\testlib\qtesttable.cpp   0x00000000   Number         0  qtesttable.o ABSOLUTE
+    S:\sf\mw\qt\src\testlib\qtestxmlstreamer.cpp 0x00000000   Number         0  qtestxmlstreamer.o ABSOLUTE
+    S:\sf\mw\qt\src\testlib\qtestxunitstreamer.cpp 0x00000000   Number         0  qtestxunitstreamer.o ABSOLUTE
+    S:\sf\mw\qt\src\testlib\qxmltestlogger.cpp 0x00000000   Number         0  qxmltestlogger.o ABSOLUTE
+    S:\sf\mw\qt\src\testlib\tmp\moc\debug_shared\moc_qtesteventloop.cpp 0x00000000   Number         0  moc_qtesteventloop.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       52  ucppinit.o(.emb_text)
+    loop                                     0x0000803c   ARM Code       0  ucppinit.o(.emb_text)
+    base                                     0x00008054   Data           0  ucppinit.o(.emb_text)
+    limit                                    0x00008058   Data           0  ucppinit.o(.emb_text)
+    .text                                    0x0000855c   Section     6324  qtestcase.o(.text)
+    QTest::invokeMethod(QObject*, const char*) 0x000085d9   Thumb Code   100  qtestcase.o(.text)
+    QTest::isValidSlot(const QMetaMethod&)   0x00008759   Thumb Code   244  qtestcase.o(.text)
+    QTest::qPrintTestSlots()                 0x0000884d   Thumb Code    70  qtestcase.o(.text)
+    QTest::qToInt(char*)                     0x00008893   Thumb Code    40  qtestcase.o(.text)
+    QTest::qParseArgs(int, char**)           0x000088bb   Thumb Code  1840  qtestcase.o(.text)
+    |L1.1096|                                0x000089a4   Data           0  qtestcase.o(.text)
+    |L1.1112|                                0x000089b4   Data           0  qtestcase.o(.text)
+    |L1.1132|                                0x000089c8   Data           0  qtestcase.o(.text)
+    |L1.1144|                                0x000089d4   Data           0  qtestcase.o(.text)
+    |L1.1152|                                0x000089dc   Data           0  qtestcase.o(.text)
+    QTest::qInvokeTestMethodDataEntry(char*) 0x00009091   Thumb Code   676  qtestcase.o(.text)
+    |L1.3304|                                0x00009244   Data           0  qtestcase.o(.text)
+    QTest::qInvokeTestMethod(const char*, const char*) 0x00009335   Thumb Code   472  qtestcase.o(.text)
+    |L1.4420|                                0x000096a0   Data           0  qtestcase.o(.text)
+    QTest::qInvokeTestMethods(QObject*)      0x0000978f   Thumb Code   254  qtestcase.o(.text)
+    QTest::qParseArgs(int, char**)::Cleanup::~Cleanup() 0x00009d15   Thumb Code    18  qtestcase.o(.text)
+    QTest::qParseArgs(int, char**)::Cleanup::~Cleanup__sub_object() 0x00009d15   Thumb Code     0  qtestcase.o(.text)
+    .text                                    0x00009e10   Section     1540  qtestlog.o(.text)
+    QTest::messageHandler(QtMsgType, const char*) 0x0000a119   Thumb Code   434  qtestlog.o(.text)
+    |L1.984|                                 0x0000a1e8   Data           0  qtestlog.o(.text)
+    .text                                    0x0000a414   Section      612  qtesttable.o(.text)
+    .text                                    0x0000a678   Section      528  qtestdata.o(.text)
+    .text                                    0x0000a888   Section     1116  qtestresult.o(.text)
+    checkStatement(bool, const char*, const char*, int) 0x0000a8af   Thumb Code    92  qtestresult.o(.text)
+    clearExpectFail()                        0x0000abdb   Thumb Code    18  qtestresult.o(.text)
+    .text                                    0x0000ace4   Section     2460  qasciikey.o(.text)
+    |L1.1532|                                0x0000b2e0   Data           0  qasciikey.o(.text)
+    |L1.1572|                                0x0000b308   Data           0  qasciikey.o(.text)
+    .text                                    0x0000b680   Section     2412  qplaintestlogger.o(.text)
+    QTest::outputMessage(const char*)        0x0000b695   Thumb Code   146  qplaintestlogger.o(.text)
+    QTest::messageType2String(QAbstractTestLogger::MessageTypes) 0x0000b7e9   Thumb Code   464  qplaintestlogger.o(.text)
+    |L1.632|                                 0x0000b8f8   Data           0  qplaintestlogger.o(.text)
+    QTest::printMessage(const char*, const char*, const char*, int) 0x0000b9b9   Thumb Code   248  qplaintestlogger.o(.text)
+    QTest::incidentType2String(QAbstractTestLogger::IncidentTypes) 0x0000bacf   Thumb Code   428  qplaintestlogger.o(.text)
+    |L1.1248|                                0x0000bb60   Data           0  qplaintestlogger.o(.text)
+    QTest::countSignificantDigits<float>(T1) 0x0000bca3   Thumb Code    48  qplaintestlogger.o(.text)
+    QTest::printBenchmarkResult(const QBenchmarkResult&) 0x0000bcd3   Thumb Code   432  qplaintestlogger.o(.text)
+    QTest::benchmarkResult2String()          0x0000beb3   Thumb Code    78  qplaintestlogger.o(.text)
+    .text                                    0x0000bfec   Section     2036  qxmltestlogger.o(.text)
+    QTest::incidentFormatString(bool, bool)  0x0000c211   Thumb Code    32  qxmltestlogger.o(.text)
+    |L1.1284|                                0x0000c4f0   Data           0  qxmltestlogger.o(.text)
+    QTest::messageFormatString(bool, bool)   0x0000c5b3   Thumb Code    32  qxmltestlogger.o(.text)
+    QTest::isEmpty(const char*)              0x0000c709   Thumb Code    18  qxmltestlogger.o(.text)
+    QTest::xmlMessageType2String(QAbstractTestLogger::MessageTypes) 0x0000c71b   Thumb Code    50  qxmltestlogger.o(.text)
+    .text                                    0x0000c7e0   Section     1276  qsignaldumper.o(.text)
+    QTest::ignoreClasses()                   0x0000c7f5   Thumb Code   110  qsignaldumper.o(.text)
+    QTest::qSignalDumperCallback(QObject*, int, void**) 0x0000c8c7   Thumb Code   594  qsignaldumper.o(.text)
+    QTest::qSignalDumperCallbackSlot(QObject*, int, void**) 0x0000cb19   Thumb Code   330  qsignaldumper.o(.text)
+    QTest::qSignalDumperCallbackEndSignal(QObject*, int) 0x0000cc63   Thumb Code    98  qsignaldumper.o(.text)
+    QTest::qPrintMessage(const QByteArray&)  0x0000ccc5   Thumb Code    16  qsignaldumper.o(.text)
+    .text                                    0x0000ccdc   Section      472  qabstracttestlogger.o(.text)
+    .text                                    0x0000ceb4   Section      696  qbenchmark.o(.text)
+    .text                                    0x0000d16c   Section      146  qbenchmarkmeasurement.o(.text)
+    .text                                    0x0000d200   Section      116  qbenchmarkevent.o(.text)
+    .text                                    0x0000d274   Section      280  qbenchmarkmetric.o(.text)
+    .text                                    0x0000d38c   Section      116  qtestelement.o(.text)
+    .text                                    0x0000d400   Section      164  qtestelementattribute.o(.text)
+    .text                                    0x0000d4a4   Section      748  qtestbasicstreamer.o(.text)
+    .text                                    0x0000d790   Section      804  qtestxunitstreamer.o(.text)
+    .text                                    0x0000dab4   Section     1380  qtestxmlstreamer.o(.text)
+    .text                                    0x0000e018   Section     1052  qtestlightxmlstreamer.o(.text)
+    .text                                    0x0000e434   Section     1712  qtestlogger.o(.text)
+    |L1.1104|                                0x0000e884   Data           0  qtestlogger.o(.text)
+    .text                                    0x0000eae4   Section      400  qtestfilelogger.o(.text)
+    .text                                    0x0000ec74   Section       96  moc_qtesteventloop.o(.text)
+    .text                                    0x0000ecd4   Section       24  switch8.o(.text)
+    .text                                    0x0000ecec   Section       60  uc_dll.o(.text)
+    .text                                    0x0000ed28   Section      144  ucppfini.o(.text)
+    .text                                    0x0000edb8   Section        4  dllexp.o(.text)
+    .text.clean                              0x0000edbc   Section      164  qtestcase.o(.text.clean)
+    .text.clean                              0x0000ee60   Section       32  qtestlog.o(.text.clean)
+    .text.clean                              0x0000ee80   Section       32  qtesttable.o(.text.clean)
+    .text.clean                              0x0000eea0   Section        4  qtestdata.o(.text.clean)
+    .text.clean                              0x0000eea4   Section       92  qplaintestlogger.o(.text.clean)
+    .text.clean                              0x0000ef00   Section      160  qxmltestlogger.o(.text.clean)
+    .text.clean                              0x0000efa0   Section      136  qsignaldumper.o(.text.clean)
+    .text.clean                              0x0000f028   Section       16  qabstracttestlogger.o(.text.clean)
+    .text.clean                              0x0000f038   Section       64  qbenchmark.o(.text.clean)
+    .text.clean                              0x0000f078   Section       10  qtestelement.o(.text.clean)
+    .text.clean                              0x0000f084   Section       36  qtestbasicstreamer.o(.text.clean)
+    .text.clean                              0x0000f0a8   Section       20  qtestxunitstreamer.o(.text.clean)
+    .text.clean                              0x0000f0bc   Section       80  qtestxmlstreamer.o(.text.clean)
+    .text.clean                              0x0000f10c   Section       54  qtestlightxmlstreamer.o(.text.clean)
+    .text.clean                              0x0000f142   Section      126  qtestlogger.o(.text.clean)
+    .text.clean                              0x0000f1c0   Section       42  qtestfilelogger.o(.text.clean)
+    i._Z6qDebugv                             0x0000f1ea   Section       52  qtestcase.o(i._Z6qDebugv)
+    i._Z6qDebugv.clean                       0x0000f21e   Section       18  qtestcase.o(i._Z6qDebugv.clean)
+    i._Z7qstrlenPKc                          0x0000f230   Section       18  qtestcase.o(i._Z7qstrlenPKc)
+    i._Z8qRound64d                           0x0000f244   Section      112  qbenchmarkmeasurement.o(i._Z8qRound64d)
+    i._ZN10QByteArray4dataEv                 0x0000f2b4   Section       36  qplaintestlogger.o(i._ZN10QByteArray4dataEv)
+    i._ZN10QByteArrayC1ERKS_                 0x0000f2d8   Section       16  qtestcase.o(i._ZN10QByteArrayC1ERKS_)
+    i._ZN10QByteArrayC1Ev                    0x0000f2e8   Section       20  qsignaldumper.o(i._ZN10QByteArrayC1Ev)
+    i._ZN10QByteArrayD1Ev                    0x0000f2fc   Section       24  qtestcase.o(i._ZN10QByteArrayD1Ev)
+    i._ZN10QByteArraypLEPKc                  0x0000f314   Section        8  qsignaldumper.o(i._ZN10QByteArraypLEPKc)
+    i._ZN13QTestCoreListI12QTestElementED0Ev 0x0000f31c   Section       16  qtestelement.o(i._ZN13QTestCoreListI12QTestElementED0Ev)
+    i._ZN13QTestCoreListI21QTestElementAttributeED0Ev 0x0000f32c   Section       16  qtestelementattribute.o(i._ZN13QTestCoreListI21QTestElementAttributeED0Ev)
+    i._ZN14QTestEventLoop10timerEventEP11QTimerEvent 0x0000f33c   Section       20  moc_qtesteventloop.o(i._ZN14QTestEventLoop10timerEventEP11QTimerEvent)
+    i._ZN14QTestEventLoop8exitLoopEv         0x0000f350   Section       40  moc_qtesteventloop.o(i._ZN14QTestEventLoop8exitLoopEv)
+    i._ZN14QTestEventLoopD0Ev                0x0000f378   Section       16  moc_qtesteventloop.o(i._ZN14QTestEventLoopD0Ev)
+    i._ZN14QTestEventLoopD1Ev                0x0000f388   Section        8  moc_qtesteventloop.o(i._ZN14QTestEventLoopD1Ev)
+    i._ZN15QBasicAtomicInt3refEv             0x0000f390   Section       18  qtestcase.o(i._ZN15QBasicAtomicInt3refEv)
+    i._ZN15QBasicAtomicInt5derefEv           0x0000f3a2   Section       18  qtestcase.o(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN15QBenchmarkEvent11repeatCountEv    0x0000f3b4   Section        4  qbenchmarkevent.o(i._ZN15QBenchmarkEvent11repeatCountEv)
+    i._ZN15QTestCharBufferC1Ev               0x0000f3b8   Section       18  qxmltestlogger.o(i._ZN15QTestCharBufferC1Ev)
+    i._ZN15QTestCharBufferD1Ev               0x0000f3ca   Section       22  qplaintestlogger.o(i._ZN15QTestCharBufferD1Ev)
+    i._ZN16QBenchmarkResultC1ERKS_           0x0000f3e0   Section       46  qtestcase.o(i._ZN16QBenchmarkResultC1ERKS_)
+    i._ZN16QBenchmarkResultC1ERKS_.clean     0x0000f40e   Section       10  qtestcase.o(i._ZN16QBenchmarkResultC1ERKS_.clean)
+    i._ZN16QBenchmarkResultC1Ev              0x0000f418   Section       40  qtestcase.o(i._ZN16QBenchmarkResultC1Ev)
+    i._ZN16QBenchmarkResultC1Ev.clean        0x0000f440   Section       10  qtestcase.o(i._ZN16QBenchmarkResultC1Ev.clean)
+    i._ZN16QBenchmarkResultD1Ev              0x0000f44a   Section        8  qtestcase.o(i._ZN16QBenchmarkResultD1Ev)
+    i._ZN16QBenchmarkResultaSERKS_           0x0000f452   Section       46  qtestcase.o(i._ZN16QBenchmarkResultaSERKS_)
+    i._ZN16QTestCoreElementI12QTestElementED0Ev 0x0000f480   Section       16  qtestelement.o(i._ZN16QTestCoreElementI12QTestElementED0Ev)
+    i._ZN17QBenchmarkContextC1Ev             0x0000f490   Section       24  qbenchmark.o(i._ZN17QBenchmarkContextC1Ev)
+    i._ZN17QBenchmarkContextC1Ev.clean       0x0000f4a8   Section       10  qbenchmark.o(i._ZN17QBenchmarkContextC1Ev.clean)
+    i._ZN17QBenchmarkContextD1Ev             0x0000f4b2   Section       18  qtestcase.o(i._ZN17QBenchmarkContextD1Ev)
+    i._ZN17QBenchmarkContextD1Ev.clean       0x0000f4c4   Section       10  qtestcase.o(i._ZN17QBenchmarkContextD1Ev.clean)
+    i._ZN19QAbstractTestLoggerD0Ev           0x0000f4ce   Section       12  qabstracttestlogger.o(i._ZN19QAbstractTestLoggerD0Ev)
+    i._ZN19QAbstractTestLoggerD2Ev           0x0000f4da   Section        2  qabstracttestlogger.o(i._ZN19QAbstractTestLoggerD2Ev)
+    i._ZN22QBenchmarkMeasurerBase11repeatCountEv 0x0000f4dc   Section        4  qbenchmarkmeasurement.o(i._ZN22QBenchmarkMeasurerBase11repeatCountEv)
+    i._ZN22QBenchmarkMeasurerBase20needsWarmupIterationEv 0x0000f4e0   Section        4  qbenchmarkevent.o(i._ZN22QBenchmarkMeasurerBase20needsWarmupIterationEv)
+    i._ZN22QBenchmarkMeasurerBase4initEv     0x0000f4e4   Section        2  qbenchmarkmeasurement.o(i._ZN22QBenchmarkMeasurerBase4initEv)
+    i._ZN22QBenchmarkTickMeasurerD0Ev        0x0000f4e6   Section       12  qbenchmarkmeasurement.o(i._ZN22QBenchmarkTickMeasurerD0Ev)
+    i._ZN22QBenchmarkTickMeasurerD1Ev        0x0000f4f2   Section        2  qbenchmarkmeasurement.o(i._ZN22QBenchmarkTickMeasurerD1Ev)
+    i._ZN22QBenchmarkTimeMeasurerD0Ev        0x0000f4f4   Section       12  qbenchmarkmeasurement.o(i._ZN22QBenchmarkTimeMeasurerD0Ev)
+    i._ZN22QBenchmarkTimeMeasurerD1Ev        0x0000f500   Section        2  qbenchmarkmeasurement.o(i._ZN22QBenchmarkTimeMeasurerD1Ev)
+    i._ZN5QTest12TestFunctionC1Ev            0x0000f502   Section        8  qtestcase.o(i._ZN5QTest12TestFunctionC1Ev)
+    i._ZN5QTest12TestFunctionD1Ev            0x0000f50a   Section       14  qtestcase.o(i._ZN5QTest12TestFunctionD1Ev)
+    i._ZN5QTest15QTestDataSetterD1Ev         0x0000f518   Section       14  qtestcase.o(i._ZN5QTest15QTestDataSetterD1Ev)
+    i._ZN6QDebug10maybeSpaceEv               0x0000f526   Section       22  qtestcase.o(i._ZN6QDebug10maybeSpaceEv)
+    i._ZN6QDebugD1Ev                         0x0000f53c   Section       94  qtestcase.o(i._ZN6QDebugD1Ev)
+    i._ZN6QDebugD1Ev.clean                   0x0000f59a   Section       20  qtestcase.o(i._ZN6QDebugD1Ev.clean)
+    i._ZN6QDebuglsEPKc                       0x0000f5ae   Section       36  qtestcase.o(i._ZN6QDebuglsEPKc)
+    i._ZN6QDebuglsEPKc.clean                 0x0000f5d2   Section       10  qtestcase.o(i._ZN6QDebuglsEPKc.clean)
+    i._ZN6QDebuglsEf                         0x0000f5dc   Section       18  qtestcase.o(i._ZN6QDebuglsEf)
+    i._ZN7QStringC1ERK13QLatin1String        0x0000f5ee   Section       20  qplaintestlogger.o(i._ZN7QStringC1ERK13QLatin1String)
+    i._ZN7QStringC1ERKS_                     0x0000f602   Section       16  qtestcase.o(i._ZN7QStringC1ERKS_)
+    i._ZN7QStringC1Ev                        0x0000f614   Section       20  qtestcase.o(i._ZN7QStringC1Ev)
+    i._ZN7QStringD1Ev                        0x0000f628   Section       24  qtestcase.o(i._ZN7QStringD1Ev)
+    i._ZN7QStringaSERK13QLatin1String        0x0000f640   Section       34  qtestcase.o(i._ZN7QStringaSERK13QLatin1String)
+    i._ZN7QStringaSERK13QLatin1String.clean  0x0000f662   Section       10  qtestcase.o(i._ZN7QStringaSERK13QLatin1String.clean)
+    i._ZNK10QByteArray7isEmptyEv             0x0000f66c   Section       16  qplaintestlogger.o(i._ZNK10QByteArray7isEmptyEv)
+    i._ZNK15QBasicAtomicInteqEi              0x0000f67c   Section       14  qtestcase.o(i._ZNK15QBasicAtomicInteqEi)
+    i._ZNK15QBasicAtomicIntneEi              0x0000f68a   Section       14  qtestcase.o(i._ZNK15QBasicAtomicIntneEi)
+    i._ZNK7QString7isEmptyEv                 0x0000f698   Section       16  qsignaldumper.o(i._ZNK7QString7isEmptyEv)
+    i._ZNK9QListData2atEi                    0x0000f6a8   Section       16  qtestcase.o(i._ZNK9QListData2atEi)
+    i._ZNK9QListData3endEv                   0x0000f6b8   Section       12  qtestcase.o(i._ZNK9QListData3endEv)
+    i._ZNK9QListData5beginEv                 0x0000f6c4   Section       12  qtestcase.o(i._ZNK9QListData5beginEv)
+    i._ZNK9QListData7isEmptyEv               0x0000f6d0   Section       18  qtestcase.o(i._ZNK9QListData7isEmptyEv)
+    i._ZdlPvS_                               0x0000f6e2   Section        2  qtestcase.o(i._ZdlPvS_)
+    i._ZnwjPv                                0x0000f6e4   Section        4  qtestcase.o(i._ZnwjPv)
+    t._Z4qAbsIdET_RKS0_                      0x0000f6e8   Section       40  qtestcase.o(t._Z4qAbsIdET_RKS0_)
+    t._Z4qAbsIfET_RKS0_                      0x0000f710   Section       14  qtestcase.o(t._Z4qAbsIfET_RKS0_)
+    t._Z4qMinIiERKT_S2_S2_                   0x0000f71e   Section       12  qtestcase.o(t._Z4qMinIiERKT_S2_S2_)
+    t._Z5qSwapI16QBenchmarkResultEvRT_S2_    0x0000f72a   Section       42  qtestcase.o(t._Z5qSwapI16QBenchmarkResultEvRT_S2_)
+    t._Z5qSwapI16QBenchmarkResultEvRT_S2_.clean 0x0000f754   Section       10  qtestcase.o(t._Z5qSwapI16QBenchmarkResultEvRT_S2_.clean)
+    t._ZN13QTestCoreListI12QTestElementE9addToListEPPS0_ 0x0000f75e   Section       34  qtestelement.o(t._ZN13QTestCoreListI12QTestElementE9addToListEPPS0_)
+    t._ZN13QTestCoreListI12QTestElementED1Ev 0x0000f780   Section       60  qtestelement.o(t._ZN13QTestCoreListI12QTestElementED1Ev)
+    t._ZN13QTestCoreListI21QTestElementAttributeE9addToListEPPS0_ 0x0000f7bc   Section       34  qtestlogger.o(t._ZN13QTestCoreListI21QTestElementAttributeE9addToListEPPS0_)
+    t._ZN13QTestCoreListI21QTestElementAttributeED1Ev 0x0000f7e0   Section       60  qtestelementattribute.o(t._ZN13QTestCoreListI21QTestElementAttributeED1Ev)
+    t._ZN15QVarLengthArrayIPcLi256EED1Ev     0x0000f81c   Section       22  qtestcase.o(t._ZN15QVarLengthArrayIPcLi256EED1Ev)
+    t._ZN16QTestCoreElementI12QTestElementE12addAttributeEN5QTest14AttributeIndexEPKc 0x0000f832   Section       58  qtestlogger.o(t._ZN16QTestCoreElementI12QTestElementE12addAttributeEN5QTest14AttributeIndexEPKc)
+    t._ZN16QTestCoreElementI12QTestElementE12addAttributeEN5QTest14AttributeIndexEPKc.clean 0x0000f86c   Section       10  qtestlogger.o(t._ZN16QTestCoreElementI12QTestElementE12addAttributeEN5QTest14AttributeIndexEPKc.clean)
+    t._ZN16QTestCoreElementI12QTestElementED1Ev 0x0000f878   Section       32  qtestelement.o(t._ZN16QTestCoreElementI12QTestElementED1Ev)
+    t._ZN16QTestCoreElementI12QTestElementED1Ev.clean 0x0000f898   Section       10  qtestelement.o(t._ZN16QTestCoreElementI12QTestElementED1Ev.clean)
+    t._ZN18QAlgorithmsPrivate11qSortHelperIN5QListI16QBenchmarkResultE8iteratorES2_5qLessIS2_EEEvT_S7_RKT0_T1_ 0x0000f8a2   Section      342  qtestcase.o(t._ZN18QAlgorithmsPrivate11qSortHelperIN5QListI16QBenchmarkResultE8iteratorES2_5qLessIS2_EEEvT_S7_RKT0_T1_)
+    t._ZN20QGlobalStaticDeleterI5QListI10QByteArrayEED1Ev 0x0000f9f8   Section       36  qsignaldumper.o(t._ZN20QGlobalStaticDeleterI5QListI10QByteArrayEED1Ev)
+    t._ZN5QListI10QByteArrayE13detach_helperEv 0x0000fa1c   Section       88  qsignaldumper.o(t._ZN5QListI10QByteArrayE13detach_helperEv)
+    t._ZN5QListI10QByteArrayE13detach_helperEv.clean 0x0000fa74   Section        8  qsignaldumper.o(t._ZN5QListI10QByteArrayE13detach_helperEv.clean)
+    t._ZN5QListI10QByteArrayE14node_constructEPNS1_4NodeERKS0_ 0x0000fa7c   Section       26  qsignaldumper.o(t._ZN5QListI10QByteArrayE14node_constructEPNS1_4NodeERKS0_)
+    t._ZN5QListI10QByteArrayE14node_constructEPNS1_4NodeERKS0_.clean 0x0000fa96   Section       12  qsignaldumper.o(t._ZN5QListI10QByteArrayE14node_constructEPNS1_4NodeERKS0_.clean)
+    t._ZN5QListI10QByteArrayE18detach_helper_growEii 0x0000faa2   Section      186  qsignaldumper.o(t._ZN5QListI10QByteArrayE18detach_helper_growEii)
+    t._ZN5QListI10QByteArrayE18detach_helper_growEii.clean 0x0000fb5c   Section        8  qsignaldumper.o(t._ZN5QListI10QByteArrayE18detach_helper_growEii.clean)
+    t._ZN5QListI10QByteArrayE4freeEPN9QListData4DataE 0x0000fb64   Section       48  qsignaldumper.o(t._ZN5QListI10QByteArrayE4freeEPN9QListData4DataE)
+    t._ZN5QListI10QByteArrayE6appendERKS0_   0x0000fb94   Section       96  qsignaldumper.o(t._ZN5QListI10QByteArrayE6appendERKS0_)
+    t._ZN5QListI10QByteArrayE6appendERKS0_.clean 0x0000fbf4   Section        8  qsignaldumper.o(t._ZN5QListI10QByteArrayE6appendERKS0_.clean)
+    t._ZN5QListI10QByteArrayE9node_copyEPNS1_4NodeES3_S3_ 0x0000fbfc   Section       70  qsignaldumper.o(t._ZN5QListI10QByteArrayE9node_copyEPNS1_4NodeES3_S3_)
+    t._ZN5QListI10QByteArrayE9node_copyEPNS1_4NodeES3_S3_.clean 0x0000fc42   Section       22  qsignaldumper.o(t._ZN5QListI10QByteArrayE9node_copyEPNS1_4NodeES3_S3_.clean)
+    t._ZN5QListI10QByteArrayEC1Ev            0x0000fc58   Section       20  qsignaldumper.o(t._ZN5QListI10QByteArrayEC1Ev)
+    t._ZN5QListI10QByteArrayED1Ev            0x0000fc6c   Section       30  qsignaldumper.o(t._ZN5QListI10QByteArrayED1Ev)
+    t._ZN5QListI16QBenchmarkResultE13detach_helperEv 0x0000fc8a   Section       88  qtestcase.o(t._ZN5QListI16QBenchmarkResultE13detach_helperEv)
+    t._ZN5QListI16QBenchmarkResultE13detach_helperEv.clean 0x0000fce2   Section        8  qtestcase.o(t._ZN5QListI16QBenchmarkResultE13detach_helperEv.clean)
+    t._ZN5QListI16QBenchmarkResultE13node_destructEPNS1_4NodeES3_ 0x0000fcea   Section       30  qtestcase.o(t._ZN5QListI16QBenchmarkResultE13node_destructEPNS1_4NodeES3_)
+    t._ZN5QListI16QBenchmarkResultE14node_constructEPNS1_4NodeERKS0_ 0x0000fd08   Section       24  qtestcase.o(t._ZN5QListI16QBenchmarkResultE14node_constructEPNS1_4NodeERKS0_)
+    t._ZN5QListI16QBenchmarkResultE14node_constructEPNS1_4NodeERKS0_.clean 0x0000fd20   Section       10  qtestcase.o(t._ZN5QListI16QBenchmarkResultE14node_constructEPNS1_4NodeERKS0_.clean)
+    t._ZN5QListI16QBenchmarkResultE18detach_helper_growEii 0x0000fd2a   Section      180  qtestcase.o(t._ZN5QListI16QBenchmarkResultE18detach_helper_growEii)
+    t._ZN5QListI16QBenchmarkResultE18detach_helper_growEii.clean 0x0000fdde   Section        8  qtestcase.o(t._ZN5QListI16QBenchmarkResultE18detach_helper_growEii.clean)
+    t._ZN5QListI16QBenchmarkResultE4freeEPN9QListData4DataE 0x0000fde6   Section       44  qtestcase.o(t._ZN5QListI16QBenchmarkResultE4freeEPN9QListData4DataE)
+    t._ZN5QListI16QBenchmarkResultE5beginEv  0x0000fe12   Section       22  qtestcase.o(t._ZN5QListI16QBenchmarkResultE5beginEv)
+    t._ZN5QListI16QBenchmarkResultE6appendERKS0_ 0x0000fe28   Section       96  qtestcase.o(t._ZN5QListI16QBenchmarkResultE6appendERKS0_)
+    t._ZN5QListI16QBenchmarkResultE6appendERKS0_.clean 0x0000fe88   Section        8  qtestcase.o(t._ZN5QListI16QBenchmarkResultE6appendERKS0_.clean)
+    t._ZN5QListI16QBenchmarkResultE6detachEv 0x0000fe90   Section       24  qtestcase.o(t._ZN5QListI16QBenchmarkResultE6detachEv)
+    t._ZN5QListI16QBenchmarkResultE9node_copyEPNS1_4NodeES3_S3_ 0x0000fea8   Section       72  qtestcase.o(t._ZN5QListI16QBenchmarkResultE9node_copyEPNS1_4NodeES3_S3_)
+    t._ZN5QListI16QBenchmarkResultE9node_copyEPNS1_4NodeES3_S3_.clean 0x0000fef0   Section       18  qtestcase.o(t._ZN5QListI16QBenchmarkResultE9node_copyEPNS1_4NodeES3_S3_.clean)
+    t._ZN5QListI16QBenchmarkResultED1Ev      0x0000ff02   Section       30  qtestcase.o(t._ZN5QListI16QBenchmarkResultED1Ev)
+    t._ZN5QTest12formatResultIfEE7QStringT_i 0x0000ff20   Section      388  qplaintestlogger.o(t._ZN5QTest12formatResultIfEE7QStringT_i)
+    t._ZN5QTest12formatResultIfEE7QStringT_i.clean 0x000100a4   Section       22  qplaintestlogger.o(t._ZN5QTest12formatResultIfEE7QStringT_i.clean)
+    t._ZN5QTest12formatResultIfEEiPciT_i     0x000100ba   Section       56  qplaintestlogger.o(t._ZN5QTest12formatResultIfEEiPciT_i)
+    t._ZN5QTest12formatResultIfEEiPciT_i.clean 0x000100f2   Section       16  qplaintestlogger.o(t._ZN5QTest12formatResultIfEEiPciT_i.clean)
+    t._ZN5QTest8qCompareIdEEbRKT_S3_PKcS5_S5_i 0x00010104   Section      248  qtestcase.o(t._ZN5QTest8qCompareIdEEbRKT_S3_PKcS5_S5_i)
+    t._ZN5QTest8qCompareIfEEbRKT_S3_PKcS5_S5_i 0x000101fc   Section      220  qtestcase.o(t._ZN5QTest8qCompareIfEEbRKT_S3_PKcS5_S5_i)
+    t._ZN5QTest8toStringIbEEPcRKT_           0x000102d8   Section       32  qtestcase.o(t._ZN5QTest8toStringIbEEPcRKT_)
+    t._ZN5QTest8toStringIcEEPcRKT_           0x000102f8   Section       32  qtestcase.o(t._ZN5QTest8toStringIcEEPcRKT_)
+    t._ZN5QTest8toStringIdEEPcRKT_           0x00010318   Section       36  qtestcase.o(t._ZN5QTest8toStringIdEEPcRKT_)
+    t._ZN5QTest8toStringIfEEPcRKT_           0x0001033c   Section       40  qtestcase.o(t._ZN5QTest8toStringIfEEPcRKT_)
+    t._ZN5QTest8toStringIiEEPcRKT_           0x00010364   Section       32  qtestcase.o(t._ZN5QTest8toStringIiEEPcRKT_)
+    t._ZN5QTest8toStringIjEEPcRKT_           0x00010384   Section       32  qtestcase.o(t._ZN5QTest8toStringIjEEPcRKT_)
+    t._ZN5QTest8toStringIlEEPcRKT_           0x000103a4   Section       32  qtestcase.o(t._ZN5QTest8toStringIlEEPcRKT_)
+    t._ZN5QTest8toStringImEEPcRKT_           0x000103c4   Section       32  qtestcase.o(t._ZN5QTest8toStringImEEPcRKT_)
+    t._ZN5QTest8toStringIsEEPcRKT_           0x000103e4   Section       36  qtestcase.o(t._ZN5QTest8toStringIsEEPcRKT_)
+    t._ZN5QTest8toStringItEEPcRKT_           0x00010408   Section       32  qtestcase.o(t._ZN5QTest8toStringItEEPcRKT_)
+    t._ZN5QTest8toStringIxEEPcRKT_           0x00010428   Section       40  qtestcase.o(t._ZN5QTest8toStringIxEEPcRKT_)
+    t._ZN5QTest8toStringIyEEPcRKT_           0x00010450   Section       40  qtestcase.o(t._ZN5QTest8toStringIyEEPcRKT_)
+    t._ZN7QVectorI10QByteArrayE4freeEP16QVectorTypedDataIS0_E 0x00010478   Section       40  qtestcase.o(t._ZN7QVectorI10QByteArrayE4freeEP16QVectorTypedDataIS0_E)
+    t._ZN7QVectorI10QByteArrayE6appendERKS0_ 0x000104a0   Section      140  qtestcase.o(t._ZN7QVectorI10QByteArrayE6appendERKS0_)
+    t._ZN7QVectorI10QByteArrayE6appendERKS0_.clean 0x0001052c   Section       28  qtestcase.o(t._ZN7QVectorI10QByteArrayE6appendERKS0_.clean)
+    t._ZN7QVectorI10QByteArrayE7reallocEii   0x00010548   Section      380  qtestcase.o(t._ZN7QVectorI10QByteArrayE7reallocEii)
+    t._ZN7QVectorI10QByteArrayE7reallocEii.clean 0x000106c4   Section       28  qtestcase.o(t._ZN7QVectorI10QByteArrayE7reallocEii.clean)
+    t._ZN7QVectorI10QByteArrayED1Ev          0x000106e0   Section       30  qtestcase.o(t._ZN7QVectorI10QByteArrayED1Ev)
+    t._ZNK14QStringBuilderI7QString5QCharEcvS0_Ev 0x000106fe   Section       98  qtestfilelogger.o(t._ZNK14QStringBuilderI7QString5QCharEcvS0_Ev)
+    t._ZNK14QStringBuilderI7QString5QCharEcvS0_Ev.clean 0x00010760   Section       10  qtestfilelogger.o(t._ZNK14QStringBuilderI7QString5QCharEcvS0_Ev.clean)
+    t._ZNK16QTestCoreElementI12QTestElementE11elementNameEv 0x0001076c   Section       40  qtestxunitstreamer.o(t._ZNK16QTestCoreElementI12QTestElementE11elementNameEv)
+    t._ZNK16QTestCoreElementI12QTestElementE13attributeNameEN5QTest14AttributeIndexE 0x00010794   Section       20  qtestxmlstreamer.o(t._ZNK16QTestCoreElementI12QTestElementE13attributeNameEN5QTest14AttributeIndexE)
+    t._ZNK16QTestCoreElementI12QTestElementE14attributeValueEN5QTest14AttributeIndexE 0x000107a8   Section       20  qtestxmlstreamer.o(t._ZNK16QTestCoreElementI12QTestElementE14attributeValueEN5QTest14AttributeIndexE)
+    t._ZNK16QTestCoreElementI12QTestElementE9attributeEN5QTest14AttributeIndexE 0x000107bc   Section       32  qtestxmlstreamer.o(t._ZNK16QTestCoreElementI12QTestElementE9attributeEN5QTest14AttributeIndexE)
+    t._ZNK5QListI10QByteArrayE2atEi          0x000107dc   Section       16  qsignaldumper.o(t._ZNK5QListI10QByteArrayE2atEi)
+    t._ZNK5QListI10QByteArrayE8containsERKS0_ 0x000107ec   Section       76  qsignaldumper.o(t._ZNK5QListI10QByteArrayE8containsERKS0_)
+    t._ZNK5qLessI16QBenchmarkResultEclERKS0_S3_ 0x00010838   Section       56  qtestcase.o(t._ZNK5qLessI16QBenchmarkResultEclERKS0_S3_)
+    .extab._ZN5QTest17defaultEventDelayEv    0x00010870   Data           0  qtestcase.o(.ARM.extab)
+    .extab._ZN5QTest17defaultMouseDelayEv    0x00010880   Data           0  qtestcase.o(.ARM.extab)
+    .extab._ZN5QTest15defaultKeyDelayEv      0x00010890   Data           0  qtestcase.o(.ARM.extab)
+    .extab._ZN5QTest11isValidSlotERK11QMetaMethod 0x000108a0   Data           0  qtestcase.o(.ARM.extab)
+    .extab._ZN5QTest10qParseArgsEiPPc        0x000108b0   Data           0  qtestcase.o(.ARM.extab)
+    .extab._ZN5QTest7qMedianERK5QListI16QBenchmarkResultE 0x000108c0   Data           0  qtestcase.o(.ARM.extab)
+    .extab._ZN5QTest26qInvokeTestMethodDataEntryEPc 0x000108d0   Data           0  qtestcase.o(.ARM.extab)
+    .extab._ZN5QTest17qInvokeTestMethodEPKcS1_ 0x00010920   Data           0  qtestcase.o(.ARM.extab)
+    .extab._ZN5QTest5qExecEP7QObjectiPPc     0x00010968   Data           0  qtestcase.o(.ARM.extab)
+    .extab._ZN5QTest5qExecEP7QObjectRK11QStringList 0x0001098c   Data           0  qtestcase.o(.ARM.extab)
+    .extab._Z6qDebugv                        0x000109d0   Data           0  qtestcase.o(.ARM.extab)
+    .extab._ZN16QBenchmarkResultC1ERKS_      0x000109e8   Data           0  qtestcase.o(.ARM.extab)
+    .extab._ZN5QListI16QBenchmarkResultE9node_copyEPNS1_4NodeES3_S3_ 0x000109f8   Data           0  qtestcase.o(.ARM.extab)
+    .extab._ZN5QListI16QBenchmarkResultE13detach_helperEv 0x00010a1c   Data           0  qtestcase.o(.ARM.extab)
+    .extab._Z5qSwapI16QBenchmarkResultEvRT_S2_ 0x00010a38   Data           0  qtestcase.o(.ARM.extab)
+    .extab._ZN7QStringaSERK13QLatin1String   0x00010a48   Data           0  qtestcase.o(.ARM.extab)
+    .extab._ZN6QDebugD1Ev                    0x00010a58   Data           0  qtestcase.o(.ARM.extab)
+    .extab._ZN6QDebuglsEPKc                  0x00010a7c   Data           0  qtestcase.o(.ARM.extab)
+    .extab._ZN16QBenchmarkResultC1Ev         0x00010a8c   Data           0  qtestcase.o(.ARM.extab)
+    .extab._ZN5QListI16QBenchmarkResultE14node_constructEPNS1_4NodeERKS0_ 0x00010a9c   Data           0  qtestcase.o(.ARM.extab)
+    .extab._ZN5QListI16QBenchmarkResultE18detach_helper_growEii 0x00010aac   Data           0  qtestcase.o(.ARM.extab)
+    .extab._ZN7QVectorI10QByteArrayE7reallocEii 0x00010adc   Data           0  qtestcase.o(.ARM.extab)
+    .extab._ZN7QVectorI10QByteArrayE6appendERKS0_ 0x00010b1c   Data           0  qtestcase.o(.ARM.extab)
+    .extab._ZN5QListI16QBenchmarkResultE6appendERKS0_ 0x00010b3c   Data           0  qtestcase.o(.ARM.extab)
+    .extab._ZN17QBenchmarkContextD1Ev        0x00010b6c   Data           0  qtestcase.o(.ARM.extab)
+    .extab._ZN8QTestLog16addIgnoreMessageE9QtMsgTypePKc 0x00010b7c   Data           0  qtestlog.o(.ARM.extab)
+    .extab._ZN8QTestLog28printUnhandledIgnoreMessagesEv 0x00010b8c   Data           0  qtestlog.o(.ARM.extab)
+    .extab._ZN8QTestLog12startLoggingEv      0x00010b98   Data           0  qtestlog.o(.ARM.extab)
+    .extab._ZN10QTestTable7newDataEPKc       0x00010bd0   Data           0  qtesttable.o(.ARM.extab)
+    .extab._ZN10QTestTable15globalTestTableEv 0x00010be0   Data           0  qtesttable.o(.ARM.extab)
+    .extab._ZN11QTestResult7compareEbPKcPcS2_S1_S1_S1_i 0x00010bf0   Data           0  qtestresult.o(.ARM.extab)
+    .extab._ZN11QTestResult6verifyEbPKcS1_S1_i 0x00010bfc   Data           0  qtestresult.o(.ARM.extab)
+    .extab._ZN16QPlainTestLogger12startLoggingEv 0x00010c08   Data           0  qplaintestlogger.o(.ARM.extab)
+    .extab._ZN16QPlainTestLogger11stopLoggingEv 0x00010c14   Data           0  qplaintestlogger.o(.ARM.extab)
+    .extab._ZN5QTest18messageType2StringEN19QAbstractTestLogger12MessageTypesE 0x00010c20   Data           0  qplaintestlogger.o(.ARM.extab)
+    .extab._ZN5QTest12printMessageEPKcS1_S1_i 0x00010c30   Data           0  qplaintestlogger.o(.ARM.extab)
+    .extab._ZN5QTest19incidentType2StringEN19QAbstractTestLogger13IncidentTypesE 0x00010c40   Data           0  qplaintestlogger.o(.ARM.extab)
+    .extab._ZN5QTest20printBenchmarkResultERK16QBenchmarkResult 0x00010c60   Data           0  qplaintestlogger.o(.ARM.extab)
+    .extab._ZN5QTest22benchmarkResult2StringEv 0x00010c8c   Data           0  qplaintestlogger.o(.ARM.extab)
+    .extab._ZN5QTest12formatResultIfEE7QStringT_i 0x00010cac   Data           0  qplaintestlogger.o(.ARM.extab)
+    .extab._ZN5QTest12formatResultIfEEiPciT_i 0x00010cdc   Data           0  qplaintestlogger.o(.ARM.extab)
+    .extab._ZN14QXmlTestLogger12startLoggingEv 0x00010cfc   Data           0  qxmltestlogger.o(.ARM.extab)
+    .extab._ZN14QXmlTestLogger17enterTestFunctionEPKc 0x00010d20   Data           0  qxmltestlogger.o(.ARM.extab)
+    .extab._ZN14QXmlTestLogger11addIncidentEN19QAbstractTestLogger13IncidentTypesEPKcS3_i 0x00010d44   Data           0  qxmltestlogger.o(.ARM.extab)
+    .extab._ZN14QXmlTestLogger18addBenchmarkResultERK16QBenchmarkResult 0x00010d98   Data           0  qxmltestlogger.o(.ARM.extab)
+    .extab._ZN14QXmlTestLogger10addMessageEN19QAbstractTestLogger12MessageTypesEPKcS3_i 0x00010dec   Data           0  qxmltestlogger.o(.ARM.extab)
+    .extab._ZN5QTest13ignoreClassesEv        0x00010e40   Data           0  qsignaldumper.o(.ARM.extab)
+    .extab._ZN13QSignalDumper19clearIgnoredClassesEv 0x00010e58   Data           0  qsignaldumper.o(.ARM.extab)
+    .extab._ZN5QTest21qSignalDumperCallbackEP7QObjectiPPv 0x00010e68   Data           0  qsignaldumper.o(.ARM.extab)
+    .extab._ZN5QTest25qSignalDumperCallbackSlotEP7QObjectiPPv 0x00010f18   Data           0  qsignaldumper.o(.ARM.extab)
+    .extab._ZN5QTest30qSignalDumperCallbackEndSignalEP7QObjecti 0x00010f60   Data           0  qsignaldumper.o(.ARM.extab)
+    .extab._ZN5QListI10QByteArrayE9node_copyEPNS1_4NodeES3_S3_ 0x00010f70   Data           0  qsignaldumper.o(.ARM.extab)
+    .extab._ZN5QListI10QByteArrayE18detach_helper_growEii 0x00010f94   Data           0  qsignaldumper.o(.ARM.extab)
+    .extab._ZN5QListI10QByteArrayE6appendERKS0_ 0x00010fc4   Data           0  qsignaldumper.o(.ARM.extab)
+    .extab._ZN5QListI10QByteArrayE13detach_helperEv 0x00010ff4   Data           0  qsignaldumper.o(.ARM.extab)
+    .extab._ZN5QListI10QByteArrayE14node_constructEPNS1_4NodeERKS0_ 0x00011010   Data           0  qsignaldumper.o(.ARM.extab)
+    .extab._ZN19QAbstractTestLogger11isTtyOutputEv 0x00011020   Data           0  qabstracttestlogger.o(.ARM.extab)
+    .extab._ZN20QBenchmarkGlobalDataC1Ev     0x00011030   Data           0  qbenchmark.o(.ARM.extab)
+    .extab._ZN20QBenchmarkGlobalDataD1Ev     0x00011048   Data           0  qbenchmark.o(.ARM.extab)
+    .extab._ZN24QBenchmarkTestMethodData9setResultEfN5QTest16QBenchmarkMetricEb 0x00011060   Data           0  qbenchmark.o(.ARM.extab)
+    .extab._ZN17QBenchmarkContextC1Ev        0x00011078   Data           0  qbenchmark.o(.ARM.extab)
+    .extab._ZN12QTestElementD1Ev             0x00011088   Data           0  qtestelement.o(.ARM.extab)
+    .extab._ZN16QTestCoreElementI12QTestElementED1Ev 0x00011098   Data           0  qtestelement.o(.ARM.extab)
+    .extab._ZN18QTestBasicStreamer11isTtyOutputEv 0x000110a8   Data           0  qtestbasicstreamer.o(.ARM.extab)
+    .extab._ZNK18QTestBasicStreamer14outputElementsEP12QTestElementb 0x000110b8   Data           0  qtestbasicstreamer.o(.ARM.extab)
+    .extab._ZNK18QTestBasicStreamer23outputElementAttributesEPK12QTestElementP21QTestElementAttribute 0x000110c8   Data           0  qtestbasicstreamer.o(.ARM.extab)
+    .extab._ZNK18QTestXunitStreamer16formatAttributesEPK12QTestElementPK21QTestElementAttributeP15QTestCharBuffer 0x000110d8   Data           0  qtestxunitstreamer.o(.ARM.extab)
+    .extab._ZNK18QTestXunitStreamer14outputElementsEP12QTestElementb 0x000110e8   Data           0  qtestxunitstreamer.o(.ARM.extab)
+    .extab._ZNK16QTestXmlStreamer11formatStartEPK12QTestElementP15QTestCharBuffer 0x000110f8   Data           0  qtestxmlstreamer.o(.ARM.extab)
+    .extab._ZNK16QTestXmlStreamer6outputEP12QTestElement 0x00011194   Data           0  qtestxmlstreamer.o(.ARM.extab)
+    .extab._ZNK21QTestLightXmlStreamer11formatStartEPK12QTestElementP15QTestCharBuffer 0x000111b8   Data           0  qtestlightxmlstreamer.o(.ARM.extab)
+    .extab._ZNK21QTestLightXmlStreamer22formatBeforeAttributesEPK12QTestElementP15QTestCharBuffer 0x00011204   Data           0  qtestlightxmlstreamer.o(.ARM.extab)
+    .extab._ZNK21QTestLightXmlStreamer6outputEP12QTestElement 0x00011228   Data           0  qtestlightxmlstreamer.o(.ARM.extab)
+    .extab._ZN11QTestLoggerC1Ei              0x00011238   Data           0  qtestlogger.o(.ARM.extab)
+    .extab._ZN11QTestLoggerD1Ev              0x00011250   Data           0  qtestlogger.o(.ARM.extab)
+    .extab._ZN11QTestLogger12startLoggingEv  0x00011260   Data           0  qtestlogger.o(.ARM.extab)
+    .extab._ZN11QTestLogger11stopLoggingEv   0x00011288   Data           0  qtestlogger.o(.ARM.extab)
+    .extab._ZN11QTestLogger17enterTestFunctionEPKc 0x000112b0   Data           0  qtestlogger.o(.ARM.extab)
+    .extab._ZN11QTestLogger6addTagEP12QTestElement 0x000112c0   Data           0  qtestlogger.o(.ARM.extab)
+    .extab._ZN11QTestLogger10addMessageEN19QAbstractTestLogger12MessageTypesEPKcS3_i 0x000112d0   Data           0  qtestlogger.o(.ARM.extab)
+    .extab._ZN11QTestLogger11addIncidentEN19QAbstractTestLogger13IncidentTypesEPKcS3_i 0x000112e8   Data           0  qtestlogger.o(.ARM.extab)
+    .extab._ZN11QTestLogger18addBenchmarkResultERK16QBenchmarkResult 0x000112f8   Data           0  qtestlogger.o(.ARM.extab)
+    .extab._ZN16QTestCoreElementI12QTestElementE12addAttributeEN5QTest14AttributeIndexEPKc 0x00011318   Data           0  qtestlogger.o(.ARM.extab)
+    .extab._ZN15QTestFileLogger4initEv       0x00011328   Data           0  qtestfilelogger.o(.ARM.extab)
+    .extab._ZNK14QStringBuilderI7QString5QCharEcvS0_Ev 0x00011380   Data           0  qtestfilelogger.o(.ARM.extab)
+    .constdata$1                             0x00011390   Data           0  qtestcase.o(.constdata)
+    .constdata                               0x00011390   Section     1928  qtestcase.o(.constdata)
+    .constdata$1                             0x00011b18   Data           0  qtestlog.o(.constdata)
+    .constdata                               0x00011b18   Section       68  qtestlog.o(.constdata)
+    .constdata$1                             0x00011b5c   Data           0  qtestdata.o(.constdata)
+    .constdata                               0x00011b5c   Section       76  qtestdata.o(.constdata)
+    .constdata$1                             0x00011ba8   Data           0  qplaintestlogger.o(.constdata)
+    format@_ZN5QTest13outputMessageEPKc_0    0x00011ba8   Data          32  qplaintestlogger.o(.constdata)
+    .constdata                               0x00011ba8   Section      204  qplaintestlogger.o(.constdata)
+    .constdata$1                             0x00011c74   Data           0  qxmltestlogger.o(.constdata)
+    CDATA_END@_ZN14QXmlTestLogger8xmlCdataEP15QTestCharBufferPKcj_0 0x00011c74   Data           4  qxmltestlogger.o(.constdata)
+    .constdata                               0x00011c74   Section      952  qxmltestlogger.o(.constdata)
+    CDATA_END_ESCAPED@_ZN14QXmlTestLogger8xmlCdataEP15QTestCharBufferPKcj_1 0x00011c78   Data          16  qxmltestlogger.o(.constdata)
+    .constdata$1                             0x0001202c   Data           0  qtestelementattribute.o(.constdata)
+    .constdata                               0x0001202c   Section       64  qtestelementattribute.o(.constdata)
+    .constdata$1                             0x0001206c   Data           0  qtestxmlstreamer.o(.constdata)
+    .constdata                               0x0001206c   Section      456  qtestxmlstreamer.o(.constdata)
+    .constdata$1                             0x00012234   Data           0  qtestlightxmlstreamer.o(.constdata)
+    .constdata                               0x00012234   Section      180  qtestlightxmlstreamer.o(.constdata)
+    .constdata$1                             0x000122e8   Data           0  moc_qtesteventloop.o(.constdata)
+    qt_meta_stringdata_QTestEventLoop        0x000122e8   Data          28  moc_qtesteventloop.o(.constdata)
+    .constdata                               0x000122e8   Section       44  moc_qtesteventloop.o(.constdata)
+    .constdata$10                            0x00012314   Data           0  moc_qtesteventloop.o(.constdata)
+    qt_meta_data_QTestEventLoop              0x00012314   Data          80  moc_qtesteventloop.o(.constdata)
+    .constdata                               0x00012314   Section       80  moc_qtesteventloop.o(.constdata)
+    .constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE 0x00012364   Section        4  qtestcase.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE 0x00012368   Section        4  qtestcase.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE 0x0001236c   Section        4  qtestcase.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE 0x00012370   Section        4  qtestcase.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE 0x00012374   Section        4  qtestcase.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE 0x00012378   Section        1  qtestcase.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE 0x0001237c   Section        4  qtestcase.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE 0x00012380   Section        4  qtestcase.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE 0x00012384   Section        4  qtestcase.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE 0x00012388   Section        4  qtestcase.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE 0x0001238c   Section        4  qtestcase.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE 0x00012390   Section        4  qtestcase.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE 0x00012394   Section        4  qtestcase.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE 0x00012398   Section        4  qtestcase.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    .constdata__ZTI11QTestLogger             0x0001239c   Section       12  qtestlogger.o(.constdata__ZTI11QTestLogger)
+    .constdata__ZTI12QTestElement            0x000123a8   Section       12  qtestelement.o(.constdata__ZTI12QTestElement)
+    .constdata__ZTI13QTestCoreListI12QTestElementE 0x000123b4   Section        8  qtestelement.o(.constdata__ZTI13QTestCoreListI12QTestElementE)
+    .constdata__ZTI13QTestCoreListI21QTestElementAttributeE 0x000123bc   Section        8  qtestelementattribute.o(.constdata__ZTI13QTestCoreListI21QTestElementAttributeE)
+    .constdata__ZTI14QTestEventLoop          0x000123c4   Section       12  moc_qtesteventloop.o(.constdata__ZTI14QTestEventLoop)
+    .constdata__ZTI14QXmlTestLogger          0x000123d0   Section       12  qxmltestlogger.o(.constdata__ZTI14QXmlTestLogger)
+    .constdata__ZTI15QBenchmarkEvent         0x000123dc   Section       12  qbenchmarkevent.o(.constdata__ZTI15QBenchmarkEvent)
+    .constdata__ZTI16QPlainTestLogger        0x000123e8   Section       12  qplaintestlogger.o(.constdata__ZTI16QPlainTestLogger)
+    .constdata__ZTI16QTestCoreElementI12QTestElementE 0x000123f4   Section       12  qtestelement.o(.constdata__ZTI16QTestCoreElementI12QTestElementE)
+    .constdata__ZTI16QTestXmlStreamer        0x00012400   Section       12  qtestxmlstreamer.o(.constdata__ZTI16QTestXmlStreamer)
+    .constdata__ZTI18QTestBasicStreamer      0x0001240c   Section        8  qtestbasicstreamer.o(.constdata__ZTI18QTestBasicStreamer)
+    .constdata__ZTI18QTestXunitStreamer      0x00012414   Section       12  qtestxunitstreamer.o(.constdata__ZTI18QTestXunitStreamer)
+    .constdata__ZTI19QAbstractTestLogger     0x00012420   Section        8  qabstracttestlogger.o(.constdata__ZTI19QAbstractTestLogger)
+    .constdata__ZTI21QTestElementAttribute   0x00012428   Section       12  qtestelementattribute.o(.constdata__ZTI21QTestElementAttribute)
+    .constdata__ZTI21QTestLightXmlStreamer   0x00012434   Section       12  qtestlightxmlstreamer.o(.constdata__ZTI21QTestLightXmlStreamer)
+    .constdata__ZTI22QBenchmarkMeasurerBase  0x00012440   Section        8  qbenchmarkmeasurement.o(.constdata__ZTI22QBenchmarkMeasurerBase)
+    .constdata__ZTI22QBenchmarkTickMeasurer  0x00012448   Section       12  qbenchmarkmeasurement.o(.constdata__ZTI22QBenchmarkTickMeasurer)
+    .constdata__ZTI22QBenchmarkTimeMeasurer  0x00012454   Section       12  qbenchmarkmeasurement.o(.constdata__ZTI22QBenchmarkTimeMeasurer)
+    .constdata__ZTS11QTestLogger             0x00012460   Section       14  qtestlogger.o(.constdata__ZTS11QTestLogger)
+    .constdata__ZTS12QTestElement            0x0001246e   Section       15  qtestelement.o(.constdata__ZTS12QTestElement)
+    .constdata__ZTS13QTestCoreListI12QTestElementE 0x0001247d   Section       32  qtestelement.o(.constdata__ZTS13QTestCoreListI12QTestElementE)
+    .constdata__ZTS13QTestCoreListI21QTestElementAttributeE 0x0001249d   Section       41  qtestelementattribute.o(.constdata__ZTS13QTestCoreListI21QTestElementAttributeE)
+    .constdata__ZTS14QTestEventLoop          0x000124c6   Section       17  moc_qtesteventloop.o(.constdata__ZTS14QTestEventLoop)
+    .constdata__ZTS14QXmlTestLogger          0x000124d7   Section       17  qxmltestlogger.o(.constdata__ZTS14QXmlTestLogger)
+    .constdata__ZTS15QBenchmarkEvent         0x000124e8   Section       18  qbenchmarkevent.o(.constdata__ZTS15QBenchmarkEvent)
+    .constdata__ZTS16QPlainTestLogger        0x000124fa   Section       19  qplaintestlogger.o(.constdata__ZTS16QPlainTestLogger)
+    .constdata__ZTS16QTestCoreElementI12QTestElementE 0x0001250d   Section       35  qtestelement.o(.constdata__ZTS16QTestCoreElementI12QTestElementE)
+    .constdata__ZTS16QTestXmlStreamer        0x00012530   Section       19  qtestxmlstreamer.o(.constdata__ZTS16QTestXmlStreamer)
+    .constdata__ZTS18QTestBasicStreamer      0x00012543   Section       21  qtestbasicstreamer.o(.constdata__ZTS18QTestBasicStreamer)
+    .constdata__ZTS18QTestXunitStreamer      0x00012558   Section       21  qtestxunitstreamer.o(.constdata__ZTS18QTestXunitStreamer)
+    .constdata__ZTS19QAbstractTestLogger     0x0001256d   Section       22  qabstracttestlogger.o(.constdata__ZTS19QAbstractTestLogger)
+    .constdata__ZTS21QTestElementAttribute   0x00012583   Section       24  qtestelementattribute.o(.constdata__ZTS21QTestElementAttribute)
+    .constdata__ZTS21QTestLightXmlStreamer   0x0001259b   Section       24  qtestlightxmlstreamer.o(.constdata__ZTS21QTestLightXmlStreamer)
+    .constdata__ZTS22QBenchmarkMeasurerBase  0x000125b3   Section       25  qbenchmarkmeasurement.o(.constdata__ZTS22QBenchmarkMeasurerBase)
+    .constdata__ZTS22QBenchmarkTickMeasurer  0x000125cc   Section       25  qbenchmarkmeasurement.o(.constdata__ZTS22QBenchmarkTickMeasurer)
+    .constdata__ZTS22QBenchmarkTimeMeasurer  0x000125e5   Section       25  qbenchmarkmeasurement.o(.constdata__ZTS22QBenchmarkTimeMeasurer)
+    .constdata__ZTV11QTestLogger             0x00012600   Section       44  qtestlogger.o(.constdata__ZTV11QTestLogger)
+    .constdata__ZTV12QTestElement            0x0001262c   Section       16  qtestelement.o(.constdata__ZTV12QTestElement)
+    .constdata__ZTV13QTestCoreListI12QTestElementE 0x0001263c   Section       16  qtestelement.o(.constdata__ZTV13QTestCoreListI12QTestElementE)
+    .constdata__ZTV13QTestCoreListI21QTestElementAttributeE 0x0001264c   Section       16  qtestelementattribute.o(.constdata__ZTV13QTestCoreListI21QTestElementAttributeE)
+    .constdata__ZTV14QTestEventLoop          0x0001265c   Section       56  moc_qtesteventloop.o(.constdata__ZTV14QTestEventLoop)
+    .constdata__ZTV14QXmlTestLogger          0x00012694   Section       44  qxmltestlogger.o(.constdata__ZTV14QXmlTestLogger)
+    .constdata__ZTV15QBenchmarkEvent         0x000126c0   Section       56  qbenchmarkevent.o(.constdata__ZTV15QBenchmarkEvent)
+    .constdata__ZTV16QPlainTestLogger        0x000126f8   Section       44  qplaintestlogger.o(.constdata__ZTV16QPlainTestLogger)
+    .constdata__ZTV16QTestCoreElementI12QTestElementE 0x00012724   Section       16  qtestelement.o(.constdata__ZTV16QTestCoreElementI12QTestElementE)
+    .constdata__ZTV16QTestXmlStreamer        0x00012734   Section       48  qtestxmlstreamer.o(.constdata__ZTV16QTestXmlStreamer)
+    .constdata__ZTV18QTestBasicStreamer      0x00012764   Section       48  qtestbasicstreamer.o(.constdata__ZTV18QTestBasicStreamer)
+    .constdata__ZTV18QTestXunitStreamer      0x00012794   Section       48  qtestxunitstreamer.o(.constdata__ZTV18QTestXunitStreamer)
+    .constdata__ZTV19QAbstractTestLogger     0x000127c4   Section       44  qabstracttestlogger.o(.constdata__ZTV19QAbstractTestLogger)
+    .constdata__ZTV21QTestElementAttribute   0x000127f0   Section       16  qtestelementattribute.o(.constdata__ZTV21QTestElementAttribute)
+    .constdata__ZTV21QTestLightXmlStreamer   0x00012800   Section       48  qtestlightxmlstreamer.o(.constdata__ZTV21QTestLightXmlStreamer)
+    .constdata__ZTV22QBenchmarkTickMeasurer  0x00012830   Section       56  qbenchmarkmeasurement.o(.constdata__ZTV22QBenchmarkTickMeasurer)
+    .constdata__ZTV22QBenchmarkTimeMeasurer  0x00012868   Section       56  qbenchmarkmeasurement.o(.constdata__ZTV22QBenchmarkTimeMeasurer)
+    .conststring$3                           0x000128a0   Data           0  qtestelementattribute.o(.conststring)
+    .conststring                             0x000128a0   Section      112  qtestelementattribute.o(.conststring)
+    __ARM_d__ZNK16QTestCoreElementI12QTestElementE11elementNameEv$9 0x00012910   Data           0  qtestxunitstreamer.o(__ARM_d__ZNK16QTestCoreElementI12QTestElementE11elementNameEv)
+    __ARM_d__ZNK16QTestCoreElementI12QTestElementE11elementNameEv 0x00012910   Section       32  qtestxunitstreamer.o(__ARM_d__ZNK16QTestCoreElementI12QTestElementE11elementNameEv)
+    __ARM_d__ZNK16QTestCoreElementI12QTestElementE11elementNameEv$10 0x00012930   Data           0  qtestxunitstreamer.o(__ARM_d__ZNK16QTestCoreElementI12QTestElementE11elementNameEv)
+    __ARM_d__ZNK16QTestCoreElementI12QTestElementE11elementNameEv 0x00012930   Section       74  qtestxunitstreamer.o(__ARM_d__ZNK16QTestCoreElementI12QTestElementE11elementNameEv)
+    .ARM.exidx                               0x0001297c   Section        8  ucppinit.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  qtestcase.o(.data)
+    cleanup@_ZN5QTest10qParseArgsEiPPc_1     0x00400000   Data           1  qtestcase.o(.data)
+    .data                                    0x00400000   Section       36  qtestcase.o(.data)
+    QTest::currentTestObject                 0x00400004   Data           4  qtestcase.o(.data)
+    QTest::lastTestFuncIdx                   0x00400008   Data           4  qtestcase.o(.data)
+    QTest::keyDelay                          0x0040000c   Data           4  qtestcase.o(.data)
+    QTest::mouseDelay                        0x00400010   Data           4  qtestcase.o(.data)
+    QTest::eventDelay                        0x00400014   Data           4  qtestcase.o(.data)
+    QTest::keyVerbose                        0x00400018   Data           4  qtestcase.o(.data)
+    _ZGVcleanup@_ZN5QTest10qParseArgsEiPPc_0 0x0040001c   Data           4  qtestcase.o(.data)
+    QTest::testFuncs                         0x00400020   Data           4  qtestcase.o(.data)
+    .data$0                                  0x00400024   Data           0  qtestlog.o(.data)
+    QTest::ignoreResultList                  0x00400024   Data           4  qtestlog.o(.data)
+    .data                                    0x00400024   Section       40  qtestlog.o(.data)
+    QTest::logMode                           0x00400028   Data           4  qtestlog.o(.data)
+    QTest::flushMode                         0x0040002c   Data           4  qtestlog.o(.data)
+    QTest::verbosity                         0x00400030   Data           4  qtestlog.o(.data)
+    QTest::maxWarnings                       0x00400034   Data           4  qtestlog.o(.data)
+    QTest::testLogger                        0x00400038   Data           4  qtestlog.o(.data)
+    QTest::outFile                           0x0040003c   Data           4  qtestlog.o(.data)
+    _ZGVcounter@_ZN5QTest14messageHandlerE9QtMsgTypePKc_0 0x00400040   Data           4  qtestlog.o(.data)
+    counter@_ZN5QTest14messageHandlerE9QtMsgTypePKc_1 0x00400044   Data           4  qtestlog.o(.data)
+    QTest::oldMessageHandler                 0x00400048   Data           4  qtestlog.o(.data)
+    .data$0                                  0x0040004c   Data           0  qtesttable.o(.data)
+    .data                                    0x0040004c   Section        8  qtesttable.o(.data)
+    .data$0                                  0x00400054   Data           0  qtestresult.o(.data)
+    QTest::failed                            0x00400054   Data           1  qtestresult.o(.data)
+    .data                                    0x00400054   Section       44  qtestresult.o(.data)
+    QTest::dataFailed                        0x00400055   Data           1  qtestresult.o(.data)
+    QTest::skipCurrentTest                   0x00400056   Data           1  qtestresult.o(.data)
+    QTest::currentTestData                   0x00400058   Data           4  qtestresult.o(.data)
+    QTest::currentGlobalTestData             0x0040005c   Data           4  qtestresult.o(.data)
+    QTest::currentTestFunc                   0x00400060   Data           4  qtestresult.o(.data)
+    QTest::currentTestObjectName             0x00400064   Data           4  qtestresult.o(.data)
+    QTest::location                          0x00400068   Data           4  qtestresult.o(.data)
+    QTest::fails                             0x0040006c   Data           4  qtestresult.o(.data)
+    QTest::passes                            0x00400070   Data           4  qtestresult.o(.data)
+    QTest::skips                             0x00400074   Data           4  qtestresult.o(.data)
+    QTest::expectFailComment                 0x00400078   Data           4  qtestresult.o(.data)
+    QTest::expectFailMode                    0x0040007c   Data           4  qtestresult.o(.data)
+    .data$0                                  0x00400080   Data           0  qplaintestlogger.o(.data)
+    colored@_ZN5QTest19incidentType2StringEN19QAbstractTestLogger13IncidentTypesE_1 0x00400080   Data           1  qplaintestlogger.o(.data)
+    .data                                    0x00400080   Section       16  qplaintestlogger.o(.data)
+    colored@_ZN5QTest22benchmarkResult2StringEv_1 0x00400081   Data           1  qplaintestlogger.o(.data)
+    colored@_ZN5QTest18messageType2StringEN19QAbstractTestLogger12MessageTypesE_1 0x00400082   Data           1  qplaintestlogger.o(.data)
+    _ZGVcolored@_ZN5QTest19incidentType2StringEN19QAbstractTestLogger13IncidentTypesE_0 0x00400084   Data           4  qplaintestlogger.o(.data)
+    _ZGVcolored@_ZN5QTest22benchmarkResult2StringEv_0 0x00400088   Data           4  qplaintestlogger.o(.data)
+    _ZGVcolored@_ZN5QTest18messageType2StringEN19QAbstractTestLogger12MessageTypesE_0 0x0040008c   Data           4  qplaintestlogger.o(.data)
+    .data$0                                  0x00400090   Data           0  qsignaldumper.o(.data)
+    QTest::iLevel                            0x00400090   Data           4  qsignaldumper.o(.data)
+    .data                                    0x00400090   Section       40  qsignaldumper.o(.data)
+    QTest::ignoreLevel                       0x00400094   Data           4  qsignaldumper.o(.data)
+    _ZGVcleanup@_ZN5QTest13ignoreClassesEv_0 0x00400098   Data           4  qsignaldumper.o(.data)
+    cleanup@_ZN5QTest13ignoreClassesEv_1     0x0040009c   Data           4  qsignaldumper.o(.data)
+    QTest::this_ignoreClasses                0x004000a0   Data           8  qsignaldumper.o(.data)
+    set@_ZN13QSignalDumper9startDumpEv_0     0x004000a8   Data          16  qsignaldumper.o(.data)
+    .data$0                                  0x004000b8   Data           0  qabstracttestlogger.o(.data)
+    ttyoutput@_ZN19QAbstractTestLogger11isTtyOutputEv_1 0x004000b8   Data           1  qabstracttestlogger.o(.data)
+    .data                                    0x004000b8   Section       12  qabstracttestlogger.o(.data)
+    QTest::stream                            0x004000bc   Data           4  qabstracttestlogger.o(.data)
+    _ZGVttyoutput@_ZN19QAbstractTestLogger11isTtyOutputEv_0 0x004000c0   Data           4  qabstracttestlogger.o(.data)
+    .data$0                                  0x004000c4   Data           0  qbenchmark.o(.data)
+    .data                                    0x004000c4   Section        8  qbenchmark.o(.data)
+    .data$0                                  0x004000d0   Data           0  qbenchmarkevent.o(.data)
+    .data                                    0x004000d0   Section       16  qbenchmarkevent.o(.data)
+    .data$0                                  0x004000e0   Data           0  qtestbasicstreamer.o(.data)
+    ttyoutput@_ZN18QTestBasicStreamer11isTtyOutputEv_1 0x004000e0   Data           1  qtestbasicstreamer.o(.data)
+    .data                                    0x004000e0   Section       12  qtestbasicstreamer.o(.data)
+    QTest::stream                            0x004000e4   Data           4  qtestbasicstreamer.o(.data)
+    _ZGVttyoutput@_ZN18QTestBasicStreamer11isTtyOutputEv_0 0x004000e8   Data           4  qtestbasicstreamer.o(.data)
+    .data$0                                  0x004000ec   Data           0  qtestfilelogger.o(.data)
+    QTest::stream                            0x004000ec   Data           4  qtestfilelogger.o(.data)
+    .data                                    0x004000ec   Section        4  qtestfilelogger.o(.data)
+    .data$0                                  0x004000f0   Data           0  ucppfini.o(.data)
+    .data                                    0x004000f0   Section        4  ucppfini.o(.data)
+    .data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE 0x004000f4   Section       12  qtestcase.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    .bss$5                                   0x00400100   Data           0  qsignaldumper.o(.bss)
+    nset@_ZN13QSignalDumper7endDumpEv_0      0x00400100   Data          16  qsignaldumper.o(.bss)
+    .bss                                     0x00400100   Section       16  qsignaldumper.o(.bss)
+    .bss$5                                   0x00400110   Data           0  ucppfini.o(.bss)
+    .bss                                     0x00400110   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$VFPv2$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$IEEEJ$EBA8$UX$FPIC$INDIRECT$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    QtCore{00040703}[2001b2dc].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtTest{00040703}[2001b2df].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    dfpaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtrvct2_2{000a0000}.dll                 0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    euser{000a0000}[100039e5].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    libc{00010001}[10207369].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    stdnew{000a0000}[20022178].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    qvsnprintf(char*, unsigned, const char*, std::__va_list)  - Undefined Reference
+    _Z10qvsnprintfPcjPKcSt9__va_list@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qt_assert_x(const char*, const char*, const char*, int)  - Undefined Reference
+    _Z11qt_assert_xPKcS0_S0_i@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qt_message_output(QtMsgType, const char*)  - Undefined Reference
+    _Z17qt_message_output9QtMsgTypePKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qInstallMsgHandler(void(*)(QtMsgType, const char*))  - Undefined Reference
+    _Z18qInstallMsgHandlerPFv9QtMsgTypePKcE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qt_register_signal_spy_callbacks(const QSignalSpyCallbackSet&)  - Undefined Reference
+    _Z32qt_register_signal_spy_callbacksRK21QSignalSpyCallbackSet@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QBasicAtomicPointer_testAndSetOrdered(void*volatile *, void*, void*)  - Undefined Reference
+    _Z37QBasicAtomicPointer_testAndSetOrderedPVPvS_S_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qFree(void*)                              - Undefined Reference
+    _Z5qFreePv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qDebug(const char*, ...)                  - Undefined Reference
+    _Z6qDebugPKcz@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qFatal(const char*, ...)                  - Undefined Reference
+    _Z6qFatalPKcz@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qMalloc(unsigned)                         - Undefined Reference
+    _Z7qMallocj@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qgetenv(const char*)                      - Undefined Reference
+    _Z7qgetenvPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qstrcmp(const char*, const char*)         - Undefined Reference
+    _Z7qstrcmpPKcS0_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qstrcpy(char*, const char*)               - Undefined Reference
+    _Z7qstrcpyPcPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qstrdup(const char*)                      - Undefined Reference
+    _Z7qstrdupPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qRealloc(void*, unsigned)                 - Undefined Reference
+    _Z8qReallocPvj@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qVersion()                                - Undefined Reference
+    _Z8qVersionv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qstrncpy(char*, const char*, unsigned)    - Undefined Reference
+    _Z8qstrncpyPcPKcj@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qBadAlloc()                               - Undefined Reference
+    _Z9qBadAllocv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qt_assert(const char*, const char*, int)  - Undefined Reference
+    _Z9qt_assertPKcS0_i@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::shared_null                   - Undefined Reference
+    _ZN10QByteArray11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::chop(int)                     - Undefined Reference
+    _ZN10QByteArray4chopEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::fill(char, int)               - Undefined Reference
+    _ZN10QByteArray4fillEci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::append(const char*)           - Undefined Reference
+    _ZN10QByteArray6appendEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::append(const QByteArray&)     - Undefined Reference
+    _ZN10QByteArray6appendERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::append(char)                  - Undefined Reference
+    _ZN10QByteArray6appendEc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::number(double, char, int)     - Undefined Reference
+    _ZN10QByteArray6numberEdci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::number(unsigned, int)         - Undefined Reference
+    _ZN10QByteArray6numberEji@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::realloc(int)                  - Undefined Reference
+    _ZN10QByteArray7reallocEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::QByteArray(const char*)       - Undefined Reference
+    _ZN10QByteArrayC1EPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QEventLoop::exit(int)                     - Undefined Reference
+    _ZN10QEventLoop4exitEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::invokeMethod(QObject*, const char*, Qt::ConnectionType, QGenericReturnArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument)  - Undefined Reference
+    _ZN11QMetaObject12invokeMethodEP7QObjectPKcN2Qt14ConnectionTypeE22QGenericReturnArgument16QGenericArgumentS7_S7_S7_S7_S7_S7_S7_S7_S7_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::QTextStream(QString*, QFlags<QIODevice::OpenModeFlag>)  - Undefined Reference
+    _ZN11QTextStreamC1EP7QString6QFlagsIN9QIODevice12OpenModeFlagEE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::~QTextStream()               - Undefined Reference
+    _ZN11QTextStreamD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::operator <<(const QString&)  - Undefined Reference
+    _ZN11QTextStreamlsERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::operator <<(char)            - Undefined Reference
+    _ZN11QTextStreamlsEc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::operator <<(float)           - Undefined Reference
+    _ZN11QTextStreamlsEf@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVectorData::reallocate(QVectorData*, int, int, int)  - Undefined Reference
+    _ZN11QVectorData10reallocateEPS_iii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVectorData::shared_null                  - Undefined Reference
+    _ZN11QVectorData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVectorData::free(QVectorData*, int)      - Undefined Reference
+    _ZN11QVectorData4freeEPS_i@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVectorData::grow(int, int, int, bool)    - Undefined Reference
+    _ZN11QVectorData4growEiiib@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVectorData::allocate(int, int)           - Undefined Reference
+    _ZN11QVectorData8allocateEii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QElapsedTimer::start()                    - Undefined Reference
+    _ZN13QElapsedTimer5startEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractEventDispatcher::setEventFilter(bool(*)(void*))  - Undefined Reference
+    _ZN24QAbstractEventDispatcher14setEventFilterEPFbPvE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractEventDispatcher::instance(QThread*)  - Undefined Reference
+    _ZN24QAbstractEventDispatcher8instanceEP7QThread@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDir::toNativeSeparators(const QString&)  - Undefined Reference
+    _ZN4QDir18toNativeSeparatorsERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDir::homePath()                          - Undefined Reference
+    _ZN4QDir8homePathEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDir::separator()                         - Undefined Reference
+    _ZN4QDir9separatorEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    User::FastCounter()                       - Undefined Reference
+    _ZN4User11FastCounterEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::LockedDec(int&)                     - Undefined Reference
+    _ZN4User9LockedDecERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::LockedInc(int&)                     - Undefined Reference
+    _ZN4User9LockedIncERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RDebug::Print(TRefByValue<const TDesC16>, ...)  - Undefined Reference
+    _ZN6RDebug5PrintE11TRefByValueIK7TDesC16Ez@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RDebug::RawPrint(const TDesC8&)           - Undefined Reference
+    _ZN6RDebug8RawPrintERK6TDesC8@euser{000a0000}[100039e5].dll  - Undefined Reference
+    RDebug::RawPrint(const TDesC16&)          - Undefined Reference
+    _ZN6RDebug8RawPrintERK7TDesC16@euser{000a0000}[100039e5].dll  - Undefined Reference
+    TDes16::Copy(const TDesC8&)               - Undefined Reference
+    _ZN6TDes164CopyERK6TDesC8@euser{000a0000}[100039e5].dll  - Undefined Reference
+    TPtrC8::TPtrC8(const unsigned char*)      - Undefined Reference
+    _ZN6TPtrC8C1EPKh@euser{000a0000}[100039e5].dll  - Undefined Reference
+    HBufC16::Des()                            - Undefined Reference
+    _ZN7HBufC163DesEv@euser{000a0000}[100039e5].dll  - Undefined Reference
+    HBufC16::New(int)                         - Undefined Reference
+    _ZN7HBufC163NewEi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QObject::childEvent(QChildEvent*)         - Undefined Reference
+    _ZN7QObject10childEventEP11QChildEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::customEvent(QEvent*)             - Undefined Reference
+    _ZN7QObject11customEventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::eventFilter(QObject*, QEvent*)   - Undefined Reference
+    _ZN7QObject11eventFilterEPS_P6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN7QObject11qt_metacallEN11QMetaObject4CallEiPPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::qt_metacast(const char*)         - Undefined Reference
+    _ZN7QObject11qt_metacastEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connectNotify(const char*)       - Undefined Reference
+    _ZN7QObject13connectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::disconnectNotify(const char*)    - Undefined Reference
+    _ZN7QObject16disconnectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::staticMetaObject                 - Undefined Reference
+    _ZN7QObject16staticMetaObjectE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::event(QEvent*)                   - Undefined Reference
+    _ZN7QObject5eventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::killTimer(int)                   - Undefined Reference
+    _ZN7QObject9killTimerEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::~QObject()                       - Undefined Reference
+    _ZN7QObjectD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromLatin1(const char*, int)     - Undefined Reference
+    _ZN7QString10fromLatin1EPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::shared_null                      - Undefined Reference
+    _ZN7QString11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromLatin1_helper(const char*, int)  - Undefined Reference
+    _ZN7QString17fromLatin1_helperEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::chop(int)                        - Undefined Reference
+    _ZN7QString4chopEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::free(QString::Data*)             - Undefined Reference
+    _ZN7QString4freeEPNS_4DataE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::append(QChar)                    - Undefined Reference
+    _ZN7QString6appendE5QChar@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::append(const QString&)           - Undefined Reference
+    _ZN7QString6appendERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::insert(int, QChar)               - Undefined Reference
+    _ZN7QString6insertEi5QChar@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::number(double, char, int)        - Undefined Reference
+    _ZN7QString6numberEdci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::remove(int, int)                 - Undefined Reference
+    _ZN7QString6removeEii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::realloc()                        - Undefined Reference
+    _ZN7QString7reallocEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromAscii(const char*, int)      - Undefined Reference
+    _ZN7QString9fromAsciiEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::QString(int, Qt::Initialization)  - Undefined Reference
+    _ZN7QStringC1EiN2Qt14InitializationE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::operator =(const QString&)       - Undefined Reference
+    _ZN7QStringaSERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::QVariant(int, const void*)      - Undefined Reference
+    _ZN8QVariantC1EiPKv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::~QVariant()                     - Undefined Reference
+    _ZN8QVariantD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach_grow(int*, int)         - Undefined Reference
+    _ZN9QListData11detach_growEPii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::shared_null                    - Undefined Reference
+    _ZN9QListData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::append()                       - Undefined Reference
+    _ZN9QListData6appendEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach(int)                    - Undefined Reference
+    _ZN9QListData6detachEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaType::type(const char*)              - Undefined Reference
+    _ZN9QMetaType4typeEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaType::destroy(int, void*)            - Undefined Reference
+    _ZN9QMetaType7destroyEiPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaType::typeName(int)                  - Undefined Reference
+    _ZN9QMetaType8typeNameEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaType::construct(int, const void*)    - Undefined Reference
+    _ZN9QMetaType9constructEiPKv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::left(int) const               - Undefined Reference
+    _ZNK10QByteArray4leftEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::indexOf(char, int) const      - Undefined Reference
+    _ZNK10QByteArray7indexOfEci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::endsWith(const char*) const   - Undefined Reference
+    _ZNK10QByteArray8endsWithEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::endsWith(char) const          - Undefined Reference
+    _ZNK10QByteArray8endsWithEc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaMethod::methodType() const           - Undefined Reference
+    _ZNK11QMetaMethod10methodTypeEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaMethod::parameterTypes() const       - Undefined Reference
+    _ZNK11QMetaMethod14parameterTypesEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaMethod::access() const               - Undefined Reference
+    _ZNK11QMetaMethod6accessEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaMethod::invoke(QObject*, Qt::ConnectionType, QGenericReturnArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument) const  - Undefined Reference
+    _ZNK11QMetaMethod6invokeEP7QObjectN2Qt14ConnectionTypeE22QGenericReturnArgument16QGenericArgumentS5_S5_S5_S5_S5_S5_S5_S5_S5_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaMethod::typeName() const             - Undefined Reference
+    _ZNK11QMetaMethod8typeNameEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaMethod::signature() const            - Undefined Reference
+    _ZNK11QMetaMethod9signatureEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::methodCount() const          - Undefined Reference
+    _ZNK11QMetaObject11methodCountEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::indexOfMethod(const char*) const  - Undefined Reference
+    _ZNK11QMetaObject13indexOfMethodEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::method(int) const            - Undefined Reference
+    _ZNK11QMetaObject6methodEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QElapsedTimer::elapsed() const            - Undefined Reference
+    _ZNK13QElapsedTimer7elapsedEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    TDesC8::Mid(int, int) const               - Undefined Reference
+    _ZNK6TDesC83MidEii@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QObject::objectName() const               - Undefined Reference
+    _ZNK7QObject10objectNameEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::toLocal8Bit() const              - Undefined Reference
+    _ZNK7QString11toLocal8BitEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::toUtf8() const                   - Undefined Reference
+    _ZNK7QString6toUtf8Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::toAscii() const                  - Undefined Reference
+    _ZNK7QString7toAsciiEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::operator ==(const QLatin1String&) const  - Undefined Reference
+    _ZNK7QStringeqERK13QLatin1String@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::toString() const                - Undefined Reference
+    _ZNK8QVariant8toStringEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for QObject                      - Undefined Reference
+    _ZTI7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for std::bad_alloc               - Undefined Reference
+    _ZTISt9bad_alloc@stdnew{000a0000}[20022178].dll  - Undefined Reference
+    vtable for __cxxabiv1::__class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv117__class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv120__si_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    operator delete[] (void*)                 - Undefined Reference
+    _ZdaPv@stdnew{000a0000}[20022178].dll     - Undefined Reference
+    operator delete (void*)                   - Undefined Reference
+    _ZdlPv@stdnew{000a0000}[20022178].dll     - Undefined Reference
+    operator new[] (unsigned)                 - Undefined Reference
+    _Znaj@stdnew{000a0000}[20022178].dll      - Undefined Reference
+    operator new(unsigned)                    - Undefined Reference
+    _Znwj@stdnew{000a0000}[20022178].dll      - Undefined Reference
+    __ARM_ll_addlu                            - Undefined Reference
+    __ARM_ll_addlu@drtrvct2_2{000a0000}.dll   - Undefined Reference
+    __ARM_ll_cmple                            - Undefined Reference
+    __ARM_ll_cmple@drtrvct2_2{000a0000}.dll   - Undefined Reference
+    __aeabi_cdcmple                           - Undefined Reference
+    __aeabi_cdcmple@dfpaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_cdrcmple                          - Undefined Reference
+    __aeabi_cdrcmple@dfpaeabi{000a0000}.dll   - Undefined Reference
+    __aeabi_cfcmple                           - Undefined Reference
+    __aeabi_cfcmple@dfpaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_d2lz                              - Undefined Reference
+    __aeabi_d2lz@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_dadd                              - Undefined Reference
+    __aeabi_dadd@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_dmul                              - Undefined Reference
+    __aeabi_dmul@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_drsub                             - Undefined Reference
+    __aeabi_drsub@dfpaeabi{000a0000}.dll      - Undefined Reference
+    __aeabi_dsub                              - Undefined Reference
+    __aeabi_dsub@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_f2d                               - Undefined Reference
+    __aeabi_f2d@dfpaeabi{000a0000}.dll        - Undefined Reference
+    __aeabi_f2lz                              - Undefined Reference
+    __aeabi_f2lz@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_fdiv                              - Undefined Reference
+    __aeabi_fdiv@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_fmul                              - Undefined Reference
+    __aeabi_fmul@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_fsub                              - Undefined Reference
+    __aeabi_fsub@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_i2f                               - Undefined Reference
+    __aeabi_i2f@dfpaeabi{000a0000}.dll        - Undefined Reference
+    __aeabi_idivmod                           - Undefined Reference
+    __aeabi_idivmod@drtaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_l2d                               - Undefined Reference
+    __aeabi_l2d@dfpaeabi{000a0000}.dll        - Undefined Reference
+    __aeabi_memclr4                           - Undefined Reference
+    __aeabi_memclr4@drtaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_memcpy                            - Undefined Reference
+    __aeabi_memcpy4                           - Undefined Reference
+    __aeabi_memcpy4@drtaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_memcpy@drtaeabi{000a0000}.dll     - Undefined Reference
+    __aeabi_ui2d                              - Undefined Reference
+    __aeabi_ui2d@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_ul2f                              - Undefined Reference
+    __aeabi_ul2f@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_unwind_cpp_pr0                    - Undefined Reference
+    __aeabi_unwind_cpp_pr0@drtaeabi{000a0000}.dll  - Undefined Reference
+    __aeabi_unwind_cpp_pr1                    - Undefined Reference
+    __aeabi_unwind_cpp_pr1@drtaeabi{000a0000}.dll  - Undefined Reference
+    __aeabi_vec_delete                        - Undefined Reference
+    __aeabi_vec_delete@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_begin_catch                         - Undefined Reference
+    __cxa_begin_catch@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_end_catch                           - Undefined Reference
+    __cxa_end_catch@drtaeabi{000a0000}.dll    - Undefined Reference
+    __cxa_end_cleanup                         - Undefined Reference
+    __cxa_end_cleanup@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_abort                         - Undefined Reference
+    __cxa_guard_abort@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_acquire                       - Undefined Reference
+    __cxa_guard_acquire@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_release                       - Undefined Reference
+    __cxa_guard_release@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_pure_virtual                        - Undefined Reference
+    __cxa_pure_virtual@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_rethrow                             - Undefined Reference
+    __cxa_rethrow@drtaeabi{000a0000}.dll      - Undefined Reference
+    __cxa_vec_new2                            - Undefined Reference
+    __cxa_vec_new2@drtaeabi{000a0000}.dll     - Undefined Reference
+    __sfileno                                 - Undefined Reference
+    __sfileno@libc{00010001}[10207369].dll    - Undefined Reference
+    __stderr                                  - Undefined Reference
+    __stderr@libc{00010001}[10207369].dll     - Undefined Reference
+    __stdout                                  - Undefined Reference
+    __stdout@libc{00010001}[10207369].dll     - Undefined Reference
+    atoi                                      - Undefined Reference
+    atoi@libc{00010001}[10207369].dll         - Undefined Reference
+    exit                                      - Undefined Reference
+    exit@libc{00010001}[10207369].dll         - Undefined Reference
+    fclose                                    - Undefined Reference
+    fclose@libc{00010001}[10207369].dll       - Undefined Reference
+    fflush                                    - Undefined Reference
+    fflush@libc{00010001}[10207369].dll       - Undefined Reference
+    fileno                                    - Undefined Reference
+    fileno@libc{00010001}[10207369].dll       - Undefined Reference
+    fopen                                     - Undefined Reference
+    fopen@libc{00010001}[10207369].dll        - Undefined Reference
+    fprintf                                   - Undefined Reference
+    fprintf@libc{00010001}[10207369].dll      - Undefined Reference
+    fputs                                     - Undefined Reference
+    fputs@libc{00010001}[10207369].dll        - Undefined Reference
+    getenv                                    - Undefined Reference
+    getenv@libc{00010001}[10207369].dll       - Undefined Reference
+    isatty                                    - Undefined Reference
+    isatty@libc{00010001}[10207369].dll       - Undefined Reference
+    isthreaded                                - Undefined Reference
+    isthreaded@libc{00010001}[10207369].dll   - Undefined Reference
+    memcmp                                    - Undefined Reference
+    memcmp@libc{00010001}[10207369].dll       - Undefined Reference
+    nanosleep                                 - Undefined Reference
+    nanosleep@libc{00010001}[10207369].dll    - Undefined Reference
+    printf                                    - Undefined Reference
+    printf@libc{00010001}[10207369].dll       - Undefined Reference
+    strcmp                                    - Undefined Reference
+    strcmp@libc{00010001}[10207369].dll       - Undefined Reference
+    strcpy                                    - Undefined Reference
+    strcpy@libc{00010001}[10207369].dll       - Undefined Reference
+    strlen                                    - Undefined Reference
+    strlen@libc{00010001}[10207369].dll       - Undefined Reference
+    strncmp                                   - Undefined Reference
+    strncmp@libc{00010001}[10207369].dll      - Undefined Reference
+    strtol                                    - Undefined Reference
+    strtol@libc{00010001}[10207369].dll       - Undefined Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      52  ucppinit.o(.emb_text)
+    std::nothrow                             0x0000805c   ARM Code       0  ucppinit.o(.emb_text)
+    __PLT                                    0x0000805c   ARM Code       0  anon$$obj.o(.plt)
+    QTest::filter_unprintable(char*)         0x0000855d   Thumb Code    36  qtestcase.o(.text)
+    QTest::qt_snprintf(char*, int, const char*, ...) 0x00008581   Thumb Code    42  qtestcase.o(.text)
+    QTest::compare_helper(bool, const char*, char*, char*, const char*, const char*, const char*, int) 0x000085ab   Thumb Code    38  qtestcase.o(.text)
+    QTest::compare_helper(bool, const char*, const char*, int) 0x000085d1   Thumb Code     8  qtestcase.o(.text)
+    QTest::defaultKeyVerbose()               0x0000863d   Thumb Code    52  qtestcase.o(.text)
+    QTest::defaultEventDelay()               0x00008671   Thumb Code    76  qtestcase.o(.text)
+    QTest::defaultMouseDelay()               0x000086bd   Thumb Code    78  qtestcase.o(.text)
+    QTest::defaultKeyDelay()                 0x0000870b   Thumb Code    78  qtestcase.o(.text)
+    QTest::qMedian(const QList<QBenchmarkResult>&) 0x00008feb   Thumb Code   166  qtestcase.o(.text)
+    QTest::fetchData(QTestData*, const char*, int) 0x0000950d   Thumb Code   480  qtestcase.o(.text)
+    QTest::toHexRepresentation(const char*, int) 0x000096ed   Thumb Code   154  qtestcase.o(.text)
+    QTest::currentTestFailed()               0x00009787   Thumb Code     8  qtestcase.o(.text)
+    QTest::qExec(QObject*, int, char**)      0x0000988d   Thumb Code   182  qtestcase.o(.text)
+    QTest::qExec(QObject*, const QStringList&) 0x00009943   Thumb Code   254  qtestcase.o(.text)
+    QTest::qFail(const char*, const char*, int) 0x00009a41   Thumb Code     8  qtestcase.o(.text)
+    QTest::qVerify(bool, const char*, const char*, const char*, int) 0x00009a49   Thumb Code    16  qtestcase.o(.text)
+    QTest::qSkip(const char*, QTest::SkipMode, const char*, int) 0x00009a59   Thumb Code    20  qtestcase.o(.text)
+    QTest::qExpectFail(const char*, const char*, QTest::TestFailMode, const char*, int) 0x00009a6d   Thumb Code    32  qtestcase.o(.text)
+    QTest::qWarn(const char*)                0x00009a8d   Thumb Code     8  qtestcase.o(.text)
+    QTest::ignoreMessage(QtMsgType, const char*) 0x00009a95   Thumb Code   184  qtestcase.o(.text)
+    QTest::qData(const char*, int)           0x00009b4d   Thumb Code    20  qtestcase.o(.text)
+    QTest::qGlobalData(const char*, int)     0x00009b61   Thumb Code    20  qtestcase.o(.text)
+    QTest::qElementData(const char*, int)    0x00009b75   Thumb Code   142  qtestcase.o(.text)
+    QTest::addColumnInternal(int, const char*) 0x00009c03   Thumb Code    40  qtestcase.o(.text)
+    QTest::newRow(const char*)               0x00009c2b   Thumb Code    36  qtestcase.o(.text)
+    QTest::currentTestFunction()             0x00009c4f   Thumb Code     8  qtestcase.o(.text)
+    QTest::currentDataTag()                  0x00009c57   Thumb Code     8  qtestcase.o(.text)
+    QTest::qSleep(int)                       0x00009c5f   Thumb Code    46  qtestcase.o(.text)
+    QTest::testObject()                      0x00009c8d   Thumb Code     6  qtestcase.o(.text)
+    QTest::toString(const char*)             0x00009c93   Thumb Code    30  qtestcase.o(.text)
+    QTest::toString(const void*)             0x00009cb1   Thumb Code    26  qtestcase.o(.text)
+    QTest::compare_string_helper(const char*, const char*, const char*, const char*, const char*, int) 0x00009ccb   Thumb Code    74  qtestcase.o(.text)
+    QTestLog::enterTestFunction(const char*) 0x00009e11   Thumb Code    48  qtestlog.o(.text)
+    QTestLog::leaveTestFunction()            0x00009e41   Thumb Code    60  qtestlog.o(.text)
+    QTestLog::addPass(const char*)           0x00009e7d   Thumb Code    56  qtestlog.o(.text)
+    QTestLog::addFail(const char*, const char*, int) 0x00009eb5   Thumb Code    44  qtestlog.o(.text)
+    QTestLog::addXFail(const char*, const char*, int) 0x00009ee1   Thumb Code    72  qtestlog.o(.text)
+    QTestLog::addXPass(const char*, const char*, int) 0x00009f29   Thumb Code    72  qtestlog.o(.text)
+    QTestLog::addSkip(const char*, QTest::SkipMode, const char*, int) 0x00009f71   Thumb Code    78  qtestlog.o(.text)
+    QTestLog::addBenchmarkResult(const QBenchmarkResult&) 0x00009fbf   Thumb Code    36  qtestlog.o(.text)
+    QTestLog::addIgnoreMessage(QtMsgType, const char*) 0x00009fe3   Thumb Code    52  qtestlog.o(.text)
+    QTestLog::unhandledIgnoreMessages()      0x0000a017   Thumb Code    18  qtestlog.o(.text)
+    QTestLog::printUnhandledIgnoreMessages() 0x0000a029   Thumb Code    78  qtestlog.o(.text)
+    QTestLog::warn(const char*)              0x0000a077   Thumb Code    60  qtestlog.o(.text)
+    QTestLog::info(const char*, const char*, int) 0x0000a0b3   Thumb Code    48  qtestlog.o(.text)
+    QTestLog::stopLogging()                  0x0000a0e3   Thumb Code    54  qtestlog.o(.text)
+    QTestLog::startLogging()                 0x0000a2cb   Thumb Code   164  qtestlog.o(.text)
+    QTestLog::setLogMode(QTestLog::LogMode)  0x0000a36f   Thumb Code     6  qtestlog.o(.text)
+    QTestLog::logMode()                      0x0000a375   Thumb Code     6  qtestlog.o(.text)
+    QTestLog::setVerboseLevel(int)           0x0000a37b   Thumb Code     6  qtestlog.o(.text)
+    QTestLog::verboseLevel()                 0x0000a381   Thumb Code     6  qtestlog.o(.text)
+    QTestLog::redirectOutput(const char*)    0x0000a387   Thumb Code    24  qtestlog.o(.text)
+    QTestLog::outputFileName()               0x0000a39f   Thumb Code     6  qtestlog.o(.text)
+    QTestLog::setMaxWarnings(int)            0x0000a3a5   Thumb Code    14  qtestlog.o(.text)
+    QTestLog::setFlushMode(QTestLog::FlushMode) 0x0000a3b3   Thumb Code     6  qtestlog.o(.text)
+    QTestLog::QTestLog()                     0x0000a3b9   Thumb Code     2  qtestlog.o(.text)
+    QTestLog::QTestLog__sub_object()         0x0000a3b9   Thumb Code     0  qtestlog.o(.text)
+    QTestLog::~QTestLog()                    0x0000a3bb   Thumb Code     2  qtestlog.o(.text)
+    QTestLog::~QTestLog__sub_object()        0x0000a3bb   Thumb Code     0  qtestlog.o(.text)
+    QTestTable::QTestTable()                 0x0000a415   Thumb Code    26  qtesttable.o(.text)
+    QTestTable::QTestTable__sub_object()     0x0000a415   Thumb Code     0  qtesttable.o(.text)
+    QTestTablePrivate::~QTestTablePrivate()  0x0000a42f   Thumb Code    56  qtesttable.o(.text)
+    QTestTablePrivate::~QTestTablePrivate__sub_object() 0x0000a42f   Thumb Code     0  qtesttable.o(.text)
+    QTestTable::~QTestTable()                0x0000a467   Thumb Code    28  qtesttable.o(.text)
+    QTestTable::~QTestTable__sub_object()    0x0000a467   Thumb Code     0  qtesttable.o(.text)
+    QTestTablePrivate::append(int, const char*) 0x0000a483   Thumb Code    44  qtesttable.o(.text)
+    QTestTable::addColumn(int, const char*)  0x0000a4af   Thumb Code    48  qtesttable.o(.text)
+    QTestTablePrivate::append(QTestData*)    0x0000a4df   Thumb Code    40  qtesttable.o(.text)
+    QTestTable::newData(const char*)         0x0000a507   Thumb Code    36  qtesttable.o(.text)
+    QTestTable::elementCount() const         0x0000a52b   Thumb Code    18  qtesttable.o(.text)
+    QTestTable::dataCount() const            0x0000a53d   Thumb Code    18  qtesttable.o(.text)
+    QTestTablePrivate::elementAt(int)        0x0000a54f   Thumb Code    22  qtesttable.o(.text)
+    QTestTable::elementTypeId(int) const     0x0000a565   Thumb Code    20  qtesttable.o(.text)
+    QTestTable::dataTag(int) const           0x0000a579   Thumb Code    18  qtesttable.o(.text)
+    QTestTable::indexOf(const char*) const   0x0000a58b   Thumb Code    54  qtesttable.o(.text)
+    QTestTable::isEmpty() const              0x0000a5c1   Thumb Code    16  qtesttable.o(.text)
+    QTestTablePrivate::dataAt(int)           0x0000a5d1   Thumb Code    32  qtesttable.o(.text)
+    QTestTable::testData(int) const          0x0000a5f1   Thumb Code     4  qtesttable.o(.text)
+    QTestTable::globalTestTable()            0x0000a5f5   Thumb Code    28  qtesttable.o(.text)
+    QTestTable::currentTestTable()           0x0000a611   Thumb Code     6  qtesttable.o(.text)
+    QTestTable::clearGlobalTestTable()       0x0000a617   Thumb Code    24  qtesttable.o(.text)
+    QTestData::~QTestData()                  0x0000a679   Thumb Code    72  qtestdata.o(.text)
+    QTestData::~QTestData__sub_object()      0x0000a679   Thumb Code     0  qtestdata.o(.text)
+    QTestData::append(int, const void*)      0x0000a6c1   Thumb Code   126  qtestdata.o(.text)
+    QTestData::data(int) const               0x0000a73f   Thumb Code    50  qtestdata.o(.text)
+    QTestData::dataTag() const               0x0000a771   Thumb Code     6  qtestdata.o(.text)
+    QTestData::parent() const                0x0000a777   Thumb Code     6  qtestdata.o(.text)
+    QTestData::dataCount() const             0x0000a77d   Thumb Code     6  qtestdata.o(.text)
+    QTestData::QTestData(const char*, QTestTable*) 0x0000a783   Thumb Code   104  qtestdata.o(.text)
+    QTestData::QTestData__sub_object(const char*, QTestTable*) 0x0000a783   Thumb Code     0  qtestdata.o(.text)
+    QTestResult::addFailure(const char*, const char*, int) 0x0000a889   Thumb Code    38  qtestresult.o(.text)
+    QTestResult::currentTestObjectName()     0x0000a90b   Thumb Code    14  qtestresult.o(.text)
+    QTestResult::currentTestFailed()         0x0000a919   Thumb Code     6  qtestresult.o(.text)
+    QTestResult::allDataPassed()             0x0000a91f   Thumb Code    10  qtestresult.o(.text)
+    QTestResult::currentTestData()           0x0000a929   Thumb Code     6  qtestresult.o(.text)
+    QTestResult::currentGlobalTestData()     0x0000a92f   Thumb Code     6  qtestresult.o(.text)
+    QTestResult::currentTestFunction()       0x0000a935   Thumb Code     6  qtestresult.o(.text)
+    QTestResult::currentTestLocation()       0x0000a93b   Thumb Code     6  qtestresult.o(.text)
+    QTestResult::currentDataTag()            0x0000a941   Thumb Code    20  qtestresult.o(.text)
+    QTestResult::currentGlobalDataTag()      0x0000a955   Thumb Code    20  qtestresult.o(.text)
+    QTestResult::finishedCurrentTestFunction() 0x0000a969   Thumb Code    72  qtestresult.o(.text)
+    QTestResult::reset()                     0x0000a9b1   Thumb Code    30  qtestresult.o(.text)
+    QTestResult::passCount()                 0x0000a9cf   Thumb Code     6  qtestresult.o(.text)
+    QTestResult::failCount()                 0x0000a9d5   Thumb Code     6  qtestresult.o(.text)
+    QTestResult::skipCount()                 0x0000a9db   Thumb Code     6  qtestresult.o(.text)
+    QTestResult::ignoreMessage(QtMsgType, const char*) 0x0000a9e1   Thumb Code     8  qtestresult.o(.text)
+    QTestResult::compare(bool, const char*, const char*, int) 0x0000a9e9   Thumb Code    42  qtestresult.o(.text)
+    QTestResult::compare(bool, const char*, char*, char*, const char*, const char*, const char*, int) 0x0000aa13   Thumb Code   150  qtestresult.o(.text)
+    QTestResult::setCurrentGlobalTestData(QTestData*) 0x0000aaa9   Thumb Code     6  qtestresult.o(.text)
+    QTestResult::setCurrentTestData(QTestData*) 0x0000aaaf   Thumb Code    10  qtestresult.o(.text)
+    QTestResult::setCurrentTestFunction(const char*) 0x0000aab9   Thumb Code    24  qtestresult.o(.text)
+    QTestResult::setCurrentTestLocation(QTestResult::TestLocation) 0x0000aad1   Thumb Code     6  qtestresult.o(.text)
+    QTestResult::setCurrentTestObject(const char*) 0x0000aad7   Thumb Code     6  qtestresult.o(.text)
+    QTestResult::addSkip(const char*, QTest::SkipMode, const char*, int) 0x0000aadd   Thumb Code    36  qtestresult.o(.text)
+    QTestResult::expectFail(const char*, const char*, QTest::TestFailMode, const char*, int) 0x0000ab01   Thumb Code   108  qtestresult.o(.text)
+    QTestResult::verify(bool, const char*, const char*, const char*, int) 0x0000ab6d   Thumb Code    92  qtestresult.o(.text)
+    QTestResult::testFailed()                0x0000abc9   Thumb Code     6  qtestresult.o(.text)
+    QTestResult::setSkipCurrentTest(bool)    0x0000abcf   Thumb Code     6  qtestresult.o(.text)
+    QTestResult::skipCurrentTest()           0x0000abd5   Thumb Code     6  qtestresult.o(.text)
+    QTest::asciiToKey(char)                  0x0000ace5   Thumb Code  1098  qasciikey.o(.text)
+    QTest::keyToAscii(Qt::Key)               0x0000b12f   Thumb Code  1352  qasciikey.o(.text)
+    QPlainTestLogger::QPlainTestLogger()     0x0000b681   Thumb Code     6  qplaintestlogger.o(.text)
+    QPlainTestLogger::QPlainTestLogger__sub_object() 0x0000b681   Thumb Code     0  qplaintestlogger.o(.text)
+    QPlainTestLogger::~QPlainTestLogger()    0x0000b687   Thumb Code     2  qplaintestlogger.o(.text)
+    QPlainTestLogger::~QPlainTestLogger__sub_object() 0x0000b687   Thumb Code     0  qplaintestlogger.o(.text)
+    QPlainTestLogger::~QPlainTestLogger__deallocating() 0x0000b689   Thumb Code    12  qplaintestlogger.o(.text)
+    QPlainTestLogger::startLogging()         0x0000b727   Thumb Code    76  qplaintestlogger.o(.text)
+    QPlainTestLogger::stopLogging()          0x0000b773   Thumb Code   118  qplaintestlogger.o(.text)
+    QPlainTestLogger::enterTestFunction(const char*) 0x0000bab1   Thumb Code    28  qplaintestlogger.o(.text)
+    QPlainTestLogger::leaveTestFunction()    0x0000bacd   Thumb Code     2  qplaintestlogger.o(.text)
+    QPlainTestLogger::addIncident(QAbstractTestLogger::IncidentTypes, const char*, const char*, int) 0x0000bc7b   Thumb Code    40  qplaintestlogger.o(.text)
+    QPlainTestLogger::addBenchmarkResult(const QBenchmarkResult&) 0x0000be83   Thumb Code     4  qplaintestlogger.o(.text)
+    QPlainTestLogger::addMessage(QAbstractTestLogger::MessageTypes, const char*, const char*, int) 0x0000be87   Thumb Code    44  qplaintestlogger.o(.text)
+    allocateStringFn(QTestCharBuffer*, const char*, int(*)(QTestCharBuffer*, const char*, unsigned)) 0x0000bfed   Thumb Code    88  qxmltestlogger.o(.text)
+    QXmlTestLogger::QXmlTestLogger(QXmlTestLogger::XmlMode) 0x0000c045   Thumb Code     8  qxmltestlogger.o(.text)
+    QXmlTestLogger::QXmlTestLogger__sub_object(QXmlTestLogger::XmlMode) 0x0000c045   Thumb Code     0  qxmltestlogger.o(.text)
+    QXmlTestLogger::~QXmlTestLogger()        0x0000c04d   Thumb Code     2  qxmltestlogger.o(.text)
+    QXmlTestLogger::~QXmlTestLogger__sub_object() 0x0000c04d   Thumb Code     0  qxmltestlogger.o(.text)
+    QXmlTestLogger::~QXmlTestLogger__deallocating() 0x0000c04f   Thumb Code    12  qxmltestlogger.o(.text)
+    QXmlTestLogger::xmlQuote(QTestCharBuffer*, const char*, unsigned) 0x0000c05b   Thumb Code   224  qxmltestlogger.o(.text)
+    QXmlTestLogger::xmlQuote(QTestCharBuffer*, const char*) 0x0000c13b   Thumb Code     4  qxmltestlogger.o(.text)
+    QXmlTestLogger::startLogging()           0x0000c13f   Thumb Code   106  qxmltestlogger.o(.text)
+    QXmlTestLogger::stopLogging()            0x0000c1a9   Thumb Code    24  qxmltestlogger.o(.text)
+    QXmlTestLogger::enterTestFunction(const char*) 0x0000c1c1   Thumb Code    70  qxmltestlogger.o(.text)
+    QXmlTestLogger::leaveTestFunction()      0x0000c207   Thumb Code    10  qxmltestlogger.o(.text)
+    QXmlTestLogger::xmlCdata(QTestCharBuffer*, const char*, unsigned) 0x0000c231   Thumb Code   118  qxmltestlogger.o(.text)
+    QXmlTestLogger::xmlCdata(QTestCharBuffer*, const char*) 0x0000c2a7   Thumb Code     4  qxmltestlogger.o(.text)
+    QXmlTestLogger::addIncident(QAbstractTestLogger::IncidentTypes, const char*, const char*, int) 0x0000c2ab   Thumb Code   594  qxmltestlogger.o(.text)
+    QXmlTestLogger::addBenchmarkResult(const QBenchmarkResult&) 0x0000c4fd   Thumb Code   182  qxmltestlogger.o(.text)
+    QXmlTestLogger::addMessage(QAbstractTestLogger::MessageTypes, const char*, const char*, int) 0x0000c5d3   Thumb Code   310  qxmltestlogger.o(.text)
+    QSignalDumper::startDump()               0x0000c7e1   Thumb Code    10  qsignaldumper.o(.text)
+    QSignalDumper::endDump()                 0x0000c7eb   Thumb Code    10  qsignaldumper.o(.text)
+    QSignalDumper::ignoreClass(const QByteArray&) 0x0000c863   Thumb Code    24  qsignaldumper.o(.text)
+    QSignalDumper::clearIgnoredClasses()     0x0000c87b   Thumb Code    76  qsignaldumper.o(.text)
+    QAbstractTestLogger::startLogging()      0x0000ccdd   Thumb Code    66  qabstracttestlogger.o(.text)
+    QAbstractTestLogger::stopLogging()       0x0000cd1f   Thumb Code    42  qabstracttestlogger.o(.text)
+    QAbstractTestLogger::outputString(const char*) 0x0000cd49   Thumb Code    38  qabstracttestlogger.o(.text)
+    QAbstractTestLogger::isTtyOutput()       0x0000cd6f   Thumb Code    88  qabstracttestlogger.o(.text)
+    QTest::qt_asprintf(QTestCharBuffer*, const char*, ...) 0x0000cdc7   Thumb Code   112  qabstracttestlogger.o(.text)
+    QBenchmarkGlobalData::createMeasurer()   0x0000ceb5   Thumb Code    56  qbenchmark.o(.text)
+    QBenchmarkGlobalData::setMode(QBenchmarkGlobalData::Mode) 0x0000ceed   Thumb Code    28  qbenchmark.o(.text)
+    QBenchmarkGlobalData::QBenchmarkGlobalData() 0x0000cf09   Thumb Code    50  qbenchmark.o(.text)
+    QBenchmarkGlobalData::QBenchmarkGlobalData__sub_object() 0x0000cf09   Thumb Code     0  qbenchmark.o(.text)
+    QBenchmarkGlobalData::~QBenchmarkGlobalData() 0x0000cf3b   Thumb Code    42  qbenchmark.o(.text)
+    QBenchmarkGlobalData::~QBenchmarkGlobalData__sub_object() 0x0000cf3b   Thumb Code     0  qbenchmark.o(.text)
+    QBenchmarkGlobalData::adjustMedianIterationCount() 0x0000cf65   Thumb Code    20  qbenchmark.o(.text)
+    QBenchmarkTestMethodData::QBenchmarkTestMethodData() 0x0000cf79   Thumb Code    30  qbenchmark.o(.text)
+    QBenchmarkTestMethodData::QBenchmarkTestMethodData__sub_object() 0x0000cf79   Thumb Code     0  qbenchmark.o(.text)
+    QBenchmarkTestMethodData::~QBenchmarkTestMethodData() 0x0000cf97   Thumb Code    14  qbenchmark.o(.text)
+    QBenchmarkTestMethodData::~QBenchmarkTestMethodData__sub_object() 0x0000cf97   Thumb Code     0  qbenchmark.o(.text)
+    QBenchmarkTestMethodData::adjustIterationCount(int) 0x0000cfa5   Thumb Code    26  qbenchmark.o(.text)
+    QBenchmarkTestMethodData::beginDataRun() 0x0000cfbf   Thumb Code    14  qbenchmark.o(.text)
+    QBenchmarkTestMethodData::endDataRun()   0x0000cfcd   Thumb Code     2  qbenchmark.o(.text)
+    QBenchmarkTestMethodData::setResult(float, QTest::QBenchmarkMetric, bool) 0x0000cfcf   Thumb Code   190  qbenchmark.o(.text)
+    QTest::beginBenchmarkMeasurement()       0x0000d08d   Thumb Code    12  qbenchmark.o(.text)
+    QTest::QBenchmarkIterationController::QBenchmarkIterationController() 0x0000d099   Thumb Code    16  qbenchmark.o(.text)
+    QTest::QBenchmarkIterationController::QBenchmarkIterationController__sub_object() 0x0000d099   Thumb Code     0  qbenchmark.o(.text)
+    QTest::QBenchmarkIterationController::QBenchmarkIterationController(QTest::QBenchmarkIterationController::RunMode) 0x0000d0a9   Thumb Code    28  qbenchmark.o(.text)
+    QTest::QBenchmarkIterationController::QBenchmarkIterationController__sub_object(QTest::QBenchmarkIterationController::RunMode) 0x0000d0a9   Thumb Code     0  qbenchmark.o(.text)
+    QTest::endBenchmarkMeasurement()         0x0000d0c5   Thumb Code    12  qbenchmark.o(.text)
+    QTest::QBenchmarkIterationController::~QBenchmarkIterationController() 0x0000d0d1   Thumb Code    42  qbenchmark.o(.text)
+    QTest::QBenchmarkIterationController::~QBenchmarkIterationController__sub_object() 0x0000d0d1   Thumb Code     0  qbenchmark.o(.text)
+    QTest::iterationCount()                  0x0000d0fb   Thumb Code     8  qbenchmark.o(.text)
+    QTest::QBenchmarkIterationController::isDone() 0x0000d103   Thumb Code    42  qbenchmark.o(.text)
+    QTest::QBenchmarkIterationController::next() 0x0000d12d   Thumb Code     8  qbenchmark.o(.text)
+    QTest::setIterationCountHint(int)        0x0000d135   Thumb Code     8  qbenchmark.o(.text)
+    QTest::setIterationCount(int)            0x0000d13d   Thumb Code    14  qbenchmark.o(.text)
+    QTest::setBenchmarkResult(float, QTest::QBenchmarkMetric) 0x0000d14b   Thumb Code    12  qbenchmark.o(.text)
+    QBenchmarkTimeMeasurer::start()          0x0000d16d   Thumb Code    10  qbenchmarkmeasurement.o(.text)
+    QBenchmarkTimeMeasurer::checkpoint()     0x0000d177   Thumb Code    10  qbenchmarkmeasurement.o(.text)
+    QBenchmarkTimeMeasurer::stop()           0x0000d181   Thumb Code    10  qbenchmarkmeasurement.o(.text)
+    QBenchmarkTimeMeasurer::isMeasurementAccepted(long long) 0x0000d18b   Thumb Code    24  qbenchmarkmeasurement.o(.text)
+    QBenchmarkTimeMeasurer::adjustIterationCount(int) 0x0000d1a3   Thumb Code     4  qbenchmarkmeasurement.o(.text)
+    QBenchmarkTimeMeasurer::adjustMedianCount(int) 0x0000d1a7   Thumb Code     4  qbenchmarkmeasurement.o(.text)
+    QBenchmarkTimeMeasurer::needsWarmupIteration() 0x0000d1ab   Thumb Code     4  qbenchmarkmeasurement.o(.text)
+    QBenchmarkTimeMeasurer::metricType()     0x0000d1af   Thumb Code     4  qbenchmarkmeasurement.o(.text)
+    QBenchmarkTickMeasurer::start()          0x0000d1b3   Thumb Code    12  qbenchmarkmeasurement.o(.text)
+    QBenchmarkTickMeasurer::checkpoint()     0x0000d1bf   Thumb Code    22  qbenchmarkmeasurement.o(.text)
+    QBenchmarkTickMeasurer::stop()           0x0000d1d5   Thumb Code    22  qbenchmarkmeasurement.o(.text)
+    QBenchmarkTickMeasurer::isMeasurementAccepted(long long) 0x0000d1eb   Thumb Code     4  qbenchmarkmeasurement.o(.text)
+    QBenchmarkTickMeasurer::adjustIterationCount(int) 0x0000d1ef   Thumb Code     4  qbenchmarkmeasurement.o(.text)
+    QBenchmarkTickMeasurer::adjustMedianCount(int) 0x0000d1f3   Thumb Code     4  qbenchmarkmeasurement.o(.text)
+    QBenchmarkTickMeasurer::needsWarmupIteration() 0x0000d1f7   Thumb Code     4  qbenchmarkmeasurement.o(.text)
+    QBenchmarkTickMeasurer::metricType()     0x0000d1fb   Thumb Code     4  qbenchmarkmeasurement.o(.text)
+    QBenchmarkEvent::~QBenchmarkEvent()      0x0000d201   Thumb Code     2  qbenchmarkevent.o(.text)
+    QBenchmarkEvent::~QBenchmarkEvent__sub_object() 0x0000d201   Thumb Code     0  qbenchmarkevent.o(.text)
+    QBenchmarkEvent::~QBenchmarkEvent__deallocating() 0x0000d203   Thumb Code    12  qbenchmarkevent.o(.text)
+    QBenchmarkEvent::eventCountingMechanism(void*) 0x0000d20f   Thumb Code    22  qbenchmarkevent.o(.text)
+    QBenchmarkEvent::start()                 0x0000d225   Thumb Code    24  qbenchmarkevent.o(.text)
+    QBenchmarkEvent::checkpoint()            0x0000d23d   Thumb Code     8  qbenchmarkevent.o(.text)
+    QBenchmarkEvent::stop()                  0x0000d245   Thumb Code    22  qbenchmarkevent.o(.text)
+    QBenchmarkEvent::isMeasurementAccepted(long long) 0x0000d25b   Thumb Code     4  qbenchmarkevent.o(.text)
+    QBenchmarkEvent::adjustIterationCount(int) 0x0000d25f   Thumb Code     4  qbenchmarkevent.o(.text)
+    QBenchmarkEvent::adjustMedianCount(int)  0x0000d263   Thumb Code     4  qbenchmarkevent.o(.text)
+    QBenchmarkEvent::metricType()            0x0000d267   Thumb Code     4  qbenchmarkevent.o(.text)
+    QTest::benchmarkMetricName(QTest::QBenchmarkMetric) 0x0000d275   Thumb Code    50  qbenchmarkmetric.o(.text)
+    QTest::benchmarkMetricUnit(QTest::QBenchmarkMetric) 0x0000d2a7   Thumb Code    50  qbenchmarkmetric.o(.text)
+    QTestElement::QTestElement(int)          0x0000d38d   Thumb Code    20  qtestelement.o(.text)
+    QTestElement::QTestElement__sub_object(int) 0x0000d38d   Thumb Code     0  qtestelement.o(.text)
+    QTestElement::~QTestElement()            0x0000d3a1   Thumb Code    28  qtestelement.o(.text)
+    QTestElement::~QTestElement__sub_object() 0x0000d3a1   Thumb Code     0  qtestelement.o(.text)
+    QTestElement::~QTestElement__deallocating() 0x0000d3bd   Thumb Code    16  qtestelement.o(.text)
+    QTestElement::setParent(const QTestElement*) 0x0000d3cd   Thumb Code     4  qtestelement.o(.text)
+    QTestElement::addLogElement(QTestElement*) 0x0000d3d1   Thumb Code    34  qtestelement.o(.text)
+    QTestElement::childElements() const      0x0000d3f3   Thumb Code     4  qtestelement.o(.text)
+    QTestElement::parentElement() const      0x0000d3f7   Thumb Code     4  qtestelement.o(.text)
+    QTestElementAttribute::QTestElementAttribute() 0x0000d401   Thumb Code    18  qtestelementattribute.o(.text)
+    QTestElementAttribute::QTestElementAttribute__sub_object() 0x0000d401   Thumb Code     0  qtestelementattribute.o(.text)
+    QTestElementAttribute::~QTestElementAttribute() 0x0000d413   Thumb Code    22  qtestelementattribute.o(.text)
+    QTestElementAttribute::~QTestElementAttribute__sub_object() 0x0000d413   Thumb Code     0  qtestelementattribute.o(.text)
+    QTestElementAttribute::~QTestElementAttribute__deallocating() 0x0000d429   Thumb Code    16  qtestelementattribute.o(.text)
+    QTestElementAttribute::value() const     0x0000d439   Thumb Code     4  qtestelementattribute.o(.text)
+    QTestElementAttribute::name() const      0x0000d43d   Thumb Code    36  qtestelementattribute.o(.text)
+    QTestElementAttribute::index() const     0x0000d461   Thumb Code     4  qtestelementattribute.o(.text)
+    QTestElementAttribute::isNull() const    0x0000d465   Thumb Code    14  qtestelementattribute.o(.text)
+    QTestElementAttribute::setPair(QTest::AttributeIndex, const char*) 0x0000d473   Thumb Code    42  qtestelementattribute.o(.text)
+    QTestBasicStreamer::QTestBasicStreamer() 0x0000d4a5   Thumb Code    10  qtestbasicstreamer.o(.text)
+    QTestBasicStreamer::QTestBasicStreamer__sub_object() 0x0000d4a5   Thumb Code     0  qtestbasicstreamer.o(.text)
+    QTestBasicStreamer::~QTestBasicStreamer() 0x0000d4af   Thumb Code     2  qtestbasicstreamer.o(.text)
+    QTestBasicStreamer::~QTestBasicStreamer__sub_object() 0x0000d4af   Thumb Code     0  qtestbasicstreamer.o(.text)
+    QTestBasicStreamer::~QTestBasicStreamer__deallocating() 0x0000d4b1   Thumb Code    12  qtestbasicstreamer.o(.text)
+    QTestBasicStreamer::output(QTestElement*) const 0x0000d4bd   Thumb Code    14  qtestbasicstreamer.o(.text)
+    QTestBasicStreamer::outputString(const char*) const 0x0000d4cb   Thumb Code    38  qtestbasicstreamer.o(.text)
+    QTestBasicStreamer::isTtyOutput()        0x0000d4f1   Thumb Code    88  qtestbasicstreamer.o(.text)
+    QTestBasicStreamer::startStreaming()     0x0000d549   Thumb Code    66  qtestbasicstreamer.o(.text)
+    QTestBasicStreamer::stopStreaming()      0x0000d58b   Thumb Code    42  qtestbasicstreamer.o(.text)
+    QTestBasicStreamer::setLogger(const QTestLogger*) 0x0000d5b5   Thumb Code     4  qtestbasicstreamer.o(.text)
+    QTestBasicStreamer::logger() const       0x0000d5b9   Thumb Code     4  qtestbasicstreamer.o(.text)
+    QTestBasicStreamer::formatStart(const QTestElement*, QTestCharBuffer*) const 0x0000d5bd   Thumb Code    16  qtestbasicstreamer.o(.text)
+    QTestBasicStreamer::formatEnd(const QTestElement*, QTestCharBuffer*) const 0x0000d5cd   Thumb Code    16  qtestbasicstreamer.o(.text)
+    QTestBasicStreamer::formatBeforeAttributes(const QTestElement*, QTestCharBuffer*) const 0x0000d5dd   Thumb Code    16  qtestbasicstreamer.o(.text)
+    QTestBasicStreamer::formatAfterAttributes(const QTestElement*, QTestCharBuffer*) const 0x0000d5ed   Thumb Code    16  qtestbasicstreamer.o(.text)
+    QTestBasicStreamer::formatAttributes(const QTestElement*, const QTestElementAttribute*, QTestCharBuffer*) const 0x0000d5fd   Thumb Code    16  qtestbasicstreamer.o(.text)
+    QTestBasicStreamer::outputElements(QTestElement*, bool) const 0x0000d60d   Thumb Code   188  qtestbasicstreamer.o(.text)
+    QTestBasicStreamer::outputElementAttributes(const QTestElement*, QTestElementAttribute*) const 0x0000d6c9   Thumb Code    70  qtestbasicstreamer.o(.text)
+    QTestXunitStreamer::QTestXunitStreamer() 0x0000d791   Thumb Code    12  qtestxunitstreamer.o(.text)
+    QTestXunitStreamer::QTestXunitStreamer__sub_object() 0x0000d791   Thumb Code     0  qtestxunitstreamer.o(.text)
+    QTestXunitStreamer::~QTestXunitStreamer() 0x0000d79d   Thumb Code     8  qtestxunitstreamer.o(.text)
+    QTestXunitStreamer::~QTestXunitStreamer__sub_object() 0x0000d79d   Thumb Code     0  qtestxunitstreamer.o(.text)
+    QTestXunitStreamer::~QTestXunitStreamer__deallocating() 0x0000d7a5   Thumb Code    16  qtestxunitstreamer.o(.text)
+    QTestXunitStreamer::indentForElement(const QTestElement*, char*, int) 0x0000d7b5   Thumb Code    50  qtestxunitstreamer.o(.text)
+    QTestXunitStreamer::formatStart(const QTestElement*, QTestCharBuffer*) const 0x0000d7e7   Thumb Code    88  qtestxunitstreamer.o(.text)
+    QTestXunitStreamer::formatEnd(const QTestElement*, QTestCharBuffer*) const 0x0000d83f   Thumb Code    64  qtestxunitstreamer.o(.text)
+    QTestXunitStreamer::formatAfterAttributes(const QTestElement*, QTestCharBuffer*) const 0x0000d87f   Thumb Code    60  qtestxunitstreamer.o(.text)
+    QTestXunitStreamer::formatAttributes(const QTestElement*, const QTestElementAttribute*, QTestCharBuffer*) const 0x0000d8bb   Thumb Code   158  qtestxunitstreamer.o(.text)
+    QTestXunitStreamer::output(QTestElement*) const 0x0000d959   Thumb Code    22  qtestxunitstreamer.o(.text)
+    QTestXunitStreamer::outputElements(QTestElement*, bool) const 0x0000d96f   Thumb Code   194  qtestxunitstreamer.o(.text)
+    QTestXmlStreamer::QTestXmlStreamer()     0x0000dab5   Thumb Code    12  qtestxmlstreamer.o(.text)
+    QTestXmlStreamer::QTestXmlStreamer__sub_object() 0x0000dab5   Thumb Code     0  qtestxmlstreamer.o(.text)
+    QTestXmlStreamer::~QTestXmlStreamer()    0x0000dac1   Thumb Code     8  qtestxmlstreamer.o(.text)
+    QTestXmlStreamer::~QTestXmlStreamer__sub_object() 0x0000dac1   Thumb Code     0  qtestxmlstreamer.o(.text)
+    QTestXmlStreamer::~QTestXmlStreamer__deallocating() 0x0000dac9   Thumb Code    16  qtestxmlstreamer.o(.text)
+    QTestXmlStreamer::formatStart(const QTestElement*, QTestCharBuffer*) const 0x0000dad9   Thumb Code   744  qtestxmlstreamer.o(.text)
+    QTestXmlStreamer::formatEnd(const QTestElement*, QTestCharBuffer*) const 0x0000ddc1   Thumb Code   392  qtestxmlstreamer.o(.text)
+    QTestXmlStreamer::formatBeforeAttributes(const QTestElement*, QTestCharBuffer*) const 0x0000df49   Thumb Code    12  qtestxmlstreamer.o(.text)
+    QTestXmlStreamer::output(QTestElement*) const 0x0000df55   Thumb Code   152  qtestxmlstreamer.o(.text)
+    QTestLightXmlStreamer::QTestLightXmlStreamer() 0x0000e019   Thumb Code    12  qtestlightxmlstreamer.o(.text)
+    QTestLightXmlStreamer::QTestLightXmlStreamer__sub_object() 0x0000e019   Thumb Code     0  qtestlightxmlstreamer.o(.text)
+    QTestLightXmlStreamer::~QTestLightXmlStreamer() 0x0000e025   Thumb Code     8  qtestlightxmlstreamer.o(.text)
+    QTestLightXmlStreamer::~QTestLightXmlStreamer__sub_object() 0x0000e025   Thumb Code     0  qtestlightxmlstreamer.o(.text)
+    QTestLightXmlStreamer::~QTestLightXmlStreamer__deallocating() 0x0000e02d   Thumb Code    16  qtestlightxmlstreamer.o(.text)
+    QTestLightXmlStreamer::formatStart(const QTestElement*, QTestCharBuffer*) const 0x0000e03d   Thumb Code   408  qtestlightxmlstreamer.o(.text)
+    QTestLightXmlStreamer::formatEnd(const QTestElement*, QTestCharBuffer*) const 0x0000e1d5   Thumb Code    64  qtestlightxmlstreamer.o(.text)
+    QTestLightXmlStreamer::formatBeforeAttributes(const QTestElement*, QTestCharBuffer*) const 0x0000e215   Thumb Code   196  qtestlightxmlstreamer.o(.text)
+    QTestLightXmlStreamer::output(QTestElement*) const 0x0000e2d9   Thumb Code   348  qtestlightxmlstreamer.o(.text)
+    QTestLogger::QTestLogger(int)            0x0000e435   Thumb Code    60  qtestlogger.o(.text)
+    QTestLogger::QTestLogger__sub_object(int) 0x0000e435   Thumb Code     0  qtestlogger.o(.text)
+    QTestLogger::~QTestLogger()              0x0000e471   Thumb Code    60  qtestlogger.o(.text)
+    QTestLogger::~QTestLogger__sub_object()  0x0000e471   Thumb Code     0  qtestlogger.o(.text)
+    QTestLogger::~QTestLogger__deallocating() 0x0000e4ad   Thumb Code    16  qtestlogger.o(.text)
+    QTestLogger::startLogging()              0x0000e4bd   Thumb Code   112  qtestlogger.o(.text)
+    QTestLogger::stopLogging()               0x0000e52d   Thumb Code   282  qtestlogger.o(.text)
+    QTestLogger::enterTestFunction(const char*) 0x0000e647   Thumb Code    82  qtestlogger.o(.text)
+    QTestLogger::leaveTestFunction()         0x0000e699   Thumb Code     2  qtestlogger.o(.text)
+    QTestLogger::addTag(QTestElement*)       0x0000e69b   Thumb Code   114  qtestlogger.o(.text)
+    QTestLogger::addMessage(QAbstractTestLogger::MessageTypes, const char*, const char*, int) 0x0000e70d   Thumb Code   384  qtestlogger.o(.text)
+    QTestLogger::addIncident(QAbstractTestLogger::IncidentTypes, const char*, const char*, int) 0x0000e88d   Thumb Code   336  qtestlogger.o(.text)
+    QTestLogger::addBenchmarkResult(const QBenchmarkResult&) 0x0000e9dd   Thumb Code   172  qtestlogger.o(.text)
+    QTestLogger::setLogFormat(QTestLogger::TestLoggerFormat) 0x0000ea89   Thumb Code     4  qtestlogger.o(.text)
+    QTestLogger::logFormat()                 0x0000ea8d   Thumb Code     4  qtestlogger.o(.text)
+    QTestLogger::passCount() const           0x0000ea91   Thumb Code     4  qtestlogger.o(.text)
+    QTestLogger::failureCount() const        0x0000ea95   Thumb Code     4  qtestlogger.o(.text)
+    QTestLogger::errorCount() const          0x0000ea99   Thumb Code     4  qtestlogger.o(.text)
+    QTestLogger::warningCount() const        0x0000ea9d   Thumb Code     4  qtestlogger.o(.text)
+    QTestLogger::skipCount() const           0x0000eaa1   Thumb Code     4  qtestlogger.o(.text)
+    QTestLogger::systemCount() const         0x0000eaa5   Thumb Code     4  qtestlogger.o(.text)
+    QTestLogger::qdebugCount() const         0x0000eaa9   Thumb Code     4  qtestlogger.o(.text)
+    QTestLogger::qwarnCount() const          0x0000eaad   Thumb Code     4  qtestlogger.o(.text)
+    QTestLogger::qfatalCount() const         0x0000eab1   Thumb Code     4  qtestlogger.o(.text)
+    QTestLogger::infoCount() const           0x0000eab5   Thumb Code     4  qtestlogger.o(.text)
+    QTestFileLogger::QTestFileLogger()       0x0000eae5   Thumb Code     2  qtestfilelogger.o(.text)
+    QTestFileLogger::QTestFileLogger__sub_object() 0x0000eae5   Thumb Code     0  qtestfilelogger.o(.text)
+    QTestFileLogger::~QTestFileLogger()      0x0000eae7   Thumb Code    24  qtestfilelogger.o(.text)
+    QTestFileLogger::~QTestFileLogger__sub_object() 0x0000eae7   Thumb Code     0  qtestfilelogger.o(.text)
+    QTestFileLogger::init()                  0x0000eaff   Thumb Code   210  qtestfilelogger.o(.text)
+    QTestFileLogger::flush(const char*)      0x0000ebd1   Thumb Code    38  qtestfilelogger.o(.text)
+    QTestEventLoop::getStaticMetaObject()    0x0000ec75   Thumb Code     4  moc_qtesteventloop.o(.text)
+    QTestEventLoop::metaObject() const       0x0000ec79   Thumb Code    12  moc_qtesteventloop.o(.text)
+    QTestEventLoop::qt_metacast(const char*) 0x0000ec85   Thumb Code    40  moc_qtesteventloop.o(.text)
+    QTestEventLoop::qt_metacall(QMetaObject::Call, int, void**) 0x0000ecad   Thumb Code    34  moc_qtesteventloop.o(.text)
+    __ARM_switch8                            0x0000ecd4   ARM Code      24  switch8.o(.text)
+    __rt_switch8                             0x0000ecd4   ARM Code       0  switch8.o(.text)
+    _E32Dll_Body                             0x0000ecec   ARM Code      56  uc_dll.o(.text)
+    __aeabi_atexit                           0x0000ed28   ARM Code      28  ucppfini.o(.text)
+    __cxa_atexit                             0x0000ed44   ARM Code      48  ucppfini.o(.text)
+    __cxa_finalize                           0x0000ed74   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x0000eda4   ARM Code       8  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x0000edb8   ARM Code       4  dllexp.o(.text)
+    qDebug()                                 0x0000f1eb   Thumb Code    52  qtestcase.o(i._Z6qDebugv)
+    qstrlen(const char*)                     0x0000f231   Thumb Code    18  qtestcase.o(i._Z7qstrlenPKc)
+    qRound64(double)                         0x0000f245   Thumb Code    86  qbenchmarkmeasurement.o(i._Z8qRound64d)
+    QByteArray::data()                       0x0000f2b5   Thumb Code    36  qplaintestlogger.o(i._ZN10QByteArray4dataEv)
+    QByteArray::QByteArray(const QByteArray&) 0x0000f2d9   Thumb Code    16  qtestcase.o(i._ZN10QByteArrayC1ERKS_)
+    QByteArray::QByteArray__sub_object(const QByteArray&) 0x0000f2d9   Thumb Code     0  qtestcase.o(i._ZN10QByteArrayC1ERKS_)
+    QByteArray::QByteArray()                 0x0000f2e9   Thumb Code    16  qsignaldumper.o(i._ZN10QByteArrayC1Ev)
+    QByteArray::QByteArray__sub_object()     0x0000f2e9   Thumb Code     0  qsignaldumper.o(i._ZN10QByteArrayC1Ev)
+    QByteArray::~QByteArray()                0x0000f2fd   Thumb Code    24  qtestcase.o(i._ZN10QByteArrayD1Ev)
+    QByteArray::~QByteArray__sub_object()    0x0000f2fd   Thumb Code     0  qtestcase.o(i._ZN10QByteArrayD1Ev)
+    QByteArray::operator +=(const char*)     0x0000f315   Thumb Code     8  qsignaldumper.o(i._ZN10QByteArraypLEPKc)
+    QTestCoreList<QTestElement>::~QTestCoreList__deallocating() 0x0000f31d   Thumb Code    16  qtestelement.o(i._ZN13QTestCoreListI12QTestElementED0Ev)
+    QTestCoreList<QTestElementAttribute>::~QTestCoreList__deallocating() 0x0000f32d   Thumb Code    16  qtestelementattribute.o(i._ZN13QTestCoreListI21QTestElementAttributeED0Ev)
+    QTestEventLoop::timerEvent(QTimerEvent*) 0x0000f33d   Thumb Code    20  moc_qtesteventloop.o(i._ZN14QTestEventLoop10timerEventEP11QTimerEvent)
+    QTestEventLoop::exitLoop()               0x0000f351   Thumb Code    40  moc_qtesteventloop.o(i._ZN14QTestEventLoop8exitLoopEv)
+    QTestEventLoop::~QTestEventLoop__deallocating() 0x0000f379   Thumb Code    16  moc_qtesteventloop.o(i._ZN14QTestEventLoopD0Ev)
+    QTestEventLoop::~QTestEventLoop()        0x0000f389   Thumb Code     8  moc_qtesteventloop.o(i._ZN14QTestEventLoopD1Ev)
+    QTestEventLoop::~QTestEventLoop__sub_object() 0x0000f389   Thumb Code     0  moc_qtesteventloop.o(i._ZN14QTestEventLoopD1Ev)
+    QBasicAtomicInt::ref()                   0x0000f391   Thumb Code    18  qtestcase.o(i._ZN15QBasicAtomicInt3refEv)
+    QBasicAtomicInt::deref()                 0x0000f3a3   Thumb Code    18  qtestcase.o(i._ZN15QBasicAtomicInt5derefEv)
+    QBenchmarkEvent::repeatCount()           0x0000f3b5   Thumb Code     4  qbenchmarkevent.o(i._ZN15QBenchmarkEvent11repeatCountEv)
+    QTestCharBuffer::QTestCharBuffer()       0x0000f3b9   Thumb Code    18  qxmltestlogger.o(i._ZN15QTestCharBufferC1Ev)
+    QTestCharBuffer::QTestCharBuffer__sub_object() 0x0000f3b9   Thumb Code     0  qxmltestlogger.o(i._ZN15QTestCharBufferC1Ev)
+    QTestCharBuffer::~QTestCharBuffer()      0x0000f3cb   Thumb Code    22  qplaintestlogger.o(i._ZN15QTestCharBufferD1Ev)
+    QTestCharBuffer::~QTestCharBuffer__sub_object() 0x0000f3cb   Thumb Code     0  qplaintestlogger.o(i._ZN15QTestCharBufferD1Ev)
+    QBenchmarkResult::QBenchmarkResult(const QBenchmarkResult&) 0x0000f3e1   Thumb Code    46  qtestcase.o(i._ZN16QBenchmarkResultC1ERKS_)
+    QBenchmarkResult::QBenchmarkResult__sub_object(const QBenchmarkResult&) 0x0000f3e1   Thumb Code     0  qtestcase.o(i._ZN16QBenchmarkResultC1ERKS_)
+    QBenchmarkResult::QBenchmarkResult()     0x0000f419   Thumb Code    36  qtestcase.o(i._ZN16QBenchmarkResultC1Ev)
+    QBenchmarkResult::QBenchmarkResult__sub_object() 0x0000f419   Thumb Code     0  qtestcase.o(i._ZN16QBenchmarkResultC1Ev)
+    QBenchmarkResult::~QBenchmarkResult()    0x0000f44b   Thumb Code     8  qtestcase.o(i._ZN16QBenchmarkResultD1Ev)
+    QBenchmarkResult::~QBenchmarkResult__sub_object() 0x0000f44b   Thumb Code     0  qtestcase.o(i._ZN16QBenchmarkResultD1Ev)
+    QBenchmarkResult::operator =(const QBenchmarkResult&) 0x0000f453   Thumb Code    46  qtestcase.o(i._ZN16QBenchmarkResultaSERKS_)
+    QTestCoreElement<QTestElement>::~QTestCoreElement__deallocating() 0x0000f481   Thumb Code    16  qtestelement.o(i._ZN16QTestCoreElementI12QTestElementED0Ev)
+    QBenchmarkContext::QBenchmarkContext()   0x0000f491   Thumb Code    24  qbenchmark.o(i._ZN17QBenchmarkContextC1Ev)
+    QBenchmarkContext::QBenchmarkContext__sub_object() 0x0000f491   Thumb Code     0  qbenchmark.o(i._ZN17QBenchmarkContextC1Ev)
+    QBenchmarkContext::~QBenchmarkContext()  0x0000f4b3   Thumb Code    18  qtestcase.o(i._ZN17QBenchmarkContextD1Ev)
+    QBenchmarkContext::~QBenchmarkContext__sub_object() 0x0000f4b3   Thumb Code     0  qtestcase.o(i._ZN17QBenchmarkContextD1Ev)
+    QAbstractTestLogger::~QAbstractTestLogger__deallocating() 0x0000f4cf   Thumb Code    12  qabstracttestlogger.o(i._ZN19QAbstractTestLoggerD0Ev)
+    QAbstractTestLogger::~QAbstractTestLogger() 0x0000f4db   Thumb Code     0  qabstracttestlogger.o(i._ZN19QAbstractTestLoggerD2Ev)
+    QAbstractTestLogger::~QAbstractTestLogger__sub_object() 0x0000f4db   Thumb Code     2  qabstracttestlogger.o(i._ZN19QAbstractTestLoggerD2Ev)
+    QBenchmarkMeasurerBase::repeatCount()    0x0000f4dd   Thumb Code     4  qbenchmarkmeasurement.o(i._ZN22QBenchmarkMeasurerBase11repeatCountEv)
+    QBenchmarkMeasurerBase::needsWarmupIteration() 0x0000f4e1   Thumb Code     4  qbenchmarkevent.o(i._ZN22QBenchmarkMeasurerBase20needsWarmupIterationEv)
+    QBenchmarkMeasurerBase::init()           0x0000f4e5   Thumb Code     2  qbenchmarkmeasurement.o(i._ZN22QBenchmarkMeasurerBase4initEv)
+    QBenchmarkTickMeasurer::~QBenchmarkTickMeasurer__deallocating() 0x0000f4e7   Thumb Code    12  qbenchmarkmeasurement.o(i._ZN22QBenchmarkTickMeasurerD0Ev)
+    QBenchmarkTickMeasurer::~QBenchmarkTickMeasurer() 0x0000f4f3   Thumb Code     2  qbenchmarkmeasurement.o(i._ZN22QBenchmarkTickMeasurerD1Ev)
+    QBenchmarkTickMeasurer::~QBenchmarkTickMeasurer__sub_object() 0x0000f4f3   Thumb Code     0  qbenchmarkmeasurement.o(i._ZN22QBenchmarkTickMeasurerD1Ev)
+    QBenchmarkTimeMeasurer::~QBenchmarkTimeMeasurer__deallocating() 0x0000f4f5   Thumb Code    12  qbenchmarkmeasurement.o(i._ZN22QBenchmarkTimeMeasurerD0Ev)
+    QBenchmarkTimeMeasurer::~QBenchmarkTimeMeasurer() 0x0000f501   Thumb Code     2  qbenchmarkmeasurement.o(i._ZN22QBenchmarkTimeMeasurerD1Ev)
+    QBenchmarkTimeMeasurer::~QBenchmarkTimeMeasurer__sub_object() 0x0000f501   Thumb Code     0  qbenchmarkmeasurement.o(i._ZN22QBenchmarkTimeMeasurerD1Ev)
+    QTest::TestFunction::TestFunction()      0x0000f503   Thumb Code     8  qtestcase.o(i._ZN5QTest12TestFunctionC1Ev)
+    QTest::TestFunction::TestFunction__sub_object() 0x0000f503   Thumb Code     0  qtestcase.o(i._ZN5QTest12TestFunctionC1Ev)
+    QTest::TestFunction::~TestFunction()     0x0000f50b   Thumb Code    14  qtestcase.o(i._ZN5QTest12TestFunctionD1Ev)
+    QTest::TestFunction::~TestFunction__sub_object() 0x0000f50b   Thumb Code     0  qtestcase.o(i._ZN5QTest12TestFunctionD1Ev)
+    QTest::QTestDataSetter::~QTestDataSetter() 0x0000f519   Thumb Code    14  qtestcase.o(i._ZN5QTest15QTestDataSetterD1Ev)
+    QTest::QTestDataSetter::~QTestDataSetter__sub_object() 0x0000f519   Thumb Code     0  qtestcase.o(i._ZN5QTest15QTestDataSetterD1Ev)
+    QDebug::maybeSpace()                     0x0000f527   Thumb Code    22  qtestcase.o(i._ZN6QDebug10maybeSpaceEv)
+    QDebug::~QDebug()                        0x0000f53d   Thumb Code    94  qtestcase.o(i._ZN6QDebugD1Ev)
+    QDebug::~QDebug__sub_object()            0x0000f53d   Thumb Code     0  qtestcase.o(i._ZN6QDebugD1Ev)
+    QDebug::operator <<(const char*)         0x0000f5af   Thumb Code    36  qtestcase.o(i._ZN6QDebuglsEPKc)
+    QDebug::operator <<(float)               0x0000f5dd   Thumb Code    18  qtestcase.o(i._ZN6QDebuglsEf)
+    QString::QString(const QLatin1String&)   0x0000f5ef   Thumb Code    20  qplaintestlogger.o(i._ZN7QStringC1ERK13QLatin1String)
+    QString::QString__sub_object(const QLatin1String&) 0x0000f5ef   Thumb Code     0  qplaintestlogger.o(i._ZN7QStringC1ERK13QLatin1String)
+    QString::QString(const QString&)         0x0000f603   Thumb Code    16  qtestcase.o(i._ZN7QStringC1ERKS_)
+    QString::QString__sub_object(const QString&) 0x0000f603   Thumb Code     0  qtestcase.o(i._ZN7QStringC1ERKS_)
+    QString::QString()                       0x0000f615   Thumb Code    16  qtestcase.o(i._ZN7QStringC1Ev)
+    QString::QString__sub_object()           0x0000f615   Thumb Code     0  qtestcase.o(i._ZN7QStringC1Ev)
+    QString::~QString()                      0x0000f629   Thumb Code    24  qtestcase.o(i._ZN7QStringD1Ev)
+    QString::~QString__sub_object()          0x0000f629   Thumb Code     0  qtestcase.o(i._ZN7QStringD1Ev)
+    QString::operator =(const QLatin1String&) 0x0000f641   Thumb Code    34  qtestcase.o(i._ZN7QStringaSERK13QLatin1String)
+    QByteArray::isEmpty() const              0x0000f66d   Thumb Code    16  qplaintestlogger.o(i._ZNK10QByteArray7isEmptyEv)
+    QBasicAtomicInt::operator ==(int) const  0x0000f67d   Thumb Code    14  qtestcase.o(i._ZNK15QBasicAtomicInteqEi)
+    QBasicAtomicInt::operator !=(int) const  0x0000f68b   Thumb Code    14  qtestcase.o(i._ZNK15QBasicAtomicIntneEi)
+    QString::isEmpty() const                 0x0000f699   Thumb Code    16  qsignaldumper.o(i._ZNK7QString7isEmptyEv)
+    QListData::at(int) const                 0x0000f6a9   Thumb Code    16  qtestcase.o(i._ZNK9QListData2atEi)
+    QListData::end() const                   0x0000f6b9   Thumb Code    12  qtestcase.o(i._ZNK9QListData3endEv)
+    QListData::begin() const                 0x0000f6c5   Thumb Code    12  qtestcase.o(i._ZNK9QListData5beginEv)
+    QListData::isEmpty() const               0x0000f6d1   Thumb Code    18  qtestcase.o(i._ZNK9QListData7isEmptyEv)
+    operator delete (void*, void*)           0x0000f6e3   Thumb Code     2  qtestcase.o(i._ZdlPvS_)
+    operator new(unsigned, void*)            0x0000f6e5   Thumb Code     4  qtestcase.o(i._ZnwjPv)
+    qAbs<double>(const T1&)                  0x0000f6e9   Thumb Code    30  qtestcase.o(t._Z4qAbsIdET_RKS0_)
+    qAbs<float>(const T1&)                   0x0000f711   Thumb Code    14  qtestcase.o(t._Z4qAbsIfET_RKS0_)
+    qMin<int>(const T1&, const T1&)          0x0000f71f   Thumb Code    12  qtestcase.o(t._Z4qMinIiERKT_S2_S2_)
+    qSwap<QBenchmarkResult>(T1&, T1&)        0x0000f72b   Thumb Code    42  qtestcase.o(t._Z5qSwapI16QBenchmarkResultEvRT_S2_)
+    QTestCoreList<QTestElement>::addToList(QTestElement**) 0x0000f75f   Thumb Code    34  qtestelement.o(t._ZN13QTestCoreListI12QTestElementE9addToListEPPS0_)
+    QTestCoreList<QTestElement>::~QTestCoreList() 0x0000f781   Thumb Code    54  qtestelement.o(t._ZN13QTestCoreListI12QTestElementED1Ev)
+    QTestCoreList<QTestElement>::~QTestCoreList__sub_object() 0x0000f781   Thumb Code     0  qtestelement.o(t._ZN13QTestCoreListI12QTestElementED1Ev)
+    QTestCoreList<QTestElementAttribute>::addToList(QTestElementAttribute**) 0x0000f7bd   Thumb Code    34  qtestlogger.o(t._ZN13QTestCoreListI21QTestElementAttributeE9addToListEPPS0_)
+    QTestCoreList<QTestElementAttribute>::~QTestCoreList() 0x0000f7e1   Thumb Code    54  qtestelementattribute.o(t._ZN13QTestCoreListI21QTestElementAttributeED1Ev)
+    QTestCoreList<QTestElementAttribute>::~QTestCoreList__sub_object() 0x0000f7e1   Thumb Code     0  qtestelementattribute.o(t._ZN13QTestCoreListI21QTestElementAttributeED1Ev)
+    QVarLengthArray<char*, (int)256>::~QVarLengthArray() 0x0000f81d   Thumb Code    22  qtestcase.o(t._ZN15QVarLengthArrayIPcLi256EED1Ev)
+    QVarLengthArray<char*, (int)256>::~QVarLengthArray__sub_object() 0x0000f81d   Thumb Code     0  qtestcase.o(t._ZN15QVarLengthArrayIPcLi256EED1Ev)
+    QTestCoreElement<QTestElement>::addAttribute(QTest::AttributeIndex, const char*) 0x0000f833   Thumb Code    58  qtestlogger.o(t._ZN16QTestCoreElementI12QTestElementE12addAttributeEN5QTest14AttributeIndexEPKc)
+    QTestCoreElement<QTestElement>::~QTestCoreElement() 0x0000f879   Thumb Code    28  qtestelement.o(t._ZN16QTestCoreElementI12QTestElementED1Ev)
+    QTestCoreElement<QTestElement>::~QTestCoreElement__sub_object() 0x0000f879   Thumb Code     0  qtestelement.o(t._ZN16QTestCoreElementI12QTestElementED1Ev)
+    QAlgorithmsPrivate::qSortHelper<QList<QBenchmarkResult>::iterator, QBenchmarkResult, qLess<QBenchmarkResult>>(T1, T1, const T2&, T3) 0x0000f8a3   Thumb Code   342  qtestcase.o(t._ZN18QAlgorithmsPrivate11qSortHelperIN5QListI16QBenchmarkResultE8iteratorES2_5qLessIS2_EEEvT_S7_RKT0_T1_)
+    QGlobalStaticDeleter<QList<QByteArray>>::~QGlobalStaticDeleter() 0x0000f9f9   Thumb Code    36  qsignaldumper.o(t._ZN20QGlobalStaticDeleterI5QListI10QByteArrayEED1Ev)
+    QGlobalStaticDeleter<QList<QByteArray>>::~QGlobalStaticDeleter__sub_object() 0x0000f9f9   Thumb Code     0  qsignaldumper.o(t._ZN20QGlobalStaticDeleterI5QListI10QByteArrayEED1Ev)
+    QList<QByteArray>::detach_helper()       0x0000fa1d   Thumb Code    88  qsignaldumper.o(t._ZN5QListI10QByteArrayE13detach_helperEv)
+    QList<QByteArray>::node_construct(QList<QByteArray>::Node*, const QByteArray&) 0x0000fa7d   Thumb Code    26  qsignaldumper.o(t._ZN5QListI10QByteArrayE14node_constructEPNS1_4NodeERKS0_)
+    QList<QByteArray>::detach_helper_grow(int, int) 0x0000faa3   Thumb Code   186  qsignaldumper.o(t._ZN5QListI10QByteArrayE18detach_helper_growEii)
+    QList<QByteArray>::free(QListData::Data*) 0x0000fb65   Thumb Code    48  qsignaldumper.o(t._ZN5QListI10QByteArrayE4freeEPN9QListData4DataE)
+    QList<QByteArray>::append(const QByteArray&) 0x0000fb95   Thumb Code    90  qsignaldumper.o(t._ZN5QListI10QByteArrayE6appendERKS0_)
+    QList<QByteArray>::node_copy(QList<QByteArray>::Node*, QList<QByteArray>::Node*, QList<QByteArray>::Node*) 0x0000fbfd   Thumb Code    70  qsignaldumper.o(t._ZN5QListI10QByteArrayE9node_copyEPNS1_4NodeES3_S3_)
+    QList<QByteArray>::QList()               0x0000fc59   Thumb Code    16  qsignaldumper.o(t._ZN5QListI10QByteArrayEC1Ev)
+    QList<QByteArray>::QList__sub_object()   0x0000fc59   Thumb Code     0  qsignaldumper.o(t._ZN5QListI10QByteArrayEC1Ev)
+    QList<QByteArray>::~QList()              0x0000fc6d   Thumb Code    30  qsignaldumper.o(t._ZN5QListI10QByteArrayED1Ev)
+    QList<QByteArray>::~QList__sub_object()  0x0000fc6d   Thumb Code     0  qsignaldumper.o(t._ZN5QListI10QByteArrayED1Ev)
+    QList<QBenchmarkResult>::detach_helper() 0x0000fc8b   Thumb Code    88  qtestcase.o(t._ZN5QListI16QBenchmarkResultE13detach_helperEv)
+    QList<QBenchmarkResult>::node_destruct(QList<QBenchmarkResult>::Node*, QList<QBenchmarkResult>::Node*) 0x0000fceb   Thumb Code    30  qtestcase.o(t._ZN5QListI16QBenchmarkResultE13node_destructEPNS1_4NodeES3_)
+    QList<QBenchmarkResult>::node_construct(QList<QBenchmarkResult>::Node*, const QBenchmarkResult&) 0x0000fd09   Thumb Code    24  qtestcase.o(t._ZN5QListI16QBenchmarkResultE14node_constructEPNS1_4NodeERKS0_)
+    QList<QBenchmarkResult>::detach_helper_grow(int, int) 0x0000fd2b   Thumb Code   180  qtestcase.o(t._ZN5QListI16QBenchmarkResultE18detach_helper_growEii)
+    QList<QBenchmarkResult>::free(QListData::Data*) 0x0000fde7   Thumb Code    44  qtestcase.o(t._ZN5QListI16QBenchmarkResultE4freeEPN9QListData4DataE)
+    QList<QBenchmarkResult>::begin()         0x0000fe13   Thumb Code    22  qtestcase.o(t._ZN5QListI16QBenchmarkResultE5beginEv)
+    QList<QBenchmarkResult>::append(const QBenchmarkResult&) 0x0000fe29   Thumb Code    90  qtestcase.o(t._ZN5QListI16QBenchmarkResultE6appendERKS0_)
+    QList<QBenchmarkResult>::detach()        0x0000fe91   Thumb Code    24  qtestcase.o(t._ZN5QListI16QBenchmarkResultE6detachEv)
+    QList<QBenchmarkResult>::node_copy(QList<QBenchmarkResult>::Node*, QList<QBenchmarkResult>::Node*, QList<QBenchmarkResult>::Node*) 0x0000fea9   Thumb Code    72  qtestcase.o(t._ZN5QListI16QBenchmarkResultE9node_copyEPNS1_4NodeES3_S3_)
+    QList<QBenchmarkResult>::~QList()        0x0000ff03   Thumb Code    30  qtestcase.o(t._ZN5QListI16QBenchmarkResultED1Ev)
+    QList<QBenchmarkResult>::~QList__sub_object() 0x0000ff03   Thumb Code     0  qtestcase.o(t._ZN5QListI16QBenchmarkResultED1Ev)
+    QTest::formatResult<float>(T1, int)      0x0000ff21   Thumb Code   376  qplaintestlogger.o(t._ZN5QTest12formatResultIfEE7QStringT_i)
+    QTest::formatResult<float>(char*, int, T1, int) 0x000100bb   Thumb Code    56  qplaintestlogger.o(t._ZN5QTest12formatResultIfEEiPciT_i)
+    QTest::qCompare<double>(const T1&, const T1&, const char*, const char*, const char*, int) 0x00010105   Thumb Code   176  qtestcase.o(t._ZN5QTest8qCompareIdEEbRKT_S3_PKcS5_S5_i)
+    QTest::qCompare<float>(const T1&, const T1&, const char*, const char*, const char*, int) 0x000101fd   Thumb Code   152  qtestcase.o(t._ZN5QTest8qCompareIfEEbRKT_S3_PKcS5_S5_i)
+    QTest::toString<bool>(const T1&)         0x000102d9   Thumb Code    26  qtestcase.o(t._ZN5QTest8toStringIbEEPcRKT_)
+    QTest::toString<char>(const T1&)         0x000102f9   Thumb Code    26  qtestcase.o(t._ZN5QTest8toStringIcEEPcRKT_)
+    QTest::toString<double>(const T1&)       0x00010319   Thumb Code    32  qtestcase.o(t._ZN5QTest8toStringIdEEPcRKT_)
+    QTest::toString<float>(const T1&)        0x0001033d   Thumb Code    36  qtestcase.o(t._ZN5QTest8toStringIfEEPcRKT_)
+    QTest::toString<int>(const T1&)          0x00010365   Thumb Code    26  qtestcase.o(t._ZN5QTest8toStringIiEEPcRKT_)
+    QTest::toString<unsigned>(const T1&)     0x00010385   Thumb Code    26  qtestcase.o(t._ZN5QTest8toStringIjEEPcRKT_)
+    QTest::toString<long>(const T1&)         0x000103a5   Thumb Code    26  qtestcase.o(t._ZN5QTest8toStringIlEEPcRKT_)
+    QTest::toString<unsigned long>(const T1&) 0x000103c5   Thumb Code    26  qtestcase.o(t._ZN5QTest8toStringImEEPcRKT_)
+    QTest::toString<short>(const T1&)        0x000103e5   Thumb Code    32  qtestcase.o(t._ZN5QTest8toStringIsEEPcRKT_)
+    QTest::toString<unsigned short>(const T1&) 0x00010409   Thumb Code    26  qtestcase.o(t._ZN5QTest8toStringItEEPcRKT_)
+    QTest::toString<long long>(const T1&)    0x00010429   Thumb Code    32  qtestcase.o(t._ZN5QTest8toStringIxEEPcRKT_)
+    QTest::toString<unsigned long long>(const T1&) 0x00010451   Thumb Code    32  qtestcase.o(t._ZN5QTest8toStringIyEEPcRKT_)
+    QVector<QByteArray>::free(QVectorTypedData<QByteArray>*) 0x00010479   Thumb Code    40  qtestcase.o(t._ZN7QVectorI10QByteArrayE4freeEP16QVectorTypedDataIS0_E)
+    QVector<QByteArray>::append(const QByteArray&) 0x000104a1   Thumb Code   140  qtestcase.o(t._ZN7QVectorI10QByteArrayE6appendERKS0_)
+    QVector<QByteArray>::realloc(int, int)   0x00010549   Thumb Code   374  qtestcase.o(t._ZN7QVectorI10QByteArrayE7reallocEii)
+    QVector<QByteArray>::~QVector()          0x000106e1   Thumb Code    30  qtestcase.o(t._ZN7QVectorI10QByteArrayED1Ev)
+    QVector<QByteArray>::~QVector__sub_object() 0x000106e1   Thumb Code     0  qtestcase.o(t._ZN7QVectorI10QByteArrayED1Ev)
+    QStringBuilder<QString, QChar>::operator QString() const 0x000106ff   Thumb Code    98  qtestfilelogger.o(t._ZNK14QStringBuilderI7QString5QCharEcvS0_Ev)
+    QTestCoreElement<QTestElement>::elementName() const 0x0001076d   Thumb Code    36  qtestxunitstreamer.o(t._ZNK16QTestCoreElementI12QTestElementE11elementNameEv)
+    QTestCoreElement<QTestElement>::attributeName(QTest::AttributeIndex) const 0x00010795   Thumb Code    20  qtestxmlstreamer.o(t._ZNK16QTestCoreElementI12QTestElementE13attributeNameEN5QTest14AttributeIndexE)
+    QTestCoreElement<QTestElement>::attributeValue(QTest::AttributeIndex) const 0x000107a9   Thumb Code    20  qtestxmlstreamer.o(t._ZNK16QTestCoreElementI12QTestElementE14attributeValueEN5QTest14AttributeIndexE)
+    QTestCoreElement<QTestElement>::attribute(QTest::AttributeIndex) const 0x000107bd   Thumb Code    32  qtestxmlstreamer.o(t._ZNK16QTestCoreElementI12QTestElementE9attributeEN5QTest14AttributeIndexE)
+    QList<QByteArray>::at(int) const         0x000107dd   Thumb Code    16  qsignaldumper.o(t._ZNK5QListI10QByteArrayE2atEi)
+    QList<QByteArray>::contains(const QByteArray&) const 0x000107ed   Thumb Code    76  qsignaldumper.o(t._ZNK5QListI10QByteArrayE8containsERKS0_)
+    qLess<QBenchmarkResult>::operator ()(const QBenchmarkResult&, const QBenchmarkResult&) const 0x00010839   Thumb Code    56  qtestcase.o(t._ZNK5qLessI16QBenchmarkResultEclERKS0_S3_)
+    QTestEventLoop::staticMetaObject         0x00012304   Data          16  moc_qtesteventloop.o(.constdata)
+    stlp_priv::_Integer_limits<signed char, (signed char)-128, (signed char)127, (int)-1, (bool)1>::digits 0x00012364   Data           4  qtestcase.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<bool, (bool)0, (bool)1, (int)1, (bool)0>::digits 0x00012368   Data           4  qtestcase.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    stlp_priv::_Integer_limits<char, (char)128, (char)127, (int)-1, (bool)1>::digits 0x0001236c   Data           4  qtestcase.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned char, (unsigned char)0, (unsigned char)255, (int)-1, (bool)1>::digits 0x00012370   Data           4  qtestcase.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::digits 0x00012374   Data           4  qtestcase.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::is_signed 0x00012378   Data           1  qtestcase.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    stlp_priv::_Integer_limits<unsigned, (unsigned)0, (unsigned)4294967295, (int)-1, (bool)1>::digits 0x0001237c   Data           4  qtestcase.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long, (long)-2147483648, (long)2147483647, (int)-1, (bool)1>::digits 0x00012380   Data           4  qtestcase.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long, (unsigned long)0, (unsigned long)4294967295, (int)-1, (bool)1>::digits 0x00012384   Data           4  qtestcase.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<short, (short)-32768, (short)32767, (int)-1, (bool)1>::digits 0x00012388   Data           4  qtestcase.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned short, (unsigned short)0, (unsigned short)65535, (int)-1, (bool)1>::digits 0x0001238c   Data           4  qtestcase.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<wchar_t, (wchar_t)0, (wchar_t)65535, (int)-1, (bool)1>::digits 0x00012390   Data           4  qtestcase.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long long, (long long)-9223372036854775808, (long long)9223372036854775807, (int)-1, (bool)1>::digits 0x00012394   Data           4  qtestcase.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long long, (unsigned long long)0, (unsigned long long)18446744073709551615, (int)-1, (bool)1>::digits 0x00012398   Data           4  qtestcase.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    typeinfo for QTestLogger                 0x0001239c   Data          12  qtestlogger.o(.constdata__ZTI11QTestLogger)
+    typeinfo for QTestElement                0x000123a8   Data          12  qtestelement.o(.constdata__ZTI12QTestElement)
+    typeinfo for QTestCoreList<QTestElement> 0x000123b4   Data           8  qtestelement.o(.constdata__ZTI13QTestCoreListI12QTestElementE)
+    typeinfo for QTestCoreList<QTestElementAttribute> 0x000123bc   Data           8  qtestelementattribute.o(.constdata__ZTI13QTestCoreListI21QTestElementAttributeE)
+    typeinfo for QTestEventLoop              0x000123c4   Data          12  moc_qtesteventloop.o(.constdata__ZTI14QTestEventLoop)
+    typeinfo for QXmlTestLogger              0x000123d0   Data          12  qxmltestlogger.o(.constdata__ZTI14QXmlTestLogger)
+    typeinfo for QBenchmarkEvent             0x000123dc   Data          12  qbenchmarkevent.o(.constdata__ZTI15QBenchmarkEvent)
+    typeinfo for QPlainTestLogger            0x000123e8   Data          12  qplaintestlogger.o(.constdata__ZTI16QPlainTestLogger)
+    typeinfo for QTestCoreElement<QTestElement> 0x000123f4   Data          12  qtestelement.o(.constdata__ZTI16QTestCoreElementI12QTestElementE)
+    typeinfo for QTestXmlStreamer            0x00012400   Data          12  qtestxmlstreamer.o(.constdata__ZTI16QTestXmlStreamer)
+    typeinfo for QTestBasicStreamer          0x0001240c   Data           8  qtestbasicstreamer.o(.constdata__ZTI18QTestBasicStreamer)
+    typeinfo for QTestXunitStreamer          0x00012414   Data          12  qtestxunitstreamer.o(.constdata__ZTI18QTestXunitStreamer)
+    typeinfo for QAbstractTestLogger         0x00012420   Data           8  qabstracttestlogger.o(.constdata__ZTI19QAbstractTestLogger)
+    typeinfo for QTestElementAttribute       0x00012428   Data          12  qtestelementattribute.o(.constdata__ZTI21QTestElementAttribute)
+    typeinfo for QTestLightXmlStreamer       0x00012434   Data          12  qtestlightxmlstreamer.o(.constdata__ZTI21QTestLightXmlStreamer)
+    typeinfo for QBenchmarkMeasurerBase      0x00012440   Data           8  qbenchmarkmeasurement.o(.constdata__ZTI22QBenchmarkMeasurerBase)
+    typeinfo for QBenchmarkTickMeasurer      0x00012448   Data          12  qbenchmarkmeasurement.o(.constdata__ZTI22QBenchmarkTickMeasurer)
+    typeinfo for QBenchmarkTimeMeasurer      0x00012454   Data          12  qbenchmarkmeasurement.o(.constdata__ZTI22QBenchmarkTimeMeasurer)
+    typeinfo name for QTestLogger            0x00012460   Data          14  qtestlogger.o(.constdata__ZTS11QTestLogger)
+    typeinfo name for QTestElement           0x0001246e   Data          15  qtestelement.o(.constdata__ZTS12QTestElement)
+    typeinfo name for QTestCoreList<QTestElement> 0x0001247d   Data          32  qtestelement.o(.constdata__ZTS13QTestCoreListI12QTestElementE)
+    typeinfo name for QTestCoreList<QTestElementAttribute> 0x0001249d   Data          41  qtestelementattribute.o(.constdata__ZTS13QTestCoreListI21QTestElementAttributeE)
+    typeinfo name for QTestEventLoop         0x000124c6   Data          17  moc_qtesteventloop.o(.constdata__ZTS14QTestEventLoop)
+    typeinfo name for QXmlTestLogger         0x000124d7   Data          17  qxmltestlogger.o(.constdata__ZTS14QXmlTestLogger)
+    typeinfo name for QBenchmarkEvent        0x000124e8   Data          18  qbenchmarkevent.o(.constdata__ZTS15QBenchmarkEvent)
+    typeinfo name for QPlainTestLogger       0x000124fa   Data          19  qplaintestlogger.o(.constdata__ZTS16QPlainTestLogger)
+    typeinfo name for QTestCoreElement<QTestElement> 0x0001250d   Data          35  qtestelement.o(.constdata__ZTS16QTestCoreElementI12QTestElementE)
+    typeinfo name for QTestXmlStreamer       0x00012530   Data          19  qtestxmlstreamer.o(.constdata__ZTS16QTestXmlStreamer)
+    typeinfo name for QTestBasicStreamer     0x00012543   Data          21  qtestbasicstreamer.o(.constdata__ZTS18QTestBasicStreamer)
+    typeinfo name for QTestXunitStreamer     0x00012558   Data          21  qtestxunitstreamer.o(.constdata__ZTS18QTestXunitStreamer)
+    typeinfo name for QAbstractTestLogger    0x0001256d   Data          22  qabstracttestlogger.o(.constdata__ZTS19QAbstractTestLogger)
+    typeinfo name for QTestElementAttribute  0x00012583   Data          24  qtestelementattribute.o(.constdata__ZTS21QTestElementAttribute)
+    typeinfo name for QTestLightXmlStreamer  0x0001259b   Data          24  qtestlightxmlstreamer.o(.constdata__ZTS21QTestLightXmlStreamer)
+    typeinfo name for QBenchmarkMeasurerBase 0x000125b3   Data          25  qbenchmarkmeasurement.o(.constdata__ZTS22QBenchmarkMeasurerBase)
+    typeinfo name for QBenchmarkTickMeasurer 0x000125cc   Data          25  qbenchmarkmeasurement.o(.constdata__ZTS22QBenchmarkTickMeasurer)
+    typeinfo name for QBenchmarkTimeMeasurer 0x000125e5   Data          25  qbenchmarkmeasurement.o(.constdata__ZTS22QBenchmarkTimeMeasurer)
+    vtable for QTestLogger                   0x00012600   Data          44  qtestlogger.o(.constdata__ZTV11QTestLogger)
+    vtable for QTestElement                  0x0001262c   Data          16  qtestelement.o(.constdata__ZTV12QTestElement)
+    vtable for QTestCoreList<QTestElement>   0x0001263c   Data          16  qtestelement.o(.constdata__ZTV13QTestCoreListI12QTestElementE)
+    vtable for QTestCoreList<QTestElementAttribute> 0x0001264c   Data          16  qtestelementattribute.o(.constdata__ZTV13QTestCoreListI21QTestElementAttributeE)
+    vtable for QTestEventLoop                0x0001265c   Data          56  moc_qtesteventloop.o(.constdata__ZTV14QTestEventLoop)
+    vtable for QXmlTestLogger                0x00012694   Data          44  qxmltestlogger.o(.constdata__ZTV14QXmlTestLogger)
+    vtable for QBenchmarkEvent               0x000126c0   Data          56  qbenchmarkevent.o(.constdata__ZTV15QBenchmarkEvent)
+    vtable for QPlainTestLogger              0x000126f8   Data          44  qplaintestlogger.o(.constdata__ZTV16QPlainTestLogger)
+    vtable for QTestCoreElement<QTestElement> 0x00012724   Data          16  qtestelement.o(.constdata__ZTV16QTestCoreElementI12QTestElementE)
+    vtable for QTestXmlStreamer              0x00012734   Data          48  qtestxmlstreamer.o(.constdata__ZTV16QTestXmlStreamer)
+    vtable for QTestBasicStreamer            0x00012764   Data          48  qtestbasicstreamer.o(.constdata__ZTV18QTestBasicStreamer)
+    vtable for QTestXunitStreamer            0x00012794   Data          48  qtestxunitstreamer.o(.constdata__ZTV18QTestXunitStreamer)
+    vtable for QAbstractTestLogger           0x000127c4   Data          44  qabstracttestlogger.o(.constdata__ZTV19QAbstractTestLogger)
+    vtable for QTestElementAttribute         0x000127f0   Data          16  qtestelementattribute.o(.constdata__ZTV21QTestElementAttribute)
+    vtable for QTestLightXmlStreamer         0x00012800   Data          48  qtestlightxmlstreamer.o(.constdata__ZTV21QTestLightXmlStreamer)
+    vtable for QBenchmarkTickMeasurer        0x00012830   Data          56  qbenchmarkmeasurement.o(.constdata__ZTV22QBenchmarkTickMeasurer)
+    vtable for QBenchmarkTimeMeasurer        0x00012868   Data          56  qbenchmarkmeasurement.o(.constdata__ZTV22QBenchmarkTimeMeasurer)
+    .ARM.exidx$$Base                         0x0001297c   Number         0  ucppinit.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x000130fc   Number         0  qtestcase.o(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x000130fc   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    QTestTablePrivate::currentTestTable      0x0040004c   Data           4  qtesttable.o(.data)
+    QTestTablePrivate::gTable                0x00400050   Data           4  qtesttable.o(.data)
+    QBenchmarkGlobalData::current            0x004000c4   Data           4  qbenchmark.o(.data)
+    QBenchmarkTestMethodData::current        0x004000c8   Data           4  qbenchmark.o(.data)
+    oldEventFilter                           0x004000d0   Data           4  qbenchmarkevent.o(.data)
+    QBenchmarkEvent::eventCounter            0x004000d8   Data           8  qbenchmarkevent.o(.data)
+    __dso_handle                             0x004000f0   Data           4  ucppfini.o(.data)
+    std::_Atomic_swap_struct<(int)1>::_S_swap_lock 0x004000f4   Data          12  qtestcase.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    dtor_rec                                 0x00400110   Data        2048  ucppfini.o(.bss)
+

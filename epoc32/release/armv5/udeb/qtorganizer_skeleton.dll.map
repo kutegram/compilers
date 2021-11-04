@@ -1,0 +1,573 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../../unhosted.s                         0x00000000   Number         0  switch8.o ABSOLUTE
+    M:\\epoc32\\build\\euser\\c_e18a23aea4fd210f\\edll_lib\\armv5\\udeb\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\\sf\\os\\kernelhwsrv\\kernel\\eka\\compsupp\\rvct\\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\epoc32\build\euser\c_e18a23aea4fd210f\edll_lib\armv5\udeb\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\dllexp.cpp 0x00000000   Number         0  dllexp.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    S:\sf\mw\qtmobility\build\Release\qtorganizer_skeleton\moc\moc_qorganizerskeleton_p.cpp 0x00000000   Number         0  moc_qorganizerskeleton_p.o ABSOLUTE
+    S:\sf\mw\qtmobility\plugins\organizer\skeleton\qorganizerskeleton.cpp 0x00000000   Number         0  qorganizerskeleton.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    Symbian$$eit_base                        0x00008014   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$eit_limit                       0x00008018   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_base                   0x0000801c   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_limit                  0x00008020   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$reserved                        0x00008024   Data           4  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       52  ucppinit.o(.emb_text)
+    loop                                     0x0000803c   ARM Code       0  ucppinit.o(.emb_text)
+    ret                                      0x00008044   ARM Code       0  ucppinit.o(.emb_text)
+    base                                     0x00008054   Data           0  ucppinit.o(.emb_text)
+    limit                                    0x00008058   Data           0  ucppinit.o(.emb_text)
+    .text                                    0x0000822c   Section      356  moc_qorganizerskeleton_p.o(.text)
+    .text                                    0x00008390   Section     2588  qorganizerskeleton.o(.text)
+    |L1.980|                                 0x00008764   Data           0  qorganizerskeleton.o(.text)
+    |L1.992|                                 0x00008770   Data           0  qorganizerskeleton.o(.text)
+    .text                                    0x00008dac   Section       24  switch8.o(.text)
+    .text                                    0x00008dc4   Section       80  uc_dll.o(.text)
+    .text                                    0x00008e14   Section      180  ucppfini.o(.text)
+    .text                                    0x00008ec8   Section        4  dllexp.o(.text)
+    .text.clean                              0x00008ecc   Section      252  qorganizerskeleton.o(.text.clean)
+    i._ZN10QtMobility22QOrganizerItemEngineIdC2Ev 0x00008fc8   Section       24  qorganizerskeleton.o(i._ZN10QtMobility22QOrganizerItemEngineIdC2Ev)
+    i._ZN10QtMobility22QOrganizerItemEngineIdD0Ev 0x00008fe0   Section       18  qorganizerskeleton.o(i._ZN10QtMobility22QOrganizerItemEngineIdD0Ev)
+    i._ZN10QtMobility22QOrganizerItemEngineIdD2Ev 0x00008ff2   Section        2  qorganizerskeleton.o(i._ZN10QtMobility22QOrganizerItemEngineIdD2Ev)
+    i._ZN10QtMobility28QOrganizerCollectionEngineIdC2Ev 0x00008ff4   Section       24  qorganizerskeleton.o(i._ZN10QtMobility28QOrganizerCollectionEngineIdC2Ev)
+    i._ZN10QtMobility28QOrganizerCollectionEngineIdD0Ev 0x0000900c   Section       18  qorganizerskeleton.o(i._ZN10QtMobility28QOrganizerCollectionEngineIdD0Ev)
+    i._ZN10QtMobility28QOrganizerCollectionEngineIdD2Ev 0x0000901e   Section        2  qorganizerskeleton.o(i._ZN10QtMobility28QOrganizerCollectionEngineIdD2Ev)
+    i._ZN11QStringListD1Ev                   0x00009020   Section       14  qorganizerskeleton.o(i._ZN11QStringListD1Ev)
+    i._ZN15QBasicAtomicInt3refEv             0x0000902e   Section       24  qorganizerskeleton.o(i._ZN15QBasicAtomicInt3refEv)
+    i._ZN15QBasicAtomicInt5derefEv           0x00009046   Section       24  qorganizerskeleton.o(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN17QForeachContainerI5QListIN10QtMobility14QOrganizerItemEEED1Ev 0x0000905e   Section       14  qorganizerskeleton.o(i._ZN17QForeachContainerI5QListIN10QtMobility14QOrganizerItemEEED1Ev)
+    i._ZN29QOrganizerItemSkeletonFactoryD0Ev 0x0000906c   Section       22  moc_qorganizerskeleton_p.o(i._ZN29QOrganizerItemSkeletonFactoryD0Ev)
+    i._ZN29QOrganizerItemSkeletonFactoryD1Ev 0x00009082   Section       26  moc_qorganizerskeleton_p.o(i._ZN29QOrganizerItemSkeletonFactoryD1Ev)
+    i._ZN29QOrganizerItemSkeletonFactoryD1Ev.clean 0x0000909c   Section       10  moc_qorganizerskeleton_p.o(i._ZN29QOrganizerItemSkeletonFactoryD1Ev.clean)
+    i._ZN6QDebug10maybeSpaceEv               0x000090a6   Section       24  qorganizerskeleton.o(i._ZN6QDebug10maybeSpaceEv)
+    i._ZN6QDebuglsEPKc                       0x000090be   Section       44  qorganizerskeleton.o(i._ZN6QDebuglsEPKc)
+    i._ZN6QDebuglsEPKc.clean                 0x000090ea   Section       10  qorganizerskeleton.o(i._ZN6QDebuglsEPKc.clean)
+    i._ZN6QDebuglsEj                         0x000090f4   Section       22  qorganizerskeleton.o(i._ZN6QDebuglsEj)
+    i._ZN7QStringC1ERK13QLatin1String        0x0000910a   Section       26  qorganizerskeleton.o(i._ZN7QStringC1ERK13QLatin1String)
+    i._ZN7QStringC1ERKS_                     0x00009124   Section       22  qorganizerskeleton.o(i._ZN7QStringC1ERKS_)
+    i._ZN7QStringD1Ev                        0x0000913a   Section       24  qorganizerskeleton.o(i._ZN7QStringD1Ev)
+    i._ZNK15QBasicAtomicIntneEi              0x00009152   Section       16  qorganizerskeleton.o(i._ZNK15QBasicAtomicIntneEi)
+    i._ZNK7QString7isEmptyEv                 0x00009162   Section       18  qorganizerskeleton.o(i._ZNK7QString7isEmptyEv)
+    i._ZNK9QListData3endEv                   0x00009174   Section       16  qorganizerskeleton.o(i._ZNK9QListData3endEv)
+    i._ZNK9QListData5beginEv                 0x00009184   Section       16  qorganizerskeleton.o(i._ZNK9QListData5beginEv)
+    i._ZThn8_N29QOrganizerItemSkeletonFactoryD0Ev 0x00009194   Section       14  moc_qorganizerskeleton_p.o(i._ZThn8_N29QOrganizerItemSkeletonFactoryD0Ev)
+    i._ZThn8_N29QOrganizerItemSkeletonFactoryD1Ev 0x000091a2   Section       14  moc_qorganizerskeleton_p.o(i._ZThn8_N29QOrganizerItemSkeletonFactoryD1Ev)
+    i._ZdlPvS_                               0x000091b0   Section        2  qorganizerskeleton.o(i._ZdlPvS_)
+    i._ZnwjPv                                0x000091b2   Section        6  qorganizerskeleton.o(i._ZnwjPv)
+    t._Z20qForeachContainerNewI5QListIN10QtMobility14QOrganizerItemEEE17QForeachContainerIT_ERKS5_ 0x000091b8   Section      126  qorganizerskeleton.o(t._Z20qForeachContainerNewI5QListIN10QtMobility14QOrganizerItemEEE17QForeachContainerIT_ERKS5_)
+    t._Z20qForeachContainerNewI5QListIN10QtMobility14QOrganizerItemEEE17QForeachContainerIT_ERKS5_.clean 0x00009236   Section       10  qorganizerskeleton.o(t._Z20qForeachContainerNewI5QListIN10QtMobility14QOrganizerItemEEE17QForeachContainerIT_ERKS5_.clean)
+    t._ZN5QListI7QStringE13node_destructEPNS1_4NodeES3_ 0x00009240   Section       26  qorganizerskeleton.o(t._ZN5QListI7QStringE13node_destructEPNS1_4NodeES3_)
+    t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_ 0x0000925a   Section       36  qorganizerskeleton.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_)
+    t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_.clean 0x0000927e   Section       14  qorganizerskeleton.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_.clean)
+    t._ZN5QListI7QStringE18detach_helper_growEii 0x0000928c   Section      208  qorganizerskeleton.o(t._ZN5QListI7QStringE18detach_helper_growEii)
+    t._ZN5QListI7QStringE18detach_helper_growEii.clean 0x0000935c   Section       16  qorganizerskeleton.o(t._ZN5QListI7QStringE18detach_helper_growEii.clean)
+    t._ZN5QListI7QStringE4freeEPN9QListData4DataE 0x0000936c   Section       58  qorganizerskeleton.o(t._ZN5QListI7QStringE4freeEPN9QListData4DataE)
+    t._ZN5QListI7QStringE6appendERKS0_       0x000093a8   Section      120  qorganizerskeleton.o(t._ZN5QListI7QStringE6appendERKS0_)
+    t._ZN5QListI7QStringE6appendERKS0_.clean 0x00009420   Section       14  qorganizerskeleton.o(t._ZN5QListI7QStringE6appendERKS0_.clean)
+    t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_ 0x0000942e   Section       82  qorganizerskeleton.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_)
+    t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_.clean 0x00009480   Section       22  qorganizerskeleton.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_.clean)
+    t._ZN5QListI7QStringED1Ev                0x00009496   Section       32  qorganizerskeleton.o(t._ZN5QListI7QStringED1Ev)
+    t._ZN5QListIN10QtMobility14QOrganizerItemEE13detach_helperEi 0x000094b6   Section      176  qorganizerskeleton.o(t._ZN5QListIN10QtMobility14QOrganizerItemEE13detach_helperEi)
+    t._ZN5QListIN10QtMobility14QOrganizerItemEE13detach_helperEi.clean 0x00009566   Section       30  qorganizerskeleton.o(t._ZN5QListIN10QtMobility14QOrganizerItemEE13detach_helperEi.clean)
+    t._ZN5QListIN10QtMobility14QOrganizerItemEE13detach_helperEv 0x00009584   Section       16  qorganizerskeleton.o(t._ZN5QListIN10QtMobility14QOrganizerItemEE13detach_helperEv)
+    t._ZN5QListIN10QtMobility14QOrganizerItemEE4freeEPN9QListData4DataE 0x00009594   Section       70  qorganizerskeleton.o(t._ZN5QListIN10QtMobility14QOrganizerItemEE4freeEPN9QListData4DataE)
+    t._ZN5QListIN10QtMobility14QOrganizerItemEEC1Ev 0x000095dc   Section       24  qorganizerskeleton.o(t._ZN5QListIN10QtMobility14QOrganizerItemEEC1Ev)
+    t._ZN5QListIN10QtMobility14QOrganizerItemEED1Ev 0x000095f4   Section       32  qorganizerskeleton.o(t._ZN5QListIN10QtMobility14QOrganizerItemEED1Ev)
+    t._ZN5QListIiE18detach_helper_growEii    0x00009614   Section      204  qorganizerskeleton.o(t._ZN5QListIiE18detach_helper_growEii)
+    t._ZN5QListIiE18detach_helper_growEii.clean 0x000096e0   Section       16  qorganizerskeleton.o(t._ZN5QListIiE18detach_helper_growEii.clean)
+    t._ZN5QListIiE4freeEPN9QListData4DataE   0x000096f0   Section       58  qorganizerskeleton.o(t._ZN5QListIiE4freeEPN9QListData4DataE)
+    t._ZN5QListIiE6appendERKi                0x0000972c   Section      100  qorganizerskeleton.o(t._ZN5QListIiE6appendERKi)
+    t._ZN5QListIiE6appendERKi.clean          0x00009790   Section       10  qorganizerskeleton.o(t._ZN5QListIiE6appendERKi.clean)
+    t._ZN5QListIiE9node_copyEPNS0_4NodeES2_S2_ 0x0000979a   Section       46  qorganizerskeleton.o(t._ZN5QListIiE9node_copyEPNS0_4NodeES2_S2_)
+    t._ZN5QListIiED1Ev                       0x000097c8   Section       32  qorganizerskeleton.o(t._ZN5QListIiED1Ev)
+    t._ZN8QPointerI7QObjectED1Ev             0x000097e8   Section       14  qorganizerskeleton.o(t._ZN8QPointerI7QObjectED1Ev)
+    t._ZNK17QForeachContainerI5QListIN10QtMobility14QOrganizerItemEEE9conditionEv 0x000097f6   Section       40  qorganizerskeleton.o(t._ZNK17QForeachContainerI5QListIN10QtMobility14QOrganizerItemEEE9conditionEv)
+    .extab._ZN29QOrganizerItemSkeletonFactoryD1Ev 0x00009820   Data           0  moc_qorganizerskeleton_p.o(.ARM.extab)
+    .extab.qt_plugin_instance                0x00009830   Data           0  qorganizerskeleton.o(.ARM.extab)
+    .extab._ZN29QOrganizerItemSkeletonFactory6engineERK4QMapI7QStringS1_EPN10QtMobility17QOrganizerManager5ErrorE 0x00009848   Data           0  qorganizerskeleton.o(.ARM.extab)
+    .extab._ZNK29QOrganizerItemSkeletonFactory18createItemEngineIdERK4QMapI7QStringS1_ERKS1_ 0x00009858   Data           0  qorganizerskeleton.o(.ARM.extab)
+    .extab._ZNK29QOrganizerItemSkeletonFactory24createCollectionEngineIdERK4QMapI7QStringS1_ERKS1_ 0x00009868   Data           0  qorganizerskeleton.o(.ARM.extab)
+    .extab._ZNK36QOrganizerCollectionSkeletonEngineId10managerUriEv 0x00009878   Data           0  qorganizerskeleton.o(.ARM.extab)
+    .extab._ZNK36QOrganizerCollectionSkeletonEngineId5cloneEv 0x00009890   Data           0  qorganizerskeleton.o(.ARM.extab)
+    .extab._ZNK30QOrganizerItemSkeletonEngineId10managerUriEv 0x000098a0   Data           0  qorganizerskeleton.o(.ARM.extab)
+    .extab._ZNK30QOrganizerItemSkeletonEngineId5cloneEv 0x000098b8   Data           0  qorganizerskeleton.o(.ARM.extab)
+    .extab._ZNK28QOrganizerItemSkeletonEngine7itemIdsERK9QDateTimeS2_RKN10QtMobility20QOrganizerItemFilterERK5QListINS3_23QOrganizerItemSortOrderEEPNS3_17QOrganizerManager5ErrorE 0x000098c8   Data           0  qorganizerskeleton.o(.ARM.extab)
+    .extab._ZNK28QOrganizerItemSkeletonEngine5itemsERK9QDateTimeS2_RKN10QtMobility20QOrganizerItemFilterERK5QListINS3_23QOrganizerItemSortOrderEERKNS3_23QOrganizerItemFetchHintEPNS3_17QOrganizerManager5ErrorE 0x000098f8   Data           0  qorganizerskeleton.o(.ARM.extab)
+    .extab._ZNK28QOrganizerItemSkeletonEngine18supportedDataTypesEv 0x00009920   Data           0  qorganizerskeleton.o(.ARM.extab)
+    .extab._ZNK28QOrganizerItemSkeletonEngine18supportedItemTypesEv 0x00009930   Data           0  qorganizerskeleton.o(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility14QOrganizerItemEE13detach_helperEi 0x000099a0   Data           0  qorganizerskeleton.o(.ARM.extab)
+    .extab._Z20qForeachContainerNewI5QListIN10QtMobility14QOrganizerItemEEE17QForeachContainerIT_ERKS5_ 0x000099e4   Data           0  qorganizerskeleton.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_ 0x000099f4   Data           0  qorganizerskeleton.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_ 0x00009a04   Data           0  qorganizerskeleton.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE18detach_helper_growEii 0x00009a28   Data           0  qorganizerskeleton.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE6appendERKS0_  0x00009a58   Data           0  qorganizerskeleton.o(.ARM.extab)
+    .extab._ZN6QDebuglsEPKc                  0x00009a88   Data           0  qorganizerskeleton.o(.ARM.extab)
+    .extab._ZN5QListIiE18detach_helper_growEii 0x00009a98   Data           0  qorganizerskeleton.o(.ARM.extab)
+    .extab._ZN5QListIiE6appendERKi           0x00009ac8   Data           0  qorganizerskeleton.o(.ARM.extab)
+    .constdata$1                             0x00009ae4   Data           0  moc_qorganizerskeleton_p.o(.constdata)
+    qt_meta_data_QOrganizerItemSkeletonFactory 0x00009ae4   Data          60  moc_qorganizerskeleton_p.o(.constdata)
+    .constdata                               0x00009ae4   Section      216  moc_qorganizerskeleton_p.o(.constdata)
+    qt_meta_stringdata_QOrganizerItemSkeletonFactory 0x00009b20   Data          31  moc_qorganizerskeleton_p.o(.constdata)
+    qt_meta_data_QOrganizerItemSkeletonEngine 0x00009b40   Data          60  moc_qorganizerskeleton_p.o(.constdata)
+    qt_meta_stringdata_QOrganizerItemSkeletonEngine 0x00009b7c   Data          30  moc_qorganizerskeleton_p.o(.constdata)
+    .constdata$1                             0x00009bbc   Data           0  qorganizerskeleton.o(.constdata)
+    qt_plugin_verification_data              0x00009bbc   Data          91  qorganizerskeleton.o(.constdata)
+    .constdata                               0x00009bbc   Section       91  qorganizerskeleton.o(.constdata)
+    .constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE 0x00009c18   Section        4  moc_qorganizerskeleton_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE 0x00009c1c   Section        4  moc_qorganizerskeleton_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE 0x00009c20   Section        4  moc_qorganizerskeleton_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE 0x00009c24   Section        4  moc_qorganizerskeleton_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE 0x00009c28   Section        4  moc_qorganizerskeleton_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE 0x00009c2c   Section        1  moc_qorganizerskeleton_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE 0x00009c30   Section        4  moc_qorganizerskeleton_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE 0x00009c34   Section        4  moc_qorganizerskeleton_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE 0x00009c38   Section        4  moc_qorganizerskeleton_p.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE 0x00009c3c   Section        4  moc_qorganizerskeleton_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE 0x00009c40   Section        4  moc_qorganizerskeleton_p.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE 0x00009c44   Section        4  moc_qorganizerskeleton_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE 0x00009c48   Section        4  moc_qorganizerskeleton_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE 0x00009c4c   Section        4  moc_qorganizerskeleton_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    .constdata__ZTI11QSharedData             0x00009c50   Section        8  qorganizerskeleton.o(.constdata__ZTI11QSharedData)
+    .constdata__ZTI28QOrganizerItemSkeletonEngine 0x00009c58   Section       12  moc_qorganizerskeleton_p.o(.constdata__ZTI28QOrganizerItemSkeletonEngine)
+    .constdata__ZTI29QOrganizerItemSkeletonFactory 0x00009c64   Section       32  moc_qorganizerskeleton_p.o(.constdata__ZTI29QOrganizerItemSkeletonFactory)
+    .constdata__ZTI30QOrganizerItemSkeletonEngineId 0x00009c84   Section       12  qorganizerskeleton.o(.constdata__ZTI30QOrganizerItemSkeletonEngineId)
+    .constdata__ZTI36QOrganizerCollectionSkeletonEngineId 0x00009c90   Section       12  qorganizerskeleton.o(.constdata__ZTI36QOrganizerCollectionSkeletonEngineId)
+    .constdata__ZTIN10QtMobility22QOrganizerItemEngineIdE 0x00009c9c   Section       24  qorganizerskeleton.o(.constdata__ZTIN10QtMobility22QOrganizerItemEngineIdE)
+    .constdata__ZTIN10QtMobility28QOrganizerCollectionEngineIdE 0x00009cb4   Section       24  qorganizerskeleton.o(.constdata__ZTIN10QtMobility28QOrganizerCollectionEngineIdE)
+    .constdata__ZTS11QSharedData             0x00009ccc   Section       14  qorganizerskeleton.o(.constdata__ZTS11QSharedData)
+    .constdata__ZTS28QOrganizerItemSkeletonEngine 0x00009cda   Section       31  moc_qorganizerskeleton_p.o(.constdata__ZTS28QOrganizerItemSkeletonEngine)
+    .constdata__ZTS29QOrganizerItemSkeletonFactory 0x00009cf9   Section       32  moc_qorganizerskeleton_p.o(.constdata__ZTS29QOrganizerItemSkeletonFactory)
+    .constdata__ZTS30QOrganizerItemSkeletonEngineId 0x00009d19   Section       33  qorganizerskeleton.o(.constdata__ZTS30QOrganizerItemSkeletonEngineId)
+    .constdata__ZTS36QOrganizerCollectionSkeletonEngineId 0x00009d3a   Section       39  qorganizerskeleton.o(.constdata__ZTS36QOrganizerCollectionSkeletonEngineId)
+    .constdata__ZTSN10QtMobility22QOrganizerItemEngineIdE 0x00009d61   Section       39  qorganizerskeleton.o(.constdata__ZTSN10QtMobility22QOrganizerItemEngineIdE)
+    .constdata__ZTSN10QtMobility28QOrganizerCollectionEngineIdE 0x00009d88   Section       45  qorganizerskeleton.o(.constdata__ZTSN10QtMobility28QOrganizerCollectionEngineIdE)
+    .constdata__ZTV28QOrganizerItemSkeletonEngine 0x00009db8   Section      188  moc_qorganizerskeleton_p.o(.constdata__ZTV28QOrganizerItemSkeletonEngine)
+    .constdata__ZTV29QOrganizerItemSkeletonFactory 0x00009e74   Section      108  moc_qorganizerskeleton_p.o(.constdata__ZTV29QOrganizerItemSkeletonFactory)
+    .constdata__ZTV30QOrganizerItemSkeletonEngineId 0x00009ee0   Section       44  qorganizerskeleton.o(.constdata__ZTV30QOrganizerItemSkeletonEngineId)
+    .constdata__ZTV36QOrganizerCollectionSkeletonEngineId 0x00009f0c   Section       44  qorganizerskeleton.o(.constdata__ZTV36QOrganizerCollectionSkeletonEngineId)
+    .constdata__ZTVN10QtMobility22QOrganizerItemEngineIdE 0x00009f38   Section       44  qorganizerskeleton.o(.constdata__ZTVN10QtMobility22QOrganizerItemEngineIdE)
+    .constdata__ZTVN10QtMobility28QOrganizerCollectionEngineIdE 0x00009f64   Section       44  qorganizerskeleton.o(.constdata__ZTVN10QtMobility28QOrganizerCollectionEngineIdE)
+    .ARM.exidx                               0x00009f90   Section        8  ucppinit.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  qorganizerskeleton.o(.data)
+    _ZGV_instance@qt_plugin_instance_0       0x00400000   Data           4  qorganizerskeleton.o(.data)
+    .data                                    0x00400000   Section       24  qorganizerskeleton.o(.data)
+    _instance@qt_plugin_instance_1           0x00400004   Data           4  qorganizerskeleton.o(.data)
+    _ZGVuri@_ZNK36QOrganizerCollectionSkeletonEngineId10managerUriEv_0 0x00400008   Data           4  qorganizerskeleton.o(.data)
+    uri@_ZNK36QOrganizerCollectionSkeletonEngineId10managerUriEv_1 0x0040000c   Data           4  qorganizerskeleton.o(.data)
+    _ZGVuri@_ZNK30QOrganizerItemSkeletonEngineId10managerUriEv_0 0x00400010   Data           4  qorganizerskeleton.o(.data)
+    uri@_ZNK30QOrganizerItemSkeletonEngineId10managerUriEv_1 0x00400014   Data           4  qorganizerskeleton.o(.data)
+    .data$0                                  0x00400018   Data           0  ucppfini.o(.data)
+    .data                                    0x00400018   Section        4  ucppfini.o(.data)
+    .data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE 0x0040001c   Section       12  moc_qorganizerskeleton_p.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    .bss$5                                   0x00400028   Data           0  ucppfini.o(.bss)
+    .bss                                     0x00400028   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$VFPv2$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$IEEEJ$EBA8$UX$FPIC$INDIRECT$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    QtCore{00040703}[2001b2dc].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtOrganizer{00010103}[2002bfcd].dll      0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    euser{000a0000}[100039e5].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    libc{00010001}[10207369].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    qtorganizer_skeleton{000a0000}[e68c3648].dll 0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    stdnew{000a0000}[20022178].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    qFree(void*)                              - Undefined Reference
+    _Z5qFreePv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QtMobility::QOrganizerItem::QOrganizerItem(const QtMobility::QOrganizerItem&)  - Undefined Reference
+    _ZN10QtMobility14QOrganizerItemC1ERKS0_@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerItem::~QOrganizerItem()  - Undefined Reference
+    _ZN10QtMobility14QOrganizerItemD1Ev@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManager::extractIds(const QList<QtMobility::QOrganizerItem>&)  - Undefined Reference
+    _ZN10QtMobility17QOrganizerManager10extractIdsERK5QListINS_14QOrganizerItemEE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerItemType::TypeJournal  - Undefined Reference
+    _ZN10QtMobility18QOrganizerItemType11TypeJournalE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerItemType::TypeTodoOccurrence  - Undefined Reference
+    _ZN10QtMobility18QOrganizerItemType18TypeTodoOccurrenceE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerItemType::TypeEventOccurrence  - Undefined Reference
+    _ZN10QtMobility18QOrganizerItemType19TypeEventOccurrenceE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerItemType::TypeNote  - Undefined Reference
+    _ZN10QtMobility18QOrganizerItemType8TypeNoteE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerItemType::TypeTodo  - Undefined Reference
+    _ZN10QtMobility18QOrganizerItemType8TypeTodoE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerItemType::TypeEvent  - Undefined Reference
+    _ZN10QtMobility18QOrganizerItemType9TypeEventE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::removeItem(const QtMobility::QOrganizerItemId&, QtMobility::QOrganizerManager::Error*)  - Undefined Reference
+    _ZN10QtMobility23QOrganizerManagerEngine10removeItemERKNS_16QOrganizerItemIdEPNS_17QOrganizerManager5ErrorE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::testFilter(const QtMobility::QOrganizerItemFilter&, const QtMobility::QOrganizerItem&)  - Undefined Reference
+    _ZN10QtMobility23QOrganizerManagerEngine10testFilterERKNS_20QOrganizerItemFilterERKNS_14QOrganizerItemE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN10QtMobility23QOrganizerManagerEngine11qt_metacallEN11QMetaObject4CallEiPPv@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::qt_metacast(const char*)  - Undefined Reference
+    _ZN10QtMobility23QOrganizerManagerEngine11qt_metacastEPKc@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::removeItems(const QList<QtMobility::QOrganizerItemId>&, QMap<int, QtMobility::QOrganizerManager::Error>*, QtMobility::QOrganizerManager::Error*)  - Undefined Reference
+    _ZN10QtMobility23QOrganizerManagerEngine11removeItemsERK5QListINS_16QOrganizerItemIdEEP4QMapIiNS_17QOrganizerManager5ErrorEEPS8_@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::startRequest(QtMobility::QOrganizerAbstractRequest*)  - Undefined Reference
+    _ZN10QtMobility23QOrganizerManagerEngine12startRequestEPNS_25QOrganizerAbstractRequestE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::cancelRequest(QtMobility::QOrganizerAbstractRequest*)  - Undefined Reference
+    _ZN10QtMobility23QOrganizerManagerEngine13cancelRequestEPNS_25QOrganizerAbstractRequestE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::saveCollection(QtMobility::QOrganizerCollection*, QtMobility::QOrganizerManager::Error*)  - Undefined Reference
+    _ZN10QtMobility23QOrganizerManagerEngine14saveCollectionEPNS_20QOrganizerCollectionEPNS_17QOrganizerManager5ErrorE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::removeCollection(const QtMobility::QOrganizerCollectionId&, QtMobility::QOrganizerManager::Error*)  - Undefined Reference
+    _ZN10QtMobility23QOrganizerManagerEngine16removeCollectionERKNS_22QOrganizerCollectionIdEPNS_17QOrganizerManager5ErrorE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::requestDestroyed(QtMobility::QOrganizerAbstractRequest*)  - Undefined Reference
+    _ZN10QtMobility23QOrganizerManagerEngine16requestDestroyedEPNS_25QOrganizerAbstractRequestE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::staticMetaObject  - Undefined Reference
+    _ZN10QtMobility23QOrganizerManagerEngine16staticMetaObjectE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::isItemBetweenDates(const QtMobility::QOrganizerItem&, const QDateTime&, const QDateTime&)  - Undefined Reference
+    _ZN10QtMobility23QOrganizerManagerEngine18isItemBetweenDatesERKNS_14QOrganizerItemERK9QDateTimeS6_@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::saveDetailDefinition(const QtMobility::QOrganizerItemDetailDefinition&, const QString&, QtMobility::QOrganizerManager::Error*)  - Undefined Reference
+    _ZN10QtMobility23QOrganizerManagerEngine20saveDetailDefinitionERKNS_30QOrganizerItemDetailDefinitionERK7QStringPNS_17QOrganizerManager5ErrorE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::removeDetailDefinition(const QString&, const QString&, QtMobility::QOrganizerManager::Error*)  - Undefined Reference
+    _ZN10QtMobility23QOrganizerManagerEngine22removeDetailDefinitionERK7QStringS3_PNS_17QOrganizerManager5ErrorE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::waitForRequestFinished(QtMobility::QOrganizerAbstractRequest*, int)  - Undefined Reference
+    _ZN10QtMobility23QOrganizerManagerEngine22waitForRequestFinishedEPNS_25QOrganizerAbstractRequestEi@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::saveItem(QtMobility::QOrganizerItem*, QtMobility::QOrganizerManager::Error*)  - Undefined Reference
+    _ZN10QtMobility23QOrganizerManagerEngine8saveItemEPNS_14QOrganizerItemEPNS_17QOrganizerManager5ErrorE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::addSorted(QList<QtMobility::QOrganizerItem>*, const QtMobility::QOrganizerItem&, QList<QtMobility::QOrganizerItemSortOrder>&)  - Undefined Reference
+    _ZN10QtMobility23QOrganizerManagerEngine9addSortedEP5QListINS_14QOrganizerItemEERKS2_RKS1_INS_23QOrganizerItemSortOrderEE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::saveItems(QList<QtMobility::QOrganizerItem>*, QMap<int, QtMobility::QOrganizerManager::Error>*, QtMobility::QOrganizerManager::Error*)  - Undefined Reference
+    _ZN10QtMobility23QOrganizerManagerEngine9saveItemsEP5QListINS_14QOrganizerItemEEP4QMapIiNS_17QOrganizerManager5ErrorEEPS7_@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngineFactory::~QOrganizerManagerEngineFactory__sub_object()  - Undefined Reference
+    _ZN10QtMobility30QOrganizerManagerEngineFactoryD2Ev@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QMetaObject::changeGuard(QObject**, QObject*)  - Undefined Reference
+    _ZN11QMetaObject11changeGuardEPP7QObjectS1_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::removeGuard(QObject**)       - Undefined Reference
+    _ZN11QMetaObject11removeGuardEPP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::operator <<(const QString&)  - Undefined Reference
+    _ZN11QTextStreamlsERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::operator <<(char)            - Undefined Reference
+    _ZN11QTextStreamlsEc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::operator <<(unsigned)        - Undefined Reference
+    _ZN11QTextStreamlsEj@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    User::LockedDec(int&)                     - Undefined Reference
+    _ZN4User9LockedDecERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::LockedInc(int&)                     - Undefined Reference
+    _ZN4User9LockedIncERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QObject::childEvent(QChildEvent*)         - Undefined Reference
+    _ZN7QObject10childEventEP11QChildEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::timerEvent(QTimerEvent*)         - Undefined Reference
+    _ZN7QObject10timerEventEP11QTimerEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::customEvent(QEvent*)             - Undefined Reference
+    _ZN7QObject11customEventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::eventFilter(QObject*, QEvent*)   - Undefined Reference
+    _ZN7QObject11eventFilterEPS_P6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN7QObject11qt_metacallEN11QMetaObject4CallEiPPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::qt_metacast(const char*)         - Undefined Reference
+    _ZN7QObject11qt_metacastEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connectNotify(const char*)       - Undefined Reference
+    _ZN7QObject13connectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::disconnectNotify(const char*)    - Undefined Reference
+    _ZN7QObject16disconnectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::staticMetaObject                 - Undefined Reference
+    _ZN7QObject16staticMetaObjectE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::event(QEvent*)                   - Undefined Reference
+    _ZN7QObject5eventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::QObject(QObject*)                - Undefined Reference
+    _ZN7QObjectC1EPS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::~QObject()                       - Undefined Reference
+    _ZN7QObjectD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromLatin1(const char*, int)     - Undefined Reference
+    _ZN7QString10fromLatin1EPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromLatin1_helper(const char*, int)  - Undefined Reference
+    _ZN7QString17fromLatin1_helperEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::free(QString::Data*)             - Undefined Reference
+    _ZN7QString4freeEPNS_4DataE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::number(unsigned, int)            - Undefined Reference
+    _ZN7QString6numberEji@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromAscii(const char*, int)      - Undefined Reference
+    _ZN7QString9fromAsciiEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMapData::shared_null                     - Undefined Reference
+    _ZN8QMapData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach_grow(int*, int)         - Undefined Reference
+    _ZN9QListData11detach_growEPii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::shared_null                    - Undefined Reference
+    _ZN9QListData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::append()                       - Undefined Reference
+    _ZN9QListData6appendEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach(int)                    - Undefined Reference
+    _ZN9QListData6detachEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::collection(const QtMobility::QOrganizerCollectionId&, QtMobility::QOrganizerManager::Error*) const  - Undefined Reference
+    _ZNK10QtMobility23QOrganizerManagerEngine10collectionERKNS_22QOrganizerCollectionIdEPNS_17QOrganizerManager5ErrorE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::collections(QtMobility::QOrganizerManager::Error*) const  - Undefined Reference
+    _ZNK10QtMobility23QOrganizerManagerEngine11collectionsEPNS_17QOrganizerManager5ErrorE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::validateItem(const QtMobility::QOrganizerItem&, QtMobility::QOrganizerManager::Error*) const  - Undefined Reference
+    _ZNK10QtMobility23QOrganizerManagerEngine12validateItemERKNS_14QOrganizerItemEPNS_17QOrganizerManager5ErrorE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::compatibleItem(const QtMobility::QOrganizerItem&, QtMobility::QOrganizerManager::Error*) const  - Undefined Reference
+    _ZNK10QtMobility23QOrganizerManagerEngine14compatibleItemERKNS_14QOrganizerItemEPNS_17QOrganizerManager5ErrorE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::itemsForExport(const QDateTime&, const QDateTime&, const QtMobility::QOrganizerItemFilter&, const QList<QtMobility::QOrganizerItemSortOrder>&, const QtMobility::QOrganizerItemFetchHint&, QtMobility::QOrganizerManager::Error*) const  - Undefined Reference
+    _ZNK10QtMobility23QOrganizerManagerEngine14itemsForExportERK9QDateTimeS3_RKNS_20QOrganizerItemFilterERK5QListINS_23QOrganizerItemSortOrderEERKNS_23QOrganizerItemFetchHintEPNS_17QOrganizerManager5ErrorE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::itemOccurrences(const QtMobility::QOrganizerItem&, const QDateTime&, const QDateTime&, int, const QtMobility::QOrganizerItemFetchHint&, QtMobility::QOrganizerManager::Error*) const  - Undefined Reference
+    _ZNK10QtMobility23QOrganizerManagerEngine15itemOccurrencesERKNS_14QOrganizerItemERK9QDateTimeS6_iRKNS_23QOrganizerItemFetchHintEPNS_17QOrganizerManager5ErrorE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::detailDefinition(const QString&, const QString&, QtMobility::QOrganizerManager::Error*) const  - Undefined Reference
+    _ZNK10QtMobility23QOrganizerManagerEngine16detailDefinitionERK7QStringS3_PNS_17QOrganizerManager5ErrorE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::defaultCollection(QtMobility::QOrganizerManager::Error*) const  - Undefined Reference
+    _ZNK10QtMobility23QOrganizerManagerEngine17defaultCollectionEPNS_17QOrganizerManager5ErrorE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::detailDefinitions(const QString&, QtMobility::QOrganizerManager::Error*) const  - Undefined Reference
+    _ZNK10QtMobility23QOrganizerManagerEngine17detailDefinitionsERK7QStringPNS_17QOrganizerManager5ErrorE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::validateCollection(const QtMobility::QOrganizerCollection&, QtMobility::QOrganizerManager::Error*) const  - Undefined Reference
+    _ZNK10QtMobility23QOrganizerManagerEngine18validateCollectionERKNS_20QOrganizerCollectionEPNS_17QOrganizerManager5ErrorE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::validateDefinition(const QtMobility::QOrganizerItemDetailDefinition&, QtMobility::QOrganizerManager::Error*) const  - Undefined Reference
+    _ZNK10QtMobility23QOrganizerManagerEngine18validateDefinitionERKNS_30QOrganizerItemDetailDefinitionEPNS_17QOrganizerManager5ErrorE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::compatibleCollection(const QtMobility::QOrganizerCollection&, QtMobility::QOrganizerManager::Error*) const  - Undefined Reference
+    _ZNK10QtMobility23QOrganizerManagerEngine20compatibleCollectionERKNS_20QOrganizerCollectionEPNS_17QOrganizerManager5ErrorE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::item(const QtMobility::QOrganizerItemId&, const QtMobility::QOrganizerItemFetchHint&, QtMobility::QOrganizerManager::Error*) const  - Undefined Reference
+    _ZNK10QtMobility23QOrganizerManagerEngine4itemERKNS_16QOrganizerItemIdERKNS_23QOrganizerItemFetchHintEPNS_17QOrganizerManager5ErrorE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QtMobility::QOrganizerManagerEngineFactory::supportedImplementationVersions() const  - Undefined Reference
+    _ZNK10QtMobility30QOrganizerManagerEngineFactory31supportedImplementationVersionsEv@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    QString::toUInt(bool*, int) const         - Undefined Reference
+    _ZNK7QString6toUIntEPbi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for QObject                      - Undefined Reference
+    _ZTI7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for QtMobility::QOrganizerManagerEngine  - Undefined Reference
+    _ZTIN10QtMobility23QOrganizerManagerEngineE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    typeinfo for QtMobility::QOrganizerManagerEngineFactory  - Undefined Reference
+    _ZTIN10QtMobility30QOrganizerManagerEngineFactoryE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    vtable for QtMobility::QOrganizerManagerEngine  - Undefined Reference
+    _ZTVN10QtMobility23QOrganizerManagerEngineE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    vtable for QtMobility::QOrganizerManagerEngineFactory  - Undefined Reference
+    _ZTVN10QtMobility30QOrganizerManagerEngineFactoryE@QtOrganizer{00010103}[2002bfcd].dll  - Undefined Reference
+    vtable for __cxxabiv1::__class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv117__class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv120__si_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    vtable for __cxxabiv1::__vmi_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv121__vmi_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    operator delete (void*)                   - Undefined Reference
+    _ZdlPv@stdnew{000a0000}[20022178].dll     - Undefined Reference
+    operator new(unsigned)                    - Undefined Reference
+    _Znwj@stdnew{000a0000}[20022178].dll      - Undefined Reference
+    __aeabi_memcpy4                           - Undefined Reference
+    __aeabi_memcpy4@drtaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_unwind_cpp_pr0                    - Undefined Reference
+    __aeabi_unwind_cpp_pr0@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_begin_catch                         - Undefined Reference
+    __cxa_begin_catch@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_end_catch                           - Undefined Reference
+    __cxa_end_catch@drtaeabi{000a0000}.dll    - Undefined Reference
+    __cxa_end_cleanup                         - Undefined Reference
+    __cxa_end_cleanup@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_abort                         - Undefined Reference
+    __cxa_guard_abort@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_acquire                       - Undefined Reference
+    __cxa_guard_acquire@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_release                       - Undefined Reference
+    __cxa_guard_release@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_pure_virtual                        - Undefined Reference
+    __cxa_pure_virtual@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_rethrow                             - Undefined Reference
+    __cxa_rethrow@drtaeabi{000a0000}.dll      - Undefined Reference
+    strcmp                                    - Undefined Reference
+    strcmp@libc{00010001}[10207369].dll       - Undefined Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      52  ucppinit.o(.emb_text)
+    std::nothrow                             0x0000805c   ARM Code       0  ucppinit.o(.emb_text)
+    __PLT                                    0x0000805c   ARM Code       0  anon$$obj.o(.plt)
+    QOrganizerItemSkeletonFactory::getStaticMetaObject() 0x0000822d   Thumb Code     4  moc_qorganizerskeleton_p.o(.text)
+    QOrganizerItemSkeletonFactory::metaObject() const 0x00008231   Thumb Code    28  moc_qorganizerskeleton_p.o(.text)
+    QOrganizerItemSkeletonFactory::qt_metacast(const char*) 0x0000824d   Thumb Code    76  moc_qorganizerskeleton_p.o(.text)
+    QOrganizerItemSkeletonFactory::qt_metacall(QMetaObject::Call, int, void**) 0x00008299   Thumb Code    36  moc_qorganizerskeleton_p.o(.text)
+    QOrganizerItemSkeletonEngine::getStaticMetaObject() 0x000082bd   Thumb Code     4  moc_qorganizerskeleton_p.o(.text)
+    QOrganizerItemSkeletonEngine::metaObject() const 0x000082c1   Thumb Code    28  moc_qorganizerskeleton_p.o(.text)
+    QOrganizerItemSkeletonEngine::qt_metacast(const char*) 0x000082dd   Thumb Code    42  moc_qorganizerskeleton_p.o(.text)
+    QOrganizerItemSkeletonEngine::qt_metacall(QMetaObject::Call, int, void**) 0x00008307   Thumb Code    36  moc_qorganizerskeleton_p.o(.text)
+    qt_plugin_query_verification_data        0x00008391   Thumb Code     4  qorganizerskeleton.o(.text)
+    qt_plugin_instance                       0x00008395   Thumb Code   142  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonFactory::engine(const QMap<QString, QString>&, QtMobility::QOrganizerManager::Error*) 0x00008423   Thumb Code    86  qorganizerskeleton.o(.text)
+    thunk{-8} to QOrganizerItemSkeletonFactory::engine(const QMap<QString, QString>&, QtMobility::QOrganizerManager::Error*) 0x00008479   Thumb Code    22  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngineId::QOrganizerItemSkeletonEngineId() 0x0000848f   Thumb Code    32  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngineId::QOrganizerItemSkeletonEngineId__sub_object() 0x0000848f   Thumb Code     0  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonFactory::createItemEngineId(const QMap<QString, QString>&, const QString&) const 0x000084af   Thumb Code    70  qorganizerskeleton.o(.text)
+    thunk{-8} to QOrganizerItemSkeletonFactory::createItemEngineId(const QMap<QString, QString>&, const QString&) const 0x000084f5   Thumb Code    22  qorganizerskeleton.o(.text)
+    QOrganizerCollectionSkeletonEngineId::QOrganizerCollectionSkeletonEngineId() 0x0000850b   Thumb Code    32  qorganizerskeleton.o(.text)
+    QOrganizerCollectionSkeletonEngineId::QOrganizerCollectionSkeletonEngineId__sub_object() 0x0000850b   Thumb Code     0  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonFactory::createCollectionEngineId(const QMap<QString, QString>&, const QString&) const 0x0000852b   Thumb Code    70  qorganizerskeleton.o(.text)
+    thunk{-8} to QOrganizerItemSkeletonFactory::createCollectionEngineId(const QMap<QString, QString>&, const QString&) const 0x00008571   Thumb Code    22  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonFactory::managerName() const 0x00008587   Thumb Code    24  qorganizerskeleton.o(.text)
+    thunk{-8} to QOrganizerItemSkeletonFactory::managerName() const 0x0000859f   Thumb Code    18  qorganizerskeleton.o(.text)
+    QOrganizerCollectionSkeletonEngineId::QOrganizerCollectionSkeletonEngineId(unsigned) 0x000085b1   Thumb Code    32  qorganizerskeleton.o(.text)
+    QOrganizerCollectionSkeletonEngineId::QOrganizerCollectionSkeletonEngineId__sub_object(unsigned) 0x000085b1   Thumb Code     0  qorganizerskeleton.o(.text)
+    QOrganizerCollectionSkeletonEngineId::~QOrganizerCollectionSkeletonEngineId() 0x000085d1   Thumb Code     4  qorganizerskeleton.o(.text)
+    QOrganizerCollectionSkeletonEngineId::~QOrganizerCollectionSkeletonEngineId__sub_object() 0x000085d1   Thumb Code     0  qorganizerskeleton.o(.text)
+    QOrganizerCollectionSkeletonEngineId::~QOrganizerCollectionSkeletonEngineId__deallocating() 0x000085d5   Thumb Code    22  qorganizerskeleton.o(.text)
+    QOrganizerCollectionSkeletonEngineId::QOrganizerCollectionSkeletonEngineId(const QOrganizerCollectionSkeletonEngineId&) 0x000085eb   Thumb Code    34  qorganizerskeleton.o(.text)
+    QOrganizerCollectionSkeletonEngineId::QOrganizerCollectionSkeletonEngineId__sub_object(const QOrganizerCollectionSkeletonEngineId&) 0x000085eb   Thumb Code     0  qorganizerskeleton.o(.text)
+    QOrganizerCollectionSkeletonEngineId::isEqualTo(const QtMobility::QOrganizerCollectionEngineId*) const 0x0000860d   Thumb Code    18  qorganizerskeleton.o(.text)
+    QOrganizerCollectionSkeletonEngineId::isLessThan(const QtMobility::QOrganizerCollectionEngineId*) const 0x0000861f   Thumb Code    18  qorganizerskeleton.o(.text)
+    QOrganizerCollectionSkeletonEngineId::managerUri() const 0x00008631   Thumb Code    78  qorganizerskeleton.o(.text)
+    QOrganizerCollectionSkeletonEngineId::clone() const 0x0000867f   Thumb Code    52  qorganizerskeleton.o(.text)
+    QOrganizerCollectionSkeletonEngineId::toString() const 0x000086b3   Thumb Code    18  qorganizerskeleton.o(.text)
+    QOrganizerCollectionSkeletonEngineId::debugStreamOut(QDebug&) const 0x000086c5   Thumb Code    54  qorganizerskeleton.o(.text)
+    QOrganizerCollectionSkeletonEngineId::hash() const 0x000086fb   Thumb Code     8  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngineId::QOrganizerItemSkeletonEngineId(unsigned) 0x00008703   Thumb Code    32  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngineId::QOrganizerItemSkeletonEngineId__sub_object(unsigned) 0x00008703   Thumb Code     0  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngineId::~QOrganizerItemSkeletonEngineId() 0x00008723   Thumb Code     4  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngineId::~QOrganizerItemSkeletonEngineId__sub_object() 0x00008723   Thumb Code     0  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngineId::~QOrganizerItemSkeletonEngineId__deallocating() 0x00008727   Thumb Code   146  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngineId::QOrganizerItemSkeletonEngineId(const QOrganizerItemSkeletonEngineId&) 0x000087b9   Thumb Code    34  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngineId::QOrganizerItemSkeletonEngineId__sub_object(const QOrganizerItemSkeletonEngineId&) 0x000087b9   Thumb Code     0  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngineId::isEqualTo(const QtMobility::QOrganizerItemEngineId*) const 0x000087db   Thumb Code    18  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngineId::isLessThan(const QtMobility::QOrganizerItemEngineId*) const 0x000087ed   Thumb Code    18  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngineId::managerUri() const 0x000087ff   Thumb Code    72  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngineId::clone() const 0x00008847   Thumb Code    52  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngineId::toString() const 0x0000887b   Thumb Code    18  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngineId::debugStreamOut(QDebug&) const 0x0000888d   Thumb Code    54  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngineId::hash() const 0x000088c3   Thumb Code     8  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngine::~QOrganizerItemSkeletonEngine() 0x000088cb   Thumb Code    16  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngine::~QOrganizerItemSkeletonEngine__sub_object() 0x000088cb   Thumb Code     0  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngine::~QOrganizerItemSkeletonEngine__deallocating() 0x000088db   Thumb Code    22  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngine::managerName() const 0x000088f1   Thumb Code    24  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngine::managerParameters() const 0x00008909   Thumb Code    26  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngine::managerVersion() const 0x00008923   Thumb Code     6  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngine::itemOccurrences(const QtMobility::QOrganizerItem&, const QDateTime&, const QDateTime&, int, const QtMobility::QOrganizerItemFetchHint&, QtMobility::QOrganizerManager::Error*) const 0x00008929   Thumb Code    28  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngine::itemIds(const QDateTime&, const QDateTime&, const QtMobility::QOrganizerItemFilter&, const QList<QtMobility::QOrganizerItemSortOrder>&, QtMobility::QOrganizerManager::Error*) const 0x00008945   Thumb Code   178  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngine::items(const QDateTime&, const QDateTime&, const QtMobility::QOrganizerItemFilter&, const QList<QtMobility::QOrganizerItemSortOrder>&, const QtMobility::QOrganizerItemFetchHint&, QtMobility::QOrganizerManager::Error*) const 0x000089f7   Thumb Code   170  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngine::item(const QtMobility::QOrganizerItemId&, const QtMobility::QOrganizerItemFetchHint&, QtMobility::QOrganizerManager::Error*) const 0x00008aa1   Thumb Code    30  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngine::saveItems(QList<QtMobility::QOrganizerItem>*, QMap<int, QtMobility::QOrganizerManager::Error>*, QtMobility::QOrganizerManager::Error*) 0x00008abf   Thumb Code    24  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngine::removeItems(const QList<QtMobility::QOrganizerItemId>&, QMap<int, QtMobility::QOrganizerManager::Error>*, QtMobility::QOrganizerManager::Error*) 0x00008ad7   Thumb Code    24  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngine::detailDefinitions(const QString&, QtMobility::QOrganizerManager::Error*) const 0x00008aef   Thumb Code    24  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngine::detailDefinition(const QString&, const QString&, QtMobility::QOrganizerManager::Error*) const 0x00008b07   Thumb Code    30  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngine::saveDetailDefinition(const QtMobility::QOrganizerItemDetailDefinition&, const QString&, QtMobility::QOrganizerManager::Error*) 0x00008b25   Thumb Code    24  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngine::removeDetailDefinition(const QString&, const QString&, QtMobility::QOrganizerManager::Error*) 0x00008b3d   Thumb Code    24  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngine::defaultCollection(QtMobility::QOrganizerManager::Error*) const 0x00008b55   Thumb Code    20  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngine::collection(const QtMobility::QOrganizerCollectionId&, QtMobility::QOrganizerManager::Error*) const 0x00008b69   Thumb Code    88  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngine::collections(QtMobility::QOrganizerManager::Error*) const 0x00008bc1   Thumb Code    20  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngine::saveCollection(QtMobility::QOrganizerCollection*, QtMobility::QOrganizerManager::Error*) 0x00008bd5   Thumb Code    20  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngine::removeCollection(const QtMobility::QOrganizerCollectionId&, QtMobility::QOrganizerManager::Error*) 0x00008be9   Thumb Code    20  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngine::hasFeature(QtMobility::QOrganizerManager::ManagerFeature, const QString&) const 0x00008bfd   Thumb Code    36  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngine::isFilterSupported(const QtMobility::QOrganizerItemFilter&) const 0x00008c21   Thumb Code    10  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngine::supportedDataTypes() const 0x00008c2b   Thumb Code    78  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngine::supportedItemTypes() const 0x00008c79   Thumb Code   210  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngine::requestDestroyed(QtMobility::QOrganizerAbstractRequest*) 0x00008d4b   Thumb Code    16  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngine::startRequest(QtMobility::QOrganizerAbstractRequest*) 0x00008d5b   Thumb Code    16  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngine::cancelRequest(QtMobility::QOrganizerAbstractRequest*) 0x00008d6b   Thumb Code    16  qorganizerskeleton.o(.text)
+    QOrganizerItemSkeletonEngine::waitForRequestFinished(QtMobility::QOrganizerAbstractRequest*, int) 0x00008d7b   Thumb Code    20  qorganizerskeleton.o(.text)
+    __ARM_switch8                            0x00008dac   ARM Code      24  switch8.o(.text)
+    __rt_switch8                             0x00008dac   ARM Code       0  switch8.o(.text)
+    _E32Dll_Body                             0x00008dc4   ARM Code      76  uc_dll.o(.text)
+    __aeabi_atexit                           0x00008e14   ARM Code      40  ucppfini.o(.text)
+    __cxa_atexit                             0x00008e3c   ARM Code      64  ucppfini.o(.text)
+    __cxa_finalize                           0x00008e7c   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x00008eac   ARM Code      16  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x00008ec8   ARM Code       4  dllexp.o(.text)
+    QtMobility::QOrganizerItemEngineId::QOrganizerItemEngineId__sub_object() 0x00008fc9   Thumb Code    18  qorganizerskeleton.o(i._ZN10QtMobility22QOrganizerItemEngineIdC2Ev)
+    QtMobility::QOrganizerItemEngineId::~QOrganizerItemEngineId__deallocating() 0x00008fe1   Thumb Code    18  qorganizerskeleton.o(i._ZN10QtMobility22QOrganizerItemEngineIdD0Ev)
+    QtMobility::QOrganizerItemEngineId::~QOrganizerItemEngineId() 0x00008ff3   Thumb Code     0  qorganizerskeleton.o(i._ZN10QtMobility22QOrganizerItemEngineIdD2Ev)
+    QtMobility::QOrganizerItemEngineId::~QOrganizerItemEngineId__sub_object() 0x00008ff3   Thumb Code     2  qorganizerskeleton.o(i._ZN10QtMobility22QOrganizerItemEngineIdD2Ev)
+    QtMobility::QOrganizerCollectionEngineId::QOrganizerCollectionEngineId__sub_object() 0x00008ff5   Thumb Code    18  qorganizerskeleton.o(i._ZN10QtMobility28QOrganizerCollectionEngineIdC2Ev)
+    QtMobility::QOrganizerCollectionEngineId::~QOrganizerCollectionEngineId__deallocating() 0x0000900d   Thumb Code    18  qorganizerskeleton.o(i._ZN10QtMobility28QOrganizerCollectionEngineIdD0Ev)
+    QtMobility::QOrganizerCollectionEngineId::~QOrganizerCollectionEngineId() 0x0000901f   Thumb Code     0  qorganizerskeleton.o(i._ZN10QtMobility28QOrganizerCollectionEngineIdD2Ev)
+    QtMobility::QOrganizerCollectionEngineId::~QOrganizerCollectionEngineId__sub_object() 0x0000901f   Thumb Code     2  qorganizerskeleton.o(i._ZN10QtMobility28QOrganizerCollectionEngineIdD2Ev)
+    QStringList::~QStringList()              0x00009021   Thumb Code    14  qorganizerskeleton.o(i._ZN11QStringListD1Ev)
+    QStringList::~QStringList__sub_object()  0x00009021   Thumb Code     0  qorganizerskeleton.o(i._ZN11QStringListD1Ev)
+    QBasicAtomicInt::ref()                   0x0000902f   Thumb Code    24  qorganizerskeleton.o(i._ZN15QBasicAtomicInt3refEv)
+    QBasicAtomicInt::deref()                 0x00009047   Thumb Code    24  qorganizerskeleton.o(i._ZN15QBasicAtomicInt5derefEv)
+    QForeachContainer<QList<QtMobility::QOrganizerItem>>::~QForeachContainer() 0x0000905f   Thumb Code    14  qorganizerskeleton.o(i._ZN17QForeachContainerI5QListIN10QtMobility14QOrganizerItemEEED1Ev)
+    QForeachContainer<QList<QtMobility::QOrganizerItem>>::~QForeachContainer__sub_object() 0x0000905f   Thumb Code     0  qorganizerskeleton.o(i._ZN17QForeachContainerI5QListIN10QtMobility14QOrganizerItemEEED1Ev)
+    QOrganizerItemSkeletonFactory::~QOrganizerItemSkeletonFactory__deallocating() 0x0000906d   Thumb Code    22  moc_qorganizerskeleton_p.o(i._ZN29QOrganizerItemSkeletonFactoryD0Ev)
+    QOrganizerItemSkeletonFactory::~QOrganizerItemSkeletonFactory() 0x00009083   Thumb Code    26  moc_qorganizerskeleton_p.o(i._ZN29QOrganizerItemSkeletonFactoryD1Ev)
+    QOrganizerItemSkeletonFactory::~QOrganizerItemSkeletonFactory__sub_object() 0x00009083   Thumb Code     0  moc_qorganizerskeleton_p.o(i._ZN29QOrganizerItemSkeletonFactoryD1Ev)
+    QDebug::maybeSpace()                     0x000090a7   Thumb Code    24  qorganizerskeleton.o(i._ZN6QDebug10maybeSpaceEv)
+    QDebug::operator <<(const char*)         0x000090bf   Thumb Code    44  qorganizerskeleton.o(i._ZN6QDebuglsEPKc)
+    QDebug::operator <<(unsigned)            0x000090f5   Thumb Code    22  qorganizerskeleton.o(i._ZN6QDebuglsEj)
+    QString::QString(const QLatin1String&)   0x0000910b   Thumb Code    26  qorganizerskeleton.o(i._ZN7QStringC1ERK13QLatin1String)
+    QString::QString__sub_object(const QLatin1String&) 0x0000910b   Thumb Code     0  qorganizerskeleton.o(i._ZN7QStringC1ERK13QLatin1String)
+    QString::QString(const QString&)         0x00009125   Thumb Code    22  qorganizerskeleton.o(i._ZN7QStringC1ERKS_)
+    QString::QString__sub_object(const QString&) 0x00009125   Thumb Code     0  qorganizerskeleton.o(i._ZN7QStringC1ERKS_)
+    QString::~QString()                      0x0000913b   Thumb Code    24  qorganizerskeleton.o(i._ZN7QStringD1Ev)
+    QString::~QString__sub_object()          0x0000913b   Thumb Code     0  qorganizerskeleton.o(i._ZN7QStringD1Ev)
+    QBasicAtomicInt::operator !=(int) const  0x00009153   Thumb Code    16  qorganizerskeleton.o(i._ZNK15QBasicAtomicIntneEi)
+    QString::isEmpty() const                 0x00009163   Thumb Code    18  qorganizerskeleton.o(i._ZNK7QString7isEmptyEv)
+    QListData::end() const                   0x00009175   Thumb Code    16  qorganizerskeleton.o(i._ZNK9QListData3endEv)
+    QListData::begin() const                 0x00009185   Thumb Code    16  qorganizerskeleton.o(i._ZNK9QListData5beginEv)
+    thunk{-8} to QOrganizerItemSkeletonFactory::~QOrganizerItemSkeletonFactory__deallocating() 0x00009195   Thumb Code    14  moc_qorganizerskeleton_p.o(i._ZThn8_N29QOrganizerItemSkeletonFactoryD0Ev)
+    thunk{-8} to QOrganizerItemSkeletonFactory::~QOrganizerItemSkeletonFactory() 0x000091a3   Thumb Code    14  moc_qorganizerskeleton_p.o(i._ZThn8_N29QOrganizerItemSkeletonFactoryD1Ev)
+    operator delete (void*, void*)           0x000091b1   Thumb Code     2  qorganizerskeleton.o(i._ZdlPvS_)
+    operator new(unsigned, void*)            0x000091b3   Thumb Code     6  qorganizerskeleton.o(i._ZnwjPv)
+    qForeachContainerNew<QList<QtMobility::QOrganizerItem>>(const T1&) 0x000091b9   Thumb Code   126  qorganizerskeleton.o(t._Z20qForeachContainerNewI5QListIN10QtMobility14QOrganizerItemEEE17QForeachContainerIT_ERKS5_)
+    QList<QString>::node_destruct(QList<QString>::Node*, QList<QString>::Node*) 0x00009241   Thumb Code    26  qorganizerskeleton.o(t._ZN5QListI7QStringE13node_destructEPNS1_4NodeES3_)
+    QList<QString>::node_construct(QList<QString>::Node*, const QString&) 0x0000925b   Thumb Code    36  qorganizerskeleton.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_)
+    QList<QString>::detach_helper_grow(int, int) 0x0000928d   Thumb Code   208  qorganizerskeleton.o(t._ZN5QListI7QStringE18detach_helper_growEii)
+    QList<QString>::free(QListData::Data*)   0x0000936d   Thumb Code    58  qorganizerskeleton.o(t._ZN5QListI7QStringE4freeEPN9QListData4DataE)
+    QList<QString>::append(const QString&)   0x000093a9   Thumb Code   114  qorganizerskeleton.o(t._ZN5QListI7QStringE6appendERKS0_)
+    QList<QString>::node_copy(QList<QString>::Node*, QList<QString>::Node*, QList<QString>::Node*) 0x0000942f   Thumb Code    82  qorganizerskeleton.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_)
+    QList<QString>::~QList()                 0x00009497   Thumb Code    32  qorganizerskeleton.o(t._ZN5QListI7QStringED1Ev)
+    QList<QString>::~QList__sub_object()     0x00009497   Thumb Code     0  qorganizerskeleton.o(t._ZN5QListI7QStringED1Ev)
+    QList<QtMobility::QOrganizerItem>::detach_helper(int) 0x000094b7   Thumb Code   176  qorganizerskeleton.o(t._ZN5QListIN10QtMobility14QOrganizerItemEE13detach_helperEi)
+    QList<QtMobility::QOrganizerItem>::detach_helper() 0x00009585   Thumb Code    16  qorganizerskeleton.o(t._ZN5QListIN10QtMobility14QOrganizerItemEE13detach_helperEv)
+    QList<QtMobility::QOrganizerItem>::free(QListData::Data*) 0x00009595   Thumb Code    70  qorganizerskeleton.o(t._ZN5QListIN10QtMobility14QOrganizerItemEE4freeEPN9QListData4DataE)
+    QList<QtMobility::QOrganizerItem>::QList() 0x000095dd   Thumb Code    18  qorganizerskeleton.o(t._ZN5QListIN10QtMobility14QOrganizerItemEEC1Ev)
+    QList<QtMobility::QOrganizerItem>::QList__sub_object() 0x000095dd   Thumb Code     0  qorganizerskeleton.o(t._ZN5QListIN10QtMobility14QOrganizerItemEEC1Ev)
+    QList<QtMobility::QOrganizerItem>::~QList() 0x000095f5   Thumb Code    32  qorganizerskeleton.o(t._ZN5QListIN10QtMobility14QOrganizerItemEED1Ev)
+    QList<QtMobility::QOrganizerItem>::~QList__sub_object() 0x000095f5   Thumb Code     0  qorganizerskeleton.o(t._ZN5QListIN10QtMobility14QOrganizerItemEED1Ev)
+    QList<int>::detach_helper_grow(int, int) 0x00009615   Thumb Code   204  qorganizerskeleton.o(t._ZN5QListIiE18detach_helper_growEii)
+    QList<int>::free(QListData::Data*)       0x000096f1   Thumb Code    58  qorganizerskeleton.o(t._ZN5QListIiE4freeEPN9QListData4DataE)
+    QList<int>::append(const int&)           0x0000972d   Thumb Code    94  qorganizerskeleton.o(t._ZN5QListIiE6appendERKi)
+    QList<int>::node_copy(QList<int>::Node*, QList<int>::Node*, QList<int>::Node*) 0x0000979b   Thumb Code    46  qorganizerskeleton.o(t._ZN5QListIiE9node_copyEPNS0_4NodeES2_S2_)
+    QList<int>::~QList()                     0x000097c9   Thumb Code    32  qorganizerskeleton.o(t._ZN5QListIiED1Ev)
+    QList<int>::~QList__sub_object()         0x000097c9   Thumb Code     0  qorganizerskeleton.o(t._ZN5QListIiED1Ev)
+    QPointer<QObject>::~QPointer()           0x000097e9   Thumb Code    14  qorganizerskeleton.o(t._ZN8QPointerI7QObjectED1Ev)
+    QPointer<QObject>::~QPointer__sub_object() 0x000097e9   Thumb Code     0  qorganizerskeleton.o(t._ZN8QPointerI7QObjectED1Ev)
+    QForeachContainer<QList<QtMobility::QOrganizerItem>>::condition() const 0x000097f7   Thumb Code    40  qorganizerskeleton.o(t._ZNK17QForeachContainerI5QListIN10QtMobility14QOrganizerItemEEE9conditionEv)
+    QOrganizerItemSkeletonFactory::staticMetaObject 0x00009b9c   Data          16  moc_qorganizerskeleton_p.o(.constdata)
+    QOrganizerItemSkeletonEngine::staticMetaObject 0x00009bac   Data          16  moc_qorganizerskeleton_p.o(.constdata)
+    stlp_priv::_Integer_limits<signed char, (signed char)-128, (signed char)127, (int)-1, (bool)1>::digits 0x00009c18   Data           4  moc_qorganizerskeleton_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<bool, (bool)0, (bool)1, (int)1, (bool)0>::digits 0x00009c1c   Data           4  moc_qorganizerskeleton_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    stlp_priv::_Integer_limits<char, (char)128, (char)127, (int)-1, (bool)1>::digits 0x00009c20   Data           4  moc_qorganizerskeleton_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned char, (unsigned char)0, (unsigned char)255, (int)-1, (bool)1>::digits 0x00009c24   Data           4  moc_qorganizerskeleton_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::digits 0x00009c28   Data           4  moc_qorganizerskeleton_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::is_signed 0x00009c2c   Data           1  moc_qorganizerskeleton_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    stlp_priv::_Integer_limits<unsigned, (unsigned)0, (unsigned)4294967295, (int)-1, (bool)1>::digits 0x00009c30   Data           4  moc_qorganizerskeleton_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long, (long)-2147483648, (long)2147483647, (int)-1, (bool)1>::digits 0x00009c34   Data           4  moc_qorganizerskeleton_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long, (unsigned long)0, (unsigned long)4294967295, (int)-1, (bool)1>::digits 0x00009c38   Data           4  moc_qorganizerskeleton_p.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<short, (short)-32768, (short)32767, (int)-1, (bool)1>::digits 0x00009c3c   Data           4  moc_qorganizerskeleton_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned short, (unsigned short)0, (unsigned short)65535, (int)-1, (bool)1>::digits 0x00009c40   Data           4  moc_qorganizerskeleton_p.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<wchar_t, (wchar_t)0, (wchar_t)65535, (int)-1, (bool)1>::digits 0x00009c44   Data           4  moc_qorganizerskeleton_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long long, (long long)-9223372036854775808, (long long)9223372036854775807, (int)-1, (bool)1>::digits 0x00009c48   Data           4  moc_qorganizerskeleton_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long long, (unsigned long long)0, (unsigned long long)18446744073709551615, (int)-1, (bool)1>::digits 0x00009c4c   Data           4  moc_qorganizerskeleton_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    typeinfo for QSharedData                 0x00009c50   Data           8  qorganizerskeleton.o(.constdata__ZTI11QSharedData)
+    typeinfo for QOrganizerItemSkeletonEngine 0x00009c58   Data          12  moc_qorganizerskeleton_p.o(.constdata__ZTI28QOrganizerItemSkeletonEngine)
+    typeinfo for QOrganizerItemSkeletonFactory 0x00009c64   Data          32  moc_qorganizerskeleton_p.o(.constdata__ZTI29QOrganizerItemSkeletonFactory)
+    typeinfo for QOrganizerItemSkeletonEngineId 0x00009c84   Data          12  qorganizerskeleton.o(.constdata__ZTI30QOrganizerItemSkeletonEngineId)
+    typeinfo for QOrganizerCollectionSkeletonEngineId 0x00009c90   Data          12  qorganizerskeleton.o(.constdata__ZTI36QOrganizerCollectionSkeletonEngineId)
+    typeinfo for QtMobility::QOrganizerItemEngineId 0x00009c9c   Data          24  qorganizerskeleton.o(.constdata__ZTIN10QtMobility22QOrganizerItemEngineIdE)
+    typeinfo for QtMobility::QOrganizerCollectionEngineId 0x00009cb4   Data          24  qorganizerskeleton.o(.constdata__ZTIN10QtMobility28QOrganizerCollectionEngineIdE)
+    typeinfo name for QSharedData            0x00009ccc   Data          14  qorganizerskeleton.o(.constdata__ZTS11QSharedData)
+    typeinfo name for QOrganizerItemSkeletonEngine 0x00009cda   Data          31  moc_qorganizerskeleton_p.o(.constdata__ZTS28QOrganizerItemSkeletonEngine)
+    typeinfo name for QOrganizerItemSkeletonFactory 0x00009cf9   Data          32  moc_qorganizerskeleton_p.o(.constdata__ZTS29QOrganizerItemSkeletonFactory)
+    typeinfo name for QOrganizerItemSkeletonEngineId 0x00009d19   Data          33  qorganizerskeleton.o(.constdata__ZTS30QOrganizerItemSkeletonEngineId)
+    typeinfo name for QOrganizerCollectionSkeletonEngineId 0x00009d3a   Data          39  qorganizerskeleton.o(.constdata__ZTS36QOrganizerCollectionSkeletonEngineId)
+    typeinfo name for QtMobility::QOrganizerItemEngineId 0x00009d61   Data          39  qorganizerskeleton.o(.constdata__ZTSN10QtMobility22QOrganizerItemEngineIdE)
+    typeinfo name for QtMobility::QOrganizerCollectionEngineId 0x00009d88   Data          45  qorganizerskeleton.o(.constdata__ZTSN10QtMobility28QOrganizerCollectionEngineIdE)
+    vtable for QOrganizerItemSkeletonEngine  0x00009db8   Data         188  moc_qorganizerskeleton_p.o(.constdata__ZTV28QOrganizerItemSkeletonEngine)
+    vtable for QOrganizerItemSkeletonFactory 0x00009e74   Data         108  moc_qorganizerskeleton_p.o(.constdata__ZTV29QOrganizerItemSkeletonFactory)
+    vtable for QOrganizerItemSkeletonEngineId 0x00009ee0   Data          44  qorganizerskeleton.o(.constdata__ZTV30QOrganizerItemSkeletonEngineId)
+    vtable for QOrganizerCollectionSkeletonEngineId 0x00009f0c   Data          44  qorganizerskeleton.o(.constdata__ZTV36QOrganizerCollectionSkeletonEngineId)
+    vtable for QtMobility::QOrganizerItemEngineId 0x00009f38   Data          44  qorganizerskeleton.o(.constdata__ZTVN10QtMobility22QOrganizerItemEngineIdE)
+    vtable for QtMobility::QOrganizerCollectionEngineId 0x00009f64   Data          44  qorganizerskeleton.o(.constdata__ZTVN10QtMobility28QOrganizerCollectionEngineIdE)
+    .ARM.exidx$$Base                         0x00009f90   Number         0  ucppinit.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x0000a230   Number         0  qorganizerskeleton.o(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x0000a230   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    __dso_handle                             0x00400018   Data           4  ucppfini.o(.data)
+    std::_Atomic_swap_struct<(int)1>::_S_swap_lock 0x0040001c   Data          12  moc_qorganizerskeleton_p.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    dtor_rec                                 0x00400028   Data        2048  ucppfini.o(.bss)
+

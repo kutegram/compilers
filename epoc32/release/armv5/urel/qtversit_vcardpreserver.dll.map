@@ -1,0 +1,543 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1826.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-70.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtContacts{00010103}-51.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1830.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-73.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtContacts{00010103}-52.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2034.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  libc{00010000}-350.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtContacts{00010103}-539.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2082.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-670.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtContacts{00010103}-542.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2134.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-671.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtContacts{00010103}-62.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2141.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1767.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtVersit{00010103}-114.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2188.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1768.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtVersit{00010103}-115.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-274.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1773.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtVersit{00010103}-61.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-275.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1777.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtVersit{00010103}-62.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3097.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1784.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtVersit{00010103}-64.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3098.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1789.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtVersit{00010103}-65.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3609.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1794.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtVersit{00010103}-68.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3610.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1814.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  libstdcpp{00010000}-988.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3689.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtContacts{00010103}-48.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  libstdcpp{00010000}-992.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-187.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1763.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1760.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-188.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1764.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-155.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-190.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1766.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-158.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-184.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-183.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-180.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-186.o ABSOLUTE
+    ..\..\..\..\EPOC32\BUILD\s60\osext\mobileruntime\group\LIBSTDCPP\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\src\cedar\generic\base\e32\compsupp\DRTAEABI\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\src\cedar\generic\base\e32\euser\EDLL\ARMV5\urel\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    \EPOC32\BUILD\src\cedar\generic\base\e32\euser\EUSER\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBC\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBDL\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBM\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBPTHREAD\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \\EPOC32\\BUILD\\src\\cedar\\generic\\base\\e32\\euser\\EDLL\\ARMV5\\urel\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    \\src\\cedar\\generic\\base\\e32\\compsupp\\RVCT2_2\\ucppinit_aeabi.cpp 0x00000000   Number         0  ucppinit_aeabi.o ABSOLUTE
+    \dev\symb\SDKs\32\EPOC32\BUILD\iwmake\buildS60____PADDING________\src\QTCORE_DLL\ARMV6\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \dev\symb\SDKs\32\EPOC32\BUILD\iwmake\buildS60____PADDING________\src\QTGUI_DLL\ARMV6\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \s60\5.0\EPOC32\BUILD\scripts\5.0\qtmobility\QTCONTACTS_DLL\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \s60\5.0\EPOC32\BUILD\scripts\5.0\qtmobility\QTVERSIT_DLL\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \s60\5.0\EPOC32\BUILD\scripts\5.0\qtmobility\QTVERSIT_VCARDPRESERVER_DLL\ARMV5\urel\qtversit_vcardpreserver{000a0000}.s 0x00000000   Number         0  qtversit_vcardpreserver{000a0000}.exp ABSOLUTE
+    \scripts\5.0\qtmobility\build\Release\qtversit_vcardpreserver\moc\moc_vcardpreserver.cpp 0x00000000   Number         0  qtversit_vcardpreserver.in ABSOLUTE
+    \scripts\5.0\qtmobility\plugins\versit\vcardpreserver\vcardpreserver.cpp 0x00000000   Number         0  qtversit_vcardpreserver.in ABSOLUTE
+    \src\cedar\generic\base\e32\compsupp\RVCT2_2\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    \src\cedar\generic\base\e32\compsupp\RVCT2_2\ucppinit_aeabi.cpp 0x00000000   Number         0  ucppinit_aeabi.o ABSOLUTE
+    \src\cedar\generic\base\e32\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       72  ucppinit_aeabi.o(.emb_text)
+    skip                                     0x0000803c   ARM Code       0  ucppinit_aeabi.o(.emb_text)
+    loop                                     0x0000804c   ARM Code       0  ucppinit_aeabi.o(.emb_text)
+    fpinit                                   0x00008064   Data           0  ucppinit_aeabi.o(.emb_text)
+    base                                     0x00008068   Data           0  ucppinit_aeabi.o(.emb_text)
+    limit                                    0x0000806c   Data           0  ucppinit_aeabi.o(.emb_text)
+    .text                                    0x00008070   Section      188  qtversit_vcardpreserver.in(.text)
+    .text                                    0x0000812c   Section      968  qtversit_vcardpreserver.in(.text)
+    .text                                    0x000084f4   Section       40  uc_dll.o(.text)
+    .text                                    0x0000851c   Section      148  ucppfini.o(.text)
+    .text.clean                              0x000085b0   Section      184  qtversit_vcardpreserver.in(.text.clean)
+    ExportTable                              0x00008668   Section       16  qtversit_vcardpreserver{000a0000}.exp(ExportTable)
+    StubCode                                 0x00008678   Section        8  QtContacts{00010103}-48.o(StubCode)
+    theImportedSymbol                        0x0000867c   Data           0  QtContacts{00010103}-48.o(StubCode)
+    StubCode                                 0x00008680   Section        8  QtContacts{00010103}-51.o(StubCode)
+    theImportedSymbol                        0x00008684   Data           0  QtContacts{00010103}-51.o(StubCode)
+    StubCode                                 0x00008688   Section        8  QtContacts{00010103}-52.o(StubCode)
+    theImportedSymbol                        0x0000868c   Data           0  QtContacts{00010103}-52.o(StubCode)
+    StubCode                                 0x00008690   Section        8  QtContacts{00010103}-539.o(StubCode)
+    theImportedSymbol                        0x00008694   Data           0  QtContacts{00010103}-539.o(StubCode)
+    StubCode                                 0x00008698   Section        8  QtContacts{00010103}-542.o(StubCode)
+    theImportedSymbol                        0x0000869c   Data           0  QtContacts{00010103}-542.o(StubCode)
+    StubCode                                 0x000086a0   Section        8  QtContacts{00010103}-62.o(StubCode)
+    theImportedSymbol                        0x000086a4   Data           0  QtContacts{00010103}-62.o(StubCode)
+    StubCode                                 0x000086a8   Section        8  QtVersit{00010103}-114.o(StubCode)
+    theImportedSymbol                        0x000086ac   Data           0  QtVersit{00010103}-114.o(StubCode)
+    StubCode                                 0x000086b0   Section        8  QtVersit{00010103}-115.o(StubCode)
+    theImportedSymbol                        0x000086b4   Data           0  QtVersit{00010103}-115.o(StubCode)
+    StubCode                                 0x000086b8   Section        8  QtVersit{00010103}-61.o(StubCode)
+    theImportedSymbol                        0x000086bc   Data           0  QtVersit{00010103}-61.o(StubCode)
+    StubCode                                 0x000086c0   Section        8  QtVersit{00010103}-62.o(StubCode)
+    theImportedSymbol                        0x000086c4   Data           0  QtVersit{00010103}-62.o(StubCode)
+    StubCode                                 0x000086c8   Section        8  QtVersit{00010103}-64.o(StubCode)
+    theImportedSymbol                        0x000086cc   Data           0  QtVersit{00010103}-64.o(StubCode)
+    StubCode                                 0x000086d0   Section        8  QtVersit{00010103}-65.o(StubCode)
+    theImportedSymbol                        0x000086d4   Data           0  QtVersit{00010103}-65.o(StubCode)
+    StubCode                                 0x000086d8   Section        8  QtVersit{00010103}-68.o(StubCode)
+    theImportedSymbol                        0x000086dc   Data           0  QtVersit{00010103}-68.o(StubCode)
+    StubCode                                 0x000086e0   Section        8  libstdcpp{00010000}-988.o(StubCode)
+    theImportedSymbol                        0x000086e4   Data           0  libstdcpp{00010000}-988.o(StubCode)
+    StubCode                                 0x000086e8   Section        8  libstdcpp{00010000}-992.o(StubCode)
+    theImportedSymbol                        0x000086ec   Data           0  libstdcpp{00010000}-992.o(StubCode)
+    StubCode                                 0x000086f0   Section        8  QtCore{00040703}-1760.o(StubCode)
+    theImportedSymbol                        0x000086f4   Data           0  QtCore{00040703}-1760.o(StubCode)
+    StubCode                                 0x000086f8   Section        8  QtCore{00040703}-1763.o(StubCode)
+    theImportedSymbol                        0x000086fc   Data           0  QtCore{00040703}-1763.o(StubCode)
+    StubCode                                 0x00008700   Section        8  QtCore{00040703}-1764.o(StubCode)
+    theImportedSymbol                        0x00008704   Data           0  QtCore{00040703}-1764.o(StubCode)
+    StubCode                                 0x00008708   Section        8  QtCore{00040703}-1766.o(StubCode)
+    theImportedSymbol                        0x0000870c   Data           0  QtCore{00040703}-1766.o(StubCode)
+    StubCode                                 0x00008710   Section        8  QtCore{00040703}-1767.o(StubCode)
+    theImportedSymbol                        0x00008714   Data           0  QtCore{00040703}-1767.o(StubCode)
+    StubCode                                 0x00008718   Section        8  QtCore{00040703}-1768.o(StubCode)
+    theImportedSymbol                        0x0000871c   Data           0  QtCore{00040703}-1768.o(StubCode)
+    StubCode                                 0x00008720   Section        8  QtCore{00040703}-1773.o(StubCode)
+    theImportedSymbol                        0x00008724   Data           0  QtCore{00040703}-1773.o(StubCode)
+    StubCode                                 0x00008728   Section        8  QtCore{00040703}-1777.o(StubCode)
+    theImportedSymbol                        0x0000872c   Data           0  QtCore{00040703}-1777.o(StubCode)
+    StubCode                                 0x00008730   Section        8  QtCore{00040703}-1784.o(StubCode)
+    theImportedSymbol                        0x00008734   Data           0  QtCore{00040703}-1784.o(StubCode)
+    StubCode                                 0x00008738   Section        8  QtCore{00040703}-1789.o(StubCode)
+    theImportedSymbol                        0x0000873c   Data           0  QtCore{00040703}-1789.o(StubCode)
+    StubCode                                 0x00008740   Section        8  QtCore{00040703}-1794.o(StubCode)
+    theImportedSymbol                        0x00008744   Data           0  QtCore{00040703}-1794.o(StubCode)
+    StubCode                                 0x00008748   Section        8  QtCore{00040703}-1814.o(StubCode)
+    theImportedSymbol                        0x0000874c   Data           0  QtCore{00040703}-1814.o(StubCode)
+    StubCode                                 0x00008750   Section        8  QtCore{00040703}-1826.o(StubCode)
+    theImportedSymbol                        0x00008754   Data           0  QtCore{00040703}-1826.o(StubCode)
+    StubCode                                 0x00008758   Section        8  QtCore{00040703}-1830.o(StubCode)
+    theImportedSymbol                        0x0000875c   Data           0  QtCore{00040703}-1830.o(StubCode)
+    StubCode                                 0x00008760   Section        8  QtCore{00040703}-2034.o(StubCode)
+    theImportedSymbol                        0x00008764   Data           0  QtCore{00040703}-2034.o(StubCode)
+    StubCode                                 0x00008768   Section        8  QtCore{00040703}-2082.o(StubCode)
+    theImportedSymbol                        0x0000876c   Data           0  QtCore{00040703}-2082.o(StubCode)
+    StubCode                                 0x00008770   Section        8  QtCore{00040703}-2134.o(StubCode)
+    theImportedSymbol                        0x00008774   Data           0  QtCore{00040703}-2134.o(StubCode)
+    StubCode                                 0x00008778   Section        8  QtCore{00040703}-2141.o(StubCode)
+    theImportedSymbol                        0x0000877c   Data           0  QtCore{00040703}-2141.o(StubCode)
+    StubCode                                 0x00008780   Section        8  QtCore{00040703}-2188.o(StubCode)
+    theImportedSymbol                        0x00008784   Data           0  QtCore{00040703}-2188.o(StubCode)
+    StubCode                                 0x00008788   Section        8  QtCore{00040703}-274.o(StubCode)
+    theImportedSymbol                        0x0000878c   Data           0  QtCore{00040703}-274.o(StubCode)
+    StubCode                                 0x00008790   Section        8  QtCore{00040703}-275.o(StubCode)
+    theImportedSymbol                        0x00008794   Data           0  QtCore{00040703}-275.o(StubCode)
+    StubCode                                 0x00008798   Section        8  QtCore{00040703}-3097.o(StubCode)
+    theImportedSymbol                        0x0000879c   Data           0  QtCore{00040703}-3097.o(StubCode)
+    StubCode                                 0x000087a0   Section        8  QtCore{00040703}-3098.o(StubCode)
+    theImportedSymbol                        0x000087a4   Data           0  QtCore{00040703}-3098.o(StubCode)
+    StubCode                                 0x000087a8   Section        8  QtCore{00040703}-3609.o(StubCode)
+    theImportedSymbol                        0x000087ac   Data           0  QtCore{00040703}-3609.o(StubCode)
+    StubCode                                 0x000087b0   Section        8  QtCore{00040703}-3610.o(StubCode)
+    theImportedSymbol                        0x000087b4   Data           0  QtCore{00040703}-3610.o(StubCode)
+    StubCode                                 0x000087b8   Section        8  QtCore{00040703}-3689.o(StubCode)
+    theImportedSymbol                        0x000087bc   Data           0  QtCore{00040703}-3689.o(StubCode)
+    StubCode                                 0x000087c0   Section        8  QtCore{00040703}-70.o(StubCode)
+    theImportedSymbol                        0x000087c4   Data           0  QtCore{00040703}-70.o(StubCode)
+    StubCode                                 0x000087c8   Section        8  QtCore{00040703}-73.o(StubCode)
+    theImportedSymbol                        0x000087cc   Data           0  QtCore{00040703}-73.o(StubCode)
+    StubCode                                 0x000087d0   Section        8  libc{00010000}-350.o(StubCode)
+    theImportedSymbol                        0x000087d4   Data           0  libc{00010000}-350.o(StubCode)
+    StubCode                                 0x000087d8   Section        8  euser{000a0000}-670.o(StubCode)
+    theImportedSymbol                        0x000087dc   Data           0  euser{000a0000}-670.o(StubCode)
+    StubCode                                 0x000087e0   Section        8  euser{000a0000}-671.o(StubCode)
+    theImportedSymbol                        0x000087e4   Data           0  euser{000a0000}-671.o(StubCode)
+    StubCode                                 0x000087e8   Section        8  drtaeabi{000a0000}-155.o(StubCode)
+    theImportedSymbol                        0x000087ec   Data           0  drtaeabi{000a0000}-155.o(StubCode)
+    StubCode                                 0x000087f0   Section        8  drtaeabi{000a0000}-158.o(StubCode)
+    theImportedSymbol                        0x000087f4   Data           0  drtaeabi{000a0000}-158.o(StubCode)
+    StubCode                                 0x000087f8   Section        8  drtaeabi{000a0000}-180.o(StubCode)
+    theImportedSymbol                        0x000087fc   Data           0  drtaeabi{000a0000}-180.o(StubCode)
+    StubCode                                 0x00008800   Section        8  drtaeabi{000a0000}-183.o(StubCode)
+    theImportedSymbol                        0x00008804   Data           0  drtaeabi{000a0000}-183.o(StubCode)
+    StubCode                                 0x00008808   Section        8  drtaeabi{000a0000}-184.o(StubCode)
+    theImportedSymbol                        0x0000880c   Data           0  drtaeabi{000a0000}-184.o(StubCode)
+    StubCode                                 0x00008810   Section        8  drtaeabi{000a0000}-186.o(StubCode)
+    theImportedSymbol                        0x00008814   Data           0  drtaeabi{000a0000}-186.o(StubCode)
+    StubCode                                 0x00008818   Section        8  drtaeabi{000a0000}-187.o(StubCode)
+    theImportedSymbol                        0x0000881c   Data           0  drtaeabi{000a0000}-187.o(StubCode)
+    StubCode                                 0x00008820   Section        8  drtaeabi{000a0000}-188.o(StubCode)
+    theImportedSymbol                        0x00008824   Data           0  drtaeabi{000a0000}-188.o(StubCode)
+    StubCode                                 0x00008828   Section        8  drtaeabi{000a0000}-190.o(StubCode)
+    theImportedSymbol                        0x0000882c   Data           0  drtaeabi{000a0000}-190.o(StubCode)
+    i._ZN14VCardPreserverD0Ev                0x00008830   Section       12  qtversit_vcardpreserver.in(i._ZN14VCardPreserverD0Ev)
+    i._ZN14VCardPreserverD1Ev                0x0000883c   Section        2  qtversit_vcardpreserver.in(i._ZN14VCardPreserverD1Ev)
+    i._ZN15QBasicAtomicInt3refEv             0x0000883e   Section       18  qtversit_vcardpreserver.in(i._ZN15QBasicAtomicInt3refEv)
+    i._ZN15QBasicAtomicInt5derefEv           0x00008850   Section       18  qtversit_vcardpreserver.in(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN21VCardPreserverFactoryD0Ev         0x00008862   Section       16  qtversit_vcardpreserver.in(i._ZN21VCardPreserverFactoryD0Ev)
+    i._ZN21VCardPreserverFactoryD1Ev         0x00008872   Section        8  qtversit_vcardpreserver.in(i._ZN21VCardPreserverFactoryD1Ev)
+    i._ZN4QSetI7QStringED1Ev                 0x0000887a   Section        8  qtversit_vcardpreserver.in(i._ZN4QSetI7QStringED1Ev)
+    i._ZN7QStringC1ERK13QLatin1String        0x00008882   Section       20  qtversit_vcardpreserver.in(i._ZN7QStringC1ERK13QLatin1String)
+    i._ZN7QStringC1ERKS_                     0x00008896   Section       16  qtversit_vcardpreserver.in(i._ZN7QStringC1ERKS_)
+    i._ZN7QStringD1Ev                        0x000088a6   Section       24  qtversit_vcardpreserver.in(i._ZN7QStringD1Ev)
+    i._ZNK15QBasicAtomicIntneEi              0x000088be   Section       14  qtversit_vcardpreserver.in(i._ZNK15QBasicAtomicIntneEi)
+    i._ZNK7QString7isEmptyEv                 0x000088cc   Section       16  qtversit_vcardpreserver.in(i._ZNK7QString7isEmptyEv)
+    i._ZNK9QListData3endEv                   0x000088dc   Section       12  qtversit_vcardpreserver.in(i._ZNK9QListData3endEv)
+    i._ZNK9QListData5beginEv                 0x000088e8   Section       12  qtversit_vcardpreserver.in(i._ZNK9QListData5beginEv)
+    i._ZThn4_N14VCardPreserverD0Ev           0x000088f4   Section       10  qtversit_vcardpreserver.in(i._ZThn4_N14VCardPreserverD0Ev)
+    i._ZThn4_N14VCardPreserverD1Ev           0x000088fe   Section        2  qtversit_vcardpreserver.in(i._ZThn4_N14VCardPreserverD1Ev)
+    i._ZThn8_N21VCardPreserverFactoryD0Ev    0x00008900   Section       10  qtversit_vcardpreserver.in(i._ZThn8_N21VCardPreserverFactoryD0Ev)
+    i._ZThn8_N21VCardPreserverFactoryD1Ev    0x0000890a   Section       10  qtversit_vcardpreserver.in(i._ZThn8_N21VCardPreserverFactoryD1Ev)
+    i._ZdlPvS_                               0x00008914   Section        2  qtversit_vcardpreserver.in(i._ZdlPvS_)
+    i._ZnwjPv                                0x00008916   Section        4  qtversit_vcardpreserver.in(i._ZnwjPv)
+    t._ZN10QtMobilityeqILi7EEEbRK7QStringRKNS_15QLatin1ConstantIXT_EEE 0x0000891a   Section       12  qtversit_vcardpreserver.in(t._ZN10QtMobilityeqILi7EEEbRK7QStringRKNS_15QLatin1ConstantIXT_EEE)
+    t._ZN14QHashDummyNodeI7QString15QHashDummyValueEC1ERKS0_ 0x00008926   Section       12  qtversit_vcardpreserver.in(t._ZN14QHashDummyNodeI7QString15QHashDummyValueEC1ERKS0_)
+    t._ZN4QSetI7QStringE6insertERKS0_        0x00008932   Section       22  qtversit_vcardpreserver.in(t._ZN4QSetI7QStringE6insertERKS0_)
+    t._ZN4QSetI7QStringEC1Ev                 0x00008948   Section       24  qtversit_vcardpreserver.in(t._ZN4QSetI7QStringEC1Ev)
+    t._ZN5QHashI7QString15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE 0x00008960   Section       10  qtversit_vcardpreserver.in(t._ZN5QHashI7QString15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE)
+    t._ZN5QHashI7QString15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv 0x0000896a   Section       28  qtversit_vcardpreserver.in(t._ZN5QHashI7QString15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv)
+    t._ZN5QHashI7QString15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv.clean 0x00008986   Section       12  qtversit_vcardpreserver.in(t._ZN5QHashI7QString15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv.clean)
+    t._ZN5QHashI7QString15QHashDummyValueE6insertERKS0_RKS1_ 0x00008994   Section      180  qtversit_vcardpreserver.in(t._ZN5QHashI7QString15QHashDummyValueE6insertERKS0_RKS1_)
+    t._ZN5QHashI7QString15QHashDummyValueE6insertERKS0_RKS1_.clean 0x00008a48   Section       12  qtversit_vcardpreserver.in(t._ZN5QHashI7QString15QHashDummyValueE6insertERKS0_RKS1_.clean)
+    t._ZN5QHashI7QString15QHashDummyValueE8freeDataEP9QHashData 0x00008a54   Section       16  qtversit_vcardpreserver.in(t._ZN5QHashI7QString15QHashDummyValueE8freeDataEP9QHashData)
+    t._ZN5QHashI7QString15QHashDummyValueED1Ev 0x00008a64   Section       28  qtversit_vcardpreserver.in(t._ZN5QHashI7QString15QHashDummyValueED1Ev)
+    t._ZN5QListIN10QtMobility14QContactDetailEE14node_constructEPNS2_4NodeERKS1_ 0x00008a80   Section       26  qtversit_vcardpreserver.in(t._ZN5QListIN10QtMobility14QContactDetailEE14node_constructEPNS2_4NodeERKS1_)
+    t._ZN5QListIN10QtMobility14QContactDetailEE14node_constructEPNS2_4NodeERKS1_.clean 0x00008a9a   Section       12  qtversit_vcardpreserver.in(t._ZN5QListIN10QtMobility14QContactDetailEE14node_constructEPNS2_4NodeERKS1_.clean)
+    t._ZN5QListIN10QtMobility14QContactDetailEE18detach_helper_growEii 0x00008aa6   Section      220  qtversit_vcardpreserver.in(t._ZN5QListIN10QtMobility14QContactDetailEE18detach_helper_growEii)
+    t._ZN5QListIN10QtMobility14QContactDetailEE18detach_helper_growEii.clean 0x00008b82   Section        8  qtversit_vcardpreserver.in(t._ZN5QListIN10QtMobility14QContactDetailEE18detach_helper_growEii.clean)
+    t._ZN5QListIN10QtMobility14QContactDetailEE6appendERKS1_ 0x00008b8c   Section      100  qtversit_vcardpreserver.in(t._ZN5QListIN10QtMobility14QContactDetailEE6appendERKS1_)
+    t._ZN5QListIN10QtMobility14QContactDetailEE6appendERKS1_.clean 0x00008bf0   Section        8  qtversit_vcardpreserver.in(t._ZN5QListIN10QtMobility14QContactDetailEE6appendERKS1_.clean)
+    t._ZN5QListIN10QtMobility14QContactDetailEE9node_copyEPNS2_4NodeES4_S4_ 0x00008bf8   Section       70  qtversit_vcardpreserver.in(t._ZN5QListIN10QtMobility14QContactDetailEE9node_copyEPNS2_4NodeES4_S4_)
+    t._ZN5QListIN10QtMobility14QContactDetailEE9node_copyEPNS2_4NodeES4_S4_.clean 0x00008c3e   Section       22  qtversit_vcardpreserver.in(t._ZN5QListIN10QtMobility14QContactDetailEE9node_copyEPNS2_4NodeES4_S4_.clean)
+    t._ZN5QListIN10QtMobility15QVersitPropertyEE13node_destructEPNS2_4NodeES4_ 0x00008c54   Section       30  qtversit_vcardpreserver.in(t._ZN5QListIN10QtMobility15QVersitPropertyEE13node_destructEPNS2_4NodeES4_)
+    t._ZN5QListIN10QtMobility15QVersitPropertyEE14node_constructEPNS2_4NodeERKS1_ 0x00008c72   Section       32  qtversit_vcardpreserver.in(t._ZN5QListIN10QtMobility15QVersitPropertyEE14node_constructEPNS2_4NodeERKS1_)
+    t._ZN5QListIN10QtMobility15QVersitPropertyEE14node_constructEPNS2_4NodeERKS1_.clean 0x00008c92   Section       10  qtversit_vcardpreserver.in(t._ZN5QListIN10QtMobility15QVersitPropertyEE14node_constructEPNS2_4NodeERKS1_.clean)
+    t._ZN5QListIN10QtMobility15QVersitPropertyEE18detach_helper_growEii 0x00008c9c   Section      206  qtversit_vcardpreserver.in(t._ZN5QListIN10QtMobility15QVersitPropertyEE18detach_helper_growEii)
+    t._ZN5QListIN10QtMobility15QVersitPropertyEE18detach_helper_growEii.clean 0x00008d6a   Section        8  qtversit_vcardpreserver.in(t._ZN5QListIN10QtMobility15QVersitPropertyEE18detach_helper_growEii.clean)
+    t._ZN5QListIN10QtMobility15QVersitPropertyEE6appendERKS1_ 0x00008d74   Section       96  qtversit_vcardpreserver.in(t._ZN5QListIN10QtMobility15QVersitPropertyEE6appendERKS1_)
+    t._ZN5QListIN10QtMobility15QVersitPropertyEE6appendERKS1_.clean 0x00008dd4   Section        8  qtversit_vcardpreserver.in(t._ZN5QListIN10QtMobility15QVersitPropertyEE6appendERKS1_.clean)
+    t._ZN5QListIN10QtMobility15QVersitPropertyEE9node_copyEPNS2_4NodeES4_S4_ 0x00008ddc   Section       80  qtversit_vcardpreserver.in(t._ZN5QListIN10QtMobility15QVersitPropertyEE9node_copyEPNS2_4NodeES4_S4_)
+    t._ZN5QListIN10QtMobility15QVersitPropertyEE9node_copyEPNS2_4NodeES4_S4_.clean 0x00008e2c   Section       18  qtversit_vcardpreserver.in(t._ZN5QListIN10QtMobility15QVersitPropertyEE9node_copyEPNS2_4NodeES4_S4_.clean)
+    t._ZN8QPointerI7QObjectED1Ev             0x00008e3e   Section       12  qtversit_vcardpreserver.in(t._ZN8QPointerI7QObjectED1Ev)
+    t._ZNK4QSetI7QStringE7isEmptyEv          0x00008e4a   Section       16  qtversit_vcardpreserver.in(t._ZNK4QSetI7QStringE7isEmptyEv)
+    t._ZNK5QHashI7QString15QHashDummyValueE8findNodeERKS0_Pj 0x00008e5a   Section       90  qtversit_vcardpreserver.in(t._ZNK5QHashI7QString15QHashDummyValueE8findNodeERKS0_Pj)
+    .extab.qt_plugin_instance                0x00008eb4   Data           0  qtversit_vcardpreserver.in(.ARM.extab)
+    .extab._ZNK21VCardPreserverFactory8profilesEv 0x00008ecc   Data           0  qtversit_vcardpreserver.in(.ARM.extab)
+    .extab._ZNK21VCardPreserverFactory13createHandlerEv 0x00008eec   Data           0  qtversit_vcardpreserver.in(.ARM.extab)
+    .extab._ZN14VCardPreserver17propertyProcessedERKN10QtMobility15QVersitDocumentERKNS0_15QVersitPropertyERKNS0_8QContactEPbP5QListINS0_14QContactDetailEE 0x00008efc   Data           0  qtversit_vcardpreserver.in(.ARM.extab)
+    .extab._ZN14VCardPreserver15detailProcessedERKN10QtMobility8QContactERKNS0_14QContactDetailERKNS0_15QVersitDocumentEP4QSetI7QStringEP5QListINS0_15QVersitPropertyEESH_ 0x00008f54   Data           0  qtversit_vcardpreserver.in(.ARM.extab)
+    .extab._ZThn4_N14VCardPreserver15detailProcessedERKN10QtMobility8QContactERKNS0_14QContactDetailERKNS0_15QVersitDocumentEP4QSetI7QStringEP5QListINS0_15QVersitPropertyEESH_ 0x00008fd4   Data           0  qtversit_vcardpreserver.in(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility14QContactDetailEE9node_copyEPNS2_4NodeES4_S4_ 0x00009054   Data           0  qtversit_vcardpreserver.in(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility14QContactDetailEE18detach_helper_growEii 0x00009078   Data           0  qtversit_vcardpreserver.in(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility15QVersitPropertyEE14node_constructEPNS2_4NodeERKS1_ 0x000090a8   Data           0  qtversit_vcardpreserver.in(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility15QVersitPropertyEE9node_copyEPNS2_4NodeES4_S4_ 0x000090b8   Data           0  qtversit_vcardpreserver.in(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility15QVersitPropertyEE18detach_helper_growEii 0x000090dc   Data           0  qtversit_vcardpreserver.in(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility15QVersitPropertyEE6appendERKS1_ 0x0000910c   Data           0  qtversit_vcardpreserver.in(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility14QContactDetailEE6appendERKS1_ 0x0000913c   Data           0  qtversit_vcardpreserver.in(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility14QContactDetailEE14node_constructEPNS2_4NodeERKS1_ 0x0000916c   Data           0  qtversit_vcardpreserver.in(.ARM.extab)
+    .extab._ZN5QHashI7QString15QHashDummyValueE6insertERKS0_RKS1_ 0x0000917c   Data           0  qtversit_vcardpreserver.in(.ARM.extab)
+    .extab._ZN5QHashI7QString15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv 0x0000918c   Data           0  qtversit_vcardpreserver.in(.ARM.extab)
+    .constdata$1                             0x0000919c   Data           0  qtversit_vcardpreserver.in(.constdata)
+    qt_meta_stringdata_VCardPreserverFactory 0x0000919c   Data          23  qtversit_vcardpreserver.in(.constdata)
+    .constdata                               0x0000919c   Section       40  qtversit_vcardpreserver.in(.constdata)
+    .constdata$10                            0x000091c4   Data           0  qtversit_vcardpreserver.in(.constdata)
+    qt_meta_data_VCardPreserverFactory       0x000091c4   Data          60  qtversit_vcardpreserver.in(.constdata)
+    .constdata                               0x000091c4   Section       60  qtversit_vcardpreserver.in(.constdata)
+    .constdata$1                             0x00009200   Data           0  qtversit_vcardpreserver.in(.constdata)
+    KeyField                                 0x00009200   Data           4  qtversit_vcardpreserver.in(.constdata)
+    .constdata                               0x00009200   Section      108  qtversit_vcardpreserver.in(.constdata)
+    ValueField                               0x00009204   Data           6  qtversit_vcardpreserver.in(.constdata)
+    DetailName                               0x0000920a   Data           7  qtversit_vcardpreserver.in(.constdata)
+    qt_plugin_verification_data              0x00009211   Data          91  qtversit_vcardpreserver.in(.constdata)
+    .constdata__ZTI14VCardPreserver          0x0000926c   Section       12  qtversit_vcardpreserver.in(.constdata__ZTI14VCardPreserver)
+    .constdata__ZTI21VCardPreserverFactory   0x00009278   Section       32  qtversit_vcardpreserver.in(.constdata__ZTI21VCardPreserverFactory)
+    .constdata__ZTIN10QtMobility21QVersitContactHandlerE 0x00009298   Section       32  qtversit_vcardpreserver.in(.constdata__ZTIN10QtMobility21QVersitContactHandlerE)
+    .constdata__ZTIN10QtMobility28QVersitContactHandlerFactoryE 0x000092b8   Section        8  qtversit_vcardpreserver.in(.constdata__ZTIN10QtMobility28QVersitContactHandlerFactoryE)
+    .constdata__ZTIN10QtMobility37QVersitContactExporterDetailHandlerV2E 0x000092c0   Section        8  qtversit_vcardpreserver.in(.constdata__ZTIN10QtMobility37QVersitContactExporterDetailHandlerV2E)
+    .constdata__ZTIN10QtMobility39QVersitContactImporterPropertyHandlerV2E 0x000092c8   Section        8  qtversit_vcardpreserver.in(.constdata__ZTIN10QtMobility39QVersitContactImporterPropertyHandlerV2E)
+    .constdata__ZTS14VCardPreserver          0x000092d0   Section       17  qtversit_vcardpreserver.in(.constdata__ZTS14VCardPreserver)
+    .constdata__ZTS21VCardPreserverFactory   0x000092e1   Section       24  qtversit_vcardpreserver.in(.constdata__ZTS21VCardPreserverFactory)
+    .constdata__ZTSN10QtMobility21QVersitContactHandlerE 0x000092f9   Section       38  qtversit_vcardpreserver.in(.constdata__ZTSN10QtMobility21QVersitContactHandlerE)
+    .constdata__ZTSN10QtMobility28QVersitContactHandlerFactoryE 0x0000931f   Section       45  qtversit_vcardpreserver.in(.constdata__ZTSN10QtMobility28QVersitContactHandlerFactoryE)
+    .constdata__ZTSN10QtMobility37QVersitContactExporterDetailHandlerV2E 0x0000934c   Section       54  qtversit_vcardpreserver.in(.constdata__ZTSN10QtMobility37QVersitContactExporterDetailHandlerV2E)
+    .constdata__ZTSN10QtMobility39QVersitContactImporterPropertyHandlerV2E 0x00009382   Section       56  qtversit_vcardpreserver.in(.constdata__ZTSN10QtMobility39QVersitContactImporterPropertyHandlerV2E)
+    .constdata__ZTV14VCardPreserver          0x000093bc   Section       56  qtversit_vcardpreserver.in(.constdata__ZTV14VCardPreserver)
+    .constdata__ZTV21VCardPreserverFactory   0x000093f4   Section      104  qtversit_vcardpreserver.in(.constdata__ZTV21VCardPreserverFactory)
+    .ARM.exidx                               0x0000945c   Section        8  ucppinit_aeabi.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  qtversit_vcardpreserver.in(.data)
+    _ZGV_instance@qt_plugin_instance_0       0x00400000   Data           4  qtversit_vcardpreserver.in(.data)
+    .data                                    0x00400000   Section        8  qtversit_vcardpreserver.in(.data)
+    _instance@qt_plugin_instance_1           0x00400004   Data           4  qtversit_vcardpreserver.in(.data)
+    .data$0                                  0x00400008   Data           0  ucppfini.o(.data)
+    .data                                    0x00400008   Section        4  ucppfini.o(.data)
+    .bss$5                                   0x0040000c   Data           0  ucppfini.o(.bss)
+    dtor_rec                                 0x0040000c   Data        2048  ucppfini.o(.bss)
+    .bss                                     0x0040000c   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$IEEEJ$EBA8$UX$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    #<DLL>QtContacts{00010103}[2002ac7a].dll#<\DLL>21b  - Undefined Reference
+    #<DLL>QtContacts{00010103}[2002ac7a].dll#<\DLL>21e  - Undefined Reference
+    #<DLL>QtContacts{00010103}[2002ac7a].dll#<\DLL>30  - Undefined Reference
+    #<DLL>QtContacts{00010103}[2002ac7a].dll#<\DLL>33  - Undefined Reference
+    #<DLL>QtContacts{00010103}[2002ac7a].dll#<\DLL>34  - Undefined Reference
+    #<DLL>QtContacts{00010103}[2002ac7a].dll#<\DLL>3e  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>112  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>113  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>46  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>49  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e0  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e3  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e4  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e6  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e7  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e8  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6ed  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6f1  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6f8  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6fd  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>702  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>716  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>722  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>726  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>7f2  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>822  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>856  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>85d  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>88c  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>c19  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>c1a  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>e19  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>e1a  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>e69  - Undefined Reference
+    #<DLL>QtVersit{00010103}[2002bfbf].dll#<\DLL>3d  - Undefined Reference
+    #<DLL>QtVersit{00010103}[2002bfbf].dll#<\DLL>3e  - Undefined Reference
+    #<DLL>QtVersit{00010103}[2002bfbf].dll#<\DLL>40  - Undefined Reference
+    #<DLL>QtVersit{00010103}[2002bfbf].dll#<\DLL>41  - Undefined Reference
+    #<DLL>QtVersit{00010103}[2002bfbf].dll#<\DLL>44  - Undefined Reference
+    #<DLL>QtVersit{00010103}[2002bfbf].dll#<\DLL>72  - Undefined Reference
+    #<DLL>QtVersit{00010103}[2002bfbf].dll#<\DLL>73  - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>9b     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>9e     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>b4     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>b7     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>b8     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>ba     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>bb     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>bc     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>be     - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>29e  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>29f  - Undefined Reference
+    #<DLL>libc{00010000}[10207369].dll#<\DLL>15e  - Undefined Reference
+    #<DLL>libstdcpp{00010000}[10282872].dll#<\DLL>3dc  - Undefined Reference
+    #<DLL>libstdcpp{00010000}[10282872].dll#<\DLL>3e0  - Undefined Reference
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    QObject::staticMetaObject                 - Undefined Reference
+    QHashData::shared_null                    - Undefined Reference
+    typeinfo for QObject                      - Undefined Reference
+    vtable for __cxxabiv1::__class_type_info  - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    vtable for __cxxabiv1::__vmi_class_type_info  - Undefined Reference
+    _fp_init                                  - Undefined Weak Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      72  ucppinit_aeabi.o(.emb_text)
+    VCardPreserverFactory::getStaticMetaObject() 0x00008071   Thumb Code     4  qtversit_vcardpreserver.in(.text)
+    std::nothrow                             0x00008071   Thumb Code     0  ucppinit_aeabi.o(.emb_text)
+    VCardPreserverFactory::metaObject() const 0x00008075   Thumb Code    12  qtversit_vcardpreserver.in(.text)
+    VCardPreserverFactory::qt_metacast(const char*) 0x00008081   Thumb Code    72  qtversit_vcardpreserver.in(.text)
+    VCardPreserverFactory::qt_metacall(QMetaObject::Call, int, void**) 0x000080c9   Thumb Code     8  qtversit_vcardpreserver.in(.text)
+    qt_plugin_query_verification_data        0x0000812d   Thumb Code     4  qtversit_vcardpreserver.in(.text)
+    qt_plugin_instance                       0x00008131   Thumb Code   110  qtversit_vcardpreserver.in(.text)
+    VCardPreserverFactory::profiles() const  0x0000819f   Thumb Code    38  qtversit_vcardpreserver.in(.text)
+    thunk{-8} to VCardPreserverFactory::profiles() const 0x000081c5   Thumb Code     4  qtversit_vcardpreserver.in(.text)
+    VCardPreserverFactory::name() const      0x000081c9   Thumb Code    14  qtversit_vcardpreserver.in(.text)
+    thunk{-8} to VCardPreserverFactory::name() const 0x000081d7   Thumb Code     4  qtversit_vcardpreserver.in(.text)
+    VCardPreserverFactory::index() const     0x000081db   Thumb Code     6  qtversit_vcardpreserver.in(.text)
+    thunk{-8} to VCardPreserverFactory::index() const 0x000081e1   Thumb Code     6  qtversit_vcardpreserver.in(.text)
+    VCardPreserver::VCardPreserver()         0x000081e7   Thumb Code    10  qtversit_vcardpreserver.in(.text)
+    VCardPreserver::VCardPreserver__sub_object() 0x000081e7   Thumb Code     0  qtversit_vcardpreserver.in(.text)
+    VCardPreserverFactory::createHandler() const 0x000081f1   Thumb Code    24  qtversit_vcardpreserver.in(.text)
+    thunk{-8} to VCardPreserverFactory::createHandler() const 0x00008209   Thumb Code     4  qtversit_vcardpreserver.in(.text)
+    VCardPreserver::propertyProcessed(const QtMobility::QVersitDocument&, const QtMobility::QVersitProperty&, const QtMobility::QContact&, bool*, QList<QtMobility::QContactDetail>*) 0x0000820d   Thumb Code   154  qtversit_vcardpreserver.in(.text)
+    VCardPreserver::documentProcessed(const QtMobility::QVersitDocument&, QtMobility::QContact*) 0x000082a7   Thumb Code     2  qtversit_vcardpreserver.in(.text)
+    VCardPreserver::detailProcessed(const QtMobility::QContact&, const QtMobility::QContactDetail&, const QtMobility::QVersitDocument&, QSet<QString>*, QList<QtMobility::QVersitProperty>*, QList<QtMobility::QVersitProperty>*) 0x000082a9   Thumb Code   252  qtversit_vcardpreserver.in(.text)
+    thunk{-4} to VCardPreserver::detailProcessed(const QtMobility::QContact&, const QtMobility::QContactDetail&, const QtMobility::QVersitDocument&, QSet<QString>*, QList<QtMobility::QVersitProperty>*, QList<QtMobility::QVersitProperty>*) 0x000083a5   Thumb Code   250  qtversit_vcardpreserver.in(.text)
+    VCardPreserver::contactProcessed(const QtMobility::QContact&, QtMobility::QVersitDocument*) 0x0000849f   Thumb Code     2  qtversit_vcardpreserver.in(.text)
+    thunk{-4} to VCardPreserver::contactProcessed(const QtMobility::QContact&, QtMobility::QVersitDocument*) 0x000084a1   Thumb Code     2  qtversit_vcardpreserver.in(.text)
+    _E32Dll_Body                             0x000084f5   Thumb Code    34  uc_dll.o(.text)
+    CppBSSInitializationError                0x0000851c   ARM Code       4  ucppfini.o(.text)
+    __aeabi_atexit                           0x00008520   ARM Code      28  ucppfini.o(.text)
+    __cxa_atexit                             0x0000853c   ARM Code      48  ucppfini.o(.text)
+    __cxa_finalize                           0x0000856c   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x0000859c   ARM Code       8  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x00008668   ARM Code       0  qtversit_vcardpreserver{000a0000}.exp(ExportTable)
+    DLL##ExportTableSize                     0x0000866c   Data           0  qtversit_vcardpreserver{000a0000}.exp(ExportTable)
+    DLL##ExportTable                         0x00008670   Data           0  qtversit_vcardpreserver{000a0000}.exp(ExportTable)
+    QtMobility::QContactDetail::setValue(const char*, const QVariant&) 0x00008678   ARM Code       0  QtContacts{00010103}-48.o(StubCode)
+    QtMobility::QContactDetail::QContactDetail(const QString&) 0x00008680   ARM Code       0  QtContacts{00010103}-51.o(StubCode)
+    QtMobility::QContactDetail::QContactDetail(const QtMobility::QContactDetail&) 0x00008688   ARM Code       0  QtContacts{00010103}-52.o(StubCode)
+    QtMobility::QContactDetail::definitionName() const 0x00008690   ARM Code       0  QtContacts{00010103}-539.o(StubCode)
+    QtMobility::QContactDetail::value(const char*) const 0x00008698   ARM Code       0  QtContacts{00010103}-542.o(StubCode)
+    QtMobility::QContactDetail::~QContactDetail() 0x000086a0   ARM Code       0  QtContacts{00010103}-62.o(StubCode)
+    QtMobility::QVersitProperty::name() const 0x000086a8   ARM Code       0  QtVersit{00010103}-114.o(StubCode)
+    QtMobility::QVersitProperty::value() const 0x000086b0   ARM Code       0  QtVersit{00010103}-115.o(StubCode)
+    QtMobility::QVersitProperty::setName(const QString&) 0x000086b8   ARM Code       0  QtVersit{00010103}-61.o(StubCode)
+    QtMobility::QVersitProperty::setValue(const QVariant&) 0x000086c0   ARM Code       0  QtVersit{00010103}-62.o(StubCode)
+    QtMobility::QVersitProperty::QVersitProperty(const QtMobility::QVersitProperty&) 0x000086c8   ARM Code       0  QtVersit{00010103}-64.o(StubCode)
+    QtMobility::QVersitProperty::QVersitProperty() 0x000086d0   ARM Code       0  QtVersit{00010103}-65.o(StubCode)
+    QtMobility::QVersitProperty::~QVersitProperty() 0x000086d8   ARM Code       0  QtVersit{00010103}-68.o(StubCode)
+    operator delete (void*)                  0x000086e0   ARM Code       0  libstdcpp{00010000}-988.o(StubCode)
+    operator new(unsigned)                   0x000086e8   ARM Code       0  libstdcpp{00010000}-992.o(StubCode)
+    QObject::childEvent(QChildEvent*)        0x000086f0   ARM Code       0  QtCore{00040703}-1760.o(StubCode)
+    QObject::timerEvent(QTimerEvent*)        0x000086f8   ARM Code       0  QtCore{00040703}-1763.o(StubCode)
+    QObject::customEvent(QEvent*)            0x00008700   ARM Code       0  QtCore{00040703}-1764.o(StubCode)
+    QObject::eventFilter(QObject*, QEvent*)  0x00008708   ARM Code       0  QtCore{00040703}-1766.o(StubCode)
+    QObject::qt_metacall(QMetaObject::Call, int, void**) 0x00008710   ARM Code       0  QtCore{00040703}-1767.o(StubCode)
+    QObject::qt_metacast(const char*)        0x00008718   ARM Code       0  QtCore{00040703}-1768.o(StubCode)
+    QObject::connectNotify(const char*)      0x00008720   ARM Code       0  QtCore{00040703}-1773.o(StubCode)
+    QObject::disconnectNotify(const char*)   0x00008728   ARM Code       0  QtCore{00040703}-1777.o(StubCode)
+    QObject::event(QEvent*)                  0x00008730   ARM Code       0  QtCore{00040703}-1784.o(StubCode)
+    QObject::QObject(QObject*)               0x00008738   ARM Code       0  QtCore{00040703}-1789.o(StubCode)
+    QObject::~QObject()                      0x00008740   ARM Code       0  QtCore{00040703}-1794.o(StubCode)
+    QString::fromLatin1(const char*, int)    0x00008748   ARM Code       0  QtCore{00040703}-1814.o(StubCode)
+    QString::fromLatin1_helper(const char*, int) 0x00008750   ARM Code       0  QtCore{00040703}-1826.o(StubCode)
+    QString::free(QString::Data*)            0x00008758   ARM Code       0  QtCore{00040703}-1830.o(StubCode)
+    QVariant::QVariant(const QString&)       0x00008760   ARM Code       0  QtCore{00040703}-2034.o(StubCode)
+    QVariant::~QVariant()                    0x00008768   ARM Code       0  QtCore{00040703}-2082.o(StubCode)
+    QHashData::free_helper(void(*)(QHashData::Node*)) 0x00008770   ARM Code       0  QtCore{00040703}-2134.o(StubCode)
+    QHashData::rehash(int)                   0x00008778   ARM Code       0  QtCore{00040703}-2141.o(StubCode)
+    QListData::append()                      0x00008780   ARM Code       0  QtCore{00040703}-2188.o(StubCode)
+    QMetaObject::changeGuard(QObject**, QObject*) 0x00008788   ARM Code       0  QtCore{00040703}-274.o(StubCode)
+    QMetaObject::removeGuard(QObject**)      0x00008790   ARM Code       0  QtCore{00040703}-275.o(StubCode)
+    QString::operator ==(const QLatin1String&) const 0x00008798   ARM Code       0  QtCore{00040703}-3097.o(StubCode)
+    QString::operator ==(const QString&) const 0x000087a0   ARM Code       0  QtCore{00040703}-3098.o(StubCode)
+    QHashData::allocateNode(int)             0x000087a8   ARM Code       0  QtCore{00040703}-3609.o(StubCode)
+    QHashData::detach_helper2(void(*)(QHashData::Node*, void*), void(*)(QHashData::Node*), int, int) 0x000087b0   ARM Code       0  QtCore{00040703}-3610.o(StubCode)
+    QListData::detach_grow(int*, int)        0x000087b8   ARM Code       0  QtCore{00040703}-3689.o(StubCode)
+    qFree(void*)                             0x000087c0   ARM Code       0  QtCore{00040703}-70.o(StubCode)
+    qHash(const QString&)                    0x000087c8   ARM Code       0  QtCore{00040703}-73.o(StubCode)
+    strcmp                                   0x000087d0   ARM Code       0  libc{00010000}-350.o(StubCode)
+    User::LockedDec(int&)                    0x000087d8   ARM Code       0  euser{000a0000}-670.o(StubCode)
+    User::LockedInc(int&)                    0x000087e0   ARM Code       0  euser{000a0000}-671.o(StubCode)
+    __aeabi_uidivmod                         0x000087e8   ARM Code       0  drtaeabi{000a0000}-155.o(StubCode)
+    __aeabi_unwind_cpp_pr0                   0x000087f0   ARM Code       0  drtaeabi{000a0000}-158.o(StubCode)
+    __cxa_begin_catch                        0x000087f8   ARM Code       0  drtaeabi{000a0000}-180.o(StubCode)
+    __cxa_end_catch                          0x00008800   ARM Code       0  drtaeabi{000a0000}-183.o(StubCode)
+    __cxa_end_cleanup                        0x00008808   ARM Code       0  drtaeabi{000a0000}-184.o(StubCode)
+    __cxa_guard_abort                        0x00008810   ARM Code       0  drtaeabi{000a0000}-186.o(StubCode)
+    __cxa_guard_acquire                      0x00008818   ARM Code       0  drtaeabi{000a0000}-187.o(StubCode)
+    __cxa_guard_release                      0x00008820   ARM Code       0  drtaeabi{000a0000}-188.o(StubCode)
+    __cxa_rethrow                            0x00008828   ARM Code       0  drtaeabi{000a0000}-190.o(StubCode)
+    VCardPreserver::~VCardPreserver__deallocating() 0x00008831   Thumb Code    12  qtversit_vcardpreserver.in(i._ZN14VCardPreserverD0Ev)
+    VCardPreserver::~VCardPreserver()        0x0000883d   Thumb Code     2  qtversit_vcardpreserver.in(i._ZN14VCardPreserverD1Ev)
+    VCardPreserver::~VCardPreserver__sub_object() 0x0000883d   Thumb Code     0  qtversit_vcardpreserver.in(i._ZN14VCardPreserverD1Ev)
+    QBasicAtomicInt::ref()                   0x0000883f   Thumb Code    18  qtversit_vcardpreserver.in(i._ZN15QBasicAtomicInt3refEv)
+    QBasicAtomicInt::deref()                 0x00008851   Thumb Code    18  qtversit_vcardpreserver.in(i._ZN15QBasicAtomicInt5derefEv)
+    VCardPreserverFactory::~VCardPreserverFactory__deallocating() 0x00008863   Thumb Code    16  qtversit_vcardpreserver.in(i._ZN21VCardPreserverFactoryD0Ev)
+    VCardPreserverFactory::~VCardPreserverFactory() 0x00008873   Thumb Code     8  qtversit_vcardpreserver.in(i._ZN21VCardPreserverFactoryD1Ev)
+    VCardPreserverFactory::~VCardPreserverFactory__sub_object() 0x00008873   Thumb Code     0  qtversit_vcardpreserver.in(i._ZN21VCardPreserverFactoryD1Ev)
+    QSet<QString>::~QSet()                   0x0000887b   Thumb Code     8  qtversit_vcardpreserver.in(i._ZN4QSetI7QStringED1Ev)
+    QSet<QString>::~QSet__sub_object()       0x0000887b   Thumb Code     0  qtversit_vcardpreserver.in(i._ZN4QSetI7QStringED1Ev)
+    QString::QString(const QLatin1String&)   0x00008883   Thumb Code    20  qtversit_vcardpreserver.in(i._ZN7QStringC1ERK13QLatin1String)
+    QString::QString__sub_object(const QLatin1String&) 0x00008883   Thumb Code     0  qtversit_vcardpreserver.in(i._ZN7QStringC1ERK13QLatin1String)
+    QString::QString(const QString&)         0x00008897   Thumb Code    16  qtversit_vcardpreserver.in(i._ZN7QStringC1ERKS_)
+    QString::QString__sub_object(const QString&) 0x00008897   Thumb Code     0  qtversit_vcardpreserver.in(i._ZN7QStringC1ERKS_)
+    QString::~QString()                      0x000088a7   Thumb Code    24  qtversit_vcardpreserver.in(i._ZN7QStringD1Ev)
+    QString::~QString__sub_object()          0x000088a7   Thumb Code     0  qtversit_vcardpreserver.in(i._ZN7QStringD1Ev)
+    QBasicAtomicInt::operator !=(int) const  0x000088bf   Thumb Code    14  qtversit_vcardpreserver.in(i._ZNK15QBasicAtomicIntneEi)
+    QString::isEmpty() const                 0x000088cd   Thumb Code    16  qtversit_vcardpreserver.in(i._ZNK7QString7isEmptyEv)
+    QListData::end() const                   0x000088dd   Thumb Code    12  qtversit_vcardpreserver.in(i._ZNK9QListData3endEv)
+    QListData::begin() const                 0x000088e9   Thumb Code    12  qtversit_vcardpreserver.in(i._ZNK9QListData5beginEv)
+    thunk{-4} to VCardPreserver::~VCardPreserver__deallocating() 0x000088f5   Thumb Code    10  qtversit_vcardpreserver.in(i._ZThn4_N14VCardPreserverD0Ev)
+    thunk{-4} to VCardPreserver::~VCardPreserver() 0x000088ff   Thumb Code     2  qtversit_vcardpreserver.in(i._ZThn4_N14VCardPreserverD1Ev)
+    thunk{-8} to VCardPreserverFactory::~VCardPreserverFactory__deallocating() 0x00008901   Thumb Code    10  qtversit_vcardpreserver.in(i._ZThn8_N21VCardPreserverFactoryD0Ev)
+    thunk{-8} to VCardPreserverFactory::~VCardPreserverFactory() 0x0000890b   Thumb Code    10  qtversit_vcardpreserver.in(i._ZThn8_N21VCardPreserverFactoryD1Ev)
+    operator delete (void*, void*)           0x00008915   Thumb Code     2  qtversit_vcardpreserver.in(i._ZdlPvS_)
+    operator new(unsigned, void*)            0x00008917   Thumb Code     4  qtversit_vcardpreserver.in(i._ZnwjPv)
+    QtMobility::operator ==<(int)7>(const QString&, const QtMobility::QLatin1Constant<T1>&) 0x0000891b   Thumb Code    12  qtversit_vcardpreserver.in(t._ZN10QtMobilityeqILi7EEEbRK7QStringRKNS_15QLatin1ConstantIXT_EEE)
+    QHashDummyNode<QString, QHashDummyValue>::QHashDummyNode(const QString&) 0x00008927   Thumb Code    12  qtversit_vcardpreserver.in(t._ZN14QHashDummyNodeI7QString15QHashDummyValueEC1ERKS0_)
+    QHashDummyNode<QString, QHashDummyValue>::QHashDummyNode__sub_object(const QString&) 0x00008927   Thumb Code     0  qtversit_vcardpreserver.in(t._ZN14QHashDummyNodeI7QString15QHashDummyValueEC1ERKS0_)
+    QSet<QString>::insert(const QString&)    0x00008933   Thumb Code    22  qtversit_vcardpreserver.in(t._ZN4QSetI7QStringE6insertERKS0_)
+    QSet<QString>::QSet()                    0x00008949   Thumb Code    18  qtversit_vcardpreserver.in(t._ZN4QSetI7QStringEC1Ev)
+    QSet<QString>::QSet__sub_object()        0x00008949   Thumb Code     0  qtversit_vcardpreserver.in(t._ZN4QSetI7QStringEC1Ev)
+    QHash<QString, QHashDummyValue>::deleteNode2(QHashData::Node*) 0x00008961   Thumb Code    10  qtversit_vcardpreserver.in(t._ZN5QHashI7QString15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE)
+    QHash<QString, QHashDummyValue>::duplicateNode(QHashData::Node*, void*) 0x0000896b   Thumb Code    28  qtversit_vcardpreserver.in(t._ZN5QHashI7QString15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv)
+    QHash<QString, QHashDummyValue>::insert(const QString&, const QHashDummyValue&) 0x00008995   Thumb Code   170  qtversit_vcardpreserver.in(t._ZN5QHashI7QString15QHashDummyValueE6insertERKS0_RKS1_)
+    QHash<QString, QHashDummyValue>::freeData(QHashData*) 0x00008a55   Thumb Code    12  qtversit_vcardpreserver.in(t._ZN5QHashI7QString15QHashDummyValueE8freeDataEP9QHashData)
+    QHash<QString, QHashDummyValue>::~QHash() 0x00008a65   Thumb Code    28  qtversit_vcardpreserver.in(t._ZN5QHashI7QString15QHashDummyValueED1Ev)
+    QHash<QString, QHashDummyValue>::~QHash__sub_object() 0x00008a65   Thumb Code     0  qtversit_vcardpreserver.in(t._ZN5QHashI7QString15QHashDummyValueED1Ev)
+    QList<QtMobility::QContactDetail>::node_construct(QList<QtMobility::QContactDetail>::Node*, const QtMobility::QContactDetail&) 0x00008a81   Thumb Code    26  qtversit_vcardpreserver.in(t._ZN5QListIN10QtMobility14QContactDetailEE14node_constructEPNS2_4NodeERKS1_)
+    QList<QtMobility::QContactDetail>::detach_helper_grow(int, int) 0x00008aa7   Thumb Code   220  qtversit_vcardpreserver.in(t._ZN5QListIN10QtMobility14QContactDetailEE18detach_helper_growEii)
+    QList<QtMobility::QContactDetail>::append(const QtMobility::QContactDetail&) 0x00008b8d   Thumb Code    94  qtversit_vcardpreserver.in(t._ZN5QListIN10QtMobility14QContactDetailEE6appendERKS1_)
+    QList<QtMobility::QContactDetail>::node_copy(QList<QtMobility::QContactDetail>::Node*, QList<QtMobility::QContactDetail>::Node*, QList<QtMobility::QContactDetail>::Node*) 0x00008bf9   Thumb Code    70  qtversit_vcardpreserver.in(t._ZN5QListIN10QtMobility14QContactDetailEE9node_copyEPNS2_4NodeES4_S4_)
+    QList<QtMobility::QVersitProperty>::node_destruct(QList<QtMobility::QVersitProperty>::Node*, QList<QtMobility::QVersitProperty>::Node*) 0x00008c55   Thumb Code    30  qtversit_vcardpreserver.in(t._ZN5QListIN10QtMobility15QVersitPropertyEE13node_destructEPNS2_4NodeES4_)
+    QList<QtMobility::QVersitProperty>::node_construct(QList<QtMobility::QVersitProperty>::Node*, const QtMobility::QVersitProperty&) 0x00008c73   Thumb Code    32  qtversit_vcardpreserver.in(t._ZN5QListIN10QtMobility15QVersitPropertyEE14node_constructEPNS2_4NodeERKS1_)
+    QList<QtMobility::QVersitProperty>::detach_helper_grow(int, int) 0x00008c9d   Thumb Code   206  qtversit_vcardpreserver.in(t._ZN5QListIN10QtMobility15QVersitPropertyEE18detach_helper_growEii)
+    QList<QtMobility::QVersitProperty>::append(const QtMobility::QVersitProperty&) 0x00008d75   Thumb Code    90  qtversit_vcardpreserver.in(t._ZN5QListIN10QtMobility15QVersitPropertyEE6appendERKS1_)
+    QList<QtMobility::QVersitProperty>::node_copy(QList<QtMobility::QVersitProperty>::Node*, QList<QtMobility::QVersitProperty>::Node*, QList<QtMobility::QVersitProperty>::Node*) 0x00008ddd   Thumb Code    80  qtversit_vcardpreserver.in(t._ZN5QListIN10QtMobility15QVersitPropertyEE9node_copyEPNS2_4NodeES4_S4_)
+    QPointer<QObject>::~QPointer()           0x00008e3f   Thumb Code    12  qtversit_vcardpreserver.in(t._ZN8QPointerI7QObjectED1Ev)
+    QPointer<QObject>::~QPointer__sub_object() 0x00008e3f   Thumb Code     0  qtversit_vcardpreserver.in(t._ZN8QPointerI7QObjectED1Ev)
+    QSet<QString>::isEmpty() const           0x00008e4b   Thumb Code    16  qtversit_vcardpreserver.in(t._ZNK4QSetI7QStringE7isEmptyEv)
+    QHash<QString, QHashDummyValue>::findNode(const QString&, unsigned*) const 0x00008e5b   Thumb Code    90  qtversit_vcardpreserver.in(t._ZNK5QHashI7QString15QHashDummyValueE8findNodeERKS0_Pj)
+    VCardPreserverFactory::staticMetaObject  0x000091b4   Data          16  qtversit_vcardpreserver.in(.constdata)
+    typeinfo for VCardPreserver              0x0000926c   Data          12  qtversit_vcardpreserver.in(.constdata__ZTI14VCardPreserver)
+    typeinfo for VCardPreserverFactory       0x00009278   Data          32  qtversit_vcardpreserver.in(.constdata__ZTI21VCardPreserverFactory)
+    typeinfo for QtMobility::QVersitContactHandler 0x00009298   Data          32  qtversit_vcardpreserver.in(.constdata__ZTIN10QtMobility21QVersitContactHandlerE)
+    typeinfo for QtMobility::QVersitContactHandlerFactory 0x000092b8   Data           8  qtversit_vcardpreserver.in(.constdata__ZTIN10QtMobility28QVersitContactHandlerFactoryE)
+    typeinfo for QtMobility::QVersitContactExporterDetailHandlerV2 0x000092c0   Data           8  qtversit_vcardpreserver.in(.constdata__ZTIN10QtMobility37QVersitContactExporterDetailHandlerV2E)
+    typeinfo for QtMobility::QVersitContactImporterPropertyHandlerV2 0x000092c8   Data           8  qtversit_vcardpreserver.in(.constdata__ZTIN10QtMobility39QVersitContactImporterPropertyHandlerV2E)
+    typeinfo name for VCardPreserver         0x000092d0   Data          17  qtversit_vcardpreserver.in(.constdata__ZTS14VCardPreserver)
+    typeinfo name for VCardPreserverFactory  0x000092e1   Data          24  qtversit_vcardpreserver.in(.constdata__ZTS21VCardPreserverFactory)
+    typeinfo name for QtMobility::QVersitContactHandler 0x000092f9   Data          38  qtversit_vcardpreserver.in(.constdata__ZTSN10QtMobility21QVersitContactHandlerE)
+    typeinfo name for QtMobility::QVersitContactHandlerFactory 0x0000931f   Data          45  qtversit_vcardpreserver.in(.constdata__ZTSN10QtMobility28QVersitContactHandlerFactoryE)
+    typeinfo name for QtMobility::QVersitContactExporterDetailHandlerV2 0x0000934c   Data          54  qtversit_vcardpreserver.in(.constdata__ZTSN10QtMobility37QVersitContactExporterDetailHandlerV2E)
+    typeinfo name for QtMobility::QVersitContactImporterPropertyHandlerV2 0x00009382   Data          56  qtversit_vcardpreserver.in(.constdata__ZTSN10QtMobility39QVersitContactImporterPropertyHandlerV2E)
+    vtable for VCardPreserver                0x000093bc   Data          56  qtversit_vcardpreserver.in(.constdata__ZTV14VCardPreserver)
+    vtable for VCardPreserverFactory         0x000093f4   Data         104  qtversit_vcardpreserver.in(.constdata__ZTV21VCardPreserverFactory)
+    .ARM.exidx$$Base                         0x0000945c   Number         0  ucppinit_aeabi.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x000095e4   Number         0  qtversit_vcardpreserver.in(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x000095e4   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    __dso_handle                             0x00400008   Data           4  ucppfini.o(.data)
+

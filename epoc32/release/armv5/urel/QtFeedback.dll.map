@@ -1,0 +1,984 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3040.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1768.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1457.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3064.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1773.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1471.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3088.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1777.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1477.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3098.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1784.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-150.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-312.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1789.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1525.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3139.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1794.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1526.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3143.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1826.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1531.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3163.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1830.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1534.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-32.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1836.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1760.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-324.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1874.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1763.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-331.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1885.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1764.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-332.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2038.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1766.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3609.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2082.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1767.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3610.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2134.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-753.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3689.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2141.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-772.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3691.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2188.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  libc{00010000}-350.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-46.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2193.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-1170.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-492.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2511.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-120.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-497.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-276.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-670.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-498.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2791.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-671.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-499.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2795.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-190.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-500.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2797.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  efsrv{000a0000}-231.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-501.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2810.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  efsrv{000a0000}-68.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-505.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2811.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  libstdcpp{00010000}-988.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-56.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-282.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  libstdcpp{00010000}-992.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-70.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2855.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-104.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-73.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3003.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1453.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-180.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-189.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-188.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-183.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-155.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-186.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-184.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtrvct2_2{000a0000}-28.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-187.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-147.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  dfpaeabi{000a0000}-4.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-158.o ABSOLUTE
+    ..\..\..\..\EPOC32\BUILD\s60\osext\mobileruntime\group\LIBSTDCPP\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\src\cedar\generic\base\e32\compsupp\DRTAEABI\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\src\cedar\generic\base\e32\euser\EDLL\ARMV5\urel\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    \EPOC32\BUILD\src\cedar\generic\base\e32\euser\EUSER\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\src\cedar\generic\base\f32\group\EFSRV\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBC\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBDL\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBM\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBPTHREAD\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \\EPOC32\\BUILD\\src\\cedar\\generic\\base\\e32\\euser\\EDLL\\ARMV5\\urel\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    \\src\\cedar\\generic\\base\\e32\\compsupp\\RVCT2_2\\ucppinit_aeabi.cpp 0x00000000   Number         0  ucppinit_aeabi.o ABSOLUTE
+    \dev\symb\SDKs\32\EPOC32\BUILD\iwmake\buildS60____PADDING________\src\QTCORE_DLL\ARMV6\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \s60\5.0\EPOC32\BUILD\scripts\5.0\qtmobility\QTFEEDBACK_DLL\ARMV5\urel\QtFeedback{00010103}.s 0x00000000   Number         0  QtFeedback{00010103}.exp ABSOLUTE
+    \scripts\5.0\qtmobility\src\feedback\qfeedbackactuator.cpp 0x00000000   Number         0  QtFeedback.in ABSOLUTE
+    \scripts\5.0\qtmobility\src\feedback\qfeedbackeffect.cpp 0x00000000   Number         0  QtFeedback.in ABSOLUTE
+    \scripts\5.0\qtmobility\src\feedback\qfeedbackplugin.cpp 0x00000000   Number         0  QtFeedback.in ABSOLUTE
+    \src\cedar\generic\base\e32\compsupp\RVCT2_2\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    \src\cedar\generic\base\e32\compsupp\RVCT2_2\ucppinit_aeabi.cpp 0x00000000   Number         0  ucppinit_aeabi.o ABSOLUTE
+    \src\cedar\generic\base\e32\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       72  ucppinit_aeabi.o(.emb_text)
+    skip                                     0x0000803c   ARM Code       0  ucppinit_aeabi.o(.emb_text)
+    loop                                     0x0000804c   ARM Code       0  ucppinit_aeabi.o(.emb_text)
+    fpinit                                   0x00008064   Data           0  ucppinit_aeabi.o(.emb_text)
+    base                                     0x00008068   Data           0  ucppinit_aeabi.o(.emb_text)
+    limit                                    0x0000806c   Data           0  ucppinit_aeabi.o(.emb_text)
+    .text                                    0x00008070   Section      620  QtFeedback.in(.text)
+    .text                                    0x000082dc   Section     1884  QtFeedback.in(.text)
+    .text                                    0x00008a38   Section      316  QtFeedback.in(.text)
+    QtMobility::qSymbian_CheckDir(const QDir&, RFs&) 0x00008a45   Thumb Code    78  QtFeedback.in(.text)
+    QtMobility::backendManager()             0x00008a93   Thumb Code   116  QtFeedback.in(.text)
+    .text                                    0x00008b74   Section       40  uc_dll.o(.text)
+    .text                                    0x00008b9c   Section      148  ucppfini.o(.text)
+    .text.clean                              0x00008c30   Section       66  QtFeedback.in(.text.clean)
+    .text.clean                              0x00008c72   Section      110  QtFeedback.in(.text.clean)
+    .text.clean                              0x00008ce0   Section       48  QtFeedback.in(.text.clean)
+    ExportTable                              0x00008d10   Section      392  QtFeedback{00010103}.exp(ExportTable)
+    StubCode                                 0x00008e98   Section        8  efsrv{000a0000}-231.o(StubCode)
+    theImportedSymbol                        0x00008e9c   Data           0  efsrv{000a0000}-231.o(StubCode)
+    StubCode                                 0x00008ea0   Section        8  efsrv{000a0000}-68.o(StubCode)
+    theImportedSymbol                        0x00008ea4   Data           0  efsrv{000a0000}-68.o(StubCode)
+    StubCode                                 0x00008ea8   Section        8  libstdcpp{00010000}-988.o(StubCode)
+    theImportedSymbol                        0x00008eac   Data           0  libstdcpp{00010000}-988.o(StubCode)
+    StubCode                                 0x00008eb0   Section        8  libstdcpp{00010000}-992.o(StubCode)
+    theImportedSymbol                        0x00008eb4   Data           0  libstdcpp{00010000}-992.o(StubCode)
+    StubCode                                 0x00008eb8   Section        8  QtCore{00040703}-104.o(StubCode)
+    theImportedSymbol                        0x00008ebc   Data           0  QtCore{00040703}-104.o(StubCode)
+    StubCode                                 0x00008ec0   Section        8  QtCore{00040703}-1453.o(StubCode)
+    theImportedSymbol                        0x00008ec4   Data           0  QtCore{00040703}-1453.o(StubCode)
+    StubCode                                 0x00008ec8   Section        8  QtCore{00040703}-1457.o(StubCode)
+    theImportedSymbol                        0x00008ecc   Data           0  QtCore{00040703}-1457.o(StubCode)
+    StubCode                                 0x00008ed0   Section        8  QtCore{00040703}-1471.o(StubCode)
+    theImportedSymbol                        0x00008ed4   Data           0  QtCore{00040703}-1471.o(StubCode)
+    StubCode                                 0x00008ed8   Section        8  QtCore{00040703}-1477.o(StubCode)
+    theImportedSymbol                        0x00008edc   Data           0  QtCore{00040703}-1477.o(StubCode)
+    StubCode                                 0x00008ee0   Section        8  QtCore{00040703}-150.o(StubCode)
+    theImportedSymbol                        0x00008ee4   Data           0  QtCore{00040703}-150.o(StubCode)
+    StubCode                                 0x00008ee8   Section        8  QtCore{00040703}-1525.o(StubCode)
+    theImportedSymbol                        0x00008eec   Data           0  QtCore{00040703}-1525.o(StubCode)
+    StubCode                                 0x00008ef0   Section        8  QtCore{00040703}-1526.o(StubCode)
+    theImportedSymbol                        0x00008ef4   Data           0  QtCore{00040703}-1526.o(StubCode)
+    StubCode                                 0x00008ef8   Section        8  QtCore{00040703}-1531.o(StubCode)
+    theImportedSymbol                        0x00008efc   Data           0  QtCore{00040703}-1531.o(StubCode)
+    StubCode                                 0x00008f00   Section        8  QtCore{00040703}-1534.o(StubCode)
+    theImportedSymbol                        0x00008f04   Data           0  QtCore{00040703}-1534.o(StubCode)
+    StubCode                                 0x00008f08   Section        8  QtCore{00040703}-1760.o(StubCode)
+    theImportedSymbol                        0x00008f0c   Data           0  QtCore{00040703}-1760.o(StubCode)
+    StubCode                                 0x00008f10   Section        8  QtCore{00040703}-1763.o(StubCode)
+    theImportedSymbol                        0x00008f14   Data           0  QtCore{00040703}-1763.o(StubCode)
+    StubCode                                 0x00008f18   Section        8  QtCore{00040703}-1764.o(StubCode)
+    theImportedSymbol                        0x00008f1c   Data           0  QtCore{00040703}-1764.o(StubCode)
+    StubCode                                 0x00008f20   Section        8  QtCore{00040703}-1766.o(StubCode)
+    theImportedSymbol                        0x00008f24   Data           0  QtCore{00040703}-1766.o(StubCode)
+    StubCode                                 0x00008f28   Section        8  QtCore{00040703}-1767.o(StubCode)
+    theImportedSymbol                        0x00008f2c   Data           0  QtCore{00040703}-1767.o(StubCode)
+    StubCode                                 0x00008f30   Section        8  QtCore{00040703}-1768.o(StubCode)
+    theImportedSymbol                        0x00008f34   Data           0  QtCore{00040703}-1768.o(StubCode)
+    StubCode                                 0x00008f38   Section        8  QtCore{00040703}-1773.o(StubCode)
+    theImportedSymbol                        0x00008f3c   Data           0  QtCore{00040703}-1773.o(StubCode)
+    StubCode                                 0x00008f40   Section        8  QtCore{00040703}-1777.o(StubCode)
+    theImportedSymbol                        0x00008f44   Data           0  QtCore{00040703}-1777.o(StubCode)
+    StubCode                                 0x00008f48   Section        8  QtCore{00040703}-1784.o(StubCode)
+    theImportedSymbol                        0x00008f4c   Data           0  QtCore{00040703}-1784.o(StubCode)
+    StubCode                                 0x00008f50   Section        8  QtCore{00040703}-1789.o(StubCode)
+    theImportedSymbol                        0x00008f54   Data           0  QtCore{00040703}-1789.o(StubCode)
+    StubCode                                 0x00008f58   Section        8  QtCore{00040703}-1794.o(StubCode)
+    theImportedSymbol                        0x00008f5c   Data           0  QtCore{00040703}-1794.o(StubCode)
+    StubCode                                 0x00008f60   Section        8  QtCore{00040703}-1826.o(StubCode)
+    theImportedSymbol                        0x00008f64   Data           0  QtCore{00040703}-1826.o(StubCode)
+    StubCode                                 0x00008f68   Section        8  QtCore{00040703}-1830.o(StubCode)
+    theImportedSymbol                        0x00008f6c   Data           0  QtCore{00040703}-1830.o(StubCode)
+    StubCode                                 0x00008f70   Section        8  QtCore{00040703}-1836.o(StubCode)
+    theImportedSymbol                        0x00008f74   Data           0  QtCore{00040703}-1836.o(StubCode)
+    StubCode                                 0x00008f78   Section        8  QtCore{00040703}-1874.o(StubCode)
+    theImportedSymbol                        0x00008f7c   Data           0  QtCore{00040703}-1874.o(StubCode)
+    StubCode                                 0x00008f80   Section        8  QtCore{00040703}-1885.o(StubCode)
+    theImportedSymbol                        0x00008f84   Data           0  QtCore{00040703}-1885.o(StubCode)
+    StubCode                                 0x00008f88   Section        8  QtCore{00040703}-2038.o(StubCode)
+    theImportedSymbol                        0x00008f8c   Data           0  QtCore{00040703}-2038.o(StubCode)
+    StubCode                                 0x00008f90   Section        8  QtCore{00040703}-2082.o(StubCode)
+    theImportedSymbol                        0x00008f94   Data           0  QtCore{00040703}-2082.o(StubCode)
+    StubCode                                 0x00008f98   Section        8  QtCore{00040703}-2134.o(StubCode)
+    theImportedSymbol                        0x00008f9c   Data           0  QtCore{00040703}-2134.o(StubCode)
+    StubCode                                 0x00008fa0   Section        8  QtCore{00040703}-2141.o(StubCode)
+    theImportedSymbol                        0x00008fa4   Data           0  QtCore{00040703}-2141.o(StubCode)
+    StubCode                                 0x00008fa8   Section        8  QtCore{00040703}-2188.o(StubCode)
+    theImportedSymbol                        0x00008fac   Data           0  QtCore{00040703}-2188.o(StubCode)
+    StubCode                                 0x00008fb0   Section        8  QtCore{00040703}-2193.o(StubCode)
+    theImportedSymbol                        0x00008fb4   Data           0  QtCore{00040703}-2193.o(StubCode)
+    StubCode                                 0x00008fb8   Section        8  QtCore{00040703}-2511.o(StubCode)
+    theImportedSymbol                        0x00008fbc   Data           0  QtCore{00040703}-2511.o(StubCode)
+    StubCode                                 0x00008fc0   Section        8  QtCore{00040703}-276.o(StubCode)
+    theImportedSymbol                        0x00008fc4   Data           0  QtCore{00040703}-276.o(StubCode)
+    StubCode                                 0x00008fc8   Section        8  QtCore{00040703}-2791.o(StubCode)
+    theImportedSymbol                        0x00008fcc   Data           0  QtCore{00040703}-2791.o(StubCode)
+    StubCode                                 0x00008fd0   Section        8  QtCore{00040703}-2795.o(StubCode)
+    theImportedSymbol                        0x00008fd4   Data           0  QtCore{00040703}-2795.o(StubCode)
+    StubCode                                 0x00008fd8   Section        8  QtCore{00040703}-2797.o(StubCode)
+    theImportedSymbol                        0x00008fdc   Data           0  QtCore{00040703}-2797.o(StubCode)
+    StubCode                                 0x00008fe0   Section        8  QtCore{00040703}-2810.o(StubCode)
+    theImportedSymbol                        0x00008fe4   Data           0  QtCore{00040703}-2810.o(StubCode)
+    StubCode                                 0x00008fe8   Section        8  QtCore{00040703}-2811.o(StubCode)
+    theImportedSymbol                        0x00008fec   Data           0  QtCore{00040703}-2811.o(StubCode)
+    StubCode                                 0x00008ff0   Section        8  QtCore{00040703}-282.o(StubCode)
+    theImportedSymbol                        0x00008ff4   Data           0  QtCore{00040703}-282.o(StubCode)
+    StubCode                                 0x00008ff8   Section        8  QtCore{00040703}-2855.o(StubCode)
+    theImportedSymbol                        0x00008ffc   Data           0  QtCore{00040703}-2855.o(StubCode)
+    StubCode                                 0x00009000   Section        8  QtCore{00040703}-3003.o(StubCode)
+    theImportedSymbol                        0x00009004   Data           0  QtCore{00040703}-3003.o(StubCode)
+    StubCode                                 0x00009008   Section        8  QtCore{00040703}-3040.o(StubCode)
+    theImportedSymbol                        0x0000900c   Data           0  QtCore{00040703}-3040.o(StubCode)
+    StubCode                                 0x00009010   Section        8  QtCore{00040703}-3064.o(StubCode)
+    theImportedSymbol                        0x00009014   Data           0  QtCore{00040703}-3064.o(StubCode)
+    StubCode                                 0x00009018   Section        8  QtCore{00040703}-3088.o(StubCode)
+    theImportedSymbol                        0x0000901c   Data           0  QtCore{00040703}-3088.o(StubCode)
+    StubCode                                 0x00009020   Section        8  QtCore{00040703}-3098.o(StubCode)
+    theImportedSymbol                        0x00009024   Data           0  QtCore{00040703}-3098.o(StubCode)
+    StubCode                                 0x00009028   Section        8  QtCore{00040703}-312.o(StubCode)
+    theImportedSymbol                        0x0000902c   Data           0  QtCore{00040703}-312.o(StubCode)
+    StubCode                                 0x00009030   Section        8  QtCore{00040703}-3139.o(StubCode)
+    theImportedSymbol                        0x00009034   Data           0  QtCore{00040703}-3139.o(StubCode)
+    StubCode                                 0x00009038   Section        8  QtCore{00040703}-3143.o(StubCode)
+    theImportedSymbol                        0x0000903c   Data           0  QtCore{00040703}-3143.o(StubCode)
+    StubCode                                 0x00009040   Section        8  QtCore{00040703}-3163.o(StubCode)
+    theImportedSymbol                        0x00009044   Data           0  QtCore{00040703}-3163.o(StubCode)
+    StubCode                                 0x00009048   Section        8  QtCore{00040703}-32.o(StubCode)
+    theImportedSymbol                        0x0000904c   Data           0  QtCore{00040703}-32.o(StubCode)
+    StubCode                                 0x00009050   Section        8  QtCore{00040703}-324.o(StubCode)
+    theImportedSymbol                        0x00009054   Data           0  QtCore{00040703}-324.o(StubCode)
+    StubCode                                 0x00009058   Section        8  QtCore{00040703}-331.o(StubCode)
+    theImportedSymbol                        0x0000905c   Data           0  QtCore{00040703}-331.o(StubCode)
+    StubCode                                 0x00009060   Section        8  QtCore{00040703}-332.o(StubCode)
+    theImportedSymbol                        0x00009064   Data           0  QtCore{00040703}-332.o(StubCode)
+    StubCode                                 0x00009068   Section        8  QtCore{00040703}-3609.o(StubCode)
+    theImportedSymbol                        0x0000906c   Data           0  QtCore{00040703}-3609.o(StubCode)
+    StubCode                                 0x00009070   Section        8  QtCore{00040703}-3610.o(StubCode)
+    theImportedSymbol                        0x00009074   Data           0  QtCore{00040703}-3610.o(StubCode)
+    StubCode                                 0x00009078   Section        8  QtCore{00040703}-3689.o(StubCode)
+    theImportedSymbol                        0x0000907c   Data           0  QtCore{00040703}-3689.o(StubCode)
+    StubCode                                 0x00009080   Section        8  QtCore{00040703}-3691.o(StubCode)
+    theImportedSymbol                        0x00009084   Data           0  QtCore{00040703}-3691.o(StubCode)
+    StubCode                                 0x00009088   Section        8  QtCore{00040703}-46.o(StubCode)
+    theImportedSymbol                        0x0000908c   Data           0  QtCore{00040703}-46.o(StubCode)
+    StubCode                                 0x00009090   Section        8  QtCore{00040703}-492.o(StubCode)
+    theImportedSymbol                        0x00009094   Data           0  QtCore{00040703}-492.o(StubCode)
+    StubCode                                 0x00009098   Section        8  QtCore{00040703}-497.o(StubCode)
+    theImportedSymbol                        0x0000909c   Data           0  QtCore{00040703}-497.o(StubCode)
+    StubCode                                 0x000090a0   Section        8  QtCore{00040703}-498.o(StubCode)
+    theImportedSymbol                        0x000090a4   Data           0  QtCore{00040703}-498.o(StubCode)
+    StubCode                                 0x000090a8   Section        8  QtCore{00040703}-499.o(StubCode)
+    theImportedSymbol                        0x000090ac   Data           0  QtCore{00040703}-499.o(StubCode)
+    StubCode                                 0x000090b0   Section        8  QtCore{00040703}-500.o(StubCode)
+    theImportedSymbol                        0x000090b4   Data           0  QtCore{00040703}-500.o(StubCode)
+    StubCode                                 0x000090b8   Section        8  QtCore{00040703}-501.o(StubCode)
+    theImportedSymbol                        0x000090bc   Data           0  QtCore{00040703}-501.o(StubCode)
+    StubCode                                 0x000090c0   Section        8  QtCore{00040703}-505.o(StubCode)
+    theImportedSymbol                        0x000090c4   Data           0  QtCore{00040703}-505.o(StubCode)
+    StubCode                                 0x000090c8   Section        8  QtCore{00040703}-56.o(StubCode)
+    theImportedSymbol                        0x000090cc   Data           0  QtCore{00040703}-56.o(StubCode)
+    StubCode                                 0x000090d0   Section        8  QtCore{00040703}-70.o(StubCode)
+    theImportedSymbol                        0x000090d4   Data           0  QtCore{00040703}-70.o(StubCode)
+    StubCode                                 0x000090d8   Section        8  QtCore{00040703}-73.o(StubCode)
+    theImportedSymbol                        0x000090dc   Data           0  QtCore{00040703}-73.o(StubCode)
+    StubCode                                 0x000090e0   Section        8  QtCore{00040703}-753.o(StubCode)
+    theImportedSymbol                        0x000090e4   Data           0  QtCore{00040703}-753.o(StubCode)
+    StubCode                                 0x000090e8   Section        8  QtCore{00040703}-772.o(StubCode)
+    theImportedSymbol                        0x000090ec   Data           0  QtCore{00040703}-772.o(StubCode)
+    StubCode                                 0x000090f0   Section        8  libc{00010000}-350.o(StubCode)
+    theImportedSymbol                        0x000090f4   Data           0  libc{00010000}-350.o(StubCode)
+    StubCode                                 0x000090f8   Section        8  euser{000a0000}-1170.o(StubCode)
+    theImportedSymbol                        0x000090fc   Data           0  euser{000a0000}-1170.o(StubCode)
+    StubCode                                 0x00009100   Section        8  euser{000a0000}-120.o(StubCode)
+    theImportedSymbol                        0x00009104   Data           0  euser{000a0000}-120.o(StubCode)
+    StubCode                                 0x00009108   Section        8  euser{000a0000}-670.o(StubCode)
+    theImportedSymbol                        0x0000910c   Data           0  euser{000a0000}-670.o(StubCode)
+    StubCode                                 0x00009110   Section        8  euser{000a0000}-671.o(StubCode)
+    theImportedSymbol                        0x00009114   Data           0  euser{000a0000}-671.o(StubCode)
+    StubCode                                 0x00009118   Section        8  dfpaeabi{000a0000}-4.o(StubCode)
+    theImportedSymbol                        0x0000911c   Data           0  dfpaeabi{000a0000}-4.o(StubCode)
+    StubCode                                 0x00009120   Section        8  drtaeabi{000a0000}-147.o(StubCode)
+    theImportedSymbol                        0x00009124   Data           0  drtaeabi{000a0000}-147.o(StubCode)
+    StubCode                                 0x00009128   Section        8  drtaeabi{000a0000}-155.o(StubCode)
+    theImportedSymbol                        0x0000912c   Data           0  drtaeabi{000a0000}-155.o(StubCode)
+    StubCode                                 0x00009130   Section        8  drtaeabi{000a0000}-158.o(StubCode)
+    theImportedSymbol                        0x00009134   Data           0  drtaeabi{000a0000}-158.o(StubCode)
+    StubCode                                 0x00009138   Section        8  drtaeabi{000a0000}-180.o(StubCode)
+    theImportedSymbol                        0x0000913c   Data           0  drtaeabi{000a0000}-180.o(StubCode)
+    StubCode                                 0x00009140   Section        8  drtaeabi{000a0000}-183.o(StubCode)
+    theImportedSymbol                        0x00009144   Data           0  drtaeabi{000a0000}-183.o(StubCode)
+    StubCode                                 0x00009148   Section        8  drtaeabi{000a0000}-184.o(StubCode)
+    theImportedSymbol                        0x0000914c   Data           0  drtaeabi{000a0000}-184.o(StubCode)
+    StubCode                                 0x00009150   Section        8  drtaeabi{000a0000}-186.o(StubCode)
+    theImportedSymbol                        0x00009154   Data           0  drtaeabi{000a0000}-186.o(StubCode)
+    StubCode                                 0x00009158   Section        8  drtaeabi{000a0000}-187.o(StubCode)
+    theImportedSymbol                        0x0000915c   Data           0  drtaeabi{000a0000}-187.o(StubCode)
+    StubCode                                 0x00009160   Section        8  drtaeabi{000a0000}-188.o(StubCode)
+    theImportedSymbol                        0x00009164   Data           0  drtaeabi{000a0000}-188.o(StubCode)
+    StubCode                                 0x00009168   Section        8  drtaeabi{000a0000}-189.o(StubCode)
+    theImportedSymbol                        0x0000916c   Data           0  drtaeabi{000a0000}-189.o(StubCode)
+    StubCode                                 0x00009170   Section        8  drtaeabi{000a0000}-190.o(StubCode)
+    theImportedSymbol                        0x00009174   Data           0  drtaeabi{000a0000}-190.o(StubCode)
+    StubCode                                 0x00009178   Section        8  drtrvct2_2{000a0000}-28.o(StubCode)
+    theImportedSymbol                        0x0000917c   Data           0  drtrvct2_2{000a0000}-28.o(StubCode)
+    i._Z8qWarningv                           0x00009180   Section       72  QtFeedback.in(i._Z8qWarningv)
+    i._Z8qWarningv.clean                     0x000091c8   Section       18  QtFeedback.in(i._Z8qWarningv.clean)
+    i._ZN10QByteArrayD1Ev                    0x000091da   Section       24  QtFeedback.in(i._ZN10QByteArrayD1Ev)
+    i._ZN10QtMobility11FileBackend10getBackendEPKNS_19QFeedbackFileEffectE 0x000091f2   Section       36  QtFeedback.in(i._ZN10QtMobility11FileBackend10getBackendEPKNS_19QFeedbackFileEffectE)
+    i._ZN10QtMobility11FileBackend11effectStateEPKNS_19QFeedbackFileEffectE 0x00009216   Section       26  QtFeedback.in(i._ZN10QtMobility11FileBackend11effectStateEPKNS_19QFeedbackFileEffectE)
+    i._ZN10QtMobility11FileBackend14effectDurationEPKNS_19QFeedbackFileEffectE 0x00009230   Section       26  QtFeedback.in(i._ZN10QtMobility11FileBackend14effectDurationEPKNS_19QFeedbackFileEffectE)
+    i._ZN10QtMobility11FileBackend14setEffectStateEPNS_19QFeedbackFileEffectENS_15QFeedbackEffect5StateE 0x0000924a   Section       36  QtFeedback.in(i._ZN10QtMobility11FileBackend14setEffectStateEPNS_19QFeedbackFileEffectENS_15QFeedbackEffect5StateE)
+    i._ZN10QtMobility11FileBackend14tryBackendLoadEPNS_19QFeedbackFileEffectE 0x00009270   Section      140  QtFeedback.in(i._ZN10QtMobility11FileBackend14tryBackendLoadEPNS_19QFeedbackFileEffectE)
+    i._ZN10QtMobility11FileBackend18supportedMimeTypesEv 0x000092fc   Section       60  QtFeedback.in(i._ZN10QtMobility11FileBackend18supportedMimeTypesEv)
+    i._ZN10QtMobility11FileBackend18supportedMimeTypesEv.clean 0x00009338   Section       16  QtFeedback.in(i._ZN10QtMobility11FileBackend18supportedMimeTypesEv.clean)
+    i._ZN10QtMobility11FileBackend9setLoadedEPNS_19QFeedbackFileEffectEb 0x00009348   Section       46  QtFeedback.in(i._ZN10QtMobility11FileBackend9setLoadedEPNS_19QFeedbackFileEffectEb)
+    i._ZN10QtMobility11FileBackendD0Ev       0x00009376   Section       16  QtFeedback.in(i._ZN10QtMobility11FileBackendD0Ev)
+    i._ZN10QtMobility11FileBackendD1Ev       0x00009388   Section       24  QtFeedback.in(i._ZN10QtMobility11FileBackendD1Ev)
+    i._ZN10QtMobility11FileBackendD1Ev.clean 0x000093a0   Section       10  QtFeedback.in(i._ZN10QtMobility11FileBackendD1Ev.clean)
+    i._ZN10QtMobility13QDummyBackend11effectStateEPKNS_22QFeedbackHapticsEffectE 0x000093aa   Section        4  QtFeedback.in(i._ZN10QtMobility13QDummyBackend11effectStateEPKNS_22QFeedbackHapticsEffectE)
+    i._ZN10QtMobility13QDummyBackend14pluginPriorityEv 0x000093ae   Section        4  QtFeedback.in(i._ZN10QtMobility13QDummyBackend14pluginPriorityEv)
+    i._ZN10QtMobility13QDummyBackend14setEffectStateEPKNS_22QFeedbackHapticsEffectENS_15QFeedbackEffect5StateE 0x000093b2   Section        2  QtFeedback.in(i._ZN10QtMobility13QDummyBackend14setEffectStateEPKNS_22QFeedbackHapticsEffectENS_15QFeedbackEffect5StateE)
+    i._ZN10QtMobility13QDummyBackend16actuatorPropertyERKNS_17QFeedbackActuatorENS_25QFeedbackHapticsInterface16ActuatorPropertyE 0x000093b4   Section       24  QtFeedback.in(i._ZN10QtMobility13QDummyBackend16actuatorPropertyERKNS_17QFeedbackActuatorENS_25QFeedbackHapticsInterface16ActuatorPropertyE)
+    i._ZN10QtMobility13QDummyBackend19setActuatorPropertyERKNS_17QFeedbackActuatorENS_25QFeedbackHapticsInterface16ActuatorPropertyERK8QVariant 0x000093cc   Section        2  QtFeedback.in(i._ZN10QtMobility13QDummyBackend19setActuatorPropertyERKNS_17QFeedbackActuatorENS_25QFeedbackHapticsInterface16ActuatorPropertyERK8QVariant)
+    i._ZN10QtMobility13QDummyBackend20updateEffectPropertyEPKNS_22QFeedbackHapticsEffectENS_25QFeedbackHapticsInterface14EffectPropertyE 0x000093ce   Section        2  QtFeedback.in(i._ZN10QtMobility13QDummyBackend20updateEffectPropertyEPKNS_22QFeedbackHapticsEffectENS_25QFeedbackHapticsInterface14EffectPropertyE)
+    i._ZN10QtMobility13QDummyBackend29isActuatorCapabilitySupportedERKNS_17QFeedbackActuatorENS1_10CapabilityE 0x000093d0   Section        4  QtFeedback.in(i._ZN10QtMobility13QDummyBackend29isActuatorCapabilitySupportedERKNS_17QFeedbackActuatorENS1_10CapabilityE)
+    i._ZN10QtMobility13QDummyBackend9actuatorsEv 0x000093d4   Section       20  QtFeedback.in(i._ZN10QtMobility13QDummyBackend9actuatorsEv)
+    i._ZN10QtMobility13QDummyBackendD0Ev     0x000093e8   Section       16  QtFeedback.in(i._ZN10QtMobility13QDummyBackendD0Ev)
+    i._ZN10QtMobility13QDummyBackendD1Ev     0x000093f8   Section        8  QtFeedback.in(i._ZN10QtMobility13QDummyBackendD1Ev)
+    i._ZN10QtMobility14BackendManagerC1Ev    0x00009400   Section      432  QtFeedback.in(i._ZN10QtMobility14BackendManagerC1Ev)
+    i._ZN10QtMobility14BackendManagerC1Ev.clean 0x000095b0   Section       88  QtFeedback.in(i._ZN10QtMobility14BackendManagerC1Ev.clean)
+    i._ZN10QtMobility14BackendManagerD1Ev    0x00009608   Section       30  QtFeedback.in(i._ZN10QtMobility14BackendManagerD1Ev)
+    i._ZN10QtMobility14BackendManagerD1Ev.clean 0x00009626   Section       22  QtFeedback.in(i._ZN10QtMobility14BackendManagerD1Ev.clean)
+    i._ZN10QtMobility15QFeedbackEffectD0Ev   0x0000963c   Section       16  QtFeedback.in(i._ZN10QtMobility15QFeedbackEffectD0Ev)
+    i._ZN10QtMobility15QFeedbackEffectD2Ev   0x0000964c   Section        8  QtFeedback.in(i._ZN10QtMobility15QFeedbackEffectD2Ev)
+    i._ZN10QtMobility15mobilityPluginsERK7QString 0x00009654   Section      624  QtFeedback.in(i._ZN10QtMobility15mobilityPluginsERK7QString)
+    i._ZN10QtMobility15mobilityPluginsERK7QString.clean 0x000098c4   Section      108  QtFeedback.in(i._ZN10QtMobility15mobilityPluginsERK7QString.clean)
+    i._ZN10QtMobility17QFeedbackActuatorD0Ev 0x00009930   Section       16  QtFeedback.in(i._ZN10QtMobility17QFeedbackActuatorD0Ev)
+    i._ZN10QtMobility17QFeedbackActuatorD1Ev 0x00009940   Section        8  QtFeedback.in(i._ZN10QtMobility17QFeedbackActuatorD1Ev)
+    i._ZN10QtMobility22QFeedbackFileInterfaceD2Ev 0x00009948   Section        2  QtFeedback.in(i._ZN10QtMobility22QFeedbackFileInterfaceD2Ev)
+    i._ZN11QStringListC1Ev                   0x0000994c   Section       20  QtFeedback.in(i._ZN11QStringListC1Ev)
+    i._ZN11QStringListD1Ev                   0x00009960   Section        8  QtFeedback.in(i._ZN11QStringListD1Ev)
+    i._ZN15QBasicAtomicInt3refEv             0x00009968   Section       18  QtFeedback.in(i._ZN15QBasicAtomicInt3refEv)
+    i._ZN15QBasicAtomicInt5derefEv           0x0000997a   Section       18  QtFeedback.in(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN17QForeachContainerI11QStringListED1Ev 0x0000998c   Section        8  QtFeedback.in(i._ZN17QForeachContainerI11QStringListED1Ev)
+    i._ZN4QSetI7QStringED1Ev                 0x00009994   Section        8  QtFeedback.in(i._ZN4QSetI7QStringED1Ev)
+    i._ZN6QDebugD1Ev                         0x0000999c   Section      132  QtFeedback.in(i._ZN6QDebugD1Ev)
+    i._ZN6QDebugD1Ev.clean                   0x00009a20   Section       20  QtFeedback.in(i._ZN6QDebugD1Ev.clean)
+    i._ZN7QStringC1ERK13QLatin1String        0x00009a34   Section       20  QtFeedback.in(i._ZN7QStringC1ERK13QLatin1String)
+    i._ZN7QStringC1ERKS_                     0x00009a48   Section       16  QtFeedback.in(i._ZN7QStringC1ERKS_)
+    i._ZN7QStringD1Ev                        0x00009a58   Section       24  QtFeedback.in(i._ZN7QStringD1Ev)
+    i._ZNK15QBasicAtomicIntneEi              0x00009a70   Section       14  QtFeedback.in(i._ZNK15QBasicAtomicIntneEi)
+    i._ZNK9QListData2atEi                    0x00009a7e   Section       16  QtFeedback.in(i._ZNK9QListData2atEi)
+    i._ZNK9QListData3endEv                   0x00009a8e   Section       12  QtFeedback.in(i._ZNK9QListData3endEv)
+    i._ZNK9QListData5beginEv                 0x00009a9a   Section       12  QtFeedback.in(i._ZNK9QListData5beginEv)
+    i._ZThn8_N10QtMobility13QDummyBackend11effectStateEPKNS_22QFeedbackHapticsEffectE 0x00009aa6   Section        4  QtFeedback.in(i._ZThn8_N10QtMobility13QDummyBackend11effectStateEPKNS_22QFeedbackHapticsEffectE)
+    i._ZThn8_N10QtMobility13QDummyBackend14pluginPriorityEv 0x00009aaa   Section        4  QtFeedback.in(i._ZThn8_N10QtMobility13QDummyBackend14pluginPriorityEv)
+    i._ZThn8_N10QtMobility13QDummyBackend14setEffectStateEPKNS_22QFeedbackHapticsEffectENS_15QFeedbackEffect5StateE 0x00009aae   Section        2  QtFeedback.in(i._ZThn8_N10QtMobility13QDummyBackend14setEffectStateEPKNS_22QFeedbackHapticsEffectENS_15QFeedbackEffect5StateE)
+    i._ZThn8_N10QtMobility13QDummyBackend16actuatorPropertyERKNS_17QFeedbackActuatorENS_25QFeedbackHapticsInterface16ActuatorPropertyE 0x00009ab0   Section       10  QtFeedback.in(i._ZThn8_N10QtMobility13QDummyBackend16actuatorPropertyERKNS_17QFeedbackActuatorENS_25QFeedbackHapticsInterface16ActuatorPropertyE)
+    i._ZThn8_N10QtMobility13QDummyBackend19setActuatorPropertyERKNS_17QFeedbackActuatorENS_25QFeedbackHapticsInterface16ActuatorPropertyERK8QVariant 0x00009aba   Section        2  QtFeedback.in(i._ZThn8_N10QtMobility13QDummyBackend19setActuatorPropertyERKNS_17QFeedbackActuatorENS_25QFeedbackHapticsInterface16ActuatorPropertyERK8QVariant)
+    i._ZThn8_N10QtMobility13QDummyBackend20updateEffectPropertyEPKNS_22QFeedbackHapticsEffectENS_25QFeedbackHapticsInterface14EffectPropertyE 0x00009abc   Section        2  QtFeedback.in(i._ZThn8_N10QtMobility13QDummyBackend20updateEffectPropertyEPKNS_22QFeedbackHapticsEffectENS_25QFeedbackHapticsInterface14EffectPropertyE)
+    i._ZThn8_N10QtMobility13QDummyBackend29isActuatorCapabilitySupportedERKNS_17QFeedbackActuatorENS1_10CapabilityE 0x00009abe   Section        4  QtFeedback.in(i._ZThn8_N10QtMobility13QDummyBackend29isActuatorCapabilitySupportedERKNS_17QFeedbackActuatorENS1_10CapabilityE)
+    i._ZThn8_N10QtMobility13QDummyBackend9actuatorsEv 0x00009ac2   Section       10  QtFeedback.in(i._ZThn8_N10QtMobility13QDummyBackend9actuatorsEv)
+    i._ZThn8_N10QtMobility13QDummyBackendD0Ev 0x00009acc   Section       10  QtFeedback.in(i._ZThn8_N10QtMobility13QDummyBackendD0Ev)
+    i._ZThn8_N10QtMobility13QDummyBackendD1Ev 0x00009ad6   Section       10  QtFeedback.in(i._ZThn8_N10QtMobility13QDummyBackendD1Ev)
+    i._ZdlPvS_                               0x00009ae0   Section        2  QtFeedback.in(i._ZdlPvS_)
+    i._ZnwjPv                                0x00009ae2   Section        4  QtFeedback.in(i._ZnwjPv)
+    t._ZN10QtMobility13BackendLoaderINS_23QFeedbackThemeInterfaceEE7tryLoadER13QPluginLoader 0x00009ae8   Section      140  QtFeedback.in(t._ZN10QtMobility13BackendLoaderINS_23QFeedbackThemeInterfaceEE7tryLoadER13QPluginLoader)
+    t._ZN10QtMobility13BackendLoaderINS_23QFeedbackThemeInterfaceEE7tryLoadER13QPluginLoader.clean 0x00009b74   Section       10  QtFeedback.in(t._ZN10QtMobility13BackendLoaderINS_23QFeedbackThemeInterfaceEE7tryLoadER13QPluginLoader.clean)
+    t._ZN10QtMobility13BackendLoaderINS_23QFeedbackThemeInterfaceEED1Ev 0x00009b7e   Section       16  QtFeedback.in(t._ZN10QtMobility13BackendLoaderINS_23QFeedbackThemeInterfaceEED1Ev)
+    t._ZN10QtMobility13BackendLoaderINS_23QFeedbackThemeInterfaceEED1Ev.clean 0x00009b8e   Section       10  QtFeedback.in(t._ZN10QtMobility13BackendLoaderINS_23QFeedbackThemeInterfaceEED1Ev.clean)
+    t._ZN10QtMobility13BackendLoaderINS_25QFeedbackHapticsInterfaceEE7tryLoadER13QPluginLoader 0x00009b98   Section      140  QtFeedback.in(t._ZN10QtMobility13BackendLoaderINS_25QFeedbackHapticsInterfaceEE7tryLoadER13QPluginLoader)
+    t._ZN10QtMobility13BackendLoaderINS_25QFeedbackHapticsInterfaceEE7tryLoadER13QPluginLoader.clean 0x00009c24   Section       10  QtFeedback.in(t._ZN10QtMobility13BackendLoaderINS_25QFeedbackHapticsInterfaceEE7tryLoadER13QPluginLoader.clean)
+    t._ZN10QtMobility13BackendLoaderINS_25QFeedbackHapticsInterfaceEED1Ev 0x00009c2e   Section       16  QtFeedback.in(t._ZN10QtMobility13BackendLoaderINS_25QFeedbackHapticsInterfaceEED1Ev)
+    t._ZN10QtMobility13BackendLoaderINS_25QFeedbackHapticsInterfaceEED1Ev.clean 0x00009c3e   Section       10  QtFeedback.in(t._ZN10QtMobility13BackendLoaderINS_25QFeedbackHapticsInterfaceEED1Ev.clean)
+    t._ZN14QHashDummyNodeI7QString15QHashDummyValueEC1ERKS0_ 0x00009c48   Section       12  QtFeedback.in(t._ZN14QHashDummyNodeI7QString15QHashDummyValueEC1ERKS0_)
+    t._ZN14QScopedPointerIN10QtMobility26QFeedbackFileEffectPrivateE21QScopedPointerDeleterIS1_EED1Ev 0x00009c54   Section       30  QtFeedback.in(t._ZN14QScopedPointerIN10QtMobility26QFeedbackFileEffectPrivateE21QScopedPointerDeleterIS1_EED1Ev)
+    t._ZN14QScopedPointerIN10QtMobility29QFeedbackHapticsEffectPrivateE21QScopedPointerDeleterIS1_EED1Ev 0x00009c72   Section       18  QtFeedback.in(t._ZN14QScopedPointerIN10QtMobility29QFeedbackHapticsEffectPrivateE21QScopedPointerDeleterIS1_EED1Ev)
+    t._ZN20QGlobalStaticDeleterIN10QtMobility14BackendManagerEED1Ev 0x00009c84   Section       36  QtFeedback.in(t._ZN20QGlobalStaticDeleterIN10QtMobility14BackendManagerEED1Ev)
+    t._ZN4QSetI7QStringE6insertERKS0_        0x00009ca8   Section       22  QtFeedback.in(t._ZN4QSetI7QStringE6insertERKS0_)
+    t._ZN5QHashI7QString15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE 0x00009cbe   Section       10  QtFeedback.in(t._ZN5QHashI7QString15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE)
+    t._ZN5QHashI7QString15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv 0x00009cc8   Section       28  QtFeedback.in(t._ZN5QHashI7QString15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv)
+    t._ZN5QHashI7QString15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv.clean 0x00009ce4   Section       12  QtFeedback.in(t._ZN5QHashI7QString15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv.clean)
+    t._ZN5QHashI7QString15QHashDummyValueE6insertERKS0_RKS1_ 0x00009cf0   Section      180  QtFeedback.in(t._ZN5QHashI7QString15QHashDummyValueE6insertERKS0_RKS1_)
+    t._ZN5QHashI7QString15QHashDummyValueE6insertERKS0_RKS1_.clean 0x00009da4   Section       12  QtFeedback.in(t._ZN5QHashI7QString15QHashDummyValueE6insertERKS0_RKS1_.clean)
+    t._ZN5QHashI7QString15QHashDummyValueE8freeDataEP9QHashData 0x00009db0   Section       16  QtFeedback.in(t._ZN5QHashI7QString15QHashDummyValueE8freeDataEP9QHashData)
+    t._ZN5QHashI7QString15QHashDummyValueED1Ev 0x00009dc0   Section       28  QtFeedback.in(t._ZN5QHashI7QString15QHashDummyValueED1Ev)
+    t._ZN5QListI7QStringE13detach_helperEv   0x00009ddc   Section       88  QtFeedback.in(t._ZN5QListI7QStringE13detach_helperEv)
+    t._ZN5QListI7QStringE13detach_helperEv.clean 0x00009e34   Section        8  QtFeedback.in(t._ZN5QListI7QStringE13detach_helperEv.clean)
+    t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_ 0x00009e3c   Section       26  QtFeedback.in(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_)
+    t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_.clean 0x00009e56   Section       12  QtFeedback.in(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_.clean)
+    t._ZN5QListI7QStringE18detach_helper_growEii 0x00009e62   Section      186  QtFeedback.in(t._ZN5QListI7QStringE18detach_helper_growEii)
+    t._ZN5QListI7QStringE18detach_helper_growEii.clean 0x00009f1c   Section        8  QtFeedback.in(t._ZN5QListI7QStringE18detach_helper_growEii.clean)
+    t._ZN5QListI7QStringE4freeEPN9QListData4DataE 0x00009f24   Section       48  QtFeedback.in(t._ZN5QListI7QStringE4freeEPN9QListData4DataE)
+    t._ZN5QListI7QStringE6appendERKS0_       0x00009f54   Section      100  QtFeedback.in(t._ZN5QListI7QStringE6appendERKS0_)
+    t._ZN5QListI7QStringE6appendERKS0_.clean 0x00009fb8   Section        8  QtFeedback.in(t._ZN5QListI7QStringE6appendERKS0_.clean)
+    t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_ 0x00009fc0   Section       70  QtFeedback.in(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_)
+    t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_.clean 0x0000a006   Section       22  QtFeedback.in(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_.clean)
+    t._ZN5QListI7QStringED1Ev                0x0000a01c   Section       30  QtFeedback.in(t._ZN5QListI7QStringED1Ev)
+    t._ZN5QListI7QStringEpLERKS1_            0x0000a03c   Section      172  QtFeedback.in(t._ZN5QListI7QStringEpLERKS1_)
+    t._ZN5QListI7QStringEpLERKS1_.clean      0x0000a0e8   Section        8  QtFeedback.in(t._ZN5QListI7QStringEpLERKS1_.clean)
+    t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE13detach_helperEi 0x0000a0f0   Section       96  QtFeedback.in(t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE13detach_helperEi)
+    t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE13detach_helperEi.clean 0x0000a150   Section        8  QtFeedback.in(t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE13detach_helperEi.clean)
+    t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE4freeEPN9QListData4DataE 0x0000a158   Section       16  QtFeedback.in(t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE4freeEPN9QListData4DataE)
+    t._ZN5QListIPN10QtMobility17QFeedbackActuatorEED1Ev 0x0000a168   Section       30  QtFeedback.in(t._ZN5QListIPN10QtMobility17QFeedbackActuatorEED1Ev)
+    t._ZN5QListIPN10QtMobility22QFeedbackFileInterfaceEE18detach_helper_growEii 0x0000a186   Section      164  QtFeedback.in(t._ZN5QListIPN10QtMobility22QFeedbackFileInterfaceEE18detach_helper_growEii)
+    t._ZN5QListIPN10QtMobility22QFeedbackFileInterfaceEE18detach_helper_growEii.clean 0x0000a22a   Section        8  QtFeedback.in(t._ZN5QListIPN10QtMobility22QFeedbackFileInterfaceEE18detach_helper_growEii.clean)
+    t._ZN5QListIPN10QtMobility22QFeedbackFileInterfaceEE4freeEPN9QListData4DataE 0x0000a232   Section       16  QtFeedback.in(t._ZN5QListIPN10QtMobility22QFeedbackFileInterfaceEE4freeEPN9QListData4DataE)
+    t._ZN5QListIPN10QtMobility22QFeedbackFileInterfaceEE9node_copyEPNS3_4NodeES5_S5_ 0x0000a242   Section       28  QtFeedback.in(t._ZN5QListIPN10QtMobility22QFeedbackFileInterfaceEE9node_copyEPNS3_4NodeES5_S5_)
+    t._ZN5QListIPN10QtMobility22QFeedbackFileInterfaceEED1Ev 0x0000a25e   Section       30  QtFeedback.in(t._ZN5QListIPN10QtMobility22QFeedbackFileInterfaceEED1Ev)
+    t._ZNK4QSetI7QStringE8containsERKS0_     0x0000a27c   Section       26  QtFeedback.in(t._ZNK4QSetI7QStringE8containsERKS0_)
+    t._ZNK5QHashI7QString15QHashDummyValueE8findNodeERKS0_Pj 0x0000a296   Section       90  QtFeedback.in(t._ZNK5QHashI7QString15QHashDummyValueE8findNodeERKS0_Pj)
+    t._ZNK5QListI7QStringE2atEi              0x0000a2f0   Section        8  QtFeedback.in(t._ZNK5QListI7QStringE2atEi)
+    t._ZNK5QListI7QStringE7isEmptyEv         0x0000a2f8   Section       18  QtFeedback.in(t._ZNK5QListI7QStringE7isEmptyEv)
+    t._ZNK5QListIPN10QtMobility22QFeedbackFileInterfaceEE2atEi 0x0000a30a   Section        8  QtFeedback.in(t._ZNK5QListIPN10QtMobility22QFeedbackFileInterfaceEE2atEi)
+    t._ZNK5QListIPN10QtMobility22QFeedbackFileInterfaceEE5countEv 0x0000a312   Section       10  QtFeedback.in(t._ZNK5QListIPN10QtMobility22QFeedbackFileInterfaceEE5countEv)
+    .extab._ZNK10QtMobility17QFeedbackActuator9isEnabledEv 0x0000a31c   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN10QtMobility17QFeedbackActuator10setEnabledEb 0x0000a32c   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZNK10QtMobility17QFeedbackActuator5stateEv 0x0000a33c   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZNK10QtMobility17QFeedbackActuator4nameEv 0x0000a34c   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN10QtMobility17QFeedbackActuator11qt_metacallEN11QMetaObject4CallEiPPv 0x0000a35c   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN10QtMobility17QFeedbackActuatorC1EP7QObject 0x0000a36c   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN5QListIPN10QtMobility17QFeedbackActuatorEE13detach_helperEi 0x0000a38c   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN10QtMobility22QFeedbackHapticsEffect11setActuatorEPNS_17QFeedbackActuatorE 0x0000a3a8   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN10QtMobility22QFeedbackHapticsEffectC1EP7QObject 0x0000a3c0   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN10QtMobility22QFeedbackHapticsEffectD1Ev 0x0000a3d0   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN10QtMobility19QFeedbackFileEffect9setLoadedEb 0x0000a3e8   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN10QtMobility19QFeedbackFileEffect11qt_metacallEN11QMetaObject4CallEiPPv 0x0000a400   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN10QtMobility19QFeedbackFileEffectC1EP7QObject 0x0000a410   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN10QtMobility19QFeedbackFileEffectD1Ev 0x0000a420   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._Z8qWarningv                      0x0000a438   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN6QDebugD1Ev                    0x0000a450   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN10QtMobility17qSymbian_CheckDirERK4QDirR3RFs 0x0000a474   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN10QtMobility14backendManagerEv 0x0000a48c   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN10QtMobility25QFeedbackHapticsInterface22createFeedbackActuatorEP7QObjecti 0x0000a4a4   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_ 0x0000a4b4   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN5QListI7QStringE13detach_helperEv 0x0000a4d8   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN5QListI7QStringE18detach_helper_growEii 0x0000a4f4   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN5QListI7QStringEpLERKS1_       0x0000a524   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN10QtMobility14BackendManagerD1Ev 0x0000a540   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN5QListIPN10QtMobility22QFeedbackFileInterfaceEE18detach_helper_growEii 0x0000a558   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN10QtMobility15mobilityPluginsERK7QString 0x0000a588   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN10QtMobility14BackendManagerC1Ev 0x0000a690   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN5QListI7QStringE6appendERKS0_  0x0000a724   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN10QtMobility11FileBackendD1Ev  0x0000a754   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN10QtMobility13BackendLoaderINS_23QFeedbackThemeInterfaceEED1Ev 0x0000a764   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN10QtMobility13BackendLoaderINS_25QFeedbackHapticsInterfaceEED1Ev 0x0000a774   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN10QtMobility13BackendLoaderINS_23QFeedbackThemeInterfaceEE7tryLoadER13QPluginLoader 0x0000a784   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN10QtMobility13BackendLoaderINS_25QFeedbackHapticsInterfaceEE7tryLoadER13QPluginLoader 0x0000a794   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_ 0x0000a7a4   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN5QHashI7QString15QHashDummyValueE6insertERKS0_RKS1_ 0x0000a7b4   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN5QHashI7QString15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv 0x0000a7c4   Data           0  QtFeedback.in(.ARM.extab)
+    .extab._ZN10QtMobility11FileBackend18supportedMimeTypesEv 0x0000a7d4   Data           0  QtFeedback.in(.ARM.extab)
+    .constdata$1                             0x0000a7f4   Data           0  QtFeedback.in(.constdata)
+    .constdata                               0x0000a7f4   Section      209  QtFeedback.in(.constdata)
+    QtMobility::qt_meta_stringdata_QFeedbackActuator 0x0000a804   Data         193  QtFeedback.in(.constdata)
+    .constdata$28                            0x0000a8c8   Data           0  QtFeedback.in(.constdata)
+    QtMobility::qt_meta_data_QFeedbackActuator 0x0000a8c8   Data         252  QtFeedback.in(.constdata)
+    .constdata                               0x0000a8c8   Section      252  QtFeedback.in(.constdata)
+    .constdata$1                             0x0000a9c4   Data           0  QtFeedback.in(.constdata)
+    .constdata                               0x0000a9c4   Section     1320  QtFeedback.in(.constdata)
+    QtMobility::qt_meta_stringdata_QFeedbackEffect 0x0000a9f4   Data         818  QtFeedback.in(.constdata)
+    QtMobility::qt_meta_stringdata_QFeedbackHapticsEffect 0x0000ad26   Data         138  QtFeedback.in(.constdata)
+    QtMobility::qt_meta_stringdata_QFeedbackFileEffect 0x0000adb0   Data          45  QtFeedback.in(.constdata)
+    .constdata$34                            0x0000aeec   Data           0  QtFeedback.in(.constdata)
+    QtMobility::qt_meta_data_QFeedbackEffect 0x0000aeec   Data         592  QtFeedback.in(.constdata)
+    .constdata                               0x0000aeec   Section      592  QtFeedback.in(.constdata)
+    .constdata$40                            0x0000b13c   Data           0  QtFeedback.in(.constdata)
+    QtMobility::qt_meta_data_QFeedbackHapticsEffect 0x0000b13c   Data         156  QtFeedback.in(.constdata)
+    .constdata                               0x0000b13c   Section      156  QtFeedback.in(.constdata)
+    .constdata$46                            0x0000b1d8   Data           0  QtFeedback.in(.constdata)
+    QtMobility::qt_meta_data_QFeedbackFileEffect 0x0000b1d8   Data          84  QtFeedback.in(.constdata)
+    .constdata                               0x0000b1d8   Section       84  QtFeedback.in(.constdata)
+    .constdata__ZTIN10QtMobility11FileBackendE 0x0000b22c   Section       12  QtFeedback.in(.constdata__ZTIN10QtMobility11FileBackendE)
+    .constdata__ZTIN10QtMobility13QDummyBackendE 0x0000b238   Section       32  QtFeedback.in(.constdata__ZTIN10QtMobility13QDummyBackendE)
+    .constdata__ZTIN10QtMobility15QFeedbackEffectE 0x0000b258   Section       12  QtFeedback.in(.constdata__ZTIN10QtMobility15QFeedbackEffectE)
+    .constdata__ZTIN10QtMobility17QFeedbackActuatorE 0x0000b264   Section       12  QtFeedback.in(.constdata__ZTIN10QtMobility17QFeedbackActuatorE)
+    .constdata__ZTIN10QtMobility18QFeedbackInterfaceE 0x0000b270   Section        8  QtFeedback.in(.constdata__ZTIN10QtMobility18QFeedbackInterfaceE)
+    .constdata__ZTIN10QtMobility19QFeedbackFileEffectE 0x0000b278   Section       12  QtFeedback.in(.constdata__ZTIN10QtMobility19QFeedbackFileEffectE)
+    .constdata__ZTIN10QtMobility22QFeedbackFileInterfaceE 0x0000b284   Section       12  QtFeedback.in(.constdata__ZTIN10QtMobility22QFeedbackFileInterfaceE)
+    .constdata__ZTIN10QtMobility22QFeedbackHapticsEffectE 0x0000b290   Section       12  QtFeedback.in(.constdata__ZTIN10QtMobility22QFeedbackHapticsEffectE)
+    .constdata__ZTIN10QtMobility25QFeedbackHapticsInterfaceE 0x0000b29c   Section       12  QtFeedback.in(.constdata__ZTIN10QtMobility25QFeedbackHapticsInterfaceE)
+    .constdata__ZTISt9bad_alloc              0x0000b2a8   Section       12  QtFeedback.in(.constdata__ZTISt9bad_alloc)
+    .constdata__ZTSN10QtMobility11FileBackendE 0x0000b2b4   Section       28  QtFeedback.in(.constdata__ZTSN10QtMobility11FileBackendE)
+    .constdata__ZTSN10QtMobility13QDummyBackendE 0x0000b2d0   Section       30  QtFeedback.in(.constdata__ZTSN10QtMobility13QDummyBackendE)
+    .constdata__ZTSN10QtMobility15QFeedbackEffectE 0x0000b2ee   Section       32  QtFeedback.in(.constdata__ZTSN10QtMobility15QFeedbackEffectE)
+    .constdata__ZTSN10QtMobility17QFeedbackActuatorE 0x0000b30e   Section       34  QtFeedback.in(.constdata__ZTSN10QtMobility17QFeedbackActuatorE)
+    .constdata__ZTSN10QtMobility18QFeedbackInterfaceE 0x0000b330   Section       35  QtFeedback.in(.constdata__ZTSN10QtMobility18QFeedbackInterfaceE)
+    .constdata__ZTSN10QtMobility19QFeedbackFileEffectE 0x0000b353   Section       36  QtFeedback.in(.constdata__ZTSN10QtMobility19QFeedbackFileEffectE)
+    .constdata__ZTSN10QtMobility22QFeedbackFileInterfaceE 0x0000b377   Section       39  QtFeedback.in(.constdata__ZTSN10QtMobility22QFeedbackFileInterfaceE)
+    .constdata__ZTSN10QtMobility22QFeedbackHapticsEffectE 0x0000b39e   Section       39  QtFeedback.in(.constdata__ZTSN10QtMobility22QFeedbackHapticsEffectE)
+    .constdata__ZTSN10QtMobility25QFeedbackHapticsInterfaceE 0x0000b3c5   Section       42  QtFeedback.in(.constdata__ZTSN10QtMobility25QFeedbackHapticsInterfaceE)
+    .constdata__ZTSSt9bad_alloc              0x0000b3ef   Section       13  QtFeedback.in(.constdata__ZTSSt9bad_alloc)
+    .constdata__ZTVN10QtMobility11FileBackendE 0x0000b3fc   Section       36  QtFeedback.in(.constdata__ZTVN10QtMobility11FileBackendE)
+    .constdata__ZTVN10QtMobility13QDummyBackendE 0x0000b420   Section      136  QtFeedback.in(.constdata__ZTVN10QtMobility13QDummyBackendE)
+    .constdata__ZTVN10QtMobility15QFeedbackEffectE 0x0000b4a8   Section       68  QtFeedback.in(.constdata__ZTVN10QtMobility15QFeedbackEffectE)
+    .constdata__ZTVN10QtMobility17QFeedbackActuatorE 0x0000b4ec   Section       56  QtFeedback.in(.constdata__ZTVN10QtMobility17QFeedbackActuatorE)
+    .constdata__ZTVN10QtMobility19QFeedbackFileEffectE 0x0000b524   Section       68  QtFeedback.in(.constdata__ZTVN10QtMobility19QFeedbackFileEffectE)
+    .constdata__ZTVN10QtMobility22QFeedbackHapticsEffectE 0x0000b568   Section       68  QtFeedback.in(.constdata__ZTVN10QtMobility22QFeedbackHapticsEffectE)
+    .ARM.exidx                               0x0000b5ac   Section        8  ucppinit_aeabi.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  QtFeedback.in(.data)
+    _ZGVcleanup@_ZN10QtMobility14backendManagerEv_0 0x00400000   Data           4  QtFeedback.in(.data)
+    .data                                    0x00400000   Section       16  QtFeedback.in(.data)
+    cleanup@_ZN10QtMobility14backendManagerEv_1 0x00400004   Data           4  QtFeedback.in(.data)
+    QtMobility::this_backendManager          0x00400008   Data           8  QtFeedback.in(.data)
+    .data$0                                  0x00400010   Data           0  ucppfini.o(.data)
+    .data                                    0x00400010   Section        4  ucppfini.o(.data)
+    .bss$5                                   0x00400014   Data           0  ucppfini.o(.bss)
+    dtor_rec                                 0x00400014   Data        2048  ucppfini.o(.bss)
+    .bss                                     0x00400014   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$IEEEJ$EBA8$UX$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>114  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>11a  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>138  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>144  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>14b  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>14c  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>1ec  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>1f1  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>1f2  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>1f3  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>1f4  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>1f5  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>1f9  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>20  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>2e  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>2f1  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>304  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>38  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>46  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>49  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>5ad  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>5b1  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>5bf  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>5c5  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>5f5  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>5f6  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>5fb  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>5fe  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>68  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e0  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e3  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e4  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e6  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e7  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e8  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6ed  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6f1  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6f8  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6fd  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>702  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>722  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>726  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>72c  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>752  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>75d  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>7f6  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>822  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>856  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>85d  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>88c  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>891  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>96  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>9cf  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>ae7  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>aeb  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>aed  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>afa  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>afb  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>b27  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>bbb  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>be0  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>bf8  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>c10  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>c1a  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>c43  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>c47  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>c5b  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>e19  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>e1a  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>e69  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>e6b  - Undefined Reference
+    #<DLL>dfpaeabi{000a0000}.dll#<\DLL>4      - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>93     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>9b     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>9e     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>b4     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>b7     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>b8     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>ba     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>bb     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>bc     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>bd     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>be     - Undefined Reference
+    #<DLL>drtrvct2_2{000a0000}.dll#<\DLL>1c   - Undefined Reference
+    #<DLL>efsrv{000a0000}[100039e4].dll#<\DLL>44  - Undefined Reference
+    #<DLL>efsrv{000a0000}[100039e4].dll#<\DLL>e7  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>29e  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>29f  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>492  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>78  - Undefined Reference
+    #<DLL>libc{00010000}[10207369].dll#<\DLL>15e  - Undefined Reference
+    #<DLL>libstdcpp{00010000}[10282872].dll#<\DLL>3dc  - Undefined Reference
+    #<DLL>libstdcpp{00010000}[10282872].dll#<\DLL>3e0  - Undefined Reference
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    QCoreApplication::self                    - Undefined Reference
+    QObject::staticMetaObject                 - Undefined Reference
+    QString::shared_null                      - Undefined Reference
+    QHashData::shared_null                    - Undefined Reference
+    QListData::shared_null                    - Undefined Reference
+    typeinfo for QObject                      - Undefined Reference
+    typeinfo for std::exception               - Undefined Reference
+    vtable for __cxxabiv1::__class_type_info  - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    vtable for __cxxabiv1::__vmi_class_type_info  - Undefined Reference
+    _fp_init                                  - Undefined Weak Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      72  ucppinit_aeabi.o(.emb_text)
+    QtMobility::QFeedbackActuator::getStaticMetaObject() 0x00008071   Thumb Code     4  QtFeedback.in(.text)
+    std::nothrow                             0x00008071   Thumb Code     0  ucppinit_aeabi.o(.emb_text)
+    QtMobility::QFeedbackActuator::metaObject() const 0x00008075   Thumb Code    12  QtFeedback.in(.text)
+    QtMobility::QFeedbackActuator::qt_metacast(const char*) 0x00008081   Thumb Code    40  QtFeedback.in(.text)
+    QtMobility::QFeedbackActuator::enabledChanged() 0x000080a9   Thumb Code    14  QtFeedback.in(.text)
+    QtMobility::QFeedbackActuator::isEnabled() const 0x000080b7   Thumb Code    44  QtFeedback.in(.text)
+    QtMobility::QFeedbackActuator::setEnabled(bool) 0x000080e3   Thumb Code    56  QtFeedback.in(.text)
+    QtMobility::QFeedbackActuator::isValid() const 0x0000811b   Thumb Code     8  QtFeedback.in(.text)
+    QtMobility::QFeedbackActuator::state() const 0x00008123   Thumb Code    44  QtFeedback.in(.text)
+    QtMobility::QFeedbackActuator::name() const 0x0000814f   Thumb Code    42  QtFeedback.in(.text)
+    QtMobility::QFeedbackActuator::id() const 0x00008179   Thumb Code     4  QtFeedback.in(.text)
+    QtMobility::QFeedbackActuator::isCapabilitySupported(QtMobility::QFeedbackActuator::Capability) const 0x0000817d   Thumb Code    22  QtFeedback.in(.text)
+    QtMobility::QFeedbackActuator::qt_metacall(QMetaObject::Call, int, void**) 0x00008193   Thumb Code   194  QtFeedback.in(.text)
+    QtMobility::QFeedbackActuator::actuators() 0x00008255   Thumb Code    20  QtFeedback.in(.text)
+    QtMobility::QFeedbackActuator::QFeedbackActuator(QObject*) 0x00008269   Thumb Code    74  QtFeedback.in(.text)
+    QtMobility::QFeedbackActuator::QFeedbackActuator__sub_object(QObject*) 0x00008269   Thumb Code     0  QtFeedback.in(.text)
+    QtMobility::QFeedbackActuator::operator ==(const QtMobility::QFeedbackActuator&) const 0x000082b3   Thumb Code    16  QtFeedback.in(.text)
+    QtMobility::QFeedbackActuator::QFeedbackActuator(QObject*, int) 0x000082c3   Thumb Code    16  QtFeedback.in(.text)
+    QtMobility::QFeedbackActuator::QFeedbackActuator__sub_object(QObject*, int) 0x000082c3   Thumb Code     0  QtFeedback.in(.text)
+    QtMobility::QFeedbackEffect::getStaticMetaObject() 0x000082dd   Thumb Code     4  QtFeedback.in(.text)
+    QtMobility::QFeedbackEffect::metaObject() const 0x000082e1   Thumb Code    12  QtFeedback.in(.text)
+    QtMobility::QFeedbackEffect::qt_metacast(const char*) 0x000082ed   Thumb Code    40  QtFeedback.in(.text)
+    QtMobility::QFeedbackEffect::pause()     0x00008315   Thumb Code     8  QtFeedback.in(.text)
+    QtMobility::QFeedbackEffect::stop()      0x0000831d   Thumb Code     8  QtFeedback.in(.text)
+    QtMobility::QFeedbackEffect::start()     0x00008325   Thumb Code     8  QtFeedback.in(.text)
+    QtMobility::QFeedbackEffect::stateChanged() 0x0000832d   Thumb Code    14  QtFeedback.in(.text)
+    QtMobility::QFeedbackEffect::error(QtMobility::QFeedbackEffect::ErrorType) const 0x0000833b   Thumb Code    28  QtFeedback.in(.text)
+    QtMobility::QFeedbackEffect::qt_metacall(QMetaObject::Call, int, void**) 0x00008357   Thumb Code   146  QtFeedback.in(.text)
+    QtMobility::QFeedbackEffect::QFeedbackEffect__sub_object(QObject*) 0x000083e9   Thumb Code    12  QtFeedback.in(.text)
+    QtMobility::QFeedbackEffect::supportsThemeEffect() 0x000083f5   Thumb Code    18  QtFeedback.in(.text)
+    QtMobility::QFeedbackEffect::playThemeEffect(QtMobility::QFeedbackEffect::ThemeEffect) 0x00008407   Thumb Code    26  QtFeedback.in(.text)
+    QtMobility::QFeedbackHapticsEffect::getStaticMetaObject() 0x00008421   Thumb Code     6  QtFeedback.in(.text)
+    QtMobility::QFeedbackHapticsEffect::metaObject() const 0x00008427   Thumb Code    14  QtFeedback.in(.text)
+    QtMobility::QFeedbackHapticsEffect::qt_metacast(const char*) 0x00008435   Thumb Code    38  QtFeedback.in(.text)
+    QtMobility::QFeedbackHapticsEffect::setActuator(QtMobility::QFeedbackActuator*) 0x0000845b   Thumb Code   118  QtFeedback.in(.text)
+    QtMobility::QFeedbackHapticsEffect::setPeriod(int) 0x000084d1   Thumb Code    34  QtFeedback.in(.text)
+    QtMobility::QFeedbackHapticsEffect::setFadeIntensity(float) 0x000084f3   Thumb Code    36  QtFeedback.in(.text)
+    QtMobility::QFeedbackHapticsEffect::setFadeTime(int) 0x00008517   Thumb Code    30  QtFeedback.in(.text)
+    QtMobility::QFeedbackHapticsEffect::setAttackIntensity(float) 0x00008535   Thumb Code    36  QtFeedback.in(.text)
+    QtMobility::QFeedbackHapticsEffect::setAttackTime(int) 0x00008559   Thumb Code    30  QtFeedback.in(.text)
+    QtMobility::QFeedbackHapticsEffect::setIntensity(float) 0x00008577   Thumb Code    36  QtFeedback.in(.text)
+    QtMobility::QFeedbackHapticsEffect::setDuration(int) 0x0000859b   Thumb Code    30  QtFeedback.in(.text)
+    QtMobility::QFeedbackHapticsEffect::actuator() const 0x000085b9   Thumb Code     6  QtFeedback.in(.text)
+    QtMobility::QFeedbackHapticsEffect::period() const 0x000085bf   Thumb Code     6  QtFeedback.in(.text)
+    QtMobility::QFeedbackHapticsEffect::fadeIntensity() const 0x000085c5   Thumb Code     6  QtFeedback.in(.text)
+    QtMobility::QFeedbackHapticsEffect::fadeTime() const 0x000085cb   Thumb Code     6  QtFeedback.in(.text)
+    QtMobility::QFeedbackHapticsEffect::attackIntensity() const 0x000085d1   Thumb Code     6  QtFeedback.in(.text)
+    QtMobility::QFeedbackHapticsEffect::attackTime() const 0x000085d7   Thumb Code     6  QtFeedback.in(.text)
+    QtMobility::QFeedbackHapticsEffect::intensity() const 0x000085dd   Thumb Code     6  QtFeedback.in(.text)
+    QtMobility::QFeedbackHapticsEffect::qt_metacall(QMetaObject::Call, int, void**) 0x000085e3   Thumb Code   302  QtFeedback.in(.text)
+    QtMobility::QFeedbackHapticsEffect::QFeedbackHapticsEffect(QObject*) 0x00008711   Thumb Code    70  QtFeedback.in(.text)
+    QtMobility::QFeedbackHapticsEffect::QFeedbackHapticsEffect__sub_object(QObject*) 0x00008711   Thumb Code     0  QtFeedback.in(.text)
+    QtMobility::QFeedbackHapticsEffect::~QFeedbackHapticsEffect() 0x00008757   Thumb Code    32  QtFeedback.in(.text)
+    QtMobility::QFeedbackHapticsEffect::~QFeedbackHapticsEffect__sub_object() 0x00008757   Thumb Code     0  QtFeedback.in(.text)
+    QtMobility::QFeedbackHapticsEffect::~QFeedbackHapticsEffect__deallocating() 0x00008777   Thumb Code    16  QtFeedback.in(.text)
+    QtMobility::QFeedbackHapticsEffect::duration() const 0x00008787   Thumb Code     6  QtFeedback.in(.text)
+    QtMobility::QFeedbackHapticsEffect::state() const 0x0000878d   Thumb Code    18  QtFeedback.in(.text)
+    QtMobility::QFeedbackHapticsEffect::setState(QtMobility::QFeedbackEffect::State) 0x0000879f   Thumb Code    40  QtFeedback.in(.text)
+    QtMobility::QFeedbackFileEffect::getStaticMetaObject() 0x000087c7   Thumb Code     4  QtFeedback.in(.text)
+    QtMobility::QFeedbackFileEffect::metaObject() const 0x000087cb   Thumb Code    12  QtFeedback.in(.text)
+    QtMobility::QFeedbackFileEffect::qt_metacast(const char*) 0x000087d7   Thumb Code    38  QtFeedback.in(.text)
+    QtMobility::QFeedbackFileEffect::setLoaded(bool) 0x000087fd   Thumb Code    98  QtFeedback.in(.text)
+    QtMobility::QFeedbackFileEffect::setSource(const QUrl&) 0x0000885f   Thumb Code    70  QtFeedback.in(.text)
+    QtMobility::QFeedbackFileEffect::source() const 0x000088a5   Thumb Code    12  QtFeedback.in(.text)
+    QtMobility::QFeedbackFileEffect::isLoaded() const 0x000088b1   Thumb Code     6  QtFeedback.in(.text)
+    QtMobility::QFeedbackFileEffect::qt_metacall(QMetaObject::Call, int, void**) 0x000088b7   Thumb Code   124  QtFeedback.in(.text)
+    QtMobility::QFeedbackFileEffect::QFeedbackFileEffect(QObject*) 0x00008933   Thumb Code    56  QtFeedback.in(.text)
+    QtMobility::QFeedbackFileEffect::QFeedbackFileEffect__sub_object(QObject*) 0x00008933   Thumb Code     0  QtFeedback.in(.text)
+    QtMobility::QFeedbackFileEffect::~QFeedbackFileEffect() 0x0000896b   Thumb Code    34  QtFeedback.in(.text)
+    QtMobility::QFeedbackFileEffect::~QFeedbackFileEffect__sub_object() 0x0000896b   Thumb Code     0  QtFeedback.in(.text)
+    QtMobility::QFeedbackFileEffect::~QFeedbackFileEffect__deallocating() 0x0000898d   Thumb Code    16  QtFeedback.in(.text)
+    QtMobility::QFeedbackFileEffect::duration() const 0x0000899d   Thumb Code    18  QtFeedback.in(.text)
+    QtMobility::QFeedbackFileEffect::load()  0x000089af   Thumb Code     4  QtFeedback.in(.text)
+    QtMobility::QFeedbackFileEffect::unload() 0x000089b3   Thumb Code     4  QtFeedback.in(.text)
+    QtMobility::QFeedbackFileEffect::supportedMimeTypes() 0x000089b7   Thumb Code    20  QtFeedback.in(.text)
+    QtMobility::QFeedbackFileEffect::state() const 0x000089cb   Thumb Code    18  QtFeedback.in(.text)
+    QtMobility::QFeedbackFileEffect::setState(QtMobility::QFeedbackEffect::State) 0x000089dd   Thumb Code    62  QtFeedback.in(.text)
+    QtMobility::QFeedbackFileEffectPrivate::loadFinished(bool) 0x00008a1b   Thumb Code    12  QtFeedback.in(.text)
+    QtMobility::QFeedbackInterface::reportError(const QtMobility::QFeedbackEffect*, QtMobility::QFeedbackEffect::ErrorType) 0x00008a39   Thumb Code    12  QtFeedback.in(.text)
+    QtMobility::QFeedbackHapticsInterface::instance() 0x00008b07   Thumb Code    10  QtFeedback.in(.text)
+    QtMobility::QFeedbackHapticsInterface::createFeedbackActuator(QObject*, int) 0x00008b11   Thumb Code    32  QtFeedback.in(.text)
+    QtMobility::QFeedbackThemeInterface::instance() 0x00008b31   Thumb Code    10  QtFeedback.in(.text)
+    QtMobility::QFeedbackFileInterface::instance() 0x00008b3b   Thumb Code    10  QtFeedback.in(.text)
+    QtMobility::QFeedbackFileInterface::reportLoadFinished(QtMobility::QFeedbackFileEffect*, bool) 0x00008b45   Thumb Code    34  QtFeedback.in(.text)
+    _E32Dll_Body                             0x00008b75   Thumb Code    34  uc_dll.o(.text)
+    CppBSSInitializationError                0x00008b9c   ARM Code       4  ucppfini.o(.text)
+    __aeabi_atexit                           0x00008ba0   ARM Code      28  ucppfini.o(.text)
+    __cxa_atexit                             0x00008bbc   ARM Code      48  ucppfini.o(.text)
+    __cxa_finalize                           0x00008bec   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x00008c1c   ARM Code       8  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x00008d10   ARM Code       0  QtFeedback{00010103}.exp(ExportTable)
+    DLL##ExportTableSize                     0x00008d14   Data           0  QtFeedback{00010103}.exp(ExportTable)
+    DLL##ExportTable                         0x00008d18   Data           0  QtFeedback{00010103}.exp(ExportTable)
+    RFs::Att(const TDesC16&, unsigned&) const 0x00008e98   ARM Code       0  efsrv{000a0000}-231.o(StubCode)
+    RFs::Connect(int)                        0x00008ea0   ARM Code       0  efsrv{000a0000}-68.o(StubCode)
+    operator delete (void*)                  0x00008ea8   ARM Code       0  libstdcpp{00010000}-988.o(StubCode)
+    operator new(unsigned)                   0x00008eb0   ARM Code       0  libstdcpp{00010000}-992.o(StubCode)
+    qWarning(const char*, ...)               0x00008eb8   ARM Code       0  QtCore{00040703}-104.o(StubCode)
+    QDir::toNativeSeparators(const QString&) 0x00008ec0   ARM Code       0  QtCore{00040703}-1453.o(StubCode)
+    QDir::cd(const QString&)                 0x00008ec8   ARM Code       0  QtCore{00040703}-1457.o(StubCode)
+    QDir::QDir(const QString&)               0x00008ed0   ARM Code       0  QtCore{00040703}-1471.o(StubCode)
+    QDir::~QDir()                            0x00008ed8   ARM Code       0  QtCore{00040703}-1477.o(StubCode)
+    QByteArray::realloc(int)                 0x00008ee0   ARM Code       0  QtCore{00040703}-150.o(StubCode)
+    QUrl::QUrl(const QUrl&)                  0x00008ee8   ARM Code       0  QtCore{00040703}-1525.o(StubCode)
+    QUrl::QUrl()                             0x00008ef0   ARM Code       0  QtCore{00040703}-1526.o(StubCode)
+    QUrl::~QUrl()                            0x00008ef8   ARM Code       0  QtCore{00040703}-1531.o(StubCode)
+    QUrl::operator =(const QUrl&)            0x00008f00   ARM Code       0  QtCore{00040703}-1534.o(StubCode)
+    QObject::childEvent(QChildEvent*)        0x00008f08   ARM Code       0  QtCore{00040703}-1760.o(StubCode)
+    QObject::timerEvent(QTimerEvent*)        0x00008f10   ARM Code       0  QtCore{00040703}-1763.o(StubCode)
+    QObject::customEvent(QEvent*)            0x00008f18   ARM Code       0  QtCore{00040703}-1764.o(StubCode)
+    QObject::eventFilter(QObject*, QEvent*)  0x00008f20   ARM Code       0  QtCore{00040703}-1766.o(StubCode)
+    QObject::qt_metacall(QMetaObject::Call, int, void**) 0x00008f28   ARM Code       0  QtCore{00040703}-1767.o(StubCode)
+    QObject::qt_metacast(const char*)        0x00008f30   ARM Code       0  QtCore{00040703}-1768.o(StubCode)
+    QObject::connectNotify(const char*)      0x00008f38   ARM Code       0  QtCore{00040703}-1773.o(StubCode)
+    QObject::disconnectNotify(const char*)   0x00008f40   ARM Code       0  QtCore{00040703}-1777.o(StubCode)
+    QObject::event(QEvent*)                  0x00008f48   ARM Code       0  QtCore{00040703}-1784.o(StubCode)
+    QObject::QObject(QObject*)               0x00008f50   ARM Code       0  QtCore{00040703}-1789.o(StubCode)
+    QObject::~QObject()                      0x00008f58   ARM Code       0  QtCore{00040703}-1794.o(StubCode)
+    QString::fromLatin1_helper(const char*, int) 0x00008f60   ARM Code       0  QtCore{00040703}-1826.o(StubCode)
+    QString::free(QString::Data*)            0x00008f68   ARM Code       0  QtCore{00040703}-1830.o(StubCode)
+    QString::append(const QString&)          0x00008f70   ARM Code       0  QtCore{00040703}-1836.o(StubCode)
+    QString::fromAscii(const char*, int)     0x00008f78   ARM Code       0  QtCore{00040703}-1874.o(StubCode)
+    QString::operator =(const QString&)      0x00008f80   ARM Code       0  QtCore{00040703}-1885.o(StubCode)
+    QVariant::QVariant(bool)                 0x00008f88   ARM Code       0  QtCore{00040703}-2038.o(StubCode)
+    QVariant::~QVariant()                    0x00008f90   ARM Code       0  QtCore{00040703}-2082.o(StubCode)
+    QHashData::free_helper(void(*)(QHashData::Node*)) 0x00008f98   ARM Code       0  QtCore{00040703}-2134.o(StubCode)
+    QHashData::rehash(int)                   0x00008fa0   ARM Code       0  QtCore{00040703}-2141.o(StubCode)
+    QListData::append()                      0x00008fa8   ARM Code       0  QtCore{00040703}-2188.o(StubCode)
+    QListData::append2(const QListData&)     0x00008fb0   ARM Code       0  QtCore{00040703}-2193.o(StubCode)
+    QPluginLoader::fileName() const          0x00008fb8   ARM Code       0  QtCore{00040703}-2511.o(StubCode)
+    QMetaObject::invokeMethod(QObject*, const char*, Qt::ConnectionType, QGenericReturnArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument, QGenericArgument) 0x00008fc0   ARM Code       0  QtCore{00040703}-276.o(StubCode)
+    QDir::absolutePath() const               0x00008fc8   ARM Code       0  QtCore{00040703}-2791.o(StubCode)
+    QDir::absoluteFilePath(const QString&) const 0x00008fd0   ARM Code       0  QtCore{00040703}-2795.o(StubCode)
+    QDir::path() const                       0x00008fd8   ARM Code       0  QtCore{00040703}-2797.o(StubCode)
+    QDir::filePath(const QString&) const     0x00008fe0   ARM Code       0  QtCore{00040703}-2810.o(StubCode)
+    QDir::entryList(QFlags<QDir::Filter>, QFlags<QDir::SortFlag>) const 0x00008fe8   ARM Code       0  QtCore{00040703}-2811.o(StubCode)
+    QMetaObject::activate(QObject*, const QMetaObject*, int, void**) 0x00008ff0   ARM Code       0  QtCore{00040703}-282.o(StubCode)
+    QUrl::operator !=(const QUrl&) const     0x00008ff8   ARM Code       0  QtCore{00040703}-2855.o(StubCode)
+    QObject::metaObject() const              0x00009000   ARM Code       0  QtCore{00040703}-3003.o(StubCode)
+    QString::toLocal8Bit() const             0x00009008   ARM Code       0  QtCore{00040703}-3040.o(StubCode)
+    QString::utf16() const                   0x00009010   ARM Code       0  QtCore{00040703}-3064.o(StubCode)
+    QString::endsWith(const QLatin1String&, Qt::CaseSensitivity) const 0x00009018   ARM Code       0  QtCore{00040703}-3088.o(StubCode)
+    QString::operator ==(const QString&) const 0x00009020   ARM Code       0  QtCore{00040703}-3098.o(StubCode)
+    QTextStream::QTextStream(QString*, QFlags<QIODevice::OpenModeFlag>) 0x00009028   ARM Code       0  QtCore{00040703}-312.o(StubCode)
+    QVariant::toInt(bool*) const             0x00009030   ARM Code       0  QtCore{00040703}-3139.o(StubCode)
+    QVariant::toBool() const                 0x00009038   ARM Code       0  QtCore{00040703}-3143.o(StubCode)
+    QVariant::toString() const               0x00009040   ARM Code       0  QtCore{00040703}-3163.o(StubCode)
+    qt_message_output(QtMsgType, const char*) 0x00009048   ARM Code       0  QtCore{00040703}-32.o(StubCode)
+    QTextStream::~QTextStream()              0x00009050   ARM Code       0  QtCore{00040703}-324.o(StubCode)
+    QTextStream::operator <<(const QString&) 0x00009058   ARM Code       0  QtCore{00040703}-331.o(StubCode)
+    QTextStream::operator <<(char)           0x00009060   ARM Code       0  QtCore{00040703}-332.o(StubCode)
+    QHashData::allocateNode(int)             0x00009068   ARM Code       0  QtCore{00040703}-3609.o(StubCode)
+    QHashData::detach_helper2(void(*)(QHashData::Node*, void*), void(*)(QHashData::Node*), int, int) 0x00009070   ARM Code       0  QtCore{00040703}-3610.o(StubCode)
+    QListData::detach_grow(int*, int)        0x00009078   ARM Code       0  QtCore{00040703}-3689.o(StubCode)
+    QListData::detach(int)                   0x00009080   ARM Code       0  QtCore{00040703}-3691.o(StubCode)
+    qt_symbian_throwIfError(int)             0x00009088   ARM Code       0  QtCore{00040703}-46.o(StubCode)
+    QPluginLoader::setFileName(const QString&) 0x00009090   ARM Code       0  QtCore{00040703}-492.o(StubCode)
+    QPluginLoader::load()                    0x00009098   ARM Code       0  QtCore{00040703}-497.o(StubCode)
+    QPluginLoader::unload()                  0x000090a0   ARM Code       0  QtCore{00040703}-498.o(StubCode)
+    QPluginLoader::instance()                0x000090a8   ARM Code       0  QtCore{00040703}-499.o(StubCode)
+    QPluginLoader::QPluginLoader(QObject*)   0x000090b0   ARM Code       0  QtCore{00040703}-500.o(StubCode)
+    QPluginLoader::QPluginLoader(const QString&, QObject*) 0x000090b8   ARM Code       0  QtCore{00040703}-501.o(StubCode)
+    QPluginLoader::~QPluginLoader()          0x000090c0   ARM Code       0  QtCore{00040703}-505.o(StubCode)
+    QBasicAtomicPointer_testAndSetOrdered(void*volatile *, void*, void*) 0x000090c8   ARM Code       0  QtCore{00040703}-56.o(StubCode)
+    qFree(void*)                             0x000090d0   ARM Code       0  QtCore{00040703}-70.o(StubCode)
+    qHash(const QString&)                    0x000090d8   ARM Code       0  QtCore{00040703}-73.o(StubCode)
+    QCoreApplication::libraryPaths()         0x000090e0   ARM Code       0  QtCore{00040703}-753.o(StubCode)
+    QCoreApplication::applicationDirPath()   0x000090e8   ARM Code       0  QtCore{00040703}-772.o(StubCode)
+    strcmp                                   0x000090f0   ARM Code       0  libc{00010000}-350.o(StubCode)
+    TPtrC16::TPtrC16(const unsigned short*, int) 0x000090f8   ARM Code       0  euser{000a0000}-1170.o(StubCode)
+    RHandleBase::Close()                     0x00009100   ARM Code       0  euser{000a0000}-120.o(StubCode)
+    User::LockedDec(int&)                    0x00009108   ARM Code       0  euser{000a0000}-670.o(StubCode)
+    User::LockedInc(int&)                    0x00009110   ARM Code       0  euser{000a0000}-671.o(StubCode)
+    __aeabi_cfcmpeq                          0x00009118   ARM Code       0  dfpaeabi{000a0000}-4.o(StubCode)
+    __aeabi_memcpy4                          0x00009120   ARM Code       0  drtaeabi{000a0000}-147.o(StubCode)
+    __aeabi_uidivmod                         0x00009128   ARM Code       0  drtaeabi{000a0000}-155.o(StubCode)
+    __aeabi_unwind_cpp_pr0                   0x00009130   ARM Code       0  drtaeabi{000a0000}-158.o(StubCode)
+    __cxa_begin_catch                        0x00009138   ARM Code       0  drtaeabi{000a0000}-180.o(StubCode)
+    __cxa_end_catch                          0x00009140   ARM Code       0  drtaeabi{000a0000}-183.o(StubCode)
+    __cxa_end_cleanup                        0x00009148   ARM Code       0  drtaeabi{000a0000}-184.o(StubCode)
+    __cxa_guard_abort                        0x00009150   ARM Code       0  drtaeabi{000a0000}-186.o(StubCode)
+    __cxa_guard_acquire                      0x00009158   ARM Code       0  drtaeabi{000a0000}-187.o(StubCode)
+    __cxa_guard_release                      0x00009160   ARM Code       0  drtaeabi{000a0000}-188.o(StubCode)
+    __cxa_pure_virtual                       0x00009168   ARM Code       0  drtaeabi{000a0000}-189.o(StubCode)
+    __cxa_rethrow                            0x00009170   ARM Code       0  drtaeabi{000a0000}-190.o(StubCode)
+    __ARM_switch8                            0x00009178   ARM Code       0  drtrvct2_2{000a0000}-28.o(StubCode)
+    qWarning()                               0x00009181   Thumb Code    66  QtFeedback.in(i._Z8qWarningv)
+    QByteArray::~QByteArray()                0x000091db   Thumb Code    24  QtFeedback.in(i._ZN10QByteArrayD1Ev)
+    QByteArray::~QByteArray__sub_object()    0x000091db   Thumb Code     0  QtFeedback.in(i._ZN10QByteArrayD1Ev)
+    QtMobility::FileBackend::getBackend(const QtMobility::QFeedbackFileEffect*) 0x000091f3   Thumb Code    36  QtFeedback.in(i._ZN10QtMobility11FileBackend10getBackendEPKNS_19QFeedbackFileEffectE)
+    QtMobility::FileBackend::effectState(const QtMobility::QFeedbackFileEffect*) 0x00009217   Thumb Code    26  QtFeedback.in(i._ZN10QtMobility11FileBackend11effectStateEPKNS_19QFeedbackFileEffectE)
+    QtMobility::FileBackend::effectDuration(const QtMobility::QFeedbackFileEffect*) 0x00009231   Thumb Code    26  QtFeedback.in(i._ZN10QtMobility11FileBackend14effectDurationEPKNS_19QFeedbackFileEffectE)
+    QtMobility::FileBackend::setEffectState(QtMobility::QFeedbackFileEffect*, QtMobility::QFeedbackEffect::State) 0x0000924b   Thumb Code    36  QtFeedback.in(i._ZN10QtMobility11FileBackend14setEffectStateEPNS_19QFeedbackFileEffectENS_15QFeedbackEffect5StateE)
+    QtMobility::FileBackend::tryBackendLoad(QtMobility::QFeedbackFileEffect*) 0x00009271   Thumb Code   124  QtFeedback.in(i._ZN10QtMobility11FileBackend14tryBackendLoadEPNS_19QFeedbackFileEffectE)
+    QtMobility::FileBackend::supportedMimeTypes() 0x000092fd   Thumb Code    60  QtFeedback.in(i._ZN10QtMobility11FileBackend18supportedMimeTypesEv)
+    QtMobility::FileBackend::setLoaded(QtMobility::QFeedbackFileEffect*, bool) 0x00009349   Thumb Code    46  QtFeedback.in(i._ZN10QtMobility11FileBackend9setLoadedEPNS_19QFeedbackFileEffectEb)
+    QtMobility::FileBackend::~FileBackend__deallocating() 0x00009377   Thumb Code    16  QtFeedback.in(i._ZN10QtMobility11FileBackendD0Ev)
+    QtMobility::FileBackend::~FileBackend()  0x00009389   Thumb Code    18  QtFeedback.in(i._ZN10QtMobility11FileBackendD1Ev)
+    QtMobility::FileBackend::~FileBackend__sub_object() 0x00009389   Thumb Code     0  QtFeedback.in(i._ZN10QtMobility11FileBackendD1Ev)
+    QtMobility::QDummyBackend::effectState(const QtMobility::QFeedbackHapticsEffect*) 0x000093ab   Thumb Code     4  QtFeedback.in(i._ZN10QtMobility13QDummyBackend11effectStateEPKNS_22QFeedbackHapticsEffectE)
+    QtMobility::QDummyBackend::pluginPriority() 0x000093af   Thumb Code     4  QtFeedback.in(i._ZN10QtMobility13QDummyBackend14pluginPriorityEv)
+    QtMobility::QDummyBackend::setEffectState(const QtMobility::QFeedbackHapticsEffect*, QtMobility::QFeedbackEffect::State) 0x000093b3   Thumb Code     2  QtFeedback.in(i._ZN10QtMobility13QDummyBackend14setEffectStateEPKNS_22QFeedbackHapticsEffectENS_15QFeedbackEffect5StateE)
+    QtMobility::QDummyBackend::actuatorProperty(const QtMobility::QFeedbackActuator&, QtMobility::QFeedbackHapticsInterface::ActuatorProperty) 0x000093b5   Thumb Code    24  QtFeedback.in(i._ZN10QtMobility13QDummyBackend16actuatorPropertyERKNS_17QFeedbackActuatorENS_25QFeedbackHapticsInterface16ActuatorPropertyE)
+    QtMobility::QDummyBackend::setActuatorProperty(const QtMobility::QFeedbackActuator&, QtMobility::QFeedbackHapticsInterface::ActuatorProperty, const QVariant&) 0x000093cd   Thumb Code     2  QtFeedback.in(i._ZN10QtMobility13QDummyBackend19setActuatorPropertyERKNS_17QFeedbackActuatorENS_25QFeedbackHapticsInterface16ActuatorPropertyERK8QVariant)
+    QtMobility::QDummyBackend::updateEffectProperty(const QtMobility::QFeedbackHapticsEffect*, QtMobility::QFeedbackHapticsInterface::EffectProperty) 0x000093cf   Thumb Code     2  QtFeedback.in(i._ZN10QtMobility13QDummyBackend20updateEffectPropertyEPKNS_22QFeedbackHapticsEffectENS_25QFeedbackHapticsInterface14EffectPropertyE)
+    QtMobility::QDummyBackend::isActuatorCapabilitySupported(const QtMobility::QFeedbackActuator&, QtMobility::QFeedbackActuator::Capability) 0x000093d1   Thumb Code     4  QtFeedback.in(i._ZN10QtMobility13QDummyBackend29isActuatorCapabilitySupportedERKNS_17QFeedbackActuatorENS1_10CapabilityE)
+    QtMobility::QDummyBackend::actuators()   0x000093d5   Thumb Code    14  QtFeedback.in(i._ZN10QtMobility13QDummyBackend9actuatorsEv)
+    QtMobility::QDummyBackend::~QDummyBackend__deallocating() 0x000093e9   Thumb Code    16  QtFeedback.in(i._ZN10QtMobility13QDummyBackendD0Ev)
+    QtMobility::QDummyBackend::~QDummyBackend() 0x000093f9   Thumb Code     8  QtFeedback.in(i._ZN10QtMobility13QDummyBackendD1Ev)
+    QtMobility::QDummyBackend::~QDummyBackend__sub_object() 0x000093f9   Thumb Code     0  QtFeedback.in(i._ZN10QtMobility13QDummyBackendD1Ev)
+    QtMobility::BackendManager::BackendManager() 0x00009401   Thumb Code   360  QtFeedback.in(i._ZN10QtMobility14BackendManagerC1Ev)
+    QtMobility::BackendManager::BackendManager__sub_object() 0x00009401   Thumb Code     0  QtFeedback.in(i._ZN10QtMobility14BackendManagerC1Ev)
+    QtMobility::BackendManager::~BackendManager() 0x00009609   Thumb Code    30  QtFeedback.in(i._ZN10QtMobility14BackendManagerD1Ev)
+    QtMobility::BackendManager::~BackendManager__sub_object() 0x00009609   Thumb Code     0  QtFeedback.in(i._ZN10QtMobility14BackendManagerD1Ev)
+    QtMobility::QFeedbackEffect::~QFeedbackEffect__deallocating() 0x0000963d   Thumb Code    16  QtFeedback.in(i._ZN10QtMobility15QFeedbackEffectD0Ev)
+    QtMobility::QFeedbackEffect::~QFeedbackEffect() 0x0000964d   Thumb Code     0  QtFeedback.in(i._ZN10QtMobility15QFeedbackEffectD2Ev)
+    QtMobility::QFeedbackEffect::~QFeedbackEffect__sub_object() 0x0000964d   Thumb Code     8  QtFeedback.in(i._ZN10QtMobility15QFeedbackEffectD2Ev)
+    QtMobility::mobilityPlugins(const QString&) 0x00009655   Thumb Code   584  QtFeedback.in(i._ZN10QtMobility15mobilityPluginsERK7QString)
+    QtMobility::QFeedbackActuator::~QFeedbackActuator__deallocating() 0x00009931   Thumb Code    16  QtFeedback.in(i._ZN10QtMobility17QFeedbackActuatorD0Ev)
+    QtMobility::QFeedbackActuator::~QFeedbackActuator() 0x00009941   Thumb Code     8  QtFeedback.in(i._ZN10QtMobility17QFeedbackActuatorD1Ev)
+    QtMobility::QFeedbackActuator::~QFeedbackActuator__sub_object() 0x00009941   Thumb Code     0  QtFeedback.in(i._ZN10QtMobility17QFeedbackActuatorD1Ev)
+    QtMobility::QFeedbackFileInterface::~QFeedbackFileInterface() 0x00009949   Thumb Code     0  QtFeedback.in(i._ZN10QtMobility22QFeedbackFileInterfaceD2Ev)
+    QtMobility::QFeedbackFileInterface::~QFeedbackFileInterface__sub_object() 0x00009949   Thumb Code     2  QtFeedback.in(i._ZN10QtMobility22QFeedbackFileInterfaceD2Ev)
+    QStringList::QStringList()               0x0000994d   Thumb Code    16  QtFeedback.in(i._ZN11QStringListC1Ev)
+    QStringList::QStringList__sub_object()   0x0000994d   Thumb Code     0  QtFeedback.in(i._ZN11QStringListC1Ev)
+    QStringList::~QStringList()              0x00009961   Thumb Code     8  QtFeedback.in(i._ZN11QStringListD1Ev)
+    QStringList::~QStringList__sub_object()  0x00009961   Thumb Code     0  QtFeedback.in(i._ZN11QStringListD1Ev)
+    QBasicAtomicInt::ref()                   0x00009969   Thumb Code    18  QtFeedback.in(i._ZN15QBasicAtomicInt3refEv)
+    QBasicAtomicInt::deref()                 0x0000997b   Thumb Code    18  QtFeedback.in(i._ZN15QBasicAtomicInt5derefEv)
+    QForeachContainer<QStringList>::~QForeachContainer() 0x0000998d   Thumb Code     8  QtFeedback.in(i._ZN17QForeachContainerI11QStringListED1Ev)
+    QForeachContainer<QStringList>::~QForeachContainer__sub_object() 0x0000998d   Thumb Code     0  QtFeedback.in(i._ZN17QForeachContainerI11QStringListED1Ev)
+    QSet<QString>::~QSet()                   0x00009995   Thumb Code     8  QtFeedback.in(i._ZN4QSetI7QStringED1Ev)
+    QSet<QString>::~QSet__sub_object()       0x00009995   Thumb Code     0  QtFeedback.in(i._ZN4QSetI7QStringED1Ev)
+    QDebug::~QDebug()                        0x0000999d   Thumb Code   132  QtFeedback.in(i._ZN6QDebugD1Ev)
+    QDebug::~QDebug__sub_object()            0x0000999d   Thumb Code     0  QtFeedback.in(i._ZN6QDebugD1Ev)
+    QString::QString(const QLatin1String&)   0x00009a35   Thumb Code    20  QtFeedback.in(i._ZN7QStringC1ERK13QLatin1String)
+    QString::QString__sub_object(const QLatin1String&) 0x00009a35   Thumb Code     0  QtFeedback.in(i._ZN7QStringC1ERK13QLatin1String)
+    QString::QString(const QString&)         0x00009a49   Thumb Code    16  QtFeedback.in(i._ZN7QStringC1ERKS_)
+    QString::QString__sub_object(const QString&) 0x00009a49   Thumb Code     0  QtFeedback.in(i._ZN7QStringC1ERKS_)
+    QString::~QString()                      0x00009a59   Thumb Code    24  QtFeedback.in(i._ZN7QStringD1Ev)
+    QString::~QString__sub_object()          0x00009a59   Thumb Code     0  QtFeedback.in(i._ZN7QStringD1Ev)
+    QBasicAtomicInt::operator !=(int) const  0x00009a71   Thumb Code    14  QtFeedback.in(i._ZNK15QBasicAtomicIntneEi)
+    QListData::at(int) const                 0x00009a7f   Thumb Code    16  QtFeedback.in(i._ZNK9QListData2atEi)
+    QListData::end() const                   0x00009a8f   Thumb Code    12  QtFeedback.in(i._ZNK9QListData3endEv)
+    QListData::begin() const                 0x00009a9b   Thumb Code    12  QtFeedback.in(i._ZNK9QListData5beginEv)
+    thunk{-8} to QtMobility::QDummyBackend::effectState(const QtMobility::QFeedbackHapticsEffect*) 0x00009aa7   Thumb Code     4  QtFeedback.in(i._ZThn8_N10QtMobility13QDummyBackend11effectStateEPKNS_22QFeedbackHapticsEffectE)
+    thunk{-8} to QtMobility::QDummyBackend::pluginPriority() 0x00009aab   Thumb Code     4  QtFeedback.in(i._ZThn8_N10QtMobility13QDummyBackend14pluginPriorityEv)
+    thunk{-8} to QtMobility::QDummyBackend::setEffectState(const QtMobility::QFeedbackHapticsEffect*, QtMobility::QFeedbackEffect::State) 0x00009aaf   Thumb Code     2  QtFeedback.in(i._ZThn8_N10QtMobility13QDummyBackend14setEffectStateEPKNS_22QFeedbackHapticsEffectENS_15QFeedbackEffect5StateE)
+    thunk{-8} to QtMobility::QDummyBackend::actuatorProperty(const QtMobility::QFeedbackActuator&, QtMobility::QFeedbackHapticsInterface::ActuatorProperty) 0x00009ab1   Thumb Code    10  QtFeedback.in(i._ZThn8_N10QtMobility13QDummyBackend16actuatorPropertyERKNS_17QFeedbackActuatorENS_25QFeedbackHapticsInterface16ActuatorPropertyE)
+    thunk{-8} to QtMobility::QDummyBackend::setActuatorProperty(const QtMobility::QFeedbackActuator&, QtMobility::QFeedbackHapticsInterface::ActuatorProperty, const QVariant&) 0x00009abb   Thumb Code     2  QtFeedback.in(i._ZThn8_N10QtMobility13QDummyBackend19setActuatorPropertyERKNS_17QFeedbackActuatorENS_25QFeedbackHapticsInterface16ActuatorPropertyERK8QVariant)
+    thunk{-8} to QtMobility::QDummyBackend::updateEffectProperty(const QtMobility::QFeedbackHapticsEffect*, QtMobility::QFeedbackHapticsInterface::EffectProperty) 0x00009abd   Thumb Code     2  QtFeedback.in(i._ZThn8_N10QtMobility13QDummyBackend20updateEffectPropertyEPKNS_22QFeedbackHapticsEffectENS_25QFeedbackHapticsInterface14EffectPropertyE)
+    thunk{-8} to QtMobility::QDummyBackend::isActuatorCapabilitySupported(const QtMobility::QFeedbackActuator&, QtMobility::QFeedbackActuator::Capability) 0x00009abf   Thumb Code     4  QtFeedback.in(i._ZThn8_N10QtMobility13QDummyBackend29isActuatorCapabilitySupportedERKNS_17QFeedbackActuatorENS1_10CapabilityE)
+    thunk{-8} to QtMobility::QDummyBackend::actuators() 0x00009ac3   Thumb Code    10  QtFeedback.in(i._ZThn8_N10QtMobility13QDummyBackend9actuatorsEv)
+    thunk{-8} to QtMobility::QDummyBackend::~QDummyBackend__deallocating() 0x00009acd   Thumb Code    10  QtFeedback.in(i._ZThn8_N10QtMobility13QDummyBackendD0Ev)
+    thunk{-8} to QtMobility::QDummyBackend::~QDummyBackend() 0x00009ad7   Thumb Code    10  QtFeedback.in(i._ZThn8_N10QtMobility13QDummyBackendD1Ev)
+    operator delete (void*, void*)           0x00009ae1   Thumb Code     2  QtFeedback.in(i._ZdlPvS_)
+    operator new(unsigned, void*)            0x00009ae3   Thumb Code     4  QtFeedback.in(i._ZnwjPv)
+    QtMobility::BackendLoader<QtMobility::QFeedbackThemeInterface>::tryLoad(QPluginLoader&) 0x00009ae9   Thumb Code    96  QtFeedback.in(t._ZN10QtMobility13BackendLoaderINS_23QFeedbackThemeInterfaceEE7tryLoadER13QPluginLoader)
+    QtMobility::BackendLoader<QtMobility::QFeedbackThemeInterface>::~BackendLoader() 0x00009b7f   Thumb Code    16  QtFeedback.in(t._ZN10QtMobility13BackendLoaderINS_23QFeedbackThemeInterfaceEED1Ev)
+    QtMobility::BackendLoader<QtMobility::QFeedbackThemeInterface>::~BackendLoader__sub_object() 0x00009b7f   Thumb Code     0  QtFeedback.in(t._ZN10QtMobility13BackendLoaderINS_23QFeedbackThemeInterfaceEED1Ev)
+    QtMobility::BackendLoader<QtMobility::QFeedbackHapticsInterface>::tryLoad(QPluginLoader&) 0x00009b99   Thumb Code    96  QtFeedback.in(t._ZN10QtMobility13BackendLoaderINS_25QFeedbackHapticsInterfaceEE7tryLoadER13QPluginLoader)
+    QtMobility::BackendLoader<QtMobility::QFeedbackHapticsInterface>::~BackendLoader() 0x00009c2f   Thumb Code    16  QtFeedback.in(t._ZN10QtMobility13BackendLoaderINS_25QFeedbackHapticsInterfaceEED1Ev)
+    QtMobility::BackendLoader<QtMobility::QFeedbackHapticsInterface>::~BackendLoader__sub_object() 0x00009c2f   Thumb Code     0  QtFeedback.in(t._ZN10QtMobility13BackendLoaderINS_25QFeedbackHapticsInterfaceEED1Ev)
+    QHashDummyNode<QString, QHashDummyValue>::QHashDummyNode(const QString&) 0x00009c49   Thumb Code    12  QtFeedback.in(t._ZN14QHashDummyNodeI7QString15QHashDummyValueEC1ERKS0_)
+    QHashDummyNode<QString, QHashDummyValue>::QHashDummyNode__sub_object(const QString&) 0x00009c49   Thumb Code     0  QtFeedback.in(t._ZN14QHashDummyNodeI7QString15QHashDummyValueEC1ERKS0_)
+    QScopedPointer<QtMobility::QFeedbackFileEffectPrivate, QScopedPointerDeleter<QtMobility::QFeedbackFileEffectPrivate>>::~QScopedPointer() 0x00009c55   Thumb Code    30  QtFeedback.in(t._ZN14QScopedPointerIN10QtMobility26QFeedbackFileEffectPrivateE21QScopedPointerDeleterIS1_EED1Ev)
+    QScopedPointer<QtMobility::QFeedbackFileEffectPrivate, QScopedPointerDeleter<QtMobility::QFeedbackFileEffectPrivate>>::~QScopedPointer__sub_object() 0x00009c55   Thumb Code     0  QtFeedback.in(t._ZN14QScopedPointerIN10QtMobility26QFeedbackFileEffectPrivateE21QScopedPointerDeleterIS1_EED1Ev)
+    QScopedPointer<QtMobility::QFeedbackHapticsEffectPrivate, QScopedPointerDeleter<QtMobility::QFeedbackHapticsEffectPrivate>>::~QScopedPointer() 0x00009c73   Thumb Code    18  QtFeedback.in(t._ZN14QScopedPointerIN10QtMobility29QFeedbackHapticsEffectPrivateE21QScopedPointerDeleterIS1_EED1Ev)
+    QScopedPointer<QtMobility::QFeedbackHapticsEffectPrivate, QScopedPointerDeleter<QtMobility::QFeedbackHapticsEffectPrivate>>::~QScopedPointer__sub_object() 0x00009c73   Thumb Code     0  QtFeedback.in(t._ZN14QScopedPointerIN10QtMobility29QFeedbackHapticsEffectPrivateE21QScopedPointerDeleterIS1_EED1Ev)
+    QGlobalStaticDeleter<QtMobility::BackendManager>::~QGlobalStaticDeleter() 0x00009c85   Thumb Code    36  QtFeedback.in(t._ZN20QGlobalStaticDeleterIN10QtMobility14BackendManagerEED1Ev)
+    QGlobalStaticDeleter<QtMobility::BackendManager>::~QGlobalStaticDeleter__sub_object() 0x00009c85   Thumb Code     0  QtFeedback.in(t._ZN20QGlobalStaticDeleterIN10QtMobility14BackendManagerEED1Ev)
+    QSet<QString>::insert(const QString&)    0x00009ca9   Thumb Code    22  QtFeedback.in(t._ZN4QSetI7QStringE6insertERKS0_)
+    QHash<QString, QHashDummyValue>::deleteNode2(QHashData::Node*) 0x00009cbf   Thumb Code    10  QtFeedback.in(t._ZN5QHashI7QString15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE)
+    QHash<QString, QHashDummyValue>::duplicateNode(QHashData::Node*, void*) 0x00009cc9   Thumb Code    28  QtFeedback.in(t._ZN5QHashI7QString15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv)
+    QHash<QString, QHashDummyValue>::insert(const QString&, const QHashDummyValue&) 0x00009cf1   Thumb Code   170  QtFeedback.in(t._ZN5QHashI7QString15QHashDummyValueE6insertERKS0_RKS1_)
+    QHash<QString, QHashDummyValue>::freeData(QHashData*) 0x00009db1   Thumb Code    12  QtFeedback.in(t._ZN5QHashI7QString15QHashDummyValueE8freeDataEP9QHashData)
+    QHash<QString, QHashDummyValue>::~QHash() 0x00009dc1   Thumb Code    28  QtFeedback.in(t._ZN5QHashI7QString15QHashDummyValueED1Ev)
+    QHash<QString, QHashDummyValue>::~QHash__sub_object() 0x00009dc1   Thumb Code     0  QtFeedback.in(t._ZN5QHashI7QString15QHashDummyValueED1Ev)
+    QList<QString>::detach_helper()          0x00009ddd   Thumb Code    88  QtFeedback.in(t._ZN5QListI7QStringE13detach_helperEv)
+    QList<QString>::node_construct(QList<QString>::Node*, const QString&) 0x00009e3d   Thumb Code    26  QtFeedback.in(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_)
+    QList<QString>::detach_helper_grow(int, int) 0x00009e63   Thumb Code   186  QtFeedback.in(t._ZN5QListI7QStringE18detach_helper_growEii)
+    QList<QString>::free(QListData::Data*)   0x00009f25   Thumb Code    48  QtFeedback.in(t._ZN5QListI7QStringE4freeEPN9QListData4DataE)
+    QList<QString>::append(const QString&)   0x00009f55   Thumb Code    94  QtFeedback.in(t._ZN5QListI7QStringE6appendERKS0_)
+    QList<QString>::node_copy(QList<QString>::Node*, QList<QString>::Node*, QList<QString>::Node*) 0x00009fc1   Thumb Code    70  QtFeedback.in(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_)
+    QList<QString>::~QList()                 0x0000a01d   Thumb Code    30  QtFeedback.in(t._ZN5QListI7QStringED1Ev)
+    QList<QString>::~QList__sub_object()     0x0000a01d   Thumb Code     0  QtFeedback.in(t._ZN5QListI7QStringED1Ev)
+    QList<QString>::operator +=(const QList<QString>&) 0x0000a03d   Thumb Code   168  QtFeedback.in(t._ZN5QListI7QStringEpLERKS1_)
+    QList<QtMobility::QFeedbackActuator*>::detach_helper(int) 0x0000a0f1   Thumb Code    96  QtFeedback.in(t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE13detach_helperEi)
+    QList<QtMobility::QFeedbackActuator*>::free(QListData::Data*) 0x0000a159   Thumb Code    16  QtFeedback.in(t._ZN5QListIPN10QtMobility17QFeedbackActuatorEE4freeEPN9QListData4DataE)
+    QList<QtMobility::QFeedbackActuator*>::~QList() 0x0000a169   Thumb Code    30  QtFeedback.in(t._ZN5QListIPN10QtMobility17QFeedbackActuatorEED1Ev)
+    QList<QtMobility::QFeedbackActuator*>::~QList__sub_object() 0x0000a169   Thumb Code     0  QtFeedback.in(t._ZN5QListIPN10QtMobility17QFeedbackActuatorEED1Ev)
+    QList<QtMobility::QFeedbackFileInterface*>::detach_helper_grow(int, int) 0x0000a187   Thumb Code   164  QtFeedback.in(t._ZN5QListIPN10QtMobility22QFeedbackFileInterfaceEE18detach_helper_growEii)
+    QList<QtMobility::QFeedbackFileInterface*>::free(QListData::Data*) 0x0000a233   Thumb Code    16  QtFeedback.in(t._ZN5QListIPN10QtMobility22QFeedbackFileInterfaceEE4freeEPN9QListData4DataE)
+    QList<QtMobility::QFeedbackFileInterface*>::node_copy(QList<QtMobility::QFeedbackFileInterface*>::Node*, QList<QtMobility::QFeedbackFileInterface*>::Node*, QList<QtMobility::QFeedbackFileInterface*>::Node*) 0x0000a243   Thumb Code    28  QtFeedback.in(t._ZN5QListIPN10QtMobility22QFeedbackFileInterfaceEE9node_copyEPNS3_4NodeES5_S5_)
+    QList<QtMobility::QFeedbackFileInterface*>::~QList() 0x0000a25f   Thumb Code    30  QtFeedback.in(t._ZN5QListIPN10QtMobility22QFeedbackFileInterfaceEED1Ev)
+    QList<QtMobility::QFeedbackFileInterface*>::~QList__sub_object() 0x0000a25f   Thumb Code     0  QtFeedback.in(t._ZN5QListIPN10QtMobility22QFeedbackFileInterfaceEED1Ev)
+    QSet<QString>::contains(const QString&) const 0x0000a27d   Thumb Code    26  QtFeedback.in(t._ZNK4QSetI7QStringE8containsERKS0_)
+    QHash<QString, QHashDummyValue>::findNode(const QString&, unsigned*) const 0x0000a297   Thumb Code    90  QtFeedback.in(t._ZNK5QHashI7QString15QHashDummyValueE8findNodeERKS0_Pj)
+    QList<QString>::at(int) const            0x0000a2f1   Thumb Code     8  QtFeedback.in(t._ZNK5QListI7QStringE2atEi)
+    QList<QString>::isEmpty() const          0x0000a2f9   Thumb Code    18  QtFeedback.in(t._ZNK5QListI7QStringE7isEmptyEv)
+    QList<QtMobility::QFeedbackFileInterface*>::at(int) const 0x0000a30b   Thumb Code     8  QtFeedback.in(t._ZNK5QListIPN10QtMobility22QFeedbackFileInterfaceEE2atEi)
+    QList<QtMobility::QFeedbackFileInterface*>::count() const 0x0000a313   Thumb Code    10  QtFeedback.in(t._ZNK5QListIPN10QtMobility22QFeedbackFileInterfaceEE5countEv)
+    QtMobility::QFeedbackActuator::staticMetaObject 0x0000a7f4   Data          16  QtFeedback.in(.constdata)
+    QtMobility::QFeedbackEffect::staticMetaObject 0x0000a9c4   Data          16  QtFeedback.in(.constdata)
+    QtMobility::QFeedbackHapticsEffect::staticMetaObject 0x0000a9d4   Data          16  QtFeedback.in(.constdata)
+    QtMobility::QFeedbackFileEffect::staticMetaObject 0x0000a9e4   Data          16  QtFeedback.in(.constdata)
+    typeinfo for QtMobility::FileBackend     0x0000b22c   Data          12  QtFeedback.in(.constdata__ZTIN10QtMobility11FileBackendE)
+    typeinfo for QtMobility::QDummyBackend   0x0000b238   Data          32  QtFeedback.in(.constdata__ZTIN10QtMobility13QDummyBackendE)
+    typeinfo for QtMobility::QFeedbackEffect 0x0000b258   Data          12  QtFeedback.in(.constdata__ZTIN10QtMobility15QFeedbackEffectE)
+    typeinfo for QtMobility::QFeedbackActuator 0x0000b264   Data          12  QtFeedback.in(.constdata__ZTIN10QtMobility17QFeedbackActuatorE)
+    typeinfo for QtMobility::QFeedbackInterface 0x0000b270   Data           8  QtFeedback.in(.constdata__ZTIN10QtMobility18QFeedbackInterfaceE)
+    typeinfo for QtMobility::QFeedbackFileEffect 0x0000b278   Data          12  QtFeedback.in(.constdata__ZTIN10QtMobility19QFeedbackFileEffectE)
+    typeinfo for QtMobility::QFeedbackFileInterface 0x0000b284   Data          12  QtFeedback.in(.constdata__ZTIN10QtMobility22QFeedbackFileInterfaceE)
+    typeinfo for QtMobility::QFeedbackHapticsEffect 0x0000b290   Data          12  QtFeedback.in(.constdata__ZTIN10QtMobility22QFeedbackHapticsEffectE)
+    typeinfo for QtMobility::QFeedbackHapticsInterface 0x0000b29c   Data          12  QtFeedback.in(.constdata__ZTIN10QtMobility25QFeedbackHapticsInterfaceE)
+    typeinfo for std::bad_alloc              0x0000b2a8   Data          12  QtFeedback.in(.constdata__ZTISt9bad_alloc)
+    typeinfo name for QtMobility::FileBackend 0x0000b2b4   Data          28  QtFeedback.in(.constdata__ZTSN10QtMobility11FileBackendE)
+    typeinfo name for QtMobility::QDummyBackend 0x0000b2d0   Data          30  QtFeedback.in(.constdata__ZTSN10QtMobility13QDummyBackendE)
+    typeinfo name for QtMobility::QFeedbackEffect 0x0000b2ee   Data          32  QtFeedback.in(.constdata__ZTSN10QtMobility15QFeedbackEffectE)
+    typeinfo name for QtMobility::QFeedbackActuator 0x0000b30e   Data          34  QtFeedback.in(.constdata__ZTSN10QtMobility17QFeedbackActuatorE)
+    typeinfo name for QtMobility::QFeedbackInterface 0x0000b330   Data          35  QtFeedback.in(.constdata__ZTSN10QtMobility18QFeedbackInterfaceE)
+    typeinfo name for QtMobility::QFeedbackFileEffect 0x0000b353   Data          36  QtFeedback.in(.constdata__ZTSN10QtMobility19QFeedbackFileEffectE)
+    typeinfo name for QtMobility::QFeedbackFileInterface 0x0000b377   Data          39  QtFeedback.in(.constdata__ZTSN10QtMobility22QFeedbackFileInterfaceE)
+    typeinfo name for QtMobility::QFeedbackHapticsEffect 0x0000b39e   Data          39  QtFeedback.in(.constdata__ZTSN10QtMobility22QFeedbackHapticsEffectE)
+    typeinfo name for QtMobility::QFeedbackHapticsInterface 0x0000b3c5   Data          42  QtFeedback.in(.constdata__ZTSN10QtMobility25QFeedbackHapticsInterfaceE)
+    typeinfo name for std::bad_alloc         0x0000b3ef   Data          13  QtFeedback.in(.constdata__ZTSSt9bad_alloc)
+    vtable for QtMobility::FileBackend       0x0000b3fc   Data          36  QtFeedback.in(.constdata__ZTVN10QtMobility11FileBackendE)
+    vtable for QtMobility::QDummyBackend     0x0000b420   Data         136  QtFeedback.in(.constdata__ZTVN10QtMobility13QDummyBackendE)
+    vtable for QtMobility::QFeedbackEffect   0x0000b4a8   Data          68  QtFeedback.in(.constdata__ZTVN10QtMobility15QFeedbackEffectE)
+    vtable for QtMobility::QFeedbackActuator 0x0000b4ec   Data          56  QtFeedback.in(.constdata__ZTVN10QtMobility17QFeedbackActuatorE)
+    vtable for QtMobility::QFeedbackFileEffect 0x0000b524   Data          68  QtFeedback.in(.constdata__ZTVN10QtMobility19QFeedbackFileEffectE)
+    vtable for QtMobility::QFeedbackHapticsEffect 0x0000b568   Data          68  QtFeedback.in(.constdata__ZTVN10QtMobility22QFeedbackHapticsEffectE)
+    .ARM.exidx$$Base                         0x0000b5ac   Number         0  ucppinit_aeabi.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x0000b98c   Number         0  QtFeedback.in(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x0000b98c   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    __dso_handle                             0x00400010   Data           4  ucppfini.o(.data)
+

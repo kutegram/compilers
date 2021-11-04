@@ -1,0 +1,747 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3691.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-188.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  libstdcpp{00010000}-988.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-70.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-189.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  libstdcpp{00010000}-992.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  libc{00010000}-350.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-190.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1760.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-670.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1843.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1763.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-671.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1874.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1764.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-331.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2188.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1766.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-17.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-274.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1767.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-24.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-275.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1768.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-251.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3067.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1773.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-252.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1814.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1777.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-255.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-332.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1784.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-256.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-336.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1789.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-257.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3689.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1794.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-261.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-808.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-273.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-262.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-719.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1826.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-264.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-720.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1830.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-266.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-721.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-717.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-267.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-722.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-718.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-158.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-726.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-294.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-277.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-727.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-295.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-279.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-728.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-472.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-281.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-729.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-67.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-293.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-714.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-710.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-187.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-180.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-186.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-184.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-183.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtOrganizer{00010103}-716.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-147.o ABSOLUTE
+    ..\..\..\..\EPOC32\BUILD\s60\osext\mobileruntime\group\LIBSTDCPP\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\src\cedar\generic\base\e32\compsupp\DRTAEABI\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\src\cedar\generic\base\e32\euser\EDLL\ARMV5\urel\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    \EPOC32\BUILD\src\cedar\generic\base\e32\euser\EUSER\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBC\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBDL\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBM\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBPTHREAD\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \\EPOC32\\BUILD\\src\\cedar\\generic\\base\\e32\\euser\\EDLL\\ARMV5\\urel\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    \\src\\cedar\\generic\\base\\e32\\compsupp\\RVCT2_2\\ucppinit_aeabi.cpp 0x00000000   Number         0  ucppinit_aeabi.o ABSOLUTE
+    \dev\symb\SDKs\32\EPOC32\BUILD\iwmake\buildS60____PADDING________\src\QTCORE_DLL\ARMV6\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \dev\symb\SDKs\32\EPOC32\BUILD\iwmake\buildS60____PADDING________\src\QTGUI_DLL\ARMV6\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \s60\5.0\EPOC32\BUILD\scripts\5.0\qtmobility\QTORGANIZER_DLL\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \s60\5.0\EPOC32\BUILD\scripts\5.0\qtmobility\QTORGANIZER_SKELETON_DLL\ARMV5\urel\qtorganizer_skeleton{000a0000}.s 0x00000000   Number         0  qtorganizer_skeleton{000a0000}.exp ABSOLUTE
+    \scripts\5.0\qtmobility\build\Release\qtorganizer_skeleton\moc\moc_qorganizerskeleton_p.cpp 0x00000000   Number         0  qtorganizer_skeleton.in ABSOLUTE
+    \scripts\5.0\qtmobility\plugins\organizer\skeleton\qorganizerskeleton.cpp 0x00000000   Number         0  qtorganizer_skeleton.in ABSOLUTE
+    \src\cedar\generic\base\e32\compsupp\RVCT2_2\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    \src\cedar\generic\base\e32\compsupp\RVCT2_2\ucppinit_aeabi.cpp 0x00000000   Number         0  ucppinit_aeabi.o ABSOLUTE
+    \src\cedar\generic\base\e32\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       72  ucppinit_aeabi.o(.emb_text)
+    skip                                     0x0000803c   ARM Code       0  ucppinit_aeabi.o(.emb_text)
+    loop                                     0x0000804c   ARM Code       0  ucppinit_aeabi.o(.emb_text)
+    fpinit                                   0x00008064   Data           0  ucppinit_aeabi.o(.emb_text)
+    base                                     0x00008068   Data           0  ucppinit_aeabi.o(.emb_text)
+    limit                                    0x0000806c   Data           0  ucppinit_aeabi.o(.emb_text)
+    .text                                    0x00008070   Section      256  qtorganizer_skeleton.in(.text)
+    .text                                    0x00008170   Section     1748  qtorganizer_skeleton.in(.text)
+    .text                                    0x00008844   Section       40  uc_dll.o(.text)
+    .text                                    0x0000886c   Section      148  ucppfini.o(.text)
+    .text.clean                              0x00008900   Section      172  qtorganizer_skeleton.in(.text.clean)
+    ExportTable                              0x000089ac   Section       16  qtorganizer_skeleton{000a0000}.exp(ExportTable)
+    StubCode                                 0x000089bc   Section        8  QtOrganizer{00010103}-17.o(StubCode)
+    theImportedSymbol                        0x000089c0   Data           0  QtOrganizer{00010103}-17.o(StubCode)
+    StubCode                                 0x000089c4   Section        8  QtOrganizer{00010103}-24.o(StubCode)
+    theImportedSymbol                        0x000089c8   Data           0  QtOrganizer{00010103}-24.o(StubCode)
+    StubCode                                 0x000089cc   Section        8  QtOrganizer{00010103}-251.o(StubCode)
+    theImportedSymbol                        0x000089d0   Data           0  QtOrganizer{00010103}-251.o(StubCode)
+    StubCode                                 0x000089d4   Section        8  QtOrganizer{00010103}-252.o(StubCode)
+    theImportedSymbol                        0x000089d8   Data           0  QtOrganizer{00010103}-252.o(StubCode)
+    StubCode                                 0x000089dc   Section        8  QtOrganizer{00010103}-255.o(StubCode)
+    theImportedSymbol                        0x000089e0   Data           0  QtOrganizer{00010103}-255.o(StubCode)
+    StubCode                                 0x000089e4   Section        8  QtOrganizer{00010103}-256.o(StubCode)
+    theImportedSymbol                        0x000089e8   Data           0  QtOrganizer{00010103}-256.o(StubCode)
+    StubCode                                 0x000089ec   Section        8  QtOrganizer{00010103}-257.o(StubCode)
+    theImportedSymbol                        0x000089f0   Data           0  QtOrganizer{00010103}-257.o(StubCode)
+    StubCode                                 0x000089f4   Section        8  QtOrganizer{00010103}-261.o(StubCode)
+    theImportedSymbol                        0x000089f8   Data           0  QtOrganizer{00010103}-261.o(StubCode)
+    StubCode                                 0x000089fc   Section        8  QtOrganizer{00010103}-262.o(StubCode)
+    theImportedSymbol                        0x00008a00   Data           0  QtOrganizer{00010103}-262.o(StubCode)
+    StubCode                                 0x00008a04   Section        8  QtOrganizer{00010103}-264.o(StubCode)
+    theImportedSymbol                        0x00008a08   Data           0  QtOrganizer{00010103}-264.o(StubCode)
+    StubCode                                 0x00008a0c   Section        8  QtOrganizer{00010103}-266.o(StubCode)
+    theImportedSymbol                        0x00008a10   Data           0  QtOrganizer{00010103}-266.o(StubCode)
+    StubCode                                 0x00008a14   Section        8  QtOrganizer{00010103}-267.o(StubCode)
+    theImportedSymbol                        0x00008a18   Data           0  QtOrganizer{00010103}-267.o(StubCode)
+    StubCode                                 0x00008a1c   Section        8  QtOrganizer{00010103}-273.o(StubCode)
+    theImportedSymbol                        0x00008a20   Data           0  QtOrganizer{00010103}-273.o(StubCode)
+    StubCode                                 0x00008a24   Section        8  QtOrganizer{00010103}-277.o(StubCode)
+    theImportedSymbol                        0x00008a28   Data           0  QtOrganizer{00010103}-277.o(StubCode)
+    StubCode                                 0x00008a2c   Section        8  QtOrganizer{00010103}-279.o(StubCode)
+    theImportedSymbol                        0x00008a30   Data           0  QtOrganizer{00010103}-279.o(StubCode)
+    StubCode                                 0x00008a34   Section        8  QtOrganizer{00010103}-281.o(StubCode)
+    theImportedSymbol                        0x00008a38   Data           0  QtOrganizer{00010103}-281.o(StubCode)
+    StubCode                                 0x00008a3c   Section        8  QtOrganizer{00010103}-293.o(StubCode)
+    theImportedSymbol                        0x00008a40   Data           0  QtOrganizer{00010103}-293.o(StubCode)
+    StubCode                                 0x00008a44   Section        8  QtOrganizer{00010103}-294.o(StubCode)
+    theImportedSymbol                        0x00008a48   Data           0  QtOrganizer{00010103}-294.o(StubCode)
+    StubCode                                 0x00008a4c   Section        8  QtOrganizer{00010103}-295.o(StubCode)
+    theImportedSymbol                        0x00008a50   Data           0  QtOrganizer{00010103}-295.o(StubCode)
+    StubCode                                 0x00008a54   Section        8  QtOrganizer{00010103}-472.o(StubCode)
+    theImportedSymbol                        0x00008a58   Data           0  QtOrganizer{00010103}-472.o(StubCode)
+    StubCode                                 0x00008a5c   Section        8  QtOrganizer{00010103}-67.o(StubCode)
+    theImportedSymbol                        0x00008a60   Data           0  QtOrganizer{00010103}-67.o(StubCode)
+    StubCode                                 0x00008a64   Section        8  QtOrganizer{00010103}-710.o(StubCode)
+    theImportedSymbol                        0x00008a68   Data           0  QtOrganizer{00010103}-710.o(StubCode)
+    StubCode                                 0x00008a6c   Section        8  QtOrganizer{00010103}-714.o(StubCode)
+    theImportedSymbol                        0x00008a70   Data           0  QtOrganizer{00010103}-714.o(StubCode)
+    StubCode                                 0x00008a74   Section        8  QtOrganizer{00010103}-716.o(StubCode)
+    theImportedSymbol                        0x00008a78   Data           0  QtOrganizer{00010103}-716.o(StubCode)
+    StubCode                                 0x00008a7c   Section        8  QtOrganizer{00010103}-717.o(StubCode)
+    theImportedSymbol                        0x00008a80   Data           0  QtOrganizer{00010103}-717.o(StubCode)
+    StubCode                                 0x00008a84   Section        8  QtOrganizer{00010103}-718.o(StubCode)
+    theImportedSymbol                        0x00008a88   Data           0  QtOrganizer{00010103}-718.o(StubCode)
+    StubCode                                 0x00008a8c   Section        8  QtOrganizer{00010103}-719.o(StubCode)
+    theImportedSymbol                        0x00008a90   Data           0  QtOrganizer{00010103}-719.o(StubCode)
+    StubCode                                 0x00008a94   Section        8  QtOrganizer{00010103}-720.o(StubCode)
+    theImportedSymbol                        0x00008a98   Data           0  QtOrganizer{00010103}-720.o(StubCode)
+    StubCode                                 0x00008a9c   Section        8  QtOrganizer{00010103}-721.o(StubCode)
+    theImportedSymbol                        0x00008aa0   Data           0  QtOrganizer{00010103}-721.o(StubCode)
+    StubCode                                 0x00008aa4   Section        8  QtOrganizer{00010103}-722.o(StubCode)
+    theImportedSymbol                        0x00008aa8   Data           0  QtOrganizer{00010103}-722.o(StubCode)
+    StubCode                                 0x00008aac   Section        8  QtOrganizer{00010103}-726.o(StubCode)
+    theImportedSymbol                        0x00008ab0   Data           0  QtOrganizer{00010103}-726.o(StubCode)
+    StubCode                                 0x00008ab4   Section        8  QtOrganizer{00010103}-727.o(StubCode)
+    theImportedSymbol                        0x00008ab8   Data           0  QtOrganizer{00010103}-727.o(StubCode)
+    StubCode                                 0x00008abc   Section        8  QtOrganizer{00010103}-728.o(StubCode)
+    theImportedSymbol                        0x00008ac0   Data           0  QtOrganizer{00010103}-728.o(StubCode)
+    StubCode                                 0x00008ac4   Section        8  QtOrganizer{00010103}-729.o(StubCode)
+    theImportedSymbol                        0x00008ac8   Data           0  QtOrganizer{00010103}-729.o(StubCode)
+    StubCode                                 0x00008acc   Section        8  QtOrganizer{00010103}-808.o(StubCode)
+    theImportedSymbol                        0x00008ad0   Data           0  QtOrganizer{00010103}-808.o(StubCode)
+    StubCode                                 0x00008ad4   Section        8  libstdcpp{00010000}-988.o(StubCode)
+    theImportedSymbol                        0x00008ad8   Data           0  libstdcpp{00010000}-988.o(StubCode)
+    StubCode                                 0x00008adc   Section        8  libstdcpp{00010000}-992.o(StubCode)
+    theImportedSymbol                        0x00008ae0   Data           0  libstdcpp{00010000}-992.o(StubCode)
+    StubCode                                 0x00008ae4   Section        8  QtCore{00040703}-1760.o(StubCode)
+    theImportedSymbol                        0x00008ae8   Data           0  QtCore{00040703}-1760.o(StubCode)
+    StubCode                                 0x00008aec   Section        8  QtCore{00040703}-1763.o(StubCode)
+    theImportedSymbol                        0x00008af0   Data           0  QtCore{00040703}-1763.o(StubCode)
+    StubCode                                 0x00008af4   Section        8  QtCore{00040703}-1764.o(StubCode)
+    theImportedSymbol                        0x00008af8   Data           0  QtCore{00040703}-1764.o(StubCode)
+    StubCode                                 0x00008afc   Section        8  QtCore{00040703}-1766.o(StubCode)
+    theImportedSymbol                        0x00008b00   Data           0  QtCore{00040703}-1766.o(StubCode)
+    StubCode                                 0x00008b04   Section        8  QtCore{00040703}-1767.o(StubCode)
+    theImportedSymbol                        0x00008b08   Data           0  QtCore{00040703}-1767.o(StubCode)
+    StubCode                                 0x00008b0c   Section        8  QtCore{00040703}-1768.o(StubCode)
+    theImportedSymbol                        0x00008b10   Data           0  QtCore{00040703}-1768.o(StubCode)
+    StubCode                                 0x00008b14   Section        8  QtCore{00040703}-1773.o(StubCode)
+    theImportedSymbol                        0x00008b18   Data           0  QtCore{00040703}-1773.o(StubCode)
+    StubCode                                 0x00008b1c   Section        8  QtCore{00040703}-1777.o(StubCode)
+    theImportedSymbol                        0x00008b20   Data           0  QtCore{00040703}-1777.o(StubCode)
+    StubCode                                 0x00008b24   Section        8  QtCore{00040703}-1784.o(StubCode)
+    theImportedSymbol                        0x00008b28   Data           0  QtCore{00040703}-1784.o(StubCode)
+    StubCode                                 0x00008b2c   Section        8  QtCore{00040703}-1789.o(StubCode)
+    theImportedSymbol                        0x00008b30   Data           0  QtCore{00040703}-1789.o(StubCode)
+    StubCode                                 0x00008b34   Section        8  QtCore{00040703}-1794.o(StubCode)
+    theImportedSymbol                        0x00008b38   Data           0  QtCore{00040703}-1794.o(StubCode)
+    StubCode                                 0x00008b3c   Section        8  QtCore{00040703}-1814.o(StubCode)
+    theImportedSymbol                        0x00008b40   Data           0  QtCore{00040703}-1814.o(StubCode)
+    StubCode                                 0x00008b44   Section        8  QtCore{00040703}-1826.o(StubCode)
+    theImportedSymbol                        0x00008b48   Data           0  QtCore{00040703}-1826.o(StubCode)
+    StubCode                                 0x00008b4c   Section        8  QtCore{00040703}-1830.o(StubCode)
+    theImportedSymbol                        0x00008b50   Data           0  QtCore{00040703}-1830.o(StubCode)
+    StubCode                                 0x00008b54   Section        8  QtCore{00040703}-1843.o(StubCode)
+    theImportedSymbol                        0x00008b58   Data           0  QtCore{00040703}-1843.o(StubCode)
+    StubCode                                 0x00008b5c   Section        8  QtCore{00040703}-1874.o(StubCode)
+    theImportedSymbol                        0x00008b60   Data           0  QtCore{00040703}-1874.o(StubCode)
+    StubCode                                 0x00008b64   Section        8  QtCore{00040703}-2188.o(StubCode)
+    theImportedSymbol                        0x00008b68   Data           0  QtCore{00040703}-2188.o(StubCode)
+    StubCode                                 0x00008b6c   Section        8  QtCore{00040703}-274.o(StubCode)
+    theImportedSymbol                        0x00008b70   Data           0  QtCore{00040703}-274.o(StubCode)
+    StubCode                                 0x00008b74   Section        8  QtCore{00040703}-275.o(StubCode)
+    theImportedSymbol                        0x00008b78   Data           0  QtCore{00040703}-275.o(StubCode)
+    StubCode                                 0x00008b7c   Section        8  QtCore{00040703}-3067.o(StubCode)
+    theImportedSymbol                        0x00008b80   Data           0  QtCore{00040703}-3067.o(StubCode)
+    StubCode                                 0x00008b84   Section        8  QtCore{00040703}-331.o(StubCode)
+    theImportedSymbol                        0x00008b88   Data           0  QtCore{00040703}-331.o(StubCode)
+    StubCode                                 0x00008b8c   Section        8  QtCore{00040703}-332.o(StubCode)
+    theImportedSymbol                        0x00008b90   Data           0  QtCore{00040703}-332.o(StubCode)
+    StubCode                                 0x00008b94   Section        8  QtCore{00040703}-336.o(StubCode)
+    theImportedSymbol                        0x00008b98   Data           0  QtCore{00040703}-336.o(StubCode)
+    StubCode                                 0x00008b9c   Section        8  QtCore{00040703}-3689.o(StubCode)
+    theImportedSymbol                        0x00008ba0   Data           0  QtCore{00040703}-3689.o(StubCode)
+    StubCode                                 0x00008ba4   Section        8  QtCore{00040703}-3691.o(StubCode)
+    theImportedSymbol                        0x00008ba8   Data           0  QtCore{00040703}-3691.o(StubCode)
+    StubCode                                 0x00008bac   Section        8  QtCore{00040703}-70.o(StubCode)
+    theImportedSymbol                        0x00008bb0   Data           0  QtCore{00040703}-70.o(StubCode)
+    StubCode                                 0x00008bb4   Section        8  libc{00010000}-350.o(StubCode)
+    theImportedSymbol                        0x00008bb8   Data           0  libc{00010000}-350.o(StubCode)
+    StubCode                                 0x00008bbc   Section        8  euser{000a0000}-670.o(StubCode)
+    theImportedSymbol                        0x00008bc0   Data           0  euser{000a0000}-670.o(StubCode)
+    StubCode                                 0x00008bc4   Section        8  euser{000a0000}-671.o(StubCode)
+    theImportedSymbol                        0x00008bc8   Data           0  euser{000a0000}-671.o(StubCode)
+    StubCode                                 0x00008bcc   Section        8  drtaeabi{000a0000}-147.o(StubCode)
+    theImportedSymbol                        0x00008bd0   Data           0  drtaeabi{000a0000}-147.o(StubCode)
+    StubCode                                 0x00008bd4   Section        8  drtaeabi{000a0000}-158.o(StubCode)
+    theImportedSymbol                        0x00008bd8   Data           0  drtaeabi{000a0000}-158.o(StubCode)
+    StubCode                                 0x00008bdc   Section        8  drtaeabi{000a0000}-180.o(StubCode)
+    theImportedSymbol                        0x00008be0   Data           0  drtaeabi{000a0000}-180.o(StubCode)
+    StubCode                                 0x00008be4   Section        8  drtaeabi{000a0000}-183.o(StubCode)
+    theImportedSymbol                        0x00008be8   Data           0  drtaeabi{000a0000}-183.o(StubCode)
+    StubCode                                 0x00008bec   Section        8  drtaeabi{000a0000}-184.o(StubCode)
+    theImportedSymbol                        0x00008bf0   Data           0  drtaeabi{000a0000}-184.o(StubCode)
+    StubCode                                 0x00008bf4   Section        8  drtaeabi{000a0000}-186.o(StubCode)
+    theImportedSymbol                        0x00008bf8   Data           0  drtaeabi{000a0000}-186.o(StubCode)
+    StubCode                                 0x00008bfc   Section        8  drtaeabi{000a0000}-187.o(StubCode)
+    theImportedSymbol                        0x00008c00   Data           0  drtaeabi{000a0000}-187.o(StubCode)
+    StubCode                                 0x00008c04   Section        8  drtaeabi{000a0000}-188.o(StubCode)
+    theImportedSymbol                        0x00008c08   Data           0  drtaeabi{000a0000}-188.o(StubCode)
+    StubCode                                 0x00008c0c   Section        8  drtaeabi{000a0000}-189.o(StubCode)
+    theImportedSymbol                        0x00008c10   Data           0  drtaeabi{000a0000}-189.o(StubCode)
+    StubCode                                 0x00008c14   Section        8  drtaeabi{000a0000}-190.o(StubCode)
+    theImportedSymbol                        0x00008c18   Data           0  drtaeabi{000a0000}-190.o(StubCode)
+    i._ZN10QtMobility22QOrganizerItemEngineIdC2Ev 0x00008c1c   Section       16  qtorganizer_skeleton.in(i._ZN10QtMobility22QOrganizerItemEngineIdC2Ev)
+    i._ZN10QtMobility22QOrganizerItemEngineIdD0Ev 0x00008c2c   Section       12  qtorganizer_skeleton.in(i._ZN10QtMobility22QOrganizerItemEngineIdD0Ev)
+    i._ZN10QtMobility22QOrganizerItemEngineIdD2Ev 0x00008c38   Section        2  qtorganizer_skeleton.in(i._ZN10QtMobility22QOrganizerItemEngineIdD2Ev)
+    i._ZN10QtMobility28QOrganizerCollectionEngineIdC2Ev 0x00008c3c   Section       16  qtorganizer_skeleton.in(i._ZN10QtMobility28QOrganizerCollectionEngineIdC2Ev)
+    i._ZN10QtMobility28QOrganizerCollectionEngineIdD0Ev 0x00008c4c   Section       12  qtorganizer_skeleton.in(i._ZN10QtMobility28QOrganizerCollectionEngineIdD0Ev)
+    i._ZN10QtMobility28QOrganizerCollectionEngineIdD2Ev 0x00008c58   Section        2  qtorganizer_skeleton.in(i._ZN10QtMobility28QOrganizerCollectionEngineIdD2Ev)
+    i._ZN11QStringListD1Ev                   0x00008c5a   Section        8  qtorganizer_skeleton.in(i._ZN11QStringListD1Ev)
+    i._ZN15QBasicAtomicInt3refEv             0x00008c62   Section       18  qtorganizer_skeleton.in(i._ZN15QBasicAtomicInt3refEv)
+    i._ZN15QBasicAtomicInt5derefEv           0x00008c74   Section       18  qtorganizer_skeleton.in(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN17QForeachContainerI5QListIN10QtMobility14QOrganizerItemEEED1Ev 0x00008c86   Section        8  qtorganizer_skeleton.in(i._ZN17QForeachContainerI5QListIN10QtMobility14QOrganizerItemEEED1Ev)
+    i._ZN29QOrganizerItemSkeletonFactoryD0Ev 0x00008c8e   Section       16  qtorganizer_skeleton.in(i._ZN29QOrganizerItemSkeletonFactoryD0Ev)
+    i._ZN29QOrganizerItemSkeletonFactoryD1Ev 0x00008c9e   Section       18  qtorganizer_skeleton.in(i._ZN29QOrganizerItemSkeletonFactoryD1Ev)
+    i._ZN29QOrganizerItemSkeletonFactoryD1Ev.clean 0x00008cb0   Section       10  qtorganizer_skeleton.in(i._ZN29QOrganizerItemSkeletonFactoryD1Ev.clean)
+    i._ZN6QDebug10maybeSpaceEv               0x00008cba   Section       22  qtorganizer_skeleton.in(i._ZN6QDebug10maybeSpaceEv)
+    i._ZN6QDebuglsEPKc                       0x00008cd0   Section       36  qtorganizer_skeleton.in(i._ZN6QDebuglsEPKc)
+    i._ZN6QDebuglsEPKc.clean                 0x00008cf4   Section       10  qtorganizer_skeleton.in(i._ZN6QDebuglsEPKc.clean)
+    i._ZN6QDebuglsEj                         0x00008cfe   Section       18  qtorganizer_skeleton.in(i._ZN6QDebuglsEj)
+    i._ZN7QStringC1ERK13QLatin1String        0x00008d10   Section       20  qtorganizer_skeleton.in(i._ZN7QStringC1ERK13QLatin1String)
+    i._ZN7QStringC1ERKS_                     0x00008d24   Section       16  qtorganizer_skeleton.in(i._ZN7QStringC1ERKS_)
+    i._ZN7QStringD1Ev                        0x00008d34   Section       24  qtorganizer_skeleton.in(i._ZN7QStringD1Ev)
+    i._ZNK15QBasicAtomicIntneEi              0x00008d4c   Section       14  qtorganizer_skeleton.in(i._ZNK15QBasicAtomicIntneEi)
+    i._ZNK7QString7isEmptyEv                 0x00008d5a   Section       16  qtorganizer_skeleton.in(i._ZNK7QString7isEmptyEv)
+    i._ZNK9QListData3endEv                   0x00008d6a   Section       12  qtorganizer_skeleton.in(i._ZNK9QListData3endEv)
+    i._ZNK9QListData5beginEv                 0x00008d76   Section       12  qtorganizer_skeleton.in(i._ZNK9QListData5beginEv)
+    i._ZThn8_N29QOrganizerItemSkeletonFactoryD0Ev 0x00008d82   Section       10  qtorganizer_skeleton.in(i._ZThn8_N29QOrganizerItemSkeletonFactoryD0Ev)
+    i._ZThn8_N29QOrganizerItemSkeletonFactoryD1Ev 0x00008d8c   Section       10  qtorganizer_skeleton.in(i._ZThn8_N29QOrganizerItemSkeletonFactoryD1Ev)
+    i._ZdlPvS_                               0x00008d96   Section        2  qtorganizer_skeleton.in(i._ZdlPvS_)
+    i._ZnwjPv                                0x00008d98   Section        4  qtorganizer_skeleton.in(i._ZnwjPv)
+    t._Z20qForeachContainerNewI5QListIN10QtMobility14QOrganizerItemEEE17QForeachContainerIT_ERKS5_ 0x00008d9c   Section       62  qtorganizer_skeleton.in(t._Z20qForeachContainerNewI5QListIN10QtMobility14QOrganizerItemEEE17QForeachContainerIT_ERKS5_)
+    t._Z20qForeachContainerNewI5QListIN10QtMobility14QOrganizerItemEEE17QForeachContainerIT_ERKS5_.clean 0x00008dda   Section       10  qtorganizer_skeleton.in(t._Z20qForeachContainerNewI5QListIN10QtMobility14QOrganizerItemEEE17QForeachContainerIT_ERKS5_.clean)
+    t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_ 0x00008de4   Section       26  qtorganizer_skeleton.in(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_)
+    t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_.clean 0x00008dfe   Section       12  qtorganizer_skeleton.in(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_.clean)
+    t._ZN5QListI7QStringE18detach_helper_growEii 0x00008e0a   Section      186  qtorganizer_skeleton.in(t._ZN5QListI7QStringE18detach_helper_growEii)
+    t._ZN5QListI7QStringE18detach_helper_growEii.clean 0x00008ec4   Section        8  qtorganizer_skeleton.in(t._ZN5QListI7QStringE18detach_helper_growEii.clean)
+    t._ZN5QListI7QStringE4freeEPN9QListData4DataE 0x00008ecc   Section       48  qtorganizer_skeleton.in(t._ZN5QListI7QStringE4freeEPN9QListData4DataE)
+    t._ZN5QListI7QStringE6appendERKS0_       0x00008efc   Section      100  qtorganizer_skeleton.in(t._ZN5QListI7QStringE6appendERKS0_)
+    t._ZN5QListI7QStringE6appendERKS0_.clean 0x00008f60   Section        8  qtorganizer_skeleton.in(t._ZN5QListI7QStringE6appendERKS0_.clean)
+    t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_ 0x00008f68   Section       70  qtorganizer_skeleton.in(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_)
+    t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_.clean 0x00008fae   Section       22  qtorganizer_skeleton.in(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_.clean)
+    t._ZN5QListI7QStringED1Ev                0x00008fc4   Section       30  qtorganizer_skeleton.in(t._ZN5QListI7QStringED1Ev)
+    t._ZN5QListIN10QtMobility14QOrganizerItemEE13detach_helperEi 0x00008fe2   Section      142  qtorganizer_skeleton.in(t._ZN5QListIN10QtMobility14QOrganizerItemEE13detach_helperEi)
+    t._ZN5QListIN10QtMobility14QOrganizerItemEE13detach_helperEi.clean 0x00009070   Section       20  qtorganizer_skeleton.in(t._ZN5QListIN10QtMobility14QOrganizerItemEE13detach_helperEi.clean)
+    t._ZN5QListIN10QtMobility14QOrganizerItemEE4freeEPN9QListData4DataE 0x00009084   Section       48  qtorganizer_skeleton.in(t._ZN5QListIN10QtMobility14QOrganizerItemEE4freeEPN9QListData4DataE)
+    t._ZN5QListIN10QtMobility14QOrganizerItemEEC1Ev 0x000090b4   Section       20  qtorganizer_skeleton.in(t._ZN5QListIN10QtMobility14QOrganizerItemEEC1Ev)
+    t._ZN5QListIN10QtMobility14QOrganizerItemEED1Ev 0x000090c8   Section       30  qtorganizer_skeleton.in(t._ZN5QListIN10QtMobility14QOrganizerItemEED1Ev)
+    t._ZN5QListIiE18detach_helper_growEii    0x000090e6   Section      164  qtorganizer_skeleton.in(t._ZN5QListIiE18detach_helper_growEii)
+    t._ZN5QListIiE18detach_helper_growEii.clean 0x0000918a   Section        8  qtorganizer_skeleton.in(t._ZN5QListIiE18detach_helper_growEii.clean)
+    t._ZN5QListIiE4freeEPN9QListData4DataE   0x00009192   Section       16  qtorganizer_skeleton.in(t._ZN5QListIiE4freeEPN9QListData4DataE)
+    t._ZN5QListIiE9node_copyEPNS0_4NodeES2_S2_ 0x000091a2   Section       28  qtorganizer_skeleton.in(t._ZN5QListIiE9node_copyEPNS0_4NodeES2_S2_)
+    t._ZN5QListIiED1Ev                       0x000091be   Section       30  qtorganizer_skeleton.in(t._ZN5QListIiED1Ev)
+    t._ZN5QListIiElsERKi                     0x000091dc   Section       60  qtorganizer_skeleton.in(t._ZN5QListIiElsERKi)
+    t._ZN5QListIiElsERKi.clean               0x00009218   Section       10  qtorganizer_skeleton.in(t._ZN5QListIiElsERKi.clean)
+    t._ZN8QPointerI7QObjectED1Ev             0x00009222   Section       12  qtorganizer_skeleton.in(t._ZN8QPointerI7QObjectED1Ev)
+    t._ZNK17QForeachContainerI5QListIN10QtMobility14QOrganizerItemEEE9conditionEv 0x0000922e   Section       26  qtorganizer_skeleton.in(t._ZNK17QForeachContainerI5QListIN10QtMobility14QOrganizerItemEEE9conditionEv)
+    .extab._ZN29QOrganizerItemSkeletonFactoryD1Ev 0x00009248   Data           0  qtorganizer_skeleton.in(.ARM.extab)
+    .extab.qt_plugin_instance                0x00009258   Data           0  qtorganizer_skeleton.in(.ARM.extab)
+    .extab._ZN29QOrganizerItemSkeletonFactory6engineERK4QMapI7QStringS1_EPN10QtMobility17QOrganizerManager5ErrorE 0x00009270   Data           0  qtorganizer_skeleton.in(.ARM.extab)
+    .extab._ZNK29QOrganizerItemSkeletonFactory18createItemEngineIdERK4QMapI7QStringS1_ERKS1_ 0x00009280   Data           0  qtorganizer_skeleton.in(.ARM.extab)
+    .extab._ZNK29QOrganizerItemSkeletonFactory24createCollectionEngineIdERK4QMapI7QStringS1_ERKS1_ 0x00009290   Data           0  qtorganizer_skeleton.in(.ARM.extab)
+    .extab._ZNK36QOrganizerCollectionSkeletonEngineId10managerUriEv 0x000092a0   Data           0  qtorganizer_skeleton.in(.ARM.extab)
+    .extab._ZNK36QOrganizerCollectionSkeletonEngineId5cloneEv 0x000092b8   Data           0  qtorganizer_skeleton.in(.ARM.extab)
+    .extab._ZNK30QOrganizerItemSkeletonEngineId10managerUriEv 0x000092c8   Data           0  qtorganizer_skeleton.in(.ARM.extab)
+    .extab._ZNK30QOrganizerItemSkeletonEngineId5cloneEv 0x000092e0   Data           0  qtorganizer_skeleton.in(.ARM.extab)
+    .extab._ZNK28QOrganizerItemSkeletonEngine7itemIdsERK9QDateTimeS2_RKN10QtMobility20QOrganizerItemFilterERK5QListINS3_23QOrganizerItemSortOrderEEPNS3_17QOrganizerManager5ErrorE 0x000092f0   Data           0  qtorganizer_skeleton.in(.ARM.extab)
+    .extab._ZNK28QOrganizerItemSkeletonEngine5itemsERK9QDateTimeS2_RKN10QtMobility20QOrganizerItemFilterERK5QListINS3_23QOrganizerItemSortOrderEERKNS3_23QOrganizerItemFetchHintEPNS3_17QOrganizerManager5ErrorE 0x00009320   Data           0  qtorganizer_skeleton.in(.ARM.extab)
+    .extab._ZNK28QOrganizerItemSkeletonEngine18supportedDataTypesEv 0x00009348   Data           0  qtorganizer_skeleton.in(.ARM.extab)
+    .extab._ZNK28QOrganizerItemSkeletonEngine18supportedItemTypesEv 0x00009358   Data           0  qtorganizer_skeleton.in(.ARM.extab)
+    .extab._Z20qForeachContainerNewI5QListIN10QtMobility14QOrganizerItemEEE17QForeachContainerIT_ERKS5_ 0x000093c8   Data           0  qtorganizer_skeleton.in(.ARM.extab)
+    .extab._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_ 0x000093d8   Data           0  qtorganizer_skeleton.in(.ARM.extab)
+    .extab._ZN5QListI7QStringE18detach_helper_growEii 0x000093fc   Data           0  qtorganizer_skeleton.in(.ARM.extab)
+    .extab._ZN6QDebuglsEPKc                  0x0000942c   Data           0  qtorganizer_skeleton.in(.ARM.extab)
+    .extab._ZN5QListIiE18detach_helper_growEii 0x0000943c   Data           0  qtorganizer_skeleton.in(.ARM.extab)
+    .extab._ZN5QListIiElsERKi                0x0000946c   Data           0  qtorganizer_skeleton.in(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility14QOrganizerItemEE13detach_helperEi 0x00009488   Data           0  qtorganizer_skeleton.in(.ARM.extab)
+    .extab._ZN5QListI7QStringE6appendERKS0_  0x000094cc   Data           0  qtorganizer_skeleton.in(.ARM.extab)
+    .extab._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_ 0x000094fc   Data           0  qtorganizer_skeleton.in(.ARM.extab)
+    .constdata$1                             0x0000950c   Data           0  qtorganizer_skeleton.in(.constdata)
+    qt_meta_stringdata_QOrganizerItemSkeletonFactory 0x0000950c   Data          31  qtorganizer_skeleton.in(.constdata)
+    .constdata                               0x0000950c   Section       96  qtorganizer_skeleton.in(.constdata)
+    qt_meta_stringdata_QOrganizerItemSkeletonEngine 0x0000952b   Data          30  qtorganizer_skeleton.in(.constdata)
+    .constdata$13                            0x0000956c   Data           0  qtorganizer_skeleton.in(.constdata)
+    qt_meta_data_QOrganizerItemSkeletonFactory 0x0000956c   Data          60  qtorganizer_skeleton.in(.constdata)
+    .constdata                               0x0000956c   Section       60  qtorganizer_skeleton.in(.constdata)
+    .constdata$19                            0x000095a8   Data           0  qtorganizer_skeleton.in(.constdata)
+    qt_meta_data_QOrganizerItemSkeletonEngine 0x000095a8   Data          60  qtorganizer_skeleton.in(.constdata)
+    .constdata                               0x000095a8   Section       60  qtorganizer_skeleton.in(.constdata)
+    .constdata$1                             0x000095e4   Data           0  qtorganizer_skeleton.in(.constdata)
+    qt_plugin_verification_data              0x000095e4   Data          91  qtorganizer_skeleton.in(.constdata)
+    .constdata                               0x000095e4   Section       91  qtorganizer_skeleton.in(.constdata)
+    .constdata__ZTI11QSharedData             0x00009640   Section        8  qtorganizer_skeleton.in(.constdata__ZTI11QSharedData)
+    .constdata__ZTI28QOrganizerItemSkeletonEngine 0x00009648   Section       12  qtorganizer_skeleton.in(.constdata__ZTI28QOrganizerItemSkeletonEngine)
+    .constdata__ZTI29QOrganizerItemSkeletonFactory 0x00009654   Section       32  qtorganizer_skeleton.in(.constdata__ZTI29QOrganizerItemSkeletonFactory)
+    .constdata__ZTI30QOrganizerItemSkeletonEngineId 0x00009674   Section       12  qtorganizer_skeleton.in(.constdata__ZTI30QOrganizerItemSkeletonEngineId)
+    .constdata__ZTI36QOrganizerCollectionSkeletonEngineId 0x00009680   Section       12  qtorganizer_skeleton.in(.constdata__ZTI36QOrganizerCollectionSkeletonEngineId)
+    .constdata__ZTIN10QtMobility22QOrganizerItemEngineIdE 0x0000968c   Section       24  qtorganizer_skeleton.in(.constdata__ZTIN10QtMobility22QOrganizerItemEngineIdE)
+    .constdata__ZTIN10QtMobility28QOrganizerCollectionEngineIdE 0x000096a4   Section       24  qtorganizer_skeleton.in(.constdata__ZTIN10QtMobility28QOrganizerCollectionEngineIdE)
+    .constdata__ZTS11QSharedData             0x000096bc   Section       14  qtorganizer_skeleton.in(.constdata__ZTS11QSharedData)
+    .constdata__ZTS28QOrganizerItemSkeletonEngine 0x000096ca   Section       31  qtorganizer_skeleton.in(.constdata__ZTS28QOrganizerItemSkeletonEngine)
+    .constdata__ZTS29QOrganizerItemSkeletonFactory 0x000096e9   Section       32  qtorganizer_skeleton.in(.constdata__ZTS29QOrganizerItemSkeletonFactory)
+    .constdata__ZTS30QOrganizerItemSkeletonEngineId 0x00009709   Section       33  qtorganizer_skeleton.in(.constdata__ZTS30QOrganizerItemSkeletonEngineId)
+    .constdata__ZTS36QOrganizerCollectionSkeletonEngineId 0x0000972a   Section       39  qtorganizer_skeleton.in(.constdata__ZTS36QOrganizerCollectionSkeletonEngineId)
+    .constdata__ZTSN10QtMobility22QOrganizerItemEngineIdE 0x00009751   Section       39  qtorganizer_skeleton.in(.constdata__ZTSN10QtMobility22QOrganizerItemEngineIdE)
+    .constdata__ZTSN10QtMobility28QOrganizerCollectionEngineIdE 0x00009778   Section       45  qtorganizer_skeleton.in(.constdata__ZTSN10QtMobility28QOrganizerCollectionEngineIdE)
+    .constdata__ZTV28QOrganizerItemSkeletonEngine 0x000097a8   Section      188  qtorganizer_skeleton.in(.constdata__ZTV28QOrganizerItemSkeletonEngine)
+    .constdata__ZTV29QOrganizerItemSkeletonFactory 0x00009864   Section      108  qtorganizer_skeleton.in(.constdata__ZTV29QOrganizerItemSkeletonFactory)
+    .constdata__ZTV30QOrganizerItemSkeletonEngineId 0x000098d0   Section       44  qtorganizer_skeleton.in(.constdata__ZTV30QOrganizerItemSkeletonEngineId)
+    .constdata__ZTV36QOrganizerCollectionSkeletonEngineId 0x000098fc   Section       44  qtorganizer_skeleton.in(.constdata__ZTV36QOrganizerCollectionSkeletonEngineId)
+    .constdata__ZTVN10QtMobility22QOrganizerItemEngineIdE 0x00009928   Section       44  qtorganizer_skeleton.in(.constdata__ZTVN10QtMobility22QOrganizerItemEngineIdE)
+    .constdata__ZTVN10QtMobility28QOrganizerCollectionEngineIdE 0x00009954   Section       44  qtorganizer_skeleton.in(.constdata__ZTVN10QtMobility28QOrganizerCollectionEngineIdE)
+    .ARM.exidx                               0x00009980   Section        8  ucppinit_aeabi.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  qtorganizer_skeleton.in(.data)
+    _ZGV_instance@qt_plugin_instance_0       0x00400000   Data           4  qtorganizer_skeleton.in(.data)
+    .data                                    0x00400000   Section       24  qtorganizer_skeleton.in(.data)
+    _instance@qt_plugin_instance_1           0x00400004   Data           4  qtorganizer_skeleton.in(.data)
+    _ZGVuri@_ZNK36QOrganizerCollectionSkeletonEngineId10managerUriEv_0 0x00400008   Data           4  qtorganizer_skeleton.in(.data)
+    uri@_ZNK36QOrganizerCollectionSkeletonEngineId10managerUriEv_1 0x0040000c   Data           4  qtorganizer_skeleton.in(.data)
+    _ZGVuri@_ZNK30QOrganizerItemSkeletonEngineId10managerUriEv_0 0x00400010   Data           4  qtorganizer_skeleton.in(.data)
+    uri@_ZNK30QOrganizerItemSkeletonEngineId10managerUriEv_1 0x00400014   Data           4  qtorganizer_skeleton.in(.data)
+    .data$0                                  0x00400018   Data           0  ucppfini.o(.data)
+    .data                                    0x00400018   Section        4  ucppfini.o(.data)
+    .bss$5                                   0x0040001c   Data           0  ucppfini.o(.bss)
+    dtor_rec                                 0x0040001c   Data        2048  ucppfini.o(.bss)
+    .bss                                     0x0040001c   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$IEEEJ$EBA8$UX$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>112  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>113  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>14b  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>14c  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>150  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>46  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e0  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e3  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e4  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e6  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e7  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e8  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6ed  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6f1  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6f8  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6fd  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>702  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>716  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>722  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>726  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>733  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>752  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>88c  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>bfb  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>e69  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>e6b  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>100  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>101  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>105  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>106  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>108  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>10a  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>10b  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>11  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>111  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>115  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>117  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>119  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>125  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>126  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>127  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>18  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>1d8  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>2c6  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>2ca  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>2cc  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>2cd  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>2ce  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>2cf  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>2d0  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>2d1  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>2d2  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>2d6  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>2d7  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>2d8  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>2d9  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>328  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>43  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>fb  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>fc  - Undefined Reference
+    #<DLL>QtOrganizer{00010103}[2002bfcd].dll#<\DLL>ff  - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>93     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>9e     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>b4     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>b7     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>b8     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>ba     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>bb     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>bc     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>bd     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>be     - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>29e  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>29f  - Undefined Reference
+    #<DLL>libc{00010000}[10207369].dll#<\DLL>15e  - Undefined Reference
+    #<DLL>libstdcpp{00010000}[10282872].dll#<\DLL>3dc  - Undefined Reference
+    #<DLL>libstdcpp{00010000}[10282872].dll#<\DLL>3e0  - Undefined Reference
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    QtMobility::QOrganizerItemType::TypeJournal  - Undefined Reference
+    QtMobility::QOrganizerItemType::TypeTodoOccurrence  - Undefined Reference
+    QtMobility::QOrganizerItemType::TypeEventOccurrence  - Undefined Reference
+    QtMobility::QOrganizerItemType::TypeNote  - Undefined Reference
+    QtMobility::QOrganizerItemType::TypeTodo  - Undefined Reference
+    QtMobility::QOrganizerItemType::TypeEvent  - Undefined Reference
+    QtMobility::QOrganizerManagerEngine::staticMetaObject  - Undefined Reference
+    QObject::staticMetaObject                 - Undefined Reference
+    QMapData::shared_null                     - Undefined Reference
+    QListData::shared_null                    - Undefined Reference
+    typeinfo for QObject                      - Undefined Reference
+    typeinfo for QtMobility::QOrganizerManagerEngine  - Undefined Reference
+    typeinfo for QtMobility::QOrganizerManagerEngineFactory  - Undefined Reference
+    vtable for __cxxabiv1::__class_type_info  - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    vtable for __cxxabiv1::__vmi_class_type_info  - Undefined Reference
+    _fp_init                                  - Undefined Weak Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      72  ucppinit_aeabi.o(.emb_text)
+    QOrganizerItemSkeletonFactory::getStaticMetaObject() 0x00008071   Thumb Code     4  qtorganizer_skeleton.in(.text)
+    std::nothrow                             0x00008071   Thumb Code     0  ucppinit_aeabi.o(.emb_text)
+    QOrganizerItemSkeletonFactory::metaObject() const 0x00008075   Thumb Code    12  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonFactory::qt_metacast(const char*) 0x00008081   Thumb Code    72  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonFactory::qt_metacall(QMetaObject::Call, int, void**) 0x000080c9   Thumb Code     8  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::getStaticMetaObject() 0x000080d1   Thumb Code     6  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::metaObject() const 0x000080d7   Thumb Code    14  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::qt_metacast(const char*) 0x000080e5   Thumb Code    40  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::qt_metacall(QMetaObject::Call, int, void**) 0x0000810d   Thumb Code     8  qtorganizer_skeleton.in(.text)
+    qt_plugin_query_verification_data        0x00008171   Thumb Code     4  qtorganizer_skeleton.in(.text)
+    qt_plugin_instance                       0x00008175   Thumb Code   110  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonFactory::engine(const QMap<QString, QString>&, QtMobility::QOrganizerManager::Error*) 0x000081e3   Thumb Code    38  qtorganizer_skeleton.in(.text)
+    thunk{-8} to QOrganizerItemSkeletonFactory::engine(const QMap<QString, QString>&, QtMobility::QOrganizerManager::Error*) 0x00008209   Thumb Code     4  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngineId::QOrganizerItemSkeletonEngineId() 0x0000820d   Thumb Code    24  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngineId::QOrganizerItemSkeletonEngineId__sub_object() 0x0000820d   Thumb Code     0  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonFactory::createItemEngineId(const QMap<QString, QString>&, const QString&) const 0x00008225   Thumb Code    52  qtorganizer_skeleton.in(.text)
+    thunk{-8} to QOrganizerItemSkeletonFactory::createItemEngineId(const QMap<QString, QString>&, const QString&) const 0x00008259   Thumb Code     4  qtorganizer_skeleton.in(.text)
+    QOrganizerCollectionSkeletonEngineId::QOrganizerCollectionSkeletonEngineId() 0x0000825d   Thumb Code    24  qtorganizer_skeleton.in(.text)
+    QOrganizerCollectionSkeletonEngineId::QOrganizerCollectionSkeletonEngineId__sub_object() 0x0000825d   Thumb Code     0  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonFactory::createCollectionEngineId(const QMap<QString, QString>&, const QString&) const 0x00008275   Thumb Code    52  qtorganizer_skeleton.in(.text)
+    thunk{-8} to QOrganizerItemSkeletonFactory::createCollectionEngineId(const QMap<QString, QString>&, const QString&) const 0x000082a9   Thumb Code     4  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonFactory::managerName() const 0x000082ad   Thumb Code    14  qtorganizer_skeleton.in(.text)
+    thunk{-8} to QOrganizerItemSkeletonFactory::managerName() const 0x000082bb   Thumb Code     4  qtorganizer_skeleton.in(.text)
+    QOrganizerCollectionSkeletonEngineId::QOrganizerCollectionSkeletonEngineId(unsigned) 0x000082bf   Thumb Code    24  qtorganizer_skeleton.in(.text)
+    QOrganizerCollectionSkeletonEngineId::QOrganizerCollectionSkeletonEngineId__sub_object(unsigned) 0x000082bf   Thumb Code     0  qtorganizer_skeleton.in(.text)
+    QOrganizerCollectionSkeletonEngineId::~QOrganizerCollectionSkeletonEngineId() 0x000082d7   Thumb Code     2  qtorganizer_skeleton.in(.text)
+    QOrganizerCollectionSkeletonEngineId::~QOrganizerCollectionSkeletonEngineId__sub_object() 0x000082d7   Thumb Code     0  qtorganizer_skeleton.in(.text)
+    QOrganizerCollectionSkeletonEngineId::~QOrganizerCollectionSkeletonEngineId__deallocating() 0x000082d9   Thumb Code    12  qtorganizer_skeleton.in(.text)
+    QOrganizerCollectionSkeletonEngineId::QOrganizerCollectionSkeletonEngineId(const QOrganizerCollectionSkeletonEngineId&) 0x000082e5   Thumb Code    26  qtorganizer_skeleton.in(.text)
+    QOrganizerCollectionSkeletonEngineId::QOrganizerCollectionSkeletonEngineId__sub_object(const QOrganizerCollectionSkeletonEngineId&) 0x000082e5   Thumb Code     0  qtorganizer_skeleton.in(.text)
+    QOrganizerCollectionSkeletonEngineId::isEqualTo(const QtMobility::QOrganizerCollectionEngineId*) const 0x000082ff   Thumb Code    16  qtorganizer_skeleton.in(.text)
+    QOrganizerCollectionSkeletonEngineId::isLessThan(const QtMobility::QOrganizerCollectionEngineId*) const 0x0000830f   Thumb Code    16  qtorganizer_skeleton.in(.text)
+    QOrganizerCollectionSkeletonEngineId::managerUri() const 0x0000831f   Thumb Code    66  qtorganizer_skeleton.in(.text)
+    QOrganizerCollectionSkeletonEngineId::clone() const 0x00008361   Thumb Code    30  qtorganizer_skeleton.in(.text)
+    QOrganizerCollectionSkeletonEngineId::toString() const 0x0000837f   Thumb Code    12  qtorganizer_skeleton.in(.text)
+    QOrganizerCollectionSkeletonEngineId::debugStreamOut(QDebug&) const 0x0000838b   Thumb Code    40  qtorganizer_skeleton.in(.text)
+    QOrganizerCollectionSkeletonEngineId::hash() const 0x000083b3   Thumb Code     4  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngineId::QOrganizerItemSkeletonEngineId(unsigned) 0x000083b7   Thumb Code    24  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngineId::QOrganizerItemSkeletonEngineId__sub_object(unsigned) 0x000083b7   Thumb Code     0  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngineId::~QOrganizerItemSkeletonEngineId() 0x000083cf   Thumb Code     2  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngineId::~QOrganizerItemSkeletonEngineId__sub_object() 0x000083cf   Thumb Code     0  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngineId::~QOrganizerItemSkeletonEngineId__deallocating() 0x000083d1   Thumb Code    12  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngineId::QOrganizerItemSkeletonEngineId(const QOrganizerItemSkeletonEngineId&) 0x000083dd   Thumb Code    26  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngineId::QOrganizerItemSkeletonEngineId__sub_object(const QOrganizerItemSkeletonEngineId&) 0x000083dd   Thumb Code     0  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngineId::isEqualTo(const QtMobility::QOrganizerItemEngineId*) const 0x000083f7   Thumb Code    16  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngineId::isLessThan(const QtMobility::QOrganizerItemEngineId*) const 0x00008407   Thumb Code    16  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngineId::managerUri() const 0x00008417   Thumb Code    66  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngineId::clone() const 0x00008459   Thumb Code    30  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngineId::toString() const 0x00008477   Thumb Code    12  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngineId::debugStreamOut(QDebug&) const 0x00008483   Thumb Code    40  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngineId::hash() const 0x000084ab   Thumb Code     4  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::~QOrganizerItemSkeletonEngine() 0x000084af   Thumb Code     8  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::~QOrganizerItemSkeletonEngine__sub_object() 0x000084af   Thumb Code     0  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::~QOrganizerItemSkeletonEngine__deallocating() 0x000084b7   Thumb Code    16  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::managerName() const 0x000084c7   Thumb Code    14  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::managerParameters() const 0x000084d5   Thumb Code    16  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::managerVersion() const 0x000084e5   Thumb Code     4  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::itemOccurrences(const QtMobility::QOrganizerItem&, const QDateTime&, const QDateTime&, int, const QtMobility::QOrganizerItemFetchHint&, QtMobility::QOrganizerManager::Error*) const 0x000084e9   Thumb Code   192  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::itemIds(const QDateTime&, const QDateTime&, const QtMobility::QOrganizerItemFilter&, const QList<QtMobility::QOrganizerItemSortOrder>&, QtMobility::QOrganizerManager::Error*) const 0x000085a9   Thumb Code   138  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::items(const QDateTime&, const QDateTime&, const QtMobility::QOrganizerItemFilter&, const QList<QtMobility::QOrganizerItemSortOrder>&, const QtMobility::QOrganizerItemFetchHint&, QtMobility::QOrganizerManager::Error*) const 0x00008633   Thumb Code   128  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::item(const QtMobility::QOrganizerItemId&, const QtMobility::QOrganizerItemFetchHint&, QtMobility::QOrganizerManager::Error*) const 0x000086b3   Thumb Code    16  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::saveItems(QList<QtMobility::QOrganizerItem>*, QMap<int, QtMobility::QOrganizerManager::Error>*, QtMobility::QOrganizerManager::Error*) 0x000086c3   Thumb Code     8  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::removeItems(const QList<QtMobility::QOrganizerItemId>&, QMap<int, QtMobility::QOrganizerManager::Error>*, QtMobility::QOrganizerManager::Error*) 0x000086cb   Thumb Code     8  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::detailDefinitions(const QString&, QtMobility::QOrganizerManager::Error*) const 0x000086d3   Thumb Code     8  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::detailDefinition(const QString&, const QString&, QtMobility::QOrganizerManager::Error*) const 0x000086db   Thumb Code    16  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::saveDetailDefinition(const QtMobility::QOrganizerItemDetailDefinition&, const QString&, QtMobility::QOrganizerManager::Error*) 0x000086eb   Thumb Code     8  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::removeDetailDefinition(const QString&, const QString&, QtMobility::QOrganizerManager::Error*) 0x000086f3   Thumb Code     8  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::defaultCollection(QtMobility::QOrganizerManager::Error*) const 0x000086fb   Thumb Code     8  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::collection(const QtMobility::QOrganizerCollectionId&, QtMobility::QOrganizerManager::Error*) const 0x00008703   Thumb Code     8  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::collections(QtMobility::QOrganizerManager::Error*) const 0x0000870b   Thumb Code     8  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::saveCollection(QtMobility::QOrganizerCollection*, QtMobility::QOrganizerManager::Error*) 0x00008713   Thumb Code     8  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::removeCollection(const QtMobility::QOrganizerCollectionId&, QtMobility::QOrganizerManager::Error*) 0x0000871b   Thumb Code     8  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::hasFeature(QtMobility::QOrganizerManager::ManagerFeature, const QString&) const 0x00008723   Thumb Code     4  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::isFilterSupported(const QtMobility::QOrganizerItemFilter&) const 0x00008727   Thumb Code     4  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::supportedDataTypes() const 0x0000872b   Thumb Code    62  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::supportedItemTypes() const 0x00008769   Thumb Code   158  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::requestDestroyed(QtMobility::QOrganizerAbstractRequest*) 0x00008807   Thumb Code     8  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::startRequest(QtMobility::QOrganizerAbstractRequest*) 0x0000880f   Thumb Code     8  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::cancelRequest(QtMobility::QOrganizerAbstractRequest*) 0x00008817   Thumb Code     8  qtorganizer_skeleton.in(.text)
+    QOrganizerItemSkeletonEngine::waitForRequestFinished(QtMobility::QOrganizerAbstractRequest*, int) 0x0000881f   Thumb Code     8  qtorganizer_skeleton.in(.text)
+    _E32Dll_Body                             0x00008845   Thumb Code    34  uc_dll.o(.text)
+    CppBSSInitializationError                0x0000886c   ARM Code       4  ucppfini.o(.text)
+    __aeabi_atexit                           0x00008870   ARM Code      28  ucppfini.o(.text)
+    __cxa_atexit                             0x0000888c   ARM Code      48  ucppfini.o(.text)
+    __cxa_finalize                           0x000088bc   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x000088ec   ARM Code       8  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x000089ac   ARM Code       0  qtorganizer_skeleton{000a0000}.exp(ExportTable)
+    DLL##ExportTableSize                     0x000089b0   Data           0  qtorganizer_skeleton{000a0000}.exp(ExportTable)
+    DLL##ExportTable                         0x000089b4   Data           0  qtorganizer_skeleton{000a0000}.exp(ExportTable)
+    QtMobility::QOrganizerItem::QOrganizerItem(const QtMobility::QOrganizerItem&) 0x000089bc   ARM Code       0  QtOrganizer{00010103}-17.o(StubCode)
+    QtMobility::QOrganizerItem::~QOrganizerItem() 0x000089c4   ARM Code       0  QtOrganizer{00010103}-24.o(StubCode)
+    QtMobility::QOrganizerManagerEngine::removeItem(const QtMobility::QOrganizerItemId&, QtMobility::QOrganizerManager::Error*) 0x000089cc   ARM Code       0  QtOrganizer{00010103}-251.o(StubCode)
+    QtMobility::QOrganizerManagerEngine::testFilter(const QtMobility::QOrganizerItemFilter&, const QtMobility::QOrganizerItem&) 0x000089d4   ARM Code       0  QtOrganizer{00010103}-252.o(StubCode)
+    QtMobility::QOrganizerManagerEngine::qt_metacall(QMetaObject::Call, int, void**) 0x000089dc   ARM Code       0  QtOrganizer{00010103}-255.o(StubCode)
+    QtMobility::QOrganizerManagerEngine::qt_metacast(const char*) 0x000089e4   ARM Code       0  QtOrganizer{00010103}-256.o(StubCode)
+    QtMobility::QOrganizerManagerEngine::removeItems(const QList<QtMobility::QOrganizerItemId>&, QMap<int, QtMobility::QOrganizerManager::Error>*, QtMobility::QOrganizerManager::Error*) 0x000089ec   ARM Code       0  QtOrganizer{00010103}-257.o(StubCode)
+    QtMobility::QOrganizerManagerEngine::startRequest(QtMobility::QOrganizerAbstractRequest*) 0x000089f4   ARM Code       0  QtOrganizer{00010103}-261.o(StubCode)
+    QtMobility::QOrganizerManagerEngine::cancelRequest(QtMobility::QOrganizerAbstractRequest*) 0x000089fc   ARM Code       0  QtOrganizer{00010103}-262.o(StubCode)
+    QtMobility::QOrganizerManagerEngine::saveCollection(QtMobility::QOrganizerCollection*, QtMobility::QOrganizerManager::Error*) 0x00008a04   ARM Code       0  QtOrganizer{00010103}-264.o(StubCode)
+    QtMobility::QOrganizerManagerEngine::removeCollection(const QtMobility::QOrganizerCollectionId&, QtMobility::QOrganizerManager::Error*) 0x00008a0c   ARM Code       0  QtOrganizer{00010103}-266.o(StubCode)
+    QtMobility::QOrganizerManagerEngine::requestDestroyed(QtMobility::QOrganizerAbstractRequest*) 0x00008a14   ARM Code       0  QtOrganizer{00010103}-267.o(StubCode)
+    QtMobility::QOrganizerManagerEngine::isItemBetweenDates(const QtMobility::QOrganizerItem&, const QDateTime&, const QDateTime&) 0x00008a1c   ARM Code       0  QtOrganizer{00010103}-273.o(StubCode)
+    QtMobility::QOrganizerManagerEngine::saveDetailDefinition(const QtMobility::QOrganizerItemDetailDefinition&, const QString&, QtMobility::QOrganizerManager::Error*) 0x00008a24   ARM Code       0  QtOrganizer{00010103}-277.o(StubCode)
+    QtMobility::QOrganizerManagerEngine::removeDetailDefinition(const QString&, const QString&, QtMobility::QOrganizerManager::Error*) 0x00008a2c   ARM Code       0  QtOrganizer{00010103}-279.o(StubCode)
+    QtMobility::QOrganizerManagerEngine::waitForRequestFinished(QtMobility::QOrganizerAbstractRequest*, int) 0x00008a34   ARM Code       0  QtOrganizer{00010103}-281.o(StubCode)
+    QtMobility::QOrganizerManagerEngine::saveItem(QtMobility::QOrganizerItem*, QtMobility::QOrganizerManager::Error*) 0x00008a3c   ARM Code       0  QtOrganizer{00010103}-293.o(StubCode)
+    QtMobility::QOrganizerManagerEngine::addSorted(QList<QtMobility::QOrganizerItem>*, const QtMobility::QOrganizerItem&, QList<QtMobility::QOrganizerItemSortOrder>&) 0x00008a44   ARM Code       0  QtOrganizer{00010103}-294.o(StubCode)
+    QtMobility::QOrganizerManagerEngine::saveItems(QList<QtMobility::QOrganizerItem>*, QMap<int, QtMobility::QOrganizerManager::Error>*, QtMobility::QOrganizerManager::Error*) 0x00008a4c   ARM Code       0  QtOrganizer{00010103}-295.o(StubCode)
+    QtMobility::QOrganizerManagerEngineFactory::~QOrganizerManagerEngineFactory__sub_object() 0x00008a54   ARM Code       0  QtOrganizer{00010103}-472.o(StubCode)
+    QtMobility::QOrganizerManager::extractIds(const QList<QtMobility::QOrganizerItem>&) 0x00008a5c   ARM Code       0  QtOrganizer{00010103}-67.o(StubCode)
+    QtMobility::QOrganizerManagerEngine::collection(const QtMobility::QOrganizerCollectionId&, QtMobility::QOrganizerManager::Error*) const 0x00008a64   ARM Code       0  QtOrganizer{00010103}-710.o(StubCode)
+    QtMobility::QOrganizerManagerEngine::collections(QtMobility::QOrganizerManager::Error*) const 0x00008a6c   ARM Code       0  QtOrganizer{00010103}-714.o(StubCode)
+    QtMobility::QOrganizerManagerEngine::validateItem(const QtMobility::QOrganizerItem&, QtMobility::QOrganizerManager::Error*) const 0x00008a74   ARM Code       0  QtOrganizer{00010103}-716.o(StubCode)
+    QtMobility::QOrganizerManagerEngine::compatibleItem(const QtMobility::QOrganizerItem&, QtMobility::QOrganizerManager::Error*) const 0x00008a7c   ARM Code       0  QtOrganizer{00010103}-717.o(StubCode)
+    QtMobility::QOrganizerManagerEngine::itemsForExport(const QDateTime&, const QDateTime&, const QtMobility::QOrganizerItemFilter&, const QList<QtMobility::QOrganizerItemSortOrder>&, const QtMobility::QOrganizerItemFetchHint&, QtMobility::QOrganizerManager::Error*) const 0x00008a84   ARM Code       0  QtOrganizer{00010103}-718.o(StubCode)
+    QtMobility::QOrganizerManagerEngine::itemOccurrences(const QtMobility::QOrganizerItem&, const QDateTime&, const QDateTime&, int, const QtMobility::QOrganizerItemFetchHint&, QtMobility::QOrganizerManager::Error*) const 0x00008a8c   ARM Code       0  QtOrganizer{00010103}-719.o(StubCode)
+    QtMobility::QOrganizerManagerEngine::detailDefinition(const QString&, const QString&, QtMobility::QOrganizerManager::Error*) const 0x00008a94   ARM Code       0  QtOrganizer{00010103}-720.o(StubCode)
+    QtMobility::QOrganizerManagerEngine::defaultCollection(QtMobility::QOrganizerManager::Error*) const 0x00008a9c   ARM Code       0  QtOrganizer{00010103}-721.o(StubCode)
+    QtMobility::QOrganizerManagerEngine::detailDefinitions(const QString&, QtMobility::QOrganizerManager::Error*) const 0x00008aa4   ARM Code       0  QtOrganizer{00010103}-722.o(StubCode)
+    QtMobility::QOrganizerManagerEngine::validateCollection(const QtMobility::QOrganizerCollection&, QtMobility::QOrganizerManager::Error*) const 0x00008aac   ARM Code       0  QtOrganizer{00010103}-726.o(StubCode)
+    QtMobility::QOrganizerManagerEngine::validateDefinition(const QtMobility::QOrganizerItemDetailDefinition&, QtMobility::QOrganizerManager::Error*) const 0x00008ab4   ARM Code       0  QtOrganizer{00010103}-727.o(StubCode)
+    QtMobility::QOrganizerManagerEngine::compatibleCollection(const QtMobility::QOrganizerCollection&, QtMobility::QOrganizerManager::Error*) const 0x00008abc   ARM Code       0  QtOrganizer{00010103}-728.o(StubCode)
+    QtMobility::QOrganizerManagerEngine::item(const QtMobility::QOrganizerItemId&, const QtMobility::QOrganizerItemFetchHint&, QtMobility::QOrganizerManager::Error*) const 0x00008ac4   ARM Code       0  QtOrganizer{00010103}-729.o(StubCode)
+    QtMobility::QOrganizerManagerEngineFactory::supportedImplementationVersions() const 0x00008acc   ARM Code       0  QtOrganizer{00010103}-808.o(StubCode)
+    operator delete (void*)                  0x00008ad4   ARM Code       0  libstdcpp{00010000}-988.o(StubCode)
+    operator new(unsigned)                   0x00008adc   ARM Code       0  libstdcpp{00010000}-992.o(StubCode)
+    QObject::childEvent(QChildEvent*)        0x00008ae4   ARM Code       0  QtCore{00040703}-1760.o(StubCode)
+    QObject::timerEvent(QTimerEvent*)        0x00008aec   ARM Code       0  QtCore{00040703}-1763.o(StubCode)
+    QObject::customEvent(QEvent*)            0x00008af4   ARM Code       0  QtCore{00040703}-1764.o(StubCode)
+    QObject::eventFilter(QObject*, QEvent*)  0x00008afc   ARM Code       0  QtCore{00040703}-1766.o(StubCode)
+    QObject::qt_metacall(QMetaObject::Call, int, void**) 0x00008b04   ARM Code       0  QtCore{00040703}-1767.o(StubCode)
+    QObject::qt_metacast(const char*)        0x00008b0c   ARM Code       0  QtCore{00040703}-1768.o(StubCode)
+    QObject::connectNotify(const char*)      0x00008b14   ARM Code       0  QtCore{00040703}-1773.o(StubCode)
+    QObject::disconnectNotify(const char*)   0x00008b1c   ARM Code       0  QtCore{00040703}-1777.o(StubCode)
+    QObject::event(QEvent*)                  0x00008b24   ARM Code       0  QtCore{00040703}-1784.o(StubCode)
+    QObject::QObject(QObject*)               0x00008b2c   ARM Code       0  QtCore{00040703}-1789.o(StubCode)
+    QObject::~QObject()                      0x00008b34   ARM Code       0  QtCore{00040703}-1794.o(StubCode)
+    QString::fromLatin1(const char*, int)    0x00008b3c   ARM Code       0  QtCore{00040703}-1814.o(StubCode)
+    QString::fromLatin1_helper(const char*, int) 0x00008b44   ARM Code       0  QtCore{00040703}-1826.o(StubCode)
+    QString::free(QString::Data*)            0x00008b4c   ARM Code       0  QtCore{00040703}-1830.o(StubCode)
+    QString::number(unsigned, int)           0x00008b54   ARM Code       0  QtCore{00040703}-1843.o(StubCode)
+    QString::fromAscii(const char*, int)     0x00008b5c   ARM Code       0  QtCore{00040703}-1874.o(StubCode)
+    QListData::append()                      0x00008b64   ARM Code       0  QtCore{00040703}-2188.o(StubCode)
+    QMetaObject::changeGuard(QObject**, QObject*) 0x00008b6c   ARM Code       0  QtCore{00040703}-274.o(StubCode)
+    QMetaObject::removeGuard(QObject**)      0x00008b74   ARM Code       0  QtCore{00040703}-275.o(StubCode)
+    QString::toUInt(bool*, int) const        0x00008b7c   ARM Code       0  QtCore{00040703}-3067.o(StubCode)
+    QTextStream::operator <<(const QString&) 0x00008b84   ARM Code       0  QtCore{00040703}-331.o(StubCode)
+    QTextStream::operator <<(char)           0x00008b8c   ARM Code       0  QtCore{00040703}-332.o(StubCode)
+    QTextStream::operator <<(unsigned)       0x00008b94   ARM Code       0  QtCore{00040703}-336.o(StubCode)
+    QListData::detach_grow(int*, int)        0x00008b9c   ARM Code       0  QtCore{00040703}-3689.o(StubCode)
+    QListData::detach(int)                   0x00008ba4   ARM Code       0  QtCore{00040703}-3691.o(StubCode)
+    qFree(void*)                             0x00008bac   ARM Code       0  QtCore{00040703}-70.o(StubCode)
+    strcmp                                   0x00008bb4   ARM Code       0  libc{00010000}-350.o(StubCode)
+    User::LockedDec(int&)                    0x00008bbc   ARM Code       0  euser{000a0000}-670.o(StubCode)
+    User::LockedInc(int&)                    0x00008bc4   ARM Code       0  euser{000a0000}-671.o(StubCode)
+    __aeabi_memcpy4                          0x00008bcc   ARM Code       0  drtaeabi{000a0000}-147.o(StubCode)
+    __aeabi_unwind_cpp_pr0                   0x00008bd4   ARM Code       0  drtaeabi{000a0000}-158.o(StubCode)
+    __cxa_begin_catch                        0x00008bdc   ARM Code       0  drtaeabi{000a0000}-180.o(StubCode)
+    __cxa_end_catch                          0x00008be4   ARM Code       0  drtaeabi{000a0000}-183.o(StubCode)
+    __cxa_end_cleanup                        0x00008bec   ARM Code       0  drtaeabi{000a0000}-184.o(StubCode)
+    __cxa_guard_abort                        0x00008bf4   ARM Code       0  drtaeabi{000a0000}-186.o(StubCode)
+    __cxa_guard_acquire                      0x00008bfc   ARM Code       0  drtaeabi{000a0000}-187.o(StubCode)
+    __cxa_guard_release                      0x00008c04   ARM Code       0  drtaeabi{000a0000}-188.o(StubCode)
+    __cxa_pure_virtual                       0x00008c0c   ARM Code       0  drtaeabi{000a0000}-189.o(StubCode)
+    __cxa_rethrow                            0x00008c14   ARM Code       0  drtaeabi{000a0000}-190.o(StubCode)
+    QtMobility::QOrganizerItemEngineId::QOrganizerItemEngineId__sub_object() 0x00008c1d   Thumb Code    10  qtorganizer_skeleton.in(i._ZN10QtMobility22QOrganizerItemEngineIdC2Ev)
+    QtMobility::QOrganizerItemEngineId::~QOrganizerItemEngineId__deallocating() 0x00008c2d   Thumb Code    12  qtorganizer_skeleton.in(i._ZN10QtMobility22QOrganizerItemEngineIdD0Ev)
+    QtMobility::QOrganizerItemEngineId::~QOrganizerItemEngineId() 0x00008c39   Thumb Code     0  qtorganizer_skeleton.in(i._ZN10QtMobility22QOrganizerItemEngineIdD2Ev)
+    QtMobility::QOrganizerItemEngineId::~QOrganizerItemEngineId__sub_object() 0x00008c39   Thumb Code     2  qtorganizer_skeleton.in(i._ZN10QtMobility22QOrganizerItemEngineIdD2Ev)
+    QtMobility::QOrganizerCollectionEngineId::QOrganizerCollectionEngineId__sub_object() 0x00008c3d   Thumb Code    10  qtorganizer_skeleton.in(i._ZN10QtMobility28QOrganizerCollectionEngineIdC2Ev)
+    QtMobility::QOrganizerCollectionEngineId::~QOrganizerCollectionEngineId__deallocating() 0x00008c4d   Thumb Code    12  qtorganizer_skeleton.in(i._ZN10QtMobility28QOrganizerCollectionEngineIdD0Ev)
+    QtMobility::QOrganizerCollectionEngineId::~QOrganizerCollectionEngineId() 0x00008c59   Thumb Code     0  qtorganizer_skeleton.in(i._ZN10QtMobility28QOrganizerCollectionEngineIdD2Ev)
+    QtMobility::QOrganizerCollectionEngineId::~QOrganizerCollectionEngineId__sub_object() 0x00008c59   Thumb Code     2  qtorganizer_skeleton.in(i._ZN10QtMobility28QOrganizerCollectionEngineIdD2Ev)
+    QStringList::~QStringList()              0x00008c5b   Thumb Code     8  qtorganizer_skeleton.in(i._ZN11QStringListD1Ev)
+    QStringList::~QStringList__sub_object()  0x00008c5b   Thumb Code     0  qtorganizer_skeleton.in(i._ZN11QStringListD1Ev)
+    QBasicAtomicInt::ref()                   0x00008c63   Thumb Code    18  qtorganizer_skeleton.in(i._ZN15QBasicAtomicInt3refEv)
+    QBasicAtomicInt::deref()                 0x00008c75   Thumb Code    18  qtorganizer_skeleton.in(i._ZN15QBasicAtomicInt5derefEv)
+    QForeachContainer<QList<QtMobility::QOrganizerItem>>::~QForeachContainer() 0x00008c87   Thumb Code     8  qtorganizer_skeleton.in(i._ZN17QForeachContainerI5QListIN10QtMobility14QOrganizerItemEEED1Ev)
+    QForeachContainer<QList<QtMobility::QOrganizerItem>>::~QForeachContainer__sub_object() 0x00008c87   Thumb Code     0  qtorganizer_skeleton.in(i._ZN17QForeachContainerI5QListIN10QtMobility14QOrganizerItemEEED1Ev)
+    QOrganizerItemSkeletonFactory::~QOrganizerItemSkeletonFactory__deallocating() 0x00008c8f   Thumb Code    16  qtorganizer_skeleton.in(i._ZN29QOrganizerItemSkeletonFactoryD0Ev)
+    QOrganizerItemSkeletonFactory::~QOrganizerItemSkeletonFactory() 0x00008c9f   Thumb Code    18  qtorganizer_skeleton.in(i._ZN29QOrganizerItemSkeletonFactoryD1Ev)
+    QOrganizerItemSkeletonFactory::~QOrganizerItemSkeletonFactory__sub_object() 0x00008c9f   Thumb Code     0  qtorganizer_skeleton.in(i._ZN29QOrganizerItemSkeletonFactoryD1Ev)
+    QDebug::maybeSpace()                     0x00008cbb   Thumb Code    22  qtorganizer_skeleton.in(i._ZN6QDebug10maybeSpaceEv)
+    QDebug::operator <<(const char*)         0x00008cd1   Thumb Code    36  qtorganizer_skeleton.in(i._ZN6QDebuglsEPKc)
+    QDebug::operator <<(unsigned)            0x00008cff   Thumb Code    18  qtorganizer_skeleton.in(i._ZN6QDebuglsEj)
+    QString::QString(const QLatin1String&)   0x00008d11   Thumb Code    20  qtorganizer_skeleton.in(i._ZN7QStringC1ERK13QLatin1String)
+    QString::QString__sub_object(const QLatin1String&) 0x00008d11   Thumb Code     0  qtorganizer_skeleton.in(i._ZN7QStringC1ERK13QLatin1String)
+    QString::QString(const QString&)         0x00008d25   Thumb Code    16  qtorganizer_skeleton.in(i._ZN7QStringC1ERKS_)
+    QString::QString__sub_object(const QString&) 0x00008d25   Thumb Code     0  qtorganizer_skeleton.in(i._ZN7QStringC1ERKS_)
+    QString::~QString()                      0x00008d35   Thumb Code    24  qtorganizer_skeleton.in(i._ZN7QStringD1Ev)
+    QString::~QString__sub_object()          0x00008d35   Thumb Code     0  qtorganizer_skeleton.in(i._ZN7QStringD1Ev)
+    QBasicAtomicInt::operator !=(int) const  0x00008d4d   Thumb Code    14  qtorganizer_skeleton.in(i._ZNK15QBasicAtomicIntneEi)
+    QString::isEmpty() const                 0x00008d5b   Thumb Code    16  qtorganizer_skeleton.in(i._ZNK7QString7isEmptyEv)
+    QListData::end() const                   0x00008d6b   Thumb Code    12  qtorganizer_skeleton.in(i._ZNK9QListData3endEv)
+    QListData::begin() const                 0x00008d77   Thumb Code    12  qtorganizer_skeleton.in(i._ZNK9QListData5beginEv)
+    thunk{-8} to QOrganizerItemSkeletonFactory::~QOrganizerItemSkeletonFactory__deallocating() 0x00008d83   Thumb Code    10  qtorganizer_skeleton.in(i._ZThn8_N29QOrganizerItemSkeletonFactoryD0Ev)
+    thunk{-8} to QOrganizerItemSkeletonFactory::~QOrganizerItemSkeletonFactory() 0x00008d8d   Thumb Code    10  qtorganizer_skeleton.in(i._ZThn8_N29QOrganizerItemSkeletonFactoryD1Ev)
+    operator delete (void*, void*)           0x00008d97   Thumb Code     2  qtorganizer_skeleton.in(i._ZdlPvS_)
+    operator new(unsigned, void*)            0x00008d99   Thumb Code     4  qtorganizer_skeleton.in(i._ZnwjPv)
+    qForeachContainerNew<QList<QtMobility::QOrganizerItem>>(const T1&) 0x00008d9d   Thumb Code    62  qtorganizer_skeleton.in(t._Z20qForeachContainerNewI5QListIN10QtMobility14QOrganizerItemEEE17QForeachContainerIT_ERKS5_)
+    QList<QString>::node_construct(QList<QString>::Node*, const QString&) 0x00008de5   Thumb Code    26  qtorganizer_skeleton.in(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_)
+    QList<QString>::detach_helper_grow(int, int) 0x00008e0b   Thumb Code   186  qtorganizer_skeleton.in(t._ZN5QListI7QStringE18detach_helper_growEii)
+    QList<QString>::free(QListData::Data*)   0x00008ecd   Thumb Code    48  qtorganizer_skeleton.in(t._ZN5QListI7QStringE4freeEPN9QListData4DataE)
+    QList<QString>::append(const QString&)   0x00008efd   Thumb Code    94  qtorganizer_skeleton.in(t._ZN5QListI7QStringE6appendERKS0_)
+    QList<QString>::node_copy(QList<QString>::Node*, QList<QString>::Node*, QList<QString>::Node*) 0x00008f69   Thumb Code    70  qtorganizer_skeleton.in(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_)
+    QList<QString>::~QList()                 0x00008fc5   Thumb Code    30  qtorganizer_skeleton.in(t._ZN5QListI7QStringED1Ev)
+    QList<QString>::~QList__sub_object()     0x00008fc5   Thumb Code     0  qtorganizer_skeleton.in(t._ZN5QListI7QStringED1Ev)
+    QList<QtMobility::QOrganizerItem>::detach_helper(int) 0x00008fe3   Thumb Code   142  qtorganizer_skeleton.in(t._ZN5QListIN10QtMobility14QOrganizerItemEE13detach_helperEi)
+    QList<QtMobility::QOrganizerItem>::free(QListData::Data*) 0x00009085   Thumb Code    48  qtorganizer_skeleton.in(t._ZN5QListIN10QtMobility14QOrganizerItemEE4freeEPN9QListData4DataE)
+    QList<QtMobility::QOrganizerItem>::QList() 0x000090b5   Thumb Code    16  qtorganizer_skeleton.in(t._ZN5QListIN10QtMobility14QOrganizerItemEEC1Ev)
+    QList<QtMobility::QOrganizerItem>::QList__sub_object() 0x000090b5   Thumb Code     0  qtorganizer_skeleton.in(t._ZN5QListIN10QtMobility14QOrganizerItemEEC1Ev)
+    QList<QtMobility::QOrganizerItem>::~QList() 0x000090c9   Thumb Code    30  qtorganizer_skeleton.in(t._ZN5QListIN10QtMobility14QOrganizerItemEED1Ev)
+    QList<QtMobility::QOrganizerItem>::~QList__sub_object() 0x000090c9   Thumb Code     0  qtorganizer_skeleton.in(t._ZN5QListIN10QtMobility14QOrganizerItemEED1Ev)
+    QList<int>::detach_helper_grow(int, int) 0x000090e7   Thumb Code   164  qtorganizer_skeleton.in(t._ZN5QListIiE18detach_helper_growEii)
+    QList<int>::free(QListData::Data*)       0x00009193   Thumb Code    16  qtorganizer_skeleton.in(t._ZN5QListIiE4freeEPN9QListData4DataE)
+    QList<int>::node_copy(QList<int>::Node*, QList<int>::Node*, QList<int>::Node*) 0x000091a3   Thumb Code    28  qtorganizer_skeleton.in(t._ZN5QListIiE9node_copyEPNS0_4NodeES2_S2_)
+    QList<int>::~QList()                     0x000091bf   Thumb Code    30  qtorganizer_skeleton.in(t._ZN5QListIiED1Ev)
+    QList<int>::~QList__sub_object()         0x000091bf   Thumb Code     0  qtorganizer_skeleton.in(t._ZN5QListIiED1Ev)
+    QList<int>::operator <<(const int&)      0x000091dd   Thumb Code    56  qtorganizer_skeleton.in(t._ZN5QListIiElsERKi)
+    QPointer<QObject>::~QPointer()           0x00009223   Thumb Code    12  qtorganizer_skeleton.in(t._ZN8QPointerI7QObjectED1Ev)
+    QPointer<QObject>::~QPointer__sub_object() 0x00009223   Thumb Code     0  qtorganizer_skeleton.in(t._ZN8QPointerI7QObjectED1Ev)
+    QForeachContainer<QList<QtMobility::QOrganizerItem>>::condition() const 0x0000922f   Thumb Code    26  qtorganizer_skeleton.in(t._ZNK17QForeachContainerI5QListIN10QtMobility14QOrganizerItemEEE9conditionEv)
+    QOrganizerItemSkeletonFactory::staticMetaObject 0x0000954c   Data          16  qtorganizer_skeleton.in(.constdata)
+    QOrganizerItemSkeletonEngine::staticMetaObject 0x0000955c   Data          16  qtorganizer_skeleton.in(.constdata)
+    typeinfo for QSharedData                 0x00009640   Data           8  qtorganizer_skeleton.in(.constdata__ZTI11QSharedData)
+    typeinfo for QOrganizerItemSkeletonEngine 0x00009648   Data          12  qtorganizer_skeleton.in(.constdata__ZTI28QOrganizerItemSkeletonEngine)
+    typeinfo for QOrganizerItemSkeletonFactory 0x00009654   Data          32  qtorganizer_skeleton.in(.constdata__ZTI29QOrganizerItemSkeletonFactory)
+    typeinfo for QOrganizerItemSkeletonEngineId 0x00009674   Data          12  qtorganizer_skeleton.in(.constdata__ZTI30QOrganizerItemSkeletonEngineId)
+    typeinfo for QOrganizerCollectionSkeletonEngineId 0x00009680   Data          12  qtorganizer_skeleton.in(.constdata__ZTI36QOrganizerCollectionSkeletonEngineId)
+    typeinfo for QtMobility::QOrganizerItemEngineId 0x0000968c   Data          24  qtorganizer_skeleton.in(.constdata__ZTIN10QtMobility22QOrganizerItemEngineIdE)
+    typeinfo for QtMobility::QOrganizerCollectionEngineId 0x000096a4   Data          24  qtorganizer_skeleton.in(.constdata__ZTIN10QtMobility28QOrganizerCollectionEngineIdE)
+    typeinfo name for QSharedData            0x000096bc   Data          14  qtorganizer_skeleton.in(.constdata__ZTS11QSharedData)
+    typeinfo name for QOrganizerItemSkeletonEngine 0x000096ca   Data          31  qtorganizer_skeleton.in(.constdata__ZTS28QOrganizerItemSkeletonEngine)
+    typeinfo name for QOrganizerItemSkeletonFactory 0x000096e9   Data          32  qtorganizer_skeleton.in(.constdata__ZTS29QOrganizerItemSkeletonFactory)
+    typeinfo name for QOrganizerItemSkeletonEngineId 0x00009709   Data          33  qtorganizer_skeleton.in(.constdata__ZTS30QOrganizerItemSkeletonEngineId)
+    typeinfo name for QOrganizerCollectionSkeletonEngineId 0x0000972a   Data          39  qtorganizer_skeleton.in(.constdata__ZTS36QOrganizerCollectionSkeletonEngineId)
+    typeinfo name for QtMobility::QOrganizerItemEngineId 0x00009751   Data          39  qtorganizer_skeleton.in(.constdata__ZTSN10QtMobility22QOrganizerItemEngineIdE)
+    typeinfo name for QtMobility::QOrganizerCollectionEngineId 0x00009778   Data          45  qtorganizer_skeleton.in(.constdata__ZTSN10QtMobility28QOrganizerCollectionEngineIdE)
+    vtable for QOrganizerItemSkeletonEngine  0x000097a8   Data         188  qtorganizer_skeleton.in(.constdata__ZTV28QOrganizerItemSkeletonEngine)
+    vtable for QOrganizerItemSkeletonFactory 0x00009864   Data         108  qtorganizer_skeleton.in(.constdata__ZTV29QOrganizerItemSkeletonFactory)
+    vtable for QOrganizerItemSkeletonEngineId 0x000098d0   Data          44  qtorganizer_skeleton.in(.constdata__ZTV30QOrganizerItemSkeletonEngineId)
+    vtable for QOrganizerCollectionSkeletonEngineId 0x000098fc   Data          44  qtorganizer_skeleton.in(.constdata__ZTV36QOrganizerCollectionSkeletonEngineId)
+    vtable for QtMobility::QOrganizerItemEngineId 0x00009928   Data          44  qtorganizer_skeleton.in(.constdata__ZTVN10QtMobility22QOrganizerItemEngineIdE)
+    vtable for QtMobility::QOrganizerCollectionEngineId 0x00009954   Data          44  qtorganizer_skeleton.in(.constdata__ZTVN10QtMobility28QOrganizerCollectionEngineIdE)
+    .ARM.exidx$$Base                         0x00009980   Number         0  ucppinit_aeabi.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x00009bd0   Number         0  qtorganizer_skeleton.in(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x00009bd0   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    __dso_handle                             0x00400018   Data           4  ucppfini.o(.data)
+

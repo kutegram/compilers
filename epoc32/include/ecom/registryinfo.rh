@@ -1,0 +1,52 @@
+// RegistryInfo.rh
+//
+// Copyright (c) 1997-2005 Symbian Ltd.  All rights reserved.
+//
+
+/** @file
+@publishedAll
+
+*/
+
+/** 
+The UID identifying client provided CResolver Interface Implementations. 
+@internalComponent
+*/
+#define CUSTOM_RESOLVER_INTERFACE_UID 0x10009D90
+
+/** 
+The UID identifying Interface Implementation Resource Files. 
+@internalComponent
+*/
+UID2 0x101F747D
+
+STRUCT IMPLEMENTATION_INFO
+	{
+	LONG	implementation_uid;
+	BYTE	version_no;
+	LTEXT	display_name;
+	LTEXT8	default_data;
+	LTEXT8	opaque_data;
+	}
+
+STRUCT BINARY_IMPLEMENTATION_INFO
+	{
+	LONG	implementation_uid;
+	BYTE	version_no;
+	LTEXT	display_name;
+	LEN BYTE BYTE	default_data[];
+	LEN BYTE BYTE	opaque_data[];
+	}
+
+STRUCT INTERFACE_INFO
+	{
+	LONG	interface_uid;
+	STRUCT	implementations[];
+	}
+
+STRUCT REGISTRY_INFO
+	{
+	LONG	dll_uid;
+	STRUCT	interfaces[];
+	}
+

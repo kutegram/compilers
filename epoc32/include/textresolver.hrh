@@ -1,0 +1,70 @@
+/*
+* ============================================================================
+*  Name        : TextResolver.hrh
+*  Part of     : Common Services / Common Engine Resources
+*  Interface   : SDK, Text Resolver API
+*  Description : This file contains declarations for resources of Text Resolver.
+*                The file can be included in C++ or resource file. 
+*  Version     : %version: ou1cfspd#2 %
+*
+*  Copyright © 2002-2006 Nokia. All rights reserved.
+*  This material, including documentation and any related 
+*  computer programs, is protected by copyright controlled by 
+*  Nokia. All rights are reserved. Copying, including 
+*  reproducing, storing, adapting or translating, any 
+*  or all of this material requires the prior written consent of 
+*  Nokia. This material also contains confidential 
+*  information which may not be disclosed to others without the 
+*  prior written consent of Nokia.
+* ============================================================================
+*/
+
+#ifndef TEXT_RESOLVER_HRH
+#define TEXT_RESOLVER_HRH
+
+//  CONSTANTS  
+
+/**
+* For internal use.
+*/
+#define ETextResolverPanicErrorFlag    0x00000001
+
+/**
+* For internal use.
+*/
+#define EErrorResPanicErrorFlag    0x00000001
+
+/**
+* This is used to tell that error has no proper explanation.
+*/
+#define ETextResolverBlankErrorFlag    0x00000002
+
+/**
+* Used for filling in empty slots in error ranges.
+*/
+#define EErrorResBlankErrorFlag        0x00000002
+
+/**
+* Indicates that Text Resolver does not support the error. 
+* The error can be unsupported because it's not found from 
+* resource files or it's marked as unsupported in the 
+* resource file.
+*/
+#define ETextResolverUnknownErrorFlag   0x00000004 
+
+/**
+* Used to indicate in error ranges that error resolver 
+* does not support the error
+*/
+#define EErrorResUnknownErrorFlag    0x00000004 
+
+/**
+* Flag is returned while processing KErrNoMemory error code. 
+* Due to the low memory situation the error code is processed in 
+* a special way. Error resolving was performed successfully.
+*/
+#define EErrorResOOMFlag    0x00000008
+
+#endif
+
+// End of File

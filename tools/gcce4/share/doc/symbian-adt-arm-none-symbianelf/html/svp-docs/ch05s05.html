@@ -1,0 +1,39 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>5.5. Timers</title><link rel="stylesheet" href="cs.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.74.0"><link rel="home" href="index.html" title="Symbian ADT Sourcery G++ Lite"><link rel="up" href="chap-plugins.html" title="Chapter 5. Device Plugins"><link rel="prev" href="ch05s04.html" title="5.4. Snapshots"><link rel="next" href="ch05s06.html" title="5.6. Keyboard"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">5.5. Timers</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ch05s04.html">Prev</a> </td><th width="60%" align="center">Chapter 5. Device Plugins</th><td width="20%" align="right"> <a accesskey="n" href="ch05s06.html">Next</a></td></tr></table><hr></div><div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="id362340"></a>5.5. Timers</h2></div></div></div><p>
+   The <code class="literal">qemu.ptimer</code> class provides countdown timer
+   functionality.  When the timer reaches zero a function is called.
+   In one-shot mode the timer is then disabled.  In periodic mode
+   the counter is reloaded and immediately resumes counting down.
+  </p><p>
+   Functions are also provided to query the current virtual clock.
+  </p><p>
+   </p><div class="variablelist"><dl><dt><span class="term"><code class="literal">qemu.get_clock()</code></span></dt><dd><p>
+       Return the current value of the high resolution virtual clock.
+       This is the number of nanoseconds since the machine was created.
+      </p></dd><dt><span class="term"><code class="literal">qemu.start_time()</code></span></dt><dd><p>
+       Return the time when the machine was created.  This is the
+       number of seconds since the Unix Epoch
+       (00:00:00 UTC, January 1, 1970).
+      </p></dd><dt><span class="term"><code class="literal">qemu.ptimer(tick, freq)</code></span></dt><dd><p>
+       Create a new timer counting at the specified frequency (Hz).
+       The function <code class="literal">tick()</code> will be called when the
+       timer expires.
+      </p></dd><dt><span class="term"><code class="literal">ptimer.count</code></span></dt><dd><p>
+       The current counter value.
+      </p></dd><dt><span class="term"><code class="literal">ptimer.run(oneshot)</code></span></dt><dd><p>
+       Start the timer in either one-shot (True) or periodic (False) mode.
+       </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3>
+        This does not reset the counter value.  In one-shot mode the counter
+        must be explicitly reloaded after it reaches zero.
+       </div><p>
+      </p></dd><dt><span class="term"><code class="literal">ptimer.stop()</code></span></dt><dd><p>
+       Stop the timer.
+      </p></dd><dt><span class="term"><code class="literal">ptimer.set_limit(limit, reload)</code></span></dt><dd><p>
+       Set the reload value when in periodic mode. This has no effect
+       in one-shot mode.  If <code class="literal">reload</code> is True then
+       also set the counter value to <code class="literal">limit</code>.
+      </p></dd><dt><span class="term"><code class="literal">ptimer.get(state)</code></span></dt><dd><p>
+       Restore state from snapshot.
+      </p></dd><dt><span class="term"><code class="literal">ptimer.put(state)</code></span></dt><dd><p>
+       Save state to snapshot.
+      </p></dd></dl></div><p>
+  </p></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ch05s04.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="chap-plugins.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="ch05s06.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">5.4. Snapshots </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> 5.6. Keyboard</td></tr></table></div></body></html>

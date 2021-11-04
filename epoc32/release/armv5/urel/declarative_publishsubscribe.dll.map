@@ -1,0 +1,398 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    [Anonymous Symbol]                       0x00000000   Number         0  QtDeclarative{00040703}-878.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2199.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtDeclarative{00040703}-881.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  libc{00010000}-350.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-274.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-126.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-670.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-275.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-128.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-671.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3692.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-129.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtDeclarative{00040703}-401.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-70.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-159.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtDeclarative{00040703}-402.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1773.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1760.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtDeclarative{00040703}-873.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1777.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1763.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtDeclarative{00040703}-874.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1784.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1764.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtDeclarative{00040703}-875.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1830.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1766.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtPublishSubscribe{00010103}-65.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtPublishSubscribe{00010103}-35.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-186.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  libstdcpp{00010000}-988.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtPublishSubscribe{00010103}-37.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-187.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  libstdcpp{00010000}-992.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtPublishSubscribe{00010103}-45.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-188.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-158.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtPublishSubscribe{00010103}-53.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-147.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-184.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtPublishSubscribe{00010103}-34.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtDeclarative{00040703}-1662.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtPublishSubscribe{00010103}-33.o ABSOLUTE
+    ..\..\..\..\EPOC32\BUILD\s60\osext\mobileruntime\group\LIBSTDCPP\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\src\cedar\generic\base\e32\compsupp\DRTAEABI\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\src\cedar\generic\base\e32\euser\EDLL\ARMV5\urel\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    \EPOC32\BUILD\src\cedar\generic\base\e32\euser\EUSER\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBC\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBDL\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBM\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBPTHREAD\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \\EPOC32\\BUILD\\src\\cedar\\generic\\base\\e32\\euser\\EDLL\\ARMV5\\urel\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    \\src\\cedar\\generic\\base\\e32\\compsupp\\RVCT2_2\\ucppinit_aeabi.cpp 0x00000000   Number         0  ucppinit_aeabi.o ABSOLUTE
+    \dev\symb\SDKs\32\EPOC32\BUILD\iwmake\buildS60____PADDING________\src\QTCORE_DLL\ARMV6\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \dev\symb\SDKs\32\EPOC32\BUILD\iwmake\buildS60____PADDING________\src\QTDECLARATIVE_DLL\ARMV6\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \dev\symb\SDKs\32\EPOC32\BUILD\iwmake\buildS60____PADDING________\src\QTGUI_DLL\ARMV6\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \s60\5.0\EPOC32\BUILD\scripts\5.0\qtmobility\DECLARATIVE_PUBLISHSUBSCRIBE_DLL\ARMV5\urel\declarative_publishsubscribe{000a0000}.s 0x00000000   Number         0  declarative_publishsubscribe{000a0000}.exp ABSOLUTE
+    \s60\5.0\EPOC32\BUILD\scripts\5.0\qtmobility\QTPUBLISHSUBSCRIBE_DLL\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \scripts\5.0\qtmobility\plugins\declarative\publishsubscribe\publishsubscribe.cpp 0x00000000   Number         0  declarative_publishsubscribe.in ABSOLUTE
+    \src\cedar\generic\base\e32\compsupp\RVCT2_2\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    \src\cedar\generic\base\e32\compsupp\RVCT2_2\ucppinit_aeabi.cpp 0x00000000   Number         0  ucppinit_aeabi.o ABSOLUTE
+    \src\cedar\generic\base\e32\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       72  ucppinit_aeabi.o(.emb_text)
+    skip                                     0x0000803c   ARM Code       0  ucppinit_aeabi.o(.emb_text)
+    loop                                     0x0000804c   ARM Code       0  ucppinit_aeabi.o(.emb_text)
+    fpinit                                   0x00008064   Data           0  ucppinit_aeabi.o(.emb_text)
+    base                                     0x00008068   Data           0  ucppinit_aeabi.o(.emb_text)
+    limit                                    0x0000806c   Data           0  ucppinit_aeabi.o(.emb_text)
+    .text                                    0x00008070   Section      204  declarative_publishsubscribe.in(.text)
+    .text                                    0x0000813c   Section       40  uc_dll.o(.text)
+    .text                                    0x00008164   Section      148  ucppfini.o(.text)
+    .text.clean                              0x000081f8   Section       28  declarative_publishsubscribe.in(.text.clean)
+    ExportTable                              0x00008214   Section       16  declarative_publishsubscribe{000a0000}.exp(ExportTable)
+    StubCode                                 0x00008224   Section        8  QtPublishSubscribe{00010103}-33.o(StubCode)
+    theImportedSymbol                        0x00008228   Data           0  QtPublishSubscribe{00010103}-33.o(StubCode)
+    StubCode                                 0x0000822c   Section        8  QtPublishSubscribe{00010103}-34.o(StubCode)
+    theImportedSymbol                        0x00008230   Data           0  QtPublishSubscribe{00010103}-34.o(StubCode)
+    StubCode                                 0x00008234   Section        8  QtPublishSubscribe{00010103}-35.o(StubCode)
+    theImportedSymbol                        0x00008238   Data           0  QtPublishSubscribe{00010103}-35.o(StubCode)
+    StubCode                                 0x0000823c   Section        8  QtPublishSubscribe{00010103}-37.o(StubCode)
+    theImportedSymbol                        0x00008240   Data           0  QtPublishSubscribe{00010103}-37.o(StubCode)
+    StubCode                                 0x00008244   Section        8  QtPublishSubscribe{00010103}-45.o(StubCode)
+    theImportedSymbol                        0x00008248   Data           0  QtPublishSubscribe{00010103}-45.o(StubCode)
+    StubCode                                 0x0000824c   Section        8  QtPublishSubscribe{00010103}-53.o(StubCode)
+    theImportedSymbol                        0x00008250   Data           0  QtPublishSubscribe{00010103}-53.o(StubCode)
+    StubCode                                 0x00008254   Section        8  QtPublishSubscribe{00010103}-65.o(StubCode)
+    theImportedSymbol                        0x00008258   Data           0  QtPublishSubscribe{00010103}-65.o(StubCode)
+    StubCode                                 0x0000825c   Section        8  libstdcpp{00010000}-988.o(StubCode)
+    theImportedSymbol                        0x00008260   Data           0  libstdcpp{00010000}-988.o(StubCode)
+    StubCode                                 0x00008264   Section        8  libstdcpp{00010000}-992.o(StubCode)
+    theImportedSymbol                        0x00008268   Data           0  libstdcpp{00010000}-992.o(StubCode)
+    StubCode                                 0x0000826c   Section        8  QtDeclarative{00040703}-1662.o(StubCode)
+    theImportedSymbol                        0x00008270   Data           0  QtDeclarative{00040703}-1662.o(StubCode)
+    StubCode                                 0x00008274   Section        8  QtDeclarative{00040703}-401.o(StubCode)
+    theImportedSymbol                        0x00008278   Data           0  QtDeclarative{00040703}-401.o(StubCode)
+    StubCode                                 0x0000827c   Section        8  QtDeclarative{00040703}-402.o(StubCode)
+    theImportedSymbol                        0x00008280   Data           0  QtDeclarative{00040703}-402.o(StubCode)
+    StubCode                                 0x00008284   Section        8  QtDeclarative{00040703}-873.o(StubCode)
+    theImportedSymbol                        0x00008288   Data           0  QtDeclarative{00040703}-873.o(StubCode)
+    StubCode                                 0x0000828c   Section        8  QtDeclarative{00040703}-874.o(StubCode)
+    theImportedSymbol                        0x00008290   Data           0  QtDeclarative{00040703}-874.o(StubCode)
+    StubCode                                 0x00008294   Section        8  QtDeclarative{00040703}-875.o(StubCode)
+    theImportedSymbol                        0x00008298   Data           0  QtDeclarative{00040703}-875.o(StubCode)
+    StubCode                                 0x0000829c   Section        8  QtDeclarative{00040703}-878.o(StubCode)
+    theImportedSymbol                        0x000082a0   Data           0  QtDeclarative{00040703}-878.o(StubCode)
+    StubCode                                 0x000082a4   Section        8  QtDeclarative{00040703}-881.o(StubCode)
+    theImportedSymbol                        0x000082a8   Data           0  QtDeclarative{00040703}-881.o(StubCode)
+    StubCode                                 0x000082ac   Section        8  QtCore{00040703}-126.o(StubCode)
+    theImportedSymbol                        0x000082b0   Data           0  QtCore{00040703}-126.o(StubCode)
+    StubCode                                 0x000082b4   Section        8  QtCore{00040703}-128.o(StubCode)
+    theImportedSymbol                        0x000082b8   Data           0  QtCore{00040703}-128.o(StubCode)
+    StubCode                                 0x000082bc   Section        8  QtCore{00040703}-129.o(StubCode)
+    theImportedSymbol                        0x000082c0   Data           0  QtCore{00040703}-129.o(StubCode)
+    StubCode                                 0x000082c4   Section        8  QtCore{00040703}-159.o(StubCode)
+    theImportedSymbol                        0x000082c8   Data           0  QtCore{00040703}-159.o(StubCode)
+    StubCode                                 0x000082cc   Section        8  QtCore{00040703}-1760.o(StubCode)
+    theImportedSymbol                        0x000082d0   Data           0  QtCore{00040703}-1760.o(StubCode)
+    StubCode                                 0x000082d4   Section        8  QtCore{00040703}-1763.o(StubCode)
+    theImportedSymbol                        0x000082d8   Data           0  QtCore{00040703}-1763.o(StubCode)
+    StubCode                                 0x000082dc   Section        8  QtCore{00040703}-1764.o(StubCode)
+    theImportedSymbol                        0x000082e0   Data           0  QtCore{00040703}-1764.o(StubCode)
+    StubCode                                 0x000082e4   Section        8  QtCore{00040703}-1766.o(StubCode)
+    theImportedSymbol                        0x000082e8   Data           0  QtCore{00040703}-1766.o(StubCode)
+    StubCode                                 0x000082ec   Section        8  QtCore{00040703}-1773.o(StubCode)
+    theImportedSymbol                        0x000082f0   Data           0  QtCore{00040703}-1773.o(StubCode)
+    StubCode                                 0x000082f4   Section        8  QtCore{00040703}-1777.o(StubCode)
+    theImportedSymbol                        0x000082f8   Data           0  QtCore{00040703}-1777.o(StubCode)
+    StubCode                                 0x000082fc   Section        8  QtCore{00040703}-1784.o(StubCode)
+    theImportedSymbol                        0x00008300   Data           0  QtCore{00040703}-1784.o(StubCode)
+    StubCode                                 0x00008304   Section        8  QtCore{00040703}-1830.o(StubCode)
+    theImportedSymbol                        0x00008308   Data           0  QtCore{00040703}-1830.o(StubCode)
+    StubCode                                 0x0000830c   Section        8  QtCore{00040703}-2199.o(StubCode)
+    theImportedSymbol                        0x00008310   Data           0  QtCore{00040703}-2199.o(StubCode)
+    StubCode                                 0x00008314   Section        8  QtCore{00040703}-274.o(StubCode)
+    theImportedSymbol                        0x00008318   Data           0  QtCore{00040703}-274.o(StubCode)
+    StubCode                                 0x0000831c   Section        8  QtCore{00040703}-275.o(StubCode)
+    theImportedSymbol                        0x00008320   Data           0  QtCore{00040703}-275.o(StubCode)
+    StubCode                                 0x00008324   Section        8  QtCore{00040703}-3692.o(StubCode)
+    theImportedSymbol                        0x00008328   Data           0  QtCore{00040703}-3692.o(StubCode)
+    StubCode                                 0x0000832c   Section        8  QtCore{00040703}-70.o(StubCode)
+    theImportedSymbol                        0x00008330   Data           0  QtCore{00040703}-70.o(StubCode)
+    StubCode                                 0x00008334   Section        8  libc{00010000}-350.o(StubCode)
+    theImportedSymbol                        0x00008338   Data           0  libc{00010000}-350.o(StubCode)
+    StubCode                                 0x0000833c   Section        8  euser{000a0000}-670.o(StubCode)
+    theImportedSymbol                        0x00008340   Data           0  euser{000a0000}-670.o(StubCode)
+    StubCode                                 0x00008344   Section        8  euser{000a0000}-671.o(StubCode)
+    theImportedSymbol                        0x00008348   Data           0  euser{000a0000}-671.o(StubCode)
+    StubCode                                 0x0000834c   Section        8  drtaeabi{000a0000}-147.o(StubCode)
+    theImportedSymbol                        0x00008350   Data           0  drtaeabi{000a0000}-147.o(StubCode)
+    StubCode                                 0x00008354   Section        8  drtaeabi{000a0000}-158.o(StubCode)
+    theImportedSymbol                        0x00008358   Data           0  drtaeabi{000a0000}-158.o(StubCode)
+    StubCode                                 0x0000835c   Section        8  drtaeabi{000a0000}-184.o(StubCode)
+    theImportedSymbol                        0x00008360   Data           0  drtaeabi{000a0000}-184.o(StubCode)
+    StubCode                                 0x00008364   Section        8  drtaeabi{000a0000}-186.o(StubCode)
+    theImportedSymbol                        0x00008368   Data           0  drtaeabi{000a0000}-186.o(StubCode)
+    StubCode                                 0x0000836c   Section        8  drtaeabi{000a0000}-187.o(StubCode)
+    theImportedSymbol                        0x00008370   Data           0  drtaeabi{000a0000}-187.o(StubCode)
+    StubCode                                 0x00008374   Section        8  drtaeabi{000a0000}-188.o(StubCode)
+    theImportedSymbol                        0x00008378   Data           0  drtaeabi{000a0000}-188.o(StubCode)
+    i._ZN10QByteArrayC1ERKS_                 0x0000837c   Section       16  declarative_publishsubscribe.in(i._ZN10QByteArrayC1ERKS_)
+    i._ZN10QByteArrayD1Ev                    0x0000838c   Section       24  declarative_publishsubscribe.in(i._ZN10QByteArrayD1Ev)
+    i._ZN15QBasicAtomicInt3refEv             0x000083a4   Section       18  declarative_publishsubscribe.in(i._ZN15QBasicAtomicInt3refEv)
+    i._ZN15QBasicAtomicInt5derefEv           0x000083b6   Section       18  declarative_publishsubscribe.in(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN19QDeclarativePrivate12RegisterTypeD1Ev 0x000083c8   Section       12  declarative_publishsubscribe.in(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QValueSpaceSubscriberEED0Ev 0x000083d4   Section       16  declarative_publishsubscribe.in(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QValueSpaceSubscriberEED0Ev)
+    i._ZN28QSubscriberDeclarativeModule13registerTypesEPKc 0x000083e4   Section       20  declarative_publishsubscribe.in(i._ZN28QSubscriberDeclarativeModule13registerTypesEPKc)
+    i._ZN28QSubscriberDeclarativeModuleD0Ev  0x000083f8   Section       16  declarative_publishsubscribe.in(i._ZN28QSubscriberDeclarativeModuleD0Ev)
+    i._ZN28QSubscriberDeclarativeModuleD1Ev  0x00008408   Section        8  declarative_publishsubscribe.in(i._ZN28QSubscriberDeclarativeModuleD1Ev)
+    i._ZN7QStringD1Ev                        0x00008410   Section       24  declarative_publishsubscribe.in(i._ZN7QStringD1Ev)
+    i._ZNK15QBasicAtomicIntntEv              0x00008428   Section       14  declarative_publishsubscribe.in(i._ZNK15QBasicAtomicIntntEv)
+    i._ZThn8_N28QSubscriberDeclarativeModule13registerTypesEPKc 0x00008436   Section       10  declarative_publishsubscribe.in(i._ZThn8_N28QSubscriberDeclarativeModule13registerTypesEPKc)
+    i._ZThn8_N28QSubscriberDeclarativeModuleD0Ev 0x00008440   Section       10  declarative_publishsubscribe.in(i._ZThn8_N28QSubscriberDeclarativeModuleD0Ev)
+    i._ZThn8_N28QSubscriberDeclarativeModuleD1Ev 0x0000844a   Section       10  declarative_publishsubscribe.in(i._ZThn8_N28QSubscriberDeclarativeModuleD1Ev)
+    i._ZdlPvS_                               0x00008454   Section        2  declarative_publishsubscribe.in(i._ZdlPvS_)
+    i._ZnwjPv                                0x00008456   Section        4  declarative_publishsubscribe.in(i._ZnwjPv)
+    t._Z15qmlRegisterTypeIN10QtMobility21QValueSpaceSubscriberEEiPKciiS3_ 0x0000845c   Section      300  declarative_publishsubscribe.in(t._Z15qmlRegisterTypeIN10QtMobility21QValueSpaceSubscriberEEiPKciiS3_)
+    t._Z15qmlRegisterTypeIN10QtMobility21QValueSpaceSubscriberEEiPKciiS3_.clean 0x00008588   Section       56  declarative_publishsubscribe.in(t._Z15qmlRegisterTypeIN10QtMobility21QValueSpaceSubscriberEEiPKciiS3_.clean)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility21QValueSpaceSubscriberEEEiPKcPT_ 0x000085c0   Section      124  declarative_publishsubscribe.in(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility21QValueSpaceSubscriberEEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIPN10QtMobility21QValueSpaceSubscriberEEiPKcPT_ 0x0000863c   Section      100  declarative_publishsubscribe.in(t._Z17qRegisterMetaTypeIPN10QtMobility21QValueSpaceSubscriberEEiPKcPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility21QValueSpaceSubscriberEEEvPT_ 0x000086a0   Section        8  declarative_publishsubscribe.in(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility21QValueSpaceSubscriberEEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIPN10QtMobility21QValueSpaceSubscriberEEvPT_ 0x000086a8   Section        8  declarative_publishsubscribe.in(t._Z21qMetaTypeDeleteHelperIPN10QtMobility21QValueSpaceSubscriberEEvPT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility21QValueSpaceSubscriberEEEPvPKT_ 0x000086b0   Section       82  declarative_publishsubscribe.in(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility21QValueSpaceSubscriberEEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIPN10QtMobility21QValueSpaceSubscriberEEPvPKT_ 0x00008702   Section       34  declarative_publishsubscribe.in(t._Z24qMetaTypeConstructHelperIPN10QtMobility21QValueSpaceSubscriberEEPvPKT_)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility21QValueSpaceSubscriberEEEvPv 0x00008724   Section       36  declarative_publishsubscribe.in(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility21QValueSpaceSubscriberEEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility21QValueSpaceSubscriberEEEvPv.clean 0x00008748   Section       12  declarative_publishsubscribe.in(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility21QValueSpaceSubscriberEEEvPv.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QValueSpaceSubscriberEED1Ev 0x00008754   Section       28  declarative_publishsubscribe.in(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QValueSpaceSubscriberEED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QValueSpaceSubscriberEED1Ev.clean 0x00008770   Section       10  declarative_publishsubscribe.in(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QValueSpaceSubscriberEED1Ev.clean)
+    t._ZN8QPointerI7QObjectED1Ev             0x0000877a   Section       12  declarative_publishsubscribe.in(t._ZN8QPointerI7QObjectED1Ev)
+    .extab.qt_plugin_instance                0x00008788   Data           0  declarative_publishsubscribe.in(.ARM.extab)
+    .extab._Z15qmlRegisterTypeIN10QtMobility21QValueSpaceSubscriberEEiPKciiS3_ 0x000087a0   Data           0  declarative_publishsubscribe.in(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoIN10QtMobility21QValueSpaceSubscriberEEEvPv 0x00008828   Data           0  declarative_publishsubscribe.in(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QValueSpaceSubscriberEED1Ev 0x00008838   Data           0  declarative_publishsubscribe.in(.ARM.extab)
+    .constdata$1                             0x00008848   Data           0  declarative_publishsubscribe.in(.constdata)
+    qt_meta_stringdata_QSubscriberDeclarativeModule 0x00008848   Data          30  declarative_publishsubscribe.in(.constdata)
+    .constdata                               0x00008848   Section      161  declarative_publishsubscribe.in(.constdata)
+    qt_plugin_verification_data              0x00008866   Data          91  declarative_publishsubscribe.in(.constdata)
+    .constdata$10                            0x000088ec   Data           0  declarative_publishsubscribe.in(.constdata)
+    qt_meta_data_QSubscriberDeclarativeModule 0x000088ec   Data          60  declarative_publishsubscribe.in(.constdata)
+    .constdata                               0x000088ec   Section       60  declarative_publishsubscribe.in(.constdata)
+    .constdata__ZTI28QSubscriberDeclarativeModule 0x00008928   Section       12  declarative_publishsubscribe.in(.constdata__ZTI28QSubscriberDeclarativeModule)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QValueSpaceSubscriberEEE 0x00008934   Section       12  declarative_publishsubscribe.in(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QValueSpaceSubscriberEEE)
+    .constdata__ZTS28QSubscriberDeclarativeModule 0x00008940   Section       31  declarative_publishsubscribe.in(.constdata__ZTS28QSubscriberDeclarativeModule)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QValueSpaceSubscriberEEE 0x0000895f   Section       84  declarative_publishsubscribe.in(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QValueSpaceSubscriberEEE)
+    .constdata__ZTV28QSubscriberDeclarativeModule 0x000089b4   Section       88  declarative_publishsubscribe.in(.constdata__ZTV28QSubscriberDeclarativeModule)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QValueSpaceSubscriberEEE 0x00008a0c   Section       56  declarative_publishsubscribe.in(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QValueSpaceSubscriberEEE)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility21QValueSpaceSubscriberEEiPKciiS3_$33 0x00008a44   Data           0  declarative_publishsubscribe.in(__ARM_d__Z15qmlRegisterTypeIN10QtMobility21QValueSpaceSubscriberEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility21QValueSpaceSubscriberEEiPKciiS3_ 0x00008a44   Section       76  declarative_publishsubscribe.in(__ARM_d__Z15qmlRegisterTypeIN10QtMobility21QValueSpaceSubscriberEEiPKciiS3_)
+    .ARM.exidx                               0x00008a90   Section        8  ucppinit_aeabi.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  declarative_publishsubscribe.in(.data)
+    _ZGV_instance@qt_plugin_instance_0       0x00400000   Data           4  declarative_publishsubscribe.in(.data)
+    .data                                    0x00400000   Section        8  declarative_publishsubscribe.in(.data)
+    _instance@qt_plugin_instance_1           0x00400004   Data           4  declarative_publishsubscribe.in(.data)
+    .data$0                                  0x00400008   Data           0  ucppfini.o(.data)
+    .data                                    0x00400008   Section        4  ucppfini.o(.data)
+    .data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyIN10QtMobility21QValueSpaceSubscriberEEE14qt_metatype_idEvE11metatype_id 0x0040000c   Section        4  declarative_publishsubscribe.in(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyIN10QtMobility21QValueSpaceSubscriberEEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIPN10QtMobility21QValueSpaceSubscriberEE14qt_metatype_idEvE11metatype_id 0x00400010   Section        4  declarative_publishsubscribe.in(.data__ZZN11QMetaTypeIdIPN10QtMobility21QValueSpaceSubscriberEE14qt_metatype_idEvE11metatype_id)
+    .bss$5                                   0x00400014   Data           0  ucppfini.o(.bss)
+    dtor_rec                                 0x00400014   Data        2048  ucppfini.o(.bss)
+    .bss                                     0x00400014   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$IEEEJ$EBA8$UX$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>112  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>113  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>46  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e0  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e3  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e4  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e6  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6ed  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6f1  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6f8  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>726  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>7e  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>80  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>81  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>897  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>9f  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>e6c  - Undefined Reference
+    #<DLL>QtDeclarative{00040703}[2001e623].dll#<\DLL>191  - Undefined Reference
+    #<DLL>QtDeclarative{00040703}[2001e623].dll#<\DLL>192  - Undefined Reference
+    #<DLL>QtDeclarative{00040703}[2001e623].dll#<\DLL>369  - Undefined Reference
+    #<DLL>QtDeclarative{00040703}[2001e623].dll#<\DLL>36a  - Undefined Reference
+    #<DLL>QtDeclarative{00040703}[2001e623].dll#<\DLL>36b  - Undefined Reference
+    #<DLL>QtDeclarative{00040703}[2001e623].dll#<\DLL>36e  - Undefined Reference
+    #<DLL>QtDeclarative{00040703}[2001e623].dll#<\DLL>371  - Undefined Reference
+    #<DLL>QtDeclarative{00040703}[2001e623].dll#<\DLL>67e  - Undefined Reference
+    #<DLL>QtPublishSubscribe{00010103}[2002ac78].dll#<\DLL>21  - Undefined Reference
+    #<DLL>QtPublishSubscribe{00010103}[2002ac78].dll#<\DLL>22  - Undefined Reference
+    #<DLL>QtPublishSubscribe{00010103}[2002ac78].dll#<\DLL>23  - Undefined Reference
+    #<DLL>QtPublishSubscribe{00010103}[2002ac78].dll#<\DLL>25  - Undefined Reference
+    #<DLL>QtPublishSubscribe{00010103}[2002ac78].dll#<\DLL>2d  - Undefined Reference
+    #<DLL>QtPublishSubscribe{00010103}[2002ac78].dll#<\DLL>35  - Undefined Reference
+    #<DLL>QtPublishSubscribe{00010103}[2002ac78].dll#<\DLL>41  - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>93     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>9e     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>b8     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>ba     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>bb     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>bc     - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>29e  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>29f  - Undefined Reference
+    #<DLL>libc{00010000}[10207369].dll#<\DLL>15e  - Undefined Reference
+    #<DLL>libstdcpp{00010000}[10282872].dll#<\DLL>3dc  - Undefined Reference
+    #<DLL>libstdcpp{00010000}[10282872].dll#<\DLL>3e0  - Undefined Reference
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    QtMobility::QValueSpaceSubscriber::staticMetaObject  - Undefined Reference
+    QDeclarativeExtensionPlugin::staticMetaObject  - Undefined Reference
+    QString::shared_null                      - Undefined Reference
+    typeinfo for QDeclarativeExtensionPlugin  - Undefined Reference
+    typeinfo for QtMobility::QValueSpaceSubscriber  - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    _fp_init                                  - Undefined Weak Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      72  ucppinit_aeabi.o(.emb_text)
+    std::nothrow                             0x00008071   Thumb Code     0  ucppinit_aeabi.o(.emb_text)
+    qt_plugin_query_verification_data        0x00008071   Thumb Code     4  declarative_publishsubscribe.in(.text)
+    qt_plugin_instance                       0x00008075   Thumb Code   110  declarative_publishsubscribe.in(.text)
+    QSubscriberDeclarativeModule::getStaticMetaObject() 0x000080e3   Thumb Code     6  declarative_publishsubscribe.in(.text)
+    QSubscriberDeclarativeModule::metaObject() const 0x000080e9   Thumb Code    14  declarative_publishsubscribe.in(.text)
+    QSubscriberDeclarativeModule::qt_metacast(const char*) 0x000080f7   Thumb Code    40  declarative_publishsubscribe.in(.text)
+    QSubscriberDeclarativeModule::qt_metacall(QMetaObject::Call, int, void**) 0x0000811f   Thumb Code     8  declarative_publishsubscribe.in(.text)
+    _E32Dll_Body                             0x0000813d   Thumb Code    34  uc_dll.o(.text)
+    CppBSSInitializationError                0x00008164   ARM Code       4  ucppfini.o(.text)
+    __aeabi_atexit                           0x00008168   ARM Code      28  ucppfini.o(.text)
+    __cxa_atexit                             0x00008184   ARM Code      48  ucppfini.o(.text)
+    __cxa_finalize                           0x000081b4   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x000081e4   ARM Code       8  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x00008214   ARM Code       0  declarative_publishsubscribe{000a0000}.exp(ExportTable)
+    DLL##ExportTableSize                     0x00008218   Data           0  declarative_publishsubscribe{000a0000}.exp(ExportTable)
+    DLL##ExportTable                         0x0000821c   Data           0  declarative_publishsubscribe{000a0000}.exp(ExportTable)
+    QtMobility::QValueSpaceSubscriber::qt_metacall(QMetaObject::Call, int, void**) 0x00008224   ARM Code       0  QtPublishSubscribe{00010103}-33.o(StubCode)
+    QtMobility::QValueSpaceSubscriber::qt_metacast(const char*) 0x0000822c   ARM Code       0  QtPublishSubscribe{00010103}-34.o(StubCode)
+    QtMobility::QValueSpaceSubscriber::connectNotify(const char*) 0x00008234   ARM Code       0  QtPublishSubscribe{00010103}-35.o(StubCode)
+    QtMobility::QValueSpaceSubscriber::disconnectNotify(const char*) 0x0000823c   ARM Code       0  QtPublishSubscribe{00010103}-37.o(StubCode)
+    QtMobility::QValueSpaceSubscriber::QValueSpaceSubscriber(QObject*) 0x00008244   ARM Code       0  QtPublishSubscribe{00010103}-45.o(StubCode)
+    QtMobility::QValueSpaceSubscriber::~QValueSpaceSubscriber() 0x0000824c   ARM Code       0  QtPublishSubscribe{00010103}-53.o(StubCode)
+    QtMobility::QValueSpaceSubscriber::metaObject() const 0x00008254   ARM Code       0  QtPublishSubscribe{00010103}-65.o(StubCode)
+    operator delete (void*)                  0x0000825c   ARM Code       0  libstdcpp{00010000}-988.o(StubCode)
+    operator new(unsigned)                   0x00008264   ARM Code       0  libstdcpp{00010000}-992.o(StubCode)
+    thunk{-8} to QDeclarativeExtensionPlugin::initializeEngine(QDeclarativeEngine*, const char*) 0x0000826c   ARM Code       0  QtDeclarative{00040703}-1662.o(StubCode)
+    QDeclarativePrivate::qmlregister(QDeclarativePrivate::RegistrationType, void*) 0x00008274   ARM Code       0  QtDeclarative{00040703}-401.o(StubCode)
+    QDeclarativePrivate::qdeclarativeelement_destructor(QObject*) 0x0000827c   ARM Code       0  QtDeclarative{00040703}-402.o(StubCode)
+    QDeclarativeExtensionPlugin::qt_metacall(QMetaObject::Call, int, void**) 0x00008284   ARM Code       0  QtDeclarative{00040703}-873.o(StubCode)
+    QDeclarativeExtensionPlugin::qt_metacast(const char*) 0x0000828c   ARM Code       0  QtDeclarative{00040703}-874.o(StubCode)
+    QDeclarativeExtensionPlugin::initializeEngine(QDeclarativeEngine*, const char*) 0x00008294   ARM Code       0  QtDeclarative{00040703}-875.o(StubCode)
+    QDeclarativeExtensionPlugin::QDeclarativeExtensionPlugin__sub_object(QObject*) 0x0000829c   ARM Code       0  QtDeclarative{00040703}-878.o(StubCode)
+    QDeclarativeExtensionPlugin::~QDeclarativeExtensionPlugin__sub_object() 0x000082a4   ARM Code       0  QtDeclarative{00040703}-881.o(StubCode)
+    QByteArray::append(const char*)          0x000082ac   ARM Code       0  QtCore{00040703}-126.o(StubCode)
+    QByteArray::append(const QByteArray&)    0x000082b4   ARM Code       0  QtCore{00040703}-128.o(StubCode)
+    QByteArray::append(char)                 0x000082bc   ARM Code       0  QtCore{00040703}-129.o(StubCode)
+    QByteArray::QByteArray(const char*)      0x000082c4   ARM Code       0  QtCore{00040703}-159.o(StubCode)
+    QObject::childEvent(QChildEvent*)        0x000082cc   ARM Code       0  QtCore{00040703}-1760.o(StubCode)
+    QObject::timerEvent(QTimerEvent*)        0x000082d4   ARM Code       0  QtCore{00040703}-1763.o(StubCode)
+    QObject::customEvent(QEvent*)            0x000082dc   ARM Code       0  QtCore{00040703}-1764.o(StubCode)
+    QObject::eventFilter(QObject*, QEvent*)  0x000082e4   ARM Code       0  QtCore{00040703}-1766.o(StubCode)
+    QObject::connectNotify(const char*)      0x000082ec   ARM Code       0  QtCore{00040703}-1773.o(StubCode)
+    QObject::disconnectNotify(const char*)   0x000082f4   ARM Code       0  QtCore{00040703}-1777.o(StubCode)
+    QObject::event(QEvent*)                  0x000082fc   ARM Code       0  QtCore{00040703}-1784.o(StubCode)
+    QString::free(QString::Data*)            0x00008304   ARM Code       0  QtCore{00040703}-1830.o(StubCode)
+    QMetaType::registerType(const char*, void(*)(void*), void*(*)(const void*)) 0x0000830c   ARM Code       0  QtCore{00040703}-2199.o(StubCode)
+    QMetaObject::changeGuard(QObject**, QObject*) 0x00008314   ARM Code       0  QtCore{00040703}-274.o(StubCode)
+    QMetaObject::removeGuard(QObject**)      0x0000831c   ARM Code       0  QtCore{00040703}-275.o(StubCode)
+    QMetaType::registerTypedef(const char*, int) 0x00008324   ARM Code       0  QtCore{00040703}-3692.o(StubCode)
+    qFree(void*)                             0x0000832c   ARM Code       0  QtCore{00040703}-70.o(StubCode)
+    strcmp                                   0x00008334   ARM Code       0  libc{00010000}-350.o(StubCode)
+    User::LockedDec(int&)                    0x0000833c   ARM Code       0  euser{000a0000}-670.o(StubCode)
+    User::LockedInc(int&)                    0x00008344   ARM Code       0  euser{000a0000}-671.o(StubCode)
+    __aeabi_memcpy4                          0x0000834c   ARM Code       0  drtaeabi{000a0000}-147.o(StubCode)
+    __aeabi_unwind_cpp_pr0                   0x00008354   ARM Code       0  drtaeabi{000a0000}-158.o(StubCode)
+    __cxa_end_cleanup                        0x0000835c   ARM Code       0  drtaeabi{000a0000}-184.o(StubCode)
+    __cxa_guard_abort                        0x00008364   ARM Code       0  drtaeabi{000a0000}-186.o(StubCode)
+    __cxa_guard_acquire                      0x0000836c   ARM Code       0  drtaeabi{000a0000}-187.o(StubCode)
+    __cxa_guard_release                      0x00008374   ARM Code       0  drtaeabi{000a0000}-188.o(StubCode)
+    QByteArray::QByteArray(const QByteArray&) 0x0000837d   Thumb Code    16  declarative_publishsubscribe.in(i._ZN10QByteArrayC1ERKS_)
+    QByteArray::QByteArray__sub_object(const QByteArray&) 0x0000837d   Thumb Code     0  declarative_publishsubscribe.in(i._ZN10QByteArrayC1ERKS_)
+    QByteArray::~QByteArray()                0x0000838d   Thumb Code    24  declarative_publishsubscribe.in(i._ZN10QByteArrayD1Ev)
+    QByteArray::~QByteArray__sub_object()    0x0000838d   Thumb Code     0  declarative_publishsubscribe.in(i._ZN10QByteArrayD1Ev)
+    QBasicAtomicInt::ref()                   0x000083a5   Thumb Code    18  declarative_publishsubscribe.in(i._ZN15QBasicAtomicInt3refEv)
+    QBasicAtomicInt::deref()                 0x000083b7   Thumb Code    18  declarative_publishsubscribe.in(i._ZN15QBasicAtomicInt5derefEv)
+    QDeclarativePrivate::RegisterType::~RegisterType() 0x000083c9   Thumb Code    12  declarative_publishsubscribe.in(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    QDeclarativePrivate::RegisterType::~RegisterType__sub_object() 0x000083c9   Thumb Code     0  declarative_publishsubscribe.in(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QValueSpaceSubscriber>::~QDeclarativeElement__deallocating() 0x000083d5   Thumb Code    16  declarative_publishsubscribe.in(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QValueSpaceSubscriberEED0Ev)
+    QSubscriberDeclarativeModule::registerTypes(const char*) 0x000083e5   Thumb Code    16  declarative_publishsubscribe.in(i._ZN28QSubscriberDeclarativeModule13registerTypesEPKc)
+    QSubscriberDeclarativeModule::~QSubscriberDeclarativeModule__deallocating() 0x000083f9   Thumb Code    16  declarative_publishsubscribe.in(i._ZN28QSubscriberDeclarativeModuleD0Ev)
+    QSubscriberDeclarativeModule::~QSubscriberDeclarativeModule() 0x00008409   Thumb Code     8  declarative_publishsubscribe.in(i._ZN28QSubscriberDeclarativeModuleD1Ev)
+    QSubscriberDeclarativeModule::~QSubscriberDeclarativeModule__sub_object() 0x00008409   Thumb Code     0  declarative_publishsubscribe.in(i._ZN28QSubscriberDeclarativeModuleD1Ev)
+    QString::~QString()                      0x00008411   Thumb Code    24  declarative_publishsubscribe.in(i._ZN7QStringD1Ev)
+    QString::~QString__sub_object()          0x00008411   Thumb Code     0  declarative_publishsubscribe.in(i._ZN7QStringD1Ev)
+    QBasicAtomicInt::operator !() const      0x00008429   Thumb Code    14  declarative_publishsubscribe.in(i._ZNK15QBasicAtomicIntntEv)
+    thunk{-8} to QSubscriberDeclarativeModule::registerTypes(const char*) 0x00008437   Thumb Code    10  declarative_publishsubscribe.in(i._ZThn8_N28QSubscriberDeclarativeModule13registerTypesEPKc)
+    thunk{-8} to QSubscriberDeclarativeModule::~QSubscriberDeclarativeModule__deallocating() 0x00008441   Thumb Code    10  declarative_publishsubscribe.in(i._ZThn8_N28QSubscriberDeclarativeModuleD0Ev)
+    thunk{-8} to QSubscriberDeclarativeModule::~QSubscriberDeclarativeModule() 0x0000844b   Thumb Code    10  declarative_publishsubscribe.in(i._ZThn8_N28QSubscriberDeclarativeModuleD1Ev)
+    operator delete (void*, void*)           0x00008455   Thumb Code     2  declarative_publishsubscribe.in(i._ZdlPvS_)
+    operator new(unsigned, void*)            0x00008457   Thumb Code     4  declarative_publishsubscribe.in(i._ZnwjPv)
+    qmlRegisterType<QtMobility::QValueSpaceSubscriber>(const char*, int, int, const char*) 0x0000845d   Thumb Code   256  declarative_publishsubscribe.in(t._Z15qmlRegisterTypeIN10QtMobility21QValueSpaceSubscriberEEiPKciiS3_)
+    qRegisterMetaType<QDeclarativeListProperty<QtMobility::QValueSpaceSubscriber>>(const char*, T1*) 0x000085c1   Thumb Code    64  declarative_publishsubscribe.in(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility21QValueSpaceSubscriberEEEiPKcPT_)
+    qRegisterMetaType<QtMobility::QValueSpaceSubscriber*>(const char*, T1*) 0x0000863d   Thumb Code    64  declarative_publishsubscribe.in(t._Z17qRegisterMetaTypeIPN10QtMobility21QValueSpaceSubscriberEEiPKcPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QtMobility::QValueSpaceSubscriber>>(T1*) 0x000086a1   Thumb Code     8  declarative_publishsubscribe.in(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility21QValueSpaceSubscriberEEEvPT_)
+    qMetaTypeDeleteHelper<QtMobility::QValueSpaceSubscriber*>(T1*) 0x000086a9   Thumb Code     8  declarative_publishsubscribe.in(t._Z21qMetaTypeDeleteHelperIPN10QtMobility21QValueSpaceSubscriberEEvPT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QtMobility::QValueSpaceSubscriber>>(const T1*) 0x000086b1   Thumb Code    82  declarative_publishsubscribe.in(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility21QValueSpaceSubscriberEEEPvPKT_)
+    qMetaTypeConstructHelper<QtMobility::QValueSpaceSubscriber*>(const T1*) 0x00008703   Thumb Code    34  declarative_publishsubscribe.in(t._Z24qMetaTypeConstructHelperIPN10QtMobility21QValueSpaceSubscriberEEPvPKT_)
+    QDeclarativePrivate::createInto<QtMobility::QValueSpaceSubscriber>(void*) 0x00008725   Thumb Code    30  declarative_publishsubscribe.in(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility21QValueSpaceSubscriberEEEvPv)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QValueSpaceSubscriber>::~QDeclarativeElement() 0x00008755   Thumb Code    22  declarative_publishsubscribe.in(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QValueSpaceSubscriberEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QValueSpaceSubscriber>::~QDeclarativeElement__sub_object() 0x00008755   Thumb Code     0  declarative_publishsubscribe.in(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QValueSpaceSubscriberEED1Ev)
+    QPointer<QObject>::~QPointer()           0x0000877b   Thumb Code    12  declarative_publishsubscribe.in(t._ZN8QPointerI7QObjectED1Ev)
+    QPointer<QObject>::~QPointer__sub_object() 0x0000877b   Thumb Code     0  declarative_publishsubscribe.in(t._ZN8QPointerI7QObjectED1Ev)
+    QSubscriberDeclarativeModule::staticMetaObject 0x000088c4   Data          16  declarative_publishsubscribe.in(.constdata)
+    typeinfo for QSubscriberDeclarativeModule 0x00008928   Data          12  declarative_publishsubscribe.in(.constdata__ZTI28QSubscriberDeclarativeModule)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QtMobility::QValueSpaceSubscriber> 0x00008934   Data          12  declarative_publishsubscribe.in(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QValueSpaceSubscriberEEE)
+    typeinfo name for QSubscriberDeclarativeModule 0x00008940   Data          31  declarative_publishsubscribe.in(.constdata__ZTS28QSubscriberDeclarativeModule)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QtMobility::QValueSpaceSubscriber> 0x0000895f   Data          84  declarative_publishsubscribe.in(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QValueSpaceSubscriberEEE)
+    vtable for QSubscriberDeclarativeModule  0x000089b4   Data          88  declarative_publishsubscribe.in(.constdata__ZTV28QSubscriberDeclarativeModule)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QtMobility::QValueSpaceSubscriber> 0x00008a0c   Data          56  declarative_publishsubscribe.in(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QValueSpaceSubscriberEEE)
+    .ARM.exidx$$Base                         0x00008a90   Number         0  ucppinit_aeabi.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x00008b38   Number         0  declarative_publishsubscribe.in(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x00008b38   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    __dso_handle                             0x00400008   Data           4  ucppfini.o(.data)
+    QMetaTypeId<QDeclarativeListProperty<QtMobility::QValueSpaceSubscriber>>::qt_metatype_id()::metatype_id 0x0040000c   Data           4  declarative_publishsubscribe.in(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyIN10QtMobility21QValueSpaceSubscriberEEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QtMobility::QValueSpaceSubscriber*>::qt_metatype_id()::metatype_id 0x00400010   Data           4  declarative_publishsubscribe.in(.data__ZZN11QMetaTypeIdIPN10QtMobility21QValueSpaceSubscriberEE14qt_metatype_idEvE11metatype_id)
+

@@ -1,0 +1,40 @@
+/*
+* ==============================================================================
+*  Name        : AknDef.hrh
+*  Part of     : Avkon
+*  Interface   : 
+*  Description : 
+*  Version     : 
+*
+*  Copyright © 2005 Nokia. All rights reserved.
+*  This material, including documentation and any related 
+*  computer programs, is protected by copyright controlled by 
+*  Nokia. All rights are reserved. Copying, including 
+*  reproducing, storing, adapting or translating, any 
+*  or all of this material requires the prior written consent of 
+*  Nokia. This material also contains confidential 
+*  information which may not be disclosed to others without the 
+*  prior written consent of Nokia.
+* ==============================================================================
+*/
+
+#ifndef AKNDEF_HRH
+#define AKNDEF_HRH
+
+
+/**
+* Values for controlling UI zoom state.
+*
+* @since 3.1
+*/
+enum TAknUiZoom
+	{
+	EAknUiZoomAutomatic=-1,
+	EAknUiZoomNormal,
+	EAknUiZoomSmall,
+	EAknUiZoomLarge,
+	EAknUiZoomVerySmall,
+	EAknUiZoomVeryLarge
+	};
+
+#endif

@@ -1,0 +1,1343 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-2123.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1769.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-184.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-2125.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1773.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-200.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-46.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1777.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-232.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-539.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1784.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-235.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-55.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1789.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-236.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-593.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1794.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-237.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-649.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1830.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-243.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-654.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1836.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-33.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-669.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1874.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-34.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-670.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2038.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-35.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-671.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2082.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-36.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-744.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2084.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-37.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-749.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-274.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-39.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-816.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-275.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-40.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-120.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3008.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-41.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-1415.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3040.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-44.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-1416.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-312.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-45.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-1417.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3139.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-48.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-1468.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3143.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-50.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-1507.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-32.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-54.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-1510.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-324.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-61.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-203.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-331.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-67.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-205.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-332.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-68.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-2060.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3691.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-71.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-2061.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-70.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-8.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-208.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-95.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-88.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-2082.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  libc{00010000}-350.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-89.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-164.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  sensrvclient{000a0000}-4.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-90.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  sensrvutil{000a0000}-51.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  sensrvutil{000a0000}-12.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-91.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  sensrvutil{000a0000}-7.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  sensrvutil{000a0000}-13.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-94.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  sensrvutil{000a0000}-8.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  sensrvutil{000a0000}-20.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  libstdcpp{00010000}-988.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  sensrvutil{000a0000}-9.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  sensrvutil{000a0000}-31.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  libstdcpp{00010000}-992.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-10.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  sensrvutil{000a0000}-40.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-150.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-101.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  sensrvutil{000a0000}-41.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-159.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-102.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  sensrvutil{000a0000}-42.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1760.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-105.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  sensrvutil{000a0000}-43.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1763.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-120.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  sensrvutil{000a0000}-44.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1764.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-123.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  sensrvutil{000a0000}-45.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1766.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-126.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  sensrvutil{000a0000}-46.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1767.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-13.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  sensrvutil{000a0000}-49.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1768.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-130.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  sensrvutil{000a0000}-50.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-146.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-134.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-184.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-147.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-137.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-186.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-148.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-144.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-187.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  dfpaeabi{000a0000}-1.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-145.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-188.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  dfpaeabi{000a0000}-19.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-183.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-189.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  dfpaeabi{000a0000}-20.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtrvct2_2{000a0000}-28.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-190.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  dfpaeabi{000a0000}-24.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-180.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  dfpaeabi{000a0000}-42.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  dfpaeabi{000a0000}-41.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-151.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  dfpaeabi{000a0000}-7.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-159.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-158.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  dfpaeabi{000a0000}-8.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-16.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-158.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-160.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtSensors{00010103}-161.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  sensrvclient{000a0000}-1.o ABSOLUTE
+    ..\..\..\..\EPOC32\BUILD\s60\osext\mobileruntime\group\LIBSTDCPP\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\s60\osext\systemswextensions\group\SENSRVCLIENT\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\s60\osext\systemswextensions\group\SENSRVUTIL\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\src\cedar\generic\base\e32\compsupp\DRTAEABI\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\src\cedar\generic\base\e32\euser\EDLL\ARMV5\urel\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    \EPOC32\BUILD\src\cedar\generic\base\e32\euser\EUSER\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBC\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBDL\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBM\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBPTHREAD\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \\EPOC32\\BUILD\\src\\cedar\\generic\\base\\e32\\euser\\EDLL\\ARMV5\\urel\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    \\src\\cedar\\generic\\base\\e32\\compsupp\\RVCT2_2\\ucppinit_aeabi.cpp 0x00000000   Number         0  ucppinit_aeabi.o ABSOLUTE
+    \dev\symb\SDKs\32\EPOC32\BUILD\iwmake\buildS60____PADDING________\src\QTCORE_DLL\ARMV6\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \s60\5.0\EPOC32\BUILD\scripts\5.0\qtmobility\QTSENSORS_DLL\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \s60\5.0\EPOC32\BUILD\scripts\5.0\qtmobility\QTSENSORS_SYM_DLL\ARMV5\urel\qtsensors_sym{00010000}.s 0x00000000   Number         0  qtsensors_sym{00010000}.exp ABSOLUTE
+    \scripts\5.0\qtmobility\plugins\sensors\symbian\accelerometersym.cpp 0x00000000   Number         0  qtsensors_sym.in ABSOLUTE
+    \scripts\5.0\qtmobility\plugins\sensors\symbian\ambientlightsensorsym.cpp 0x00000000   Number         0  qtsensors_sym.in ABSOLUTE
+    \scripts\5.0\qtmobility\plugins\sensors\symbian\compasssym.cpp 0x00000000   Number         0  qtsensors_sym.in ABSOLUTE
+    \scripts\5.0\qtmobility\plugins\sensors\symbian\magnetometersensorsym.cpp 0x00000000   Number         0  qtsensors_sym.in ABSOLUTE
+    \scripts\5.0\qtmobility\plugins\sensors\symbian\main.cpp 0x00000000   Number         0  qtsensors_sym.in ABSOLUTE
+    \scripts\5.0\qtmobility\plugins\sensors\symbian\orientationsym.cpp 0x00000000   Number         0  qtsensors_sym.in ABSOLUTE
+    \scripts\5.0\qtmobility\plugins\sensors\symbian\proximitysensorsym.cpp 0x00000000   Number         0  qtsensors_sym.in ABSOLUTE
+    \scripts\5.0\qtmobility\plugins\sensors\symbian\rotationsensorsym.cpp 0x00000000   Number         0  qtsensors_sym.in ABSOLUTE
+    \scripts\5.0\qtmobility\plugins\sensors\symbian\sensorbackendsym.cpp 0x00000000   Number         0  qtsensors_sym.in ABSOLUTE
+    \scripts\5.0\qtmobility\plugins\sensors\symbian\tapsensorsym.cpp 0x00000000   Number         0  qtsensors_sym.in ABSOLUTE
+    \src\cedar\generic\base\e32\compsupp\RVCT2_2\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    \src\cedar\generic\base\e32\compsupp\RVCT2_2\ucppinit_aeabi.cpp 0x00000000   Number         0  ucppinit_aeabi.o ABSOLUTE
+    \src\cedar\generic\base\e32\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       72  ucppinit_aeabi.o(.emb_text)
+    skip                                     0x0000803c   ARM Code       0  ucppinit_aeabi.o(.emb_text)
+    loop                                     0x0000804c   ARM Code       0  ucppinit_aeabi.o(.emb_text)
+    fpinit                                   0x00008064   Data           0  ucppinit_aeabi.o(.emb_text)
+    base                                     0x00008068   Data           0  ucppinit_aeabi.o(.emb_text)
+    limit                                    0x0000806c   Data           0  ucppinit_aeabi.o(.emb_text)
+    .text                                    0x00008070   Section     3310  qtsensors_sym.in(.text)
+    .text                                    0x00008d60   Section      356  qtsensors_sym.in(.text)
+    .text                                    0x00008ec4   Section      396  qtsensors_sym.in(.text)
+    .text                                    0x00009050   Section     1324  qtsensors_sym.in(.text)
+    |L1.1060|                                0x00009474   Data           0  qtsensors_sym.in(.text)
+    .text                                    0x0000957c   Section      544  qtsensors_sym.in(.text)
+    .text                                    0x0000979c   Section     1084  qtsensors_sym.in(.text)
+    .text                                    0x00009bd8   Section      388  qtsensors_sym.in(.text)
+    .text                                    0x00009d5c   Section      644  qtsensors_sym.in(.text)
+    .text                                    0x00009fe0   Section      444  qtsensors_sym.in(.text)
+    .text                                    0x0000a19c   Section      344  qtsensors_sym.in(.text)
+    .text                                    0x0000a2f4   Section       40  uc_dll.o(.text)
+    .text                                    0x0000a31c   Section      148  ucppfini.o(.text)
+    .text.clean                              0x0000a3b0   Section      138  qtsensors_sym.in(.text.clean)
+    .text.clean                              0x0000a43a   Section       42  qtsensors_sym.in(.text.clean)
+    .text.clean                              0x0000a464   Section       42  qtsensors_sym.in(.text.clean)
+    .text.clean                              0x0000a48e   Section       68  qtsensors_sym.in(.text.clean)
+    .text.clean                              0x0000a4d2   Section       66  qtsensors_sym.in(.text.clean)
+    .text.clean                              0x0000a514   Section       68  qtsensors_sym.in(.text.clean)
+    .text.clean                              0x0000a558   Section       42  qtsensors_sym.in(.text.clean)
+    .text.clean                              0x0000a582   Section       60  qtsensors_sym.in(.text.clean)
+    .text.clean                              0x0000a5be   Section       42  qtsensors_sym.in(.text.clean)
+    .text.clean                              0x0000a5e8   Section       28  qtsensors_sym.in(.text.clean)
+    ExportTable                              0x0000a604   Section       16  qtsensors_sym{00010000}.exp(ExportTable)
+    StubCode                                 0x0000a614   Section        8  sensrvclient{000a0000}-1.o(StubCode)
+    theImportedSymbol                        0x0000a618   Data           0  sensrvclient{000a0000}-1.o(StubCode)
+    StubCode                                 0x0000a61c   Section        8  sensrvclient{000a0000}-4.o(StubCode)
+    theImportedSymbol                        0x0000a620   Data           0  sensrvclient{000a0000}-4.o(StubCode)
+    StubCode                                 0x0000a624   Section        8  sensrvutil{000a0000}-12.o(StubCode)
+    theImportedSymbol                        0x0000a628   Data           0  sensrvutil{000a0000}-12.o(StubCode)
+    StubCode                                 0x0000a62c   Section        8  sensrvutil{000a0000}-13.o(StubCode)
+    theImportedSymbol                        0x0000a630   Data           0  sensrvutil{000a0000}-13.o(StubCode)
+    StubCode                                 0x0000a634   Section        8  sensrvutil{000a0000}-20.o(StubCode)
+    theImportedSymbol                        0x0000a638   Data           0  sensrvutil{000a0000}-20.o(StubCode)
+    StubCode                                 0x0000a63c   Section        8  sensrvutil{000a0000}-31.o(StubCode)
+    theImportedSymbol                        0x0000a640   Data           0  sensrvutil{000a0000}-31.o(StubCode)
+    StubCode                                 0x0000a644   Section        8  sensrvutil{000a0000}-40.o(StubCode)
+    theImportedSymbol                        0x0000a648   Data           0  sensrvutil{000a0000}-40.o(StubCode)
+    StubCode                                 0x0000a64c   Section        8  sensrvutil{000a0000}-41.o(StubCode)
+    theImportedSymbol                        0x0000a650   Data           0  sensrvutil{000a0000}-41.o(StubCode)
+    StubCode                                 0x0000a654   Section        8  sensrvutil{000a0000}-42.o(StubCode)
+    theImportedSymbol                        0x0000a658   Data           0  sensrvutil{000a0000}-42.o(StubCode)
+    StubCode                                 0x0000a65c   Section        8  sensrvutil{000a0000}-43.o(StubCode)
+    theImportedSymbol                        0x0000a660   Data           0  sensrvutil{000a0000}-43.o(StubCode)
+    StubCode                                 0x0000a664   Section        8  sensrvutil{000a0000}-44.o(StubCode)
+    theImportedSymbol                        0x0000a668   Data           0  sensrvutil{000a0000}-44.o(StubCode)
+    StubCode                                 0x0000a66c   Section        8  sensrvutil{000a0000}-45.o(StubCode)
+    theImportedSymbol                        0x0000a670   Data           0  sensrvutil{000a0000}-45.o(StubCode)
+    StubCode                                 0x0000a674   Section        8  sensrvutil{000a0000}-46.o(StubCode)
+    theImportedSymbol                        0x0000a678   Data           0  sensrvutil{000a0000}-46.o(StubCode)
+    StubCode                                 0x0000a67c   Section        8  sensrvutil{000a0000}-49.o(StubCode)
+    theImportedSymbol                        0x0000a680   Data           0  sensrvutil{000a0000}-49.o(StubCode)
+    StubCode                                 0x0000a684   Section        8  sensrvutil{000a0000}-50.o(StubCode)
+    theImportedSymbol                        0x0000a688   Data           0  sensrvutil{000a0000}-50.o(StubCode)
+    StubCode                                 0x0000a68c   Section        8  sensrvutil{000a0000}-51.o(StubCode)
+    theImportedSymbol                        0x0000a690   Data           0  sensrvutil{000a0000}-51.o(StubCode)
+    StubCode                                 0x0000a694   Section        8  sensrvutil{000a0000}-7.o(StubCode)
+    theImportedSymbol                        0x0000a698   Data           0  sensrvutil{000a0000}-7.o(StubCode)
+    StubCode                                 0x0000a69c   Section        8  sensrvutil{000a0000}-8.o(StubCode)
+    theImportedSymbol                        0x0000a6a0   Data           0  sensrvutil{000a0000}-8.o(StubCode)
+    StubCode                                 0x0000a6a4   Section        8  sensrvutil{000a0000}-9.o(StubCode)
+    theImportedSymbol                        0x0000a6a8   Data           0  sensrvutil{000a0000}-9.o(StubCode)
+    StubCode                                 0x0000a6ac   Section        8  QtSensors{00010103}-10.o(StubCode)
+    theImportedSymbol                        0x0000a6b0   Data           0  QtSensors{00010103}-10.o(StubCode)
+    StubCode                                 0x0000a6b4   Section        8  QtSensors{00010103}-101.o(StubCode)
+    theImportedSymbol                        0x0000a6b8   Data           0  QtSensors{00010103}-101.o(StubCode)
+    StubCode                                 0x0000a6bc   Section        8  QtSensors{00010103}-102.o(StubCode)
+    theImportedSymbol                        0x0000a6c0   Data           0  QtSensors{00010103}-102.o(StubCode)
+    StubCode                                 0x0000a6c4   Section        8  QtSensors{00010103}-105.o(StubCode)
+    theImportedSymbol                        0x0000a6c8   Data           0  QtSensors{00010103}-105.o(StubCode)
+    StubCode                                 0x0000a6cc   Section        8  QtSensors{00010103}-120.o(StubCode)
+    theImportedSymbol                        0x0000a6d0   Data           0  QtSensors{00010103}-120.o(StubCode)
+    StubCode                                 0x0000a6d4   Section        8  QtSensors{00010103}-123.o(StubCode)
+    theImportedSymbol                        0x0000a6d8   Data           0  QtSensors{00010103}-123.o(StubCode)
+    StubCode                                 0x0000a6dc   Section        8  QtSensors{00010103}-126.o(StubCode)
+    theImportedSymbol                        0x0000a6e0   Data           0  QtSensors{00010103}-126.o(StubCode)
+    StubCode                                 0x0000a6e4   Section        8  QtSensors{00010103}-13.o(StubCode)
+    theImportedSymbol                        0x0000a6e8   Data           0  QtSensors{00010103}-13.o(StubCode)
+    StubCode                                 0x0000a6ec   Section        8  QtSensors{00010103}-130.o(StubCode)
+    theImportedSymbol                        0x0000a6f0   Data           0  QtSensors{00010103}-130.o(StubCode)
+    StubCode                                 0x0000a6f4   Section        8  QtSensors{00010103}-134.o(StubCode)
+    theImportedSymbol                        0x0000a6f8   Data           0  QtSensors{00010103}-134.o(StubCode)
+    StubCode                                 0x0000a6fc   Section        8  QtSensors{00010103}-137.o(StubCode)
+    theImportedSymbol                        0x0000a700   Data           0  QtSensors{00010103}-137.o(StubCode)
+    StubCode                                 0x0000a704   Section        8  QtSensors{00010103}-144.o(StubCode)
+    theImportedSymbol                        0x0000a708   Data           0  QtSensors{00010103}-144.o(StubCode)
+    StubCode                                 0x0000a70c   Section        8  QtSensors{00010103}-145.o(StubCode)
+    theImportedSymbol                        0x0000a710   Data           0  QtSensors{00010103}-145.o(StubCode)
+    StubCode                                 0x0000a714   Section        8  QtSensors{00010103}-146.o(StubCode)
+    theImportedSymbol                        0x0000a718   Data           0  QtSensors{00010103}-146.o(StubCode)
+    StubCode                                 0x0000a71c   Section        8  QtSensors{00010103}-147.o(StubCode)
+    theImportedSymbol                        0x0000a720   Data           0  QtSensors{00010103}-147.o(StubCode)
+    StubCode                                 0x0000a724   Section        8  QtSensors{00010103}-148.o(StubCode)
+    theImportedSymbol                        0x0000a728   Data           0  QtSensors{00010103}-148.o(StubCode)
+    StubCode                                 0x0000a72c   Section        8  QtSensors{00010103}-151.o(StubCode)
+    theImportedSymbol                        0x0000a730   Data           0  QtSensors{00010103}-151.o(StubCode)
+    StubCode                                 0x0000a734   Section        8  QtSensors{00010103}-158.o(StubCode)
+    theImportedSymbol                        0x0000a738   Data           0  QtSensors{00010103}-158.o(StubCode)
+    StubCode                                 0x0000a73c   Section        8  QtSensors{00010103}-159.o(StubCode)
+    theImportedSymbol                        0x0000a740   Data           0  QtSensors{00010103}-159.o(StubCode)
+    StubCode                                 0x0000a744   Section        8  QtSensors{00010103}-16.o(StubCode)
+    theImportedSymbol                        0x0000a748   Data           0  QtSensors{00010103}-16.o(StubCode)
+    StubCode                                 0x0000a74c   Section        8  QtSensors{00010103}-160.o(StubCode)
+    theImportedSymbol                        0x0000a750   Data           0  QtSensors{00010103}-160.o(StubCode)
+    StubCode                                 0x0000a754   Section        8  QtSensors{00010103}-161.o(StubCode)
+    theImportedSymbol                        0x0000a758   Data           0  QtSensors{00010103}-161.o(StubCode)
+    StubCode                                 0x0000a75c   Section        8  QtSensors{00010103}-164.o(StubCode)
+    theImportedSymbol                        0x0000a760   Data           0  QtSensors{00010103}-164.o(StubCode)
+    StubCode                                 0x0000a764   Section        8  QtSensors{00010103}-184.o(StubCode)
+    theImportedSymbol                        0x0000a768   Data           0  QtSensors{00010103}-184.o(StubCode)
+    StubCode                                 0x0000a76c   Section        8  QtSensors{00010103}-200.o(StubCode)
+    theImportedSymbol                        0x0000a770   Data           0  QtSensors{00010103}-200.o(StubCode)
+    StubCode                                 0x0000a774   Section        8  QtSensors{00010103}-232.o(StubCode)
+    theImportedSymbol                        0x0000a778   Data           0  QtSensors{00010103}-232.o(StubCode)
+    StubCode                                 0x0000a77c   Section        8  QtSensors{00010103}-235.o(StubCode)
+    theImportedSymbol                        0x0000a780   Data           0  QtSensors{00010103}-235.o(StubCode)
+    StubCode                                 0x0000a784   Section        8  QtSensors{00010103}-236.o(StubCode)
+    theImportedSymbol                        0x0000a788   Data           0  QtSensors{00010103}-236.o(StubCode)
+    StubCode                                 0x0000a78c   Section        8  QtSensors{00010103}-237.o(StubCode)
+    theImportedSymbol                        0x0000a790   Data           0  QtSensors{00010103}-237.o(StubCode)
+    StubCode                                 0x0000a794   Section        8  QtSensors{00010103}-243.o(StubCode)
+    theImportedSymbol                        0x0000a798   Data           0  QtSensors{00010103}-243.o(StubCode)
+    StubCode                                 0x0000a79c   Section        8  QtSensors{00010103}-33.o(StubCode)
+    theImportedSymbol                        0x0000a7a0   Data           0  QtSensors{00010103}-33.o(StubCode)
+    StubCode                                 0x0000a7a4   Section        8  QtSensors{00010103}-34.o(StubCode)
+    theImportedSymbol                        0x0000a7a8   Data           0  QtSensors{00010103}-34.o(StubCode)
+    StubCode                                 0x0000a7ac   Section        8  QtSensors{00010103}-35.o(StubCode)
+    theImportedSymbol                        0x0000a7b0   Data           0  QtSensors{00010103}-35.o(StubCode)
+    StubCode                                 0x0000a7b4   Section        8  QtSensors{00010103}-36.o(StubCode)
+    theImportedSymbol                        0x0000a7b8   Data           0  QtSensors{00010103}-36.o(StubCode)
+    StubCode                                 0x0000a7bc   Section        8  QtSensors{00010103}-37.o(StubCode)
+    theImportedSymbol                        0x0000a7c0   Data           0  QtSensors{00010103}-37.o(StubCode)
+    StubCode                                 0x0000a7c4   Section        8  QtSensors{00010103}-39.o(StubCode)
+    theImportedSymbol                        0x0000a7c8   Data           0  QtSensors{00010103}-39.o(StubCode)
+    StubCode                                 0x0000a7cc   Section        8  QtSensors{00010103}-40.o(StubCode)
+    theImportedSymbol                        0x0000a7d0   Data           0  QtSensors{00010103}-40.o(StubCode)
+    StubCode                                 0x0000a7d4   Section        8  QtSensors{00010103}-41.o(StubCode)
+    theImportedSymbol                        0x0000a7d8   Data           0  QtSensors{00010103}-41.o(StubCode)
+    StubCode                                 0x0000a7dc   Section        8  QtSensors{00010103}-44.o(StubCode)
+    theImportedSymbol                        0x0000a7e0   Data           0  QtSensors{00010103}-44.o(StubCode)
+    StubCode                                 0x0000a7e4   Section        8  QtSensors{00010103}-45.o(StubCode)
+    theImportedSymbol                        0x0000a7e8   Data           0  QtSensors{00010103}-45.o(StubCode)
+    StubCode                                 0x0000a7ec   Section        8  QtSensors{00010103}-48.o(StubCode)
+    theImportedSymbol                        0x0000a7f0   Data           0  QtSensors{00010103}-48.o(StubCode)
+    StubCode                                 0x0000a7f4   Section        8  QtSensors{00010103}-50.o(StubCode)
+    theImportedSymbol                        0x0000a7f8   Data           0  QtSensors{00010103}-50.o(StubCode)
+    StubCode                                 0x0000a7fc   Section        8  QtSensors{00010103}-54.o(StubCode)
+    theImportedSymbol                        0x0000a800   Data           0  QtSensors{00010103}-54.o(StubCode)
+    StubCode                                 0x0000a804   Section        8  QtSensors{00010103}-61.o(StubCode)
+    theImportedSymbol                        0x0000a808   Data           0  QtSensors{00010103}-61.o(StubCode)
+    StubCode                                 0x0000a80c   Section        8  QtSensors{00010103}-67.o(StubCode)
+    theImportedSymbol                        0x0000a810   Data           0  QtSensors{00010103}-67.o(StubCode)
+    StubCode                                 0x0000a814   Section        8  QtSensors{00010103}-68.o(StubCode)
+    theImportedSymbol                        0x0000a818   Data           0  QtSensors{00010103}-68.o(StubCode)
+    StubCode                                 0x0000a81c   Section        8  QtSensors{00010103}-71.o(StubCode)
+    theImportedSymbol                        0x0000a820   Data           0  QtSensors{00010103}-71.o(StubCode)
+    StubCode                                 0x0000a824   Section        8  QtSensors{00010103}-8.o(StubCode)
+    theImportedSymbol                        0x0000a828   Data           0  QtSensors{00010103}-8.o(StubCode)
+    StubCode                                 0x0000a82c   Section        8  QtSensors{00010103}-88.o(StubCode)
+    theImportedSymbol                        0x0000a830   Data           0  QtSensors{00010103}-88.o(StubCode)
+    StubCode                                 0x0000a834   Section        8  QtSensors{00010103}-89.o(StubCode)
+    theImportedSymbol                        0x0000a838   Data           0  QtSensors{00010103}-89.o(StubCode)
+    StubCode                                 0x0000a83c   Section        8  QtSensors{00010103}-90.o(StubCode)
+    theImportedSymbol                        0x0000a840   Data           0  QtSensors{00010103}-90.o(StubCode)
+    StubCode                                 0x0000a844   Section        8  QtSensors{00010103}-91.o(StubCode)
+    theImportedSymbol                        0x0000a848   Data           0  QtSensors{00010103}-91.o(StubCode)
+    StubCode                                 0x0000a84c   Section        8  QtSensors{00010103}-94.o(StubCode)
+    theImportedSymbol                        0x0000a850   Data           0  QtSensors{00010103}-94.o(StubCode)
+    StubCode                                 0x0000a854   Section        8  libstdcpp{00010000}-988.o(StubCode)
+    theImportedSymbol                        0x0000a858   Data           0  libstdcpp{00010000}-988.o(StubCode)
+    StubCode                                 0x0000a85c   Section        8  libstdcpp{00010000}-992.o(StubCode)
+    theImportedSymbol                        0x0000a860   Data           0  libstdcpp{00010000}-992.o(StubCode)
+    StubCode                                 0x0000a864   Section        8  QtCore{00040703}-150.o(StubCode)
+    theImportedSymbol                        0x0000a868   Data           0  QtCore{00040703}-150.o(StubCode)
+    StubCode                                 0x0000a86c   Section        8  QtCore{00040703}-159.o(StubCode)
+    theImportedSymbol                        0x0000a870   Data           0  QtCore{00040703}-159.o(StubCode)
+    StubCode                                 0x0000a874   Section        8  QtCore{00040703}-1760.o(StubCode)
+    theImportedSymbol                        0x0000a878   Data           0  QtCore{00040703}-1760.o(StubCode)
+    StubCode                                 0x0000a87c   Section        8  QtCore{00040703}-1763.o(StubCode)
+    theImportedSymbol                        0x0000a880   Data           0  QtCore{00040703}-1763.o(StubCode)
+    StubCode                                 0x0000a884   Section        8  QtCore{00040703}-1764.o(StubCode)
+    theImportedSymbol                        0x0000a888   Data           0  QtCore{00040703}-1764.o(StubCode)
+    StubCode                                 0x0000a88c   Section        8  QtCore{00040703}-1766.o(StubCode)
+    theImportedSymbol                        0x0000a890   Data           0  QtCore{00040703}-1766.o(StubCode)
+    StubCode                                 0x0000a894   Section        8  QtCore{00040703}-1767.o(StubCode)
+    theImportedSymbol                        0x0000a898   Data           0  QtCore{00040703}-1767.o(StubCode)
+    StubCode                                 0x0000a89c   Section        8  QtCore{00040703}-1768.o(StubCode)
+    theImportedSymbol                        0x0000a8a0   Data           0  QtCore{00040703}-1768.o(StubCode)
+    StubCode                                 0x0000a8a4   Section        8  QtCore{00040703}-1769.o(StubCode)
+    theImportedSymbol                        0x0000a8a8   Data           0  QtCore{00040703}-1769.o(StubCode)
+    StubCode                                 0x0000a8ac   Section        8  QtCore{00040703}-1773.o(StubCode)
+    theImportedSymbol                        0x0000a8b0   Data           0  QtCore{00040703}-1773.o(StubCode)
+    StubCode                                 0x0000a8b4   Section        8  QtCore{00040703}-1777.o(StubCode)
+    theImportedSymbol                        0x0000a8b8   Data           0  QtCore{00040703}-1777.o(StubCode)
+    StubCode                                 0x0000a8bc   Section        8  QtCore{00040703}-1784.o(StubCode)
+    theImportedSymbol                        0x0000a8c0   Data           0  QtCore{00040703}-1784.o(StubCode)
+    StubCode                                 0x0000a8c4   Section        8  QtCore{00040703}-1789.o(StubCode)
+    theImportedSymbol                        0x0000a8c8   Data           0  QtCore{00040703}-1789.o(StubCode)
+    StubCode                                 0x0000a8cc   Section        8  QtCore{00040703}-1794.o(StubCode)
+    theImportedSymbol                        0x0000a8d0   Data           0  QtCore{00040703}-1794.o(StubCode)
+    StubCode                                 0x0000a8d4   Section        8  QtCore{00040703}-1830.o(StubCode)
+    theImportedSymbol                        0x0000a8d8   Data           0  QtCore{00040703}-1830.o(StubCode)
+    StubCode                                 0x0000a8dc   Section        8  QtCore{00040703}-1836.o(StubCode)
+    theImportedSymbol                        0x0000a8e0   Data           0  QtCore{00040703}-1836.o(StubCode)
+    StubCode                                 0x0000a8e4   Section        8  QtCore{00040703}-1874.o(StubCode)
+    theImportedSymbol                        0x0000a8e8   Data           0  QtCore{00040703}-1874.o(StubCode)
+    StubCode                                 0x0000a8ec   Section        8  QtCore{00040703}-2038.o(StubCode)
+    theImportedSymbol                        0x0000a8f0   Data           0  QtCore{00040703}-2038.o(StubCode)
+    StubCode                                 0x0000a8f4   Section        8  QtCore{00040703}-2082.o(StubCode)
+    theImportedSymbol                        0x0000a8f8   Data           0  QtCore{00040703}-2082.o(StubCode)
+    StubCode                                 0x0000a8fc   Section        8  QtCore{00040703}-2084.o(StubCode)
+    theImportedSymbol                        0x0000a900   Data           0  QtCore{00040703}-2084.o(StubCode)
+    StubCode                                 0x0000a904   Section        8  QtCore{00040703}-274.o(StubCode)
+    theImportedSymbol                        0x0000a908   Data           0  QtCore{00040703}-274.o(StubCode)
+    StubCode                                 0x0000a90c   Section        8  QtCore{00040703}-275.o(StubCode)
+    theImportedSymbol                        0x0000a910   Data           0  QtCore{00040703}-275.o(StubCode)
+    StubCode                                 0x0000a914   Section        8  QtCore{00040703}-3008.o(StubCode)
+    theImportedSymbol                        0x0000a918   Data           0  QtCore{00040703}-3008.o(StubCode)
+    StubCode                                 0x0000a91c   Section        8  QtCore{00040703}-3040.o(StubCode)
+    theImportedSymbol                        0x0000a920   Data           0  QtCore{00040703}-3040.o(StubCode)
+    StubCode                                 0x0000a924   Section        8  QtCore{00040703}-312.o(StubCode)
+    theImportedSymbol                        0x0000a928   Data           0  QtCore{00040703}-312.o(StubCode)
+    StubCode                                 0x0000a92c   Section        8  QtCore{00040703}-3139.o(StubCode)
+    theImportedSymbol                        0x0000a930   Data           0  QtCore{00040703}-3139.o(StubCode)
+    StubCode                                 0x0000a934   Section        8  QtCore{00040703}-3143.o(StubCode)
+    theImportedSymbol                        0x0000a938   Data           0  QtCore{00040703}-3143.o(StubCode)
+    StubCode                                 0x0000a93c   Section        8  QtCore{00040703}-32.o(StubCode)
+    theImportedSymbol                        0x0000a940   Data           0  QtCore{00040703}-32.o(StubCode)
+    StubCode                                 0x0000a944   Section        8  QtCore{00040703}-324.o(StubCode)
+    theImportedSymbol                        0x0000a948   Data           0  QtCore{00040703}-324.o(StubCode)
+    StubCode                                 0x0000a94c   Section        8  QtCore{00040703}-331.o(StubCode)
+    theImportedSymbol                        0x0000a950   Data           0  QtCore{00040703}-331.o(StubCode)
+    StubCode                                 0x0000a954   Section        8  QtCore{00040703}-332.o(StubCode)
+    theImportedSymbol                        0x0000a958   Data           0  QtCore{00040703}-332.o(StubCode)
+    StubCode                                 0x0000a95c   Section        8  QtCore{00040703}-3691.o(StubCode)
+    theImportedSymbol                        0x0000a960   Data           0  QtCore{00040703}-3691.o(StubCode)
+    StubCode                                 0x0000a964   Section        8  QtCore{00040703}-70.o(StubCode)
+    theImportedSymbol                        0x0000a968   Data           0  QtCore{00040703}-70.o(StubCode)
+    StubCode                                 0x0000a96c   Section        8  QtCore{00040703}-95.o(StubCode)
+    theImportedSymbol                        0x0000a970   Data           0  QtCore{00040703}-95.o(StubCode)
+    StubCode                                 0x0000a974   Section        8  libc{00010000}-350.o(StubCode)
+    theImportedSymbol                        0x0000a978   Data           0  libc{00010000}-350.o(StubCode)
+    StubCode                                 0x0000a97c   Section        8  euser{000a0000}-120.o(StubCode)
+    theImportedSymbol                        0x0000a980   Data           0  euser{000a0000}-120.o(StubCode)
+    StubCode                                 0x0000a984   Section        8  euser{000a0000}-1415.o(StubCode)
+    theImportedSymbol                        0x0000a988   Data           0  euser{000a0000}-1415.o(StubCode)
+    StubCode                                 0x0000a98c   Section        8  euser{000a0000}-1416.o(StubCode)
+    theImportedSymbol                        0x0000a990   Data           0  euser{000a0000}-1416.o(StubCode)
+    StubCode                                 0x0000a994   Section        8  euser{000a0000}-1417.o(StubCode)
+    theImportedSymbol                        0x0000a998   Data           0  euser{000a0000}-1417.o(StubCode)
+    StubCode                                 0x0000a99c   Section        8  euser{000a0000}-1468.o(StubCode)
+    theImportedSymbol                        0x0000a9a0   Data           0  euser{000a0000}-1468.o(StubCode)
+    StubCode                                 0x0000a9a4   Section        8  euser{000a0000}-1507.o(StubCode)
+    theImportedSymbol                        0x0000a9a8   Data           0  euser{000a0000}-1507.o(StubCode)
+    StubCode                                 0x0000a9ac   Section        8  euser{000a0000}-1510.o(StubCode)
+    theImportedSymbol                        0x0000a9b0   Data           0  euser{000a0000}-1510.o(StubCode)
+    StubCode                                 0x0000a9b4   Section        8  euser{000a0000}-203.o(StubCode)
+    theImportedSymbol                        0x0000a9b8   Data           0  euser{000a0000}-203.o(StubCode)
+    StubCode                                 0x0000a9bc   Section        8  euser{000a0000}-205.o(StubCode)
+    theImportedSymbol                        0x0000a9c0   Data           0  euser{000a0000}-205.o(StubCode)
+    StubCode                                 0x0000a9c4   Section        8  euser{000a0000}-2060.o(StubCode)
+    theImportedSymbol                        0x0000a9c8   Data           0  euser{000a0000}-2060.o(StubCode)
+    StubCode                                 0x0000a9cc   Section        8  euser{000a0000}-2061.o(StubCode)
+    theImportedSymbol                        0x0000a9d0   Data           0  euser{000a0000}-2061.o(StubCode)
+    StubCode                                 0x0000a9d4   Section        8  euser{000a0000}-208.o(StubCode)
+    theImportedSymbol                        0x0000a9d8   Data           0  euser{000a0000}-208.o(StubCode)
+    StubCode                                 0x0000a9dc   Section        8  euser{000a0000}-2082.o(StubCode)
+    theImportedSymbol                        0x0000a9e0   Data           0  euser{000a0000}-2082.o(StubCode)
+    StubCode                                 0x0000a9e4   Section        8  euser{000a0000}-2123.o(StubCode)
+    theImportedSymbol                        0x0000a9e8   Data           0  euser{000a0000}-2123.o(StubCode)
+    StubCode                                 0x0000a9ec   Section        8  euser{000a0000}-2125.o(StubCode)
+    theImportedSymbol                        0x0000a9f0   Data           0  euser{000a0000}-2125.o(StubCode)
+    StubCode                                 0x0000a9f4   Section        8  euser{000a0000}-46.o(StubCode)
+    theImportedSymbol                        0x0000a9f8   Data           0  euser{000a0000}-46.o(StubCode)
+    StubCode                                 0x0000a9fc   Section        8  euser{000a0000}-539.o(StubCode)
+    theImportedSymbol                        0x0000aa00   Data           0  euser{000a0000}-539.o(StubCode)
+    StubCode                                 0x0000aa04   Section        8  euser{000a0000}-55.o(StubCode)
+    theImportedSymbol                        0x0000aa08   Data           0  euser{000a0000}-55.o(StubCode)
+    StubCode                                 0x0000aa0c   Section        8  euser{000a0000}-593.o(StubCode)
+    theImportedSymbol                        0x0000aa10   Data           0  euser{000a0000}-593.o(StubCode)
+    StubCode                                 0x0000aa14   Section        8  euser{000a0000}-649.o(StubCode)
+    theImportedSymbol                        0x0000aa18   Data           0  euser{000a0000}-649.o(StubCode)
+    StubCode                                 0x0000aa1c   Section        8  euser{000a0000}-654.o(StubCode)
+    theImportedSymbol                        0x0000aa20   Data           0  euser{000a0000}-654.o(StubCode)
+    StubCode                                 0x0000aa24   Section        8  euser{000a0000}-669.o(StubCode)
+    theImportedSymbol                        0x0000aa28   Data           0  euser{000a0000}-669.o(StubCode)
+    StubCode                                 0x0000aa2c   Section        8  euser{000a0000}-670.o(StubCode)
+    theImportedSymbol                        0x0000aa30   Data           0  euser{000a0000}-670.o(StubCode)
+    StubCode                                 0x0000aa34   Section        8  euser{000a0000}-671.o(StubCode)
+    theImportedSymbol                        0x0000aa38   Data           0  euser{000a0000}-671.o(StubCode)
+    StubCode                                 0x0000aa3c   Section        8  euser{000a0000}-744.o(StubCode)
+    theImportedSymbol                        0x0000aa40   Data           0  euser{000a0000}-744.o(StubCode)
+    StubCode                                 0x0000aa44   Section        8  euser{000a0000}-749.o(StubCode)
+    theImportedSymbol                        0x0000aa48   Data           0  euser{000a0000}-749.o(StubCode)
+    StubCode                                 0x0000aa4c   Section        8  euser{000a0000}-816.o(StubCode)
+    theImportedSymbol                        0x0000aa50   Data           0  euser{000a0000}-816.o(StubCode)
+    StubCode                                 0x0000aa54   Section        8  dfpaeabi{000a0000}-1.o(StubCode)
+    theImportedSymbol                        0x0000aa58   Data           0  dfpaeabi{000a0000}-1.o(StubCode)
+    StubCode                                 0x0000aa5c   Section        8  dfpaeabi{000a0000}-19.o(StubCode)
+    theImportedSymbol                        0x0000aa60   Data           0  dfpaeabi{000a0000}-19.o(StubCode)
+    StubCode                                 0x0000aa64   Section        8  dfpaeabi{000a0000}-20.o(StubCode)
+    theImportedSymbol                        0x0000aa68   Data           0  dfpaeabi{000a0000}-20.o(StubCode)
+    StubCode                                 0x0000aa6c   Section        8  dfpaeabi{000a0000}-24.o(StubCode)
+    theImportedSymbol                        0x0000aa70   Data           0  dfpaeabi{000a0000}-24.o(StubCode)
+    StubCode                                 0x0000aa74   Section        8  dfpaeabi{000a0000}-41.o(StubCode)
+    theImportedSymbol                        0x0000aa78   Data           0  dfpaeabi{000a0000}-41.o(StubCode)
+    StubCode                                 0x0000aa7c   Section        8  dfpaeabi{000a0000}-42.o(StubCode)
+    theImportedSymbol                        0x0000aa80   Data           0  dfpaeabi{000a0000}-42.o(StubCode)
+    StubCode                                 0x0000aa84   Section        8  dfpaeabi{000a0000}-7.o(StubCode)
+    theImportedSymbol                        0x0000aa88   Data           0  dfpaeabi{000a0000}-7.o(StubCode)
+    StubCode                                 0x0000aa8c   Section        8  dfpaeabi{000a0000}-8.o(StubCode)
+    theImportedSymbol                        0x0000aa90   Data           0  dfpaeabi{000a0000}-8.o(StubCode)
+    StubCode                                 0x0000aa94   Section        8  drtaeabi{000a0000}-158.o(StubCode)
+    theImportedSymbol                        0x0000aa98   Data           0  drtaeabi{000a0000}-158.o(StubCode)
+    StubCode                                 0x0000aa9c   Section        8  drtaeabi{000a0000}-180.o(StubCode)
+    theImportedSymbol                        0x0000aaa0   Data           0  drtaeabi{000a0000}-180.o(StubCode)
+    StubCode                                 0x0000aaa4   Section        8  drtaeabi{000a0000}-183.o(StubCode)
+    theImportedSymbol                        0x0000aaa8   Data           0  drtaeabi{000a0000}-183.o(StubCode)
+    StubCode                                 0x0000aaac   Section        8  drtaeabi{000a0000}-184.o(StubCode)
+    theImportedSymbol                        0x0000aab0   Data           0  drtaeabi{000a0000}-184.o(StubCode)
+    StubCode                                 0x0000aab4   Section        8  drtaeabi{000a0000}-186.o(StubCode)
+    theImportedSymbol                        0x0000aab8   Data           0  drtaeabi{000a0000}-186.o(StubCode)
+    StubCode                                 0x0000aabc   Section        8  drtaeabi{000a0000}-187.o(StubCode)
+    theImportedSymbol                        0x0000aac0   Data           0  drtaeabi{000a0000}-187.o(StubCode)
+    StubCode                                 0x0000aac4   Section        8  drtaeabi{000a0000}-188.o(StubCode)
+    theImportedSymbol                        0x0000aac8   Data           0  drtaeabi{000a0000}-188.o(StubCode)
+    StubCode                                 0x0000aacc   Section        8  drtaeabi{000a0000}-189.o(StubCode)
+    theImportedSymbol                        0x0000aad0   Data           0  drtaeabi{000a0000}-189.o(StubCode)
+    StubCode                                 0x0000aad4   Section        8  drtaeabi{000a0000}-190.o(StubCode)
+    theImportedSymbol                        0x0000aad8   Data           0  drtaeabi{000a0000}-190.o(StubCode)
+    StubCode                                 0x0000aadc   Section        8  drtrvct2_2{000a0000}-28.o(StubCode)
+    theImportedSymbol                        0x0000aae0   Data           0  drtrvct2_2{000a0000}-28.o(StubCode)
+    i._Z6qDebugv                             0x0000aae4   Section       76  qtsensors_sym.in(i._Z6qDebugv)
+    i._Z6qDebugv.clean                       0x0000ab30   Section       18  qtsensors_sym.in(i._Z6qDebugv.clean)
+    i._ZN10QByteArrayD1Ev                    0x0000ab42   Section       24  qtsensors_sym.in(i._ZN10QByteArrayD1Ev)
+    i._ZN15QBasicAtomicInt5derefEv           0x0000ab5a   Section       18  qtsensors_sym.in(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN15SensorPluginSym13createBackendEPN10QtMobility7QSensorE 0x0000ab6c   Section      648  qtsensors_sym.in(i._ZN15SensorPluginSym13createBackendEPN10QtMobility7QSensorE)
+    i._ZN15SensorPluginSym13createBackendEPN10QtMobility7QSensorE.clean 0x0000adf4   Section       16  qtsensors_sym.in(i._ZN15SensorPluginSym13createBackendEPN10QtMobility7QSensorE.clean)
+    i._ZN15SensorPluginSym15registerSensorsEv 0x0000ae04   Section      496  qtsensors_sym.in(i._ZN15SensorPluginSym15registerSensorsEv)
+    i._ZN15SensorPluginSym15registerSensorsEv.clean 0x0000aff4   Section       42  qtsensors_sym.in(i._ZN15SensorPluginSym15registerSensorsEv.clean)
+    i._ZN15SensorPluginSymD0Ev               0x0000b01e   Section       16  qtsensors_sym.in(i._ZN15SensorPluginSymD0Ev)
+    i._ZN15SensorPluginSymD1Ev               0x0000b02e   Section        8  qtsensors_sym.in(i._ZN15SensorPluginSymD1Ev)
+    i._ZN6QDebugD1Ev                         0x0000b036   Section      116  qtsensors_sym.in(i._ZN6QDebugD1Ev)
+    i._ZN6QDebugD1Ev.clean                   0x0000b0aa   Section       20  qtsensors_sym.in(i._ZN6QDebugD1Ev.clean)
+    i._ZN7QStringD1Ev                        0x0000b0be   Section       24  qtsensors_sym.in(i._ZN7QStringD1Ev)
+    i._ZNK8QVariant7isValidEv                0x0000b0d6   Section       14  qtsensors_sym.in(i._ZNK8QVariant7isValidEv)
+    i._ZNK9QListData2atEi                    0x0000b0e4   Section       16  qtsensors_sym.in(i._ZNK9QListData2atEi)
+    i._ZNK9QListData3endEv                   0x0000b0f4   Section       12  qtsensors_sym.in(i._ZNK9QListData3endEv)
+    i._ZNK9QListData4sizeEv                  0x0000b100   Section       10  qtsensors_sym.in(i._ZNK9QListData4sizeEv)
+    i._ZNK9QListData5beginEv                 0x0000b10a   Section       12  qtsensors_sym.in(i._ZNK9QListData5beginEv)
+    i._ZThn12_N15SensorPluginSym13createBackendEPN10QtMobility7QSensorE 0x0000b116   Section       10  qtsensors_sym.in(i._ZThn12_N15SensorPluginSym13createBackendEPN10QtMobility7QSensorE)
+    i._ZThn8_N15SensorPluginSym15registerSensorsEv 0x0000b120   Section       10  qtsensors_sym.in(i._ZThn8_N15SensorPluginSym15registerSensorsEv)
+    i._ZeqRK10QByteArrayPKc                  0x0000b12a   Section       38  qtsensors_sym.in(i._ZeqRK10QByteArrayPKc)
+    t._ZN10QtMobility14QSensorBackend10setReadingINS_11QTapReadingEEEPT_S4_ 0x0000b150   Section      116  qtsensors_sym.in(t._ZN10QtMobility14QSensorBackend10setReadingINS_11QTapReadingEEEPT_S4_)
+    t._ZN10QtMobility14QSensorBackend10setReadingINS_11QTapReadingEEEPT_S4_.clean 0x0000b1c4   Section       30  qtsensors_sym.in(t._ZN10QtMobility14QSensorBackend10setReadingINS_11QTapReadingEEEPT_S4_.clean)
+    t._ZN10QtMobility14QSensorBackend10setReadingINS_15QCompassReadingEEEPT_S4_ 0x0000b1e2   Section      116  qtsensors_sym.in(t._ZN10QtMobility14QSensorBackend10setReadingINS_15QCompassReadingEEEPT_S4_)
+    t._ZN10QtMobility14QSensorBackend10setReadingINS_15QCompassReadingEEEPT_S4_.clean 0x0000b256   Section       30  qtsensors_sym.in(t._ZN10QtMobility14QSensorBackend10setReadingINS_15QCompassReadingEEEPT_S4_.clean)
+    t._ZN10QtMobility14QSensorBackend10setReadingINS_16QRotationReadingEEEPT_S4_ 0x0000b274   Section      116  qtsensors_sym.in(t._ZN10QtMobility14QSensorBackend10setReadingINS_16QRotationReadingEEEPT_S4_)
+    t._ZN10QtMobility14QSensorBackend10setReadingINS_16QRotationReadingEEEPT_S4_.clean 0x0000b2e8   Section       30  qtsensors_sym.in(t._ZN10QtMobility14QSensorBackend10setReadingINS_16QRotationReadingEEEPT_S4_.clean)
+    t._ZN10QtMobility14QSensorBackend10setReadingINS_17QProximityReadingEEEPT_S4_ 0x0000b306   Section      116  qtsensors_sym.in(t._ZN10QtMobility14QSensorBackend10setReadingINS_17QProximityReadingEEEPT_S4_)
+    t._ZN10QtMobility14QSensorBackend10setReadingINS_17QProximityReadingEEEPT_S4_.clean 0x0000b37a   Section       30  qtsensors_sym.in(t._ZN10QtMobility14QSensorBackend10setReadingINS_17QProximityReadingEEEPT_S4_.clean)
+    t._ZN10QtMobility14QSensorBackend10setReadingINS_19QOrientationReadingEEEPT_S4_ 0x0000b398   Section      116  qtsensors_sym.in(t._ZN10QtMobility14QSensorBackend10setReadingINS_19QOrientationReadingEEEPT_S4_)
+    t._ZN10QtMobility14QSensorBackend10setReadingINS_19QOrientationReadingEEEPT_S4_.clean 0x0000b40c   Section       30  qtsensors_sym.in(t._ZN10QtMobility14QSensorBackend10setReadingINS_19QOrientationReadingEEEPT_S4_.clean)
+    t._ZN10QtMobility14QSensorBackend10setReadingINS_20QAmbientLightReadingEEEPT_S4_ 0x0000b42a   Section      116  qtsensors_sym.in(t._ZN10QtMobility14QSensorBackend10setReadingINS_20QAmbientLightReadingEEEPT_S4_)
+    t._ZN10QtMobility14QSensorBackend10setReadingINS_20QAmbientLightReadingEEEPT_S4_.clean 0x0000b49e   Section       30  qtsensors_sym.in(t._ZN10QtMobility14QSensorBackend10setReadingINS_20QAmbientLightReadingEEEPT_S4_.clean)
+    t._ZN10QtMobility14QSensorBackend10setReadingINS_20QMagnetometerReadingEEEPT_S4_ 0x0000b4bc   Section      116  qtsensors_sym.in(t._ZN10QtMobility14QSensorBackend10setReadingINS_20QMagnetometerReadingEEEPT_S4_)
+    t._ZN10QtMobility14QSensorBackend10setReadingINS_20QMagnetometerReadingEEEPT_S4_.clean 0x0000b530   Section       30  qtsensors_sym.in(t._ZN10QtMobility14QSensorBackend10setReadingINS_20QMagnetometerReadingEEEPT_S4_.clean)
+    t._ZN10QtMobility14QSensorBackend10setReadingINS_21QAccelerometerReadingEEEPT_S4_ 0x0000b54e   Section      116  qtsensors_sym.in(t._ZN10QtMobility14QSensorBackend10setReadingINS_21QAccelerometerReadingEEEPT_S4_)
+    t._ZN10QtMobility14QSensorBackend10setReadingINS_21QAccelerometerReadingEEEPT_S4_.clean 0x0000b5c2   Section       30  qtsensors_sym.in(t._ZN10QtMobility14QSensorBackend10setReadingINS_21QAccelerometerReadingEEEPT_S4_.clean)
+    t._ZN5QListI5QPairIiiEE13detach_helperEi 0x0000b5e0   Section      112  qtsensors_sym.in(t._ZN5QListI5QPairIiiEE13detach_helperEi)
+    t._ZN5QListI5QPairIiiEE13detach_helperEi.clean 0x0000b650   Section        8  qtsensors_sym.in(t._ZN5QListI5QPairIiiEE13detach_helperEi.clean)
+    t._ZN5QListI5QPairIiiEE4freeEPN9QListData4DataE 0x0000b658   Section       48  qtsensors_sym.in(t._ZN5QListI5QPairIiiEE4freeEPN9QListData4DataE)
+    t._ZN5QListI5QPairIiiEED1Ev              0x0000b688   Section       30  qtsensors_sym.in(t._ZN5QListI5QPairIiiEED1Ev)
+    t._ZN5QListI5QPairIiiEEixEi              0x0000b6a6   Section       34  qtsensors_sym.in(t._ZN5QListI5QPairIiiEEixEi)
+    t._ZN5QListIN10QtMobility12qoutputrangeEE13detach_helperEi 0x0000b6c8   Section      112  qtsensors_sym.in(t._ZN5QListIN10QtMobility12qoutputrangeEE13detach_helperEi)
+    t._ZN5QListIN10QtMobility12qoutputrangeEE13detach_helperEi.clean 0x0000b738   Section        8  qtsensors_sym.in(t._ZN5QListIN10QtMobility12qoutputrangeEE13detach_helperEi.clean)
+    t._ZN5QListIN10QtMobility12qoutputrangeEE4freeEPN9QListData4DataE 0x0000b740   Section       48  qtsensors_sym.in(t._ZN5QListIN10QtMobility12qoutputrangeEE4freeEPN9QListData4DataE)
+    t._ZN5QListIN10QtMobility12qoutputrangeEED1Ev 0x0000b770   Section       30  qtsensors_sym.in(t._ZN5QListIN10QtMobility12qoutputrangeEED1Ev)
+    t._ZN5TPckgI18TSensrvTappingDataEC1ERKS0_ 0x0000b78e   Section       12  qtsensors_sym.in(t._ZN5TPckgI18TSensrvTappingDataEC1ERKS0_)
+    t._ZN5TPckgI19TSensrvRotationDataEC1ERKS0_ 0x0000b79a   Section       12  qtsensors_sym.in(t._ZN5TPckgI19TSensrvRotationDataEC1ERKS0_)
+    t._ZN5TPckgI20TSensrvProximityDataEC1ERKS0_ 0x0000b7a6   Section       12  qtsensors_sym.in(t._ZN5TPckgI20TSensrvProximityDataEC1ERKS0_)
+    t._ZN5TPckgI22TSensrvOrientationDataEC1ERKS0_ 0x0000b7b2   Section       12  qtsensors_sym.in(t._ZN5TPckgI22TSensrvOrientationDataEC1ERKS0_)
+    t._ZN5TPckgI23TSensrvAmbientLightDataEC1ERKS0_ 0x0000b7be   Section       12  qtsensors_sym.in(t._ZN5TPckgI23TSensrvAmbientLightDataEC1ERKS0_)
+    t._ZN5TPckgI24TSensrvMagneticNorthDataEC1ERKS0_ 0x0000b7ca   Section       12  qtsensors_sym.in(t._ZN5TPckgI24TSensrvMagneticNorthDataEC1ERKS0_)
+    t._ZN5TPckgI27TSensrvMagnetometerAxisDataEC1ERKS0_ 0x0000b7d6   Section       12  qtsensors_sym.in(t._ZN5TPckgI27TSensrvMagnetometerAxisDataEC1ERKS0_)
+    t._ZN5TPckgI28TSensrvAccelerometerAxisDataEC1ERKS0_ 0x0000b7e2   Section       12  qtsensors_sym.in(t._ZN5TPckgI28TSensrvAccelerometerAxisDataEC1ERKS0_)
+    t._ZN6RArrayI15TSensrvPropertyEixEi      0x0000b7ee   Section        8  qtsensors_sym.in(t._ZN6RArrayI15TSensrvPropertyEixEi)
+    t._ZN8QPointerI7QObjectED1Ev             0x0000b7f6   Section       12  qtsensors_sym.in(t._ZN8QPointerI7QObjectED1Ev)
+    t._ZNK5QListI5QPairIiiEE7indexOfERKS1_i  0x0000b802   Section      106  qtsensors_sym.in(t._ZNK5QListI5QPairIiiEE7indexOfERKS1_i)
+    .extab._ZN17CSensorBackendSym12propertyTypeEmRi 0x0000b86c   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN17CSensorBackendSym11SetDataRateEv 0x0000b894   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN17CSensorBackendSym19SetMeasurementRangeEv 0x0000b8b4   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN17CSensorBackendSym5startEv    0x0000b8c4   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN17CSensorBackendSym4stopEv     0x0000b90c   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN17CSensorBackendSymD2Ev        0x0000b934   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN17CSensorBackendSym15PropertyChangedER14CSensrvChannelRK15TSensrvProperty 0x0000b944   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN17CSensorBackendSymC2EPN10QtMobility7QSensorE 0x0000b974   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN17CSensorBackendSym11GetDataRateEv 0x0000b98c   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN17CSensorBackendSym14GetDescriptionEv 0x0000b9d4   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN17CSensorBackendSym30GetMeasurementrangeAndAccuracyEv 0x0000ba0c   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN17CSensorBackendSym5CloseEv    0x0000ba94   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN5QListI5QPairIiiEE13detach_helperEi 0x0000babc   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN19CProximitySensorSymC1EPN10QtMobility7QSensorE 0x0000bad8   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN19CProximitySensorSymD1Ev      0x0000baf0   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN10QtMobility14QSensorBackend10setReadingINS_17QProximityReadingEEEPT_S4_ 0x0000bb08   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN22CAmbientLightSensorSymC1EPN10QtMobility7QSensorE 0x0000bb30   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN22CAmbientLightSensorSymD1Ev   0x0000bb48   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN10QtMobility14QSensorBackend10setReadingINS_20QAmbientLightReadingEEEPT_S4_ 0x0000bb60   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN22CMagnetometerSensorSymC1EPN10QtMobility7QSensorE 0x0000bb88   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN22CMagnetometerSensorSymD1Ev   0x0000bba0   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN22CMagnetometerSensorSym5startEv 0x0000bbb8   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN22CMagnetometerSensorSym14ProcessReadingEv 0x0000bc48   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility12qoutputrangeEE13detach_helperEi 0x0000bc58   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN10QtMobility14QSensorBackend10setReadingINS_20QMagnetometerReadingEEEPT_S4_ 0x0000bc74   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN11CCompassSym10ConstructLEv    0x0000bc9c   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN11CCompassSymC1EPN10QtMobility7QSensorE 0x0000bcbc   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN11CCompassSymD1Ev              0x0000bcd4   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN10QtMobility14QSensorBackend10setReadingINS_15QCompassReadingEEEPT_S4_ 0x0000bcec   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN23CAccelerometerSensorSym10ConstructLEv 0x0000bd14   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN23CAccelerometerSensorSymC1EPN10QtMobility7QSensorE 0x0000bd3c   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN23CAccelerometerSensorSymD1Ev  0x0000bd54   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN23CAccelerometerSensorSym5startEv 0x0000bd6c   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN23CAccelerometerSensorSym14ProcessReadingEv 0x0000bdd4   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN10QtMobility14QSensorBackend10setReadingINS_21QAccelerometerReadingEEEPT_S4_ 0x0000bde4   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN21COrientationSensorSymC1EPN10QtMobility7QSensorE 0x0000be0c   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN21COrientationSensorSymD1Ev    0x0000be24   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN10QtMobility14QSensorBackend10setReadingINS_19QOrientationReadingEEEPT_S4_ 0x0000be3c   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN18CRotationSensorSymC1EPN10QtMobility7QSensorE 0x0000be64   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN18CRotationSensorSymD1Ev       0x0000be7c   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN18CRotationSensorSym14ProcessReadingEv 0x0000be94   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN18CRotationSensorSym30GetMeasurementrangeAndAccuracyEv 0x0000beac   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN10QtMobility14QSensorBackend10setReadingINS_16QRotationReadingEEEPT_S4_ 0x0000bed4   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN13CTapSensorSymC1EPN10QtMobility7QSensorE 0x0000befc   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN13CTapSensorSymD1Ev            0x0000bf14   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN10QtMobility14QSensorBackend10setReadingINS_11QTapReadingEEEPT_S4_ 0x0000bf2c   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab.qt_plugin_instance                0x0000bf54   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN15SensorPluginSym15registerSensorsEv 0x0000bf6c   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN15SensorPluginSym13createBackendEPN10QtMobility7QSensorE 0x0000c044   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._Z6qDebugv                        0x0000c18c   Data           0  qtsensors_sym.in(.ARM.extab)
+    .extab._ZN6QDebugD1Ev                    0x0000c1a4   Data           0  qtsensors_sym.in(.ARM.extab)
+    .constdata$10                            0x0000c1c8   Data           0  qtsensors_sym.in(.constdata)
+    .constdata                               0x0000c1c8   Section        4  qtsensors_sym.in(.constdata)
+    .constdata$10                            0x0000c1cc   Data           0  qtsensors_sym.in(.constdata)
+    .constdata                               0x0000c1cc   Section        4  qtsensors_sym.in(.constdata)
+    .constdata$10                            0x0000c1d0   Data           0  qtsensors_sym.in(.constdata)
+    .constdata                               0x0000c1d0   Section        4  qtsensors_sym.in(.constdata)
+    .constdata$10                            0x0000c1d4   Data           0  qtsensors_sym.in(.constdata)
+    .constdata                               0x0000c1d4   Section        4  qtsensors_sym.in(.constdata)
+    .constdata$10                            0x0000c1d8   Data           0  qtsensors_sym.in(.constdata)
+    .constdata                               0x0000c1d8   Section        4  qtsensors_sym.in(.constdata)
+    .constdata$10                            0x0000c1dc   Data           0  qtsensors_sym.in(.constdata)
+    .constdata                               0x0000c1dc   Section        4  qtsensors_sym.in(.constdata)
+    .constdata$10                            0x0000c1e0   Data           0  qtsensors_sym.in(.constdata)
+    .constdata                               0x0000c1e0   Section        4  qtsensors_sym.in(.constdata)
+    .constdata$10                            0x0000c1e4   Data           0  qtsensors_sym.in(.constdata)
+    .constdata                               0x0000c1e4   Section        4  qtsensors_sym.in(.constdata)
+    .constdata$1                             0x0000c1e8   Data           0  qtsensors_sym.in(.constdata)
+    qt_plugin_verification_data              0x0000c1e8   Data          91  qtsensors_sym.in(.constdata)
+    .constdata                               0x0000c1e8   Section      124  qtsensors_sym.in(.constdata)
+    qt_meta_stringdata_SensorPluginSym       0x0000c243   Data          17  qtsensors_sym.in(.constdata)
+    .constdata$10                            0x0000c264   Data           0  qtsensors_sym.in(.constdata)
+    qt_meta_data_SensorPluginSym             0x0000c264   Data          60  qtsensors_sym.in(.constdata)
+    .constdata                               0x0000c264   Section       60  qtsensors_sym.in(.constdata)
+    .constdata__ZTI11CCompassSym             0x0000c2a0   Section       12  qtsensors_sym.in(.constdata__ZTI11CCompassSym)
+    .constdata__ZTI13CTapSensorSym           0x0000c2ac   Section       12  qtsensors_sym.in(.constdata__ZTI13CTapSensorSym)
+    .constdata__ZTI15SensorPluginSym         0x0000c2b8   Section       40  qtsensors_sym.in(.constdata__ZTI15SensorPluginSym)
+    .constdata__ZTI17CSensorBackendSym       0x0000c2e0   Section       48  qtsensors_sym.in(.constdata__ZTI17CSensorBackendSym)
+    .constdata__ZTI18CRotationSensorSym      0x0000c310   Section       12  qtsensors_sym.in(.constdata__ZTI18CRotationSensorSym)
+    .constdata__ZTI19CProximitySensorSym     0x0000c31c   Section       12  qtsensors_sym.in(.constdata__ZTI19CProximitySensorSym)
+    .constdata__ZTI19MSensrvDataListener     0x0000c328   Section        8  qtsensors_sym.in(.constdata__ZTI19MSensrvDataListener)
+    .constdata__ZTI21COrientationSensorSym   0x0000c330   Section       12  qtsensors_sym.in(.constdata__ZTI21COrientationSensorSym)
+    .constdata__ZTI22CAmbientLightSensorSym  0x0000c33c   Section       12  qtsensors_sym.in(.constdata__ZTI22CAmbientLightSensorSym)
+    .constdata__ZTI22CMagnetometerSensorSym  0x0000c348   Section       12  qtsensors_sym.in(.constdata__ZTI22CMagnetometerSensorSym)
+    .constdata__ZTI23CAccelerometerSensorSym 0x0000c354   Section       12  qtsensors_sym.in(.constdata__ZTI23CAccelerometerSensorSym)
+    .constdata__ZTI23MSensrvPropertyListener 0x0000c360   Section        8  qtsensors_sym.in(.constdata__ZTI23MSensrvPropertyListener)
+    .constdata__ZTIN10QtMobility21QSensorBackendFactoryE 0x0000c368   Section        8  qtsensors_sym.in(.constdata__ZTIN10QtMobility21QSensorBackendFactoryE)
+    .constdata__ZTIN10QtMobility22QSensorPluginInterfaceE 0x0000c370   Section        8  qtsensors_sym.in(.constdata__ZTIN10QtMobility22QSensorPluginInterfaceE)
+    .constdata__ZTISt9bad_alloc              0x0000c378   Section       12  qtsensors_sym.in(.constdata__ZTISt9bad_alloc)
+    .constdata__ZTS11CCompassSym             0x0000c384   Section       14  qtsensors_sym.in(.constdata__ZTS11CCompassSym)
+    .constdata__ZTS13CTapSensorSym           0x0000c392   Section       16  qtsensors_sym.in(.constdata__ZTS13CTapSensorSym)
+    .constdata__ZTS15SensorPluginSym         0x0000c3a2   Section       18  qtsensors_sym.in(.constdata__ZTS15SensorPluginSym)
+    .constdata__ZTS17CSensorBackendSym       0x0000c3b4   Section       20  qtsensors_sym.in(.constdata__ZTS17CSensorBackendSym)
+    .constdata__ZTS18CRotationSensorSym      0x0000c3c8   Section       21  qtsensors_sym.in(.constdata__ZTS18CRotationSensorSym)
+    .constdata__ZTS19CProximitySensorSym     0x0000c3dd   Section       22  qtsensors_sym.in(.constdata__ZTS19CProximitySensorSym)
+    .constdata__ZTS19MSensrvDataListener     0x0000c3f3   Section       22  qtsensors_sym.in(.constdata__ZTS19MSensrvDataListener)
+    .constdata__ZTS21COrientationSensorSym   0x0000c409   Section       24  qtsensors_sym.in(.constdata__ZTS21COrientationSensorSym)
+    .constdata__ZTS22CAmbientLightSensorSym  0x0000c421   Section       25  qtsensors_sym.in(.constdata__ZTS22CAmbientLightSensorSym)
+    .constdata__ZTS22CMagnetometerSensorSym  0x0000c43a   Section       25  qtsensors_sym.in(.constdata__ZTS22CMagnetometerSensorSym)
+    .constdata__ZTS23CAccelerometerSensorSym 0x0000c453   Section       26  qtsensors_sym.in(.constdata__ZTS23CAccelerometerSensorSym)
+    .constdata__ZTS23MSensrvPropertyListener 0x0000c46d   Section       26  qtsensors_sym.in(.constdata__ZTS23MSensrvPropertyListener)
+    .constdata__ZTSN10QtMobility21QSensorBackendFactoryE 0x0000c487   Section       38  qtsensors_sym.in(.constdata__ZTSN10QtMobility21QSensorBackendFactoryE)
+    .constdata__ZTSN10QtMobility22QSensorPluginInterfaceE 0x0000c4ad   Section       39  qtsensors_sym.in(.constdata__ZTSN10QtMobility22QSensorPluginInterfaceE)
+    .constdata__ZTSSt9bad_alloc              0x0000c4d4   Section       13  qtsensors_sym.in(.constdata__ZTSSt9bad_alloc)
+    .constdata__ZTV11CCompassSym             0x0000c4e4   Section      176  qtsensors_sym.in(.constdata__ZTV11CCompassSym)
+    .constdata__ZTV13CTapSensorSym           0x0000c594   Section      176  qtsensors_sym.in(.constdata__ZTV13CTapSensorSym)
+    .constdata__ZTV15SensorPluginSym         0x0000c644   Section       88  qtsensors_sym.in(.constdata__ZTV15SensorPluginSym)
+    .constdata__ZTV17CSensorBackendSym       0x0000c69c   Section      172  qtsensors_sym.in(.constdata__ZTV17CSensorBackendSym)
+    .constdata__ZTV18CRotationSensorSym      0x0000c748   Section      176  qtsensors_sym.in(.constdata__ZTV18CRotationSensorSym)
+    .constdata__ZTV19CProximitySensorSym     0x0000c7f8   Section      176  qtsensors_sym.in(.constdata__ZTV19CProximitySensorSym)
+    .constdata__ZTV21COrientationSensorSym   0x0000c8a8   Section      176  qtsensors_sym.in(.constdata__ZTV21COrientationSensorSym)
+    .constdata__ZTV22CAmbientLightSensorSym  0x0000c958   Section      176  qtsensors_sym.in(.constdata__ZTV22CAmbientLightSensorSym)
+    .constdata__ZTV22CMagnetometerSensorSym  0x0000ca08   Section      176  qtsensors_sym.in(.constdata__ZTV22CMagnetometerSensorSym)
+    .constdata__ZTV23CAccelerometerSensorSym 0x0000cab8   Section      176  qtsensors_sym.in(.constdata__ZTV23CAccelerometerSensorSym)
+    .conststring$12                          0x0000cb68   Data           0  qtsensors_sym.in(.conststring)
+    .conststring                             0x0000cb68   Section       14  qtsensors_sym.in(.conststring)
+    .conststring$12                          0x0000cb76   Data           0  qtsensors_sym.in(.conststring)
+    .conststring                             0x0000cb76   Section       17  qtsensors_sym.in(.conststring)
+    .conststring$12                          0x0000cb87   Data           0  qtsensors_sym.in(.conststring)
+    .conststring                             0x0000cb87   Section       17  qtsensors_sym.in(.conststring)
+    .conststring$12                          0x0000cb98   Data           0  qtsensors_sym.in(.conststring)
+    .conststring                             0x0000cb98   Section       12  qtsensors_sym.in(.conststring)
+    .conststring$12                          0x0000cba4   Data           0  qtsensors_sym.in(.conststring)
+    .conststring                             0x0000cba4   Section       18  qtsensors_sym.in(.conststring)
+    .conststring$12                          0x0000cbb6   Data           0  qtsensors_sym.in(.conststring)
+    .conststring                             0x0000cbb6   Section       16  qtsensors_sym.in(.conststring)
+    .conststring$12                          0x0000cbc6   Data           0  qtsensors_sym.in(.conststring)
+    .conststring                             0x0000cbc6   Section       13  qtsensors_sym.in(.conststring)
+    .conststring$12                          0x0000cbd3   Data           0  qtsensors_sym.in(.conststring)
+    .conststring                             0x0000cbd3   Section        8  qtsensors_sym.in(.conststring)
+    .ARM.exidx                               0x0000cbdc   Section        8  ucppinit_aeabi.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  qtsensors_sym.in(.data)
+    _ZGV_instance@qt_plugin_instance_0       0x00400000   Data           4  qtsensors_sym.in(.data)
+    .data                                    0x00400000   Section        8  qtsensors_sym.in(.data)
+    _instance@qt_plugin_instance_1           0x00400004   Data           4  qtsensors_sym.in(.data)
+    .data$0                                  0x00400008   Data           0  ucppfini.o(.data)
+    .data                                    0x00400008   Section        4  ucppfini.o(.data)
+    .bss$5                                   0x0040000c   Data           0  ucppfini.o(.bss)
+    dtor_rec                                 0x0040000c   Data        2048  ucppfini.o(.bss)
+    .bss                                     0x0040000c   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$IEEEJ$EBA8$UX$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>112  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>113  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>138  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>144  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>14b  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>14c  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>20  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>46  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>5f  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e0  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e3  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e4  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e6  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e7  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e8  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e9  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6ed  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6f1  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6f8  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6fd  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>702  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>726  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>72c  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>752  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>7f6  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>822  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>824  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>96  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>9f  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>bc0  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>be0  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>c43  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>c47  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>e6b  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>10  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>21  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>22  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>23  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>24  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>25  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>27  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>28  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>29  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>2c  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>2d  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>30  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>32  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>36  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>3d  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>43  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>44  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>47  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>58  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>59  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>5a  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>5b  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>5e  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>65  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>66  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>69  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>78  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>7b  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>7e  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>8  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>82  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>86  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>89  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>90  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>91  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>92  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>93  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>94  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>97  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>9e  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>9f  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>a  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>a0  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>a1  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>a4  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>b8  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>c8  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>d  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>e8  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>eb  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>ec  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>ed  - Undefined Reference
+    #<DLL>QtSensors{00010103}[2002bfc0].dll#<\DLL>f3  - Undefined Reference
+    #<DLL>dfpaeabi{000a0000}.dll#<\DLL>1      - Undefined Reference
+    #<DLL>dfpaeabi{000a0000}.dll#<\DLL>13     - Undefined Reference
+    #<DLL>dfpaeabi{000a0000}.dll#<\DLL>14     - Undefined Reference
+    #<DLL>dfpaeabi{000a0000}.dll#<\DLL>18     - Undefined Reference
+    #<DLL>dfpaeabi{000a0000}.dll#<\DLL>29     - Undefined Reference
+    #<DLL>dfpaeabi{000a0000}.dll#<\DLL>2a     - Undefined Reference
+    #<DLL>dfpaeabi{000a0000}.dll#<\DLL>7      - Undefined Reference
+    #<DLL>dfpaeabi{000a0000}.dll#<\DLL>8      - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>9e     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>b4     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>b7     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>b8     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>ba     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>bb     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>bc     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>bd     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>be     - Undefined Reference
+    #<DLL>drtrvct2_2{000a0000}.dll#<\DLL>1c   - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>21b  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>251  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>289  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>28e  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>29d  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>29e  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>29f  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>2e  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>2e8  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>2ed  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>330  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>37  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>587  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>588  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>589  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>5bc  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>5e3  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>5e6  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>78  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>80c  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>80d  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>822  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>84b  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>84d  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>cb  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>cd  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>d0  - Undefined Reference
+    #<DLL>libc{00010000}[10207369].dll#<\DLL>15e  - Undefined Reference
+    #<DLL>libstdcpp{00010000}[10282872].dll#<\DLL>3dc  - Undefined Reference
+    #<DLL>libstdcpp{00010000}[10282872].dll#<\DLL>3e0  - Undefined Reference
+    #<DLL>sensrvclient{000a0000}[1020507f].dll#<\DLL>1  - Undefined Reference
+    #<DLL>sensrvclient{000a0000}[1020507f].dll#<\DLL>4  - Undefined Reference
+    #<DLL>sensrvutil{000a0000}[10205087].dll#<\DLL>14  - Undefined Reference
+    #<DLL>sensrvutil{000a0000}[10205087].dll#<\DLL>1f  - Undefined Reference
+    #<DLL>sensrvutil{000a0000}[10205087].dll#<\DLL>28  - Undefined Reference
+    #<DLL>sensrvutil{000a0000}[10205087].dll#<\DLL>29  - Undefined Reference
+    #<DLL>sensrvutil{000a0000}[10205087].dll#<\DLL>2a  - Undefined Reference
+    #<DLL>sensrvutil{000a0000}[10205087].dll#<\DLL>2b  - Undefined Reference
+    #<DLL>sensrvutil{000a0000}[10205087].dll#<\DLL>2c  - Undefined Reference
+    #<DLL>sensrvutil{000a0000}[10205087].dll#<\DLL>2d  - Undefined Reference
+    #<DLL>sensrvutil{000a0000}[10205087].dll#<\DLL>2e  - Undefined Reference
+    #<DLL>sensrvutil{000a0000}[10205087].dll#<\DLL>31  - Undefined Reference
+    #<DLL>sensrvutil{000a0000}[10205087].dll#<\DLL>32  - Undefined Reference
+    #<DLL>sensrvutil{000a0000}[10205087].dll#<\DLL>33  - Undefined Reference
+    #<DLL>sensrvutil{000a0000}[10205087].dll#<\DLL>7  - Undefined Reference
+    #<DLL>sensrvutil{000a0000}[10205087].dll#<\DLL>8  - Undefined Reference
+    #<DLL>sensrvutil{000a0000}[10205087].dll#<\DLL>9  - Undefined Reference
+    #<DLL>sensrvutil{000a0000}[10205087].dll#<\DLL>c  - Undefined Reference
+    #<DLL>sensrvutil{000a0000}[10205087].dll#<\DLL>d  - Undefined Reference
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    QtMobility::QTapSensor::type              - Undefined Reference
+    QtMobility::QMagnetometer::type           - Undefined Reference
+    QtMobility::QAccelerometer::type          - Undefined Reference
+    QtMobility::QRotationSensor::type         - Undefined Reference
+    QtMobility::QProximitySensor::type        - Undefined Reference
+    QtMobility::QOrientationSensor::type      - Undefined Reference
+    QtMobility::QAmbientLightSensor::type     - Undefined Reference
+    QtMobility::QCompass::type                - Undefined Reference
+    QObject::staticMetaObject                 - Undefined Reference
+    QString::shared_null                      - Undefined Reference
+    typeinfo for XLeaveException              - Undefined Reference
+    typeinfo for CBase                        - Undefined Reference
+    typeinfo for QObject                      - Undefined Reference
+    typeinfo for QtMobility::QSensorBackend   - Undefined Reference
+    typeinfo for std::exception               - Undefined Reference
+    vtable for CBase                          - Undefined Reference
+    vtable for __cxxabiv1::__class_type_info  - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    vtable for __cxxabiv1::__vmi_class_type_info  - Undefined Reference
+    _fp_init                                  - Undefined Weak Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      72  ucppinit_aeabi.o(.emb_text)
+    CSensorBackendSym::SetProperty(unsigned long, TSensrvPropertyType, TSensrvArrayIndex, double) 0x00008071   Thumb Code    94  qtsensors_sym.in(.text)
+    std::nothrow                             0x00008071   Thumb Code     0  ucppinit_aeabi.o(.emb_text)
+    CSensorBackendSym::propertyType(unsigned long, int&) 0x000080cf   Thumb Code    84  qtsensors_sym.in(.text)
+    CSensorBackendSym::SetDataRate()         0x00008123   Thumb Code   260  qtsensors_sym.in(.text)
+    CSensorBackendSym::SetMeasurementRange() 0x00008227   Thumb Code   184  qtsensors_sym.in(.text)
+    CSensorBackendSym::SetProperties()       0x000082df   Thumb Code    62  qtsensors_sym.in(.text)
+    CSensorBackendSym::StartListeningL()     0x0000831d   Thumb Code    60  qtsensors_sym.in(.text)
+    CSensorBackendSym::start()               0x00008359   Thumb Code   164  qtsensors_sym.in(.text)
+    thunk{-4} to CSensorBackendSym::start()  0x000083fd   Thumb Code     4  qtsensors_sym.in(.text)
+    CSensorBackendSym::StopListeningL()      0x00008401   Thumb Code    44  qtsensors_sym.in(.text)
+    CSensorBackendSym::stop()                0x0000842d   Thumb Code    64  qtsensors_sym.in(.text)
+    thunk{-4} to CSensorBackendSym::stop()   0x0000846d   Thumb Code     4  qtsensors_sym.in(.text)
+    CSensorBackendSym::~CSensorBackendSym()  0x00008471   Thumb Code     0  qtsensors_sym.in(.text)
+    CSensorBackendSym::~CSensorBackendSym__sub_object() 0x00008471   Thumb Code    18  qtsensors_sym.in(.text)
+    CSensorBackendSym::~CSensorBackendSym__deallocating() 0x00008483   Thumb Code    16  qtsensors_sym.in(.text)
+    thunk{-4} to CSensorBackendSym::~CSensorBackendSym__deallocating() 0x00008493   Thumb Code     4  qtsensors_sym.in(.text)
+    thunk{-4} to CSensorBackendSym::~CSensorBackendSym() 0x00008497   Thumb Code     4  qtsensors_sym.in(.text)
+    CSensorBackendSym::DataError(CSensrvChannel&, TSensrvErrorSeverity) 0x0000849b   Thumb Code    26  qtsensors_sym.in(.text)
+    thunk{-16} to CSensorBackendSym::DataError(CSensrvChannel&, TSensrvErrorSeverity) 0x000084b5   Thumb Code     4  qtsensors_sym.in(.text)
+    CSensorBackendSym::GetDataListenerInterfaceL(TUid, void*&) 0x000084b9   Thumb Code     2  qtsensors_sym.in(.text)
+    thunk{-16} to CSensorBackendSym::GetDataListenerInterfaceL(TUid, void*&) 0x000084bb   Thumb Code     2  qtsensors_sym.in(.text)
+    CSensorBackendSym::PropertyChanged(CSensrvChannel&, const TSensrvProperty&) 0x000084bd   Thumb Code    58  qtsensors_sym.in(.text)
+    thunk{-20} to CSensorBackendSym::PropertyChanged(CSensrvChannel&, const TSensrvProperty&) 0x000084f7   Thumb Code     4  qtsensors_sym.in(.text)
+    CSensorBackendSym::PropertyError(CSensrvChannel&, TSensrvErrorSeverity) 0x000084fb   Thumb Code    26  qtsensors_sym.in(.text)
+    thunk{-20} to CSensorBackendSym::PropertyError(CSensrvChannel&, TSensrvErrorSeverity) 0x00008515   Thumb Code     4  qtsensors_sym.in(.text)
+    CSensorBackendSym::SetPropertySuccessIndicationChanged(TSetPropertySuccessIndicator) 0x00008519   Thumb Code     2  qtsensors_sym.in(.text)
+    thunk{-20} to CSensorBackendSym::SetPropertySuccessIndicationChanged(TSetPropertySuccessIndicator) 0x0000851b   Thumb Code     2  qtsensors_sym.in(.text)
+    CSensorBackendSym::GetPropertyListenerInterfaceL(TUid, void*&) 0x0000851d   Thumb Code     2  qtsensors_sym.in(.text)
+    thunk{-20} to CSensorBackendSym::GetPropertyListenerInterfaceL(TUid, void*&) 0x0000851f   Thumb Code     2  qtsensors_sym.in(.text)
+    CSensorBackendSym::SetListening(int, int) 0x00008521   Thumb Code     8  qtsensors_sym.in(.text)
+    CSensorBackendSym::CSensorBackendSym__sub_object(QtMobility::QSensor*) 0x00008529   Thumb Code    66  qtsensors_sym.in(.text)
+    CSensorBackendSym::HandlePropertyChange(CSensrvChannel&, const TSensrvProperty&) 0x0000856b   Thumb Code     2  qtsensors_sym.in(.text)
+    CSensorBackendSym::GetDataRate()         0x0000856d   Thumb Code   406  qtsensors_sym.in(.text)
+    CSensorBackendSym::GetDescription()      0x00008703   Thumb Code   234  qtsensors_sym.in(.text)
+    CSensorBackendSym::GetPropertiesL()      0x000087ed   Thumb Code    24  qtsensors_sym.in(.text)
+    CSensorBackendSym::FindSensorL()         0x00008805   Thumb Code   178  qtsensors_sym.in(.text)
+    CSensorBackendSym::OpenSensorChannelL()  0x000088b7   Thumb Code    56  qtsensors_sym.in(.text)
+    CSensorBackendSym::InitializeL()         0x000088ef   Thumb Code    22  qtsensors_sym.in(.text)
+    CSensorBackendSym::GetMeasurementrangeAndAccuracy() 0x00008905   Thumb Code   996  qtsensors_sym.in(.text)
+    CSensorBackendSym::CloseSensorChannelL() 0x00008ce9   Thumb Code    64  qtsensors_sym.in(.text)
+    CSensorBackendSym::Close()               0x00008d29   Thumb Code    54  qtsensors_sym.in(.text)
+    CProximitySensorSym::ConstructL()        0x00008d61   Thumb Code     8  qtsensors_sym.in(.text)
+    CProximitySensorSym::CProximitySensorSym(QtMobility::QSensor*) 0x00008d69   Thumb Code    56  qtsensors_sym.in(.text)
+    CProximitySensorSym::CProximitySensorSym__sub_object(QtMobility::QSensor*) 0x00008d69   Thumb Code     0  qtsensors_sym.in(.text)
+    CProximitySensorSym::NewL(QtMobility::QSensor*) 0x00008da1   Thumb Code    36  qtsensors_sym.in(.text)
+    CProximitySensorSym::~CProximitySensorSym() 0x00008dc5   Thumb Code    44  qtsensors_sym.in(.text)
+    CProximitySensorSym::~CProximitySensorSym__sub_object() 0x00008dc5   Thumb Code     0  qtsensors_sym.in(.text)
+    CProximitySensorSym::~CProximitySensorSym__deallocating() 0x00008df1   Thumb Code    16  qtsensors_sym.in(.text)
+    thunk{-4} to CProximitySensorSym::~CProximitySensorSym__deallocating() 0x00008e01   Thumb Code     4  qtsensors_sym.in(.text)
+    thunk{-4} to CProximitySensorSym::~CProximitySensorSym() 0x00008e05   Thumb Code     4  qtsensors_sym.in(.text)
+    CProximitySensorSym::DataReceived(CSensrvChannel&, int, int) 0x00008e09   Thumb Code   112  qtsensors_sym.in(.text)
+    thunk{-16} to CProximitySensorSym::DataReceived(CSensrvChannel&, int, int) 0x00008e79   Thumb Code     4  qtsensors_sym.in(.text)
+    CProximitySensorSym::ProcessReading()    0x00008e7d   Thumb Code    64  qtsensors_sym.in(.text)
+    CAmbientLightSensorSym::ConstructL()     0x00008ec5   Thumb Code     8  qtsensors_sym.in(.text)
+    CAmbientLightSensorSym::CAmbientLightSensorSym(QtMobility::QSensor*) 0x00008ecd   Thumb Code    56  qtsensors_sym.in(.text)
+    CAmbientLightSensorSym::CAmbientLightSensorSym__sub_object(QtMobility::QSensor*) 0x00008ecd   Thumb Code     0  qtsensors_sym.in(.text)
+    CAmbientLightSensorSym::NewL(QtMobility::QSensor*) 0x00008f05   Thumb Code    36  qtsensors_sym.in(.text)
+    CAmbientLightSensorSym::~CAmbientLightSensorSym() 0x00008f29   Thumb Code    44  qtsensors_sym.in(.text)
+    CAmbientLightSensorSym::~CAmbientLightSensorSym__sub_object() 0x00008f29   Thumb Code     0  qtsensors_sym.in(.text)
+    CAmbientLightSensorSym::~CAmbientLightSensorSym__deallocating() 0x00008f55   Thumb Code    16  qtsensors_sym.in(.text)
+    thunk{-4} to CAmbientLightSensorSym::~CAmbientLightSensorSym__deallocating() 0x00008f65   Thumb Code     4  qtsensors_sym.in(.text)
+    thunk{-4} to CAmbientLightSensorSym::~CAmbientLightSensorSym() 0x00008f69   Thumb Code     4  qtsensors_sym.in(.text)
+    CAmbientLightSensorSym::DataReceived(CSensrvChannel&, int, int) 0x00008f6d   Thumb Code   112  qtsensors_sym.in(.text)
+    thunk{-16} to CAmbientLightSensorSym::DataReceived(CSensrvChannel&, int, int) 0x00008fdd   Thumb Code     4  qtsensors_sym.in(.text)
+    CAmbientLightSensorSym::ProcessReading() 0x00008fe1   Thumb Code   102  qtsensors_sym.in(.text)
+    CMagnetometerSensorSym::ConstructL()     0x00009051   Thumb Code     8  qtsensors_sym.in(.text)
+    CMagnetometerSensorSym::CMagnetometerSensorSym(QtMobility::QSensor*) 0x00009059   Thumb Code    80  qtsensors_sym.in(.text)
+    CMagnetometerSensorSym::CMagnetometerSensorSym__sub_object(QtMobility::QSensor*) 0x00009059   Thumb Code     0  qtsensors_sym.in(.text)
+    CMagnetometerSensorSym::NewL(QtMobility::QSensor*) 0x000090a9   Thumb Code    36  qtsensors_sym.in(.text)
+    CMagnetometerSensorSym::~CMagnetometerSensorSym() 0x000090cd   Thumb Code    44  qtsensors_sym.in(.text)
+    CMagnetometerSensorSym::~CMagnetometerSensorSym__sub_object() 0x000090cd   Thumb Code     0  qtsensors_sym.in(.text)
+    CMagnetometerSensorSym::~CMagnetometerSensorSym__deallocating() 0x000090f9   Thumb Code    16  qtsensors_sym.in(.text)
+    thunk{-4} to CMagnetometerSensorSym::~CMagnetometerSensorSym__deallocating() 0x00009109   Thumb Code     4  qtsensors_sym.in(.text)
+    thunk{-4} to CMagnetometerSensorSym::~CMagnetometerSensorSym() 0x0000910d   Thumb Code     4  qtsensors_sym.in(.text)
+    CMagnetometerSensorSym::GetCalibrationLevel() 0x00009111   Thumb Code     6  qtsensors_sym.in(.text)
+    CMagnetometerSensorSym::start()          0x00009117   Thumb Code   578  qtsensors_sym.in(.text)
+    thunk{-4} to CMagnetometerSensorSym::start() 0x00009359   Thumb Code     4  qtsensors_sym.in(.text)
+    CMagnetometerSensorSym::DataReceived(CSensrvChannel&, int, int) 0x0000935d   Thumb Code   112  qtsensors_sym.in(.text)
+    thunk{-16} to CMagnetometerSensorSym::DataReceived(CSensrvChannel&, int, int) 0x000093cd   Thumb Code     4  qtsensors_sym.in(.text)
+    CMagnetometerSensorSym::ProcessReading() 0x000093d1   Thumb Code   370  qtsensors_sym.in(.text)
+    CMagnetometerSensorSym::HandlePropertyChange(CSensrvChannel&, const TSensrvProperty&) 0x00009543   Thumb Code    50  qtsensors_sym.in(.text)
+    CCompassSym::ConstructL()                0x0000957d   Thumb Code   100  qtsensors_sym.in(.text)
+    CCompassSym::CCompassSym(QtMobility::QSensor*) 0x000095e1   Thumb Code    56  qtsensors_sym.in(.text)
+    CCompassSym::CCompassSym__sub_object(QtMobility::QSensor*) 0x000095e1   Thumb Code     0  qtsensors_sym.in(.text)
+    CCompassSym::NewL(QtMobility::QSensor*)  0x00009619   Thumb Code    36  qtsensors_sym.in(.text)
+    CCompassSym::~CCompassSym()              0x0000963d   Thumb Code    60  qtsensors_sym.in(.text)
+    CCompassSym::~CCompassSym__sub_object()  0x0000963d   Thumb Code     0  qtsensors_sym.in(.text)
+    CCompassSym::~CCompassSym__deallocating() 0x00009679   Thumb Code    16  qtsensors_sym.in(.text)
+    thunk{-4} to CCompassSym::~CCompassSym__deallocating() 0x00009689   Thumb Code     4  qtsensors_sym.in(.text)
+    thunk{-4} to CCompassSym::~CCompassSym() 0x0000968d   Thumb Code     4  qtsensors_sym.in(.text)
+    CCompassSym::start()                     0x00009691   Thumb Code    22  qtsensors_sym.in(.text)
+    thunk{-4} to CCompassSym::start()        0x000096a7   Thumb Code     4  qtsensors_sym.in(.text)
+    CCompassSym::stop()                      0x000096ab   Thumb Code    22  qtsensors_sym.in(.text)
+    thunk{-4} to CCompassSym::stop()         0x000096c1   Thumb Code     4  qtsensors_sym.in(.text)
+    CCompassSym::DataReceived(CSensrvChannel&, int, int) 0x000096c5   Thumb Code   112  qtsensors_sym.in(.text)
+    thunk{-16} to CCompassSym::DataReceived(CSensrvChannel&, int, int) 0x00009735   Thumb Code     4  qtsensors_sym.in(.text)
+    CCompassSym::ProcessReading()            0x00009739   Thumb Code    76  qtsensors_sym.in(.text)
+    CAccelerometerSensorSym::ConstructL()    0x0000979d   Thumb Code    96  qtsensors_sym.in(.text)
+    CAccelerometerSensorSym::CAccelerometerSensorSym(QtMobility::QSensor*) 0x000097fd   Thumb Code    74  qtsensors_sym.in(.text)
+    CAccelerometerSensorSym::CAccelerometerSensorSym__sub_object(QtMobility::QSensor*) 0x000097fd   Thumb Code     0  qtsensors_sym.in(.text)
+    CAccelerometerSensorSym::NewL(QtMobility::QSensor*) 0x00009847   Thumb Code    36  qtsensors_sym.in(.text)
+    CAccelerometerSensorSym::~CAccelerometerSensorSym() 0x0000986b   Thumb Code    44  qtsensors_sym.in(.text)
+    CAccelerometerSensorSym::~CAccelerometerSensorSym__sub_object() 0x0000986b   Thumb Code     0  qtsensors_sym.in(.text)
+    CAccelerometerSensorSym::~CAccelerometerSensorSym__deallocating() 0x00009897   Thumb Code    16  qtsensors_sym.in(.text)
+    thunk{-4} to CAccelerometerSensorSym::~CAccelerometerSensorSym__deallocating() 0x000098a7   Thumb Code     4  qtsensors_sym.in(.text)
+    thunk{-4} to CAccelerometerSensorSym::~CAccelerometerSensorSym() 0x000098ab   Thumb Code     4  qtsensors_sym.in(.text)
+    CAccelerometerSensorSym::start()         0x000098af   Thumb Code   380  qtsensors_sym.in(.text)
+    thunk{-4} to CAccelerometerSensorSym::start() 0x00009a2b   Thumb Code     4  qtsensors_sym.in(.text)
+    CAccelerometerSensorSym::DataReceived(CSensrvChannel&, int, int) 0x00009a2f   Thumb Code   112  qtsensors_sym.in(.text)
+    thunk{-16} to CAccelerometerSensorSym::DataReceived(CSensrvChannel&, int, int) 0x00009a9f   Thumb Code     4  qtsensors_sym.in(.text)
+    CAccelerometerSensorSym::ProcessReading() 0x00009aa3   Thumb Code   310  qtsensors_sym.in(.text)
+    COrientationSensorSym::ConstructL()      0x00009bd9   Thumb Code     8  qtsensors_sym.in(.text)
+    COrientationSensorSym::COrientationSensorSym(QtMobility::QSensor*) 0x00009be1   Thumb Code    56  qtsensors_sym.in(.text)
+    COrientationSensorSym::COrientationSensorSym__sub_object(QtMobility::QSensor*) 0x00009be1   Thumb Code     0  qtsensors_sym.in(.text)
+    COrientationSensorSym::NewL(QtMobility::QSensor*) 0x00009c19   Thumb Code    36  qtsensors_sym.in(.text)
+    COrientationSensorSym::~COrientationSensorSym() 0x00009c3d   Thumb Code    44  qtsensors_sym.in(.text)
+    COrientationSensorSym::~COrientationSensorSym__sub_object() 0x00009c3d   Thumb Code     0  qtsensors_sym.in(.text)
+    COrientationSensorSym::~COrientationSensorSym__deallocating() 0x00009c69   Thumb Code    16  qtsensors_sym.in(.text)
+    thunk{-4} to COrientationSensorSym::~COrientationSensorSym__deallocating() 0x00009c79   Thumb Code     4  qtsensors_sym.in(.text)
+    thunk{-4} to COrientationSensorSym::~COrientationSensorSym() 0x00009c7d   Thumb Code     4  qtsensors_sym.in(.text)
+    COrientationSensorSym::DataReceived(CSensrvChannel&, int, int) 0x00009c81   Thumb Code   112  qtsensors_sym.in(.text)
+    thunk{-16} to COrientationSensorSym::DataReceived(CSensrvChannel&, int, int) 0x00009cf1   Thumb Code     4  qtsensors_sym.in(.text)
+    COrientationSensorSym::ProcessReading()  0x00009cf5   Thumb Code    96  qtsensors_sym.in(.text)
+    CRotationSensorSym::ConstructL()         0x00009d5d   Thumb Code     8  qtsensors_sym.in(.text)
+    CRotationSensorSym::CRotationSensorSym(QtMobility::QSensor*) 0x00009d65   Thumb Code    56  qtsensors_sym.in(.text)
+    CRotationSensorSym::CRotationSensorSym__sub_object(QtMobility::QSensor*) 0x00009d65   Thumb Code     0  qtsensors_sym.in(.text)
+    CRotationSensorSym::NewL(QtMobility::QSensor*) 0x00009d9d   Thumb Code    36  qtsensors_sym.in(.text)
+    CRotationSensorSym::~CRotationSensorSym() 0x00009dc1   Thumb Code    44  qtsensors_sym.in(.text)
+    CRotationSensorSym::~CRotationSensorSym__sub_object() 0x00009dc1   Thumb Code     0  qtsensors_sym.in(.text)
+    CRotationSensorSym::~CRotationSensorSym__deallocating() 0x00009ded   Thumb Code    16  qtsensors_sym.in(.text)
+    thunk{-4} to CRotationSensorSym::~CRotationSensorSym__deallocating() 0x00009dfd   Thumb Code     4  qtsensors_sym.in(.text)
+    thunk{-4} to CRotationSensorSym::~CRotationSensorSym() 0x00009e01   Thumb Code     4  qtsensors_sym.in(.text)
+    CRotationSensorSym::DataReceived(CSensrvChannel&, int, int) 0x00009e05   Thumb Code   112  qtsensors_sym.in(.text)
+    thunk{-16} to CRotationSensorSym::DataReceived(CSensrvChannel&, int, int) 0x00009e75   Thumb Code     4  qtsensors_sym.in(.text)
+    CRotationSensorSym::ProcessReading()     0x00009e79   Thumb Code   216  qtsensors_sym.in(.text)
+    CRotationSensorSym::GetMeasurementrangeAndAccuracy() 0x00009f51   Thumb Code   110  qtsensors_sym.in(.text)
+    CTapSensorSym::ConstructL()              0x00009fe1   Thumb Code     8  qtsensors_sym.in(.text)
+    CTapSensorSym::CTapSensorSym(QtMobility::QSensor*) 0x00009fe9   Thumb Code    56  qtsensors_sym.in(.text)
+    CTapSensorSym::CTapSensorSym__sub_object(QtMobility::QSensor*) 0x00009fe9   Thumb Code     0  qtsensors_sym.in(.text)
+    CTapSensorSym::NewL(QtMobility::QSensor*) 0x0000a021   Thumb Code    36  qtsensors_sym.in(.text)
+    CTapSensorSym::~CTapSensorSym()          0x0000a045   Thumb Code    44  qtsensors_sym.in(.text)
+    CTapSensorSym::~CTapSensorSym__sub_object() 0x0000a045   Thumb Code     0  qtsensors_sym.in(.text)
+    CTapSensorSym::~CTapSensorSym__deallocating() 0x0000a071   Thumb Code    16  qtsensors_sym.in(.text)
+    thunk{-4} to CTapSensorSym::~CTapSensorSym__deallocating() 0x0000a081   Thumb Code     4  qtsensors_sym.in(.text)
+    thunk{-4} to CTapSensorSym::~CTapSensorSym() 0x0000a085   Thumb Code     4  qtsensors_sym.in(.text)
+    CTapSensorSym::DataReceived(CSensrvChannel&, int, int) 0x0000a089   Thumb Code   112  qtsensors_sym.in(.text)
+    thunk{-16} to CTapSensorSym::DataReceived(CSensrvChannel&, int, int) 0x0000a0f9   Thumb Code     4  qtsensors_sym.in(.text)
+    CTapSensorSym::ProcessReading()          0x0000a0fd   Thumb Code   142  qtsensors_sym.in(.text)
+    qt_plugin_query_verification_data        0x0000a19d   Thumb Code     4  qtsensors_sym.in(.text)
+    qt_plugin_instance                       0x0000a1a1   Thumb Code   114  qtsensors_sym.in(.text)
+    SensorPluginSym::getStaticMetaObject()   0x0000a213   Thumb Code     6  qtsensors_sym.in(.text)
+    SensorPluginSym::metaObject() const      0x0000a219   Thumb Code    14  qtsensors_sym.in(.text)
+    SensorPluginSym::qt_metacast(const char*) 0x0000a227   Thumb Code    88  qtsensors_sym.in(.text)
+    SensorPluginSym::qt_metacall(QMetaObject::Call, int, void**) 0x0000a27f   Thumb Code     8  qtsensors_sym.in(.text)
+    _E32Dll_Body                             0x0000a2f5   Thumb Code    34  uc_dll.o(.text)
+    CppBSSInitializationError                0x0000a31c   ARM Code       4  ucppfini.o(.text)
+    __aeabi_atexit                           0x0000a320   ARM Code      28  ucppfini.o(.text)
+    __cxa_atexit                             0x0000a33c   ARM Code      48  ucppfini.o(.text)
+    __cxa_finalize                           0x0000a36c   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x0000a39c   ARM Code       8  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x0000a604   ARM Code       0  qtsensors_sym{00010000}.exp(ExportTable)
+    DLL##ExportTableSize                     0x0000a608   Data           0  qtsensors_sym{00010000}.exp(ExportTable)
+    DLL##ExportTable                         0x0000a60c   Data           0  qtsensors_sym{00010000}.exp(ExportTable)
+    CSensrvChannel::NewL(const TSensrvChannelInfo&) 0x0000a614   ARM Code       0  sensrvclient{000a0000}-1.o(StubCode)
+    CSensrvChannelFinder::NewLC()            0x0000a61c   ARM Code       0  sensrvclient{000a0000}-4.o(StubCode)
+    TSensrvProperty::SetValue(double)        0x0000a624   ARM Code       0  sensrvutil{000a0000}-12.o(StubCode)
+    TSensrvProperty::SetValue(int)           0x0000a62c   ARM Code       0  sensrvutil{000a0000}-13.o(StubCode)
+    TSensrvProperty::TSensrvProperty()       0x0000a634   ARM Code       0  sensrvutil{000a0000}-20.o(StubCode)
+    TSensrvChannelInfo::TSensrvChannelInfo() 0x0000a63c   ARM Code       0  sensrvutil{000a0000}-31.o(StubCode)
+    TSensrvProperty::GetMaxValue(double&) const 0x0000a644   ARM Code       0  sensrvutil{000a0000}-40.o(StubCode)
+    TSensrvProperty::GetMaxValue(int&) const 0x0000a64c   ARM Code       0  sensrvutil{000a0000}-41.o(StubCode)
+    TSensrvProperty::GetMinValue(double&) const 0x0000a654   ARM Code       0  sensrvutil{000a0000}-42.o(StubCode)
+    TSensrvProperty::GetMinValue(int&) const 0x0000a65c   ARM Code       0  sensrvutil{000a0000}-43.o(StubCode)
+    TSensrvProperty::PropertyType() const    0x0000a664   ARM Code       0  sensrvutil{000a0000}-44.o(StubCode)
+    TSensrvProperty::GetArrayIndex() const   0x0000a66c   ARM Code       0  sensrvutil{000a0000}-45.o(StubCode)
+    TSensrvProperty::GetPropertyId() const   0x0000a674   ARM Code       0  sensrvutil{000a0000}-46.o(StubCode)
+    TSensrvProperty::GetValue(TDes8&) const  0x0000a67c   ARM Code       0  sensrvutil{000a0000}-49.o(StubCode)
+    TSensrvProperty::GetValue(double&) const 0x0000a684   ARM Code       0  sensrvutil{000a0000}-50.o(StubCode)
+    TSensrvProperty::GetValue(int&) const    0x0000a68c   ARM Code       0  sensrvutil{000a0000}-51.o(StubCode)
+    TSensrvProperty::SetItemIndex(int)       0x0000a694   ARM Code       0  sensrvutil{000a0000}-7.o(StubCode)
+    TSensrvProperty::SetArrayIndex(int)      0x0000a69c   ARM Code       0  sensrvutil{000a0000}-8.o(StubCode)
+    TSensrvProperty::SetPropertyId(unsigned long) 0x0000a6a4   ARM Code       0  sensrvutil{000a0000}-9.o(StubCode)
+    QtMobility::QTapReading::setTapDirection(QtMobility::QTapReading::TapDirection) 0x0000a6ac   ARM Code       0  QtSensors{00010103}-10.o(StubCode)
+    QtMobility::QProximityReading::setClose(bool) 0x0000a6b4   ARM Code       0  QtSensors{00010103}-101.o(StubCode)
+    QtMobility::QProximityReading::QProximityReading(QObject*) 0x0000a6bc   ARM Code       0  QtSensors{00010103}-102.o(StubCode)
+    QtMobility::QProximityReading::~QProximityReading() 0x0000a6c4   ARM Code       0  QtSensors{00010103}-105.o(StubCode)
+    QtMobility::QOrientationReading::setOrientation(QtMobility::QOrientationReading::Orientation) 0x0000a6cc   ARM Code       0  QtSensors{00010103}-120.o(StubCode)
+    QtMobility::QOrientationReading::QOrientationReading(QObject*) 0x0000a6d4   ARM Code       0  QtSensors{00010103}-123.o(StubCode)
+    QtMobility::QOrientationReading::~QOrientationReading() 0x0000a6dc   ARM Code       0  QtSensors{00010103}-126.o(StubCode)
+    QtMobility::QTapReading::QTapReading(QObject*) 0x0000a6e4   ARM Code       0  QtSensors{00010103}-13.o(StubCode)
+    QtMobility::QAmbientLightReading::setLightLevel(QtMobility::QAmbientLightReading::LightLevel) 0x0000a6ec   ARM Code       0  QtSensors{00010103}-130.o(StubCode)
+    QtMobility::QAmbientLightReading::QAmbientLightReading(QObject*) 0x0000a6f4   ARM Code       0  QtSensors{00010103}-134.o(StubCode)
+    QtMobility::QAmbientLightReading::~QAmbientLightReading() 0x0000a6fc   ARM Code       0  QtSensors{00010103}-137.o(StubCode)
+    QtMobility::QMagnetometerReading::setCalibrationLevel(float) 0x0000a704   ARM Code       0  QtSensors{00010103}-144.o(StubCode)
+    QtMobility::QMagnetometerReading::setX(float) 0x0000a70c   ARM Code       0  QtSensors{00010103}-145.o(StubCode)
+    QtMobility::QMagnetometerReading::setY(float) 0x0000a714   ARM Code       0  QtSensors{00010103}-146.o(StubCode)
+    QtMobility::QMagnetometerReading::setZ(float) 0x0000a71c   ARM Code       0  QtSensors{00010103}-147.o(StubCode)
+    QtMobility::QMagnetometerReading::QMagnetometerReading(QObject*) 0x0000a724   ARM Code       0  QtSensors{00010103}-148.o(StubCode)
+    QtMobility::QMagnetometerReading::~QMagnetometerReading() 0x0000a72c   ARM Code       0  QtSensors{00010103}-151.o(StubCode)
+    QtMobility::QAccelerometerReading::setX(float) 0x0000a734   ARM Code       0  QtSensors{00010103}-158.o(StubCode)
+    QtMobility::QAccelerometerReading::setY(float) 0x0000a73c   ARM Code       0  QtSensors{00010103}-159.o(StubCode)
+    QtMobility::QTapReading::~QTapReading()  0x0000a744   ARM Code       0  QtSensors{00010103}-16.o(StubCode)
+    QtMobility::QAccelerometerReading::setZ(float) 0x0000a74c   ARM Code       0  QtSensors{00010103}-160.o(StubCode)
+    QtMobility::QAccelerometerReading::QAccelerometerReading(QObject*) 0x0000a754   ARM Code       0  QtSensors{00010103}-161.o(StubCode)
+    QtMobility::QAccelerometerReading::~QAccelerometerReading() 0x0000a75c   ARM Code       0  QtSensors{00010103}-164.o(StubCode)
+    QtMobility::QSensor::QSensor(const QByteArray&, QObject*) 0x0000a764   ARM Code       0  QtSensors{00010103}-184.o(StubCode)
+    QtMobility::QSensorBackend::metaObject() const 0x0000a76c   ARM Code       0  QtSensors{00010103}-200.o(StubCode)
+    QtMobility::QSensor::identifier() const  0x0000a774   ARM Code       0  QtSensors{00010103}-232.o(StubCode)
+    QtMobility::QSensor::outputRange() const 0x0000a77c   ARM Code       0  QtSensors{00010103}-235.o(StubCode)
+    QtMobility::QSensor::outputRanges() const 0x0000a784   ARM Code       0  QtSensors{00010103}-236.o(StubCode)
+    QtMobility::QSensor::availableDataRates() const 0x0000a78c   ARM Code       0  QtSensors{00010103}-237.o(StubCode)
+    QtMobility::QSensor::dataRate() const    0x0000a794   ARM Code       0  QtSensors{00010103}-243.o(StubCode)
+    QtMobility::QSensorBackend::addDataRate(float, float) 0x0000a79c   ARM Code       0  QtSensors{00010103}-33.o(StubCode)
+    QtMobility::QSensorBackend::qt_metacall(QMetaObject::Call, int, void**) 0x0000a7a4   ARM Code       0  QtSensors{00010103}-34.o(StubCode)
+    QtMobility::QSensorBackend::qt_metacast(const char*) 0x0000a7ac   ARM Code       0  QtSensors{00010103}-35.o(StubCode)
+    QtMobility::QSensorBackend::sensorError(int) 0x0000a7b4   ARM Code       0  QtSensors{00010103}-36.o(StubCode)
+    QtMobility::QSensorBackend::setReadings(QtMobility::QSensorReading*, QtMobility::QSensorReading*, QtMobility::QSensorReading*) 0x0000a7bc   ARM Code       0  QtSensors{00010103}-37.o(StubCode)
+    QtMobility::QSensorBackend::sensorStopped() 0x0000a7c4   ARM Code       0  QtSensors{00010103}-39.o(StubCode)
+    QtMobility::QSensorBackend::addOutputRange(float, float, float) 0x0000a7cc   ARM Code       0  QtSensors{00010103}-40.o(StubCode)
+    QtMobility::QSensorBackend::setDescription(const QString&) 0x0000a7d4   ARM Code       0  QtSensors{00010103}-41.o(StubCode)
+    QtMobility::QSensorBackend::newReadingAvailable() 0x0000a7dc   ARM Code       0  QtSensors{00010103}-44.o(StubCode)
+    QtMobility::QSensorBackend::QSensorBackend__sub_object(QtMobility::QSensor*) 0x0000a7e4   ARM Code       0  QtSensors{00010103}-45.o(StubCode)
+    QtMobility::QSensorBackend::~QSensorBackend__sub_object() 0x0000a7ec   ARM Code       0  QtSensors{00010103}-48.o(StubCode)
+    QtMobility::QSensorManager::registerBackend(const QByteArray&, const QByteArray&, QtMobility::QSensorBackendFactory*) 0x0000a7f4   ARM Code       0  QtSensors{00010103}-50.o(StubCode)
+    QtMobility::QSensorReading::setTimestamp(QtMobility::qtimestamp) 0x0000a7fc   ARM Code       0  QtSensors{00010103}-54.o(StubCode)
+    QtMobility::QCompassReading::setAzimuth(float) 0x0000a804   ARM Code       0  QtSensors{00010103}-61.o(StubCode)
+    QtMobility::QCompassReading::setCalibrationLevel(float) 0x0000a80c   ARM Code       0  QtSensors{00010103}-67.o(StubCode)
+    QtMobility::QCompassReading::QCompassReading(QObject*) 0x0000a814   ARM Code       0  QtSensors{00010103}-68.o(StubCode)
+    QtMobility::QCompassReading::~QCompassReading() 0x0000a81c   ARM Code       0  QtSensors{00010103}-71.o(StubCode)
+    QtMobility::QTapReading::setDoubleTap(bool) 0x0000a824   ARM Code       0  QtSensors{00010103}-8.o(StubCode)
+    QtMobility::QRotationReading::setX(float) 0x0000a82c   ARM Code       0  QtSensors{00010103}-88.o(StubCode)
+    QtMobility::QRotationReading::setY(float) 0x0000a834   ARM Code       0  QtSensors{00010103}-89.o(StubCode)
+    QtMobility::QRotationReading::setZ(float) 0x0000a83c   ARM Code       0  QtSensors{00010103}-90.o(StubCode)
+    QtMobility::QRotationReading::QRotationReading(QObject*) 0x0000a844   ARM Code       0  QtSensors{00010103}-91.o(StubCode)
+    QtMobility::QRotationReading::~QRotationReading() 0x0000a84c   ARM Code       0  QtSensors{00010103}-94.o(StubCode)
+    operator delete (void*)                  0x0000a854   ARM Code       0  libstdcpp{00010000}-988.o(StubCode)
+    operator new(unsigned)                   0x0000a85c   ARM Code       0  libstdcpp{00010000}-992.o(StubCode)
+    QByteArray::realloc(int)                 0x0000a864   ARM Code       0  QtCore{00040703}-150.o(StubCode)
+    QByteArray::QByteArray(const char*)      0x0000a86c   ARM Code       0  QtCore{00040703}-159.o(StubCode)
+    QObject::childEvent(QChildEvent*)        0x0000a874   ARM Code       0  QtCore{00040703}-1760.o(StubCode)
+    QObject::timerEvent(QTimerEvent*)        0x0000a87c   ARM Code       0  QtCore{00040703}-1763.o(StubCode)
+    QObject::customEvent(QEvent*)            0x0000a884   ARM Code       0  QtCore{00040703}-1764.o(StubCode)
+    QObject::eventFilter(QObject*, QEvent*)  0x0000a88c   ARM Code       0  QtCore{00040703}-1766.o(StubCode)
+    QObject::qt_metacall(QMetaObject::Call, int, void**) 0x0000a894   ARM Code       0  QtCore{00040703}-1767.o(StubCode)
+    QObject::qt_metacast(const char*)        0x0000a89c   ARM Code       0  QtCore{00040703}-1768.o(StubCode)
+    QObject::setProperty(const char*, const QVariant&) 0x0000a8a4   ARM Code       0  QtCore{00040703}-1769.o(StubCode)
+    QObject::connectNotify(const char*)      0x0000a8ac   ARM Code       0  QtCore{00040703}-1773.o(StubCode)
+    QObject::disconnectNotify(const char*)   0x0000a8b4   ARM Code       0  QtCore{00040703}-1777.o(StubCode)
+    QObject::event(QEvent*)                  0x0000a8bc   ARM Code       0  QtCore{00040703}-1784.o(StubCode)
+    QObject::QObject(QObject*)               0x0000a8c4   ARM Code       0  QtCore{00040703}-1789.o(StubCode)
+    QObject::~QObject()                      0x0000a8cc   ARM Code       0  QtCore{00040703}-1794.o(StubCode)
+    QString::free(QString::Data*)            0x0000a8d4   ARM Code       0  QtCore{00040703}-1830.o(StubCode)
+    QString::append(const QString&)          0x0000a8dc   ARM Code       0  QtCore{00040703}-1836.o(StubCode)
+    QString::fromAscii(const char*, int)     0x0000a8e4   ARM Code       0  QtCore{00040703}-1874.o(StubCode)
+    QVariant::QVariant(bool)                 0x0000a8ec   ARM Code       0  QtCore{00040703}-2038.o(StubCode)
+    QVariant::~QVariant()                    0x0000a8f4   ARM Code       0  QtCore{00040703}-2082.o(StubCode)
+    QVariant::operator =(const QVariant&)    0x0000a8fc   ARM Code       0  QtCore{00040703}-2084.o(StubCode)
+    QMetaObject::changeGuard(QObject**, QObject*) 0x0000a904   ARM Code       0  QtCore{00040703}-274.o(StubCode)
+    QMetaObject::removeGuard(QObject**)      0x0000a90c   ARM Code       0  QtCore{00040703}-275.o(StubCode)
+    QObject::property(const char*) const     0x0000a914   ARM Code       0  QtCore{00040703}-3008.o(StubCode)
+    QString::toLocal8Bit() const             0x0000a91c   ARM Code       0  QtCore{00040703}-3040.o(StubCode)
+    QTextStream::QTextStream(QString*, QFlags<QIODevice::OpenModeFlag>) 0x0000a924   ARM Code       0  QtCore{00040703}-312.o(StubCode)
+    QVariant::toInt(bool*) const             0x0000a92c   ARM Code       0  QtCore{00040703}-3139.o(StubCode)
+    QVariant::toBool() const                 0x0000a934   ARM Code       0  QtCore{00040703}-3143.o(StubCode)
+    qt_message_output(QtMsgType, const char*) 0x0000a93c   ARM Code       0  QtCore{00040703}-32.o(StubCode)
+    QTextStream::~QTextStream()              0x0000a944   ARM Code       0  QtCore{00040703}-324.o(StubCode)
+    QTextStream::operator <<(const QString&) 0x0000a94c   ARM Code       0  QtCore{00040703}-331.o(StubCode)
+    QTextStream::operator <<(char)           0x0000a954   ARM Code       0  QtCore{00040703}-332.o(StubCode)
+    QListData::detach(int)                   0x0000a95c   ARM Code       0  QtCore{00040703}-3691.o(StubCode)
+    qFree(void*)                             0x0000a964   ARM Code       0  QtCore{00040703}-70.o(StubCode)
+    qstrcmp(const QByteArray&, const char*)  0x0000a96c   ARM Code       0  QtCore{00040703}-95.o(StubCode)
+    strcmp                                   0x0000a974   ARM Code       0  libc{00010000}-350.o(StubCode)
+    RHandleBase::Close()                     0x0000a97c   ARM Code       0  euser{000a0000}-120.o(StubCode)
+    RFastLock::CreateLocal(TOwnerType)       0x0000a984   ARM Code       0  euser{000a0000}-1415.o(StubCode)
+    RFastLock::Wait()                        0x0000a98c   ARM Code       0  euser{000a0000}-1416.o(StubCode)
+    RFastLock::Signal()                      0x0000a994   ARM Code       0  euser{000a0000}-1417.o(StubCode)
+    TBufBase8::TBufBase8(int)                0x0000a99c   ARM Code       0  euser{000a0000}-1468.o(StubCode)
+    RArrayBase::At(int) const                0x0000a9a4   ARM Code       0  euser{000a0000}-1507.o(StubCode)
+    RArrayBase::Count() const                0x0000a9ac   ARM Code       0  euser{000a0000}-1510.o(StubCode)
+    CleanupStack::PopAndDestroy()            0x0000a9b4   ARM Code       0  euser{000a0000}-203.o(StubCode)
+    CleanupStack::Pop()                      0x0000a9bc   ARM Code       0  euser{000a0000}-205.o(StubCode)
+    User::MarkCleanupStack()                 0x0000a9c4   ARM Code       0  euser{000a0000}-2060.o(StubCode)
+    User::UnMarkCleanupStack(TTrapHandler*)  0x0000a9cc   ARM Code       0  euser{000a0000}-2061.o(StubCode)
+    CleanupStack::PushL(CBase*)              0x0000a9d4   ARM Code       0  euser{000a0000}-208.o(StubCode)
+    XLeaveException::GetReason() const       0x0000a9dc   ARM Code       0  euser{000a0000}-2082.o(StubCode)
+    CBase::Extension_(unsigned, void*&, void*) 0x0000a9e4   ARM Code       0  euser{000a0000}-2123.o(StubCode)
+    CBase::~CBase()                          0x0000a9ec   ARM Code       0  euser{000a0000}-2125.o(StubCode)
+    RArrayBase::Close()                      0x0000a9f4   ARM Code       0  euser{000a0000}-46.o(StubCode)
+    Math::Pow(double&, const double&, const double&) 0x0000a9fc   ARM Code       0  euser{000a0000}-539.o(StubCode)
+    RArrayBase::RArrayBase(int)              0x0000aa04   ARM Code       0  euser{000a0000}-55.o(StubCode)
+    User::LeaveIfError(int)                  0x0000aa0c   ARM Code       0  euser{000a0000}-593.o(StubCode)
+    User::Leave(int)                         0x0000aa14   ARM Code       0  euser{000a0000}-649.o(StubCode)
+    User::AllocZL(int)                       0x0000aa1c   ARM Code       0  euser{000a0000}-654.o(StubCode)
+    User::Invariant()                        0x0000aa24   ARM Code       0  euser{000a0000}-669.o(StubCode)
+    User::LockedDec(int&)                    0x0000aa2c   ARM Code       0  euser{000a0000}-670.o(StubCode)
+    User::LockedInc(int&)                    0x0000aa34   ARM Code       0  euser{000a0000}-671.o(StubCode)
+    TDes8::Copy(const TDesC8&)               0x0000aa3c   ARM Code       0  euser{000a0000}-744.o(StubCode)
+    TDes8::PtrZ()                            0x0000aa44   ARM Code       0  euser{000a0000}-749.o(StubCode)
+    TPtr8::TPtr8(unsigned char*, int, int)   0x0000aa4c   ARM Code       0  euser{000a0000}-816.o(StubCode)
+    __aeabi_cdcmpeq                          0x0000aa54   ARM Code       0  dfpaeabi{000a0000}-1.o(StubCode)
+    __aeabi_ddiv                             0x0000aa5c   ARM Code       0  dfpaeabi{000a0000}-19.o(StubCode)
+    __aeabi_dmul                             0x0000aa64   ARM Code       0  dfpaeabi{000a0000}-20.o(StubCode)
+    __aeabi_f2d                              0x0000aa6c   ARM Code       0  dfpaeabi{000a0000}-24.o(StubCode)
+    __aeabi_i2d                              0x0000aa74   ARM Code       0  dfpaeabi{000a0000}-41.o(StubCode)
+    __aeabi_i2f                              0x0000aa7c   ARM Code       0  dfpaeabi{000a0000}-42.o(StubCode)
+    __aeabi_d2f                              0x0000aa84   ARM Code       0  dfpaeabi{000a0000}-7.o(StubCode)
+    __aeabi_d2iz                             0x0000aa8c   ARM Code       0  dfpaeabi{000a0000}-8.o(StubCode)
+    __aeabi_unwind_cpp_pr0                   0x0000aa94   ARM Code       0  drtaeabi{000a0000}-158.o(StubCode)
+    __cxa_begin_catch                        0x0000aa9c   ARM Code       0  drtaeabi{000a0000}-180.o(StubCode)
+    __cxa_end_catch                          0x0000aaa4   ARM Code       0  drtaeabi{000a0000}-183.o(StubCode)
+    __cxa_end_cleanup                        0x0000aaac   ARM Code       0  drtaeabi{000a0000}-184.o(StubCode)
+    __cxa_guard_abort                        0x0000aab4   ARM Code       0  drtaeabi{000a0000}-186.o(StubCode)
+    __cxa_guard_acquire                      0x0000aabc   ARM Code       0  drtaeabi{000a0000}-187.o(StubCode)
+    __cxa_guard_release                      0x0000aac4   ARM Code       0  drtaeabi{000a0000}-188.o(StubCode)
+    __cxa_pure_virtual                       0x0000aacc   ARM Code       0  drtaeabi{000a0000}-189.o(StubCode)
+    __cxa_rethrow                            0x0000aad4   ARM Code       0  drtaeabi{000a0000}-190.o(StubCode)
+    __ARM_switch8                            0x0000aadc   ARM Code       0  drtrvct2_2{000a0000}-28.o(StubCode)
+    qDebug()                                 0x0000aae5   Thumb Code    72  qtsensors_sym.in(i._Z6qDebugv)
+    QByteArray::~QByteArray()                0x0000ab43   Thumb Code    24  qtsensors_sym.in(i._ZN10QByteArrayD1Ev)
+    QByteArray::~QByteArray__sub_object()    0x0000ab43   Thumb Code     0  qtsensors_sym.in(i._ZN10QByteArrayD1Ev)
+    QBasicAtomicInt::deref()                 0x0000ab5b   Thumb Code    18  qtsensors_sym.in(i._ZN15QBasicAtomicInt5derefEv)
+    SensorPluginSym::createBackend(QtMobility::QSensor*) 0x0000ab6d   Thumb Code   614  qtsensors_sym.in(i._ZN15SensorPluginSym13createBackendEPN10QtMobility7QSensorE)
+    SensorPluginSym::registerSensors()       0x0000ae05   Thumb Code   396  qtsensors_sym.in(i._ZN15SensorPluginSym15registerSensorsEv)
+    SensorPluginSym::~SensorPluginSym__deallocating() 0x0000b01f   Thumb Code    16  qtsensors_sym.in(i._ZN15SensorPluginSymD0Ev)
+    SensorPluginSym::~SensorPluginSym()      0x0000b02f   Thumb Code     8  qtsensors_sym.in(i._ZN15SensorPluginSymD1Ev)
+    SensorPluginSym::~SensorPluginSym__sub_object() 0x0000b02f   Thumb Code     0  qtsensors_sym.in(i._ZN15SensorPluginSymD1Ev)
+    QDebug::~QDebug()                        0x0000b037   Thumb Code   116  qtsensors_sym.in(i._ZN6QDebugD1Ev)
+    QDebug::~QDebug__sub_object()            0x0000b037   Thumb Code     0  qtsensors_sym.in(i._ZN6QDebugD1Ev)
+    QString::~QString()                      0x0000b0bf   Thumb Code    24  qtsensors_sym.in(i._ZN7QStringD1Ev)
+    QString::~QString__sub_object()          0x0000b0bf   Thumb Code     0  qtsensors_sym.in(i._ZN7QStringD1Ev)
+    QVariant::isValid() const                0x0000b0d7   Thumb Code    14  qtsensors_sym.in(i._ZNK8QVariant7isValidEv)
+    QListData::at(int) const                 0x0000b0e5   Thumb Code    16  qtsensors_sym.in(i._ZNK9QListData2atEi)
+    QListData::end() const                   0x0000b0f5   Thumb Code    12  qtsensors_sym.in(i._ZNK9QListData3endEv)
+    QListData::size() const                  0x0000b101   Thumb Code    10  qtsensors_sym.in(i._ZNK9QListData4sizeEv)
+    QListData::begin() const                 0x0000b10b   Thumb Code    12  qtsensors_sym.in(i._ZNK9QListData5beginEv)
+    thunk{-12} to SensorPluginSym::createBackend(QtMobility::QSensor*) 0x0000b117   Thumb Code    10  qtsensors_sym.in(i._ZThn12_N15SensorPluginSym13createBackendEPN10QtMobility7QSensorE)
+    thunk{-8} to SensorPluginSym::registerSensors() 0x0000b121   Thumb Code    10  qtsensors_sym.in(i._ZThn8_N15SensorPluginSym15registerSensorsEv)
+    operator ==(const QByteArray&, const char*) 0x0000b12b   Thumb Code    38  qtsensors_sym.in(i._ZeqRK10QByteArrayPKc)
+    QtMobility::QSensorBackend::setReading<QtMobility::QTapReading>(T1*) 0x0000b151   Thumb Code   116  qtsensors_sym.in(t._ZN10QtMobility14QSensorBackend10setReadingINS_11QTapReadingEEEPT_S4_)
+    QtMobility::QSensorBackend::setReading<QtMobility::QCompassReading>(T1*) 0x0000b1e3   Thumb Code   116  qtsensors_sym.in(t._ZN10QtMobility14QSensorBackend10setReadingINS_15QCompassReadingEEEPT_S4_)
+    QtMobility::QSensorBackend::setReading<QtMobility::QRotationReading>(T1*) 0x0000b275   Thumb Code   116  qtsensors_sym.in(t._ZN10QtMobility14QSensorBackend10setReadingINS_16QRotationReadingEEEPT_S4_)
+    QtMobility::QSensorBackend::setReading<QtMobility::QProximityReading>(T1*) 0x0000b307   Thumb Code   116  qtsensors_sym.in(t._ZN10QtMobility14QSensorBackend10setReadingINS_17QProximityReadingEEEPT_S4_)
+    QtMobility::QSensorBackend::setReading<QtMobility::QOrientationReading>(T1*) 0x0000b399   Thumb Code   116  qtsensors_sym.in(t._ZN10QtMobility14QSensorBackend10setReadingINS_19QOrientationReadingEEEPT_S4_)
+    QtMobility::QSensorBackend::setReading<QtMobility::QAmbientLightReading>(T1*) 0x0000b42b   Thumb Code   116  qtsensors_sym.in(t._ZN10QtMobility14QSensorBackend10setReadingINS_20QAmbientLightReadingEEEPT_S4_)
+    QtMobility::QSensorBackend::setReading<QtMobility::QMagnetometerReading>(T1*) 0x0000b4bd   Thumb Code   116  qtsensors_sym.in(t._ZN10QtMobility14QSensorBackend10setReadingINS_20QMagnetometerReadingEEEPT_S4_)
+    QtMobility::QSensorBackend::setReading<QtMobility::QAccelerometerReading>(T1*) 0x0000b54f   Thumb Code   116  qtsensors_sym.in(t._ZN10QtMobility14QSensorBackend10setReadingINS_21QAccelerometerReadingEEEPT_S4_)
+    QList<QPair<int, int>>::detach_helper(int) 0x0000b5e1   Thumb Code   112  qtsensors_sym.in(t._ZN5QListI5QPairIiiEE13detach_helperEi)
+    QList<QPair<int, int>>::free(QListData::Data*) 0x0000b659   Thumb Code    48  qtsensors_sym.in(t._ZN5QListI5QPairIiiEE4freeEPN9QListData4DataE)
+    QList<QPair<int, int>>::~QList()         0x0000b689   Thumb Code    30  qtsensors_sym.in(t._ZN5QListI5QPairIiiEED1Ev)
+    QList<QPair<int, int>>::~QList__sub_object() 0x0000b689   Thumb Code     0  qtsensors_sym.in(t._ZN5QListI5QPairIiiEED1Ev)
+    QList<QPair<int, int>>::operator [](int) 0x0000b6a7   Thumb Code    34  qtsensors_sym.in(t._ZN5QListI5QPairIiiEEixEi)
+    QList<QtMobility::qoutputrange>::detach_helper(int) 0x0000b6c9   Thumb Code   112  qtsensors_sym.in(t._ZN5QListIN10QtMobility12qoutputrangeEE13detach_helperEi)
+    QList<QtMobility::qoutputrange>::free(QListData::Data*) 0x0000b741   Thumb Code    48  qtsensors_sym.in(t._ZN5QListIN10QtMobility12qoutputrangeEE4freeEPN9QListData4DataE)
+    QList<QtMobility::qoutputrange>::~QList() 0x0000b771   Thumb Code    30  qtsensors_sym.in(t._ZN5QListIN10QtMobility12qoutputrangeEED1Ev)
+    QList<QtMobility::qoutputrange>::~QList__sub_object() 0x0000b771   Thumb Code     0  qtsensors_sym.in(t._ZN5QListIN10QtMobility12qoutputrangeEED1Ev)
+    TPckg<TSensrvTappingData>::TPckg(const TSensrvTappingData&) 0x0000b78f   Thumb Code    12  qtsensors_sym.in(t._ZN5TPckgI18TSensrvTappingDataEC1ERKS0_)
+    TPckg<TSensrvTappingData>::TPckg__sub_object(const TSensrvTappingData&) 0x0000b78f   Thumb Code     0  qtsensors_sym.in(t._ZN5TPckgI18TSensrvTappingDataEC1ERKS0_)
+    TPckg<TSensrvRotationData>::TPckg(const TSensrvRotationData&) 0x0000b79b   Thumb Code    12  qtsensors_sym.in(t._ZN5TPckgI19TSensrvRotationDataEC1ERKS0_)
+    TPckg<TSensrvRotationData>::TPckg__sub_object(const TSensrvRotationData&) 0x0000b79b   Thumb Code     0  qtsensors_sym.in(t._ZN5TPckgI19TSensrvRotationDataEC1ERKS0_)
+    TPckg<TSensrvProximityData>::TPckg(const TSensrvProximityData&) 0x0000b7a7   Thumb Code    12  qtsensors_sym.in(t._ZN5TPckgI20TSensrvProximityDataEC1ERKS0_)
+    TPckg<TSensrvProximityData>::TPckg__sub_object(const TSensrvProximityData&) 0x0000b7a7   Thumb Code     0  qtsensors_sym.in(t._ZN5TPckgI20TSensrvProximityDataEC1ERKS0_)
+    TPckg<TSensrvOrientationData>::TPckg(const TSensrvOrientationData&) 0x0000b7b3   Thumb Code    12  qtsensors_sym.in(t._ZN5TPckgI22TSensrvOrientationDataEC1ERKS0_)
+    TPckg<TSensrvOrientationData>::TPckg__sub_object(const TSensrvOrientationData&) 0x0000b7b3   Thumb Code     0  qtsensors_sym.in(t._ZN5TPckgI22TSensrvOrientationDataEC1ERKS0_)
+    TPckg<TSensrvAmbientLightData>::TPckg(const TSensrvAmbientLightData&) 0x0000b7bf   Thumb Code    12  qtsensors_sym.in(t._ZN5TPckgI23TSensrvAmbientLightDataEC1ERKS0_)
+    TPckg<TSensrvAmbientLightData>::TPckg__sub_object(const TSensrvAmbientLightData&) 0x0000b7bf   Thumb Code     0  qtsensors_sym.in(t._ZN5TPckgI23TSensrvAmbientLightDataEC1ERKS0_)
+    TPckg<TSensrvMagneticNorthData>::TPckg(const TSensrvMagneticNorthData&) 0x0000b7cb   Thumb Code    12  qtsensors_sym.in(t._ZN5TPckgI24TSensrvMagneticNorthDataEC1ERKS0_)
+    TPckg<TSensrvMagneticNorthData>::TPckg__sub_object(const TSensrvMagneticNorthData&) 0x0000b7cb   Thumb Code     0  qtsensors_sym.in(t._ZN5TPckgI24TSensrvMagneticNorthDataEC1ERKS0_)
+    TPckg<TSensrvMagnetometerAxisData>::TPckg(const TSensrvMagnetometerAxisData&) 0x0000b7d7   Thumb Code    12  qtsensors_sym.in(t._ZN5TPckgI27TSensrvMagnetometerAxisDataEC1ERKS0_)
+    TPckg<TSensrvMagnetometerAxisData>::TPckg__sub_object(const TSensrvMagnetometerAxisData&) 0x0000b7d7   Thumb Code     0  qtsensors_sym.in(t._ZN5TPckgI27TSensrvMagnetometerAxisDataEC1ERKS0_)
+    TPckg<TSensrvAccelerometerAxisData>::TPckg(const TSensrvAccelerometerAxisData&) 0x0000b7e3   Thumb Code    12  qtsensors_sym.in(t._ZN5TPckgI28TSensrvAccelerometerAxisDataEC1ERKS0_)
+    TPckg<TSensrvAccelerometerAxisData>::TPckg__sub_object(const TSensrvAccelerometerAxisData&) 0x0000b7e3   Thumb Code     0  qtsensors_sym.in(t._ZN5TPckgI28TSensrvAccelerometerAxisDataEC1ERKS0_)
+    RArray<TSensrvProperty>::operator [](int) 0x0000b7ef   Thumb Code     8  qtsensors_sym.in(t._ZN6RArrayI15TSensrvPropertyEixEi)
+    QPointer<QObject>::~QPointer()           0x0000b7f7   Thumb Code    12  qtsensors_sym.in(t._ZN8QPointerI7QObjectED1Ev)
+    QPointer<QObject>::~QPointer__sub_object() 0x0000b7f7   Thumb Code     0  qtsensors_sym.in(t._ZN8QPointerI7QObjectED1Ev)
+    QList<QPair<int, int>>::indexOf(const QPair<int, int>&, int) const 0x0000b803   Thumb Code   106  qtsensors_sym.in(t._ZNK5QListI5QPairIiiEE7indexOfERKS1_i)
+    CProximitySensorSym::id                  0x0000c1c8   Data           4  qtsensors_sym.in(.constdata)
+    CAmbientLightSensorSym::id               0x0000c1cc   Data           4  qtsensors_sym.in(.constdata)
+    CMagnetometerSensorSym::id               0x0000c1d0   Data           4  qtsensors_sym.in(.constdata)
+    CCompassSym::id                          0x0000c1d4   Data           4  qtsensors_sym.in(.constdata)
+    CAccelerometerSensorSym::id              0x0000c1d8   Data           4  qtsensors_sym.in(.constdata)
+    COrientationSensorSym::id                0x0000c1dc   Data           4  qtsensors_sym.in(.constdata)
+    CRotationSensorSym::id                   0x0000c1e0   Data           4  qtsensors_sym.in(.constdata)
+    CTapSensorSym::id                        0x0000c1e4   Data           4  qtsensors_sym.in(.constdata)
+    SensorPluginSym::staticMetaObject        0x0000c254   Data          16  qtsensors_sym.in(.constdata)
+    typeinfo for CCompassSym                 0x0000c2a0   Data          12  qtsensors_sym.in(.constdata__ZTI11CCompassSym)
+    typeinfo for CTapSensorSym               0x0000c2ac   Data          12  qtsensors_sym.in(.constdata__ZTI13CTapSensorSym)
+    typeinfo for SensorPluginSym             0x0000c2b8   Data          40  qtsensors_sym.in(.constdata__ZTI15SensorPluginSym)
+    typeinfo for CSensorBackendSym           0x0000c2e0   Data          48  qtsensors_sym.in(.constdata__ZTI17CSensorBackendSym)
+    typeinfo for CRotationSensorSym          0x0000c310   Data          12  qtsensors_sym.in(.constdata__ZTI18CRotationSensorSym)
+    typeinfo for CProximitySensorSym         0x0000c31c   Data          12  qtsensors_sym.in(.constdata__ZTI19CProximitySensorSym)
+    typeinfo for MSensrvDataListener         0x0000c328   Data           8  qtsensors_sym.in(.constdata__ZTI19MSensrvDataListener)
+    typeinfo for COrientationSensorSym       0x0000c330   Data          12  qtsensors_sym.in(.constdata__ZTI21COrientationSensorSym)
+    typeinfo for CAmbientLightSensorSym      0x0000c33c   Data          12  qtsensors_sym.in(.constdata__ZTI22CAmbientLightSensorSym)
+    typeinfo for CMagnetometerSensorSym      0x0000c348   Data          12  qtsensors_sym.in(.constdata__ZTI22CMagnetometerSensorSym)
+    typeinfo for CAccelerometerSensorSym     0x0000c354   Data          12  qtsensors_sym.in(.constdata__ZTI23CAccelerometerSensorSym)
+    typeinfo for MSensrvPropertyListener     0x0000c360   Data           8  qtsensors_sym.in(.constdata__ZTI23MSensrvPropertyListener)
+    typeinfo for QtMobility::QSensorBackendFactory 0x0000c368   Data           8  qtsensors_sym.in(.constdata__ZTIN10QtMobility21QSensorBackendFactoryE)
+    typeinfo for QtMobility::QSensorPluginInterface 0x0000c370   Data           8  qtsensors_sym.in(.constdata__ZTIN10QtMobility22QSensorPluginInterfaceE)
+    typeinfo for std::bad_alloc              0x0000c378   Data          12  qtsensors_sym.in(.constdata__ZTISt9bad_alloc)
+    typeinfo name for CCompassSym            0x0000c384   Data          14  qtsensors_sym.in(.constdata__ZTS11CCompassSym)
+    typeinfo name for CTapSensorSym          0x0000c392   Data          16  qtsensors_sym.in(.constdata__ZTS13CTapSensorSym)
+    typeinfo name for SensorPluginSym        0x0000c3a2   Data          18  qtsensors_sym.in(.constdata__ZTS15SensorPluginSym)
+    typeinfo name for CSensorBackendSym      0x0000c3b4   Data          20  qtsensors_sym.in(.constdata__ZTS17CSensorBackendSym)
+    typeinfo name for CRotationSensorSym     0x0000c3c8   Data          21  qtsensors_sym.in(.constdata__ZTS18CRotationSensorSym)
+    typeinfo name for CProximitySensorSym    0x0000c3dd   Data          22  qtsensors_sym.in(.constdata__ZTS19CProximitySensorSym)
+    typeinfo name for MSensrvDataListener    0x0000c3f3   Data          22  qtsensors_sym.in(.constdata__ZTS19MSensrvDataListener)
+    typeinfo name for COrientationSensorSym  0x0000c409   Data          24  qtsensors_sym.in(.constdata__ZTS21COrientationSensorSym)
+    typeinfo name for CAmbientLightSensorSym 0x0000c421   Data          25  qtsensors_sym.in(.constdata__ZTS22CAmbientLightSensorSym)
+    typeinfo name for CMagnetometerSensorSym 0x0000c43a   Data          25  qtsensors_sym.in(.constdata__ZTS22CMagnetometerSensorSym)
+    typeinfo name for CAccelerometerSensorSym 0x0000c453   Data          26  qtsensors_sym.in(.constdata__ZTS23CAccelerometerSensorSym)
+    typeinfo name for MSensrvPropertyListener 0x0000c46d   Data          26  qtsensors_sym.in(.constdata__ZTS23MSensrvPropertyListener)
+    typeinfo name for QtMobility::QSensorBackendFactory 0x0000c487   Data          38  qtsensors_sym.in(.constdata__ZTSN10QtMobility21QSensorBackendFactoryE)
+    typeinfo name for QtMobility::QSensorPluginInterface 0x0000c4ad   Data          39  qtsensors_sym.in(.constdata__ZTSN10QtMobility22QSensorPluginInterfaceE)
+    typeinfo name for std::bad_alloc         0x0000c4d4   Data          13  qtsensors_sym.in(.constdata__ZTSSt9bad_alloc)
+    vtable for CCompassSym                   0x0000c4e4   Data         176  qtsensors_sym.in(.constdata__ZTV11CCompassSym)
+    vtable for CTapSensorSym                 0x0000c594   Data         176  qtsensors_sym.in(.constdata__ZTV13CTapSensorSym)
+    vtable for SensorPluginSym               0x0000c644   Data          88  qtsensors_sym.in(.constdata__ZTV15SensorPluginSym)
+    vtable for CSensorBackendSym             0x0000c69c   Data         172  qtsensors_sym.in(.constdata__ZTV17CSensorBackendSym)
+    vtable for CRotationSensorSym            0x0000c748   Data         176  qtsensors_sym.in(.constdata__ZTV18CRotationSensorSym)
+    vtable for CProximitySensorSym           0x0000c7f8   Data         176  qtsensors_sym.in(.constdata__ZTV19CProximitySensorSym)
+    vtable for COrientationSensorSym         0x0000c8a8   Data         176  qtsensors_sym.in(.constdata__ZTV21COrientationSensorSym)
+    vtable for CAmbientLightSensorSym        0x0000c958   Data         176  qtsensors_sym.in(.constdata__ZTV22CAmbientLightSensorSym)
+    vtable for CMagnetometerSensorSym        0x0000ca08   Data         176  qtsensors_sym.in(.constdata__ZTV22CMagnetometerSensorSym)
+    vtable for CAccelerometerSensorSym       0x0000cab8   Data         176  qtsensors_sym.in(.constdata__ZTV23CAccelerometerSensorSym)
+    .ARM.exidx$$Base                         0x0000cbdc   Number         0  ucppinit_aeabi.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x0000cfe4   Number         0  qtsensors_sym.in(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x0000cfe4   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    __dso_handle                             0x00400008   Data           4  ucppfini.o(.data)
+

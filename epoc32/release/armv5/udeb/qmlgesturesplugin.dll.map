@@ -1,0 +1,1038 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../../unhosted.s                         0x00000000   Number         0  switch8.o ABSOLUTE
+    M:\\epoc32\\build\\euser\\c_e18a23aea4fd210f\\edll_lib\\armv5\\udeb\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\\sf\\os\\kernelhwsrv\\kernel\\eka\\compsupp\\rvct\\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\epoc32\build\euser\c_e18a23aea4fd210f\edll_lib\armv5\udeb\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\dllexp.cpp 0x00000000   Number         0  dllexp.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    S:\sf\mw\qt\src\imports\gestures\plugin.cpp 0x00000000   Number         0  plugin.o ABSOLUTE
+    S:\sf\mw\qt\src\imports\gestures\qdeclarativegesturearea.cpp 0x00000000   Number         0  qdeclarativegesturearea.o ABSOLUTE
+    S:\sf\mw\qt\src\imports\gestures\tmp\moc\debug_shared\moc_qdeclarativegesturearea_p.cpp 0x00000000   Number         0  moc_qdeclarativegesturearea_p.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    Symbian$$eit_base                        0x00008014   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$eit_limit                       0x00008018   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_base                   0x0000801c   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_limit                  0x00008020   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$reserved                        0x00008024   Data           4  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       52  ucppinit.o(.emb_text)
+    loop                                     0x0000803c   ARM Code       0  ucppinit.o(.emb_text)
+    ret                                      0x00008044   ARM Code       0  ucppinit.o(.emb_text)
+    base                                     0x00008054   Data           0  ucppinit.o(.emb_text)
+    limit                                    0x00008058   Data           0  ucppinit.o(.emb_text)
+    .text                                    0x0000834c   Section     2200  qdeclarativegesturearea.o(.text)
+    .text                                    0x00008be4   Section      276  plugin.o(.text)
+    .text                                    0x00008cf8   Section      200  moc_qdeclarativegesturearea_p.o(.text)
+    .text                                    0x00008dc0   Section       24  switch8.o(.text)
+    .text                                    0x00008dd8   Section       80  uc_dll.o(.text)
+    .text                                    0x00008e28   Section      180  ucppfini.o(.text)
+    .text                                    0x00008edc   Section        4  dllexp.o(.text)
+    .text.clean                              0x00008ee0   Section      186  qdeclarativegesturearea.o(.text.clean)
+    .text.clean                              0x00008f9c   Section       28  plugin.o(.text.clean)
+    i._ZN10QByteArrayC1ERKS_                 0x00008fb8   Section       20  plugin.o(i._ZN10QByteArrayC1ERKS_)
+    i._ZN10QByteArrayC1Ev                    0x00008fcc   Section       24  qdeclarativegesturearea.o(i._ZN10QByteArrayC1Ev)
+    i._ZN10QByteArrayD1Ev                    0x00008fe4   Section       24  qdeclarativegesturearea.o(i._ZN10QByteArrayD1Ev)
+    i._ZN15QBasicAtomicInt3refEv             0x00008ffc   Section       24  qdeclarativegesturearea.o(i._ZN15QBasicAtomicInt3refEv)
+    i._ZN15QBasicAtomicInt5derefEv           0x00009014   Section       24  qdeclarativegesturearea.o(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN15QtSharedPointer20ExternalRefCountData7destroyEv 0x0000902c   Section        6  qdeclarativegesturearea.o(i._ZN15QtSharedPointer20ExternalRefCountData7destroyEv)
+    i._ZN15QtSharedPointer20ExternalRefCountDataD0Ev 0x00009032   Section       22  qdeclarativegesturearea.o(i._ZN15QtSharedPointer20ExternalRefCountDataD0Ev)
+    i._ZN15QtSharedPointer20ExternalRefCountDataD1Ev 0x00009048   Section      100  qdeclarativegesturearea.o(i._ZN15QtSharedPointer20ExternalRefCountDataD1Ev)
+    i._ZN17QDeclarativeGuardI7QObjectED0Ev   0x000090ac   Section       22  qdeclarativegesturearea.o(i._ZN17QDeclarativeGuardI7QObjectED0Ev)
+    i._ZN18QDeclarativeParser7VariantD1Ev    0x000090c2   Section       20  qdeclarativegesturearea.o(i._ZN18QDeclarativeParser7VariantD1Ev)
+    i._ZN19QDeclarativePrivate12RegisterTypeD1Ev 0x000090d6   Section       20  plugin.o(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaED0Ev 0x000090ea   Section       22  plugin.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaED0Ev)
+    i._ZN20GestureAreaQmlPlugin13registerTypesEPKc 0x00009100   Section      640  plugin.o(i._ZN20GestureAreaQmlPlugin13registerTypesEPKc)
+    i._ZN20GestureAreaQmlPlugin13registerTypesEPKc.clean 0x00009380   Section       66  plugin.o(i._ZN20GestureAreaQmlPlugin13registerTypesEPKc.clean)
+    i._ZN20GestureAreaQmlPluginD0Ev          0x000093c2   Section       24  plugin.o(i._ZN20GestureAreaQmlPluginD0Ev)
+    i._ZN20GestureAreaQmlPluginD1Ev          0x000093da   Section       14  plugin.o(i._ZN20GestureAreaQmlPluginD1Ev)
+    i._ZN20QDeclarativeNotifierD1Ev          0x000093e8   Section       52  qdeclarativegesturearea.o(i._ZN20QDeclarativeNotifierD1Ev)
+    i._ZN20QGraphicsItemPrivate11ExtraStructD1Ev 0x0000941c   Section       20  qdeclarativegesturearea.o(i._ZN20QGraphicsItemPrivate11ExtraStructD1Ev)
+    i._ZN20QGraphicsItemPrivate11resolveFontEj 0x00009430   Section       62  qdeclarativegesturearea.o(i._ZN20QGraphicsItemPrivate11resolveFontEj)
+    i._ZN20QGraphicsItemPrivate14resolvePaletteEj 0x0000946e   Section       62  qdeclarativegesturearea.o(i._ZN20QGraphicsItemPrivate14resolvePaletteEj)
+    i._ZN20QGraphicsItemPrivateC1Ev          0x000094ac   Section      916  qdeclarativegesturearea.o(i._ZN20QGraphicsItemPrivateC1Ev)
+    i._ZN20QGraphicsItemPrivateC1Ev.clean    0x00009840   Section       46  qdeclarativegesturearea.o(i._ZN20QGraphicsItemPrivateC1Ev.clean)
+    i._ZN20QGraphicsItemPrivateD1Ev          0x00009870   Section       72  qdeclarativegesturearea.o(i._ZN20QGraphicsItemPrivateD1Ev)
+    i._ZN20QGraphicsItemPrivateD1Ev.clean    0x000098b8   Section       46  qdeclarativegesturearea.o(i._ZN20QGraphicsItemPrivateD1Ev.clean)
+    i._ZN22QGraphicsEffectPrivateD1Ev        0x000098e6   Section       14  qdeclarativegesturearea.o(i._ZN22QGraphicsEffectPrivateD1Ev)
+    i._ZN23QDeclarativeGestureArea2trEPKcS1_ 0x000098f4   Section       28  qdeclarativegesturearea.o(i._ZN23QDeclarativeGestureArea2trEPKcS1_)
+    i._ZN23QDeclarativeItemPrivate12setPosHelperERK7QPointF 0x00009910   Section      110  qdeclarativegesturearea.o(i._ZN23QDeclarativeItemPrivate12setPosHelperERK7QPointF)
+    i._ZN23QDeclarativeItemPrivate18siblingOrderChangeEv 0x0000997e   Section       82  qdeclarativegesturearea.o(i._ZN23QDeclarativeItemPrivate18siblingOrderChangeEv)
+    i._ZN23QDeclarativeItemPrivate18subFocusItemChangeEv 0x000099d0   Section       66  qdeclarativegesturearea.o(i._ZN23QDeclarativeItemPrivate18subFocusItemChangeEv)
+    i._ZN23QDeclarativeItemPrivate20focusScopeItemChangeEb 0x00009a12   Section       22  qdeclarativegesturearea.o(i._ZN23QDeclarativeItemPrivate20focusScopeItemChangeEb)
+    i._ZN23QDeclarativeItemPrivate6q_funcEv  0x00009a28   Section       22  qdeclarativegesturearea.o(i._ZN23QDeclarativeItemPrivate6q_funcEv)
+    i._ZN23QDeclarativeItemPrivateC1Ev       0x00009a40   Section      396  qdeclarativegesturearea.o(i._ZN23QDeclarativeItemPrivateC1Ev)
+    i._ZN23QDeclarativeItemPrivateC1Ev.clean 0x00009bcc   Section        4  qdeclarativegesturearea.o(i._ZN23QDeclarativeItemPrivateC1Ev.clean)
+    i._ZN23QDeclarativeItemPrivateD1Ev       0x00009bd0   Section       48  qdeclarativegesturearea.o(i._ZN23QDeclarativeItemPrivateD1Ev)
+    i._ZN23QDeclarativeItemPrivateD1Ev.clean 0x00009c00   Section       22  qdeclarativegesturearea.o(i._ZN23QDeclarativeItemPrivateD1Ev.clean)
+    i._ZN24QDeclarativeCustomParserD0Ev      0x00009c16   Section       22  qdeclarativegesturearea.o(i._ZN24QDeclarativeCustomParserD0Ev)
+    i._ZN24QDeclarativeCustomParserD2Ev      0x00009c2c   Section       24  qdeclarativegesturearea.o(i._ZN24QDeclarativeCustomParserD2Ev)
+    i._ZN26QGraphicsBlurEffectPrivateD0Ev    0x00009c44   Section       22  qdeclarativegesturearea.o(i._ZN26QGraphicsBlurEffectPrivateD0Ev)
+    i._ZN26QGraphicsBlurEffectPrivateD1Ev    0x00009c5c   Section       40  qdeclarativegesturearea.o(i._ZN26QGraphicsBlurEffectPrivateD1Ev)
+    i._ZN26QGraphicsBlurEffectPrivateD1Ev.clean 0x00009c84   Section       10  qdeclarativegesturearea.o(i._ZN26QGraphicsBlurEffectPrivateD1Ev.clean)
+    i._ZN29QDeclarativeGestureAreaParserD0Ev 0x00009c8e   Section       24  qdeclarativegesturearea.o(i._ZN29QDeclarativeGestureAreaParserD0Ev)
+    i._ZN29QDeclarativeGestureAreaParserD1Ev 0x00009ca6   Section       14  qdeclarativegesturearea.o(i._ZN29QDeclarativeGestureAreaParserD1Ev)
+    i._ZN30QDeclarativeGestureAreaPrivateD0Ev 0x00009cb4   Section       22  qdeclarativegesturearea.o(i._ZN30QDeclarativeGestureAreaPrivateD0Ev)
+    i._ZN30QDeclarativeGestureAreaPrivateD1Ev 0x00009ccc   Section       48  qdeclarativegesturearea.o(i._ZN30QDeclarativeGestureAreaPrivateD1Ev)
+    i._ZN30QDeclarativeGestureAreaPrivateD1Ev.clean 0x00009cfc   Section       22  qdeclarativegesturearea.o(i._ZN30QDeclarativeGestureAreaPrivateD1Ev.clean)
+    i._ZN30QGraphicsColorizeEffectPrivateD0Ev 0x00009d12   Section       22  qdeclarativegesturearea.o(i._ZN30QGraphicsColorizeEffectPrivateD0Ev)
+    i._ZN30QGraphicsColorizeEffectPrivateD1Ev 0x00009d28   Section       40  qdeclarativegesturearea.o(i._ZN30QGraphicsColorizeEffectPrivateD1Ev)
+    i._ZN30QGraphicsColorizeEffectPrivateD1Ev.clean 0x00009d50   Section       10  qdeclarativegesturearea.o(i._ZN30QGraphicsColorizeEffectPrivateD1Ev.clean)
+    i._ZN32QGraphicsDropShadowEffectPrivateD0Ev 0x00009d5a   Section       22  qdeclarativegesturearea.o(i._ZN32QGraphicsDropShadowEffectPrivateD0Ev)
+    i._ZN32QGraphicsDropShadowEffectPrivateD1Ev 0x00009d70   Section       40  qdeclarativegesturearea.o(i._ZN32QGraphicsDropShadowEffectPrivateD1Ev)
+    i._ZN32QGraphicsDropShadowEffectPrivateD1Ev.clean 0x00009d98   Section       10  qdeclarativegesturearea.o(i._ZN32QGraphicsDropShadowEffectPrivateD1Ev.clean)
+    i._ZN6QDebugD1Ev                         0x00009da2   Section      144  qdeclarativegesturearea.o(i._ZN6QDebugD1Ev)
+    i._ZN6QDebugD1Ev.clean                   0x00009e32   Section       20  qdeclarativegesturearea.o(i._ZN6QDebugD1Ev.clean)
+    i._ZN6QRectFC1Ev                         0x00009e46   Section       12  qdeclarativegesturearea.o(i._ZN6QRectFC1Ev)
+    i._ZN7QStringC1ERK13QLatin1String        0x00009e52   Section       26  plugin.o(i._ZN7QStringC1ERK13QLatin1String)
+    i._ZN7QStringC1ERKS_                     0x00009e6c   Section      124  plugin.o(i._ZN7QStringC1ERKS_)
+    i._ZN7QStringC1Ev                        0x00009ee8   Section       24  qdeclarativegesturearea.o(i._ZN7QStringC1Ev)
+    i._ZN7QStringD1Ev                        0x00009f00   Section       24  qdeclarativegesturearea.o(i._ZN7QStringD1Ev)
+    i._ZNK15QBasicAtomicInteqEi              0x00009f18   Section       16  qdeclarativegesturearea.o(i._ZNK15QBasicAtomicInteqEi)
+    i._ZNK15QBasicAtomicIntneEi              0x00009f28   Section       16  qdeclarativegesturearea.o(i._ZNK15QBasicAtomicIntneEi)
+    i._ZNK15QBasicAtomicIntntEv              0x00009f38   Section       16  qdeclarativegesturearea.o(i._ZNK15QBasicAtomicIntntEv)
+    i._ZNK9QListData2atEi                    0x00009f48   Section       20  qdeclarativegesturearea.o(i._ZNK9QListData2atEi)
+    i._ZNK9QListData4sizeEv                  0x00009f5c   Section       14  qdeclarativegesturearea.o(i._ZNK9QListData4sizeEv)
+    i._ZThn16_N19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaED0Ev 0x00009f6a   Section       14  plugin.o(i._ZThn16_N19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaED0Ev)
+    i._ZThn16_N19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaED1Ev 0x00009f78   Section       14  plugin.o(i._ZThn16_N19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaED1Ev)
+    i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaED0Ev 0x00009f86   Section       14  plugin.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaED0Ev)
+    i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaED1Ev 0x00009f94   Section       14  plugin.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaED1Ev)
+    i._ZThn8_N20GestureAreaQmlPlugin13registerTypesEPKc 0x00009fa2   Section       18  plugin.o(i._ZThn8_N20GestureAreaQmlPlugin13registerTypesEPKc)
+    i._ZThn8_N20GestureAreaQmlPluginD0Ev     0x00009fb4   Section       14  plugin.o(i._ZThn8_N20GestureAreaQmlPluginD0Ev)
+    i._ZThn8_N20GestureAreaQmlPluginD1Ev     0x00009fc2   Section       18  plugin.o(i._ZThn8_N20GestureAreaQmlPluginD1Ev)
+    i._ZdlPvS_                               0x00009fd4   Section        2  plugin.o(i._ZdlPvS_)
+    i._ZnwjPv                                0x00009fd6   Section        6  qdeclarativegesturearea.o(i._ZnwjPv)
+    i._ZplPKcRK10QByteArray                  0x00009fdc   Section       46  plugin.o(i._ZplPKcRK10QByteArray)
+    i._ZplPKcRK10QByteArray.clean            0x0000a00a   Section       10  plugin.o(i._ZplPKcRK10QByteArray.clean)
+    i._ZplRK10QByteArrayPKc                  0x0000a014   Section       46  plugin.o(i._ZplRK10QByteArrayPKc)
+    i._ZplRK10QByteArrayPKc.clean            0x0000a042   Section       10  plugin.o(i._ZplRK10QByteArrayPKc.clean)
+    i._ZplRK10QByteArrayc                    0x0000a04c   Section       46  plugin.o(i._ZplRK10QByteArrayc)
+    i._ZplRK10QByteArrayc.clean              0x0000a07a   Section       10  plugin.o(i._ZplRK10QByteArrayc.clean)
+    t._Z15qMapLessThanKeyIN2Qt11GestureTypeEEbRKT_S4_ 0x0000a084   Section       18  qdeclarativegesturearea.o(t._Z15qMapLessThanKeyIN2Qt11GestureTypeEEbRKT_S4_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI11QPanGestureEEiPKcPT_ 0x0000a098   Section       64  plugin.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI11QPanGestureEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI11QTapGestureEEiPKcPT_ 0x0000a0d8   Section       64  plugin.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI11QTapGestureEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI13QPinchGestureEEiPKcPT_ 0x0000a118   Section       64  plugin.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI13QPinchGestureEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI13QSwipeGestureEEiPKcPT_ 0x0000a158   Section       64  plugin.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI13QSwipeGestureEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI18QTapAndHoldGestureEEiPKcPT_ 0x0000a198   Section       64  plugin.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI18QTapAndHoldGestureEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI23QDeclarativeGestureAreaEEiPKcPT_ 0x0000a1d8   Section      164  plugin.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI23QDeclarativeGestureAreaEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI8QGestureEEiPKcPT_ 0x0000a27c   Section       64  plugin.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI8QGestureEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI28QDeclarativeCustomParserNodeEiPKcPT_ 0x0000a2bc   Section       64  qdeclarativegesturearea.o(t._Z17qRegisterMetaTypeI28QDeclarativeCustomParserNodeEiPKcPT_)
+    t._Z17qRegisterMetaTypeI32QDeclarativeCustomParserPropertyEiPKcPT_ 0x0000a2fc   Section       64  qdeclarativegesturearea.o(t._Z17qRegisterMetaTypeI32QDeclarativeCustomParserPropertyEiPKcPT_)
+    t._Z17qRegisterMetaTypeIN18QDeclarativeParser7VariantEEiPKcPT_ 0x0000a33c   Section       64  qdeclarativegesturearea.o(t._Z17qRegisterMetaTypeIN18QDeclarativeParser7VariantEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIP11QPanGestureEiPKcPT_ 0x0000a37c   Section       64  plugin.o(t._Z17qRegisterMetaTypeIP11QPanGestureEiPKcPT_)
+    t._Z17qRegisterMetaTypeIP11QTapGestureEiPKcPT_ 0x0000a3bc   Section       64  plugin.o(t._Z17qRegisterMetaTypeIP11QTapGestureEiPKcPT_)
+    t._Z17qRegisterMetaTypeIP13QPinchGestureEiPKcPT_ 0x0000a3fc   Section       64  plugin.o(t._Z17qRegisterMetaTypeIP13QPinchGestureEiPKcPT_)
+    t._Z17qRegisterMetaTypeIP13QSwipeGestureEiPKcPT_ 0x0000a43c   Section       64  plugin.o(t._Z17qRegisterMetaTypeIP13QSwipeGestureEiPKcPT_)
+    t._Z17qRegisterMetaTypeIP18QTapAndHoldGestureEiPKcPT_ 0x0000a47c   Section       64  plugin.o(t._Z17qRegisterMetaTypeIP18QTapAndHoldGestureEiPKcPT_)
+    t._Z17qRegisterMetaTypeIP23QDeclarativeGestureAreaEiPKcPT_ 0x0000a4bc   Section      140  plugin.o(t._Z17qRegisterMetaTypeIP23QDeclarativeGestureAreaEiPKcPT_)
+    t._Z17qRegisterMetaTypeIP8QGestureEiPKcPT_ 0x0000a548   Section       64  plugin.o(t._Z17qRegisterMetaTypeIP8QGestureEiPKcPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI11QPanGestureEEvPT_ 0x0000a588   Section       12  plugin.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI11QPanGestureEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI11QTapGestureEEvPT_ 0x0000a594   Section       12  plugin.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI11QTapGestureEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI13QPinchGestureEEvPT_ 0x0000a5a0   Section       12  plugin.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI13QPinchGestureEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI13QSwipeGestureEEvPT_ 0x0000a5ac   Section       12  plugin.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI13QSwipeGestureEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI18QTapAndHoldGestureEEvPT_ 0x0000a5b8   Section       12  plugin.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI18QTapAndHoldGestureEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI23QDeclarativeGestureAreaEEvPT_ 0x0000a5c4   Section       12  plugin.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI23QDeclarativeGestureAreaEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI8QGestureEEvPT_ 0x0000a5d0   Section       12  plugin.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI8QGestureEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI28QDeclarativeCustomParserNodeEvPT_ 0x0000a5dc   Section       22  qdeclarativegesturearea.o(t._Z21qMetaTypeDeleteHelperI28QDeclarativeCustomParserNodeEvPT_)
+    t._Z21qMetaTypeDeleteHelperI32QDeclarativeCustomParserPropertyEvPT_ 0x0000a5f2   Section       22  qdeclarativegesturearea.o(t._Z21qMetaTypeDeleteHelperI32QDeclarativeCustomParserPropertyEvPT_)
+    t._Z21qMetaTypeDeleteHelperIN18QDeclarativeParser7VariantEEvPT_ 0x0000a608   Section       22  qdeclarativegesturearea.o(t._Z21qMetaTypeDeleteHelperIN18QDeclarativeParser7VariantEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIP11QPanGestureEvPT_ 0x0000a61e   Section       12  plugin.o(t._Z21qMetaTypeDeleteHelperIP11QPanGestureEvPT_)
+    t._Z21qMetaTypeDeleteHelperIP11QTapGestureEvPT_ 0x0000a62a   Section       12  plugin.o(t._Z21qMetaTypeDeleteHelperIP11QTapGestureEvPT_)
+    t._Z21qMetaTypeDeleteHelperIP13QPinchGestureEvPT_ 0x0000a636   Section       12  plugin.o(t._Z21qMetaTypeDeleteHelperIP13QPinchGestureEvPT_)
+    t._Z21qMetaTypeDeleteHelperIP13QSwipeGestureEvPT_ 0x0000a642   Section       12  plugin.o(t._Z21qMetaTypeDeleteHelperIP13QSwipeGestureEvPT_)
+    t._Z21qMetaTypeDeleteHelperIP18QTapAndHoldGestureEvPT_ 0x0000a64e   Section       12  plugin.o(t._Z21qMetaTypeDeleteHelperIP18QTapAndHoldGestureEvPT_)
+    t._Z21qMetaTypeDeleteHelperIP23QDeclarativeGestureAreaEvPT_ 0x0000a65a   Section       12  plugin.o(t._Z21qMetaTypeDeleteHelperIP23QDeclarativeGestureAreaEvPT_)
+    t._Z21qMetaTypeDeleteHelperIP8QGestureEvPT_ 0x0000a666   Section       12  plugin.o(t._Z21qMetaTypeDeleteHelperIP8QGestureEvPT_)
+    t._Z21qmlRegisterCustomTypeI23QDeclarativeGestureAreaEiPKciiS2_P24QDeclarativeCustomParser 0x0000a674   Section      304  plugin.o(t._Z21qmlRegisterCustomTypeI23QDeclarativeGestureAreaEiPKciiS2_P24QDeclarativeCustomParser)
+    t._Z21qmlRegisterCustomTypeI23QDeclarativeGestureAreaEiPKciiS2_P24QDeclarativeCustomParser.clean 0x0000a7a4   Section       52  plugin.o(t._Z21qmlRegisterCustomTypeI23QDeclarativeGestureAreaEiPKciiS2_P24QDeclarativeCustomParser.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI11QPanGestureEEPvPKT_ 0x0000a7d8   Section      150  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI11QPanGestureEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI11QPanGestureEEPvPKT_.clean 0x0000a86e   Section        4  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI11QPanGestureEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI11QTapGestureEEPvPKT_ 0x0000a872   Section      150  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI11QTapGestureEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI11QTapGestureEEPvPKT_.clean 0x0000a908   Section        4  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI11QTapGestureEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI13QPinchGestureEEPvPKT_ 0x0000a90c   Section      150  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI13QPinchGestureEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI13QPinchGestureEEPvPKT_.clean 0x0000a9a2   Section        4  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI13QPinchGestureEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI13QSwipeGestureEEPvPKT_ 0x0000a9a6   Section      150  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI13QSwipeGestureEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI13QSwipeGestureEEPvPKT_.clean 0x0000aa3c   Section        4  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI13QSwipeGestureEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI18QTapAndHoldGestureEEPvPKT_ 0x0000aa40   Section      150  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI18QTapAndHoldGestureEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI18QTapAndHoldGestureEEPvPKT_.clean 0x0000aad6   Section        4  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI18QTapAndHoldGestureEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI23QDeclarativeGestureAreaEEPvPKT_ 0x0000aada   Section      150  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI23QDeclarativeGestureAreaEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI23QDeclarativeGestureAreaEEPvPKT_.clean 0x0000ab70   Section        4  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI23QDeclarativeGestureAreaEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI8QGestureEEPvPKT_ 0x0000ab74   Section      150  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI8QGestureEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI8QGestureEEPvPKT_.clean 0x0000ac0a   Section        4  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI8QGestureEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI28QDeclarativeCustomParserNodeEPvPKT_ 0x0000ac0e   Section       80  qdeclarativegesturearea.o(t._Z24qMetaTypeConstructHelperI28QDeclarativeCustomParserNodeEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI28QDeclarativeCustomParserNodeEPvPKT_.clean 0x0000ac5e   Section       28  qdeclarativegesturearea.o(t._Z24qMetaTypeConstructHelperI28QDeclarativeCustomParserNodeEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI32QDeclarativeCustomParserPropertyEPvPKT_ 0x0000ac7a   Section       80  qdeclarativegesturearea.o(t._Z24qMetaTypeConstructHelperI32QDeclarativeCustomParserPropertyEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI32QDeclarativeCustomParserPropertyEPvPKT_.clean 0x0000acca   Section       28  qdeclarativegesturearea.o(t._Z24qMetaTypeConstructHelperI32QDeclarativeCustomParserPropertyEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperIN18QDeclarativeParser7VariantEEPvPKT_ 0x0000ace6   Section       80  qdeclarativegesturearea.o(t._Z24qMetaTypeConstructHelperIN18QDeclarativeParser7VariantEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIN18QDeclarativeParser7VariantEEPvPKT_.clean 0x0000ad36   Section       28  qdeclarativegesturearea.o(t._Z24qMetaTypeConstructHelperIN18QDeclarativeParser7VariantEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperIP11QPanGestureEPvPKT_ 0x0000ad52   Section       50  plugin.o(t._Z24qMetaTypeConstructHelperIP11QPanGestureEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIP11QTapGestureEPvPKT_ 0x0000ad84   Section       50  plugin.o(t._Z24qMetaTypeConstructHelperIP11QTapGestureEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIP13QPinchGestureEPvPKT_ 0x0000adb6   Section       50  plugin.o(t._Z24qMetaTypeConstructHelperIP13QPinchGestureEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIP13QSwipeGestureEPvPKT_ 0x0000ade8   Section       50  plugin.o(t._Z24qMetaTypeConstructHelperIP13QSwipeGestureEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIP18QTapAndHoldGestureEPvPKT_ 0x0000ae1a   Section       50  plugin.o(t._Z24qMetaTypeConstructHelperIP18QTapAndHoldGestureEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIP23QDeclarativeGestureAreaEPvPKT_ 0x0000ae4c   Section       50  plugin.o(t._Z24qMetaTypeConstructHelperIP23QDeclarativeGestureAreaEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIP8QGestureEPvPKT_ 0x0000ae7e   Section       50  plugin.o(t._Z24qMetaTypeConstructHelperIP8QGestureEPvPKT_)
+    t._Z26qmlRegisterUncreatableTypeI11QPanGestureEiPKciiS2_RK7QString 0x0000aeb0   Section      284  plugin.o(t._Z26qmlRegisterUncreatableTypeI11QPanGestureEiPKciiS2_RK7QString)
+    t._Z26qmlRegisterUncreatableTypeI11QPanGestureEiPKciiS2_RK7QString.clean 0x0000afcc   Section       52  plugin.o(t._Z26qmlRegisterUncreatableTypeI11QPanGestureEiPKciiS2_RK7QString.clean)
+    t._Z26qmlRegisterUncreatableTypeI11QTapGestureEiPKciiS2_RK7QString 0x0000b000   Section      284  plugin.o(t._Z26qmlRegisterUncreatableTypeI11QTapGestureEiPKciiS2_RK7QString)
+    t._Z26qmlRegisterUncreatableTypeI11QTapGestureEiPKciiS2_RK7QString.clean 0x0000b11c   Section       52  plugin.o(t._Z26qmlRegisterUncreatableTypeI11QTapGestureEiPKciiS2_RK7QString.clean)
+    t._Z26qmlRegisterUncreatableTypeI13QPinchGestureEiPKciiS2_RK7QString 0x0000b150   Section      284  plugin.o(t._Z26qmlRegisterUncreatableTypeI13QPinchGestureEiPKciiS2_RK7QString)
+    t._Z26qmlRegisterUncreatableTypeI13QPinchGestureEiPKciiS2_RK7QString.clean 0x0000b26c   Section       52  plugin.o(t._Z26qmlRegisterUncreatableTypeI13QPinchGestureEiPKciiS2_RK7QString.clean)
+    t._Z26qmlRegisterUncreatableTypeI13QSwipeGestureEiPKciiS2_RK7QString 0x0000b2a0   Section      284  plugin.o(t._Z26qmlRegisterUncreatableTypeI13QSwipeGestureEiPKciiS2_RK7QString)
+    t._Z26qmlRegisterUncreatableTypeI13QSwipeGestureEiPKciiS2_RK7QString.clean 0x0000b3bc   Section       52  plugin.o(t._Z26qmlRegisterUncreatableTypeI13QSwipeGestureEiPKciiS2_RK7QString.clean)
+    t._Z26qmlRegisterUncreatableTypeI18QTapAndHoldGestureEiPKciiS2_RK7QString 0x0000b3f0   Section      284  plugin.o(t._Z26qmlRegisterUncreatableTypeI18QTapAndHoldGestureEiPKciiS2_RK7QString)
+    t._Z26qmlRegisterUncreatableTypeI18QTapAndHoldGestureEiPKciiS2_RK7QString.clean 0x0000b50c   Section       52  plugin.o(t._Z26qmlRegisterUncreatableTypeI18QTapAndHoldGestureEiPKciiS2_RK7QString.clean)
+    t._Z26qmlRegisterUncreatableTypeI8QGestureEiPKciiS2_RK7QString 0x0000b540   Section      284  plugin.o(t._Z26qmlRegisterUncreatableTypeI8QGestureEiPKciiS2_RK7QString)
+    t._Z26qmlRegisterUncreatableTypeI8QGestureEiPKciiS2_RK7QString.clean 0x0000b65c   Section       52  plugin.o(t._Z26qmlRegisterUncreatableTypeI8QGestureEiPKciiS2_RK7QString.clean)
+    t._ZN10QPODVectorIN23QDeclarativeItemPrivate14ChangeListenerELi4EED1Ev 0x0000b690   Section       20  qdeclarativegesturearea.o(t._ZN10QPODVectorIN23QDeclarativeItemPrivate14ChangeListenerELi4EED1Ev)
+    t._ZN12QMetaTypeId2I28QDeclarativeCustomParserNodeE14qt_metatype_idEv 0x0000b6a4   Section       80  qdeclarativegesturearea.o(t._ZN12QMetaTypeId2I28QDeclarativeCustomParserNodeE14qt_metatype_idEv)
+    t._ZN12QMetaTypeId2I32QDeclarativeCustomParserPropertyE14qt_metatype_idEv 0x0000b6f4   Section       84  qdeclarativegesturearea.o(t._ZN12QMetaTypeId2I32QDeclarativeCustomParserPropertyE14qt_metatype_idEv)
+    t._ZN12QMetaTypeId2IN18QDeclarativeParser7VariantEE14qt_metatype_idEv 0x0000b748   Section       76  qdeclarativegesturearea.o(t._ZN12QMetaTypeId2IN18QDeclarativeParser7VariantEE14qt_metatype_idEv)
+    t._ZN17QDeclarativeGuardI7QObjectE15objectDestroyedEPS0_ 0x0000b794   Section        2  qdeclarativegesturearea.o(t._ZN17QDeclarativeGuardI7QObjectE15objectDestroyedEPS0_)
+    t._ZN17QDeclarativeGuardI7QObjectED1Ev   0x0000b798   Section       88  qdeclarativegesturearea.o(t._ZN17QDeclarativeGuardI7QObjectED1Ev)
+    t._ZN19QDeclarativePrivate10createIntoI23QDeclarativeGestureAreaEEvPv 0x0000b7f0   Section       52  plugin.o(t._ZN19QDeclarativePrivate10createIntoI23QDeclarativeGestureAreaEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoI23QDeclarativeGestureAreaEEvPv.clean 0x0000b824   Section       12  plugin.o(t._ZN19QDeclarativePrivate10createIntoI23QDeclarativeGestureAreaEEvPv.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaED1Ev 0x0000b830   Section       36  plugin.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaED1Ev.clean 0x0000b854   Section       10  plugin.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaED1Ev.clean)
+    t._ZN4QMapIN2Qt11GestureTypeE6QFlagsINS0_11GestureFlagEEE8freeDataEP8QMapData 0x0000b85e   Section       48  qdeclarativegesturearea.o(t._ZN4QMapIN2Qt11GestureTypeE6QFlagsINS0_11GestureFlagEEE8freeDataEP8QMapData)
+    t._ZN4QMapIN2Qt11GestureTypeE6QFlagsINS0_11GestureFlagEEED1Ev 0x0000b88e   Section       38  qdeclarativegesturearea.o(t._ZN4QMapIN2Qt11GestureTypeE6QFlagsINS0_11GestureFlagEEED1Ev)
+    t._ZN4QMapIN2Qt11GestureTypeEP22QDeclarativeExpressionE11node_createEP8QMapDataPPNS5_4NodeERKS1_RKS3_ 0x0000b8b4   Section       82  qdeclarativegesturearea.o(t._ZN4QMapIN2Qt11GestureTypeEP22QDeclarativeExpressionE11node_createEP8QMapDataPPNS5_4NodeERKS1_RKS3_)
+    t._ZN4QMapIN2Qt11GestureTypeEP22QDeclarativeExpressionE11node_createEP8QMapDataPPNS5_4NodeERKS1_RKS3_.clean 0x0000b906   Section        4  qdeclarativegesturearea.o(t._ZN4QMapIN2Qt11GestureTypeEP22QDeclarativeExpressionE11node_createEP8QMapDataPPNS5_4NodeERKS1_RKS3_.clean)
+    t._ZN4QMapIN2Qt11GestureTypeEP22QDeclarativeExpressionE13detach_helperEv 0x0000b90a   Section      146  qdeclarativegesturearea.o(t._ZN4QMapIN2Qt11GestureTypeEP22QDeclarativeExpressionE13detach_helperEv)
+    t._ZN4QMapIN2Qt11GestureTypeEP22QDeclarativeExpressionE13detach_helperEv.clean 0x0000b99c   Section        8  qdeclarativegesturearea.o(t._ZN4QMapIN2Qt11GestureTypeEP22QDeclarativeExpressionE13detach_helperEv.clean)
+    t._ZN4QMapIN2Qt11GestureTypeEP22QDeclarativeExpressionE6detachEv 0x0000b9a4   Section       28  qdeclarativegesturearea.o(t._ZN4QMapIN2Qt11GestureTypeEP22QDeclarativeExpressionE6detachEv)
+    t._ZN4QMapIN2Qt11GestureTypeEP22QDeclarativeExpressionE8freeDataEP8QMapData 0x0000b9c0   Section       48  qdeclarativegesturearea.o(t._ZN4QMapIN2Qt11GestureTypeEP22QDeclarativeExpressionE8freeDataEP8QMapData)
+    t._ZN4QMapIN2Qt11GestureTypeEP22QDeclarativeExpressionED1Ev 0x0000b9f0   Section       38  qdeclarativegesturearea.o(t._ZN4QMapIN2Qt11GestureTypeEP22QDeclarativeExpressionED1Ev)
+    t._ZN4QMapIP7QWidget5QRectE8freeDataEP8QMapData 0x0000ba16   Section       48  qdeclarativegesturearea.o(t._ZN4QMapIP7QWidget5QRectE8freeDataEP8QMapData)
+    t._ZN4QMapIP7QWidget5QRectED1Ev          0x0000ba46   Section       38  qdeclarativegesturearea.o(t._ZN4QMapIP7QWidget5QRectED1Ev)
+    t._ZN5QListI17QDeclarativeErrorE4freeEPN9QListData4DataE 0x0000ba6c   Section       76  qdeclarativegesturearea.o(t._ZN5QListI17QDeclarativeErrorE4freeEPN9QListData4DataE)
+    t._ZN5QListI17QDeclarativeErrorED1Ev     0x0000bab8   Section       32  qdeclarativegesturearea.o(t._ZN5QListI17QDeclarativeErrorED1Ev)
+    t._ZN5QListI8QVariantE4freeEPN9QListData4DataE 0x0000bad8   Section       76  qdeclarativegesturearea.o(t._ZN5QListI8QVariantE4freeEPN9QListData4DataE)
+    t._ZN5QListI8QVariantED1Ev               0x0000bb24   Section       32  qdeclarativegesturearea.o(t._ZN5QListI8QVariantED1Ev)
+    t._ZN5QListIN20QGraphicsItemPrivate11ExtraStructEE4freeEPN9QListData4DataE 0x0000bb44   Section       76  qdeclarativegesturearea.o(t._ZN5QListIN20QGraphicsItemPrivate11ExtraStructEE4freeEPN9QListData4DataE)
+    t._ZN5QListIN20QGraphicsItemPrivate11ExtraStructEED1Ev 0x0000bb90   Section       32  qdeclarativegesturearea.o(t._ZN5QListIN20QGraphicsItemPrivate11ExtraStructEED1Ev)
+    t._ZN5QListIP13QGraphicsItemE4freeEPN9QListData4DataE 0x0000bbb0   Section       52  qdeclarativegesturearea.o(t._ZN5QListIP13QGraphicsItemE4freeEPN9QListData4DataE)
+    t._ZN5QListIP13QGraphicsItemED1Ev        0x0000bbe4   Section       32  qdeclarativegesturearea.o(t._ZN5QListIP13QGraphicsItemED1Ev)
+    t._ZN5QListIP16QDeclarativeItemE4freeEPN9QListData4DataE 0x0000bc04   Section       52  qdeclarativegesturearea.o(t._ZN5QListIP16QDeclarativeItemE4freeEPN9QListData4DataE)
+    t._ZN5QListIP16QDeclarativeItemED1Ev     0x0000bc38   Section       32  qdeclarativegesturearea.o(t._ZN5QListIP16QDeclarativeItemED1Ev)
+    t._ZN5QListIPP13QGraphicsItemE4freeEPN9QListData4DataE 0x0000bc58   Section       52  qdeclarativegesturearea.o(t._ZN5QListIPP13QGraphicsItemE4freeEPN9QListData4DataE)
+    t._ZN5QListIPP13QGraphicsItemED1Ev       0x0000bc8c   Section       32  qdeclarativegesturearea.o(t._ZN5QListIPP13QGraphicsItemED1Ev)
+    t._ZN8QPointerI7QObjectED1Ev             0x0000bcac   Section       14  plugin.o(t._ZN8QPointerI7QObjectED1Ev)
+    t._ZNK14QScopedPointerI11QObjectData21QScopedPointerDeleterIS0_EEptEv 0x0000bcbc   Section       40  plugin.o(t._ZNK14QScopedPointerI11QObjectData21QScopedPointerDeleterIS0_EEptEv)
+    t._ZNK14QScopedPointerI20QGraphicsItemPrivate21QScopedPointerDeleterIS0_EEptEv 0x0000bce4   Section       40  qdeclarativegesturearea.o(t._ZNK14QScopedPointerI20QGraphicsItemPrivate21QScopedPointerDeleterIS0_EEptEv)
+    t._ZNK4QMapIN2Qt11GestureTypeEP22QDeclarativeExpressionE15mutableFindNodeEPPN8QMapData4NodeERKS1_ 0x0000bd0c   Section      108  qdeclarativegesturearea.o(t._ZNK4QMapIN2Qt11GestureTypeEP22QDeclarativeExpressionE15mutableFindNodeEPPN8QMapData4NodeERKS1_)
+    t._ZNK5QListI32QDeclarativeCustomParserPropertyE2atEi 0x0000bd78   Section      152  qdeclarativegesturearea.o(t._ZNK5QListI32QDeclarativeCustomParserPropertyE2atEi)
+    t._ZNK5QListIP13QGraphicsItemE2atEi      0x0000be10   Section      152  qdeclarativegesturearea.o(t._ZNK5QListIP13QGraphicsItemE2atEi)
+    .extab._ZN23QDeclarativeGestureAreaC1EP16QDeclarativeItem 0x0000bea8   Data           0  qdeclarativegesturearea.o(.ARM.extab)
+    .extab._ZN30QDeclarativeGestureAreaPrivate12gestureEventEP13QGestureEvent 0x0000bec8   Data           0  qdeclarativegesturearea.o(.ARM.extab)
+    .extab._ZN23QDeclarativeGestureArea14connectSignalsEv 0x0000bef0   Data           0  qdeclarativegesturearea.o(.ARM.extab)
+    .extab._ZN29QDeclarativeGestureAreaParser7compileERK5QListI32QDeclarativeCustomParserPropertyE 0x0000bf30   Data           0  qdeclarativegesturearea.o(.ARM.extab)
+    .extab._Z24qMetaTypeConstructHelperIN18QDeclarativeParser7VariantEEPvPKT_ 0x0000c070   Data           0  qdeclarativegesturearea.o(.ARM.extab)
+    .extab._Z24qMetaTypeConstructHelperI32QDeclarativeCustomParserPropertyEPvPKT_ 0x0000c088   Data           0  qdeclarativegesturearea.o(.ARM.extab)
+    .extab._Z24qMetaTypeConstructHelperI28QDeclarativeCustomParserNodeEPvPKT_ 0x0000c0a0   Data           0  qdeclarativegesturearea.o(.ARM.extab)
+    .extab._ZN6QDebugD1Ev                    0x0000c0b8   Data           0  qdeclarativegesturearea.o(.ARM.extab)
+    .extab._ZN20QGraphicsItemPrivateD1Ev     0x0000c0dc   Data           0  qdeclarativegesturearea.o(.ARM.extab)
+    .extab._ZN23QDeclarativeItemPrivateD1Ev  0x0000c104   Data           0  qdeclarativegesturearea.o(.ARM.extab)
+    .extab._ZN20QGraphicsItemPrivateC1Ev     0x0000c11c   Data           0  qdeclarativegesturearea.o(.ARM.extab)
+    .extab._ZN4QMapIN2Qt11GestureTypeEP22QDeclarativeExpressionE13detach_helperEv 0x0000c144   Data           0  qdeclarativegesturearea.o(.ARM.extab)
+    .extab._ZN30QGraphicsColorizeEffectPrivateD1Ev 0x0000c160   Data           0  qdeclarativegesturearea.o(.ARM.extab)
+    .extab._ZN26QGraphicsBlurEffectPrivateD1Ev 0x0000c170   Data           0  qdeclarativegesturearea.o(.ARM.extab)
+    .extab._ZN32QGraphicsDropShadowEffectPrivateD1Ev 0x0000c180   Data           0  qdeclarativegesturearea.o(.ARM.extab)
+    .extab._ZN30QDeclarativeGestureAreaPrivateD1Ev 0x0000c190   Data           0  qdeclarativegesturearea.o(.ARM.extab)
+    .extab.qt_plugin_instance                0x0000c1a8   Data           0  plugin.o(.ARM.extab)
+    .extab._ZplRK10QByteArrayPKc             0x0000c1c0   Data           0  plugin.o(.ARM.extab)
+    .extab._ZplRK10QByteArrayc               0x0000c1d0   Data           0  plugin.o(.ARM.extab)
+    .extab._ZplPKcRK10QByteArray             0x0000c1e0   Data           0  plugin.o(.ARM.extab)
+    .extab._Z21qmlRegisterCustomTypeI23QDeclarativeGestureAreaEiPKciiS2_P24QDeclarativeCustomParser 0x0000c1f0   Data           0  plugin.o(.ARM.extab)
+    .extab._Z26qmlRegisterUncreatableTypeI8QGestureEiPKciiS2_RK7QString 0x0000c260   Data           0  plugin.o(.ARM.extab)
+    .extab._Z26qmlRegisterUncreatableTypeI11QPanGestureEiPKciiS2_RK7QString 0x0000c2d0   Data           0  plugin.o(.ARM.extab)
+    .extab._Z26qmlRegisterUncreatableTypeI11QTapGestureEiPKciiS2_RK7QString 0x0000c340   Data           0  plugin.o(.ARM.extab)
+    .extab._Z26qmlRegisterUncreatableTypeI18QTapAndHoldGestureEiPKciiS2_RK7QString 0x0000c3b0   Data           0  plugin.o(.ARM.extab)
+    .extab._Z26qmlRegisterUncreatableTypeI13QPinchGestureEiPKciiS2_RK7QString 0x0000c420   Data           0  plugin.o(.ARM.extab)
+    .extab._Z26qmlRegisterUncreatableTypeI13QSwipeGestureEiPKciiS2_RK7QString 0x0000c490   Data           0  plugin.o(.ARM.extab)
+    .extab._ZN20GestureAreaQmlPlugin13registerTypesEPKc 0x0000c500   Data           0  plugin.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaED1Ev 0x0000c540   Data           0  plugin.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoI23QDeclarativeGestureAreaEEvPv 0x0000c550   Data           0  plugin.o(.ARM.extab)
+    .constdata$1                             0x0000c560   Data           0  qdeclarativegesturearea.o(.constdata)
+    .constdata                               0x0000c560   Section      236  qdeclarativegesturearea.o(.constdata)
+    .constdata$1                             0x0000c64c   Data           0  plugin.o(.constdata)
+    qt_meta_data_GestureAreaQmlPlugin        0x0000c64c   Data          60  plugin.o(.constdata)
+    .constdata                               0x0000c64c   Section      332  plugin.o(.constdata)
+    qt_meta_stringdata_GestureAreaQmlPlugin  0x0000c688   Data          22  plugin.o(.constdata)
+    qt_plugin_verification_data              0x0000c69e   Data          90  plugin.o(.constdata)
+    .constdata$1                             0x0000c798   Data           0  moc_qdeclarativegesturearea_p.o(.constdata)
+    qt_meta_data_QDeclarativeGestureArea     0x0000c798   Data          72  moc_qdeclarativegesturearea_p.o(.constdata)
+    .constdata                               0x0000c798   Section      276  moc_qdeclarativegesturearea_p.o(.constdata)
+    qt_meta_stringdata_QDeclarativeGestureArea 0x0000c7e0   Data          43  moc_qdeclarativegesturearea_p.o(.constdata)
+    .constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE 0x0000c8ac   Section        4  qdeclarativegesturearea.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE 0x0000c8b0   Section        4  qdeclarativegesturearea.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE 0x0000c8b4   Section        4  qdeclarativegesturearea.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE 0x0000c8b8   Section        4  qdeclarativegesturearea.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE 0x0000c8bc   Section        4  qdeclarativegesturearea.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE 0x0000c8c0   Section        1  qdeclarativegesturearea.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE 0x0000c8c4   Section        4  qdeclarativegesturearea.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE 0x0000c8c8   Section        4  qdeclarativegesturearea.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE 0x0000c8cc   Section        4  qdeclarativegesturearea.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE 0x0000c8d0   Section        4  qdeclarativegesturearea.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE 0x0000c8d4   Section        4  qdeclarativegesturearea.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE 0x0000c8d8   Section        4  qdeclarativegesturearea.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE 0x0000c8dc   Section        4  qdeclarativegesturearea.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE 0x0000c8e0   Section        4  qdeclarativegesturearea.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    .constdata__ZTI17QDeclarativeGuardI7QObjectE 0x0000c8e4   Section        8  qdeclarativegesturearea.o(.constdata__ZTI17QDeclarativeGuardI7QObjectE)
+    .constdata__ZTI20GestureAreaQmlPlugin    0x0000c8ec   Section       12  plugin.o(.constdata__ZTI20GestureAreaQmlPlugin)
+    .constdata__ZTI22QGraphicsEffectPrivate  0x0000c8f8   Section       12  qdeclarativegesturearea.o(.constdata__ZTI22QGraphicsEffectPrivate)
+    .constdata__ZTI23QDeclarativeGestureArea 0x0000c904   Section       12  moc_qdeclarativegesturearea_p.o(.constdata__ZTI23QDeclarativeGestureArea)
+    .constdata__ZTI24QDeclarativeCustomParser 0x0000c910   Section        8  qdeclarativegesturearea.o(.constdata__ZTI24QDeclarativeCustomParser)
+    .constdata__ZTI26QGraphicsBlurEffectPrivate 0x0000c918   Section       12  qdeclarativegesturearea.o(.constdata__ZTI26QGraphicsBlurEffectPrivate)
+    .constdata__ZTI29QDeclarativeGestureAreaParser 0x0000c924   Section       12  qdeclarativegesturearea.o(.constdata__ZTI29QDeclarativeGestureAreaParser)
+    .constdata__ZTI30QDeclarativeGestureAreaPrivate 0x0000c930   Section       12  qdeclarativegesturearea.o(.constdata__ZTI30QDeclarativeGestureAreaPrivate)
+    .constdata__ZTI30QGraphicsColorizeEffectPrivate 0x0000c93c   Section       12  qdeclarativegesturearea.o(.constdata__ZTI30QGraphicsColorizeEffectPrivate)
+    .constdata__ZTI32QGraphicsDropShadowEffectPrivate 0x0000c948   Section       12  qdeclarativegesturearea.o(.constdata__ZTI32QGraphicsDropShadowEffectPrivate)
+    .constdata__ZTIN15QtSharedPointer20ExternalRefCountDataE 0x0000c954   Section        8  qdeclarativegesturearea.o(.constdata__ZTIN15QtSharedPointer20ExternalRefCountDataE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaEE 0x0000c95c   Section       12  plugin.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaEE)
+    .constdata__ZTS17QDeclarativeGuardI7QObjectE 0x0000c968   Section       30  qdeclarativegesturearea.o(.constdata__ZTS17QDeclarativeGuardI7QObjectE)
+    .constdata__ZTS20GestureAreaQmlPlugin    0x0000c986   Section       23  plugin.o(.constdata__ZTS20GestureAreaQmlPlugin)
+    .constdata__ZTS22QGraphicsEffectPrivate  0x0000c99d   Section       25  qdeclarativegesturearea.o(.constdata__ZTS22QGraphicsEffectPrivate)
+    .constdata__ZTS23QDeclarativeGestureArea 0x0000c9b6   Section       26  moc_qdeclarativegesturearea_p.o(.constdata__ZTS23QDeclarativeGestureArea)
+    .constdata__ZTS24QDeclarativeCustomParser 0x0000c9d0   Section       27  qdeclarativegesturearea.o(.constdata__ZTS24QDeclarativeCustomParser)
+    .constdata__ZTS26QGraphicsBlurEffectPrivate 0x0000c9eb   Section       29  qdeclarativegesturearea.o(.constdata__ZTS26QGraphicsBlurEffectPrivate)
+    .constdata__ZTS29QDeclarativeGestureAreaParser 0x0000ca08   Section       32  qdeclarativegesturearea.o(.constdata__ZTS29QDeclarativeGestureAreaParser)
+    .constdata__ZTS30QDeclarativeGestureAreaPrivate 0x0000ca28   Section       33  qdeclarativegesturearea.o(.constdata__ZTS30QDeclarativeGestureAreaPrivate)
+    .constdata__ZTS30QGraphicsColorizeEffectPrivate 0x0000ca49   Section       33  qdeclarativegesturearea.o(.constdata__ZTS30QGraphicsColorizeEffectPrivate)
+    .constdata__ZTS32QGraphicsDropShadowEffectPrivate 0x0000ca6a   Section       35  qdeclarativegesturearea.o(.constdata__ZTS32QGraphicsDropShadowEffectPrivate)
+    .constdata__ZTSN15QtSharedPointer20ExternalRefCountDataE 0x0000ca8d   Section       42  qdeclarativegesturearea.o(.constdata__ZTSN15QtSharedPointer20ExternalRefCountDataE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaEE 0x0000cab7   Section       72  plugin.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaEE)
+    .constdata__ZTV17QDeclarativeGuardI7QObjectE 0x0000cb00   Section       20  qdeclarativegesturearea.o(.constdata__ZTV17QDeclarativeGuardI7QObjectE)
+    .constdata__ZTV20GestureAreaQmlPlugin    0x0000cb14   Section       88  plugin.o(.constdata__ZTV20GestureAreaQmlPlugin)
+    .constdata__ZTV23QDeclarativeGestureArea 0x0000cb6c   Section      280  moc_qdeclarativegesturearea_p.o(.constdata__ZTV23QDeclarativeGestureArea)
+    .constdata__ZTV24QDeclarativeCustomParser 0x0000cc84   Section       24  qdeclarativegesturearea.o(.constdata__ZTV24QDeclarativeCustomParser)
+    .constdata__ZTV26QGraphicsBlurEffectPrivate 0x0000cc9c   Section       16  qdeclarativegesturearea.o(.constdata__ZTV26QGraphicsBlurEffectPrivate)
+    .constdata__ZTV29QDeclarativeGestureAreaParser 0x0000ccac   Section       24  qdeclarativegesturearea.o(.constdata__ZTV29QDeclarativeGestureAreaParser)
+    .constdata__ZTV30QDeclarativeGestureAreaPrivate 0x0000ccc4   Section       84  qdeclarativegesturearea.o(.constdata__ZTV30QDeclarativeGestureAreaPrivate)
+    .constdata__ZTV30QGraphicsColorizeEffectPrivate 0x0000cd18   Section       16  qdeclarativegesturearea.o(.constdata__ZTV30QGraphicsColorizeEffectPrivate)
+    .constdata__ZTV32QGraphicsDropShadowEffectPrivate 0x0000cd28   Section       16  qdeclarativegesturearea.o(.constdata__ZTV32QGraphicsDropShadowEffectPrivate)
+    .constdata__ZTVN15QtSharedPointer20ExternalRefCountDataE 0x0000cd38   Section       20  qdeclarativegesturearea.o(.constdata__ZTVN15QtSharedPointer20ExternalRefCountDataE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaEE 0x0000cd4c   Section      280  plugin.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaEE)
+    __ARM_d__Z21qmlRegisterCustomTypeI23QDeclarativeGestureAreaEiPKciiS2_P24QDeclarativeCustomParser$52 0x0000ce64   Data           0  plugin.o(__ARM_d__Z21qmlRegisterCustomTypeI23QDeclarativeGestureAreaEiPKciiS2_P24QDeclarativeCustomParser)
+    __ARM_d__Z21qmlRegisterCustomTypeI23QDeclarativeGestureAreaEiPKciiS2_P24QDeclarativeCustomParser 0x0000ce64   Section       76  plugin.o(__ARM_d__Z21qmlRegisterCustomTypeI23QDeclarativeGestureAreaEiPKciiS2_P24QDeclarativeCustomParser)
+    __ARM_d__Z26qmlRegisterUncreatableTypeI11QPanGestureEiPKciiS2_RK7QString$58 0x0000ceb0   Data           0  plugin.o(__ARM_d__Z26qmlRegisterUncreatableTypeI11QPanGestureEiPKciiS2_RK7QString)
+    __ARM_d__Z26qmlRegisterUncreatableTypeI11QPanGestureEiPKciiS2_RK7QString 0x0000ceb0   Section       76  plugin.o(__ARM_d__Z26qmlRegisterUncreatableTypeI11QPanGestureEiPKciiS2_RK7QString)
+    __ARM_d__Z26qmlRegisterUncreatableTypeI11QTapGestureEiPKciiS2_RK7QString$61 0x0000cefc   Data           0  plugin.o(__ARM_d__Z26qmlRegisterUncreatableTypeI11QTapGestureEiPKciiS2_RK7QString)
+    __ARM_d__Z26qmlRegisterUncreatableTypeI11QTapGestureEiPKciiS2_RK7QString 0x0000cefc   Section       76  plugin.o(__ARM_d__Z26qmlRegisterUncreatableTypeI11QTapGestureEiPKciiS2_RK7QString)
+    __ARM_d__Z26qmlRegisterUncreatableTypeI13QPinchGestureEiPKciiS2_RK7QString$67 0x0000cf48   Data           0  plugin.o(__ARM_d__Z26qmlRegisterUncreatableTypeI13QPinchGestureEiPKciiS2_RK7QString)
+    __ARM_d__Z26qmlRegisterUncreatableTypeI13QPinchGestureEiPKciiS2_RK7QString 0x0000cf48   Section       76  plugin.o(__ARM_d__Z26qmlRegisterUncreatableTypeI13QPinchGestureEiPKciiS2_RK7QString)
+    __ARM_d__Z26qmlRegisterUncreatableTypeI13QSwipeGestureEiPKciiS2_RK7QString$70 0x0000cf94   Data           0  plugin.o(__ARM_d__Z26qmlRegisterUncreatableTypeI13QSwipeGestureEiPKciiS2_RK7QString)
+    __ARM_d__Z26qmlRegisterUncreatableTypeI13QSwipeGestureEiPKciiS2_RK7QString 0x0000cf94   Section       76  plugin.o(__ARM_d__Z26qmlRegisterUncreatableTypeI13QSwipeGestureEiPKciiS2_RK7QString)
+    __ARM_d__Z26qmlRegisterUncreatableTypeI18QTapAndHoldGestureEiPKciiS2_RK7QString$64 0x0000cfe0   Data           0  plugin.o(__ARM_d__Z26qmlRegisterUncreatableTypeI18QTapAndHoldGestureEiPKciiS2_RK7QString)
+    __ARM_d__Z26qmlRegisterUncreatableTypeI18QTapAndHoldGestureEiPKciiS2_RK7QString 0x0000cfe0   Section       76  plugin.o(__ARM_d__Z26qmlRegisterUncreatableTypeI18QTapAndHoldGestureEiPKciiS2_RK7QString)
+    __ARM_d__Z26qmlRegisterUncreatableTypeI8QGestureEiPKciiS2_RK7QString$55 0x0000d02c   Data           0  plugin.o(__ARM_d__Z26qmlRegisterUncreatableTypeI8QGestureEiPKciiS2_RK7QString)
+    __ARM_d__Z26qmlRegisterUncreatableTypeI8QGestureEiPKciiS2_RK7QString 0x0000d02c   Section       76  plugin.o(__ARM_d__Z26qmlRegisterUncreatableTypeI8QGestureEiPKciiS2_RK7QString)
+    .ARM.exidx                               0x0000d078   Section        8  ucppinit.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  plugin.o(.data)
+    _ZGV_instance@qt_plugin_instance_0       0x00400000   Data           4  plugin.o(.data)
+    .data                                    0x00400000   Section        8  plugin.o(.data)
+    _instance@qt_plugin_instance_1           0x00400004   Data           4  plugin.o(.data)
+    .data$0                                  0x00400008   Data           0  ucppfini.o(.data)
+    .data                                    0x00400008   Section        4  ucppfini.o(.data)
+    .data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE 0x0040000c   Section       12  qdeclarativegesturearea.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    .data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI23QDeclarativeGestureAreaEE14qt_metatype_idEvE11metatype_id 0x00400018   Section        4  plugin.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI23QDeclarativeGestureAreaEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdI28QDeclarativeCustomParserNodeE14qt_metatype_idEvE11metatype_id 0x0040001c   Section        4  qdeclarativegesturearea.o(.data__ZZN11QMetaTypeIdI28QDeclarativeCustomParserNodeE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdI32QDeclarativeCustomParserPropertyE14qt_metatype_idEvE11metatype_id 0x00400020   Section        4  qdeclarativegesturearea.o(.data__ZZN11QMetaTypeIdI32QDeclarativeCustomParserPropertyE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIN18QDeclarativeParser7VariantEE14qt_metatype_idEvE11metatype_id 0x00400024   Section        4  qdeclarativegesturearea.o(.data__ZZN11QMetaTypeIdIN18QDeclarativeParser7VariantEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIP23QDeclarativeGestureAreaE14qt_metatype_idEvE11metatype_id 0x00400028   Section        4  plugin.o(.data__ZZN11QMetaTypeIdIP23QDeclarativeGestureAreaE14qt_metatype_idEvE11metatype_id)
+    .bss$5                                   0x0040002c   Data           0  ucppfini.o(.bss)
+    .bss                                     0x0040002c   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$VFPv2$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$IEEEJ$EBA8$UX$FPIC$INDIRECT$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    QtCore{00040703}[2001b2dc].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtDeclarative{00040703}[2001e623].dll    0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtGui{00040703}[2001b2dd].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    euser{000a0000}[100039e5].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    libc{00010001}[10207369].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    qmlgesturesplugin{00040703}[2002131f].dll 0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    stdnew{000a0000}[20022178].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    qmlContext(const QObject*)                - Undefined Reference
+    _Z10qmlContextPK7QObject@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    qt_assert_x(const char*, const char*, const char*, int)  - Undefined Reference
+    _Z11qt_assert_xPKcS0_S0_i@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qt_message_output(QtMsgType, const char*)  - Undefined Reference
+    _Z17qt_message_output9QtMsgTypePKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qFree(void*)                              - Undefined Reference
+    _Z5qFreePv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qmlInfo(const QObject*)                   - Undefined Reference
+    _Z7qmlInfoPK7QObject@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    qstrcmp(const char*, const char*)         - Undefined Reference
+    _Z7qstrcmpPKcS0_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qt_assert(const char*, const char*, int)  - Undefined Reference
+    _Z9qt_assertPKcS0_i@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::shared_null                   - Undefined Reference
+    _ZN10QByteArray11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::append(const char*)           - Undefined Reference
+    _ZN10QByteArray6appendEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::append(const QByteArray&)     - Undefined Reference
+    _ZN10QByteArray6appendERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::append(char)                  - Undefined Reference
+    _ZN10QByteArray6appendEc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::realloc(int)                  - Undefined Reference
+    _ZN10QByteArray7reallocEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::QByteArray(const char*)       - Undefined Reference
+    _ZN10QByteArrayC1EPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::operator =(const QByteArray&)  - Undefined Reference
+    _ZN10QByteArrayaSERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTransform::QTransform()                  - Undefined Reference
+    _ZN10QTransformC1Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QDataStream::QDataStream(QByteArray*, QFlags<QIODevice::OpenModeFlag>)  - Undefined Reference
+    _ZN11QDataStreamC1EP10QByteArray6QFlagsIN9QIODevice12OpenModeFlagEE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDataStream::QDataStream(const QByteArray&)  - Undefined Reference
+    _ZN11QDataStreamC1ERK10QByteArray@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDataStream::~QDataStream()               - Undefined Reference
+    _ZN11QDataStreamD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDataStream::operator <<(int)             - Undefined Reference
+    _ZN11QDataStreamlsEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDataStream::operator >>(int&)            - Undefined Reference
+    _ZN11QDataStreamrsERi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::changeGuard(QObject**, QObject*)  - Undefined Reference
+    _ZN11QMetaObject11changeGuardEPP7QObjectS1_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::removeGuard(QObject**)       - Undefined Reference
+    _ZN11QMetaObject11removeGuardEPP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QPanGesture::staticMetaObject             - Undefined Reference
+    _ZN11QPanGesture16staticMetaObjectE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QTapGesture::staticMetaObject             - Undefined Reference
+    _ZN11QTapGesture16staticMetaObjectE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QTextStream::~QTextStream()               - Undefined Reference
+    _ZN11QTextStreamD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QGraphicsItem::wheelEvent(QGraphicsSceneWheelEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem10wheelEventEP24QGraphicsSceneWheelEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::focusInEvent(QFocusEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem12focusInEventEP11QFocusEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::setExtension(QGraphicsItem::Extension, const QVariant&)  - Undefined Reference
+    _ZN13QGraphicsItem12setExtensionENS_9ExtensionERK8QVariant@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::dragMoveEvent(QGraphicsSceneDragDropEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem13dragMoveEventEP27QGraphicsSceneDragDropEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::focusOutEvent(QFocusEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem13focusOutEventEP11QFocusEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::dragEnterEvent(QGraphicsSceneDragDropEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem14dragEnterEventEP27QGraphicsSceneDragDropEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::dragLeaveEvent(QGraphicsSceneDragDropEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem14dragLeaveEventEP27QGraphicsSceneDragDropEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::hoverMoveEvent(QGraphicsSceneHoverEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem14hoverMoveEventEP24QGraphicsSceneHoverEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::mouseMoveEvent(QGraphicsSceneMouseEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem14mouseMoveEventEP24QGraphicsSceneMouseEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::hoverEnterEvent(QGraphicsSceneHoverEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem15hoverEnterEventEP24QGraphicsSceneHoverEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::hoverLeaveEvent(QGraphicsSceneHoverEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem15hoverLeaveEventEP24QGraphicsSceneHoverEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::mousePressEvent(QGraphicsSceneMouseEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem15mousePressEventEP24QGraphicsSceneMouseEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::contextMenuEvent(QGraphicsSceneContextMenuEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem16contextMenuEventEP30QGraphicsSceneContextMenuEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::sceneEventFilter(QGraphicsItem*, QEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem16sceneEventFilterEPS_P6QEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::mouseReleaseEvent(QGraphicsSceneMouseEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem17mouseReleaseEventEP24QGraphicsSceneMouseEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::setAcceptTouchEvents(bool)  - Undefined Reference
+    _ZN13QGraphicsItem20setAcceptTouchEventsEb@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::mouseDoubleClickEvent(QGraphicsSceneMouseEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem21mouseDoubleClickEventEP24QGraphicsSceneMouseEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::setAcceptedMouseButtons(QFlags<Qt::MouseButton>)  - Undefined Reference
+    _ZN13QGraphicsItem23setAcceptedMouseButtonsE6QFlagsIN2Qt11MouseButtonEE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::advance(int)               - Undefined Reference
+    _ZN13QGraphicsItem7advanceEi@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::dropEvent(QGraphicsSceneDragDropEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem9dropEventEP27QGraphicsSceneDragDropEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QPinchGesture::staticMetaObject           - Undefined Reference
+    _ZN13QPinchGesture16staticMetaObjectE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QSwipeGesture::staticMetaObject           - Undefined Reference
+    _ZN13QSwipeGesture16staticMetaObjectE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QObjectPrivate::~QObjectPrivate()         - Undefined Reference
+    _ZN14QObjectPrivateD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QGraphicsObject::grabGesture(Qt::GestureType, QFlags<Qt::GestureFlag>)  - Undefined Reference
+    _ZN15QGraphicsObject11grabGestureEN2Qt11GestureTypeE6QFlagsINS0_11GestureFlagEE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QDeclarativeInfo::~QDeclarativeInfo()     - Undefined Reference
+    _ZN16QDeclarativeInfoD1Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::classBegin()            - Undefined Reference
+    _ZN16QDeclarativeItem10classBeginEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::itemChange(QGraphicsItem::GraphicsItemChange, const QVariant&)  - Undefined Reference
+    _ZN16QDeclarativeItem10itemChangeEN13QGraphicsItem18GraphicsItemChangeERK8QVariant@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::sceneEvent(QEvent*)     - Undefined Reference
+    _ZN16QDeclarativeItem10sceneEventEP6QEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN16QDeclarativeItem11qt_metacallEN11QMetaObject4CallEiPPv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::qt_metacast(const char*)  - Undefined Reference
+    _ZN16QDeclarativeItem11qt_metacastEPKc@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::focusChanged(bool)      - Undefined Reference
+    _ZN16QDeclarativeItem12focusChangedEb@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::keyPressEvent(QKeyEvent*)  - Undefined Reference
+    _ZN16QDeclarativeItem13keyPressEventEP9QKeyEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::geometryChanged(const QRectF&, const QRectF&)  - Undefined Reference
+    _ZN16QDeclarativeItem15geometryChangedERK6QRectFS2_@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::keyReleaseEvent(QKeyEvent*)  - Undefined Reference
+    _ZN16QDeclarativeItem15keyReleaseEventEP9QKeyEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::inputMethodEvent(QInputMethodEvent*)  - Undefined Reference
+    _ZN16QDeclarativeItem16inputMethodEventEP17QInputMethodEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::staticMetaObject        - Undefined Reference
+    _ZN16QDeclarativeItem16staticMetaObjectE@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::componentComplete()     - Undefined Reference
+    _ZN16QDeclarativeItem17componentCompleteEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::activeFocusChanged(bool)  - Undefined Reference
+    _ZN16QDeclarativeItem18activeFocusChangedEb@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::event(QEvent*)          - Undefined Reference
+    _ZN16QDeclarativeItem5eventEP6QEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::paint(QPainter*, const QStyleOptionGraphicsItem*, QWidget*)  - Undefined Reference
+    _ZN16QDeclarativeItem5paintEP8QPainterPK24QStyleOptionGraphicsItemP7QWidget@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::QDeclarativeItem(QDeclarativeItemPrivate&, QDeclarativeItem*)  - Undefined Reference
+    _ZN16QDeclarativeItemC1ER23QDeclarativeItemPrivatePS_@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::~QDeclarativeItem()     - Undefined Reference
+    _ZN16QDeclarativeItemD1Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeError::~QDeclarativeError()   - Undefined Reference
+    _ZN17QDeclarativeErrorD1Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeParser::Variant::Variant(const QDeclarativeParser::Variant&)  - Undefined Reference
+    _ZN18QDeclarativeParser7VariantC1ERKS0_@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeParser::Variant::Variant()    - Undefined Reference
+    _ZN18QDeclarativeParser7VariantC1Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QTapAndHoldGesture::staticMetaObject      - Undefined Reference
+    _ZN18QTapAndHoldGesture16staticMetaObjectE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QDeclarativePrivate::qmlregister(QDeclarativePrivate::RegistrationType, void*)  - Undefined Reference
+    _ZN19QDeclarativePrivate11qmlregisterENS_16RegistrationTypeEPv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativePrivate::qdeclarativeelement_destructor(QObject*)  - Undefined Reference
+    _ZN19QDeclarativePrivate30qdeclarativeelement_destructorEP7QObject@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QGraphicsItemPrivate::setPosHelper(const QPointF&)  - Undefined Reference
+    _ZN20QGraphicsItemPrivate12setPosHelperERK7QPointF@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItemPrivate::updateSceneTransformFromParent()  - Undefined Reference
+    _ZN20QGraphicsItemPrivate30updateSceneTransformFromParentEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QDeclarativeExpression::evaluate(bool*)   - Undefined Reference
+    _ZN22QDeclarativeExpression8evaluateEPb@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExpression::QDeclarativeExpression(QDeclarativeContext*, QObject*, const QString&, QObject*)  - Undefined Reference
+    _ZN22QDeclarativeExpressionC1EP19QDeclarativeContextP7QObjectRK7QStringS3_@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItemPrivate::resetWidth()     - Undefined Reference
+    _ZN23QDeclarativeItemPrivate10resetWidthEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItemPrivate::resetHeight()    - Undefined Reference
+    _ZN23QDeclarativeItemPrivate11resetHeightEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItemPrivate::focusChanged(bool)  - Undefined Reference
+    _ZN23QDeclarativeItemPrivate12focusChangedEb@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItemPrivate::transformChanged()  - Undefined Reference
+    _ZN23QDeclarativeItemPrivate16transformChangedEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItemPrivate::setWidth(float)  - Undefined Reference
+    _ZN23QDeclarativeItemPrivate8setWidthEf@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItemPrivate::setHeight(float)  - Undefined Reference
+    _ZN23QDeclarativeItemPrivate9setHeightEf@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeCustomParser::error(const QDeclarativeCustomParserProperty&, const QString&)  - Undefined Reference
+    _ZN24QDeclarativeCustomParser5errorERK32QDeclarativeCustomParserPropertyRK7QString@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin11qt_metacallEN11QMetaObject4CallEiPPv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::qt_metacast(const char*)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin11qt_metacastEPKc@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::initializeEngine(QDeclarativeEngine*, const char*)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin16initializeEngineEP18QDeclarativeEnginePKc@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::staticMetaObject  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin16staticMetaObjectE@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::QDeclarativeExtensionPlugin__sub_object(QObject*)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPluginC2EP7QObject@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::~QDeclarativeExtensionPlugin__sub_object()  - Undefined Reference
+    _ZN27QDeclarativeExtensionPluginD2Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeCustomParserNode::QDeclarativeCustomParserNode(const QDeclarativeCustomParserNode&)  - Undefined Reference
+    _ZN28QDeclarativeCustomParserNodeC1ERKS_@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeCustomParserNode::QDeclarativeCustomParserNode()  - Undefined Reference
+    _ZN28QDeclarativeCustomParserNodeC1Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeCustomParserNode::~QDeclarativeCustomParserNode()  - Undefined Reference
+    _ZN28QDeclarativeCustomParserNodeD1Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeCustomParserProperty::QDeclarativeCustomParserProperty(const QDeclarativeCustomParserProperty&)  - Undefined Reference
+    _ZN32QDeclarativeCustomParserPropertyC1ERKS_@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeCustomParserProperty::QDeclarativeCustomParserProperty()  - Undefined Reference
+    _ZN32QDeclarativeCustomParserPropertyC1Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeCustomParserProperty::~QDeclarativeCustomParserProperty()  - Undefined Reference
+    _ZN32QDeclarativeCustomParserPropertyD1Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    User::LockedDec(int&)                     - Undefined Reference
+    _ZN4User9LockedDecERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::LockedInc(int&)                     - Undefined Reference
+    _ZN4User9LockedIncERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QObject::childEvent(QChildEvent*)         - Undefined Reference
+    _ZN7QObject10childEventEP11QChildEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::timerEvent(QTimerEvent*)         - Undefined Reference
+    _ZN7QObject10timerEventEP11QTimerEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::customEvent(QEvent*)             - Undefined Reference
+    _ZN7QObject11customEventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::eventFilter(QObject*, QEvent*)   - Undefined Reference
+    _ZN7QObject11eventFilterEPS_P6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connectNotify(const char*)       - Undefined Reference
+    _ZN7QObject13connectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::disconnectNotify(const char*)    - Undefined Reference
+    _ZN7QObject16disconnectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::event(QEvent*)                   - Undefined Reference
+    _ZN7QObject5eventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::shared_null                      - Undefined Reference
+    _ZN7QString11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromLatin1_helper(const char*, int)  - Undefined Reference
+    _ZN7QString17fromLatin1_helperEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::free(QString::Data*)             - Undefined Reference
+    _ZN7QString4freeEPNS_4DataE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromUtf8(const char*, int)       - Undefined Reference
+    _ZN7QString8fromUtf8EPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QGesture::staticMetaObject                - Undefined Reference
+    _ZN8QGesture16staticMetaObjectE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QMapData::createData(int)                 - Undefined Reference
+    _ZN8QMapData10createDataEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMapData::node_create(QMapData::Node**, int, int)  - Undefined Reference
+    _ZN8QMapData11node_createEPPNS_4NodeEii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMapData::shared_null                     - Undefined Reference
+    _ZN8QMapData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMapData::continueFreeData(int)           - Undefined Reference
+    _ZN8QMapData16continueFreeDataEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::handler                         - Undefined Reference
+    _ZN8QVariant7handlerE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::~QVariant()                     - Undefined Reference
+    _ZN8QVariantD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::shared_null                    - Undefined Reference
+    _ZN9QListData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaType::registerType(const char*, void(*)(void*), void*(*)(const void*))  - Undefined Reference
+    _ZN9QMetaType12registerTypeEPKcPFvPvEPFS2_PKvE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaType::registerTypedef(const char*, int)  - Undefined Reference
+    _ZN9QMetaType15registerTypedefEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDataStream::atEnd() const                - Undefined Reference
+    _ZNK11QDataStream5atEndEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::tr(const char*, const char*) const  - Undefined Reference
+    _ZNK11QMetaObject2trEPKcS1_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QGestureEvent::gesture(Qt::GestureType) const  - Undefined Reference
+    _ZNK13QGestureEvent7gestureEN2Qt11GestureTypeE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::opaqueArea() const         - Undefined Reference
+    _ZNK13QGraphicsItem10opaqueAreaEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::isObscuredBy(const QGraphicsItem*) const  - Undefined Reference
+    _ZNK13QGraphicsItem12isObscuredByEPKS_@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::collidesWithItem(const QGraphicsItem*, Qt::ItemSelectionMode) const  - Undefined Reference
+    _ZNK13QGraphicsItem16collidesWithItemEPKS_N2Qt17ItemSelectionModeE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::collidesWithPath(const QPainterPath&, Qt::ItemSelectionMode) const  - Undefined Reference
+    _ZNK13QGraphicsItem16collidesWithPathERK12QPainterPathN2Qt17ItemSelectionModeE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::supportsExtension(QGraphicsItem::Extension) const  - Undefined Reference
+    _ZNK13QGraphicsItem17supportsExtensionENS_9ExtensionE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::type() const               - Undefined Reference
+    _ZNK13QGraphicsItem4typeEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::shape() const              - Undefined Reference
+    _ZNK13QGraphicsItem5shapeEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::contains(const QPointF&) const  - Undefined Reference
+    _ZNK13QGraphicsItem8containsERK7QPointF@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::extension(const QVariant&) const  - Undefined Reference
+    _ZNK13QGraphicsItem9extensionERK8QVariant@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QDeclarativeItem::boundingRect() const    - Undefined Reference
+    _ZNK16QDeclarativeItem12boundingRectEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::inputMethodQuery(Qt::InputMethodQuery) const  - Undefined Reference
+    _ZNK16QDeclarativeItem16inputMethodQueryEN2Qt16InputMethodQueryE@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeParser::Variant::type() const  - Undefined Reference
+    _ZNK18QDeclarativeParser7Variant4typeEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeParser::Variant::asScript() const  - Undefined Reference
+    _ZNK18QDeclarativeParser7Variant8asScriptEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QGraphicsItemPrivate::isProxyWidget() const  - Undefined Reference
+    _ZNK20QGraphicsItemPrivate13isProxyWidgetEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItemPrivate::inputMethodQueryHelper(Qt::InputMethodQuery) const  - Undefined Reference
+    _ZNK20QGraphicsItemPrivate22inputMethodQueryHelperEN2Qt16InputMethodQueryE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QDeclarativeExpression::error() const     - Undefined Reference
+    _ZNK22QDeclarativeExpression5errorEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExpression::hasError() const  - Undefined Reference
+    _ZNK22QDeclarativeExpression8hasErrorEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItemPrivate::width() const    - Undefined Reference
+    _ZNK23QDeclarativeItemPrivate5widthEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItemPrivate::height() const   - Undefined Reference
+    _ZNK23QDeclarativeItemPrivate6heightEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeCustomParserProperty::assignedValues() const  - Undefined Reference
+    _ZNK32QDeclarativeCustomParserProperty14assignedValuesEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeCustomParserProperty::name() const  - Undefined Reference
+    _ZNK32QDeclarativeCustomParserProperty4nameEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QString::toLocal8Bit() const              - Undefined Reference
+    _ZNK7QString11toLocal8BitEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::arg(const QString&, int, const QChar&) const  - Undefined Reference
+    _ZNK7QString3argERKS_iRK5QChar@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::operator ==(const QLatin1String&) const  - Undefined Reference
+    _ZNK7QStringeqERK13QLatin1String@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::userType() const                - Undefined Reference
+    _ZNK8QVariant8userTypeEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::constData() const               - Undefined Reference
+    _ZNK8QVariant9constDataEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for QObjectPrivate               - Undefined Reference
+    _ZTI14QObjectPrivate@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for QDeclarativeItem             - Undefined Reference
+    _ZTI16QDeclarativeItem@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    typeinfo for QDeclarativeItemPrivate      - Undefined Reference
+    _ZTI23QDeclarativeItemPrivate@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    typeinfo for QDeclarativeExtensionPlugin  - Undefined Reference
+    _ZTI27QDeclarativeExtensionPlugin@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    typeinfo for std::bad_alloc               - Undefined Reference
+    _ZTISt9bad_alloc@stdnew{000a0000}[20022178].dll  - Undefined Reference
+    vtable for QGraphicsItemPrivate           - Undefined Reference
+    _ZTV20QGraphicsItemPrivate@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    vtable for QDeclarativeItemPrivate        - Undefined Reference
+    _ZTV23QDeclarativeItemPrivate@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    vtable for __cxxabiv1::__class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv117__class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv120__si_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    thunk{-16} to QDeclarativeItem::classBegin()  - Undefined Reference
+    _ZThn16_N16QDeclarativeItem10classBeginEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeItem::itemChange(QGraphicsItem::GraphicsItemChange, const QVariant&)  - Undefined Reference
+    _ZThn8_N16QDeclarativeItem10itemChangeEN13QGraphicsItem18GraphicsItemChangeERK8QVariant@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeItem::keyPressEvent(QKeyEvent*)  - Undefined Reference
+    _ZThn8_N16QDeclarativeItem13keyPressEventEP9QKeyEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeItem::keyReleaseEvent(QKeyEvent*)  - Undefined Reference
+    _ZThn8_N16QDeclarativeItem15keyReleaseEventEP9QKeyEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeItem::inputMethodEvent(QInputMethodEvent*)  - Undefined Reference
+    _ZThn8_N16QDeclarativeItem16inputMethodEventEP17QInputMethodEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeItem::paint(QPainter*, const QStyleOptionGraphicsItem*, QWidget*)  - Undefined Reference
+    _ZThn8_N16QDeclarativeItem5paintEP8QPainterPK24QStyleOptionGraphicsItemP7QWidget@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeExtensionPlugin::initializeEngine(QDeclarativeEngine*, const char*)  - Undefined Reference
+    _ZThn8_N27QDeclarativeExtensionPlugin16initializeEngineEP18QDeclarativeEnginePKc@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeItem::boundingRect() const  - Undefined Reference
+    _ZThn8_NK16QDeclarativeItem12boundingRectEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeItem::inputMethodQuery(Qt::InputMethodQuery) const  - Undefined Reference
+    _ZThn8_NK16QDeclarativeItem16inputMethodQueryEN2Qt16InputMethodQueryE@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    operator delete (void*)                   - Undefined Reference
+    _ZdlPv@stdnew{000a0000}[20022178].dll     - Undefined Reference
+    operator <<(QDebug, const QDeclarativeError&)  - Undefined Reference
+    _Zls6QDebugRK17QDeclarativeError@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    operator <<(QDataStream&, const QString&)  - Undefined Reference
+    _ZlsR11QDataStreamRK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    operator new(unsigned)                    - Undefined Reference
+    _Znwj@stdnew{000a0000}[20022178].dll      - Undefined Reference
+    operator >>(QDataStream&, QString&)       - Undefined Reference
+    _ZrsR11QDataStreamR7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    __aeabi_memcpy4                           - Undefined Reference
+    __aeabi_memcpy4@drtaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_unwind_cpp_pr0                    - Undefined Reference
+    __aeabi_unwind_cpp_pr0@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_begin_catch                         - Undefined Reference
+    __cxa_begin_catch@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_end_catch                           - Undefined Reference
+    __cxa_end_catch@drtaeabi{000a0000}.dll    - Undefined Reference
+    __cxa_end_cleanup                         - Undefined Reference
+    __cxa_end_cleanup@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_abort                         - Undefined Reference
+    __cxa_guard_abort@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_acquire                       - Undefined Reference
+    __cxa_guard_acquire@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_release                       - Undefined Reference
+    __cxa_guard_release@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_pure_virtual                        - Undefined Reference
+    __cxa_pure_virtual@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_rethrow                             - Undefined Reference
+    __cxa_rethrow@drtaeabi{000a0000}.dll      - Undefined Reference
+    free                                      - Undefined Reference
+    free@libc{00010001}[10207369].dll         - Undefined Reference
+    strcmp                                    - Undefined Reference
+    strcmp@libc{00010001}[10207369].dll       - Undefined Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      52  ucppinit.o(.emb_text)
+    std::nothrow                             0x0000805c   ARM Code       0  ucppinit.o(.emb_text)
+    __PLT                                    0x0000805c   ARM Code       0  anon$$obj.o(.plt)
+    QDeclarativeGestureArea::QDeclarativeGestureArea(QDeclarativeItem*) 0x0000834d   Thumb Code   162  qdeclarativegesturearea.o(.text)
+    QDeclarativeGestureArea::QDeclarativeGestureArea__sub_object(QDeclarativeItem*) 0x0000834d   Thumb Code     0  qdeclarativegesturearea.o(.text)
+    QDeclarativeGestureArea::~QDeclarativeGestureArea() 0x000083ef   Thumb Code    14  qdeclarativegesturearea.o(.text)
+    QDeclarativeGestureArea::~QDeclarativeGestureArea__sub_object() 0x000083ef   Thumb Code     0  qdeclarativegesturearea.o(.text)
+    QDeclarativeGestureArea::~QDeclarativeGestureArea__deallocating() 0x000083fd   Thumb Code    22  qdeclarativegesturearea.o(.text)
+    thunk{-16} to QDeclarativeGestureArea::~QDeclarativeGestureArea__deallocating() 0x00008413   Thumb Code    14  qdeclarativegesturearea.o(.text)
+    thunk{-8} to QDeclarativeGestureArea::~QDeclarativeGestureArea__deallocating() 0x00008421   Thumb Code    14  qdeclarativegesturearea.o(.text)
+    thunk{-16} to QDeclarativeGestureArea::~QDeclarativeGestureArea() 0x0000842f   Thumb Code    14  qdeclarativegesturearea.o(.text)
+    thunk{-8} to QDeclarativeGestureArea::~QDeclarativeGestureArea() 0x0000843d   Thumb Code    14  qdeclarativegesturearea.o(.text)
+    QDeclarativeGestureArea::gesture() const 0x0000844b   Thumb Code    22  qdeclarativegesturearea.o(.text)
+    QDeclarativeGestureAreaPrivate::gestureEvent(QGestureEvent*) 0x00008461   Thumb Code   282  qdeclarativegesturearea.o(.text)
+    QDeclarativeGestureArea::sceneEvent(QEvent*) 0x0000857b   Thumb Code    46  qdeclarativegesturearea.o(.text)
+    thunk{-8} to QDeclarativeGestureArea::sceneEvent(QEvent*) 0x000085a9   Thumb Code    18  qdeclarativegesturearea.o(.text)
+    QDeclarativeGestureArea::connectSignals() 0x000085bb   Thumb Code   256  qdeclarativegesturearea.o(.text)
+    QDeclarativeGestureArea::componentComplete() 0x000086bb   Thumb Code    36  qdeclarativegesturearea.o(.text)
+    thunk{-16} to QDeclarativeGestureArea::componentComplete() 0x000086df   Thumb Code    14  qdeclarativegesturearea.o(.text)
+    QDeclarativeGestureAreaParser::compile(const QList<QDeclarativeCustomParserProperty>&) 0x000086ed   Thumb Code  1202  qdeclarativegesturearea.o(.text)
+    QDeclarativeGestureAreaParser::setCustomData(QObject*, const QByteArray&) 0x00008b9f   Thumb Code    32  qdeclarativegesturearea.o(.text)
+    qt_plugin_query_verification_data        0x00008be5   Thumb Code     4  plugin.o(.text)
+    qt_plugin_instance                       0x00008be9   Thumb Code   134  plugin.o(.text)
+    GestureAreaQmlPlugin::getStaticMetaObject() 0x00008c6f   Thumb Code     4  plugin.o(.text)
+    GestureAreaQmlPlugin::metaObject() const 0x00008c73   Thumb Code    30  plugin.o(.text)
+    GestureAreaQmlPlugin::qt_metacast(const char*) 0x00008c91   Thumb Code    42  plugin.o(.text)
+    GestureAreaQmlPlugin::qt_metacall(QMetaObject::Call, int, void**) 0x00008cbb   Thumb Code    36  plugin.o(.text)
+    QDeclarativeGestureArea::getStaticMetaObject() 0x00008cf9   Thumb Code     4  moc_qdeclarativegesturearea_p.o(.text)
+    QDeclarativeGestureArea::metaObject() const 0x00008cfd   Thumb Code    30  moc_qdeclarativegesturearea_p.o(.text)
+    QDeclarativeGestureArea::qt_metacast(const char*) 0x00008d1b   Thumb Code    40  moc_qdeclarativegesturearea_p.o(.text)
+    QDeclarativeGestureArea::qt_metacall(QMetaObject::Call, int, void**) 0x00008d43   Thumb Code   118  moc_qdeclarativegesturearea_p.o(.text)
+    __ARM_switch8                            0x00008dc0   ARM Code      24  switch8.o(.text)
+    __rt_switch8                             0x00008dc0   ARM Code       0  switch8.o(.text)
+    _E32Dll_Body                             0x00008dd8   ARM Code      76  uc_dll.o(.text)
+    __aeabi_atexit                           0x00008e28   ARM Code      40  ucppfini.o(.text)
+    __cxa_atexit                             0x00008e50   ARM Code      64  ucppfini.o(.text)
+    __cxa_finalize                           0x00008e90   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x00008ec0   ARM Code      16  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x00008edc   ARM Code       4  dllexp.o(.text)
+    QByteArray::QByteArray(const QByteArray&) 0x00008fb9   Thumb Code    20  plugin.o(i._ZN10QByteArrayC1ERKS_)
+    QByteArray::QByteArray__sub_object(const QByteArray&) 0x00008fb9   Thumb Code     0  plugin.o(i._ZN10QByteArrayC1ERKS_)
+    QByteArray::QByteArray()                 0x00008fcd   Thumb Code    18  qdeclarativegesturearea.o(i._ZN10QByteArrayC1Ev)
+    QByteArray::QByteArray__sub_object()     0x00008fcd   Thumb Code     0  qdeclarativegesturearea.o(i._ZN10QByteArrayC1Ev)
+    QByteArray::~QByteArray()                0x00008fe5   Thumb Code    24  qdeclarativegesturearea.o(i._ZN10QByteArrayD1Ev)
+    QByteArray::~QByteArray__sub_object()    0x00008fe5   Thumb Code     0  qdeclarativegesturearea.o(i._ZN10QByteArrayD1Ev)
+    QBasicAtomicInt::ref()                   0x00008ffd   Thumb Code    24  qdeclarativegesturearea.o(i._ZN15QBasicAtomicInt3refEv)
+    QBasicAtomicInt::deref()                 0x00009015   Thumb Code    24  qdeclarativegesturearea.o(i._ZN15QBasicAtomicInt5derefEv)
+    QtSharedPointer::ExternalRefCountData::destroy() 0x0000902d   Thumb Code     6  qdeclarativegesturearea.o(i._ZN15QtSharedPointer20ExternalRefCountData7destroyEv)
+    QtSharedPointer::ExternalRefCountData::~ExternalRefCountData__deallocating() 0x00009033   Thumb Code    22  qdeclarativegesturearea.o(i._ZN15QtSharedPointer20ExternalRefCountDataD0Ev)
+    QtSharedPointer::ExternalRefCountData::~ExternalRefCountData() 0x00009049   Thumb Code    62  qdeclarativegesturearea.o(i._ZN15QtSharedPointer20ExternalRefCountDataD1Ev)
+    QtSharedPointer::ExternalRefCountData::~ExternalRefCountData__sub_object() 0x00009049   Thumb Code     0  qdeclarativegesturearea.o(i._ZN15QtSharedPointer20ExternalRefCountDataD1Ev)
+    QDeclarativeGuard<QObject>::~QDeclarativeGuard__deallocating() 0x000090ad   Thumb Code    22  qdeclarativegesturearea.o(i._ZN17QDeclarativeGuardI7QObjectED0Ev)
+    QDeclarativeParser::Variant::~Variant()  0x000090c3   Thumb Code    20  qdeclarativegesturearea.o(i._ZN18QDeclarativeParser7VariantD1Ev)
+    QDeclarativeParser::Variant::~Variant__sub_object() 0x000090c3   Thumb Code     0  qdeclarativegesturearea.o(i._ZN18QDeclarativeParser7VariantD1Ev)
+    QDeclarativePrivate::RegisterType::~RegisterType() 0x000090d7   Thumb Code    20  plugin.o(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    QDeclarativePrivate::RegisterType::~RegisterType__sub_object() 0x000090d7   Thumb Code     0  plugin.o(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeGestureArea>::~QDeclarativeElement__deallocating() 0x000090eb   Thumb Code    22  plugin.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaED0Ev)
+    GestureAreaQmlPlugin::registerTypes(const char*) 0x00009101   Thumb Code   640  plugin.o(i._ZN20GestureAreaQmlPlugin13registerTypesEPKc)
+    GestureAreaQmlPlugin::~GestureAreaQmlPlugin__deallocating() 0x000093c3   Thumb Code    24  plugin.o(i._ZN20GestureAreaQmlPluginD0Ev)
+    GestureAreaQmlPlugin::~GestureAreaQmlPlugin() 0x000093db   Thumb Code    14  plugin.o(i._ZN20GestureAreaQmlPluginD1Ev)
+    GestureAreaQmlPlugin::~GestureAreaQmlPlugin__sub_object() 0x000093db   Thumb Code     0  plugin.o(i._ZN20GestureAreaQmlPluginD1Ev)
+    QDeclarativeNotifier::~QDeclarativeNotifier() 0x000093e9   Thumb Code    52  qdeclarativegesturearea.o(i._ZN20QDeclarativeNotifierD1Ev)
+    QDeclarativeNotifier::~QDeclarativeNotifier__sub_object() 0x000093e9   Thumb Code     0  qdeclarativegesturearea.o(i._ZN20QDeclarativeNotifierD1Ev)
+    QGraphicsItemPrivate::ExtraStruct::~ExtraStruct() 0x0000941d   Thumb Code    20  qdeclarativegesturearea.o(i._ZN20QGraphicsItemPrivate11ExtraStructD1Ev)
+    QGraphicsItemPrivate::ExtraStruct::~ExtraStruct__sub_object() 0x0000941d   Thumb Code     0  qdeclarativegesturearea.o(i._ZN20QGraphicsItemPrivate11ExtraStructD1Ev)
+    QGraphicsItemPrivate::resolveFont(unsigned) 0x00009431   Thumb Code    62  qdeclarativegesturearea.o(i._ZN20QGraphicsItemPrivate11resolveFontEj)
+    QGraphicsItemPrivate::resolvePalette(unsigned) 0x0000946f   Thumb Code    62  qdeclarativegesturearea.o(i._ZN20QGraphicsItemPrivate14resolvePaletteEj)
+    QGraphicsItemPrivate::QGraphicsItemPrivate() 0x000094ad   Thumb Code   904  qdeclarativegesturearea.o(i._ZN20QGraphicsItemPrivateC1Ev)
+    QGraphicsItemPrivate::QGraphicsItemPrivate__sub_object() 0x000094ad   Thumb Code     0  qdeclarativegesturearea.o(i._ZN20QGraphicsItemPrivateC1Ev)
+    QGraphicsItemPrivate::~QGraphicsItemPrivate() 0x00009871   Thumb Code    68  qdeclarativegesturearea.o(i._ZN20QGraphicsItemPrivateD1Ev)
+    QGraphicsItemPrivate::~QGraphicsItemPrivate__sub_object() 0x00009871   Thumb Code     0  qdeclarativegesturearea.o(i._ZN20QGraphicsItemPrivateD1Ev)
+    QGraphicsEffectPrivate::~QGraphicsEffectPrivate() 0x000098e7   Thumb Code    14  qdeclarativegesturearea.o(i._ZN22QGraphicsEffectPrivateD1Ev)
+    QGraphicsEffectPrivate::~QGraphicsEffectPrivate__sub_object() 0x000098e7   Thumb Code     0  qdeclarativegesturearea.o(i._ZN22QGraphicsEffectPrivateD1Ev)
+    QDeclarativeGestureArea::tr(const char*, const char*) 0x000098f5   Thumb Code    22  qdeclarativegesturearea.o(i._ZN23QDeclarativeGestureArea2trEPKcS1_)
+    QDeclarativeItemPrivate::setPosHelper(const QPointF&) 0x00009911   Thumb Code   110  qdeclarativegesturearea.o(i._ZN23QDeclarativeItemPrivate12setPosHelperERK7QPointF)
+    QDeclarativeItemPrivate::siblingOrderChange() 0x0000997f   Thumb Code    82  qdeclarativegesturearea.o(i._ZN23QDeclarativeItemPrivate18siblingOrderChangeEv)
+    QDeclarativeItemPrivate::subFocusItemChange() 0x000099d1   Thumb Code    66  qdeclarativegesturearea.o(i._ZN23QDeclarativeItemPrivate18subFocusItemChangeEv)
+    QDeclarativeItemPrivate::focusScopeItemChange(bool) 0x00009a13   Thumb Code    22  qdeclarativegesturearea.o(i._ZN23QDeclarativeItemPrivate20focusScopeItemChangeEb)
+    QDeclarativeItemPrivate::q_func()        0x00009a29   Thumb Code    22  qdeclarativegesturearea.o(i._ZN23QDeclarativeItemPrivate6q_funcEv)
+    QDeclarativeItemPrivate::QDeclarativeItemPrivate() 0x00009a41   Thumb Code   392  qdeclarativegesturearea.o(i._ZN23QDeclarativeItemPrivateC1Ev)
+    QDeclarativeItemPrivate::QDeclarativeItemPrivate__sub_object() 0x00009a41   Thumb Code     0  qdeclarativegesturearea.o(i._ZN23QDeclarativeItemPrivateC1Ev)
+    QDeclarativeItemPrivate::~QDeclarativeItemPrivate() 0x00009bd1   Thumb Code    42  qdeclarativegesturearea.o(i._ZN23QDeclarativeItemPrivateD1Ev)
+    QDeclarativeItemPrivate::~QDeclarativeItemPrivate__sub_object() 0x00009bd1   Thumb Code     0  qdeclarativegesturearea.o(i._ZN23QDeclarativeItemPrivateD1Ev)
+    QDeclarativeCustomParser::~QDeclarativeCustomParser__deallocating() 0x00009c17   Thumb Code    22  qdeclarativegesturearea.o(i._ZN24QDeclarativeCustomParserD0Ev)
+    QDeclarativeCustomParser::~QDeclarativeCustomParser() 0x00009c2d   Thumb Code     0  qdeclarativegesturearea.o(i._ZN24QDeclarativeCustomParserD2Ev)
+    QDeclarativeCustomParser::~QDeclarativeCustomParser__sub_object() 0x00009c2d   Thumb Code    20  qdeclarativegesturearea.o(i._ZN24QDeclarativeCustomParserD2Ev)
+    QGraphicsBlurEffectPrivate::~QGraphicsBlurEffectPrivate__deallocating() 0x00009c45   Thumb Code    22  qdeclarativegesturearea.o(i._ZN26QGraphicsBlurEffectPrivateD0Ev)
+    QGraphicsBlurEffectPrivate::~QGraphicsBlurEffectPrivate() 0x00009c5d   Thumb Code    34  qdeclarativegesturearea.o(i._ZN26QGraphicsBlurEffectPrivateD1Ev)
+    QGraphicsBlurEffectPrivate::~QGraphicsBlurEffectPrivate__sub_object() 0x00009c5d   Thumb Code     0  qdeclarativegesturearea.o(i._ZN26QGraphicsBlurEffectPrivateD1Ev)
+    QDeclarativeGestureAreaParser::~QDeclarativeGestureAreaParser__deallocating() 0x00009c8f   Thumb Code    24  qdeclarativegesturearea.o(i._ZN29QDeclarativeGestureAreaParserD0Ev)
+    QDeclarativeGestureAreaParser::~QDeclarativeGestureAreaParser() 0x00009ca7   Thumb Code    14  qdeclarativegesturearea.o(i._ZN29QDeclarativeGestureAreaParserD1Ev)
+    QDeclarativeGestureAreaParser::~QDeclarativeGestureAreaParser__sub_object() 0x00009ca7   Thumb Code     0  qdeclarativegesturearea.o(i._ZN29QDeclarativeGestureAreaParserD1Ev)
+    QDeclarativeGestureAreaPrivate::~QDeclarativeGestureAreaPrivate__deallocating() 0x00009cb5   Thumb Code    22  qdeclarativegesturearea.o(i._ZN30QDeclarativeGestureAreaPrivateD0Ev)
+    QDeclarativeGestureAreaPrivate::~QDeclarativeGestureAreaPrivate() 0x00009ccd   Thumb Code    42  qdeclarativegesturearea.o(i._ZN30QDeclarativeGestureAreaPrivateD1Ev)
+    QDeclarativeGestureAreaPrivate::~QDeclarativeGestureAreaPrivate__sub_object() 0x00009ccd   Thumb Code     0  qdeclarativegesturearea.o(i._ZN30QDeclarativeGestureAreaPrivateD1Ev)
+    QGraphicsColorizeEffectPrivate::~QGraphicsColorizeEffectPrivate__deallocating() 0x00009d13   Thumb Code    22  qdeclarativegesturearea.o(i._ZN30QGraphicsColorizeEffectPrivateD0Ev)
+    QGraphicsColorizeEffectPrivate::~QGraphicsColorizeEffectPrivate() 0x00009d29   Thumb Code    34  qdeclarativegesturearea.o(i._ZN30QGraphicsColorizeEffectPrivateD1Ev)
+    QGraphicsColorizeEffectPrivate::~QGraphicsColorizeEffectPrivate__sub_object() 0x00009d29   Thumb Code     0  qdeclarativegesturearea.o(i._ZN30QGraphicsColorizeEffectPrivateD1Ev)
+    QGraphicsDropShadowEffectPrivate::~QGraphicsDropShadowEffectPrivate__deallocating() 0x00009d5b   Thumb Code    22  qdeclarativegesturearea.o(i._ZN32QGraphicsDropShadowEffectPrivateD0Ev)
+    QGraphicsDropShadowEffectPrivate::~QGraphicsDropShadowEffectPrivate() 0x00009d71   Thumb Code    34  qdeclarativegesturearea.o(i._ZN32QGraphicsDropShadowEffectPrivateD1Ev)
+    QGraphicsDropShadowEffectPrivate::~QGraphicsDropShadowEffectPrivate__sub_object() 0x00009d71   Thumb Code     0  qdeclarativegesturearea.o(i._ZN32QGraphicsDropShadowEffectPrivateD1Ev)
+    QDebug::~QDebug()                        0x00009da3   Thumb Code   144  qdeclarativegesturearea.o(i._ZN6QDebugD1Ev)
+    QDebug::~QDebug__sub_object()            0x00009da3   Thumb Code     0  qdeclarativegesturearea.o(i._ZN6QDebugD1Ev)
+    QRectF::QRectF()                         0x00009e47   Thumb Code    12  qdeclarativegesturearea.o(i._ZN6QRectFC1Ev)
+    QRectF::QRectF__sub_object()             0x00009e47   Thumb Code     0  qdeclarativegesturearea.o(i._ZN6QRectFC1Ev)
+    QString::QString(const QLatin1String&)   0x00009e53   Thumb Code    26  plugin.o(i._ZN7QStringC1ERK13QLatin1String)
+    QString::QString__sub_object(const QLatin1String&) 0x00009e53   Thumb Code     0  plugin.o(i._ZN7QStringC1ERK13QLatin1String)
+    QString::QString(const QString&)         0x00009e6d   Thumb Code    40  plugin.o(i._ZN7QStringC1ERKS_)
+    QString::QString__sub_object(const QString&) 0x00009e6d   Thumb Code     0  plugin.o(i._ZN7QStringC1ERKS_)
+    QString::QString()                       0x00009ee9   Thumb Code    18  qdeclarativegesturearea.o(i._ZN7QStringC1Ev)
+    QString::QString__sub_object()           0x00009ee9   Thumb Code     0  qdeclarativegesturearea.o(i._ZN7QStringC1Ev)
+    QString::~QString()                      0x00009f01   Thumb Code    24  qdeclarativegesturearea.o(i._ZN7QStringD1Ev)
+    QString::~QString__sub_object()          0x00009f01   Thumb Code     0  qdeclarativegesturearea.o(i._ZN7QStringD1Ev)
+    QBasicAtomicInt::operator ==(int) const  0x00009f19   Thumb Code    16  qdeclarativegesturearea.o(i._ZNK15QBasicAtomicInteqEi)
+    QBasicAtomicInt::operator !=(int) const  0x00009f29   Thumb Code    16  qdeclarativegesturearea.o(i._ZNK15QBasicAtomicIntneEi)
+    QBasicAtomicInt::operator !() const      0x00009f39   Thumb Code    16  qdeclarativegesturearea.o(i._ZNK15QBasicAtomicIntntEv)
+    QListData::at(int) const                 0x00009f49   Thumb Code    20  qdeclarativegesturearea.o(i._ZNK9QListData2atEi)
+    QListData::size() const                  0x00009f5d   Thumb Code    14  qdeclarativegesturearea.o(i._ZNK9QListData4sizeEv)
+    thunk{-16} to QDeclarativePrivate::QDeclarativeElement<QDeclarativeGestureArea>::~QDeclarativeElement__deallocating() 0x00009f6b   Thumb Code    14  plugin.o(i._ZThn16_N19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaED0Ev)
+    thunk{-16} to QDeclarativePrivate::QDeclarativeElement<QDeclarativeGestureArea>::~QDeclarativeElement() 0x00009f79   Thumb Code    14  plugin.o(i._ZThn16_N19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaED1Ev)
+    thunk{-8} to QDeclarativePrivate::QDeclarativeElement<QDeclarativeGestureArea>::~QDeclarativeElement__deallocating() 0x00009f87   Thumb Code    14  plugin.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaED0Ev)
+    thunk{-8} to QDeclarativePrivate::QDeclarativeElement<QDeclarativeGestureArea>::~QDeclarativeElement() 0x00009f95   Thumb Code    14  plugin.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaED1Ev)
+    thunk{-8} to GestureAreaQmlPlugin::registerTypes(const char*) 0x00009fa3   Thumb Code    18  plugin.o(i._ZThn8_N20GestureAreaQmlPlugin13registerTypesEPKc)
+    thunk{-8} to GestureAreaQmlPlugin::~GestureAreaQmlPlugin__deallocating() 0x00009fb5   Thumb Code    14  plugin.o(i._ZThn8_N20GestureAreaQmlPluginD0Ev)
+    thunk{-8} to GestureAreaQmlPlugin::~GestureAreaQmlPlugin() 0x00009fc3   Thumb Code    18  plugin.o(i._ZThn8_N20GestureAreaQmlPluginD1Ev)
+    operator delete (void*, void*)           0x00009fd5   Thumb Code     2  plugin.o(i._ZdlPvS_)
+    operator new(unsigned, void*)            0x00009fd7   Thumb Code     6  qdeclarativegesturearea.o(i._ZnwjPv)
+    operator +(const char*, const QByteArray&) 0x00009fdd   Thumb Code    46  plugin.o(i._ZplPKcRK10QByteArray)
+    operator +(const QByteArray&, const char*) 0x0000a015   Thumb Code    46  plugin.o(i._ZplRK10QByteArrayPKc)
+    operator +(const QByteArray&, char)      0x0000a04d   Thumb Code    46  plugin.o(i._ZplRK10QByteArrayc)
+    qMapLessThanKey<Qt::GestureType>(const T1&, const T1&) 0x0000a085   Thumb Code    18  qdeclarativegesturearea.o(t._Z15qMapLessThanKeyIN2Qt11GestureTypeEEbRKT_S4_)
+    qRegisterMetaType<QDeclarativeListProperty<QPanGesture>>(const char*, T1*) 0x0000a099   Thumb Code    56  plugin.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI11QPanGestureEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QTapGesture>>(const char*, T1*) 0x0000a0d9   Thumb Code    56  plugin.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI11QTapGestureEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QPinchGesture>>(const char*, T1*) 0x0000a119   Thumb Code    56  plugin.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI13QPinchGestureEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QSwipeGesture>>(const char*, T1*) 0x0000a159   Thumb Code    56  plugin.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI13QSwipeGestureEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QTapAndHoldGesture>>(const char*, T1*) 0x0000a199   Thumb Code    56  plugin.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI18QTapAndHoldGestureEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QDeclarativeGestureArea>>(const char*, T1*) 0x0000a1d9   Thumb Code   100  plugin.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI23QDeclarativeGestureAreaEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QGesture>>(const char*, T1*) 0x0000a27d   Thumb Code    56  plugin.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI8QGestureEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeCustomParserNode>(const char*, T1*) 0x0000a2bd   Thumb Code    56  qdeclarativegesturearea.o(t._Z17qRegisterMetaTypeI28QDeclarativeCustomParserNodeEiPKcPT_)
+    qRegisterMetaType<QDeclarativeCustomParserProperty>(const char*, T1*) 0x0000a2fd   Thumb Code    56  qdeclarativegesturearea.o(t._Z17qRegisterMetaTypeI32QDeclarativeCustomParserPropertyEiPKcPT_)
+    qRegisterMetaType<QDeclarativeParser::Variant>(const char*, T1*) 0x0000a33d   Thumb Code    56  qdeclarativegesturearea.o(t._Z17qRegisterMetaTypeIN18QDeclarativeParser7VariantEEiPKcPT_)
+    qRegisterMetaType<QPanGesture*>(const char*, T1*) 0x0000a37d   Thumb Code    56  plugin.o(t._Z17qRegisterMetaTypeIP11QPanGestureEiPKcPT_)
+    qRegisterMetaType<QTapGesture*>(const char*, T1*) 0x0000a3bd   Thumb Code    56  plugin.o(t._Z17qRegisterMetaTypeIP11QTapGestureEiPKcPT_)
+    qRegisterMetaType<QPinchGesture*>(const char*, T1*) 0x0000a3fd   Thumb Code    56  plugin.o(t._Z17qRegisterMetaTypeIP13QPinchGestureEiPKcPT_)
+    qRegisterMetaType<QSwipeGesture*>(const char*, T1*) 0x0000a43d   Thumb Code    56  plugin.o(t._Z17qRegisterMetaTypeIP13QSwipeGestureEiPKcPT_)
+    qRegisterMetaType<QTapAndHoldGesture*>(const char*, T1*) 0x0000a47d   Thumb Code    56  plugin.o(t._Z17qRegisterMetaTypeIP18QTapAndHoldGestureEiPKcPT_)
+    qRegisterMetaType<QDeclarativeGestureArea*>(const char*, T1*) 0x0000a4bd   Thumb Code   100  plugin.o(t._Z17qRegisterMetaTypeIP23QDeclarativeGestureAreaEiPKcPT_)
+    qRegisterMetaType<QGesture*>(const char*, T1*) 0x0000a549   Thumb Code    56  plugin.o(t._Z17qRegisterMetaTypeIP8QGestureEiPKcPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QPanGesture>>(T1*) 0x0000a589   Thumb Code    12  plugin.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI11QPanGestureEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QTapGesture>>(T1*) 0x0000a595   Thumb Code    12  plugin.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI11QTapGestureEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QPinchGesture>>(T1*) 0x0000a5a1   Thumb Code    12  plugin.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI13QPinchGestureEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QSwipeGesture>>(T1*) 0x0000a5ad   Thumb Code    12  plugin.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI13QSwipeGestureEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QTapAndHoldGesture>>(T1*) 0x0000a5b9   Thumb Code    12  plugin.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI18QTapAndHoldGestureEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QDeclarativeGestureArea>>(T1*) 0x0000a5c5   Thumb Code    12  plugin.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI23QDeclarativeGestureAreaEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QGesture>>(T1*) 0x0000a5d1   Thumb Code    12  plugin.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI8QGestureEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeCustomParserNode>(T1*) 0x0000a5dd   Thumb Code    22  qdeclarativegesturearea.o(t._Z21qMetaTypeDeleteHelperI28QDeclarativeCustomParserNodeEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeCustomParserProperty>(T1*) 0x0000a5f3   Thumb Code    22  qdeclarativegesturearea.o(t._Z21qMetaTypeDeleteHelperI32QDeclarativeCustomParserPropertyEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeParser::Variant>(T1*) 0x0000a609   Thumb Code    22  qdeclarativegesturearea.o(t._Z21qMetaTypeDeleteHelperIN18QDeclarativeParser7VariantEEvPT_)
+    qMetaTypeDeleteHelper<QPanGesture*>(T1*) 0x0000a61f   Thumb Code    12  plugin.o(t._Z21qMetaTypeDeleteHelperIP11QPanGestureEvPT_)
+    qMetaTypeDeleteHelper<QTapGesture*>(T1*) 0x0000a62b   Thumb Code    12  plugin.o(t._Z21qMetaTypeDeleteHelperIP11QTapGestureEvPT_)
+    qMetaTypeDeleteHelper<QPinchGesture*>(T1*) 0x0000a637   Thumb Code    12  plugin.o(t._Z21qMetaTypeDeleteHelperIP13QPinchGestureEvPT_)
+    qMetaTypeDeleteHelper<QSwipeGesture*>(T1*) 0x0000a643   Thumb Code    12  plugin.o(t._Z21qMetaTypeDeleteHelperIP13QSwipeGestureEvPT_)
+    qMetaTypeDeleteHelper<QTapAndHoldGesture*>(T1*) 0x0000a64f   Thumb Code    12  plugin.o(t._Z21qMetaTypeDeleteHelperIP18QTapAndHoldGestureEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeGestureArea*>(T1*) 0x0000a65b   Thumb Code    12  plugin.o(t._Z21qMetaTypeDeleteHelperIP23QDeclarativeGestureAreaEvPT_)
+    qMetaTypeDeleteHelper<QGesture*>(T1*)    0x0000a667   Thumb Code    12  plugin.o(t._Z21qMetaTypeDeleteHelperIP8QGestureEvPT_)
+    qmlRegisterCustomType<QDeclarativeGestureArea>(const char*, int, int, const char*, QDeclarativeCustomParser*) 0x0000a675   Thumb Code   260  plugin.o(t._Z21qmlRegisterCustomTypeI23QDeclarativeGestureAreaEiPKciiS2_P24QDeclarativeCustomParser)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QPanGesture>>(const T1*) 0x0000a7d9   Thumb Code   150  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI11QPanGestureEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QTapGesture>>(const T1*) 0x0000a873   Thumb Code   150  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI11QTapGestureEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QPinchGesture>>(const T1*) 0x0000a90d   Thumb Code   150  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI13QPinchGestureEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QSwipeGesture>>(const T1*) 0x0000a9a7   Thumb Code   150  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI13QSwipeGestureEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QTapAndHoldGesture>>(const T1*) 0x0000aa41   Thumb Code   150  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI18QTapAndHoldGestureEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QDeclarativeGestureArea>>(const T1*) 0x0000aadb   Thumb Code   150  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI23QDeclarativeGestureAreaEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QGesture>>(const T1*) 0x0000ab75   Thumb Code   150  plugin.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI8QGestureEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeCustomParserNode>(const T1*) 0x0000ac0f   Thumb Code    80  qdeclarativegesturearea.o(t._Z24qMetaTypeConstructHelperI28QDeclarativeCustomParserNodeEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeCustomParserProperty>(const T1*) 0x0000ac7b   Thumb Code    80  qdeclarativegesturearea.o(t._Z24qMetaTypeConstructHelperI32QDeclarativeCustomParserPropertyEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeParser::Variant>(const T1*) 0x0000ace7   Thumb Code    80  qdeclarativegesturearea.o(t._Z24qMetaTypeConstructHelperIN18QDeclarativeParser7VariantEEPvPKT_)
+    qMetaTypeConstructHelper<QPanGesture*>(const T1*) 0x0000ad53   Thumb Code    50  plugin.o(t._Z24qMetaTypeConstructHelperIP11QPanGestureEPvPKT_)
+    qMetaTypeConstructHelper<QTapGesture*>(const T1*) 0x0000ad85   Thumb Code    50  plugin.o(t._Z24qMetaTypeConstructHelperIP11QTapGestureEPvPKT_)
+    qMetaTypeConstructHelper<QPinchGesture*>(const T1*) 0x0000adb7   Thumb Code    50  plugin.o(t._Z24qMetaTypeConstructHelperIP13QPinchGestureEPvPKT_)
+    qMetaTypeConstructHelper<QSwipeGesture*>(const T1*) 0x0000ade9   Thumb Code    50  plugin.o(t._Z24qMetaTypeConstructHelperIP13QSwipeGestureEPvPKT_)
+    qMetaTypeConstructHelper<QTapAndHoldGesture*>(const T1*) 0x0000ae1b   Thumb Code    50  plugin.o(t._Z24qMetaTypeConstructHelperIP18QTapAndHoldGestureEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeGestureArea*>(const T1*) 0x0000ae4d   Thumb Code    50  plugin.o(t._Z24qMetaTypeConstructHelperIP23QDeclarativeGestureAreaEPvPKT_)
+    qMetaTypeConstructHelper<QGesture*>(const T1*) 0x0000ae7f   Thumb Code    50  plugin.o(t._Z24qMetaTypeConstructHelperIP8QGestureEPvPKT_)
+    qmlRegisterUncreatableType<QPanGesture>(const char*, int, int, const char*, const QString&) 0x0000aeb1   Thumb Code   242  plugin.o(t._Z26qmlRegisterUncreatableTypeI11QPanGestureEiPKciiS2_RK7QString)
+    qmlRegisterUncreatableType<QTapGesture>(const char*, int, int, const char*, const QString&) 0x0000b001   Thumb Code   242  plugin.o(t._Z26qmlRegisterUncreatableTypeI11QTapGestureEiPKciiS2_RK7QString)
+    qmlRegisterUncreatableType<QPinchGesture>(const char*, int, int, const char*, const QString&) 0x0000b151   Thumb Code   242  plugin.o(t._Z26qmlRegisterUncreatableTypeI13QPinchGestureEiPKciiS2_RK7QString)
+    qmlRegisterUncreatableType<QSwipeGesture>(const char*, int, int, const char*, const QString&) 0x0000b2a1   Thumb Code   242  plugin.o(t._Z26qmlRegisterUncreatableTypeI13QSwipeGestureEiPKciiS2_RK7QString)
+    qmlRegisterUncreatableType<QTapAndHoldGesture>(const char*, int, int, const char*, const QString&) 0x0000b3f1   Thumb Code   242  plugin.o(t._Z26qmlRegisterUncreatableTypeI18QTapAndHoldGestureEiPKciiS2_RK7QString)
+    qmlRegisterUncreatableType<QGesture>(const char*, int, int, const char*, const QString&) 0x0000b541   Thumb Code   242  plugin.o(t._Z26qmlRegisterUncreatableTypeI8QGestureEiPKciiS2_RK7QString)
+    QPODVector<QDeclarativeItemPrivate::ChangeListener, (int)4>::~QPODVector() 0x0000b691   Thumb Code    20  qdeclarativegesturearea.o(t._ZN10QPODVectorIN23QDeclarativeItemPrivate14ChangeListenerELi4EED1Ev)
+    QPODVector<QDeclarativeItemPrivate::ChangeListener, (int)4>::~QPODVector__sub_object() 0x0000b691   Thumb Code     0  qdeclarativegesturearea.o(t._ZN10QPODVectorIN23QDeclarativeItemPrivate14ChangeListenerELi4EED1Ev)
+    QMetaTypeId2<QDeclarativeCustomParserNode>::qt_metatype_id() 0x0000b6a5   Thumb Code    44  qdeclarativegesturearea.o(t._ZN12QMetaTypeId2I28QDeclarativeCustomParserNodeE14qt_metatype_idEv)
+    QMetaTypeId2<QDeclarativeCustomParserProperty>::qt_metatype_id() 0x0000b6f5   Thumb Code    44  qdeclarativegesturearea.o(t._ZN12QMetaTypeId2I32QDeclarativeCustomParserPropertyE14qt_metatype_idEv)
+    QMetaTypeId2<QDeclarativeParser::Variant>::qt_metatype_id() 0x0000b749   Thumb Code    44  qdeclarativegesturearea.o(t._ZN12QMetaTypeId2IN18QDeclarativeParser7VariantEE14qt_metatype_idEv)
+    QDeclarativeGuard<QObject>::objectDestroyed(QObject*) 0x0000b795   Thumb Code     2  qdeclarativegesturearea.o(t._ZN17QDeclarativeGuardI7QObjectE15objectDestroyedEPS0_)
+    QDeclarativeGuard<QObject>::~QDeclarativeGuard() 0x0000b799   Thumb Code    72  qdeclarativegesturearea.o(t._ZN17QDeclarativeGuardI7QObjectED1Ev)
+    QDeclarativeGuard<QObject>::~QDeclarativeGuard__sub_object() 0x0000b799   Thumb Code     0  qdeclarativegesturearea.o(t._ZN17QDeclarativeGuardI7QObjectED1Ev)
+    QDeclarativePrivate::createInto<QDeclarativeGestureArea>(void*) 0x0000b7f1   Thumb Code    46  plugin.o(t._ZN19QDeclarativePrivate10createIntoI23QDeclarativeGestureAreaEEvPv)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeGestureArea>::~QDeclarativeElement() 0x0000b831   Thumb Code    32  plugin.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeGestureArea>::~QDeclarativeElement__sub_object() 0x0000b831   Thumb Code     0  plugin.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaED1Ev)
+    QMap<Qt::GestureType, QFlags<Qt::GestureFlag>>::freeData(QMapData*) 0x0000b85f   Thumb Code    48  qdeclarativegesturearea.o(t._ZN4QMapIN2Qt11GestureTypeE6QFlagsINS0_11GestureFlagEEE8freeDataEP8QMapData)
+    QMap<Qt::GestureType, QFlags<Qt::GestureFlag>>::~QMap() 0x0000b88f   Thumb Code    38  qdeclarativegesturearea.o(t._ZN4QMapIN2Qt11GestureTypeE6QFlagsINS0_11GestureFlagEEED1Ev)
+    QMap<Qt::GestureType, QFlags<Qt::GestureFlag>>::~QMap__sub_object() 0x0000b88f   Thumb Code     0  qdeclarativegesturearea.o(t._ZN4QMapIN2Qt11GestureTypeE6QFlagsINS0_11GestureFlagEEED1Ev)
+    QMap<Qt::GestureType, QDeclarativeExpression*>::node_create(QMapData*, QMapData::Node**, const Qt::GestureType&, QDeclarativeExpression*const &) 0x0000b8b5   Thumb Code    82  qdeclarativegesturearea.o(t._ZN4QMapIN2Qt11GestureTypeEP22QDeclarativeExpressionE11node_createEP8QMapDataPPNS5_4NodeERKS1_RKS3_)
+    QMap<Qt::GestureType, QDeclarativeExpression*>::detach_helper() 0x0000b90b   Thumb Code   146  qdeclarativegesturearea.o(t._ZN4QMapIN2Qt11GestureTypeEP22QDeclarativeExpressionE13detach_helperEv)
+    QMap<Qt::GestureType, QDeclarativeExpression*>::detach() 0x0000b9a5   Thumb Code    28  qdeclarativegesturearea.o(t._ZN4QMapIN2Qt11GestureTypeEP22QDeclarativeExpressionE6detachEv)
+    QMap<Qt::GestureType, QDeclarativeExpression*>::freeData(QMapData*) 0x0000b9c1   Thumb Code    48  qdeclarativegesturearea.o(t._ZN4QMapIN2Qt11GestureTypeEP22QDeclarativeExpressionE8freeDataEP8QMapData)
+    QMap<Qt::GestureType, QDeclarativeExpression*>::~QMap() 0x0000b9f1   Thumb Code    38  qdeclarativegesturearea.o(t._ZN4QMapIN2Qt11GestureTypeEP22QDeclarativeExpressionED1Ev)
+    QMap<Qt::GestureType, QDeclarativeExpression*>::~QMap__sub_object() 0x0000b9f1   Thumb Code     0  qdeclarativegesturearea.o(t._ZN4QMapIN2Qt11GestureTypeEP22QDeclarativeExpressionED1Ev)
+    QMap<QWidget*, QRect>::freeData(QMapData*) 0x0000ba17   Thumb Code    48  qdeclarativegesturearea.o(t._ZN4QMapIP7QWidget5QRectE8freeDataEP8QMapData)
+    QMap<QWidget*, QRect>::~QMap()           0x0000ba47   Thumb Code    38  qdeclarativegesturearea.o(t._ZN4QMapIP7QWidget5QRectED1Ev)
+    QMap<QWidget*, QRect>::~QMap__sub_object() 0x0000ba47   Thumb Code     0  qdeclarativegesturearea.o(t._ZN4QMapIP7QWidget5QRectED1Ev)
+    QList<QDeclarativeError>::free(QListData::Data*) 0x0000ba6d   Thumb Code    76  qdeclarativegesturearea.o(t._ZN5QListI17QDeclarativeErrorE4freeEPN9QListData4DataE)
+    QList<QDeclarativeError>::~QList()       0x0000bab9   Thumb Code    32  qdeclarativegesturearea.o(t._ZN5QListI17QDeclarativeErrorED1Ev)
+    QList<QDeclarativeError>::~QList__sub_object() 0x0000bab9   Thumb Code     0  qdeclarativegesturearea.o(t._ZN5QListI17QDeclarativeErrorED1Ev)
+    QList<QVariant>::free(QListData::Data*)  0x0000bad9   Thumb Code    76  qdeclarativegesturearea.o(t._ZN5QListI8QVariantE4freeEPN9QListData4DataE)
+    QList<QVariant>::~QList()                0x0000bb25   Thumb Code    32  qdeclarativegesturearea.o(t._ZN5QListI8QVariantED1Ev)
+    QList<QVariant>::~QList__sub_object()    0x0000bb25   Thumb Code     0  qdeclarativegesturearea.o(t._ZN5QListI8QVariantED1Ev)
+    QList<QGraphicsItemPrivate::ExtraStruct>::free(QListData::Data*) 0x0000bb45   Thumb Code    76  qdeclarativegesturearea.o(t._ZN5QListIN20QGraphicsItemPrivate11ExtraStructEE4freeEPN9QListData4DataE)
+    QList<QGraphicsItemPrivate::ExtraStruct>::~QList() 0x0000bb91   Thumb Code    32  qdeclarativegesturearea.o(t._ZN5QListIN20QGraphicsItemPrivate11ExtraStructEED1Ev)
+    QList<QGraphicsItemPrivate::ExtraStruct>::~QList__sub_object() 0x0000bb91   Thumb Code     0  qdeclarativegesturearea.o(t._ZN5QListIN20QGraphicsItemPrivate11ExtraStructEED1Ev)
+    QList<QGraphicsItem*>::free(QListData::Data*) 0x0000bbb1   Thumb Code    52  qdeclarativegesturearea.o(t._ZN5QListIP13QGraphicsItemE4freeEPN9QListData4DataE)
+    QList<QGraphicsItem*>::~QList()          0x0000bbe5   Thumb Code    32  qdeclarativegesturearea.o(t._ZN5QListIP13QGraphicsItemED1Ev)
+    QList<QGraphicsItem*>::~QList__sub_object() 0x0000bbe5   Thumb Code     0  qdeclarativegesturearea.o(t._ZN5QListIP13QGraphicsItemED1Ev)
+    QList<QDeclarativeItem*>::free(QListData::Data*) 0x0000bc05   Thumb Code    52  qdeclarativegesturearea.o(t._ZN5QListIP16QDeclarativeItemE4freeEPN9QListData4DataE)
+    QList<QDeclarativeItem*>::~QList()       0x0000bc39   Thumb Code    32  qdeclarativegesturearea.o(t._ZN5QListIP16QDeclarativeItemED1Ev)
+    QList<QDeclarativeItem*>::~QList__sub_object() 0x0000bc39   Thumb Code     0  qdeclarativegesturearea.o(t._ZN5QListIP16QDeclarativeItemED1Ev)
+    QList<QGraphicsItem**>::free(QListData::Data*) 0x0000bc59   Thumb Code    52  qdeclarativegesturearea.o(t._ZN5QListIPP13QGraphicsItemE4freeEPN9QListData4DataE)
+    QList<QGraphicsItem**>::~QList()         0x0000bc8d   Thumb Code    32  qdeclarativegesturearea.o(t._ZN5QListIPP13QGraphicsItemED1Ev)
+    QList<QGraphicsItem**>::~QList__sub_object() 0x0000bc8d   Thumb Code     0  qdeclarativegesturearea.o(t._ZN5QListIPP13QGraphicsItemED1Ev)
+    QPointer<QObject>::~QPointer()           0x0000bcad   Thumb Code    14  plugin.o(t._ZN8QPointerI7QObjectED1Ev)
+    QPointer<QObject>::~QPointer__sub_object() 0x0000bcad   Thumb Code     0  plugin.o(t._ZN8QPointerI7QObjectED1Ev)
+    QScopedPointer<QObjectData, QScopedPointerDeleter<QObjectData>>::operator ->() const 0x0000bcbd   Thumb Code    30  plugin.o(t._ZNK14QScopedPointerI11QObjectData21QScopedPointerDeleterIS0_EEptEv)
+    QScopedPointer<QGraphicsItemPrivate, QScopedPointerDeleter<QGraphicsItemPrivate>>::operator ->() const 0x0000bce5   Thumb Code    30  qdeclarativegesturearea.o(t._ZNK14QScopedPointerI20QGraphicsItemPrivate21QScopedPointerDeleterIS0_EEptEv)
+    QMap<Qt::GestureType, QDeclarativeExpression*>::mutableFindNode(QMapData::Node**, const Qt::GestureType&) const 0x0000bd0d   Thumb Code   108  qdeclarativegesturearea.o(t._ZNK4QMapIN2Qt11GestureTypeEP22QDeclarativeExpressionE15mutableFindNodeEPPN8QMapData4NodeERKS1_)
+    QList<QDeclarativeCustomParserProperty>::at(int) const 0x0000bd79   Thumb Code    54  qdeclarativegesturearea.o(t._ZNK5QListI32QDeclarativeCustomParserPropertyE2atEi)
+    QList<QGraphicsItem*>::at(int) const     0x0000be11   Thumb Code    54  qdeclarativegesturearea.o(t._ZNK5QListIP13QGraphicsItemE2atEi)
+    GestureAreaQmlPlugin::staticMetaObject   0x0000c6f8   Data          16  plugin.o(.constdata)
+    QDeclarativeGestureArea::staticMetaObject 0x0000c80c   Data          16  moc_qdeclarativegesturearea_p.o(.constdata)
+    stlp_priv::_Integer_limits<signed char, (signed char)-128, (signed char)127, (int)-1, (bool)1>::digits 0x0000c8ac   Data           4  qdeclarativegesturearea.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<bool, (bool)0, (bool)1, (int)1, (bool)0>::digits 0x0000c8b0   Data           4  qdeclarativegesturearea.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    stlp_priv::_Integer_limits<char, (char)128, (char)127, (int)-1, (bool)1>::digits 0x0000c8b4   Data           4  qdeclarativegesturearea.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned char, (unsigned char)0, (unsigned char)255, (int)-1, (bool)1>::digits 0x0000c8b8   Data           4  qdeclarativegesturearea.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::digits 0x0000c8bc   Data           4  qdeclarativegesturearea.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::is_signed 0x0000c8c0   Data           1  qdeclarativegesturearea.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    stlp_priv::_Integer_limits<unsigned, (unsigned)0, (unsigned)4294967295, (int)-1, (bool)1>::digits 0x0000c8c4   Data           4  qdeclarativegesturearea.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long, (long)-2147483648, (long)2147483647, (int)-1, (bool)1>::digits 0x0000c8c8   Data           4  qdeclarativegesturearea.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long, (unsigned long)0, (unsigned long)4294967295, (int)-1, (bool)1>::digits 0x0000c8cc   Data           4  qdeclarativegesturearea.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<short, (short)-32768, (short)32767, (int)-1, (bool)1>::digits 0x0000c8d0   Data           4  qdeclarativegesturearea.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned short, (unsigned short)0, (unsigned short)65535, (int)-1, (bool)1>::digits 0x0000c8d4   Data           4  qdeclarativegesturearea.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<wchar_t, (wchar_t)0, (wchar_t)65535, (int)-1, (bool)1>::digits 0x0000c8d8   Data           4  qdeclarativegesturearea.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long long, (long long)-9223372036854775808, (long long)9223372036854775807, (int)-1, (bool)1>::digits 0x0000c8dc   Data           4  qdeclarativegesturearea.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long long, (unsigned long long)0, (unsigned long long)18446744073709551615, (int)-1, (bool)1>::digits 0x0000c8e0   Data           4  qdeclarativegesturearea.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    typeinfo for QDeclarativeGuard<QObject>  0x0000c8e4   Data           8  qdeclarativegesturearea.o(.constdata__ZTI17QDeclarativeGuardI7QObjectE)
+    typeinfo for GestureAreaQmlPlugin        0x0000c8ec   Data          12  plugin.o(.constdata__ZTI20GestureAreaQmlPlugin)
+    typeinfo for QGraphicsEffectPrivate      0x0000c8f8   Data          12  qdeclarativegesturearea.o(.constdata__ZTI22QGraphicsEffectPrivate)
+    typeinfo for QDeclarativeGestureArea     0x0000c904   Data          12  moc_qdeclarativegesturearea_p.o(.constdata__ZTI23QDeclarativeGestureArea)
+    typeinfo for QDeclarativeCustomParser    0x0000c910   Data           8  qdeclarativegesturearea.o(.constdata__ZTI24QDeclarativeCustomParser)
+    typeinfo for QGraphicsBlurEffectPrivate  0x0000c918   Data          12  qdeclarativegesturearea.o(.constdata__ZTI26QGraphicsBlurEffectPrivate)
+    typeinfo for QDeclarativeGestureAreaParser 0x0000c924   Data          12  qdeclarativegesturearea.o(.constdata__ZTI29QDeclarativeGestureAreaParser)
+    typeinfo for QDeclarativeGestureAreaPrivate 0x0000c930   Data          12  qdeclarativegesturearea.o(.constdata__ZTI30QDeclarativeGestureAreaPrivate)
+    typeinfo for QGraphicsColorizeEffectPrivate 0x0000c93c   Data          12  qdeclarativegesturearea.o(.constdata__ZTI30QGraphicsColorizeEffectPrivate)
+    typeinfo for QGraphicsDropShadowEffectPrivate 0x0000c948   Data          12  qdeclarativegesturearea.o(.constdata__ZTI32QGraphicsDropShadowEffectPrivate)
+    typeinfo for QtSharedPointer::ExternalRefCountData 0x0000c954   Data           8  qdeclarativegesturearea.o(.constdata__ZTIN15QtSharedPointer20ExternalRefCountDataE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QDeclarativeGestureArea> 0x0000c95c   Data          12  plugin.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaEE)
+    typeinfo name for QDeclarativeGuard<QObject> 0x0000c968   Data          30  qdeclarativegesturearea.o(.constdata__ZTS17QDeclarativeGuardI7QObjectE)
+    typeinfo name for GestureAreaQmlPlugin   0x0000c986   Data          23  plugin.o(.constdata__ZTS20GestureAreaQmlPlugin)
+    typeinfo name for QGraphicsEffectPrivate 0x0000c99d   Data          25  qdeclarativegesturearea.o(.constdata__ZTS22QGraphicsEffectPrivate)
+    typeinfo name for QDeclarativeGestureArea 0x0000c9b6   Data          26  moc_qdeclarativegesturearea_p.o(.constdata__ZTS23QDeclarativeGestureArea)
+    typeinfo name for QDeclarativeCustomParser 0x0000c9d0   Data          27  qdeclarativegesturearea.o(.constdata__ZTS24QDeclarativeCustomParser)
+    typeinfo name for QGraphicsBlurEffectPrivate 0x0000c9eb   Data          29  qdeclarativegesturearea.o(.constdata__ZTS26QGraphicsBlurEffectPrivate)
+    typeinfo name for QDeclarativeGestureAreaParser 0x0000ca08   Data          32  qdeclarativegesturearea.o(.constdata__ZTS29QDeclarativeGestureAreaParser)
+    typeinfo name for QDeclarativeGestureAreaPrivate 0x0000ca28   Data          33  qdeclarativegesturearea.o(.constdata__ZTS30QDeclarativeGestureAreaPrivate)
+    typeinfo name for QGraphicsColorizeEffectPrivate 0x0000ca49   Data          33  qdeclarativegesturearea.o(.constdata__ZTS30QGraphicsColorizeEffectPrivate)
+    typeinfo name for QGraphicsDropShadowEffectPrivate 0x0000ca6a   Data          35  qdeclarativegesturearea.o(.constdata__ZTS32QGraphicsDropShadowEffectPrivate)
+    typeinfo name for QtSharedPointer::ExternalRefCountData 0x0000ca8d   Data          42  qdeclarativegesturearea.o(.constdata__ZTSN15QtSharedPointer20ExternalRefCountDataE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QDeclarativeGestureArea> 0x0000cab7   Data          72  plugin.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaEE)
+    vtable for QDeclarativeGuard<QObject>    0x0000cb00   Data          20  qdeclarativegesturearea.o(.constdata__ZTV17QDeclarativeGuardI7QObjectE)
+    vtable for GestureAreaQmlPlugin          0x0000cb14   Data          88  plugin.o(.constdata__ZTV20GestureAreaQmlPlugin)
+    vtable for QDeclarativeGestureArea       0x0000cb6c   Data         280  moc_qdeclarativegesturearea_p.o(.constdata__ZTV23QDeclarativeGestureArea)
+    vtable for QDeclarativeCustomParser      0x0000cc84   Data          24  qdeclarativegesturearea.o(.constdata__ZTV24QDeclarativeCustomParser)
+    vtable for QGraphicsBlurEffectPrivate    0x0000cc9c   Data          16  qdeclarativegesturearea.o(.constdata__ZTV26QGraphicsBlurEffectPrivate)
+    vtable for QDeclarativeGestureAreaParser 0x0000ccac   Data          24  qdeclarativegesturearea.o(.constdata__ZTV29QDeclarativeGestureAreaParser)
+    vtable for QDeclarativeGestureAreaPrivate 0x0000ccc4   Data          84  qdeclarativegesturearea.o(.constdata__ZTV30QDeclarativeGestureAreaPrivate)
+    vtable for QGraphicsColorizeEffectPrivate 0x0000cd18   Data          16  qdeclarativegesturearea.o(.constdata__ZTV30QGraphicsColorizeEffectPrivate)
+    vtable for QGraphicsDropShadowEffectPrivate 0x0000cd28   Data          16  qdeclarativegesturearea.o(.constdata__ZTV32QGraphicsDropShadowEffectPrivate)
+    vtable for QtSharedPointer::ExternalRefCountData 0x0000cd38   Data          20  qdeclarativegesturearea.o(.constdata__ZTVN15QtSharedPointer20ExternalRefCountDataE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QDeclarativeGestureArea> 0x0000cd4c   Data         280  plugin.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGestureAreaEE)
+    .ARM.exidx$$Base                         0x0000d078   Number         0  ucppinit.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x0000d558   Number         0  qdeclarativegesturearea.o(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x0000d558   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    __dso_handle                             0x00400008   Data           4  ucppfini.o(.data)
+    std::_Atomic_swap_struct<(int)1>::_S_swap_lock 0x0040000c   Data          12  qdeclarativegesturearea.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    QMetaTypeId<QDeclarativeListProperty<QDeclarativeGestureArea>>::qt_metatype_id()::metatype_id 0x00400018   Data           4  plugin.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI23QDeclarativeGestureAreaEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeCustomParserNode>::qt_metatype_id()::metatype_id 0x0040001c   Data           4  qdeclarativegesturearea.o(.data__ZZN11QMetaTypeIdI28QDeclarativeCustomParserNodeE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeCustomParserProperty>::qt_metatype_id()::metatype_id 0x00400020   Data           4  qdeclarativegesturearea.o(.data__ZZN11QMetaTypeIdI32QDeclarativeCustomParserPropertyE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeParser::Variant>::qt_metatype_id()::metatype_id 0x00400024   Data           4  qdeclarativegesturearea.o(.data__ZZN11QMetaTypeIdIN18QDeclarativeParser7VariantEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeGestureArea*>::qt_metatype_id()::metatype_id 0x00400028   Data           4  plugin.o(.data__ZZN11QMetaTypeIdIP23QDeclarativeGestureAreaE14qt_metatype_idEvE11metatype_id)
+    dtor_rec                                 0x0040002c   Data        2048  ucppfini.o(.bss)
+

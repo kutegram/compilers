@@ -1,0 +1,1126 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../../unhosted.s                         0x00000000   Number         0  switch8.o ABSOLUTE
+    M:\\epoc32\\build\\euser\\c_e18a23aea4fd210f\\edll_lib\\armv5\\udeb\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\\sf\\os\\kernelhwsrv\\kernel\\eka\\compsupp\\rvct\\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\epoc32\build\euser\c_e18a23aea4fd210f\edll_lib\armv5\udeb\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\dllexp.cpp 0x00000000   Number         0  dllexp.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    S:\sf\mw\qtmobility\plugins\declarative\sensors\sensors.cpp 0x00000000   Number         0  sensors.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    Symbian$$eit_base                        0x00008014   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$eit_limit                       0x00008018   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_base                   0x0000801c   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_limit                  0x00008020   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$reserved                        0x00008024   Data           4  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       52  ucppinit.o(.emb_text)
+    loop                                     0x0000803c   ARM Code       0  ucppinit.o(.emb_text)
+    ret                                      0x00008044   ARM Code       0  ucppinit.o(.emb_text)
+    base                                     0x00008054   Data           0  ucppinit.o(.emb_text)
+    limit                                    0x00008058   Data           0  ucppinit.o(.emb_text)
+    .text                                    0x000081bc   Section      272  sensors.o(.text)
+    .text                                    0x000082cc   Section       24  switch8.o(.text)
+    .text                                    0x000082e4   Section       80  uc_dll.o(.text)
+    .text                                    0x00008334   Section      180  ucppfini.o(.text)
+    .text                                    0x000083e8   Section        4  dllexp.o(.text)
+    .text.clean                              0x000083ec   Section       28  sensors.o(.text.clean)
+    i._ZN10QByteArrayC1ERKS_                 0x00008408   Section       20  sensors.o(i._ZN10QByteArrayC1ERKS_)
+    i._ZN10QByteArrayD1Ev                    0x0000841c   Section       24  sensors.o(i._ZN10QByteArrayD1Ev)
+    i._ZN10QtMobility10QTapSensorD1Ev        0x00008434   Section       14  sensors.o(i._ZN10QtMobility10QTapSensorD1Ev)
+    i._ZN10QtMobility13QMagnetometerD1Ev     0x00008442   Section       14  sensors.o(i._ZN10QtMobility13QMagnetometerD1Ev)
+    i._ZN10QtMobility14QAccelerometerD1Ev    0x00008450   Section       14  sensors.o(i._ZN10QtMobility14QAccelerometerD1Ev)
+    i._ZN10QtMobility15QRotationSensorD1Ev   0x0000845e   Section       14  sensors.o(i._ZN10QtMobility15QRotationSensorD1Ev)
+    i._ZN10QtMobility16QProximitySensorD1Ev  0x0000846c   Section       14  sensors.o(i._ZN10QtMobility16QProximitySensorD1Ev)
+    i._ZN10QtMobility18QOrientationSensorD1Ev 0x0000847a   Section       14  sensors.o(i._ZN10QtMobility18QOrientationSensorD1Ev)
+    i._ZN10QtMobility19QAmbientLightSensorD1Ev 0x00008488   Section       14  sensors.o(i._ZN10QtMobility19QAmbientLightSensorD1Ev)
+    i._ZN10QtMobility8QCompassD1Ev           0x00008496   Section       14  sensors.o(i._ZN10QtMobility8QCompassD1Ev)
+    i._ZN15QBasicAtomicInt3refEv             0x000084a4   Section       24  sensors.o(i._ZN15QBasicAtomicInt3refEv)
+    i._ZN15QBasicAtomicInt5derefEv           0x000084bc   Section       24  sensors.o(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN19QDeclarativePrivate12RegisterTypeD1Ev 0x000084d4   Section       20  sensors.o(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility10QTapSensorEED0Ev 0x000084e8   Section       22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility10QTapSensorEED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility11QTapReadingEED0Ev 0x000084fe   Section       22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility11QTapReadingEED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility13QMagnetometerEED0Ev 0x00008514   Section       22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility13QMagnetometerEED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility14QAccelerometerEED0Ev 0x0000852a   Section       22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility14QAccelerometerEED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QCompassReadingEED0Ev 0x00008540   Section       22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QCompassReadingEED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QRotationSensorEED0Ev 0x00008556   Section       22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QRotationSensorEED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QProximitySensorEED0Ev 0x0000856c   Section       22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QProximitySensorEED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QRotationReadingEED0Ev 0x00008582   Section       22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QRotationReadingEED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility17QProximityReadingEED0Ev 0x00008598   Section       22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility17QProximityReadingEED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QOrientationSensorEED0Ev 0x000085ae   Section       22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QOrientationSensorEED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QAmbientLightSensorEED0Ev 0x000085c4   Section       22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QAmbientLightSensorEED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QOrientationReadingEED0Ev 0x000085da   Section       22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QOrientationReadingEED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QAmbientLightReadingEED0Ev 0x000085f0   Section       22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QAmbientLightReadingEED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QMagnetometerReadingEED0Ev 0x00008606   Section       22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QMagnetometerReadingEED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QAccelerometerReadingEED0Ev 0x0000861c   Section       22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QAccelerometerReadingEED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility8QCompassEED0Ev 0x00008632   Section       22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility8QCompassEED0Ev)
+    i._ZN25QSensorsDeclarativeModule13registerTypesEPKc 0x00008648   Section      500  sensors.o(i._ZN25QSensorsDeclarativeModule13registerTypesEPKc)
+    i._ZN25QSensorsDeclarativeModuleD0Ev     0x0000883c   Section       24  sensors.o(i._ZN25QSensorsDeclarativeModuleD0Ev)
+    i._ZN25QSensorsDeclarativeModuleD1Ev     0x00008854   Section       14  sensors.o(i._ZN25QSensorsDeclarativeModuleD1Ev)
+    i._ZN7QStringC1Ev                        0x00008864   Section       24  sensors.o(i._ZN7QStringC1Ev)
+    i._ZN7QStringD1Ev                        0x0000887c   Section       24  sensors.o(i._ZN7QStringD1Ev)
+    i._ZThn8_N25QSensorsDeclarativeModule13registerTypesEPKc 0x00008894   Section       18  sensors.o(i._ZThn8_N25QSensorsDeclarativeModule13registerTypesEPKc)
+    i._ZThn8_N25QSensorsDeclarativeModuleD0Ev 0x000088a6   Section       14  sensors.o(i._ZThn8_N25QSensorsDeclarativeModuleD0Ev)
+    i._ZThn8_N25QSensorsDeclarativeModuleD1Ev 0x000088b4   Section       18  sensors.o(i._ZThn8_N25QSensorsDeclarativeModuleD1Ev)
+    i._ZdlPvS_                               0x000088c6   Section        2  sensors.o(i._ZdlPvS_)
+    i._ZnwjPv                                0x000088c8   Section        6  sensors.o(i._ZnwjPv)
+    i._ZplPKcRK10QByteArray                  0x000088ce   Section       46  sensors.o(i._ZplPKcRK10QByteArray)
+    i._ZplPKcRK10QByteArray.clean            0x000088fc   Section       10  sensors.o(i._ZplPKcRK10QByteArray.clean)
+    i._ZplRK10QByteArrayPKc                  0x00008906   Section       46  sensors.o(i._ZplRK10QByteArrayPKc)
+    i._ZplRK10QByteArrayPKc.clean            0x00008934   Section       10  sensors.o(i._ZplRK10QByteArrayPKc.clean)
+    i._ZplRK10QByteArrayc                    0x0000893e   Section       46  sensors.o(i._ZplRK10QByteArrayc)
+    i._ZplRK10QByteArrayc.clean              0x0000896c   Section       10  sensors.o(i._ZplRK10QByteArrayc.clean)
+    t._Z15qmlRegisterTypeIN10QtMobility10QTapSensorEEiPKciiS3_ 0x00008978   Section      280  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility10QTapSensorEEiPKciiS3_)
+    t._Z15qmlRegisterTypeIN10QtMobility10QTapSensorEEiPKciiS3_.clean 0x00008a90   Section       52  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility10QTapSensorEEiPKciiS3_.clean)
+    t._Z15qmlRegisterTypeIN10QtMobility11QTapReadingEEiPKciiS3_ 0x00008ac4   Section      280  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility11QTapReadingEEiPKciiS3_)
+    t._Z15qmlRegisterTypeIN10QtMobility11QTapReadingEEiPKciiS3_.clean 0x00008bdc   Section       52  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility11QTapReadingEEiPKciiS3_.clean)
+    t._Z15qmlRegisterTypeIN10QtMobility13QMagnetometerEEiPKciiS3_ 0x00008c10   Section      280  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility13QMagnetometerEEiPKciiS3_)
+    t._Z15qmlRegisterTypeIN10QtMobility13QMagnetometerEEiPKciiS3_.clean 0x00008d28   Section       52  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility13QMagnetometerEEiPKciiS3_.clean)
+    t._Z15qmlRegisterTypeIN10QtMobility14QAccelerometerEEiPKciiS3_ 0x00008d5c   Section      280  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility14QAccelerometerEEiPKciiS3_)
+    t._Z15qmlRegisterTypeIN10QtMobility14QAccelerometerEEiPKciiS3_.clean 0x00008e74   Section       52  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility14QAccelerometerEEiPKciiS3_.clean)
+    t._Z15qmlRegisterTypeIN10QtMobility14QSensorReadingEEiv 0x00008ea8   Section      264  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility14QSensorReadingEEiv)
+    t._Z15qmlRegisterTypeIN10QtMobility14QSensorReadingEEiv.clean 0x00008fb0   Section       52  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility14QSensorReadingEEiv.clean)
+    t._Z15qmlRegisterTypeIN10QtMobility15QCompassReadingEEiPKciiS3_ 0x00008fe4   Section      280  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility15QCompassReadingEEiPKciiS3_)
+    t._Z15qmlRegisterTypeIN10QtMobility15QCompassReadingEEiPKciiS3_.clean 0x000090fc   Section       52  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility15QCompassReadingEEiPKciiS3_.clean)
+    t._Z15qmlRegisterTypeIN10QtMobility15QRotationSensorEEiPKciiS3_ 0x00009130   Section      280  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility15QRotationSensorEEiPKciiS3_)
+    t._Z15qmlRegisterTypeIN10QtMobility15QRotationSensorEEiPKciiS3_.clean 0x00009248   Section       52  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility15QRotationSensorEEiPKciiS3_.clean)
+    t._Z15qmlRegisterTypeIN10QtMobility16QProximitySensorEEiPKciiS3_ 0x0000927c   Section      280  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility16QProximitySensorEEiPKciiS3_)
+    t._Z15qmlRegisterTypeIN10QtMobility16QProximitySensorEEiPKciiS3_.clean 0x00009394   Section       52  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility16QProximitySensorEEiPKciiS3_.clean)
+    t._Z15qmlRegisterTypeIN10QtMobility16QRotationReadingEEiPKciiS3_ 0x000093c8   Section      280  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility16QRotationReadingEEiPKciiS3_)
+    t._Z15qmlRegisterTypeIN10QtMobility16QRotationReadingEEiPKciiS3_.clean 0x000094e0   Section       52  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility16QRotationReadingEEiPKciiS3_.clean)
+    t._Z15qmlRegisterTypeIN10QtMobility17QProximityReadingEEiPKciiS3_ 0x00009514   Section      280  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility17QProximityReadingEEiPKciiS3_)
+    t._Z15qmlRegisterTypeIN10QtMobility17QProximityReadingEEiPKciiS3_.clean 0x0000962c   Section       52  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility17QProximityReadingEEiPKciiS3_.clean)
+    t._Z15qmlRegisterTypeIN10QtMobility18QOrientationSensorEEiPKciiS3_ 0x00009660   Section      280  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility18QOrientationSensorEEiPKciiS3_)
+    t._Z15qmlRegisterTypeIN10QtMobility18QOrientationSensorEEiPKciiS3_.clean 0x00009778   Section       52  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility18QOrientationSensorEEiPKciiS3_.clean)
+    t._Z15qmlRegisterTypeIN10QtMobility19QAmbientLightSensorEEiPKciiS3_ 0x000097ac   Section      280  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility19QAmbientLightSensorEEiPKciiS3_)
+    t._Z15qmlRegisterTypeIN10QtMobility19QAmbientLightSensorEEiPKciiS3_.clean 0x000098c4   Section       52  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility19QAmbientLightSensorEEiPKciiS3_.clean)
+    t._Z15qmlRegisterTypeIN10QtMobility19QOrientationReadingEEiPKciiS3_ 0x000098f8   Section      280  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility19QOrientationReadingEEiPKciiS3_)
+    t._Z15qmlRegisterTypeIN10QtMobility19QOrientationReadingEEiPKciiS3_.clean 0x00009a10   Section       52  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility19QOrientationReadingEEiPKciiS3_.clean)
+    t._Z15qmlRegisterTypeIN10QtMobility20QAmbientLightReadingEEiPKciiS3_ 0x00009a44   Section      280  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility20QAmbientLightReadingEEiPKciiS3_)
+    t._Z15qmlRegisterTypeIN10QtMobility20QAmbientLightReadingEEiPKciiS3_.clean 0x00009b5c   Section       52  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility20QAmbientLightReadingEEiPKciiS3_.clean)
+    t._Z15qmlRegisterTypeIN10QtMobility20QMagnetometerReadingEEiPKciiS3_ 0x00009b90   Section      280  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility20QMagnetometerReadingEEiPKciiS3_)
+    t._Z15qmlRegisterTypeIN10QtMobility20QMagnetometerReadingEEiPKciiS3_.clean 0x00009ca8   Section       52  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility20QMagnetometerReadingEEiPKciiS3_.clean)
+    t._Z15qmlRegisterTypeIN10QtMobility21QAccelerometerReadingEEiPKciiS3_ 0x00009cdc   Section      280  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility21QAccelerometerReadingEEiPKciiS3_)
+    t._Z15qmlRegisterTypeIN10QtMobility21QAccelerometerReadingEEiPKciiS3_.clean 0x00009df4   Section       52  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility21QAccelerometerReadingEEiPKciiS3_.clean)
+    t._Z15qmlRegisterTypeIN10QtMobility8QCompassEEiPKciiS3_ 0x00009e28   Section      280  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility8QCompassEEiPKciiS3_)
+    t._Z15qmlRegisterTypeIN10QtMobility8QCompassEEiPKciiS3_.clean 0x00009f40   Section       52  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility8QCompassEEiPKciiS3_.clean)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility10QTapSensorEEEiPKcPT_ 0x00009f74   Section       64  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility10QTapSensorEEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility11QTapReadingEEEiPKcPT_ 0x00009fb4   Section       64  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility11QTapReadingEEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility13QMagnetometerEEEiPKcPT_ 0x00009ff4   Section       64  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility13QMagnetometerEEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility14QAccelerometerEEEiPKcPT_ 0x0000a034   Section       64  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility14QAccelerometerEEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility14QSensorReadingEEEiPKcPT_ 0x0000a074   Section       64  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility14QSensorReadingEEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility15QCompassReadingEEEiPKcPT_ 0x0000a0b4   Section       64  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility15QCompassReadingEEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility15QRotationSensorEEEiPKcPT_ 0x0000a0f4   Section       64  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility15QRotationSensorEEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility16QProximitySensorEEEiPKcPT_ 0x0000a134   Section       64  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility16QProximitySensorEEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility16QRotationReadingEEEiPKcPT_ 0x0000a174   Section       64  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility16QRotationReadingEEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility17QProximityReadingEEEiPKcPT_ 0x0000a1b4   Section       64  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility17QProximityReadingEEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility18QOrientationSensorEEEiPKcPT_ 0x0000a1f4   Section       64  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility18QOrientationSensorEEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility19QAmbientLightSensorEEEiPKcPT_ 0x0000a234   Section       64  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility19QAmbientLightSensorEEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility19QOrientationReadingEEEiPKcPT_ 0x0000a274   Section       64  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility19QOrientationReadingEEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility20QAmbientLightReadingEEEiPKcPT_ 0x0000a2b4   Section       64  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility20QAmbientLightReadingEEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility20QMagnetometerReadingEEEiPKcPT_ 0x0000a2f4   Section       64  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility20QMagnetometerReadingEEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility21QAccelerometerReadingEEEiPKcPT_ 0x0000a334   Section       64  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility21QAccelerometerReadingEEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility8QCompassEEEiPKcPT_ 0x0000a374   Section       64  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility8QCompassEEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIPN10QtMobility10QTapSensorEEiPKcPT_ 0x0000a3b4   Section       64  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility10QTapSensorEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIPN10QtMobility11QTapReadingEEiPKcPT_ 0x0000a3f4   Section       64  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility11QTapReadingEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIPN10QtMobility13QMagnetometerEEiPKcPT_ 0x0000a434   Section       64  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility13QMagnetometerEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIPN10QtMobility14QAccelerometerEEiPKcPT_ 0x0000a474   Section       64  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility14QAccelerometerEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIPN10QtMobility14QSensorReadingEEiPKcPT_ 0x0000a4b4   Section       64  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility14QSensorReadingEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIPN10QtMobility15QCompassReadingEEiPKcPT_ 0x0000a4f4   Section       64  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility15QCompassReadingEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIPN10QtMobility15QRotationSensorEEiPKcPT_ 0x0000a534   Section       64  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility15QRotationSensorEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIPN10QtMobility16QProximitySensorEEiPKcPT_ 0x0000a574   Section       64  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility16QProximitySensorEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIPN10QtMobility16QRotationReadingEEiPKcPT_ 0x0000a5b4   Section       64  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility16QRotationReadingEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIPN10QtMobility17QProximityReadingEEiPKcPT_ 0x0000a5f4   Section       64  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility17QProximityReadingEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIPN10QtMobility18QOrientationSensorEEiPKcPT_ 0x0000a634   Section       64  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility18QOrientationSensorEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIPN10QtMobility19QAmbientLightSensorEEiPKcPT_ 0x0000a674   Section       64  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility19QAmbientLightSensorEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIPN10QtMobility19QOrientationReadingEEiPKcPT_ 0x0000a6b4   Section       64  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility19QOrientationReadingEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIPN10QtMobility20QAmbientLightReadingEEiPKcPT_ 0x0000a6f4   Section       64  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility20QAmbientLightReadingEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIPN10QtMobility20QMagnetometerReadingEEiPKcPT_ 0x0000a734   Section       64  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility20QMagnetometerReadingEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIPN10QtMobility21QAccelerometerReadingEEiPKcPT_ 0x0000a774   Section       64  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility21QAccelerometerReadingEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIPN10QtMobility8QCompassEEiPKcPT_ 0x0000a7b4   Section       64  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility8QCompassEEiPKcPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility10QTapSensorEEEvPT_ 0x0000a7f4   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility10QTapSensorEEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility11QTapReadingEEEvPT_ 0x0000a800   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility11QTapReadingEEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility13QMagnetometerEEEvPT_ 0x0000a80c   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility13QMagnetometerEEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility14QAccelerometerEEEvPT_ 0x0000a818   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility14QAccelerometerEEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility14QSensorReadingEEEvPT_ 0x0000a824   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility14QSensorReadingEEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility15QCompassReadingEEEvPT_ 0x0000a830   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility15QCompassReadingEEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility15QRotationSensorEEEvPT_ 0x0000a83c   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility15QRotationSensorEEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility16QProximitySensorEEEvPT_ 0x0000a848   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility16QProximitySensorEEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility16QRotationReadingEEEvPT_ 0x0000a854   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility16QRotationReadingEEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility17QProximityReadingEEEvPT_ 0x0000a860   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility17QProximityReadingEEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility18QOrientationSensorEEEvPT_ 0x0000a86c   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility18QOrientationSensorEEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility19QAmbientLightSensorEEEvPT_ 0x0000a878   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility19QAmbientLightSensorEEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility19QOrientationReadingEEEvPT_ 0x0000a884   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility19QOrientationReadingEEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility20QAmbientLightReadingEEEvPT_ 0x0000a890   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility20QAmbientLightReadingEEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility20QMagnetometerReadingEEEvPT_ 0x0000a89c   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility20QMagnetometerReadingEEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility21QAccelerometerReadingEEEvPT_ 0x0000a8a8   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility21QAccelerometerReadingEEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility8QCompassEEEvPT_ 0x0000a8b4   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility8QCompassEEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIPN10QtMobility10QTapSensorEEvPT_ 0x0000a8c0   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility10QTapSensorEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIPN10QtMobility11QTapReadingEEvPT_ 0x0000a8cc   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility11QTapReadingEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIPN10QtMobility13QMagnetometerEEvPT_ 0x0000a8d8   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility13QMagnetometerEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIPN10QtMobility14QAccelerometerEEvPT_ 0x0000a8e4   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility14QAccelerometerEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIPN10QtMobility14QSensorReadingEEvPT_ 0x0000a8f0   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility14QSensorReadingEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIPN10QtMobility15QCompassReadingEEvPT_ 0x0000a8fc   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility15QCompassReadingEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIPN10QtMobility15QRotationSensorEEvPT_ 0x0000a908   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility15QRotationSensorEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIPN10QtMobility16QProximitySensorEEvPT_ 0x0000a914   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility16QProximitySensorEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIPN10QtMobility16QRotationReadingEEvPT_ 0x0000a920   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility16QRotationReadingEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIPN10QtMobility17QProximityReadingEEvPT_ 0x0000a92c   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility17QProximityReadingEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIPN10QtMobility18QOrientationSensorEEvPT_ 0x0000a938   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility18QOrientationSensorEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIPN10QtMobility19QAmbientLightSensorEEvPT_ 0x0000a944   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility19QAmbientLightSensorEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIPN10QtMobility19QOrientationReadingEEvPT_ 0x0000a950   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility19QOrientationReadingEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIPN10QtMobility20QAmbientLightReadingEEvPT_ 0x0000a95c   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility20QAmbientLightReadingEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIPN10QtMobility20QMagnetometerReadingEEvPT_ 0x0000a968   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility20QMagnetometerReadingEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIPN10QtMobility21QAccelerometerReadingEEvPT_ 0x0000a974   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility21QAccelerometerReadingEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIPN10QtMobility8QCompassEEvPT_ 0x0000a980   Section       12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility8QCompassEEvPT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility10QTapSensorEEEPvPKT_ 0x0000a98c   Section      150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility10QTapSensorEEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility10QTapSensorEEEPvPKT_.clean 0x0000aa22   Section        4  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility10QTapSensorEEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility11QTapReadingEEEPvPKT_ 0x0000aa26   Section      150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility11QTapReadingEEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility11QTapReadingEEEPvPKT_.clean 0x0000aabc   Section        4  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility11QTapReadingEEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility13QMagnetometerEEEPvPKT_ 0x0000aac0   Section      150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility13QMagnetometerEEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility13QMagnetometerEEEPvPKT_.clean 0x0000ab56   Section        4  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility13QMagnetometerEEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility14QAccelerometerEEEPvPKT_ 0x0000ab5a   Section      150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility14QAccelerometerEEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility14QAccelerometerEEEPvPKT_.clean 0x0000abf0   Section        4  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility14QAccelerometerEEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility14QSensorReadingEEEPvPKT_ 0x0000abf4   Section      150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility14QSensorReadingEEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility14QSensorReadingEEEPvPKT_.clean 0x0000ac8a   Section        4  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility14QSensorReadingEEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility15QCompassReadingEEEPvPKT_ 0x0000ac8e   Section      150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility15QCompassReadingEEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility15QCompassReadingEEEPvPKT_.clean 0x0000ad24   Section        4  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility15QCompassReadingEEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility15QRotationSensorEEEPvPKT_ 0x0000ad28   Section      150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility15QRotationSensorEEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility15QRotationSensorEEEPvPKT_.clean 0x0000adbe   Section        4  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility15QRotationSensorEEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility16QProximitySensorEEEPvPKT_ 0x0000adc2   Section      150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility16QProximitySensorEEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility16QProximitySensorEEEPvPKT_.clean 0x0000ae58   Section        4  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility16QProximitySensorEEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility16QRotationReadingEEEPvPKT_ 0x0000ae5c   Section      150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility16QRotationReadingEEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility16QRotationReadingEEEPvPKT_.clean 0x0000aef2   Section        4  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility16QRotationReadingEEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility17QProximityReadingEEEPvPKT_ 0x0000aef6   Section      150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility17QProximityReadingEEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility17QProximityReadingEEEPvPKT_.clean 0x0000af8c   Section        4  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility17QProximityReadingEEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility18QOrientationSensorEEEPvPKT_ 0x0000af90   Section      150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility18QOrientationSensorEEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility18QOrientationSensorEEEPvPKT_.clean 0x0000b026   Section        4  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility18QOrientationSensorEEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility19QAmbientLightSensorEEEPvPKT_ 0x0000b02a   Section      150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility19QAmbientLightSensorEEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility19QAmbientLightSensorEEEPvPKT_.clean 0x0000b0c0   Section        4  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility19QAmbientLightSensorEEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility19QOrientationReadingEEEPvPKT_ 0x0000b0c4   Section      150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility19QOrientationReadingEEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility19QOrientationReadingEEEPvPKT_.clean 0x0000b15a   Section        4  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility19QOrientationReadingEEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility20QAmbientLightReadingEEEPvPKT_ 0x0000b15e   Section      150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility20QAmbientLightReadingEEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility20QAmbientLightReadingEEEPvPKT_.clean 0x0000b1f4   Section        4  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility20QAmbientLightReadingEEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility20QMagnetometerReadingEEEPvPKT_ 0x0000b1f8   Section      150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility20QMagnetometerReadingEEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility20QMagnetometerReadingEEEPvPKT_.clean 0x0000b28e   Section        4  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility20QMagnetometerReadingEEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility21QAccelerometerReadingEEEPvPKT_ 0x0000b292   Section      150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility21QAccelerometerReadingEEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility21QAccelerometerReadingEEEPvPKT_.clean 0x0000b328   Section        4  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility21QAccelerometerReadingEEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility8QCompassEEEPvPKT_ 0x0000b32c   Section      150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility8QCompassEEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility8QCompassEEEPvPKT_.clean 0x0000b3c2   Section        4  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility8QCompassEEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperIPN10QtMobility10QTapSensorEEPvPKT_ 0x0000b3c6   Section       50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility10QTapSensorEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIPN10QtMobility11QTapReadingEEPvPKT_ 0x0000b3f8   Section       50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility11QTapReadingEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIPN10QtMobility13QMagnetometerEEPvPKT_ 0x0000b42a   Section       50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility13QMagnetometerEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIPN10QtMobility14QAccelerometerEEPvPKT_ 0x0000b45c   Section       50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility14QAccelerometerEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIPN10QtMobility14QSensorReadingEEPvPKT_ 0x0000b48e   Section       50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility14QSensorReadingEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIPN10QtMobility15QCompassReadingEEPvPKT_ 0x0000b4c0   Section       50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility15QCompassReadingEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIPN10QtMobility15QRotationSensorEEPvPKT_ 0x0000b4f2   Section       50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility15QRotationSensorEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIPN10QtMobility16QProximitySensorEEPvPKT_ 0x0000b524   Section       50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility16QProximitySensorEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIPN10QtMobility16QRotationReadingEEPvPKT_ 0x0000b556   Section       50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility16QRotationReadingEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIPN10QtMobility17QProximityReadingEEPvPKT_ 0x0000b588   Section       50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility17QProximityReadingEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIPN10QtMobility18QOrientationSensorEEPvPKT_ 0x0000b5ba   Section       50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility18QOrientationSensorEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIPN10QtMobility19QAmbientLightSensorEEPvPKT_ 0x0000b5ec   Section       50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility19QAmbientLightSensorEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIPN10QtMobility19QOrientationReadingEEPvPKT_ 0x0000b61e   Section       50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility19QOrientationReadingEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIPN10QtMobility20QAmbientLightReadingEEPvPKT_ 0x0000b650   Section       50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility20QAmbientLightReadingEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIPN10QtMobility20QMagnetometerReadingEEPvPKT_ 0x0000b682   Section       50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility20QMagnetometerReadingEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIPN10QtMobility21QAccelerometerReadingEEPvPKT_ 0x0000b6b4   Section       50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility21QAccelerometerReadingEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIPN10QtMobility8QCompassEEPvPKT_ 0x0000b6e6   Section       50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility8QCompassEEPvPKT_)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility10QTapSensorEEEvPv 0x0000b718   Section       80  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility10QTapSensorEEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility10QTapSensorEEEvPv.clean 0x0000b768   Section       22  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility10QTapSensorEEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility11QTapReadingEEEvPv 0x0000b780   Section       44  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility11QTapReadingEEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility11QTapReadingEEEvPv.clean 0x0000b7ac   Section       12  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility11QTapReadingEEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility13QMagnetometerEEEvPv 0x0000b7b8   Section       80  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility13QMagnetometerEEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility13QMagnetometerEEEvPv.clean 0x0000b808   Section       22  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility13QMagnetometerEEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility14QAccelerometerEEEvPv 0x0000b820   Section       80  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility14QAccelerometerEEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility14QAccelerometerEEEvPv.clean 0x0000b870   Section       22  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility14QAccelerometerEEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility15QCompassReadingEEEvPv 0x0000b888   Section       44  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility15QCompassReadingEEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility15QCompassReadingEEEvPv.clean 0x0000b8b4   Section       12  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility15QCompassReadingEEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility15QRotationSensorEEEvPv 0x0000b8c0   Section       80  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility15QRotationSensorEEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility15QRotationSensorEEEvPv.clean 0x0000b910   Section       22  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility15QRotationSensorEEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility16QProximitySensorEEEvPv 0x0000b928   Section       80  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility16QProximitySensorEEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility16QProximitySensorEEEvPv.clean 0x0000b978   Section       22  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility16QProximitySensorEEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility16QRotationReadingEEEvPv 0x0000b990   Section       44  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility16QRotationReadingEEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility16QRotationReadingEEEvPv.clean 0x0000b9bc   Section       12  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility16QRotationReadingEEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility17QProximityReadingEEEvPv 0x0000b9c8   Section       44  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility17QProximityReadingEEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility17QProximityReadingEEEvPv.clean 0x0000b9f4   Section       12  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility17QProximityReadingEEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility18QOrientationSensorEEEvPv 0x0000ba00   Section       80  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility18QOrientationSensorEEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility18QOrientationSensorEEEvPv.clean 0x0000ba50   Section       22  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility18QOrientationSensorEEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility19QAmbientLightSensorEEEvPv 0x0000ba68   Section       80  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility19QAmbientLightSensorEEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility19QAmbientLightSensorEEEvPv.clean 0x0000bab8   Section       22  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility19QAmbientLightSensorEEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility19QOrientationReadingEEEvPv 0x0000bad0   Section       44  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility19QOrientationReadingEEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility19QOrientationReadingEEEvPv.clean 0x0000bafc   Section       12  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility19QOrientationReadingEEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility20QAmbientLightReadingEEEvPv 0x0000bb08   Section       44  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility20QAmbientLightReadingEEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility20QAmbientLightReadingEEEvPv.clean 0x0000bb34   Section       12  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility20QAmbientLightReadingEEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility20QMagnetometerReadingEEEvPv 0x0000bb40   Section       44  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility20QMagnetometerReadingEEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility20QMagnetometerReadingEEEvPv.clean 0x0000bb6c   Section       12  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility20QMagnetometerReadingEEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility21QAccelerometerReadingEEEvPv 0x0000bb78   Section       44  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility21QAccelerometerReadingEEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility21QAccelerometerReadingEEEvPv.clean 0x0000bba4   Section       12  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility21QAccelerometerReadingEEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility8QCompassEEEvPv 0x0000bbb0   Section       80  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility8QCompassEEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility8QCompassEEEvPv.clean 0x0000bc00   Section       22  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility8QCompassEEEvPv.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility10QTapSensorEED1Ev 0x0000bc18   Section       36  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility10QTapSensorEED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility10QTapSensorEED1Ev.clean 0x0000bc3c   Section       10  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility10QTapSensorEED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility11QTapReadingEED1Ev 0x0000bc48   Section       28  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility11QTapReadingEED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility11QTapReadingEED1Ev.clean 0x0000bc64   Section       10  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility11QTapReadingEED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility13QMagnetometerEED1Ev 0x0000bc70   Section       36  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility13QMagnetometerEED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility13QMagnetometerEED1Ev.clean 0x0000bc94   Section       10  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility13QMagnetometerEED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility14QAccelerometerEED1Ev 0x0000bca0   Section       36  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility14QAccelerometerEED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility14QAccelerometerEED1Ev.clean 0x0000bcc4   Section       10  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility14QAccelerometerEED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QCompassReadingEED1Ev 0x0000bcd0   Section       28  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QCompassReadingEED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QCompassReadingEED1Ev.clean 0x0000bcec   Section       10  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QCompassReadingEED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QRotationSensorEED1Ev 0x0000bcf8   Section       36  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QRotationSensorEED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QRotationSensorEED1Ev.clean 0x0000bd1c   Section       10  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QRotationSensorEED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QProximitySensorEED1Ev 0x0000bd28   Section       36  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QProximitySensorEED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QProximitySensorEED1Ev.clean 0x0000bd4c   Section       10  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QProximitySensorEED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QRotationReadingEED1Ev 0x0000bd58   Section       28  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QRotationReadingEED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QRotationReadingEED1Ev.clean 0x0000bd74   Section       10  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QRotationReadingEED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility17QProximityReadingEED1Ev 0x0000bd80   Section       28  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility17QProximityReadingEED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility17QProximityReadingEED1Ev.clean 0x0000bd9c   Section       10  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility17QProximityReadingEED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QOrientationSensorEED1Ev 0x0000bda8   Section       36  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QOrientationSensorEED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QOrientationSensorEED1Ev.clean 0x0000bdcc   Section       10  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QOrientationSensorEED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QAmbientLightSensorEED1Ev 0x0000bdd8   Section       36  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QAmbientLightSensorEED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QAmbientLightSensorEED1Ev.clean 0x0000bdfc   Section       10  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QAmbientLightSensorEED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QOrientationReadingEED1Ev 0x0000be08   Section       28  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QOrientationReadingEED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QOrientationReadingEED1Ev.clean 0x0000be24   Section       10  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QOrientationReadingEED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QAmbientLightReadingEED1Ev 0x0000be30   Section       28  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QAmbientLightReadingEED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QAmbientLightReadingEED1Ev.clean 0x0000be4c   Section       10  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QAmbientLightReadingEED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QMagnetometerReadingEED1Ev 0x0000be58   Section       28  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QMagnetometerReadingEED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QMagnetometerReadingEED1Ev.clean 0x0000be74   Section       10  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QMagnetometerReadingEED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QAccelerometerReadingEED1Ev 0x0000be80   Section       28  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QAccelerometerReadingEED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QAccelerometerReadingEED1Ev.clean 0x0000be9c   Section       10  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QAccelerometerReadingEED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility8QCompassEED1Ev 0x0000bea8   Section       36  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility8QCompassEED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility8QCompassEED1Ev.clean 0x0000becc   Section       10  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility8QCompassEED1Ev.clean)
+    t._ZN8QPointerI7QObjectED1Ev             0x0000bed6   Section       14  sensors.o(t._ZN8QPointerI7QObjectED1Ev)
+    .extab.qt_plugin_instance                0x0000bee4   Data           0  sensors.o(.ARM.extab)
+    .extab._ZplRK10QByteArrayPKc             0x0000befc   Data           0  sensors.o(.ARM.extab)
+    .extab._ZplRK10QByteArrayc               0x0000bf0c   Data           0  sensors.o(.ARM.extab)
+    .extab._ZplPKcRK10QByteArray             0x0000bf1c   Data           0  sensors.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeIN10QtMobility14QSensorReadingEEiv 0x0000bf2c   Data           0  sensors.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeIN10QtMobility14QAccelerometerEEiPKciiS3_ 0x0000bf9c   Data           0  sensors.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeIN10QtMobility21QAccelerometerReadingEEiPKciiS3_ 0x0000c00c   Data           0  sensors.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeIN10QtMobility19QAmbientLightSensorEEiPKciiS3_ 0x0000c07c   Data           0  sensors.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeIN10QtMobility20QAmbientLightReadingEEiPKciiS3_ 0x0000c0ec   Data           0  sensors.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeIN10QtMobility8QCompassEEiPKciiS3_ 0x0000c15c   Data           0  sensors.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeIN10QtMobility15QCompassReadingEEiPKciiS3_ 0x0000c1cc   Data           0  sensors.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeIN10QtMobility13QMagnetometerEEiPKciiS3_ 0x0000c23c   Data           0  sensors.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeIN10QtMobility20QMagnetometerReadingEEiPKciiS3_ 0x0000c2ac   Data           0  sensors.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeIN10QtMobility18QOrientationSensorEEiPKciiS3_ 0x0000c31c   Data           0  sensors.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeIN10QtMobility19QOrientationReadingEEiPKciiS3_ 0x0000c38c   Data           0  sensors.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeIN10QtMobility16QProximitySensorEEiPKciiS3_ 0x0000c3fc   Data           0  sensors.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeIN10QtMobility17QProximityReadingEEiPKciiS3_ 0x0000c46c   Data           0  sensors.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeIN10QtMobility15QRotationSensorEEiPKciiS3_ 0x0000c4dc   Data           0  sensors.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeIN10QtMobility16QRotationReadingEEiPKciiS3_ 0x0000c54c   Data           0  sensors.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeIN10QtMobility10QTapSensorEEiPKciiS3_ 0x0000c5bc   Data           0  sensors.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeIN10QtMobility11QTapReadingEEiPKciiS3_ 0x0000c62c   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoIN10QtMobility14QAccelerometerEEEvPv 0x0000c69c   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoIN10QtMobility21QAccelerometerReadingEEEvPv 0x0000c6b4   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoIN10QtMobility19QAmbientLightSensorEEEvPv 0x0000c6c4   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoIN10QtMobility20QAmbientLightReadingEEEvPv 0x0000c6dc   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoIN10QtMobility8QCompassEEEvPv 0x0000c6ec   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoIN10QtMobility15QCompassReadingEEEvPv 0x0000c704   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoIN10QtMobility13QMagnetometerEEEvPv 0x0000c714   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoIN10QtMobility20QMagnetometerReadingEEEvPv 0x0000c72c   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoIN10QtMobility18QOrientationSensorEEEvPv 0x0000c73c   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoIN10QtMobility19QOrientationReadingEEEvPv 0x0000c754   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoIN10QtMobility16QProximitySensorEEEvPv 0x0000c764   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoIN10QtMobility17QProximityReadingEEEvPv 0x0000c77c   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoIN10QtMobility15QRotationSensorEEEvPv 0x0000c78c   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoIN10QtMobility16QRotationReadingEEEvPv 0x0000c7a4   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoIN10QtMobility10QTapSensorEEEvPv 0x0000c7b4   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoIN10QtMobility11QTapReadingEEEvPv 0x0000c7cc   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility14QAccelerometerEED1Ev 0x0000c7dc   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QAccelerometerReadingEED1Ev 0x0000c7ec   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QAmbientLightSensorEED1Ev 0x0000c7fc   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QAmbientLightReadingEED1Ev 0x0000c80c   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility8QCompassEED1Ev 0x0000c81c   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QCompassReadingEED1Ev 0x0000c82c   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility13QMagnetometerEED1Ev 0x0000c83c   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QMagnetometerReadingEED1Ev 0x0000c84c   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QOrientationSensorEED1Ev 0x0000c85c   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QOrientationReadingEED1Ev 0x0000c86c   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QProximitySensorEED1Ev 0x0000c87c   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility17QProximityReadingEED1Ev 0x0000c88c   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QRotationSensorEED1Ev 0x0000c89c   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QRotationReadingEED1Ev 0x0000c8ac   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility10QTapSensorEED1Ev 0x0000c8bc   Data           0  sensors.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility11QTapReadingEED1Ev 0x0000c8cc   Data           0  sensors.o(.ARM.extab)
+    .constdata$1                             0x0000c8dc   Data           0  sensors.o(.constdata)
+    qt_meta_data_QSensorsDeclarativeModule   0x0000c8dc   Data          60  sensors.o(.constdata)
+    .constdata                               0x0000c8dc   Section      196  sensors.o(.constdata)
+    qt_meta_stringdata_QSensorsDeclarativeModule 0x0000c918   Data          27  sensors.o(.constdata)
+    qt_plugin_verification_data              0x0000c933   Data          91  sensors.o(.constdata)
+    .constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE 0x0000c9a0   Section        4  sensors.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE 0x0000c9a4   Section        4  sensors.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE 0x0000c9a8   Section        4  sensors.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE 0x0000c9ac   Section        4  sensors.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE 0x0000c9b0   Section        4  sensors.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE 0x0000c9b4   Section        1  sensors.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE 0x0000c9b8   Section        4  sensors.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE 0x0000c9bc   Section        4  sensors.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE 0x0000c9c0   Section        4  sensors.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE 0x0000c9c4   Section        4  sensors.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE 0x0000c9c8   Section        4  sensors.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE 0x0000c9cc   Section        4  sensors.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE 0x0000c9d0   Section        4  sensors.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE 0x0000c9d4   Section        4  sensors.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    .constdata__ZTI25QSensorsDeclarativeModule 0x0000c9d8   Section       12  sensors.o(.constdata__ZTI25QSensorsDeclarativeModule)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility10QTapSensorEEE 0x0000c9e4   Section       12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility10QTapSensorEEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility11QTapReadingEEE 0x0000c9f0   Section       12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility11QTapReadingEEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility13QMagnetometerEEE 0x0000c9fc   Section       12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility13QMagnetometerEEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility14QAccelerometerEEE 0x0000ca08   Section       12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility14QAccelerometerEEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QCompassReadingEEE 0x0000ca14   Section       12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QCompassReadingEEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QRotationSensorEEE 0x0000ca20   Section       12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QRotationSensorEEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QProximitySensorEEE 0x0000ca2c   Section       12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QProximitySensorEEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QRotationReadingEEE 0x0000ca38   Section       12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QRotationReadingEEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility17QProximityReadingEEE 0x0000ca44   Section       12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility17QProximityReadingEEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QOrientationSensorEEE 0x0000ca50   Section       12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QOrientationSensorEEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QAmbientLightSensorEEE 0x0000ca5c   Section       12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QAmbientLightSensorEEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QOrientationReadingEEE 0x0000ca68   Section       12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QOrientationReadingEEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QAmbientLightReadingEEE 0x0000ca74   Section       12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QAmbientLightReadingEEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QMagnetometerReadingEEE 0x0000ca80   Section       12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QMagnetometerReadingEEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QAccelerometerReadingEEE 0x0000ca8c   Section       12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QAccelerometerReadingEEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility8QCompassEEE 0x0000ca98   Section       12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility8QCompassEEE)
+    .constdata__ZTS25QSensorsDeclarativeModule 0x0000caa4   Section       28  sensors.o(.constdata__ZTS25QSensorsDeclarativeModule)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility10QTapSensorEEE 0x0000cac0   Section       73  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility10QTapSensorEEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility11QTapReadingEEE 0x0000cb09   Section       74  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility11QTapReadingEEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility13QMagnetometerEEE 0x0000cb53   Section       76  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility13QMagnetometerEEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility14QAccelerometerEEE 0x0000cb9f   Section       77  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility14QAccelerometerEEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QCompassReadingEEE 0x0000cbec   Section       78  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QCompassReadingEEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QRotationSensorEEE 0x0000cc3a   Section       78  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QRotationSensorEEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QProximitySensorEEE 0x0000cc88   Section       79  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QProximitySensorEEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QRotationReadingEEE 0x0000ccd7   Section       79  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QRotationReadingEEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility17QProximityReadingEEE 0x0000cd26   Section       80  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility17QProximityReadingEEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QOrientationSensorEEE 0x0000cd76   Section       81  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QOrientationSensorEEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QAmbientLightSensorEEE 0x0000cdc7   Section       82  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QAmbientLightSensorEEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QOrientationReadingEEE 0x0000ce19   Section       82  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QOrientationReadingEEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QAmbientLightReadingEEE 0x0000ce6b   Section       83  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QAmbientLightReadingEEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QMagnetometerReadingEEE 0x0000cebe   Section       83  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QMagnetometerReadingEEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QAccelerometerReadingEEE 0x0000cf11   Section       84  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QAccelerometerReadingEEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility8QCompassEEE 0x0000cf65   Section       70  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility8QCompassEEE)
+    .constdata__ZTV25QSensorsDeclarativeModule 0x0000cfac   Section       88  sensors.o(.constdata__ZTV25QSensorsDeclarativeModule)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility10QTapSensorEEE 0x0000d004   Section       56  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility10QTapSensorEEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility11QTapReadingEEE 0x0000d03c   Section       60  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility11QTapReadingEEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility13QMagnetometerEEE 0x0000d078   Section       56  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility13QMagnetometerEEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility14QAccelerometerEEE 0x0000d0b0   Section       56  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility14QAccelerometerEEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QCompassReadingEEE 0x0000d0e8   Section       60  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QCompassReadingEEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QRotationSensorEEE 0x0000d124   Section       56  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QRotationSensorEEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QProximitySensorEEE 0x0000d15c   Section       56  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QProximitySensorEEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QRotationReadingEEE 0x0000d194   Section       60  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QRotationReadingEEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility17QProximityReadingEEE 0x0000d1d0   Section       60  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility17QProximityReadingEEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QOrientationSensorEEE 0x0000d20c   Section       56  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QOrientationSensorEEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QAmbientLightSensorEEE 0x0000d244   Section       56  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QAmbientLightSensorEEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QOrientationReadingEEE 0x0000d27c   Section       60  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QOrientationReadingEEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QAmbientLightReadingEEE 0x0000d2b8   Section       60  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QAmbientLightReadingEEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QMagnetometerReadingEEE 0x0000d2f4   Section       60  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QMagnetometerReadingEEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QAccelerometerReadingEEE 0x0000d330   Section       60  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QAccelerometerReadingEEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility8QCompassEEE 0x0000d36c   Section       56  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility8QCompassEEE)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility10QTapSensorEEiPKciiS3_$97 0x0000d3a4   Data           0  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility10QTapSensorEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility10QTapSensorEEiPKciiS3_ 0x0000d3a4   Section       76  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility10QTapSensorEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility11QTapReadingEEiPKciiS3_$100 0x0000d3f0   Data           0  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility11QTapReadingEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility11QTapReadingEEiPKciiS3_ 0x0000d3f0   Section       76  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility11QTapReadingEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility13QMagnetometerEEiPKciiS3_$73 0x0000d43c   Data           0  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility13QMagnetometerEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility13QMagnetometerEEiPKciiS3_ 0x0000d43c   Section       76  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility13QMagnetometerEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility14QAccelerometerEEiPKciiS3_$55 0x0000d488   Data           0  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility14QAccelerometerEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility14QAccelerometerEEiPKciiS3_ 0x0000d488   Section       76  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility14QAccelerometerEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility14QSensorReadingEEiv$52 0x0000d4d4   Data           0  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility14QSensorReadingEEiv)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility14QSensorReadingEEiv 0x0000d4d4   Section       76  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility14QSensorReadingEEiv)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility15QCompassReadingEEiPKciiS3_$70 0x0000d520   Data           0  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility15QCompassReadingEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility15QCompassReadingEEiPKciiS3_ 0x0000d520   Section       76  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility15QCompassReadingEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility15QRotationSensorEEiPKciiS3_$91 0x0000d56c   Data           0  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility15QRotationSensorEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility15QRotationSensorEEiPKciiS3_ 0x0000d56c   Section       76  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility15QRotationSensorEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility16QProximitySensorEEiPKciiS3_$85 0x0000d5b8   Data           0  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility16QProximitySensorEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility16QProximitySensorEEiPKciiS3_ 0x0000d5b8   Section       76  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility16QProximitySensorEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility16QRotationReadingEEiPKciiS3_$94 0x0000d604   Data           0  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility16QRotationReadingEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility16QRotationReadingEEiPKciiS3_ 0x0000d604   Section       76  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility16QRotationReadingEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility17QProximityReadingEEiPKciiS3_$88 0x0000d650   Data           0  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility17QProximityReadingEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility17QProximityReadingEEiPKciiS3_ 0x0000d650   Section       76  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility17QProximityReadingEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility18QOrientationSensorEEiPKciiS3_$79 0x0000d69c   Data           0  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility18QOrientationSensorEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility18QOrientationSensorEEiPKciiS3_ 0x0000d69c   Section       76  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility18QOrientationSensorEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility19QAmbientLightSensorEEiPKciiS3_$61 0x0000d6e8   Data           0  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility19QAmbientLightSensorEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility19QAmbientLightSensorEEiPKciiS3_ 0x0000d6e8   Section       76  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility19QAmbientLightSensorEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility19QOrientationReadingEEiPKciiS3_$82 0x0000d734   Data           0  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility19QOrientationReadingEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility19QOrientationReadingEEiPKciiS3_ 0x0000d734   Section       76  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility19QOrientationReadingEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility20QAmbientLightReadingEEiPKciiS3_$64 0x0000d780   Data           0  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility20QAmbientLightReadingEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility20QAmbientLightReadingEEiPKciiS3_ 0x0000d780   Section       76  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility20QAmbientLightReadingEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility20QMagnetometerReadingEEiPKciiS3_$76 0x0000d7cc   Data           0  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility20QMagnetometerReadingEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility20QMagnetometerReadingEEiPKciiS3_ 0x0000d7cc   Section       76  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility20QMagnetometerReadingEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility21QAccelerometerReadingEEiPKciiS3_$58 0x0000d818   Data           0  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility21QAccelerometerReadingEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility21QAccelerometerReadingEEiPKciiS3_ 0x0000d818   Section       76  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility21QAccelerometerReadingEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility8QCompassEEiPKciiS3_$67 0x0000d864   Data           0  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility8QCompassEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility8QCompassEEiPKciiS3_ 0x0000d864   Section       76  sensors.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility8QCompassEEiPKciiS3_)
+    .ARM.exidx                               0x0000d8b0   Section        8  ucppinit.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  sensors.o(.data)
+    _ZGV_instance@qt_plugin_instance_0       0x00400000   Data           4  sensors.o(.data)
+    .data                                    0x00400000   Section        8  sensors.o(.data)
+    _instance@qt_plugin_instance_1           0x00400004   Data           4  sensors.o(.data)
+    .data$0                                  0x00400008   Data           0  ucppfini.o(.data)
+    .data                                    0x00400008   Section        4  ucppfini.o(.data)
+    .data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE 0x0040000c   Section       12  sensors.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    .bss$5                                   0x00400018   Data           0  ucppfini.o(.bss)
+    .bss                                     0x00400018   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$VFPv2$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$IEEEJ$EBA8$UX$FPIC$INDIRECT$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    QtCore{00040703}[2001b2dc].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtDeclarative{00040703}[2001e623].dll    0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtSensors{00010103}[2002bfc0].dll        0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    declarative_sensors{000a0000}[20021324].dll 0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    euser{000a0000}[100039e5].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    libc{00010001}[10207369].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    stdnew{000a0000}[20022178].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    qFree(void*)                              - Undefined Reference
+    _Z5qFreePv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::append(const char*)           - Undefined Reference
+    _ZN10QByteArray6appendEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::append(const QByteArray&)     - Undefined Reference
+    _ZN10QByteArray6appendERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::append(char)                  - Undefined Reference
+    _ZN10QByteArray6appendEc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::QByteArray(const char*)       - Undefined Reference
+    _ZN10QByteArrayC1EPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QtMobility::QTapSensor::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN10QtMobility10QTapSensor11qt_metacallEN11QMetaObject4CallEiPPv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QTapSensor::qt_metacast(const char*)  - Undefined Reference
+    _ZN10QtMobility10QTapSensor11qt_metacastEPKc@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QTapSensor::staticMetaObject  - Undefined Reference
+    _ZN10QtMobility10QTapSensor16staticMetaObjectE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QTapSensor::type              - Undefined Reference
+    _ZN10QtMobility10QTapSensor4typeE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QTapReading::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN10QtMobility11QTapReading11qt_metacallEN11QMetaObject4CallEiPPv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QTapReading::qt_metacast(const char*)  - Undefined Reference
+    _ZN10QtMobility11QTapReading11qt_metacastEPKc@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QTapReading::copyValuesFrom(QtMobility::QSensorReading*)  - Undefined Reference
+    _ZN10QtMobility11QTapReading14copyValuesFromEPNS_14QSensorReadingE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QTapReading::staticMetaObject  - Undefined Reference
+    _ZN10QtMobility11QTapReading16staticMetaObjectE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QTapReading::QTapReading(QObject*)  - Undefined Reference
+    _ZN10QtMobility11QTapReadingC1EP7QObject@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QTapReading::~QTapReading()   - Undefined Reference
+    _ZN10QtMobility11QTapReadingD1Ev@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QMagnetometer::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN10QtMobility13QMagnetometer11qt_metacallEN11QMetaObject4CallEiPPv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QMagnetometer::qt_metacast(const char*)  - Undefined Reference
+    _ZN10QtMobility13QMagnetometer11qt_metacastEPKc@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QMagnetometer::staticMetaObject  - Undefined Reference
+    _ZN10QtMobility13QMagnetometer16staticMetaObjectE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QMagnetometer::type           - Undefined Reference
+    _ZN10QtMobility13QMagnetometer4typeE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QAccelerometer::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN10QtMobility14QAccelerometer11qt_metacallEN11QMetaObject4CallEiPPv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QAccelerometer::qt_metacast(const char*)  - Undefined Reference
+    _ZN10QtMobility14QAccelerometer11qt_metacastEPKc@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QAccelerometer::staticMetaObject  - Undefined Reference
+    _ZN10QtMobility14QAccelerometer16staticMetaObjectE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QAccelerometer::type          - Undefined Reference
+    _ZN10QtMobility14QAccelerometer4typeE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QSensorReading::staticMetaObject  - Undefined Reference
+    _ZN10QtMobility14QSensorReading16staticMetaObjectE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QCompassReading::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN10QtMobility15QCompassReading11qt_metacallEN11QMetaObject4CallEiPPv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QCompassReading::qt_metacast(const char*)  - Undefined Reference
+    _ZN10QtMobility15QCompassReading11qt_metacastEPKc@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QCompassReading::copyValuesFrom(QtMobility::QSensorReading*)  - Undefined Reference
+    _ZN10QtMobility15QCompassReading14copyValuesFromEPNS_14QSensorReadingE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QCompassReading::staticMetaObject  - Undefined Reference
+    _ZN10QtMobility15QCompassReading16staticMetaObjectE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QCompassReading::QCompassReading(QObject*)  - Undefined Reference
+    _ZN10QtMobility15QCompassReadingC1EP7QObject@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QCompassReading::~QCompassReading()  - Undefined Reference
+    _ZN10QtMobility15QCompassReadingD1Ev@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QRotationSensor::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN10QtMobility15QRotationSensor11qt_metacallEN11QMetaObject4CallEiPPv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QRotationSensor::qt_metacast(const char*)  - Undefined Reference
+    _ZN10QtMobility15QRotationSensor11qt_metacastEPKc@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QRotationSensor::staticMetaObject  - Undefined Reference
+    _ZN10QtMobility15QRotationSensor16staticMetaObjectE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QRotationSensor::type         - Undefined Reference
+    _ZN10QtMobility15QRotationSensor4typeE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QProximitySensor::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN10QtMobility16QProximitySensor11qt_metacallEN11QMetaObject4CallEiPPv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QProximitySensor::qt_metacast(const char*)  - Undefined Reference
+    _ZN10QtMobility16QProximitySensor11qt_metacastEPKc@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QProximitySensor::staticMetaObject  - Undefined Reference
+    _ZN10QtMobility16QProximitySensor16staticMetaObjectE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QProximitySensor::type        - Undefined Reference
+    _ZN10QtMobility16QProximitySensor4typeE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QRotationReading::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN10QtMobility16QRotationReading11qt_metacallEN11QMetaObject4CallEiPPv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QRotationReading::qt_metacast(const char*)  - Undefined Reference
+    _ZN10QtMobility16QRotationReading11qt_metacastEPKc@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QRotationReading::copyValuesFrom(QtMobility::QSensorReading*)  - Undefined Reference
+    _ZN10QtMobility16QRotationReading14copyValuesFromEPNS_14QSensorReadingE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QRotationReading::staticMetaObject  - Undefined Reference
+    _ZN10QtMobility16QRotationReading16staticMetaObjectE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QRotationReading::QRotationReading(QObject*)  - Undefined Reference
+    _ZN10QtMobility16QRotationReadingC1EP7QObject@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QRotationReading::~QRotationReading()  - Undefined Reference
+    _ZN10QtMobility16QRotationReadingD1Ev@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QProximityReading::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN10QtMobility17QProximityReading11qt_metacallEN11QMetaObject4CallEiPPv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QProximityReading::qt_metacast(const char*)  - Undefined Reference
+    _ZN10QtMobility17QProximityReading11qt_metacastEPKc@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QProximityReading::copyValuesFrom(QtMobility::QSensorReading*)  - Undefined Reference
+    _ZN10QtMobility17QProximityReading14copyValuesFromEPNS_14QSensorReadingE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QProximityReading::staticMetaObject  - Undefined Reference
+    _ZN10QtMobility17QProximityReading16staticMetaObjectE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QProximityReading::QProximityReading(QObject*)  - Undefined Reference
+    _ZN10QtMobility17QProximityReadingC1EP7QObject@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QProximityReading::~QProximityReading()  - Undefined Reference
+    _ZN10QtMobility17QProximityReadingD1Ev@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QOrientationSensor::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN10QtMobility18QOrientationSensor11qt_metacallEN11QMetaObject4CallEiPPv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QOrientationSensor::qt_metacast(const char*)  - Undefined Reference
+    _ZN10QtMobility18QOrientationSensor11qt_metacastEPKc@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QOrientationSensor::staticMetaObject  - Undefined Reference
+    _ZN10QtMobility18QOrientationSensor16staticMetaObjectE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QOrientationSensor::type      - Undefined Reference
+    _ZN10QtMobility18QOrientationSensor4typeE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QAmbientLightSensor::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN10QtMobility19QAmbientLightSensor11qt_metacallEN11QMetaObject4CallEiPPv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QAmbientLightSensor::qt_metacast(const char*)  - Undefined Reference
+    _ZN10QtMobility19QAmbientLightSensor11qt_metacastEPKc@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QAmbientLightSensor::staticMetaObject  - Undefined Reference
+    _ZN10QtMobility19QAmbientLightSensor16staticMetaObjectE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QAmbientLightSensor::type     - Undefined Reference
+    _ZN10QtMobility19QAmbientLightSensor4typeE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QOrientationReading::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN10QtMobility19QOrientationReading11qt_metacallEN11QMetaObject4CallEiPPv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QOrientationReading::qt_metacast(const char*)  - Undefined Reference
+    _ZN10QtMobility19QOrientationReading11qt_metacastEPKc@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QOrientationReading::copyValuesFrom(QtMobility::QSensorReading*)  - Undefined Reference
+    _ZN10QtMobility19QOrientationReading14copyValuesFromEPNS_14QSensorReadingE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QOrientationReading::staticMetaObject  - Undefined Reference
+    _ZN10QtMobility19QOrientationReading16staticMetaObjectE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QOrientationReading::QOrientationReading(QObject*)  - Undefined Reference
+    _ZN10QtMobility19QOrientationReadingC1EP7QObject@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QOrientationReading::~QOrientationReading()  - Undefined Reference
+    _ZN10QtMobility19QOrientationReadingD1Ev@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QAmbientLightReading::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN10QtMobility20QAmbientLightReading11qt_metacallEN11QMetaObject4CallEiPPv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QAmbientLightReading::qt_metacast(const char*)  - Undefined Reference
+    _ZN10QtMobility20QAmbientLightReading11qt_metacastEPKc@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QAmbientLightReading::copyValuesFrom(QtMobility::QSensorReading*)  - Undefined Reference
+    _ZN10QtMobility20QAmbientLightReading14copyValuesFromEPNS_14QSensorReadingE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QAmbientLightReading::staticMetaObject  - Undefined Reference
+    _ZN10QtMobility20QAmbientLightReading16staticMetaObjectE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QAmbientLightReading::QAmbientLightReading(QObject*)  - Undefined Reference
+    _ZN10QtMobility20QAmbientLightReadingC1EP7QObject@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QAmbientLightReading::~QAmbientLightReading()  - Undefined Reference
+    _ZN10QtMobility20QAmbientLightReadingD1Ev@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QMagnetometerReading::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN10QtMobility20QMagnetometerReading11qt_metacallEN11QMetaObject4CallEiPPv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QMagnetometerReading::qt_metacast(const char*)  - Undefined Reference
+    _ZN10QtMobility20QMagnetometerReading11qt_metacastEPKc@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QMagnetometerReading::copyValuesFrom(QtMobility::QSensorReading*)  - Undefined Reference
+    _ZN10QtMobility20QMagnetometerReading14copyValuesFromEPNS_14QSensorReadingE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QMagnetometerReading::staticMetaObject  - Undefined Reference
+    _ZN10QtMobility20QMagnetometerReading16staticMetaObjectE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QMagnetometerReading::QMagnetometerReading(QObject*)  - Undefined Reference
+    _ZN10QtMobility20QMagnetometerReadingC1EP7QObject@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QMagnetometerReading::~QMagnetometerReading()  - Undefined Reference
+    _ZN10QtMobility20QMagnetometerReadingD1Ev@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QAccelerometerReading::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN10QtMobility21QAccelerometerReading11qt_metacallEN11QMetaObject4CallEiPPv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QAccelerometerReading::qt_metacast(const char*)  - Undefined Reference
+    _ZN10QtMobility21QAccelerometerReading11qt_metacastEPKc@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QAccelerometerReading::copyValuesFrom(QtMobility::QSensorReading*)  - Undefined Reference
+    _ZN10QtMobility21QAccelerometerReading14copyValuesFromEPNS_14QSensorReadingE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QAccelerometerReading::staticMetaObject  - Undefined Reference
+    _ZN10QtMobility21QAccelerometerReading16staticMetaObjectE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QAccelerometerReading::QAccelerometerReading(QObject*)  - Undefined Reference
+    _ZN10QtMobility21QAccelerometerReadingC1EP7QObject@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QAccelerometerReading::~QAccelerometerReading()  - Undefined Reference
+    _ZN10QtMobility21QAccelerometerReadingD1Ev@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QSensor::QSensor(const QByteArray&, QObject*)  - Undefined Reference
+    _ZN10QtMobility7QSensorC1ERK10QByteArrayP7QObject@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QSensor::~QSensor()           - Undefined Reference
+    _ZN10QtMobility7QSensorD1Ev@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QCompass::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN10QtMobility8QCompass11qt_metacallEN11QMetaObject4CallEiPPv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QCompass::qt_metacast(const char*)  - Undefined Reference
+    _ZN10QtMobility8QCompass11qt_metacastEPKc@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QCompass::staticMetaObject    - Undefined Reference
+    _ZN10QtMobility8QCompass16staticMetaObjectE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QCompass::type                - Undefined Reference
+    _ZN10QtMobility8QCompass4typeE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QMetaObject::changeGuard(QObject**, QObject*)  - Undefined Reference
+    _ZN11QMetaObject11changeGuardEPP7QObjectS1_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::removeGuard(QObject**)       - Undefined Reference
+    _ZN11QMetaObject11removeGuardEPP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDeclarativePrivate::qmlregister(QDeclarativePrivate::RegistrationType, void*)  - Undefined Reference
+    _ZN19QDeclarativePrivate11qmlregisterENS_16RegistrationTypeEPv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativePrivate::qdeclarativeelement_destructor(QObject*)  - Undefined Reference
+    _ZN19QDeclarativePrivate30qdeclarativeelement_destructorEP7QObject@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin11qt_metacallEN11QMetaObject4CallEiPPv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::qt_metacast(const char*)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin11qt_metacastEPKc@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::initializeEngine(QDeclarativeEngine*, const char*)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin16initializeEngineEP18QDeclarativeEnginePKc@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::staticMetaObject  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin16staticMetaObjectE@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::QDeclarativeExtensionPlugin__sub_object(QObject*)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPluginC2EP7QObject@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::~QDeclarativeExtensionPlugin__sub_object()  - Undefined Reference
+    _ZN27QDeclarativeExtensionPluginD2Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    User::LockedDec(int&)                     - Undefined Reference
+    _ZN4User9LockedDecERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::LockedInc(int&)                     - Undefined Reference
+    _ZN4User9LockedIncERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QObject::childEvent(QChildEvent*)         - Undefined Reference
+    _ZN7QObject10childEventEP11QChildEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::timerEvent(QTimerEvent*)         - Undefined Reference
+    _ZN7QObject10timerEventEP11QTimerEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::customEvent(QEvent*)             - Undefined Reference
+    _ZN7QObject11customEventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::eventFilter(QObject*, QEvent*)   - Undefined Reference
+    _ZN7QObject11eventFilterEPS_P6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connectNotify(const char*)       - Undefined Reference
+    _ZN7QObject13connectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::disconnectNotify(const char*)    - Undefined Reference
+    _ZN7QObject16disconnectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::event(QEvent*)                   - Undefined Reference
+    _ZN7QObject5eventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::shared_null                      - Undefined Reference
+    _ZN7QString11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::free(QString::Data*)             - Undefined Reference
+    _ZN7QString4freeEPNS_4DataE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaType::registerType(const char*, void(*)(void*), void*(*)(const void*))  - Undefined Reference
+    _ZN9QMetaType12registerTypeEPKcPFvPvEPFS2_PKvE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaType::registerTypedef(const char*, int)  - Undefined Reference
+    _ZN9QMetaType15registerTypedefEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QtMobility::QTapSensor::metaObject() const  - Undefined Reference
+    _ZNK10QtMobility10QTapSensor10metaObjectEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QTapReading::metaObject() const  - Undefined Reference
+    _ZNK10QtMobility11QTapReading10metaObjectEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QMagnetometer::metaObject() const  - Undefined Reference
+    _ZNK10QtMobility13QMagnetometer10metaObjectEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QAccelerometer::metaObject() const  - Undefined Reference
+    _ZNK10QtMobility14QAccelerometer10metaObjectEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QCompassReading::metaObject() const  - Undefined Reference
+    _ZNK10QtMobility15QCompassReading10metaObjectEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QRotationSensor::metaObject() const  - Undefined Reference
+    _ZNK10QtMobility15QRotationSensor10metaObjectEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QProximitySensor::metaObject() const  - Undefined Reference
+    _ZNK10QtMobility16QProximitySensor10metaObjectEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QRotationReading::metaObject() const  - Undefined Reference
+    _ZNK10QtMobility16QRotationReading10metaObjectEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QProximityReading::metaObject() const  - Undefined Reference
+    _ZNK10QtMobility17QProximityReading10metaObjectEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QOrientationSensor::metaObject() const  - Undefined Reference
+    _ZNK10QtMobility18QOrientationSensor10metaObjectEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QAmbientLightSensor::metaObject() const  - Undefined Reference
+    _ZNK10QtMobility19QAmbientLightSensor10metaObjectEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QOrientationReading::metaObject() const  - Undefined Reference
+    _ZNK10QtMobility19QOrientationReading10metaObjectEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QAmbientLightReading::metaObject() const  - Undefined Reference
+    _ZNK10QtMobility20QAmbientLightReading10metaObjectEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QMagnetometerReading::metaObject() const  - Undefined Reference
+    _ZNK10QtMobility20QMagnetometerReading10metaObjectEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QAccelerometerReading::metaObject() const  - Undefined Reference
+    _ZNK10QtMobility21QAccelerometerReading10metaObjectEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    QtMobility::QCompass::metaObject() const  - Undefined Reference
+    _ZNK10QtMobility8QCompass10metaObjectEv@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    typeinfo for QDeclarativeExtensionPlugin  - Undefined Reference
+    _ZTI27QDeclarativeExtensionPlugin@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    typeinfo for QtMobility::QTapSensor       - Undefined Reference
+    _ZTIN10QtMobility10QTapSensorE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    typeinfo for QtMobility::QTapReading      - Undefined Reference
+    _ZTIN10QtMobility11QTapReadingE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    typeinfo for QtMobility::QMagnetometer    - Undefined Reference
+    _ZTIN10QtMobility13QMagnetometerE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    typeinfo for QtMobility::QAccelerometer   - Undefined Reference
+    _ZTIN10QtMobility14QAccelerometerE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    typeinfo for QtMobility::QCompassReading  - Undefined Reference
+    _ZTIN10QtMobility15QCompassReadingE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    typeinfo for QtMobility::QRotationSensor  - Undefined Reference
+    _ZTIN10QtMobility15QRotationSensorE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    typeinfo for QtMobility::QProximitySensor  - Undefined Reference
+    _ZTIN10QtMobility16QProximitySensorE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    typeinfo for QtMobility::QRotationReading  - Undefined Reference
+    _ZTIN10QtMobility16QRotationReadingE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    typeinfo for QtMobility::QProximityReading  - Undefined Reference
+    _ZTIN10QtMobility17QProximityReadingE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    typeinfo for QtMobility::QOrientationSensor  - Undefined Reference
+    _ZTIN10QtMobility18QOrientationSensorE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    typeinfo for QtMobility::QAmbientLightSensor  - Undefined Reference
+    _ZTIN10QtMobility19QAmbientLightSensorE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    typeinfo for QtMobility::QOrientationReading  - Undefined Reference
+    _ZTIN10QtMobility19QOrientationReadingE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    typeinfo for QtMobility::QAmbientLightReading  - Undefined Reference
+    _ZTIN10QtMobility20QAmbientLightReadingE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    typeinfo for QtMobility::QMagnetometerReading  - Undefined Reference
+    _ZTIN10QtMobility20QMagnetometerReadingE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    typeinfo for QtMobility::QAccelerometerReading  - Undefined Reference
+    _ZTIN10QtMobility21QAccelerometerReadingE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    typeinfo for QtMobility::QCompass         - Undefined Reference
+    _ZTIN10QtMobility8QCompassE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    vtable for QtMobility::QTapSensor         - Undefined Reference
+    _ZTVN10QtMobility10QTapSensorE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    vtable for QtMobility::QMagnetometer      - Undefined Reference
+    _ZTVN10QtMobility13QMagnetometerE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    vtable for QtMobility::QAccelerometer     - Undefined Reference
+    _ZTVN10QtMobility14QAccelerometerE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    vtable for QtMobility::QRotationSensor    - Undefined Reference
+    _ZTVN10QtMobility15QRotationSensorE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    vtable for QtMobility::QProximitySensor   - Undefined Reference
+    _ZTVN10QtMobility16QProximitySensorE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    vtable for QtMobility::QOrientationSensor  - Undefined Reference
+    _ZTVN10QtMobility18QOrientationSensorE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    vtable for QtMobility::QAmbientLightSensor  - Undefined Reference
+    _ZTVN10QtMobility19QAmbientLightSensorE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    vtable for QtMobility::QCompass           - Undefined Reference
+    _ZTVN10QtMobility8QCompassE@QtSensors{00010103}[2002bfc0].dll  - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv120__si_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    thunk{-8} to QDeclarativeExtensionPlugin::initializeEngine(QDeclarativeEngine*, const char*)  - Undefined Reference
+    _ZThn8_N27QDeclarativeExtensionPlugin16initializeEngineEP18QDeclarativeEnginePKc@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    operator delete (void*)                   - Undefined Reference
+    _ZdlPv@stdnew{000a0000}[20022178].dll     - Undefined Reference
+    operator new(unsigned)                    - Undefined Reference
+    _Znwj@stdnew{000a0000}[20022178].dll      - Undefined Reference
+    __aeabi_memcpy4                           - Undefined Reference
+    __aeabi_memcpy4@drtaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_unwind_cpp_pr0                    - Undefined Reference
+    __aeabi_unwind_cpp_pr0@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_end_cleanup                         - Undefined Reference
+    __cxa_end_cleanup@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_abort                         - Undefined Reference
+    __cxa_guard_abort@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_acquire                       - Undefined Reference
+    __cxa_guard_acquire@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_release                       - Undefined Reference
+    __cxa_guard_release@drtaeabi{000a0000}.dll  - Undefined Reference
+    strcmp                                    - Undefined Reference
+    strcmp@libc{00010001}[10207369].dll       - Undefined Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      52  ucppinit.o(.emb_text)
+    std::nothrow                             0x0000805c   ARM Code       0  ucppinit.o(.emb_text)
+    __PLT                                    0x0000805c   ARM Code       0  anon$$obj.o(.plt)
+    qt_plugin_query_verification_data        0x000081bd   Thumb Code     4  sensors.o(.text)
+    qt_plugin_instance                       0x000081c1   Thumb Code   134  sensors.o(.text)
+    QSensorsDeclarativeModule::getStaticMetaObject() 0x00008247   Thumb Code     4  sensors.o(.text)
+    QSensorsDeclarativeModule::metaObject() const 0x0000824b   Thumb Code    28  sensors.o(.text)
+    QSensorsDeclarativeModule::qt_metacast(const char*) 0x00008267   Thumb Code    42  sensors.o(.text)
+    QSensorsDeclarativeModule::qt_metacall(QMetaObject::Call, int, void**) 0x00008291   Thumb Code    36  sensors.o(.text)
+    __ARM_switch8                            0x000082cc   ARM Code      24  switch8.o(.text)
+    __rt_switch8                             0x000082cc   ARM Code       0  switch8.o(.text)
+    _E32Dll_Body                             0x000082e4   ARM Code      76  uc_dll.o(.text)
+    __aeabi_atexit                           0x00008334   ARM Code      40  ucppfini.o(.text)
+    __cxa_atexit                             0x0000835c   ARM Code      64  ucppfini.o(.text)
+    __cxa_finalize                           0x0000839c   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x000083cc   ARM Code      16  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x000083e8   ARM Code       4  dllexp.o(.text)
+    QByteArray::QByteArray(const QByteArray&) 0x00008409   Thumb Code    20  sensors.o(i._ZN10QByteArrayC1ERKS_)
+    QByteArray::QByteArray__sub_object(const QByteArray&) 0x00008409   Thumb Code     0  sensors.o(i._ZN10QByteArrayC1ERKS_)
+    QByteArray::~QByteArray()                0x0000841d   Thumb Code    24  sensors.o(i._ZN10QByteArrayD1Ev)
+    QByteArray::~QByteArray__sub_object()    0x0000841d   Thumb Code     0  sensors.o(i._ZN10QByteArrayD1Ev)
+    QtMobility::QTapSensor::~QTapSensor()    0x00008435   Thumb Code    14  sensors.o(i._ZN10QtMobility10QTapSensorD1Ev)
+    QtMobility::QTapSensor::~QTapSensor__sub_object() 0x00008435   Thumb Code     0  sensors.o(i._ZN10QtMobility10QTapSensorD1Ev)
+    QtMobility::QMagnetometer::~QMagnetometer() 0x00008443   Thumb Code    14  sensors.o(i._ZN10QtMobility13QMagnetometerD1Ev)
+    QtMobility::QMagnetometer::~QMagnetometer__sub_object() 0x00008443   Thumb Code     0  sensors.o(i._ZN10QtMobility13QMagnetometerD1Ev)
+    QtMobility::QAccelerometer::~QAccelerometer() 0x00008451   Thumb Code    14  sensors.o(i._ZN10QtMobility14QAccelerometerD1Ev)
+    QtMobility::QAccelerometer::~QAccelerometer__sub_object() 0x00008451   Thumb Code     0  sensors.o(i._ZN10QtMobility14QAccelerometerD1Ev)
+    QtMobility::QRotationSensor::~QRotationSensor() 0x0000845f   Thumb Code    14  sensors.o(i._ZN10QtMobility15QRotationSensorD1Ev)
+    QtMobility::QRotationSensor::~QRotationSensor__sub_object() 0x0000845f   Thumb Code     0  sensors.o(i._ZN10QtMobility15QRotationSensorD1Ev)
+    QtMobility::QProximitySensor::~QProximitySensor() 0x0000846d   Thumb Code    14  sensors.o(i._ZN10QtMobility16QProximitySensorD1Ev)
+    QtMobility::QProximitySensor::~QProximitySensor__sub_object() 0x0000846d   Thumb Code     0  sensors.o(i._ZN10QtMobility16QProximitySensorD1Ev)
+    QtMobility::QOrientationSensor::~QOrientationSensor() 0x0000847b   Thumb Code    14  sensors.o(i._ZN10QtMobility18QOrientationSensorD1Ev)
+    QtMobility::QOrientationSensor::~QOrientationSensor__sub_object() 0x0000847b   Thumb Code     0  sensors.o(i._ZN10QtMobility18QOrientationSensorD1Ev)
+    QtMobility::QAmbientLightSensor::~QAmbientLightSensor() 0x00008489   Thumb Code    14  sensors.o(i._ZN10QtMobility19QAmbientLightSensorD1Ev)
+    QtMobility::QAmbientLightSensor::~QAmbientLightSensor__sub_object() 0x00008489   Thumb Code     0  sensors.o(i._ZN10QtMobility19QAmbientLightSensorD1Ev)
+    QtMobility::QCompass::~QCompass()        0x00008497   Thumb Code    14  sensors.o(i._ZN10QtMobility8QCompassD1Ev)
+    QtMobility::QCompass::~QCompass__sub_object() 0x00008497   Thumb Code     0  sensors.o(i._ZN10QtMobility8QCompassD1Ev)
+    QBasicAtomicInt::ref()                   0x000084a5   Thumb Code    24  sensors.o(i._ZN15QBasicAtomicInt3refEv)
+    QBasicAtomicInt::deref()                 0x000084bd   Thumb Code    24  sensors.o(i._ZN15QBasicAtomicInt5derefEv)
+    QDeclarativePrivate::RegisterType::~RegisterType() 0x000084d5   Thumb Code    20  sensors.o(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    QDeclarativePrivate::RegisterType::~RegisterType__sub_object() 0x000084d5   Thumb Code     0  sensors.o(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QTapSensor>::~QDeclarativeElement__deallocating() 0x000084e9   Thumb Code    22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility10QTapSensorEED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QTapReading>::~QDeclarativeElement__deallocating() 0x000084ff   Thumb Code    22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility11QTapReadingEED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QMagnetometer>::~QDeclarativeElement__deallocating() 0x00008515   Thumb Code    22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility13QMagnetometerEED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QAccelerometer>::~QDeclarativeElement__deallocating() 0x0000852b   Thumb Code    22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility14QAccelerometerEED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QCompassReading>::~QDeclarativeElement__deallocating() 0x00008541   Thumb Code    22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QCompassReadingEED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QRotationSensor>::~QDeclarativeElement__deallocating() 0x00008557   Thumb Code    22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QRotationSensorEED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QProximitySensor>::~QDeclarativeElement__deallocating() 0x0000856d   Thumb Code    22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QProximitySensorEED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QRotationReading>::~QDeclarativeElement__deallocating() 0x00008583   Thumb Code    22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QRotationReadingEED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QProximityReading>::~QDeclarativeElement__deallocating() 0x00008599   Thumb Code    22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility17QProximityReadingEED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QOrientationSensor>::~QDeclarativeElement__deallocating() 0x000085af   Thumb Code    22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QOrientationSensorEED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QAmbientLightSensor>::~QDeclarativeElement__deallocating() 0x000085c5   Thumb Code    22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QAmbientLightSensorEED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QOrientationReading>::~QDeclarativeElement__deallocating() 0x000085db   Thumb Code    22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QOrientationReadingEED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QAmbientLightReading>::~QDeclarativeElement__deallocating() 0x000085f1   Thumb Code    22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QAmbientLightReadingEED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QMagnetometerReading>::~QDeclarativeElement__deallocating() 0x00008607   Thumb Code    22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QMagnetometerReadingEED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QAccelerometerReading>::~QDeclarativeElement__deallocating() 0x0000861d   Thumb Code    22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QAccelerometerReadingEED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QCompass>::~QDeclarativeElement__deallocating() 0x00008633   Thumb Code    22  sensors.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility8QCompassEED0Ev)
+    QSensorsDeclarativeModule::registerTypes(const char*) 0x00008649   Thumb Code   500  sensors.o(i._ZN25QSensorsDeclarativeModule13registerTypesEPKc)
+    QSensorsDeclarativeModule::~QSensorsDeclarativeModule__deallocating() 0x0000883d   Thumb Code    24  sensors.o(i._ZN25QSensorsDeclarativeModuleD0Ev)
+    QSensorsDeclarativeModule::~QSensorsDeclarativeModule() 0x00008855   Thumb Code    14  sensors.o(i._ZN25QSensorsDeclarativeModuleD1Ev)
+    QSensorsDeclarativeModule::~QSensorsDeclarativeModule__sub_object() 0x00008855   Thumb Code     0  sensors.o(i._ZN25QSensorsDeclarativeModuleD1Ev)
+    QString::QString()                       0x00008865   Thumb Code    18  sensors.o(i._ZN7QStringC1Ev)
+    QString::QString__sub_object()           0x00008865   Thumb Code     0  sensors.o(i._ZN7QStringC1Ev)
+    QString::~QString()                      0x0000887d   Thumb Code    24  sensors.o(i._ZN7QStringD1Ev)
+    QString::~QString__sub_object()          0x0000887d   Thumb Code     0  sensors.o(i._ZN7QStringD1Ev)
+    thunk{-8} to QSensorsDeclarativeModule::registerTypes(const char*) 0x00008895   Thumb Code    18  sensors.o(i._ZThn8_N25QSensorsDeclarativeModule13registerTypesEPKc)
+    thunk{-8} to QSensorsDeclarativeModule::~QSensorsDeclarativeModule__deallocating() 0x000088a7   Thumb Code    14  sensors.o(i._ZThn8_N25QSensorsDeclarativeModuleD0Ev)
+    thunk{-8} to QSensorsDeclarativeModule::~QSensorsDeclarativeModule() 0x000088b5   Thumb Code    18  sensors.o(i._ZThn8_N25QSensorsDeclarativeModuleD1Ev)
+    operator delete (void*, void*)           0x000088c7   Thumb Code     2  sensors.o(i._ZdlPvS_)
+    operator new(unsigned, void*)            0x000088c9   Thumb Code     6  sensors.o(i._ZnwjPv)
+    operator +(const char*, const QByteArray&) 0x000088cf   Thumb Code    46  sensors.o(i._ZplPKcRK10QByteArray)
+    operator +(const QByteArray&, const char*) 0x00008907   Thumb Code    46  sensors.o(i._ZplRK10QByteArrayPKc)
+    operator +(const QByteArray&, char)      0x0000893f   Thumb Code    46  sensors.o(i._ZplRK10QByteArrayc)
+    qmlRegisterType<QtMobility::QTapSensor>(const char*, int, int, const char*) 0x00008979   Thumb Code   238  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility10QTapSensorEEiPKciiS3_)
+    qmlRegisterType<QtMobility::QTapReading>(const char*, int, int, const char*) 0x00008ac5   Thumb Code   238  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility11QTapReadingEEiPKciiS3_)
+    qmlRegisterType<QtMobility::QMagnetometer>(const char*, int, int, const char*) 0x00008c11   Thumb Code   238  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility13QMagnetometerEEiPKciiS3_)
+    qmlRegisterType<QtMobility::QAccelerometer>(const char*, int, int, const char*) 0x00008d5d   Thumb Code   238  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility14QAccelerometerEEiPKciiS3_)
+    qmlRegisterType<QtMobility::QSensorReading>() 0x00008ea9   Thumb Code   222  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility14QSensorReadingEEiv)
+    qmlRegisterType<QtMobility::QCompassReading>(const char*, int, int, const char*) 0x00008fe5   Thumb Code   238  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility15QCompassReadingEEiPKciiS3_)
+    qmlRegisterType<QtMobility::QRotationSensor>(const char*, int, int, const char*) 0x00009131   Thumb Code   238  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility15QRotationSensorEEiPKciiS3_)
+    qmlRegisterType<QtMobility::QProximitySensor>(const char*, int, int, const char*) 0x0000927d   Thumb Code   238  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility16QProximitySensorEEiPKciiS3_)
+    qmlRegisterType<QtMobility::QRotationReading>(const char*, int, int, const char*) 0x000093c9   Thumb Code   238  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility16QRotationReadingEEiPKciiS3_)
+    qmlRegisterType<QtMobility::QProximityReading>(const char*, int, int, const char*) 0x00009515   Thumb Code   238  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility17QProximityReadingEEiPKciiS3_)
+    qmlRegisterType<QtMobility::QOrientationSensor>(const char*, int, int, const char*) 0x00009661   Thumb Code   238  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility18QOrientationSensorEEiPKciiS3_)
+    qmlRegisterType<QtMobility::QAmbientLightSensor>(const char*, int, int, const char*) 0x000097ad   Thumb Code   238  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility19QAmbientLightSensorEEiPKciiS3_)
+    qmlRegisterType<QtMobility::QOrientationReading>(const char*, int, int, const char*) 0x000098f9   Thumb Code   238  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility19QOrientationReadingEEiPKciiS3_)
+    qmlRegisterType<QtMobility::QAmbientLightReading>(const char*, int, int, const char*) 0x00009a45   Thumb Code   238  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility20QAmbientLightReadingEEiPKciiS3_)
+    qmlRegisterType<QtMobility::QMagnetometerReading>(const char*, int, int, const char*) 0x00009b91   Thumb Code   238  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility20QMagnetometerReadingEEiPKciiS3_)
+    qmlRegisterType<QtMobility::QAccelerometerReading>(const char*, int, int, const char*) 0x00009cdd   Thumb Code   238  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility21QAccelerometerReadingEEiPKciiS3_)
+    qmlRegisterType<QtMobility::QCompass>(const char*, int, int, const char*) 0x00009e29   Thumb Code   238  sensors.o(t._Z15qmlRegisterTypeIN10QtMobility8QCompassEEiPKciiS3_)
+    qRegisterMetaType<QDeclarativeListProperty<QtMobility::QTapSensor>>(const char*, T1*) 0x00009f75   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility10QTapSensorEEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QtMobility::QTapReading>>(const char*, T1*) 0x00009fb5   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility11QTapReadingEEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QtMobility::QMagnetometer>>(const char*, T1*) 0x00009ff5   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility13QMagnetometerEEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QtMobility::QAccelerometer>>(const char*, T1*) 0x0000a035   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility14QAccelerometerEEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QtMobility::QSensorReading>>(const char*, T1*) 0x0000a075   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility14QSensorReadingEEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QtMobility::QCompassReading>>(const char*, T1*) 0x0000a0b5   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility15QCompassReadingEEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QtMobility::QRotationSensor>>(const char*, T1*) 0x0000a0f5   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility15QRotationSensorEEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QtMobility::QProximitySensor>>(const char*, T1*) 0x0000a135   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility16QProximitySensorEEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QtMobility::QRotationReading>>(const char*, T1*) 0x0000a175   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility16QRotationReadingEEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QtMobility::QProximityReading>>(const char*, T1*) 0x0000a1b5   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility17QProximityReadingEEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QtMobility::QOrientationSensor>>(const char*, T1*) 0x0000a1f5   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility18QOrientationSensorEEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QtMobility::QAmbientLightSensor>>(const char*, T1*) 0x0000a235   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility19QAmbientLightSensorEEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QtMobility::QOrientationReading>>(const char*, T1*) 0x0000a275   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility19QOrientationReadingEEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QtMobility::QAmbientLightReading>>(const char*, T1*) 0x0000a2b5   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility20QAmbientLightReadingEEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QtMobility::QMagnetometerReading>>(const char*, T1*) 0x0000a2f5   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility20QMagnetometerReadingEEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QtMobility::QAccelerometerReading>>(const char*, T1*) 0x0000a335   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility21QAccelerometerReadingEEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QtMobility::QCompass>>(const char*, T1*) 0x0000a375   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility8QCompassEEEiPKcPT_)
+    qRegisterMetaType<QtMobility::QTapSensor*>(const char*, T1*) 0x0000a3b5   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility10QTapSensorEEiPKcPT_)
+    qRegisterMetaType<QtMobility::QTapReading*>(const char*, T1*) 0x0000a3f5   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility11QTapReadingEEiPKcPT_)
+    qRegisterMetaType<QtMobility::QMagnetometer*>(const char*, T1*) 0x0000a435   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility13QMagnetometerEEiPKcPT_)
+    qRegisterMetaType<QtMobility::QAccelerometer*>(const char*, T1*) 0x0000a475   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility14QAccelerometerEEiPKcPT_)
+    qRegisterMetaType<QtMobility::QSensorReading*>(const char*, T1*) 0x0000a4b5   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility14QSensorReadingEEiPKcPT_)
+    qRegisterMetaType<QtMobility::QCompassReading*>(const char*, T1*) 0x0000a4f5   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility15QCompassReadingEEiPKcPT_)
+    qRegisterMetaType<QtMobility::QRotationSensor*>(const char*, T1*) 0x0000a535   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility15QRotationSensorEEiPKcPT_)
+    qRegisterMetaType<QtMobility::QProximitySensor*>(const char*, T1*) 0x0000a575   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility16QProximitySensorEEiPKcPT_)
+    qRegisterMetaType<QtMobility::QRotationReading*>(const char*, T1*) 0x0000a5b5   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility16QRotationReadingEEiPKcPT_)
+    qRegisterMetaType<QtMobility::QProximityReading*>(const char*, T1*) 0x0000a5f5   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility17QProximityReadingEEiPKcPT_)
+    qRegisterMetaType<QtMobility::QOrientationSensor*>(const char*, T1*) 0x0000a635   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility18QOrientationSensorEEiPKcPT_)
+    qRegisterMetaType<QtMobility::QAmbientLightSensor*>(const char*, T1*) 0x0000a675   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility19QAmbientLightSensorEEiPKcPT_)
+    qRegisterMetaType<QtMobility::QOrientationReading*>(const char*, T1*) 0x0000a6b5   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility19QOrientationReadingEEiPKcPT_)
+    qRegisterMetaType<QtMobility::QAmbientLightReading*>(const char*, T1*) 0x0000a6f5   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility20QAmbientLightReadingEEiPKcPT_)
+    qRegisterMetaType<QtMobility::QMagnetometerReading*>(const char*, T1*) 0x0000a735   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility20QMagnetometerReadingEEiPKcPT_)
+    qRegisterMetaType<QtMobility::QAccelerometerReading*>(const char*, T1*) 0x0000a775   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility21QAccelerometerReadingEEiPKcPT_)
+    qRegisterMetaType<QtMobility::QCompass*>(const char*, T1*) 0x0000a7b5   Thumb Code    56  sensors.o(t._Z17qRegisterMetaTypeIPN10QtMobility8QCompassEEiPKcPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QtMobility::QTapSensor>>(T1*) 0x0000a7f5   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility10QTapSensorEEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QtMobility::QTapReading>>(T1*) 0x0000a801   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility11QTapReadingEEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QtMobility::QMagnetometer>>(T1*) 0x0000a80d   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility13QMagnetometerEEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QtMobility::QAccelerometer>>(T1*) 0x0000a819   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility14QAccelerometerEEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QtMobility::QSensorReading>>(T1*) 0x0000a825   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility14QSensorReadingEEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QtMobility::QCompassReading>>(T1*) 0x0000a831   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility15QCompassReadingEEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QtMobility::QRotationSensor>>(T1*) 0x0000a83d   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility15QRotationSensorEEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QtMobility::QProximitySensor>>(T1*) 0x0000a849   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility16QProximitySensorEEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QtMobility::QRotationReading>>(T1*) 0x0000a855   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility16QRotationReadingEEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QtMobility::QProximityReading>>(T1*) 0x0000a861   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility17QProximityReadingEEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QtMobility::QOrientationSensor>>(T1*) 0x0000a86d   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility18QOrientationSensorEEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QtMobility::QAmbientLightSensor>>(T1*) 0x0000a879   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility19QAmbientLightSensorEEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QtMobility::QOrientationReading>>(T1*) 0x0000a885   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility19QOrientationReadingEEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QtMobility::QAmbientLightReading>>(T1*) 0x0000a891   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility20QAmbientLightReadingEEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QtMobility::QMagnetometerReading>>(T1*) 0x0000a89d   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility20QMagnetometerReadingEEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QtMobility::QAccelerometerReading>>(T1*) 0x0000a8a9   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility21QAccelerometerReadingEEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QtMobility::QCompass>>(T1*) 0x0000a8b5   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility8QCompassEEEvPT_)
+    qMetaTypeDeleteHelper<QtMobility::QTapSensor*>(T1*) 0x0000a8c1   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility10QTapSensorEEvPT_)
+    qMetaTypeDeleteHelper<QtMobility::QTapReading*>(T1*) 0x0000a8cd   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility11QTapReadingEEvPT_)
+    qMetaTypeDeleteHelper<QtMobility::QMagnetometer*>(T1*) 0x0000a8d9   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility13QMagnetometerEEvPT_)
+    qMetaTypeDeleteHelper<QtMobility::QAccelerometer*>(T1*) 0x0000a8e5   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility14QAccelerometerEEvPT_)
+    qMetaTypeDeleteHelper<QtMobility::QSensorReading*>(T1*) 0x0000a8f1   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility14QSensorReadingEEvPT_)
+    qMetaTypeDeleteHelper<QtMobility::QCompassReading*>(T1*) 0x0000a8fd   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility15QCompassReadingEEvPT_)
+    qMetaTypeDeleteHelper<QtMobility::QRotationSensor*>(T1*) 0x0000a909   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility15QRotationSensorEEvPT_)
+    qMetaTypeDeleteHelper<QtMobility::QProximitySensor*>(T1*) 0x0000a915   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility16QProximitySensorEEvPT_)
+    qMetaTypeDeleteHelper<QtMobility::QRotationReading*>(T1*) 0x0000a921   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility16QRotationReadingEEvPT_)
+    qMetaTypeDeleteHelper<QtMobility::QProximityReading*>(T1*) 0x0000a92d   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility17QProximityReadingEEvPT_)
+    qMetaTypeDeleteHelper<QtMobility::QOrientationSensor*>(T1*) 0x0000a939   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility18QOrientationSensorEEvPT_)
+    qMetaTypeDeleteHelper<QtMobility::QAmbientLightSensor*>(T1*) 0x0000a945   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility19QAmbientLightSensorEEvPT_)
+    qMetaTypeDeleteHelper<QtMobility::QOrientationReading*>(T1*) 0x0000a951   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility19QOrientationReadingEEvPT_)
+    qMetaTypeDeleteHelper<QtMobility::QAmbientLightReading*>(T1*) 0x0000a95d   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility20QAmbientLightReadingEEvPT_)
+    qMetaTypeDeleteHelper<QtMobility::QMagnetometerReading*>(T1*) 0x0000a969   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility20QMagnetometerReadingEEvPT_)
+    qMetaTypeDeleteHelper<QtMobility::QAccelerometerReading*>(T1*) 0x0000a975   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility21QAccelerometerReadingEEvPT_)
+    qMetaTypeDeleteHelper<QtMobility::QCompass*>(T1*) 0x0000a981   Thumb Code    12  sensors.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility8QCompassEEvPT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QtMobility::QTapSensor>>(const T1*) 0x0000a98d   Thumb Code   150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility10QTapSensorEEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QtMobility::QTapReading>>(const T1*) 0x0000aa27   Thumb Code   150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility11QTapReadingEEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QtMobility::QMagnetometer>>(const T1*) 0x0000aac1   Thumb Code   150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility13QMagnetometerEEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QtMobility::QAccelerometer>>(const T1*) 0x0000ab5b   Thumb Code   150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility14QAccelerometerEEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QtMobility::QSensorReading>>(const T1*) 0x0000abf5   Thumb Code   150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility14QSensorReadingEEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QtMobility::QCompassReading>>(const T1*) 0x0000ac8f   Thumb Code   150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility15QCompassReadingEEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QtMobility::QRotationSensor>>(const T1*) 0x0000ad29   Thumb Code   150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility15QRotationSensorEEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QtMobility::QProximitySensor>>(const T1*) 0x0000adc3   Thumb Code   150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility16QProximitySensorEEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QtMobility::QRotationReading>>(const T1*) 0x0000ae5d   Thumb Code   150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility16QRotationReadingEEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QtMobility::QProximityReading>>(const T1*) 0x0000aef7   Thumb Code   150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility17QProximityReadingEEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QtMobility::QOrientationSensor>>(const T1*) 0x0000af91   Thumb Code   150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility18QOrientationSensorEEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QtMobility::QAmbientLightSensor>>(const T1*) 0x0000b02b   Thumb Code   150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility19QAmbientLightSensorEEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QtMobility::QOrientationReading>>(const T1*) 0x0000b0c5   Thumb Code   150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility19QOrientationReadingEEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QtMobility::QAmbientLightReading>>(const T1*) 0x0000b15f   Thumb Code   150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility20QAmbientLightReadingEEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QtMobility::QMagnetometerReading>>(const T1*) 0x0000b1f9   Thumb Code   150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility20QMagnetometerReadingEEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QtMobility::QAccelerometerReading>>(const T1*) 0x0000b293   Thumb Code   150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility21QAccelerometerReadingEEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QtMobility::QCompass>>(const T1*) 0x0000b32d   Thumb Code   150  sensors.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility8QCompassEEEPvPKT_)
+    qMetaTypeConstructHelper<QtMobility::QTapSensor*>(const T1*) 0x0000b3c7   Thumb Code    50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility10QTapSensorEEPvPKT_)
+    qMetaTypeConstructHelper<QtMobility::QTapReading*>(const T1*) 0x0000b3f9   Thumb Code    50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility11QTapReadingEEPvPKT_)
+    qMetaTypeConstructHelper<QtMobility::QMagnetometer*>(const T1*) 0x0000b42b   Thumb Code    50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility13QMagnetometerEEPvPKT_)
+    qMetaTypeConstructHelper<QtMobility::QAccelerometer*>(const T1*) 0x0000b45d   Thumb Code    50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility14QAccelerometerEEPvPKT_)
+    qMetaTypeConstructHelper<QtMobility::QSensorReading*>(const T1*) 0x0000b48f   Thumb Code    50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility14QSensorReadingEEPvPKT_)
+    qMetaTypeConstructHelper<QtMobility::QCompassReading*>(const T1*) 0x0000b4c1   Thumb Code    50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility15QCompassReadingEEPvPKT_)
+    qMetaTypeConstructHelper<QtMobility::QRotationSensor*>(const T1*) 0x0000b4f3   Thumb Code    50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility15QRotationSensorEEPvPKT_)
+    qMetaTypeConstructHelper<QtMobility::QProximitySensor*>(const T1*) 0x0000b525   Thumb Code    50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility16QProximitySensorEEPvPKT_)
+    qMetaTypeConstructHelper<QtMobility::QRotationReading*>(const T1*) 0x0000b557   Thumb Code    50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility16QRotationReadingEEPvPKT_)
+    qMetaTypeConstructHelper<QtMobility::QProximityReading*>(const T1*) 0x0000b589   Thumb Code    50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility17QProximityReadingEEPvPKT_)
+    qMetaTypeConstructHelper<QtMobility::QOrientationSensor*>(const T1*) 0x0000b5bb   Thumb Code    50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility18QOrientationSensorEEPvPKT_)
+    qMetaTypeConstructHelper<QtMobility::QAmbientLightSensor*>(const T1*) 0x0000b5ed   Thumb Code    50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility19QAmbientLightSensorEEPvPKT_)
+    qMetaTypeConstructHelper<QtMobility::QOrientationReading*>(const T1*) 0x0000b61f   Thumb Code    50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility19QOrientationReadingEEPvPKT_)
+    qMetaTypeConstructHelper<QtMobility::QAmbientLightReading*>(const T1*) 0x0000b651   Thumb Code    50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility20QAmbientLightReadingEEPvPKT_)
+    qMetaTypeConstructHelper<QtMobility::QMagnetometerReading*>(const T1*) 0x0000b683   Thumb Code    50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility20QMagnetometerReadingEEPvPKT_)
+    qMetaTypeConstructHelper<QtMobility::QAccelerometerReading*>(const T1*) 0x0000b6b5   Thumb Code    50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility21QAccelerometerReadingEEPvPKT_)
+    qMetaTypeConstructHelper<QtMobility::QCompass*>(const T1*) 0x0000b6e7   Thumb Code    50  sensors.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility8QCompassEEPvPKT_)
+    QDeclarativePrivate::createInto<QtMobility::QTapSensor>(void*) 0x0000b719   Thumb Code    68  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility10QTapSensorEEEvPv)
+    QDeclarativePrivate::createInto<QtMobility::QTapReading>(void*) 0x0000b781   Thumb Code    38  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility11QTapReadingEEEvPv)
+    QDeclarativePrivate::createInto<QtMobility::QMagnetometer>(void*) 0x0000b7b9   Thumb Code    68  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility13QMagnetometerEEEvPv)
+    QDeclarativePrivate::createInto<QtMobility::QAccelerometer>(void*) 0x0000b821   Thumb Code    68  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility14QAccelerometerEEEvPv)
+    QDeclarativePrivate::createInto<QtMobility::QCompassReading>(void*) 0x0000b889   Thumb Code    38  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility15QCompassReadingEEEvPv)
+    QDeclarativePrivate::createInto<QtMobility::QRotationSensor>(void*) 0x0000b8c1   Thumb Code    68  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility15QRotationSensorEEEvPv)
+    QDeclarativePrivate::createInto<QtMobility::QProximitySensor>(void*) 0x0000b929   Thumb Code    68  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility16QProximitySensorEEEvPv)
+    QDeclarativePrivate::createInto<QtMobility::QRotationReading>(void*) 0x0000b991   Thumb Code    38  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility16QRotationReadingEEEvPv)
+    QDeclarativePrivate::createInto<QtMobility::QProximityReading>(void*) 0x0000b9c9   Thumb Code    38  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility17QProximityReadingEEEvPv)
+    QDeclarativePrivate::createInto<QtMobility::QOrientationSensor>(void*) 0x0000ba01   Thumb Code    68  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility18QOrientationSensorEEEvPv)
+    QDeclarativePrivate::createInto<QtMobility::QAmbientLightSensor>(void*) 0x0000ba69   Thumb Code    68  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility19QAmbientLightSensorEEEvPv)
+    QDeclarativePrivate::createInto<QtMobility::QOrientationReading>(void*) 0x0000bad1   Thumb Code    38  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility19QOrientationReadingEEEvPv)
+    QDeclarativePrivate::createInto<QtMobility::QAmbientLightReading>(void*) 0x0000bb09   Thumb Code    38  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility20QAmbientLightReadingEEEvPv)
+    QDeclarativePrivate::createInto<QtMobility::QMagnetometerReading>(void*) 0x0000bb41   Thumb Code    38  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility20QMagnetometerReadingEEEvPv)
+    QDeclarativePrivate::createInto<QtMobility::QAccelerometerReading>(void*) 0x0000bb79   Thumb Code    38  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility21QAccelerometerReadingEEEvPv)
+    QDeclarativePrivate::createInto<QtMobility::QCompass>(void*) 0x0000bbb1   Thumb Code    68  sensors.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility8QCompassEEEvPv)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QTapSensor>::~QDeclarativeElement() 0x0000bc19   Thumb Code    30  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility10QTapSensorEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QTapSensor>::~QDeclarativeElement__sub_object() 0x0000bc19   Thumb Code     0  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility10QTapSensorEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QTapReading>::~QDeclarativeElement() 0x0000bc49   Thumb Code    24  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility11QTapReadingEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QTapReading>::~QDeclarativeElement__sub_object() 0x0000bc49   Thumb Code     0  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility11QTapReadingEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QMagnetometer>::~QDeclarativeElement() 0x0000bc71   Thumb Code    30  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility13QMagnetometerEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QMagnetometer>::~QDeclarativeElement__sub_object() 0x0000bc71   Thumb Code     0  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility13QMagnetometerEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QAccelerometer>::~QDeclarativeElement() 0x0000bca1   Thumb Code    30  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility14QAccelerometerEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QAccelerometer>::~QDeclarativeElement__sub_object() 0x0000bca1   Thumb Code     0  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility14QAccelerometerEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QCompassReading>::~QDeclarativeElement() 0x0000bcd1   Thumb Code    24  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QCompassReadingEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QCompassReading>::~QDeclarativeElement__sub_object() 0x0000bcd1   Thumb Code     0  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QCompassReadingEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QRotationSensor>::~QDeclarativeElement() 0x0000bcf9   Thumb Code    30  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QRotationSensorEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QRotationSensor>::~QDeclarativeElement__sub_object() 0x0000bcf9   Thumb Code     0  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QRotationSensorEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QProximitySensor>::~QDeclarativeElement() 0x0000bd29   Thumb Code    30  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QProximitySensorEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QProximitySensor>::~QDeclarativeElement__sub_object() 0x0000bd29   Thumb Code     0  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QProximitySensorEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QRotationReading>::~QDeclarativeElement() 0x0000bd59   Thumb Code    24  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QRotationReadingEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QRotationReading>::~QDeclarativeElement__sub_object() 0x0000bd59   Thumb Code     0  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QRotationReadingEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QProximityReading>::~QDeclarativeElement() 0x0000bd81   Thumb Code    24  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility17QProximityReadingEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QProximityReading>::~QDeclarativeElement__sub_object() 0x0000bd81   Thumb Code     0  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility17QProximityReadingEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QOrientationSensor>::~QDeclarativeElement() 0x0000bda9   Thumb Code    30  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QOrientationSensorEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QOrientationSensor>::~QDeclarativeElement__sub_object() 0x0000bda9   Thumb Code     0  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QOrientationSensorEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QAmbientLightSensor>::~QDeclarativeElement() 0x0000bdd9   Thumb Code    30  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QAmbientLightSensorEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QAmbientLightSensor>::~QDeclarativeElement__sub_object() 0x0000bdd9   Thumb Code     0  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QAmbientLightSensorEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QOrientationReading>::~QDeclarativeElement() 0x0000be09   Thumb Code    24  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QOrientationReadingEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QOrientationReading>::~QDeclarativeElement__sub_object() 0x0000be09   Thumb Code     0  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QOrientationReadingEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QAmbientLightReading>::~QDeclarativeElement() 0x0000be31   Thumb Code    24  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QAmbientLightReadingEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QAmbientLightReading>::~QDeclarativeElement__sub_object() 0x0000be31   Thumb Code     0  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QAmbientLightReadingEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QMagnetometerReading>::~QDeclarativeElement() 0x0000be59   Thumb Code    24  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QMagnetometerReadingEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QMagnetometerReading>::~QDeclarativeElement__sub_object() 0x0000be59   Thumb Code     0  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QMagnetometerReadingEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QAccelerometerReading>::~QDeclarativeElement() 0x0000be81   Thumb Code    24  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QAccelerometerReadingEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QAccelerometerReading>::~QDeclarativeElement__sub_object() 0x0000be81   Thumb Code     0  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QAccelerometerReadingEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QCompass>::~QDeclarativeElement() 0x0000bea9   Thumb Code    30  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility8QCompassEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QCompass>::~QDeclarativeElement__sub_object() 0x0000bea9   Thumb Code     0  sensors.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility8QCompassEED1Ev)
+    QPointer<QObject>::~QPointer()           0x0000bed7   Thumb Code    14  sensors.o(t._ZN8QPointerI7QObjectED1Ev)
+    QPointer<QObject>::~QPointer__sub_object() 0x0000bed7   Thumb Code     0  sensors.o(t._ZN8QPointerI7QObjectED1Ev)
+    QSensorsDeclarativeModule::staticMetaObject 0x0000c990   Data          16  sensors.o(.constdata)
+    stlp_priv::_Integer_limits<signed char, (signed char)-128, (signed char)127, (int)-1, (bool)1>::digits 0x0000c9a0   Data           4  sensors.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<bool, (bool)0, (bool)1, (int)1, (bool)0>::digits 0x0000c9a4   Data           4  sensors.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    stlp_priv::_Integer_limits<char, (char)128, (char)127, (int)-1, (bool)1>::digits 0x0000c9a8   Data           4  sensors.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned char, (unsigned char)0, (unsigned char)255, (int)-1, (bool)1>::digits 0x0000c9ac   Data           4  sensors.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::digits 0x0000c9b0   Data           4  sensors.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::is_signed 0x0000c9b4   Data           1  sensors.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    stlp_priv::_Integer_limits<unsigned, (unsigned)0, (unsigned)4294967295, (int)-1, (bool)1>::digits 0x0000c9b8   Data           4  sensors.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long, (long)-2147483648, (long)2147483647, (int)-1, (bool)1>::digits 0x0000c9bc   Data           4  sensors.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long, (unsigned long)0, (unsigned long)4294967295, (int)-1, (bool)1>::digits 0x0000c9c0   Data           4  sensors.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<short, (short)-32768, (short)32767, (int)-1, (bool)1>::digits 0x0000c9c4   Data           4  sensors.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned short, (unsigned short)0, (unsigned short)65535, (int)-1, (bool)1>::digits 0x0000c9c8   Data           4  sensors.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<wchar_t, (wchar_t)0, (wchar_t)65535, (int)-1, (bool)1>::digits 0x0000c9cc   Data           4  sensors.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long long, (long long)-9223372036854775808, (long long)9223372036854775807, (int)-1, (bool)1>::digits 0x0000c9d0   Data           4  sensors.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long long, (unsigned long long)0, (unsigned long long)18446744073709551615, (int)-1, (bool)1>::digits 0x0000c9d4   Data           4  sensors.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    typeinfo for QSensorsDeclarativeModule   0x0000c9d8   Data          12  sensors.o(.constdata__ZTI25QSensorsDeclarativeModule)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QtMobility::QTapSensor> 0x0000c9e4   Data          12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility10QTapSensorEEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QtMobility::QTapReading> 0x0000c9f0   Data          12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility11QTapReadingEEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QtMobility::QMagnetometer> 0x0000c9fc   Data          12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility13QMagnetometerEEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QtMobility::QAccelerometer> 0x0000ca08   Data          12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility14QAccelerometerEEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QtMobility::QCompassReading> 0x0000ca14   Data          12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QCompassReadingEEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QtMobility::QRotationSensor> 0x0000ca20   Data          12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QRotationSensorEEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QtMobility::QProximitySensor> 0x0000ca2c   Data          12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QProximitySensorEEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QtMobility::QRotationReading> 0x0000ca38   Data          12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QRotationReadingEEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QtMobility::QProximityReading> 0x0000ca44   Data          12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility17QProximityReadingEEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QtMobility::QOrientationSensor> 0x0000ca50   Data          12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QOrientationSensorEEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QtMobility::QAmbientLightSensor> 0x0000ca5c   Data          12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QAmbientLightSensorEEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QtMobility::QOrientationReading> 0x0000ca68   Data          12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QOrientationReadingEEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QtMobility::QAmbientLightReading> 0x0000ca74   Data          12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QAmbientLightReadingEEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QtMobility::QMagnetometerReading> 0x0000ca80   Data          12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QMagnetometerReadingEEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QtMobility::QAccelerometerReading> 0x0000ca8c   Data          12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QAccelerometerReadingEEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QtMobility::QCompass> 0x0000ca98   Data          12  sensors.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility8QCompassEEE)
+    typeinfo name for QSensorsDeclarativeModule 0x0000caa4   Data          28  sensors.o(.constdata__ZTS25QSensorsDeclarativeModule)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QtMobility::QTapSensor> 0x0000cac0   Data          73  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility10QTapSensorEEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QtMobility::QTapReading> 0x0000cb09   Data          74  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility11QTapReadingEEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QtMobility::QMagnetometer> 0x0000cb53   Data          76  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility13QMagnetometerEEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QtMobility::QAccelerometer> 0x0000cb9f   Data          77  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility14QAccelerometerEEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QtMobility::QCompassReading> 0x0000cbec   Data          78  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QCompassReadingEEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QtMobility::QRotationSensor> 0x0000cc3a   Data          78  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QRotationSensorEEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QtMobility::QProximitySensor> 0x0000cc88   Data          79  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QProximitySensorEEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QtMobility::QRotationReading> 0x0000ccd7   Data          79  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QRotationReadingEEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QtMobility::QProximityReading> 0x0000cd26   Data          80  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility17QProximityReadingEEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QtMobility::QOrientationSensor> 0x0000cd76   Data          81  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QOrientationSensorEEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QtMobility::QAmbientLightSensor> 0x0000cdc7   Data          82  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QAmbientLightSensorEEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QtMobility::QOrientationReading> 0x0000ce19   Data          82  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QOrientationReadingEEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QtMobility::QAmbientLightReading> 0x0000ce6b   Data          83  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QAmbientLightReadingEEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QtMobility::QMagnetometerReading> 0x0000cebe   Data          83  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QMagnetometerReadingEEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QtMobility::QAccelerometerReading> 0x0000cf11   Data          84  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QAccelerometerReadingEEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QtMobility::QCompass> 0x0000cf65   Data          70  sensors.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility8QCompassEEE)
+    vtable for QSensorsDeclarativeModule     0x0000cfac   Data          88  sensors.o(.constdata__ZTV25QSensorsDeclarativeModule)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QtMobility::QTapSensor> 0x0000d004   Data          56  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility10QTapSensorEEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QtMobility::QTapReading> 0x0000d03c   Data          60  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility11QTapReadingEEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QtMobility::QMagnetometer> 0x0000d078   Data          56  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility13QMagnetometerEEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QtMobility::QAccelerometer> 0x0000d0b0   Data          56  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility14QAccelerometerEEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QtMobility::QCompassReading> 0x0000d0e8   Data          60  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QCompassReadingEEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QtMobility::QRotationSensor> 0x0000d124   Data          56  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility15QRotationSensorEEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QtMobility::QProximitySensor> 0x0000d15c   Data          56  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QProximitySensorEEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QtMobility::QRotationReading> 0x0000d194   Data          60  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility16QRotationReadingEEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QtMobility::QProximityReading> 0x0000d1d0   Data          60  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility17QProximityReadingEEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QtMobility::QOrientationSensor> 0x0000d20c   Data          56  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QOrientationSensorEEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QtMobility::QAmbientLightSensor> 0x0000d244   Data          56  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QAmbientLightSensorEEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QtMobility::QOrientationReading> 0x0000d27c   Data          60  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QOrientationReadingEEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QtMobility::QAmbientLightReading> 0x0000d2b8   Data          60  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QAmbientLightReadingEEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QtMobility::QMagnetometerReading> 0x0000d2f4   Data          60  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility20QMagnetometerReadingEEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QtMobility::QAccelerometerReading> 0x0000d330   Data          60  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility21QAccelerometerReadingEEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QtMobility::QCompass> 0x0000d36c   Data          56  sensors.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility8QCompassEEE)
+    .ARM.exidx$$Base                         0x0000d8b0   Number         0  ucppinit.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x0000ddb0   Number         0  sensors.o(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x0000ddb0   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    __dso_handle                             0x00400008   Data           4  ucppfini.o(.data)
+    std::_Atomic_swap_struct<(int)1>::_S_swap_lock 0x0040000c   Data          12  sensors.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    dtor_rec                                 0x00400018   Data        2048  ucppfini.o(.bss)
+

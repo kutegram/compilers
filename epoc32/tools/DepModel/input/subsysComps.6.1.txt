@@ -1,0 +1,35 @@
+# this is used when gt.txt doesn't specify the subsystem names of components
+app-engines : agnmodel cntmodel convert damodel sheng wpeng
+app-engines_refui : agenda calc chart contacts contacui data jotter sheet
+app-framework : aiftool apparc bmpanim clock conarc conarc_plugins cone egul emime etext fepbase form grid print uiklafgt uikon uikondoc viewsrv
+app-framework_refui : eikonex eikstd eiktest fepchina fepsetup feptest shell uiklaf word
+app-services : calcon ealwl hlpmodel lexicon logeng schsvr sysagent versit wlddatabasekit wldtools
+app-services_refui : spell timew
+base : assabetb bafl bootstrap brutusa charconv cirrus7211a dbms e32 e32test e32utils f32 f32test hal cogent1 loce32 pwrcli series5mx1 stdlib store vtemplate
+bluetooth : bluetooth
+comms-infras : commdb esock flogger nifman
+conn-framework : ec_customservers
+conn-framework_refui : unifyapp
+connlink : brdcst plp plpvariant
+connmiscplug-ins : asfilter irmtm pcmtm
+graphics : bitgdi fbserv fntstore fonts freetype gdi gditools gdtran pdrstore printdrv screendriver wserv
+infra-red : irda
+java : pjava
+java_refui : pjava2
+javaphone : javaphone
+messaging : biomsg imps msg
+messaging_refui : msgui
+mm-server : mediasvr
+mm-server_refui : paint
+nbprotocols : smsstack
+networking : csdagx ftp genconn gprsagx gprstsy mscomp ppp predcomp slip staccomp tcpip telnet_e tls
+security : appinst certman cryptalg ezlib makekeys
+security_refui : instapp
+ser-comms : c32
+telephony : dial etel etelagsm etelgprs etelsat faxdef faxio faxstrm gsmtsy
+tools : aifapp aifbuilder alp2csh appbuild assertion build-tools cinidata cjpeg cshlpcmp_backend cshlpcmp_frontend cshlpcmp_gui debugger_stub devicesapi dfrdobject e32tools edebug emulator_launcher enum envvar filesys httpclient installutils jade javahelp javalibrary jcomps_i18n langconfig logger mbmcodec mead menubuilder mnemonicfix pathbrowser perllibrary rcomp redistribution romkit rtf2ptml runperl sdkinfo sdkpkg-manager sdkpkg-tools shellexec sisar splash swingworker testcaserunner toolbarpanel
+wap-browser : wapengine wapservers wapplugins wappolicyplugins wappush wapbase wapcontext wapscriptserver
+wap-browser_refui : waprd
+wap-stack : wapstack
+web-browser : webeng webtl
+web-browser_refui : webcnt webtui 

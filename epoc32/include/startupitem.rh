@@ -1,0 +1,53 @@
+/*
+* ============================================================================
+*  Name        : StartupItem.rh
+*  Part of     : SW Installer UIs / AppinstUi       
+*  Description : Definitions for the stucture of a configuration file required
+*		 for components started at boot time.
+*  Version     : %version: ou1s60rt#3 % << Don't touch! Updated by Synergy at check-out.
+*
+*  Copyright © 2005-2007 Nokia.  All rights reserved.
+*  This material, including documentation and any related computer
+*  programs, is protected by copyright controlled by Nokia.  All
+*  rights are reserved.  Copying, including reproducing, storing,
+*  adapting or translating, any or all of this material requires the
+*  prior written consent of Nokia.  This material also contains
+*  confidential information which may not be disclosed to others
+*  without the prior written consent of Nokia.
+* ============================================================================
+* Template version: 4.0
+*/
+
+#ifndef STARTUPITEM_RH
+#define STARTUPITEM_RH
+
+#include <StartupItem.hrh>
+
+/** Defines the structure of the startup control resource file providing information about
+*   component(s) to be started at boot time.
+*
+* Example of the resource file:
+* 
+* @code
+* #include <startupitem.rh>
+*
+* RESOURCE STARTUP_ITEM_INFO example
+* {
+* executable_name = "c:\\sys\\bin\\example.exe";
+* recovery = EStartupItemExPolicyNone;
+* }
+* @endcode
+*
+*/
+
+STRUCT STARTUP_ITEM_INFO
+    {
+    BYTE version = 0;                          ///< Version info. Do NOT use.
+    LTEXT executable_name(255);                ///< The path and name of the executable.
+    WORD recovery = EStartupItemExPolicyNone;  ///< The exception recovery policy used.
+    LONG reserved_1 = 0;                       ///< Reserved for future use.
+    BYTE reserved_2 = 0;                       ///< Reserved for future use.
+    BYTE reserved_3 = 0;                       ///< Reserved for future use.
+    }
+
+#endif // STARTUPITEM_RH

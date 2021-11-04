@@ -1,0 +1,265 @@
+#!perl
+#
+# emulatorbuild
+#
+# Copyright (c) 2006 - 2007 Symbian Software Ltd.  All rights reserved.
+#
+
+use Getopt::Long;
+use File::Spec;
+use File::Basename;
+use File::Path;
+use File::Copy;
+use Cwd;
+
+my $verbose      = 0;
+my @obyFiles     = ();
+my $restore      = 0;
+my $help         = 0;
+my $composite    = 0;
+my $featman      = 0;
+my $featreg      = 0;
+my $featxml      = 0;
+my @inuptibyfiles = ();
+my @inuptobyfiles = ();
+
+my $RelToolsPath =
+  File::Spec->catdir( "apps", "reltools" );    #dummy path for reltools
+
+BEGIN {
+
+# Search the path from the ENV{PATH} list
+    my @pathArray = split( /\;/, $ENV{PATH} );
+    foreach my $path (@pathArray) {
+
+# check for an example cbr tool existence in each of the directories listed in env path
+        my @files = grep( /getenv\.bat$/i, glob("$path/*\.bat") );
+        if (@files) {
+            $RelToolsPath = $path;
+            last;
+        }
+    }
+    die "Error: Cannot find cbrtools path in path environment variable..\n"
+      if !-e $RelToolsPath;
+}
+
+use lib $RelToolsPath;
+use Utils;
+use FindBin;
+use lib "$FindBin::Bin";
+use EmulatorBuild;
+
+##############
+#
+# Main()
+#
+##############
+my $emulatorBuild = undef;
+
+{
+    ProcessCommandLine();
+    my $cwd = cwd();
+	my $drive = Win32::GetCwd();
+	$drive =~ s/^(\D:).*/$1/;
+	my $epocRoot = $ENV{EPOCROOT};
+	my $filePath = File::Spec->catdir($drive, $epocRoot, "epoc32", "release", "winscw");  
+	
+    if ( $featman ) {
+		if ( $composite ) {
+            print "Executing buildrom -D_NAND2 h4hrp techview platsec -fm=$featman @inuptibyfiles command.\n";
+			`buildrom -D_NAND2 h4hrp techview platsec -fm=$featman @inuptibyfiles @inuptobyfiles`;
+        }
+		else {
+		    print "Executing buildrom h4hrp techview platsec -fm=$featman @inuptibyfiles @inuptobyfiles command.\n";
+		    `buildrom h4hrp techview platsec -fm=$featman @inuptibyfiles @inuptobyfiles`;
+		}
+		opendir LISTHANDLE, $cwd;
+		my @list;
+		push @list, grep { /\.dat/i } readdir LISTHANDLE;
+		close LISTHANDLE;
+        foreach my $thisFile (@list) {
+		    my $file = File::Spec->catfile($cwd, $thisFile);
+		    CopyFile($file, $filePath, "udeb", "10205054");
+		    CopyFile($file, $filePath, "urel", "10205054");
+		}
+    }
+    elsif ( $featreg ) {
+		if ( $composite ) {
+		    print "Executing buildrom -D_NAND2 h4hrp techview platsec -fr=$featreg @inuptibyfiles @inuptobyfiles command.\n";
+            `buildrom -D_NAND2 h4hrp techview platsec -fr=$featreg @inuptibyfiles @inuptobyfiles`;
+        }
+		else {
+			print "Executing buildrom h4hrp techview platsec -fr=$featreg @inuptibyfiles @inuptobyfiles command.\n";
+			`buildrom h4hrp techview platsec -fr=$featreg @inuptibyfiles @inuptobyfiles`;
+		}
+		opendir LISTHANDLE, $cwd;
+		my @list;
+		push @list, grep { /\.cfg/i } readdir LISTHANDLE;
+		close LISTHANDLE;
+        foreach my $thisFile (@list) {
+		    my $file = File::Spec->catfile($cwd, $thisFile);
+		    CopyFile($file, $filePath, "udeb", "102744ca");
+		    CopyFile($file, $filePath, "urel", "102744ca");
+		}
+    }
+    elsif ( $featxml ) {
+		print "Executing features.pl $featxml command.\n";
+      	`features.pl $featxml `;
+		opendir LISTHANDLE, $cwd;
+		my @list;
+		push @list, grep { /\.dat/i } readdir LISTHANDLE;
+		close LISTHANDLE;
+        foreach my $thisFile (@list) {
+		    my $file = File::Spec->catfile($cwd, $thisFile);
+		    CopyFile($file, $filePath, "udeb", "10205054");
+		    CopyFile($file, $filePath, "urel", "10205054");
+		}
+    }
+	elsif ($restore) {
+        $emulatorBuild = EmulatorBuild->new($verbose);
+        $emulatorBuild->RestorePreviousConfiguration();
+        print "Emulator Environment - Restored Successfully\n";
+    }
+
+    elsif (@obyFiles) {
+        $emulatorBuild = EmulatorBuild->new( \@obyFiles, $verbose );
+        $emulatorBuild->ParseObyData();
+        $emulatorBuild->AddEmulatorFilesToList();
+        $emulatorBuild->RemoveHardwareSpecificFiles();
+        $emulatorBuild->ReplaceARMToWINSCW();
+        $emulatorBuild->CheckFileExistence();
+        $emulatorBuild->ArchiveFiles();
+        print "Emulator Environment - Configured Successfully\n";
+    }
+}
+
+sub ProcessCommandLine {
+    Getopt::Long::Configure("bundling");
+    GetOptions(
+        "h"   => \$help,
+        "v"   => \$verbose,
+        "r"   => \$restore,
+        "c"   => \$composite,
+        'fm=s' => \$featman,
+        'fr=s' => \$featreg,
+        'fx=s' => \$featxml,
+        	 	
+    );
+    if ($help) {
+        Usage();
+        exit 1;
+    }
+    if ($#ARGV >= 0) {
+	(@obyFiles) = (@ARGV);
+    }
+    if ( !@obyFiles and !$restore and !$help and !$featman and !$featreg and !$featxml) {
+        print "Argument/Options required required for processing\n";
+        $help = 1;
+    }	
+
+    if ( $restore and ($featman or $featreg or $featxml) ) {
+	    print "Error: -r option can't be use with --fm, --fr or --fx.\n";
+	  	Usage();
+		exit 1;
+	}	
+    if ( $composite and @obyFiles and !$featman and !$featreg and !$restore ) {
+        print "Error: oby files must be specified with --fm, --fr or -r options.\n";	
+        Usage();
+        exit 1;	  
+    }
+	if ( @obyFiles and $restore ) {
+        print "Invalid bundling of option sets\n";
+        $help = 1;
+    }
+	
+	my $count = 0;
+    foreach my $thisoption ( $featman, $featreg, $featxml ) {
+	  $count++ if ($thisoption);
+	  if ( $count > 2 ) {
+	      print "Error: You can't use more than one option at a time.\n";
+	      Usage();
+	      exit 1;
+	  }
+    }
+	
+
+    if (@obyFiles) {
+        @obyFiles = split( /,/, join( ',', @obyFiles ) );
+        my @tempArray = ();
+		
+        foreach my $obyFile (@obyFiles) {
+            push @inuptibyfiles, $obyFile
+              if ( $obyFile =~ /\.iby$/i );
+            push @inuptobyfiles, $obyFile
+			  if ( $obyFile =~ /\.oby$/i );
+            if ( !-f $obyFile ) {
+                $obyFile = File::Spec->catfile( Utils::EpocRoot() . 'epoc32',
+                    'rom', basename($obyFile) );
+                push @tempArray, $obyFile;
+                die "Error: The input file does not exist\n"
+                  if ( !-f $obyFile );
+            }
+            else {
+                push @tempArray, $obyFile;
+            }
+        }
+        @obyFiles = @tempArray;
+    }
+}
+
+sub CopyFile {
+  my $file = shift;
+  my $destPath = shift;
+  my $variant = shift;
+  my $privateNumber = shift;  
+  
+  my $destFile = File::Spec->catdir($destPath, $variant, "z", "private", $privateNumber);
+  mkpath ($destFile) unless (-d $destFile);
+  my $fileName = basename($file);
+ 
+  $destFile = File::Spec->catfile($destFile, $fileName);
+  print "Copying file $file to $destFile \n";
+  eval{ copy($file,$destFile) ;};
+  die "Error: File $file to $destFile. $@" if($@);
+}
+
+sub Usage {
+
+    #........1.........2.........3.........4.........5.........6.........7.....
+    print <<USAGE_EOF;
+
+Usage:
+	emulatorbuild [options] [obyfiles]
+
+Configures and restores the user file system according to the specification 
+defined by specified by pre-processed OBY file generated during buildrom process 
+for particular cut-off ROM
+
+User can specify more than a single OBY file input. This is provided to support composite rofs images
+
+The obyfile parameter specifies a file via a search path: if the
+filename is not matched or if nor path is specified, then buildrom will look in \\epoc32\\rom.
+
+The tool defaults to building an emulator environment configured when oby file names are inputted
+in the command line and when -r or -h is not used in the command line.
+
+The emulatorbuild identifies the unwanted binaries and data files not required for 
+the cut-off ROM environment and archives respective files from the users file system 
+to make sure that only mandatory files that are required for the emulator is made available
+
+The available special options are
+
+   -r			-- restores the configured emulator environment back to the previous configuration
+			   This option does not require any file name inputs
+   -v			-- verbose information displayed
+   -h			-- displays usage information
+   --fm         -- Executes buildrom tool and save features.dat file in private location.
+   --fr         -- Executes buildrom tool and save features.cfg file in private location.
+   --fx         -- Executes features.pl and save the  generated features.dat file in private location.
+
+P.S.:	Option -r cannot take any values
+	Option -v to be used with oby file inputs or -r option
+	For rofs images, input nand.oby and one or more nand.rofs[x].oby file names separated by white spaces
+
+USAGE_EOF
+}

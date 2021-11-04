@@ -1,0 +1,26 @@
+// APCAPTIONFILE.RH
+//
+// Copyright (c) 2000 Symbian Ltd.  All rights reserved.
+//
+//
+
+/** 
+* Contains definitions for the resource files that are input to 
+* caption files for Series 60
+*/
+
+
+/**
+@internalComponent
+*/
+#define KMaxCaption 256
+
+/**
+@publishedAll
+
+*/
+STRUCT CAPTION_DATA
+	{
+	LTEXT caption(KMaxCaption)="";
+	LTEXT shortcaption(KMaxCaption)="";
+	}

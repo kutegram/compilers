@@ -1,0 +1,592 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    [Anonymous Symbol]                       0x00000000   Number         0  QtMultimediaKit{00010103}-574.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  libc{00010000}-350.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3087.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtMultimediaKit{00010103}-577.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-670.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3088.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtMultimediaKit{00010103}-705.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-671.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-314.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtMultimediaKit{00010103}-706.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2188.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3189.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtMultimediaKit{00010103}-709.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2433.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3226.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtMultimediaKit{00010103}-712.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-274.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3227.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtMultimediaKit{00010103}-935.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-275.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3238.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtMultimediaKit{00010103}-938.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2817.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-331.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  libstdcpp{00010000}-988.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2823.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3689.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  libstdcpp{00010000}-992.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2842.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3691.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1492.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2847.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-65.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1523.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2848.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-70.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1525.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-304.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-95.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1526.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3083.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1830.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1531.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1773.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2122.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1534.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1777.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2130.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1560.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1784.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1764.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1610.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1826.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1766.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1622.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-188.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1763.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1760.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-158.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-184.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-183.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-180.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-190.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtMultimediaKit{00010103}-224.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtMultimediaKit{00010103}-222.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-187.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-186.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtMultimediaKit{00010103}-214.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtMultimediaKit{00010103}-212.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtMultimediaKit{00010103}-215.o ABSOLUTE
+    ..\..\..\..\EPOC32\BUILD\s60\osext\mobileruntime\group\LIBSTDCPP\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\src\cedar\generic\base\e32\compsupp\DRTAEABI\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\src\cedar\generic\base\e32\euser\EDLL\ARMV5\urel\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    \EPOC32\BUILD\src\cedar\generic\base\e32\euser\EUSER\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBC\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBDL\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBM\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBPTHREAD\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \\EPOC32\\BUILD\\src\\cedar\\generic\\base\\e32\\euser\\EDLL\\ARMV5\\urel\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    \\src\\cedar\\generic\\base\\e32\\compsupp\\RVCT2_2\\ucppinit_aeabi.cpp 0x00000000   Number         0  ucppinit_aeabi.o ABSOLUTE
+    \dev\symb\SDKs\32\EPOC32\BUILD\iwmake\buildS60____PADDING________\src\QTCORE_DLL\ARMV6\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \dev\symb\SDKs\32\EPOC32\BUILD\iwmake\buildS60____PADDING________\src\QTGUI_DLL\ARMV6\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \dev\symb\SDKs\32\EPOC32\BUILD\iwmake\buildS60____PADDING________\src\QTNETWORK_DLL\ARMV6\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \s60\5.0\EPOC32\BUILD\scripts\5.0\qtmobility\QTMULTIMEDIAKIT_DLL\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \s60\5.0\EPOC32\BUILD\scripts\5.0\qtmobility\QTMULTIMEDIAKIT_M3U_DLL\ARMV5\urel\qtmultimediakit_m3u{000a0000}.s 0x00000000   Number         0  qtmultimediakit_m3u{000a0000}.exp ABSOLUTE
+    \scripts\5.0\qtmobility\build\Release\qtmultimediakit_m3u\moc\moc_qm3uhandler.cpp 0x00000000   Number         0  qtmultimediakit_m3u.in ABSOLUTE
+    \scripts\5.0\qtmobility\plugins\multimedia\m3u\main.cpp 0x00000000   Number         0  qtmultimediakit_m3u.in ABSOLUTE
+    \scripts\5.0\qtmobility\plugins\multimedia\m3u\qm3uhandler.cpp 0x00000000   Number         0  qtmultimediakit_m3u.in ABSOLUTE
+    \src\cedar\generic\base\e32\compsupp\RVCT2_2\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    \src\cedar\generic\base\e32\compsupp\RVCT2_2\ucppinit_aeabi.cpp 0x00000000   Number         0  ucppinit_aeabi.o ABSOLUTE
+    \src\cedar\generic\base\e32\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       72  ucppinit_aeabi.o(.emb_text)
+    skip                                     0x0000803c   ARM Code       0  ucppinit_aeabi.o(.emb_text)
+    loop                                     0x0000804c   ARM Code       0  ucppinit_aeabi.o(.emb_text)
+    fpinit                                   0x00008064   Data           0  ucppinit_aeabi.o(.emb_text)
+    base                                     0x00008068   Data           0  ucppinit_aeabi.o(.emb_text)
+    limit                                    0x0000806c   Data           0  ucppinit_aeabi.o(.emb_text)
+    .text                                    0x00008070   Section       68  qtmultimediakit_m3u.in(.text)
+    .text                                    0x000080b4   Section      120  qtmultimediakit_m3u.in(.text)
+    .text                                    0x0000812c   Section      492  qtmultimediakit_m3u.in(.text)
+    .text                                    0x00008318   Section       40  uc_dll.o(.text)
+    .text                                    0x00008340   Section      148  ucppfini.o(.text)
+    .text.clean                              0x000083d4   Section       28  qtmultimediakit_m3u.in(.text.clean)
+    .text.clean                              0x000083f0   Section       88  qtmultimediakit_m3u.in(.text.clean)
+    ExportTable                              0x00008448   Section       16  qtmultimediakit_m3u{000a0000}.exp(ExportTable)
+    StubCode                                 0x00008458   Section        8  QtMultimediaKit{00010103}-212.o(StubCode)
+    theImportedSymbol                        0x0000845c   Data           0  QtMultimediaKit{00010103}-212.o(StubCode)
+    StubCode                                 0x00008460   Section        8  QtMultimediaKit{00010103}-214.o(StubCode)
+    theImportedSymbol                        0x00008464   Data           0  QtMultimediaKit{00010103}-214.o(StubCode)
+    StubCode                                 0x00008468   Section        8  QtMultimediaKit{00010103}-215.o(StubCode)
+    theImportedSymbol                        0x0000846c   Data           0  QtMultimediaKit{00010103}-215.o(StubCode)
+    StubCode                                 0x00008470   Section        8  QtMultimediaKit{00010103}-222.o(StubCode)
+    theImportedSymbol                        0x00008474   Data           0  QtMultimediaKit{00010103}-222.o(StubCode)
+    StubCode                                 0x00008478   Section        8  QtMultimediaKit{00010103}-224.o(StubCode)
+    theImportedSymbol                        0x0000847c   Data           0  QtMultimediaKit{00010103}-224.o(StubCode)
+    StubCode                                 0x00008480   Section        8  QtMultimediaKit{00010103}-574.o(StubCode)
+    theImportedSymbol                        0x00008484   Data           0  QtMultimediaKit{00010103}-574.o(StubCode)
+    StubCode                                 0x00008488   Section        8  QtMultimediaKit{00010103}-577.o(StubCode)
+    theImportedSymbol                        0x0000848c   Data           0  QtMultimediaKit{00010103}-577.o(StubCode)
+    StubCode                                 0x00008490   Section        8  QtMultimediaKit{00010103}-705.o(StubCode)
+    theImportedSymbol                        0x00008494   Data           0  QtMultimediaKit{00010103}-705.o(StubCode)
+    StubCode                                 0x00008498   Section        8  QtMultimediaKit{00010103}-706.o(StubCode)
+    theImportedSymbol                        0x0000849c   Data           0  QtMultimediaKit{00010103}-706.o(StubCode)
+    StubCode                                 0x000084a0   Section        8  QtMultimediaKit{00010103}-709.o(StubCode)
+    theImportedSymbol                        0x000084a4   Data           0  QtMultimediaKit{00010103}-709.o(StubCode)
+    StubCode                                 0x000084a8   Section        8  QtMultimediaKit{00010103}-712.o(StubCode)
+    theImportedSymbol                        0x000084ac   Data           0  QtMultimediaKit{00010103}-712.o(StubCode)
+    StubCode                                 0x000084b0   Section        8  QtMultimediaKit{00010103}-935.o(StubCode)
+    theImportedSymbol                        0x000084b4   Data           0  QtMultimediaKit{00010103}-935.o(StubCode)
+    StubCode                                 0x000084b8   Section        8  QtMultimediaKit{00010103}-938.o(StubCode)
+    theImportedSymbol                        0x000084bc   Data           0  QtMultimediaKit{00010103}-938.o(StubCode)
+    StubCode                                 0x000084c0   Section        8  libstdcpp{00010000}-988.o(StubCode)
+    theImportedSymbol                        0x000084c4   Data           0  libstdcpp{00010000}-988.o(StubCode)
+    StubCode                                 0x000084c8   Section        8  libstdcpp{00010000}-992.o(StubCode)
+    theImportedSymbol                        0x000084cc   Data           0  libstdcpp{00010000}-992.o(StubCode)
+    StubCode                                 0x000084d0   Section        8  QtCore{00040703}-1492.o(StubCode)
+    theImportedSymbol                        0x000084d4   Data           0  QtCore{00040703}-1492.o(StubCode)
+    StubCode                                 0x000084d8   Section        8  QtCore{00040703}-1523.o(StubCode)
+    theImportedSymbol                        0x000084dc   Data           0  QtCore{00040703}-1523.o(StubCode)
+    StubCode                                 0x000084e0   Section        8  QtCore{00040703}-1525.o(StubCode)
+    theImportedSymbol                        0x000084e4   Data           0  QtCore{00040703}-1525.o(StubCode)
+    StubCode                                 0x000084e8   Section        8  QtCore{00040703}-1526.o(StubCode)
+    theImportedSymbol                        0x000084ec   Data           0  QtCore{00040703}-1526.o(StubCode)
+    StubCode                                 0x000084f0   Section        8  QtCore{00040703}-1531.o(StubCode)
+    theImportedSymbol                        0x000084f4   Data           0  QtCore{00040703}-1531.o(StubCode)
+    StubCode                                 0x000084f8   Section        8  QtCore{00040703}-1534.o(StubCode)
+    theImportedSymbol                        0x000084fc   Data           0  QtCore{00040703}-1534.o(StubCode)
+    StubCode                                 0x00008500   Section        8  QtCore{00040703}-1560.o(StubCode)
+    theImportedSymbol                        0x00008504   Data           0  QtCore{00040703}-1560.o(StubCode)
+    StubCode                                 0x00008508   Section        8  QtCore{00040703}-1610.o(StubCode)
+    theImportedSymbol                        0x0000850c   Data           0  QtCore{00040703}-1610.o(StubCode)
+    StubCode                                 0x00008510   Section        8  QtCore{00040703}-1622.o(StubCode)
+    theImportedSymbol                        0x00008514   Data           0  QtCore{00040703}-1622.o(StubCode)
+    StubCode                                 0x00008518   Section        8  QtCore{00040703}-1760.o(StubCode)
+    theImportedSymbol                        0x0000851c   Data           0  QtCore{00040703}-1760.o(StubCode)
+    StubCode                                 0x00008520   Section        8  QtCore{00040703}-1763.o(StubCode)
+    theImportedSymbol                        0x00008524   Data           0  QtCore{00040703}-1763.o(StubCode)
+    StubCode                                 0x00008528   Section        8  QtCore{00040703}-1764.o(StubCode)
+    theImportedSymbol                        0x0000852c   Data           0  QtCore{00040703}-1764.o(StubCode)
+    StubCode                                 0x00008530   Section        8  QtCore{00040703}-1766.o(StubCode)
+    theImportedSymbol                        0x00008534   Data           0  QtCore{00040703}-1766.o(StubCode)
+    StubCode                                 0x00008538   Section        8  QtCore{00040703}-1773.o(StubCode)
+    theImportedSymbol                        0x0000853c   Data           0  QtCore{00040703}-1773.o(StubCode)
+    StubCode                                 0x00008540   Section        8  QtCore{00040703}-1777.o(StubCode)
+    theImportedSymbol                        0x00008544   Data           0  QtCore{00040703}-1777.o(StubCode)
+    StubCode                                 0x00008548   Section        8  QtCore{00040703}-1784.o(StubCode)
+    theImportedSymbol                        0x0000854c   Data           0  QtCore{00040703}-1784.o(StubCode)
+    StubCode                                 0x00008550   Section        8  QtCore{00040703}-1826.o(StubCode)
+    theImportedSymbol                        0x00008554   Data           0  QtCore{00040703}-1826.o(StubCode)
+    StubCode                                 0x00008558   Section        8  QtCore{00040703}-1830.o(StubCode)
+    theImportedSymbol                        0x0000855c   Data           0  QtCore{00040703}-1830.o(StubCode)
+    StubCode                                 0x00008560   Section        8  QtCore{00040703}-2122.o(StubCode)
+    theImportedSymbol                        0x00008564   Data           0  QtCore{00040703}-2122.o(StubCode)
+    StubCode                                 0x00008568   Section        8  QtCore{00040703}-2130.o(StubCode)
+    theImportedSymbol                        0x0000856c   Data           0  QtCore{00040703}-2130.o(StubCode)
+    StubCode                                 0x00008570   Section        8  QtCore{00040703}-2188.o(StubCode)
+    theImportedSymbol                        0x00008574   Data           0  QtCore{00040703}-2188.o(StubCode)
+    StubCode                                 0x00008578   Section        8  QtCore{00040703}-2433.o(StubCode)
+    theImportedSymbol                        0x0000857c   Data           0  QtCore{00040703}-2433.o(StubCode)
+    StubCode                                 0x00008580   Section        8  QtCore{00040703}-274.o(StubCode)
+    theImportedSymbol                        0x00008584   Data           0  QtCore{00040703}-274.o(StubCode)
+    StubCode                                 0x00008588   Section        8  QtCore{00040703}-275.o(StubCode)
+    theImportedSymbol                        0x0000858c   Data           0  QtCore{00040703}-275.o(StubCode)
+    StubCode                                 0x00008590   Section        8  QtCore{00040703}-2817.o(StubCode)
+    theImportedSymbol                        0x00008594   Data           0  QtCore{00040703}-2817.o(StubCode)
+    StubCode                                 0x00008598   Section        8  QtCore{00040703}-2823.o(StubCode)
+    theImportedSymbol                        0x0000859c   Data           0  QtCore{00040703}-2823.o(StubCode)
+    StubCode                                 0x000085a0   Section        8  QtCore{00040703}-2842.o(StubCode)
+    theImportedSymbol                        0x000085a4   Data           0  QtCore{00040703}-2842.o(StubCode)
+    StubCode                                 0x000085a8   Section        8  QtCore{00040703}-2847.o(StubCode)
+    theImportedSymbol                        0x000085ac   Data           0  QtCore{00040703}-2847.o(StubCode)
+    StubCode                                 0x000085b0   Section        8  QtCore{00040703}-2848.o(StubCode)
+    theImportedSymbol                        0x000085b4   Data           0  QtCore{00040703}-2848.o(StubCode)
+    StubCode                                 0x000085b8   Section        8  QtCore{00040703}-304.o(StubCode)
+    theImportedSymbol                        0x000085bc   Data           0  QtCore{00040703}-304.o(StubCode)
+    StubCode                                 0x000085c0   Section        8  QtCore{00040703}-3083.o(StubCode)
+    theImportedSymbol                        0x000085c4   Data           0  QtCore{00040703}-3083.o(StubCode)
+    StubCode                                 0x000085c8   Section        8  QtCore{00040703}-3087.o(StubCode)
+    theImportedSymbol                        0x000085cc   Data           0  QtCore{00040703}-3087.o(StubCode)
+    StubCode                                 0x000085d0   Section        8  QtCore{00040703}-3088.o(StubCode)
+    theImportedSymbol                        0x000085d4   Data           0  QtCore{00040703}-3088.o(StubCode)
+    StubCode                                 0x000085d8   Section        8  QtCore{00040703}-314.o(StubCode)
+    theImportedSymbol                        0x000085dc   Data           0  QtCore{00040703}-314.o(StubCode)
+    StubCode                                 0x000085e0   Section        8  QtCore{00040703}-3189.o(StubCode)
+    theImportedSymbol                        0x000085e4   Data           0  QtCore{00040703}-3189.o(StubCode)
+    StubCode                                 0x000085e8   Section        8  QtCore{00040703}-3226.o(StubCode)
+    theImportedSymbol                        0x000085ec   Data           0  QtCore{00040703}-3226.o(StubCode)
+    StubCode                                 0x000085f0   Section        8  QtCore{00040703}-3227.o(StubCode)
+    theImportedSymbol                        0x000085f4   Data           0  QtCore{00040703}-3227.o(StubCode)
+    StubCode                                 0x000085f8   Section        8  QtCore{00040703}-3238.o(StubCode)
+    theImportedSymbol                        0x000085fc   Data           0  QtCore{00040703}-3238.o(StubCode)
+    StubCode                                 0x00008600   Section        8  QtCore{00040703}-331.o(StubCode)
+    theImportedSymbol                        0x00008604   Data           0  QtCore{00040703}-331.o(StubCode)
+    StubCode                                 0x00008608   Section        8  QtCore{00040703}-3689.o(StubCode)
+    theImportedSymbol                        0x0000860c   Data           0  QtCore{00040703}-3689.o(StubCode)
+    StubCode                                 0x00008610   Section        8  QtCore{00040703}-3691.o(StubCode)
+    theImportedSymbol                        0x00008614   Data           0  QtCore{00040703}-3691.o(StubCode)
+    StubCode                                 0x00008618   Section        8  QtCore{00040703}-65.o(StubCode)
+    theImportedSymbol                        0x0000861c   Data           0  QtCore{00040703}-65.o(StubCode)
+    StubCode                                 0x00008620   Section        8  QtCore{00040703}-70.o(StubCode)
+    theImportedSymbol                        0x00008624   Data           0  QtCore{00040703}-70.o(StubCode)
+    StubCode                                 0x00008628   Section        8  QtCore{00040703}-95.o(StubCode)
+    theImportedSymbol                        0x0000862c   Data           0  QtCore{00040703}-95.o(StubCode)
+    StubCode                                 0x00008630   Section        8  libc{00010000}-350.o(StubCode)
+    theImportedSymbol                        0x00008634   Data           0  libc{00010000}-350.o(StubCode)
+    StubCode                                 0x00008638   Section        8  euser{000a0000}-670.o(StubCode)
+    theImportedSymbol                        0x0000863c   Data           0  euser{000a0000}-670.o(StubCode)
+    StubCode                                 0x00008640   Section        8  euser{000a0000}-671.o(StubCode)
+    theImportedSymbol                        0x00008644   Data           0  euser{000a0000}-671.o(StubCode)
+    StubCode                                 0x00008648   Section        8  drtaeabi{000a0000}-158.o(StubCode)
+    theImportedSymbol                        0x0000864c   Data           0  drtaeabi{000a0000}-158.o(StubCode)
+    StubCode                                 0x00008650   Section        8  drtaeabi{000a0000}-180.o(StubCode)
+    theImportedSymbol                        0x00008654   Data           0  drtaeabi{000a0000}-180.o(StubCode)
+    StubCode                                 0x00008658   Section        8  drtaeabi{000a0000}-183.o(StubCode)
+    theImportedSymbol                        0x0000865c   Data           0  drtaeabi{000a0000}-183.o(StubCode)
+    StubCode                                 0x00008660   Section        8  drtaeabi{000a0000}-184.o(StubCode)
+    theImportedSymbol                        0x00008664   Data           0  drtaeabi{000a0000}-184.o(StubCode)
+    StubCode                                 0x00008668   Section        8  drtaeabi{000a0000}-186.o(StubCode)
+    theImportedSymbol                        0x0000866c   Data           0  drtaeabi{000a0000}-186.o(StubCode)
+    StubCode                                 0x00008670   Section        8  drtaeabi{000a0000}-187.o(StubCode)
+    theImportedSymbol                        0x00008674   Data           0  drtaeabi{000a0000}-187.o(StubCode)
+    StubCode                                 0x00008678   Section        8  drtaeabi{000a0000}-188.o(StubCode)
+    theImportedSymbol                        0x0000867c   Data           0  drtaeabi{000a0000}-188.o(StubCode)
+    StubCode                                 0x00008680   Section        8  drtaeabi{000a0000}-190.o(StubCode)
+    theImportedSymbol                        0x00008684   Data           0  drtaeabi{000a0000}-190.o(StubCode)
+    i._ZN11QStringListD1Ev                   0x00008688   Section        8  qtmultimediakit_m3u.in(i._ZN11QStringListD1Ev)
+    i._ZN15QBasicAtomicInt3refEv             0x00008690   Section       18  qtmultimediakit_m3u.in(i._ZN15QBasicAtomicInt3refEv)
+    i._ZN15QBasicAtomicInt5derefEv           0x000086a2   Section       18  qtmultimediakit_m3u.in(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN18QM3uPlaylistReader5closeEv        0x000086b4   Section        2  qtmultimediakit_m3u.in(i._ZN18QM3uPlaylistReader5closeEv)
+    i._ZN18QM3uPlaylistReader8readItemEv     0x000086b6   Section      306  qtmultimediakit_m3u.in(i._ZN18QM3uPlaylistReader8readItemEv)
+    i._ZN18QM3uPlaylistReader8readItemEv.clean 0x000087e8   Section       52  qtmultimediakit_m3u.in(i._ZN18QM3uPlaylistReader8readItemEv.clean)
+    i._ZN18QM3uPlaylistReaderC1EP9QIODevice  0x0000881c   Section       84  qtmultimediakit_m3u.in(i._ZN18QM3uPlaylistReaderC1EP9QIODevice)
+    i._ZN18QM3uPlaylistReaderC1EP9QIODevice.clean 0x00008870   Section       38  qtmultimediakit_m3u.in(i._ZN18QM3uPlaylistReaderC1EP9QIODevice.clean)
+    i._ZN18QM3uPlaylistReaderC1ERK4QUrl      0x00008898   Section      184  qtmultimediakit_m3u.in(i._ZN18QM3uPlaylistReaderC1ERK4QUrl)
+    i._ZN18QM3uPlaylistReaderC1ERK4QUrl.clean 0x00008950   Section       52  qtmultimediakit_m3u.in(i._ZN18QM3uPlaylistReaderC1ERK4QUrl.clean)
+    i._ZN18QM3uPlaylistReaderD0Ev            0x00008984   Section       16  qtmultimediakit_m3u.in(i._ZN18QM3uPlaylistReaderD0Ev)
+    i._ZN18QM3uPlaylistReaderD1Ev            0x00008994   Section       72  qtmultimediakit_m3u.in(i._ZN18QM3uPlaylistReaderD1Ev)
+    i._ZN18QM3uPlaylistReaderD1Ev.clean      0x000089dc   Section       28  qtmultimediakit_m3u.in(i._ZN18QM3uPlaylistReaderD1Ev.clean)
+    i._ZN18QM3uPlaylistWriter5closeEv        0x000089f8   Section        2  qtmultimediakit_m3u.in(i._ZN18QM3uPlaylistWriter5closeEv)
+    i._ZN18QM3uPlaylistWriter9writeItemERK13QMediaContent 0x000089fa   Section       54  qtmultimediakit_m3u.in(i._ZN18QM3uPlaylistWriter9writeItemERK13QMediaContent)
+    i._ZN18QM3uPlaylistWriter9writeItemERK13QMediaContent.clean 0x00008a30   Section       16  qtmultimediakit_m3u.in(i._ZN18QM3uPlaylistWriter9writeItemERK13QMediaContent.clean)
+    i._ZN18QM3uPlaylistWriterD0Ev            0x00008a40   Section       16  qtmultimediakit_m3u.in(i._ZN18QM3uPlaylistWriterD0Ev)
+    i._ZN18QM3uPlaylistWriterD1Ev            0x00008a50   Section       32  qtmultimediakit_m3u.in(i._ZN18QM3uPlaylistWriterD1Ev)
+    i._ZN18QM3uPlaylistWriterD1Ev.clean      0x00008a70   Section       10  qtmultimediakit_m3u.in(i._ZN18QM3uPlaylistWriterD1Ev.clean)
+    i._ZN7QStringC1ERKS_                     0x00008a7a   Section       16  qtmultimediakit_m3u.in(i._ZN7QStringC1ERKS_)
+    i._ZN7QStringD1Ev                        0x00008a8a   Section       24  qtmultimediakit_m3u.in(i._ZN7QStringD1Ev)
+    i._ZNK10QByteArray7isEmptyEv             0x00008aa2   Section       16  qtmultimediakit_m3u.in(i._ZNK10QByteArray7isEmptyEv)
+    i._ZNK18QM3uPlaylistReader5atEndEv       0x00008ab2   Section       10  qtmultimediakit_m3u.in(i._ZNK18QM3uPlaylistReader5atEndEv)
+    i._ZNK9QListData3endEv                   0x00008abc   Section       12  qtmultimediakit_m3u.in(i._ZNK9QListData3endEv)
+    i._ZNK9QListData5beginEv                 0x00008ac8   Section       12  qtmultimediakit_m3u.in(i._ZNK9QListData5beginEv)
+    i._ZdlPvS_                               0x00008ad4   Section        2  qtmultimediakit_m3u.in(i._ZdlPvS_)
+    i._ZeqRK10QByteArrayPKc                  0x00008ad6   Section       28  qtmultimediakit_m3u.in(i._ZeqRK10QByteArrayPKc)
+    i._ZnwjPv                                0x00008af2   Section        4  qtmultimediakit_m3u.in(i._ZnwjPv)
+    t._ZN5QListI7QStringE13detach_helperEv   0x00008af6   Section       88  qtmultimediakit_m3u.in(t._ZN5QListI7QStringE13detach_helperEv)
+    t._ZN5QListI7QStringE13detach_helperEv.clean 0x00008b4e   Section        8  qtmultimediakit_m3u.in(t._ZN5QListI7QStringE13detach_helperEv.clean)
+    t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_ 0x00008b56   Section       26  qtmultimediakit_m3u.in(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_)
+    t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_.clean 0x00008b70   Section       12  qtmultimediakit_m3u.in(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_.clean)
+    t._ZN5QListI7QStringE18detach_helper_growEii 0x00008b7c   Section      186  qtmultimediakit_m3u.in(t._ZN5QListI7QStringE18detach_helper_growEii)
+    t._ZN5QListI7QStringE18detach_helper_growEii.clean 0x00008c36   Section        8  qtmultimediakit_m3u.in(t._ZN5QListI7QStringE18detach_helper_growEii.clean)
+    t._ZN5QListI7QStringE4freeEPN9QListData4DataE 0x00008c3e   Section       48  qtmultimediakit_m3u.in(t._ZN5QListI7QStringE4freeEPN9QListData4DataE)
+    t._ZN5QListI7QStringE6appendERKS0_       0x00008c70   Section       96  qtmultimediakit_m3u.in(t._ZN5QListI7QStringE6appendERKS0_)
+    t._ZN5QListI7QStringE6appendERKS0_.clean 0x00008cd0   Section        8  qtmultimediakit_m3u.in(t._ZN5QListI7QStringE6appendERKS0_.clean)
+    t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_ 0x00008cd8   Section       70  qtmultimediakit_m3u.in(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_)
+    t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_.clean 0x00008d1e   Section       22  qtmultimediakit_m3u.in(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_.clean)
+    t._ZN5QListI7QStringED1Ev                0x00008d34   Section       30  qtmultimediakit_m3u.in(t._ZN5QListI7QStringED1Ev)
+    t._ZN8QPointerI7QObjectED1Ev             0x00008d52   Section       12  qtmultimediakit_m3u.in(t._ZN8QPointerI7QObjectED1Ev)
+    .extab.qt_plugin_instance                0x00008d60   Data           0  qtmultimediakit_m3u.in(.ARM.extab)
+    .extab._ZNK18QM3uPlaylistPlugin7canReadERK4QUrlRK10QByteArray 0x00008d78   Data           0  qtmultimediakit_m3u.in(.ARM.extab)
+    .extab._ZNK18QM3uPlaylistPlugin4keysEv   0x00008db0   Data           0  qtmultimediakit_m3u.in(.ARM.extab)
+    .extab._ZN18QM3uPlaylistPlugin12createReaderEP9QIODeviceRK10QByteArray 0x00008dd0   Data           0  qtmultimediakit_m3u.in(.ARM.extab)
+    .extab._ZN18QM3uPlaylistPlugin12createReaderERK4QUrlRK10QByteArray 0x00008de0   Data           0  qtmultimediakit_m3u.in(.ARM.extab)
+    .extab._ZN18QM3uPlaylistPlugin12createWriterEP9QIODeviceRK10QByteArray 0x00008df0   Data           0  qtmultimediakit_m3u.in(.ARM.extab)
+    .extab._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_ 0x00008e08   Data           0  qtmultimediakit_m3u.in(.ARM.extab)
+    .extab._ZN5QListI7QStringE18detach_helper_growEii 0x00008e2c   Data           0  qtmultimediakit_m3u.in(.ARM.extab)
+    .extab._ZN18QM3uPlaylistReader8readItemEv 0x00008e5c   Data           0  qtmultimediakit_m3u.in(.ARM.extab)
+    .extab._ZN18QM3uPlaylistReaderC1ERK4QUrl 0x00008f0c   Data           0  qtmultimediakit_m3u.in(.ARM.extab)
+    .extab._ZN18QM3uPlaylistReaderD1Ev       0x00008f54   Data           0  qtmultimediakit_m3u.in(.ARM.extab)
+    .extab._ZN18QM3uPlaylistWriterD1Ev       0x00008f74   Data           0  qtmultimediakit_m3u.in(.ARM.extab)
+    .extab._ZN5QListI7QStringE13detach_helperEv 0x00008f84   Data           0  qtmultimediakit_m3u.in(.ARM.extab)
+    .extab._ZN5QListI7QStringE6appendERKS0_  0x00008fa0   Data           0  qtmultimediakit_m3u.in(.ARM.extab)
+    .extab._ZN18QM3uPlaylistReaderC1EP9QIODevice 0x00008fd0   Data           0  qtmultimediakit_m3u.in(.ARM.extab)
+    .extab._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_ 0x00008ff8   Data           0  qtmultimediakit_m3u.in(.ARM.extab)
+    .extab._ZN18QM3uPlaylistWriter9writeItemERK13QMediaContent 0x00009008   Data           0  qtmultimediakit_m3u.in(.ARM.extab)
+    .constdata$1                             0x00009028   Data           0  qtmultimediakit_m3u.in(.constdata)
+    qt_meta_stringdata_QM3uPlaylistPlugin    0x00009028   Data          20  qtmultimediakit_m3u.in(.constdata)
+    .constdata                               0x00009028   Section       36  qtmultimediakit_m3u.in(.constdata)
+    .constdata$10                            0x0000904c   Data           0  qtmultimediakit_m3u.in(.constdata)
+    qt_meta_data_QM3uPlaylistPlugin          0x0000904c   Data          60  qtmultimediakit_m3u.in(.constdata)
+    .constdata                               0x0000904c   Section       60  qtmultimediakit_m3u.in(.constdata)
+    .constdata$1                             0x00009088   Data           0  qtmultimediakit_m3u.in(.constdata)
+    qt_plugin_verification_data              0x00009088   Data          91  qtmultimediakit_m3u.in(.constdata)
+    .constdata                               0x00009088   Section       91  qtmultimediakit_m3u.in(.constdata)
+    .constdata__ZTI18QM3uPlaylistPlugin      0x000090e4   Section       12  qtmultimediakit_m3u.in(.constdata__ZTI18QM3uPlaylistPlugin)
+    .constdata__ZTI18QM3uPlaylistReader      0x000090f0   Section       12  qtmultimediakit_m3u.in(.constdata__ZTI18QM3uPlaylistReader)
+    .constdata__ZTI18QM3uPlaylistWriter      0x000090fc   Section       12  qtmultimediakit_m3u.in(.constdata__ZTI18QM3uPlaylistWriter)
+    .constdata__ZTS18QM3uPlaylistPlugin      0x00009108   Section       21  qtmultimediakit_m3u.in(.constdata__ZTS18QM3uPlaylistPlugin)
+    .constdata__ZTS18QM3uPlaylistReader      0x0000911d   Section       21  qtmultimediakit_m3u.in(.constdata__ZTS18QM3uPlaylistReader)
+    .constdata__ZTS18QM3uPlaylistWriter      0x00009132   Section       21  qtmultimediakit_m3u.in(.constdata__ZTS18QM3uPlaylistWriter)
+    .constdata__ZTV18QM3uPlaylistPlugin      0x00009148   Section      128  qtmultimediakit_m3u.in(.constdata__ZTV18QM3uPlaylistPlugin)
+    .constdata__ZTV18QM3uPlaylistReader      0x000091c8   Section       28  qtmultimediakit_m3u.in(.constdata__ZTV18QM3uPlaylistReader)
+    .constdata__ZTV18QM3uPlaylistWriter      0x000091e4   Section       24  qtmultimediakit_m3u.in(.constdata__ZTV18QM3uPlaylistWriter)
+    .ARM.exidx                               0x000091fc   Section        8  ucppinit_aeabi.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  qtmultimediakit_m3u.in(.data)
+    _ZGV_instance@qt_plugin_instance_0       0x00400000   Data           4  qtmultimediakit_m3u.in(.data)
+    .data                                    0x00400000   Section        8  qtmultimediakit_m3u.in(.data)
+    _instance@qt_plugin_instance_1           0x00400004   Data           4  qtmultimediakit_m3u.in(.data)
+    .data$0                                  0x00400008   Data           0  ucppfini.o(.data)
+    .data                                    0x00400008   Section        4  ucppfini.o(.data)
+    .bss$5                                   0x0040000c   Data           0  ucppfini.o(.bss)
+    dtor_rec                                 0x0040000c   Data        2048  ucppfini.o(.bss)
+    .bss                                     0x0040000c   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$IEEEJ$EBA8$UX$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>112  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>113  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>130  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>13a  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>14b  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>41  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>46  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>5d4  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>5f  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>5f3  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>5f5  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>5f6  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>5fb  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>5fe  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>618  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>64a  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>656  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e0  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e3  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e4  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e6  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6ed  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6f1  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6f8  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>722  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>726  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>84a  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>852  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>88c  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>981  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>b01  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>b07  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>b1a  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>b1f  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>b20  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>c0b  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>c0f  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>c10  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>c75  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>c9a  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>c9b  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>ca6  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>e69  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>e6b  - Undefined Reference
+    #<DLL>QtMultimediaKit{00010103}[2002ac77].dll#<\DLL>23e  - Undefined Reference
+    #<DLL>QtMultimediaKit{00010103}[2002ac77].dll#<\DLL>241  - Undefined Reference
+    #<DLL>QtMultimediaKit{00010103}[2002ac77].dll#<\DLL>2c1  - Undefined Reference
+    #<DLL>QtMultimediaKit{00010103}[2002ac77].dll#<\DLL>2c2  - Undefined Reference
+    #<DLL>QtMultimediaKit{00010103}[2002ac77].dll#<\DLL>2c5  - Undefined Reference
+    #<DLL>QtMultimediaKit{00010103}[2002ac77].dll#<\DLL>2c8  - Undefined Reference
+    #<DLL>QtMultimediaKit{00010103}[2002ac77].dll#<\DLL>3a7  - Undefined Reference
+    #<DLL>QtMultimediaKit{00010103}[2002ac77].dll#<\DLL>3aa  - Undefined Reference
+    #<DLL>QtMultimediaKit{00010103}[2002ac77].dll#<\DLL>d4  - Undefined Reference
+    #<DLL>QtMultimediaKit{00010103}[2002ac77].dll#<\DLL>d6  - Undefined Reference
+    #<DLL>QtMultimediaKit{00010103}[2002ac77].dll#<\DLL>d7  - Undefined Reference
+    #<DLL>QtMultimediaKit{00010103}[2002ac77].dll#<\DLL>de  - Undefined Reference
+    #<DLL>QtMultimediaKit{00010103}[2002ac77].dll#<\DLL>e0  - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>9e     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>b4     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>b7     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>b8     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>ba     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>bb     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>bc     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>be     - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>29e  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>29f  - Undefined Reference
+    #<DLL>libc{00010000}[10207369].dll#<\DLL>15e  - Undefined Reference
+    #<DLL>libstdcpp{00010000}[10282872].dll#<\DLL>3dc  - Undefined Reference
+    #<DLL>libstdcpp{00010000}[10282872].dll#<\DLL>3e0  - Undefined Reference
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    QMediaPlaylistIOPlugin::staticMetaObject  - Undefined Reference
+    QListData::shared_null                    - Undefined Reference
+    typeinfo for QMediaPlaylistReader         - Undefined Reference
+    typeinfo for QMediaPlaylistWriter         - Undefined Reference
+    typeinfo for QMediaPlaylistIOPlugin       - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    _fp_init                                  - Undefined Weak Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      72  ucppinit_aeabi.o(.emb_text)
+    QM3uPlaylistPlugin::getStaticMetaObject() 0x00008071   Thumb Code     4  qtmultimediakit_m3u.in(.text)
+    std::nothrow                             0x00008071   Thumb Code     0  ucppinit_aeabi.o(.emb_text)
+    QM3uPlaylistPlugin::metaObject() const   0x00008075   Thumb Code    12  qtmultimediakit_m3u.in(.text)
+    QM3uPlaylistPlugin::qt_metacast(const char*) 0x00008081   Thumb Code    40  qtmultimediakit_m3u.in(.text)
+    QM3uPlaylistPlugin::qt_metacall(QMetaObject::Call, int, void**) 0x000080a9   Thumb Code     8  qtmultimediakit_m3u.in(.text)
+    qt_plugin_query_verification_data        0x000080b5   Thumb Code     4  qtmultimediakit_m3u.in(.text)
+    qt_plugin_instance                       0x000080b9   Thumb Code    96  qtmultimediakit_m3u.in(.text)
+    QM3uPlaylistPlugin::QM3uPlaylistPlugin(QObject*) 0x0000812d   Thumb Code    16  qtmultimediakit_m3u.in(.text)
+    QM3uPlaylistPlugin::QM3uPlaylistPlugin__sub_object(QObject*) 0x0000812d   Thumb Code     0  qtmultimediakit_m3u.in(.text)
+    QM3uPlaylistPlugin::~QM3uPlaylistPlugin() 0x0000813d   Thumb Code     8  qtmultimediakit_m3u.in(.text)
+    QM3uPlaylistPlugin::~QM3uPlaylistPlugin__sub_object() 0x0000813d   Thumb Code     0  qtmultimediakit_m3u.in(.text)
+    QM3uPlaylistPlugin::~QM3uPlaylistPlugin__deallocating() 0x00008145   Thumb Code    16  qtmultimediakit_m3u.in(.text)
+    thunk{-8} to QM3uPlaylistPlugin::~QM3uPlaylistPlugin__deallocating() 0x00008155   Thumb Code     4  qtmultimediakit_m3u.in(.text)
+    thunk{-8} to QM3uPlaylistPlugin::~QM3uPlaylistPlugin() 0x00008159   Thumb Code     4  qtmultimediakit_m3u.in(.text)
+    QM3uPlaylistPlugin::canRead(QIODevice*, const QByteArray&) const 0x0000815d   Thumb Code    44  qtmultimediakit_m3u.in(.text)
+    thunk{-8} to QM3uPlaylistPlugin::canRead(QIODevice*, const QByteArray&) const 0x00008189   Thumb Code     4  qtmultimediakit_m3u.in(.text)
+    QM3uPlaylistPlugin::canRead(const QUrl&, const QByteArray&) const 0x0000818d   Thumb Code   128  qtmultimediakit_m3u.in(.text)
+    thunk{-8} to QM3uPlaylistPlugin::canRead(const QUrl&, const QByteArray&) const 0x0000820d   Thumb Code     4  qtmultimediakit_m3u.in(.text)
+    QM3uPlaylistPlugin::canWrite(QIODevice*, const QByteArray&) const 0x00008211   Thumb Code    46  qtmultimediakit_m3u.in(.text)
+    thunk{-8} to QM3uPlaylistPlugin::canWrite(QIODevice*, const QByteArray&) const 0x0000823f   Thumb Code     4  qtmultimediakit_m3u.in(.text)
+    QM3uPlaylistPlugin::keys() const         0x00008243   Thumb Code    72  qtmultimediakit_m3u.in(.text)
+    thunk{-8} to QM3uPlaylistPlugin::keys() const 0x0000828b   Thumb Code     4  qtmultimediakit_m3u.in(.text)
+    QM3uPlaylistPlugin::createReader(QIODevice*, const QByteArray&) 0x0000828f   Thumb Code    28  qtmultimediakit_m3u.in(.text)
+    thunk{-8} to QM3uPlaylistPlugin::createReader(QIODevice*, const QByteArray&) 0x000082ab   Thumb Code     4  qtmultimediakit_m3u.in(.text)
+    QM3uPlaylistPlugin::createReader(const QUrl&, const QByteArray&) 0x000082af   Thumb Code    28  qtmultimediakit_m3u.in(.text)
+    thunk{-8} to QM3uPlaylistPlugin::createReader(const QUrl&, const QByteArray&) 0x000082cb   Thumb Code     4  qtmultimediakit_m3u.in(.text)
+    QM3uPlaylistPlugin::createWriter(QIODevice*, const QByteArray&) 0x000082cf   Thumb Code    52  qtmultimediakit_m3u.in(.text)
+    thunk{-8} to QM3uPlaylistPlugin::createWriter(QIODevice*, const QByteArray&) 0x00008303   Thumb Code     4  qtmultimediakit_m3u.in(.text)
+    _E32Dll_Body                             0x00008319   Thumb Code    34  uc_dll.o(.text)
+    CppBSSInitializationError                0x00008340   ARM Code       4  ucppfini.o(.text)
+    __aeabi_atexit                           0x00008344   ARM Code      28  ucppfini.o(.text)
+    __cxa_atexit                             0x00008360   ARM Code      48  ucppfini.o(.text)
+    __cxa_finalize                           0x00008390   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x000083c0   ARM Code       8  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x00008448   ARM Code       0  qtmultimediakit_m3u{000a0000}.exp(ExportTable)
+    DLL##ExportTableSize                     0x0000844c   Data           0  qtmultimediakit_m3u{000a0000}.exp(ExportTable)
+    DLL##ExportTable                         0x00008450   Data           0  qtmultimediakit_m3u{000a0000}.exp(ExportTable)
+    QMediaContent::QMediaContent(const QUrl&) 0x00008458   ARM Code       0  QtMultimediaKit{00010103}-212.o(StubCode)
+    QMediaContent::QMediaContent(const QMediaContent&) 0x00008460   ARM Code       0  QtMultimediaKit{00010103}-214.o(StubCode)
+    QMediaContent::QMediaContent()           0x00008468   ARM Code       0  QtMultimediaKit{00010103}-215.o(StubCode)
+    QMediaContent::~QMediaContent()          0x00008470   ARM Code       0  QtMultimediaKit{00010103}-222.o(StubCode)
+    QMediaContent::operator =(const QMediaContent&) 0x00008478   ARM Code       0  QtMultimediaKit{00010103}-224.o(StubCode)
+    QMediaPlaylistReader::~QMediaPlaylistReader__sub_object() 0x00008480   ARM Code       0  QtMultimediaKit{00010103}-574.o(StubCode)
+    QMediaPlaylistWriter::~QMediaPlaylistWriter__sub_object() 0x00008488   ARM Code       0  QtMultimediaKit{00010103}-577.o(StubCode)
+    QMediaPlaylistIOPlugin::qt_metacall(QMetaObject::Call, int, void**) 0x00008490   ARM Code       0  QtMultimediaKit{00010103}-705.o(StubCode)
+    QMediaPlaylistIOPlugin::qt_metacast(const char*) 0x00008498   ARM Code       0  QtMultimediaKit{00010103}-706.o(StubCode)
+    QMediaPlaylistIOPlugin::QMediaPlaylistIOPlugin__sub_object(QObject*) 0x000084a0   ARM Code       0  QtMultimediaKit{00010103}-709.o(StubCode)
+    QMediaPlaylistIOPlugin::~QMediaPlaylistIOPlugin__sub_object() 0x000084a8   ARM Code       0  QtMultimediaKit{00010103}-712.o(StubCode)
+    QMediaContent::canonicalUrl() const      0x000084b0   ARM Code       0  QtMultimediaKit{00010103}-935.o(StubCode)
+    QMediaContent::isNull() const            0x000084b8   ARM Code       0  QtMultimediaKit{00010103}-938.o(StubCode)
+    operator delete (void*)                  0x000084c0   ARM Code       0  libstdcpp{00010000}-988.o(StubCode)
+    operator new(unsigned)                   0x000084c8   ARM Code       0  libstdcpp{00010000}-992.o(StubCode)
+    QUrl::fromLocalFile(const QString&)      0x000084d0   ARM Code       0  QtCore{00040703}-1492.o(StubCode)
+    QUrl::QUrl(const QString&)               0x000084d8   ARM Code       0  QtCore{00040703}-1523.o(StubCode)
+    QUrl::QUrl(const QUrl&)                  0x000084e0   ARM Code       0  QtCore{00040703}-1525.o(StubCode)
+    QUrl::QUrl()                             0x000084e8   ARM Code       0  QtCore{00040703}-1526.o(StubCode)
+    QUrl::~QUrl()                            0x000084f0   ARM Code       0  QtCore{00040703}-1531.o(StubCode)
+    QUrl::operator =(const QUrl&)            0x000084f8   ARM Code       0  QtCore{00040703}-1534.o(StubCode)
+    QChar::QChar(char)                       0x00008500   ARM Code       0  QtCore{00040703}-1560.o(StubCode)
+    QFile::exists(const QString&)            0x00008508   ARM Code       0  QtCore{00040703}-1610.o(StubCode)
+    QFile::QFile(const QString&)             0x00008510   ARM Code       0  QtCore{00040703}-1622.o(StubCode)
+    QObject::childEvent(QChildEvent*)        0x00008518   ARM Code       0  QtCore{00040703}-1760.o(StubCode)
+    QObject::timerEvent(QTimerEvent*)        0x00008520   ARM Code       0  QtCore{00040703}-1763.o(StubCode)
+    QObject::customEvent(QEvent*)            0x00008528   ARM Code       0  QtCore{00040703}-1764.o(StubCode)
+    QObject::eventFilter(QObject*, QEvent*)  0x00008530   ARM Code       0  QtCore{00040703}-1766.o(StubCode)
+    QObject::connectNotify(const char*)      0x00008538   ARM Code       0  QtCore{00040703}-1773.o(StubCode)
+    QObject::disconnectNotify(const char*)   0x00008540   ARM Code       0  QtCore{00040703}-1777.o(StubCode)
+    QObject::event(QEvent*)                  0x00008548   ARM Code       0  QtCore{00040703}-1784.o(StubCode)
+    QString::fromLatin1_helper(const char*, int) 0x00008550   ARM Code       0  QtCore{00040703}-1826.o(StubCode)
+    QString::free(QString::Data*)            0x00008558   ARM Code       0  QtCore{00040703}-1830.o(StubCode)
+    QFileInfo::QFileInfo(const QString&)     0x00008560   ARM Code       0  QtCore{00040703}-2122.o(StubCode)
+    QFileInfo::~QFileInfo()                  0x00008568   ARM Code       0  QtCore{00040703}-2130.o(StubCode)
+    QListData::append()                      0x00008570   ARM Code       0  QtCore{00040703}-2188.o(StubCode)
+    QTextStream::atEnd() const               0x00008578   ARM Code       0  QtCore{00040703}-2433.o(StubCode)
+    QMetaObject::changeGuard(QObject**, QObject*) 0x00008580   ARM Code       0  QtCore{00040703}-274.o(StubCode)
+    QMetaObject::removeGuard(QObject**)      0x00008588   ARM Code       0  QtCore{00040703}-275.o(StubCode)
+    QUrl::isRelative() const                 0x00008590   ARM Code       0  QtCore{00040703}-2817.o(StubCode)
+    QUrl::toLocalFile() const                0x00008598   ARM Code       0  QtCore{00040703}-2823.o(StubCode)
+    QUrl::isEmpty() const                    0x000085a0   ARM Code       0  QtCore{00040703}-2842.o(StubCode)
+    QUrl::resolved(const QUrl&) const        0x000085a8   ARM Code       0  QtCore{00040703}-2847.o(StubCode)
+    QUrl::toString(QFlags<QUrl::FormattingOption>) const 0x000085b0   ARM Code       0  QtCore{00040703}-2848.o(StubCode)
+    QTextStream::readLine(long long)         0x000085b8   ARM Code       0  QtCore{00040703}-304.o(StubCode)
+    QString::toLower() const                 0x000085c0   ARM Code       0  QtCore{00040703}-3083.o(StubCode)
+    QString::trimmed() const                 0x000085c8   ARM Code       0  QtCore{00040703}-3087.o(StubCode)
+    QString::endsWith(const QLatin1String&, Qt::CaseSensitivity) const 0x000085d0   ARM Code       0  QtCore{00040703}-3088.o(StubCode)
+    QTextStream::QTextStream(QIODevice*)     0x000085d8   ARM Code       0  QtCore{00040703}-314.o(StubCode)
+    QFileInfo::isReadable() const            0x000085e0   ARM Code       0  QtCore{00040703}-3189.o(StubCode)
+    QIODevice::isReadable() const            0x000085e8   ARM Code       0  QtCore{00040703}-3226.o(StubCode)
+    QIODevice::isWritable() const            0x000085f0   ARM Code       0  QtCore{00040703}-3227.o(StubCode)
+    QIODevice::isOpen() const                0x000085f8   ARM Code       0  QtCore{00040703}-3238.o(StubCode)
+    QTextStream::operator <<(const QString&) 0x00008600   ARM Code       0  QtCore{00040703}-331.o(StubCode)
+    QListData::detach_grow(int*, int)        0x00008608   ARM Code       0  QtCore{00040703}-3689.o(StubCode)
+    QListData::detach(int)                   0x00008610   ARM Code       0  QtCore{00040703}-3691.o(StubCode)
+    endl(QTextStream&)                       0x00008618   ARM Code       0  QtCore{00040703}-65.o(StubCode)
+    qFree(void*)                             0x00008620   ARM Code       0  QtCore{00040703}-70.o(StubCode)
+    qstrcmp(const QByteArray&, const char*)  0x00008628   ARM Code       0  QtCore{00040703}-95.o(StubCode)
+    strcmp                                   0x00008630   ARM Code       0  libc{00010000}-350.o(StubCode)
+    User::LockedDec(int&)                    0x00008638   ARM Code       0  euser{000a0000}-670.o(StubCode)
+    User::LockedInc(int&)                    0x00008640   ARM Code       0  euser{000a0000}-671.o(StubCode)
+    __aeabi_unwind_cpp_pr0                   0x00008648   ARM Code       0  drtaeabi{000a0000}-158.o(StubCode)
+    __cxa_begin_catch                        0x00008650   ARM Code       0  drtaeabi{000a0000}-180.o(StubCode)
+    __cxa_end_catch                          0x00008658   ARM Code       0  drtaeabi{000a0000}-183.o(StubCode)
+    __cxa_end_cleanup                        0x00008660   ARM Code       0  drtaeabi{000a0000}-184.o(StubCode)
+    __cxa_guard_abort                        0x00008668   ARM Code       0  drtaeabi{000a0000}-186.o(StubCode)
+    __cxa_guard_acquire                      0x00008670   ARM Code       0  drtaeabi{000a0000}-187.o(StubCode)
+    __cxa_guard_release                      0x00008678   ARM Code       0  drtaeabi{000a0000}-188.o(StubCode)
+    __cxa_rethrow                            0x00008680   ARM Code       0  drtaeabi{000a0000}-190.o(StubCode)
+    QStringList::~QStringList()              0x00008689   Thumb Code     8  qtmultimediakit_m3u.in(i._ZN11QStringListD1Ev)
+    QStringList::~QStringList__sub_object()  0x00008689   Thumb Code     0  qtmultimediakit_m3u.in(i._ZN11QStringListD1Ev)
+    QBasicAtomicInt::ref()                   0x00008691   Thumb Code    18  qtmultimediakit_m3u.in(i._ZN15QBasicAtomicInt3refEv)
+    QBasicAtomicInt::deref()                 0x000086a3   Thumb Code    18  qtmultimediakit_m3u.in(i._ZN15QBasicAtomicInt5derefEv)
+    QM3uPlaylistReader::close()              0x000086b5   Thumb Code     2  qtmultimediakit_m3u.in(i._ZN18QM3uPlaylistReader5closeEv)
+    QM3uPlaylistReader::readItem()           0x000086b7   Thumb Code   306  qtmultimediakit_m3u.in(i._ZN18QM3uPlaylistReader8readItemEv)
+    QM3uPlaylistReader::QM3uPlaylistReader(QIODevice*) 0x0000881d   Thumb Code    78  qtmultimediakit_m3u.in(i._ZN18QM3uPlaylistReaderC1EP9QIODevice)
+    QM3uPlaylistReader::QM3uPlaylistReader__sub_object(QIODevice*) 0x0000881d   Thumb Code     0  qtmultimediakit_m3u.in(i._ZN18QM3uPlaylistReaderC1EP9QIODevice)
+    QM3uPlaylistReader::QM3uPlaylistReader(const QUrl&) 0x00008899   Thumb Code   180  qtmultimediakit_m3u.in(i._ZN18QM3uPlaylistReaderC1ERK4QUrl)
+    QM3uPlaylistReader::QM3uPlaylistReader__sub_object(const QUrl&) 0x00008899   Thumb Code     0  qtmultimediakit_m3u.in(i._ZN18QM3uPlaylistReaderC1ERK4QUrl)
+    QM3uPlaylistReader::~QM3uPlaylistReader__deallocating() 0x00008985   Thumb Code    16  qtmultimediakit_m3u.in(i._ZN18QM3uPlaylistReaderD0Ev)
+    QM3uPlaylistReader::~QM3uPlaylistReader() 0x00008995   Thumb Code    66  qtmultimediakit_m3u.in(i._ZN18QM3uPlaylistReaderD1Ev)
+    QM3uPlaylistReader::~QM3uPlaylistReader__sub_object() 0x00008995   Thumb Code     0  qtmultimediakit_m3u.in(i._ZN18QM3uPlaylistReaderD1Ev)
+    QM3uPlaylistWriter::close()              0x000089f9   Thumb Code     2  qtmultimediakit_m3u.in(i._ZN18QM3uPlaylistWriter5closeEv)
+    QM3uPlaylistWriter::writeItem(const QMediaContent&) 0x000089fb   Thumb Code    54  qtmultimediakit_m3u.in(i._ZN18QM3uPlaylistWriter9writeItemERK13QMediaContent)
+    QM3uPlaylistWriter::~QM3uPlaylistWriter__deallocating() 0x00008a41   Thumb Code    16  qtmultimediakit_m3u.in(i._ZN18QM3uPlaylistWriterD0Ev)
+    QM3uPlaylistWriter::~QM3uPlaylistWriter() 0x00008a51   Thumb Code    28  qtmultimediakit_m3u.in(i._ZN18QM3uPlaylistWriterD1Ev)
+    QM3uPlaylistWriter::~QM3uPlaylistWriter__sub_object() 0x00008a51   Thumb Code     0  qtmultimediakit_m3u.in(i._ZN18QM3uPlaylistWriterD1Ev)
+    QString::QString(const QString&)         0x00008a7b   Thumb Code    16  qtmultimediakit_m3u.in(i._ZN7QStringC1ERKS_)
+    QString::QString__sub_object(const QString&) 0x00008a7b   Thumb Code     0  qtmultimediakit_m3u.in(i._ZN7QStringC1ERKS_)
+    QString::~QString()                      0x00008a8b   Thumb Code    24  qtmultimediakit_m3u.in(i._ZN7QStringD1Ev)
+    QString::~QString__sub_object()          0x00008a8b   Thumb Code     0  qtmultimediakit_m3u.in(i._ZN7QStringD1Ev)
+    QByteArray::isEmpty() const              0x00008aa3   Thumb Code    16  qtmultimediakit_m3u.in(i._ZNK10QByteArray7isEmptyEv)
+    QM3uPlaylistReader::atEnd() const        0x00008ab3   Thumb Code    10  qtmultimediakit_m3u.in(i._ZNK18QM3uPlaylistReader5atEndEv)
+    QListData::end() const                   0x00008abd   Thumb Code    12  qtmultimediakit_m3u.in(i._ZNK9QListData3endEv)
+    QListData::begin() const                 0x00008ac9   Thumb Code    12  qtmultimediakit_m3u.in(i._ZNK9QListData5beginEv)
+    operator delete (void*, void*)           0x00008ad5   Thumb Code     2  qtmultimediakit_m3u.in(i._ZdlPvS_)
+    operator ==(const QByteArray&, const char*) 0x00008ad7   Thumb Code    28  qtmultimediakit_m3u.in(i._ZeqRK10QByteArrayPKc)
+    operator new(unsigned, void*)            0x00008af3   Thumb Code     4  qtmultimediakit_m3u.in(i._ZnwjPv)
+    QList<QString>::detach_helper()          0x00008af7   Thumb Code    88  qtmultimediakit_m3u.in(t._ZN5QListI7QStringE13detach_helperEv)
+    QList<QString>::node_construct(QList<QString>::Node*, const QString&) 0x00008b57   Thumb Code    26  qtmultimediakit_m3u.in(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_)
+    QList<QString>::detach_helper_grow(int, int) 0x00008b7d   Thumb Code   186  qtmultimediakit_m3u.in(t._ZN5QListI7QStringE18detach_helper_growEii)
+    QList<QString>::free(QListData::Data*)   0x00008c3f   Thumb Code    48  qtmultimediakit_m3u.in(t._ZN5QListI7QStringE4freeEPN9QListData4DataE)
+    QList<QString>::append(const QString&)   0x00008c71   Thumb Code    90  qtmultimediakit_m3u.in(t._ZN5QListI7QStringE6appendERKS0_)
+    QList<QString>::node_copy(QList<QString>::Node*, QList<QString>::Node*, QList<QString>::Node*) 0x00008cd9   Thumb Code    70  qtmultimediakit_m3u.in(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_)
+    QList<QString>::~QList()                 0x00008d35   Thumb Code    30  qtmultimediakit_m3u.in(t._ZN5QListI7QStringED1Ev)
+    QList<QString>::~QList__sub_object()     0x00008d35   Thumb Code     0  qtmultimediakit_m3u.in(t._ZN5QListI7QStringED1Ev)
+    QPointer<QObject>::~QPointer()           0x00008d53   Thumb Code    12  qtmultimediakit_m3u.in(t._ZN8QPointerI7QObjectED1Ev)
+    QPointer<QObject>::~QPointer__sub_object() 0x00008d53   Thumb Code     0  qtmultimediakit_m3u.in(t._ZN8QPointerI7QObjectED1Ev)
+    QM3uPlaylistPlugin::staticMetaObject     0x0000903c   Data          16  qtmultimediakit_m3u.in(.constdata)
+    typeinfo for QM3uPlaylistPlugin          0x000090e4   Data          12  qtmultimediakit_m3u.in(.constdata__ZTI18QM3uPlaylistPlugin)
+    typeinfo for QM3uPlaylistReader          0x000090f0   Data          12  qtmultimediakit_m3u.in(.constdata__ZTI18QM3uPlaylistReader)
+    typeinfo for QM3uPlaylistWriter          0x000090fc   Data          12  qtmultimediakit_m3u.in(.constdata__ZTI18QM3uPlaylistWriter)
+    typeinfo name for QM3uPlaylistPlugin     0x00009108   Data          21  qtmultimediakit_m3u.in(.constdata__ZTS18QM3uPlaylistPlugin)
+    typeinfo name for QM3uPlaylistReader     0x0000911d   Data          21  qtmultimediakit_m3u.in(.constdata__ZTS18QM3uPlaylistReader)
+    typeinfo name for QM3uPlaylistWriter     0x00009132   Data          21  qtmultimediakit_m3u.in(.constdata__ZTS18QM3uPlaylistWriter)
+    vtable for QM3uPlaylistPlugin            0x00009148   Data         128  qtmultimediakit_m3u.in(.constdata__ZTV18QM3uPlaylistPlugin)
+    vtable for QM3uPlaylistReader            0x000091c8   Data          28  qtmultimediakit_m3u.in(.constdata__ZTV18QM3uPlaylistReader)
+    vtable for QM3uPlaylistWriter            0x000091e4   Data          24  qtmultimediakit_m3u.in(.constdata__ZTV18QM3uPlaylistWriter)
+    .ARM.exidx$$Base                         0x000091fc   Number         0  ucppinit_aeabi.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x00009384   Number         0  qtmultimediakit_m3u.in(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x00009384   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    __dso_handle                             0x00400008   Data           4  ucppfini.o(.data)
+

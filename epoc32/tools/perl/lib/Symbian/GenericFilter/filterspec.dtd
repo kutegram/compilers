@@ -1,0 +1,36 @@
+<!ELEMENT rules (rule*)>
+
+<!ELEMENT rule (trigger?,(group|eval))>
+<!ATTLIST rule
+	action   (include|exclude|none) #REQUIRED
+	failure  (include|exclude|none) "none"
+	continue  CDATA                 #FIXED "true">
+
+<!ELEMENT trigger (group|eval)>
+
+<!ELEMENT group ((group|eval)+)>
+<!ATTLIST group
+	logic (and|or) #REQUIRED>
+
+<!ELEMENT eval (ref,comp)>
+<!ATTLIST eval
+	op (equals|greater-than|less-than|in|like|
+	    not-equals|not-greater-than|not-less-than|not-in|not-like) #REQUIRED>
+
+<!ELEMENT ref EMPTY>
+<!ATTLIST ref
+	dc        CDATA #REQUIRED
+	index     CDATA #IMPLIED
+	list      CDATA #IMPLIED
+	separator CDATA ","
+	regex     CDATA #IMPLIED
+	value     CDATA #IMPLIED>
+
+<!ELEMENT comp EMPTY>
+<!ATTLIST comp
+	dc        CDATA #IMPLIED
+	index     CDATA #IMPLIED
+	list      CDATA #IMPLIED
+	separator CDATA ","
+	regex     CDATA #IMPLIED
+	value     CDATA #IMPLIED>

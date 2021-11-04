@@ -1,0 +1,1265 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../../unhosted.s                         0x00000000   Number         0  switch8.o ABSOLUTE
+    M:\\epoc32\\build\\euser\\c_e18a23aea4fd210f\\edll_lib\\armv5\\urel\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\\sf\\os\\kernelhwsrv\\kernel\\eka\\compsupp\\rvct\\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\epoc32\build\euser\c_e18a23aea4fd210f\edll_lib\armv5\urel\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\dllexp.cpp 0x00000000   Number         0  dllexp.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    S:\sf\mw\qt\src\imports\particles\particles.cpp 0x00000000   Number         0  particles.o ABSOLUTE
+    S:\sf\mw\qt\src\imports\particles\qdeclarativeparticles.cpp 0x00000000   Number         0  qdeclarativeparticles.o ABSOLUTE
+    S:\sf\mw\qt\src\imports\particles\tmp\moc\debug_shared\moc_qdeclarativeparticles_p.cpp 0x00000000   Number         0  moc_qdeclarativeparticles_p.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       52  ucppinit.o(.emb_text)
+    loop                                     0x0000803c   ARM Code       0  ucppinit.o(.emb_text)
+    base                                     0x00008054   Data           0  ucppinit.o(.emb_text)
+    limit                                    0x00008058   Data           0  ucppinit.o(.emb_text)
+    qFuzzyCompare(float, float)              0x000083dd   Thumb Code    80  qdeclarativeparticles.o(.text)
+    .text                                    0x000083dc   Section     4580  qdeclarativeparticles.o(.text)
+    .text                                    0x000095c0   Section      192  particles.o(.text)
+    .text                                    0x00009680   Section     1520  moc_qdeclarativeparticles_p.o(.text)
+    .text                                    0x00009c70   Section       24  switch8.o(.text)
+    .text                                    0x00009c88   Section       60  uc_dll.o(.text)
+    .text                                    0x00009cc4   Section      144  ucppfini.o(.text)
+    .text                                    0x00009d54   Section        4  dllexp.o(.text)
+    .text.clean                              0x00009d58   Section       78  qdeclarativeparticles.o(.text.clean)
+    .text.clean                              0x00009da8   Section       28  particles.o(.text.clean)
+    .text.clean                              0x00009dc4   Section       10  moc_qdeclarativeparticles_p.o(.text.clean)
+    i._Z7fastSinf                            0x00009dd0   Section       56  qdeclarativeparticles.o(i._Z7fastSinf)
+    i._ZN10QByteArrayC1ERKS_                 0x00009e08   Section       16  particles.o(i._ZN10QByteArrayC1ERKS_)
+    i._ZN10QByteArrayD1Ev                    0x00009e18   Section       24  qdeclarativeparticles.o(i._ZN10QByteArrayD1Ev)
+    i._ZN15QBasicAtomicInt3refEv             0x00009e30   Section       18  qdeclarativeparticles.o(i._ZN15QBasicAtomicInt3refEv)
+    i._ZN15QBasicAtomicInt5derefEv           0x00009e42   Section       18  qdeclarativeparticles.o(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN16QDeclarativeInfolsERK7QString     0x00009e54   Section       72  qdeclarativeparticles.o(i._ZN16QDeclarativeInfolsERK7QString)
+    i._ZN16QDeclarativeInfolsERK7QString.clean 0x00009e9c   Section       18  qdeclarativeparticles.o(i._ZN16QDeclarativeInfolsERK7QString.clean)
+    i._ZN17QDeclarativeGuardI7QObjectED0Ev   0x00009eae   Section       16  qdeclarativeparticles.o(i._ZN17QDeclarativeGuardI7QObjectED0Ev)
+    i._ZN18TickAnimationProxyI28QDeclarativeParticlesPrivateXadL_ZNS0_4tickEiEEED0Ev 0x00009ebe   Section       16  qdeclarativeparticles.o(i._ZN18TickAnimationProxyI28QDeclarativeParticlesPrivateXadL_ZNS0_4tickEiEEED0Ev)
+    i._ZN18TickAnimationProxyI28QDeclarativeParticlesPrivateXadL_ZNS0_4tickEiEEED1Ev 0x00009ece   Section        8  qdeclarativeparticles.o(i._ZN18TickAnimationProxyI28QDeclarativeParticlesPrivateXadL_ZNS0_4tickEiEEED1Ev)
+    i._ZN19QDeclarativePrivate12RegisterTypeD1Ev 0x00009ed6   Section       12  particles.o(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesED0Ev 0x00009ee2   Section       16  particles.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementI26QDeclarativeParticleMotionED0Ev 0x00009ef2   Section       16  particles.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI26QDeclarativeParticleMotionED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionLinearED0Ev 0x00009f02   Section       16  particles.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionLinearED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionWanderED0Ev 0x00009f12   Section       16  particles.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionWanderED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementI33QDeclarativeParticleMotionGravityED0Ev 0x00009f22   Section       16  particles.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI33QDeclarativeParticleMotionGravityED0Ev)
+    i._ZN19QParticlesQmlModule13registerTypesEPKc 0x00009f34   Section      168  particles.o(i._ZN19QParticlesQmlModule13registerTypesEPKc)
+    i._ZN19QParticlesQmlModuleD0Ev           0x00009fdc   Section       16  particles.o(i._ZN19QParticlesQmlModuleD0Ev)
+    i._ZN19QParticlesQmlModuleD1Ev           0x00009fec   Section        8  particles.o(i._ZN19QParticlesQmlModuleD1Ev)
+    i._ZN20QDeclarativeNotifierD1Ev          0x00009ff4   Section       38  qdeclarativeparticles.o(i._ZN20QDeclarativeNotifierD1Ev)
+    i._ZN20QDeclarativeParticleC1ERKS_       0x0000a01a   Section       42  qdeclarativeparticles.o(i._ZN20QDeclarativeParticleC1ERKS_)
+    i._ZN20QGraphicsItemPrivate11ExtraStructD1Ev 0x0000a044   Section       12  qdeclarativeparticles.o(i._ZN20QGraphicsItemPrivate11ExtraStructD1Ev)
+    i._ZN20QGraphicsItemPrivate11resolveFontEj 0x0000a050   Section       46  qdeclarativeparticles.o(i._ZN20QGraphicsItemPrivate11resolveFontEj)
+    i._ZN20QGraphicsItemPrivate14resolvePaletteEj 0x0000a07e   Section       46  qdeclarativeparticles.o(i._ZN20QGraphicsItemPrivate14resolvePaletteEj)
+    i._ZN20QGraphicsItemPrivateC1Ev          0x0000a0ac   Section      304  qdeclarativeparticles.o(i._ZN20QGraphicsItemPrivateC1Ev)
+    i._ZN20QGraphicsItemPrivateC1Ev.clean    0x0000a1dc   Section       46  qdeclarativeparticles.o(i._ZN20QGraphicsItemPrivateC1Ev.clean)
+    i._ZN20QGraphicsItemPrivateD1Ev          0x0000a20c   Section       68  qdeclarativeparticles.o(i._ZN20QGraphicsItemPrivateD1Ev)
+    i._ZN20QGraphicsItemPrivateD1Ev.clean    0x0000a250   Section       46  qdeclarativeparticles.o(i._ZN20QGraphicsItemPrivateD1Ev.clean)
+    i._ZN22QGraphicsEffectPrivateD1Ev        0x0000a27e   Section        8  qdeclarativeparticles.o(i._ZN22QGraphicsEffectPrivateD1Ev)
+    i._ZN23QDeclarativeItemPrivate12setPosHelperERK7QPointF 0x0000a286   Section       70  qdeclarativeparticles.o(i._ZN23QDeclarativeItemPrivate12setPosHelperERK7QPointF)
+    i._ZN23QDeclarativeItemPrivate18siblingOrderChangeEv 0x0000a2cc   Section       56  qdeclarativeparticles.o(i._ZN23QDeclarativeItemPrivate18siblingOrderChangeEv)
+    i._ZN23QDeclarativeItemPrivate18subFocusItemChangeEv 0x0000a304   Section       54  qdeclarativeparticles.o(i._ZN23QDeclarativeItemPrivate18subFocusItemChangeEv)
+    i._ZN23QDeclarativeItemPrivate20focusScopeItemChangeEb 0x0000a33a   Section       16  qdeclarativeparticles.o(i._ZN23QDeclarativeItemPrivate20focusScopeItemChangeEb)
+    i._ZN23QDeclarativeItemPrivate6q_funcEv  0x0000a34a   Section       18  qdeclarativeparticles.o(i._ZN23QDeclarativeItemPrivate6q_funcEv)
+    i._ZN23QDeclarativeItemPrivateC1Ev       0x0000a35c   Section      160  qdeclarativeparticles.o(i._ZN23QDeclarativeItemPrivateC1Ev)
+    i._ZN23QDeclarativeItemPrivateC1Ev.clean 0x0000a3fc   Section        4  qdeclarativeparticles.o(i._ZN23QDeclarativeItemPrivateC1Ev.clean)
+    i._ZN23QDeclarativeItemPrivateD1Ev       0x0000a400   Section       40  qdeclarativeparticles.o(i._ZN23QDeclarativeItemPrivateD1Ev)
+    i._ZN23QDeclarativeItemPrivateD1Ev.clean 0x0000a428   Section       22  qdeclarativeparticles.o(i._ZN23QDeclarativeItemPrivateD1Ev.clean)
+    i._ZN26QDeclarativeParticleMotionD0Ev    0x0000a43e   Section       16  moc_qdeclarativeparticles_p.o(i._ZN26QDeclarativeParticleMotionD0Ev)
+    i._ZN26QDeclarativeParticleMotionD1Ev    0x0000a44e   Section        8  particles.o(i._ZN26QDeclarativeParticleMotionD1Ev)
+    i._ZN26QGraphicsBlurEffectPrivateD0Ev    0x0000a456   Section       16  qdeclarativeparticles.o(i._ZN26QGraphicsBlurEffectPrivateD0Ev)
+    i._ZN26QGraphicsBlurEffectPrivateD1Ev    0x0000a468   Section       32  qdeclarativeparticles.o(i._ZN26QGraphicsBlurEffectPrivateD1Ev)
+    i._ZN26QGraphicsBlurEffectPrivateD1Ev.clean 0x0000a488   Section       10  qdeclarativeparticles.o(i._ZN26QGraphicsBlurEffectPrivateD1Ev.clean)
+    i._ZN28QDeclarativeParticlesPainterD0Ev  0x0000a492   Section       16  qdeclarativeparticles.o(i._ZN28QDeclarativeParticlesPainterD0Ev)
+    i._ZN28QDeclarativeParticlesPainterD1Ev  0x0000a4a2   Section        8  qdeclarativeparticles.o(i._ZN28QDeclarativeParticlesPainterD1Ev)
+    i._ZN28QDeclarativeParticlesPrivate6q_funcEv 0x0000a4aa   Section       18  qdeclarativeparticles.o(i._ZN28QDeclarativeParticlesPrivate6q_funcEv)
+    i._ZN28QDeclarativeParticlesPrivateC1Ev  0x0000a4bc   Section      204  qdeclarativeparticles.o(i._ZN28QDeclarativeParticlesPrivateC1Ev)
+    i._ZN28QDeclarativeParticlesPrivateC1Ev.clean 0x0000a588   Section       66  qdeclarativeparticles.o(i._ZN28QDeclarativeParticlesPrivateC1Ev.clean)
+    i._ZN28QDeclarativeParticlesPrivateD0Ev  0x0000a5ca   Section       16  qdeclarativeparticles.o(i._ZN28QDeclarativeParticlesPrivateD0Ev)
+    i._ZN28QDeclarativeParticlesPrivateD1Ev  0x0000a5dc   Section       88  qdeclarativeparticles.o(i._ZN28QDeclarativeParticlesPrivateD1Ev)
+    i._ZN28QDeclarativeParticlesPrivateD1Ev.clean 0x0000a634   Section       66  qdeclarativeparticles.o(i._ZN28QDeclarativeParticlesPrivateD1Ev.clean)
+    i._ZN30QGraphicsColorizeEffectPrivateD0Ev 0x0000a676   Section       16  qdeclarativeparticles.o(i._ZN30QGraphicsColorizeEffectPrivateD0Ev)
+    i._ZN30QGraphicsColorizeEffectPrivateD1Ev 0x0000a688   Section       32  qdeclarativeparticles.o(i._ZN30QGraphicsColorizeEffectPrivateD1Ev)
+    i._ZN30QGraphicsColorizeEffectPrivateD1Ev.clean 0x0000a6a8   Section       10  qdeclarativeparticles.o(i._ZN30QGraphicsColorizeEffectPrivateD1Ev.clean)
+    i._ZN32QDeclarativeParticleMotionLinearD0Ev 0x0000a6b2   Section       16  moc_qdeclarativeparticles_p.o(i._ZN32QDeclarativeParticleMotionLinearD0Ev)
+    i._ZN32QDeclarativeParticleMotionLinearD1Ev 0x0000a6c2   Section        8  particles.o(i._ZN32QDeclarativeParticleMotionLinearD1Ev)
+    i._ZN32QDeclarativeParticleMotionWanderD0Ev 0x0000a6ca   Section       16  moc_qdeclarativeparticles_p.o(i._ZN32QDeclarativeParticleMotionWanderD0Ev)
+    i._ZN32QDeclarativeParticleMotionWanderD1Ev 0x0000a6da   Section        8  particles.o(i._ZN32QDeclarativeParticleMotionWanderD1Ev)
+    i._ZN32QGraphicsDropShadowEffectPrivateD0Ev 0x0000a6e2   Section       16  qdeclarativeparticles.o(i._ZN32QGraphicsDropShadowEffectPrivateD0Ev)
+    i._ZN32QGraphicsDropShadowEffectPrivateD1Ev 0x0000a6f4   Section       32  qdeclarativeparticles.o(i._ZN32QGraphicsDropShadowEffectPrivateD1Ev)
+    i._ZN32QGraphicsDropShadowEffectPrivateD1Ev.clean 0x0000a714   Section       10  qdeclarativeparticles.o(i._ZN32QGraphicsDropShadowEffectPrivateD1Ev.clean)
+    i._ZN33QDeclarativeParticleMotionGravityD0Ev 0x0000a71e   Section       16  moc_qdeclarativeparticles_p.o(i._ZN33QDeclarativeParticleMotionGravityD0Ev)
+    i._ZN33QDeclarativeParticleMotionGravityD1Ev 0x0000a72e   Section        8  particles.o(i._ZN33QDeclarativeParticleMotionGravityD1Ev)
+    i._ZN6QRectFC1Ev                         0x0000a736   Section       12  qdeclarativeparticles.o(i._ZN6QRectFC1Ev)
+    i._ZN7QStringC1Ev                        0x0000a744   Section       20  particles.o(i._ZN7QStringC1Ev)
+    i._ZN7QStringD1Ev                        0x0000a758   Section       24  qdeclarativeparticles.o(i._ZN7QStringD1Ev)
+    i._ZNK13QGraphicsItem1xEv                0x0000a770   Section       14  qdeclarativeparticles.o(i._ZNK13QGraphicsItem1xEv)
+    i._ZNK13QGraphicsItem1yEv                0x0000a77e   Section       14  qdeclarativeparticles.o(i._ZNK13QGraphicsItem1yEv)
+    i._ZNK15QBasicAtomicInteqEi              0x0000a78c   Section       14  qdeclarativeparticles.o(i._ZNK15QBasicAtomicInteqEi)
+    i._ZNK15QBasicAtomicIntneEi              0x0000a79a   Section       14  qdeclarativeparticles.o(i._ZNK15QBasicAtomicIntneEi)
+    i._ZNK15QBasicAtomicIntntEv              0x0000a7a8   Section       14  particles.o(i._ZNK15QBasicAtomicIntntEv)
+    i._ZNK9QListData2atEi                    0x0000a7b6   Section       16  qdeclarativeparticles.o(i._ZNK9QListData2atEi)
+    i._ZNK9QListData3endEv                   0x0000a7c6   Section       12  qdeclarativeparticles.o(i._ZNK9QListData3endEv)
+    i._ZNK9QListData4sizeEv                  0x0000a7d2   Section       10  qdeclarativeparticles.o(i._ZNK9QListData4sizeEv)
+    i._ZNK9QListData5beginEv                 0x0000a7dc   Section       12  qdeclarativeparticles.o(i._ZNK9QListData5beginEv)
+    i._ZNK9QListData7isEmptyEv               0x0000a7e8   Section       18  qdeclarativeparticles.o(i._ZNK9QListData7isEmptyEv)
+    i._ZThn16_N19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesED0Ev 0x0000a7fa   Section       10  particles.o(i._ZThn16_N19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesED0Ev)
+    i._ZThn16_N19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesED1Ev 0x0000a804   Section       10  particles.o(i._ZThn16_N19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesED1Ev)
+    i._ZThn16_N28QDeclarativeParticlesPainterD0Ev 0x0000a80e   Section       10  qdeclarativeparticles.o(i._ZThn16_N28QDeclarativeParticlesPainterD0Ev)
+    i._ZThn16_N28QDeclarativeParticlesPainterD1Ev 0x0000a818   Section       10  qdeclarativeparticles.o(i._ZThn16_N28QDeclarativeParticlesPainterD1Ev)
+    i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesED0Ev 0x0000a822   Section       10  particles.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesED0Ev)
+    i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesED1Ev 0x0000a82c   Section       10  particles.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesED1Ev)
+    i._ZThn8_N19QParticlesQmlModule13registerTypesEPKc 0x0000a836   Section       10  particles.o(i._ZThn8_N19QParticlesQmlModule13registerTypesEPKc)
+    i._ZThn8_N19QParticlesQmlModuleD0Ev      0x0000a840   Section       10  particles.o(i._ZThn8_N19QParticlesQmlModuleD0Ev)
+    i._ZThn8_N19QParticlesQmlModuleD1Ev      0x0000a84a   Section       10  particles.o(i._ZThn8_N19QParticlesQmlModuleD1Ev)
+    i._ZThn8_N28QDeclarativeParticlesPainterD0Ev 0x0000a854   Section       10  qdeclarativeparticles.o(i._ZThn8_N28QDeclarativeParticlesPainterD0Ev)
+    i._ZThn8_N28QDeclarativeParticlesPainterD1Ev 0x0000a85e   Section       10  qdeclarativeparticles.o(i._ZThn8_N28QDeclarativeParticlesPainterD1Ev)
+    i._ZdlPvS_                               0x0000a868   Section        2  particles.o(i._ZdlPvS_)
+    i._ZnwjPv                                0x0000a86a   Section        4  qdeclarativeparticles.o(i._ZnwjPv)
+    i._ZplPKcRK10QByteArray                  0x0000a86e   Section       34  particles.o(i._ZplPKcRK10QByteArray)
+    i._ZplPKcRK10QByteArray.clean            0x0000a890   Section       10  particles.o(i._ZplPKcRK10QByteArray.clean)
+    i._ZplRK10QByteArrayPKc                  0x0000a89a   Section       34  particles.o(i._ZplRK10QByteArrayPKc)
+    i._ZplRK10QByteArrayPKc.clean            0x0000a8bc   Section       10  particles.o(i._ZplRK10QByteArrayPKc.clean)
+    i._ZplRK10QByteArrayc                    0x0000a8c6   Section       34  particles.o(i._ZplRK10QByteArrayc)
+    i._ZplRK10QByteArrayc.clean              0x0000a8e8   Section       10  particles.o(i._ZplRK10QByteArrayc.clean)
+    t._Z15qmlRegisterTypeI21QDeclarativeParticlesEiPKciiS2_ 0x0000a8f4   Section      228  particles.o(t._Z15qmlRegisterTypeI21QDeclarativeParticlesEiPKciiS2_)
+    t._Z15qmlRegisterTypeI21QDeclarativeParticlesEiPKciiS2_.clean 0x0000a9d8   Section       44  particles.o(t._Z15qmlRegisterTypeI21QDeclarativeParticlesEiPKciiS2_.clean)
+    t._Z15qmlRegisterTypeI26QDeclarativeParticleMotionEiPKciiS2_ 0x0000aa04   Section      224  particles.o(t._Z15qmlRegisterTypeI26QDeclarativeParticleMotionEiPKciiS2_)
+    t._Z15qmlRegisterTypeI26QDeclarativeParticleMotionEiPKciiS2_.clean 0x0000aae4   Section       44  particles.o(t._Z15qmlRegisterTypeI26QDeclarativeParticleMotionEiPKciiS2_.clean)
+    t._Z15qmlRegisterTypeI32QDeclarativeParticleMotionLinearEiPKciiS2_ 0x0000ab10   Section      224  particles.o(t._Z15qmlRegisterTypeI32QDeclarativeParticleMotionLinearEiPKciiS2_)
+    t._Z15qmlRegisterTypeI32QDeclarativeParticleMotionLinearEiPKciiS2_.clean 0x0000abf0   Section       44  particles.o(t._Z15qmlRegisterTypeI32QDeclarativeParticleMotionLinearEiPKciiS2_.clean)
+    t._Z15qmlRegisterTypeI32QDeclarativeParticleMotionWanderEiPKciiS2_ 0x0000ac1c   Section      224  particles.o(t._Z15qmlRegisterTypeI32QDeclarativeParticleMotionWanderEiPKciiS2_)
+    t._Z15qmlRegisterTypeI32QDeclarativeParticleMotionWanderEiPKciiS2_.clean 0x0000acfc   Section       44  particles.o(t._Z15qmlRegisterTypeI32QDeclarativeParticleMotionWanderEiPKciiS2_.clean)
+    t._Z15qmlRegisterTypeI33QDeclarativeParticleMotionGravityEiPKciiS2_ 0x0000ad28   Section      224  particles.o(t._Z15qmlRegisterTypeI33QDeclarativeParticleMotionGravityEiPKciiS2_)
+    t._Z15qmlRegisterTypeI33QDeclarativeParticleMotionGravityEiPKciiS2_.clean 0x0000ae08   Section       44  particles.o(t._Z15qmlRegisterTypeI33QDeclarativeParticleMotionGravityEiPKciiS2_.clean)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI21QDeclarativeParticlesEEiPKcPT_ 0x0000ae34   Section      124  particles.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI21QDeclarativeParticlesEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI26QDeclarativeParticleMotionEEiPKcPT_ 0x0000aeb0   Section      132  particles.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI26QDeclarativeParticleMotionEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI32QDeclarativeParticleMotionLinearEEiPKcPT_ 0x0000af34   Section      136  particles.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI32QDeclarativeParticleMotionLinearEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI32QDeclarativeParticleMotionWanderEEiPKcPT_ 0x0000afbc   Section      136  particles.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI32QDeclarativeParticleMotionWanderEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI33QDeclarativeParticleMotionGravityEEiPKcPT_ 0x0000b044   Section      136  particles.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI33QDeclarativeParticleMotionGravityEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIP21QDeclarativeParticlesEiPKcPT_ 0x0000b0cc   Section      100  particles.o(t._Z17qRegisterMetaTypeIP21QDeclarativeParticlesEiPKcPT_)
+    t._Z17qRegisterMetaTypeIP26QDeclarativeParticleMotionEiPKcPT_ 0x0000b130   Section      108  particles.o(t._Z17qRegisterMetaTypeIP26QDeclarativeParticleMotionEiPKcPT_)
+    t._Z17qRegisterMetaTypeIP32QDeclarativeParticleMotionLinearEiPKcPT_ 0x0000b19c   Section      112  particles.o(t._Z17qRegisterMetaTypeIP32QDeclarativeParticleMotionLinearEiPKcPT_)
+    t._Z17qRegisterMetaTypeIP32QDeclarativeParticleMotionWanderEiPKcPT_ 0x0000b20c   Section      112  particles.o(t._Z17qRegisterMetaTypeIP32QDeclarativeParticleMotionWanderEiPKcPT_)
+    t._Z17qRegisterMetaTypeIP33QDeclarativeParticleMotionGravityEiPKcPT_ 0x0000b27c   Section      112  particles.o(t._Z17qRegisterMetaTypeIP33QDeclarativeParticleMotionGravityEiPKcPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI21QDeclarativeParticlesEEvPT_ 0x0000b2ec   Section        8  particles.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI21QDeclarativeParticlesEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI26QDeclarativeParticleMotionEEvPT_ 0x0000b2f4   Section        8  particles.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI26QDeclarativeParticleMotionEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI32QDeclarativeParticleMotionLinearEEvPT_ 0x0000b2fc   Section        8  particles.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI32QDeclarativeParticleMotionLinearEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI32QDeclarativeParticleMotionWanderEEvPT_ 0x0000b304   Section        8  particles.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI32QDeclarativeParticleMotionWanderEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI33QDeclarativeParticleMotionGravityEEvPT_ 0x0000b30c   Section        8  particles.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI33QDeclarativeParticleMotionGravityEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIP21QDeclarativeParticlesEvPT_ 0x0000b314   Section        8  particles.o(t._Z21qMetaTypeDeleteHelperIP21QDeclarativeParticlesEvPT_)
+    t._Z21qMetaTypeDeleteHelperIP26QDeclarativeParticleMotionEvPT_ 0x0000b31c   Section        8  particles.o(t._Z21qMetaTypeDeleteHelperIP26QDeclarativeParticleMotionEvPT_)
+    t._Z21qMetaTypeDeleteHelperIP32QDeclarativeParticleMotionLinearEvPT_ 0x0000b324   Section        8  particles.o(t._Z21qMetaTypeDeleteHelperIP32QDeclarativeParticleMotionLinearEvPT_)
+    t._Z21qMetaTypeDeleteHelperIP32QDeclarativeParticleMotionWanderEvPT_ 0x0000b32c   Section        8  particles.o(t._Z21qMetaTypeDeleteHelperIP32QDeclarativeParticleMotionWanderEvPT_)
+    t._Z21qMetaTypeDeleteHelperIP33QDeclarativeParticleMotionGravityEvPT_ 0x0000b334   Section        8  particles.o(t._Z21qMetaTypeDeleteHelperIP33QDeclarativeParticleMotionGravityEvPT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI21QDeclarativeParticlesEEPvPKT_ 0x0000b33c   Section       70  particles.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI21QDeclarativeParticlesEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI21QDeclarativeParticlesEEPvPKT_.clean 0x0000b382   Section        4  particles.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI21QDeclarativeParticlesEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI26QDeclarativeParticleMotionEEPvPKT_ 0x0000b386   Section       70  particles.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI26QDeclarativeParticleMotionEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI26QDeclarativeParticleMotionEEPvPKT_.clean 0x0000b3cc   Section        4  particles.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI26QDeclarativeParticleMotionEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI32QDeclarativeParticleMotionLinearEEPvPKT_ 0x0000b3d0   Section       70  particles.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI32QDeclarativeParticleMotionLinearEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI32QDeclarativeParticleMotionLinearEEPvPKT_.clean 0x0000b416   Section        4  particles.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI32QDeclarativeParticleMotionLinearEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI32QDeclarativeParticleMotionWanderEEPvPKT_ 0x0000b41a   Section       70  particles.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI32QDeclarativeParticleMotionWanderEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI32QDeclarativeParticleMotionWanderEEPvPKT_.clean 0x0000b460   Section        4  particles.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI32QDeclarativeParticleMotionWanderEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI33QDeclarativeParticleMotionGravityEEPvPKT_ 0x0000b464   Section       70  particles.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI33QDeclarativeParticleMotionGravityEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI33QDeclarativeParticleMotionGravityEEPvPKT_.clean 0x0000b4aa   Section        4  particles.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI33QDeclarativeParticleMotionGravityEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperIP21QDeclarativeParticlesEPvPKT_ 0x0000b4ae   Section       26  particles.o(t._Z24qMetaTypeConstructHelperIP21QDeclarativeParticlesEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIP26QDeclarativeParticleMotionEPvPKT_ 0x0000b4c8   Section       26  particles.o(t._Z24qMetaTypeConstructHelperIP26QDeclarativeParticleMotionEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIP32QDeclarativeParticleMotionLinearEPvPKT_ 0x0000b4e2   Section       26  particles.o(t._Z24qMetaTypeConstructHelperIP32QDeclarativeParticleMotionLinearEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIP32QDeclarativeParticleMotionWanderEPvPKT_ 0x0000b4fc   Section       26  particles.o(t._Z24qMetaTypeConstructHelperIP32QDeclarativeParticleMotionWanderEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIP33QDeclarativeParticleMotionGravityEPvPKT_ 0x0000b516   Section       26  particles.o(t._Z24qMetaTypeConstructHelperIP33QDeclarativeParticleMotionGravityEPvPKT_)
+    t._Z4qAbsIfET_RKS0_                      0x0000b530   Section       14  qdeclarativeparticles.o(t._Z4qAbsIfET_RKS0_)
+    t._ZN10QPODVectorIN23QDeclarativeItemPrivate14ChangeListenerELi4EED1Ev 0x0000b53e   Section       18  qdeclarativeparticles.o(t._ZN10QPODVectorIN23QDeclarativeItemPrivate14ChangeListenerELi4EED1Ev)
+    t._ZN15QVarLengthArrayIN8QPainter14PixmapFragmentELi256EE7reallocEii 0x0000b550   Section      182  qdeclarativeparticles.o(t._ZN15QVarLengthArrayIN8QPainter14PixmapFragmentELi256EE7reallocEii)
+    t._ZN15QVarLengthArrayIN8QPainter14PixmapFragmentELi256EE7reallocEii.clean 0x0000b606   Section        4  qdeclarativeparticles.o(t._ZN15QVarLengthArrayIN8QPainter14PixmapFragmentELi256EE7reallocEii.clean)
+    t._ZN15QVarLengthArrayIN8QPainter14PixmapFragmentELi256EED1Ev 0x0000b60a   Section       38  qdeclarativeparticles.o(t._ZN15QVarLengthArrayIN8QPainter14PixmapFragmentELi256EED1Ev)
+    t._ZN17QDeclarativeGuardI7QObjectE15objectDestroyedEPS0_ 0x0000b630   Section        2  qdeclarativeparticles.o(t._ZN17QDeclarativeGuardI7QObjectE15objectDestroyedEPS0_)
+    t._ZN17QDeclarativeGuardI7QObjectED1Ev   0x0000b634   Section       40  qdeclarativeparticles.o(t._ZN17QDeclarativeGuardI7QObjectED1Ev)
+    t._ZN18TickAnimationProxyI28QDeclarativeParticlesPrivateXadL_ZNS0_4tickEiEEE17updateCurrentTimeEi 0x0000b65c   Section       36  qdeclarativeparticles.o(t._ZN18TickAnimationProxyI28QDeclarativeParticlesPrivateXadL_ZNS0_4tickEiEEE17updateCurrentTimeEi)
+    t._ZN19QDeclarativePrivate10createIntoI21QDeclarativeParticlesEEvPv 0x0000b680   Section       44  particles.o(t._ZN19QDeclarativePrivate10createIntoI21QDeclarativeParticlesEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoI21QDeclarativeParticlesEEvPv.clean 0x0000b6ac   Section       12  particles.o(t._ZN19QDeclarativePrivate10createIntoI21QDeclarativeParticlesEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoI26QDeclarativeParticleMotionEEvPv 0x0000b6b8   Section       36  particles.o(t._ZN19QDeclarativePrivate10createIntoI26QDeclarativeParticleMotionEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoI26QDeclarativeParticleMotionEEvPv.clean 0x0000b6dc   Section       12  particles.o(t._ZN19QDeclarativePrivate10createIntoI26QDeclarativeParticleMotionEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoI32QDeclarativeParticleMotionLinearEEvPv 0x0000b6e8   Section       36  particles.o(t._ZN19QDeclarativePrivate10createIntoI32QDeclarativeParticleMotionLinearEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoI32QDeclarativeParticleMotionLinearEEvPv.clean 0x0000b70c   Section       12  particles.o(t._ZN19QDeclarativePrivate10createIntoI32QDeclarativeParticleMotionLinearEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoI32QDeclarativeParticleMotionWanderEEvPv 0x0000b718   Section       52  particles.o(t._ZN19QDeclarativePrivate10createIntoI32QDeclarativeParticleMotionWanderEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoI32QDeclarativeParticleMotionWanderEEvPv.clean 0x0000b74c   Section       12  particles.o(t._ZN19QDeclarativePrivate10createIntoI32QDeclarativeParticleMotionWanderEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoI33QDeclarativeParticleMotionGravityEEvPv 0x0000b758   Section       48  particles.o(t._ZN19QDeclarativePrivate10createIntoI33QDeclarativeParticleMotionGravityEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoI33QDeclarativeParticleMotionGravityEEvPv.clean 0x0000b788   Section       12  particles.o(t._ZN19QDeclarativePrivate10createIntoI33QDeclarativeParticleMotionGravityEEvPv.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesED1Ev 0x0000b794   Section       36  particles.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesED1Ev.clean 0x0000b7b8   Section       10  particles.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI26QDeclarativeParticleMotionED1Ev 0x0000b7c4   Section       28  particles.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI26QDeclarativeParticleMotionED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI26QDeclarativeParticleMotionED1Ev.clean 0x0000b7e0   Section       10  particles.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI26QDeclarativeParticleMotionED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionLinearED1Ev 0x0000b7ec   Section       28  particles.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionLinearED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionLinearED1Ev.clean 0x0000b808   Section       10  particles.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionLinearED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionWanderED1Ev 0x0000b814   Section       28  particles.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionWanderED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionWanderED1Ev.clean 0x0000b830   Section       10  particles.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionWanderED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI33QDeclarativeParticleMotionGravityED1Ev 0x0000b83c   Section       28  particles.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI33QDeclarativeParticleMotionGravityED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI33QDeclarativeParticleMotionGravityED1Ev.clean 0x0000b858   Section       10  particles.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI33QDeclarativeParticleMotionGravityED1Ev.clean)
+    t._ZN4QMapIN2Qt11GestureTypeE6QFlagsINS0_11GestureFlagEEED1Ev 0x0000b862   Section       42  qdeclarativeparticles.o(t._ZN4QMapIN2Qt11GestureTypeE6QFlagsINS0_11GestureFlagEEED1Ev)
+    t._ZN4QMapIP7QWidget5QRectED1Ev          0x0000b88c   Section       42  qdeclarativeparticles.o(t._ZN4QMapIP7QWidget5QRectED1Ev)
+    t._ZN5QListI20QDeclarativeParticleE13detach_helperEv 0x0000b8b6   Section       88  qdeclarativeparticles.o(t._ZN5QListI20QDeclarativeParticleE13detach_helperEv)
+    t._ZN5QListI20QDeclarativeParticleE13detach_helperEv.clean 0x0000b90e   Section        8  qdeclarativeparticles.o(t._ZN5QListI20QDeclarativeParticleE13detach_helperEv.clean)
+    t._ZN5QListI20QDeclarativeParticleE13node_destructEPNS1_4NodeES3_ 0x0000b916   Section       22  qdeclarativeparticles.o(t._ZN5QListI20QDeclarativeParticleE13node_destructEPNS1_4NodeES3_)
+    t._ZN5QListI20QDeclarativeParticleE14node_constructEPNS1_4NodeERKS0_ 0x0000b92c   Section       24  qdeclarativeparticles.o(t._ZN5QListI20QDeclarativeParticleE14node_constructEPNS1_4NodeERKS0_)
+    t._ZN5QListI20QDeclarativeParticleE14node_constructEPNS1_4NodeERKS0_.clean 0x0000b944   Section       10  qdeclarativeparticles.o(t._ZN5QListI20QDeclarativeParticleE14node_constructEPNS1_4NodeERKS0_.clean)
+    t._ZN5QListI20QDeclarativeParticleE18detach_helper_growEii 0x0000b94e   Section      180  qdeclarativeparticles.o(t._ZN5QListI20QDeclarativeParticleE18detach_helper_growEii)
+    t._ZN5QListI20QDeclarativeParticleE18detach_helper_growEii.clean 0x0000ba02   Section        8  qdeclarativeparticles.o(t._ZN5QListI20QDeclarativeParticleE18detach_helper_growEii.clean)
+    t._ZN5QListI20QDeclarativeParticleE4freeEPN9QListData4DataE 0x0000ba0a   Section       44  qdeclarativeparticles.o(t._ZN5QListI20QDeclarativeParticleE4freeEPN9QListData4DataE)
+    t._ZN5QListI20QDeclarativeParticleE6appendERKS0_ 0x0000ba38   Section       96  qdeclarativeparticles.o(t._ZN5QListI20QDeclarativeParticleE6appendERKS0_)
+    t._ZN5QListI20QDeclarativeParticleE6appendERKS0_.clean 0x0000ba98   Section        8  qdeclarativeparticles.o(t._ZN5QListI20QDeclarativeParticleE6appendERKS0_.clean)
+    t._ZN5QListI20QDeclarativeParticleE6detachEv 0x0000baa0   Section       24  qdeclarativeparticles.o(t._ZN5QListI20QDeclarativeParticleE6detachEv)
+    t._ZN5QListI20QDeclarativeParticleE9node_copyEPNS1_4NodeES3_S3_ 0x0000bab8   Section       64  qdeclarativeparticles.o(t._ZN5QListI20QDeclarativeParticleE9node_copyEPNS1_4NodeES3_S3_)
+    t._ZN5QListI20QDeclarativeParticleE9node_copyEPNS1_4NodeES3_S3_.clean 0x0000baf8   Section       18  qdeclarativeparticles.o(t._ZN5QListI20QDeclarativeParticleE9node_copyEPNS1_4NodeES3_S3_.clean)
+    t._ZN5QListI20QDeclarativeParticleED1Ev  0x0000bb0a   Section       30  qdeclarativeparticles.o(t._ZN5QListI20QDeclarativeParticleED1Ev)
+    t._ZN5QListI5QPairIiiEE13detach_helperEv 0x0000bb28   Section       88  qdeclarativeparticles.o(t._ZN5QListI5QPairIiiEE13detach_helperEv)
+    t._ZN5QListI5QPairIiiEE13detach_helperEv.clean 0x0000bb80   Section        8  qdeclarativeparticles.o(t._ZN5QListI5QPairIiiEE13detach_helperEv.clean)
+    t._ZN5QListI5QPairIiiEE13node_destructEPNS2_4NodeES4_ 0x0000bb88   Section       22  qdeclarativeparticles.o(t._ZN5QListI5QPairIiiEE13node_destructEPNS2_4NodeES4_)
+    t._ZN5QListI5QPairIiiEE14node_constructEPNS2_4NodeERKS1_ 0x0000bb9e   Section       24  qdeclarativeparticles.o(t._ZN5QListI5QPairIiiEE14node_constructEPNS2_4NodeERKS1_)
+    t._ZN5QListI5QPairIiiEE14node_constructEPNS2_4NodeERKS1_.clean 0x0000bbb6   Section        4  qdeclarativeparticles.o(t._ZN5QListI5QPairIiiEE14node_constructEPNS2_4NodeERKS1_.clean)
+    t._ZN5QListI5QPairIiiEE18detach_helper_growEii 0x0000bbba   Section      180  qdeclarativeparticles.o(t._ZN5QListI5QPairIiiEE18detach_helper_growEii)
+    t._ZN5QListI5QPairIiiEE18detach_helper_growEii.clean 0x0000bc6e   Section        8  qdeclarativeparticles.o(t._ZN5QListI5QPairIiiEE18detach_helper_growEii.clean)
+    t._ZN5QListI5QPairIiiEE4freeEPN9QListData4DataE 0x0000bc76   Section       44  qdeclarativeparticles.o(t._ZN5QListI5QPairIiiEE4freeEPN9QListData4DataE)
+    t._ZN5QListI5QPairIiiEE6appendERKS1_     0x0000bca4   Section       96  qdeclarativeparticles.o(t._ZN5QListI5QPairIiiEE6appendERKS1_)
+    t._ZN5QListI5QPairIiiEE6appendERKS1_.clean 0x0000bd04   Section        8  qdeclarativeparticles.o(t._ZN5QListI5QPairIiiEE6appendERKS1_.clean)
+    t._ZN5QListI5QPairIiiEE6detachEv         0x0000bd0c   Section       24  qdeclarativeparticles.o(t._ZN5QListI5QPairIiiEE6detachEv)
+    t._ZN5QListI5QPairIiiEE9node_copyEPNS2_4NodeES4_S4_ 0x0000bd24   Section       64  qdeclarativeparticles.o(t._ZN5QListI5QPairIiiEE9node_copyEPNS2_4NodeES4_S4_)
+    t._ZN5QListI5QPairIiiEE9node_copyEPNS2_4NodeES4_S4_.clean 0x0000bd64   Section       12  qdeclarativeparticles.o(t._ZN5QListI5QPairIiiEE9node_copyEPNS2_4NodeES4_S4_.clean)
+    t._ZN5QListI5QPairIiiEED1Ev              0x0000bd70   Section       30  qdeclarativeparticles.o(t._ZN5QListI5QPairIiiEED1Ev)
+    t._ZN5QListI5QPairIiiEEixEi              0x0000bd8e   Section       22  qdeclarativeparticles.o(t._ZN5QListI5QPairIiiEEixEi)
+    t._ZN5QListIN20QGraphicsItemPrivate11ExtraStructEED1Ev 0x0000bda4   Section       80  qdeclarativeparticles.o(t._ZN5QListIN20QGraphicsItemPrivate11ExtraStructEED1Ev)
+    t._ZN5QListIP13QGraphicsItemED1Ev        0x0000bdf4   Section       42  qdeclarativeparticles.o(t._ZN5QListIP13QGraphicsItemED1Ev)
+    t._ZN5QListIP16QDeclarativeItemED1Ev     0x0000be1e   Section       42  qdeclarativeparticles.o(t._ZN5QListIP16QDeclarativeItemED1Ev)
+    t._ZN5QListIPP13QGraphicsItemED1Ev       0x0000be48   Section       42  qdeclarativeparticles.o(t._ZN5QListIPP13QGraphicsItemED1Ev)
+    t._ZN8QPointerI7QObjectED1Ev             0x0000be72   Section       12  particles.o(t._ZN8QPointerI7QObjectED1Ev)
+    t._ZNK18TickAnimationProxyI28QDeclarativeParticlesPrivateXadL_ZNS0_4tickEiEEE8durationEv 0x0000be7e   Section        6  qdeclarativeparticles.o(t._ZNK18TickAnimationProxyI28QDeclarativeParticlesPrivateXadL_ZNS0_4tickEiEEE8durationEv)
+    t._ZNK5QListI20QDeclarativeParticleE2atEi 0x0000be84   Section       10  qdeclarativeparticles.o(t._ZNK5QListI20QDeclarativeParticleE2atEi)
+    t._ZNK5QListI20QDeclarativeParticleE5countEv 0x0000be8e   Section        8  qdeclarativeparticles.o(t._ZNK5QListI20QDeclarativeParticleE5countEv)
+    .extab._ZN21QDeclarativeParticlesC1EP16QDeclarativeItem 0x0000be98   Data           0  qdeclarativeparticles.o(.ARM.extab)
+    .extab._ZN21QDeclarativeParticles9setSourceERK4QUrl 0x0000beb8   Data           0  qdeclarativeparticles.o(.ARM.extab)
+    .extab._ZN21QDeclarativeParticles11imageLoadedEv 0x0000bed8   Data           0  qdeclarativeparticles.o(.ARM.extab)
+    .extab._ZN28QDeclarativeParticlesPainter5paintEP8QPainterPK24QStyleOptionGraphicsItemP7QWidget 0x0000bef8   Data           0  qdeclarativeparticles.o(.ARM.extab)
+    .extab._ZN28QDeclarativeParticlesPrivate4tickEi 0x0000bf0c   Data           0  qdeclarativeparticles.o(.ARM.extab)
+    .extab._ZN20QGraphicsItemPrivateD1Ev     0x0000bf1c   Data           0  qdeclarativeparticles.o(.ARM.extab)
+    .extab._ZN23QDeclarativeItemPrivateD1Ev  0x0000bf44   Data           0  qdeclarativeparticles.o(.ARM.extab)
+    .extab._ZN20QGraphicsItemPrivateC1Ev     0x0000bf5c   Data           0  qdeclarativeparticles.o(.ARM.extab)
+    .extab._ZN28QDeclarativeParticlesPrivateC1Ev 0x0000bf84   Data           0  qdeclarativeparticles.o(.ARM.extab)
+    .extab._ZN16QDeclarativeInfolsERK7QString 0x0000bfb4   Data           0  qdeclarativeparticles.o(.ARM.extab)
+    .extab._ZN5QListI5QPairIiiEE9node_copyEPNS2_4NodeES4_S4_ 0x0000bfcc   Data           0  qdeclarativeparticles.o(.ARM.extab)
+    .extab._ZN5QListI5QPairIiiEE18detach_helper_growEii 0x0000bfe8   Data           0  qdeclarativeparticles.o(.ARM.extab)
+    .extab._ZN30QGraphicsColorizeEffectPrivateD1Ev 0x0000c018   Data           0  qdeclarativeparticles.o(.ARM.extab)
+    .extab._ZN26QGraphicsBlurEffectPrivateD1Ev 0x0000c028   Data           0  qdeclarativeparticles.o(.ARM.extab)
+    .extab._ZN32QGraphicsDropShadowEffectPrivateD1Ev 0x0000c038   Data           0  qdeclarativeparticles.o(.ARM.extab)
+    .extab._ZN28QDeclarativeParticlesPrivateD1Ev 0x0000c048   Data           0  qdeclarativeparticles.o(.ARM.extab)
+    .extab._ZN5QListI20QDeclarativeParticleE9node_copyEPNS1_4NodeES3_S3_ 0x0000c078   Data           0  qdeclarativeparticles.o(.ARM.extab)
+    .extab._ZN5QListI20QDeclarativeParticleE14node_constructEPNS1_4NodeERKS0_ 0x0000c09c   Data           0  qdeclarativeparticles.o(.ARM.extab)
+    .extab._ZN5QListI20QDeclarativeParticleE18detach_helper_growEii 0x0000c0ac   Data           0  qdeclarativeparticles.o(.ARM.extab)
+    .extab._ZN5QListI5QPairIiiEE6appendERKS1_ 0x0000c0dc   Data           0  qdeclarativeparticles.o(.ARM.extab)
+    .extab._ZN5QListI20QDeclarativeParticleE6appendERKS0_ 0x0000c10c   Data           0  qdeclarativeparticles.o(.ARM.extab)
+    .extab._ZN5QListI5QPairIiiEE13detach_helperEv 0x0000c13c   Data           0  qdeclarativeparticles.o(.ARM.extab)
+    .extab._ZN5QListI20QDeclarativeParticleE13detach_helperEv 0x0000c158   Data           0  qdeclarativeparticles.o(.ARM.extab)
+    .extab.qt_plugin_instance                0x0000c174   Data           0  particles.o(.ARM.extab)
+    .extab._ZplRK10QByteArrayPKc             0x0000c18c   Data           0  particles.o(.ARM.extab)
+    .extab._ZplRK10QByteArrayc               0x0000c19c   Data           0  particles.o(.ARM.extab)
+    .extab._ZplPKcRK10QByteArray             0x0000c1ac   Data           0  particles.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeI26QDeclarativeParticleMotionEiPKciiS2_ 0x0000c1bc   Data           0  particles.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeI33QDeclarativeParticleMotionGravityEiPKciiS2_ 0x0000c22c   Data           0  particles.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeI32QDeclarativeParticleMotionLinearEiPKciiS2_ 0x0000c29c   Data           0  particles.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeI32QDeclarativeParticleMotionWanderEiPKciiS2_ 0x0000c30c   Data           0  particles.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeI21QDeclarativeParticlesEiPKciiS2_ 0x0000c37c   Data           0  particles.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesED1Ev 0x0000c3ec   Data           0  particles.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoI26QDeclarativeParticleMotionEEvPv 0x0000c3fc   Data           0  particles.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoI33QDeclarativeParticleMotionGravityEEvPv 0x0000c40c   Data           0  particles.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoI32QDeclarativeParticleMotionLinearEEvPv 0x0000c41c   Data           0  particles.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoI32QDeclarativeParticleMotionWanderEEvPv 0x0000c42c   Data           0  particles.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoI21QDeclarativeParticlesEEvPv 0x0000c43c   Data           0  particles.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementI26QDeclarativeParticleMotionED1Ev 0x0000c44c   Data           0  particles.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementI33QDeclarativeParticleMotionGravityED1Ev 0x0000c45c   Data           0  particles.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionLinearED1Ev 0x0000c46c   Data           0  particles.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionWanderED1Ev 0x0000c47c   Data           0  particles.o(.ARM.extab)
+    .extab._ZN21QDeclarativeParticles11qt_metacallEN11QMetaObject4CallEiPPv 0x0000c48c   Data           0  moc_qdeclarativeparticles_p.o(.ARM.extab)
+    .constdata$1                             0x0000c49c   Data           0  qdeclarativeparticles.o(.constdata)
+    <Anon3>                                  0x0000c49c   Data           8  qdeclarativeparticles.o(.constdata)
+    .constdata                               0x0000c49c   Section        8  qdeclarativeparticles.o(.constdata)
+    .constdata$1                             0x0000c4a4   Data           0  particles.o(.constdata)
+    qt_meta_stringdata_QParticlesQmlModule   0x0000c4a4   Data          21  particles.o(.constdata)
+    .constdata                               0x0000c4a4   Section      128  particles.o(.constdata)
+    qt_plugin_verification_data              0x0000c4b9   Data          91  particles.o(.constdata)
+    .constdata$10                            0x0000c524   Data           0  particles.o(.constdata)
+    qt_meta_data_QParticlesQmlModule         0x0000c524   Data          60  particles.o(.constdata)
+    .constdata                               0x0000c524   Section       60  particles.o(.constdata)
+    .constdata$1                             0x0000c560   Data           0  moc_qdeclarativeparticles_p.o(.constdata)
+    qt_meta_stringdata_QDeclarativeParticleMotion 0x0000c560   Data          28  moc_qdeclarativeparticles_p.o(.constdata)
+    .constdata                               0x0000c560   Section      988  moc_qdeclarativeparticles_p.o(.constdata)
+    qt_meta_stringdata_QDeclarativeParticleMotionLinear 0x0000c57c   Data          34  moc_qdeclarativeparticles_p.o(.constdata)
+    qt_meta_stringdata_QDeclarativeParticleMotionGravity 0x0000c59e   Data         139  moc_qdeclarativeparticles_p.o(.constdata)
+    qt_meta_stringdata_QDeclarativeParticleMotionWander 0x0000c629   Data         118  moc_qdeclarativeparticles_p.o(.constdata)
+    qt_meta_stringdata_QDeclarativeParticles 0x0000c69f   Data         589  moc_qdeclarativeparticles_p.o(.constdata)
+    .constdata$22                            0x0000c93c   Data           0  moc_qdeclarativeparticles_p.o(.constdata)
+    qt_meta_data_QDeclarativeParticleMotion  0x0000c93c   Data          60  moc_qdeclarativeparticles_p.o(.constdata)
+    .constdata                               0x0000c93c   Section       60  moc_qdeclarativeparticles_p.o(.constdata)
+    .constdata$28                            0x0000c978   Data           0  moc_qdeclarativeparticles_p.o(.constdata)
+    qt_meta_data_QDeclarativeParticleMotionLinear 0x0000c978   Data          60  moc_qdeclarativeparticles_p.o(.constdata)
+    .constdata                               0x0000c978   Section       60  moc_qdeclarativeparticles_p.o(.constdata)
+    .constdata$34                            0x0000c9b4   Data           0  moc_qdeclarativeparticles_p.o(.constdata)
+    qt_meta_data_QDeclarativeParticleMotionGravity 0x0000c9b4   Data         168  moc_qdeclarativeparticles_p.o(.constdata)
+    .constdata                               0x0000c9b4   Section      168  moc_qdeclarativeparticles_p.o(.constdata)
+    .constdata$40                            0x0000ca5c   Data           0  moc_qdeclarativeparticles_p.o(.constdata)
+    qt_meta_data_QDeclarativeParticleMotionWander 0x0000ca5c   Data         168  moc_qdeclarativeparticles_p.o(.constdata)
+    .constdata                               0x0000ca5c   Section      168  moc_qdeclarativeparticles_p.o(.constdata)
+    .constdata$46                            0x0000cb04   Data           0  moc_qdeclarativeparticles_p.o(.constdata)
+    qt_meta_data_QDeclarativeParticles       0x0000cb04   Data         616  moc_qdeclarativeparticles_p.o(.constdata)
+    .constdata                               0x0000cb04   Section      616  moc_qdeclarativeparticles_p.o(.constdata)
+    .constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE 0x0000cd6c   Section        4  qdeclarativeparticles.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE 0x0000cd70   Section        4  qdeclarativeparticles.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE 0x0000cd74   Section        4  qdeclarativeparticles.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE 0x0000cd78   Section        4  qdeclarativeparticles.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE 0x0000cd7c   Section        4  qdeclarativeparticles.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE 0x0000cd80   Section        1  qdeclarativeparticles.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE 0x0000cd84   Section        4  qdeclarativeparticles.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE 0x0000cd88   Section        4  qdeclarativeparticles.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE 0x0000cd8c   Section        4  qdeclarativeparticles.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE 0x0000cd90   Section        4  qdeclarativeparticles.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE 0x0000cd94   Section        4  qdeclarativeparticles.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE 0x0000cd98   Section        4  qdeclarativeparticles.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE 0x0000cd9c   Section        4  qdeclarativeparticles.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE 0x0000cda0   Section        4  qdeclarativeparticles.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    .constdata__ZTI17QDeclarativeGuardI7QObjectE 0x0000cda4   Section        8  qdeclarativeparticles.o(.constdata__ZTI17QDeclarativeGuardI7QObjectE)
+    .constdata__ZTI18TickAnimationProxyI28QDeclarativeParticlesPrivateXadL_ZNS0_4tickEiEEE 0x0000cdac   Section       12  qdeclarativeparticles.o(.constdata__ZTI18TickAnimationProxyI28QDeclarativeParticlesPrivateXadL_ZNS0_4tickEiEEE)
+    .constdata__ZTI19QParticlesQmlModule     0x0000cdb8   Section       12  particles.o(.constdata__ZTI19QParticlesQmlModule)
+    .constdata__ZTI21QDeclarativeParticles   0x0000cdc4   Section       12  moc_qdeclarativeparticles_p.o(.constdata__ZTI21QDeclarativeParticles)
+    .constdata__ZTI22QGraphicsEffectPrivate  0x0000cdd0   Section       12  qdeclarativeparticles.o(.constdata__ZTI22QGraphicsEffectPrivate)
+    .constdata__ZTI26QDeclarativeParticleMotion 0x0000cddc   Section       12  moc_qdeclarativeparticles_p.o(.constdata__ZTI26QDeclarativeParticleMotion)
+    .constdata__ZTI26QGraphicsBlurEffectPrivate 0x0000cde8   Section       12  qdeclarativeparticles.o(.constdata__ZTI26QGraphicsBlurEffectPrivate)
+    .constdata__ZTI28QDeclarativeParticlesPainter 0x0000cdf4   Section       12  qdeclarativeparticles.o(.constdata__ZTI28QDeclarativeParticlesPainter)
+    .constdata__ZTI28QDeclarativeParticlesPrivate 0x0000ce00   Section       12  qdeclarativeparticles.o(.constdata__ZTI28QDeclarativeParticlesPrivate)
+    .constdata__ZTI30QGraphicsColorizeEffectPrivate 0x0000ce0c   Section       12  qdeclarativeparticles.o(.constdata__ZTI30QGraphicsColorizeEffectPrivate)
+    .constdata__ZTI32QDeclarativeParticleMotionLinear 0x0000ce18   Section       12  moc_qdeclarativeparticles_p.o(.constdata__ZTI32QDeclarativeParticleMotionLinear)
+    .constdata__ZTI32QDeclarativeParticleMotionWander 0x0000ce24   Section       12  moc_qdeclarativeparticles_p.o(.constdata__ZTI32QDeclarativeParticleMotionWander)
+    .constdata__ZTI32QGraphicsDropShadowEffectPrivate 0x0000ce30   Section       12  qdeclarativeparticles.o(.constdata__ZTI32QGraphicsDropShadowEffectPrivate)
+    .constdata__ZTI33QDeclarativeParticleMotionGravity 0x0000ce3c   Section       12  moc_qdeclarativeparticles_p.o(.constdata__ZTI33QDeclarativeParticleMotionGravity)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesEE 0x0000ce48   Section       12  particles.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI26QDeclarativeParticleMotionEE 0x0000ce54   Section       12  particles.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI26QDeclarativeParticleMotionEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionLinearEE 0x0000ce60   Section       12  particles.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionLinearEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionWanderEE 0x0000ce6c   Section       12  particles.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionWanderEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI33QDeclarativeParticleMotionGravityEE 0x0000ce78   Section       12  particles.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI33QDeclarativeParticleMotionGravityEE)
+    .constdata__ZTS17QDeclarativeGuardI7QObjectE 0x0000ce84   Section       30  qdeclarativeparticles.o(.constdata__ZTS17QDeclarativeGuardI7QObjectE)
+    .constdata__ZTS18TickAnimationProxyI28QDeclarativeParticlesPrivateXadL_ZNS0_4tickEiEEE 0x0000cea2   Section       72  qdeclarativeparticles.o(.constdata__ZTS18TickAnimationProxyI28QDeclarativeParticlesPrivateXadL_ZNS0_4tickEiEEE)
+    .constdata__ZTS19QParticlesQmlModule     0x0000ceea   Section       22  particles.o(.constdata__ZTS19QParticlesQmlModule)
+    .constdata__ZTS21QDeclarativeParticles   0x0000cf00   Section       24  moc_qdeclarativeparticles_p.o(.constdata__ZTS21QDeclarativeParticles)
+    .constdata__ZTS22QGraphicsEffectPrivate  0x0000cf18   Section       25  qdeclarativeparticles.o(.constdata__ZTS22QGraphicsEffectPrivate)
+    .constdata__ZTS26QDeclarativeParticleMotion 0x0000cf31   Section       29  moc_qdeclarativeparticles_p.o(.constdata__ZTS26QDeclarativeParticleMotion)
+    .constdata__ZTS26QGraphicsBlurEffectPrivate 0x0000cf4e   Section       29  qdeclarativeparticles.o(.constdata__ZTS26QGraphicsBlurEffectPrivate)
+    .constdata__ZTS28QDeclarativeParticlesPainter 0x0000cf6b   Section       31  qdeclarativeparticles.o(.constdata__ZTS28QDeclarativeParticlesPainter)
+    .constdata__ZTS28QDeclarativeParticlesPrivate 0x0000cf8a   Section       31  qdeclarativeparticles.o(.constdata__ZTS28QDeclarativeParticlesPrivate)
+    .constdata__ZTS30QGraphicsColorizeEffectPrivate 0x0000cfa9   Section       33  qdeclarativeparticles.o(.constdata__ZTS30QGraphicsColorizeEffectPrivate)
+    .constdata__ZTS32QDeclarativeParticleMotionLinear 0x0000cfca   Section       35  moc_qdeclarativeparticles_p.o(.constdata__ZTS32QDeclarativeParticleMotionLinear)
+    .constdata__ZTS32QDeclarativeParticleMotionWander 0x0000cfed   Section       35  moc_qdeclarativeparticles_p.o(.constdata__ZTS32QDeclarativeParticleMotionWander)
+    .constdata__ZTS32QGraphicsDropShadowEffectPrivate 0x0000d010   Section       35  qdeclarativeparticles.o(.constdata__ZTS32QGraphicsDropShadowEffectPrivate)
+    .constdata__ZTS33QDeclarativeParticleMotionGravity 0x0000d033   Section       36  moc_qdeclarativeparticles_p.o(.constdata__ZTS33QDeclarativeParticleMotionGravity)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesEE 0x0000d057   Section       70  particles.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI26QDeclarativeParticleMotionEE 0x0000d09d   Section       75  particles.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI26QDeclarativeParticleMotionEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionLinearEE 0x0000d0e8   Section       81  particles.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionLinearEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionWanderEE 0x0000d139   Section       81  particles.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionWanderEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI33QDeclarativeParticleMotionGravityEE 0x0000d18a   Section       82  particles.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI33QDeclarativeParticleMotionGravityEE)
+    .constdata__ZTV17QDeclarativeGuardI7QObjectE 0x0000d1dc   Section       20  qdeclarativeparticles.o(.constdata__ZTV17QDeclarativeGuardI7QObjectE)
+    .constdata__ZTV18TickAnimationProxyI28QDeclarativeParticlesPrivateXadL_ZNS0_4tickEiEEE 0x0000d1f0   Section       72  qdeclarativeparticles.o(.constdata__ZTV18TickAnimationProxyI28QDeclarativeParticlesPrivateXadL_ZNS0_4tickEiEEE)
+    .constdata__ZTV19QParticlesQmlModule     0x0000d238   Section       88  particles.o(.constdata__ZTV19QParticlesQmlModule)
+    .constdata__ZTV21QDeclarativeParticles   0x0000d290   Section      280  moc_qdeclarativeparticles_p.o(.constdata__ZTV21QDeclarativeParticles)
+    .constdata__ZTV26QDeclarativeParticleMotion 0x0000d3a8   Section       68  moc_qdeclarativeparticles_p.o(.constdata__ZTV26QDeclarativeParticleMotion)
+    .constdata__ZTV26QGraphicsBlurEffectPrivate 0x0000d3ec   Section       16  qdeclarativeparticles.o(.constdata__ZTV26QGraphicsBlurEffectPrivate)
+    .constdata__ZTV28QDeclarativeParticlesPainter 0x0000d3fc   Section      280  qdeclarativeparticles.o(.constdata__ZTV28QDeclarativeParticlesPainter)
+    .constdata__ZTV28QDeclarativeParticlesPrivate 0x0000d514   Section       84  qdeclarativeparticles.o(.constdata__ZTV28QDeclarativeParticlesPrivate)
+    .constdata__ZTV30QGraphicsColorizeEffectPrivate 0x0000d568   Section       16  qdeclarativeparticles.o(.constdata__ZTV30QGraphicsColorizeEffectPrivate)
+    .constdata__ZTV32QDeclarativeParticleMotionLinear 0x0000d578   Section       68  moc_qdeclarativeparticles_p.o(.constdata__ZTV32QDeclarativeParticleMotionLinear)
+    .constdata__ZTV32QDeclarativeParticleMotionWander 0x0000d5bc   Section       68  moc_qdeclarativeparticles_p.o(.constdata__ZTV32QDeclarativeParticleMotionWander)
+    .constdata__ZTV32QGraphicsDropShadowEffectPrivate 0x0000d600   Section       16  qdeclarativeparticles.o(.constdata__ZTV32QGraphicsDropShadowEffectPrivate)
+    .constdata__ZTV33QDeclarativeParticleMotionGravity 0x0000d610   Section       68  moc_qdeclarativeparticles_p.o(.constdata__ZTV33QDeclarativeParticleMotionGravity)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesEE 0x0000d654   Section      280  particles.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI26QDeclarativeParticleMotionEE 0x0000d76c   Section       68  particles.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI26QDeclarativeParticleMotionEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionLinearEE 0x0000d7b0   Section       68  particles.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionLinearEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionWanderEE 0x0000d7f4   Section       68  particles.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionWanderEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI33QDeclarativeParticleMotionGravityEE 0x0000d838   Section       68  particles.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI33QDeclarativeParticleMotionGravityEE)
+    __ARM_d__Z15qmlRegisterTypeI21QDeclarativeParticlesEiPKciiS2_$70 0x0000d87c   Data           0  particles.o(__ARM_d__Z15qmlRegisterTypeI21QDeclarativeParticlesEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI21QDeclarativeParticlesEiPKciiS2_ 0x0000d87c   Section       76  particles.o(__ARM_d__Z15qmlRegisterTypeI21QDeclarativeParticlesEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI26QDeclarativeParticleMotionEiPKciiS2_$58 0x0000d8c8   Data           0  particles.o(__ARM_d__Z15qmlRegisterTypeI26QDeclarativeParticleMotionEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI26QDeclarativeParticleMotionEiPKciiS2_ 0x0000d8c8   Section       76  particles.o(__ARM_d__Z15qmlRegisterTypeI26QDeclarativeParticleMotionEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI32QDeclarativeParticleMotionLinearEiPKciiS2_$64 0x0000d914   Data           0  particles.o(__ARM_d__Z15qmlRegisterTypeI32QDeclarativeParticleMotionLinearEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI32QDeclarativeParticleMotionLinearEiPKciiS2_ 0x0000d914   Section       76  particles.o(__ARM_d__Z15qmlRegisterTypeI32QDeclarativeParticleMotionLinearEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI32QDeclarativeParticleMotionWanderEiPKciiS2_$67 0x0000d960   Data           0  particles.o(__ARM_d__Z15qmlRegisterTypeI32QDeclarativeParticleMotionWanderEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI32QDeclarativeParticleMotionWanderEiPKciiS2_ 0x0000d960   Section       76  particles.o(__ARM_d__Z15qmlRegisterTypeI32QDeclarativeParticleMotionWanderEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI33QDeclarativeParticleMotionGravityEiPKciiS2_$61 0x0000d9ac   Data           0  particles.o(__ARM_d__Z15qmlRegisterTypeI33QDeclarativeParticleMotionGravityEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI33QDeclarativeParticleMotionGravityEiPKciiS2_ 0x0000d9ac   Section       76  particles.o(__ARM_d__Z15qmlRegisterTypeI33QDeclarativeParticleMotionGravityEiPKciiS2_)
+    .ARM.exidx                               0x0000d9f8   Section        8  ucppinit.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  particles.o(.data)
+    _ZGV_instance@qt_plugin_instance_0       0x00400000   Data           4  particles.o(.data)
+    .data                                    0x00400000   Section        8  particles.o(.data)
+    _instance@qt_plugin_instance_1           0x00400004   Data           4  particles.o(.data)
+    .data$0                                  0x00400008   Data           0  ucppfini.o(.data)
+    .data                                    0x00400008   Section        4  ucppfini.o(.data)
+    .data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE 0x0040000c   Section       12  qdeclarativeparticles.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    .data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI21QDeclarativeParticlesEE14qt_metatype_idEvE11metatype_id 0x00400018   Section        4  particles.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI21QDeclarativeParticlesEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI26QDeclarativeParticleMotionEE14qt_metatype_idEvE11metatype_id 0x0040001c   Section        4  particles.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI26QDeclarativeParticleMotionEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI32QDeclarativeParticleMotionLinearEE14qt_metatype_idEvE11metatype_id 0x00400020   Section        4  particles.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI32QDeclarativeParticleMotionLinearEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI32QDeclarativeParticleMotionWanderEE14qt_metatype_idEvE11metatype_id 0x00400024   Section        4  particles.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI32QDeclarativeParticleMotionWanderEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI33QDeclarativeParticleMotionGravityEE14qt_metatype_idEvE11metatype_id 0x00400028   Section        4  particles.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI33QDeclarativeParticleMotionGravityEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIP21QDeclarativeParticlesE14qt_metatype_idEvE11metatype_id 0x0040002c   Section        4  particles.o(.data__ZZN11QMetaTypeIdIP21QDeclarativeParticlesE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIP26QDeclarativeParticleMotionE14qt_metatype_idEvE11metatype_id 0x00400030   Section        4  particles.o(.data__ZZN11QMetaTypeIdIP26QDeclarativeParticleMotionE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIP32QDeclarativeParticleMotionLinearE14qt_metatype_idEvE11metatype_id 0x00400034   Section        4  particles.o(.data__ZZN11QMetaTypeIdIP32QDeclarativeParticleMotionLinearE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIP32QDeclarativeParticleMotionWanderE14qt_metatype_idEvE11metatype_id 0x00400038   Section        4  particles.o(.data__ZZN11QMetaTypeIdIP32QDeclarativeParticleMotionWanderE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIP33QDeclarativeParticleMotionGravityE14qt_metatype_idEvE11metatype_id 0x0040003c   Section        4  particles.o(.data__ZZN11QMetaTypeIdIP33QDeclarativeParticleMotionGravityE14qt_metatype_idEvE11metatype_id)
+    .bss$5                                   0x00400040   Data           0  ucppfini.o(.bss)
+    .bss                                     0x00400040   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$VFPv2$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$IEEEJ$EBA8$UX$FPIC$INDIRECT$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    QtCore{00040703}[2001b2dc].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtDeclarative{00040703}[2001e623].dll    0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtGui{00040703}[2001b2dd].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    dfpaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    euser{000a0000}[100039e5].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    libc{00010001}[10207369].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    libm{00010001}[102750d2].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    qmlparticlesplugin{00040703}[2002131e].dll 0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    stdnew{000a0000}[20022178].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    qFree(void*)                              - Undefined Reference
+    _Z5qFreePv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qrand()                                   - Undefined Reference
+    _Z5qrandv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qMalloc(unsigned)                         - Undefined Reference
+    _Z7qMallocj@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qmlInfo(const QObject*)                   - Undefined Reference
+    _Z7qmlInfoPK7QObject@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    qBadAlloc()                               - Undefined Reference
+    _Z9qBadAllocv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qmlEngine(const QObject*)                 - Undefined Reference
+    _Z9qmlEnginePK7QObject@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QByteArray::append(const char*)           - Undefined Reference
+    _ZN10QByteArray6appendEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::append(const QByteArray&)     - Undefined Reference
+    _ZN10QByteArray6appendERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::append(char)                  - Undefined Reference
+    _ZN10QByteArray6appendEc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::QByteArray(const char*)       - Undefined Reference
+    _ZN10QByteArrayC1EPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTransform::QTransform()                  - Undefined Reference
+    _ZN10QTransformC1Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QMetaObject::changeGuard(QObject**, QObject*)  - Undefined Reference
+    _ZN11QMetaObject11changeGuardEPP7QObjectS1_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::removeGuard(QObject**)       - Undefined Reference
+    _ZN11QMetaObject11removeGuardEPP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::activate(QObject*, const QMetaObject*, int, void**)  - Undefined Reference
+    _ZN11QMetaObject8activateEP7QObjectPKS_iPPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::operator <<(const QString&)  - Undefined Reference
+    _ZN11QTextStreamlsERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::operator <<(char)            - Undefined Reference
+    _ZN11QTextStreamlsEc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QGraphicsItem::wheelEvent(QGraphicsSceneWheelEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem10wheelEventEP24QGraphicsSceneWheelEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::focusInEvent(QFocusEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem12focusInEventEP11QFocusEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::setExtension(QGraphicsItem::Extension, const QVariant&)  - Undefined Reference
+    _ZN13QGraphicsItem12setExtensionENS_9ExtensionERK8QVariant@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::dragMoveEvent(QGraphicsSceneDragDropEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem13dragMoveEventEP27QGraphicsSceneDragDropEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::focusOutEvent(QFocusEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem13focusOutEventEP11QFocusEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::dragEnterEvent(QGraphicsSceneDragDropEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem14dragEnterEventEP27QGraphicsSceneDragDropEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::dragLeaveEvent(QGraphicsSceneDragDropEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem14dragLeaveEventEP27QGraphicsSceneDragDropEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::hoverMoveEvent(QGraphicsSceneHoverEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem14hoverMoveEventEP24QGraphicsSceneHoverEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::mouseMoveEvent(QGraphicsSceneMouseEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem14mouseMoveEventEP24QGraphicsSceneMouseEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::hoverEnterEvent(QGraphicsSceneHoverEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem15hoverEnterEventEP24QGraphicsSceneHoverEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::hoverLeaveEvent(QGraphicsSceneHoverEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem15hoverLeaveEventEP24QGraphicsSceneHoverEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::mousePressEvent(QGraphicsSceneMouseEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem15mousePressEventEP24QGraphicsSceneMouseEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::contextMenuEvent(QGraphicsSceneContextMenuEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem16contextMenuEventEP30QGraphicsSceneContextMenuEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::sceneEventFilter(QGraphicsItem*, QEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem16sceneEventFilterEPS_P6QEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::mouseReleaseEvent(QGraphicsSceneMouseEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem17mouseReleaseEventEP24QGraphicsSceneMouseEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::mouseDoubleClickEvent(QGraphicsSceneMouseEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem21mouseDoubleClickEventEP24QGraphicsSceneMouseEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::setX(float)                - Undefined Reference
+    _ZN13QGraphicsItem4setXEf@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::setY(float)                - Undefined Reference
+    _ZN13QGraphicsItem4setYEf@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::update(const QRectF&)      - Undefined Reference
+    _ZN13QGraphicsItem6updateERK6QRectF@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::advance(int)               - Undefined Reference
+    _ZN13QGraphicsItem7advanceEi@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::setFlag(QGraphicsItem::GraphicsItemFlag, bool)  - Undefined Reference
+    _ZN13QGraphicsItem7setFlagENS_16GraphicsItemFlagEb@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::dropEvent(QGraphicsSceneDragDropEvent*)  - Undefined Reference
+    _ZN13QGraphicsItem9dropEventEP27QGraphicsSceneDragDropEvent@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QObjectPrivate::~QObjectPrivate()         - Undefined Reference
+    _ZN14QObjectPrivateD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDeclarativeInfo::~QDeclarativeInfo()     - Undefined Reference
+    _ZN16QDeclarativeInfoD1Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::classBegin()            - Undefined Reference
+    _ZN16QDeclarativeItem10classBeginEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::itemChange(QGraphicsItem::GraphicsItemChange, const QVariant&)  - Undefined Reference
+    _ZN16QDeclarativeItem10itemChangeEN13QGraphicsItem18GraphicsItemChangeERK8QVariant@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::sceneEvent(QEvent*)     - Undefined Reference
+    _ZN16QDeclarativeItem10sceneEventEP6QEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN16QDeclarativeItem11qt_metacallEN11QMetaObject4CallEiPPv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::qt_metacast(const char*)  - Undefined Reference
+    _ZN16QDeclarativeItem11qt_metacastEPKc@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::focusChanged(bool)      - Undefined Reference
+    _ZN16QDeclarativeItem12focusChangedEb@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::keyPressEvent(QKeyEvent*)  - Undefined Reference
+    _ZN16QDeclarativeItem13keyPressEventEP9QKeyEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::geometryChanged(const QRectF&, const QRectF&)  - Undefined Reference
+    _ZN16QDeclarativeItem15geometryChangedERK6QRectFS2_@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::keyReleaseEvent(QKeyEvent*)  - Undefined Reference
+    _ZN16QDeclarativeItem15keyReleaseEventEP9QKeyEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::inputMethodEvent(QInputMethodEvent*)  - Undefined Reference
+    _ZN16QDeclarativeItem16inputMethodEventEP17QInputMethodEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::staticMetaObject        - Undefined Reference
+    _ZN16QDeclarativeItem16staticMetaObjectE@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::componentComplete()     - Undefined Reference
+    _ZN16QDeclarativeItem17componentCompleteEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::activeFocusChanged(bool)  - Undefined Reference
+    _ZN16QDeclarativeItem18activeFocusChangedEb@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::event(QEvent*)          - Undefined Reference
+    _ZN16QDeclarativeItem5eventEP6QEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::setWidth(float)         - Undefined Reference
+    _ZN16QDeclarativeItem8setWidthEf@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::setHeight(float)        - Undefined Reference
+    _ZN16QDeclarativeItem9setHeightEf@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::QDeclarativeItem(QDeclarativeItem*)  - Undefined Reference
+    _ZN16QDeclarativeItemC1EPS_@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::QDeclarativeItem(QDeclarativeItemPrivate&, QDeclarativeItem*)  - Undefined Reference
+    _ZN16QDeclarativeItemC1ER23QDeclarativeItemPrivatePS_@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::~QDeclarativeItem()     - Undefined Reference
+    _ZN16QDeclarativeItemD1Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QAbstractAnimation::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN18QAbstractAnimation11qt_metacallEN11QMetaObject4CallEiPPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractAnimation::qt_metacast(const char*)  - Undefined Reference
+    _ZN18QAbstractAnimation11qt_metacastEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractAnimation::updateState(QAbstractAnimation::State, QAbstractAnimation::State)  - Undefined Reference
+    _ZN18QAbstractAnimation11updateStateENS_5StateES0_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractAnimation::updateDirection(QAbstractAnimation::Direction)  - Undefined Reference
+    _ZN18QAbstractAnimation15updateDirectionENS_9DirectionE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractAnimation::stop()                - Undefined Reference
+    _ZN18QAbstractAnimation4stopEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractAnimation::event(QEvent*)        - Undefined Reference
+    _ZN18QAbstractAnimation5eventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractAnimation::start(QAbstractAnimation::DeletionPolicy)  - Undefined Reference
+    _ZN18QAbstractAnimation5startENS_14DeletionPolicyE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractAnimation::QAbstractAnimation__sub_object(QObject*)  - Undefined Reference
+    _ZN18QAbstractAnimationC2EP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractAnimation::~QAbstractAnimation__sub_object()  - Undefined Reference
+    _ZN18QAbstractAnimationD2Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDeclarativePixmap::connectFinished(QObject*, const char*)  - Undefined Reference
+    _ZN18QDeclarativePixmap15connectFinishedEP7QObjectPKc@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativePixmap::load(QDeclarativeEngine*, const QUrl&)  - Undefined Reference
+    _ZN18QDeclarativePixmap4loadEP18QDeclarativeEngineRK4QUrl@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativePixmap::clear(QObject*)       - Undefined Reference
+    _ZN18QDeclarativePixmap5clearEP7QObject@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativePixmap::QDeclarativePixmap()  - Undefined Reference
+    _ZN18QDeclarativePixmapC1Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativePixmap::~QDeclarativePixmap()  - Undefined Reference
+    _ZN18QDeclarativePixmapD1Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativePrivate::qmlregister(QDeclarativePrivate::RegistrationType, void*)  - Undefined Reference
+    _ZN19QDeclarativePrivate11qmlregisterENS_16RegistrationTypeEPv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativePrivate::qdeclarativeelement_destructor(QObject*)  - Undefined Reference
+    _ZN19QDeclarativePrivate30qdeclarativeelement_destructorEP7QObject@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QGraphicsItemPrivate::setPosHelper(const QPointF&)  - Undefined Reference
+    _ZN20QGraphicsItemPrivate12setPosHelperERK7QPointF@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItemPrivate::updateSceneTransformFromParent()  - Undefined Reference
+    _ZN20QGraphicsItemPrivate30updateSceneTransformFromParentEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QDeclarativeItemPrivate::resetWidth()     - Undefined Reference
+    _ZN23QDeclarativeItemPrivate10resetWidthEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItemPrivate::resetHeight()    - Undefined Reference
+    _ZN23QDeclarativeItemPrivate11resetHeightEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItemPrivate::focusChanged(bool)  - Undefined Reference
+    _ZN23QDeclarativeItemPrivate12focusChangedEb@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItemPrivate::transformChanged()  - Undefined Reference
+    _ZN23QDeclarativeItemPrivate16transformChangedEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItemPrivate::setWidth(float)  - Undefined Reference
+    _ZN23QDeclarativeItemPrivate8setWidthEf@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItemPrivate::setHeight(float)  - Undefined Reference
+    _ZN23QDeclarativeItemPrivate9setHeightEf@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin11qt_metacallEN11QMetaObject4CallEiPPv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::qt_metacast(const char*)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin11qt_metacastEPKc@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::initializeEngine(QDeclarativeEngine*, const char*)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin16initializeEngineEP18QDeclarativeEnginePKc@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::staticMetaObject  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin16staticMetaObjectE@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::QDeclarativeExtensionPlugin__sub_object(QObject*)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPluginC2EP7QObject@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::~QDeclarativeExtensionPlugin__sub_object()  - Undefined Reference
+    _ZN27QDeclarativeExtensionPluginD2Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QUrl::QUrl(const QUrl&)                   - Undefined Reference
+    _ZN4QUrlC1ERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::QUrl()                              - Undefined Reference
+    _ZN4QUrlC1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::~QUrl()                             - Undefined Reference
+    _ZN4QUrlD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::operator =(const QUrl&)             - Undefined Reference
+    _ZN4QUrlaSERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    User::LockedDec(int&)                     - Undefined Reference
+    _ZN4User9LockedDecERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::LockedInc(int&)                     - Undefined Reference
+    _ZN4User9LockedIncERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QObject::childEvent(QChildEvent*)         - Undefined Reference
+    _ZN7QObject10childEventEP11QChildEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::timerEvent(QTimerEvent*)         - Undefined Reference
+    _ZN7QObject10timerEventEP11QTimerEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::customEvent(QEvent*)             - Undefined Reference
+    _ZN7QObject11customEventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::eventFilter(QObject*, QEvent*)   - Undefined Reference
+    _ZN7QObject11eventFilterEPS_P6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN7QObject11qt_metacallEN11QMetaObject4CallEiPPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::qt_metacast(const char*)         - Undefined Reference
+    _ZN7QObject11qt_metacastEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connectNotify(const char*)       - Undefined Reference
+    _ZN7QObject13connectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::disconnectNotify(const char*)    - Undefined Reference
+    _ZN7QObject16disconnectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::staticMetaObject                 - Undefined Reference
+    _ZN7QObject16staticMetaObjectE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::event(QEvent*)                   - Undefined Reference
+    _ZN7QObject5eventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::QObject(QObject*)                - Undefined Reference
+    _ZN7QObjectC1EPS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::~QObject()                       - Undefined Reference
+    _ZN7QObjectD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::shared_null                      - Undefined Reference
+    _ZN7QString11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::free(QString::Data*)             - Undefined Reference
+    _ZN7QString4freeEPNS_4DataE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromAscii(const char*, int)      - Undefined Reference
+    _ZN7QString9fromAsciiEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMapData::shared_null                     - Undefined Reference
+    _ZN8QMapData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMapData::continueFreeData(int)           - Undefined Reference
+    _ZN8QMapData16continueFreeDataEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QPainter::drawPixmapFragments(const QPainter::PixmapFragment*, int, const QPixmap&, QFlags<QPainter::PixmapFragmentHint>)  - Undefined Reference
+    _ZN8QPainter19drawPixmapFragmentsEPKNS_14PixmapFragmentEiRK7QPixmap6QFlagsINS_18PixmapFragmentHintEE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QVariant::~QVariant()                     - Undefined Reference
+    _ZN8QVariantD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach_grow(int*, int)         - Undefined Reference
+    _ZN9QListData11detach_growEPii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::shared_null                    - Undefined Reference
+    _ZN9QListData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::append()                       - Undefined Reference
+    _ZN9QListData6appendEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach(int)                    - Undefined Reference
+    _ZN9QListData6detachEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::remove(int)                    - Undefined Reference
+    _ZN9QListData6removeEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaType::registerType(const char*, void(*)(void*), void*(*)(const void*))  - Undefined Reference
+    _ZN9QMetaType12registerTypeEPKcPFvPvEPFS2_PKvE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaType::registerTypedef(const char*, int)  - Undefined Reference
+    _ZN9QMetaType15registerTypedefEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::cast(QObject*) const         - Undefined Reference
+    _ZNK11QMetaObject4castEP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QGraphicsItem::opaqueArea() const         - Undefined Reference
+    _ZNK13QGraphicsItem10opaqueAreaEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::isObscuredBy(const QGraphicsItem*) const  - Undefined Reference
+    _ZNK13QGraphicsItem12isObscuredByEPKS_@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::collidesWithItem(const QGraphicsItem*, Qt::ItemSelectionMode) const  - Undefined Reference
+    _ZNK13QGraphicsItem16collidesWithItemEPKS_N2Qt17ItemSelectionModeE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::collidesWithPath(const QPainterPath&, Qt::ItemSelectionMode) const  - Undefined Reference
+    _ZNK13QGraphicsItem16collidesWithPathERK12QPainterPathN2Qt17ItemSelectionModeE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::supportsExtension(QGraphicsItem::Extension) const  - Undefined Reference
+    _ZNK13QGraphicsItem17supportsExtensionENS_9ExtensionE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::pos() const                - Undefined Reference
+    _ZNK13QGraphicsItem3posEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::type() const               - Undefined Reference
+    _ZNK13QGraphicsItem4typeEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::shape() const              - Undefined Reference
+    _ZNK13QGraphicsItem5shapeEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::contains(const QPointF&) const  - Undefined Reference
+    _ZNK13QGraphicsItem8containsERK7QPointF@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItem::extension(const QVariant&) const  - Undefined Reference
+    _ZNK13QGraphicsItem9extensionERK8QVariant@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QDeclarativeItem::metaObject() const      - Undefined Reference
+    _ZNK16QDeclarativeItem10metaObjectEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::parentItem() const      - Undefined Reference
+    _ZNK16QDeclarativeItem10parentItemEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::boundingRect() const    - Undefined Reference
+    _ZNK16QDeclarativeItem12boundingRectEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::inputMethodQuery(Qt::InputMethodQuery) const  - Undefined Reference
+    _ZNK16QDeclarativeItem16inputMethodQueryEN2Qt16InputMethodQueryE@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::width() const           - Undefined Reference
+    _ZNK16QDeclarativeItem5widthEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItem::height() const          - Undefined Reference
+    _ZNK16QDeclarativeItem6heightEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QAbstractAnimation::metaObject() const    - Undefined Reference
+    _ZNK18QAbstractAnimation10metaObjectEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QAbstractAnimation::state() const         - Undefined Reference
+    _ZNK18QAbstractAnimation5stateEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDeclarativePixmap::rect() const          - Undefined Reference
+    _ZNK18QDeclarativePixmap4rectEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativePixmap::error() const         - Undefined Reference
+    _ZNK18QDeclarativePixmap5errorEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativePixmap::width() const         - Undefined Reference
+    _ZNK18QDeclarativePixmap5widthEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativePixmap::height() const        - Undefined Reference
+    _ZNK18QDeclarativePixmap6heightEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativePixmap::isNull() const        - Undefined Reference
+    _ZNK18QDeclarativePixmap6isNullEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativePixmap::pixmap() const        - Undefined Reference
+    _ZNK18QDeclarativePixmap6pixmapEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativePixmap::isError() const       - Undefined Reference
+    _ZNK18QDeclarativePixmap7isErrorEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativePixmap::isLoading() const     - Undefined Reference
+    _ZNK18QDeclarativePixmap9isLoadingEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QGraphicsItemPrivate::isProxyWidget() const  - Undefined Reference
+    _ZNK20QGraphicsItemPrivate13isProxyWidgetEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QGraphicsItemPrivate::inputMethodQueryHelper(Qt::InputMethodQuery) const  - Undefined Reference
+    _ZNK20QGraphicsItemPrivate22inputMethodQueryHelperEN2Qt16InputMethodQueryE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QDeclarativeItemPrivate::width() const    - Undefined Reference
+    _ZNK23QDeclarativeItemPrivate5widthEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeItemPrivate::height() const   - Undefined Reference
+    _ZNK23QDeclarativeItemPrivate6heightEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QUrl::isEmpty() const                     - Undefined Reference
+    _ZNK4QUrl7isEmptyEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::operator ==(const QUrl&) const      - Undefined Reference
+    _ZNK4QUrleqERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::toLocal8Bit() const              - Undefined Reference
+    _ZNK7QString11toLocal8BitEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for QObjectPrivate               - Undefined Reference
+    _ZTI14QObjectPrivate@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for QDeclarativeItem             - Undefined Reference
+    _ZTI16QDeclarativeItem@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    typeinfo for QAbstractAnimation           - Undefined Reference
+    _ZTI18QAbstractAnimation@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for QDeclarativeItemPrivate      - Undefined Reference
+    _ZTI23QDeclarativeItemPrivate@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    typeinfo for QDeclarativeExtensionPlugin  - Undefined Reference
+    _ZTI27QDeclarativeExtensionPlugin@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    typeinfo for QObject                      - Undefined Reference
+    _ZTI7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    vtable for QGraphicsItemPrivate           - Undefined Reference
+    _ZTV20QGraphicsItemPrivate@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    vtable for QDeclarativeItemPrivate        - Undefined Reference
+    _ZTV23QDeclarativeItemPrivate@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    vtable for __cxxabiv1::__class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv117__class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv120__si_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    thunk{-16} to QDeclarativeItem::classBegin()  - Undefined Reference
+    _ZThn16_N16QDeclarativeItem10classBeginEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-16} to QDeclarativeItem::componentComplete()  - Undefined Reference
+    _ZThn16_N16QDeclarativeItem17componentCompleteEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeItem::itemChange(QGraphicsItem::GraphicsItemChange, const QVariant&)  - Undefined Reference
+    _ZThn8_N16QDeclarativeItem10itemChangeEN13QGraphicsItem18GraphicsItemChangeERK8QVariant@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeItem::sceneEvent(QEvent*)  - Undefined Reference
+    _ZThn8_N16QDeclarativeItem10sceneEventEP6QEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeItem::keyPressEvent(QKeyEvent*)  - Undefined Reference
+    _ZThn8_N16QDeclarativeItem13keyPressEventEP9QKeyEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeItem::keyReleaseEvent(QKeyEvent*)  - Undefined Reference
+    _ZThn8_N16QDeclarativeItem15keyReleaseEventEP9QKeyEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeItem::inputMethodEvent(QInputMethodEvent*)  - Undefined Reference
+    _ZThn8_N16QDeclarativeItem16inputMethodEventEP17QInputMethodEvent@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeExtensionPlugin::initializeEngine(QDeclarativeEngine*, const char*)  - Undefined Reference
+    _ZThn8_N27QDeclarativeExtensionPlugin16initializeEngineEP18QDeclarativeEnginePKc@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeItem::boundingRect() const  - Undefined Reference
+    _ZThn8_NK16QDeclarativeItem12boundingRectEv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    thunk{-8} to QDeclarativeItem::inputMethodQuery(Qt::InputMethodQuery) const  - Undefined Reference
+    _ZThn8_NK16QDeclarativeItem16inputMethodQueryEN2Qt16InputMethodQueryE@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    operator delete (void*)                   - Undefined Reference
+    _ZdlPv@stdnew{000a0000}[20022178].dll     - Undefined Reference
+    operator new(unsigned)                    - Undefined Reference
+    _Znwj@stdnew{000a0000}[20022178].dll      - Undefined Reference
+    __aeabi_cfcmpeq                           - Undefined Reference
+    __aeabi_cfcmpeq@dfpaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_cfcmple                           - Undefined Reference
+    __aeabi_cfcmple@dfpaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_cfrcmple                          - Undefined Reference
+    __aeabi_cfrcmple@dfpaeabi{000a0000}.dll   - Undefined Reference
+    __aeabi_d2f                               - Undefined Reference
+    __aeabi_d2f@dfpaeabi{000a0000}.dll        - Undefined Reference
+    __aeabi_d2iz                              - Undefined Reference
+    __aeabi_d2iz@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_f2d                               - Undefined Reference
+    __aeabi_f2d@dfpaeabi{000a0000}.dll        - Undefined Reference
+    __aeabi_f2iz                              - Undefined Reference
+    __aeabi_f2iz@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_fadd                              - Undefined Reference
+    __aeabi_fadd@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_fdiv                              - Undefined Reference
+    __aeabi_fdiv@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_fmul                              - Undefined Reference
+    __aeabi_fmul@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_frsub                             - Undefined Reference
+    __aeabi_frsub@dfpaeabi{000a0000}.dll      - Undefined Reference
+    __aeabi_fsub                              - Undefined Reference
+    __aeabi_fsub@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_i2f                               - Undefined Reference
+    __aeabi_i2f@dfpaeabi{000a0000}.dll        - Undefined Reference
+    __aeabi_memcpy4                           - Undefined Reference
+    __aeabi_memcpy4@drtaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_unwind_cpp_pr0                    - Undefined Reference
+    __aeabi_unwind_cpp_pr0@drtaeabi{000a0000}.dll  - Undefined Reference
+    __aeabi_unwind_cpp_pr1                    - Undefined Reference
+    __aeabi_unwind_cpp_pr1@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_begin_catch                         - Undefined Reference
+    __cxa_begin_catch@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_end_catch                           - Undefined Reference
+    __cxa_end_catch@drtaeabi{000a0000}.dll    - Undefined Reference
+    __cxa_end_cleanup                         - Undefined Reference
+    __cxa_end_cleanup@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_abort                         - Undefined Reference
+    __cxa_guard_abort@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_acquire                       - Undefined Reference
+    __cxa_guard_acquire@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_release                       - Undefined Reference
+    __cxa_guard_release@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_rethrow                             - Undefined Reference
+    __cxa_rethrow@drtaeabi{000a0000}.dll      - Undefined Reference
+    free                                      - Undefined Reference
+    free@libc{00010001}[10207369].dll         - Undefined Reference
+    modf                                      - Undefined Reference
+    modf@libm{00010001}[102750d2].dll         - Undefined Reference
+    strcmp                                    - Undefined Reference
+    strcmp@libc{00010001}[10207369].dll       - Undefined Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      52  ucppinit.o(.emb_text)
+    std::nothrow                             0x0000805c   ARM Code       0  ucppinit.o(.emb_text)
+    __PLT                                    0x0000805c   ARM Code       0  anon$$obj.o(.plt)
+    QDeclarativeParticleMotion::QDeclarativeParticleMotion(QObject*) 0x0000842d   Thumb Code    12  qdeclarativeparticles.o(.text)
+    QDeclarativeParticleMotion::QDeclarativeParticleMotion__sub_object(QObject*) 0x0000842d   Thumb Code     0  qdeclarativeparticles.o(.text)
+    QDeclarativeParticleMotion::advance(QDeclarativeParticle&, int) 0x00008439   Thumb Code     2  qdeclarativeparticles.o(.text)
+    QDeclarativeParticleMotion::created(QDeclarativeParticle&) 0x0000843b   Thumb Code     2  qdeclarativeparticles.o(.text)
+    QDeclarativeParticleMotion::destroy(QDeclarativeParticle&) 0x0000843d   Thumb Code     2  qdeclarativeparticles.o(.text)
+    QDeclarativeParticleMotionLinear::advance(QDeclarativeParticle&, int) 0x0000843f   Thumb Code    44  qdeclarativeparticles.o(.text)
+    QDeclarativeParticleMotionGravity::setXAttractor(float) 0x0000846b   Thumb Code    28  qdeclarativeparticles.o(.text)
+    QDeclarativeParticleMotionGravity::setYAttractor(float) 0x00008487   Thumb Code    28  qdeclarativeparticles.o(.text)
+    QDeclarativeParticleMotionGravity::setAcceleration(float) 0x000084a3   Thumb Code    34  qdeclarativeparticles.o(.text)
+    QDeclarativeParticleMotionGravity::advance(QDeclarativeParticle&, int) 0x000084c5   Thumb Code   164  qdeclarativeparticles.o(.text)
+    QDeclarativeParticleMotionWander::advance(QDeclarativeParticle&, int) 0x00008569   Thumb Code   290  qdeclarativeparticles.o(.text)
+    QDeclarativeParticleMotionWander::created(QDeclarativeParticle&) 0x0000868b   Thumb Code   102  qdeclarativeparticles.o(.text)
+    QDeclarativeParticleMotionWander::destroy(QDeclarativeParticle&) 0x000086f1   Thumb Code    14  qdeclarativeparticles.o(.text)
+    QDeclarativeParticleMotionWander::setXVariance(float) 0x000086ff   Thumb Code    34  qdeclarativeparticles.o(.text)
+    QDeclarativeParticleMotionWander::setYVariance(float) 0x00008721   Thumb Code    34  qdeclarativeparticles.o(.text)
+    QDeclarativeParticleMotionWander::setPace(float) 0x00008743   Thumb Code    34  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::QDeclarativeParticles(QDeclarativeItem*) 0x00008765   Thumb Code   152  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::QDeclarativeParticles__sub_object(QDeclarativeItem*) 0x00008765   Thumb Code     0  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::~QDeclarativeParticles() 0x000087fd   Thumb Code     8  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::~QDeclarativeParticles__sub_object() 0x000087fd   Thumb Code     0  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::~QDeclarativeParticles__deallocating() 0x00008805   Thumb Code    16  qdeclarativeparticles.o(.text)
+    thunk{-16} to QDeclarativeParticles::~QDeclarativeParticles__deallocating() 0x00008815   Thumb Code     4  qdeclarativeparticles.o(.text)
+    thunk{-8} to QDeclarativeParticles::~QDeclarativeParticles__deallocating() 0x00008819   Thumb Code     4  qdeclarativeparticles.o(.text)
+    thunk{-16} to QDeclarativeParticles::~QDeclarativeParticles() 0x0000881d   Thumb Code     4  qdeclarativeparticles.o(.text)
+    thunk{-8} to QDeclarativeParticles::~QDeclarativeParticles() 0x00008821   Thumb Code     4  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::source() const    0x00008825   Thumb Code    12  qdeclarativeparticles.o(.text)
+    QDeclarativeParticlesPainter::updateSize() 0x00008831   Thumb Code   316  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::setSource(const QUrl&) 0x0000896d   Thumb Code   218  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::count() const     0x00008a47   Thumb Code    10  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::setCount(int)     0x00008a51   Thumb Code   108  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::emissionRate() const 0x00008abd   Thumb Code    10  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::setEmissionRate(int) 0x00008ac7   Thumb Code    60  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::emissionVariance() const 0x00008b03   Thumb Code    10  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::setEmissionVariance(float) 0x00008b0d   Thumb Code    30  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::lifeSpan() const  0x00008b2b   Thumb Code    10  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::setLifeSpan(int)  0x00008b35   Thumb Code    22  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::lifeSpanDeviation() const 0x00008b4b   Thumb Code    10  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::setLifeSpanDeviation(int) 0x00008b55   Thumb Code    22  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::fadeInDuration() const 0x00008b6b   Thumb Code    10  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::setFadeInDuration(int) 0x00008b75   Thumb Code    26  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::fadeOutDuration() const 0x00008b8f   Thumb Code    10  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::setFadeOutDuration(int) 0x00008b99   Thumb Code    26  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::angle() const     0x00008bb3   Thumb Code    24  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::setAngle(float)   0x00008bcb   Thumb Code    44  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::angleDeviation() const 0x00008bf7   Thumb Code    24  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::setAngleDeviation(float) 0x00008c0f   Thumb Code    44  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::velocity() const  0x00008c3b   Thumb Code    18  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::setVelocity(float) 0x00008c4d   Thumb Code    38  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::velocityDeviation() const 0x00008c73   Thumb Code    18  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::setVelocityDeviation(float) 0x00008c85   Thumb Code    38  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::motion() const    0x00008cab   Thumb Code    10  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::setMotion(QDeclarativeParticleMotion*) 0x00008cb5   Thumb Code    22  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::paint(QPainter*, const QStyleOptionGraphicsItem*, QWidget*) 0x00008ccb   Thumb Code     2  qdeclarativeparticles.o(.text)
+    thunk{-8} to QDeclarativeParticles::paint(QPainter*, const QStyleOptionGraphicsItem*, QWidget*) 0x00008ccd   Thumb Code     2  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::burst(int, int)   0x00008ccf   Thumb Code    46  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::componentComplete() 0x00008cfd   Thumb Code    56  qdeclarativeparticles.o(.text)
+    thunk{-16} to QDeclarativeParticles::componentComplete() 0x00008d35   Thumb Code     4  qdeclarativeparticles.o(.text)
+    QDeclarativeParticles::imageLoaded()     0x00008d39   Thumb Code   128  qdeclarativeparticles.o(.text)
+    QDeclarativeParticlesPainter::paint(QPainter*, const QStyleOptionGraphicsItem*, QWidget*) 0x00008db9   Thumb Code   504  qdeclarativeparticles.o(.text)
+    thunk{-8} to QDeclarativeParticlesPainter::paint(QPainter*, const QStyleOptionGraphicsItem*, QWidget*) 0x00008fb1   Thumb Code     4  qdeclarativeparticles.o(.text)
+    QDeclarativeParticlesPrivate::createParticle(int) 0x00008fb5   Thumb Code   540  qdeclarativeparticles.o(.text)
+    QDeclarativeParticlesPrivate::updateOpacity(QDeclarativeParticle&, int) 0x000091d1   Thumb Code    88  qdeclarativeparticles.o(.text)
+    QDeclarativeParticlesPrivate::tick(int)  0x00009229   Thumb Code   896  qdeclarativeparticles.o(.text)
+    qt_plugin_query_verification_data        0x000095c1   Thumb Code     4  particles.o(.text)
+    qt_plugin_instance                       0x000095c5   Thumb Code   100  particles.o(.text)
+    QParticlesQmlModule::getStaticMetaObject() 0x00009629   Thumb Code     6  particles.o(.text)
+    QParticlesQmlModule::metaObject() const  0x0000962f   Thumb Code    14  particles.o(.text)
+    QParticlesQmlModule::qt_metacast(const char*) 0x0000963d   Thumb Code    40  particles.o(.text)
+    QParticlesQmlModule::qt_metacall(QMetaObject::Call, int, void**) 0x00009665   Thumb Code     8  particles.o(.text)
+    QDeclarativeParticleMotion::getStaticMetaObject() 0x00009681   Thumb Code     4  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticleMotion::metaObject() const 0x00009685   Thumb Code    12  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticleMotion::qt_metacast(const char*) 0x00009691   Thumb Code    38  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticleMotion::qt_metacall(QMetaObject::Call, int, void**) 0x000096b7   Thumb Code     8  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticleMotionLinear::getStaticMetaObject() 0x000096bf   Thumb Code     6  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticleMotionLinear::metaObject() const 0x000096c5   Thumb Code    14  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticleMotionLinear::qt_metacast(const char*) 0x000096d3   Thumb Code    40  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticleMotionLinear::qt_metacall(QMetaObject::Call, int, void**) 0x000096fb   Thumb Code     2  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticleMotionGravity::getStaticMetaObject() 0x000096fd   Thumb Code     6  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticleMotionGravity::metaObject() const 0x00009703   Thumb Code    14  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticleMotionGravity::qt_metacast(const char*) 0x00009711   Thumb Code    40  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticleMotionGravity::accelerationChanged() 0x00009739   Thumb Code    16  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticleMotionGravity::yattractorChanged() 0x00009749   Thumb Code    16  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticleMotionGravity::xattractorChanged() 0x00009759   Thumb Code    16  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticleMotionGravity::qt_metacall(QMetaObject::Call, int, void**) 0x00009769   Thumb Code   172  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticleMotionWander::getStaticMetaObject() 0x00009815   Thumb Code     6  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticleMotionWander::metaObject() const 0x0000981b   Thumb Code    14  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticleMotionWander::qt_metacast(const char*) 0x00009829   Thumb Code    40  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticleMotionWander::paceChanged() 0x00009851   Thumb Code    16  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticleMotionWander::yvarianceChanged() 0x00009861   Thumb Code    16  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticleMotionWander::xvarianceChanged() 0x00009871   Thumb Code    16  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticleMotionWander::qt_metacall(QMetaObject::Call, int, void**) 0x00009881   Thumb Code   172  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticles::getStaticMetaObject() 0x0000992d   Thumb Code     6  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticles::metaObject() const 0x00009933   Thumb Code    14  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticles::qt_metacast(const char*) 0x00009941   Thumb Code    38  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticles::motionChanged()   0x00009967   Thumb Code    16  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticles::emittingChanged() 0x00009977   Thumb Code    16  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticles::velocityDeviationChanged() 0x00009987   Thumb Code    16  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticles::velocityChanged() 0x00009997   Thumb Code    16  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticles::angleDeviationChanged() 0x000099a7   Thumb Code    16  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticles::angleChanged()    0x000099b7   Thumb Code    16  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticles::fadeOutDurationChanged() 0x000099c7   Thumb Code    16  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticles::fadeInDurationChanged() 0x000099d7   Thumb Code    16  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticles::lifeSpanDeviationChanged() 0x000099e7   Thumb Code    16  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticles::lifeSpanChanged() 0x000099f7   Thumb Code    16  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticles::emissionVarianceChanged() 0x00009a07   Thumb Code    16  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticles::emissionRateChanged() 0x00009a17   Thumb Code    38  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticles::countChanged()    0x00009a3d   Thumb Code    14  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticles::sourceChanged()   0x00009a4b   Thumb Code    14  moc_qdeclarativeparticles_p.o(.text)
+    QDeclarativeParticles::qt_metacall(QMetaObject::Call, int, void**) 0x00009a59   Thumb Code   530  moc_qdeclarativeparticles_p.o(.text)
+    __ARM_switch8                            0x00009c70   ARM Code      24  switch8.o(.text)
+    __rt_switch8                             0x00009c70   ARM Code       0  switch8.o(.text)
+    _E32Dll_Body                             0x00009c88   ARM Code      56  uc_dll.o(.text)
+    __aeabi_atexit                           0x00009cc4   ARM Code      28  ucppfini.o(.text)
+    __cxa_atexit                             0x00009ce0   ARM Code      48  ucppfini.o(.text)
+    __cxa_finalize                           0x00009d10   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x00009d40   ARM Code       8  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x00009d54   ARM Code       4  dllexp.o(.text)
+    fastSin(float)                           0x00009dd1   Thumb Code    48  qdeclarativeparticles.o(i._Z7fastSinf)
+    QByteArray::QByteArray(const QByteArray&) 0x00009e09   Thumb Code    16  particles.o(i._ZN10QByteArrayC1ERKS_)
+    QByteArray::QByteArray__sub_object(const QByteArray&) 0x00009e09   Thumb Code     0  particles.o(i._ZN10QByteArrayC1ERKS_)
+    QByteArray::~QByteArray()                0x00009e19   Thumb Code    24  qdeclarativeparticles.o(i._ZN10QByteArrayD1Ev)
+    QByteArray::~QByteArray__sub_object()    0x00009e19   Thumb Code     0  qdeclarativeparticles.o(i._ZN10QByteArrayD1Ev)
+    QBasicAtomicInt::ref()                   0x00009e31   Thumb Code    18  qdeclarativeparticles.o(i._ZN15QBasicAtomicInt3refEv)
+    QBasicAtomicInt::deref()                 0x00009e43   Thumb Code    18  qdeclarativeparticles.o(i._ZN15QBasicAtomicInt5derefEv)
+    QDeclarativeInfo::operator <<(const QString&) 0x00009e55   Thumb Code    72  qdeclarativeparticles.o(i._ZN16QDeclarativeInfolsERK7QString)
+    QDeclarativeGuard<QObject>::~QDeclarativeGuard__deallocating() 0x00009eaf   Thumb Code    16  qdeclarativeparticles.o(i._ZN17QDeclarativeGuardI7QObjectED0Ev)
+    TickAnimationProxy<QDeclarativeParticlesPrivate, (&QDeclarativeParticlesPrivate::tick)>::~TickAnimationProxy__deallocating() 0x00009ebf   Thumb Code    16  qdeclarativeparticles.o(i._ZN18TickAnimationProxyI28QDeclarativeParticlesPrivateXadL_ZNS0_4tickEiEEED0Ev)
+    TickAnimationProxy<QDeclarativeParticlesPrivate, (&QDeclarativeParticlesPrivate::tick)>::~TickAnimationProxy() 0x00009ecf   Thumb Code     8  qdeclarativeparticles.o(i._ZN18TickAnimationProxyI28QDeclarativeParticlesPrivateXadL_ZNS0_4tickEiEEED1Ev)
+    TickAnimationProxy<QDeclarativeParticlesPrivate, (&QDeclarativeParticlesPrivate::tick)>::~TickAnimationProxy__sub_object() 0x00009ecf   Thumb Code     0  qdeclarativeparticles.o(i._ZN18TickAnimationProxyI28QDeclarativeParticlesPrivateXadL_ZNS0_4tickEiEEED1Ev)
+    QDeclarativePrivate::RegisterType::~RegisterType() 0x00009ed7   Thumb Code    12  particles.o(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    QDeclarativePrivate::RegisterType::~RegisterType__sub_object() 0x00009ed7   Thumb Code     0  particles.o(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticles>::~QDeclarativeElement__deallocating() 0x00009ee3   Thumb Code    16  particles.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticleMotion>::~QDeclarativeElement__deallocating() 0x00009ef3   Thumb Code    16  particles.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI26QDeclarativeParticleMotionED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticleMotionLinear>::~QDeclarativeElement__deallocating() 0x00009f03   Thumb Code    16  particles.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionLinearED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticleMotionWander>::~QDeclarativeElement__deallocating() 0x00009f13   Thumb Code    16  particles.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionWanderED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticleMotionGravity>::~QDeclarativeElement__deallocating() 0x00009f23   Thumb Code    16  particles.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI33QDeclarativeParticleMotionGravityED0Ev)
+    QParticlesQmlModule::registerTypes(const char*) 0x00009f35   Thumb Code    66  particles.o(i._ZN19QParticlesQmlModule13registerTypesEPKc)
+    QParticlesQmlModule::~QParticlesQmlModule__deallocating() 0x00009fdd   Thumb Code    16  particles.o(i._ZN19QParticlesQmlModuleD0Ev)
+    QParticlesQmlModule::~QParticlesQmlModule() 0x00009fed   Thumb Code     8  particles.o(i._ZN19QParticlesQmlModuleD1Ev)
+    QParticlesQmlModule::~QParticlesQmlModule__sub_object() 0x00009fed   Thumb Code     0  particles.o(i._ZN19QParticlesQmlModuleD1Ev)
+    QDeclarativeNotifier::~QDeclarativeNotifier() 0x00009ff5   Thumb Code    38  qdeclarativeparticles.o(i._ZN20QDeclarativeNotifierD1Ev)
+    QDeclarativeNotifier::~QDeclarativeNotifier__sub_object() 0x00009ff5   Thumb Code     0  qdeclarativeparticles.o(i._ZN20QDeclarativeNotifierD1Ev)
+    QDeclarativeParticle::QDeclarativeParticle(const QDeclarativeParticle&) 0x0000a01b   Thumb Code    42  qdeclarativeparticles.o(i._ZN20QDeclarativeParticleC1ERKS_)
+    QDeclarativeParticle::QDeclarativeParticle__sub_object(const QDeclarativeParticle&) 0x0000a01b   Thumb Code     0  qdeclarativeparticles.o(i._ZN20QDeclarativeParticleC1ERKS_)
+    QGraphicsItemPrivate::ExtraStruct::~ExtraStruct() 0x0000a045   Thumb Code    12  qdeclarativeparticles.o(i._ZN20QGraphicsItemPrivate11ExtraStructD1Ev)
+    QGraphicsItemPrivate::ExtraStruct::~ExtraStruct__sub_object() 0x0000a045   Thumb Code     0  qdeclarativeparticles.o(i._ZN20QGraphicsItemPrivate11ExtraStructD1Ev)
+    QGraphicsItemPrivate::resolveFont(unsigned) 0x0000a051   Thumb Code    46  qdeclarativeparticles.o(i._ZN20QGraphicsItemPrivate11resolveFontEj)
+    QGraphicsItemPrivate::resolvePalette(unsigned) 0x0000a07f   Thumb Code    46  qdeclarativeparticles.o(i._ZN20QGraphicsItemPrivate14resolvePaletteEj)
+    QGraphicsItemPrivate::QGraphicsItemPrivate() 0x0000a0ad   Thumb Code   286  qdeclarativeparticles.o(i._ZN20QGraphicsItemPrivateC1Ev)
+    QGraphicsItemPrivate::QGraphicsItemPrivate__sub_object() 0x0000a0ad   Thumb Code     0  qdeclarativeparticles.o(i._ZN20QGraphicsItemPrivateC1Ev)
+    QGraphicsItemPrivate::~QGraphicsItemPrivate() 0x0000a20d   Thumb Code    62  qdeclarativeparticles.o(i._ZN20QGraphicsItemPrivateD1Ev)
+    QGraphicsItemPrivate::~QGraphicsItemPrivate__sub_object() 0x0000a20d   Thumb Code     0  qdeclarativeparticles.o(i._ZN20QGraphicsItemPrivateD1Ev)
+    QGraphicsEffectPrivate::~QGraphicsEffectPrivate() 0x0000a27f   Thumb Code     8  qdeclarativeparticles.o(i._ZN22QGraphicsEffectPrivateD1Ev)
+    QGraphicsEffectPrivate::~QGraphicsEffectPrivate__sub_object() 0x0000a27f   Thumb Code     0  qdeclarativeparticles.o(i._ZN22QGraphicsEffectPrivateD1Ev)
+    QDeclarativeItemPrivate::setPosHelper(const QPointF&) 0x0000a287   Thumb Code    70  qdeclarativeparticles.o(i._ZN23QDeclarativeItemPrivate12setPosHelperERK7QPointF)
+    QDeclarativeItemPrivate::siblingOrderChange() 0x0000a2cd   Thumb Code    56  qdeclarativeparticles.o(i._ZN23QDeclarativeItemPrivate18siblingOrderChangeEv)
+    QDeclarativeItemPrivate::subFocusItemChange() 0x0000a305   Thumb Code    54  qdeclarativeparticles.o(i._ZN23QDeclarativeItemPrivate18subFocusItemChangeEv)
+    QDeclarativeItemPrivate::focusScopeItemChange(bool) 0x0000a33b   Thumb Code    16  qdeclarativeparticles.o(i._ZN23QDeclarativeItemPrivate20focusScopeItemChangeEb)
+    QDeclarativeItemPrivate::q_func()        0x0000a34b   Thumb Code    18  qdeclarativeparticles.o(i._ZN23QDeclarativeItemPrivate6q_funcEv)
+    QDeclarativeItemPrivate::QDeclarativeItemPrivate() 0x0000a35d   Thumb Code   150  qdeclarativeparticles.o(i._ZN23QDeclarativeItemPrivateC1Ev)
+    QDeclarativeItemPrivate::QDeclarativeItemPrivate__sub_object() 0x0000a35d   Thumb Code     0  qdeclarativeparticles.o(i._ZN23QDeclarativeItemPrivateC1Ev)
+    QDeclarativeItemPrivate::~QDeclarativeItemPrivate() 0x0000a401   Thumb Code    36  qdeclarativeparticles.o(i._ZN23QDeclarativeItemPrivateD1Ev)
+    QDeclarativeItemPrivate::~QDeclarativeItemPrivate__sub_object() 0x0000a401   Thumb Code     0  qdeclarativeparticles.o(i._ZN23QDeclarativeItemPrivateD1Ev)
+    QDeclarativeParticleMotion::~QDeclarativeParticleMotion__deallocating() 0x0000a43f   Thumb Code    16  moc_qdeclarativeparticles_p.o(i._ZN26QDeclarativeParticleMotionD0Ev)
+    QDeclarativeParticleMotion::~QDeclarativeParticleMotion() 0x0000a44f   Thumb Code     8  particles.o(i._ZN26QDeclarativeParticleMotionD1Ev)
+    QDeclarativeParticleMotion::~QDeclarativeParticleMotion__sub_object() 0x0000a44f   Thumb Code     0  particles.o(i._ZN26QDeclarativeParticleMotionD1Ev)
+    QGraphicsBlurEffectPrivate::~QGraphicsBlurEffectPrivate__deallocating() 0x0000a457   Thumb Code    16  qdeclarativeparticles.o(i._ZN26QGraphicsBlurEffectPrivateD0Ev)
+    QGraphicsBlurEffectPrivate::~QGraphicsBlurEffectPrivate() 0x0000a469   Thumb Code    28  qdeclarativeparticles.o(i._ZN26QGraphicsBlurEffectPrivateD1Ev)
+    QGraphicsBlurEffectPrivate::~QGraphicsBlurEffectPrivate__sub_object() 0x0000a469   Thumb Code     0  qdeclarativeparticles.o(i._ZN26QGraphicsBlurEffectPrivateD1Ev)
+    QDeclarativeParticlesPainter::~QDeclarativeParticlesPainter__deallocating() 0x0000a493   Thumb Code    16  qdeclarativeparticles.o(i._ZN28QDeclarativeParticlesPainterD0Ev)
+    QDeclarativeParticlesPainter::~QDeclarativeParticlesPainter() 0x0000a4a3   Thumb Code     8  qdeclarativeparticles.o(i._ZN28QDeclarativeParticlesPainterD1Ev)
+    QDeclarativeParticlesPainter::~QDeclarativeParticlesPainter__sub_object() 0x0000a4a3   Thumb Code     0  qdeclarativeparticles.o(i._ZN28QDeclarativeParticlesPainterD1Ev)
+    QDeclarativeParticlesPrivate::q_func()   0x0000a4ab   Thumb Code    18  qdeclarativeparticles.o(i._ZN28QDeclarativeParticlesPrivate6q_funcEv)
+    QDeclarativeParticlesPrivate::QDeclarativeParticlesPrivate() 0x0000a4bd   Thumb Code   192  qdeclarativeparticles.o(i._ZN28QDeclarativeParticlesPrivateC1Ev)
+    QDeclarativeParticlesPrivate::QDeclarativeParticlesPrivate__sub_object() 0x0000a4bd   Thumb Code     0  qdeclarativeparticles.o(i._ZN28QDeclarativeParticlesPrivateC1Ev)
+    QDeclarativeParticlesPrivate::~QDeclarativeParticlesPrivate__deallocating() 0x0000a5cb   Thumb Code    16  qdeclarativeparticles.o(i._ZN28QDeclarativeParticlesPrivateD0Ev)
+    QDeclarativeParticlesPrivate::~QDeclarativeParticlesPrivate() 0x0000a5dd   Thumb Code    84  qdeclarativeparticles.o(i._ZN28QDeclarativeParticlesPrivateD1Ev)
+    QDeclarativeParticlesPrivate::~QDeclarativeParticlesPrivate__sub_object() 0x0000a5dd   Thumb Code     0  qdeclarativeparticles.o(i._ZN28QDeclarativeParticlesPrivateD1Ev)
+    QGraphicsColorizeEffectPrivate::~QGraphicsColorizeEffectPrivate__deallocating() 0x0000a677   Thumb Code    16  qdeclarativeparticles.o(i._ZN30QGraphicsColorizeEffectPrivateD0Ev)
+    QGraphicsColorizeEffectPrivate::~QGraphicsColorizeEffectPrivate() 0x0000a689   Thumb Code    28  qdeclarativeparticles.o(i._ZN30QGraphicsColorizeEffectPrivateD1Ev)
+    QGraphicsColorizeEffectPrivate::~QGraphicsColorizeEffectPrivate__sub_object() 0x0000a689   Thumb Code     0  qdeclarativeparticles.o(i._ZN30QGraphicsColorizeEffectPrivateD1Ev)
+    QDeclarativeParticleMotionLinear::~QDeclarativeParticleMotionLinear__deallocating() 0x0000a6b3   Thumb Code    16  moc_qdeclarativeparticles_p.o(i._ZN32QDeclarativeParticleMotionLinearD0Ev)
+    QDeclarativeParticleMotionLinear::~QDeclarativeParticleMotionLinear() 0x0000a6c3   Thumb Code     8  particles.o(i._ZN32QDeclarativeParticleMotionLinearD1Ev)
+    QDeclarativeParticleMotionLinear::~QDeclarativeParticleMotionLinear__sub_object() 0x0000a6c3   Thumb Code     0  particles.o(i._ZN32QDeclarativeParticleMotionLinearD1Ev)
+    QDeclarativeParticleMotionWander::~QDeclarativeParticleMotionWander__deallocating() 0x0000a6cb   Thumb Code    16  moc_qdeclarativeparticles_p.o(i._ZN32QDeclarativeParticleMotionWanderD0Ev)
+    QDeclarativeParticleMotionWander::~QDeclarativeParticleMotionWander() 0x0000a6db   Thumb Code     8  particles.o(i._ZN32QDeclarativeParticleMotionWanderD1Ev)
+    QDeclarativeParticleMotionWander::~QDeclarativeParticleMotionWander__sub_object() 0x0000a6db   Thumb Code     0  particles.o(i._ZN32QDeclarativeParticleMotionWanderD1Ev)
+    QGraphicsDropShadowEffectPrivate::~QGraphicsDropShadowEffectPrivate__deallocating() 0x0000a6e3   Thumb Code    16  qdeclarativeparticles.o(i._ZN32QGraphicsDropShadowEffectPrivateD0Ev)
+    QGraphicsDropShadowEffectPrivate::~QGraphicsDropShadowEffectPrivate() 0x0000a6f5   Thumb Code    28  qdeclarativeparticles.o(i._ZN32QGraphicsDropShadowEffectPrivateD1Ev)
+    QGraphicsDropShadowEffectPrivate::~QGraphicsDropShadowEffectPrivate__sub_object() 0x0000a6f5   Thumb Code     0  qdeclarativeparticles.o(i._ZN32QGraphicsDropShadowEffectPrivateD1Ev)
+    QDeclarativeParticleMotionGravity::~QDeclarativeParticleMotionGravity__deallocating() 0x0000a71f   Thumb Code    16  moc_qdeclarativeparticles_p.o(i._ZN33QDeclarativeParticleMotionGravityD0Ev)
+    QDeclarativeParticleMotionGravity::~QDeclarativeParticleMotionGravity() 0x0000a72f   Thumb Code     8  particles.o(i._ZN33QDeclarativeParticleMotionGravityD1Ev)
+    QDeclarativeParticleMotionGravity::~QDeclarativeParticleMotionGravity__sub_object() 0x0000a72f   Thumb Code     0  particles.o(i._ZN33QDeclarativeParticleMotionGravityD1Ev)
+    QRectF::QRectF()                         0x0000a737   Thumb Code    12  qdeclarativeparticles.o(i._ZN6QRectFC1Ev)
+    QRectF::QRectF__sub_object()             0x0000a737   Thumb Code     0  qdeclarativeparticles.o(i._ZN6QRectFC1Ev)
+    QString::QString()                       0x0000a745   Thumb Code    16  particles.o(i._ZN7QStringC1Ev)
+    QString::QString__sub_object()           0x0000a745   Thumb Code     0  particles.o(i._ZN7QStringC1Ev)
+    QString::~QString()                      0x0000a759   Thumb Code    24  qdeclarativeparticles.o(i._ZN7QStringD1Ev)
+    QString::~QString__sub_object()          0x0000a759   Thumb Code     0  qdeclarativeparticles.o(i._ZN7QStringD1Ev)
+    QGraphicsItem::x() const                 0x0000a771   Thumb Code    14  qdeclarativeparticles.o(i._ZNK13QGraphicsItem1xEv)
+    QGraphicsItem::y() const                 0x0000a77f   Thumb Code    14  qdeclarativeparticles.o(i._ZNK13QGraphicsItem1yEv)
+    QBasicAtomicInt::operator ==(int) const  0x0000a78d   Thumb Code    14  qdeclarativeparticles.o(i._ZNK15QBasicAtomicInteqEi)
+    QBasicAtomicInt::operator !=(int) const  0x0000a79b   Thumb Code    14  qdeclarativeparticles.o(i._ZNK15QBasicAtomicIntneEi)
+    QBasicAtomicInt::operator !() const      0x0000a7a9   Thumb Code    14  particles.o(i._ZNK15QBasicAtomicIntntEv)
+    QListData::at(int) const                 0x0000a7b7   Thumb Code    16  qdeclarativeparticles.o(i._ZNK9QListData2atEi)
+    QListData::end() const                   0x0000a7c7   Thumb Code    12  qdeclarativeparticles.o(i._ZNK9QListData3endEv)
+    QListData::size() const                  0x0000a7d3   Thumb Code    10  qdeclarativeparticles.o(i._ZNK9QListData4sizeEv)
+    QListData::begin() const                 0x0000a7dd   Thumb Code    12  qdeclarativeparticles.o(i._ZNK9QListData5beginEv)
+    QListData::isEmpty() const               0x0000a7e9   Thumb Code    18  qdeclarativeparticles.o(i._ZNK9QListData7isEmptyEv)
+    thunk{-16} to QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticles>::~QDeclarativeElement__deallocating() 0x0000a7fb   Thumb Code    10  particles.o(i._ZThn16_N19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesED0Ev)
+    thunk{-16} to QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticles>::~QDeclarativeElement() 0x0000a805   Thumb Code    10  particles.o(i._ZThn16_N19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesED1Ev)
+    thunk{-16} to QDeclarativeParticlesPainter::~QDeclarativeParticlesPainter__deallocating() 0x0000a80f   Thumb Code    10  qdeclarativeparticles.o(i._ZThn16_N28QDeclarativeParticlesPainterD0Ev)
+    thunk{-16} to QDeclarativeParticlesPainter::~QDeclarativeParticlesPainter() 0x0000a819   Thumb Code    10  qdeclarativeparticles.o(i._ZThn16_N28QDeclarativeParticlesPainterD1Ev)
+    thunk{-8} to QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticles>::~QDeclarativeElement__deallocating() 0x0000a823   Thumb Code    10  particles.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesED0Ev)
+    thunk{-8} to QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticles>::~QDeclarativeElement() 0x0000a82d   Thumb Code    10  particles.o(i._ZThn8_N19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesED1Ev)
+    thunk{-8} to QParticlesQmlModule::registerTypes(const char*) 0x0000a837   Thumb Code    10  particles.o(i._ZThn8_N19QParticlesQmlModule13registerTypesEPKc)
+    thunk{-8} to QParticlesQmlModule::~QParticlesQmlModule__deallocating() 0x0000a841   Thumb Code    10  particles.o(i._ZThn8_N19QParticlesQmlModuleD0Ev)
+    thunk{-8} to QParticlesQmlModule::~QParticlesQmlModule() 0x0000a84b   Thumb Code    10  particles.o(i._ZThn8_N19QParticlesQmlModuleD1Ev)
+    thunk{-8} to QDeclarativeParticlesPainter::~QDeclarativeParticlesPainter__deallocating() 0x0000a855   Thumb Code    10  qdeclarativeparticles.o(i._ZThn8_N28QDeclarativeParticlesPainterD0Ev)
+    thunk{-8} to QDeclarativeParticlesPainter::~QDeclarativeParticlesPainter() 0x0000a85f   Thumb Code    10  qdeclarativeparticles.o(i._ZThn8_N28QDeclarativeParticlesPainterD1Ev)
+    operator delete (void*, void*)           0x0000a869   Thumb Code     2  particles.o(i._ZdlPvS_)
+    operator new(unsigned, void*)            0x0000a86b   Thumb Code     4  qdeclarativeparticles.o(i._ZnwjPv)
+    operator +(const char*, const QByteArray&) 0x0000a86f   Thumb Code    34  particles.o(i._ZplPKcRK10QByteArray)
+    operator +(const QByteArray&, const char*) 0x0000a89b   Thumb Code    34  particles.o(i._ZplRK10QByteArrayPKc)
+    operator +(const QByteArray&, char)      0x0000a8c7   Thumb Code    34  particles.o(i._ZplRK10QByteArrayc)
+    qmlRegisterType<QDeclarativeParticles>(const char*, int, int, const char*) 0x0000a8f5   Thumb Code   186  particles.o(t._Z15qmlRegisterTypeI21QDeclarativeParticlesEiPKciiS2_)
+    qmlRegisterType<QDeclarativeParticleMotion>(const char*, int, int, const char*) 0x0000aa05   Thumb Code   184  particles.o(t._Z15qmlRegisterTypeI26QDeclarativeParticleMotionEiPKciiS2_)
+    qmlRegisterType<QDeclarativeParticleMotionLinear>(const char*, int, int, const char*) 0x0000ab11   Thumb Code   184  particles.o(t._Z15qmlRegisterTypeI32QDeclarativeParticleMotionLinearEiPKciiS2_)
+    qmlRegisterType<QDeclarativeParticleMotionWander>(const char*, int, int, const char*) 0x0000ac1d   Thumb Code   184  particles.o(t._Z15qmlRegisterTypeI32QDeclarativeParticleMotionWanderEiPKciiS2_)
+    qmlRegisterType<QDeclarativeParticleMotionGravity>(const char*, int, int, const char*) 0x0000ad29   Thumb Code   184  particles.o(t._Z15qmlRegisterTypeI33QDeclarativeParticleMotionGravityEiPKciiS2_)
+    qRegisterMetaType<QDeclarativeListProperty<QDeclarativeParticles>>(const char*, T1*) 0x0000ae35   Thumb Code    64  particles.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI21QDeclarativeParticlesEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QDeclarativeParticleMotion>>(const char*, T1*) 0x0000aeb1   Thumb Code    64  particles.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI26QDeclarativeParticleMotionEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QDeclarativeParticleMotionLinear>>(const char*, T1*) 0x0000af35   Thumb Code    64  particles.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI32QDeclarativeParticleMotionLinearEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QDeclarativeParticleMotionWander>>(const char*, T1*) 0x0000afbd   Thumb Code    64  particles.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI32QDeclarativeParticleMotionWanderEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QDeclarativeParticleMotionGravity>>(const char*, T1*) 0x0000b045   Thumb Code    64  particles.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI33QDeclarativeParticleMotionGravityEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeParticles*>(const char*, T1*) 0x0000b0cd   Thumb Code    64  particles.o(t._Z17qRegisterMetaTypeIP21QDeclarativeParticlesEiPKcPT_)
+    qRegisterMetaType<QDeclarativeParticleMotion*>(const char*, T1*) 0x0000b131   Thumb Code    64  particles.o(t._Z17qRegisterMetaTypeIP26QDeclarativeParticleMotionEiPKcPT_)
+    qRegisterMetaType<QDeclarativeParticleMotionLinear*>(const char*, T1*) 0x0000b19d   Thumb Code    64  particles.o(t._Z17qRegisterMetaTypeIP32QDeclarativeParticleMotionLinearEiPKcPT_)
+    qRegisterMetaType<QDeclarativeParticleMotionWander*>(const char*, T1*) 0x0000b20d   Thumb Code    64  particles.o(t._Z17qRegisterMetaTypeIP32QDeclarativeParticleMotionWanderEiPKcPT_)
+    qRegisterMetaType<QDeclarativeParticleMotionGravity*>(const char*, T1*) 0x0000b27d   Thumb Code    64  particles.o(t._Z17qRegisterMetaTypeIP33QDeclarativeParticleMotionGravityEiPKcPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QDeclarativeParticles>>(T1*) 0x0000b2ed   Thumb Code     8  particles.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI21QDeclarativeParticlesEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QDeclarativeParticleMotion>>(T1*) 0x0000b2f5   Thumb Code     8  particles.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI26QDeclarativeParticleMotionEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QDeclarativeParticleMotionLinear>>(T1*) 0x0000b2fd   Thumb Code     8  particles.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI32QDeclarativeParticleMotionLinearEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QDeclarativeParticleMotionWander>>(T1*) 0x0000b305   Thumb Code     8  particles.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI32QDeclarativeParticleMotionWanderEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QDeclarativeParticleMotionGravity>>(T1*) 0x0000b30d   Thumb Code     8  particles.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI33QDeclarativeParticleMotionGravityEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeParticles*>(T1*) 0x0000b315   Thumb Code     8  particles.o(t._Z21qMetaTypeDeleteHelperIP21QDeclarativeParticlesEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeParticleMotion*>(T1*) 0x0000b31d   Thumb Code     8  particles.o(t._Z21qMetaTypeDeleteHelperIP26QDeclarativeParticleMotionEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeParticleMotionLinear*>(T1*) 0x0000b325   Thumb Code     8  particles.o(t._Z21qMetaTypeDeleteHelperIP32QDeclarativeParticleMotionLinearEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeParticleMotionWander*>(T1*) 0x0000b32d   Thumb Code     8  particles.o(t._Z21qMetaTypeDeleteHelperIP32QDeclarativeParticleMotionWanderEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeParticleMotionGravity*>(T1*) 0x0000b335   Thumb Code     8  particles.o(t._Z21qMetaTypeDeleteHelperIP33QDeclarativeParticleMotionGravityEvPT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QDeclarativeParticles>>(const T1*) 0x0000b33d   Thumb Code    70  particles.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI21QDeclarativeParticlesEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QDeclarativeParticleMotion>>(const T1*) 0x0000b387   Thumb Code    70  particles.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI26QDeclarativeParticleMotionEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QDeclarativeParticleMotionLinear>>(const T1*) 0x0000b3d1   Thumb Code    70  particles.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI32QDeclarativeParticleMotionLinearEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QDeclarativeParticleMotionWander>>(const T1*) 0x0000b41b   Thumb Code    70  particles.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI32QDeclarativeParticleMotionWanderEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QDeclarativeParticleMotionGravity>>(const T1*) 0x0000b465   Thumb Code    70  particles.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI33QDeclarativeParticleMotionGravityEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeParticles*>(const T1*) 0x0000b4af   Thumb Code    26  particles.o(t._Z24qMetaTypeConstructHelperIP21QDeclarativeParticlesEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeParticleMotion*>(const T1*) 0x0000b4c9   Thumb Code    26  particles.o(t._Z24qMetaTypeConstructHelperIP26QDeclarativeParticleMotionEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeParticleMotionLinear*>(const T1*) 0x0000b4e3   Thumb Code    26  particles.o(t._Z24qMetaTypeConstructHelperIP32QDeclarativeParticleMotionLinearEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeParticleMotionWander*>(const T1*) 0x0000b4fd   Thumb Code    26  particles.o(t._Z24qMetaTypeConstructHelperIP32QDeclarativeParticleMotionWanderEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeParticleMotionGravity*>(const T1*) 0x0000b517   Thumb Code    26  particles.o(t._Z24qMetaTypeConstructHelperIP33QDeclarativeParticleMotionGravityEPvPKT_)
+    qAbs<float>(const T1&)                   0x0000b531   Thumb Code    14  qdeclarativeparticles.o(t._Z4qAbsIfET_RKS0_)
+    QPODVector<QDeclarativeItemPrivate::ChangeListener, (int)4>::~QPODVector() 0x0000b53f   Thumb Code    18  qdeclarativeparticles.o(t._ZN10QPODVectorIN23QDeclarativeItemPrivate14ChangeListenerELi4EED1Ev)
+    QPODVector<QDeclarativeItemPrivate::ChangeListener, (int)4>::~QPODVector__sub_object() 0x0000b53f   Thumb Code     0  qdeclarativeparticles.o(t._ZN10QPODVectorIN23QDeclarativeItemPrivate14ChangeListenerELi4EED1Ev)
+    QVarLengthArray<QPainter::PixmapFragment, (int)256>::realloc(int, int) 0x0000b551   Thumb Code   182  qdeclarativeparticles.o(t._ZN15QVarLengthArrayIN8QPainter14PixmapFragmentELi256EE7reallocEii)
+    QVarLengthArray<QPainter::PixmapFragment, (int)256>::~QVarLengthArray() 0x0000b60b   Thumb Code    38  qdeclarativeparticles.o(t._ZN15QVarLengthArrayIN8QPainter14PixmapFragmentELi256EED1Ev)
+    QVarLengthArray<QPainter::PixmapFragment, (int)256>::~QVarLengthArray__sub_object() 0x0000b60b   Thumb Code     0  qdeclarativeparticles.o(t._ZN15QVarLengthArrayIN8QPainter14PixmapFragmentELi256EED1Ev)
+    QDeclarativeGuard<QObject>::objectDestroyed(QObject*) 0x0000b631   Thumb Code     2  qdeclarativeparticles.o(t._ZN17QDeclarativeGuardI7QObjectE15objectDestroyedEPS0_)
+    QDeclarativeGuard<QObject>::~QDeclarativeGuard() 0x0000b635   Thumb Code    34  qdeclarativeparticles.o(t._ZN17QDeclarativeGuardI7QObjectED1Ev)
+    QDeclarativeGuard<QObject>::~QDeclarativeGuard__sub_object() 0x0000b635   Thumb Code     0  qdeclarativeparticles.o(t._ZN17QDeclarativeGuardI7QObjectED1Ev)
+    TickAnimationProxy<QDeclarativeParticlesPrivate, (&QDeclarativeParticlesPrivate::tick)>::updateCurrentTime(int) 0x0000b65d   Thumb Code    30  qdeclarativeparticles.o(t._ZN18TickAnimationProxyI28QDeclarativeParticlesPrivateXadL_ZNS0_4tickEiEEE17updateCurrentTimeEi)
+    QDeclarativePrivate::createInto<QDeclarativeParticles>(void*) 0x0000b681   Thumb Code    38  particles.o(t._ZN19QDeclarativePrivate10createIntoI21QDeclarativeParticlesEEvPv)
+    QDeclarativePrivate::createInto<QDeclarativeParticleMotion>(void*) 0x0000b6b9   Thumb Code    30  particles.o(t._ZN19QDeclarativePrivate10createIntoI26QDeclarativeParticleMotionEEvPv)
+    QDeclarativePrivate::createInto<QDeclarativeParticleMotionLinear>(void*) 0x0000b6e9   Thumb Code    30  particles.o(t._ZN19QDeclarativePrivate10createIntoI32QDeclarativeParticleMotionLinearEEvPv)
+    QDeclarativePrivate::createInto<QDeclarativeParticleMotionWander>(void*) 0x0000b719   Thumb Code    42  particles.o(t._ZN19QDeclarativePrivate10createIntoI32QDeclarativeParticleMotionWanderEEvPv)
+    QDeclarativePrivate::createInto<QDeclarativeParticleMotionGravity>(void*) 0x0000b759   Thumb Code    40  particles.o(t._ZN19QDeclarativePrivate10createIntoI33QDeclarativeParticleMotionGravityEEvPv)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticles>::~QDeclarativeElement() 0x0000b795   Thumb Code    30  particles.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticles>::~QDeclarativeElement__sub_object() 0x0000b795   Thumb Code     0  particles.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticleMotion>::~QDeclarativeElement() 0x0000b7c5   Thumb Code    22  particles.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI26QDeclarativeParticleMotionED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticleMotion>::~QDeclarativeElement__sub_object() 0x0000b7c5   Thumb Code     0  particles.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI26QDeclarativeParticleMotionED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticleMotionLinear>::~QDeclarativeElement() 0x0000b7ed   Thumb Code    22  particles.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionLinearED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticleMotionLinear>::~QDeclarativeElement__sub_object() 0x0000b7ed   Thumb Code     0  particles.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionLinearED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticleMotionWander>::~QDeclarativeElement() 0x0000b815   Thumb Code    22  particles.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionWanderED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticleMotionWander>::~QDeclarativeElement__sub_object() 0x0000b815   Thumb Code     0  particles.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionWanderED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticleMotionGravity>::~QDeclarativeElement() 0x0000b83d   Thumb Code    22  particles.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI33QDeclarativeParticleMotionGravityED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticleMotionGravity>::~QDeclarativeElement__sub_object() 0x0000b83d   Thumb Code     0  particles.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI33QDeclarativeParticleMotionGravityED1Ev)
+    QMap<Qt::GestureType, QFlags<Qt::GestureFlag>>::~QMap() 0x0000b863   Thumb Code    42  qdeclarativeparticles.o(t._ZN4QMapIN2Qt11GestureTypeE6QFlagsINS0_11GestureFlagEEED1Ev)
+    QMap<Qt::GestureType, QFlags<Qt::GestureFlag>>::~QMap__sub_object() 0x0000b863   Thumb Code     0  qdeclarativeparticles.o(t._ZN4QMapIN2Qt11GestureTypeE6QFlagsINS0_11GestureFlagEEED1Ev)
+    QMap<QWidget*, QRect>::~QMap()           0x0000b88d   Thumb Code    42  qdeclarativeparticles.o(t._ZN4QMapIP7QWidget5QRectED1Ev)
+    QMap<QWidget*, QRect>::~QMap__sub_object() 0x0000b88d   Thumb Code     0  qdeclarativeparticles.o(t._ZN4QMapIP7QWidget5QRectED1Ev)
+    QList<QDeclarativeParticle>::detach_helper() 0x0000b8b7   Thumb Code    88  qdeclarativeparticles.o(t._ZN5QListI20QDeclarativeParticleE13detach_helperEv)
+    QList<QDeclarativeParticle>::node_destruct(QList<QDeclarativeParticle>::Node*, QList<QDeclarativeParticle>::Node*) 0x0000b917   Thumb Code    22  qdeclarativeparticles.o(t._ZN5QListI20QDeclarativeParticleE13node_destructEPNS1_4NodeES3_)
+    QList<QDeclarativeParticle>::node_construct(QList<QDeclarativeParticle>::Node*, const QDeclarativeParticle&) 0x0000b92d   Thumb Code    24  qdeclarativeparticles.o(t._ZN5QListI20QDeclarativeParticleE14node_constructEPNS1_4NodeERKS0_)
+    QList<QDeclarativeParticle>::detach_helper_grow(int, int) 0x0000b94f   Thumb Code   180  qdeclarativeparticles.o(t._ZN5QListI20QDeclarativeParticleE18detach_helper_growEii)
+    QList<QDeclarativeParticle>::free(QListData::Data*) 0x0000ba0b   Thumb Code    44  qdeclarativeparticles.o(t._ZN5QListI20QDeclarativeParticleE4freeEPN9QListData4DataE)
+    QList<QDeclarativeParticle>::append(const QDeclarativeParticle&) 0x0000ba39   Thumb Code    90  qdeclarativeparticles.o(t._ZN5QListI20QDeclarativeParticleE6appendERKS0_)
+    QList<QDeclarativeParticle>::detach()    0x0000baa1   Thumb Code    24  qdeclarativeparticles.o(t._ZN5QListI20QDeclarativeParticleE6detachEv)
+    QList<QDeclarativeParticle>::node_copy(QList<QDeclarativeParticle>::Node*, QList<QDeclarativeParticle>::Node*, QList<QDeclarativeParticle>::Node*) 0x0000bab9   Thumb Code    64  qdeclarativeparticles.o(t._ZN5QListI20QDeclarativeParticleE9node_copyEPNS1_4NodeES3_S3_)
+    QList<QDeclarativeParticle>::~QList()    0x0000bb0b   Thumb Code    30  qdeclarativeparticles.o(t._ZN5QListI20QDeclarativeParticleED1Ev)
+    QList<QDeclarativeParticle>::~QList__sub_object() 0x0000bb0b   Thumb Code     0  qdeclarativeparticles.o(t._ZN5QListI20QDeclarativeParticleED1Ev)
+    QList<QPair<int, int>>::detach_helper()  0x0000bb29   Thumb Code    88  qdeclarativeparticles.o(t._ZN5QListI5QPairIiiEE13detach_helperEv)
+    QList<QPair<int, int>>::node_destruct(QList<QPair<int, int>>::Node*, QList<QPair<int, int>>::Node*) 0x0000bb89   Thumb Code    22  qdeclarativeparticles.o(t._ZN5QListI5QPairIiiEE13node_destructEPNS2_4NodeES4_)
+    QList<QPair<int, int>>::node_construct(QList<QPair<int, int>>::Node*, const QPair<int, int>&) 0x0000bb9f   Thumb Code    24  qdeclarativeparticles.o(t._ZN5QListI5QPairIiiEE14node_constructEPNS2_4NodeERKS1_)
+    QList<QPair<int, int>>::detach_helper_grow(int, int) 0x0000bbbb   Thumb Code   180  qdeclarativeparticles.o(t._ZN5QListI5QPairIiiEE18detach_helper_growEii)
+    QList<QPair<int, int>>::free(QListData::Data*) 0x0000bc77   Thumb Code    44  qdeclarativeparticles.o(t._ZN5QListI5QPairIiiEE4freeEPN9QListData4DataE)
+    QList<QPair<int, int>>::append(const QPair<int, int>&) 0x0000bca5   Thumb Code    90  qdeclarativeparticles.o(t._ZN5QListI5QPairIiiEE6appendERKS1_)
+    QList<QPair<int, int>>::detach()         0x0000bd0d   Thumb Code    24  qdeclarativeparticles.o(t._ZN5QListI5QPairIiiEE6detachEv)
+    QList<QPair<int, int>>::node_copy(QList<QPair<int, int>>::Node*, QList<QPair<int, int>>::Node*, QList<QPair<int, int>>::Node*) 0x0000bd25   Thumb Code    64  qdeclarativeparticles.o(t._ZN5QListI5QPairIiiEE9node_copyEPNS2_4NodeES4_S4_)
+    QList<QPair<int, int>>::~QList()         0x0000bd71   Thumb Code    30  qdeclarativeparticles.o(t._ZN5QListI5QPairIiiEED1Ev)
+    QList<QPair<int, int>>::~QList__sub_object() 0x0000bd71   Thumb Code     0  qdeclarativeparticles.o(t._ZN5QListI5QPairIiiEED1Ev)
+    QList<QPair<int, int>>::operator [](int) 0x0000bd8f   Thumb Code    22  qdeclarativeparticles.o(t._ZN5QListI5QPairIiiEEixEi)
+    QList<QGraphicsItemPrivate::ExtraStruct>::~QList() 0x0000bda5   Thumb Code    80  qdeclarativeparticles.o(t._ZN5QListIN20QGraphicsItemPrivate11ExtraStructEED1Ev)
+    QList<QGraphicsItemPrivate::ExtraStruct>::~QList__sub_object() 0x0000bda5   Thumb Code     0  qdeclarativeparticles.o(t._ZN5QListIN20QGraphicsItemPrivate11ExtraStructEED1Ev)
+    QList<QGraphicsItem*>::~QList()          0x0000bdf5   Thumb Code    42  qdeclarativeparticles.o(t._ZN5QListIP13QGraphicsItemED1Ev)
+    QList<QGraphicsItem*>::~QList__sub_object() 0x0000bdf5   Thumb Code     0  qdeclarativeparticles.o(t._ZN5QListIP13QGraphicsItemED1Ev)
+    QList<QDeclarativeItem*>::~QList()       0x0000be1f   Thumb Code    42  qdeclarativeparticles.o(t._ZN5QListIP16QDeclarativeItemED1Ev)
+    QList<QDeclarativeItem*>::~QList__sub_object() 0x0000be1f   Thumb Code     0  qdeclarativeparticles.o(t._ZN5QListIP16QDeclarativeItemED1Ev)
+    QList<QGraphicsItem**>::~QList()         0x0000be49   Thumb Code    42  qdeclarativeparticles.o(t._ZN5QListIPP13QGraphicsItemED1Ev)
+    QList<QGraphicsItem**>::~QList__sub_object() 0x0000be49   Thumb Code     0  qdeclarativeparticles.o(t._ZN5QListIPP13QGraphicsItemED1Ev)
+    QPointer<QObject>::~QPointer()           0x0000be73   Thumb Code    12  particles.o(t._ZN8QPointerI7QObjectED1Ev)
+    QPointer<QObject>::~QPointer__sub_object() 0x0000be73   Thumb Code     0  particles.o(t._ZN8QPointerI7QObjectED1Ev)
+    TickAnimationProxy<QDeclarativeParticlesPrivate, (&QDeclarativeParticlesPrivate::tick)>::duration() const 0x0000be7f   Thumb Code     6  qdeclarativeparticles.o(t._ZNK18TickAnimationProxyI28QDeclarativeParticlesPrivateXadL_ZNS0_4tickEiEEE8durationEv)
+    QList<QDeclarativeParticle>::at(int) const 0x0000be85   Thumb Code    10  qdeclarativeparticles.o(t._ZNK5QListI20QDeclarativeParticleE2atEi)
+    QList<QDeclarativeParticle>::count() const 0x0000be8f   Thumb Code     8  qdeclarativeparticles.o(t._ZNK5QListI20QDeclarativeParticleE5countEv)
+    QParticlesQmlModule::staticMetaObject    0x0000c514   Data          16  particles.o(.constdata)
+    QDeclarativeParticleMotion::staticMetaObject 0x0000c8ec   Data          16  moc_qdeclarativeparticles_p.o(.constdata)
+    QDeclarativeParticleMotionLinear::staticMetaObject 0x0000c8fc   Data          16  moc_qdeclarativeparticles_p.o(.constdata)
+    QDeclarativeParticleMotionGravity::staticMetaObject 0x0000c90c   Data          16  moc_qdeclarativeparticles_p.o(.constdata)
+    QDeclarativeParticleMotionWander::staticMetaObject 0x0000c91c   Data          16  moc_qdeclarativeparticles_p.o(.constdata)
+    QDeclarativeParticles::staticMetaObject  0x0000c92c   Data          16  moc_qdeclarativeparticles_p.o(.constdata)
+    stlp_priv::_Integer_limits<signed char, (signed char)-128, (signed char)127, (int)-1, (bool)1>::digits 0x0000cd6c   Data           4  qdeclarativeparticles.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<bool, (bool)0, (bool)1, (int)1, (bool)0>::digits 0x0000cd70   Data           4  qdeclarativeparticles.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    stlp_priv::_Integer_limits<char, (char)128, (char)127, (int)-1, (bool)1>::digits 0x0000cd74   Data           4  qdeclarativeparticles.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned char, (unsigned char)0, (unsigned char)255, (int)-1, (bool)1>::digits 0x0000cd78   Data           4  qdeclarativeparticles.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::digits 0x0000cd7c   Data           4  qdeclarativeparticles.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::is_signed 0x0000cd80   Data           1  qdeclarativeparticles.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    stlp_priv::_Integer_limits<unsigned, (unsigned)0, (unsigned)4294967295, (int)-1, (bool)1>::digits 0x0000cd84   Data           4  qdeclarativeparticles.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long, (long)-2147483648, (long)2147483647, (int)-1, (bool)1>::digits 0x0000cd88   Data           4  qdeclarativeparticles.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long, (unsigned long)0, (unsigned long)4294967295, (int)-1, (bool)1>::digits 0x0000cd8c   Data           4  qdeclarativeparticles.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<short, (short)-32768, (short)32767, (int)-1, (bool)1>::digits 0x0000cd90   Data           4  qdeclarativeparticles.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned short, (unsigned short)0, (unsigned short)65535, (int)-1, (bool)1>::digits 0x0000cd94   Data           4  qdeclarativeparticles.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<wchar_t, (wchar_t)0, (wchar_t)65535, (int)-1, (bool)1>::digits 0x0000cd98   Data           4  qdeclarativeparticles.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long long, (long long)-9223372036854775808, (long long)9223372036854775807, (int)-1, (bool)1>::digits 0x0000cd9c   Data           4  qdeclarativeparticles.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long long, (unsigned long long)0, (unsigned long long)18446744073709551615, (int)-1, (bool)1>::digits 0x0000cda0   Data           4  qdeclarativeparticles.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    typeinfo for QDeclarativeGuard<QObject>  0x0000cda4   Data           8  qdeclarativeparticles.o(.constdata__ZTI17QDeclarativeGuardI7QObjectE)
+    typeinfo for TickAnimationProxy<QDeclarativeParticlesPrivate, (&QDeclarativeParticlesPrivate::tick)> 0x0000cdac   Data          12  qdeclarativeparticles.o(.constdata__ZTI18TickAnimationProxyI28QDeclarativeParticlesPrivateXadL_ZNS0_4tickEiEEE)
+    typeinfo for QParticlesQmlModule         0x0000cdb8   Data          12  particles.o(.constdata__ZTI19QParticlesQmlModule)
+    typeinfo for QDeclarativeParticles       0x0000cdc4   Data          12  moc_qdeclarativeparticles_p.o(.constdata__ZTI21QDeclarativeParticles)
+    typeinfo for QGraphicsEffectPrivate      0x0000cdd0   Data          12  qdeclarativeparticles.o(.constdata__ZTI22QGraphicsEffectPrivate)
+    typeinfo for QDeclarativeParticleMotion  0x0000cddc   Data          12  moc_qdeclarativeparticles_p.o(.constdata__ZTI26QDeclarativeParticleMotion)
+    typeinfo for QGraphicsBlurEffectPrivate  0x0000cde8   Data          12  qdeclarativeparticles.o(.constdata__ZTI26QGraphicsBlurEffectPrivate)
+    typeinfo for QDeclarativeParticlesPainter 0x0000cdf4   Data          12  qdeclarativeparticles.o(.constdata__ZTI28QDeclarativeParticlesPainter)
+    typeinfo for QDeclarativeParticlesPrivate 0x0000ce00   Data          12  qdeclarativeparticles.o(.constdata__ZTI28QDeclarativeParticlesPrivate)
+    typeinfo for QGraphicsColorizeEffectPrivate 0x0000ce0c   Data          12  qdeclarativeparticles.o(.constdata__ZTI30QGraphicsColorizeEffectPrivate)
+    typeinfo for QDeclarativeParticleMotionLinear 0x0000ce18   Data          12  moc_qdeclarativeparticles_p.o(.constdata__ZTI32QDeclarativeParticleMotionLinear)
+    typeinfo for QDeclarativeParticleMotionWander 0x0000ce24   Data          12  moc_qdeclarativeparticles_p.o(.constdata__ZTI32QDeclarativeParticleMotionWander)
+    typeinfo for QGraphicsDropShadowEffectPrivate 0x0000ce30   Data          12  qdeclarativeparticles.o(.constdata__ZTI32QGraphicsDropShadowEffectPrivate)
+    typeinfo for QDeclarativeParticleMotionGravity 0x0000ce3c   Data          12  moc_qdeclarativeparticles_p.o(.constdata__ZTI33QDeclarativeParticleMotionGravity)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticles> 0x0000ce48   Data          12  particles.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticleMotion> 0x0000ce54   Data          12  particles.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI26QDeclarativeParticleMotionEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticleMotionLinear> 0x0000ce60   Data          12  particles.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionLinearEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticleMotionWander> 0x0000ce6c   Data          12  particles.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionWanderEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticleMotionGravity> 0x0000ce78   Data          12  particles.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI33QDeclarativeParticleMotionGravityEE)
+    typeinfo name for QDeclarativeGuard<QObject> 0x0000ce84   Data          30  qdeclarativeparticles.o(.constdata__ZTS17QDeclarativeGuardI7QObjectE)
+    typeinfo name for TickAnimationProxy<QDeclarativeParticlesPrivate, (&QDeclarativeParticlesPrivate::tick)> 0x0000cea2   Data          72  qdeclarativeparticles.o(.constdata__ZTS18TickAnimationProxyI28QDeclarativeParticlesPrivateXadL_ZNS0_4tickEiEEE)
+    typeinfo name for QParticlesQmlModule    0x0000ceea   Data          22  particles.o(.constdata__ZTS19QParticlesQmlModule)
+    typeinfo name for QDeclarativeParticles  0x0000cf00   Data          24  moc_qdeclarativeparticles_p.o(.constdata__ZTS21QDeclarativeParticles)
+    typeinfo name for QGraphicsEffectPrivate 0x0000cf18   Data          25  qdeclarativeparticles.o(.constdata__ZTS22QGraphicsEffectPrivate)
+    typeinfo name for QDeclarativeParticleMotion 0x0000cf31   Data          29  moc_qdeclarativeparticles_p.o(.constdata__ZTS26QDeclarativeParticleMotion)
+    typeinfo name for QGraphicsBlurEffectPrivate 0x0000cf4e   Data          29  qdeclarativeparticles.o(.constdata__ZTS26QGraphicsBlurEffectPrivate)
+    typeinfo name for QDeclarativeParticlesPainter 0x0000cf6b   Data          31  qdeclarativeparticles.o(.constdata__ZTS28QDeclarativeParticlesPainter)
+    typeinfo name for QDeclarativeParticlesPrivate 0x0000cf8a   Data          31  qdeclarativeparticles.o(.constdata__ZTS28QDeclarativeParticlesPrivate)
+    typeinfo name for QGraphicsColorizeEffectPrivate 0x0000cfa9   Data          33  qdeclarativeparticles.o(.constdata__ZTS30QGraphicsColorizeEffectPrivate)
+    typeinfo name for QDeclarativeParticleMotionLinear 0x0000cfca   Data          35  moc_qdeclarativeparticles_p.o(.constdata__ZTS32QDeclarativeParticleMotionLinear)
+    typeinfo name for QDeclarativeParticleMotionWander 0x0000cfed   Data          35  moc_qdeclarativeparticles_p.o(.constdata__ZTS32QDeclarativeParticleMotionWander)
+    typeinfo name for QGraphicsDropShadowEffectPrivate 0x0000d010   Data          35  qdeclarativeparticles.o(.constdata__ZTS32QGraphicsDropShadowEffectPrivate)
+    typeinfo name for QDeclarativeParticleMotionGravity 0x0000d033   Data          36  moc_qdeclarativeparticles_p.o(.constdata__ZTS33QDeclarativeParticleMotionGravity)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticles> 0x0000d057   Data          70  particles.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticleMotion> 0x0000d09d   Data          75  particles.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI26QDeclarativeParticleMotionEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticleMotionLinear> 0x0000d0e8   Data          81  particles.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionLinearEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticleMotionWander> 0x0000d139   Data          81  particles.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionWanderEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticleMotionGravity> 0x0000d18a   Data          82  particles.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI33QDeclarativeParticleMotionGravityEE)
+    vtable for QDeclarativeGuard<QObject>    0x0000d1dc   Data          20  qdeclarativeparticles.o(.constdata__ZTV17QDeclarativeGuardI7QObjectE)
+    vtable for TickAnimationProxy<QDeclarativeParticlesPrivate, (&QDeclarativeParticlesPrivate::tick)> 0x0000d1f0   Data          72  qdeclarativeparticles.o(.constdata__ZTV18TickAnimationProxyI28QDeclarativeParticlesPrivateXadL_ZNS0_4tickEiEEE)
+    vtable for QParticlesQmlModule           0x0000d238   Data          88  particles.o(.constdata__ZTV19QParticlesQmlModule)
+    vtable for QDeclarativeParticles         0x0000d290   Data         280  moc_qdeclarativeparticles_p.o(.constdata__ZTV21QDeclarativeParticles)
+    vtable for QDeclarativeParticleMotion    0x0000d3a8   Data          68  moc_qdeclarativeparticles_p.o(.constdata__ZTV26QDeclarativeParticleMotion)
+    vtable for QGraphicsBlurEffectPrivate    0x0000d3ec   Data          16  qdeclarativeparticles.o(.constdata__ZTV26QGraphicsBlurEffectPrivate)
+    vtable for QDeclarativeParticlesPainter  0x0000d3fc   Data         280  qdeclarativeparticles.o(.constdata__ZTV28QDeclarativeParticlesPainter)
+    vtable for QDeclarativeParticlesPrivate  0x0000d514   Data          84  qdeclarativeparticles.o(.constdata__ZTV28QDeclarativeParticlesPrivate)
+    vtable for QGraphicsColorizeEffectPrivate 0x0000d568   Data          16  qdeclarativeparticles.o(.constdata__ZTV30QGraphicsColorizeEffectPrivate)
+    vtable for QDeclarativeParticleMotionLinear 0x0000d578   Data          68  moc_qdeclarativeparticles_p.o(.constdata__ZTV32QDeclarativeParticleMotionLinear)
+    vtable for QDeclarativeParticleMotionWander 0x0000d5bc   Data          68  moc_qdeclarativeparticles_p.o(.constdata__ZTV32QDeclarativeParticleMotionWander)
+    vtable for QGraphicsDropShadowEffectPrivate 0x0000d600   Data          16  qdeclarativeparticles.o(.constdata__ZTV32QGraphicsDropShadowEffectPrivate)
+    vtable for QDeclarativeParticleMotionGravity 0x0000d610   Data          68  moc_qdeclarativeparticles_p.o(.constdata__ZTV33QDeclarativeParticleMotionGravity)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticles> 0x0000d654   Data         280  particles.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI21QDeclarativeParticlesEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticleMotion> 0x0000d76c   Data          68  particles.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI26QDeclarativeParticleMotionEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticleMotionLinear> 0x0000d7b0   Data          68  particles.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionLinearEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticleMotionWander> 0x0000d7f4   Data          68  particles.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI32QDeclarativeParticleMotionWanderEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QDeclarativeParticleMotionGravity> 0x0000d838   Data          68  particles.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI33QDeclarativeParticleMotionGravityEE)
+    .ARM.exidx$$Base                         0x0000d9f8   Number         0  ucppinit.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x0000df60   Number         0  qdeclarativeparticles.o(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x0000df60   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    __dso_handle                             0x00400008   Data           4  ucppfini.o(.data)
+    std::_Atomic_swap_struct<(int)1>::_S_swap_lock 0x0040000c   Data          12  qdeclarativeparticles.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    QMetaTypeId<QDeclarativeListProperty<QDeclarativeParticles>>::qt_metatype_id()::metatype_id 0x00400018   Data           4  particles.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI21QDeclarativeParticlesEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeListProperty<QDeclarativeParticleMotion>>::qt_metatype_id()::metatype_id 0x0040001c   Data           4  particles.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI26QDeclarativeParticleMotionEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeListProperty<QDeclarativeParticleMotionLinear>>::qt_metatype_id()::metatype_id 0x00400020   Data           4  particles.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI32QDeclarativeParticleMotionLinearEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeListProperty<QDeclarativeParticleMotionWander>>::qt_metatype_id()::metatype_id 0x00400024   Data           4  particles.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI32QDeclarativeParticleMotionWanderEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeListProperty<QDeclarativeParticleMotionGravity>>::qt_metatype_id()::metatype_id 0x00400028   Data           4  particles.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI33QDeclarativeParticleMotionGravityEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeParticles*>::qt_metatype_id()::metatype_id 0x0040002c   Data           4  particles.o(.data__ZZN11QMetaTypeIdIP21QDeclarativeParticlesE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeParticleMotion*>::qt_metatype_id()::metatype_id 0x00400030   Data           4  particles.o(.data__ZZN11QMetaTypeIdIP26QDeclarativeParticleMotionE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeParticleMotionLinear*>::qt_metatype_id()::metatype_id 0x00400034   Data           4  particles.o(.data__ZZN11QMetaTypeIdIP32QDeclarativeParticleMotionLinearE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeParticleMotionWander*>::qt_metatype_id()::metatype_id 0x00400038   Data           4  particles.o(.data__ZZN11QMetaTypeIdIP32QDeclarativeParticleMotionWanderE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeParticleMotionGravity*>::qt_metatype_id()::metatype_id 0x0040003c   Data           4  particles.o(.data__ZZN11QMetaTypeIdIP33QDeclarativeParticleMotionGravityE14qt_metatype_idEvE11metatype_id)
+    dtor_rec                                 0x00400040   Data        2048  ucppfini.o(.bss)
+

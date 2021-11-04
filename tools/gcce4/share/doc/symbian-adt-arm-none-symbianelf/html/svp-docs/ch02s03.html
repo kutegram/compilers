@@ -1,0 +1,185 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>2.3. GUI XML File Specification</title><link rel="stylesheet" href="cs.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.74.0"><link rel="home" href="index.html" title="Symbian ADT Sourcery G++ Lite"><link rel="up" href="chap-gui.html" title="Chapter 2. GUI Configuration"><link rel="prev" href="ch02s02.html" title="2.2. Using the GUI"><link rel="next" href="ch02s04.html" title="2.4. Sample XML File"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">2.3. GUI XML File Specification</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ch02s02.html">Prev</a> </td><th width="60%" align="center">Chapter 2. GUI Configuration</th><td width="20%" align="right"> <a accesskey="n" href="ch02s04.html">Next</a></td></tr></table><hr></div><div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="id345391"></a>2.3. GUI XML File Specification</h2></div></div></div><p>
+   The top-level element in the GUI XML file is a
+   <code class="literal">&lt;gui&gt;</code> element.
+  </p><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id325533"></a>2.3.1. Virtual Terminals</h3></div></div></div><p>
+    Virtual Terminals are backgrounds onto which buttons, display areas and
+    frame buffers can be placed.
+   </p><p>
+    The virtual terminals are specified by the 
+    <code class="literal">&lt;vt&gt;</code> .. <code class="literal">&lt;/vt&gt;</code>
+    block.
+   </p><p>
+    Inside the <code class="literal">vt</code> element, buttons, display areas and
+    pointer areas are specified by <code class="literal">&lt;button&gt;</code>,
+    <code class="literal">&lt;displayarea&gt;</code>, and
+    <code class="literal">&lt;pointerarea&gt;</code> elements respectively.
+    The display and pointer areas can overlap.
+   </p><p>
+    </p><div class="table"><a name="id325588"></a><p class="title"><b>Table 2.1. <code class="literal">vt</code> Element Attributes</b></p><div class="table-contents"><table summary="vt Element Attributes" border="1"><colgroup><col><col><col></colgroup><thead><tr><th>Attribute</th><th>Description</th><th>Mandatory</th></tr></thead><tbody><tr><td>background</td><td><p>
+          File name of the background image.
+        </p></td><td>yes</td></tr><tr><td>width</td><td><p>
+          Width of the background. Image cropped if a smaller number than the
+          actual image width is specified.
+        </p></td><td> </td></tr><tr><td>height</td><td><p>
+          Height of the background. Image cropped if a smaller number than the
+          actual image height is specified.
+        </p></td><td> </td></tr></tbody></table></div></div><p><br class="table-break">
+   </p></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id274665"></a>2.3.2. Buttons</h3></div></div></div><p>
+    Buttons are rectangular regions of the background that can be clicked with
+    a mouse of the host system.
+   </p><p>
+    Each button has an associated action which is triggered both when the button 
+    is left-button clicked and when it is released.
+    Currently, the only action available is <code class="literal">"sendkey"</code>,
+    which sends a scan code to the registered keyboard device when the button
+    is pressed, and sends the scan code with the proper bits set when released.
+   </p><p>
+    Each button is specified by the <code class="literal">&lt;button .. /&gt;</code>
+    empty element (this means that there is no
+    <code class="literal">&lt;/button&gt;</code> closing tag).
+   </p><p>
+    Buttons can be associated with an image, which is displayed when the
+    button is pressed.
+    This image is located in the same region where the button can be
+    clicked, or in a different location through the
+    <code class="literal">pressed_x</code>, <code class="literal">pressed_y</code>,
+    <code class="literal">pressed_width</code>, <code class="literal">pressed_height</code>
+    attributes (where <code class="literal">pressed_width</code> and
+    <code class="literal">pressed_height</code> default to the pressed image width
+    and size respectively).
+   </p><p>
+    The button element has the following attributes:
+   </p><p>
+    </p><div class="table"><a name="id274751"></a><p class="title"><b>Table 2.2. <code class="literal">button</code> Element Attributes</b></p><div class="table-contents"><table summary="button Element Attributes" border="1"><colgroup><col><col><col></colgroup><thead><tr><th>Attribute</th><th>Description</th><th>Mandatory</th></tr></thead><tbody><tr><td>x</td><td>
+         <p>
+          Left coordinate of the clickable area.
+         </p>
+        </td><td>yes</td></tr><tr><td>y</td><td>
+         <p>
+          Top coordinate of the clickable area.
+         </p>
+        </td><td>yes</td></tr><tr><td>width</td><td>
+         <p>
+          Width of the clickable area.
+         </p>
+        </td><td> </td></tr><tr><td>height</td><td>
+         <p>
+          Height of the clickable area.
+         </p>
+        </td><td> </td></tr><tr><td>pressedimg</td><td>
+         <p>
+          File name of the image to display when the button is pressed.
+         </p>
+        </td><td> </td></tr><tr><td>action</td><td>
+         <p>
+          Action to perform when the button is pressed. Only
+          <code class="literal">"sendkey"</code> is currently supported.
+         </p>
+        </td><td>yes</td></tr><tr><td>parameter</td><td>
+         <p>
+          Parameter for the specified action. Only an integer value
+          representing the key scancode is supported.
+          All parameters shall be enclosed in
+          <code class="literal">""</code> double quotes.
+         </p>
+        </td><td>yes</td></tr><tr><td>pressed_x</td><td>
+         <p>
+          Left coordinate of the pressed button image. Defaults to the
+          left coordinate of the clickable area.
+         </p>
+        </td><td> </td></tr><tr><td>pressed_y</td><td>
+         <p>
+          Top coordinate of the pressed button image. Defaults to the
+          top coordinate of the clickable area.
+         </p>
+        </td><td> </td></tr><tr><td>pressed_width</td><td>
+         <p>
+          Width of the pressed button image. Defaults to the
+          pressed image width.
+         </p>
+        </td><td> </td></tr><tr><td>pressed_height</td><td>
+         <p>
+          Height of the pressed button image. Defaults to the
+          pressed image height.
+         </p>
+        </td><td> </td></tr></tbody></table></div></div><p><br class="table-break">
+   </p></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id353341"></a>2.3.3. Display Areas</h3></div></div></div><p>
+    A display area is the region of the VT where a frame buffer device is
+    rendered.
+    There can exist many display areas in the same VT.
+   </p><p>
+    Each display area is specified by a <code class="literal">&lt;displayarea .. /&gt;</code>
+    empty element (this means that there is no
+    <code class="literal">&lt;/displayarea&gt;</code> closing tag).
+   </p><p>
+    Display areas belonging to a skinned VT cannot be resized or
+    rotated (just flipped vertically or horizontally).
+   </p><p>
+    Each display area is associated with a device instance of the FDT
+    through the device name (<code class="literal">devid</code> attribute).
+   </p><p>
+    A display area element has the following attributes:
+   </p><p>
+    </p><div class="table"><a name="id353389"></a><p class="title"><b>Table 2.3. <code class="literal">displayarea</code> Element Attributes</b></p><div class="table-contents"><table summary="displayarea Element Attributes" border="1"><colgroup><col><col><col></colgroup><thead><tr><th>Attribute</th><th>Description</th><th>Mandatory</th></tr></thead><tbody><tr><td>x</td><td>
+         <p>
+          Left coordinate of the display area.
+         </p>
+        </td><td>yes</td></tr><tr><td>y</td><td>
+         <p>
+          Top coordinate of the display area.
+         </p>
+        </td><td>yes</td></tr><tr><td>width</td><td>
+         <p>
+          Width of the display area.
+         </p>
+        </td><td> </td></tr><tr><td>height</td><td>
+         <p>
+          Height of the display area.
+         </p>
+        </td><td> </td></tr><tr><td>devid</td><td>
+         <p>
+          FDT name of the frame buffer device instance.
+         </p>
+        </td><td>yes</td></tr></tbody></table></div></div><p><br class="table-break">
+   </p></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id353524"></a>2.3.4. Pointer Areas</h3></div></div></div><p>
+    A pointer area is the region of the VT that forwards its pointer events to
+    a pointer device. A pointer area may grab mouse events.
+    There can exist many pointer areas in the same VT.
+   </p><p>
+    Each pointer areas is specified by a <code class="literal">&lt;pointerarea .. /&gt;</code>
+    empty element (this means that there is no
+    <code class="literal">&lt;/pointerarea&gt;</code> closing tag).
+   </p><p>
+    Each pointer area is associated with a pointer device instance of the FDT
+    through the device name (<code class="literal">devid</code> attribute).
+   </p><p>
+    A pointer area element has the following attributes:
+   </p><p>
+    </p><div class="table"><a name="id353567"></a><p class="title"><b>Table 2.4. <code class="literal">pointerarea</code> Element Attributes</b></p><div class="table-contents"><table summary="pointerarea Element Attributes" border="1"><colgroup><col><col><col></colgroup><thead><tr><th>Attribute</th><th>Description</th><th>Mandatory</th></tr></thead><tbody><tr><td>x</td><td>
+         <p>
+          Left coordinate of the pointer area.
+         </p>
+        </td><td>yes</td></tr><tr><td>y</td><td>
+         <p>
+          Top coordinate of the pointer area.
+         </p>
+        </td><td>yes</td></tr><tr><td>width</td><td>
+         <p>
+          Width of the pointer area.
+         </p>
+        </td><td> </td></tr><tr><td>height</td><td>
+         <p>
+          Height of the pointer area.
+         </p>
+        </td><td> </td></tr><tr><td>devid</td><td>
+         <p>
+          FDT name of the pointer device instance.
+         </p>
+        </td><td>yes</td></tr><tr><td>grabonclick</td><td>
+         <p>
+          Specifies whether the GUI starts grabbing all mouse events when the
+          first left-button click event occurs, or each event is forwarded
+          to the pointer device without grabbing. 0 = No, 1 = Yes.
+         </p>
+        </td><td> </td></tr></tbody></table></div></div><p><br class="table-break">
+   </p></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ch02s02.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="chap-gui.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="ch02s04.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">2.2. Using the GUI </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> 2.4. Sample XML File</td></tr></table></div></body></html>

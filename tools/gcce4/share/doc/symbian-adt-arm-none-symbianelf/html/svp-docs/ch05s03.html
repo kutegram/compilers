@@ -1,0 +1,18 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>5.3. Device Object Methods</title><link rel="stylesheet" href="cs.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.74.0"><link rel="home" href="index.html" title="Symbian ADT Sourcery G++ Lite"><link rel="up" href="chap-plugins.html" title="Chapter 5. Device Plugins"><link rel="prev" href="ch05s02.html" title="5.2. Device Classes"><link rel="next" href="ch05s04.html" title="5.4. Snapshots"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">5.3. Device Object Methods</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ch05s02.html">Prev</a> </td><th width="60%" align="center">Chapter 5. Device Plugins</th><td width="20%" align="right"> <a accesskey="n" href="ch05s04.html">Next</a></td></tr></table><hr></div><div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="id332651"></a>5.3. Device Object Methods</h2></div></div></div><p>
+   Device objects provide the following methods to assist with implementing
+   device emulation:
+   </p><div class="variablelist"><dl><dt><span class="term"><code class="literal">set_irq_level(irq, level)</code></span></dt><dd><p>
+       Rise or lower a device IRQ output.  <code class="literal">irq</code> is a
+       zero based index specifying which IRQ to modify.
+       <code class="literal">level</code> is zero to lower the IRQ or one to
+       raise it.
+      </p></dd><dt><span class="term"><code class="literal">create_interrupts(callback, count)</code></span></dt><dd><p>
+       Create input IRQ lines (for interrupt controller type devices).
+       When the IRQ line state changes the function
+       <code class="literal">callback(irq, level)</code> will be called.
+      </p></dd><dt><span class="term"><code class="literal">dma_readb(address)</code></span></dt><dd><p>
+       Read a byte from system memory.
+      </p></dd><dt><span class="term"><code class="literal">dma_writeb(address, value)</code></span></dt><dd><p>
+       Write a byte to system memory.
+      </p></dd></dl></div><p>
+  </p></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ch05s02.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="chap-plugins.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="ch05s04.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">5.2. Device Classes </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> 5.4. Snapshots</td></tr></table></div></body></html>

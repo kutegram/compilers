@@ -1,0 +1,100 @@
+// GULFTFLG.HRH
+//
+// Copyright (c) Symbian Software Ltd 1997 - 2004. All rights reserved.
+//
+
+/** Maximum length for text selection.
+@publishedAll 
+
+*/
+#define KTextSelectionMaxLen			40
+
+/** All font controls.
+@publishedAll 
+
+*/
+#define	EGulFontControlAll				0x001
+
+/** Font control name.
+@publishedAll 
+
+*/
+#define	EGulFontControlName				0x002
+
+/** Font control size.
+@publishedAll 
+
+*/
+#define	EGulFontControlSize				0x004
+
+/** Bold font control.
+@publishedAll 
+
+*/
+#define	EGulFontControlBold				0x008
+
+/** Italic font control.
+@publishedAll 
+
+*/
+#define	EGulFontControlItalic			0x010
+
+/** Underline font control.
+@publishedAll 
+
+*/
+#define	EGulFontControlUnderline		0x020
+
+/** Strikethrough font control.
+@publishedAll 
+
+*/
+#define	EGulFontControlStrikethrough	0x040
+
+/** Font text color control.
+@publishedAll 
+
+*/
+#define	EGulFontControlTextColor		0x080
+
+/** Print position font control.
+@publishedAll 
+
+*/
+#define	EGulFontControlPrintPos			0x100 
+
+/** All fonts.
+@publishedAll 
+
+*/
+#define	EGulAllFonts					0x01
+
+/** Monospace fonts only.
+@publishedAll 
+
+*/
+#define	EGulMonospaceFontsOnly			0x02
+
+/** No monospace fonts.
+@publishedAll 
+
+*/
+#define	EGulNoMonospaceFonts			0x04
+
+/** Symbol fonts only.
+@publishedAll 
+
+*/
+#define	EGulSymbolFontsOnly				0x08
+
+/** No symbol fonts.
+@publishedAll 
+
+*/
+#define	EGulNoSymbolFonts				0x10
+
+/** No monospace or symbol fonts.
+@publishedAll 
+
+*/
+#define	EGulNoMonospaceOrSymbolFonts	0x20

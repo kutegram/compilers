@@ -1,0 +1,90 @@
+================================================================================
+Perl installation: do this first
+-----------------
+ActiveState Perl v 5.6.0 or later, from 
+http://www.activestate.com/Products/Download/Get.plex?id=ActivePerl
+
+Licences: 
+         The ActivePerl Package is covered by the Community License
+         according to <instPathRoot>\Perl\html\readme.html
+         ActiveState Community License at:
+           http://www.activestate.com/Products/ActivePerl/license_agreement.plex
+           Extract:
+             Perl is also covered by the GNU General Public License  or the Artistic License.
+		     ... 
+		     1. You may use this Package for commercial or non-commercial purposes
+                without charge.
+
+         GNU General Public License at:
+           http://aspn.activestate.com/ASPN/Legal/GNU_License_Agreement_Text.txt
+		   Extract:
+             "However, you may distribute this Package in aggregate with other (possibly
+             commercial) programs as part of a larger (possibly commercial) software
+             distribution provided that you do not advertise this Package as a
+             product of your own."
+
+         Artistic License at:
+		   http://aspn.activestate.com/ASPN/Legal/Artistic_License_Text.txt
+           Extract:
+             "However, you may distribute this Package in aggregate with other (possibly
+             commercial) programs as part of a larger (possibly commercial) software
+             distribution provided that you do not advertise this Package as a
+             product of your own."
+
+================================================================================
+PPM installation: do this next
+----------------
+Module:			License:
+Graph		    Copyright 1999, O'Reilly & Associates.
+                This code is distributed under the same copyright terms as Perl itself.
+				(from perl/site/lib/graph.pm)
+Math-Bezier		Same as Perl (from the module perl/site/lib/Math/Bezier.pm)
+Text-CSV_XS		Same as Perl (from the module perl/site/lib/Text/CSV_XS.pm)
+IPC-Run			Same as Perl (from the module perl/site/lib/Ipc/Run.pm)
+
+Versions:
+"PPM query" gives:
+	Graph            [0.201] graph operations
+	Math-Bezier      [0.01]  solution of Bezier Curves
+	Text-CSV_XS      [0.22]  comma-separated values manipulation routines
+	IPC-Run          [0.62]  system() and background procs w/ piping, redirs, ptys (Unix,WIN32)
+=====================================
+Installed and built (not in PPM)
+
+gv176b1.exe self-extracting exe for dot.exe for drawing directed graphs:
+	http://www.research.att.com/sw/tools/graphviz/download.html
+	Open Source license according to web page above. It links to the 
+	source code agreement at:
+      http://www.research.att.com/sw/tools/graphviz/license/index.html 
+	from which the following is a relevant extract:
+      
+	2. DEFINITIONS AND INTERPRETATION
+      d. "Capsule" means a computer file containing the exact same contents as the 
+	     computer file having the name graphviz*.* or gviz*.*, which will be downloaded 
+	     after accepting, or was opened to access, this Agreement. 
+      j. "Software Product" means a collection of computer files containing Software in 
+	     object code form only, which, taken together, reasonably comprise a product, 
+	     regardless of whether such product is intended for internal use or commercial 
+	     exploitation. A single computer file can comprise a Software Product.
+      k. "Source Code" means the Software contained in compressed form in the Capsule.
+
+    3. GRANT OF RIGHTS
+       1. Subject to third party intellectual property claims, if any, and the terms and
+	     conditions of this Agreement, AT&T grants to you under:
+         a. the AT&T Patent Claims and AT&T's copyright rights in the Source Code, 
+		    a non-exclusive, fully paid-up license to:
+             i. Reproduce and distribute the Capsule; 
+            ii. Display, perform, use, and compile the Source Code and execute the resultant 
+		        binary Software on a computer; 
+
+
+GraphViz-1.5.tar.gz
+	http://www.research.att.com/sw/tools/graphviz/download.html
+	Open Source license according to web page above again (same as for dot.exe). 
+
+To build and install from the zip:
+- unzip to temp folder and go there
+- perl -w Makefile.pl
+- nmake
+- nmake install
+

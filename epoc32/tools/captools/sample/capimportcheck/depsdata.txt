@@ -1,0 +1,252 @@
+[BINARY]:            apserv.dll
+[STATIC_IMPORTS]:    efsrv.dll 
+[DYNAMIC_IMPORTS]:   WEBURLREC.MDL EBOOKMARKREC.MDL RECWAP.MDL 
+[STATIC_IMPORTERS]:  
+[DYNAMIC_IMPORTERS]: 
+[IMPORTERS_TREE]:    
+
+[BINARY]:            BioViewer.dll
+[STATIC_IMPORTS]:    efsrv.dll med.dll 
+[DYNAMIC_IMPORTS]:   
+[STATIC_IMPORTERS]:  
+[DYNAMIC_IMPORTERS]: med.dll MsgEditor.app 
+[IMPORTERS_TREE]:    (2: med.dll (3: EmailEditor.dll SmsEditor.dll MmsEditor.dll )MsgEditor.app )
+
+[BINARY]:            bt.prt
+[STATIC_IMPORTS]:    esocksvr.dll 
+[DYNAMIC_IMPORTS]:   
+[STATIC_IMPORTERS]:  
+[DYNAMIC_IMPORTERS]: esocksvr.dll 
+[IMPORTERS_TREE]:    (1: esocksvr.dll (4: irda.prt tcpip6.prt SmsProt.prt WapProt.prt ))
+
+[BINARY]:            cntmodel.dll
+[STATIC_IMPORTS]:    efsrv.dll 
+[DYNAMIC_IMPORTS]:   cntvcard.dll cntphone.dll phbksyncplugin.dll 
+[STATIC_IMPORTERS]:  cntvcard.dll cntview.dll phbksyncplugin.dll 
+[DYNAMIC_IMPORTERS]: 
+[IMPORTERS_TREE]:    (3: cntvcard.dll cntview.dll phbksyncplugin.dll )
+
+[BINARY]:            cntphone.dll
+[STATIC_IMPORTS]:    
+[DYNAMIC_IMPORTS]:   
+[STATIC_IMPORTERS]:  
+[DYNAMIC_IMPORTERS]: cntmodel.dll 
+[IMPORTERS_TREE]:    (1: cntmodel.dll (3: cntvcard.dll cntview.dll phbksyncplugin.dll ))
+
+[BINARY]:            cntvcard.dll
+[STATIC_IMPORTS]:    cntmodel.dll 
+[DYNAMIC_IMPORTS]:   
+[STATIC_IMPORTERS]:  
+[DYNAMIC_IMPORTERS]: cntmodel.dll 
+[IMPORTERS_TREE]:    (1: cntmodel.dll (2: cntview.dll phbksyncplugin.dll ))
+
+[BINARY]:            cntview.dll
+[STATIC_IMPORTS]:    cntmodel.dll 
+[DYNAMIC_IMPORTS]:   
+[STATIC_IMPORTERS]:  
+[DYNAMIC_IMPORTERS]: 
+[IMPORTERS_TREE]:    
+
+[BINARY]:            dma.dll
+[STATIC_IMPORTS]:    kacotulla.dll ekern.exe 
+[DYNAMIC_IMPORTS]:   
+[STATIC_IMPORTERS]:  
+[DYNAMIC_IMPORTERS]: 
+[IMPORTERS_TREE]:    
+
+[BINARY]:            EBOOKMARKREC.MDL
+[STATIC_IMPORTS]:    efsrv.dll 
+[DYNAMIC_IMPORTS]:   
+[STATIC_IMPORTERS]:  
+[DYNAMIC_IMPORTERS]: apserv.dll 
+[IMPORTERS_TREE]:    (1: apserv.dll )
+
+[BINARY]:            ecust.dll
+[STATIC_IMPORTS]:    kacotulla.dll ekern.exe 
+[DYNAMIC_IMPORTS]:   
+[STATIC_IMPORTERS]:  monitor.dll lcd.dll 
+[DYNAMIC_IMPORTERS]: 
+[IMPORTERS_TREE]:    (2: monitor.dll lcd.dll )
+
+[BINARY]:            efile.exe
+[STATIC_IMPORTS]:    efsrv.dll 
+[DYNAMIC_IMPORTS]:   elocal.fsy elffs.fsy 
+[STATIC_IMPORTERS]:  elocal.fsy elffs.fsy 
+[DYNAMIC_IMPORTERS]: 
+[IMPORTERS_TREE]:    (2: elocal.fsy elffs.fsy )
+
+[BINARY]:            efsrv.dll
+[STATIC_IMPORTS]:    
+[DYNAMIC_IMPORTS]:   
+[STATIC_IMPORTERS]:  elocal.fsy efile.exe irda.prt SmsProt.prt WapProt.prt apserv.dll EBOOKMARKREC.MDL cntmodel.dll MM.TSY EmailEditor.dll SmsEditor.dll MmsEditor.dll BioViewer.dll 
+[DYNAMIC_IMPORTERS]: 
+[IMPORTERS_TREE]:    (13: elocal.fsy efile.exe (1: elffs.fsy )irda.prt (1: esocksvr.dll (2: bt.prt tcpip6.prt ))SmsProt.prt WapProt.prt apserv.dll EBOOKMARKREC.MDL cntmodel.dll (3: cntvcard.dll cntview.dll phbksyncplugin.dll )MM.TSY (1: etel.dll )EmailEditor.dll (1: med.dll (1: MsgEditor.app ))SmsEditor.dll MmsEditor.dll BioViewer.dll )
+
+[BINARY]:            ekern.exe
+[STATIC_IMPORTS]:    
+[DYNAMIC_IMPORTS]:   
+[STATIC_IMPORTERS]:  kacotulla.dll ecust.dll monitor.dll power.dll dma.dll lcd.dll elocd.ldd epbus.dll 
+[DYNAMIC_IMPORTERS]: 
+[IMPORTERS_TREE]:    (8: kacotulla.dll ecust.dll monitor.dll power.dll dma.dll lcd.dll elocd.ldd epbus.dll )
+
+[BINARY]:            elffs.fsy
+[STATIC_IMPORTS]:    efile.exe 
+[DYNAMIC_IMPORTS]:   
+[STATIC_IMPORTERS]:  
+[DYNAMIC_IMPORTERS]: efile.exe 
+[IMPORTERS_TREE]:    (1: efile.exe (1: elocal.fsy ))
+
+[BINARY]:            elocal.fsy
+[STATIC_IMPORTS]:    efile.exe efsrv.dll 
+[DYNAMIC_IMPORTS]:   
+[STATIC_IMPORTERS]:  
+[DYNAMIC_IMPORTERS]: efile.exe 
+[IMPORTERS_TREE]:    (1: efile.exe (1: elffs.fsy ))
+
+[BINARY]:            elocd.ldd
+[STATIC_IMPORTS]:    ekern.exe 
+[DYNAMIC_IMPORTS]:   
+[STATIC_IMPORTERS]:  epbus.dll 
+[DYNAMIC_IMPORTERS]: 
+[IMPORTERS_TREE]:    (1: epbus.dll )
+
+[BINARY]:            EmailEditor.dll
+[STATIC_IMPORTS]:    efsrv.dll med.dll 
+[DYNAMIC_IMPORTS]:   
+[STATIC_IMPORTERS]:  
+[DYNAMIC_IMPORTERS]: med.dll MsgEditor.app 
+[IMPORTERS_TREE]:    (2: med.dll (3: SmsEditor.dll MmsEditor.dll BioViewer.dll )MsgEditor.app )
+
+[BINARY]:            epbus.dll
+[STATIC_IMPORTS]:    kacotulla.dll ekern.exe elocd.ldd 
+[DYNAMIC_IMPORTS]:   
+[STATIC_IMPORTERS]:  
+[DYNAMIC_IMPORTERS]: 
+[IMPORTERS_TREE]:    
+
+[BINARY]:            esocksvr.dll
+[STATIC_IMPORTS]:    
+[DYNAMIC_IMPORTS]:   irda.prt bt.prt tcpip6.prt SmsProt.prt WapProt.prt 
+[STATIC_IMPORTERS]:  irda.prt bt.prt tcpip6.prt SmsProt.prt WapProt.prt 
+[DYNAMIC_IMPORTERS]: 
+[IMPORTERS_TREE]:    (5: irda.prt bt.prt tcpip6.prt SmsProt.prt WapProt.prt )
+
+[BINARY]:            etel.dll
+[STATIC_IMPORTS]:    
+[DYNAMIC_IMPORTS]:   MM.TSY 
+[STATIC_IMPORTERS]:  SmsProt.prt MM.TSY 
+[DYNAMIC_IMPORTERS]: 
+[IMPORTERS_TREE]:    (2: SmsProt.prt (1: esocksvr.dll (4: irda.prt bt.prt tcpip6.prt WapProt.prt ))MM.TSY )
+
+[BINARY]:            irda.prt
+[STATIC_IMPORTS]:    efsrv.dll esocksvr.dll 
+[DYNAMIC_IMPORTS]:   
+[STATIC_IMPORTERS]:  
+[DYNAMIC_IMPORTERS]: esocksvr.dll 
+[IMPORTERS_TREE]:    (1: esocksvr.dll (4: bt.prt tcpip6.prt SmsProt.prt WapProt.prt ))
+
+[BINARY]:            kacotulla.dll
+[STATIC_IMPORTS]:    ekern.exe 
+[DYNAMIC_IMPORTS]:   
+[STATIC_IMPORTERS]:  ecust.dll monitor.dll dma.dll lcd.dll epbus.dll 
+[DYNAMIC_IMPORTERS]: 
+[IMPORTERS_TREE]:    (5: ecust.dll monitor.dll dma.dll lcd.dll epbus.dll )
+
+[BINARY]:            lcd.dll
+[STATIC_IMPORTS]:    ecust.dll kacotulla.dll ekern.exe 
+[DYNAMIC_IMPORTS]:   
+[STATIC_IMPORTERS]:  
+[DYNAMIC_IMPORTERS]: 
+[IMPORTERS_TREE]:    
+
+[BINARY]:            med.dll
+[STATIC_IMPORTS]:    
+[DYNAMIC_IMPORTS]:   EmailEditor.dll SmsEditor.dll MmsEditor.dll BioViewer.dll 
+[STATIC_IMPORTERS]:  EmailEditor.dll SmsEditor.dll MmsEditor.dll BioViewer.dll MsgEditor.app 
+[DYNAMIC_IMPORTERS]: 
+[IMPORTERS_TREE]:    (5: EmailEditor.dll SmsEditor.dll MmsEditor.dll BioViewer.dll MsgEditor.app )
+
+[BINARY]:            MM.TSY
+[STATIC_IMPORTS]:    etel.dll efsrv.dll 
+[DYNAMIC_IMPORTS]:   
+[STATIC_IMPORTERS]:  
+[DYNAMIC_IMPORTERS]: etel.dll 
+[IMPORTERS_TREE]:    (1: etel.dll (1: SmsProt.prt (1: esocksvr.dll (4: irda.prt bt.prt tcpip6.prt WapProt.prt ))))
+
+[BINARY]:            MmsEditor.dll
+[STATIC_IMPORTS]:    efsrv.dll med.dll 
+[DYNAMIC_IMPORTS]:   
+[STATIC_IMPORTERS]:  
+[DYNAMIC_IMPORTERS]: med.dll MsgEditor.app 
+[IMPORTERS_TREE]:    (2: med.dll (3: EmailEditor.dll SmsEditor.dll BioViewer.dll )MsgEditor.app )
+
+[BINARY]:            monitor.dll
+[STATIC_IMPORTS]:    ecust.dll kacotulla.dll ekern.exe 
+[DYNAMIC_IMPORTS]:   
+[STATIC_IMPORTERS]:  
+[DYNAMIC_IMPORTERS]: 
+[IMPORTERS_TREE]:    
+
+[BINARY]:            MsgEditor.app
+[STATIC_IMPORTS]:    med.dll 
+[DYNAMIC_IMPORTS]:   EmailEditor.dll SmsEditor.dll MmsEditor.dll BioViewer.dll 
+[STATIC_IMPORTERS]:  
+[DYNAMIC_IMPORTERS]: 
+[IMPORTERS_TREE]:    
+
+[BINARY]:            phbksyncplugin.dll
+[STATIC_IMPORTS]:    cntmodel.dll 
+[DYNAMIC_IMPORTS]:   
+[STATIC_IMPORTERS]:  
+[DYNAMIC_IMPORTERS]: cntmodel.dll 
+[IMPORTERS_TREE]:    (1: cntmodel.dll (2: cntvcard.dll cntview.dll ))
+
+[BINARY]:            power.dll
+[STATIC_IMPORTS]:    ekern.exe 
+[DYNAMIC_IMPORTS]:   
+[STATIC_IMPORTERS]:  
+[DYNAMIC_IMPORTERS]: 
+[IMPORTERS_TREE]:    
+
+[BINARY]:            RECWAP.MDL
+[STATIC_IMPORTS]:    
+[DYNAMIC_IMPORTS]:   
+[STATIC_IMPORTERS]:  
+[DYNAMIC_IMPORTERS]: apserv.dll 
+[IMPORTERS_TREE]:    (1: apserv.dll )
+
+[BINARY]:            SmsEditor.dll
+[STATIC_IMPORTS]:    efsrv.dll med.dll 
+[DYNAMIC_IMPORTS]:   
+[STATIC_IMPORTERS]:  
+[DYNAMIC_IMPORTERS]: med.dll MsgEditor.app 
+[IMPORTERS_TREE]:    (2: med.dll (3: EmailEditor.dll MmsEditor.dll BioViewer.dll )MsgEditor.app )
+
+[BINARY]:            SmsProt.prt
+[STATIC_IMPORTS]:    efsrv.dll esocksvr.dll etel.dll 
+[DYNAMIC_IMPORTS]:   
+[STATIC_IMPORTERS]:  
+[DYNAMIC_IMPORTERS]: esocksvr.dll 
+[IMPORTERS_TREE]:    (1: esocksvr.dll (4: irda.prt bt.prt tcpip6.prt WapProt.prt ))
+
+[BINARY]:            tcpip6.prt
+[STATIC_IMPORTS]:    esocksvr.dll 
+[DYNAMIC_IMPORTS]:   
+[STATIC_IMPORTERS]:  
+[DYNAMIC_IMPORTERS]: esocksvr.dll 
+[IMPORTERS_TREE]:    (1: esocksvr.dll (4: irda.prt bt.prt SmsProt.prt WapProt.prt ))
+
+[BINARY]:            WapProt.prt
+[STATIC_IMPORTS]:    efsrv.dll esocksvr.dll 
+[DYNAMIC_IMPORTS]:   
+[STATIC_IMPORTERS]:  
+[DYNAMIC_IMPORTERS]: esocksvr.dll 
+[IMPORTERS_TREE]:    (1: esocksvr.dll (4: irda.prt bt.prt tcpip6.prt SmsProt.prt ))
+
+[BINARY]:            WEBURLREC.MDL
+[STATIC_IMPORTS]:    
+[DYNAMIC_IMPORTS]:   
+[STATIC_IMPORTERS]:  
+[DYNAMIC_IMPORTERS]: apserv.dll 
+[IMPORTERS_TREE]:    (1: apserv.dll )
+

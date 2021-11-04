@@ -1,0 +1,30 @@
+2010/11/18 15:31:49 Starting cygwin install, version 2.721
+2010/11/18 15:31:49 io_stream_cygfile: fopen(/etc/setup/net-method) failed 2 No such file or directory
+2010/11/18 15:31:49 io_stream_cygfile: fopen(/etc/setup/net-proxy-host) failed 2 No such file or directory
+2010/11/18 15:31:49 io_stream_cygfile: fopen(/etc/setup/net-proxy-port) failed 2 No such file or directory
+2010/11/18 15:31:49 io_stream_cygfile: fopen(/etc/setup/extrakeys) failed 2 No such file or directory
+2010/11/18 15:31:49 io_stream_cygfile: fopen(/etc/setup/chooser_window_settings) failed 2 No such file or directory
+2010/11/18 15:31:49 Current Directory: D:\cygwin\local_packages
+2010/11/18 15:31:49 User has backup/restore rights
+2010/11/18 15:31:49 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2010/11/18 15:31:49 root: I:\win32-support\cygwin binary user
+2010/11/18 15:31:49 Selected local directory: D:\cygwin\local_packages
+2010/11/18 15:31:49 Could not change dir to D:\cygwin\local_packages: The device is not ready.
+ [00000015]
+2010/11/18 15:32:20 Selected local directory: I:\tmp
+2010/11/18 15:32:20 net: Direct
+2010/11/18 15:32:20 io_stream_cygfile: fopen(/etc/setup/mirrors-lst) failed 2 No such file or directory
+Cached mirror list unavailable
+get_url_to_membuf http://cygwin.com/mirrors.lst
+getUrlToStream http://cygwin.com/mirrors.lst
+getUrlToStream failed!
+get_url_to_membuf failed!
+Defaulting to empty mirror list
+2010/11/18 15:32:41 site: http://cygwin.basemirror.de/
+get_url_to_membuf http://cygwin.basemirror.de//setup-legacy.bz2
+getUrlToStream http://cygwin.basemirror.de//setup-legacy.bz2
+getUrlToStream failed!
+get_url_to_membuf failed!
+get_url_to_membuf http://cygwin.basemirror.de//setup-legacy.bz2.sig
+getUrlToStream http://cygwin.basemirror.de//setup-legacy.bz2.sig
+2010/11/18 15:33:13 Ending cygwin install

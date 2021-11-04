@@ -1,0 +1,216 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>3.9. Framebuffer</title><link rel="stylesheet" href="cs.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.74.0"><link rel="home" href="index.html" title="Symbian ADT Sourcery G++ Lite"><link rel="up" href="chap-devices.html" title="Chapter 3. Base Platform Devices"><link rel="prev" href="ch03s08.html" title="3.8. Pointer Controller"><link rel="next" href="ch03s10.html" title="3.10. Host Filesystem Device"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">3.9. Framebuffer</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ch03s08.html">Prev</a> </td><th width="60%" align="center">Chapter 3. Base Platform Devices</th><td width="20%" align="right"> <a accesskey="n" href="ch03s10.html">Next</a></td></tr></table><hr></div><div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="id360140"></a>3.9. Framebuffer</h2></div></div></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id360146"></a>3.9.1. Description</h3></div></div></div><p>
+    This device is a framebuffer that has the following capabilities:
+    </p><div class="itemizedlist"><ul type="disc"><li><p>
+       Different bpp depths (1, 2, 4, 8, 15, 16, 24, 32)
+     </p></li><li><p>
+       Color palette for bpp depths 1, 2, 4, 8
+     </p></li><li><p>
+       LE/BE byte ordering
+     </p></li><li><p>
+       LE/BE pixel ordering
+     </p></li><li><p>
+       RGB/BGR color ordering (for 16 and 32 bpp modes)
+     </p></li><li><p>
+       Resizeable screen
+     </p></li><li><p>
+       Fast blank screen mode
+     </p></li><li><p>
+       Interrupt raising
+     </p></li><li><p>
+       Variable orientation: 90-degree stepped rotation, plus flipping
+     </p></li><li><p>
+       Non-consecutive row arrangement
+     </p></li></ul></div><p>
+   </p></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id360210"></a>3.9.2. Configuring the Framebuffer device</h3></div></div></div><p>
+    Configuration can be performed with the device in
+    disabled state (FB_ENABLED = 0) to avoid unexpected behavior from a
+    half-configured device.
+   </p><p>
+    Sample configuration sequence:
+    </p><div class="orderedlist"><ol type="1"><li><p>
+       Disable the device (FB_ENABLED = 0)
+     </p></li><li><p>
+       Specify the base address memory where the data will be read
+       (FB_BASE = addr)
+     </p></li><li><p>
+       Specify the interrupts mask (FB_INT_MASK)
+     </p></li><li><p>
+       Specify the rest of the configuration settings
+       (i.e. height, width, orientation, palette)
+     </p></li><li><p>
+       Enable the device (FB_ENABLED = 1)
+     </p></li></ol></div><p>
+   </p><p>
+    FB_BASE update (for page flipping) and palette changes can safely be
+    performed without disabling the device.
+   </p></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id360266"></a>3.9.3. Pixel Formats</h3></div></div></div><p>
+    The framebuffer interprets framebuffer data by loading 32-bit words of
+    data from RAM, splitting each word into pixels, then interpreting each
+    pixel as either an index into the palette or a set of 3 color components.
+    The exception is 24-bit mode where each pixel is fetched as 3 bytes.
+    See individual registers for full details.
+   </p></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id367242"></a>3.9.4. Device Properties</h3></div></div></div><div class="variablelist"><dl><dt><span class="term"><code class="literal">compatible</code></span></dt><dd><code class="literal">syborg,framebuffer</code></dd><dt><span class="term"><code class="literal">width</code></span></dt><dd><p>
+       Default width in pixels (optional)
+      </p></dd><dt><span class="term"><code class="literal">height</code></span></dt><dd><p>
+       Default height in pixels (optional)
+      </p></dd></dl></div></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id367300"></a>3.9.5. Registers</h3></div></div></div><p>
+    </p><div class="table"><a name="id367308"></a><p class="title"><b>Table 3.8. Framebuffer Registers</b></p><div class="table-contents"><table summary="Framebuffer Registers" border="1"><colgroup><col><col><col><col><col></colgroup><thead><tr><th>Offset</th><th>Access</th><th>Reset</th><th>Name</th><th>Description</th></tr></thead><tbody><tr><td>0x000</td><td>R</td><td>0xc51d1007</td><td>ID</td><td><p>
+          Peripheral ID.
+        </p></td></tr><tr><td>0x004</td><td>RW</td><td>0x00000000</td><td>BASE</td><td><p>
+          Base memory address where the data will be read.
+          The address must be aligned to a 4-byte boundary.
+        </p></td></tr><tr><td>0x008</td><td>RW</td><td>impl def</td><td>HEIGHT</td><td><p>
+          Screen height (in pixels).
+        </p></td></tr><tr><td>0x00c</td><td>RW</td><td>impl def</td><td>WIDTH</td><td><p>
+          Screen width (in pixels).
+          The length of the resulting row data must be a multiple of 4 bytes.
+          e.g. for 16 bpp mode this must be a multiple of 2.
+        </p></td></tr><tr><td>0x010</td><td>RW</td><td>0x00000000</td><td>ORIENTATION</td><td>
+         <p>
+          Set display orientation.
+          </p><div class="variablelist"><dl><dt><span class="term"><code class="literal">0</code></span></dt><dd><p>
+              No rotation.
+            </p></dd><dt><span class="term"><code class="literal">1</code></span></dt><dd><p>
+              90 degree counterclockwise rotation.
+           </p></dd><dt><span class="term"><code class="literal">2</code></span></dt><dd><p>
+              180 degree rotation.
+            </p></dd><dt><span class="term"><code class="literal">3</code></span></dt><dd><p>
+              90 degree clockwise rotation.
+            </p></dd><dt><span class="term"><code class="literal">4</code></span></dt><dd><p>
+              Vertical flip.
+            </p></dd><dt><span class="term"><code class="literal">5</code></span></dt><dd><p>
+              90 degree counterclockwise rotation followed by vertical flip.
+            </p></dd><dt><span class="term"><code class="literal">6</code></span></dt><dd><p>
+              Horizontal flip.
+            </p></dd><dt><span class="term"><code class="literal">7</code></span></dt><dd><p>
+              90 degree clockwise rotation followed by vertical flip.
+            </p></dd></dl></div><p>
+         </p>
+         <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+           This has no direct affect on the operation of the framebuffer.
+           It is simply a hint how the resulting image should be displayed.
+         </p></div>
+        </td></tr><tr><td>0x014</td><td>RW</td><td>0x00000000</td><td>BLANK</td><td>
+         <p>
+          Blank screen mode. Causes the device to display a black screen,
+          ignoring the contents of the framebuffer data. The device does
+          not trigger the VSYNC interrupt during the Blank screen mode.
+          </p><div class="variablelist"><dl><dt><span class="term"><code class="literal">0</code></span></dt><dd><p>
+              Normal operation.
+            </p></dd><dt><span class="term"><code class="literal">1</code></span></dt><dd><p>
+              Blank screen.
+            </p></dd></dl></div><p>
+         </p>
+        </td></tr><tr><td>0x018</td><td>RW</td><td>0x00000000</td><td>INT_MASK</td><td>
+         <p>
+          Integer bit mask controlling which interrupts are active.
+	  It is an OR'ed combination of the following bits:
+          </p><div class="variablelist"><dl><dt><span class="term"><code class="literal">0x01</code></span></dt><dd><p>
+              Enables the VSYNC interrupt. This interrupt triggers
+              immediately after a screen refresh.
+            </p></dd><dt><span class="term"><code class="literal">0x02</code></span></dt><dd><p>
+              Enables the BASE_UPDATE_DONE interrupt. Raised at the same
+              time as VSYNC, but only if the FB_BASE register has been
+              modified since the last refresh.
+            </p></dd></dl></div><p>
+          </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+            Screen refreshes may occur at unpredictable intervals, so the
+            VSYNC interrupt should not be used to control timing.
+          </p></div><p>
+         </p>
+        </td></tr><tr><td>0x01c</td><td>RW</td><td>0x00000000</td><td>INT_CAUSE</td><td>
+         <p>
+          This register is an integer bit mask, where each bit represents the
+          asserted interrupt.  Read and write this register in the
+          interrupt handling routine.  Each bit set will clear the
+          corresponding interrupt.
+         </p>
+         <p>
+          Refer to the FB_INT_MASK register for the possible bit values
+          and the description of each interrupt.
+         </p>
+        </td></tr><tr><td>0x020</td><td>RW</td><td>0x00000020</td><td>BPP</td><td>
+         <p>
+          Bits per pixel.  Valid values are as follows:
+          </p><div class="variablelist"><dl><dt><span class="term"><code class="literal">1</code></span></dt><dd><p>
+              2-color palette.
+            </p></dd><dt><span class="term"><code class="literal">2</code></span></dt><dd><p>
+              4-color palette.
+            </p></dd><dt><span class="term"><code class="literal">4</code></span></dt><dd><p>
+              16-color palette.
+            </p></dd><dt><span class="term"><code class="literal">8</code></span></dt><dd><p>
+              256-color palette.
+            </p></dd><dt><span class="term"><code class="literal">15</code></span></dt><dd><p>
+              High bit ignored. 5 bits each for red, green and blue.
+            </p></dd><dt><span class="term"><code class="literal">16</code></span></dt><dd><p>
+              5 bits red, 6 bits green, 5 bits blue.
+            </p></dd><dt><span class="term"><code class="literal">24</code></span></dt><dd><p>
+              8 bits each for red, green and blue.
+            </p></dd><dt><span class="term"><code class="literal">32</code></span></dt><dd><p>
+              8 high bits ignored. 8 bits each for red, green and blue.
+            </p></dd></dl></div><p>
+         </p>
+        </td></tr><tr><td>0x024</td><td>RW</td><td>0x00000000</td><td>COLOR_ORDER</td><td>
+         <p>
+          Order of the red, green, and blue components.
+          </p><div class="variablelist"><dl><dt><span class="term"><code class="literal">0</code></span></dt><dd><p>
+              BGR (blue is LSB, red is MSB).
+            </p></dd><dt><span class="term"><code class="literal">1</code></span></dt><dd><p>
+              RGB (red is LSB, blue is MSB)
+            </p></dd></dl></div><p>
+         </p>
+        </td></tr><tr><td>0x028</td><td>RW</td><td>0x00000000</td><td>BYTE_ORDER</td><td>
+         <p>
+          Endianness of the framebuffer source data. Data is fetched
+          in 32-bit words, and the whole word is byte swapped according
+          to this register, independent of the pixel size.  This is
+          ignored for 24 bpp mode.
+          </p><div class="variablelist"><dl><dt><span class="term"><code class="literal">0</code></span></dt><dd><p>
+              Little-endian
+            </p></dd><dt><span class="term"><code class="literal">1</code></span></dt><dd><p>
+              Big-endian
+            </p></dd></dl></div><p>
+         </p>
+        </td></tr><tr><td>0x02c</td><td>RW</td><td>0x00000000</td><td>PIXEL_ORDER</td><td>
+         <p>
+          Controls how multiple pixels are packed into a byte.  This
+          only affects 1, 2 and 4 bpp modes.  The least significant
+          byte of the word always contains the first 8/4/2 pixels.
+          </p><div class="variablelist"><dl><dt><span class="term"><code class="literal">0</code></span></dt><dd><p>
+              Little-endian (first pixel is LSB).
+            </p></dd><dt><span class="term"><code class="literal">1</code></span></dt><dd><p>
+              Big-endian (first pixel is MSB).
+            </p></dd></dl></div><p>
+         </p>
+        </td></tr><tr><td>0x030</td><td>RW</td><td>0x00000000</td><td>ROW_PITCH</td><td><p>
+          Number of bytes between the start of consecutive rows.  If set to
+          zero then this register is ignored and the pitch is the length
+          of the row.  Must be a multiple of 4.
+        </p></td></tr><tr><td>0x034</td><td>RW</td><td>0x00000000</td><td>ENABLED</td><td>
+         <p>
+          Enables or disables the framebuffer device, allowing
+          configuration changes during the disabled mode to avoid
+          unexpected behavior from a half configured device.
+          </p><div class="variablelist"><dl><dt><span class="term"><code class="literal">0</code></span></dt><dd><p>
+              Device is disabled.
+            </p></dd><dt><span class="term"><code class="literal">1</code></span></dt><dd><p>
+              Device is enabled.
+            </p></dd></dl></div><p>
+         </p>
+        </td></tr><tr><td>0x400-0x7fc</td><td>RW</td><td>0x00000000</td><td>PALETTE</td><td>
+         <p>
+          Palette values to use in 1, 2, 4, and 8 bpp modes.
+          There is one 32-bit word per entry.
+          The color encoding is:
+          </p><div class="variablelist"><dl><dt><span class="term">Bits 31-24</span></dt><dd><p>
+              Unused.
+            </p></dd><dt><span class="term">Bits 23-16</span></dt><dd><p>
+              Red.
+            </p></dd><dt><span class="term">Bits 15-8</span></dt><dd><p>
+              Green.
+            </p></dd><dt><span class="term">Bits 7-0</span></dt><dd><p>
+              Blue.
+            </p></dd></dl></div><p>
+         </p>
+        </td></tr></tbody></table></div></div><p><br class="table-break">
+   </p></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ch03s08.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="chap-devices.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="ch03s10.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">3.8. Pointer Controller </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> 3.10. Host Filesystem Device</td></tr></table></div></body></html>

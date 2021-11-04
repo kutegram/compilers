@@ -1,0 +1,774 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    [Anonymous Symbol]                       0x00000000   Number         0  QtDeclarative{00040703}-881.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-670.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1784.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-126.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  euser{000a0000}-671.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1789.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-128.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-312.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1794.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-129.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-32.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1825.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-150.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-324.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-147.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-159.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-331.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-158.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1760.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-332.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-180.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1763.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3689.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-183.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1764.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3691.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-184.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1766.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3692.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-186.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1767.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-70.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-187.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1768.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  libstdcpp{00010000}-988.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-188.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1773.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  libstdcpp{00010000}-992.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtaeabi{000a0000}-190.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1777.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  libc{00010000}-350.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  drtrvct2_2{000a0000}-28.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtServiceFramework{00010103}-88.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2188.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-3040.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtServiceFramework{00010103}-89.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtServiceFramework{00010103}-1.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1842.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtServiceFramework{00010103}-93.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtServiceFramework{00010103}-100.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1874.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtServiceFramework{00010103}-94.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtServiceFramework{00010103}-102.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1885.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1830.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtServiceFramework{00010103}-12.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtServiceFramework{00010103}-65.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-1836.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtServiceFramework{00010103}-2.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-2199.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtServiceFramework{00010103}-41.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtServiceFramework{00010103}-32.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-274.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtServiceFramework{00010103}-67.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-282.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtCore{00040703}-275.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtServiceFramework{00010103}-8.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtServiceFramework{00010103}-61.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtDeclarative{00040703}-875.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtDeclarative{00040703}-874.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtServiceFramework{00010103}-62.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtServiceFramework{00010103}-96.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtDeclarative{00040703}-402.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtDeclarative{00040703}-401.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtDeclarative{00040703}-1662.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtDeclarative{00040703}-878.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtServiceFramework{00010103}-95.o ABSOLUTE
+    [Anonymous Symbol]                       0x00000000   Number         0  QtDeclarative{00040703}-873.o ABSOLUTE
+    ..\..\..\..\EPOC32\BUILD\s60\osext\mobileruntime\group\LIBSTDCPP\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\src\cedar\generic\base\e32\compsupp\DRTAEABI\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\src\cedar\generic\base\e32\euser\EDLL\ARMV5\urel\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    \EPOC32\BUILD\src\cedar\generic\base\e32\euser\EUSER\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBC\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBDL\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBM\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \EPOC32\BUILD\wk29\stdlibs\group\LIBPTHREAD\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \\EPOC32\\BUILD\\src\\cedar\\generic\\base\\e32\\euser\\EDLL\\ARMV5\\urel\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    \\src\\cedar\\generic\\base\\e32\\compsupp\\RVCT2_2\\ucppinit_aeabi.cpp 0x00000000   Number         0  ucppinit_aeabi.o ABSOLUTE
+    \dev\symb\SDKs\32\EPOC32\BUILD\iwmake\buildS60____PADDING________\src\QTCORE_DLL\ARMV6\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \dev\symb\SDKs\32\EPOC32\BUILD\iwmake\buildS60____PADDING________\src\QTDECLARATIVE_DLL\ARMV6\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \dev\symb\SDKs\32\EPOC32\BUILD\iwmake\buildS60____PADDING________\src\QTGUI_DLL\ARMV6\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \s60\5.0\EPOC32\BUILD\scripts\5.0\qtmobility\DECLARATIVE_SERVICEFRAMEWORK_DLL\ARMV5\urel\declarative_serviceframework{000a0000}.s 0x00000000   Number         0  declarative_serviceframework{000a0000}.exp ABSOLUTE
+    \s60\5.0\EPOC32\BUILD\scripts\5.0\qtmobility\QTSERVICEFRAMEWORK_DLL\ARMV5\VtblExports.s 0x00000000   Number         0  VtblExports.o ABSOLUTE
+    \scripts\5.0\qtmobility\plugins\declarative\serviceframework\qdeclarativeservice.cpp 0x00000000   Number         0  declarative_serviceframework.in ABSOLUTE
+    \scripts\5.0\qtmobility\plugins\declarative\serviceframework\serviceframework.cpp 0x00000000   Number         0  declarative_serviceframework.in ABSOLUTE
+    \src\cedar\generic\base\e32\compsupp\RVCT2_2\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    \src\cedar\generic\base\e32\compsupp\RVCT2_2\ucppinit_aeabi.cpp 0x00000000   Number         0  ucppinit_aeabi.o ABSOLUTE
+    \src\cedar\generic\base\e32\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       72  ucppinit_aeabi.o(.emb_text)
+    skip                                     0x0000803c   ARM Code       0  ucppinit_aeabi.o(.emb_text)
+    loop                                     0x0000804c   ARM Code       0  ucppinit_aeabi.o(.emb_text)
+    fpinit                                   0x00008064   Data           0  ucppinit_aeabi.o(.emb_text)
+    base                                     0x00008068   Data           0  ucppinit_aeabi.o(.emb_text)
+    limit                                    0x0000806c   Data           0  ucppinit_aeabi.o(.emb_text)
+    .text                                    0x00008070   Section     1960  declarative_serviceframework.in(.text)
+    .text                                    0x00008818   Section      204  declarative_serviceframework.in(.text)
+    .text                                    0x000088e4   Section       40  uc_dll.o(.text)
+    .text                                    0x0000890c   Section      148  ucppfini.o(.text)
+    .text.clean                              0x000089a0   Section      262  declarative_serviceframework.in(.text.clean)
+    .text.clean                              0x00008aa8   Section       28  declarative_serviceframework.in(.text.clean)
+    ExportTable                              0x00008ac4   Section       16  declarative_serviceframework{000a0000}.exp(ExportTable)
+    StubCode                                 0x00008ad4   Section        8  QtServiceFramework{00010103}-1.o(StubCode)
+    theImportedSymbol                        0x00008ad8   Data           0  QtServiceFramework{00010103}-1.o(StubCode)
+    StubCode                                 0x00008adc   Section        8  QtServiceFramework{00010103}-100.o(StubCode)
+    theImportedSymbol                        0x00008ae0   Data           0  QtServiceFramework{00010103}-100.o(StubCode)
+    StubCode                                 0x00008ae4   Section        8  QtServiceFramework{00010103}-102.o(StubCode)
+    theImportedSymbol                        0x00008ae8   Data           0  QtServiceFramework{00010103}-102.o(StubCode)
+    StubCode                                 0x00008aec   Section        8  QtServiceFramework{00010103}-12.o(StubCode)
+    theImportedSymbol                        0x00008af0   Data           0  QtServiceFramework{00010103}-12.o(StubCode)
+    StubCode                                 0x00008af4   Section        8  QtServiceFramework{00010103}-2.o(StubCode)
+    theImportedSymbol                        0x00008af8   Data           0  QtServiceFramework{00010103}-2.o(StubCode)
+    StubCode                                 0x00008afc   Section        8  QtServiceFramework{00010103}-32.o(StubCode)
+    theImportedSymbol                        0x00008b00   Data           0  QtServiceFramework{00010103}-32.o(StubCode)
+    StubCode                                 0x00008b04   Section        8  QtServiceFramework{00010103}-41.o(StubCode)
+    theImportedSymbol                        0x00008b08   Data           0  QtServiceFramework{00010103}-41.o(StubCode)
+    StubCode                                 0x00008b0c   Section        8  QtServiceFramework{00010103}-61.o(StubCode)
+    theImportedSymbol                        0x00008b10   Data           0  QtServiceFramework{00010103}-61.o(StubCode)
+    StubCode                                 0x00008b14   Section        8  QtServiceFramework{00010103}-62.o(StubCode)
+    theImportedSymbol                        0x00008b18   Data           0  QtServiceFramework{00010103}-62.o(StubCode)
+    StubCode                                 0x00008b1c   Section        8  QtServiceFramework{00010103}-65.o(StubCode)
+    theImportedSymbol                        0x00008b20   Data           0  QtServiceFramework{00010103}-65.o(StubCode)
+    StubCode                                 0x00008b24   Section        8  QtServiceFramework{00010103}-67.o(StubCode)
+    theImportedSymbol                        0x00008b28   Data           0  QtServiceFramework{00010103}-67.o(StubCode)
+    StubCode                                 0x00008b2c   Section        8  QtServiceFramework{00010103}-8.o(StubCode)
+    theImportedSymbol                        0x00008b30   Data           0  QtServiceFramework{00010103}-8.o(StubCode)
+    StubCode                                 0x00008b34   Section        8  QtServiceFramework{00010103}-88.o(StubCode)
+    theImportedSymbol                        0x00008b38   Data           0  QtServiceFramework{00010103}-88.o(StubCode)
+    StubCode                                 0x00008b3c   Section        8  QtServiceFramework{00010103}-89.o(StubCode)
+    theImportedSymbol                        0x00008b40   Data           0  QtServiceFramework{00010103}-89.o(StubCode)
+    StubCode                                 0x00008b44   Section        8  QtServiceFramework{00010103}-93.o(StubCode)
+    theImportedSymbol                        0x00008b48   Data           0  QtServiceFramework{00010103}-93.o(StubCode)
+    StubCode                                 0x00008b4c   Section        8  QtServiceFramework{00010103}-94.o(StubCode)
+    theImportedSymbol                        0x00008b50   Data           0  QtServiceFramework{00010103}-94.o(StubCode)
+    StubCode                                 0x00008b54   Section        8  QtServiceFramework{00010103}-95.o(StubCode)
+    theImportedSymbol                        0x00008b58   Data           0  QtServiceFramework{00010103}-95.o(StubCode)
+    StubCode                                 0x00008b5c   Section        8  QtServiceFramework{00010103}-96.o(StubCode)
+    theImportedSymbol                        0x00008b60   Data           0  QtServiceFramework{00010103}-96.o(StubCode)
+    StubCode                                 0x00008b64   Section        8  QtDeclarative{00040703}-1662.o(StubCode)
+    theImportedSymbol                        0x00008b68   Data           0  QtDeclarative{00040703}-1662.o(StubCode)
+    StubCode                                 0x00008b6c   Section        8  QtDeclarative{00040703}-401.o(StubCode)
+    theImportedSymbol                        0x00008b70   Data           0  QtDeclarative{00040703}-401.o(StubCode)
+    StubCode                                 0x00008b74   Section        8  QtDeclarative{00040703}-402.o(StubCode)
+    theImportedSymbol                        0x00008b78   Data           0  QtDeclarative{00040703}-402.o(StubCode)
+    StubCode                                 0x00008b7c   Section        8  QtDeclarative{00040703}-873.o(StubCode)
+    theImportedSymbol                        0x00008b80   Data           0  QtDeclarative{00040703}-873.o(StubCode)
+    StubCode                                 0x00008b84   Section        8  QtDeclarative{00040703}-874.o(StubCode)
+    theImportedSymbol                        0x00008b88   Data           0  QtDeclarative{00040703}-874.o(StubCode)
+    StubCode                                 0x00008b8c   Section        8  QtDeclarative{00040703}-875.o(StubCode)
+    theImportedSymbol                        0x00008b90   Data           0  QtDeclarative{00040703}-875.o(StubCode)
+    StubCode                                 0x00008b94   Section        8  QtDeclarative{00040703}-878.o(StubCode)
+    theImportedSymbol                        0x00008b98   Data           0  QtDeclarative{00040703}-878.o(StubCode)
+    StubCode                                 0x00008b9c   Section        8  QtDeclarative{00040703}-881.o(StubCode)
+    theImportedSymbol                        0x00008ba0   Data           0  QtDeclarative{00040703}-881.o(StubCode)
+    StubCode                                 0x00008ba4   Section        8  QtCore{00040703}-126.o(StubCode)
+    theImportedSymbol                        0x00008ba8   Data           0  QtCore{00040703}-126.o(StubCode)
+    StubCode                                 0x00008bac   Section        8  QtCore{00040703}-128.o(StubCode)
+    theImportedSymbol                        0x00008bb0   Data           0  QtCore{00040703}-128.o(StubCode)
+    StubCode                                 0x00008bb4   Section        8  QtCore{00040703}-129.o(StubCode)
+    theImportedSymbol                        0x00008bb8   Data           0  QtCore{00040703}-129.o(StubCode)
+    StubCode                                 0x00008bbc   Section        8  QtCore{00040703}-150.o(StubCode)
+    theImportedSymbol                        0x00008bc0   Data           0  QtCore{00040703}-150.o(StubCode)
+    StubCode                                 0x00008bc4   Section        8  QtCore{00040703}-159.o(StubCode)
+    theImportedSymbol                        0x00008bc8   Data           0  QtCore{00040703}-159.o(StubCode)
+    StubCode                                 0x00008bcc   Section        8  QtCore{00040703}-1760.o(StubCode)
+    theImportedSymbol                        0x00008bd0   Data           0  QtCore{00040703}-1760.o(StubCode)
+    StubCode                                 0x00008bd4   Section        8  QtCore{00040703}-1763.o(StubCode)
+    theImportedSymbol                        0x00008bd8   Data           0  QtCore{00040703}-1763.o(StubCode)
+    StubCode                                 0x00008bdc   Section        8  QtCore{00040703}-1764.o(StubCode)
+    theImportedSymbol                        0x00008be0   Data           0  QtCore{00040703}-1764.o(StubCode)
+    StubCode                                 0x00008be4   Section        8  QtCore{00040703}-1766.o(StubCode)
+    theImportedSymbol                        0x00008be8   Data           0  QtCore{00040703}-1766.o(StubCode)
+    StubCode                                 0x00008bec   Section        8  QtCore{00040703}-1767.o(StubCode)
+    theImportedSymbol                        0x00008bf0   Data           0  QtCore{00040703}-1767.o(StubCode)
+    StubCode                                 0x00008bf4   Section        8  QtCore{00040703}-1768.o(StubCode)
+    theImportedSymbol                        0x00008bf8   Data           0  QtCore{00040703}-1768.o(StubCode)
+    StubCode                                 0x00008bfc   Section        8  QtCore{00040703}-1773.o(StubCode)
+    theImportedSymbol                        0x00008c00   Data           0  QtCore{00040703}-1773.o(StubCode)
+    StubCode                                 0x00008c04   Section        8  QtCore{00040703}-1777.o(StubCode)
+    theImportedSymbol                        0x00008c08   Data           0  QtCore{00040703}-1777.o(StubCode)
+    StubCode                                 0x00008c0c   Section        8  QtCore{00040703}-1784.o(StubCode)
+    theImportedSymbol                        0x00008c10   Data           0  QtCore{00040703}-1784.o(StubCode)
+    StubCode                                 0x00008c14   Section        8  QtCore{00040703}-1789.o(StubCode)
+    theImportedSymbol                        0x00008c18   Data           0  QtCore{00040703}-1789.o(StubCode)
+    StubCode                                 0x00008c1c   Section        8  QtCore{00040703}-1794.o(StubCode)
+    theImportedSymbol                        0x00008c20   Data           0  QtCore{00040703}-1794.o(StubCode)
+    StubCode                                 0x00008c24   Section        8  QtCore{00040703}-1825.o(StubCode)
+    theImportedSymbol                        0x00008c28   Data           0  QtCore{00040703}-1825.o(StubCode)
+    StubCode                                 0x00008c2c   Section        8  QtCore{00040703}-1830.o(StubCode)
+    theImportedSymbol                        0x00008c30   Data           0  QtCore{00040703}-1830.o(StubCode)
+    StubCode                                 0x00008c34   Section        8  QtCore{00040703}-1836.o(StubCode)
+    theImportedSymbol                        0x00008c38   Data           0  QtCore{00040703}-1836.o(StubCode)
+    StubCode                                 0x00008c3c   Section        8  QtCore{00040703}-1842.o(StubCode)
+    theImportedSymbol                        0x00008c40   Data           0  QtCore{00040703}-1842.o(StubCode)
+    StubCode                                 0x00008c44   Section        8  QtCore{00040703}-1874.o(StubCode)
+    theImportedSymbol                        0x00008c48   Data           0  QtCore{00040703}-1874.o(StubCode)
+    StubCode                                 0x00008c4c   Section        8  QtCore{00040703}-1885.o(StubCode)
+    theImportedSymbol                        0x00008c50   Data           0  QtCore{00040703}-1885.o(StubCode)
+    StubCode                                 0x00008c54   Section        8  QtCore{00040703}-2188.o(StubCode)
+    theImportedSymbol                        0x00008c58   Data           0  QtCore{00040703}-2188.o(StubCode)
+    StubCode                                 0x00008c5c   Section        8  QtCore{00040703}-2199.o(StubCode)
+    theImportedSymbol                        0x00008c60   Data           0  QtCore{00040703}-2199.o(StubCode)
+    StubCode                                 0x00008c64   Section        8  QtCore{00040703}-274.o(StubCode)
+    theImportedSymbol                        0x00008c68   Data           0  QtCore{00040703}-274.o(StubCode)
+    StubCode                                 0x00008c6c   Section        8  QtCore{00040703}-275.o(StubCode)
+    theImportedSymbol                        0x00008c70   Data           0  QtCore{00040703}-275.o(StubCode)
+    StubCode                                 0x00008c74   Section        8  QtCore{00040703}-282.o(StubCode)
+    theImportedSymbol                        0x00008c78   Data           0  QtCore{00040703}-282.o(StubCode)
+    StubCode                                 0x00008c7c   Section        8  QtCore{00040703}-3040.o(StubCode)
+    theImportedSymbol                        0x00008c80   Data           0  QtCore{00040703}-3040.o(StubCode)
+    StubCode                                 0x00008c84   Section        8  QtCore{00040703}-312.o(StubCode)
+    theImportedSymbol                        0x00008c88   Data           0  QtCore{00040703}-312.o(StubCode)
+    StubCode                                 0x00008c8c   Section        8  QtCore{00040703}-32.o(StubCode)
+    theImportedSymbol                        0x00008c90   Data           0  QtCore{00040703}-32.o(StubCode)
+    StubCode                                 0x00008c94   Section        8  QtCore{00040703}-324.o(StubCode)
+    theImportedSymbol                        0x00008c98   Data           0  QtCore{00040703}-324.o(StubCode)
+    StubCode                                 0x00008c9c   Section        8  QtCore{00040703}-331.o(StubCode)
+    theImportedSymbol                        0x00008ca0   Data           0  QtCore{00040703}-331.o(StubCode)
+    StubCode                                 0x00008ca4   Section        8  QtCore{00040703}-332.o(StubCode)
+    theImportedSymbol                        0x00008ca8   Data           0  QtCore{00040703}-332.o(StubCode)
+    StubCode                                 0x00008cac   Section        8  QtCore{00040703}-3689.o(StubCode)
+    theImportedSymbol                        0x00008cb0   Data           0  QtCore{00040703}-3689.o(StubCode)
+    StubCode                                 0x00008cb4   Section        8  QtCore{00040703}-3691.o(StubCode)
+    theImportedSymbol                        0x00008cb8   Data           0  QtCore{00040703}-3691.o(StubCode)
+    StubCode                                 0x00008cbc   Section        8  QtCore{00040703}-3692.o(StubCode)
+    theImportedSymbol                        0x00008cc0   Data           0  QtCore{00040703}-3692.o(StubCode)
+    StubCode                                 0x00008cc4   Section        8  QtCore{00040703}-70.o(StubCode)
+    theImportedSymbol                        0x00008cc8   Data           0  QtCore{00040703}-70.o(StubCode)
+    StubCode                                 0x00008ccc   Section        8  libstdcpp{00010000}-988.o(StubCode)
+    theImportedSymbol                        0x00008cd0   Data           0  libstdcpp{00010000}-988.o(StubCode)
+    StubCode                                 0x00008cd4   Section        8  libstdcpp{00010000}-992.o(StubCode)
+    theImportedSymbol                        0x00008cd8   Data           0  libstdcpp{00010000}-992.o(StubCode)
+    StubCode                                 0x00008cdc   Section        8  libc{00010000}-350.o(StubCode)
+    theImportedSymbol                        0x00008ce0   Data           0  libc{00010000}-350.o(StubCode)
+    StubCode                                 0x00008ce4   Section        8  euser{000a0000}-670.o(StubCode)
+    theImportedSymbol                        0x00008ce8   Data           0  euser{000a0000}-670.o(StubCode)
+    StubCode                                 0x00008cec   Section        8  euser{000a0000}-671.o(StubCode)
+    theImportedSymbol                        0x00008cf0   Data           0  euser{000a0000}-671.o(StubCode)
+    StubCode                                 0x00008cf4   Section        8  drtaeabi{000a0000}-147.o(StubCode)
+    theImportedSymbol                        0x00008cf8   Data           0  drtaeabi{000a0000}-147.o(StubCode)
+    StubCode                                 0x00008cfc   Section        8  drtaeabi{000a0000}-158.o(StubCode)
+    theImportedSymbol                        0x00008d00   Data           0  drtaeabi{000a0000}-158.o(StubCode)
+    StubCode                                 0x00008d04   Section        8  drtaeabi{000a0000}-180.o(StubCode)
+    theImportedSymbol                        0x00008d08   Data           0  drtaeabi{000a0000}-180.o(StubCode)
+    StubCode                                 0x00008d0c   Section        8  drtaeabi{000a0000}-183.o(StubCode)
+    theImportedSymbol                        0x00008d10   Data           0  drtaeabi{000a0000}-183.o(StubCode)
+    StubCode                                 0x00008d14   Section        8  drtaeabi{000a0000}-184.o(StubCode)
+    theImportedSymbol                        0x00008d18   Data           0  drtaeabi{000a0000}-184.o(StubCode)
+    StubCode                                 0x00008d1c   Section        8  drtaeabi{000a0000}-186.o(StubCode)
+    theImportedSymbol                        0x00008d20   Data           0  drtaeabi{000a0000}-186.o(StubCode)
+    StubCode                                 0x00008d24   Section        8  drtaeabi{000a0000}-187.o(StubCode)
+    theImportedSymbol                        0x00008d28   Data           0  drtaeabi{000a0000}-187.o(StubCode)
+    StubCode                                 0x00008d2c   Section        8  drtaeabi{000a0000}-188.o(StubCode)
+    theImportedSymbol                        0x00008d30   Data           0  drtaeabi{000a0000}-188.o(StubCode)
+    StubCode                                 0x00008d34   Section        8  drtaeabi{000a0000}-190.o(StubCode)
+    theImportedSymbol                        0x00008d38   Data           0  drtaeabi{000a0000}-190.o(StubCode)
+    StubCode                                 0x00008d3c   Section        8  drtrvct2_2{000a0000}-28.o(StubCode)
+    theImportedSymbol                        0x00008d40   Data           0  drtrvct2_2{000a0000}-28.o(StubCode)
+    i._ZN10QByteArrayC1ERKS_                 0x00008d44   Section       16  declarative_serviceframework.in(i._ZN10QByteArrayC1ERKS_)
+    i._ZN10QByteArrayD1Ev                    0x00008d54   Section       24  declarative_serviceframework.in(i._ZN10QByteArrayD1Ev)
+    i._ZN15QBasicAtomicInt3refEv             0x00008d6c   Section       18  declarative_serviceframework.in(i._ZN15QBasicAtomicInt3refEv)
+    i._ZN15QBasicAtomicInt5derefEv           0x00008d7e   Section       18  declarative_serviceframework.in(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN19QDeclarativePrivate12RegisterTypeD1Ev 0x00008d90   Section       12  declarative_serviceframework.in(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEED0Ev 0x00008d9c   Section       16  declarative_serviceframework.in(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEED0Ev 0x00008dac   Section       16  declarative_serviceframework.in(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEED0Ev)
+    i._ZN25QServiceDeclarativeModule13registerTypesEPKc 0x00008dbc   Section       52  declarative_serviceframework.in(i._ZN25QServiceDeclarativeModule13registerTypesEPKc)
+    i._ZN25QServiceDeclarativeModuleD0Ev     0x00008df0   Section       16  declarative_serviceframework.in(i._ZN25QServiceDeclarativeModuleD0Ev)
+    i._ZN25QServiceDeclarativeModuleD1Ev     0x00008e00   Section        8  declarative_serviceframework.in(i._ZN25QServiceDeclarativeModuleD1Ev)
+    i._ZN6QDebug10maybeSpaceEv               0x00008e08   Section       22  declarative_serviceframework.in(i._ZN6QDebug10maybeSpaceEv)
+    i._ZN6QDebugD1Ev                         0x00008e1e   Section      132  declarative_serviceframework.in(i._ZN6QDebugD1Ev)
+    i._ZN6QDebugD1Ev.clean                   0x00008ea2   Section       20  declarative_serviceframework.in(i._ZN6QDebugD1Ev.clean)
+    i._ZN7QStringC1EPKc                      0x00008eb6   Section       20  declarative_serviceframework.in(i._ZN7QStringC1EPKc)
+    i._ZN7QStringC1ERKS_                     0x00008eca   Section       16  declarative_serviceframework.in(i._ZN7QStringC1ERKS_)
+    i._ZN7QStringC1Ev                        0x00008edc   Section       20  declarative_serviceframework.in(i._ZN7QStringC1Ev)
+    i._ZN7QStringD1Ev                        0x00008ef0   Section       24  declarative_serviceframework.in(i._ZN7QStringD1Ev)
+    i._ZNK15QBasicAtomicIntneEi              0x00008f08   Section       14  declarative_serviceframework.in(i._ZNK15QBasicAtomicIntneEi)
+    i._ZNK15QBasicAtomicIntntEv              0x00008f16   Section       14  declarative_serviceframework.in(i._ZNK15QBasicAtomicIntntEv)
+    i._ZNK9QListData2atEi                    0x00008f24   Section       16  declarative_serviceframework.in(i._ZNK9QListData2atEi)
+    i._ZNK9QListData3endEv                   0x00008f34   Section       12  declarative_serviceframework.in(i._ZNK9QListData3endEv)
+    i._ZNK9QListData5beginEv                 0x00008f40   Section       12  declarative_serviceframework.in(i._ZNK9QListData5beginEv)
+    i._ZThn8_N25QServiceDeclarativeModule13registerTypesEPKc 0x00008f4c   Section       10  declarative_serviceframework.in(i._ZThn8_N25QServiceDeclarativeModule13registerTypesEPKc)
+    i._ZThn8_N25QServiceDeclarativeModuleD0Ev 0x00008f56   Section       10  declarative_serviceframework.in(i._ZThn8_N25QServiceDeclarativeModuleD0Ev)
+    i._ZThn8_N25QServiceDeclarativeModuleD1Ev 0x00008f60   Section       10  declarative_serviceframework.in(i._ZThn8_N25QServiceDeclarativeModuleD1Ev)
+    i._ZdlPvS_                               0x00008f6a   Section        2  declarative_serviceframework.in(i._ZdlPvS_)
+    i._ZnwjPv                                0x00008f6c   Section        4  declarative_serviceframework.in(i._ZnwjPv)
+    i._ZplPKcRK10QByteArray                  0x00008f70   Section       34  declarative_serviceframework.in(i._ZplPKcRK10QByteArray)
+    i._ZplPKcRK10QByteArray.clean            0x00008f92   Section       10  declarative_serviceframework.in(i._ZplPKcRK10QByteArray.clean)
+    i._ZplRK10QByteArrayPKc                  0x00008f9c   Section       34  declarative_serviceframework.in(i._ZplRK10QByteArrayPKc)
+    i._ZplRK10QByteArrayPKc.clean            0x00008fbe   Section       10  declarative_serviceframework.in(i._ZplRK10QByteArrayPKc.clean)
+    i._ZplRK10QByteArrayc                    0x00008fc8   Section       34  declarative_serviceframework.in(i._ZplRK10QByteArrayc)
+    i._ZplRK10QByteArrayc.clean              0x00008fea   Section       10  declarative_serviceframework.in(i._ZplRK10QByteArrayc.clean)
+    t._Z15qmlRegisterTypeIN10QtMobility19QDeclarativeServiceEEiPKciiS3_ 0x00008ff4   Section      224  declarative_serviceframework.in(t._Z15qmlRegisterTypeIN10QtMobility19QDeclarativeServiceEEiPKciiS3_)
+    t._Z15qmlRegisterTypeIN10QtMobility19QDeclarativeServiceEEiPKciiS3_.clean 0x000090d4   Section       44  declarative_serviceframework.in(t._Z15qmlRegisterTypeIN10QtMobility19QDeclarativeServiceEEiPKciiS3_.clean)
+    t._Z15qmlRegisterTypeIN10QtMobility23QDeclarativeServiceListEEiPKciiS3_ 0x00009100   Section      224  declarative_serviceframework.in(t._Z15qmlRegisterTypeIN10QtMobility23QDeclarativeServiceListEEiPKciiS3_)
+    t._Z15qmlRegisterTypeIN10QtMobility23QDeclarativeServiceListEEiPKciiS3_.clean 0x000091e0   Section       44  declarative_serviceframework.in(t._Z15qmlRegisterTypeIN10QtMobility23QDeclarativeServiceListEEiPKciiS3_.clean)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEEEiPKcPT_ 0x0000920c   Section      136  declarative_serviceframework.in(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility23QDeclarativeServiceListEEEiPKcPT_ 0x00009294   Section      140  declarative_serviceframework.in(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility23QDeclarativeServiceListEEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIPN10QtMobility19QDeclarativeServiceEEiPKcPT_ 0x00009320   Section      112  declarative_serviceframework.in(t._Z17qRegisterMetaTypeIPN10QtMobility19QDeclarativeServiceEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIPN10QtMobility23QDeclarativeServiceListEEiPKcPT_ 0x00009390   Section      116  declarative_serviceframework.in(t._Z17qRegisterMetaTypeIPN10QtMobility23QDeclarativeServiceListEEiPKcPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEEEvPT_ 0x00009404   Section        8  declarative_serviceframework.in(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility23QDeclarativeServiceListEEEvPT_ 0x0000940c   Section        8  declarative_serviceframework.in(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility23QDeclarativeServiceListEEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIPN10QtMobility19QDeclarativeServiceEEvPT_ 0x00009414   Section        8  declarative_serviceframework.in(t._Z21qMetaTypeDeleteHelperIPN10QtMobility19QDeclarativeServiceEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIPN10QtMobility23QDeclarativeServiceListEEvPT_ 0x0000941c   Section        8  declarative_serviceframework.in(t._Z21qMetaTypeDeleteHelperIPN10QtMobility23QDeclarativeServiceListEEvPT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEEEPvPKT_ 0x00009424   Section       82  declarative_serviceframework.in(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility23QDeclarativeServiceListEEEPvPKT_ 0x00009476   Section       82  declarative_serviceframework.in(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility23QDeclarativeServiceListEEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIPN10QtMobility19QDeclarativeServiceEEPvPKT_ 0x000094c8   Section       34  declarative_serviceframework.in(t._Z24qMetaTypeConstructHelperIPN10QtMobility19QDeclarativeServiceEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIPN10QtMobility23QDeclarativeServiceListEEPvPKT_ 0x000094ea   Section       34  declarative_serviceframework.in(t._Z24qMetaTypeConstructHelperIPN10QtMobility23QDeclarativeServiceListEEPvPKT_)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility19QDeclarativeServiceEEEvPv 0x0000950c   Section       32  declarative_serviceframework.in(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility19QDeclarativeServiceEEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility19QDeclarativeServiceEEEvPv.clean 0x0000952c   Section       12  declarative_serviceframework.in(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility19QDeclarativeServiceEEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility23QDeclarativeServiceListEEEvPv 0x00009538   Section       32  declarative_serviceframework.in(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility23QDeclarativeServiceListEEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility23QDeclarativeServiceListEEEvPv.clean 0x00009558   Section       12  declarative_serviceframework.in(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility23QDeclarativeServiceListEEEvPv.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEED1Ev 0x00009564   Section       28  declarative_serviceframework.in(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEED1Ev.clean 0x00009580   Section       10  declarative_serviceframework.in(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEED1Ev 0x0000958c   Section       28  declarative_serviceframework.in(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEED1Ev.clean 0x000095a8   Section       10  declarative_serviceframework.in(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEED1Ev.clean)
+    t._ZN24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEE11qlist_clearEPS2_ 0x000095b2   Section       64  declarative_serviceframework.in(t._ZN24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEE11qlist_clearEPS2_)
+    t._ZN24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEE11qlist_clearEPS2_.clean 0x000095f2   Section       10  declarative_serviceframework.in(t._ZN24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEE11qlist_clearEPS2_.clean)
+    t._ZN24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEE11qlist_countEPS2_ 0x000095fc   Section       12  declarative_serviceframework.in(t._ZN24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEE11qlist_countEPS2_)
+    t._ZN24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEE12qlist_appendEPS2_PS1_ 0x00009608   Section       12  declarative_serviceframework.in(t._ZN24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEE12qlist_appendEPS2_PS1_)
+    t._ZN24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEE8qlist_atEPS2_i 0x00009614   Section       12  declarative_serviceframework.in(t._ZN24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEE8qlist_atEPS2_i)
+    t._ZN5QListIN10QtMobility27QServiceInterfaceDescriptorEED1Ev 0x00009620   Section       74  declarative_serviceframework.in(t._ZN5QListIN10QtMobility27QServiceInterfaceDescriptorEED1Ev)
+    t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE13detach_helperEv 0x0000966a   Section       88  declarative_serviceframework.in(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE13detach_helperEv)
+    t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE13detach_helperEv.clean 0x000096c2   Section        8  declarative_serviceframework.in(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE13detach_helperEv.clean)
+    t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE18detach_helper_growEii 0x000096ca   Section      164  declarative_serviceframework.in(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE18detach_helper_growEii)
+    t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE18detach_helper_growEii.clean 0x0000976e   Section        8  declarative_serviceframework.in(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE18detach_helper_growEii.clean)
+    t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE4freeEPN9QListData4DataE 0x00009776   Section       16  declarative_serviceframework.in(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE4freeEPN9QListData4DataE)
+    t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE6appendERKS2_ 0x00009788   Section       60  declarative_serviceframework.in(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE6appendERKS2_)
+    t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE6appendERKS2_.clean 0x000097c4   Section       10  declarative_serviceframework.in(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE6appendERKS2_.clean)
+    t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE9node_copyEPNS3_4NodeES5_S5_ 0x000097ce   Section       28  declarative_serviceframework.in(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE9node_copyEPNS3_4NodeES5_S5_)
+    t._ZN5QListIPN10QtMobility19QDeclarativeServiceEEC1Ev 0x000097ec   Section       20  declarative_serviceframework.in(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEEC1Ev)
+    t._ZN5QListIPN10QtMobility19QDeclarativeServiceEED1Ev 0x00009800   Section       30  declarative_serviceframework.in(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEED1Ev)
+    t._ZN8QPointerI7QObjectED1Ev             0x0000981e   Section       12  declarative_serviceframework.in(t._ZN8QPointerI7QObjectED1Ev)
+    .extab._ZN10QtMobility19QDeclarativeService16setInterfaceNameERK7QString 0x0000982c   Data           0  declarative_serviceframework.in(.ARM.extab)
+    .extab._ZN10QtMobility19QDeclarativeService11qt_metacallEN11QMetaObject4CallEiPPv 0x0000985c   Data           0  declarative_serviceframework.in(.ARM.extab)
+    .extab._ZN10QtMobility19QDeclarativeServiceC1Ev 0x00009874   Data           0  declarative_serviceframework.in(.ARM.extab)
+    .extab._ZN10QtMobility19QDeclarativeServiceD1Ev 0x0000988c   Data           0  declarative_serviceframework.in(.ARM.extab)
+    .extab._ZN10QtMobility23QDeclarativeServiceList8servicesEv 0x000098a4   Data           0  declarative_serviceframework.in(.ARM.extab)
+    .extab._ZN10QtMobility23QDeclarativeServiceList11qt_metacallEN11QMetaObject4CallEiPPv 0x00009924   Data           0  declarative_serviceframework.in(.ARM.extab)
+    .extab._ZN10QtMobility23QDeclarativeServiceListC1Ev 0x0000993c   Data           0  declarative_serviceframework.in(.ARM.extab)
+    .extab._ZN10QtMobility23QDeclarativeServiceListD1Ev 0x00009974   Data           0  declarative_serviceframework.in(.ARM.extab)
+    .extab._ZN5QListIPN10QtMobility19QDeclarativeServiceEE18detach_helper_growEii 0x00009994   Data           0  declarative_serviceframework.in(.ARM.extab)
+    .extab._ZN5QListIPN10QtMobility19QDeclarativeServiceEE6appendERKS2_ 0x000099c4   Data           0  declarative_serviceframework.in(.ARM.extab)
+    .extab._ZN6QDebugD1Ev                    0x000099e0   Data           0  declarative_serviceframework.in(.ARM.extab)
+    .extab._ZN24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEE11qlist_clearEPS2_ 0x00009a04   Data           0  declarative_serviceframework.in(.ARM.extab)
+    .extab._ZN5QListIPN10QtMobility19QDeclarativeServiceEE13detach_helperEv 0x00009a14   Data           0  declarative_serviceframework.in(.ARM.extab)
+    .extab.qt_plugin_instance                0x00009a30   Data           0  declarative_serviceframework.in(.ARM.extab)
+    .extab._ZplRK10QByteArrayPKc             0x00009a48   Data           0  declarative_serviceframework.in(.ARM.extab)
+    .extab._ZplRK10QByteArrayc               0x00009a58   Data           0  declarative_serviceframework.in(.ARM.extab)
+    .extab._ZplPKcRK10QByteArray             0x00009a68   Data           0  declarative_serviceframework.in(.ARM.extab)
+    .extab._Z15qmlRegisterTypeIN10QtMobility19QDeclarativeServiceEEiPKciiS3_ 0x00009a78   Data           0  declarative_serviceframework.in(.ARM.extab)
+    .extab._Z15qmlRegisterTypeIN10QtMobility23QDeclarativeServiceListEEiPKciiS3_ 0x00009ae8   Data           0  declarative_serviceframework.in(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoIN10QtMobility19QDeclarativeServiceEEEvPv 0x00009b58   Data           0  declarative_serviceframework.in(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoIN10QtMobility23QDeclarativeServiceListEEEvPv 0x00009b68   Data           0  declarative_serviceframework.in(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEED1Ev 0x00009b78   Data           0  declarative_serviceframework.in(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEED1Ev 0x00009b88   Data           0  declarative_serviceframework.in(.ARM.extab)
+    .constdata$1                             0x00009b98   Data           0  declarative_serviceframework.in(.constdata)
+    .constdata                               0x00009b98   Section      633  declarative_serviceframework.in(.constdata)
+    QtMobility::qt_meta_stringdata_QDeclarativeService 0x00009bb8   Data         246  declarative_serviceframework.in(.constdata)
+    QtMobility::qt_meta_stringdata_QDeclarativeServiceList 0x00009cae   Data         355  declarative_serviceframework.in(.constdata)
+    .constdata$31                            0x00009e14   Data           0  declarative_serviceframework.in(.constdata)
+    QtMobility::qt_meta_data_QDeclarativeService 0x00009e14   Data         276  declarative_serviceframework.in(.constdata)
+    .constdata                               0x00009e14   Section      276  declarative_serviceframework.in(.constdata)
+    .constdata$37                            0x00009f28   Data           0  declarative_serviceframework.in(.constdata)
+    QtMobility::qt_meta_data_QDeclarativeServiceList 0x00009f28   Data         308  declarative_serviceframework.in(.constdata)
+    .constdata                               0x00009f28   Section      308  declarative_serviceframework.in(.constdata)
+    .constdata$1                             0x0000a05c   Data           0  declarative_serviceframework.in(.constdata)
+    qt_meta_stringdata_QServiceDeclarativeModule 0x0000a05c   Data          27  declarative_serviceframework.in(.constdata)
+    .constdata                               0x0000a05c   Section      136  declarative_serviceframework.in(.constdata)
+    qt_plugin_verification_data              0x0000a077   Data          91  declarative_serviceframework.in(.constdata)
+    .constdata$10                            0x0000a0e4   Data           0  declarative_serviceframework.in(.constdata)
+    qt_meta_data_QServiceDeclarativeModule   0x0000a0e4   Data          60  declarative_serviceframework.in(.constdata)
+    .constdata                               0x0000a0e4   Section       60  declarative_serviceframework.in(.constdata)
+    .constdata__ZTI25QServiceDeclarativeModule 0x0000a120   Section       12  declarative_serviceframework.in(.constdata__ZTI25QServiceDeclarativeModule)
+    .constdata__ZTIN10QtMobility19QDeclarativeServiceE 0x0000a12c   Section       12  declarative_serviceframework.in(.constdata__ZTIN10QtMobility19QDeclarativeServiceE)
+    .constdata__ZTIN10QtMobility23QDeclarativeServiceListE 0x0000a138   Section       12  declarative_serviceframework.in(.constdata__ZTIN10QtMobility23QDeclarativeServiceListE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEEE 0x0000a144   Section       12  declarative_serviceframework.in(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEEE 0x0000a150   Section       12  declarative_serviceframework.in(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEEE)
+    .constdata__ZTISt9bad_alloc              0x0000a15c   Section       12  declarative_serviceframework.in(.constdata__ZTISt9bad_alloc)
+    .constdata__ZTS25QServiceDeclarativeModule 0x0000a168   Section       28  declarative_serviceframework.in(.constdata__ZTS25QServiceDeclarativeModule)
+    .constdata__ZTSN10QtMobility19QDeclarativeServiceE 0x0000a184   Section       36  declarative_serviceframework.in(.constdata__ZTSN10QtMobility19QDeclarativeServiceE)
+    .constdata__ZTSN10QtMobility23QDeclarativeServiceListE 0x0000a1a8   Section       40  declarative_serviceframework.in(.constdata__ZTSN10QtMobility23QDeclarativeServiceListE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEEE 0x0000a1d0   Section       82  declarative_serviceframework.in(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEEE 0x0000a222   Section       86  declarative_serviceframework.in(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEEE)
+    .constdata__ZTSSt9bad_alloc              0x0000a278   Section       13  declarative_serviceframework.in(.constdata__ZTSSt9bad_alloc)
+    .constdata__ZTV25QServiceDeclarativeModule 0x0000a288   Section       88  declarative_serviceframework.in(.constdata__ZTV25QServiceDeclarativeModule)
+    .constdata__ZTVN10QtMobility19QDeclarativeServiceE 0x0000a2e0   Section       56  declarative_serviceframework.in(.constdata__ZTVN10QtMobility19QDeclarativeServiceE)
+    .constdata__ZTVN10QtMobility23QDeclarativeServiceListE 0x0000a318   Section       56  declarative_serviceframework.in(.constdata__ZTVN10QtMobility23QDeclarativeServiceListE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEEE 0x0000a350   Section       56  declarative_serviceframework.in(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEEE 0x0000a388   Section       56  declarative_serviceframework.in(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEEE)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility19QDeclarativeServiceEEiPKciiS3_$33 0x0000a3c0   Data           0  declarative_serviceframework.in(__ARM_d__Z15qmlRegisterTypeIN10QtMobility19QDeclarativeServiceEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility19QDeclarativeServiceEEiPKciiS3_ 0x0000a3c0   Section       76  declarative_serviceframework.in(__ARM_d__Z15qmlRegisterTypeIN10QtMobility19QDeclarativeServiceEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility23QDeclarativeServiceListEEiPKciiS3_$36 0x0000a40c   Data           0  declarative_serviceframework.in(__ARM_d__Z15qmlRegisterTypeIN10QtMobility23QDeclarativeServiceListEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility23QDeclarativeServiceListEEiPKciiS3_ 0x0000a40c   Section       76  declarative_serviceframework.in(__ARM_d__Z15qmlRegisterTypeIN10QtMobility23QDeclarativeServiceListEEiPKciiS3_)
+    .ARM.exidx                               0x0000a458   Section        8  ucppinit_aeabi.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  declarative_serviceframework.in(.data)
+    _ZGV_instance@qt_plugin_instance_0       0x00400000   Data           4  declarative_serviceframework.in(.data)
+    .data                                    0x00400000   Section        8  declarative_serviceframework.in(.data)
+    _instance@qt_plugin_instance_1           0x00400004   Data           4  declarative_serviceframework.in(.data)
+    .data$0                                  0x00400008   Data           0  ucppfini.o(.data)
+    .data                                    0x00400008   Section        4  ucppfini.o(.data)
+    .data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEEE14qt_metatype_idEvE11metatype_id 0x0040000c   Section        4  declarative_serviceframework.in(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyIN10QtMobility23QDeclarativeServiceListEEE14qt_metatype_idEvE11metatype_id 0x00400010   Section        4  declarative_serviceframework.in(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyIN10QtMobility23QDeclarativeServiceListEEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIPN10QtMobility19QDeclarativeServiceEE14qt_metatype_idEvE11metatype_id 0x00400014   Section        4  declarative_serviceframework.in(.data__ZZN11QMetaTypeIdIPN10QtMobility19QDeclarativeServiceEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIPN10QtMobility23QDeclarativeServiceListEE14qt_metatype_idEvE11metatype_id 0x00400018   Section        4  declarative_serviceframework.in(.data__ZZN11QMetaTypeIdIPN10QtMobility23QDeclarativeServiceListEE14qt_metatype_idEvE11metatype_id)
+    .bss$5                                   0x0040001c   Data           0  ucppfini.o(.bss)
+    dtor_rec                                 0x0040001c   Data        2048  ucppfini.o(.bss)
+    .bss                                     0x0040001c   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$IEEEJ$EBA8$UX$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>112  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>113  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>11a  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>138  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>144  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>14b  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>14c  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>20  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>46  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e0  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e3  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e4  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e6  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e7  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6e8  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6ed  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6f1  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6f8  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>6fd  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>702  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>721  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>726  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>72c  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>732  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>752  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>75d  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>7e  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>80  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>81  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>88c  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>897  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>96  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>9f  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>be0  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>e69  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>e6b  - Undefined Reference
+    #<DLL>QtCore{00040703}[2001b2dc].dll#<\DLL>e6c  - Undefined Reference
+    #<DLL>QtDeclarative{00040703}[2001e623].dll#<\DLL>191  - Undefined Reference
+    #<DLL>QtDeclarative{00040703}[2001e623].dll#<\DLL>192  - Undefined Reference
+    #<DLL>QtDeclarative{00040703}[2001e623].dll#<\DLL>369  - Undefined Reference
+    #<DLL>QtDeclarative{00040703}[2001e623].dll#<\DLL>36a  - Undefined Reference
+    #<DLL>QtDeclarative{00040703}[2001e623].dll#<\DLL>36b  - Undefined Reference
+    #<DLL>QtDeclarative{00040703}[2001e623].dll#<\DLL>36e  - Undefined Reference
+    #<DLL>QtDeclarative{00040703}[2001e623].dll#<\DLL>371  - Undefined Reference
+    #<DLL>QtDeclarative{00040703}[2001e623].dll#<\DLL>67e  - Undefined Reference
+    #<DLL>QtServiceFramework{00010103}[2002ac84].dll#<\DLL>1  - Undefined Reference
+    #<DLL>QtServiceFramework{00010103}[2002ac84].dll#<\DLL>2  - Undefined Reference
+    #<DLL>QtServiceFramework{00010103}[2002ac84].dll#<\DLL>20  - Undefined Reference
+    #<DLL>QtServiceFramework{00010103}[2002ac84].dll#<\DLL>29  - Undefined Reference
+    #<DLL>QtServiceFramework{00010103}[2002ac84].dll#<\DLL>3d  - Undefined Reference
+    #<DLL>QtServiceFramework{00010103}[2002ac84].dll#<\DLL>3e  - Undefined Reference
+    #<DLL>QtServiceFramework{00010103}[2002ac84].dll#<\DLL>41  - Undefined Reference
+    #<DLL>QtServiceFramework{00010103}[2002ac84].dll#<\DLL>43  - Undefined Reference
+    #<DLL>QtServiceFramework{00010103}[2002ac84].dll#<\DLL>58  - Undefined Reference
+    #<DLL>QtServiceFramework{00010103}[2002ac84].dll#<\DLL>59  - Undefined Reference
+    #<DLL>QtServiceFramework{00010103}[2002ac84].dll#<\DLL>5d  - Undefined Reference
+    #<DLL>QtServiceFramework{00010103}[2002ac84].dll#<\DLL>5e  - Undefined Reference
+    #<DLL>QtServiceFramework{00010103}[2002ac84].dll#<\DLL>5f  - Undefined Reference
+    #<DLL>QtServiceFramework{00010103}[2002ac84].dll#<\DLL>60  - Undefined Reference
+    #<DLL>QtServiceFramework{00010103}[2002ac84].dll#<\DLL>64  - Undefined Reference
+    #<DLL>QtServiceFramework{00010103}[2002ac84].dll#<\DLL>66  - Undefined Reference
+    #<DLL>QtServiceFramework{00010103}[2002ac84].dll#<\DLL>8  - Undefined Reference
+    #<DLL>QtServiceFramework{00010103}[2002ac84].dll#<\DLL>c  - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>93     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>9e     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>b4     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>b7     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>b8     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>ba     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>bb     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>bc     - Undefined Reference
+    #<DLL>drtaeabi{000a0000}.dll#<\DLL>be     - Undefined Reference
+    #<DLL>drtrvct2_2{000a0000}.dll#<\DLL>1c   - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>29e  - Undefined Reference
+    #<DLL>euser{000a0000}[100039e5].dll#<\DLL>29f  - Undefined Reference
+    #<DLL>libc{00010000}[10207369].dll#<\DLL>15e  - Undefined Reference
+    #<DLL>libstdcpp{00010000}[10282872].dll#<\DLL>3dc  - Undefined Reference
+    #<DLL>libstdcpp{00010000}[10282872].dll#<\DLL>3e0  - Undefined Reference
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    QDeclarativeExtensionPlugin::staticMetaObject  - Undefined Reference
+    QObject::staticMetaObject                 - Undefined Reference
+    QString::shared_null                      - Undefined Reference
+    QListData::shared_null                    - Undefined Reference
+    typeinfo for QDeclarativeExtensionPlugin  - Undefined Reference
+    typeinfo for QObject                      - Undefined Reference
+    typeinfo for std::exception               - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    _fp_init                                  - Undefined Weak Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      72  ucppinit_aeabi.o(.emb_text)
+    QtMobility::QDeclarativeService::getStaticMetaObject() 0x00008071   Thumb Code     4  declarative_serviceframework.in(.text)
+    std::nothrow                             0x00008071   Thumb Code     0  ucppinit_aeabi.o(.emb_text)
+    QtMobility::QDeclarativeService::metaObject() const 0x00008075   Thumb Code    12  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeService::qt_metacast(const char*) 0x00008081   Thumb Code    40  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeService::isValid() const 0x000080a9   Thumb Code    10  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeService::setInterfaceName(const QString&) 0x000080b3   Thumb Code   162  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeService::serviceObject() 0x00008155   Thumb Code    42  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeService::minorVersion() const 0x0000817f   Thumb Code    26  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeService::majorVersion() const 0x00008199   Thumb Code    26  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeService::serviceName() const 0x000081b3   Thumb Code    38  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeService::interfaceName() const 0x000081d9   Thumb Code    38  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeService::minorVersionChanged() 0x000081ff   Thumb Code    14  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeService::majorVersionChanged() 0x0000820d   Thumb Code    14  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeService::serviceNameChanged() 0x0000821b   Thumb Code    14  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeService::interfaceNameChanged() 0x00008229   Thumb Code    14  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeService::serviceObjectChanged() 0x00008237   Thumb Code    14  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeService::validChanged() 0x00008245   Thumb Code    14  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeService::qt_metacall(QMetaObject::Call, int, void**) 0x00008253   Thumb Code   228  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeService::QDeclarativeService() 0x00008337   Thumb Code    58  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeService::QDeclarativeService__sub_object() 0x00008337   Thumb Code     0  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeService::~QDeclarativeService() 0x00008371   Thumb Code    38  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeService::~QDeclarativeService__sub_object() 0x00008371   Thumb Code     0  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeService::~QDeclarativeService__deallocating() 0x00008397   Thumb Code    16  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeService::setInterfaceDesc(const QtMobility::QServiceInterfaceDescriptor&) 0x000083a7   Thumb Code    48  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeService::interfaceDesc() const 0x000083d7   Thumb Code    10  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeServiceList::getStaticMetaObject() 0x000083e1   Thumb Code     6  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeServiceList::metaObject() const 0x000083e7   Thumb Code    14  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeServiceList::qt_metacast(const char*) 0x000083f5   Thumb Code   136  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeServiceList::setVersionMatch(QtMobility::QDeclarativeServiceList::MatchRule) 0x0000847d   Thumb Code     4  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeServiceList::setMinorVersion(int) 0x00008481   Thumb Code     4  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeServiceList::setMajorVersion(int) 0x00008485   Thumb Code     4  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeServiceList::setInterfaceName(const QString&) 0x00008489   Thumb Code    10  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeServiceList::setServiceName(const QString&) 0x00008493   Thumb Code    10  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeServiceList::versionMatch() const 0x0000849d   Thumb Code     4  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeServiceList::services() 0x000084a1   Thumb Code   320  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeServiceList::minorVersion() const 0x000085e1   Thumb Code     4  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeServiceList::majorVersion() const 0x000085e5   Thumb Code     4  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeServiceList::interfaceName() const 0x000085e9   Thumb Code    10  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeServiceList::serviceName() const 0x000085f3   Thumb Code    10  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeServiceList::versionMatchChanged() 0x000085fd   Thumb Code    14  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeServiceList::majorVersionChanged() 0x0000860b   Thumb Code    14  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeServiceList::minorVersionChanged() 0x00008619   Thumb Code    14  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeServiceList::interfaceNameChanged() 0x00008627   Thumb Code    14  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeServiceList::serviceNameChanged() 0x00008635   Thumb Code    14  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeServiceList::servicesChanged(const QDeclarativeListProperty<QtMobility::QDeclarativeService>&) 0x00008643   Thumb Code    22  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeServiceList::qt_metacall(QMetaObject::Call, int, void**) 0x00008659   Thumb Code   258  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeServiceList::QDeclarativeServiceList() 0x0000875b   Thumb Code    96  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeServiceList::QDeclarativeServiceList__sub_object() 0x0000875b   Thumb Code     0  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeServiceList::~QDeclarativeServiceList() 0x000087bb   Thumb Code    48  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeServiceList::~QDeclarativeServiceList__sub_object() 0x000087bb   Thumb Code     0  declarative_serviceframework.in(.text)
+    QtMobility::QDeclarativeServiceList::~QDeclarativeServiceList__deallocating() 0x000087eb   Thumb Code    16  declarative_serviceframework.in(.text)
+    qt_plugin_query_verification_data        0x00008819   Thumb Code     4  declarative_serviceframework.in(.text)
+    qt_plugin_instance                       0x0000881d   Thumb Code   110  declarative_serviceframework.in(.text)
+    QServiceDeclarativeModule::getStaticMetaObject() 0x0000888b   Thumb Code     6  declarative_serviceframework.in(.text)
+    QServiceDeclarativeModule::metaObject() const 0x00008891   Thumb Code    14  declarative_serviceframework.in(.text)
+    QServiceDeclarativeModule::qt_metacast(const char*) 0x0000889f   Thumb Code    40  declarative_serviceframework.in(.text)
+    QServiceDeclarativeModule::qt_metacall(QMetaObject::Call, int, void**) 0x000088c7   Thumb Code     8  declarative_serviceframework.in(.text)
+    _E32Dll_Body                             0x000088e5   Thumb Code    34  uc_dll.o(.text)
+    CppBSSInitializationError                0x0000890c   ARM Code       4  ucppfini.o(.text)
+    __aeabi_atexit                           0x00008910   ARM Code      28  ucppfini.o(.text)
+    __cxa_atexit                             0x0000892c   ARM Code      48  ucppfini.o(.text)
+    __cxa_finalize                           0x0000895c   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x0000898c   ARM Code       8  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x00008ac4   ARM Code       0  declarative_serviceframework{000a0000}.exp(ExportTable)
+    DLL##ExportTableSize                     0x00008ac8   Data           0  declarative_serviceframework{000a0000}.exp(ExportTable)
+    DLL##ExportTable                         0x00008acc   Data           0  declarative_serviceframework{000a0000}.exp(ExportTable)
+    QtMobility::QServiceFilter::setInterface(const QString&, const QString&, QtMobility::QServiceFilter::VersionMatchRule) 0x00008ad4   ARM Code       0  QtServiceFramework{00010103}-1.o(StubCode)
+    QtMobility::QServiceInterfaceDescriptor::isValid() const 0x00008adc   ARM Code       0  QtServiceFramework{00010103}-100.o(StubCode)
+    QtMobility::QServiceInterfaceDescriptor::operator ==(const QtMobility::QServiceInterfaceDescriptor&) const 0x00008ae4   ARM Code       0  QtServiceFramework{00010103}-102.o(StubCode)
+    QtMobility::QServiceFilter::~QServiceFilter() 0x00008aec   ARM Code       0  QtServiceFramework{00010103}-12.o(StubCode)
+    QtMobility::QServiceFilter::setServiceName(const QString&) 0x00008af4   ARM Code       0  QtServiceFramework{00010103}-2.o(StubCode)
+    QtMobility::QServiceManager::loadInterface(const QtMobility::QServiceInterfaceDescriptor&, QtMobility::QServiceContext*, QtMobility::QAbstractSecuritySession*) 0x00008afc   ARM Code       0  QtServiceFramework{00010103}-32.o(StubCode)
+    QtMobility::QServiceManager::QServiceManager(QObject*) 0x00008b04   ARM Code       0  QtServiceFramework{00010103}-41.o(StubCode)
+    QtMobility::QServiceInterfaceDescriptor::QServiceInterfaceDescriptor(const QtMobility::QServiceInterfaceDescriptor&) 0x00008b0c   ARM Code       0  QtServiceFramework{00010103}-61.o(StubCode)
+    QtMobility::QServiceInterfaceDescriptor::QServiceInterfaceDescriptor() 0x00008b14   ARM Code       0  QtServiceFramework{00010103}-62.o(StubCode)
+    QtMobility::QServiceInterfaceDescriptor::~QServiceInterfaceDescriptor() 0x00008b1c   ARM Code       0  QtServiceFramework{00010103}-65.o(StubCode)
+    QtMobility::QServiceInterfaceDescriptor::operator =(const QtMobility::QServiceInterfaceDescriptor&) 0x00008b24   ARM Code       0  QtServiceFramework{00010103}-67.o(StubCode)
+    QtMobility::QServiceFilter::QServiceFilter() 0x00008b2c   ARM Code       0  QtServiceFramework{00010103}-8.o(StubCode)
+    QtMobility::QServiceManager::findInterfaces(const QtMobility::QServiceFilter&) const 0x00008b34   ARM Code       0  QtServiceFramework{00010103}-88.o(StubCode)
+    QtMobility::QServiceManager::interfaceDefault(const QString&) const 0x00008b3c   ARM Code       0  QtServiceFramework{00010103}-89.o(StubCode)
+    QtMobility::QServiceInterfaceDescriptor::serviceName() const 0x00008b44   ARM Code       0  QtServiceFramework{00010103}-93.o(StubCode)
+    QtMobility::QServiceInterfaceDescriptor::majorVersion() const 0x00008b4c   ARM Code       0  QtServiceFramework{00010103}-94.o(StubCode)
+    QtMobility::QServiceInterfaceDescriptor::minorVersion() const 0x00008b54   ARM Code       0  QtServiceFramework{00010103}-95.o(StubCode)
+    QtMobility::QServiceInterfaceDescriptor::interfaceName() const 0x00008b5c   ARM Code       0  QtServiceFramework{00010103}-96.o(StubCode)
+    thunk{-8} to QDeclarativeExtensionPlugin::initializeEngine(QDeclarativeEngine*, const char*) 0x00008b64   ARM Code       0  QtDeclarative{00040703}-1662.o(StubCode)
+    QDeclarativePrivate::qmlregister(QDeclarativePrivate::RegistrationType, void*) 0x00008b6c   ARM Code       0  QtDeclarative{00040703}-401.o(StubCode)
+    QDeclarativePrivate::qdeclarativeelement_destructor(QObject*) 0x00008b74   ARM Code       0  QtDeclarative{00040703}-402.o(StubCode)
+    QDeclarativeExtensionPlugin::qt_metacall(QMetaObject::Call, int, void**) 0x00008b7c   ARM Code       0  QtDeclarative{00040703}-873.o(StubCode)
+    QDeclarativeExtensionPlugin::qt_metacast(const char*) 0x00008b84   ARM Code       0  QtDeclarative{00040703}-874.o(StubCode)
+    QDeclarativeExtensionPlugin::initializeEngine(QDeclarativeEngine*, const char*) 0x00008b8c   ARM Code       0  QtDeclarative{00040703}-875.o(StubCode)
+    QDeclarativeExtensionPlugin::QDeclarativeExtensionPlugin__sub_object(QObject*) 0x00008b94   ARM Code       0  QtDeclarative{00040703}-878.o(StubCode)
+    QDeclarativeExtensionPlugin::~QDeclarativeExtensionPlugin__sub_object() 0x00008b9c   ARM Code       0  QtDeclarative{00040703}-881.o(StubCode)
+    QByteArray::append(const char*)          0x00008ba4   ARM Code       0  QtCore{00040703}-126.o(StubCode)
+    QByteArray::append(const QByteArray&)    0x00008bac   ARM Code       0  QtCore{00040703}-128.o(StubCode)
+    QByteArray::append(char)                 0x00008bb4   ARM Code       0  QtCore{00040703}-129.o(StubCode)
+    QByteArray::realloc(int)                 0x00008bbc   ARM Code       0  QtCore{00040703}-150.o(StubCode)
+    QByteArray::QByteArray(const char*)      0x00008bc4   ARM Code       0  QtCore{00040703}-159.o(StubCode)
+    QObject::childEvent(QChildEvent*)        0x00008bcc   ARM Code       0  QtCore{00040703}-1760.o(StubCode)
+    QObject::timerEvent(QTimerEvent*)        0x00008bd4   ARM Code       0  QtCore{00040703}-1763.o(StubCode)
+    QObject::customEvent(QEvent*)            0x00008bdc   ARM Code       0  QtCore{00040703}-1764.o(StubCode)
+    QObject::eventFilter(QObject*, QEvent*)  0x00008be4   ARM Code       0  QtCore{00040703}-1766.o(StubCode)
+    QObject::qt_metacall(QMetaObject::Call, int, void**) 0x00008bec   ARM Code       0  QtCore{00040703}-1767.o(StubCode)
+    QObject::qt_metacast(const char*)        0x00008bf4   ARM Code       0  QtCore{00040703}-1768.o(StubCode)
+    QObject::connectNotify(const char*)      0x00008bfc   ARM Code       0  QtCore{00040703}-1773.o(StubCode)
+    QObject::disconnectNotify(const char*)   0x00008c04   ARM Code       0  QtCore{00040703}-1777.o(StubCode)
+    QObject::event(QEvent*)                  0x00008c0c   ARM Code       0  QtCore{00040703}-1784.o(StubCode)
+    QObject::QObject(QObject*)               0x00008c14   ARM Code       0  QtCore{00040703}-1789.o(StubCode)
+    QObject::~QObject()                      0x00008c1c   ARM Code       0  QtCore{00040703}-1794.o(StubCode)
+    QString::fromAscii_helper(const char*, int) 0x00008c24   ARM Code       0  QtCore{00040703}-1825.o(StubCode)
+    QString::free(QString::Data*)            0x00008c2c   ARM Code       0  QtCore{00040703}-1830.o(StubCode)
+    QString::append(const QString&)          0x00008c34   ARM Code       0  QtCore{00040703}-1836.o(StubCode)
+    QString::number(int, int)                0x00008c3c   ARM Code       0  QtCore{00040703}-1842.o(StubCode)
+    QString::fromAscii(const char*, int)     0x00008c44   ARM Code       0  QtCore{00040703}-1874.o(StubCode)
+    QString::operator =(const QString&)      0x00008c4c   ARM Code       0  QtCore{00040703}-1885.o(StubCode)
+    QListData::append()                      0x00008c54   ARM Code       0  QtCore{00040703}-2188.o(StubCode)
+    QMetaType::registerType(const char*, void(*)(void*), void*(*)(const void*)) 0x00008c5c   ARM Code       0  QtCore{00040703}-2199.o(StubCode)
+    QMetaObject::changeGuard(QObject**, QObject*) 0x00008c64   ARM Code       0  QtCore{00040703}-274.o(StubCode)
+    QMetaObject::removeGuard(QObject**)      0x00008c6c   ARM Code       0  QtCore{00040703}-275.o(StubCode)
+    QMetaObject::activate(QObject*, const QMetaObject*, int, void**) 0x00008c74   ARM Code       0  QtCore{00040703}-282.o(StubCode)
+    QString::toLocal8Bit() const             0x00008c7c   ARM Code       0  QtCore{00040703}-3040.o(StubCode)
+    QTextStream::QTextStream(QString*, QFlags<QIODevice::OpenModeFlag>) 0x00008c84   ARM Code       0  QtCore{00040703}-312.o(StubCode)
+    qt_message_output(QtMsgType, const char*) 0x00008c8c   ARM Code       0  QtCore{00040703}-32.o(StubCode)
+    QTextStream::~QTextStream()              0x00008c94   ARM Code       0  QtCore{00040703}-324.o(StubCode)
+    QTextStream::operator <<(const QString&) 0x00008c9c   ARM Code       0  QtCore{00040703}-331.o(StubCode)
+    QTextStream::operator <<(char)           0x00008ca4   ARM Code       0  QtCore{00040703}-332.o(StubCode)
+    QListData::detach_grow(int*, int)        0x00008cac   ARM Code       0  QtCore{00040703}-3689.o(StubCode)
+    QListData::detach(int)                   0x00008cb4   ARM Code       0  QtCore{00040703}-3691.o(StubCode)
+    QMetaType::registerTypedef(const char*, int) 0x00008cbc   ARM Code       0  QtCore{00040703}-3692.o(StubCode)
+    qFree(void*)                             0x00008cc4   ARM Code       0  QtCore{00040703}-70.o(StubCode)
+    operator delete (void*)                  0x00008ccc   ARM Code       0  libstdcpp{00010000}-988.o(StubCode)
+    operator new(unsigned)                   0x00008cd4   ARM Code       0  libstdcpp{00010000}-992.o(StubCode)
+    strcmp                                   0x00008cdc   ARM Code       0  libc{00010000}-350.o(StubCode)
+    User::LockedDec(int&)                    0x00008ce4   ARM Code       0  euser{000a0000}-670.o(StubCode)
+    User::LockedInc(int&)                    0x00008cec   ARM Code       0  euser{000a0000}-671.o(StubCode)
+    __aeabi_memcpy4                          0x00008cf4   ARM Code       0  drtaeabi{000a0000}-147.o(StubCode)
+    __aeabi_unwind_cpp_pr0                   0x00008cfc   ARM Code       0  drtaeabi{000a0000}-158.o(StubCode)
+    __cxa_begin_catch                        0x00008d04   ARM Code       0  drtaeabi{000a0000}-180.o(StubCode)
+    __cxa_end_catch                          0x00008d0c   ARM Code       0  drtaeabi{000a0000}-183.o(StubCode)
+    __cxa_end_cleanup                        0x00008d14   ARM Code       0  drtaeabi{000a0000}-184.o(StubCode)
+    __cxa_guard_abort                        0x00008d1c   ARM Code       0  drtaeabi{000a0000}-186.o(StubCode)
+    __cxa_guard_acquire                      0x00008d24   ARM Code       0  drtaeabi{000a0000}-187.o(StubCode)
+    __cxa_guard_release                      0x00008d2c   ARM Code       0  drtaeabi{000a0000}-188.o(StubCode)
+    __cxa_rethrow                            0x00008d34   ARM Code       0  drtaeabi{000a0000}-190.o(StubCode)
+    __ARM_switch8                            0x00008d3c   ARM Code       0  drtrvct2_2{000a0000}-28.o(StubCode)
+    QByteArray::QByteArray(const QByteArray&) 0x00008d45   Thumb Code    16  declarative_serviceframework.in(i._ZN10QByteArrayC1ERKS_)
+    QByteArray::QByteArray__sub_object(const QByteArray&) 0x00008d45   Thumb Code     0  declarative_serviceframework.in(i._ZN10QByteArrayC1ERKS_)
+    QByteArray::~QByteArray()                0x00008d55   Thumb Code    24  declarative_serviceframework.in(i._ZN10QByteArrayD1Ev)
+    QByteArray::~QByteArray__sub_object()    0x00008d55   Thumb Code     0  declarative_serviceframework.in(i._ZN10QByteArrayD1Ev)
+    QBasicAtomicInt::ref()                   0x00008d6d   Thumb Code    18  declarative_serviceframework.in(i._ZN15QBasicAtomicInt3refEv)
+    QBasicAtomicInt::deref()                 0x00008d7f   Thumb Code    18  declarative_serviceframework.in(i._ZN15QBasicAtomicInt5derefEv)
+    QDeclarativePrivate::RegisterType::~RegisterType() 0x00008d91   Thumb Code    12  declarative_serviceframework.in(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    QDeclarativePrivate::RegisterType::~RegisterType__sub_object() 0x00008d91   Thumb Code     0  declarative_serviceframework.in(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QDeclarativeService>::~QDeclarativeElement__deallocating() 0x00008d9d   Thumb Code    16  declarative_serviceframework.in(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QDeclarativeServiceList>::~QDeclarativeElement__deallocating() 0x00008dad   Thumb Code    16  declarative_serviceframework.in(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEED0Ev)
+    QServiceDeclarativeModule::registerTypes(const char*) 0x00008dbd   Thumb Code    30  declarative_serviceframework.in(i._ZN25QServiceDeclarativeModule13registerTypesEPKc)
+    QServiceDeclarativeModule::~QServiceDeclarativeModule__deallocating() 0x00008df1   Thumb Code    16  declarative_serviceframework.in(i._ZN25QServiceDeclarativeModuleD0Ev)
+    QServiceDeclarativeModule::~QServiceDeclarativeModule() 0x00008e01   Thumb Code     8  declarative_serviceframework.in(i._ZN25QServiceDeclarativeModuleD1Ev)
+    QServiceDeclarativeModule::~QServiceDeclarativeModule__sub_object() 0x00008e01   Thumb Code     0  declarative_serviceframework.in(i._ZN25QServiceDeclarativeModuleD1Ev)
+    QDebug::maybeSpace()                     0x00008e09   Thumb Code    22  declarative_serviceframework.in(i._ZN6QDebug10maybeSpaceEv)
+    QDebug::~QDebug()                        0x00008e1f   Thumb Code   132  declarative_serviceframework.in(i._ZN6QDebugD1Ev)
+    QDebug::~QDebug__sub_object()            0x00008e1f   Thumb Code     0  declarative_serviceframework.in(i._ZN6QDebugD1Ev)
+    QString::QString(const char*)            0x00008eb7   Thumb Code    20  declarative_serviceframework.in(i._ZN7QStringC1EPKc)
+    QString::QString__sub_object(const char*) 0x00008eb7   Thumb Code     0  declarative_serviceframework.in(i._ZN7QStringC1EPKc)
+    QString::QString(const QString&)         0x00008ecb   Thumb Code    16  declarative_serviceframework.in(i._ZN7QStringC1ERKS_)
+    QString::QString__sub_object(const QString&) 0x00008ecb   Thumb Code     0  declarative_serviceframework.in(i._ZN7QStringC1ERKS_)
+    QString::QString()                       0x00008edd   Thumb Code    16  declarative_serviceframework.in(i._ZN7QStringC1Ev)
+    QString::QString__sub_object()           0x00008edd   Thumb Code     0  declarative_serviceframework.in(i._ZN7QStringC1Ev)
+    QString::~QString()                      0x00008ef1   Thumb Code    24  declarative_serviceframework.in(i._ZN7QStringD1Ev)
+    QString::~QString__sub_object()          0x00008ef1   Thumb Code     0  declarative_serviceframework.in(i._ZN7QStringD1Ev)
+    QBasicAtomicInt::operator !=(int) const  0x00008f09   Thumb Code    14  declarative_serviceframework.in(i._ZNK15QBasicAtomicIntneEi)
+    QBasicAtomicInt::operator !() const      0x00008f17   Thumb Code    14  declarative_serviceframework.in(i._ZNK15QBasicAtomicIntntEv)
+    QListData::at(int) const                 0x00008f25   Thumb Code    16  declarative_serviceframework.in(i._ZNK9QListData2atEi)
+    QListData::end() const                   0x00008f35   Thumb Code    12  declarative_serviceframework.in(i._ZNK9QListData3endEv)
+    QListData::begin() const                 0x00008f41   Thumb Code    12  declarative_serviceframework.in(i._ZNK9QListData5beginEv)
+    thunk{-8} to QServiceDeclarativeModule::registerTypes(const char*) 0x00008f4d   Thumb Code    10  declarative_serviceframework.in(i._ZThn8_N25QServiceDeclarativeModule13registerTypesEPKc)
+    thunk{-8} to QServiceDeclarativeModule::~QServiceDeclarativeModule__deallocating() 0x00008f57   Thumb Code    10  declarative_serviceframework.in(i._ZThn8_N25QServiceDeclarativeModuleD0Ev)
+    thunk{-8} to QServiceDeclarativeModule::~QServiceDeclarativeModule() 0x00008f61   Thumb Code    10  declarative_serviceframework.in(i._ZThn8_N25QServiceDeclarativeModuleD1Ev)
+    operator delete (void*, void*)           0x00008f6b   Thumb Code     2  declarative_serviceframework.in(i._ZdlPvS_)
+    operator new(unsigned, void*)            0x00008f6d   Thumb Code     4  declarative_serviceframework.in(i._ZnwjPv)
+    operator +(const char*, const QByteArray&) 0x00008f71   Thumb Code    34  declarative_serviceframework.in(i._ZplPKcRK10QByteArray)
+    operator +(const QByteArray&, const char*) 0x00008f9d   Thumb Code    34  declarative_serviceframework.in(i._ZplRK10QByteArrayPKc)
+    operator +(const QByteArray&, char)      0x00008fc9   Thumb Code    34  declarative_serviceframework.in(i._ZplRK10QByteArrayc)
+    qmlRegisterType<QtMobility::QDeclarativeService>(const char*, int, int, const char*) 0x00008ff5   Thumb Code   184  declarative_serviceframework.in(t._Z15qmlRegisterTypeIN10QtMobility19QDeclarativeServiceEEiPKciiS3_)
+    qmlRegisterType<QtMobility::QDeclarativeServiceList>(const char*, int, int, const char*) 0x00009101   Thumb Code   184  declarative_serviceframework.in(t._Z15qmlRegisterTypeIN10QtMobility23QDeclarativeServiceListEEiPKciiS3_)
+    qRegisterMetaType<QDeclarativeListProperty<QtMobility::QDeclarativeService>>(const char*, T1*) 0x0000920d   Thumb Code    64  declarative_serviceframework.in(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QtMobility::QDeclarativeServiceList>>(const char*, T1*) 0x00009295   Thumb Code    64  declarative_serviceframework.in(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility23QDeclarativeServiceListEEEiPKcPT_)
+    qRegisterMetaType<QtMobility::QDeclarativeService*>(const char*, T1*) 0x00009321   Thumb Code    64  declarative_serviceframework.in(t._Z17qRegisterMetaTypeIPN10QtMobility19QDeclarativeServiceEEiPKcPT_)
+    qRegisterMetaType<QtMobility::QDeclarativeServiceList*>(const char*, T1*) 0x00009391   Thumb Code    64  declarative_serviceframework.in(t._Z17qRegisterMetaTypeIPN10QtMobility23QDeclarativeServiceListEEiPKcPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QtMobility::QDeclarativeService>>(T1*) 0x00009405   Thumb Code     8  declarative_serviceframework.in(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QtMobility::QDeclarativeServiceList>>(T1*) 0x0000940d   Thumb Code     8  declarative_serviceframework.in(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility23QDeclarativeServiceListEEEvPT_)
+    qMetaTypeDeleteHelper<QtMobility::QDeclarativeService*>(T1*) 0x00009415   Thumb Code     8  declarative_serviceframework.in(t._Z21qMetaTypeDeleteHelperIPN10QtMobility19QDeclarativeServiceEEvPT_)
+    qMetaTypeDeleteHelper<QtMobility::QDeclarativeServiceList*>(T1*) 0x0000941d   Thumb Code     8  declarative_serviceframework.in(t._Z21qMetaTypeDeleteHelperIPN10QtMobility23QDeclarativeServiceListEEvPT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QtMobility::QDeclarativeService>>(const T1*) 0x00009425   Thumb Code    82  declarative_serviceframework.in(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QtMobility::QDeclarativeServiceList>>(const T1*) 0x00009477   Thumb Code    82  declarative_serviceframework.in(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility23QDeclarativeServiceListEEEPvPKT_)
+    qMetaTypeConstructHelper<QtMobility::QDeclarativeService*>(const T1*) 0x000094c9   Thumb Code    34  declarative_serviceframework.in(t._Z24qMetaTypeConstructHelperIPN10QtMobility19QDeclarativeServiceEEPvPKT_)
+    qMetaTypeConstructHelper<QtMobility::QDeclarativeServiceList*>(const T1*) 0x000094eb   Thumb Code    34  declarative_serviceframework.in(t._Z24qMetaTypeConstructHelperIPN10QtMobility23QDeclarativeServiceListEEPvPKT_)
+    QDeclarativePrivate::createInto<QtMobility::QDeclarativeService>(void*) 0x0000950d   Thumb Code    28  declarative_serviceframework.in(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility19QDeclarativeServiceEEEvPv)
+    QDeclarativePrivate::createInto<QtMobility::QDeclarativeServiceList>(void*) 0x00009539   Thumb Code    28  declarative_serviceframework.in(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility23QDeclarativeServiceListEEEvPv)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QDeclarativeService>::~QDeclarativeElement() 0x00009565   Thumb Code    22  declarative_serviceframework.in(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QDeclarativeService>::~QDeclarativeElement__sub_object() 0x00009565   Thumb Code     0  declarative_serviceframework.in(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QDeclarativeServiceList>::~QDeclarativeElement() 0x0000958d   Thumb Code    22  declarative_serviceframework.in(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QDeclarativeServiceList>::~QDeclarativeElement__sub_object() 0x0000958d   Thumb Code     0  declarative_serviceframework.in(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEED1Ev)
+    QDeclarativeListProperty<QtMobility::QDeclarativeService>::qlist_clear(QDeclarativeListProperty<QtMobility::QDeclarativeService>*) 0x000095b3   Thumb Code    64  declarative_serviceframework.in(t._ZN24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEE11qlist_clearEPS2_)
+    QDeclarativeListProperty<QtMobility::QDeclarativeService>::qlist_count(QDeclarativeListProperty<QtMobility::QDeclarativeService>*) 0x000095fd   Thumb Code    12  declarative_serviceframework.in(t._ZN24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEE11qlist_countEPS2_)
+    QDeclarativeListProperty<QtMobility::QDeclarativeService>::qlist_append(QDeclarativeListProperty<QtMobility::QDeclarativeService>*, QtMobility::QDeclarativeService*) 0x00009609   Thumb Code    12  declarative_serviceframework.in(t._ZN24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEE12qlist_appendEPS2_PS1_)
+    QDeclarativeListProperty<QtMobility::QDeclarativeService>::qlist_at(QDeclarativeListProperty<QtMobility::QDeclarativeService>*, int) 0x00009615   Thumb Code    12  declarative_serviceframework.in(t._ZN24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEE8qlist_atEPS2_i)
+    QList<QtMobility::QServiceInterfaceDescriptor>::~QList() 0x00009621   Thumb Code    74  declarative_serviceframework.in(t._ZN5QListIN10QtMobility27QServiceInterfaceDescriptorEED1Ev)
+    QList<QtMobility::QServiceInterfaceDescriptor>::~QList__sub_object() 0x00009621   Thumb Code     0  declarative_serviceframework.in(t._ZN5QListIN10QtMobility27QServiceInterfaceDescriptorEED1Ev)
+    QList<QtMobility::QDeclarativeService*>::detach_helper() 0x0000966b   Thumb Code    88  declarative_serviceframework.in(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE13detach_helperEv)
+    QList<QtMobility::QDeclarativeService*>::detach_helper_grow(int, int) 0x000096cb   Thumb Code   164  declarative_serviceframework.in(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE18detach_helper_growEii)
+    QList<QtMobility::QDeclarativeService*>::free(QListData::Data*) 0x00009777   Thumb Code    16  declarative_serviceframework.in(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE4freeEPN9QListData4DataE)
+    QList<QtMobility::QDeclarativeService*>::append(QtMobility::QDeclarativeService*const &) 0x00009789   Thumb Code    54  declarative_serviceframework.in(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE6appendERKS2_)
+    QList<QtMobility::QDeclarativeService*>::node_copy(QList<QtMobility::QDeclarativeService*>::Node*, QList<QtMobility::QDeclarativeService*>::Node*, QList<QtMobility::QDeclarativeService*>::Node*) 0x000097cf   Thumb Code    28  declarative_serviceframework.in(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE9node_copyEPNS3_4NodeES5_S5_)
+    QList<QtMobility::QDeclarativeService*>::QList() 0x000097ed   Thumb Code    16  declarative_serviceframework.in(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEEC1Ev)
+    QList<QtMobility::QDeclarativeService*>::QList__sub_object() 0x000097ed   Thumb Code     0  declarative_serviceframework.in(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEEC1Ev)
+    QList<QtMobility::QDeclarativeService*>::~QList() 0x00009801   Thumb Code    30  declarative_serviceframework.in(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEED1Ev)
+    QList<QtMobility::QDeclarativeService*>::~QList__sub_object() 0x00009801   Thumb Code     0  declarative_serviceframework.in(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEED1Ev)
+    QPointer<QObject>::~QPointer()           0x0000981f   Thumb Code    12  declarative_serviceframework.in(t._ZN8QPointerI7QObjectED1Ev)
+    QPointer<QObject>::~QPointer__sub_object() 0x0000981f   Thumb Code     0  declarative_serviceframework.in(t._ZN8QPointerI7QObjectED1Ev)
+    QtMobility::QDeclarativeService::staticMetaObject 0x00009b98   Data          16  declarative_serviceframework.in(.constdata)
+    QtMobility::QDeclarativeServiceList::staticMetaObject 0x00009ba8   Data          16  declarative_serviceframework.in(.constdata)
+    QServiceDeclarativeModule::staticMetaObject 0x0000a0d4   Data          16  declarative_serviceframework.in(.constdata)
+    typeinfo for QServiceDeclarativeModule   0x0000a120   Data          12  declarative_serviceframework.in(.constdata__ZTI25QServiceDeclarativeModule)
+    typeinfo for QtMobility::QDeclarativeService 0x0000a12c   Data          12  declarative_serviceframework.in(.constdata__ZTIN10QtMobility19QDeclarativeServiceE)
+    typeinfo for QtMobility::QDeclarativeServiceList 0x0000a138   Data          12  declarative_serviceframework.in(.constdata__ZTIN10QtMobility23QDeclarativeServiceListE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QtMobility::QDeclarativeService> 0x0000a144   Data          12  declarative_serviceframework.in(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QtMobility::QDeclarativeServiceList> 0x0000a150   Data          12  declarative_serviceframework.in(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEEE)
+    typeinfo for std::bad_alloc              0x0000a15c   Data          12  declarative_serviceframework.in(.constdata__ZTISt9bad_alloc)
+    typeinfo name for QServiceDeclarativeModule 0x0000a168   Data          28  declarative_serviceframework.in(.constdata__ZTS25QServiceDeclarativeModule)
+    typeinfo name for QtMobility::QDeclarativeService 0x0000a184   Data          36  declarative_serviceframework.in(.constdata__ZTSN10QtMobility19QDeclarativeServiceE)
+    typeinfo name for QtMobility::QDeclarativeServiceList 0x0000a1a8   Data          40  declarative_serviceframework.in(.constdata__ZTSN10QtMobility23QDeclarativeServiceListE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QtMobility::QDeclarativeService> 0x0000a1d0   Data          82  declarative_serviceframework.in(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QtMobility::QDeclarativeServiceList> 0x0000a222   Data          86  declarative_serviceframework.in(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEEE)
+    typeinfo name for std::bad_alloc         0x0000a278   Data          13  declarative_serviceframework.in(.constdata__ZTSSt9bad_alloc)
+    vtable for QServiceDeclarativeModule     0x0000a288   Data          88  declarative_serviceframework.in(.constdata__ZTV25QServiceDeclarativeModule)
+    vtable for QtMobility::QDeclarativeService 0x0000a2e0   Data          56  declarative_serviceframework.in(.constdata__ZTVN10QtMobility19QDeclarativeServiceE)
+    vtable for QtMobility::QDeclarativeServiceList 0x0000a318   Data          56  declarative_serviceframework.in(.constdata__ZTVN10QtMobility23QDeclarativeServiceListE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QtMobility::QDeclarativeService> 0x0000a350   Data          56  declarative_serviceframework.in(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QtMobility::QDeclarativeServiceList> 0x0000a388   Data          56  declarative_serviceframework.in(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEEE)
+    .ARM.exidx$$Base                         0x0000a458   Number         0  ucppinit_aeabi.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x0000a680   Number         0  declarative_serviceframework.in(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x0000a680   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    __dso_handle                             0x00400008   Data           4  ucppfini.o(.data)
+    QMetaTypeId<QDeclarativeListProperty<QtMobility::QDeclarativeService>>::qt_metatype_id()::metatype_id 0x0040000c   Data           4  declarative_serviceframework.in(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeListProperty<QtMobility::QDeclarativeServiceList>>::qt_metatype_id()::metatype_id 0x00400010   Data           4  declarative_serviceframework.in(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyIN10QtMobility23QDeclarativeServiceListEEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QtMobility::QDeclarativeService*>::qt_metatype_id()::metatype_id 0x00400014   Data           4  declarative_serviceframework.in(.data__ZZN11QMetaTypeIdIPN10QtMobility19QDeclarativeServiceEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QtMobility::QDeclarativeServiceList*>::qt_metatype_id()::metatype_id 0x00400018   Data           4  declarative_serviceframework.in(.data__ZZN11QMetaTypeIdIPN10QtMobility23QDeclarativeServiceListEE14qt_metatype_idEvE11metatype_id)
+

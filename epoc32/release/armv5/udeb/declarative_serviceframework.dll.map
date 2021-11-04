@@ -1,0 +1,576 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../../unhosted.s                         0x00000000   Number         0  switch8.o ABSOLUTE
+    M:\\epoc32\\build\\euser\\c_e18a23aea4fd210f\\edll_lib\\armv5\\udeb\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\\sf\\os\\kernelhwsrv\\kernel\\eka\\compsupp\\rvct\\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\epoc32\build\euser\c_e18a23aea4fd210f\edll_lib\armv5\udeb\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\dllexp.cpp 0x00000000   Number         0  dllexp.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    S:\sf\mw\qtmobility\plugins\declarative\serviceframework\qdeclarativeservice.cpp 0x00000000   Number         0  qdeclarativeservice.o ABSOLUTE
+    S:\sf\mw\qtmobility\plugins\declarative\serviceframework\serviceframework.cpp 0x00000000   Number         0  serviceframework.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    Symbian$$eit_base                        0x00008014   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$eit_limit                       0x00008018   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_base                   0x0000801c   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_limit                  0x00008020   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$reserved                        0x00008024   Data           4  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       52  ucppinit.o(.emb_text)
+    loop                                     0x0000803c   ARM Code       0  ucppinit.o(.emb_text)
+    ret                                      0x00008044   ARM Code       0  ucppinit.o(.emb_text)
+    base                                     0x00008054   Data           0  ucppinit.o(.emb_text)
+    limit                                    0x00008058   Data           0  ucppinit.o(.emb_text)
+    .text                                    0x00008274   Section     2572  qdeclarativeservice.o(.text)
+    .text                                    0x00008c80   Section      272  serviceframework.o(.text)
+    .text                                    0x00008d90   Section       24  switch8.o(.text)
+    .text                                    0x00008da8   Section       80  uc_dll.o(.text)
+    .text                                    0x00008df8   Section      180  ucppfini.o(.text)
+    .text                                    0x00008eac   Section        4  dllexp.o(.text)
+    .text.clean                              0x00008eb0   Section      320  qdeclarativeservice.o(.text.clean)
+    .text.clean                              0x00008ff0   Section       28  serviceframework.o(.text.clean)
+    i._ZN10QByteArrayC1ERKS_                 0x0000900c   Section       20  serviceframework.o(i._ZN10QByteArrayC1ERKS_)
+    i._ZN10QByteArrayD1Ev                    0x00009020   Section       24  qdeclarativeservice.o(i._ZN10QByteArrayD1Ev)
+    i._ZN15QBasicAtomicInt3refEv             0x00009038   Section       24  qdeclarativeservice.o(i._ZN15QBasicAtomicInt3refEv)
+    i._ZN15QBasicAtomicInt5derefEv           0x00009050   Section       24  qdeclarativeservice.o(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN19QDeclarativePrivate12RegisterTypeD1Ev 0x00009068   Section       20  serviceframework.o(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEED0Ev 0x0000907c   Section       22  serviceframework.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEED0Ev 0x00009092   Section       22  serviceframework.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEED0Ev)
+    i._ZN25QServiceDeclarativeModule13registerTypesEPKc 0x000090a8   Section       56  serviceframework.o(i._ZN25QServiceDeclarativeModule13registerTypesEPKc)
+    i._ZN25QServiceDeclarativeModuleD0Ev     0x000090e0   Section       24  serviceframework.o(i._ZN25QServiceDeclarativeModuleD0Ev)
+    i._ZN25QServiceDeclarativeModuleD1Ev     0x000090f8   Section       14  serviceframework.o(i._ZN25QServiceDeclarativeModuleD1Ev)
+    i._ZN6QDebug10maybeSpaceEv               0x00009106   Section       24  qdeclarativeservice.o(i._ZN6QDebug10maybeSpaceEv)
+    i._ZN6QDebugD1Ev                         0x0000911e   Section      154  qdeclarativeservice.o(i._ZN6QDebugD1Ev)
+    i._ZN6QDebugD1Ev.clean                   0x000091b8   Section       20  qdeclarativeservice.o(i._ZN6QDebugD1Ev.clean)
+    i._ZN7QStringC1EPKc                      0x000091cc   Section       22  qdeclarativeservice.o(i._ZN7QStringC1EPKc)
+    i._ZN7QStringC1ERKS_                     0x000091e2   Section       22  qdeclarativeservice.o(i._ZN7QStringC1ERKS_)
+    i._ZN7QStringC1Ev                        0x000091f8   Section       24  qdeclarativeservice.o(i._ZN7QStringC1Ev)
+    i._ZN7QStringD1Ev                        0x00009210   Section       24  qdeclarativeservice.o(i._ZN7QStringD1Ev)
+    i._ZNK15QBasicAtomicIntneEi              0x00009228   Section       16  qdeclarativeservice.o(i._ZNK15QBasicAtomicIntneEi)
+    i._ZNK15QBasicAtomicIntntEv              0x00009238   Section       16  serviceframework.o(i._ZNK15QBasicAtomicIntntEv)
+    i._ZNK9QListData2atEi                    0x00009248   Section       20  qdeclarativeservice.o(i._ZNK9QListData2atEi)
+    i._ZNK9QListData3endEv                   0x0000925c   Section       16  qdeclarativeservice.o(i._ZNK9QListData3endEv)
+    i._ZNK9QListData5beginEv                 0x0000926c   Section       16  qdeclarativeservice.o(i._ZNK9QListData5beginEv)
+    i._ZThn8_N25QServiceDeclarativeModule13registerTypesEPKc 0x0000927c   Section       18  serviceframework.o(i._ZThn8_N25QServiceDeclarativeModule13registerTypesEPKc)
+    i._ZThn8_N25QServiceDeclarativeModuleD0Ev 0x0000928e   Section       14  serviceframework.o(i._ZThn8_N25QServiceDeclarativeModuleD0Ev)
+    i._ZThn8_N25QServiceDeclarativeModuleD1Ev 0x0000929c   Section       18  serviceframework.o(i._ZThn8_N25QServiceDeclarativeModuleD1Ev)
+    i._ZdlPvS_                               0x000092ae   Section        2  serviceframework.o(i._ZdlPvS_)
+    i._ZnwjPv                                0x000092b0   Section        6  serviceframework.o(i._ZnwjPv)
+    i._ZplPKcRK10QByteArray                  0x000092b6   Section       46  serviceframework.o(i._ZplPKcRK10QByteArray)
+    i._ZplPKcRK10QByteArray.clean            0x000092e4   Section       10  serviceframework.o(i._ZplPKcRK10QByteArray.clean)
+    i._ZplRK10QByteArrayPKc                  0x000092ee   Section       46  serviceframework.o(i._ZplRK10QByteArrayPKc)
+    i._ZplRK10QByteArrayPKc.clean            0x0000931c   Section       10  serviceframework.o(i._ZplRK10QByteArrayPKc.clean)
+    i._ZplRK10QByteArrayc                    0x00009326   Section       46  serviceframework.o(i._ZplRK10QByteArrayc)
+    i._ZplRK10QByteArrayc.clean              0x00009354   Section       10  serviceframework.o(i._ZplRK10QByteArrayc.clean)
+    t._Z15qmlRegisterTypeIN10QtMobility19QDeclarativeServiceEEiPKciiS3_ 0x00009360   Section      280  serviceframework.o(t._Z15qmlRegisterTypeIN10QtMobility19QDeclarativeServiceEEiPKciiS3_)
+    t._Z15qmlRegisterTypeIN10QtMobility19QDeclarativeServiceEEiPKciiS3_.clean 0x00009478   Section       52  serviceframework.o(t._Z15qmlRegisterTypeIN10QtMobility19QDeclarativeServiceEEiPKciiS3_.clean)
+    t._Z15qmlRegisterTypeIN10QtMobility23QDeclarativeServiceListEEiPKciiS3_ 0x000094ac   Section      280  serviceframework.o(t._Z15qmlRegisterTypeIN10QtMobility23QDeclarativeServiceListEEiPKciiS3_)
+    t._Z15qmlRegisterTypeIN10QtMobility23QDeclarativeServiceListEEiPKciiS3_.clean 0x000095c4   Section       52  serviceframework.o(t._Z15qmlRegisterTypeIN10QtMobility23QDeclarativeServiceListEEiPKciiS3_.clean)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEEEiPKcPT_ 0x000095f8   Section      172  serviceframework.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility23QDeclarativeServiceListEEEiPKcPT_ 0x000096a4   Section      176  serviceframework.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility23QDeclarativeServiceListEEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIPN10QtMobility19QDeclarativeServiceEEiPKcPT_ 0x00009754   Section      148  serviceframework.o(t._Z17qRegisterMetaTypeIPN10QtMobility19QDeclarativeServiceEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIPN10QtMobility23QDeclarativeServiceListEEiPKcPT_ 0x000097e8   Section      152  serviceframework.o(t._Z17qRegisterMetaTypeIPN10QtMobility23QDeclarativeServiceListEEiPKcPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEEEvPT_ 0x00009880   Section       12  serviceframework.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility23QDeclarativeServiceListEEEvPT_ 0x0000988c   Section       12  serviceframework.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility23QDeclarativeServiceListEEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIPN10QtMobility19QDeclarativeServiceEEvPT_ 0x00009898   Section       12  serviceframework.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility19QDeclarativeServiceEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIPN10QtMobility23QDeclarativeServiceListEEvPT_ 0x000098a4   Section       12  serviceframework.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility23QDeclarativeServiceListEEvPT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEEEPvPKT_ 0x000098b0   Section      150  serviceframework.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEEEPvPKT_.clean 0x00009946   Section        4  serviceframework.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility23QDeclarativeServiceListEEEPvPKT_ 0x0000994a   Section      150  serviceframework.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility23QDeclarativeServiceListEEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility23QDeclarativeServiceListEEEPvPKT_.clean 0x000099e0   Section        4  serviceframework.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility23QDeclarativeServiceListEEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperIPN10QtMobility19QDeclarativeServiceEEPvPKT_ 0x000099e4   Section       50  serviceframework.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility19QDeclarativeServiceEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIPN10QtMobility23QDeclarativeServiceListEEPvPKT_ 0x00009a16   Section       50  serviceframework.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility23QDeclarativeServiceListEEPvPKT_)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility19QDeclarativeServiceEEEvPv 0x00009a48   Section       40  serviceframework.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility19QDeclarativeServiceEEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility19QDeclarativeServiceEEEvPv.clean 0x00009a70   Section       12  serviceframework.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility19QDeclarativeServiceEEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility23QDeclarativeServiceListEEEvPv 0x00009a7c   Section       40  serviceframework.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility23QDeclarativeServiceListEEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility23QDeclarativeServiceListEEEvPv.clean 0x00009aa4   Section       12  serviceframework.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility23QDeclarativeServiceListEEEvPv.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEED1Ev 0x00009ab0   Section       28  serviceframework.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEED1Ev.clean 0x00009acc   Section       10  serviceframework.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEED1Ev 0x00009ad8   Section       28  serviceframework.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEED1Ev.clean 0x00009af4   Section       10  serviceframework.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEED1Ev.clean)
+    t._ZN24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEE11qlist_clearEPS2_ 0x00009afe   Section       12  qdeclarativeservice.o(t._ZN24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEE11qlist_clearEPS2_)
+    t._ZN24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEE11qlist_countEPS2_ 0x00009b0a   Section       20  qdeclarativeservice.o(t._ZN24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEE11qlist_countEPS2_)
+    t._ZN24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEE12qlist_appendEPS2_PS1_ 0x00009b1e   Section       14  qdeclarativeservice.o(t._ZN24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEE12qlist_appendEPS2_PS1_)
+    t._ZN24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEE8qlist_atEPS2_i 0x00009b2c   Section       28  qdeclarativeservice.o(t._ZN24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEE8qlist_atEPS2_i)
+    t._ZN5QListIN10QtMobility27QServiceInterfaceDescriptorEE4freeEPN9QListData4DataE 0x00009b48   Section       82  qdeclarativeservice.o(t._ZN5QListIN10QtMobility27QServiceInterfaceDescriptorEE4freeEPN9QListData4DataE)
+    t._ZN5QListIN10QtMobility27QServiceInterfaceDescriptorEED1Ev 0x00009b9a   Section       32  qdeclarativeservice.o(t._ZN5QListIN10QtMobility27QServiceInterfaceDescriptorEED1Ev)
+    t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE13detach_helperEi 0x00009bba   Section       94  qdeclarativeservice.o(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE13detach_helperEi)
+    t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE13detach_helperEi.clean 0x00009c18   Section        8  qdeclarativeservice.o(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE13detach_helperEi.clean)
+    t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE13detach_helperEv 0x00009c20   Section       16  qdeclarativeservice.o(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE13detach_helperEv)
+    t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE18detach_helper_growEii 0x00009c30   Section      204  qdeclarativeservice.o(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE18detach_helper_growEii)
+    t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE18detach_helper_growEii.clean 0x00009cfc   Section       16  qdeclarativeservice.o(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE18detach_helper_growEii.clean)
+    t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE4freeEPN9QListData4DataE 0x00009d0c   Section       58  qdeclarativeservice.o(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE4freeEPN9QListData4DataE)
+    t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE5clearEv 0x00009d46   Section       76  qdeclarativeservice.o(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE5clearEv)
+    t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE5clearEv.clean 0x00009d92   Section       10  qdeclarativeservice.o(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE5clearEv.clean)
+    t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE6appendERKS2_ 0x00009d9c   Section      100  qdeclarativeservice.o(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE6appendERKS2_)
+    t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE6appendERKS2_.clean 0x00009e00   Section       10  qdeclarativeservice.o(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE6appendERKS2_.clean)
+    t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE9node_copyEPNS3_4NodeES5_S5_ 0x00009e0a   Section       46  qdeclarativeservice.o(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE9node_copyEPNS3_4NodeES5_S5_)
+    t._ZN5QListIPN10QtMobility19QDeclarativeServiceEEC1Ev 0x00009e38   Section       24  qdeclarativeservice.o(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEEC1Ev)
+    t._ZN5QListIPN10QtMobility19QDeclarativeServiceEED1Ev 0x00009e50   Section       32  qdeclarativeservice.o(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEED1Ev)
+    t._ZN8QPointerI7QObjectED1Ev             0x00009e70   Section       14  serviceframework.o(t._ZN8QPointerI7QObjectED1Ev)
+    .extab._ZN10QtMobility19QDeclarativeService16setInterfaceNameERK7QString 0x00009e80   Data           0  qdeclarativeservice.o(.ARM.extab)
+    .extab._ZN10QtMobility19QDeclarativeService11qt_metacallEN11QMetaObject4CallEiPPv 0x00009eb0   Data           0  qdeclarativeservice.o(.ARM.extab)
+    .extab._ZN10QtMobility19QDeclarativeServiceC1Ev 0x00009ec8   Data           0  qdeclarativeservice.o(.ARM.extab)
+    .extab._ZN10QtMobility19QDeclarativeServiceD1Ev 0x00009ee8   Data           0  qdeclarativeservice.o(.ARM.extab)
+    .extab._ZN10QtMobility23QDeclarativeServiceList8servicesEv 0x00009f00   Data           0  qdeclarativeservice.o(.ARM.extab)
+    .extab._ZN10QtMobility23QDeclarativeServiceList11qt_metacallEN11QMetaObject4CallEiPPv 0x00009f88   Data           0  qdeclarativeservice.o(.ARM.extab)
+    .extab._ZN10QtMobility23QDeclarativeServiceListC1Ev 0x00009fa0   Data           0  qdeclarativeservice.o(.ARM.extab)
+    .extab._ZN10QtMobility23QDeclarativeServiceListD1Ev 0x00009fe0   Data           0  qdeclarativeservice.o(.ARM.extab)
+    .extab._ZN5QListIPN10QtMobility19QDeclarativeServiceEE13detach_helperEi 0x0000a000   Data           0  qdeclarativeservice.o(.ARM.extab)
+    .extab._ZN5QListIPN10QtMobility19QDeclarativeServiceEE5clearEv 0x0000a01c   Data           0  qdeclarativeservice.o(.ARM.extab)
+    .extab._ZN5QListIPN10QtMobility19QDeclarativeServiceEE18detach_helper_growEii 0x0000a02c   Data           0  qdeclarativeservice.o(.ARM.extab)
+    .extab._ZN5QListIPN10QtMobility19QDeclarativeServiceEE6appendERKS2_ 0x0000a05c   Data           0  qdeclarativeservice.o(.ARM.extab)
+    .extab._ZN6QDebugD1Ev                    0x0000a078   Data           0  qdeclarativeservice.o(.ARM.extab)
+    .extab.qt_plugin_instance                0x0000a09c   Data           0  serviceframework.o(.ARM.extab)
+    .extab._ZplRK10QByteArrayPKc             0x0000a0b4   Data           0  serviceframework.o(.ARM.extab)
+    .extab._ZplRK10QByteArrayc               0x0000a0c4   Data           0  serviceframework.o(.ARM.extab)
+    .extab._ZplPKcRK10QByteArray             0x0000a0d4   Data           0  serviceframework.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeIN10QtMobility19QDeclarativeServiceEEiPKciiS3_ 0x0000a0e4   Data           0  serviceframework.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeIN10QtMobility23QDeclarativeServiceListEEiPKciiS3_ 0x0000a154   Data           0  serviceframework.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoIN10QtMobility19QDeclarativeServiceEEEvPv 0x0000a1c4   Data           0  serviceframework.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoIN10QtMobility23QDeclarativeServiceListEEEvPv 0x0000a1d4   Data           0  serviceframework.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEED1Ev 0x0000a1e4   Data           0  serviceframework.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEED1Ev 0x0000a1f4   Data           0  serviceframework.o(.ARM.extab)
+    .constdata$1                             0x0000a204   Data           0  qdeclarativeservice.o(.constdata)
+    .constdata                               0x0000a204   Section     1219  qdeclarativeservice.o(.constdata)
+    QtMobility::qt_meta_data_QDeclarativeService 0x0000a224   Data         276  qdeclarativeservice.o(.constdata)
+    QtMobility::qt_meta_stringdata_QDeclarativeService 0x0000a338   Data         246  qdeclarativeservice.o(.constdata)
+    QtMobility::qt_meta_data_QDeclarativeServiceList 0x0000a430   Data         308  qdeclarativeservice.o(.constdata)
+    QtMobility::qt_meta_stringdata_QDeclarativeServiceList 0x0000a564   Data         355  qdeclarativeservice.o(.constdata)
+    .constdata$1                             0x0000a6c8   Data           0  serviceframework.o(.constdata)
+    qt_meta_data_QServiceDeclarativeModule   0x0000a6c8   Data          60  serviceframework.o(.constdata)
+    .constdata                               0x0000a6c8   Section      196  serviceframework.o(.constdata)
+    qt_meta_stringdata_QServiceDeclarativeModule 0x0000a704   Data          27  serviceframework.o(.constdata)
+    qt_plugin_verification_data              0x0000a71f   Data          91  serviceframework.o(.constdata)
+    .constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE 0x0000a78c   Section        4  qdeclarativeservice.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE 0x0000a790   Section        4  qdeclarativeservice.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE 0x0000a794   Section        4  qdeclarativeservice.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE 0x0000a798   Section        4  qdeclarativeservice.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE 0x0000a79c   Section        4  qdeclarativeservice.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE 0x0000a7a0   Section        1  qdeclarativeservice.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE 0x0000a7a4   Section        4  qdeclarativeservice.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE 0x0000a7a8   Section        4  qdeclarativeservice.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE 0x0000a7ac   Section        4  qdeclarativeservice.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE 0x0000a7b0   Section        4  qdeclarativeservice.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE 0x0000a7b4   Section        4  qdeclarativeservice.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE 0x0000a7b8   Section        4  qdeclarativeservice.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE 0x0000a7bc   Section        4  qdeclarativeservice.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE 0x0000a7c0   Section        4  qdeclarativeservice.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    .constdata__ZTI25QServiceDeclarativeModule 0x0000a7c4   Section       12  serviceframework.o(.constdata__ZTI25QServiceDeclarativeModule)
+    .constdata__ZTIN10QtMobility19QDeclarativeServiceE 0x0000a7d0   Section       12  qdeclarativeservice.o(.constdata__ZTIN10QtMobility19QDeclarativeServiceE)
+    .constdata__ZTIN10QtMobility23QDeclarativeServiceListE 0x0000a7dc   Section       12  qdeclarativeservice.o(.constdata__ZTIN10QtMobility23QDeclarativeServiceListE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEEE 0x0000a7e8   Section       12  serviceframework.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEEE 0x0000a7f4   Section       12  serviceframework.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEEE)
+    .constdata__ZTS25QServiceDeclarativeModule 0x0000a800   Section       28  serviceframework.o(.constdata__ZTS25QServiceDeclarativeModule)
+    .constdata__ZTSN10QtMobility19QDeclarativeServiceE 0x0000a81c   Section       36  qdeclarativeservice.o(.constdata__ZTSN10QtMobility19QDeclarativeServiceE)
+    .constdata__ZTSN10QtMobility23QDeclarativeServiceListE 0x0000a840   Section       40  qdeclarativeservice.o(.constdata__ZTSN10QtMobility23QDeclarativeServiceListE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEEE 0x0000a868   Section       82  serviceframework.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEEE 0x0000a8ba   Section       86  serviceframework.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEEE)
+    .constdata__ZTV25QServiceDeclarativeModule 0x0000a910   Section       88  serviceframework.o(.constdata__ZTV25QServiceDeclarativeModule)
+    .constdata__ZTVN10QtMobility19QDeclarativeServiceE 0x0000a968   Section       56  qdeclarativeservice.o(.constdata__ZTVN10QtMobility19QDeclarativeServiceE)
+    .constdata__ZTVN10QtMobility23QDeclarativeServiceListE 0x0000a9a0   Section       56  qdeclarativeservice.o(.constdata__ZTVN10QtMobility23QDeclarativeServiceListE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEEE 0x0000a9d8   Section       56  serviceframework.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEEE 0x0000aa10   Section       56  serviceframework.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEEE)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility19QDeclarativeServiceEEiPKciiS3_$52 0x0000aa48   Data           0  serviceframework.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility19QDeclarativeServiceEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility19QDeclarativeServiceEEiPKciiS3_ 0x0000aa48   Section       76  serviceframework.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility19QDeclarativeServiceEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility23QDeclarativeServiceListEEiPKciiS3_$55 0x0000aa94   Data           0  serviceframework.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility23QDeclarativeServiceListEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility23QDeclarativeServiceListEEiPKciiS3_ 0x0000aa94   Section       76  serviceframework.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility23QDeclarativeServiceListEEiPKciiS3_)
+    .ARM.exidx                               0x0000aae0   Section        8  ucppinit.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  serviceframework.o(.data)
+    _ZGV_instance@qt_plugin_instance_0       0x00400000   Data           4  serviceframework.o(.data)
+    .data                                    0x00400000   Section        8  serviceframework.o(.data)
+    _instance@qt_plugin_instance_1           0x00400004   Data           4  serviceframework.o(.data)
+    .data$0                                  0x00400008   Data           0  ucppfini.o(.data)
+    .data                                    0x00400008   Section        4  ucppfini.o(.data)
+    .data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE 0x0040000c   Section       12  qdeclarativeservice.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    .data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEEE14qt_metatype_idEvE11metatype_id 0x00400018   Section        4  serviceframework.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyIN10QtMobility23QDeclarativeServiceListEEE14qt_metatype_idEvE11metatype_id 0x0040001c   Section        4  serviceframework.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyIN10QtMobility23QDeclarativeServiceListEEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIPN10QtMobility19QDeclarativeServiceEE14qt_metatype_idEvE11metatype_id 0x00400020   Section        4  serviceframework.o(.data__ZZN11QMetaTypeIdIPN10QtMobility19QDeclarativeServiceEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIPN10QtMobility23QDeclarativeServiceListEE14qt_metatype_idEvE11metatype_id 0x00400024   Section        4  serviceframework.o(.data__ZZN11QMetaTypeIdIPN10QtMobility23QDeclarativeServiceListEE14qt_metatype_idEvE11metatype_id)
+    .bss$5                                   0x00400028   Data           0  ucppfini.o(.bss)
+    .bss                                     0x00400028   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$VFPv2$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$IEEEJ$EBA8$UX$FPIC$INDIRECT$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    QtCore{00040703}[2001b2dc].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtDeclarative{00040703}[2001e623].dll    0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtServiceFramework{00010103}[2002ac84].dll 0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    declarative_serviceframework{000a0000}[20021323].dll 0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    euser{000a0000}[100039e5].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    libc{00010001}[10207369].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    stdnew{000a0000}[20022178].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    qt_message_output(QtMsgType, const char*)  - Undefined Reference
+    _Z17qt_message_output9QtMsgTypePKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qFree(void*)                              - Undefined Reference
+    _Z5qFreePv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::append(const char*)           - Undefined Reference
+    _ZN10QByteArray6appendEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::append(const QByteArray&)     - Undefined Reference
+    _ZN10QByteArray6appendERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::append(char)                  - Undefined Reference
+    _ZN10QByteArray6appendEc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::realloc(int)                  - Undefined Reference
+    _ZN10QByteArray7reallocEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::QByteArray(const char*)       - Undefined Reference
+    _ZN10QByteArrayC1EPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QtMobility::QServiceFilter::setInterface(const QString&, const QString&, QtMobility::QServiceFilter::VersionMatchRule)  - Undefined Reference
+    _ZN10QtMobility14QServiceFilter12setInterfaceERK7QStringS3_NS0_16VersionMatchRuleE@QtServiceFramework{00010103}[2002ac84].dll  - Undefined Reference
+    QtMobility::QServiceFilter::setServiceName(const QString&)  - Undefined Reference
+    _ZN10QtMobility14QServiceFilter14setServiceNameERK7QString@QtServiceFramework{00010103}[2002ac84].dll  - Undefined Reference
+    QtMobility::QServiceFilter::QServiceFilter()  - Undefined Reference
+    _ZN10QtMobility14QServiceFilterC1Ev@QtServiceFramework{00010103}[2002ac84].dll  - Undefined Reference
+    QtMobility::QServiceFilter::~QServiceFilter()  - Undefined Reference
+    _ZN10QtMobility14QServiceFilterD1Ev@QtServiceFramework{00010103}[2002ac84].dll  - Undefined Reference
+    QtMobility::QServiceManager::loadInterface(const QtMobility::QServiceInterfaceDescriptor&, QtMobility::QServiceContext*, QtMobility::QAbstractSecuritySession*)  - Undefined Reference
+    _ZN10QtMobility15QServiceManager13loadInterfaceERKNS_27QServiceInterfaceDescriptorEPNS_15QServiceContextEPNS_24QAbstractSecuritySessionE@QtServiceFramework{00010103}[2002ac84].dll  - Undefined Reference
+    QtMobility::QServiceManager::QServiceManager(QObject*)  - Undefined Reference
+    _ZN10QtMobility15QServiceManagerC1EP7QObject@QtServiceFramework{00010103}[2002ac84].dll  - Undefined Reference
+    QtMobility::QServiceInterfaceDescriptor::QServiceInterfaceDescriptor(const QtMobility::QServiceInterfaceDescriptor&)  - Undefined Reference
+    _ZN10QtMobility27QServiceInterfaceDescriptorC1ERKS0_@QtServiceFramework{00010103}[2002ac84].dll  - Undefined Reference
+    QtMobility::QServiceInterfaceDescriptor::QServiceInterfaceDescriptor()  - Undefined Reference
+    _ZN10QtMobility27QServiceInterfaceDescriptorC1Ev@QtServiceFramework{00010103}[2002ac84].dll  - Undefined Reference
+    QtMobility::QServiceInterfaceDescriptor::~QServiceInterfaceDescriptor()  - Undefined Reference
+    _ZN10QtMobility27QServiceInterfaceDescriptorD1Ev@QtServiceFramework{00010103}[2002ac84].dll  - Undefined Reference
+    QtMobility::QServiceInterfaceDescriptor::operator =(const QtMobility::QServiceInterfaceDescriptor&)  - Undefined Reference
+    _ZN10QtMobility27QServiceInterfaceDescriptoraSERKS0_@QtServiceFramework{00010103}[2002ac84].dll  - Undefined Reference
+    QMetaObject::changeGuard(QObject**, QObject*)  - Undefined Reference
+    _ZN11QMetaObject11changeGuardEPP7QObjectS1_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::removeGuard(QObject**)       - Undefined Reference
+    _ZN11QMetaObject11removeGuardEPP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::activate(QObject*, const QMetaObject*, int, void**)  - Undefined Reference
+    _ZN11QMetaObject8activateEP7QObjectPKS_iPPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::QTextStream(QString*, QFlags<QIODevice::OpenModeFlag>)  - Undefined Reference
+    _ZN11QTextStreamC1EP7QString6QFlagsIN9QIODevice12OpenModeFlagEE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::~QTextStream()               - Undefined Reference
+    _ZN11QTextStreamD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::operator <<(const QString&)  - Undefined Reference
+    _ZN11QTextStreamlsERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::operator <<(char)            - Undefined Reference
+    _ZN11QTextStreamlsEc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDeclarativePrivate::qmlregister(QDeclarativePrivate::RegistrationType, void*)  - Undefined Reference
+    _ZN19QDeclarativePrivate11qmlregisterENS_16RegistrationTypeEPv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativePrivate::qdeclarativeelement_destructor(QObject*)  - Undefined Reference
+    _ZN19QDeclarativePrivate30qdeclarativeelement_destructorEP7QObject@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin11qt_metacallEN11QMetaObject4CallEiPPv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::qt_metacast(const char*)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin11qt_metacastEPKc@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::initializeEngine(QDeclarativeEngine*, const char*)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin16initializeEngineEP18QDeclarativeEnginePKc@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::staticMetaObject  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin16staticMetaObjectE@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::QDeclarativeExtensionPlugin__sub_object(QObject*)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPluginC2EP7QObject@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::~QDeclarativeExtensionPlugin__sub_object()  - Undefined Reference
+    _ZN27QDeclarativeExtensionPluginD2Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    User::LockedDec(int&)                     - Undefined Reference
+    _ZN4User9LockedDecERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::LockedInc(int&)                     - Undefined Reference
+    _ZN4User9LockedIncERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QObject::childEvent(QChildEvent*)         - Undefined Reference
+    _ZN7QObject10childEventEP11QChildEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::timerEvent(QTimerEvent*)         - Undefined Reference
+    _ZN7QObject10timerEventEP11QTimerEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::customEvent(QEvent*)             - Undefined Reference
+    _ZN7QObject11customEventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::eventFilter(QObject*, QEvent*)   - Undefined Reference
+    _ZN7QObject11eventFilterEPS_P6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN7QObject11qt_metacallEN11QMetaObject4CallEiPPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::qt_metacast(const char*)         - Undefined Reference
+    _ZN7QObject11qt_metacastEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connectNotify(const char*)       - Undefined Reference
+    _ZN7QObject13connectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::disconnectNotify(const char*)    - Undefined Reference
+    _ZN7QObject16disconnectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::staticMetaObject                 - Undefined Reference
+    _ZN7QObject16staticMetaObjectE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::event(QEvent*)                   - Undefined Reference
+    _ZN7QObject5eventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::QObject(QObject*)                - Undefined Reference
+    _ZN7QObjectC1EPS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::~QObject()                       - Undefined Reference
+    _ZN7QObjectD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::shared_null                      - Undefined Reference
+    _ZN7QString11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromAscii_helper(const char*, int)  - Undefined Reference
+    _ZN7QString16fromAscii_helperEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::free(QString::Data*)             - Undefined Reference
+    _ZN7QString4freeEPNS_4DataE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::append(const QString&)           - Undefined Reference
+    _ZN7QString6appendERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::number(int, int)                 - Undefined Reference
+    _ZN7QString6numberEii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromAscii(const char*, int)      - Undefined Reference
+    _ZN7QString9fromAsciiEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::operator =(const QString&)       - Undefined Reference
+    _ZN7QStringaSERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach_grow(int*, int)         - Undefined Reference
+    _ZN9QListData11detach_growEPii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::shared_null                    - Undefined Reference
+    _ZN9QListData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::append()                       - Undefined Reference
+    _ZN9QListData6appendEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach(int)                    - Undefined Reference
+    _ZN9QListData6detachEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaType::registerType(const char*, void(*)(void*), void*(*)(const void*))  - Undefined Reference
+    _ZN9QMetaType12registerTypeEPKcPFvPvEPFS2_PKvE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaType::registerTypedef(const char*, int)  - Undefined Reference
+    _ZN9QMetaType15registerTypedefEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QtMobility::QServiceManager::findInterfaces(const QtMobility::QServiceFilter&) const  - Undefined Reference
+    _ZNK10QtMobility15QServiceManager14findInterfacesERKNS_14QServiceFilterE@QtServiceFramework{00010103}[2002ac84].dll  - Undefined Reference
+    QtMobility::QServiceManager::interfaceDefault(const QString&) const  - Undefined Reference
+    _ZNK10QtMobility15QServiceManager16interfaceDefaultERK7QString@QtServiceFramework{00010103}[2002ac84].dll  - Undefined Reference
+    QtMobility::QServiceInterfaceDescriptor::serviceName() const  - Undefined Reference
+    _ZNK10QtMobility27QServiceInterfaceDescriptor11serviceNameEv@QtServiceFramework{00010103}[2002ac84].dll  - Undefined Reference
+    QtMobility::QServiceInterfaceDescriptor::majorVersion() const  - Undefined Reference
+    _ZNK10QtMobility27QServiceInterfaceDescriptor12majorVersionEv@QtServiceFramework{00010103}[2002ac84].dll  - Undefined Reference
+    QtMobility::QServiceInterfaceDescriptor::minorVersion() const  - Undefined Reference
+    _ZNK10QtMobility27QServiceInterfaceDescriptor12minorVersionEv@QtServiceFramework{00010103}[2002ac84].dll  - Undefined Reference
+    QtMobility::QServiceInterfaceDescriptor::interfaceName() const  - Undefined Reference
+    _ZNK10QtMobility27QServiceInterfaceDescriptor13interfaceNameEv@QtServiceFramework{00010103}[2002ac84].dll  - Undefined Reference
+    QtMobility::QServiceInterfaceDescriptor::isValid() const  - Undefined Reference
+    _ZNK10QtMobility27QServiceInterfaceDescriptor7isValidEv@QtServiceFramework{00010103}[2002ac84].dll  - Undefined Reference
+    QtMobility::QServiceInterfaceDescriptor::operator ==(const QtMobility::QServiceInterfaceDescriptor&) const  - Undefined Reference
+    _ZNK10QtMobility27QServiceInterfaceDescriptoreqERKS0_@QtServiceFramework{00010103}[2002ac84].dll  - Undefined Reference
+    QString::toLocal8Bit() const              - Undefined Reference
+    _ZNK7QString11toLocal8BitEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for QDeclarativeExtensionPlugin  - Undefined Reference
+    _ZTI27QDeclarativeExtensionPlugin@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    typeinfo for QObject                      - Undefined Reference
+    _ZTI7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for std::bad_alloc               - Undefined Reference
+    _ZTISt9bad_alloc@stdnew{000a0000}[20022178].dll  - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv120__si_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    thunk{-8} to QDeclarativeExtensionPlugin::initializeEngine(QDeclarativeEngine*, const char*)  - Undefined Reference
+    _ZThn8_N27QDeclarativeExtensionPlugin16initializeEngineEP18QDeclarativeEnginePKc@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    operator delete (void*)                   - Undefined Reference
+    _ZdlPv@stdnew{000a0000}[20022178].dll     - Undefined Reference
+    operator new(unsigned)                    - Undefined Reference
+    _Znwj@stdnew{000a0000}[20022178].dll      - Undefined Reference
+    __aeabi_memcpy4                           - Undefined Reference
+    __aeabi_memcpy4@drtaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_unwind_cpp_pr0                    - Undefined Reference
+    __aeabi_unwind_cpp_pr0@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_begin_catch                         - Undefined Reference
+    __cxa_begin_catch@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_end_catch                           - Undefined Reference
+    __cxa_end_catch@drtaeabi{000a0000}.dll    - Undefined Reference
+    __cxa_end_cleanup                         - Undefined Reference
+    __cxa_end_cleanup@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_abort                         - Undefined Reference
+    __cxa_guard_abort@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_acquire                       - Undefined Reference
+    __cxa_guard_acquire@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_release                       - Undefined Reference
+    __cxa_guard_release@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_rethrow                             - Undefined Reference
+    __cxa_rethrow@drtaeabi{000a0000}.dll      - Undefined Reference
+    strcmp                                    - Undefined Reference
+    strcmp@libc{00010001}[10207369].dll       - Undefined Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      52  ucppinit.o(.emb_text)
+    std::nothrow                             0x0000805c   ARM Code       0  ucppinit.o(.emb_text)
+    __PLT                                    0x0000805c   ARM Code       0  anon$$obj.o(.plt)
+    QtMobility::QDeclarativeService::getStaticMetaObject() 0x00008275   Thumb Code     4  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeService::metaObject() const 0x00008279   Thumb Code    28  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeService::qt_metacast(const char*) 0x00008295   Thumb Code    40  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeService::isValid() const 0x000082bd   Thumb Code    14  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeService::setInterfaceName(const QString&) 0x000082cb   Thumb Code   222  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeService::serviceObject() 0x000083a9   Thumb Code    48  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeService::minorVersion() const 0x000083d9   Thumb Code    28  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeService::majorVersion() const 0x000083f5   Thumb Code    28  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeService::serviceName() const 0x00008411   Thumb Code    40  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeService::interfaceName() const 0x00008439   Thumb Code    40  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeService::minorVersionChanged() 0x00008461   Thumb Code    18  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeService::majorVersionChanged() 0x00008473   Thumb Code    18  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeService::serviceNameChanged() 0x00008485   Thumb Code    18  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeService::interfaceNameChanged() 0x00008497   Thumb Code    18  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeService::serviceObjectChanged() 0x000084a9   Thumb Code    18  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeService::validChanged() 0x000084bb   Thumb Code    18  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeService::qt_metacall(QMetaObject::Call, int, void**) 0x000084cd   Thumb Code   460  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeService::QDeclarativeService() 0x00008699   Thumb Code    62  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeService::QDeclarativeService__sub_object() 0x00008699   Thumb Code     0  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeService::~QDeclarativeService() 0x000086d7   Thumb Code    46  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeService::~QDeclarativeService__sub_object() 0x000086d7   Thumb Code     0  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeService::~QDeclarativeService__deallocating() 0x00008705   Thumb Code    22  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeService::setInterfaceDesc(const QtMobility::QServiceInterfaceDescriptor&) 0x0000871b   Thumb Code    60  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeService::interfaceDesc() const 0x00008757   Thumb Code    20  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeServiceList::getStaticMetaObject() 0x0000876b   Thumb Code     4  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeServiceList::metaObject() const 0x0000876f   Thumb Code    28  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeServiceList::qt_metacast(const char*) 0x0000878b   Thumb Code    40  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeServiceList::setVersionMatch(QtMobility::QDeclarativeServiceList::MatchRule) 0x000087b3   Thumb Code     4  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeServiceList::setMinorVersion(int) 0x000087b7   Thumb Code     4  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeServiceList::setMajorVersion(int) 0x000087bb   Thumb Code     4  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeServiceList::setInterfaceName(const QString&) 0x000087bf   Thumb Code    18  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeServiceList::setServiceName(const QString&) 0x000087d1   Thumb Code    18  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeServiceList::versionMatch() const 0x000087e3   Thumb Code     6  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeServiceList::services() 0x000087e9   Thumb Code   370  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeServiceList::minorVersion() const 0x0000895b   Thumb Code     6  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeServiceList::majorVersion() const 0x00008961   Thumb Code     6  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeServiceList::interfaceName() const 0x00008967   Thumb Code    20  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeServiceList::serviceName() const 0x0000897b   Thumb Code    20  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeServiceList::versionMatchChanged() 0x0000898f   Thumb Code    18  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeServiceList::majorVersionChanged() 0x000089a1   Thumb Code    18  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeServiceList::minorVersionChanged() 0x000089b3   Thumb Code    18  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeServiceList::interfaceNameChanged() 0x000089c5   Thumb Code    18  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeServiceList::serviceNameChanged() 0x000089d7   Thumb Code    18  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeServiceList::servicesChanged(const QDeclarativeListProperty<QtMobility::QDeclarativeService>&) 0x000089e9   Thumb Code    30  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeServiceList::qt_metacall(QMetaObject::Call, int, void**) 0x00008a07   Thumb Code   450  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeServiceList::QDeclarativeServiceList() 0x00008bc9   Thumb Code   102  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeServiceList::QDeclarativeServiceList__sub_object() 0x00008bc9   Thumb Code     0  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeServiceList::~QDeclarativeServiceList() 0x00008c2f   Thumb Code    54  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeServiceList::~QDeclarativeServiceList__sub_object() 0x00008c2f   Thumb Code     0  qdeclarativeservice.o(.text)
+    QtMobility::QDeclarativeServiceList::~QDeclarativeServiceList__deallocating() 0x00008c65   Thumb Code    22  qdeclarativeservice.o(.text)
+    qt_plugin_query_verification_data        0x00008c81   Thumb Code     4  serviceframework.o(.text)
+    qt_plugin_instance                       0x00008c85   Thumb Code   134  serviceframework.o(.text)
+    QServiceDeclarativeModule::getStaticMetaObject() 0x00008d0b   Thumb Code     4  serviceframework.o(.text)
+    QServiceDeclarativeModule::metaObject() const 0x00008d0f   Thumb Code    28  serviceframework.o(.text)
+    QServiceDeclarativeModule::qt_metacast(const char*) 0x00008d2b   Thumb Code    42  serviceframework.o(.text)
+    QServiceDeclarativeModule::qt_metacall(QMetaObject::Call, int, void**) 0x00008d55   Thumb Code    36  serviceframework.o(.text)
+    __ARM_switch8                            0x00008d90   ARM Code      24  switch8.o(.text)
+    __rt_switch8                             0x00008d90   ARM Code       0  switch8.o(.text)
+    _E32Dll_Body                             0x00008da8   ARM Code      76  uc_dll.o(.text)
+    __aeabi_atexit                           0x00008df8   ARM Code      40  ucppfini.o(.text)
+    __cxa_atexit                             0x00008e20   ARM Code      64  ucppfini.o(.text)
+    __cxa_finalize                           0x00008e60   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x00008e90   ARM Code      16  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x00008eac   ARM Code       4  dllexp.o(.text)
+    QByteArray::QByteArray(const QByteArray&) 0x0000900d   Thumb Code    20  serviceframework.o(i._ZN10QByteArrayC1ERKS_)
+    QByteArray::QByteArray__sub_object(const QByteArray&) 0x0000900d   Thumb Code     0  serviceframework.o(i._ZN10QByteArrayC1ERKS_)
+    QByteArray::~QByteArray()                0x00009021   Thumb Code    24  qdeclarativeservice.o(i._ZN10QByteArrayD1Ev)
+    QByteArray::~QByteArray__sub_object()    0x00009021   Thumb Code     0  qdeclarativeservice.o(i._ZN10QByteArrayD1Ev)
+    QBasicAtomicInt::ref()                   0x00009039   Thumb Code    24  qdeclarativeservice.o(i._ZN15QBasicAtomicInt3refEv)
+    QBasicAtomicInt::deref()                 0x00009051   Thumb Code    24  qdeclarativeservice.o(i._ZN15QBasicAtomicInt5derefEv)
+    QDeclarativePrivate::RegisterType::~RegisterType() 0x00009069   Thumb Code    20  serviceframework.o(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    QDeclarativePrivate::RegisterType::~RegisterType__sub_object() 0x00009069   Thumb Code     0  serviceframework.o(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QDeclarativeService>::~QDeclarativeElement__deallocating() 0x0000907d   Thumb Code    22  serviceframework.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QDeclarativeServiceList>::~QDeclarativeElement__deallocating() 0x00009093   Thumb Code    22  serviceframework.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEED0Ev)
+    QServiceDeclarativeModule::registerTypes(const char*) 0x000090a9   Thumb Code    34  serviceframework.o(i._ZN25QServiceDeclarativeModule13registerTypesEPKc)
+    QServiceDeclarativeModule::~QServiceDeclarativeModule__deallocating() 0x000090e1   Thumb Code    24  serviceframework.o(i._ZN25QServiceDeclarativeModuleD0Ev)
+    QServiceDeclarativeModule::~QServiceDeclarativeModule() 0x000090f9   Thumb Code    14  serviceframework.o(i._ZN25QServiceDeclarativeModuleD1Ev)
+    QServiceDeclarativeModule::~QServiceDeclarativeModule__sub_object() 0x000090f9   Thumb Code     0  serviceframework.o(i._ZN25QServiceDeclarativeModuleD1Ev)
+    QDebug::maybeSpace()                     0x00009107   Thumb Code    24  qdeclarativeservice.o(i._ZN6QDebug10maybeSpaceEv)
+    QDebug::~QDebug()                        0x0000911f   Thumb Code   154  qdeclarativeservice.o(i._ZN6QDebugD1Ev)
+    QDebug::~QDebug__sub_object()            0x0000911f   Thumb Code     0  qdeclarativeservice.o(i._ZN6QDebugD1Ev)
+    QString::QString(const char*)            0x000091cd   Thumb Code    22  qdeclarativeservice.o(i._ZN7QStringC1EPKc)
+    QString::QString__sub_object(const char*) 0x000091cd   Thumb Code     0  qdeclarativeservice.o(i._ZN7QStringC1EPKc)
+    QString::QString(const QString&)         0x000091e3   Thumb Code    22  qdeclarativeservice.o(i._ZN7QStringC1ERKS_)
+    QString::QString__sub_object(const QString&) 0x000091e3   Thumb Code     0  qdeclarativeservice.o(i._ZN7QStringC1ERKS_)
+    QString::QString()                       0x000091f9   Thumb Code    18  qdeclarativeservice.o(i._ZN7QStringC1Ev)
+    QString::QString__sub_object()           0x000091f9   Thumb Code     0  qdeclarativeservice.o(i._ZN7QStringC1Ev)
+    QString::~QString()                      0x00009211   Thumb Code    24  qdeclarativeservice.o(i._ZN7QStringD1Ev)
+    QString::~QString__sub_object()          0x00009211   Thumb Code     0  qdeclarativeservice.o(i._ZN7QStringD1Ev)
+    QBasicAtomicInt::operator !=(int) const  0x00009229   Thumb Code    16  qdeclarativeservice.o(i._ZNK15QBasicAtomicIntneEi)
+    QBasicAtomicInt::operator !() const      0x00009239   Thumb Code    16  serviceframework.o(i._ZNK15QBasicAtomicIntntEv)
+    QListData::at(int) const                 0x00009249   Thumb Code    20  qdeclarativeservice.o(i._ZNK9QListData2atEi)
+    QListData::end() const                   0x0000925d   Thumb Code    16  qdeclarativeservice.o(i._ZNK9QListData3endEv)
+    QListData::begin() const                 0x0000926d   Thumb Code    16  qdeclarativeservice.o(i._ZNK9QListData5beginEv)
+    thunk{-8} to QServiceDeclarativeModule::registerTypes(const char*) 0x0000927d   Thumb Code    18  serviceframework.o(i._ZThn8_N25QServiceDeclarativeModule13registerTypesEPKc)
+    thunk{-8} to QServiceDeclarativeModule::~QServiceDeclarativeModule__deallocating() 0x0000928f   Thumb Code    14  serviceframework.o(i._ZThn8_N25QServiceDeclarativeModuleD0Ev)
+    thunk{-8} to QServiceDeclarativeModule::~QServiceDeclarativeModule() 0x0000929d   Thumb Code    18  serviceframework.o(i._ZThn8_N25QServiceDeclarativeModuleD1Ev)
+    operator delete (void*, void*)           0x000092af   Thumb Code     2  serviceframework.o(i._ZdlPvS_)
+    operator new(unsigned, void*)            0x000092b1   Thumb Code     6  serviceframework.o(i._ZnwjPv)
+    operator +(const char*, const QByteArray&) 0x000092b7   Thumb Code    46  serviceframework.o(i._ZplPKcRK10QByteArray)
+    operator +(const QByteArray&, const char*) 0x000092ef   Thumb Code    46  serviceframework.o(i._ZplRK10QByteArrayPKc)
+    operator +(const QByteArray&, char)      0x00009327   Thumb Code    46  serviceframework.o(i._ZplRK10QByteArrayc)
+    qmlRegisterType<QtMobility::QDeclarativeService>(const char*, int, int, const char*) 0x00009361   Thumb Code   238  serviceframework.o(t._Z15qmlRegisterTypeIN10QtMobility19QDeclarativeServiceEEiPKciiS3_)
+    qmlRegisterType<QtMobility::QDeclarativeServiceList>(const char*, int, int, const char*) 0x000094ad   Thumb Code   238  serviceframework.o(t._Z15qmlRegisterTypeIN10QtMobility23QDeclarativeServiceListEEiPKciiS3_)
+    qRegisterMetaType<QDeclarativeListProperty<QtMobility::QDeclarativeService>>(const char*, T1*) 0x000095f9   Thumb Code   100  serviceframework.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QtMobility::QDeclarativeServiceList>>(const char*, T1*) 0x000096a5   Thumb Code   100  serviceframework.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility23QDeclarativeServiceListEEEiPKcPT_)
+    qRegisterMetaType<QtMobility::QDeclarativeService*>(const char*, T1*) 0x00009755   Thumb Code   100  serviceframework.o(t._Z17qRegisterMetaTypeIPN10QtMobility19QDeclarativeServiceEEiPKcPT_)
+    qRegisterMetaType<QtMobility::QDeclarativeServiceList*>(const char*, T1*) 0x000097e9   Thumb Code   100  serviceframework.o(t._Z17qRegisterMetaTypeIPN10QtMobility23QDeclarativeServiceListEEiPKcPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QtMobility::QDeclarativeService>>(T1*) 0x00009881   Thumb Code    12  serviceframework.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QtMobility::QDeclarativeServiceList>>(T1*) 0x0000988d   Thumb Code    12  serviceframework.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility23QDeclarativeServiceListEEEvPT_)
+    qMetaTypeDeleteHelper<QtMobility::QDeclarativeService*>(T1*) 0x00009899   Thumb Code    12  serviceframework.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility19QDeclarativeServiceEEvPT_)
+    qMetaTypeDeleteHelper<QtMobility::QDeclarativeServiceList*>(T1*) 0x000098a5   Thumb Code    12  serviceframework.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility23QDeclarativeServiceListEEvPT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QtMobility::QDeclarativeService>>(const T1*) 0x000098b1   Thumb Code   150  serviceframework.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QtMobility::QDeclarativeServiceList>>(const T1*) 0x0000994b   Thumb Code   150  serviceframework.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility23QDeclarativeServiceListEEEPvPKT_)
+    qMetaTypeConstructHelper<QtMobility::QDeclarativeService*>(const T1*) 0x000099e5   Thumb Code    50  serviceframework.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility19QDeclarativeServiceEEPvPKT_)
+    qMetaTypeConstructHelper<QtMobility::QDeclarativeServiceList*>(const T1*) 0x00009a17   Thumb Code    50  serviceframework.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility23QDeclarativeServiceListEEPvPKT_)
+    QDeclarativePrivate::createInto<QtMobility::QDeclarativeService>(void*) 0x00009a49   Thumb Code    36  serviceframework.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility19QDeclarativeServiceEEEvPv)
+    QDeclarativePrivate::createInto<QtMobility::QDeclarativeServiceList>(void*) 0x00009a7d   Thumb Code    36  serviceframework.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility23QDeclarativeServiceListEEEvPv)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QDeclarativeService>::~QDeclarativeElement() 0x00009ab1   Thumb Code    24  serviceframework.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QDeclarativeService>::~QDeclarativeElement__sub_object() 0x00009ab1   Thumb Code     0  serviceframework.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QDeclarativeServiceList>::~QDeclarativeElement() 0x00009ad9   Thumb Code    24  serviceframework.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QDeclarativeServiceList>::~QDeclarativeElement__sub_object() 0x00009ad9   Thumb Code     0  serviceframework.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEED1Ev)
+    QDeclarativeListProperty<QtMobility::QDeclarativeService>::qlist_clear(QDeclarativeListProperty<QtMobility::QDeclarativeService>*) 0x00009aff   Thumb Code    12  qdeclarativeservice.o(t._ZN24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEE11qlist_clearEPS2_)
+    QDeclarativeListProperty<QtMobility::QDeclarativeService>::qlist_count(QDeclarativeListProperty<QtMobility::QDeclarativeService>*) 0x00009b0b   Thumb Code    20  qdeclarativeservice.o(t._ZN24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEE11qlist_countEPS2_)
+    QDeclarativeListProperty<QtMobility::QDeclarativeService>::qlist_append(QDeclarativeListProperty<QtMobility::QDeclarativeService>*, QtMobility::QDeclarativeService*) 0x00009b1f   Thumb Code    14  qdeclarativeservice.o(t._ZN24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEE12qlist_appendEPS2_PS1_)
+    QDeclarativeListProperty<QtMobility::QDeclarativeService>::qlist_at(QDeclarativeListProperty<QtMobility::QDeclarativeService>*, int) 0x00009b2d   Thumb Code    28  qdeclarativeservice.o(t._ZN24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEE8qlist_atEPS2_i)
+    QList<QtMobility::QServiceInterfaceDescriptor>::free(QListData::Data*) 0x00009b49   Thumb Code    82  qdeclarativeservice.o(t._ZN5QListIN10QtMobility27QServiceInterfaceDescriptorEE4freeEPN9QListData4DataE)
+    QList<QtMobility::QServiceInterfaceDescriptor>::~QList() 0x00009b9b   Thumb Code    32  qdeclarativeservice.o(t._ZN5QListIN10QtMobility27QServiceInterfaceDescriptorEED1Ev)
+    QList<QtMobility::QServiceInterfaceDescriptor>::~QList__sub_object() 0x00009b9b   Thumb Code     0  qdeclarativeservice.o(t._ZN5QListIN10QtMobility27QServiceInterfaceDescriptorEED1Ev)
+    QList<QtMobility::QDeclarativeService*>::detach_helper(int) 0x00009bbb   Thumb Code    94  qdeclarativeservice.o(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE13detach_helperEi)
+    QList<QtMobility::QDeclarativeService*>::detach_helper() 0x00009c21   Thumb Code    16  qdeclarativeservice.o(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE13detach_helperEv)
+    QList<QtMobility::QDeclarativeService*>::detach_helper_grow(int, int) 0x00009c31   Thumb Code   204  qdeclarativeservice.o(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE18detach_helper_growEii)
+    QList<QtMobility::QDeclarativeService*>::free(QListData::Data*) 0x00009d0d   Thumb Code    58  qdeclarativeservice.o(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE4freeEPN9QListData4DataE)
+    QList<QtMobility::QDeclarativeService*>::clear() 0x00009d47   Thumb Code    76  qdeclarativeservice.o(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE5clearEv)
+    QList<QtMobility::QDeclarativeService*>::append(QtMobility::QDeclarativeService*const &) 0x00009d9d   Thumb Code    94  qdeclarativeservice.o(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE6appendERKS2_)
+    QList<QtMobility::QDeclarativeService*>::node_copy(QList<QtMobility::QDeclarativeService*>::Node*, QList<QtMobility::QDeclarativeService*>::Node*, QList<QtMobility::QDeclarativeService*>::Node*) 0x00009e0b   Thumb Code    46  qdeclarativeservice.o(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEE9node_copyEPNS3_4NodeES5_S5_)
+    QList<QtMobility::QDeclarativeService*>::QList() 0x00009e39   Thumb Code    18  qdeclarativeservice.o(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEEC1Ev)
+    QList<QtMobility::QDeclarativeService*>::QList__sub_object() 0x00009e39   Thumb Code     0  qdeclarativeservice.o(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEEC1Ev)
+    QList<QtMobility::QDeclarativeService*>::~QList() 0x00009e51   Thumb Code    32  qdeclarativeservice.o(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEED1Ev)
+    QList<QtMobility::QDeclarativeService*>::~QList__sub_object() 0x00009e51   Thumb Code     0  qdeclarativeservice.o(t._ZN5QListIPN10QtMobility19QDeclarativeServiceEED1Ev)
+    QPointer<QObject>::~QPointer()           0x00009e71   Thumb Code    14  serviceframework.o(t._ZN8QPointerI7QObjectED1Ev)
+    QPointer<QObject>::~QPointer__sub_object() 0x00009e71   Thumb Code     0  serviceframework.o(t._ZN8QPointerI7QObjectED1Ev)
+    QtMobility::QDeclarativeService::staticMetaObject 0x0000a204   Data          16  qdeclarativeservice.o(.constdata)
+    QtMobility::QDeclarativeServiceList::staticMetaObject 0x0000a214   Data          16  qdeclarativeservice.o(.constdata)
+    QServiceDeclarativeModule::staticMetaObject 0x0000a77c   Data          16  serviceframework.o(.constdata)
+    stlp_priv::_Integer_limits<signed char, (signed char)-128, (signed char)127, (int)-1, (bool)1>::digits 0x0000a78c   Data           4  qdeclarativeservice.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<bool, (bool)0, (bool)1, (int)1, (bool)0>::digits 0x0000a790   Data           4  qdeclarativeservice.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    stlp_priv::_Integer_limits<char, (char)128, (char)127, (int)-1, (bool)1>::digits 0x0000a794   Data           4  qdeclarativeservice.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned char, (unsigned char)0, (unsigned char)255, (int)-1, (bool)1>::digits 0x0000a798   Data           4  qdeclarativeservice.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::digits 0x0000a79c   Data           4  qdeclarativeservice.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::is_signed 0x0000a7a0   Data           1  qdeclarativeservice.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    stlp_priv::_Integer_limits<unsigned, (unsigned)0, (unsigned)4294967295, (int)-1, (bool)1>::digits 0x0000a7a4   Data           4  qdeclarativeservice.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long, (long)-2147483648, (long)2147483647, (int)-1, (bool)1>::digits 0x0000a7a8   Data           4  qdeclarativeservice.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long, (unsigned long)0, (unsigned long)4294967295, (int)-1, (bool)1>::digits 0x0000a7ac   Data           4  qdeclarativeservice.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<short, (short)-32768, (short)32767, (int)-1, (bool)1>::digits 0x0000a7b0   Data           4  qdeclarativeservice.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned short, (unsigned short)0, (unsigned short)65535, (int)-1, (bool)1>::digits 0x0000a7b4   Data           4  qdeclarativeservice.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<wchar_t, (wchar_t)0, (wchar_t)65535, (int)-1, (bool)1>::digits 0x0000a7b8   Data           4  qdeclarativeservice.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long long, (long long)-9223372036854775808, (long long)9223372036854775807, (int)-1, (bool)1>::digits 0x0000a7bc   Data           4  qdeclarativeservice.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long long, (unsigned long long)0, (unsigned long long)18446744073709551615, (int)-1, (bool)1>::digits 0x0000a7c0   Data           4  qdeclarativeservice.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    typeinfo for QServiceDeclarativeModule   0x0000a7c4   Data          12  serviceframework.o(.constdata__ZTI25QServiceDeclarativeModule)
+    typeinfo for QtMobility::QDeclarativeService 0x0000a7d0   Data          12  qdeclarativeservice.o(.constdata__ZTIN10QtMobility19QDeclarativeServiceE)
+    typeinfo for QtMobility::QDeclarativeServiceList 0x0000a7dc   Data          12  qdeclarativeservice.o(.constdata__ZTIN10QtMobility23QDeclarativeServiceListE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QtMobility::QDeclarativeService> 0x0000a7e8   Data          12  serviceframework.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QtMobility::QDeclarativeServiceList> 0x0000a7f4   Data          12  serviceframework.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEEE)
+    typeinfo name for QServiceDeclarativeModule 0x0000a800   Data          28  serviceframework.o(.constdata__ZTS25QServiceDeclarativeModule)
+    typeinfo name for QtMobility::QDeclarativeService 0x0000a81c   Data          36  qdeclarativeservice.o(.constdata__ZTSN10QtMobility19QDeclarativeServiceE)
+    typeinfo name for QtMobility::QDeclarativeServiceList 0x0000a840   Data          40  qdeclarativeservice.o(.constdata__ZTSN10QtMobility23QDeclarativeServiceListE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QtMobility::QDeclarativeService> 0x0000a868   Data          82  serviceframework.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QtMobility::QDeclarativeServiceList> 0x0000a8ba   Data          86  serviceframework.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEEE)
+    vtable for QServiceDeclarativeModule     0x0000a910   Data          88  serviceframework.o(.constdata__ZTV25QServiceDeclarativeModule)
+    vtable for QtMobility::QDeclarativeService 0x0000a968   Data          56  qdeclarativeservice.o(.constdata__ZTVN10QtMobility19QDeclarativeServiceE)
+    vtable for QtMobility::QDeclarativeServiceList 0x0000a9a0   Data          56  qdeclarativeservice.o(.constdata__ZTVN10QtMobility23QDeclarativeServiceListE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QtMobility::QDeclarativeService> 0x0000a9d8   Data          56  serviceframework.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility19QDeclarativeServiceEEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QtMobility::QDeclarativeServiceList> 0x0000aa10   Data          56  serviceframework.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility23QDeclarativeServiceListEEE)
+    .ARM.exidx$$Base                         0x0000aae0   Number         0  ucppinit.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x0000ad78   Number         0  qdeclarativeservice.o(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x0000ad78   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    __dso_handle                             0x00400008   Data           4  ucppfini.o(.data)
+    std::_Atomic_swap_struct<(int)1>::_S_swap_lock 0x0040000c   Data          12  qdeclarativeservice.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    QMetaTypeId<QDeclarativeListProperty<QtMobility::QDeclarativeService>>::qt_metatype_id()::metatype_id 0x00400018   Data           4  serviceframework.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyIN10QtMobility19QDeclarativeServiceEEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeListProperty<QtMobility::QDeclarativeServiceList>>::qt_metatype_id()::metatype_id 0x0040001c   Data           4  serviceframework.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyIN10QtMobility23QDeclarativeServiceListEEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QtMobility::QDeclarativeService*>::qt_metatype_id()::metatype_id 0x00400020   Data           4  serviceframework.o(.data__ZZN11QMetaTypeIdIPN10QtMobility19QDeclarativeServiceEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QtMobility::QDeclarativeServiceList*>::qt_metatype_id()::metatype_id 0x00400024   Data           4  serviceframework.o(.data__ZZN11QMetaTypeIdIPN10QtMobility23QDeclarativeServiceListEE14qt_metatype_idEvE11metatype_id)
+    dtor_rec                                 0x00400028   Data        2048  ucppfini.o(.bss)
+

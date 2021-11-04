@@ -1,0 +1,57 @@
+@$plugInTable = (
+  [
+    'Recognizer',
+    '(CApaDataRecognizerType::CApaDataRecognizerType(TUid, int))',
+    '(CApaDataRecognizer::RecognizeL(.*))'
+  ],
+  [
+    'EsockProtocol',
+    '(CProtocolFamilyBase::CProtocolFamilyBase(void))',
+    'CProtocolBase::ProtocolFamily(void)'
+  ],
+  [
+    'FSY',
+    '(GetLocalDrive(int))',
+    'CFileSystem::DefaultPath(TDes16 &)'
+  ],
+  [
+    'TSY',
+    '::MPhoneBaseTSY virtual table',
+    '\\s+MPhoneBaseTSY virtual table'
+  ],
+  [
+    'MessageEditor',
+    '(CMedReadInterface::~CMedReadInterface(void))',
+    'CMedReadInterface::NewL(TUid const '
+  ],
+  [
+    'AgendaFilter',
+    '(TAgnConnectivityFilter::TAgnConnectivityFilter(void))',
+    'TAgnConnectivityFilter::IsValid(TAgnSmartLiteEntry const &) const'
+  ],
+  [
+    'AgendaObserver',
+    '(TAgnConnectivityFilter::ConnectivityIsValid(TAgnSmartLiteEntry const &)',
+    'CAgnObsController::~CAgnObsController'
+  ],
+  [
+    'CONARC',
+    '(CConverterBase::~CConverterBase(void))',
+    'CCnaConverterList::NewConverterL(TUid)'
+  ],
+  [
+    'ContactImportExport',
+    'NewConverter(void)',
+    'ContactPlugin::~CContactPlugin(void)'
+  ],
+  [
+    'ContactPhoneParser',
+    'NewPhoneNumberParser(void)',
+    'ContactPlugin::~CContactPlugin(void)'
+  ],
+  [
+    'ContactPhbkSync',
+    'MContactSynchroniser virtual table',
+    'ContactPlugin::~CContactPlugin(void)'
+  ]
+);

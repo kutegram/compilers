@@ -1,0 +1,35 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<TITLE>Hotspots model for dependencies</TITLE>
+<LINK REL="stylesheet" HREF="deps.css" TYPE="text/css">
+</HEAD>
+<BODY>
+<h1>Hotspots model for dependencies</h1>
+<p>
+The diagram below shows the hotspots for all the other dependency diagrams provided by the static
+dependency tool.
+</p>
+<p>
+For clearer explanation, the dependency of networking/tls component on comms-infras/esock is used here,
+and the outer-rectangle, which groups components by subsystem, is omitted.
+</p>
+<p>
+Click on the <b>left-hand</b> half of any inner-rectangle to go to its diagram and click on 
+<b>right-hand</b> half for its textual page.<BR>
+Click on <b>either end of arrow</b>, where it connects to rectangle, to drill down to the page providing
+details of the dependency, listing the components EXEs or DLLs causing the dependency 
+(or listing C++ functions called for EXE or DLL pages).
+</p>
+
+<map name="_map_tls">
+	<area shape="rect" coords="150,93,166,108" alt="tls-esock" href="Components/depinfo/tls.html#_imp_esock">
+	<area shape="rect" coords="179,154,195,171" alt="tls-esock" href="Components/depinfo/tls.html#_imp_esock">
+	<area shape="rect" coords="77,100,157,42" alt="tls graph" href="Components/graphs/tls.html">
+	<area shape="rect" coords="158,100,238,42" alt="tls text" href="Components/tls.html">
+	<area shape="rect" coords="105,221,185,164" alt="esock graph" href="Components/graphs/esock.html">
+	<area shape="rect" coords="186,221,264,164" alt="esock text" href="Components/esock.html">
+</map>
+<img src="hotspots.bmp" usemap="#_map_tls" border=0></img>
+</BODY>
+</HTML>

@@ -1,0 +1,141 @@
+# Last edited: 13 June 2005
+# Based on Modular Architecture Design v1.14 with JetStream Components removed and new added as necessary
+
+#---------------------------------------------------------------------------------------------
+
+#========
+# Nucleus
+#========
+
+# App-Framework subsystem
+APPARC
+CONE
+EGUL
+EMIME
+ETEXT
+FEPBASE
+# part of FORM
+form.dll
+tagma.dll
+NUMBERCONVERSION
+UIKON
+VIEWSRV
+
+# App-services subsystem
+ALARMSERVER
+BACKUPRESTORENOTIFICATION
+
+# Base subsystem
+DOMAIN # added for Cedar
+E32
+E32_EKA1
+E32_EKA2
+E32_COMPSUPP
+F32
+F32_EKA1
+F32_EKA2
+LOCE32
+elocl.dll
+
+# Comms-infras subsystem
+COMMDB
+COMMDB_EKA1
+COMMDB_SHIM
+COMMSFW
+COMMSDAT
+ELEMENTS
+ESOCK
+MBUFMAN
+NIFMAN
+ROOTSERVER
+
+
+# Graphics subsystem 
+BITGDI
+FBSERV
+FNTSTORE
+GDI
+PALETTE
+WSERV
+WSERV8.0
+WSERV8.1
+
+# Messaging subsystem
+MSG_FRAMEWORK
+
+# Networking subsystem
+DND
+INHOOK6
+INSOCK
+PPP
+TCPIP6
+
+# Security subsystem
+CAF
+CAF2
+CRYPTOGRAPHY
+cryptography.dll # needed explicitly from 8.1 which uses cryptography.lib
+
+# Ser-comms subsystem
+#part of C32
+c32.dll
+c32exe.exe
+
+# Syslibs subsystem
+BAFL
+# part of CHARCONV
+charconv.dll	# converters are optional
+CENTRALREPOSITORY
+DBMS
+ECOM
+ECOM_V1 
+ECOM_ONGOING 
+EZLIB 
+LOGENG
+LOGENGONGOING
+PWRCLI
+SCHSVR
+SCHSVR_ONGOING
+STORE
+SYSAGENT
+
+# Telephony subsystem
+DIAL
+# part of ETEL
+etel.dll
+ETELMM
+
+#===================
+# Reference Nucleus
+#===================
+# Base subsystem
+LUBBOCK
+LUBBOCK_EKA1
+LUBBOCK_EKA2
+OMAP_H2
+OMAPH4HRP
+
+# Graphics subsystem
+SCREENDRIVER
+KEYCLICKREF
+
+# Networking subsystem
+# part of DIALOG
+agentdialog.dll 
+
+# Telephony subsystem
+MMTSY
+
+# Toolkit_techview subsystem
+EIKSTD # all except the following
+-eikir.dll
+-eikmisc.dll
+-eikprint.dll 
+UIKLAF
+
+#======
+# Other
+#======
+-dummy.dll # there are a few of these in different components as artifacts of resource file-building
+
+# [eof]

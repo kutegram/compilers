@@ -1,0 +1,143 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>3.3. Building SymbianOS Programs</title><link rel="stylesheet" href="cs.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.74.0"><link rel="home" href="index.html" title="Symbian ADT Sourcery G++ Lite"><link rel="up" href="chap-target.html" title="Chapter 3. Symbian ADT Sourcery G++ Lite for ARM SymbianOS"><link rel="prev" href="sec-multilibs.html" title="3.2. Library Configurations"><link rel="next" href="ch03s04.html" title="3.4. SymbianOS Runtime Libraries"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">3.3. Building SymbianOS Programs</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="sec-multilibs.html">Prev</a> </td><th width="60%" align="center">Chapter 3. Symbian ADT Sourcery G++ Lite for ARM SymbianOS</th><td width="20%" align="right"> <a accesskey="n" href="ch03s04.html">Next</a></td></tr></table><hr></div><div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="id277462"></a>3.3. Building SymbianOS Programs</h2></div></div></div><p>
+      Building programs for SymbianOS requires you install additional
+      software and follow the SymbianOS build procedure.
+    </p><p>
+      You must install the <a class="ulink" href="http://developer.symbian.org/wiki/index.php/Symbian_C%2B%2B_Quick_Start" target="_top">Symbian
+      SDK</a>.  For Linux and OSX hosts, you will have to install
+      the SDK on a Windows machine and then make the file system
+      visible on your Linux or OSX host.  Alternatively, for Linux
+      hosts, the <a class="ulink" href="http://gnupoc.sourceforge.net/" target="_top">GnuPoc</a> project
+      provides patches.  Set the environment variable
+      <code class="envar">EPOCROOT</code> to the directory containing the
+      <code class="filename">epoc32</code> directory of your Symbian SDK
+      installation, and also ensure your <code class="envar">PATH</code> variable
+      includes the <code class="filename">$EPOCROOT/epoc32/tools</code>
+      directory.  The following commands also make use of
+      <code class="envar">epoclib</code> and <code class="envar">epocarch</code> variables
+      for convenience.  For instance, if you have installed the SDK at
+      <code class="filename">/opt/symbian-sdk</code>, enter the following
+      commands:
+
+      </p><pre class="screen">&gt; export EPOCROOT=<em class="replaceable"><code>/opt/symbian-sdk</code></em>/s60
+&gt; PATH=$EPOCROOT/epoc32/tools:$PATH
+&gt; epocinc=$EPOCROOT/epoc32/include
+&gt; epocarch=$EPOCROOT/epoc32/release/armv5</pre><p>
+    </p><p>SymbianOS programs do not start at
+    <code class="function">main</code>, but at <code class="function">E32Main</code>.
+    Using an editor (such as <code class="command">notepad</code> on Microsoft
+    Windows or <code class="command">vi</code> on UNIX-like systems), create a
+    file named <code class="filename">main.cc</code> containing the following
+    console program:
+    </p><pre class="programlisting">#include &lt;e32base.h&gt;
+#include &lt;e32cons.h&gt;
+
+_LIT (KTxtEPOC32EX, "EXAMPLES");
+_LIT (KTxtExampleCode, "Symbian OS Example Code");
+_LIT (KTxtOK, "ok [press any key]");
+
+LOCAL_D CConsoleBase* console;
+
+LOCAL_C int factorial(int n) {
+  if (n == 0)
+    return 1;
+  return n * factorial (n - 1);
+}
+
+
+LOCAL_C void callExampleL () {
+  console = Console::NewL
+    (KTxtExampleCode,
+     TSize (KConsFullScreen, KConsFullScreen));
+  CleanupStack::PushL (console);
+  
+  _LIT (KHelloWorldText, "Hello world!\n");
+  console-&gt;Printf (KHelloWorldText);
+  for (int i = 0; i &lt; 10; ++i) {
+    int n = factorial (i);
+    _LIT (KFactorialText, "factorial(%d) = %d\n");
+    console-&gt;Printf (KFactorialText, i, n);
+  }
+  
+  console-&gt;Printf (KTxtOK);
+  console-&gt;Getch ();
+  CleanupStack::PopAndDestroy ();
+}
+
+GLDEF_C TInt E32Main () {
+  __UHEAP_MARK;
+  CTrapCleanup *cleanup = CTrapCleanup::New ();
+  TRAPD (error, callExampleL ());
+  __ASSERT_ALWAYS (!error, User::Panic (KTxtEPOC32EX, error));
+  delete cleanup;
+  __UHEAP_MARKEND;
+  return 0;
+}
+</pre><p>
+      To compile your program use the following command:
+
+      </p><pre class="screen">&gt; arm-none-symbianelf-g++ -march=armv5t -mthumb -mapcs -nostdinc \
+  -D__MARM__ -D__MARM_ARMV5__ -D__MARM_THUMB__ \
+  -D__MARM_INTERWORK__ -D__EABI__ -D__EXE__ \
+  -D_DEBUG -D_UNICODE -D__SUPPORT_CPP_EXCEPTIONS__ \
+  -D__GCCE__ -D__SYMBIAN32__ -D__EPOC32__ \
+  -D__S60_50__ -D__S60_3X__ -D__SERIES60_3X__ \
+  -D__PRODUCT_INCLUDE__=\"$epocinc/variant/symbian_os.hrh\" \
+  -include $epocinc/gcce/gcce.h \
+  -I $epocinc/libc -I $epocinc -I $epocinc/variant \
+  -c -g -o main.o main.cc</pre><p>
+
+    You may see some warnings.  These are from Symbian SDK header
+    files, not Sourcery G++ files. 
+    </p><p>
+      You can link your application with:
+
+      </p><pre class="screen">&gt; arm-none-symbianelf-g++ -march=armv5t -mthumb -mapcs -nostdlib \
+  -Wl,--target1-abs -Wl,--no-undefined \
+  -Wl,-Ttext,0x8000 -Wl,-Tdata,0x400000 \
+  -Wl,--default-symver -Wl,-soname,"factorial{000a0000}.exe" \
+  -Wl,--entry,_E32Startup -Wl,-u,_E32Startup \
+  $epocarch/udeb/eexe.lib \
+  -shared -g -o factorial.sym main.o \
+  -Wl,"-(" -Wl,$epocarch/udeb/usrt2_2.lib \
+  -Wl,$epocarch/udeb/ecrt0.lib -Wl,"-)" \
+  -Wl,$epocarch/lib/estlib.dso \
+  -Wl,$epocarch/lib/euser.dso \
+  -Wl,$epocarch/lib/dfpaeabi.dso \
+  -Wl,$epocarch/lib/dfprvct2_2.dso \
+  -Wl,$epocarch/lib/drtaeabi.dso \
+  -Wl,$epocarch/lib/scppnwdl.dso \
+  -Wl,$epocarch/lib/drtrvct2_2.dso \
+  -lsupc++ -lgcc</pre><p>
+
+      This produces a <code class="filename">factorial.sym</code>
+      file that can be used by <code class="command">arm-none-symbianelf-gdb</code>.
+    </p><p>
+      To run the program on SymbianOS, you must convert this file to
+      EPOC32 format using the <code class="command">elf2e32</code> command.  The
+      <code class="command">elf2e32</code> is part of the Symbian SDK and not
+      part of Sourcery G++.  If you are using a Linux or OSX host, and
+      did not install GnuPoc, you must install <a class="ulink" href="http://www.winehq.org/" target="_top">Wine</a> and invoke 
+      <code class="command">elf2e32</code> as:
+
+      </p><pre class="screen">&gt; wine $EPOCROOT/epoc32/tools/elf2e32.exe <em class="replaceable"><code>other options</code></em></pre><p>
+    </p><p>
+      The following command creates <code class="filename">factorial.exe</code>:
+
+      </p><pre class="screen">&gt; elf2e32 --sid=0x00000000 --version=10.0 --uid1=0x1000007a \
+  --uid2=0xe8000075 --uid3=0x00000000 --vid=0x70000001 \
+  --capability=none --fpu=softvfp --targettype=EXE \
+  --output="factorial.exe" --elfinput="factorial.sym" \
+  --linkas="factorial{000a0000}.exe" \
+  --libpath="$epocarch/lib"</pre><p>
+    </p><p>
+      <span>
+        Refer to <a class="xref" href="qemu-platform.html" title="4.3. Running Applications with QEMU Platform Emulator">Section 4.3, &#8220;Running Applications with QEMU Platform Emulator&#8221;</a> for instructions on
+        running your program using QEMU.
+      </span>
+      See <a class="xref" href="sec-remote-debugging.html" title="4.4. Running Applications from GDB">Section 4.4, &#8220;Running Applications from GDB&#8221;</a>
+      for details of using arm-none-symbianelf-gdb to debug your program.
+      <span>
+        Refer to <a class="xref" href="sprite.html" title="Chapter 5. Sourcery G++ Debug Sprite">Chapter 5, &#8220;Sourcery G++ Debug Sprite&#8221;</a> for information on how to
+        connect arm-none-symbianelf-gdb to your target.
+      </span>
+    </p></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="sec-multilibs.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="chap-target.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="ch03s04.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">3.2. Library Configurations </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> 3.4. SymbianOS Runtime Libraries</td></tr></table></div></body></html>

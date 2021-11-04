@@ -1,0 +1,18 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>5.7. Mouse</title><link rel="stylesheet" href="cs.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.74.0"><link rel="home" href="index.html" title="Symbian ADT Sourcery G++ Lite"><link rel="up" href="chap-plugins.html" title="Chapter 5. Device Plugins"><link rel="prev" href="ch05s06.html" title="5.6. Keyboard"><link rel="next" href="ch05s08.html" title="5.8. Interfacing with C code"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">5.7. Mouse</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ch05s06.html">Prev</a> </td><th width="60%" align="center">Chapter 5. Device Plugins</th><td width="20%" align="right"> <a accesskey="n" href="ch05s08.html">Next</a></td></tr></table><hr></div><div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="id362586"></a>5.7. Mouse</h2></div></div></div><p>
+   The <code class="literal">qemu.register_mouse(handler, absolute)</code> function
+   allows a device to respond to mouse input.  When a mouse event occurs
+   <code class="literal">handler(x, y, z, buttons)</code> is called.  The
+   <code class="literal">absolute</code> argument should be True for touchscreen type
+   devices, and False for mouse type devices.
+  </p><p>
+   The <code class="literal">x</code> and <code class="literal">y</code> values specify the
+   horizontal and vertical cursor position. In absolute mode these are
+   coordinates between 0 (top/left) and 32767 (bottom/right). In relative
+   mode they are distance from the previous position.
+  </p><p>
+   The <code class="literal">z</code> value specifies the movement of the scroll wheel.
+  </p><p>
+   Bits 0,1 and 2 of the <code class="literal">buttons</code> value specify the state
+   of the left, right and middle mouse buttons respectively.  A set bit
+   indicates that the button is pressed.
+  </p></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ch05s06.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="chap-plugins.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="ch05s08.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">5.6. Keyboard </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> 5.8. Interfacing with C code</td></tr></table></div></body></html>

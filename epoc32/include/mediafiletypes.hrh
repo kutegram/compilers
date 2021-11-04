@@ -1,0 +1,42 @@
+/*
+* ==============================================================================
+*  Name        : MediaFileTypes.hrh
+*  Part of     : Media Gallery
+*  Description :
+*  Version     : ?Version
+*
+*  Copyright (c) 2002 Nokia Corporation.
+*  This material, including documentation and any related
+*  computer programs, is protected by copyright controlled by
+*  Nokia Corporation. All rights are reserved. Copying,
+*  including reproducing, storing, adapting or translating, any
+*  or all of this material requires the prior written consent of
+*  Nokia Corporation. This material also contains confidential
+*  information which may not be disclosed to others without the
+*  prior written consent of Nokia Corporation.
+* ==============================================================================
+*/
+
+#ifndef MEDIAFILETYPES_HRH
+#define MEDIAFILETYPES_HRH
+
+//  CONSTANTS
+
+// Media file types supported by Media Gallery
+
+enum TMediaFileType
+    {
+    ENoMediaFile         = 0x00000000,
+    EImageFile           = 0x00000001,
+    EVideoFile           = 0x00000002,
+    EAudioFile           = 0x00000004,
+    ERAMFile             = 0x00000008,
+    EPlaylistFile        = 0x00000010,
+    EGMSFile             = 0x00000020,      // Not supported since Series 60 2.6
+    EMusicFile           = 0x00000040,
+    EPresentationsFile   = 0x00000080,      // Supported since Series 60 3.0
+    EAnyMediaFile        = 0x0000FFFF
+    };
+
+#endif  // MEDIAFILETYPES_HRH
+// End of File

@@ -1,0 +1,468 @@
+# Last edited: 19 Nov 2003
+#logComment: Based on Modular Architecture Design v1.14 with Jetstream components removed
+#logComment: and adding 7.0s initial actual dependencies that won't be broken yet (marked by
+#logComment: the comment "# @deprecated") and adding essential dependencies in the baseline
+#logComment: 7.0s build: 03070_beech (29/7/2003) after which new non-configurable deps 
+#logComment: shouldn't be added without authorisation. New dependencies should then be
+#logComment: marked with the comment "# @unauthorised" until authorised
+
+#---------------------------------------------------------------------------------------------
+
+appinst : sisinstaller
+appinst : crypto.dll ocsp.dll pkixcert.dll x509.dll  # Certman (PKI security)
+sisinstaller : insteng.dll # appinst
+biomsg : wapmessage
+bluetooth_manager : bluetooth_user
+bluetooth_btextnotifiers : bluetooth_manager bluetooth_user
+bluetooth_gavdp : bluetooth_user
+bluetooth_user : bluetooth_manager
+bluetooth_sdp : bluetooth_user
+bluetooth_stack : bluetooth_manager bluetooth_user
+bluetooth_hci : bluetooth_user
+bluetooth_btcomm : bluetooth_manager bluetooth_sdp bluetooth_user
+bluetooth_avrcp : bluetooth_remotecontrol bluetooth_user bluetooth_sdp
+msg_biomsg : wapmessage # biomsg renamed in MCL
+certman : http
+certman : inetprotutil
+certman : cryptotokens filetokens securitycommon
+secutil : http inetprotutil.dll
+convert : wpeng
+convert : print
+ealwl : worldserver
+ekern.exe : elocl.dll
+freetype : stdlib
+fxcm.dll : print
+faxprnt2.pdl : pdrstore
+http : inetprotutil
+httpsecuresocket.dll : x509.dll securesocket.dll x500.dll crypto.dll
+icl_gifscaler : icl
+j2meplugins : stdlib systemamsplugins
+midp2recognizer.rdl : midp2client.dll
+midp2recognizer.dll : midp2client.dll
+j2meruntime : stdlib j2meplugins systemams
+j2meruntime : certman
+j2meruntime : mmf
+systemams : stdlib j2meplugins javamidletinstaller
+systemamsplugins : j2meplugins
+logeng : cntmodel # dependency to be broken
+mms : http
+mms : wappush
+msg_mms : http # msg supercomponent split into smaller components in MCL
+msg_mms : wappush
+msg_scheduledsend : schsvr_v2
+printdrv : pdrstore
+syncmlclient : http
+syncmlclient : stdlib
+syncmlclient : inetprotutil
+syncmlclient : wbxmlparser.dll
+tlsprovider : tls
+wapstack : cryptalg
+wapstack : stdlib
+wpeng : print
+# part of telephony_watchers on part of msg_framework
+telwatcherbase.dll : watcher.exe
+
+# unknown components
+metrotrk.exe : trkengine.dll
+trkkerneldriver.ldd : trkkernelstub.dll
+gdbstub.exe : gdbseng.dll
+midp2systemamsconfig.dll : midp2protectiondomainbinding.dll
+
+#---------------------------------------------------------------------------------------------
+# The following have been added using actual dependencies in baseline 7.0s build
+# These are allowed for now and marked as "@deprecated" but should probably be removed in 
+# future and should just be commented out where this has been done
+# "@unauthorised" marks new dependencies specifically not authorised
+# "new @deprecated" marks new dependencies recognised as probably essential
+
+# Component app-engines/cntmodel:
+cntmodel.dll : versit.dll conarc.dll # @deprecated
+cntvcard.dll : versit.dll vcard.dll # @deprecated
+
+# Component app-engines/convert:
+txtword.cnv : conarc.dll # @deprecated
+txtword.dll : conarc.dll print.dll wpeng.dll # @deprecated
+
+# Component app-engines/agnversit:
+agnversit.dll : vcal.dll versit.dll agnmodel.dll conarc.dll # @deprecated
+
+# Component app-framework/uikon:
+eikcore.dll : clock.dll # @deprecated
+
+# Component app-framework/cone:
+cone.dll : mediaclient.dll mediaclientaudio.dll # @deprecated
+
+# Component app-services/chtmltocrtconverter:
+chtmltocrtconverter.cnv : conarc.dll # @deprecated
+chtmltocrtconverter.dll : conarc.dll # @deprecated
+
+# Component app-services/conarc_plugins:
+rt2htmcv.cnv : conarc.dll # @deprecated
+rt2htmcv.dll : conarc.dll # @deprecated
+wordcomm.dll : wpeng.dll print.dll # @deprecated
+wordread.cnv : conarc.dll # @deprecated
+
+# Component app-services/sysagent:
+sawatcherbase.dll : watcher.exe # @authorised
+indicatorwatcher.dll : watcher.exe # @
+signalstrengthwatcher.dll : watcher.exe # @authorised
+
+# Component app-services/versit:
+versit.dll : conarc.dll # @deprecated
+
+# Component application-protocols/http:
+tfcorefilters.dll : imut.dll # @deprecated
+nwsswsptrhnd.dll : wapstkcli.dll capcodec.dll # @authorised
+
+# Component application-protocols/bookmark:
+bookmarkdb.dll : inetprotutil.dll # @authorised
+
+# Component conn-framework/ec_customservers:
+gencserv.cs : ectcpadapter.dll # @deprecated
+epoccap.cs : ectcpadapter.dll insteng.dll # @deprecated
+ecbrdcst.cs : ectcpadapter.dll brdcst.dll # @deprecated
+emsync.dll : imcm.dll # @deprecated
+eccecsvr.cs : cntmodel.dll ectcpadapter.dll brdcst.dll plpvariant.dll # @deprecated
+agnapi.dll : agnmodel.dll wpeng.dll #@deprecated
+syncaid.dll : agnmodel.dll # @deprecated
+agnsynca.dll : agnmodel.dll ealwl.dll plpvariant.dll # @deprecated
+agndasvr.cs : agnsynca.dll ectcpadapter.dll #@deprecated
+rpcs.cs : ectcpadapter.dll plpvariant.dll # @deprecated
+scrfs.cs : ectcpadapter.dll plpvariant.dll # @deprecated
+backuppro.dll : mstreamlegacy.dll plpvariant.dll mstreamman.dll # @deprecated
+contpro.dll : mstreamman.dll cntmodel.dll mstreamlegacy.dll plpvariant.dll # @deprecated
+
+# Component conn-framework/mrouter:
+mrouterclient.dll : btdevice.dll plpvariant.dll btregistry.dll bluetooth.dll btmanclient.dll usbman.dll sdpdatabase.dll # @deprecated
+mrouterclientui.app : btdevice.dll bluetooth.dll btregistry.dll # @deprecated
+
+# Component connectivity/connectivity:
+# serversocket.dll : flogger.dll # new @unauthorised
+servicebroker.exe : xmldom.dll xmlparser.dll flogger.dll # new @deprecated
+scremotefileserver.exe : flogger.dll # new @deprecated
+swinstallserver.exe : javareader.dll insteng.dll javahelper.dll x509.dll crypto.dll pkixcert.dll flogger.dll # new @deprecated
+syncmlinitserver.exe : smlclient.dll
+
+# Component connmiscplug-ins/pcmtm:
+sync.dll : imcm.dll #@deprecated
+
+# Component connmiscplug-ins/asfilter:
+asfilter.dll : agnmodel.dll # @deprecated
+
+# Component content-handling/content_handling:
+filedatasupplier.dll : inetprotutil.dll
+
+# Component infra-red/irda:
+irobex.dll : bluetooth.dll irda.dll # @deprecated
+lubbockobex.dll : bluetooth.dll # @deprecated (renamed from irobex.dll for lubbock)
+
+# Component j2me/j2meplugins:
+lcdgr.dll : mediaclientimage.dll # @deprecated
+lcdui.dll : cntmodel.dll cntview.dll # @deprecated
+libgles_cm.dll : estlib.dll
+jbluetoothpush.dll : bluetooth.dll btdevice.dll sdpdatabase.dll
+midp2db.dll : midp2adt.dll
+midp2httpnative.dll : http.dll refhttpclient.dll
+midp2jtwironesecurity.dll : midp2adt.dll midp2securitypolicyv2.dll midp2useragent.dll midp2userpreferences.dll
+midp2systemamsconfig.dll : midp2httpnative.dll midp2securitypolicyv2.dll
+midp2useragent.dll : midp2adt.dll midp2useragentui.dll
+midp2useragentnotifierui.dll : midp2useragent.dll midp2useragentuifactory.dll
+midp2useragentuifactory.dll : midp2useragent.dll
+midp2userpreferences.dll : midp2db.dll
+midperm.ctl : midp2securitypolicyv2.dll midp2userpreferences.dll
+refhttpclient.dll : http.dll inetprotutil.dll
+refhttpproxy.dll : http.dll
+refmultimedia.dll : bitmaptransforms.dll ecam.dll imageconversion.dll mediaclientaudio.dll mediaclientaudiostream.dll mediaclientvideo.dll midiclient.dll mmfcontrollerframework.dll
+refpim.dll : agnmodel.dll cntmodel.dll conarc.dll vcard.dll
+
+# Component j2me/j2meruntime:
+mmidp20.exe : bluetooth.dll btdevice.dll btmanclient.dll btregistry.dll gsmu.dll midp2proxyconnection.dll sdpdatabase.dll sdpagent.dll securesocket.dll smsu.dll
+hmidp80.exe : bluetooth.dll btdevice.dll btmanclient.dll crypto.dll estlib.dll gsmu.dll mediaclientaudio.dll midp2proxyconnection.dll redircli.dll refhttpclient.dll rmsreserve.dll sdpagent.dll sdpdatabase.dll securesocket.dll smsu.dll x500.dll x509.dll libgles_cm.dll
+hmidp81.exe : bluetooth.dll btdevice.dll btmanclient.dll crypto.dll estlib.dll gsmu.dll libgles_cm.dll mediaclientaudio.dll midp2proxyconnection.dll redircli.dll refhttpclient.dll rmsreserve.dll sdpagent.dll sdpdatabase.dll securesocket.dll smsu.dll usbman.dll x500.dll x509.dll
+
+# Component j2me/systemams:
+midp2securitypolicy.dll : midp2domainpolicyfileparser.dll
+jsmspush.dll : gsmu.dll smsu.dll
+javaams.dll : midp2db.dll rmsreserve.dll
+
+# Component messaging/biomsg:
+iacp.dll : imcm.dll smcm.dll # @deprecated
+enp.dll : imcm.dll # @deprecated
+biowatcher.dll : watcher.exe gsmu.dll smcm.dll # @deprecated
+nbswatcher.dll : watcher.exe gsmu.dll smcm.dll smsu.dll # @deprecated
+wapwatcher.dll : watcher.exe gsmu.dll # @deprecated
+
+# Component messaging/msg and messaging/msg_*:
+fxcm.dll : faxcli.dll faxstrm.dll # @deprecated
+faxs.dll : faxio.dll faxcli.dll faxstrm.dll # @deprecated
+faxprnt2.pdl : faxstrm.dll # @deprecated
+imcm.dll : cntmodel.dll conarc.dll # @deprecated
+imut.dll : securesocket.dll # @deprecated
+smcm.dll : cntmodel.dll gsmu.dll biodb.dll # @authorised
+smcm_gsm.dll : cntmodel.dll gsmu.dll biodb.dll # @authorised
+smss.dll : bifu.dll gsmu.dll smsu.dll biodb.dll schsend.dll # @authorised
+smss_gsm.dll : bifu.dll gsmu.dll smsu.dll biodb.dll schsend.dll smcm.dll # @authorised
+
+# Component messaging/imps:
+imps.dll : imut.dll imcm.dll # @deprecated
+
+# Component messaging/mms:
+mmscodec.dll : inetprotutil.dll # @deprecated
+mmss.dll : inetprotutil.dll # @deprecated
+
+# Component messaging/obexmtm:
+obexmtmutil.dll : bluetooth.dll sdpdatabase.dll sdpagent.dll irobex.dll biodb.dll # @deprecated
+obexservermtm.dll : irobex.dll # @deprecated
+btcmtm.dll : bluetooth.dll # @deprecated
+btsmtm.dll : bluetooth.dll irobex.dll # @deprecated
+irc.dll : irda.prt # @deprecated
+irs.dll : irobex.dll irda.prt # @deprecated
+
+# Component multimedia/icl:
+mediaclientimage.dll : mediaclient.dll # @deprecated
+
+# Component multimedia/mmf:
+mmfcontrollerframework.dll : inetprotutil.dll # new @unauthorised
+
+# Component multimedia/mmf_asr:
+mmf_asr : mmfcontrollerframework.dll # @authorised
+
+# Component networking/ether802:
+irlan.drv : irda.prt # @deprecated
+
+# Component networking/ipsec:
+ipsec : certman # @authorised
+pkiservice.exe : ctframework.dll  # @authorised
+
+# Component networking/guqos:
+guqos.prt : etelpckt.dll pfqoslib.dll scheduler.dll umtsif.dll # @deprecated
+
+# Component networking/netcon:
+netcon.dll : etelpckt.dll # @deprecated
+
+# Component networking/psdagt:
+psd.agt : etelpckt.dll # @deprecated
+
+# Component networking/qos:
+qos.prt : pfqoslib.dll # @deprecated
+
+# Component networking/qoslib:
+qoslib.dll : pfqoslib.dll # @deprecated
+
+# Component networking/telnet_e:
+telsess.dll : flogger.dll # @deprecated
+
+# Component networking/tls:
+ssl.dll : bigint.dll x509.dll x500.dll crypto.dll pkixcert.dll tlsprovider.dll # @authorised
+
+# Component networking/tlsprovider:
+tlsprovider : certman cryptotokens # @authorised
+
+# Component networking/umtsapi:
+umtsapi.dll : qoslib.dll # @deprecated
+
+# Component networking/umtsif:
+umtsif.dll : etelpckt.dll # @deprecated
+
+# Component networking/eaysymb:
+eaysymb.prt : cryptalg.dll # @deprecated
+
+# Component networking/ipsecapi:
+ipsecapi.dll : ipsecmanapi.dll kmdapi.dll # @deprecated
+
+# Component networking/ipsecmanserver:
+ipsecmanserver.exe : secparser.dll bigint.dll privkey.dll cryptalg.dll asn1.dll pkcs5.dll # @deprecated
+
+# Component networking/kmdserver:
+kmdserver.exe : secparser.dll ipsecmanapi.dll bigint.dll x509.dll cryptalg.dll x500.dll crypto.dll # @deprecated
+
+# Component networking/pkcs5:
+pkcs5.dll : cryptalg.dll asn1.dll # @deprecated
+
+# Component security/appinst:
+insteng.dll : javareader.dll javahelper.dll brdcst.dll plpvariant.dll custommidletinstall.dll # @deprecated
+instsrv.dll : javareader.dll javahelper.dll plpvariant.dll # @deprecated
+
+# Component security/certman:
+#asn1.dll : bigint.dll # @deprecated
+#crypto.dll : bigint.dll # @deprecated
+filecertstore.dll : ctframework.dll # @deprecated
+certstore.dll : ctframework.dll # @deprecated
+x509.dll : bigint.dll cryptalg.dll # @deprecated
+ocsp.dll : bigint.dll ctframework.dll # @deprecated
+pkixcert.dll : ctframework.dll # @deprecated
+wtlscert.dll : bigint.dll cryptalg.dll ctframework.dll # @deprecated
+
+# Component security/filetokens:
+filetokens : certman cryptotokens # new @deprecated
+
+# Component security/javamidletinstaller:
+javaregistry.dll : installedappsregistry.dll # @deprecated
+statusreportsender.dll : http.dll inetprotutil.dll # @deprecated
+javahelper.dll : inetprotutil.dll x509.dll asn1.dll installedappsregistry.dll sisregistry.dll midp2installerclient.dll integritysupport.dll cryptalg.dll crypto.dll pkixcert.dll ocsp.dll plpvariant.dll # @deprecated
+jardownloader.dll : http.dll inetprotutil.dll # @deprecated
+jardownloader.dll : securitycommon
+apagenerator.dll : mediaclientimage.dll # @deprecated
+
+# Component security/sisinstaller:
+sisfile.dll : x509.dll cryptalg.dll crypto.dll pkixcert.dll # @deprecated
+notificationprocessor.dll : crypto.dll http.dll inetprotutil.dll ocsp.dll pkcs7.dll pkixcert.dll x509.dll # @authorised
+
+# Component syncml/syncmlclient:
+smlagendadba.dll : agnmodel.dll # @authorised
+smlagendadataprov.dll  : agnmodel.dll # @authorised
+smlcontactsdba.dll : cntmodel.dll # @authorised
+smlcontactsdataprov.dll : cntmodel.dll # @authorised
+smlengine.dll : imut.dll # @unauthorised
+smllogger.dll : flogger.dll # @authorised 
+smlsyncdatastore.dll : cenrepcli.dll # new @deprecated
+smlobexbase.dll : irobex.dll # new @deprecated
+smlirobex.dll : irda.prt irda.dll # @authorised
+smlbtobex.dll : bluetooth.dll sdpdatabase.dll sdpagent.dll # new @deprecated
+smlwappushplugin.dll : wappushutils.dll # @authorised
+devmancmdmgr.dll : treestore.dll cenrepcli.dll # new @deprecated
+devmanplugins.dll : cenrepcli.dll # new @deprecated
+dmagent.exe : cenrepcli.dll # new @deprecated
+dmbookmarksadapter.dll : bookmark_support
+dmemailadapter.dll : msg_email
+dmsmsadapter.dll : smcm_gsm.dll
+dmmmsadapter.dll : mmssettings.dll
+dmappmgtadapter.dll : javamidletinstaller securesoftwareinstall
+uninstallhs.exe : securesoftwareinstall  javamidletinstaller
+
+# Component syslibs/cenrep
+treestore.dll : imut.dll # @unauthorised
+
+# Component telephony/etel:
+faxcli.dll : faxstrm.dll # @authorised
+faxsvr.dll : faxio.dll # @authorised
+
+# Component telephony/faxstrm:
+faxstrm.dll : faxio.dll # @authorised
+
+# Component telephony/mmtsy:
+mm.tsy : flogger.dll etelpckt.dll # @deprecated
+
+# Component telephony/phbksync:
+phbksyncsvr.dll : cntmodel.dll etelsat.dll # @deprecated
+phbksyncplugin.dll : cntmodel.dll # @deprecated
+phbksyncsvrexe.exe : cntmodel.dll etelsat.dll 
+
+# Component wap-browser/wappush:
+wappushutils.dll : httpresponse.dll # @authorised
+pushcontenthandler.dll : smcm.dll bifu.dll gsmu.dll biodb.dll # @authorised
+pushcontenthandler.dll : inetprotutil.dll # @authorised
+sislcontenthandlers.dll : bnf.dll dtdmdl.dll wbxmllib.dll wnode.dll xmllib.dll wutil.dll # @authorised
+pushwatcher.dll : watcher.exe wapmsgcli.dll # @authorised
+
+# Component wap-browser/wappushsupport:
+httpresponse.dll : inetprotutil.dll # @authorised
+xmllib.dll : bnf.dll wnode.dll wutil.dll # @authorised
+xmlelemt.dll : wnode.dll wutil.dll # @authorised
+
+# Component wap-browser/wapbase:
+wutil.dll : inetprotutil.dll # @authorised
+
+# Component wap-stack/wapmessage:
+wapmsg.dll : wapstkcli.dll # @authorised
+
+
+### Techview components
+
+# Component apps_techview/agenda:
+agenda.app : eikprint.dll eikir.dll agnmodel.dll print.dll # @deprecated
+
+# Component apps_techview/audio:
+audio.app : mmfcontrollerframework.dll mediaclientaudio.dll
+audio.exe : mmfcontrollerframework.dll mediaclientaudio.dll
+
+# Component apps_techview/contacts:
+contacts.app : send.dll phbksyncsvr.dll eikprint.dll eikir.dll contacui.dll cntview.dll cntmodel.dll print.dll muiu.dll # @deprecated
+contactsimagelibraryloader.dll : imageconversion.dll # @deprecated
+
+# Component apps_techview/contacui:
+contacui.dll : cntmodel.dll # @deprecated
+
+# Component apps_techview/syncmlapp:
+smlapplication.app : smlutils.dll smlcontroller.dll # @deprecated
+smlapplication.app : smlclient.dll # techview_new @deprecated
+smluinotifiers.dll : smlclient.dll # techview_new @deprecated
+
+# Component apps_techview/help:
+help.app : hlpmodel.dll # @deprecated
+
+# Component apps_techview/timew:
+timew.app : worldclient.dll # @deprecated
+
+# Component apps_techview/video:
+video.app : mmfcontrollerframework.dll mediaclientvideo.dll # @deprecated
+
+# Component apps_techview/word:
+word.app : eikprint.dll wpeng.dll undo.dll form_and_etext_editor.dll print.dll conarc.dll # @deprecated
+
+# Component apps_techview/paint:
+paint.app : imageconversion.dll eikir.dll bitmaptransforms.dll # @deprecated
+
+# Component apps_techview/secui:
+certuiutil.dll : x509.dll certstore.dll ctframework.dll wtlscert.dll crypto.dll pkixcert.dll # @deprecated
+addcert.app : certstore.dll # @deprecated
+certman.ctl : certstore.dll x509.dll ctframework.dll wtlscert.dll # @deprecated
+secdlg.dll : certstore.dll x509.dll ctframework.dll wtlscert.dll # @deprecated
+
+# Component apps_techview/instapp:
+instapp.app : x509.dll insteng.dll certuiutil.dll # @deprecated
+instctrl.ctl : insteng.dll installedappsregistry.dll certuiutil.dll pkixcert.dll # @deprecated
+
+# Component commsui_techview/connectui:
+connectui.app : balclient.dll servicebrokerclient.dll # techview_new @deprecated
+
+# Component commsui_techview/bluetoothui:
+btuiutility.dll : btdevice.dll bluetooth.dll btmanclient.dll # @authorised
+btsharedui.dll : btdevice.dll btregistry.dll # @authorised
+btuinotifiers.dll : btdevice.dll btregistry.dll bluetooth.dll btextnotifiers.dll btmanclient.dll # @authorised
+btconfig.ctl : btdevice.dll btregistry.dll bluetooth.dll btextnotifiers.dll btmanclient.dll sdpdatabase.dll # @authorised
+
+# Component commsui_techview/ipsec:
+ipsec.ctl : ipsecapi.dll # @authorised
+installdetection.app : ipsecapi.dll # @authorised
+
+# Component messagingui_techview/messagingui:
+muiu.dll : send.dll eikprint.dll print.dll pdrprt.dll mtur.dll # @deprecated
+mcentre.app : eikprint.dll imcm.dll print.dll mtur.dll # @deprecated
+mcentre.exe : eikprint.dll imcm.dll print.dll mtur.dll # @deprecated
+msgeditor.app : mtur.dll # @deprecated
+mailinit.exe : mtur.dll flogger.dll # @deprecated
+msgdebugger.app : imcm.dll mtur.dll # @deprecated
+imum.dll : imcm.dll cntmodel.dll print.dll mtur.dll # @deprecated
+emaileditor.dll : imcm.dll # @deprecated
+smum.dll : gsmu.dll schsend.dll smcm.dll cntmodel.dll print.dll mtur.dll # @deprecated
+smseditor.dll : gsmu.dll smcm.dll # @deprecated
+mmsmtmui.dll : mmsutils.dll mtur.dll # @deprecated
+mmseditor.dll : smiltranslator.dll mmsutils.dll # @deprecated
+bium.dll : bifu.dll mtur.dll biodb.dll # @deprecated
+bioviewer.dll : smcm.dll gsmu.dll # @deprecated
+
+# Component misc_techview/soundsetup:
+sound.ctl : mediaclientaudio.dll # @deprecated
+
+# Component misc_techview/keyclickref:
+keyclickref.dll : mediaclientaudio.dll # @deprecated
+
+# Component networking_techview/vpnui:
+vpnpolins.exe : vpnapi.dll # @authorised
+
+# Component toolkit_techview/uiklaf:
+uiklaf.dll : clock.dll # @deprecated
+
+# Component toolkit_techview/eikstd:
+eikctl.dll : clock.dll worldclient.dll mediaclientaudio.dll # @deprecated
+eikcdlg.dll : worldclient.dll mediaclientaudio.dll # @deprecated
+eikprint.dll : prev.dll print.dll pdrprt.dll # @deprecated
+eikir.dll : plpremlink.dll irobex.dll irda.prt # @deprecated
+eikmisc.dll : grid.dll # @deprecated
+eiksrvui.dll : mediaclientaudio.dll plpremlink.dll # @deprecated
+
+# Component toolkit_techview/shell:
+shell.app : eikprint.dll extras.dll worldclient.dll prev.dll print.dll plpremlink.dll # @deprecated
+
+# [eof]

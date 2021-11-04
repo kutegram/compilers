@@ -1,0 +1,38 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>3.11. Snapshot Device</title><link rel="stylesheet" href="cs.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.74.0"><link rel="home" href="index.html" title="Symbian ADT Sourcery G++ Lite"><link rel="up" href="chap-devices.html" title="Chapter 3. Base Platform Devices"><link rel="prev" href="ch03s10.html" title="3.10. Host Filesystem Device"><link rel="next" href="ch03s12.html" title="3.12. Network Device"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">3.11. Snapshot Device</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ch03s10.html">Prev</a> </td><th width="60%" align="center">Chapter 3. Base Platform Devices</th><td width="20%" align="right"> <a accesskey="n" href="ch03s12.html">Next</a></td></tr></table><hr></div><div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="id369477"></a>3.11. Snapshot Device</h2></div></div></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id369482"></a>3.11.1. Description</h3></div></div></div><p>
+    This device allows snapshots of the virtual machine to be created and
+    restored.  The name of the snapshot is an ASCII string read from RAM.
+    The name need not be null terminated.
+   </p><div class="note" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Note</h3><p>
+     The snapshot might not take effect immediately.  It can occur any time
+     between the <code class="literal">TRIGGER</code> store and the next branch
+     instruction.
+    </p></div><p>
+    Normally QEMU stores machine snapshots in a QCOW2 image file, along with
+    a snapshot of the image.  If the snapshot name starts with
+    <code class="literal">file:</code> then the rest of the name is interpreted as a
+    filename, and the snapshot is read from/written to that file.
+   </p><p>
+    Snapshots can also be loaded with the
+    <code class="literal">-loadvm <em class="replaceable"><code>name</code></em></code> commandline
+    option or the <code class="literal">loadvm</code> monitor command.
+   </p><div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Warning</h3><p>
+     The host filesystem device allows a machine to interact with files
+     not under the control of QEMU.  The state of these files is not
+     included in the snapshot, and any open handles will be closed when
+     the snapshot is restored.
+    </p></div></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id369541"></a>3.11.2. Device Properties</h3></div></div></div><div class="variablelist"><dl><dt><span class="term"><code class="literal">compatible</code></span></dt><dd><code class="literal">syborg,snapshot</code></dd></dl></div></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id369569"></a>3.11.3. Registers</h3></div></div></div><p>
+    </p><div class="table"><a name="id369576"></a><p class="title"><b>Table 3.10. Snapshot Device Registers</b></p><div class="table-contents"><table summary="Snapshot Device Registers" border="1"><colgroup><col><col><col><col><col></colgroup><thead><tr><th>Offset</th><th>Access</th><th>Reset</th><th>Name</th><th>Description</th></tr></thead><tbody><tr><td>0x000</td><td>R</td><td>0xc51d0009</td><td>ID</td><td><p>
+          Peripheral ID.
+        </p></td></tr><tr><td>0x004</td><td>RW</td><td>0x00000000</td><td>ADDRESS</td><td><p>
+          The memory address of the snapshot name.
+        </p></td></tr><tr><td>0x008</td><td>RW</td><td>0x00000000</td><td>ADDRESS</td><td><p>
+          The length (in bytes) of the snapshot name.
+        </p></td></tr><tr><td>0x00c</td><td>W</td><td>N/A</td><td>TRIGGER</td><td>
+         <p>
+          Write 1 to this register to create a snapshot.
+         </p>
+         <p>
+          Write 2 to this register to restore from a snapshot.
+         </p>
+        </td></tr></tbody></table></div></div><p><br class="table-break">
+   </p></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ch03s10.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="chap-devices.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="ch03s12.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">3.10. Host Filesystem Device </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> 3.12. Network Device</td></tr></table></div></body></html>

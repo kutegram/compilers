@@ -1,0 +1,1116 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../../unhosted.s                         0x00000000   Number         0  switch8.o ABSOLUTE
+    M:\\epoc32\\build\\euser\\c_e18a23aea4fd210f\\edll_lib\\armv5\\urel\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\\sf\\os\\kernelhwsrv\\kernel\\eka\\compsupp\\rvct\\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\epoc32\build\euser\c_e18a23aea4fd210f\edll_lib\armv5\urel\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\dllexp.cpp 0x00000000   Number         0  dllexp.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jaricom.c 0x00000000   Number         0  jaricom.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jcapimin.c 0x00000000   Number         0  jcapimin.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jcapistd.c 0x00000000   Number         0  jcapistd.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jcarith.c 0x00000000   Number         0  jcarith.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jccoefct.c 0x00000000   Number         0  jccoefct.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jccolor.c 0x00000000   Number         0  jccolor.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jcdctmgr.c 0x00000000   Number         0  jcdctmgr.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jchuff.c 0x00000000   Number         0  jchuff.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jcinit.c 0x00000000   Number         0  jcinit.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jcmainct.c 0x00000000   Number         0  jcmainct.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jcmarker.c 0x00000000   Number         0  jcmarker.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jcmaster.c 0x00000000   Number         0  jcmaster.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jcomapi.c 0x00000000   Number         0  jcomapi.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jcparam.c 0x00000000   Number         0  jcparam.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jcprepct.c 0x00000000   Number         0  jcprepct.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jcsample.c 0x00000000   Number         0  jcsample.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jctrans.c 0x00000000   Number         0  jctrans.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jdapimin.c 0x00000000   Number         0  jdapimin.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jdapistd.c 0x00000000   Number         0  jdapistd.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jdarith.c 0x00000000   Number         0  jdarith.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jdatadst.c 0x00000000   Number         0  jdatadst.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jdatasrc.c 0x00000000   Number         0  jdatasrc.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jdcoefct.c 0x00000000   Number         0  jdcoefct.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jdcolor.c 0x00000000   Number         0  jdcolor.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jddctmgr.c 0x00000000   Number         0  jddctmgr.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jdhuff.c 0x00000000   Number         0  jdhuff.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jdinput.c 0x00000000   Number         0  jdinput.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jdmainct.c 0x00000000   Number         0  jdmainct.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jdmarker.c 0x00000000   Number         0  jdmarker.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jdmaster.c 0x00000000   Number         0  jdmaster.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jdmerge.c 0x00000000   Number         0  jdmerge.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jdpostct.c 0x00000000   Number         0  jdpostct.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jdsample.c 0x00000000   Number         0  jdsample.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jdtrans.c 0x00000000   Number         0  jdtrans.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jerror.c 0x00000000   Number         0  jerror.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jfdctflt.c 0x00000000   Number         0  jfdctflt.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jfdctfst.c 0x00000000   Number         0  jfdctfst.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jfdctint.c 0x00000000   Number         0  jfdctint.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jidctflt.c 0x00000000   Number         0  jidctflt.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jidctfst.c 0x00000000   Number         0  jidctfst.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jidctint.c 0x00000000   Number         0  jidctint.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jmemmgr.c 0x00000000   Number         0  jmemmgr.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jmemnobs.c 0x00000000   Number         0  jmemnobs.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jquant1.c 0x00000000   Number         0  jquant1.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jquant2.c 0x00000000   Number         0  jquant2.o ABSOLUTE
+    S:\sf\mw\qt\src\3rdparty\libjpeg\jutils.c 0x00000000   Number         0  jutils.o ABSOLUTE
+    S:\sf\mw\qt\src\gui\image\qjpeghandler.cpp 0x00000000   Number         0  qjpeghandler.o ABSOLUTE
+    S:\sf\mw\qt\src\plugins\imageformats\jpeg\main.cpp 0x00000000   Number         0  main.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       52  ucppinit.o(.emb_text)
+    loop                                     0x0000803c   ARM Code       0  ucppinit.o(.emb_text)
+    base                                     0x00008054   Data           0  ucppinit.o(.emb_text)
+    limit                                    0x00008058   Data           0  ucppinit.o(.emb_text)
+    .text                                    0x000083dc   Section      680  jcapimin.o(.text)
+    .text                                    0x00008684   Section      412  jcapistd.o(.text)
+    emit_byte                                0x00008821   Thumb Code    50  jcarith.o(.text)
+    .text                                    0x00008820   Section     3240  jcarith.o(.text)
+    finish_pass                              0x00008853   Thumb Code   302  jcarith.o(.text)
+    arith_encode                             0x00008981   Thumb Code   336  jcarith.o(.text)
+    emit_restart                             0x00008ad1   Thumb Code   166  jcarith.o(.text)
+    encode_mcu_DC_first                      0x00008b77   Thumb Code   380  jcarith.o(.text)
+    encode_mcu_AC_first                      0x00008cf3   Thumb Code   438  jcarith.o(.text)
+    encode_mcu_DC_refine                     0x00008ea9   Thumb Code   112  jcarith.o(.text)
+    encode_mcu_AC_refine                     0x00008f19   Thumb Code   348  jcarith.o(.text)
+    encode_mcu                               0x00009075   Thumb Code   704  jcarith.o(.text)
+    start_pass                               0x00009335   Thumb Code   318  jcarith.o(.text)
+    start_iMCU_row                           0x000094c9   Thumb Code    50  jccoefct.o(.text)
+    .text                                    0x000094c8   Section     1344  jccoefct.o(.text)
+    compress_output                          0x000094fb   Thumb Code   262  jccoefct.o(.text)
+    compress_first_pass                      0x00009601   Thumb Code   366  jccoefct.o(.text)
+    compress_data                            0x0000976f   Thumb Code   382  jccoefct.o(.text)
+    start_pass_coef                          0x000098ed   Thumb Code   118  jccoefct.o(.text)
+    rgb_ycc_start                            0x00009a09   Thumb Code   132  jccolor.o(.text)
+    .text                                    0x00009a08   Section     1180  jccolor.o(.text)
+    rgb_ycc_convert                          0x00009a8d   Thumb Code   204  jccolor.o(.text)
+    rgb_gray_convert                         0x00009b59   Thumb Code   106  jccolor.o(.text)
+    cmyk_ycck_convert                        0x00009bc3   Thumb Code   228  jccolor.o(.text)
+    grayscale_convert                        0x00009ca7   Thumb Code    46  jccolor.o(.text)
+    null_convert                             0x00009cd5   Thumb Code    66  jccolor.o(.text)
+    null_method                              0x00009d17   Thumb Code     2  jccolor.o(.text)
+    forward_DCT                              0x00009ea5   Thumb Code   144  jcdctmgr.o(.text)
+    .text                                    0x00009ea4   Section     1364  jcdctmgr.o(.text)
+    forward_DCT_float                        0x00009f35   Thumb Code   122  jcdctmgr.o(.text)
+    start_pass_fdctmgr                       0x00009faf   Thumb Code  1046  jcdctmgr.o(.text)
+    jpeg_make_c_derived_tbl                  0x0000a3f9   Thumb Code   402  jchuff.o(.text)
+    .text                                    0x0000a3f8   Section     4512  jchuff.o(.text)
+    dump_buffer_e                            0x0000a58b   Thumb Code    42  jchuff.o(.text)
+    emit_bits_s                              0x0000a5b5   Thumb Code   136  jchuff.o(.text)
+    emit_bits_e                              0x0000a63d   Thumb Code   128  jchuff.o(.text)
+    emit_ac_symbol                           0x0000a6bd   Thumb Code    44  jchuff.o(.text)
+    emit_eobrun                              0x0000a6e9   Thumb Code    86  jchuff.o(.text)
+    emit_restart_e                           0x0000a73f   Thumb Code   118  jchuff.o(.text)
+    encode_mcu_DC_first                      0x0000a7b5   Thumb Code   286  jchuff.o(.text)
+    encode_mcu_AC_first                      0x0000a8d3   Thumb Code   310  jchuff.o(.text)
+    encode_mcu_DC_refine                     0x0000aa09   Thumb Code   150  jchuff.o(.text)
+    encode_mcu_AC_refine                     0x0000aa9f   Thumb Code   400  jchuff.o(.text)
+    encode_one_block                         0x0000ac2f   Thumb Code   334  jchuff.o(.text)
+    encode_mcu_huff                          0x0000ad7d   Thumb Code   228  jchuff.o(.text)
+    finish_pass_huff                         0x0000ae61   Thumb Code   136  jchuff.o(.text)
+    encode_mcu_gather                        0x0000aee9   Thumb Code   148  jchuff.o(.text)
+    jpeg_gen_optimal_table                   0x0000af7d   Thumb Code   416  jchuff.o(.text)
+    finish_pass_gather                       0x0000b11d   Thumb Code   218  jchuff.o(.text)
+    start_pass_huff                          0x0000b1f7   Thumb Code   440  jchuff.o(.text)
+    dump_buffer_s                            0x0000b3f1   Thumb Code    30  jchuff.o(.text)
+    flush_bits_s                             0x0000b40f   Thumb Code    28  jchuff.o(.text)
+    flush_bits_e                             0x0000b42b   Thumb Code    20  jchuff.o(.text)
+    emit_buffered_bits                       0x0000b43f   Thumb Code    36  jchuff.o(.text)
+    emit_restart_s                           0x0000b463   Thumb Code   106  jchuff.o(.text)
+    htest_one_block                          0x0000b4cd   Thumb Code   200  jchuff.o(.text)
+    .text                                    0x0000b598   Section      126  jcinit.o(.text)
+    process_data_simple_main                 0x0000b619   Thumb Code   142  jcmainct.o(.text)
+    .text                                    0x0000b618   Section      312  jcmainct.o(.text)
+    start_pass_main                          0x0000b6a7   Thumb Code    48  jcmainct.o(.text)
+    emit_byte                                0x0000b751   Thumb Code    50  jcmarker.o(.text)
+    .text                                    0x0000b750   Section     1662  jcmarker.o(.text)
+    emit_dqt                                 0x0000b783   Thumb Code   204  jcmarker.o(.text)
+    emit_dht                                 0x0000b84f   Thumb Code   142  jcmarker.o(.text)
+    emit_sof                                 0x0000b8dd   Thumb Code   134  jcmarker.o(.text)
+    write_marker_header                      0x0000b963   Thumb Code    48  jcmarker.o(.text)
+    write_marker_byte                        0x0000b993   Thumb Code     2  jcmarker.o(.text)
+    write_file_header                        0x0000b995   Thumb Code    56  jcmarker.o(.text)
+    write_frame_header                       0x0000b9cd   Thumb Code   252  jcmarker.o(.text)
+    write_scan_header                        0x0000bac9   Thumb Code   152  jcmarker.o(.text)
+    write_file_trailer                       0x0000bb61   Thumb Code    10  jcmarker.o(.text)
+    write_tables_only                        0x0000bb6b   Thumb Code   102  jcmarker.o(.text)
+    emit_marker                              0x0000bc09   Thumb Code    22  jcmarker.o(.text)
+    emit_2bytes                              0x0000bc1f   Thumb Code    28  jcmarker.o(.text)
+    emit_sos                                 0x0000bc3b   Thumb Code   174  jcmarker.o(.text)
+    emit_jfif_app0                           0x0000bce9   Thumb Code   120  jcmarker.o(.text)
+    emit_adobe_app14                         0x0000bd61   Thumb Code   110  jcmarker.o(.text)
+    .text                                    0x0000bdd0   Section     3212  jcmaster.o(.text)
+    initial_setup                            0x0000bfeb   Thumb Code   534  jcmaster.o(.text)
+    validate_script                          0x0000c201   Thumb Code   816  jcmaster.o(.text)
+    select_scan_parameters                   0x0000c531   Thumb Code   190  jcmaster.o(.text)
+    per_scan_setup                           0x0000c5ef   Thumb Code   296  jcmaster.o(.text)
+    prepare_for_pass                         0x0000c717   Thumb Code   320  jcmaster.o(.text)
+    pass_startup                             0x0000c857   Thumb Code    34  jcmaster.o(.text)
+    finish_pass_master                       0x0000c879   Thumb Code    78  jcmaster.o(.text)
+    jpeg_calc_trans_dimensions               0x0000c9bd   Thumb Code   120  jcmaster.o(.text)
+    .text                                    0x0000ca5c   Section      122  jcomapi.o(.text)
+    .text                                    0x0000cad8   Section     1564  jcparam.o(.text)
+    add_huff_table                           0x0000cbf3   Thumb Code    92  jcparam.o(.text)
+    fill_dc_scans                            0x0000cf11   Thumb Code    60  jcparam.o(.text)
+    fill_a_scan                              0x0000d0bf   Thumb Code    22  jcparam.o(.text)
+    fill_scans                               0x0000d0d5   Thumb Code    32  jcparam.o(.text)
+    start_pass_prep                          0x0000d0f5   Thumb Code    50  jcprepct.o(.text)
+    .text                                    0x0000d0f4   Section     1020  jcprepct.o(.text)
+    pre_process_data                         0x0000d127   Thumb Code   276  jcprepct.o(.text)
+    pre_process_context                      0x0000d23b   Thumb Code   314  jcprepct.o(.text)
+    expand_bottom_edge                       0x0000d401   Thumb Code    42  jcprepct.o(.text)
+    create_context_buffer                    0x0000d42b   Thumb Code   186  jcprepct.o(.text)
+    start_pass_downsample                    0x0000d4f1   Thumb Code     2  jcsample.o(.text)
+    .text                                    0x0000d4f0   Section     1668  jcsample.o(.text)
+    sep_downsample                           0x0000d4f3   Thumb Code    74  jcsample.o(.text)
+    int_downsample                           0x0000d53d   Thumb Code   190  jcsample.o(.text)
+    fullsize_downsample                      0x0000d5fb   Thumb Code    50  jcsample.o(.text)
+    h2v1_downsample                          0x0000d62d   Thumb Code    88  jcsample.o(.text)
+    h2v2_downsample                          0x0000d685   Thumb Code   126  jcsample.o(.text)
+    h2v2_smooth_downsample                   0x0000d703   Thumb Code   458  jcsample.o(.text)
+    fullsize_smooth_downsample               0x0000d8cd   Thumb Code   270  jcsample.o(.text)
+    expand_right_edge                        0x0000db25   Thumb Code    46  jcsample.o(.text)
+    start_iMCU_row                           0x0000db75   Thumb Code    50  jctrans.o(.text)
+    .text                                    0x0000db74   Section     1068  jctrans.o(.text)
+    compress_output                          0x0000dba7   Thumb Code   340  jctrans.o(.text)
+    start_pass_coef                          0x0000dcfb   Thumb Code    40  jctrans.o(.text)
+    transencode_master_selection             0x0000df11   Thumb Code   134  jctrans.o(.text)
+    .text                                    0x0000dfa0   Section      876  jdapimin.o(.text)
+    default_decompress_parms                 0x0000e051   Thumb Code   264  jdapimin.o(.text)
+    output_pass_setup                        0x0000e30d   Thumb Code   144  jdapistd.o(.text)
+    .text                                    0x0000e30c   Section      778  jdapistd.o(.text)
+    get_byte                                 0x0000e619   Thumb Code    52  jdarith.o(.text)
+    .text                                    0x0000e618   Section     2880  jdarith.o(.text)
+    arith_decode                             0x0000e64d   Thumb Code   210  jdarith.o(.text)
+    process_restart                          0x0000e71f   Thumb Code   186  jdarith.o(.text)
+    decode_mcu_DC_first                      0x0000e7d9   Thumb Code   354  jdarith.o(.text)
+    decode_mcu_AC_first                      0x0000e93b   Thumb Code   338  jdarith.o(.text)
+    decode_mcu_DC_refine                     0x0000ea8d   Thumb Code   102  jdarith.o(.text)
+    decode_mcu_AC_refine                     0x0000eaf3   Thumb Code   314  jdarith.o(.text)
+    decode_mcu                               0x0000ec2d   Thumb Code   578  jdarith.o(.text)
+    start_pass                               0x0000ee6f   Thumb Code   612  jdarith.o(.text)
+    init_destination                         0x0000f159   Thumb Code    24  jdatadst.o(.text)
+    .text                                    0x0000f158   Section      476  jdatadst.o(.text)
+    init_mem_destination                     0x0000f171   Thumb Code     2  jdatadst.o(.text)
+    empty_output_buffer                      0x0000f173   Thumb Code    48  jdatadst.o(.text)
+    empty_mem_output_buffer                  0x0000f1a3   Thumb Code    78  jdatadst.o(.text)
+    term_destination                         0x0000f1f1   Thumb Code    96  jdatadst.o(.text)
+    term_mem_destination                     0x0000f251   Thumb Code    20  jdatadst.o(.text)
+    init_source                              0x0000f335   Thumb Code     8  jdatasrc.o(.text)
+    .text                                    0x0000f334   Section      372  jdatasrc.o(.text)
+    init_mem_source                          0x0000f33d   Thumb Code     2  jdatasrc.o(.text)
+    fill_input_buffer                        0x0000f33f   Thumb Code    90  jdatasrc.o(.text)
+    fill_mem_input_buffer                    0x0000f399   Thumb Code    46  jdatasrc.o(.text)
+    skip_input_data                          0x0000f3c7   Thumb Code    40  jdatasrc.o(.text)
+    term_source                              0x0000f3ef   Thumb Code     2  jdatasrc.o(.text)
+    start_iMCU_row                           0x0000f4a9   Thumb Code    54  jdcoefct.o(.text)
+    .text                                    0x0000f4a8   Section     2550  jdcoefct.o(.text)
+    start_input_pass                         0x0000f4df   Thumb Code    10  jdcoefct.o(.text)
+    decompress_data                          0x0000f4e9   Thumb Code   288  jdcoefct.o(.text)
+    decompress_smooth_data                   0x0000f609   Thumb Code  1068  jdcoefct.o(.text)
+    start_output_pass                        0x0000fa35   Thumb Code    48  jdcoefct.o(.text)
+    decompress_onepass                       0x0000fa65   Thumb Code   392  jdcoefct.o(.text)
+    dummy_consume_data                       0x0000fbed   Thumb Code     4  jdcoefct.o(.text)
+    consume_data                             0x0000fbf1   Thumb Code   294  jdcoefct.o(.text)
+    smoothing_ok                             0x0000fdd9   Thumb Code   198  jdcoefct.o(.text)
+    build_ycc_rgb_table                      0x0000fea1   Thumb Code   132  jdcolor.o(.text)
+    .text                                    0x0000fea0   Section      928  jdcolor.o(.text)
+    ycc_rgb_convert                          0x0000ff25   Thumb Code   166  jdcolor.o(.text)
+    null_convert                             0x0000ffcb   Thumb Code    70  jdcolor.o(.text)
+    grayscale_convert                        0x00010011   Thumb Code    28  jdcolor.o(.text)
+    gray_rgb_convert                         0x0001002d   Thumb Code    48  jdcolor.o(.text)
+    ycck_cmyk_convert                        0x0001005d   Thumb Code   188  jdcolor.o(.text)
+    start_pass_dcolor                        0x00010119   Thumb Code     2  jdcolor.o(.text)
+    start_pass                               0x00010241   Thumb Code   712  jddctmgr.o(.text)
+    .text                                    0x00010240   Section      956  jddctmgr.o(.text)
+    jpeg_make_d_derived_tbl                  0x000105fd   Thumb Code   574  jdhuff.o(.text)
+    .text                                    0x000105fc   Section     5376  jdhuff.o(.text)
+    jpeg_fill_bit_buffer                     0x0001083b   Thumb Code   202  jdhuff.o(.text)
+    jpeg_huff_decode                         0x00010905   Thumb Code   144  jdhuff.o(.text)
+    process_restart                          0x00010995   Thumb Code   108  jdhuff.o(.text)
+    decode_mcu_DC_first                      0x00010a01   Thumb Code   380  jdhuff.o(.text)
+    decode_mcu_AC_first                      0x00010b7d   Thumb Code   396  jdhuff.o(.text)
+    decode_mcu_DC_refine                     0x00010d09   Thumb Code   168  jdhuff.o(.text)
+    decode_mcu_AC_refine                     0x00010db1   Thumb Code   706  jdhuff.o(.text)
+    decode_mcu_sub                           0x00011073   Thumb Code   788  jdhuff.o(.text)
+    decode_mcu                               0x00011387   Thumb Code   764  jdhuff.o(.text)
+    start_pass_huff_decoder                  0x00011683   Thumb Code  1008  jdhuff.o(.text)
+    .text                                    0x00011afc   Section     1956  jdinput.o(.text)
+    initial_setup                            0x00011d4b   Thumb Code   608  jdinput.o(.text)
+    per_scan_setup                           0x00011fab   Thumb Code   270  jdinput.o(.text)
+    start_input_pass                         0x000120b9   Thumb Code    46  jdinput.o(.text)
+    consume_markers                          0x000120e7   Thumb Code   204  jdinput.o(.text)
+    finish_input_pass                        0x000121b3   Thumb Code    12  jdinput.o(.text)
+    reset_input_controller                   0x000121bf   Thumb Code    48  jdinput.o(.text)
+    latch_quant_tables                       0x00012221   Thumb Code   112  jdinput.o(.text)
+    process_data_crank_post                  0x000122a1   Thumb Code    34  jdmainct.o(.text)
+    .text                                    0x000122a0   Section     1232  jdmainct.o(.text)
+    process_data_simple_main                 0x000122c3   Thumb Code    94  jdmainct.o(.text)
+    process_data_context_main                0x00012321   Thumb Code   234  jdmainct.o(.text)
+    start_pass_main                          0x0001240b   Thumb Code    80  jdmainct.o(.text)
+    alloc_funny_pointers                     0x0001250f   Thumb Code   130  jdmainct.o(.text)
+    make_funny_pointers                      0x00012591   Thumb Code   192  jdmainct.o(.text)
+    set_wraparound_pointers                  0x00012651   Thumb Code   136  jdmainct.o(.text)
+    set_bottom_pointers                      0x000126d9   Thumb Code   136  jdmainct.o(.text)
+    get_sof                                  0x00012771   Thumb Code   592  jdmarker.o(.text)
+    .text                                    0x00012770   Section     5148  jdmarker.o(.text)
+    get_sos                                  0x000129c1   Thumb Code   560  jdmarker.o(.text)
+    get_dht                                  0x00012bf1   Thumb Code   528  jdmarker.o(.text)
+    get_dqt                                  0x00012e01   Thumb Code   572  jdmarker.o(.text)
+    examine_app0                             0x0001303d   Thumb Code   324  jdmarker.o(.text)
+    examine_app14                            0x00013181   Thumb Code   128  jdmarker.o(.text)
+    get_interesting_appn                     0x00013201   Thumb Code   260  jdmarker.o(.text)
+    save_marker                              0x00013305   Thumb Code   464  jdmarker.o(.text)
+    skip_variable                            0x000134d5   Thumb Code   124  jdmarker.o(.text)
+    next_marker                              0x00013551   Thumb Code   186  jdmarker.o(.text)
+    read_markers                             0x0001360b   Thumb Code   400  jdmarker.o(.text)
+    read_restart_marker                      0x0001379b   Thumb Code   108  jdmarker.o(.text)
+    reset_marker_reader                      0x000138b7   Thumb Code    38  jdmarker.o(.text)
+    get_soi                                  0x000139dd   Thumb Code   116  jdmarker.o(.text)
+    get_dri                                  0x00013a51   Thumb Code   176  jdmarker.o(.text)
+    first_marker                             0x00013b01   Thumb Code   114  jdmarker.o(.text)
+    use_merged_upsample                      0x00013b8d   Thumb Code   146  jdmaster.o(.text)
+    .text                                    0x00013b8c   Section     1428  jdmaster.o(.text)
+    master_selection                         0x00013d8b   Thumb Code   464  jdmaster.o(.text)
+    prepare_for_output_pass                  0x00013f5b   Thumb Code   268  jdmaster.o(.text)
+    finish_output_pass                       0x00014067   Thumb Code    36  jdmaster.o(.text)
+    start_pass_merged_upsample               0x00014121   Thumb Code    18  jdmerge.o(.text)
+    .text                                    0x00014120   Section     1048  jdmerge.o(.text)
+    merged_2v_upsample                       0x00014133   Thumb Code   148  jdmerge.o(.text)
+    merged_1v_upsample                       0x000141c7   Thumb Code    42  jdmerge.o(.text)
+    h2v1_merged_upsample                     0x000141f1   Thumb Code   230  jdmerge.o(.text)
+    h2v2_merged_upsample                     0x000142d7   Thumb Code   348  jdmerge.o(.text)
+    build_ycc_rgb_table                      0x00014491   Thumb Code   132  jdmerge.o(.text)
+    post_process_2pass                       0x00014539   Thumb Code   126  jdpostct.o(.text)
+    .text                                    0x00014538   Section      592  jdpostct.o(.text)
+    post_process_prepass                     0x000145b7   Thumb Code   122  jdpostct.o(.text)
+    post_process_1pass                       0x00014631   Thumb Code    88  jdpostct.o(.text)
+    start_pass_dpost                         0x00014689   Thumb Code   126  jdpostct.o(.text)
+    start_pass_upsample                      0x00014789   Thumb Code    22  jdsample.o(.text)
+    .text                                    0x00014788   Section      816  jdsample.o(.text)
+    sep_upsample                             0x0001479f   Thumb Code   184  jdsample.o(.text)
+    fullsize_upsample                        0x00014857   Thumb Code     4  jdsample.o(.text)
+    noop_upsample                            0x0001485b   Thumb Code     6  jdsample.o(.text)
+    int_upsample                             0x00014861   Thumb Code   124  jdsample.o(.text)
+    h2v1_upsample                            0x000148dd   Thumb Code    54  jdsample.o(.text)
+    h2v2_upsample                            0x00014913   Thumb Code    86  jdsample.o(.text)
+    .text                                    0x00014ab8   Section      284  jdtrans.o(.text)
+    transdecode_master_selection             0x00014b53   Thumb Code   130  jdtrans.o(.text)
+    error_exit                               0x00014bd5   Thumb Code    26  jerror.o(.text)
+    .text                                    0x00014bd4   Section      336  jerror.o(.text)
+    output_message                           0x00014bef   Thumb Code    28  jerror.o(.text)
+    emit_message                             0x00014c0b   Thumb Code    44  jerror.o(.text)
+    format_message                           0x00014c37   Thumb Code   150  jerror.o(.text)
+    reset_error_mgr                          0x00014ccd   Thumb Code    12  jerror.o(.text)
+    .text                                    0x00014d24   Section      752  jfdctflt.o(.text)
+    .text                                    0x00015014   Section      388  jfdctfst.o(.text)
+    .text                                    0x00015198   Section    19488  jfdctint.o(.text)
+    .text                                    0x00019db8   Section     1096  jidctflt.o(.text)
+    .text                                    0x0001a200   Section      744  jidctfst.o(.text)
+    .text                                    0x0001a4e8   Section    21028  jidctint.o(.text)
+    create_colormap                          0x0001f70d   Thumb Code   234  jquant1.o(.text)
+    .text                                    0x0001f70c   Section     1996  jquant1.o(.text)
+    create_colorindex                        0x0001f7f7   Thumb Code   204  jquant1.o(.text)
+    color_quantize                           0x0001f8c3   Thumb Code    90  jquant1.o(.text)
+    color_quantize3                          0x0001f91d   Thumb Code    94  jquant1.o(.text)
+    quantize_ord_dither                      0x0001f97b   Thumb Code   166  jquant1.o(.text)
+    quantize3_ord_dither                     0x0001fa21   Thumb Code   180  jquant1.o(.text)
+    quantize_fs_dither                       0x0001fad5   Thumb Code   284  jquant1.o(.text)
+    alloc_fs_workspace                       0x0001fbf1   Thumb Code    48  jquant1.o(.text)
+    start_pass_1_quant                       0x0001fc21   Thumb Code   162  jquant1.o(.text)
+    finish_pass_1_quant                      0x0001fcc3   Thumb Code     2  jquant1.o(.text)
+    new_color_map_1_quant                    0x0001fcc5   Thumb Code    12  jquant1.o(.text)
+    select_ncolors                           0x0001fd4b   Thumb Code   162  jquant1.o(.text)
+    largest_input_value                      0x0001fded   Thumb Code    22  jquant1.o(.text)
+    create_odither_tables                    0x0001fe03   Thumb Code   172  jquant1.o(.text)
+    prescan_quantize                         0x0001fed9   Thumb Code    86  jquant2.o(.text)
+    .text                                    0x0001fed8   Section     3314  jquant2.o(.text)
+    update_box                               0x0001ff2f   Thumb Code   708  jquant2.o(.text)
+    median_cut                               0x000201f3   Thumb Code   272  jquant2.o(.text)
+    find_nearby_colors                       0x00020303   Thumb Code   360  jquant2.o(.text)
+    fill_inverse_cmap                        0x0002046b   Thumb Code   142  jquant2.o(.text)
+    pass2_no_dither                          0x000204f9   Thumb Code   120  jquant2.o(.text)
+    pass2_fs_dither                          0x00020571   Thumb Code   474  jquant2.o(.text)
+    init_error_limit                         0x0002074b   Thumb Code    96  jquant2.o(.text)
+    finish_pass1                             0x000207ab   Thumb Code    30  jquant2.o(.text)
+    finish_pass2                             0x000207c9   Thumb Code     2  jquant2.o(.text)
+    start_pass_2_quant                       0x000207cb   Thumb Code   204  jquant2.o(.text)
+    new_color_map_2_quant                    0x00020897   Thumb Code    12  jquant2.o(.text)
+    select_colors                            0x00020983   Thumb Code   112  jquant2.o(.text)
+    find_best_colors                         0x000209f3   Thumb Code   218  jquant2.o(.text)
+    compute_color                            0x00020acd   Thumb Code   254  jquant2.o(.text)
+    .text                                    0x00020bca   Section       86  jutils.o(.text)
+    alloc_small                              0x00020c21   Thumb Code   218  jmemmgr.o(.text)
+    .text                                    0x00020c20   Section     2280  jmemmgr.o(.text)
+    alloc_large                              0x00020cfb   Thumb Code   118  jmemmgr.o(.text)
+    alloc_sarray                             0x00020d71   Thumb Code   120  jmemmgr.o(.text)
+    alloc_barray                             0x00020de9   Thumb Code   124  jmemmgr.o(.text)
+    request_virt_sarray                      0x00020e65   Thumb Code    72  jmemmgr.o(.text)
+    request_virt_barray                      0x00020ead   Thumb Code    72  jmemmgr.o(.text)
+    realize_virt_arrays                      0x00020ef5   Thumb Code   308  jmemmgr.o(.text)
+    do_sarray_io                             0x00021029   Thumb Code   128  jmemmgr.o(.text)
+    do_barray_io                             0x000210a9   Thumb Code   128  jmemmgr.o(.text)
+    access_virt_sarray                       0x00021129   Thumb Code   246  jmemmgr.o(.text)
+    access_virt_barray                       0x0002121f   Thumb Code   248  jmemmgr.o(.text)
+    free_pool                                0x00021317   Thumb Code   188  jmemmgr.o(.text)
+    self_destruct                            0x000213d3   Thumb Code    40  jmemmgr.o(.text)
+    out_of_memory                            0x000214b9   Thumb Code    16  jmemmgr.o(.text)
+    .text                                    0x00021508   Section       62  jmemnobs.o(.text)
+    .text                                    0x00021548   Section     4372  qjpeghandler.o(.text)
+    my_error_exit(jpeg_common_struct*)       0x0002156b   Thumb Code    34  qjpeghandler.o(.text)
+    qt_init_source(jpeg_decompress_struct*)  0x0002158d   Thumb Code     2  qjpeghandler.o(.text)
+    qt_fill_input_buffer(jpeg_decompress_struct*) 0x0002158f   Thumb Code   146  qjpeghandler.o(.text)
+    qt_skip_input_data(jpeg_decompress_struct*, long) 0x00021621   Thumb Code    40  qjpeghandler.o(.text)
+    qt_term_source(jpeg_decompress_struct*)  0x00021649   Thumb Code    46  qjpeghandler.o(.text)
+    read_jpeg_image(QImage*, QSize, QRect, QRect, int, jpeg_decompress_struct*, my_error_mgr*) 0x00021677   Thumb Code  1314  qjpeghandler.o(.text)
+    qt_init_destination(jpeg_compress_struct*) 0x00021b99   Thumb Code     2  qjpeghandler.o(.text)
+    qt_empty_output_buffer(jpeg_compress_struct*) 0x00021b9b   Thumb Code    46  qjpeghandler.o(.text)
+    qt_term_destination(jpeg_compress_struct*) 0x00021bc9   Thumb Code    46  qjpeghandler.o(.text)
+    write_jpeg_image(const QImage&, QIODevice*, int) 0x00021bf7   Thumb Code  1474  qjpeghandler.o(.text)
+    ensureValidImage(QImage*, jpeg_decompress_struct*, const QSize&) 0x000225cd   Thumb Code   144  qjpeghandler.o(.text)
+    .text                                    0x0002265c   Section      396  main.o(.text)
+    .text                                    0x000227e8   Section       24  switch8.o(.text)
+    .text                                    0x00022800   Section       60  uc_dll.o(.text)
+    .text                                    0x0002283c   Section      144  ucppfini.o(.text)
+    .text                                    0x000228cc   Section        4  dllexp.o(.text)
+    .text.clean                              0x000228d0   Section      116  qjpeghandler.o(.text.clean)
+    .text.clean                              0x00022944   Section       60  main.o(.text.clean)
+    i._Z4qRgbiii                             0x00022980   Section       24  qjpeghandler.o(i._Z4qRgbiii)
+    i._Z6qRoundf                             0x00022998   Section       70  qjpeghandler.o(i._Z6qRoundf)
+    i._ZN10QByteArrayD1Ev                    0x000229de   Section       24  qjpeghandler.o(i._ZN10QByteArrayD1Ev)
+    i._ZN11QJpegPluginD0Ev                   0x000229f6   Section       16  main.o(i._ZN11QJpegPluginD0Ev)
+    i._ZN11QJpegPluginD1Ev                   0x00022a06   Section        8  main.o(i._ZN11QJpegPluginD1Ev)
+    i._ZN11QStringListD1Ev                   0x00022a0e   Section        8  main.o(i._ZN11QStringListD1Ev)
+    i._ZN11QStringListlsERK7QString          0x00022a16   Section       12  main.o(i._ZN11QStringListlsERK7QString)
+    i._ZN15QBasicAtomicInt3refEv             0x00022a22   Section       18  main.o(i._ZN15QBasicAtomicInt3refEv)
+    i._ZN15QBasicAtomicInt5derefEv           0x00022a34   Section       18  qjpeghandler.o(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN5QRectC1Eiiii                       0x00022a46   Section       22  qjpeghandler.o(i._ZN5QRectC1Eiiii)
+    i._ZN5QRectC1Ev                          0x00022a5c   Section       14  qjpeghandler.o(i._ZN5QRectC1Ev)
+    i._ZN7QStringC1ERK13QLatin1String        0x00022a6a   Section       20  main.o(i._ZN7QStringC1ERK13QLatin1String)
+    i._ZN7QStringC1ERKS_                     0x00022a7e   Section       16  main.o(i._ZN7QStringC1ERKS_)
+    i._ZN7QStringD1Ev                        0x00022a8e   Section       24  main.o(i._ZN7QStringD1Ev)
+    i._ZN8QVariantC1Ev                       0x00022aa6   Section       24  qjpeghandler.o(i._ZN8QVariantC1Ev)
+    i._ZNK10QByteArray7isEmptyEv             0x00022abe   Section       16  main.o(i._ZNK10QByteArray7isEmptyEv)
+    i._ZNK5QRect4sizeEv                      0x00022ace   Section       22  qjpeghandler.o(i._ZNK5QRect4sizeEv)
+    i._ZNK5QRect7isEmptyEv                   0x00022ae4   Section       24  qjpeghandler.o(i._ZNK5QRect7isEmptyEv)
+    i._ZNK5QSize7isEmptyEv                   0x00022afc   Section       20  qjpeghandler.o(i._ZNK5QSize7isEmptyEv)
+    i._ZNK9QListData3endEv                   0x00022b10   Section       12  main.o(i._ZNK9QListData3endEv)
+    i._ZNK9QListData5beginEv                 0x00022b1c   Section       12  main.o(i._ZNK9QListData5beginEv)
+    i._ZThn8_N11QJpegPluginD0Ev              0x00022b28   Section       10  main.o(i._ZThn8_N11QJpegPluginD0Ev)
+    i._ZThn8_N11QJpegPluginD1Ev              0x00022b32   Section       10  main.o(i._ZThn8_N11QJpegPluginD1Ev)
+    i._ZdlPvS_                               0x00022b3c   Section        2  main.o(i._ZdlPvS_)
+    i._ZeqRK10QByteArrayPKc                  0x00022b3e   Section       28  main.o(i._ZeqRK10QByteArrayPKc)
+    i._ZneRK5QSizeS1_                        0x00022b5a   Section       24  qjpeghandler.o(i._ZneRK5QSizeS1_)
+    i._ZnwjPv                                0x00022b72   Section        4  main.o(i._ZnwjPv)
+    t._Z4qAbsIdET_RKS0_                      0x00022b78   Section       40  qjpeghandler.o(t._Z4qAbsIdET_RKS0_)
+    t._ZN5QListI7QStringE13detach_helperEv   0x00022ba0   Section       88  main.o(t._ZN5QListI7QStringE13detach_helperEv)
+    t._ZN5QListI7QStringE13detach_helperEv.clean 0x00022bf8   Section        8  main.o(t._ZN5QListI7QStringE13detach_helperEv.clean)
+    t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_ 0x00022c00   Section       26  main.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_)
+    t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_.clean 0x00022c1a   Section       12  main.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_.clean)
+    t._ZN5QListI7QStringE18detach_helper_growEii 0x00022c26   Section      186  main.o(t._ZN5QListI7QStringE18detach_helper_growEii)
+    t._ZN5QListI7QStringE18detach_helper_growEii.clean 0x00022ce0   Section        8  main.o(t._ZN5QListI7QStringE18detach_helper_growEii.clean)
+    t._ZN5QListI7QStringE4freeEPN9QListData4DataE 0x00022ce8   Section       48  main.o(t._ZN5QListI7QStringE4freeEPN9QListData4DataE)
+    t._ZN5QListI7QStringE6appendERKS0_       0x00022d18   Section       96  main.o(t._ZN5QListI7QStringE6appendERKS0_)
+    t._ZN5QListI7QStringE6appendERKS0_.clean 0x00022d78   Section        8  main.o(t._ZN5QListI7QStringE6appendERKS0_.clean)
+    t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_ 0x00022d80   Section       70  main.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_)
+    t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_.clean 0x00022dc6   Section       22  main.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_.clean)
+    t._ZN5QListI7QStringED1Ev                0x00022ddc   Section       30  main.o(t._ZN5QListI7QStringED1Ev)
+    t._ZN7QVectorIjED1Ev                     0x00022dfa   Section       30  qjpeghandler.o(t._ZN7QVectorIjED1Ev)
+    t._ZN8QPointerI7QObjectED1Ev             0x00022e18   Section       12  main.o(t._ZN8QPointerI7QObjectED1Ev)
+    t._ZNK7QVectorIjEixEi                    0x00022e24   Section       10  qjpeghandler.o(t._ZNK7QVectorIjEixEi)
+    .extab.jpeg_make_c_derived_tbl           0x00022e30   Data           0  jchuff.o(.ARM.extab)
+    .extab.jpeg_gen_optimal_table            0x00022e3c   Data           0  jchuff.o(.ARM.extab)
+    .extab.validate_script                   0x00022e48   Data           0  jcmaster.o(.ARM.extab)
+    .extab.jpeg_make_d_derived_tbl           0x00022e54   Data           0  jdhuff.o(.ARM.extab)
+    .extab.find_nearby_colors                0x00022e60   Data           0  jquant2.o(.ARM.extab)
+    .extab._Z15read_jpeg_imageP6QImage5QSize5QRectS2_iP22jpeg_decompress_structP12my_error_mgr 0x00022e6c   Data           0  qjpeghandler.o(.ARM.extab)
+    .extab._Z16write_jpeg_imageRK6QImageP9QIODevicei 0x00022e84   Data           0  qjpeghandler.o(.ARM.extab)
+    .extab._ZN12QJpegHandlerC1Ev             0x00022eb4   Data           0  qjpeghandler.o(.ARM.extab)
+    .extab._ZN12QJpegHandlerD1Ev             0x00022edc   Data           0  qjpeghandler.o(.ARM.extab)
+    .extab._ZNK12QJpegHandler7canReadEv      0x00022ef4   Data           0  qjpeghandler.o(.ARM.extab)
+    .extab._ZN19QJpegHandlerPrivate14readJpegHeaderEP9QIODevice 0x00022f04   Data           0  qjpeghandler.o(.ARM.extab)
+    .extab._Z16ensureValidImageP6QImageP22jpeg_decompress_structRK5QSize 0x00022f1c   Data           0  qjpeghandler.o(.ARM.extab)
+    .extab.qt_plugin_instance                0x00022f2c   Data           0  main.o(.ARM.extab)
+    .extab._ZNK11QJpegPlugin4keysEv          0x00022f44   Data           0  main.o(.ARM.extab)
+    .extab._ZNK11QJpegPlugin6createEP9QIODeviceRK10QByteArray 0x00022f74   Data           0  main.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_ 0x00022f84   Data           0  main.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE18detach_helper_growEii 0x00022fa8   Data           0  main.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE13detach_helperEv 0x00022fd8   Data           0  main.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE6appendERKS0_  0x00022ff4   Data           0  main.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_ 0x00023024   Data           0  main.o(.ARM.extab)
+    .constdata$7                             0x00023034   Data           0  jaricom.o(.constdata)
+    .constdata                               0x00023034   Section      456  jaricom.o(.constdata)
+    .constdata$1                             0x00023200   Data           0  jcdctmgr.o(.constdata)
+    aanscales@start_pass_fdctmgr_0           0x00023200   Data         128  jcdctmgr.o(.constdata)
+    .constdata                               0x00023200   Section      192  jcdctmgr.o(.constdata)
+    aanscalefactor@start_pass_fdctmgr_1      0x00023280   Data          64  jcdctmgr.o(.constdata)
+    .constdata$1                             0x000232c0   Data           0  jcparam.o(.constdata)
+    std_luminance_quant_tbl                  0x000232c0   Data         256  jcparam.o(.constdata)
+    .constdata                               0x000232c0   Section      928  jcparam.o(.constdata)
+    std_chrominance_quant_tbl                0x000233c0   Data         256  jcparam.o(.constdata)
+    bits_dc_luminance@std_huff_tables_0      0x000234c0   Data          17  jcparam.o(.constdata)
+    val_dc_luminance@std_huff_tables_1       0x000234d1   Data          12  jcparam.o(.constdata)
+    bits_dc_chrominance@std_huff_tables_2    0x000234dd   Data          17  jcparam.o(.constdata)
+    val_dc_chrominance@std_huff_tables_3     0x000234ee   Data          12  jcparam.o(.constdata)
+    bits_ac_luminance@std_huff_tables_4      0x000234fa   Data          17  jcparam.o(.constdata)
+    val_ac_luminance@std_huff_tables_5       0x0002350b   Data         162  jcparam.o(.constdata)
+    bits_ac_chrominance@std_huff_tables_6    0x000235ad   Data          17  jcparam.o(.constdata)
+    val_ac_chrominance@std_huff_tables_7     0x000235be   Data         162  jcparam.o(.constdata)
+    .constdata$1                             0x00023660   Data           0  jddctmgr.o(.constdata)
+    aanscales@start_pass_0                   0x00023660   Data         128  jddctmgr.o(.constdata)
+    .constdata                               0x00023660   Section      192  jddctmgr.o(.constdata)
+    aanscalefactor@start_pass_1              0x000236e0   Data          64  jddctmgr.o(.constdata)
+    .constdata$1                             0x00023720   Data           0  jdhuff.o(.constdata)
+    jpeg_zigzag_order                        0x00023720   Data         256  jdhuff.o(.constdata)
+    .constdata                               0x00023720   Section      876  jdhuff.o(.constdata)
+    jpeg_zigzag_order7                       0x00023820   Data         196  jdhuff.o(.constdata)
+    jpeg_zigzag_order6                       0x000238e4   Data         144  jdhuff.o(.constdata)
+    jpeg_zigzag_order5                       0x00023974   Data         100  jdhuff.o(.constdata)
+    jpeg_zigzag_order4                       0x000239d8   Data          64  jdhuff.o(.constdata)
+    jpeg_zigzag_order3                       0x00023a18   Data          36  jdhuff.o(.constdata)
+    jpeg_zigzag_order2                       0x00023a3c   Data          16  jdhuff.o(.constdata)
+    bmask                                    0x00023a4c   Data          64  jdhuff.o(.constdata)
+    .constdata$1                             0x00023a8c   Data           0  jerror.o(.constdata)
+    .constdata                               0x00023a8c   Section      512  jerror.o(.constdata)
+    .constdata$1                             0x00023c8c   Data           0  jquant1.o(.constdata)
+    base_dither_matrix                       0x00023c8c   Data         256  jquant1.o(.constdata)
+    .constdata                               0x00023c8c   Section      268  jquant1.o(.constdata)
+    RGB_order@select_ncolors_0               0x00023d8c   Data          12  jquant1.o(.constdata)
+    .constdata$7                             0x00023d98   Data           0  jutils.o(.constdata)
+    .constdata                               0x00023d98   Section      320  jutils.o(.constdata)
+    .constdata$13                            0x00023ed8   Data           0  jutils.o(.constdata)
+    .constdata                               0x00023ed8   Section      260  jutils.o(.constdata)
+    .constdata$19                            0x00023fdc   Data           0  jutils.o(.constdata)
+    .constdata                               0x00023fdc   Section      208  jutils.o(.constdata)
+    .constdata$25                            0x000240ac   Data           0  jutils.o(.constdata)
+    .constdata                               0x000240ac   Section      164  jutils.o(.constdata)
+    .constdata$31                            0x00024150   Data           0  jutils.o(.constdata)
+    .constdata                               0x00024150   Section      128  jutils.o(.constdata)
+    .constdata$37                            0x000241d0   Data           0  jutils.o(.constdata)
+    .constdata                               0x000241d0   Section      100  jutils.o(.constdata)
+    .constdata$43                            0x00024234   Data           0  jutils.o(.constdata)
+    .constdata                               0x00024234   Section       80  jutils.o(.constdata)
+    .constdata$1                             0x00024284   Data           0  jmemmgr.o(.constdata)
+    first_pool_slop                          0x00024284   Data           8  jmemmgr.o(.constdata)
+    .constdata                               0x00024284   Section       16  jmemmgr.o(.constdata)
+    extra_pool_slop                          0x0002428c   Data           8  jmemmgr.o(.constdata)
+    .constdata$1                             0x00024294   Data           0  main.o(.constdata)
+    qt_plugin_verification_data              0x00024294   Data          91  main.o(.constdata)
+    .constdata                               0x00024294   Section       91  main.o(.constdata)
+    .constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE 0x000242f0   Section        4  qjpeghandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE 0x000242f4   Section        4  qjpeghandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE 0x000242f8   Section        4  qjpeghandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE 0x000242fc   Section        4  qjpeghandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE 0x00024300   Section        4  qjpeghandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE 0x00024304   Section        1  qjpeghandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE 0x00024308   Section        4  qjpeghandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE 0x0002430c   Section        4  qjpeghandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE 0x00024310   Section        4  qjpeghandler.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE 0x00024314   Section        4  qjpeghandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE 0x00024318   Section        4  qjpeghandler.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE 0x0002431c   Section        4  qjpeghandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE 0x00024320   Section        4  qjpeghandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE 0x00024324   Section        4  qjpeghandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    .constdata__ZTI11QJpegPlugin             0x00024328   Section       12  main.o(.constdata__ZTI11QJpegPlugin)
+    .constdata__ZTI12QJpegHandler            0x00024334   Section       12  qjpeghandler.o(.constdata__ZTI12QJpegHandler)
+    .constdata__ZTS11QJpegPlugin             0x00024340   Section       14  main.o(.constdata__ZTS11QJpegPlugin)
+    .constdata__ZTS12QJpegHandler            0x0002434e   Section       15  qjpeghandler.o(.constdata__ZTS12QJpegHandler)
+    .constdata__ZTV11QJpegPlugin             0x00024360   Section       92  main.o(.constdata__ZTV11QJpegPlugin)
+    .constdata__ZTV12QJpegHandler            0x000243bc   Section       72  qjpeghandler.o(.constdata__ZTV12QJpegHandler)
+    .conststring$3                           0x00024404   Data           0  jerror.o(.conststring)
+    .conststring                             0x00024404   Section     4692  jerror.o(.conststring)
+    .ARM.exidx                               0x00025654   Section        8  ucppinit.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  jdatasrc.o(.data)
+    mybuffer@fill_mem_input_buffer_0         0x00400000   Data           4  jdatasrc.o(.data)
+    .data                                    0x00400000   Section        4  jdatasrc.o(.data)
+    .data$0                                  0x00400004   Data           0  qjpeghandler.o(.data)
+    rgb888ToRgb32ConverterPtr                0x00400004   Data           4  qjpeghandler.o(.data)
+    .data                                    0x00400004   Section        4  qjpeghandler.o(.data)
+    .data$0                                  0x00400008   Data           0  main.o(.data)
+    _ZGV_instance@qt_plugin_instance_0       0x00400008   Data           4  main.o(.data)
+    .data                                    0x00400008   Section        8  main.o(.data)
+    _instance@qt_plugin_instance_1           0x0040000c   Data           4  main.o(.data)
+    .data$0                                  0x00400010   Data           0  ucppfini.o(.data)
+    .data                                    0x00400010   Section        4  ucppfini.o(.data)
+    .data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE 0x00400014   Section       12  qjpeghandler.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    .bss$5                                   0x00400020   Data           0  ucppfini.o(.bss)
+    .bss                                     0x00400020   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$VFPv2$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$IEEEJ$EBA8$UX$FPIC$INDIRECT$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    QtCore{00040703}[2001b2dc].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtGui{00040703}[2001b2dd].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    dfpaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtrvct2_2{000a0000}.dll                 0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    euser{000a0000}[100039e5].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    libc{00010001}[10207369].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    qjpeg{00040703}[2001e61b].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    stdnew{000a0000}[20022178].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    qDetectCPUFeatures()                      - Undefined Reference
+    _Z18qDetectCPUFeaturesv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qFree(void*)                              - Undefined Reference
+    _Z5qFreePv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qstrcmp(const QByteArray&, const char*)   - Undefined Reference
+    _Z7qstrcmpRK10QByteArrayPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qWarning(const char*, ...)                - Undefined Reference
+    _Z8qWarningPKcz@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::QByteArray(const char*)       - Undefined Reference
+    _ZN10QByteArrayC1EPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::changeGuard(QObject**, QObject*)  - Undefined Reference
+    _ZN11QMetaObject11changeGuardEPP7QObjectS1_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::removeGuard(QObject**)       - Undefined Reference
+    _ZN11QMetaObject11removeGuardEPP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVectorData::free(QVectorData*, int)      - Undefined Reference
+    _ZN11QVectorData4freeEPS_i@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QImageIOPlugin::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN14QImageIOPlugin11qt_metacallEN11QMetaObject4CallEiPPv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOPlugin::qt_metacast(const char*)  - Undefined Reference
+    _ZN14QImageIOPlugin11qt_metacastEPKc@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOPlugin::QImageIOPlugin__sub_object(QObject*)  - Undefined Reference
+    _ZN14QImageIOPluginC2EP7QObject@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOPlugin::~QImageIOPlugin__sub_object()  - Undefined Reference
+    _ZN14QImageIOPluginD2Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::jumpToImage(int)         - Undefined Reference
+    _ZN15QImageIOHandler11jumpToImageEi@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::jumpToNextImage()        - Undefined Reference
+    _ZN15QImageIOHandler15jumpToNextImageEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::setDevice(QIODevice*)    - Undefined Reference
+    _ZN15QImageIOHandler9setDeviceEP9QIODevice@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::setFormat(const QByteArray&)  - Undefined Reference
+    _ZN15QImageIOHandler9setFormatERK10QByteArray@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::QImageIOHandler__sub_object()  - Undefined Reference
+    _ZN15QImageIOHandlerC2Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::~QImageIOHandler__sub_object()  - Undefined Reference
+    _ZN15QImageIOHandlerD2Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    User::LockedDec(int&)                     - Undefined Reference
+    _ZN4User9LockedDecERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::LockedInc(int&)                     - Undefined Reference
+    _ZN4User9LockedIncERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QImage::setColorCount(int)                - Undefined Reference
+    _ZN6QImage13setColorCountEi@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::setDotsPerMeterX(int)             - Undefined Reference
+    _ZN6QImage16setDotsPerMeterXEi@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::setDotsPerMeterY(int)             - Undefined Reference
+    _ZN6QImage16setDotsPerMeterYEi@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::scanLine(int)                     - Undefined Reference
+    _ZN6QImage8scanLineEi@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::setColor(int, unsigned)           - Undefined Reference
+    _ZN6QImage8setColorEij@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::QImage(const QSize&, QImage::Format)  - Undefined Reference
+    _ZN6QImageC1ERK5QSizeNS_6FormatE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::~QImage()                         - Undefined Reference
+    _ZN6QImageD1Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::operator =(const QImage&)         - Undefined Reference
+    _ZN6QImageaSERKS_@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QBuffer::staticMetaObject                 - Undefined Reference
+    _ZN7QBuffer16staticMetaObjectE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::childEvent(QChildEvent*)         - Undefined Reference
+    _ZN7QObject10childEventEP11QChildEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::timerEvent(QTimerEvent*)         - Undefined Reference
+    _ZN7QObject10timerEventEP11QTimerEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::customEvent(QEvent*)             - Undefined Reference
+    _ZN7QObject11customEventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::eventFilter(QObject*, QEvent*)   - Undefined Reference
+    _ZN7QObject11eventFilterEPS_P6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connectNotify(const char*)       - Undefined Reference
+    _ZN7QObject13connectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::disconnectNotify(const char*)    - Undefined Reference
+    _ZN7QObject16disconnectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::event(QEvent*)                   - Undefined Reference
+    _ZN7QObject5eventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromLatin1_helper(const char*, int)  - Undefined Reference
+    _ZN7QString17fromLatin1_helperEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::free(QString::Data*)             - Undefined Reference
+    _ZN7QString4freeEPNS_4DataE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::QVariant(const QRect&)          - Undefined Reference
+    _ZN8QVariantC1ERK5QRect@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::QVariant(const QSize&)          - Undefined Reference
+    _ZN8QVariantC1ERK5QSize@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::QVariant(const QVariant&)       - Undefined Reference
+    _ZN8QVariantC1ERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::QVariant(int)                   - Undefined Reference
+    _ZN8QVariantC1Ei@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::~QVariant()                     - Undefined Reference
+    _ZN8QVariantD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::operator =(const QVariant&)     - Undefined Reference
+    _ZN8QVariantaSERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QIODevice::peek(char*, long long)         - Undefined Reference
+    _ZN9QIODevice4peekEPcx@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QIODevice::read(char*, long long)         - Undefined Reference
+    _ZN9QIODevice4readEPcx@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QIODevice::write(const char*, long long)  - Undefined Reference
+    _ZN9QIODevice5writeEPKcx@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach_grow(int*, int)         - Undefined Reference
+    _ZN9QListData11detach_growEPii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::shared_null                    - Undefined Reference
+    _ZN9QListData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::append()                       - Undefined Reference
+    _ZN9QListData6appendEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach(int)                    - Undefined Reference
+    _ZN9QListData6detachEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::cast(QObject*) const         - Undefined Reference
+    _ZNK11QMetaObject4castEP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QImageIOPlugin::metaObject() const        - Undefined Reference
+    _ZNK14QImageIOPlugin10metaObjectEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::imageCount() const       - Undefined Reference
+    _ZNK15QImageIOHandler10imageCountEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::nextImageDelay() const   - Undefined Reference
+    _ZNK15QImageIOHandler14nextImageDelayEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::currentImageRect() const  - Undefined Reference
+    _ZNK15QImageIOHandler16currentImageRectEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::currentImageNumber() const  - Undefined Reference
+    _ZNK15QImageIOHandler18currentImageNumberEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::device() const           - Undefined Reference
+    _ZNK15QImageIOHandler6deviceEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::loopCount() const        - Undefined Reference
+    _ZNK15QImageIOHandler9loopCountEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::setFormat(const QByteArray&) const  - Undefined Reference
+    _ZNK15QImageIOHandler9setFormatERK10QByteArray@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QRect::operator &(const QRect&) const     - Undefined Reference
+    _ZNK5QRectanERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QImage::colorCount() const                - Undefined Reference
+    _ZNK6QImage10colorCountEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::colorTable() const                - Undefined Reference
+    _ZNK6QImage10colorTableEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::constScanLine(int) const          - Undefined Reference
+    _ZNK6QImage13constScanLineEi@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::dotsPerMeterX() const             - Undefined Reference
+    _ZNK6QImage13dotsPerMeterXEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::dotsPerMeterY() const             - Undefined Reference
+    _ZNK6QImage13dotsPerMeterYEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::convertToFormat(QImage::Format, QFlags<Qt::ImageConversionFlag>) const  - Undefined Reference
+    _ZNK6QImage15convertToFormatENS_6FormatE6QFlagsIN2Qt19ImageConversionFlagEE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::copy(const QRect&) const          - Undefined Reference
+    _ZNK6QImage4copyERK5QRect@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::size() const                      - Undefined Reference
+    _ZNK6QImage4sizeEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::width() const                     - Undefined Reference
+    _ZNK6QImage5widthEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::format() const                    - Undefined Reference
+    _ZNK6QImage6formatEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::height() const                    - Undefined Reference
+    _ZNK6QImage6heightEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::isNull() const                    - Undefined Reference
+    _ZNK6QImage6isNullEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::scaled(const QSize&, Qt::AspectRatioMode, Qt::TransformationMode) const  - Undefined Reference
+    _ZNK6QImage6scaledERK5QSizeN2Qt15AspectRatioModeENS3_18TransformationModeE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QBuffer::data() const                     - Undefined Reference
+    _ZNK7QBuffer4dataEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::toInt(bool*) const              - Undefined Reference
+    _ZNK8QVariant5toIntEPb@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::toRect() const                  - Undefined Reference
+    _ZNK8QVariant6toRectEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::toSize() const                  - Undefined Reference
+    _ZNK8QVariant6toSizeEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QIODevice::isReadable() const             - Undefined Reference
+    _ZNK9QIODevice10isReadableEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QIODevice::isWritable() const             - Undefined Reference
+    _ZNK9QIODevice10isWritableEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QIODevice::isOpen() const                 - Undefined Reference
+    _ZNK9QIODevice6isOpenEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for QImageIOPlugin               - Undefined Reference
+    _ZTI14QImageIOPlugin@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    typeinfo for QImageIOHandler              - Undefined Reference
+    _ZTI15QImageIOHandler@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv120__si_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    operator delete[] (void*)                 - Undefined Reference
+    _ZdaPv@stdnew{000a0000}[20022178].dll     - Undefined Reference
+    operator delete (void*)                   - Undefined Reference
+    _ZdlPv@stdnew{000a0000}[20022178].dll     - Undefined Reference
+    operator new[] (unsigned)                 - Undefined Reference
+    _Znaj@stdnew{000a0000}[20022178].dll      - Undefined Reference
+    operator new(unsigned)                    - Undefined Reference
+    _Znwj@stdnew{000a0000}[20022178].dll      - Undefined Reference
+    __ARM_ll_cmple                            - Undefined Reference
+    __ARM_ll_cmple@drtrvct2_2{000a0000}.dll   - Undefined Reference
+    __ARM_ll_cmpu                             - Undefined Reference
+    __ARM_ll_cmpu@drtrvct2_2{000a0000}.dll    - Undefined Reference
+    __ARM_ll_rsbls                            - Undefined Reference
+    __ARM_ll_rsbls@drtrvct2_2{000a0000}.dll   - Undefined Reference
+    __ARM_ll_sublu                            - Undefined Reference
+    __ARM_ll_sublu@drtrvct2_2{000a0000}.dll   - Undefined Reference
+    __aeabi_cdrcmple                          - Undefined Reference
+    __aeabi_cdrcmple@dfpaeabi{000a0000}.dll   - Undefined Reference
+    __aeabi_cfcmple                           - Undefined Reference
+    __aeabi_cfcmple@dfpaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_d2f                               - Undefined Reference
+    __aeabi_d2f@dfpaeabi{000a0000}.dll        - Undefined Reference
+    __aeabi_dmul                              - Undefined Reference
+    __aeabi_dmul@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_dsub                              - Undefined Reference
+    __aeabi_dsub@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_f2iz                              - Undefined Reference
+    __aeabi_f2iz@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_fadd                              - Undefined Reference
+    __aeabi_fadd@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_fdiv                              - Undefined Reference
+    __aeabi_fdiv@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_fmul                              - Undefined Reference
+    __aeabi_fmul@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_frsub                             - Undefined Reference
+    __aeabi_frsub@dfpaeabi{000a0000}.dll      - Undefined Reference
+    __aeabi_fsub                              - Undefined Reference
+    __aeabi_fsub@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_i2d                               - Undefined Reference
+    __aeabi_i2d@dfpaeabi{000a0000}.dll        - Undefined Reference
+    __aeabi_i2f                               - Undefined Reference
+    __aeabi_i2f@dfpaeabi{000a0000}.dll        - Undefined Reference
+    __aeabi_idivmod                           - Undefined Reference
+    __aeabi_idivmod@drtaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_memclr                            - Undefined Reference
+    __aeabi_memclr4                           - Undefined Reference
+    __aeabi_memclr4@drtaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_memclr@drtaeabi{000a0000}.dll     - Undefined Reference
+    __aeabi_memcpy                            - Undefined Reference
+    __aeabi_memcpy4                           - Undefined Reference
+    __aeabi_memcpy4@drtaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_memcpy@drtaeabi{000a0000}.dll     - Undefined Reference
+    __aeabi_ui2f                              - Undefined Reference
+    __aeabi_ui2f@dfpaeabi{000a0000}.dll       - Undefined Reference
+    __aeabi_uidivmod                          - Undefined Reference
+    __aeabi_uidivmod@drtaeabi{000a0000}.dll   - Undefined Reference
+    __aeabi_unwind_cpp_pr0                    - Undefined Reference
+    __aeabi_unwind_cpp_pr0@drtaeabi{000a0000}.dll  - Undefined Reference
+    __aeabi_unwind_cpp_pr1                    - Undefined Reference
+    __aeabi_unwind_cpp_pr1@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_begin_catch                         - Undefined Reference
+    __cxa_begin_catch@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_end_catch                           - Undefined Reference
+    __cxa_end_catch@drtaeabi{000a0000}.dll    - Undefined Reference
+    __cxa_end_cleanup                         - Undefined Reference
+    __cxa_end_cleanup@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_abort                         - Undefined Reference
+    __cxa_guard_abort@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_acquire                       - Undefined Reference
+    __cxa_guard_acquire@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_release                       - Undefined Reference
+    __cxa_guard_release@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_rethrow                             - Undefined Reference
+    __cxa_rethrow@drtaeabi{000a0000}.dll      - Undefined Reference
+    __stderr                                  - Undefined Reference
+    __stderr@libc{00010001}[10207369].dll     - Undefined Reference
+    exit                                      - Undefined Reference
+    exit@libc{00010001}[10207369].dll         - Undefined Reference
+    ferror                                    - Undefined Reference
+    ferror@libc{00010001}[10207369].dll       - Undefined Reference
+    fflush                                    - Undefined Reference
+    fflush@libc{00010001}[10207369].dll       - Undefined Reference
+    fprintf                                   - Undefined Reference
+    fprintf@libc{00010001}[10207369].dll      - Undefined Reference
+    fread                                     - Undefined Reference
+    fread@libc{00010001}[10207369].dll        - Undefined Reference
+    free                                      - Undefined Reference
+    free@libc{00010001}[10207369].dll         - Undefined Reference
+    fwrite                                    - Undefined Reference
+    fwrite@libc{00010001}[10207369].dll       - Undefined Reference
+    getenv                                    - Undefined Reference
+    getenv@libc{00010001}[10207369].dll       - Undefined Reference
+    isthreaded                                - Undefined Reference
+    isthreaded@libc{00010001}[10207369].dll   - Undefined Reference
+    longjmp                                   - Undefined Reference
+    longjmp@libc{00010001}[10207369].dll      - Undefined Reference
+    malloc                                    - Undefined Reference
+    malloc@libc{00010001}[10207369].dll       - Undefined Reference
+    setjmp                                    - Undefined Reference
+    setjmp@libc{00010001}[10207369].dll       - Undefined Reference
+    sprintf                                   - Undefined Reference
+    sprintf@libc{00010001}[10207369].dll      - Undefined Reference
+    sscanf                                    - Undefined Reference
+    sscanf@libc{00010001}[10207369].dll       - Undefined Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      52  ucppinit.o(.emb_text)
+    std::nothrow                             0x0000805c   ARM Code       0  ucppinit.o(.emb_text)
+    __PLT                                    0x0000805c   ARM Code       0  anon$$obj.o(.plt)
+    jpeg_CreateCompress                      0x000083dd   Thumb Code   158  jcapimin.o(.text)
+    jpeg_destroy_compress                    0x0000847b   Thumb Code     8  jcapimin.o(.text)
+    jpeg_abort_compress                      0x00008483   Thumb Code     8  jcapimin.o(.text)
+    jpeg_suppress_tables                     0x0000848b   Thumb Code    64  jcapimin.o(.text)
+    jpeg_finish_compress                     0x000084cb   Thumb Code   178  jcapimin.o(.text)
+    jpeg_write_marker                        0x0000857d   Thumb Code    94  jcapimin.o(.text)
+    jpeg_write_m_header                      0x000085db   Thumb Code    72  jcapimin.o(.text)
+    jpeg_write_m_byte                        0x00008623   Thumb Code    12  jcapimin.o(.text)
+    jpeg_write_tables                        0x0000862f   Thumb Code    76  jcapimin.o(.text)
+    jpeg_start_compress                      0x00008685   Thumb Code   106  jcapistd.o(.text)
+    jpeg_write_scanlines                     0x000086ef   Thumb Code   150  jcapistd.o(.text)
+    jpeg_write_raw_data                      0x00008785   Thumb Code   156  jcapistd.o(.text)
+    jinit_arith_encoder                      0x00009473   Thumb Code    58  jcarith.o(.text)
+    jinit_c_coef_controller                  0x00009963   Thumb Code   148  jccoefct.o(.text)
+    jinit_color_converter                    0x00009d19   Thumb Code   386  jccolor.o(.text)
+    jinit_forward_dct                        0x0000a3c5   Thumb Code    48  jcdctmgr.o(.text)
+    jinit_huff_encoder                       0x0000b3af   Thumb Code    66  jchuff.o(.text)
+    jinit_compress_master                    0x0000b599   Thumb Code   126  jcinit.o(.text)
+    jinit_c_main_controller                  0x0000b6d7   Thumb Code   112  jcmainct.o(.text)
+    jinit_marker_writer                      0x0000bbd1   Thumb Code    56  jcmarker.o(.text)
+    jpeg_calc_jpeg_dimensions                0x0000bdd1   Thumb Code   538  jcmaster.o(.text)
+    jinit_c_master_control                   0x0000c8c7   Thumb Code   246  jcmaster.o(.text)
+    jpeg_abort                               0x0000ca5d   Thumb Code    54  jcomapi.o(.text)
+    jpeg_destroy                             0x0000ca93   Thumb Code    24  jcomapi.o(.text)
+    jpeg_alloc_quant_table                   0x0000caab   Thumb Code    20  jcomapi.o(.text)
+    jpeg_alloc_huff_table                    0x0000cabf   Thumb Code    24  jcomapi.o(.text)
+    jpeg_add_quant_table                     0x0000cad9   Thumb Code   148  jcparam.o(.text)
+    jpeg_default_qtables                     0x0000cb6d   Thumb Code    34  jcparam.o(.text)
+    jpeg_set_linear_quality                  0x0000cb8f   Thumb Code    36  jcparam.o(.text)
+    jpeg_quality_scaling                     0x0000cbb3   Thumb Code    40  jcparam.o(.text)
+    jpeg_set_quality                         0x0000cbdb   Thumb Code    24  jcparam.o(.text)
+    jpeg_set_colorspace                      0x0000cc4f   Thumb Code   410  jcparam.o(.text)
+    jpeg_default_colorspace                  0x0000cde9   Thumb Code    54  jcparam.o(.text)
+    jpeg_set_defaults                        0x0000ce1f   Thumb Code   242  jcparam.o(.text)
+    jpeg_simple_progression                  0x0000cf4d   Thumb Code   370  jcparam.o(.text)
+    jinit_c_prep_controller                  0x0000d375   Thumb Code   140  jcprepct.o(.text)
+    jinit_downsampler                        0x0000d9db   Thumb Code   330  jcsample.o(.text)
+    jpeg_write_coefficients                  0x0000dd23   Thumb Code    78  jctrans.o(.text)
+    jpeg_copy_critical_parameters            0x0000dd71   Thumb Code   416  jctrans.o(.text)
+    jpeg_CreateDecompress                    0x0000dfa1   Thumb Code   160  jdapimin.o(.text)
+    jpeg_destroy_decompress                  0x0000e041   Thumb Code     8  jdapimin.o(.text)
+    jpeg_abort_decompress                    0x0000e049   Thumb Code     8  jdapimin.o(.text)
+    jpeg_consume_input                       0x0000e159   Thumb Code   120  jdapimin.o(.text)
+    jpeg_read_header                         0x0000e1d1   Thumb Code    82  jdapimin.o(.text)
+    jpeg_input_complete                      0x0000e223   Thumb Code    42  jdapimin.o(.text)
+    jpeg_has_multiple_scans                  0x0000e24d   Thumb Code    42  jdapimin.o(.text)
+    jpeg_finish_decompress                   0x0000e277   Thumb Code   142  jdapimin.o(.text)
+    jpeg_start_decompress                    0x0000e39d   Thumb Code   168  jdapistd.o(.text)
+    jpeg_read_scanlines                      0x0000e445   Thumb Code   126  jdapistd.o(.text)
+    jpeg_read_raw_data                       0x0000e4c3   Thumb Code   150  jdapistd.o(.text)
+    jpeg_start_output                        0x0000e559   Thumb Code    78  jdapistd.o(.text)
+    jpeg_finish_output                       0x0000e5a7   Thumb Code   112  jdapistd.o(.text)
+    jinit_arith_decoder                      0x0000f0d3   Thumb Code   108  jdarith.o(.text)
+    jpeg_stdio_dest                          0x0000f265   Thumb Code    44  jdatadst.o(.text)
+    jpeg_mem_dest                            0x0000f291   Thumb Code   140  jdatadst.o(.text)
+    jpeg_stdio_src                           0x0000f3f1   Thumb Code    76  jdatasrc.o(.text)
+    jpeg_mem_src                             0x0000f43d   Thumb Code    76  jdatasrc.o(.text)
+    jinit_d_coef_controller                  0x0000fd17   Thumb Code   194  jdcoefct.o(.text)
+    jinit_color_deconverter                  0x0001011b   Thumb Code   252  jdcolor.o(.text)
+    jinit_inverse_dct                        0x00010509   Thumb Code    86  jddctmgr.o(.text)
+    jinit_huff_decoder                       0x00011a73   Thumb Code   120  jdhuff.o(.text)
+    jpeg_core_output_dimensions              0x00011afd   Thumb Code   590  jdinput.o(.text)
+    jinit_input_controller                   0x000121ef   Thumb Code    50  jdinput.o(.text)
+    jinit_d_main_controller                  0x0001245b   Thumb Code   180  jdmainct.o(.text)
+    jpeg_resync_to_restart                   0x00013807   Thumb Code   176  jdmarker.o(.text)
+    jinit_marker_reader                      0x000138dd   Thumb Code    74  jdmarker.o(.text)
+    jpeg_save_markers                        0x00013927   Thumb Code   124  jdmarker.o(.text)
+    jpeg_set_marker_processor                0x000139a3   Thumb Code    58  jdmarker.o(.text)
+    jpeg_calc_output_dimensions              0x00013c1f   Thumb Code   364  jdmaster.o(.text)
+    jpeg_new_colormap                        0x0001408b   Thumb Code    96  jdmaster.o(.text)
+    jinit_master_decompress                  0x000140eb   Thumb Code    44  jdmaster.o(.text)
+    jinit_merged_upsampler                   0x00014433   Thumb Code    94  jdmerge.o(.text)
+    jinit_d_post_controller                  0x00014707   Thumb Code   112  jdpostct.o(.text)
+    jinit_upsampler                          0x00014969   Thumb Code   306  jdsample.o(.text)
+    jpeg_read_coefficients                   0x00014ab9   Thumb Code   154  jdtrans.o(.text)
+    jpeg_std_error                           0x00014cd9   Thumb Code    46  jerror.o(.text)
+    jpeg_fdct_float                          0x00014d25   Thumb Code   736  jfdctflt.o(.text)
+    jpeg_fdct_ifast                          0x00015015   Thumb Code   388  jfdctfst.o(.text)
+    jpeg_fdct_islow                          0x00015199   Thumb Code   610  jfdctint.o(.text)
+    jpeg_fdct_7x7                            0x000153fb   Thumb Code   682  jfdctint.o(.text)
+    jpeg_fdct_6x6                            0x000156a5   Thumb Code   342  jfdctint.o(.text)
+    jpeg_fdct_5x5                            0x000157fb   Thumb Code   302  jfdctint.o(.text)
+    jpeg_fdct_4x4                            0x00015929   Thumb Code   182  jfdctint.o(.text)
+    jpeg_fdct_3x3                            0x000159df   Thumb Code   214  jfdctint.o(.text)
+    jpeg_fdct_2x2                            0x00015ab5   Thumb Code    72  jfdctint.o(.text)
+    jpeg_fdct_1x1                            0x00015afd   Thumb Code    28  jfdctint.o(.text)
+    jpeg_fdct_9x9                            0x00015b19   Thumb Code   638  jfdctint.o(.text)
+    jpeg_fdct_10x10                          0x00015d97   Thumb Code   848  jfdctint.o(.text)
+    jpeg_fdct_11x11                          0x000160e7   Thumb Code  1190  jfdctint.o(.text)
+    jpeg_fdct_12x12                          0x0001658d   Thumb Code   994  jfdctint.o(.text)
+    jpeg_fdct_13x13                          0x0001696f   Thumb Code  1326  jfdctint.o(.text)
+    jpeg_fdct_14x14                          0x00016e9d   Thumb Code  1162  jfdctint.o(.text)
+    jpeg_fdct_15x15                          0x00017327   Thumb Code  1220  jfdctint.o(.text)
+    jpeg_fdct_16x16                          0x000177eb   Thumb Code  1434  jfdctint.o(.text)
+    jpeg_fdct_16x8                           0x00017d85   Thumb Code  1038  jfdctint.o(.text)
+    jpeg_fdct_14x7                           0x00018193   Thumb Code   902  jfdctint.o(.text)
+    jpeg_fdct_12x6                           0x00018519   Thumb Code   606  jfdctint.o(.text)
+    jpeg_fdct_10x5                           0x00018777   Thumb Code   512  jfdctint.o(.text)
+    jpeg_fdct_8x4                            0x00018977   Thumb Code   480  jfdctint.o(.text)
+    jpeg_fdct_6x3                            0x00018b57   Thumb Code   236  jfdctint.o(.text)
+    jpeg_fdct_4x2                            0x00018c43   Thumb Code   130  jfdctint.o(.text)
+    jpeg_fdct_2x1                            0x00018cc5   Thumb Code    42  jfdctint.o(.text)
+    jpeg_fdct_8x16                           0x00018cef   Thumb Code  1058  jfdctint.o(.text)
+    jpeg_fdct_7x14                           0x00019111   Thumb Code   960  jfdctint.o(.text)
+    jpeg_fdct_6x12                           0x000194d1   Thumb Code   664  jfdctint.o(.text)
+    jpeg_fdct_5x10                           0x00019769   Thumb Code   624  jfdctint.o(.text)
+    jpeg_fdct_4x8                            0x000199d9   Thumb Code   420  jfdctint.o(.text)
+    jpeg_fdct_3x6                            0x00019b7d   Thumb Code   376  jfdctint.o(.text)
+    jpeg_fdct_2x4                            0x00019cf5   Thumb Code   124  jfdctint.o(.text)
+    jpeg_fdct_1x2                            0x00019d71   Thumb Code    42  jfdctint.o(.text)
+    jpeg_idct_float                          0x00019db9   Thumb Code  1078  jidctflt.o(.text)
+    jpeg_idct_ifast                          0x0001a201   Thumb Code   738  jidctfst.o(.text)
+    jpeg_idct_islow                          0x0001a4e9   Thumb Code   876  jidctint.o(.text)
+    jpeg_idct_7x7                            0x0001a855   Thumb Code   716  jidctint.o(.text)
+    jpeg_idct_6x6                            0x0001ab21   Thumb Code   386  jidctint.o(.text)
+    jpeg_idct_5x5                            0x0001aca3   Thumb Code   418  jidctint.o(.text)
+    jpeg_idct_4x4                            0x0001ae45   Thumb Code   256  jidctint.o(.text)
+    jpeg_idct_3x3                            0x0001af45   Thumb Code   176  jidctint.o(.text)
+    jpeg_idct_2x2                            0x0001aff5   Thumb Code   102  jidctint.o(.text)
+    jpeg_idct_1x1                            0x0001b05b   Thumb Code    34  jidctint.o(.text)
+    jpeg_idct_9x9                            0x0001b07d   Thumb Code   750  jidctint.o(.text)
+    jpeg_idct_10x10                          0x0001b36b   Thumb Code   846  jidctint.o(.text)
+    jpeg_idct_11x11                          0x0001b6b9   Thumb Code  1128  jidctint.o(.text)
+    jpeg_idct_12x12                          0x0001bb21   Thumb Code   918  jidctint.o(.text)
+    jpeg_idct_13x13                          0x0001beb7   Thumb Code  1370  jidctint.o(.text)
+    jpeg_idct_14x14                          0x0001c411   Thumb Code  1160  jidctint.o(.text)
+    jpeg_idct_15x15                          0x0001c899   Thumb Code  1256  jidctint.o(.text)
+    jpeg_idct_16x16                          0x0001cd81   Thumb Code  1456  jidctint.o(.text)
+    jpeg_idct_16x8                           0x0001d331   Thumb Code  1212  jidctint.o(.text)
+    jpeg_idct_14x7                           0x0001d7ed   Thumb Code   960  jidctint.o(.text)
+    jpeg_idct_12x6                           0x0001dbad   Thumb Code   630  jidctint.o(.text)
+    jpeg_idct_10x5                           0x0001de23   Thumb Code   630  jidctint.o(.text)
+    jpeg_idct_8x4                            0x0001e099   Thumb Code   472  jidctint.o(.text)
+    jpeg_idct_6x3                            0x0001e271   Thumb Code   374  jidctint.o(.text)
+    jpeg_idct_4x2                            0x0001e3e7   Thumb Code   168  jidctint.o(.text)
+    jpeg_idct_2x1                            0x0001e48f   Thumb Code    54  jidctint.o(.text)
+    jpeg_idct_8x16                           0x0001e4c5   Thumb Code  1166  jidctint.o(.text)
+    jpeg_idct_7x14                           0x0001e953   Thumb Code   994  jidctint.o(.text)
+    jpeg_idct_6x12                           0x0001ed35   Thumb Code   674  jidctint.o(.text)
+    jpeg_idct_5x10                           0x0001efd7   Thumb Code   662  jidctint.o(.text)
+    jpeg_idct_4x8                            0x0001f26d   Thumb Code   588  jidctint.o(.text)
+    jpeg_idct_3x6                            0x0001f4b9   Thumb Code   352  jidctint.o(.text)
+    jpeg_idct_2x4                            0x0001f619   Thumb Code   178  jidctint.o(.text)
+    jpeg_idct_1x2                            0x0001f6cb   Thumb Code    54  jidctint.o(.text)
+    jinit_1pass_quantizer                    0x0001fcd1   Thumb Code   122  jquant1.o(.text)
+    jinit_2pass_quantizer                    0x000208a3   Thumb Code   224  jquant2.o(.text)
+    jdiv_round_up                            0x00020bcb   Thumb Code    12  jutils.o(.text)
+    jround_up                                0x00020bd7   Thumb Code    16  jutils.o(.text)
+    jcopy_sample_rows                        0x00020be7   Thumb Code    34  jutils.o(.text)
+    jcopy_block_row                          0x00020c09   Thumb Code    16  jutils.o(.text)
+    jzero_far                                0x00020c19   Thumb Code     8  jutils.o(.text)
+    jinit_memory_mgr                         0x000213fb   Thumb Code   190  jmemmgr.o(.text)
+    jpeg_get_small                           0x00021509   Thumb Code    10  jmemnobs.o(.text)
+    jpeg_free_small                          0x00021513   Thumb Code    10  jmemnobs.o(.text)
+    jpeg_get_large                           0x0002151d   Thumb Code    10  jmemnobs.o(.text)
+    jpeg_free_large                          0x00021527   Thumb Code    10  jmemnobs.o(.text)
+    jpeg_mem_available                       0x00021531   Thumb Code     4  jmemnobs.o(.text)
+    jpeg_open_backing_store                  0x00021535   Thumb Code    12  jmemnobs.o(.text)
+    jpeg_mem_init                            0x00021541   Thumb Code     4  jmemnobs.o(.text)
+    jpeg_mem_term                            0x00021545   Thumb Code     2  jmemnobs.o(.text)
+    convert_rgb888_to_rgb32_C(unsigned*, const unsigned char*, int) 0x00021549   Thumb Code    34  qjpeghandler.o(.text)
+    QJpegHandler::QJpegHandler()             0x000221b9   Thumb Code    96  qjpeghandler.o(.text)
+    QJpegHandler::QJpegHandler__sub_object() 0x000221b9   Thumb Code     0  qjpeghandler.o(.text)
+    QJpegHandler::~QJpegHandler()            0x00022219   Thumb Code    66  qjpeghandler.o(.text)
+    QJpegHandler::~QJpegHandler__sub_object() 0x00022219   Thumb Code     0  qjpeghandler.o(.text)
+    QJpegHandler::~QJpegHandler__deallocating() 0x0002225b   Thumb Code    16  qjpeghandler.o(.text)
+    QJpegHandler::canRead(QIODevice*)        0x0002226b   Thumb Code    60  qjpeghandler.o(.text)
+    QJpegHandler::canRead() const            0x000222a7   Thumb Code    82  qjpeghandler.o(.text)
+    QJpegHandlerPrivate::readJpegHeader(QIODevice*) 0x000222f9   Thumb Code   242  qjpeghandler.o(.text)
+    QJpegHandlerPrivate::read(QImage*)       0x000223eb   Thumb Code   104  qjpeghandler.o(.text)
+    QJpegHandler::read(QImage*)              0x00022453   Thumb Code    30  qjpeghandler.o(.text)
+    QJpegHandler::write(const QImage&)       0x00022471   Thumb Code    24  qjpeghandler.o(.text)
+    QJpegHandler::name() const               0x00022489   Thumb Code    10  qjpeghandler.o(.text)
+    QJpegHandler::option(QImageIOHandler::ImageOption) const 0x00022493   Thumb Code   128  qjpeghandler.o(.text)
+    QJpegHandler::setOption(QImageIOHandler::ImageOption, const QVariant&) 0x00022513   Thumb Code    64  qjpeghandler.o(.text)
+    QJpegHandler::supportsOption(QImageIOHandler::ImageOption) const 0x00022553   Thumb Code   122  qjpeghandler.o(.text)
+    qt_plugin_query_verification_data        0x0002265d   Thumb Code     4  main.o(.text)
+    qt_plugin_instance                       0x00022661   Thumb Code   100  main.o(.text)
+    QJpegPlugin::keys() const                0x000226c5   Thumb Code   102  main.o(.text)
+    thunk{-8} to QJpegPlugin::keys() const   0x0002272b   Thumb Code     4  main.o(.text)
+    QJpegPlugin::capabilities(QIODevice*, const QByteArray&) const 0x0002272f   Thumb Code   106  main.o(.text)
+    QJpegPlugin::create(QIODevice*, const QByteArray&) const 0x00022799   Thumb Code    38  main.o(.text)
+    thunk{-8} to QJpegPlugin::create(QIODevice*, const QByteArray&) const 0x000227bf   Thumb Code     4  main.o(.text)
+    __ARM_switch8                            0x000227e8   ARM Code      24  switch8.o(.text)
+    __rt_switch8                             0x000227e8   ARM Code       0  switch8.o(.text)
+    _E32Dll_Body                             0x00022800   ARM Code      56  uc_dll.o(.text)
+    __aeabi_atexit                           0x0002283c   ARM Code      28  ucppfini.o(.text)
+    __cxa_atexit                             0x00022858   ARM Code      48  ucppfini.o(.text)
+    __cxa_finalize                           0x00022888   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x000228b8   ARM Code       8  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x000228cc   ARM Code       4  dllexp.o(.text)
+    qRgb(int, int, int)                      0x00022981   Thumb Code    24  qjpeghandler.o(i._Z4qRgbiii)
+    qRound(float)                            0x00022999   Thumb Code    70  qjpeghandler.o(i._Z6qRoundf)
+    QByteArray::~QByteArray()                0x000229df   Thumb Code    24  qjpeghandler.o(i._ZN10QByteArrayD1Ev)
+    QByteArray::~QByteArray__sub_object()    0x000229df   Thumb Code     0  qjpeghandler.o(i._ZN10QByteArrayD1Ev)
+    QJpegPlugin::~QJpegPlugin__deallocating() 0x000229f7   Thumb Code    16  main.o(i._ZN11QJpegPluginD0Ev)
+    QJpegPlugin::~QJpegPlugin()              0x00022a07   Thumb Code     8  main.o(i._ZN11QJpegPluginD1Ev)
+    QJpegPlugin::~QJpegPlugin__sub_object()  0x00022a07   Thumb Code     0  main.o(i._ZN11QJpegPluginD1Ev)
+    QStringList::~QStringList()              0x00022a0f   Thumb Code     8  main.o(i._ZN11QStringListD1Ev)
+    QStringList::~QStringList__sub_object()  0x00022a0f   Thumb Code     0  main.o(i._ZN11QStringListD1Ev)
+    QStringList::operator <<(const QString&) 0x00022a17   Thumb Code    12  main.o(i._ZN11QStringListlsERK7QString)
+    QBasicAtomicInt::ref()                   0x00022a23   Thumb Code    18  main.o(i._ZN15QBasicAtomicInt3refEv)
+    QBasicAtomicInt::deref()                 0x00022a35   Thumb Code    18  qjpeghandler.o(i._ZN15QBasicAtomicInt5derefEv)
+    QRect::QRect(int, int, int, int)         0x00022a47   Thumb Code    22  qjpeghandler.o(i._ZN5QRectC1Eiiii)
+    QRect::QRect__sub_object(int, int, int, int) 0x00022a47   Thumb Code     0  qjpeghandler.o(i._ZN5QRectC1Eiiii)
+    QRect::QRect()                           0x00022a5d   Thumb Code    14  qjpeghandler.o(i._ZN5QRectC1Ev)
+    QRect::QRect__sub_object()               0x00022a5d   Thumb Code     0  qjpeghandler.o(i._ZN5QRectC1Ev)
+    QString::QString(const QLatin1String&)   0x00022a6b   Thumb Code    20  main.o(i._ZN7QStringC1ERK13QLatin1String)
+    QString::QString__sub_object(const QLatin1String&) 0x00022a6b   Thumb Code     0  main.o(i._ZN7QStringC1ERK13QLatin1String)
+    QString::QString(const QString&)         0x00022a7f   Thumb Code    16  main.o(i._ZN7QStringC1ERKS_)
+    QString::QString__sub_object(const QString&) 0x00022a7f   Thumb Code     0  main.o(i._ZN7QStringC1ERKS_)
+    QString::~QString()                      0x00022a8f   Thumb Code    24  main.o(i._ZN7QStringD1Ev)
+    QString::~QString__sub_object()          0x00022a8f   Thumb Code     0  main.o(i._ZN7QStringD1Ev)
+    QVariant::QVariant()                     0x00022aa7   Thumb Code    24  qjpeghandler.o(i._ZN8QVariantC1Ev)
+    QVariant::QVariant__sub_object()         0x00022aa7   Thumb Code     0  qjpeghandler.o(i._ZN8QVariantC1Ev)
+    QByteArray::isEmpty() const              0x00022abf   Thumb Code    16  main.o(i._ZNK10QByteArray7isEmptyEv)
+    QRect::size() const                      0x00022acf   Thumb Code    22  qjpeghandler.o(i._ZNK5QRect4sizeEv)
+    QRect::isEmpty() const                   0x00022ae5   Thumb Code    24  qjpeghandler.o(i._ZNK5QRect7isEmptyEv)
+    QSize::isEmpty() const                   0x00022afd   Thumb Code    20  qjpeghandler.o(i._ZNK5QSize7isEmptyEv)
+    QListData::end() const                   0x00022b11   Thumb Code    12  main.o(i._ZNK9QListData3endEv)
+    QListData::begin() const                 0x00022b1d   Thumb Code    12  main.o(i._ZNK9QListData5beginEv)
+    thunk{-8} to QJpegPlugin::~QJpegPlugin__deallocating() 0x00022b29   Thumb Code    10  main.o(i._ZThn8_N11QJpegPluginD0Ev)
+    thunk{-8} to QJpegPlugin::~QJpegPlugin() 0x00022b33   Thumb Code    10  main.o(i._ZThn8_N11QJpegPluginD1Ev)
+    operator delete (void*, void*)           0x00022b3d   Thumb Code     2  main.o(i._ZdlPvS_)
+    operator ==(const QByteArray&, const char*) 0x00022b3f   Thumb Code    28  main.o(i._ZeqRK10QByteArrayPKc)
+    operator !=(const QSize&, const QSize&)  0x00022b5b   Thumb Code    24  qjpeghandler.o(i._ZneRK5QSizeS1_)
+    operator new(unsigned, void*)            0x00022b73   Thumb Code     4  main.o(i._ZnwjPv)
+    qAbs<double>(const T1&)                  0x00022b79   Thumb Code    30  qjpeghandler.o(t._Z4qAbsIdET_RKS0_)
+    QList<QString>::detach_helper()          0x00022ba1   Thumb Code    88  main.o(t._ZN5QListI7QStringE13detach_helperEv)
+    QList<QString>::node_construct(QList<QString>::Node*, const QString&) 0x00022c01   Thumb Code    26  main.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_)
+    QList<QString>::detach_helper_grow(int, int) 0x00022c27   Thumb Code   186  main.o(t._ZN5QListI7QStringE18detach_helper_growEii)
+    QList<QString>::free(QListData::Data*)   0x00022ce9   Thumb Code    48  main.o(t._ZN5QListI7QStringE4freeEPN9QListData4DataE)
+    QList<QString>::append(const QString&)   0x00022d19   Thumb Code    90  main.o(t._ZN5QListI7QStringE6appendERKS0_)
+    QList<QString>::node_copy(QList<QString>::Node*, QList<QString>::Node*, QList<QString>::Node*) 0x00022d81   Thumb Code    70  main.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_)
+    QList<QString>::~QList()                 0x00022ddd   Thumb Code    30  main.o(t._ZN5QListI7QStringED1Ev)
+    QList<QString>::~QList__sub_object()     0x00022ddd   Thumb Code     0  main.o(t._ZN5QListI7QStringED1Ev)
+    QVector<unsigned>::~QVector()            0x00022dfb   Thumb Code    30  qjpeghandler.o(t._ZN7QVectorIjED1Ev)
+    QVector<unsigned>::~QVector__sub_object() 0x00022dfb   Thumb Code     0  qjpeghandler.o(t._ZN7QVectorIjED1Ev)
+    QPointer<QObject>::~QPointer()           0x00022e19   Thumb Code    12  main.o(t._ZN8QPointerI7QObjectED1Ev)
+    QPointer<QObject>::~QPointer__sub_object() 0x00022e19   Thumb Code     0  main.o(t._ZN8QPointerI7QObjectED1Ev)
+    QVector<unsigned>::operator [](int) const 0x00022e25   Thumb Code    10  qjpeghandler.o(t._ZNK7QVectorIjEixEi)
+    jpeg_aritab                              0x00023034   Data         456  jaricom.o(.constdata)
+    jpeg_std_message_table                   0x00023a8c   Data         512  jerror.o(.constdata)
+    jpeg_natural_order                       0x00023d98   Data         320  jutils.o(.constdata)
+    jpeg_natural_order7                      0x00023ed8   Data         260  jutils.o(.constdata)
+    jpeg_natural_order6                      0x00023fdc   Data         208  jutils.o(.constdata)
+    jpeg_natural_order5                      0x000240ac   Data         164  jutils.o(.constdata)
+    jpeg_natural_order4                      0x00024150   Data         128  jutils.o(.constdata)
+    jpeg_natural_order3                      0x000241d0   Data         100  jutils.o(.constdata)
+    jpeg_natural_order2                      0x00024234   Data          80  jutils.o(.constdata)
+    stlp_priv::_Integer_limits<signed char, (signed char)-128, (signed char)127, (int)-1, (bool)1>::digits 0x000242f0   Data           4  qjpeghandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<bool, (bool)0, (bool)1, (int)1, (bool)0>::digits 0x000242f4   Data           4  qjpeghandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    stlp_priv::_Integer_limits<char, (char)128, (char)127, (int)-1, (bool)1>::digits 0x000242f8   Data           4  qjpeghandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned char, (unsigned char)0, (unsigned char)255, (int)-1, (bool)1>::digits 0x000242fc   Data           4  qjpeghandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::digits 0x00024300   Data           4  qjpeghandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::is_signed 0x00024304   Data           1  qjpeghandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    stlp_priv::_Integer_limits<unsigned, (unsigned)0, (unsigned)4294967295, (int)-1, (bool)1>::digits 0x00024308   Data           4  qjpeghandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long, (long)-2147483648, (long)2147483647, (int)-1, (bool)1>::digits 0x0002430c   Data           4  qjpeghandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long, (unsigned long)0, (unsigned long)4294967295, (int)-1, (bool)1>::digits 0x00024310   Data           4  qjpeghandler.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<short, (short)-32768, (short)32767, (int)-1, (bool)1>::digits 0x00024314   Data           4  qjpeghandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned short, (unsigned short)0, (unsigned short)65535, (int)-1, (bool)1>::digits 0x00024318   Data           4  qjpeghandler.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<wchar_t, (wchar_t)0, (wchar_t)65535, (int)-1, (bool)1>::digits 0x0002431c   Data           4  qjpeghandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long long, (long long)-9223372036854775808, (long long)9223372036854775807, (int)-1, (bool)1>::digits 0x00024320   Data           4  qjpeghandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long long, (unsigned long long)0, (unsigned long long)18446744073709551615, (int)-1, (bool)1>::digits 0x00024324   Data           4  qjpeghandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    typeinfo for QJpegPlugin                 0x00024328   Data          12  main.o(.constdata__ZTI11QJpegPlugin)
+    typeinfo for QJpegHandler                0x00024334   Data          12  qjpeghandler.o(.constdata__ZTI12QJpegHandler)
+    typeinfo name for QJpegPlugin            0x00024340   Data          14  main.o(.constdata__ZTS11QJpegPlugin)
+    typeinfo name for QJpegHandler           0x0002434e   Data          15  qjpeghandler.o(.constdata__ZTS12QJpegHandler)
+    vtable for QJpegPlugin                   0x00024360   Data          92  main.o(.constdata__ZTV11QJpegPlugin)
+    vtable for QJpegHandler                  0x000243bc   Data          72  qjpeghandler.o(.constdata__ZTV12QJpegHandler)
+    .ARM.exidx$$Base                         0x00025654   Number         0  ucppinit.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x000261dc   Number         0  qjpeghandler.o(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x000261dc   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    __dso_handle                             0x00400010   Data           4  ucppfini.o(.data)
+    std::_Atomic_swap_struct<(int)1>::_S_swap_lock 0x00400014   Data          12  qjpeghandler.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    dtor_rec                                 0x00400020   Data        2048  ucppfini.o(.bss)
+

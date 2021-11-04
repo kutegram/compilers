@@ -1,0 +1,59 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Appendix A. Symbian ADT Sourcery G++ Lite Release Notes</title><link rel="stylesheet" href="cs.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.74.0"><meta name="description" content=" This appendix contains information about changes in this release of Symbian ADT Sourcery G++ Lite for ARM SymbianOS. You should read through these notes to learn about new features and bug fixes."><link rel="home" href="index.html" title="Symbian ADT Sourcery G++ Lite"><link rel="up" href="index.html" title="Symbian ADT Sourcery G++ Lite"><link rel="prev" href="ch06s02.html" title="6.2. Manuals for GNU Toolchain Components"><link rel="next" href="chap-license.html" title="Appendix B. Symbian ADT Sourcery G++ Lite Licenses"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">Appendix A. Symbian ADT Sourcery G++ Lite Release Notes</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ch06s02.html">Prev</a> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a accesskey="n" href="chap-license.html">Next</a></td></tr></table><hr></div><div class="appendix" lang="en"><div class="titlepage"><div><div><h2 class="title"><a name="chap-release"></a>Appendix A. Symbian ADT Sourcery G++ Lite Release Notes</h2></div><div><div class="abstract"><p class="title"><b></b></p><p>
+     This appendix contains information about changes in this
+     release of Symbian ADT Sourcery G++ Lite for ARM SymbianOS.  You should read
+     through these notes to learn about new features and bug fixes.
+    </p></div></div></div></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt><span class="section"><a href="chap-release.html#sec-release-notes">A.1. Changes in Symbian ADT Sourcery G++ Lite for ARM SymbianOS</a></span></dt></dl></div><div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="sec-release-notes"></a>A.1. Changes in Symbian ADT Sourcery G++ Lite for ARM SymbianOS</h2></div></div></div><p>
+      This section documents Symbian ADT Sourcery G++ Lite changes for each released revision.
+    </p><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id279908"></a>A.1.1. Changes in Symbian ADT Sourcery G++ Lite 4.4-172</h3></div></div></div><p><b>
+	GCC internal compiler error with <code class="code">optimize</code> attribute. </b>
+          A bug has been fixed that caused the compiler to crash
+	  when invoked with the <code class="option">-O0</code> or
+	  <code class="option">-O1</code> option on code using the
+	  <code class="code">optimize</code> attribute to specify higher
+	  optimization levels for individual functions. 
+        </p></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id279952"></a>A.1.2. Changes in Symbian ADT Sourcery G++ Lite 4.4-171</h3></div></div></div><p><b>GCC internal compiler error. </b>
+          A bug has been fixed that caused GCC to crash when
+	  compiling some C++ code using templates at
+	  <code class="option">-O2</code> or <code class="option">-O3</code>.
+        </p><p><b>Linker bug fix for <code class="option">--section-start</code>. </b>
+          A linker bug that caused <code class="option">--section-start</code>
+	  to fail to work as documented if the section is defined
+	  in multiple object files has been fixed.
+        </p><p><b>QEMU fails to start. </b>
+          Two bugs have been fixed that resulted in QEMU failing to start
+	  on Windows hosts due to unresolved symbols, and on Mac OS X
+	  hosts due to missing keymaps.
+        </p></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id280028"></a>A.1.3. Changes in Symbian ADT Sourcery G++ Lite 4.4-164</h3></div></div></div><p><b>Linker performance improvement. </b>
+          A bug in the linker that caused applications with many input
+	  files to link slowly has been fixed.
+        </p><p><b>Assembler segmentation fault fix. </b>
+          A bug has been fixed that caused the assembler
+	  to crash when processing some data filling directives,
+	  such as <code class="literal">.fill 0, 0, 0</code>.
+        </p><p><b>
+	  Improved support for debugging <span class="trademark">
+	  RealView</span>® programs
+	. </b>
+	  GDB has been enhanced to handle some debug information
+	  contained in binaries produced by the
+	  ARM <span class="trademark">RealView</span>®
+	  compiler.  Formerly, GDB sometimes crashed on these programs
+	  and libraries.
+	</p><p><b>Debugging preprocessed source code. </b>
+          A compiler bug has been fixed that caused debug output to
+	  erroneously contain the name of the intermediate
+	  preprocessed file.
+        </p></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id280131"></a>A.1.4. Changes in Symbian ADT Sourcery G++ Lite 4.4-129</h3></div></div></div><p><b>No significant changes. </b>
+          There are no significant changes for ARM SymbianOS in
+          this release.
+        </p></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id280154"></a>A.1.5. Changes in Symbian ADT Sourcery G++ Lite 4.4-106</h3></div></div></div><p><b>Thumb-2 internal compiler error fix. </b>
+          A bug that caused an internal compiler error when building
+          the QT library for Thumb-2 has been fixed.
+        </p><p><b>Thumb-2 multiply fix. </b>
+          A bug that caused an invalid <code class="code">muls</code> instruction
+          to be generated in certain circumstances has been fixed. This
+          affected code compiled for Thumb-2, and resulted in an error
+          from the assembler.
+        </p></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id280205"></a>A.1.6. Changes in Symbian ADT Sourcery G++ Lite 4.4-102</h3></div></div></div><p><b>Initial release. </b>
+          This is the initial release for ARM SymbianOS.
+        </p></div></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ch06s02.html">Prev</a> </td><td width="20%" align="center"> </td><td width="40%" align="right"> <a accesskey="n" href="chap-license.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">6.2. Manuals for GNU Toolchain Components </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> Appendix B. Symbian ADT Sourcery G++ Lite Licenses</td></tr></table></div></body></html>

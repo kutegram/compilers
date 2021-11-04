@@ -1,0 +1,7 @@
+<!ELEMENT product (meta*,items)>
+<!ELEMENT meta EMPTY>
+<!ATTLIST meta
+	name CDATA #REQUIRED
+	value CDATA #REQUIRED>
+<!ELEMENT items (item)*>
+<!ELEMENT item (#PCDATA)>

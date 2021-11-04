@@ -1,0 +1,425 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../../unhosted.s                         0x00000000   Number         0  switch8.o ABSOLUTE
+    M:\\epoc32\\build\\euser\\c_e18a23aea4fd210f\\edll_lib\\armv5\\udeb\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\\sf\\os\\kernelhwsrv\\kernel\\eka\\compsupp\\rvct\\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\epoc32\build\euser\c_e18a23aea4fd210f\edll_lib\armv5\udeb\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\dllexp.cpp 0x00000000   Number         0  dllexp.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    S:\sf\mw\qtmobility\build\Release\qtmultimediakit_m3u\moc\moc_qm3uhandler.cpp 0x00000000   Number         0  moc_qm3uhandler.o ABSOLUTE
+    S:\sf\mw\qtmobility\plugins\multimedia\m3u\main.cpp 0x00000000   Number         0  main.o ABSOLUTE
+    S:\sf\mw\qtmobility\plugins\multimedia\m3u\qm3uhandler.cpp 0x00000000   Number         0  qm3uhandler.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    Symbian$$eit_base                        0x00008014   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$eit_limit                       0x00008018   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_base                   0x0000801c   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_limit                  0x00008020   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$reserved                        0x00008024   Data           4  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       52  ucppinit.o(.emb_text)
+    loop                                     0x0000803c   ARM Code       0  ucppinit.o(.emb_text)
+    ret                                      0x00008044   ARM Code       0  ucppinit.o(.emb_text)
+    base                                     0x00008054   Data           0  ucppinit.o(.emb_text)
+    limit                                    0x00008058   Data           0  ucppinit.o(.emb_text)
+    .text                                    0x00008244   Section      116  moc_qm3uhandler.o(.text)
+    .text                                    0x000082b8   Section      144  main.o(.text)
+    .text                                    0x00008348   Section      792  qm3uhandler.o(.text)
+    .text                                    0x00008660   Section       24  switch8.o(.text)
+    .text                                    0x00008678   Section       80  uc_dll.o(.text)
+    .text                                    0x000086c8   Section      180  ucppfini.o(.text)
+    .text                                    0x0000877c   Section        4  dllexp.o(.text)
+    .text.clean                              0x00008780   Section       28  main.o(.text.clean)
+    .text.clean                              0x0000879c   Section      110  qm3uhandler.o(.text.clean)
+    i._ZN11QStringListD1Ev                   0x0000880a   Section       14  qm3uhandler.o(i._ZN11QStringListD1Ev)
+    i._ZN15QBasicAtomicInt3refEv             0x00008818   Section       24  qm3uhandler.o(i._ZN15QBasicAtomicInt3refEv)
+    i._ZN15QBasicAtomicInt5derefEv           0x00008830   Section       24  qm3uhandler.o(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN18QM3uPlaylistReader5closeEv        0x00008848   Section        2  qm3uhandler.o(i._ZN18QM3uPlaylistReader5closeEv)
+    i._ZN18QM3uPlaylistReader8readItemEv     0x0000884c   Section      412  qm3uhandler.o(i._ZN18QM3uPlaylistReader8readItemEv)
+    i._ZN18QM3uPlaylistReader8readItemEv.clean 0x000089e8   Section       74  qm3uhandler.o(i._ZN18QM3uPlaylistReader8readItemEv.clean)
+    i._ZN18QM3uPlaylistReaderC1EP9QIODevice  0x00008a34   Section      112  qm3uhandler.o(i._ZN18QM3uPlaylistReaderC1EP9QIODevice)
+    i._ZN18QM3uPlaylistReaderC1EP9QIODevice.clean 0x00008aa4   Section       46  qm3uhandler.o(i._ZN18QM3uPlaylistReaderC1EP9QIODevice.clean)
+    i._ZN18QM3uPlaylistReaderC1ERK4QUrl      0x00008ad4   Section      248  qm3uhandler.o(i._ZN18QM3uPlaylistReaderC1ERK4QUrl)
+    i._ZN18QM3uPlaylistReaderC1ERK4QUrl.clean 0x00008bcc   Section       70  qm3uhandler.o(i._ZN18QM3uPlaylistReaderC1ERK4QUrl.clean)
+    i._ZN18QM3uPlaylistReaderD0Ev            0x00008c12   Section       22  qm3uhandler.o(i._ZN18QM3uPlaylistReaderD0Ev)
+    i._ZN18QM3uPlaylistReaderD1Ev            0x00008c28   Section       80  qm3uhandler.o(i._ZN18QM3uPlaylistReaderD1Ev)
+    i._ZN18QM3uPlaylistReaderD1Ev.clean      0x00008c78   Section       30  qm3uhandler.o(i._ZN18QM3uPlaylistReaderD1Ev.clean)
+    i._ZN18QM3uPlaylistWriter5closeEv        0x00008c96   Section        2  qm3uhandler.o(i._ZN18QM3uPlaylistWriter5closeEv)
+    i._ZN18QM3uPlaylistWriter9writeItemERK13QMediaContent 0x00008c98   Section       76  qm3uhandler.o(i._ZN18QM3uPlaylistWriter9writeItemERK13QMediaContent)
+    i._ZN18QM3uPlaylistWriter9writeItemERK13QMediaContent.clean 0x00008ce4   Section       16  qm3uhandler.o(i._ZN18QM3uPlaylistWriter9writeItemERK13QMediaContent.clean)
+    i._ZN18QM3uPlaylistWriterD0Ev            0x00008cf4   Section       22  qm3uhandler.o(i._ZN18QM3uPlaylistWriterD0Ev)
+    i._ZN18QM3uPlaylistWriterD1Ev            0x00008d0c   Section       40  qm3uhandler.o(i._ZN18QM3uPlaylistWriterD1Ev)
+    i._ZN18QM3uPlaylistWriterD1Ev.clean      0x00008d34   Section       10  qm3uhandler.o(i._ZN18QM3uPlaylistWriterD1Ev.clean)
+    i._ZN7QStringC1ERKS_                     0x00008d3e   Section       22  qm3uhandler.o(i._ZN7QStringC1ERKS_)
+    i._ZN7QStringD1Ev                        0x00008d54   Section       24  qm3uhandler.o(i._ZN7QStringD1Ev)
+    i._ZNK10QByteArray7isEmptyEv             0x00008d6c   Section       18  qm3uhandler.o(i._ZNK10QByteArray7isEmptyEv)
+    i._ZNK18QM3uPlaylistReader5atEndEv       0x00008d7e   Section       14  qm3uhandler.o(i._ZNK18QM3uPlaylistReader5atEndEv)
+    i._ZNK9QListData3endEv                   0x00008d8c   Section       16  qm3uhandler.o(i._ZNK9QListData3endEv)
+    i._ZNK9QListData5beginEv                 0x00008d9c   Section       16  qm3uhandler.o(i._ZNK9QListData5beginEv)
+    i._ZdlPvS_                               0x00008dac   Section        2  qm3uhandler.o(i._ZdlPvS_)
+    i._ZeqRK10QByteArrayPKc                  0x00008dae   Section       38  qm3uhandler.o(i._ZeqRK10QByteArrayPKc)
+    i._ZnwjPv                                0x00008dd4   Section        6  qm3uhandler.o(i._ZnwjPv)
+    t._ZN5QListI7QStringE13detach_helperEi   0x00008dda   Section       94  qm3uhandler.o(t._ZN5QListI7QStringE13detach_helperEi)
+    t._ZN5QListI7QStringE13detach_helperEi.clean 0x00008e38   Section        8  qm3uhandler.o(t._ZN5QListI7QStringE13detach_helperEi.clean)
+    t._ZN5QListI7QStringE13detach_helperEv   0x00008e40   Section       16  qm3uhandler.o(t._ZN5QListI7QStringE13detach_helperEv)
+    t._ZN5QListI7QStringE13node_destructEPNS1_4NodeES3_ 0x00008e50   Section       26  qm3uhandler.o(t._ZN5QListI7QStringE13node_destructEPNS1_4NodeES3_)
+    t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_ 0x00008e6a   Section       36  qm3uhandler.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_)
+    t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_.clean 0x00008e8e   Section       14  qm3uhandler.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_.clean)
+    t._ZN5QListI7QStringE18detach_helper_growEii 0x00008e9c   Section      208  qm3uhandler.o(t._ZN5QListI7QStringE18detach_helper_growEii)
+    t._ZN5QListI7QStringE18detach_helper_growEii.clean 0x00008f6c   Section       16  qm3uhandler.o(t._ZN5QListI7QStringE18detach_helper_growEii.clean)
+    t._ZN5QListI7QStringE4freeEPN9QListData4DataE 0x00008f7c   Section       58  qm3uhandler.o(t._ZN5QListI7QStringE4freeEPN9QListData4DataE)
+    t._ZN5QListI7QStringE6appendERKS0_       0x00008fb8   Section      124  qm3uhandler.o(t._ZN5QListI7QStringE6appendERKS0_)
+    t._ZN5QListI7QStringE6appendERKS0_.clean 0x00009034   Section       14  qm3uhandler.o(t._ZN5QListI7QStringE6appendERKS0_.clean)
+    t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_ 0x00009042   Section       82  qm3uhandler.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_)
+    t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_.clean 0x00009094   Section       22  qm3uhandler.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_.clean)
+    t._ZN5QListI7QStringED1Ev                0x000090aa   Section       32  qm3uhandler.o(t._ZN5QListI7QStringED1Ev)
+    t._ZN8QPointerI7QObjectED1Ev             0x000090ca   Section       14  main.o(t._ZN8QPointerI7QObjectED1Ev)
+    .extab.qt_plugin_instance                0x000090d8   Data           0  main.o(.ARM.extab)
+    .extab._ZNK18QM3uPlaylistPlugin7canReadERK4QUrlRK10QByteArray 0x000090f0   Data           0  qm3uhandler.o(.ARM.extab)
+    .extab._ZNK18QM3uPlaylistPlugin4keysEv   0x00009128   Data           0  qm3uhandler.o(.ARM.extab)
+    .extab._ZN18QM3uPlaylistPlugin12createReaderEP9QIODeviceRK10QByteArray 0x00009148   Data           0  qm3uhandler.o(.ARM.extab)
+    .extab._ZN18QM3uPlaylistPlugin12createReaderERK4QUrlRK10QByteArray 0x00009158   Data           0  qm3uhandler.o(.ARM.extab)
+    .extab._ZN18QM3uPlaylistPlugin12createWriterEP9QIODeviceRK10QByteArray 0x00009168   Data           0  qm3uhandler.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_ 0x00009188   Data           0  qm3uhandler.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE13detach_helperEi 0x000091ac   Data           0  qm3uhandler.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_ 0x000091c8   Data           0  qm3uhandler.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE18detach_helper_growEii 0x000091d8   Data           0  qm3uhandler.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE6appendERKS0_  0x00009208   Data           0  qm3uhandler.o(.ARM.extab)
+    .extab._ZN18QM3uPlaylistReader8readItemEv 0x00009238   Data           0  qm3uhandler.o(.ARM.extab)
+    .extab._ZN18QM3uPlaylistReaderC1ERK4QUrl 0x000092e8   Data           0  qm3uhandler.o(.ARM.extab)
+    .extab._ZN18QM3uPlaylistReaderD1Ev       0x00009338   Data           0  qm3uhandler.o(.ARM.extab)
+    .extab._ZN18QM3uPlaylistWriterD1Ev       0x00009358   Data           0  qm3uhandler.o(.ARM.extab)
+    .extab._ZN18QM3uPlaylistReaderC1EP9QIODevice 0x00009368   Data           0  qm3uhandler.o(.ARM.extab)
+    .extab._ZN18QM3uPlaylistWriter9writeItemERK13QMediaContent 0x00009398   Data           0  qm3uhandler.o(.ARM.extab)
+    .constdata$1                             0x000093b8   Data           0  moc_qm3uhandler.o(.constdata)
+    qt_meta_data_QM3uPlaylistPlugin          0x000093b8   Data          60  moc_qm3uhandler.o(.constdata)
+    .constdata                               0x000093b8   Section       96  moc_qm3uhandler.o(.constdata)
+    qt_meta_stringdata_QM3uPlaylistPlugin    0x000093f4   Data          20  moc_qm3uhandler.o(.constdata)
+    .constdata$1                             0x00009418   Data           0  main.o(.constdata)
+    qt_plugin_verification_data              0x00009418   Data          91  main.o(.constdata)
+    .constdata                               0x00009418   Section       91  main.o(.constdata)
+    .constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE 0x00009474   Section        4  moc_qm3uhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE 0x00009478   Section        4  moc_qm3uhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE 0x0000947c   Section        4  moc_qm3uhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE 0x00009480   Section        4  moc_qm3uhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE 0x00009484   Section        4  moc_qm3uhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE 0x00009488   Section        1  moc_qm3uhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE 0x0000948c   Section        4  moc_qm3uhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE 0x00009490   Section        4  moc_qm3uhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE 0x00009494   Section        4  moc_qm3uhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE 0x00009498   Section        4  moc_qm3uhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE 0x0000949c   Section        4  moc_qm3uhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE 0x000094a0   Section        4  moc_qm3uhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE 0x000094a4   Section        4  moc_qm3uhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE 0x000094a8   Section        4  moc_qm3uhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    .constdata__ZTI18QM3uPlaylistPlugin      0x000094ac   Section       12  moc_qm3uhandler.o(.constdata__ZTI18QM3uPlaylistPlugin)
+    .constdata__ZTI18QM3uPlaylistReader      0x000094b8   Section       12  qm3uhandler.o(.constdata__ZTI18QM3uPlaylistReader)
+    .constdata__ZTI18QM3uPlaylistWriter      0x000094c4   Section       12  qm3uhandler.o(.constdata__ZTI18QM3uPlaylistWriter)
+    .constdata__ZTS18QM3uPlaylistPlugin      0x000094d0   Section       21  moc_qm3uhandler.o(.constdata__ZTS18QM3uPlaylistPlugin)
+    .constdata__ZTS18QM3uPlaylistReader      0x000094e5   Section       21  qm3uhandler.o(.constdata__ZTS18QM3uPlaylistReader)
+    .constdata__ZTS18QM3uPlaylistWriter      0x000094fa   Section       21  qm3uhandler.o(.constdata__ZTS18QM3uPlaylistWriter)
+    .constdata__ZTV18QM3uPlaylistPlugin      0x00009510   Section      128  moc_qm3uhandler.o(.constdata__ZTV18QM3uPlaylistPlugin)
+    .constdata__ZTV18QM3uPlaylistReader      0x00009590   Section       28  qm3uhandler.o(.constdata__ZTV18QM3uPlaylistReader)
+    .constdata__ZTV18QM3uPlaylistWriter      0x000095ac   Section       24  qm3uhandler.o(.constdata__ZTV18QM3uPlaylistWriter)
+    .ARM.exidx                               0x000095c4   Section        8  ucppinit.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  main.o(.data)
+    _ZGV_instance@qt_plugin_instance_0       0x00400000   Data           4  main.o(.data)
+    .data                                    0x00400000   Section        8  main.o(.data)
+    _instance@qt_plugin_instance_1           0x00400004   Data           4  main.o(.data)
+    .data$0                                  0x00400008   Data           0  ucppfini.o(.data)
+    .data                                    0x00400008   Section        4  ucppfini.o(.data)
+    .data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE 0x0040000c   Section       12  moc_qm3uhandler.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    .bss$5                                   0x00400018   Data           0  ucppfini.o(.bss)
+    .bss                                     0x00400018   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$VFPv2$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$IEEEJ$EBA8$UX$FPIC$INDIRECT$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    QtCore{00040703}[2001b2dc].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtMultimediaKit{00010103}[2002ac77].dll  0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    euser{000a0000}[100039e5].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    libc{00010001}[10207369].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    qtmultimediakit_m3u{000a0000}[2002bfc7].dll 0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    stdnew{000a0000}[20022178].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    endl(QTextStream&)                        - Undefined Reference
+    _Z4endlR11QTextStream@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qFree(void*)                              - Undefined Reference
+    _Z5qFreePv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qstrcmp(const QByteArray&, const char*)   - Undefined Reference
+    _Z7qstrcmpRK10QByteArrayPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::changeGuard(QObject**, QObject*)  - Undefined Reference
+    _ZN11QMetaObject11changeGuardEPP7QObjectS1_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::removeGuard(QObject**)       - Undefined Reference
+    _ZN11QMetaObject11removeGuardEPP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::readLine(long long)          - Undefined Reference
+    _ZN11QTextStream8readLineEx@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::QTextStream(QIODevice*)      - Undefined Reference
+    _ZN11QTextStreamC1EP9QIODevice@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::operator <<(const QString&)  - Undefined Reference
+    _ZN11QTextStreamlsERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMediaContent::QMediaContent(const QUrl&)  - Undefined Reference
+    _ZN13QMediaContentC1ERK4QUrl@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaContent::QMediaContent(const QMediaContent&)  - Undefined Reference
+    _ZN13QMediaContentC1ERKS_@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaContent::QMediaContent()            - Undefined Reference
+    _ZN13QMediaContentC1Ev@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaContent::~QMediaContent()           - Undefined Reference
+    _ZN13QMediaContentD1Ev@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaContent::operator =(const QMediaContent&)  - Undefined Reference
+    _ZN13QMediaContentaSERKS_@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaPlaylistReader::~QMediaPlaylistReader__sub_object()  - Undefined Reference
+    _ZN20QMediaPlaylistReaderD2Ev@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaPlaylistWriter::~QMediaPlaylistWriter__sub_object()  - Undefined Reference
+    _ZN20QMediaPlaylistWriterD2Ev@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaPlaylistIOPlugin::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN22QMediaPlaylistIOPlugin11qt_metacallEN11QMetaObject4CallEiPPv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaPlaylistIOPlugin::qt_metacast(const char*)  - Undefined Reference
+    _ZN22QMediaPlaylistIOPlugin11qt_metacastEPKc@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaPlaylistIOPlugin::staticMetaObject  - Undefined Reference
+    _ZN22QMediaPlaylistIOPlugin16staticMetaObjectE@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaPlaylistIOPlugin::QMediaPlaylistIOPlugin__sub_object(QObject*)  - Undefined Reference
+    _ZN22QMediaPlaylistIOPluginC2EP7QObject@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaPlaylistIOPlugin::~QMediaPlaylistIOPlugin__sub_object()  - Undefined Reference
+    _ZN22QMediaPlaylistIOPluginD2Ev@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QUrl::fromLocalFile(const QString&)       - Undefined Reference
+    _ZN4QUrl13fromLocalFileERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::QUrl(const QString&)                - Undefined Reference
+    _ZN4QUrlC1ERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::QUrl(const QUrl&)                   - Undefined Reference
+    _ZN4QUrlC1ERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::QUrl()                              - Undefined Reference
+    _ZN4QUrlC1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::~QUrl()                             - Undefined Reference
+    _ZN4QUrlD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::operator =(const QUrl&)             - Undefined Reference
+    _ZN4QUrlaSERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    User::LockedDec(int&)                     - Undefined Reference
+    _ZN4User9LockedDecERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::LockedInc(int&)                     - Undefined Reference
+    _ZN4User9LockedIncERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QChar::QChar(char)                        - Undefined Reference
+    _ZN5QCharC1Ec@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QFile::exists(const QString&)             - Undefined Reference
+    _ZN5QFile6existsERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QFile::QFile(const QString&)              - Undefined Reference
+    _ZN5QFileC1ERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::childEvent(QChildEvent*)         - Undefined Reference
+    _ZN7QObject10childEventEP11QChildEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::timerEvent(QTimerEvent*)         - Undefined Reference
+    _ZN7QObject10timerEventEP11QTimerEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::customEvent(QEvent*)             - Undefined Reference
+    _ZN7QObject11customEventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::eventFilter(QObject*, QEvent*)   - Undefined Reference
+    _ZN7QObject11eventFilterEPS_P6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connectNotify(const char*)       - Undefined Reference
+    _ZN7QObject13connectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::disconnectNotify(const char*)    - Undefined Reference
+    _ZN7QObject16disconnectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::event(QEvent*)                   - Undefined Reference
+    _ZN7QObject5eventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromLatin1_helper(const char*, int)  - Undefined Reference
+    _ZN7QString17fromLatin1_helperEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::free(QString::Data*)             - Undefined Reference
+    _ZN7QString4freeEPNS_4DataE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QFileInfo::QFileInfo(const QString&)      - Undefined Reference
+    _ZN9QFileInfoC1ERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QFileInfo::~QFileInfo()                   - Undefined Reference
+    _ZN9QFileInfoD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach_grow(int*, int)         - Undefined Reference
+    _ZN9QListData11detach_growEPii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::shared_null                    - Undefined Reference
+    _ZN9QListData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::append()                       - Undefined Reference
+    _ZN9QListData6appendEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach(int)                    - Undefined Reference
+    _ZN9QListData6detachEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::atEnd() const                - Undefined Reference
+    _ZNK11QTextStream5atEndEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMediaContent::canonicalUrl() const       - Undefined Reference
+    _ZNK13QMediaContent12canonicalUrlEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QMediaContent::isNull() const             - Undefined Reference
+    _ZNK13QMediaContent6isNullEv@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    QUrl::isRelative() const                  - Undefined Reference
+    _ZNK4QUrl10isRelativeEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::toLocalFile() const                 - Undefined Reference
+    _ZNK4QUrl11toLocalFileEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::isEmpty() const                     - Undefined Reference
+    _ZNK4QUrl7isEmptyEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::resolved(const QUrl&) const         - Undefined Reference
+    _ZNK4QUrl8resolvedERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::toString(QFlags<QUrl::FormattingOption>) const  - Undefined Reference
+    _ZNK4QUrl8toStringE6QFlagsINS_16FormattingOptionEE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::toLower() const                  - Undefined Reference
+    _ZNK7QString7toLowerEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::trimmed() const                  - Undefined Reference
+    _ZNK7QString7trimmedEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::endsWith(const QLatin1String&, Qt::CaseSensitivity) const  - Undefined Reference
+    _ZNK7QString8endsWithERK13QLatin1StringN2Qt15CaseSensitivityE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QFileInfo::isReadable() const             - Undefined Reference
+    _ZNK9QFileInfo10isReadableEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QIODevice::isReadable() const             - Undefined Reference
+    _ZNK9QIODevice10isReadableEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QIODevice::isWritable() const             - Undefined Reference
+    _ZNK9QIODevice10isWritableEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QIODevice::isOpen() const                 - Undefined Reference
+    _ZNK9QIODevice6isOpenEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for QMediaPlaylistReader         - Undefined Reference
+    _ZTI20QMediaPlaylistReader@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    typeinfo for QMediaPlaylistWriter         - Undefined Reference
+    _ZTI20QMediaPlaylistWriter@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    typeinfo for QMediaPlaylistIOPlugin       - Undefined Reference
+    _ZTI22QMediaPlaylistIOPlugin@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    vtable for QMediaPlaylistReader           - Undefined Reference
+    _ZTV20QMediaPlaylistReader@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    vtable for QMediaPlaylistWriter           - Undefined Reference
+    _ZTV20QMediaPlaylistWriter@QtMultimediaKit{00010103}[2002ac77].dll  - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv120__si_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    operator delete (void*)                   - Undefined Reference
+    _ZdlPv@stdnew{000a0000}[20022178].dll     - Undefined Reference
+    operator new(unsigned)                    - Undefined Reference
+    _Znwj@stdnew{000a0000}[20022178].dll      - Undefined Reference
+    __aeabi_unwind_cpp_pr0                    - Undefined Reference
+    __aeabi_unwind_cpp_pr0@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_begin_catch                         - Undefined Reference
+    __cxa_begin_catch@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_end_catch                           - Undefined Reference
+    __cxa_end_catch@drtaeabi{000a0000}.dll    - Undefined Reference
+    __cxa_end_cleanup                         - Undefined Reference
+    __cxa_end_cleanup@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_abort                         - Undefined Reference
+    __cxa_guard_abort@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_acquire                       - Undefined Reference
+    __cxa_guard_acquire@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_release                       - Undefined Reference
+    __cxa_guard_release@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_rethrow                             - Undefined Reference
+    __cxa_rethrow@drtaeabi{000a0000}.dll      - Undefined Reference
+    strcmp                                    - Undefined Reference
+    strcmp@libc{00010001}[10207369].dll       - Undefined Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      52  ucppinit.o(.emb_text)
+    std::nothrow                             0x0000805c   ARM Code       0  ucppinit.o(.emb_text)
+    __PLT                                    0x0000805c   ARM Code       0  anon$$obj.o(.plt)
+    QM3uPlaylistPlugin::getStaticMetaObject() 0x00008245   Thumb Code     4  moc_qm3uhandler.o(.text)
+    QM3uPlaylistPlugin::metaObject() const   0x00008249   Thumb Code    28  moc_qm3uhandler.o(.text)
+    QM3uPlaylistPlugin::qt_metacast(const char*) 0x00008265   Thumb Code    40  moc_qm3uhandler.o(.text)
+    QM3uPlaylistPlugin::qt_metacall(QMetaObject::Call, int, void**) 0x0000828d   Thumb Code    36  moc_qm3uhandler.o(.text)
+    qt_plugin_query_verification_data        0x000082b9   Thumb Code     4  main.o(.text)
+    qt_plugin_instance                       0x000082bd   Thumb Code   122  main.o(.text)
+    QM3uPlaylistPlugin::QM3uPlaylistPlugin(QObject*) 0x00008349   Thumb Code    28  qm3uhandler.o(.text)
+    QM3uPlaylistPlugin::QM3uPlaylistPlugin__sub_object(QObject*) 0x00008349   Thumb Code     0  qm3uhandler.o(.text)
+    QM3uPlaylistPlugin::~QM3uPlaylistPlugin() 0x00008365   Thumb Code    14  qm3uhandler.o(.text)
+    QM3uPlaylistPlugin::~QM3uPlaylistPlugin__sub_object() 0x00008365   Thumb Code     0  qm3uhandler.o(.text)
+    QM3uPlaylistPlugin::~QM3uPlaylistPlugin__deallocating() 0x00008373   Thumb Code    22  qm3uhandler.o(.text)
+    thunk{-8} to QM3uPlaylistPlugin::~QM3uPlaylistPlugin__deallocating() 0x00008389   Thumb Code    14  qm3uhandler.o(.text)
+    thunk{-8} to QM3uPlaylistPlugin::~QM3uPlaylistPlugin() 0x00008397   Thumb Code    14  qm3uhandler.o(.text)
+    QM3uPlaylistPlugin::canRead(QIODevice*, const QByteArray&) const 0x000083a5   Thumb Code    48  qm3uhandler.o(.text)
+    thunk{-8} to QM3uPlaylistPlugin::canRead(QIODevice*, const QByteArray&) const 0x000083d5   Thumb Code    22  qm3uhandler.o(.text)
+    QM3uPlaylistPlugin::canRead(const QUrl&, const QByteArray&) const 0x000083eb   Thumb Code   136  qm3uhandler.o(.text)
+    thunk{-8} to QM3uPlaylistPlugin::canRead(const QUrl&, const QByteArray&) const 0x00008473   Thumb Code    22  qm3uhandler.o(.text)
+    QM3uPlaylistPlugin::canWrite(QIODevice*, const QByteArray&) const 0x00008489   Thumb Code    48  qm3uhandler.o(.text)
+    thunk{-8} to QM3uPlaylistPlugin::canWrite(QIODevice*, const QByteArray&) const 0x000084b9   Thumb Code    22  qm3uhandler.o(.text)
+    QM3uPlaylistPlugin::keys() const         0x000084cf   Thumb Code   128  qm3uhandler.o(.text)
+    thunk{-8} to QM3uPlaylistPlugin::keys() const 0x0000854f   Thumb Code    18  qm3uhandler.o(.text)
+    QM3uPlaylistPlugin::createReader(QIODevice*, const QByteArray&) 0x00008561   Thumb Code    36  qm3uhandler.o(.text)
+    thunk{-8} to QM3uPlaylistPlugin::createReader(QIODevice*, const QByteArray&) 0x00008585   Thumb Code    22  qm3uhandler.o(.text)
+    QM3uPlaylistPlugin::createReader(const QUrl&, const QByteArray&) 0x0000859b   Thumb Code    36  qm3uhandler.o(.text)
+    thunk{-8} to QM3uPlaylistPlugin::createReader(const QUrl&, const QByteArray&) 0x000085bf   Thumb Code    22  qm3uhandler.o(.text)
+    QM3uPlaylistPlugin::createWriter(QIODevice*, const QByteArray&) 0x000085d5   Thumb Code    98  qm3uhandler.o(.text)
+    thunk{-8} to QM3uPlaylistPlugin::createWriter(QIODevice*, const QByteArray&) 0x00008637   Thumb Code    22  qm3uhandler.o(.text)
+    __ARM_switch8                            0x00008660   ARM Code      24  switch8.o(.text)
+    __rt_switch8                             0x00008660   ARM Code       0  switch8.o(.text)
+    _E32Dll_Body                             0x00008678   ARM Code      76  uc_dll.o(.text)
+    __aeabi_atexit                           0x000086c8   ARM Code      40  ucppfini.o(.text)
+    __cxa_atexit                             0x000086f0   ARM Code      64  ucppfini.o(.text)
+    __cxa_finalize                           0x00008730   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x00008760   ARM Code      16  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x0000877c   ARM Code       4  dllexp.o(.text)
+    QStringList::~QStringList()              0x0000880b   Thumb Code    14  qm3uhandler.o(i._ZN11QStringListD1Ev)
+    QStringList::~QStringList__sub_object()  0x0000880b   Thumb Code     0  qm3uhandler.o(i._ZN11QStringListD1Ev)
+    QBasicAtomicInt::ref()                   0x00008819   Thumb Code    24  qm3uhandler.o(i._ZN15QBasicAtomicInt3refEv)
+    QBasicAtomicInt::deref()                 0x00008831   Thumb Code    24  qm3uhandler.o(i._ZN15QBasicAtomicInt5derefEv)
+    QM3uPlaylistReader::close()              0x00008849   Thumb Code     2  qm3uhandler.o(i._ZN18QM3uPlaylistReader5closeEv)
+    QM3uPlaylistReader::readItem()           0x0000884d   Thumb Code   404  qm3uhandler.o(i._ZN18QM3uPlaylistReader8readItemEv)
+    QM3uPlaylistReader::QM3uPlaylistReader(QIODevice*) 0x00008a35   Thumb Code   104  qm3uhandler.o(i._ZN18QM3uPlaylistReaderC1EP9QIODevice)
+    QM3uPlaylistReader::QM3uPlaylistReader__sub_object(QIODevice*) 0x00008a35   Thumb Code     0  qm3uhandler.o(i._ZN18QM3uPlaylistReaderC1EP9QIODevice)
+    QM3uPlaylistReader::QM3uPlaylistReader(const QUrl&) 0x00008ad5   Thumb Code   238  qm3uhandler.o(i._ZN18QM3uPlaylistReaderC1ERK4QUrl)
+    QM3uPlaylistReader::QM3uPlaylistReader__sub_object(const QUrl&) 0x00008ad5   Thumb Code     0  qm3uhandler.o(i._ZN18QM3uPlaylistReaderC1ERK4QUrl)
+    QM3uPlaylistReader::~QM3uPlaylistReader__deallocating() 0x00008c13   Thumb Code    22  qm3uhandler.o(i._ZN18QM3uPlaylistReaderD0Ev)
+    QM3uPlaylistReader::~QM3uPlaylistReader() 0x00008c29   Thumb Code    76  qm3uhandler.o(i._ZN18QM3uPlaylistReaderD1Ev)
+    QM3uPlaylistReader::~QM3uPlaylistReader__sub_object() 0x00008c29   Thumb Code     0  qm3uhandler.o(i._ZN18QM3uPlaylistReaderD1Ev)
+    QM3uPlaylistWriter::close()              0x00008c97   Thumb Code     2  qm3uhandler.o(i._ZN18QM3uPlaylistWriter5closeEv)
+    QM3uPlaylistWriter::writeItem(const QMediaContent&) 0x00008c99   Thumb Code    70  qm3uhandler.o(i._ZN18QM3uPlaylistWriter9writeItemERK13QMediaContent)
+    QM3uPlaylistWriter::~QM3uPlaylistWriter__deallocating() 0x00008cf5   Thumb Code    22  qm3uhandler.o(i._ZN18QM3uPlaylistWriterD0Ev)
+    QM3uPlaylistWriter::~QM3uPlaylistWriter() 0x00008d0d   Thumb Code    34  qm3uhandler.o(i._ZN18QM3uPlaylistWriterD1Ev)
+    QM3uPlaylistWriter::~QM3uPlaylistWriter__sub_object() 0x00008d0d   Thumb Code     0  qm3uhandler.o(i._ZN18QM3uPlaylistWriterD1Ev)
+    QString::QString(const QString&)         0x00008d3f   Thumb Code    22  qm3uhandler.o(i._ZN7QStringC1ERKS_)
+    QString::QString__sub_object(const QString&) 0x00008d3f   Thumb Code     0  qm3uhandler.o(i._ZN7QStringC1ERKS_)
+    QString::~QString()                      0x00008d55   Thumb Code    24  qm3uhandler.o(i._ZN7QStringD1Ev)
+    QString::~QString__sub_object()          0x00008d55   Thumb Code     0  qm3uhandler.o(i._ZN7QStringD1Ev)
+    QByteArray::isEmpty() const              0x00008d6d   Thumb Code    18  qm3uhandler.o(i._ZNK10QByteArray7isEmptyEv)
+    QM3uPlaylistReader::atEnd() const        0x00008d7f   Thumb Code    14  qm3uhandler.o(i._ZNK18QM3uPlaylistReader5atEndEv)
+    QListData::end() const                   0x00008d8d   Thumb Code    16  qm3uhandler.o(i._ZNK9QListData3endEv)
+    QListData::begin() const                 0x00008d9d   Thumb Code    16  qm3uhandler.o(i._ZNK9QListData5beginEv)
+    operator delete (void*, void*)           0x00008dad   Thumb Code     2  qm3uhandler.o(i._ZdlPvS_)
+    operator ==(const QByteArray&, const char*) 0x00008daf   Thumb Code    38  qm3uhandler.o(i._ZeqRK10QByteArrayPKc)
+    operator new(unsigned, void*)            0x00008dd5   Thumb Code     6  qm3uhandler.o(i._ZnwjPv)
+    QList<QString>::detach_helper(int)       0x00008ddb   Thumb Code    94  qm3uhandler.o(t._ZN5QListI7QStringE13detach_helperEi)
+    QList<QString>::detach_helper()          0x00008e41   Thumb Code    16  qm3uhandler.o(t._ZN5QListI7QStringE13detach_helperEv)
+    QList<QString>::node_destruct(QList<QString>::Node*, QList<QString>::Node*) 0x00008e51   Thumb Code    26  qm3uhandler.o(t._ZN5QListI7QStringE13node_destructEPNS1_4NodeES3_)
+    QList<QString>::node_construct(QList<QString>::Node*, const QString&) 0x00008e6b   Thumb Code    36  qm3uhandler.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_)
+    QList<QString>::detach_helper_grow(int, int) 0x00008e9d   Thumb Code   208  qm3uhandler.o(t._ZN5QListI7QStringE18detach_helper_growEii)
+    QList<QString>::free(QListData::Data*)   0x00008f7d   Thumb Code    58  qm3uhandler.o(t._ZN5QListI7QStringE4freeEPN9QListData4DataE)
+    QList<QString>::append(const QString&)   0x00008fb9   Thumb Code   120  qm3uhandler.o(t._ZN5QListI7QStringE6appendERKS0_)
+    QList<QString>::node_copy(QList<QString>::Node*, QList<QString>::Node*, QList<QString>::Node*) 0x00009043   Thumb Code    82  qm3uhandler.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_)
+    QList<QString>::~QList()                 0x000090ab   Thumb Code    32  qm3uhandler.o(t._ZN5QListI7QStringED1Ev)
+    QList<QString>::~QList__sub_object()     0x000090ab   Thumb Code     0  qm3uhandler.o(t._ZN5QListI7QStringED1Ev)
+    QPointer<QObject>::~QPointer()           0x000090cb   Thumb Code    14  main.o(t._ZN8QPointerI7QObjectED1Ev)
+    QPointer<QObject>::~QPointer__sub_object() 0x000090cb   Thumb Code     0  main.o(t._ZN8QPointerI7QObjectED1Ev)
+    QM3uPlaylistPlugin::staticMetaObject     0x00009408   Data          16  moc_qm3uhandler.o(.constdata)
+    stlp_priv::_Integer_limits<signed char, (signed char)-128, (signed char)127, (int)-1, (bool)1>::digits 0x00009474   Data           4  moc_qm3uhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<bool, (bool)0, (bool)1, (int)1, (bool)0>::digits 0x00009478   Data           4  moc_qm3uhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    stlp_priv::_Integer_limits<char, (char)128, (char)127, (int)-1, (bool)1>::digits 0x0000947c   Data           4  moc_qm3uhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned char, (unsigned char)0, (unsigned char)255, (int)-1, (bool)1>::digits 0x00009480   Data           4  moc_qm3uhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::digits 0x00009484   Data           4  moc_qm3uhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::is_signed 0x00009488   Data           1  moc_qm3uhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    stlp_priv::_Integer_limits<unsigned, (unsigned)0, (unsigned)4294967295, (int)-1, (bool)1>::digits 0x0000948c   Data           4  moc_qm3uhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long, (long)-2147483648, (long)2147483647, (int)-1, (bool)1>::digits 0x00009490   Data           4  moc_qm3uhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long, (unsigned long)0, (unsigned long)4294967295, (int)-1, (bool)1>::digits 0x00009494   Data           4  moc_qm3uhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<short, (short)-32768, (short)32767, (int)-1, (bool)1>::digits 0x00009498   Data           4  moc_qm3uhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned short, (unsigned short)0, (unsigned short)65535, (int)-1, (bool)1>::digits 0x0000949c   Data           4  moc_qm3uhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<wchar_t, (wchar_t)0, (wchar_t)65535, (int)-1, (bool)1>::digits 0x000094a0   Data           4  moc_qm3uhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long long, (long long)-9223372036854775808, (long long)9223372036854775807, (int)-1, (bool)1>::digits 0x000094a4   Data           4  moc_qm3uhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long long, (unsigned long long)0, (unsigned long long)18446744073709551615, (int)-1, (bool)1>::digits 0x000094a8   Data           4  moc_qm3uhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    typeinfo for QM3uPlaylistPlugin          0x000094ac   Data          12  moc_qm3uhandler.o(.constdata__ZTI18QM3uPlaylistPlugin)
+    typeinfo for QM3uPlaylistReader          0x000094b8   Data          12  qm3uhandler.o(.constdata__ZTI18QM3uPlaylistReader)
+    typeinfo for QM3uPlaylistWriter          0x000094c4   Data          12  qm3uhandler.o(.constdata__ZTI18QM3uPlaylistWriter)
+    typeinfo name for QM3uPlaylistPlugin     0x000094d0   Data          21  moc_qm3uhandler.o(.constdata__ZTS18QM3uPlaylistPlugin)
+    typeinfo name for QM3uPlaylistReader     0x000094e5   Data          21  qm3uhandler.o(.constdata__ZTS18QM3uPlaylistReader)
+    typeinfo name for QM3uPlaylistWriter     0x000094fa   Data          21  qm3uhandler.o(.constdata__ZTS18QM3uPlaylistWriter)
+    vtable for QM3uPlaylistPlugin            0x00009510   Data         128  moc_qm3uhandler.o(.constdata__ZTV18QM3uPlaylistPlugin)
+    vtable for QM3uPlaylistReader            0x00009590   Data          28  qm3uhandler.o(.constdata__ZTV18QM3uPlaylistReader)
+    vtable for QM3uPlaylistWriter            0x000095ac   Data          24  qm3uhandler.o(.constdata__ZTV18QM3uPlaylistWriter)
+    .ARM.exidx$$Base                         0x000095c4   Number         0  ucppinit.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x000097ac   Number         0  qm3uhandler.o(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x000097ac   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    __dso_handle                             0x00400008   Data           4  ucppfini.o(.data)
+    std::_Atomic_swap_struct<(int)1>::_S_swap_lock 0x0040000c   Data          12  moc_qm3uhandler.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    dtor_rec                                 0x00400018   Data        2048  ucppfini.o(.bss)
+

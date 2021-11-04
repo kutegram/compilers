@@ -1,0 +1,711 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../../unhosted.s                         0x00000000   Number         0  switch8.o ABSOLUTE
+    M:\\epoc32\\build\\euser\\c_e18a23aea4fd210f\\edll_lib\\armv5\\udeb\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\\sf\\os\\kernelhwsrv\\kernel\\eka\\compsupp\\rvct\\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\epoc32\build\euser\c_e18a23aea4fd210f\edll_lib\armv5\udeb\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\dllexp.cpp 0x00000000   Number         0  dllexp.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    S:\sf\mw\qt\src\plugins\iconengines\svgiconengine\main.cpp 0x00000000   Number         0  main.o ABSOLUTE
+    S:\sf\mw\qt\src\plugins\iconengines\svgiconengine\qsvgiconengine.cpp 0x00000000   Number         0  qsvgiconengine.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    Symbian$$eit_base                        0x00008014   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$eit_limit                       0x00008018   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_base                   0x0000801c   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_limit                  0x00008020   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$reserved                        0x00008024   Data           4  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       52  ucppinit.o(.emb_text)
+    loop                                     0x0000803c   ARM Code       0  ucppinit.o(.emb_text)
+    ret                                      0x00008044   ARM Code       0  ucppinit.o(.emb_text)
+    base                                     0x00008054   Data           0  ucppinit.o(.emb_text)
+    limit                                    0x00008058   Data           0  ucppinit.o(.emb_text)
+    .text                                    0x00008344   Section      448  main.o(.text)
+    .text                                    0x00008504   Section     3644  qsvgiconengine.o(.text)
+    __sti___18_qsvgiconengine_cpp            0x00009331   Thumb Code     8  qsvgiconengine.o(.text)
+    .text                                    0x00009340   Section       24  switch8.o(.text)
+    .text                                    0x00009358   Section       80  uc_dll.o(.text)
+    .text                                    0x000093a8   Section      180  ucppfini.o(.text)
+    .text                                    0x0000945c   Section        4  dllexp.o(.text)
+    .text.clean                              0x00009460   Section       84  main.o(.text.clean)
+    .text.clean                              0x000094b4   Section      500  qsvgiconengine.o(.text.clean)
+    i._Z11qUncompressRK10QByteArray          0x000096a8   Section       32  qsvgiconengine.o(i._Z11qUncompressRK10QByteArray)
+    i._Z9qCompressRK10QByteArrayi            0x000096c8   Section       34  qsvgiconengine.o(i._Z9qCompressRK10QByteArrayi)
+    i._ZN10QByteArrayC1ERKS_                 0x000096ea   Section       20  qsvgiconengine.o(i._ZN10QByteArrayC1ERKS_)
+    i._ZN10QByteArrayC1Ev                    0x00009700   Section       24  qsvgiconengine.o(i._ZN10QByteArrayC1Ev)
+    i._ZN10QByteArrayD1Ev                    0x00009718   Section       24  qsvgiconengine.o(i._ZN10QByteArrayD1Ev)
+    i._ZN11QStringListD1Ev                   0x00009730   Section       14  main.o(i._ZN11QStringListD1Ev)
+    i._ZN13QIconEngineV2D2Ev                 0x0000973e   Section       14  qsvgiconengine.o(i._ZN13QIconEngineV2D2Ev)
+    i._ZN14QSvgIconPluginD0Ev                0x0000974c   Section       24  main.o(i._ZN14QSvgIconPluginD0Ev)
+    i._ZN14QSvgIconPluginD1Ev                0x00009764   Section       14  main.o(i._ZN14QSvgIconPluginD1Ev)
+    i._ZN15QBasicAtomicInt3refEv             0x00009772   Section       24  main.o(i._ZN15QBasicAtomicInt3refEv)
+    i._ZN15QBasicAtomicInt5derefEv           0x0000978a   Section       24  main.o(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN15QtSharedPointer20ExternalRefCountData7destroyEv 0x000097a2   Section        6  main.o(i._ZN15QtSharedPointer20ExternalRefCountData7destroyEv)
+    i._ZN15QtSharedPointer20ExternalRefCountDataD0Ev 0x000097a8   Section       22  main.o(i._ZN15QtSharedPointer20ExternalRefCountDataD0Ev)
+    i._ZN15QtSharedPointer20ExternalRefCountDataD1Ev 0x000097c0   Section      108  main.o(i._ZN15QtSharedPointer20ExternalRefCountDataD1Ev)
+    i._ZN17QForeachContainerI5QListIiEED1Ev  0x0000982c   Section       14  qsvgiconengine.o(i._ZN17QForeachContainerI5QListIiEED1Ev)
+    i._ZN21QSvgIconEnginePrivate13stepSerialNumEv 0x0000983c   Section       24  qsvgiconengine.o(i._ZN21QSvgIconEnginePrivate13stepSerialNumEv)
+    i._ZN21QSvgIconEnginePrivate6pmcKeyERK5QSizeN5QIcon4ModeENS3_5StateE 0x00009854   Section      160  qsvgiconengine.o(i._ZN21QSvgIconEnginePrivate6pmcKeyERK5QSizeN5QIcon4ModeENS3_5StateE)
+    i._ZN21QSvgIconEnginePrivate6pmcKeyERK5QSizeN5QIcon4ModeENS3_5StateE.clean 0x000098f4   Section       28  qsvgiconengine.o(i._ZN21QSvgIconEnginePrivate6pmcKeyERK5QSizeN5QIcon4ModeENS3_5StateE.clean)
+    i._ZN21QSvgIconEnginePrivate7hashKeyEN5QIcon4ModeENS0_5StateE 0x00009910   Section        8  qsvgiconengine.o(i._ZN21QSvgIconEnginePrivate7hashKeyEN5QIcon4ModeENS0_5StateE)
+    i._ZN21QSvgIconEnginePrivateC1Ev         0x00009918   Section       40  qsvgiconengine.o(i._ZN21QSvgIconEnginePrivateC1Ev)
+    i._ZN21QSvgIconEnginePrivateC1Ev.clean   0x00009940   Section       10  qsvgiconengine.o(i._ZN21QSvgIconEnginePrivateC1Ev.clean)
+    i._ZN21QSvgIconEnginePrivateD1Ev         0x0000994a   Section       52  qsvgiconengine.o(i._ZN21QSvgIconEnginePrivateD1Ev)
+    i._ZN21QSvgIconEnginePrivateD1Ev.clean   0x0000997e   Section       10  qsvgiconengine.o(i._ZN21QSvgIconEnginePrivateD1Ev.clean)
+    i._ZN7QStringC1ERK13QLatin1String        0x00009988   Section       26  main.o(i._ZN7QStringC1ERK13QLatin1String)
+    i._ZN7QStringC1ERKS_                     0x000099a4   Section      124  main.o(i._ZN7QStringC1ERKS_)
+    i._ZN7QStringC1Ev                        0x00009a20   Section       24  qsvgiconengine.o(i._ZN7QStringC1Ev)
+    i._ZN7QStringD1Ev                        0x00009a38   Section       24  main.o(i._ZN7QStringD1Ev)
+    i._ZN9QHashData8willGrowEv               0x00009a50   Section       32  qsvgiconengine.o(i._ZN9QHashData8willGrowEv)
+    i._ZN9QHashData9firstNodeEv              0x00009a70   Section       36  qsvgiconengine.o(i._ZN9QHashData9firstNodeEv)
+    i._ZNK10QByteArray7isEmptyEv             0x00009a94   Section       18  qsvgiconengine.o(i._ZNK10QByteArray7isEmptyEv)
+    i._ZNK15QBasicAtomicIntneEi              0x00009aa6   Section       16  qsvgiconengine.o(i._ZNK15QBasicAtomicIntneEi)
+    i._ZNK7QString7isEmptyEv                 0x00009ab6   Section       18  qsvgiconengine.o(i._ZNK7QString7isEmptyEv)
+    i._ZNK9QListData3endEv                   0x00009ac8   Section       16  qsvgiconengine.o(i._ZNK9QListData3endEv)
+    i._ZNK9QListData5beginEv                 0x00009ad8   Section       16  main.o(i._ZNK9QListData5beginEv)
+    i._ZThn8_N14QSvgIconPluginD0Ev           0x00009ae8   Section       14  main.o(i._ZThn8_N14QSvgIconPluginD0Ev)
+    i._ZThn8_N14QSvgIconPluginD1Ev           0x00009af6   Section       18  main.o(i._ZThn8_N14QSvgIconPluginD1Ev)
+    i._ZdlPvS_                               0x00009b08   Section        2  main.o(i._ZdlPvS_)
+    i._ZeqRK5QSizeS1_                        0x00009b0a   Section       26  qsvgiconengine.o(i._ZeqRK5QSizeS1_)
+    i._ZnwjPv                                0x00009b24   Section        6  main.o(i._ZnwjPv)
+    i._ZplRK7QStringS1_                      0x00009b2a   Section       44  qsvgiconengine.o(i._ZplRK7QStringS1_)
+    i._ZplRK7QStringS1_.clean                0x00009b56   Section       10  qsvgiconengine.o(i._ZplRK7QStringS1_.clean)
+    t._Z20qForeachContainerNewI5QListIiEE17QForeachContainerIT_ERKS3_ 0x00009b60   Section      126  qsvgiconengine.o(t._Z20qForeachContainerNewI5QListIiEE17QForeachContainerIT_ERKS3_)
+    t._Z20qForeachContainerNewI5QListIiEE17QForeachContainerIT_ERKS3_.clean 0x00009bde   Section       10  qsvgiconengine.o(t._Z20qForeachContainerNewI5QListIiEE17QForeachContainerIT_ERKS3_.clean)
+    t._ZN18QSharedDataPointerI21QSvgIconEnginePrivateE13detach_helperEv 0x00009be8   Section      178  qsvgiconengine.o(t._ZN18QSharedDataPointerI21QSvgIconEnginePrivateE13detach_helperEv)
+    t._ZN18QSharedDataPointerI21QSvgIconEnginePrivateE13detach_helperEv.clean 0x00009c9a   Section       16  qsvgiconengine.o(t._ZN18QSharedDataPointerI21QSvgIconEnginePrivateE13detach_helperEv.clean)
+    t._ZN18QSharedDataPointerI21QSvgIconEnginePrivateEC1EPS0_ 0x00009caa   Section       24  qsvgiconengine.o(t._ZN18QSharedDataPointerI21QSvgIconEnginePrivateEC1EPS0_)
+    t._ZN18QSharedDataPointerI21QSvgIconEnginePrivateED1Ev 0x00009cc2   Section       42  qsvgiconengine.o(t._ZN18QSharedDataPointerI21QSvgIconEnginePrivateED1Ev)
+    t._ZN18QSharedDataPointerI21QSvgIconEnginePrivateEptEv 0x00009cec   Section       34  qsvgiconengine.o(t._ZN18QSharedDataPointerI21QSvgIconEnginePrivateEptEv)
+    t._ZN5QHashIi10QByteArrayE10createNodeEjRKiRKS0_PP9QHashNodeIiS0_E 0x00009d0e   Section      102  qsvgiconengine.o(t._ZN5QHashIi10QByteArrayE10createNodeEjRKiRKS0_PP9QHashNodeIiS0_E)
+    t._ZN5QHashIi10QByteArrayE10createNodeEjRKiRKS0_PP9QHashNodeIiS0_E.clean 0x00009d74   Section       14  qsvgiconengine.o(t._ZN5QHashIi10QByteArrayE10createNodeEjRKiRKS0_PP9QHashNodeIiS0_E.clean)
+    t._ZN5QHashIi10QByteArrayE11deleteNode2EPN9QHashData4NodeE 0x00009d82   Section       24  qsvgiconengine.o(t._ZN5QHashIi10QByteArrayE11deleteNode2EPN9QHashData4NodeE)
+    t._ZN5QHashIi10QByteArrayE13detach_helperEv 0x00009d9c   Section       60  qsvgiconengine.o(t._ZN5QHashIi10QByteArrayE13detach_helperEv)
+    t._ZN5QHashIi10QByteArrayE13duplicateNodeEPN9QHashData4NodeEPv 0x00009dd8   Section       46  qsvgiconengine.o(t._ZN5QHashIi10QByteArrayE13duplicateNodeEPN9QHashData4NodeEPv)
+    t._ZN5QHashIi10QByteArrayE13duplicateNodeEPN9QHashData4NodeEPv.clean 0x00009e06   Section       14  qsvgiconengine.o(t._ZN5QHashIi10QByteArrayE13duplicateNodeEPN9QHashData4NodeEPv.clean)
+    t._ZN5QHashIi10QByteArrayE5clearEv       0x00009e14   Section       28  qsvgiconengine.o(t._ZN5QHashIi10QByteArrayE5clearEv)
+    t._ZN5QHashIi10QByteArrayE5clearEv.clean 0x00009e30   Section       10  qsvgiconengine.o(t._ZN5QHashIi10QByteArrayE5clearEv.clean)
+    t._ZN5QHashIi10QByteArrayE6detachEv      0x00009e3a   Section       28  qsvgiconengine.o(t._ZN5QHashIi10QByteArrayE6detachEv)
+    t._ZN5QHashIi10QByteArrayE6insertERKiRKS0_ 0x00009e56   Section      104  qsvgiconengine.o(t._ZN5QHashIi10QByteArrayE6insertERKiRKS0_)
+    t._ZN5QHashIi10QByteArrayE8freeDataEP9QHashData 0x00009ec0   Section       20  qsvgiconengine.o(t._ZN5QHashIi10QByteArrayE8freeDataEP9QHashData)
+    t._ZN5QHashIi10QByteArrayEC1Ev           0x00009ed4   Section       28  qsvgiconengine.o(t._ZN5QHashIi10QByteArrayEC1Ev)
+    t._ZN5QHashIi10QByteArrayED1Ev           0x00009ef0   Section       30  qsvgiconengine.o(t._ZN5QHashIi10QByteArrayED1Ev)
+    t._ZN5QHashIi10QByteArrayEaSERKS1_       0x00009f0e   Section       70  qsvgiconengine.o(t._ZN5QHashIi10QByteArrayEaSERKS1_)
+    t._ZN5QHashIi7QPixmapE10createNodeEjRKiRKS0_PP9QHashNodeIiS0_E 0x00009f54   Section      102  qsvgiconengine.o(t._ZN5QHashIi7QPixmapE10createNodeEjRKiRKS0_PP9QHashNodeIiS0_E)
+    t._ZN5QHashIi7QPixmapE10createNodeEjRKiRKS0_PP9QHashNodeIiS0_E.clean 0x00009fba   Section       14  qsvgiconengine.o(t._ZN5QHashIi7QPixmapE10createNodeEjRKiRKS0_PP9QHashNodeIiS0_E.clean)
+    t._ZN5QHashIi7QPixmapE11deleteNode2EPN9QHashData4NodeE 0x00009fc8   Section       24  qsvgiconengine.o(t._ZN5QHashIi7QPixmapE11deleteNode2EPN9QHashData4NodeE)
+    t._ZN5QHashIi7QPixmapE13detach_helperEv  0x00009fe0   Section       60  qsvgiconengine.o(t._ZN5QHashIi7QPixmapE13detach_helperEv)
+    t._ZN5QHashIi7QPixmapE13duplicateNodeEPN9QHashData4NodeEPv 0x0000a01c   Section       46  qsvgiconengine.o(t._ZN5QHashIi7QPixmapE13duplicateNodeEPN9QHashData4NodeEPv)
+    t._ZN5QHashIi7QPixmapE13duplicateNodeEPN9QHashData4NodeEPv.clean 0x0000a04a   Section       14  qsvgiconengine.o(t._ZN5QHashIi7QPixmapE13duplicateNodeEPN9QHashData4NodeEPv.clean)
+    t._ZN5QHashIi7QPixmapE5clearEv           0x0000a058   Section       82  qsvgiconengine.o(t._ZN5QHashIi7QPixmapE5clearEv)
+    t._ZN5QHashIi7QPixmapE5clearEv.clean     0x0000a0aa   Section       10  qsvgiconengine.o(t._ZN5QHashIi7QPixmapE5clearEv.clean)
+    t._ZN5QHashIi7QPixmapE6detachEv          0x0000a0b4   Section       28  qsvgiconengine.o(t._ZN5QHashIi7QPixmapE6detachEv)
+    t._ZN5QHashIi7QPixmapE8freeDataEP9QHashData 0x0000a0d0   Section       20  qsvgiconengine.o(t._ZN5QHashIi7QPixmapE8freeDataEP9QHashData)
+    t._ZN5QHashIi7QPixmapEC1Ev               0x0000a0e4   Section       28  qsvgiconengine.o(t._ZN5QHashIi7QPixmapEC1Ev)
+    t._ZN5QHashIi7QPixmapED1Ev               0x0000a100   Section       30  qsvgiconengine.o(t._ZN5QHashIi7QPixmapED1Ev)
+    t._ZN5QHashIi7QStringE10createNodeEjRKiRKS0_PP9QHashNodeIiS0_E 0x0000a11e   Section      102  qsvgiconengine.o(t._ZN5QHashIi7QStringE10createNodeEjRKiRKS0_PP9QHashNodeIiS0_E)
+    t._ZN5QHashIi7QStringE10createNodeEjRKiRKS0_PP9QHashNodeIiS0_E.clean 0x0000a184   Section       14  qsvgiconengine.o(t._ZN5QHashIi7QStringE10createNodeEjRKiRKS0_PP9QHashNodeIiS0_E.clean)
+    t._ZN5QHashIi7QStringE11deleteNode2EPN9QHashData4NodeE 0x0000a192   Section       24  qsvgiconengine.o(t._ZN5QHashIi7QStringE11deleteNode2EPN9QHashData4NodeE)
+    t._ZN5QHashIi7QStringE13detach_helperEv  0x0000a1ac   Section       60  qsvgiconengine.o(t._ZN5QHashIi7QStringE13detach_helperEv)
+    t._ZN5QHashIi7QStringE13duplicateNodeEPN9QHashData4NodeEPv 0x0000a1e8   Section       46  qsvgiconengine.o(t._ZN5QHashIi7QStringE13duplicateNodeEPN9QHashData4NodeEPv)
+    t._ZN5QHashIi7QStringE13duplicateNodeEPN9QHashData4NodeEPv.clean 0x0000a216   Section       14  qsvgiconengine.o(t._ZN5QHashIi7QStringE13duplicateNodeEPN9QHashData4NodeEPv.clean)
+    t._ZN5QHashIi7QStringE5clearEv           0x0000a224   Section       28  qsvgiconengine.o(t._ZN5QHashIi7QStringE5clearEv)
+    t._ZN5QHashIi7QStringE5clearEv.clean     0x0000a240   Section       10  qsvgiconengine.o(t._ZN5QHashIi7QStringE5clearEv.clean)
+    t._ZN5QHashIi7QStringE6detachEv          0x0000a24a   Section       28  qsvgiconengine.o(t._ZN5QHashIi7QStringE6detachEv)
+    t._ZN5QHashIi7QStringE8freeDataEP9QHashData 0x0000a268   Section       20  qsvgiconengine.o(t._ZN5QHashIi7QStringE8freeDataEP9QHashData)
+    t._ZN5QHashIi7QStringEC1Ev               0x0000a27c   Section       28  qsvgiconengine.o(t._ZN5QHashIi7QStringEC1Ev)
+    t._ZN5QHashIi7QStringED1Ev               0x0000a298   Section       30  qsvgiconengine.o(t._ZN5QHashIi7QStringED1Ev)
+    t._ZN5QHashIi7QStringEaSERKS1_           0x0000a2b6   Section       70  qsvgiconengine.o(t._ZN5QHashIi7QStringEaSERKS1_)
+    t._ZN5QListI7QStringE13node_destructEPNS1_4NodeES3_ 0x0000a2fc   Section       26  main.o(t._ZN5QListI7QStringE13node_destructEPNS1_4NodeES3_)
+    t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_ 0x0000a316   Section       36  main.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_)
+    t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_.clean 0x0000a33a   Section       14  main.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_.clean)
+    t._ZN5QListI7QStringE18detach_helper_growEii 0x0000a348   Section      220  main.o(t._ZN5QListI7QStringE18detach_helper_growEii)
+    t._ZN5QListI7QStringE18detach_helper_growEii.clean 0x0000a424   Section       16  main.o(t._ZN5QListI7QStringE18detach_helper_growEii.clean)
+    t._ZN5QListI7QStringE4freeEPN9QListData4DataE 0x0000a434   Section       58  main.o(t._ZN5QListI7QStringE4freeEPN9QListData4DataE)
+    t._ZN5QListI7QStringE6appendERKS0_       0x0000a470   Section      124  main.o(t._ZN5QListI7QStringE6appendERKS0_)
+    t._ZN5QListI7QStringE6appendERKS0_.clean 0x0000a4ec   Section       14  main.o(t._ZN5QListI7QStringE6appendERKS0_.clean)
+    t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_ 0x0000a4fa   Section       82  main.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_)
+    t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_.clean 0x0000a54c   Section       22  main.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_.clean)
+    t._ZN5QListI7QStringED1Ev                0x0000a562   Section       32  main.o(t._ZN5QListI7QStringED1Ev)
+    t._ZN5QListIiE13detach_helperEi          0x0000a582   Section       94  qsvgiconengine.o(t._ZN5QListIiE13detach_helperEi)
+    t._ZN5QListIiE13detach_helperEi.clean    0x0000a5e0   Section        8  qsvgiconengine.o(t._ZN5QListIiE13detach_helperEi.clean)
+    t._ZN5QListIiE13detach_helperEv          0x0000a5e8   Section       16  qsvgiconengine.o(t._ZN5QListIiE13detach_helperEv)
+    t._ZN5QListIiE18detach_helper_growEii    0x0000a5f8   Section      204  qsvgiconengine.o(t._ZN5QListIiE18detach_helper_growEii)
+    t._ZN5QListIiE18detach_helper_growEii.clean 0x0000a6c4   Section       16  qsvgiconengine.o(t._ZN5QListIiE18detach_helper_growEii.clean)
+    t._ZN5QListIiE4freeEPN9QListData4DataE   0x0000a6d4   Section       58  qsvgiconengine.o(t._ZN5QListIiE4freeEPN9QListData4DataE)
+    t._ZN5QListIiE6appendERKi                0x0000a710   Section      100  qsvgiconengine.o(t._ZN5QListIiE6appendERKi)
+    t._ZN5QListIiE6appendERKi.clean          0x0000a774   Section       10  qsvgiconengine.o(t._ZN5QListIiE6appendERKi.clean)
+    t._ZN5QListIiE7reserveEi                 0x0000a77e   Section       46  qsvgiconengine.o(t._ZN5QListIiE7reserveEi)
+    t._ZN5QListIiE9node_copyEPNS0_4NodeES2_S2_ 0x0000a7ac   Section       46  qsvgiconengine.o(t._ZN5QListIiE9node_copyEPNS0_4NodeES2_S2_)
+    t._ZN5QListIiEC1Ev                       0x0000a7dc   Section       24  qsvgiconengine.o(t._ZN5QListIiEC1Ev)
+    t._ZN5QListIiED1Ev                       0x0000a7f4   Section       32  qsvgiconengine.o(t._ZN5QListIiED1Ev)
+    t._ZN8QPointerI7QObjectED1Ev             0x0000a814   Section       14  main.o(t._ZN8QPointerI7QObjectED1Ev)
+    t._ZN9QHashNodeIi10QByteArrayEC1EiRKS0_  0x0000a822   Section       26  qsvgiconengine.o(t._ZN9QHashNodeIi10QByteArrayEC1EiRKS0_)
+    t._ZN9QHashNodeIi7QPixmapEC1EiRKS0_      0x0000a83c   Section       26  qsvgiconengine.o(t._ZN9QHashNodeIi7QPixmapEC1EiRKS0_)
+    t._ZN9QHashNodeIi7QStringEC1EiRKS0_      0x0000a856   Section       26  qsvgiconengine.o(t._ZN9QHashNodeIi7QStringEC1EiRKS0_)
+    t._ZNK17QForeachContainerI5QListIiEE9conditionEv 0x0000a870   Section       40  qsvgiconengine.o(t._ZNK17QForeachContainerI5QListIiEE9conditionEv)
+    t._ZNK5QHashIi10QByteArrayE14const_iteratorneERKS2_ 0x0000a898   Section       18  qsvgiconengine.o(t._ZNK5QHashIi10QByteArrayE14const_iteratorneERKS2_)
+    t._ZNK5QHashIi10QByteArrayE4keysEv       0x0000a8aa   Section      102  qsvgiconengine.o(t._ZNK5QHashIi10QByteArrayE4keysEv)
+    t._ZNK5QHashIi10QByteArrayE4keysEv.clean 0x0000a910   Section       10  qsvgiconengine.o(t._ZNK5QHashIi10QByteArrayE4keysEv.clean)
+    t._ZNK5QHashIi10QByteArrayE5valueERKi    0x0000a91a   Section       58  qsvgiconengine.o(t._ZNK5QHashIi10QByteArrayE5valueERKi)
+    t._ZNK5QHashIi10QByteArrayE8findNodeERKiPj 0x0000a954   Section      216  qsvgiconengine.o(t._ZNK5QHashIi10QByteArrayE8findNodeERKiPj)
+    t._ZNK5QHashIi7QPixmapE5valueERKi        0x0000aa2c   Section       58  qsvgiconengine.o(t._ZNK5QHashIi7QPixmapE5valueERKi)
+    t._ZNK5QHashIi7QPixmapE8findNodeERKiPj   0x0000aa68   Section      216  qsvgiconengine.o(t._ZNK5QHashIi7QPixmapE8findNodeERKiPj)
+    t._ZNK5QHashIi7QStringE14const_iteratorneERKS2_ 0x0000ab40   Section       18  qsvgiconengine.o(t._ZNK5QHashIi7QStringE14const_iteratorneERKS2_)
+    t._ZNK5QHashIi7QStringE4keysEv           0x0000ab52   Section      102  qsvgiconengine.o(t._ZNK5QHashIi7QStringE4keysEv)
+    t._ZNK5QHashIi7QStringE4keysEv.clean     0x0000abb8   Section       10  qsvgiconengine.o(t._ZNK5QHashIi7QStringE4keysEv.clean)
+    t._ZNK5QHashIi7QStringE5valueERKi        0x0000abc2   Section       58  qsvgiconengine.o(t._ZNK5QHashIi7QStringE5valueERKi)
+    t._ZNK5QHashIi7QStringE8findNodeERKiPj   0x0000abfc   Section      216  qsvgiconengine.o(t._ZNK5QHashIi7QStringE8findNodeERKiPj)
+    t._ZlsIi10QByteArrayER11QDataStreamS2_RK5QHashIT_T0_E 0x0000acd4   Section      114  qsvgiconengine.o(t._ZlsIi10QByteArrayER11QDataStreamS2_RK5QHashIT_T0_E)
+    t._ZlsIi7QPixmapER11QDataStreamS2_RK5QHashIT_T0_E 0x0000ad46   Section      120  qsvgiconengine.o(t._ZlsIi7QPixmapER11QDataStreamS2_RK5QHashIT_T0_E)
+    t._ZlsIi7QStringER11QDataStreamS2_RK5QHashIT_T0_E 0x0000adbe   Section      114  qsvgiconengine.o(t._ZlsIi7QStringER11QDataStreamS2_RK5QHashIT_T0_E)
+    t._ZrsIi10QByteArrayER11QDataStreamS2_R5QHashIT_T0_E 0x0000ae30   Section      176  qsvgiconengine.o(t._ZrsIi10QByteArrayER11QDataStreamS2_R5QHashIT_T0_E)
+    t._ZrsIi10QByteArrayER11QDataStreamS2_R5QHashIT_T0_E.clean 0x0000aee0   Section       10  qsvgiconengine.o(t._ZrsIi10QByteArrayER11QDataStreamS2_R5QHashIT_T0_E.clean)
+    t._ZrsIi7QPixmapER11QDataStreamS2_R5QHashIT_T0_E 0x0000aeea   Section      176  qsvgiconengine.o(t._ZrsIi7QPixmapER11QDataStreamS2_R5QHashIT_T0_E)
+    t._ZrsIi7QPixmapER11QDataStreamS2_R5QHashIT_T0_E.clean 0x0000af9a   Section       10  qsvgiconengine.o(t._ZrsIi7QPixmapER11QDataStreamS2_R5QHashIT_T0_E.clean)
+    t._ZrsIi7QStringER11QDataStreamS2_R5QHashIT_T0_E 0x0000afa4   Section      176  qsvgiconengine.o(t._ZrsIi7QStringER11QDataStreamS2_R5QHashIT_T0_E)
+    t._ZrsIi7QStringER11QDataStreamS2_R5QHashIT_T0_E.clean 0x0000b054   Section       10  qsvgiconengine.o(t._ZrsIi7QStringER11QDataStreamS2_R5QHashIT_T0_E.clean)
+    .extab.qt_plugin_instance                0x0000b060   Data           0  main.o(.ARM.extab)
+    .extab._ZNK14QSvgIconPlugin4keysEv       0x0000b078   Data           0  main.o(.ARM.extab)
+    .extab._ZN14QSvgIconPlugin6createERK7QString 0x0000b0b8   Data           0  main.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_ 0x0000b0c8   Data           0  main.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_ 0x0000b0d8   Data           0  main.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE18detach_helper_growEii 0x0000b0fc   Data           0  main.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE6appendERKS0_  0x0000b12c   Data           0  main.o(.ARM.extab)
+    .extab._ZN14QSvgIconEngineC1Ev           0x0000b15c   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZN14QSvgIconEngineC1ERKS_        0x0000b174   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZN14QSvgIconEngineD1Ev           0x0000b1ac   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZN14QSvgIconEngine5paintEP8QPainterRK5QRectN5QIcon4ModeENS5_5StateE 0x0000b1bc   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZN14QSvgIconEngine10actualSizeERK5QSizeN5QIcon4ModeENS3_5StateE 0x0000b1cc   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZN21QSvgIconEnginePrivate23loadDataForModeAndStateEP12QSvgRendererN5QIcon4ModeENS2_5StateE 0x0000b1ec   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZN14QSvgIconEngine6pixmapERK5QSizeN5QIcon4ModeENS3_5StateE 0x0000b24c   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZN14QSvgIconEngine9addPixmapERK7QPixmapN5QIcon4ModeENS3_5StateE 0x0000b334   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZN14QSvgIconEngine7addFileERK7QStringRK5QSizeN5QIcon4ModeENS6_5StateE 0x0000b344   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZNK14QSvgIconEngine5cloneEv      0x0000b394   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZN14QSvgIconEngine4readER11QDataStream 0x0000b3a4   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZNK14QSvgIconEngine5writeER11QDataStream 0x0000b44c   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZplRK7QStringS1_                 0x0000b524   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZN5QHashIi7QStringE5clearEv      0x0000b534   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZN5QHashIi7QStringE10createNodeEjRKiRKS0_PP9QHashNodeIiS0_E 0x0000b544   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZrsIi7QStringER11QDataStreamS2_R5QHashIT_T0_E 0x0000b55c   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZN5QHashIi10QByteArrayE5clearEv  0x0000b56c   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZN5QHashIi10QByteArrayE10createNodeEjRKiRKS0_PP9QHashNodeIiS0_E 0x0000b57c   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZrsIi10QByteArrayER11QDataStreamS2_R5QHashIT_T0_E 0x0000b594   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZN5QListIiE13detach_helperEi     0x0000b5a4   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._Z20qForeachContainerNewI5QListIiEE17QForeachContainerIT_ERKS3_ 0x0000b5c0   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZN5QHashIi7QPixmapE5clearEv      0x0000b5d0   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZN5QHashIi7QPixmapE10createNodeEjRKiRKS0_PP9QHashNodeIiS0_E 0x0000b5e0   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZrsIi7QPixmapER11QDataStreamS2_R5QHashIT_T0_E 0x0000b5f8   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZN21QSvgIconEnginePrivateD1Ev    0x0000b608   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZN21QSvgIconEnginePrivateC1Ev    0x0000b618   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZN18QSharedDataPointerI21QSvgIconEnginePrivateE13detach_helperEv 0x0000b628   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZN5QListIiE18detach_helper_growEii 0x0000b638   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZN5QListIiE6appendERKi           0x0000b668   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZNK5QHashIi10QByteArrayE4keysEv  0x0000b684   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZNK5QHashIi7QStringE4keysEv      0x0000b694   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZN5QHashIi7QStringE13duplicateNodeEPN9QHashData4NodeEPv 0x0000b6a4   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZN5QHashIi10QByteArrayE13duplicateNodeEPN9QHashData4NodeEPv 0x0000b6b4   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZN5QHashIi7QPixmapE13duplicateNodeEPN9QHashData4NodeEPv 0x0000b6c4   Data           0  qsvgiconengine.o(.ARM.extab)
+    .extab._ZN21QSvgIconEnginePrivate6pmcKeyERK5QSizeN5QIcon4ModeENS3_5StateE 0x0000b6d4   Data           0  qsvgiconengine.o(.ARM.extab)
+    .constdata$1                             0x0000b714   Data           0  main.o(.constdata)
+    qt_plugin_verification_data              0x0000b714   Data          90  main.o(.constdata)
+    .constdata                               0x0000b714   Section      168  main.o(.constdata)
+    .constdata$1                             0x0000b7bc   Data           0  qsvgiconengine.o(.constdata)
+    .constdata                               0x0000b7bc   Section       76  qsvgiconengine.o(.constdata)
+    .constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE 0x0000b808   Section        4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE 0x0000b80c   Section        4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE 0x0000b810   Section        4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE 0x0000b814   Section        4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE 0x0000b818   Section        4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE 0x0000b81c   Section        1  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE 0x0000b820   Section        4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE 0x0000b824   Section        4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE 0x0000b828   Section        4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE 0x0000b82c   Section        4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE 0x0000b830   Section        4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE 0x0000b834   Section        4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE 0x0000b838   Section        4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE 0x0000b83c   Section        4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    .constdata__ZTI14QSvgIconEngine          0x0000b840   Section       12  qsvgiconengine.o(.constdata__ZTI14QSvgIconEngine)
+    .constdata__ZTI14QSvgIconPlugin          0x0000b84c   Section       12  main.o(.constdata__ZTI14QSvgIconPlugin)
+    .constdata__ZTIN15QtSharedPointer20ExternalRefCountDataE 0x0000b858   Section        8  main.o(.constdata__ZTIN15QtSharedPointer20ExternalRefCountDataE)
+    .constdata__ZTS14QSvgIconEngine          0x0000b860   Section       17  qsvgiconengine.o(.constdata__ZTS14QSvgIconEngine)
+    .constdata__ZTS14QSvgIconPlugin          0x0000b871   Section       17  main.o(.constdata__ZTS14QSvgIconPlugin)
+    .constdata__ZTSN15QtSharedPointer20ExternalRefCountDataE 0x0000b882   Section       42  main.o(.constdata__ZTSN15QtSharedPointer20ExternalRefCountDataE)
+    .constdata__ZTV14QSvgIconEngine          0x0000b8ac   Section       56  qsvgiconengine.o(.constdata__ZTV14QSvgIconEngine)
+    .constdata__ZTV14QSvgIconPlugin          0x0000b8e4   Section       88  main.o(.constdata__ZTV14QSvgIconPlugin)
+    .constdata__ZTVN15QtSharedPointer20ExternalRefCountDataE 0x0000b93c   Section       20  main.o(.constdata__ZTVN15QtSharedPointer20ExternalRefCountDataE)
+    .init_array                              0x0000b950   Section        4  qsvgiconengine.o(.init_array)
+    .ARM.exidx                               0x0000b954   Section        8  ucppinit.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  main.o(.data)
+    _ZGV_instance@qt_plugin_instance_0       0x00400000   Data           4  main.o(.data)
+    .data                                    0x00400000   Section        8  main.o(.data)
+    _instance@qt_plugin_instance_1           0x00400004   Data           4  main.o(.data)
+    .data$0                                  0x00400008   Data           0  qsvgiconengine.o(.data)
+    .data                                    0x00400008   Section        4  qsvgiconengine.o(.data)
+    .data$0                                  0x0040000c   Data           0  ucppfini.o(.data)
+    .data                                    0x0040000c   Section        4  ucppfini.o(.data)
+    .data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE 0x00400010   Section       12  main.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    .bss$5                                   0x0040001c   Data           0  ucppfini.o(.bss)
+    .bss                                     0x0040001c   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$VFPv2$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$IEEEJ$EBA8$UX$FPIC$INDIRECT$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    QtCore{00040703}[2001b2dc].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtGui{00040703}[2001b2dd].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtSvg{00040703}[2001b2e2].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    dfpaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    euser{000a0000}[100039e5].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    qsvgicon{00040703}[2001b2e3].dll         0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    stdnew{000a0000}[20022178].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    qUncompress(const unsigned char*, int)    - Undefined Reference
+    _Z11qUncompressPKhi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QBasicAtomicInt_fetchAndAddRelaxed(volatile int*, int)  - Undefined Reference
+    _Z34QBasicAtomicInt_fetchAndAddRelaxedPVii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qFree(void*)                              - Undefined Reference
+    _Z5qFreePv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qCompress(const unsigned char*, int, int)  - Undefined Reference
+    _Z9qCompressPKhii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qt_assert(const char*, const char*, int)  - Undefined Reference
+    _Z9qt_assertPKcS0_i@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::shared_null                   - Undefined Reference
+    _ZN10QByteArray11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::operator =(const QByteArray&)  - Undefined Reference
+    _ZN10QByteArrayaSERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDataStream::resetStatus()                - Undefined Reference
+    _ZN11QDataStream11resetStatusEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDataStream::setStatus(QDataStream::Status)  - Undefined Reference
+    _ZN11QDataStream9setStatusENS_6StatusE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDataStream::operator <<(int)             - Undefined Reference
+    _ZN11QDataStreamlsEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDataStream::operator >>(int&)            - Undefined Reference
+    _ZN11QDataStreamrsERi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QIconEngine::~QIconEngine__sub_object()   - Undefined Reference
+    _ZN11QIconEngineD2Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QMetaObject::changeGuard(QObject**, QObject*)  - Undefined Reference
+    _ZN11QMetaObject11changeGuardEPP7QObjectS1_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::removeGuard(QObject**)       - Undefined Reference
+    _ZN11QMetaObject11removeGuardEPP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QApplication::style()                     - Undefined Reference
+    _ZN12QApplication5styleEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QApplication::palette()                   - Undefined Reference
+    _ZN12QApplication7paletteEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QPixmapCache::find(const QString&, QPixmap&)  - Undefined Reference
+    _ZN12QPixmapCache4findERK7QStringR7QPixmap@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QPixmapCache::insert(const QString&, const QPixmap&)  - Undefined Reference
+    _ZN12QPixmapCache6insertERK7QStringRK7QPixmap@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QStyleOption::QStyleOption(int, int)      - Undefined Reference
+    _ZN12QStyleOptionC1Eii@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QStyleOption::~QStyleOption()             - Undefined Reference
+    _ZN12QStyleOptionD1Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QSvgRenderer::load(const QByteArray&)     - Undefined Reference
+    _ZN12QSvgRenderer4loadERK10QByteArray@QtSvg{00040703}[2001b2e2].dll  - Undefined Reference
+    QSvgRenderer::load(const QString&)        - Undefined Reference
+    _ZN12QSvgRenderer4loadERK7QString@QtSvg{00040703}[2001b2e2].dll  - Undefined Reference
+    QSvgRenderer::render(QPainter*)           - Undefined Reference
+    _ZN12QSvgRenderer6renderEP8QPainter@QtSvg{00040703}[2001b2e2].dll  - Undefined Reference
+    QSvgRenderer::QSvgRenderer(QObject*)      - Undefined Reference
+    _ZN12QSvgRendererC1EP7QObject@QtSvg{00040703}[2001b2e2].dll  - Undefined Reference
+    QSvgRenderer::QSvgRenderer(const QString&, QObject*)  - Undefined Reference
+    _ZN12QSvgRendererC1ERK7QStringP7QObject@QtSvg{00040703}[2001b2e2].dll  - Undefined Reference
+    QSvgRenderer::~QSvgRenderer()             - Undefined Reference
+    _ZN12QSvgRendererD1Ev@QtSvg{00040703}[2001b2e2].dll  - Undefined Reference
+    QIconEngineV2::virtual_hook(int, void*)   - Undefined Reference
+    _ZN13QIconEngineV212virtual_hookEiPv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QIconEnginePluginV2::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN19QIconEnginePluginV211qt_metacallEN11QMetaObject4CallEiPPv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QIconEnginePluginV2::qt_metacast(const char*)  - Undefined Reference
+    _ZN19QIconEnginePluginV211qt_metacastEPKc@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QIconEnginePluginV2::QIconEnginePluginV2__sub_object(QObject*)  - Undefined Reference
+    _ZN19QIconEnginePluginV2C2EP7QObject@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QIconEnginePluginV2::~QIconEnginePluginV2__sub_object()  - Undefined Reference
+    _ZN19QIconEnginePluginV2D2Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    User::LockedDec(int&)                     - Undefined Reference
+    _ZN4User9LockedDecERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::LockedInc(int&)                     - Undefined Reference
+    _ZN4User9LockedIncERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QFile::open(QFlags<QIODevice::OpenModeFlag>)  - Undefined Reference
+    _ZN5QFile4openE6QFlagsIN9QIODevice12OpenModeFlagEE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QFile::QFile(const QString&)              - Undefined Reference
+    _ZN5QFileC1ERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QFile::~QFile()                           - Undefined Reference
+    _ZN5QFileD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QSize::scale(const QSize&, Qt::AspectRatioMode)  - Undefined Reference
+    _ZN5QSize5scaleERKS_N2Qt15AspectRatioModeE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QImage::fill(unsigned)                    - Undefined Reference
+    _ZN6QImage4fillEj@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::QImage(const QSize&, QImage::Format)  - Undefined Reference
+    _ZN6QImageC1ERK5QSizeNS_6FormatE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::~QImage()                         - Undefined Reference
+    _ZN6QImageD1Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QObject::childEvent(QChildEvent*)         - Undefined Reference
+    _ZN7QObject10childEventEP11QChildEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::timerEvent(QTimerEvent*)         - Undefined Reference
+    _ZN7QObject10timerEventEP11QTimerEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::customEvent(QEvent*)             - Undefined Reference
+    _ZN7QObject11customEventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::eventFilter(QObject*, QEvent*)   - Undefined Reference
+    _ZN7QObject11eventFilterEPS_P6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connectNotify(const char*)       - Undefined Reference
+    _ZN7QObject13connectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::disconnectNotify(const char*)    - Undefined Reference
+    _ZN7QObject16disconnectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::event(QEvent*)                   - Undefined Reference
+    _ZN7QObject5eventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QPixmap::fromImage(const QImage&, QFlags<Qt::ImageConversionFlag>)  - Undefined Reference
+    _ZN7QPixmap9fromImageERK6QImage6QFlagsIN2Qt19ImageConversionFlagEE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QPixmap::QPixmap(const QString&, const char*, QFlags<Qt::ImageConversionFlag>)  - Undefined Reference
+    _ZN7QPixmapC1ERK7QStringPKc6QFlagsIN2Qt19ImageConversionFlagEE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QPixmap::QPixmap(const QPixmap&)          - Undefined Reference
+    _ZN7QPixmapC1ERKS_@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QPixmap::QPixmap()                        - Undefined Reference
+    _ZN7QPixmapC1Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QPixmap::~QPixmap()                       - Undefined Reference
+    _ZN7QPixmapD1Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QPixmap::operator =(const QPixmap&)       - Undefined Reference
+    _ZN7QPixmapaSERKS_@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QString::shared_null                      - Undefined Reference
+    _ZN7QString11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromLatin1_helper(const char*, int)  - Undefined Reference
+    _ZN7QString17fromLatin1_helperEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::free(QString::Data*)             - Undefined Reference
+    _ZN7QString4freeEPNS_4DataE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::append(QChar)                    - Undefined Reference
+    _ZN7QString6appendE5QChar@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::append(const QString&)           - Undefined Reference
+    _ZN7QString6appendERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::number(int, int)                 - Undefined Reference
+    _ZN7QString6numberEii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::operator =(const QString&)       - Undefined Reference
+    _ZN7QStringaSERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QPainter::drawPixmap(const QRectF&, const QPixmap&, const QRectF&)  - Undefined Reference
+    _ZN8QPainter10drawPixmapERK6QRectFRK7QPixmapS2_@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QPainter::end()                           - Undefined Reference
+    _ZN8QPainter3endEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QPainter::QPainter(QPaintDevice*)         - Undefined Reference
+    _ZN8QPainterC1EP12QPaintDevice@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QPainter::~QPainter()                     - Undefined Reference
+    _ZN8QPainterD1Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QPalette::~QPalette()                     - Undefined Reference
+    _ZN8QPaletteD1Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QPalette::operator =(const QPalette&)     - Undefined Reference
+    _ZN8QPaletteaSERKS_@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QFileInfo::QFileInfo(const QString&)      - Undefined Reference
+    _ZN9QFileInfoC1ERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QFileInfo::~QFileInfo()                   - Undefined Reference
+    _ZN9QFileInfoD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::free_helper(void(*)(QHashData::Node*))  - Undefined Reference
+    _ZN9QHashData11free_helperEPFvPNS_4NodeEE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::shared_null                    - Undefined Reference
+    _ZN9QHashData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::allocateNode(int)              - Undefined Reference
+    _ZN9QHashData12allocateNodeEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::previousNode(QHashData::Node*)  - Undefined Reference
+    _ZN9QHashData12previousNodeEPNS_4NodeE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::detach_helper2(void(*)(QHashData::Node*, void*), void(*)(QHashData::Node*), int, int)  - Undefined Reference
+    _ZN9QHashData14detach_helper2EPFvPNS_4NodeEPvEPFvS1_Eii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::rehash(int)                    - Undefined Reference
+    _ZN9QHashData6rehashEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::nextNode(QHashData::Node*)     - Undefined Reference
+    _ZN9QHashData8nextNodeEPNS_4NodeE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QIODevice::readAll()                      - Undefined Reference
+    _ZN9QIODevice7readAllEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach_grow(int*, int)         - Undefined Reference
+    _ZN9QListData11detach_growEPii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::shared_null                    - Undefined Reference
+    _ZN9QListData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::append()                       - Undefined Reference
+    _ZN9QListData6appendEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach(int)                    - Undefined Reference
+    _ZN9QListData6detachEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::realloc(int)                   - Undefined Reference
+    _ZN9QListData7reallocEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDataStream::atEnd() const                - Undefined Reference
+    _ZNK11QDataStream5atEndEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDataStream::status() const               - Undefined Reference
+    _ZNK11QDataStream6statusEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QSvgRenderer::defaultSize() const         - Undefined Reference
+    _ZNK12QSvgRenderer11defaultSizeEv@QtSvg{00040703}[2001b2e2].dll  - Undefined Reference
+    QSvgRenderer::isValid() const             - Undefined Reference
+    _ZNK12QSvgRenderer7isValidEv@QtSvg{00040703}[2001b2e2].dll  - Undefined Reference
+    QIconEnginePluginV2::metaObject() const   - Undefined Reference
+    _ZNK19QIconEnginePluginV210metaObjectEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QPixmap::size() const                     - Undefined Reference
+    _ZNK7QPixmap4sizeEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QPixmap::isNull() const                   - Undefined Reference
+    _ZNK7QPixmap6isNullEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QString::endsWith(const QLatin1String&, Qt::CaseSensitivity) const  - Undefined Reference
+    _ZNK7QString8endsWithERK13QLatin1StringN2Qt15CaseSensitivityE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QFileInfo::absoluteFilePath() const       - Undefined Reference
+    _ZNK9QFileInfo16absoluteFilePathEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for QIconEngineV2                - Undefined Reference
+    _ZTI13QIconEngineV2@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    typeinfo for QIconEnginePluginV2          - Undefined Reference
+    _ZTI19QIconEnginePluginV2@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    vtable for QIconEngine                    - Undefined Reference
+    _ZTV11QIconEngine@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    vtable for QIconEngineV2                  - Undefined Reference
+    _ZTV13QIconEngineV2@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    vtable for __cxxabiv1::__class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv117__class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv120__si_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    operator delete (void*)                   - Undefined Reference
+    _ZdlPv@stdnew{000a0000}[20022178].dll     - Undefined Reference
+    operator <<(QDataStream&, const QByteArray&)  - Undefined Reference
+    _ZlsR11QDataStreamRK10QByteArray@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    operator <<(QDataStream&, const QPixmap&)  - Undefined Reference
+    _ZlsR11QDataStreamRK7QPixmap@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    operator <<(QDataStream&, const QString&)  - Undefined Reference
+    _ZlsR11QDataStreamRK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    operator new(unsigned)                    - Undefined Reference
+    _Znwj@stdnew{000a0000}[20022178].dll      - Undefined Reference
+    operator >>(QDataStream&, QByteArray&)    - Undefined Reference
+    _ZrsR11QDataStreamR10QByteArray@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    operator >>(QDataStream&, QPixmap&)       - Undefined Reference
+    _ZrsR11QDataStreamR7QPixmap@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    operator >>(QDataStream&, QString&)       - Undefined Reference
+    _ZrsR11QDataStreamR7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    __aeabi_i2f                               - Undefined Reference
+    __aeabi_i2f@dfpaeabi{000a0000}.dll        - Undefined Reference
+    __aeabi_memcpy4                           - Undefined Reference
+    __aeabi_memcpy4@drtaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_uidivmod                          - Undefined Reference
+    __aeabi_uidivmod@drtaeabi{000a0000}.dll   - Undefined Reference
+    __aeabi_unwind_cpp_pr0                    - Undefined Reference
+    __aeabi_unwind_cpp_pr0@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_begin_catch                         - Undefined Reference
+    __cxa_begin_catch@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_end_catch                           - Undefined Reference
+    __cxa_end_catch@drtaeabi{000a0000}.dll    - Undefined Reference
+    __cxa_end_cleanup                         - Undefined Reference
+    __cxa_end_cleanup@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_abort                         - Undefined Reference
+    __cxa_guard_abort@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_acquire                       - Undefined Reference
+    __cxa_guard_acquire@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_release                       - Undefined Reference
+    __cxa_guard_release@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_rethrow                             - Undefined Reference
+    __cxa_rethrow@drtaeabi{000a0000}.dll      - Undefined Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      52  ucppinit.o(.emb_text)
+    std::nothrow                             0x0000805c   ARM Code       0  ucppinit.o(.emb_text)
+    __PLT                                    0x0000805c   ARM Code       0  anon$$obj.o(.plt)
+    qt_plugin_query_verification_data        0x00008345   Thumb Code     4  main.o(.text)
+    qt_plugin_instance                       0x00008349   Thumb Code   134  main.o(.text)
+    QSvgIconPlugin::keys() const             0x000083cf   Thumb Code   124  main.o(.text)
+    thunk{-8} to QSvgIconPlugin::keys() const 0x0000844b   Thumb Code    18  main.o(.text)
+    QSvgIconPlugin::create(const QString&)   0x0000845d   Thumb Code   100  main.o(.text)
+    thunk{-8} to QSvgIconPlugin::create(const QString&) 0x000084c1   Thumb Code    18  main.o(.text)
+    QSvgIconEngine::QSvgIconEngine()         0x00008505   Thumb Code    48  qsvgiconengine.o(.text)
+    QSvgIconEngine::QSvgIconEngine__sub_object() 0x00008505   Thumb Code     0  qsvgiconengine.o(.text)
+    QSvgIconEngine::QSvgIconEngine(const QSvgIconEngine&) 0x00008535   Thumb Code   236  qsvgiconengine.o(.text)
+    QSvgIconEngine::QSvgIconEngine__sub_object(const QSvgIconEngine&) 0x00008535   Thumb Code     0  qsvgiconengine.o(.text)
+    QSvgIconEngine::~QSvgIconEngine()        0x00008621   Thumb Code    26  qsvgiconengine.o(.text)
+    QSvgIconEngine::~QSvgIconEngine__sub_object() 0x00008621   Thumb Code     0  qsvgiconengine.o(.text)
+    QSvgIconEngine::~QSvgIconEngine__deallocating() 0x0000863b   Thumb Code    22  qsvgiconengine.o(.text)
+    QSvgIconEngine::paint(QPainter*, const QRect&, QIcon::Mode, QIcon::State) 0x00008651   Thumb Code   168  qsvgiconengine.o(.text)
+    QSvgIconEngine::actualSize(const QSize&, QIcon::Mode, QIcon::State) 0x000086f9   Thumb Code   208  qsvgiconengine.o(.text)
+    QSvgIconEnginePrivate::loadDataForModeAndState(QSvgRenderer*, QIcon::Mode, QIcon::State) 0x000087c9   Thumb Code   268  qsvgiconengine.o(.text)
+    QSvgIconEngine::pixmap(const QSize&, QIcon::Mode, QIcon::State) 0x000088d5   Thumb Code   478  qsvgiconengine.o(.text)
+    QSvgIconEngine::addPixmap(const QPixmap&, QIcon::Mode, QIcon::State) 0x00008ab3   Thumb Code   192  qsvgiconengine.o(.text)
+    QSvgIconEngine::addFile(const QString&, const QSize&, QIcon::Mode, QIcon::State) 0x00008b73   Thumb Code   582  qsvgiconengine.o(.text)
+    QSvgIconEngine::key() const              0x00008db9   Thumb Code    24  qsvgiconengine.o(.text)
+    QSvgIconEngine::clone() const            0x00008dd1   Thumb Code    32  qsvgiconengine.o(.text)
+    QSvgIconEngine::read(QDataStream&)       0x00008df1   Thumb Code   678  qsvgiconengine.o(.text)
+    QSvgIconEngine::write(QDataStream&) const 0x00009097   Thumb Code   666  qsvgiconengine.o(.text)
+    __ARM_switch8                            0x00009340   ARM Code      24  switch8.o(.text)
+    __rt_switch8                             0x00009340   ARM Code       0  switch8.o(.text)
+    _E32Dll_Body                             0x00009358   ARM Code      76  uc_dll.o(.text)
+    __aeabi_atexit                           0x000093a8   ARM Code      40  ucppfini.o(.text)
+    __cxa_atexit                             0x000093d0   ARM Code      64  ucppfini.o(.text)
+    __cxa_finalize                           0x00009410   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x00009440   ARM Code      16  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x0000945c   ARM Code       4  dllexp.o(.text)
+    qUncompress(const QByteArray&)           0x000096a9   Thumb Code    32  qsvgiconengine.o(i._Z11qUncompressRK10QByteArray)
+    qCompress(const QByteArray&, int)        0x000096c9   Thumb Code    34  qsvgiconengine.o(i._Z9qCompressRK10QByteArrayi)
+    QByteArray::QByteArray(const QByteArray&) 0x000096eb   Thumb Code    20  qsvgiconengine.o(i._ZN10QByteArrayC1ERKS_)
+    QByteArray::QByteArray__sub_object(const QByteArray&) 0x000096eb   Thumb Code     0  qsvgiconengine.o(i._ZN10QByteArrayC1ERKS_)
+    QByteArray::QByteArray()                 0x00009701   Thumb Code    18  qsvgiconengine.o(i._ZN10QByteArrayC1Ev)
+    QByteArray::QByteArray__sub_object()     0x00009701   Thumb Code     0  qsvgiconengine.o(i._ZN10QByteArrayC1Ev)
+    QByteArray::~QByteArray()                0x00009719   Thumb Code    24  qsvgiconengine.o(i._ZN10QByteArrayD1Ev)
+    QByteArray::~QByteArray__sub_object()    0x00009719   Thumb Code     0  qsvgiconengine.o(i._ZN10QByteArrayD1Ev)
+    QStringList::~QStringList()              0x00009731   Thumb Code    14  main.o(i._ZN11QStringListD1Ev)
+    QStringList::~QStringList__sub_object()  0x00009731   Thumb Code     0  main.o(i._ZN11QStringListD1Ev)
+    QIconEngineV2::~QIconEngineV2()          0x0000973f   Thumb Code     0  qsvgiconengine.o(i._ZN13QIconEngineV2D2Ev)
+    QIconEngineV2::~QIconEngineV2__sub_object() 0x0000973f   Thumb Code    14  qsvgiconengine.o(i._ZN13QIconEngineV2D2Ev)
+    QSvgIconPlugin::~QSvgIconPlugin__deallocating() 0x0000974d   Thumb Code    24  main.o(i._ZN14QSvgIconPluginD0Ev)
+    QSvgIconPlugin::~QSvgIconPlugin()        0x00009765   Thumb Code    14  main.o(i._ZN14QSvgIconPluginD1Ev)
+    QSvgIconPlugin::~QSvgIconPlugin__sub_object() 0x00009765   Thumb Code     0  main.o(i._ZN14QSvgIconPluginD1Ev)
+    QBasicAtomicInt::ref()                   0x00009773   Thumb Code    24  main.o(i._ZN15QBasicAtomicInt3refEv)
+    QBasicAtomicInt::deref()                 0x0000978b   Thumb Code    24  main.o(i._ZN15QBasicAtomicInt5derefEv)
+    QtSharedPointer::ExternalRefCountData::destroy() 0x000097a3   Thumb Code     6  main.o(i._ZN15QtSharedPointer20ExternalRefCountData7destroyEv)
+    QtSharedPointer::ExternalRefCountData::~ExternalRefCountData__deallocating() 0x000097a9   Thumb Code    22  main.o(i._ZN15QtSharedPointer20ExternalRefCountDataD0Ev)
+    QtSharedPointer::ExternalRefCountData::~ExternalRefCountData() 0x000097c1   Thumb Code    70  main.o(i._ZN15QtSharedPointer20ExternalRefCountDataD1Ev)
+    QtSharedPointer::ExternalRefCountData::~ExternalRefCountData__sub_object() 0x000097c1   Thumb Code     0  main.o(i._ZN15QtSharedPointer20ExternalRefCountDataD1Ev)
+    QForeachContainer<QList<int>>::~QForeachContainer() 0x0000982d   Thumb Code    14  qsvgiconengine.o(i._ZN17QForeachContainerI5QListIiEED1Ev)
+    QForeachContainer<QList<int>>::~QForeachContainer__sub_object() 0x0000982d   Thumb Code     0  qsvgiconengine.o(i._ZN17QForeachContainerI5QListIiEED1Ev)
+    QSvgIconEnginePrivate::stepSerialNum()   0x0000983d   Thumb Code    18  qsvgiconengine.o(i._ZN21QSvgIconEnginePrivate13stepSerialNumEv)
+    QSvgIconEnginePrivate::pmcKey(const QSize&, QIcon::Mode, QIcon::State) 0x00009855   Thumb Code   144  qsvgiconengine.o(i._ZN21QSvgIconEnginePrivate6pmcKeyERK5QSizeN5QIcon4ModeENS3_5StateE)
+    QSvgIconEnginePrivate::hashKey(QIcon::Mode, QIcon::State) 0x00009911   Thumb Code     8  qsvgiconengine.o(i._ZN21QSvgIconEnginePrivate7hashKeyEN5QIcon4ModeENS0_5StateE)
+    QSvgIconEnginePrivate::QSvgIconEnginePrivate() 0x00009919   Thumb Code    40  qsvgiconengine.o(i._ZN21QSvgIconEnginePrivateC1Ev)
+    QSvgIconEnginePrivate::QSvgIconEnginePrivate__sub_object() 0x00009919   Thumb Code     0  qsvgiconengine.o(i._ZN21QSvgIconEnginePrivateC1Ev)
+    QSvgIconEnginePrivate::~QSvgIconEnginePrivate() 0x0000994b   Thumb Code    52  qsvgiconengine.o(i._ZN21QSvgIconEnginePrivateD1Ev)
+    QSvgIconEnginePrivate::~QSvgIconEnginePrivate__sub_object() 0x0000994b   Thumb Code     0  qsvgiconengine.o(i._ZN21QSvgIconEnginePrivateD1Ev)
+    QString::QString(const QLatin1String&)   0x00009989   Thumb Code    26  main.o(i._ZN7QStringC1ERK13QLatin1String)
+    QString::QString__sub_object(const QLatin1String&) 0x00009989   Thumb Code     0  main.o(i._ZN7QStringC1ERK13QLatin1String)
+    QString::QString(const QString&)         0x000099a5   Thumb Code    40  main.o(i._ZN7QStringC1ERKS_)
+    QString::QString__sub_object(const QString&) 0x000099a5   Thumb Code     0  main.o(i._ZN7QStringC1ERKS_)
+    QString::QString()                       0x00009a21   Thumb Code    18  qsvgiconengine.o(i._ZN7QStringC1Ev)
+    QString::QString__sub_object()           0x00009a21   Thumb Code     0  qsvgiconengine.o(i._ZN7QStringC1Ev)
+    QString::~QString()                      0x00009a39   Thumb Code    24  main.o(i._ZN7QStringD1Ev)
+    QString::~QString__sub_object()          0x00009a39   Thumb Code     0  main.o(i._ZN7QStringD1Ev)
+    QHashData::willGrow()                    0x00009a51   Thumb Code    32  qsvgiconengine.o(i._ZN9QHashData8willGrowEv)
+    QHashData::firstNode()                   0x00009a71   Thumb Code    36  qsvgiconengine.o(i._ZN9QHashData9firstNodeEv)
+    QByteArray::isEmpty() const              0x00009a95   Thumb Code    18  qsvgiconengine.o(i._ZNK10QByteArray7isEmptyEv)
+    QBasicAtomicInt::operator !=(int) const  0x00009aa7   Thumb Code    16  qsvgiconengine.o(i._ZNK15QBasicAtomicIntneEi)
+    QString::isEmpty() const                 0x00009ab7   Thumb Code    18  qsvgiconengine.o(i._ZNK7QString7isEmptyEv)
+    QListData::end() const                   0x00009ac9   Thumb Code    16  qsvgiconengine.o(i._ZNK9QListData3endEv)
+    QListData::begin() const                 0x00009ad9   Thumb Code    16  main.o(i._ZNK9QListData5beginEv)
+    thunk{-8} to QSvgIconPlugin::~QSvgIconPlugin__deallocating() 0x00009ae9   Thumb Code    14  main.o(i._ZThn8_N14QSvgIconPluginD0Ev)
+    thunk{-8} to QSvgIconPlugin::~QSvgIconPlugin() 0x00009af7   Thumb Code    18  main.o(i._ZThn8_N14QSvgIconPluginD1Ev)
+    operator delete (void*, void*)           0x00009b09   Thumb Code     2  main.o(i._ZdlPvS_)
+    operator ==(const QSize&, const QSize&)  0x00009b0b   Thumb Code    26  qsvgiconengine.o(i._ZeqRK5QSizeS1_)
+    operator new(unsigned, void*)            0x00009b25   Thumb Code     6  main.o(i._ZnwjPv)
+    operator +(const QString&, const QString&) 0x00009b2b   Thumb Code    44  qsvgiconengine.o(i._ZplRK7QStringS1_)
+    qForeachContainerNew<QList<int>>(const T1&) 0x00009b61   Thumb Code   126  qsvgiconengine.o(t._Z20qForeachContainerNewI5QListIiEE17QForeachContainerIT_ERKS3_)
+    QSharedDataPointer<QSvgIconEnginePrivate>::detach_helper() 0x00009be9   Thumb Code   178  qsvgiconengine.o(t._ZN18QSharedDataPointerI21QSvgIconEnginePrivateE13detach_helperEv)
+    QSharedDataPointer<QSvgIconEnginePrivate>::QSharedDataPointer(QSvgIconEnginePrivate*) 0x00009cab   Thumb Code    24  qsvgiconengine.o(t._ZN18QSharedDataPointerI21QSvgIconEnginePrivateEC1EPS0_)
+    QSharedDataPointer<QSvgIconEnginePrivate>::QSharedDataPointer__sub_object(QSvgIconEnginePrivate*) 0x00009cab   Thumb Code     0  qsvgiconengine.o(t._ZN18QSharedDataPointerI21QSvgIconEnginePrivateEC1EPS0_)
+    QSharedDataPointer<QSvgIconEnginePrivate>::~QSharedDataPointer() 0x00009cc3   Thumb Code    42  qsvgiconengine.o(t._ZN18QSharedDataPointerI21QSvgIconEnginePrivateED1Ev)
+    QSharedDataPointer<QSvgIconEnginePrivate>::~QSharedDataPointer__sub_object() 0x00009cc3   Thumb Code     0  qsvgiconengine.o(t._ZN18QSharedDataPointerI21QSvgIconEnginePrivateED1Ev)
+    QSharedDataPointer<QSvgIconEnginePrivate>::operator ->() 0x00009ced   Thumb Code    34  qsvgiconengine.o(t._ZN18QSharedDataPointerI21QSvgIconEnginePrivateEptEv)
+    QHash<int, QByteArray>::createNode(unsigned, const int&, const QByteArray&, QHashNode<int, QByteArray>**) 0x00009d0f   Thumb Code   102  qsvgiconengine.o(t._ZN5QHashIi10QByteArrayE10createNodeEjRKiRKS0_PP9QHashNodeIiS0_E)
+    QHash<int, QByteArray>::deleteNode2(QHashData::Node*) 0x00009d83   Thumb Code    24  qsvgiconengine.o(t._ZN5QHashIi10QByteArrayE11deleteNode2EPN9QHashData4NodeE)
+    QHash<int, QByteArray>::detach_helper()  0x00009d9d   Thumb Code    52  qsvgiconengine.o(t._ZN5QHashIi10QByteArrayE13detach_helperEv)
+    QHash<int, QByteArray>::duplicateNode(QHashData::Node*, void*) 0x00009dd9   Thumb Code    46  qsvgiconengine.o(t._ZN5QHashIi10QByteArrayE13duplicateNodeEPN9QHashData4NodeEPv)
+    QHash<int, QByteArray>::clear()          0x00009e15   Thumb Code    28  qsvgiconengine.o(t._ZN5QHashIi10QByteArrayE5clearEv)
+    QHash<int, QByteArray>::detach()         0x00009e3b   Thumb Code    28  qsvgiconengine.o(t._ZN5QHashIi10QByteArrayE6detachEv)
+    QHash<int, QByteArray>::insert(const int&, const QByteArray&) 0x00009e57   Thumb Code   104  qsvgiconengine.o(t._ZN5QHashIi10QByteArrayE6insertERKiRKS0_)
+    QHash<int, QByteArray>::freeData(QHashData*) 0x00009ec1   Thumb Code    16  qsvgiconengine.o(t._ZN5QHashIi10QByteArrayE8freeDataEP9QHashData)
+    QHash<int, QByteArray>::QHash()          0x00009ed5   Thumb Code    22  qsvgiconengine.o(t._ZN5QHashIi10QByteArrayEC1Ev)
+    QHash<int, QByteArray>::QHash__sub_object() 0x00009ed5   Thumb Code     0  qsvgiconengine.o(t._ZN5QHashIi10QByteArrayEC1Ev)
+    QHash<int, QByteArray>::~QHash()         0x00009ef1   Thumb Code    30  qsvgiconengine.o(t._ZN5QHashIi10QByteArrayED1Ev)
+    QHash<int, QByteArray>::~QHash__sub_object() 0x00009ef1   Thumb Code     0  qsvgiconengine.o(t._ZN5QHashIi10QByteArrayED1Ev)
+    QHash<int, QByteArray>::operator =(const QHash<int, QByteArray>&) 0x00009f0f   Thumb Code    70  qsvgiconengine.o(t._ZN5QHashIi10QByteArrayEaSERKS1_)
+    QHash<int, QPixmap>::createNode(unsigned, const int&, const QPixmap&, QHashNode<int, QPixmap>**) 0x00009f55   Thumb Code   102  qsvgiconengine.o(t._ZN5QHashIi7QPixmapE10createNodeEjRKiRKS0_PP9QHashNodeIiS0_E)
+    QHash<int, QPixmap>::deleteNode2(QHashData::Node*) 0x00009fc9   Thumb Code    24  qsvgiconengine.o(t._ZN5QHashIi7QPixmapE11deleteNode2EPN9QHashData4NodeE)
+    QHash<int, QPixmap>::detach_helper()     0x00009fe1   Thumb Code    52  qsvgiconengine.o(t._ZN5QHashIi7QPixmapE13detach_helperEv)
+    QHash<int, QPixmap>::duplicateNode(QHashData::Node*, void*) 0x0000a01d   Thumb Code    46  qsvgiconengine.o(t._ZN5QHashIi7QPixmapE13duplicateNodeEPN9QHashData4NodeEPv)
+    QHash<int, QPixmap>::clear()             0x0000a059   Thumb Code    82  qsvgiconengine.o(t._ZN5QHashIi7QPixmapE5clearEv)
+    QHash<int, QPixmap>::detach()            0x0000a0b5   Thumb Code    28  qsvgiconengine.o(t._ZN5QHashIi7QPixmapE6detachEv)
+    QHash<int, QPixmap>::freeData(QHashData*) 0x0000a0d1   Thumb Code    16  qsvgiconengine.o(t._ZN5QHashIi7QPixmapE8freeDataEP9QHashData)
+    QHash<int, QPixmap>::QHash()             0x0000a0e5   Thumb Code    22  qsvgiconengine.o(t._ZN5QHashIi7QPixmapEC1Ev)
+    QHash<int, QPixmap>::QHash__sub_object() 0x0000a0e5   Thumb Code     0  qsvgiconengine.o(t._ZN5QHashIi7QPixmapEC1Ev)
+    QHash<int, QPixmap>::~QHash()            0x0000a101   Thumb Code    30  qsvgiconengine.o(t._ZN5QHashIi7QPixmapED1Ev)
+    QHash<int, QPixmap>::~QHash__sub_object() 0x0000a101   Thumb Code     0  qsvgiconengine.o(t._ZN5QHashIi7QPixmapED1Ev)
+    QHash<int, QString>::createNode(unsigned, const int&, const QString&, QHashNode<int, QString>**) 0x0000a11f   Thumb Code   102  qsvgiconengine.o(t._ZN5QHashIi7QStringE10createNodeEjRKiRKS0_PP9QHashNodeIiS0_E)
+    QHash<int, QString>::deleteNode2(QHashData::Node*) 0x0000a193   Thumb Code    24  qsvgiconengine.o(t._ZN5QHashIi7QStringE11deleteNode2EPN9QHashData4NodeE)
+    QHash<int, QString>::detach_helper()     0x0000a1ad   Thumb Code    52  qsvgiconengine.o(t._ZN5QHashIi7QStringE13detach_helperEv)
+    QHash<int, QString>::duplicateNode(QHashData::Node*, void*) 0x0000a1e9   Thumb Code    46  qsvgiconengine.o(t._ZN5QHashIi7QStringE13duplicateNodeEPN9QHashData4NodeEPv)
+    QHash<int, QString>::clear()             0x0000a225   Thumb Code    28  qsvgiconengine.o(t._ZN5QHashIi7QStringE5clearEv)
+    QHash<int, QString>::detach()            0x0000a24b   Thumb Code    28  qsvgiconengine.o(t._ZN5QHashIi7QStringE6detachEv)
+    QHash<int, QString>::freeData(QHashData*) 0x0000a269   Thumb Code    16  qsvgiconengine.o(t._ZN5QHashIi7QStringE8freeDataEP9QHashData)
+    QHash<int, QString>::QHash()             0x0000a27d   Thumb Code    22  qsvgiconengine.o(t._ZN5QHashIi7QStringEC1Ev)
+    QHash<int, QString>::QHash__sub_object() 0x0000a27d   Thumb Code     0  qsvgiconengine.o(t._ZN5QHashIi7QStringEC1Ev)
+    QHash<int, QString>::~QHash()            0x0000a299   Thumb Code    30  qsvgiconengine.o(t._ZN5QHashIi7QStringED1Ev)
+    QHash<int, QString>::~QHash__sub_object() 0x0000a299   Thumb Code     0  qsvgiconengine.o(t._ZN5QHashIi7QStringED1Ev)
+    QHash<int, QString>::operator =(const QHash<int, QString>&) 0x0000a2b7   Thumb Code    70  qsvgiconengine.o(t._ZN5QHashIi7QStringEaSERKS1_)
+    QList<QString>::node_destruct(QList<QString>::Node*, QList<QString>::Node*) 0x0000a2fd   Thumb Code    26  main.o(t._ZN5QListI7QStringE13node_destructEPNS1_4NodeES3_)
+    QList<QString>::node_construct(QList<QString>::Node*, const QString&) 0x0000a317   Thumb Code    36  main.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_)
+    QList<QString>::detach_helper_grow(int, int) 0x0000a349   Thumb Code   220  main.o(t._ZN5QListI7QStringE18detach_helper_growEii)
+    QList<QString>::free(QListData::Data*)   0x0000a435   Thumb Code    58  main.o(t._ZN5QListI7QStringE4freeEPN9QListData4DataE)
+    QList<QString>::append(const QString&)   0x0000a471   Thumb Code   120  main.o(t._ZN5QListI7QStringE6appendERKS0_)
+    QList<QString>::node_copy(QList<QString>::Node*, QList<QString>::Node*, QList<QString>::Node*) 0x0000a4fb   Thumb Code    82  main.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_)
+    QList<QString>::~QList()                 0x0000a563   Thumb Code    32  main.o(t._ZN5QListI7QStringED1Ev)
+    QList<QString>::~QList__sub_object()     0x0000a563   Thumb Code     0  main.o(t._ZN5QListI7QStringED1Ev)
+    QList<int>::detach_helper(int)           0x0000a583   Thumb Code    94  qsvgiconengine.o(t._ZN5QListIiE13detach_helperEi)
+    QList<int>::detach_helper()              0x0000a5e9   Thumb Code    16  qsvgiconengine.o(t._ZN5QListIiE13detach_helperEv)
+    QList<int>::detach_helper_grow(int, int) 0x0000a5f9   Thumb Code   204  qsvgiconengine.o(t._ZN5QListIiE18detach_helper_growEii)
+    QList<int>::free(QListData::Data*)       0x0000a6d5   Thumb Code    58  qsvgiconengine.o(t._ZN5QListIiE4freeEPN9QListData4DataE)
+    QList<int>::append(const int&)           0x0000a711   Thumb Code    94  qsvgiconengine.o(t._ZN5QListIiE6appendERKi)
+    QList<int>::reserve(int)                 0x0000a77f   Thumb Code    46  qsvgiconengine.o(t._ZN5QListIiE7reserveEi)
+    QList<int>::node_copy(QList<int>::Node*, QList<int>::Node*, QList<int>::Node*) 0x0000a7ad   Thumb Code    46  qsvgiconengine.o(t._ZN5QListIiE9node_copyEPNS0_4NodeES2_S2_)
+    QList<int>::QList()                      0x0000a7dd   Thumb Code    18  qsvgiconengine.o(t._ZN5QListIiEC1Ev)
+    QList<int>::QList__sub_object()          0x0000a7dd   Thumb Code     0  qsvgiconengine.o(t._ZN5QListIiEC1Ev)
+    QList<int>::~QList()                     0x0000a7f5   Thumb Code    32  qsvgiconengine.o(t._ZN5QListIiED1Ev)
+    QList<int>::~QList__sub_object()         0x0000a7f5   Thumb Code     0  qsvgiconengine.o(t._ZN5QListIiED1Ev)
+    QPointer<QObject>::~QPointer()           0x0000a815   Thumb Code    14  main.o(t._ZN8QPointerI7QObjectED1Ev)
+    QPointer<QObject>::~QPointer__sub_object() 0x0000a815   Thumb Code     0  main.o(t._ZN8QPointerI7QObjectED1Ev)
+    QHashNode<int, QByteArray>::QHashNode(int, const QByteArray&) 0x0000a823   Thumb Code    26  qsvgiconengine.o(t._ZN9QHashNodeIi10QByteArrayEC1EiRKS0_)
+    QHashNode<int, QByteArray>::QHashNode__sub_object(int, const QByteArray&) 0x0000a823   Thumb Code     0  qsvgiconengine.o(t._ZN9QHashNodeIi10QByteArrayEC1EiRKS0_)
+    QHashNode<int, QPixmap>::QHashNode(int, const QPixmap&) 0x0000a83d   Thumb Code    26  qsvgiconengine.o(t._ZN9QHashNodeIi7QPixmapEC1EiRKS0_)
+    QHashNode<int, QPixmap>::QHashNode__sub_object(int, const QPixmap&) 0x0000a83d   Thumb Code     0  qsvgiconengine.o(t._ZN9QHashNodeIi7QPixmapEC1EiRKS0_)
+    QHashNode<int, QString>::QHashNode(int, const QString&) 0x0000a857   Thumb Code    26  qsvgiconengine.o(t._ZN9QHashNodeIi7QStringEC1EiRKS0_)
+    QHashNode<int, QString>::QHashNode__sub_object(int, const QString&) 0x0000a857   Thumb Code     0  qsvgiconengine.o(t._ZN9QHashNodeIi7QStringEC1EiRKS0_)
+    QForeachContainer<QList<int>>::condition() const 0x0000a871   Thumb Code    40  qsvgiconengine.o(t._ZNK17QForeachContainerI5QListIiEE9conditionEv)
+    QHash<int, QByteArray>::const_iterator::operator !=(const QHash<int, QByteArray>::const_iterator&) const 0x0000a899   Thumb Code    18  qsvgiconengine.o(t._ZNK5QHashIi10QByteArrayE14const_iteratorneERKS2_)
+    QHash<int, QByteArray>::keys() const     0x0000a8ab   Thumb Code   102  qsvgiconengine.o(t._ZNK5QHashIi10QByteArrayE4keysEv)
+    QHash<int, QByteArray>::value(const int&) const 0x0000a91b   Thumb Code    58  qsvgiconengine.o(t._ZNK5QHashIi10QByteArrayE5valueERKi)
+    QHash<int, QByteArray>::findNode(const int&, unsigned*) const 0x0000a955   Thumb Code   128  qsvgiconengine.o(t._ZNK5QHashIi10QByteArrayE8findNodeERKiPj)
+    QHash<int, QPixmap>::value(const int&) const 0x0000aa2d   Thumb Code    58  qsvgiconengine.o(t._ZNK5QHashIi7QPixmapE5valueERKi)
+    QHash<int, QPixmap>::findNode(const int&, unsigned*) const 0x0000aa69   Thumb Code   128  qsvgiconengine.o(t._ZNK5QHashIi7QPixmapE8findNodeERKiPj)
+    QHash<int, QString>::const_iterator::operator !=(const QHash<int, QString>::const_iterator&) const 0x0000ab41   Thumb Code    18  qsvgiconengine.o(t._ZNK5QHashIi7QStringE14const_iteratorneERKS2_)
+    QHash<int, QString>::keys() const        0x0000ab53   Thumb Code   102  qsvgiconengine.o(t._ZNK5QHashIi7QStringE4keysEv)
+    QHash<int, QString>::value(const int&) const 0x0000abc3   Thumb Code    58  qsvgiconengine.o(t._ZNK5QHashIi7QStringE5valueERKi)
+    QHash<int, QString>::findNode(const int&, unsigned*) const 0x0000abfd   Thumb Code   128  qsvgiconengine.o(t._ZNK5QHashIi7QStringE8findNodeERKiPj)
+    operator <<<int, QByteArray>(QDataStream&, const QHash<T1, T2>&) 0x0000acd5   Thumb Code   114  qsvgiconengine.o(t._ZlsIi10QByteArrayER11QDataStreamS2_RK5QHashIT_T0_E)
+    operator <<<int, QPixmap>(QDataStream&, const QHash<T1, T2>&) 0x0000ad47   Thumb Code   120  qsvgiconengine.o(t._ZlsIi7QPixmapER11QDataStreamS2_RK5QHashIT_T0_E)
+    operator <<<int, QString>(QDataStream&, const QHash<T1, T2>&) 0x0000adbf   Thumb Code   114  qsvgiconengine.o(t._ZlsIi7QStringER11QDataStreamS2_RK5QHashIT_T0_E)
+    operator >><int, QByteArray>(QDataStream&, QHash<T1, T2>&) 0x0000ae31   Thumb Code   176  qsvgiconengine.o(t._ZrsIi10QByteArrayER11QDataStreamS2_R5QHashIT_T0_E)
+    operator >><int, QPixmap>(QDataStream&, QHash<T1, T2>&) 0x0000aeeb   Thumb Code   176  qsvgiconengine.o(t._ZrsIi7QPixmapER11QDataStreamS2_R5QHashIT_T0_E)
+    operator >><int, QString>(QDataStream&, QHash<T1, T2>&) 0x0000afa5   Thumb Code   176  qsvgiconengine.o(t._ZrsIi7QStringER11QDataStreamS2_R5QHashIT_T0_E)
+    stlp_priv::_Integer_limits<signed char, (signed char)-128, (signed char)127, (int)-1, (bool)1>::digits 0x0000b808   Data           4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<bool, (bool)0, (bool)1, (int)1, (bool)0>::digits 0x0000b80c   Data           4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    stlp_priv::_Integer_limits<char, (char)128, (char)127, (int)-1, (bool)1>::digits 0x0000b810   Data           4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned char, (unsigned char)0, (unsigned char)255, (int)-1, (bool)1>::digits 0x0000b814   Data           4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::digits 0x0000b818   Data           4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::is_signed 0x0000b81c   Data           1  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    stlp_priv::_Integer_limits<unsigned, (unsigned)0, (unsigned)4294967295, (int)-1, (bool)1>::digits 0x0000b820   Data           4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long, (long)-2147483648, (long)2147483647, (int)-1, (bool)1>::digits 0x0000b824   Data           4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long, (unsigned long)0, (unsigned long)4294967295, (int)-1, (bool)1>::digits 0x0000b828   Data           4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<short, (short)-32768, (short)32767, (int)-1, (bool)1>::digits 0x0000b82c   Data           4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned short, (unsigned short)0, (unsigned short)65535, (int)-1, (bool)1>::digits 0x0000b830   Data           4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<wchar_t, (wchar_t)0, (wchar_t)65535, (int)-1, (bool)1>::digits 0x0000b834   Data           4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long long, (long long)-9223372036854775808, (long long)9223372036854775807, (int)-1, (bool)1>::digits 0x0000b838   Data           4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long long, (unsigned long long)0, (unsigned long long)18446744073709551615, (int)-1, (bool)1>::digits 0x0000b83c   Data           4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    typeinfo for QSvgIconEngine              0x0000b840   Data          12  qsvgiconengine.o(.constdata__ZTI14QSvgIconEngine)
+    typeinfo for QSvgIconPlugin              0x0000b84c   Data          12  main.o(.constdata__ZTI14QSvgIconPlugin)
+    typeinfo for QtSharedPointer::ExternalRefCountData 0x0000b858   Data           8  main.o(.constdata__ZTIN15QtSharedPointer20ExternalRefCountDataE)
+    typeinfo name for QSvgIconEngine         0x0000b860   Data          17  qsvgiconengine.o(.constdata__ZTS14QSvgIconEngine)
+    typeinfo name for QSvgIconPlugin         0x0000b871   Data          17  main.o(.constdata__ZTS14QSvgIconPlugin)
+    typeinfo name for QtSharedPointer::ExternalRefCountData 0x0000b882   Data          42  main.o(.constdata__ZTSN15QtSharedPointer20ExternalRefCountDataE)
+    vtable for QSvgIconEngine                0x0000b8ac   Data          56  qsvgiconengine.o(.constdata__ZTV14QSvgIconEngine)
+    vtable for QSvgIconPlugin                0x0000b8e4   Data          88  main.o(.constdata__ZTV14QSvgIconPlugin)
+    vtable for QtSharedPointer::ExternalRefCountData 0x0000b93c   Data          20  main.o(.constdata__ZTVN15QtSharedPointer20ExternalRefCountDataE)
+    SHT$$INIT_ARRAY$$Base                    0x0000b950   Number         0  qsvgiconengine.o(.init_array)
+    .ARM.exidx$$Base                         0x0000b954   Number         0  ucppinit.o(.ARM.exidx)
+    SHT$$INIT_ARRAY$$Limit                   0x0000b954   Data           0  qsvgiconengine.o(.init_array)
+    .ARM.exidx$$Limit                        0x0000bd6c   Number         0  qsvgiconengine.o(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x0000bd6c   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    QSvgIconEnginePrivate::lastSerialNum     0x00400008   Data           4  qsvgiconengine.o(.data)
+    __dso_handle                             0x0040000c   Data           4  ucppfini.o(.data)
+    std::_Atomic_swap_struct<(int)1>::_S_swap_lock 0x00400010   Data          12  main.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    dtor_rec                                 0x0040001c   Data        2048  ucppfini.o(.bss)
+

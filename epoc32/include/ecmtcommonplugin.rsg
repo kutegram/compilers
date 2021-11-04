@@ -1,0 +1,8 @@
+#define R_INTERNAL_ERROR                          0x18a6d002
+#define R_FILE_NOT_FOUND                          0x18a6d003
+#define R_FILE_CORRUPTED                          0x18a6d004
+#define R_FILE_WRITE_ERROR                        0x18a6d005
+#define R_NETCARDS_ERROR                          0x18a6d006
+#define R_COMMSDB_ERROR                           0x18a6d007
+#define R_IRDA_BT_ERROR                           0x18a6d008
+#define R_NO_ACTIVE_INI_FILES                     0x18a6d009

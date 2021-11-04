@@ -1,0 +1,9 @@
+#
+# qmake configuration for symbian-abld
+#
+# Written for SYMBIAN_ABLD
+#
+
+QMAKESPEC_ORIGINAL=$(EPOCROOT)mkspecs/symbian-abld
+
+include(../symbian-abld/qmake.conf)

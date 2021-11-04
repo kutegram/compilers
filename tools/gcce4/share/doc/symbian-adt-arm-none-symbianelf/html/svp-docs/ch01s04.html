@@ -1,0 +1,45 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>1.4. Example</title><link rel="stylesheet" href="cs.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.74.0"><link rel="home" href="index.html" title="Symbian ADT Sourcery G++ Lite"><link rel="up" href="chap-configuration.html" title="Chapter 1. Configuring the Virtual Platform"><link rel="prev" href="ch01s03.html" title="1.3. Structure of Board Configuration Trees"><link rel="next" href="chap-gui.html" title="Chapter 2. GUI Configuration"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">1.4. Example</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ch01s03.html">Prev</a> </td><th width="60%" align="center">Chapter 1. Configuring the Virtual Platform</th><td width="20%" align="right"> <a accesskey="n" href="chap-gui.html">Next</a></td></tr></table><hr></div><div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="id336041"></a>1.4. Example</h2></div></div></div><p>
+   Below is an example of a simple board description file.  It constitutes a
+   Cortex-A8 cpu, ram, interrupt controller and a serial port.
+</p><pre class="programlisting">/ {
+    #address-cells = &lt;1&gt;;
+    #size-cells  = &lt;1&gt;;
+
+    cpus {
+        #address-cells = &lt;1&gt;;
+        #size-cells = &lt;0&gt;;
+        cpu0: ARM,Cortex-A8@0 {
+            device_type = "cpu";
+            reg = &lt;0&gt;;
+        };
+    };
+    memory@0 {
+        device_type = "memory";
+        /* 128Mb ram at address zero.  */
+        reg = &lt;0 08000000&gt;;
+    };
+    syborg {
+        #address-cells = &lt;1&gt;;
+        #size-cells = &lt;0&gt;;
+        /* Interrupt controller at address 0xc0000000.  */
+        intc: intc@0 {
+            compatible = "syborg,interrupt";
+            #interrupt-cells = &lt;1&gt;;
+            reg = &lt;c0000000&gt;;
+            interrupt-controller;
+            qemu,interrupts = &lt;&amp;cpu0 0&gt;;
+            num-interrupts = &lt;20&gt;;
+        };
+        /* Serial port at address 0xc0006000.  */
+        serial@0 {
+            device_type = "serial";
+            compatible = "syborg,serial";
+            chardev = "serial0";
+            reg = &lt;c0006000&gt;;
+            interrupts = &lt;5&gt;;
+            interrupt-parent = &lt;&amp;intc&gt;;
+        };
+    };
+};
+</pre><p>
+  </p></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ch01s03.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="chap-configuration.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="chap-gui.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">1.3. Structure of Board Configuration Trees </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> Chapter 2. GUI Configuration</td></tr></table></div></body></html>

@@ -1,0 +1,227 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>3.10. Host Filesystem Device</title><link rel="stylesheet" href="cs.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.74.0"><link rel="home" href="index.html" title="Symbian ADT Sourcery G++ Lite"><link rel="up" href="chap-devices.html" title="Chapter 3. Base Platform Devices"><link rel="prev" href="ch03s09.html" title="3.9. Framebuffer"><link rel="next" href="ch03s11.html" title="3.11. Snapshot Device"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">3.10. Host Filesystem Device</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ch03s09.html">Prev</a> </td><th width="60%" align="center">Chapter 3. Base Platform Devices</th><td width="20%" align="right"> <a accesskey="n" href="ch03s11.html">Next</a></td></tr></table><hr></div><div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="id368177"></a>3.10. Host Filesystem Device</h2></div></div></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id368183"></a>3.10.1. Description</h3></div></div></div><p>
+    This device provides access to the host filesystem.
+   </p><p>
+    Access is implemented via a virtual syscall interface.  Syscall arguments
+    are loaded into the corresponding device argument registers.  The Syscall
+    is triggered by writing the syscall number to the
+    <code class="literal">COMMAND</code> register.  The syscall completes and the
+    results are ready immediately.  The <code class="literal">RESULT</code> register is
+    zero if the syscall succeeded and a negative error value if the syscall
+    failed.  Other values may be returned in the device argument registers.
+   </p><p>
+    Filenames are specified using a pair of argument values.  The first value
+    is a memory address locating the start of the string, and the second is a
+    length.  Filenames are encoded using 16-bit Unicode characters
+    (a.k.a. UTF-16 or UCS-2).  The filename length is the number of 16-bit
+    characters.  The filename need not be null terminated.
+   </p><p>
+    All filenames should include absolute paths including the drive
+    specifier.  (e.g. <code class="filename">N:\TESTS\LOG.TXT</code>).  The device
+    has no concept of a current working directory, and relative paths are
+    not supported.  A backslash (<code class="literal">\</code>) is used as a directory
+    separator.
+   </p><p>
+    The supplied filename is mapped onto the host system by removing the
+    drive specifier and prepending a host directory.
+   </p><div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Warning</h3><p>
+     This device does not provide a secure sandbox environment.  It may be
+     possible to access files outside the specified host directory.
+    </p></div><div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Warning</h3><p>
+     Care should be taken to avoid modifying a file or directory on the host
+     while it is in use by the virtual machine.  No facilities are provided
+     for synchronisation or locking between different machines.
+    </p></div></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id368254"></a>3.10.2. Syscalls</h3></div></div></div><p>
+    The following syscalls are available:
+   </p><div class="variablelist"><dl><dt><span class="term">MkDir (1)</span></dt><dd><p>
+       Create a new directory.  <code class="literal">ARG0/ARG1</code> is the name of
+       the new directory.
+      </p></dd><dt><span class="term">RmDir (2)</span></dt><dd><p>
+       Remove a directory.  <code class="literal">ARG0/ARG1</code> is the name of
+       the directory to be removed.  The directory must be empty.
+      </p></dd><dt><span class="term">Delete (3)</span></dt><dd><p>
+       Remove a file.  <code class="literal">ARG0/ARG1</code> is the name of
+       the file to be removed.
+      </p></dd><dt><span class="term">Rename (4)</span></dt><dd><p>
+       Rename a file.  <code class="literal">ARG0/ARG1</code> is the name of
+       an existing file, and <code class="literal">ARG2/ARG3</code> is the new
+       name for the file.
+      </p></dd><dt><span class="term">Replace (5)</span></dt><dd><p>
+       Move a file, replacing another if necessary.
+       <code class="literal">ARG0/ARG1</code> is the name of
+       an existing file, and <code class="literal">ARG2/ARG3</code> is the new
+       name for the file.
+      </p></dd><dt><span class="term">Get Entry (7)</span></dt><dd><p>
+       Query attributes of a file.  <code class="literal">ARG0/ARG1</code> is the name
+       of the file to query.  Upon successful completion the following
+       values are set:
+       </p><div class="informaltable"><table border="1"><colgroup><col><col></colgroup><tbody><tr><td>
+            <code class="literal">ARG0</code>
+           </td><td>
+            <p>
+             File attributes.  A combination of the following bit flags:
+             </p><div class="variablelist"><dl><dt><span class="term"><code class="literal">0x01</code></span></dt><dd><p>
+                 Readonly
+                </p></dd><dt><span class="term"><code class="literal">0x02</code></span></dt><dd><p>
+                 Hidden
+                </p></dd><dt><span class="term"><code class="literal">0x10</code></span></dt><dd><p>
+                 Directory
+                </p></dd></dl></div><p>
+            </p>
+           </td></tr><tr><td>
+            <code class="literal">ARG1</code>
+           </td><td>
+            <p>
+             File last modification time.  This is the number of seconds
+             from the UNIX Epoch (00:00:00 UTC, January 1, 1970).
+            </p>
+           </td></tr><tr><td>
+            <code class="literal">ARG2</code>
+           </td><td>
+            <p>
+             File size in bytes.
+            </p>
+           </td></tr></tbody></table></div><p>
+      </p></dd><dt><span class="term">Open File (9)</span></dt><dd><p>
+       Open a file.  <code class="literal">ARG0/ARG1</code> is the name of
+       the file to open.  Upon successful completion the following
+       values are set:
+       </p><div class="informaltable"><table border="1"><colgroup><col><col></colgroup><tbody><tr><td>
+            <code class="literal">ARG0</code>
+           </td><td>
+            <p>
+             The newly opened file handle.
+            </p>
+           </td></tr><tr><td>
+            <code class="literal">ARG1</code>
+           </td><td>
+            <p>
+             File attributes.  A combination of the following bit flags:
+             </p><div class="variablelist"><dl><dt><span class="term"><code class="literal">0x01</code></span></dt><dd><p>
+                 Readonly
+                </p></dd><dt><span class="term"><code class="literal">0x02</code></span></dt><dd><p>
+                 Hidden
+                </p></dd><dt><span class="term"><code class="literal">0x10</code></span></dt><dd><p>
+                 Directory
+                </p></dd></dl></div><p>
+            </p>
+           </td></tr><tr><td>
+            <code class="literal">ARG2</code>
+           </td><td>
+            <p>
+             File last modification time.  This is the number of seconds
+             from the UNIX Epoch (00:00:00 UTC, January 1, 1970).
+            </p>
+           </td></tr><tr><td>
+            <code class="literal">ARG3</code>
+           </td><td>
+            <p>
+             File size in bytes.
+            </p>
+           </td></tr></tbody></table></div><p>
+      </p></dd><dt><span class="term">Open Directory (10)</span></dt><dd><p>
+       Open a directory listing.  <code class="literal">ARG0/ARG1</code> is the filename
+       pattern to match.  The last filenename component may include
+       <code class="literal">*</code> and <code class="literal">?</code> wildcards.
+       If the pattern ends in <code class="literal">\</code>
+       then it is equivalent to <code class="literal">\*</code>.
+       <code class="literal">ARG0</code> is set to the newly opened directory handle.
+      </p></dd><dt><span class="term">Close File (11)</span></dt><dd><p>
+       Close a file handle.  <code class="literal">ARG0</code> is the file handle
+       to close.
+      </p></dd><dt><span class="term">Read From File (12)</span></dt><dd><p>
+       Read data from a file.  <code class="literal">ARG0</code> is the file handle
+       to read from.
+       <code class="literal">ARG1</code> is the offset from the start of the file.
+       <code class="literal">ARG2</code> is the memory address to write the read data
+       to.  <code class="literal">ARG3</code> is the number of bytes to read.
+       Upon successful completion <code class="literal">ARG0</code>
+       is set to the number of bytes read.  This may be less than the
+       requested size if the end of the file is reached.
+      </p></dd><dt><span class="term">Write To File (13)</span></dt><dd><p>
+       Write data to a file.  <code class="literal">ARG0</code> is the file handle
+       to write to.
+       <code class="literal">ARG1</code> is the offset form the start of the file.
+       <code class="literal">ARG2</code> is the memory address to read the read data
+       from.  <code class="literal">ARG3</code> is the number of bytes to write.
+       Upon successful completion <code class="literal">ARG0</code>
+       is set to the number of bytes written.
+      </p></dd><dt><span class="term">Set File Size (14)</span></dt><dd><p>
+       Truncate a file.  <code class="literal">ARG0</code> is the file handle to
+       be truncated.
+       <code class="literal">ARG1</code> is the new length of the file, in bytes.
+      </p></dd><dt><span class="term">Flush (15)</span></dt><dd><p>
+       Flush any buffered file data to underlying storage.
+       <code class="literal">ARG0</code> is the file handle to flush.
+      </p></dd><dt><span class="term">Close Directory (16)</span></dt><dd><p>
+       Close a directory handle.
+       <code class="literal">ARG0</code> is the directory handle.
+      </p></dd><dt><span class="term">Read Directory (17)</span></dt><dd><p>
+       Read a directory entry.  To obtain a complete list of files this
+       this should be called repeatedly until an EOF error is encountered.
+       <code class="literal">ARG0</code> is the directory handle to read from.
+       <code class="literal">ARG1</code> is the memory address of the buffer to
+       receive the name.  <code class="literal">ARG2</code> is the size
+       (in 16-bit characters) of the buffer pointed to by
+       <code class="literal">ARG1</code>.  Upon successful completion the name of the
+       directory entry is written into the buffer, and the following
+       values are set:
+       </p><div class="informaltable"><table border="1"><colgroup><col><col></colgroup><tbody><tr><td>
+            <code class="literal">ARG0</code>
+           </td><td>
+            <p>
+             File attributes.  A combination of the following bit flags:
+             </p><div class="variablelist"><dl><dt><span class="term"><code class="literal">0x01</code></span></dt><dd><p>
+                 Readonly
+                </p></dd><dt><span class="term"><code class="literal">0x02</code></span></dt><dd><p>
+                 Hidden
+                </p></dd><dt><span class="term"><code class="literal">0x10</code></span></dt><dd><p>
+                 Directory
+                </p></dd></dl></div><p>
+            </p>
+           </td></tr><tr><td>
+            <code class="literal">ARG1</code>
+           </td><td>
+            <p>
+             File last modification time.  This is the number of seconds
+             from the UNIX Epoch (00:00:00 UTC, January 1, 1970).
+            </p>
+           </td></tr><tr><td>
+            <code class="literal">ARG2</code>
+           </td><td>
+            <p>
+             File size in bytes.
+            </p>
+           </td></tr><tr><td>
+            <code class="literal">ARG3</code>
+           </td><td>
+            <p>
+             The length of the name (in 16-bit characters).
+            </p>
+           </td></tr></tbody></table></div><p>
+      </p></dd></dl></div></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id369042"></a>3.10.3. Errors</h3></div></div></div><p>
+    The following result codes may be returned:
+    </p><div class="informaltable"><table border="1"><colgroup><col><col></colgroup><thead><tr><th>Error</th><th>Value</th></tr></thead><tbody><tr><td>None (Success)</td><td>0</td></tr><tr><td>NotFound</td><td>-1</td></tr><tr><td>General</td><td>-2</td></tr><tr><td>NoMemory</td><td>-4</td></tr><tr><td>NotSupported</td><td>-5</td></tr><tr><td>InvalidArgument</td><td>-6</td></tr><tr><td>BadHandle</td><td>-8</td></tr><tr><td>AlreadyExists</td><td>-11</td></tr><tr><td>PathNotFound</td><td>-12</td></tr><tr><td>InUse</td><td>-14</td></tr><tr><td>Unknown</td><td>-19</td></tr><tr><td>Corrupt</td><td>-20</td></tr><tr><td>AccessDenied</td><td>-21</td></tr><tr><td>Locked</td><td>-22</td></tr><tr><td>Write</td><td>-23</td></tr><tr><td>Eof</td><td>-25</td></tr><tr><td>DiskFull</td><td>-26</td></tr><tr><td>BadName</td><td>-28</td></tr><tr><td>Abort</td><td>-39</td></tr><tr><td>TooBig</td><td>-40</td></tr><tr><td>DirFull</td><td>-43</td></tr><tr><td>PermissionDenied</td><td>-46</td></tr></tbody></table></div><p>
+   </p></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id369214"></a>3.10.4. Device Properties</h3></div></div></div><div class="variablelist"><dl><dt><span class="term"><code class="literal">compatible</code></span></dt><dd><code class="literal">syborg,hostfs</code></dd><dt><span class="term"><code class="literal">host-path</code></span></dt><dd><p>
+       The host path that specifies the root directory for this device.
+      </p></dd><dt><span class="term"><code class="literal">drive-number</code></span></dt><dd><p>
+       The number to identify this device.  Typically drive number 1 is
+       <code class="literal">A:</code>, drive number 2 is <code class="literal">B:</code>, etc.
+      </p></dd></dl></div></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id369285"></a>3.10.5. Registers</h3></div></div></div><p>
+    </p><div class="table"><a name="id369292"></a><p class="title"><b>Table 3.9. Host Filesystem Device Registers</b></p><div class="table-contents"><table summary="Host Filesystem Device Registers" border="1"><colgroup><col><col><col><col><col></colgroup><thead><tr><th>Offset</th><th>Access</th><th>Reset</th><th>Name</th><th>Description</th></tr></thead><tbody><tr><td>0x000</td><td>R</td><td>0xc51d0008</td><td>ID</td><td><p>
+          Peripheral ID.
+        </p></td></tr><tr><td>0x004</td><td>RW</td><td>0x00000000</td><td>COMMAND</td><td><p>
+          Writing a value to this address causes the specified command to
+          be executed.
+        </p></td></tr><tr><td>0x008</td><td>RW</td><td>0x00000000</td><td>RESULT</td><td><p>
+          The result of the last command.  A value of zero indicates success,
+          a negative error code indicates failure.
+        </p></td></tr><tr><td>0x00c</td><td>RW</td><td>0x00000000</td><td>ARG0</td><td><p>
+          The first argument register.
+        </p></td></tr><tr><td>0x010</td><td>RW</td><td>0x00000000</td><td>ARG1</td><td><p>
+          The second argument register.
+        </p></td></tr><tr><td>0x014</td><td>RW</td><td>0x00000000</td><td>ARG2</td><td><p>
+          The third argument register.
+        </p></td></tr><tr><td>0x018</td><td>RW</td><td>0x00000000</td><td>ARG3</td><td><p>
+          The fourth argument register.
+        </p></td></tr></tbody></table></div></div><p><br class="table-break">
+   </p></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ch03s09.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="chap-devices.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="ch03s11.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">3.9. Framebuffer </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> 3.11. Snapshot Device</td></tr></table></div></body></html>

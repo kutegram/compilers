@@ -1,0 +1,31 @@
+// CNTMODEL.RH
+//
+// Copyright (c) 1997-1999 Symbian Ltd.  All rights reserved.
+//
+/**
+@publishedPartner
+
+*/
+STRUCT MAPPING
+    {
+    LONG mapping;
+    }
+
+//
+// NEED TO ADD IN A FIELD TYPE AT THE START TO ALLOW DATE FIELDS ETC
+//
+/**
+@publishedPartner
+
+*/
+STRUCT FIELD
+    {
+    LONG fieldStorageType;
+    LONG contactFieldType;
+	LONG vCardMapping;
+    STRUCT extraMapping[];
+	LONG category;
+    LTEXT fieldName;
+	LONG flags;
+    }
+

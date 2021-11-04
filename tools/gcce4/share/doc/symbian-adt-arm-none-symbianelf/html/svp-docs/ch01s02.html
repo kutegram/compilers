@@ -1,0 +1,17 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>1.2. Board Configuration Files</title><link rel="stylesheet" href="cs.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.74.0"><link rel="home" href="index.html" title="Symbian ADT Sourcery G++ Lite"><link rel="up" href="chap-configuration.html" title="Chapter 1. Configuring the Virtual Platform"><link rel="prev" href="chap-configuration.html" title="Chapter 1. Configuring the Virtual Platform"><link rel="next" href="ch01s03.html" title="1.3. Structure of Board Configuration Trees"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">1.2. Board Configuration Files</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="chap-configuration.html">Prev</a> </td><th width="60%" align="center">Chapter 1. Configuring the Virtual Platform</th><td width="20%" align="right"> <a accesskey="n" href="ch01s03.html">Next</a></td></tr></table><hr></div><div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="id275670"></a>1.2. Board Configuration Files</h2></div></div></div><p>
+   QEMU uses a board configuration file to create the virtual machine.
+   This configuration file should be a binary Flattened Device Tree
+   describing the virtual machine.
+  </p><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id343763"></a>1.2.1. Invoking QEMU</h3></div></div></div><p>
+    Board configuration files can be specified with the <code class="literal">-M</code>
+    command-line option.  For example:
+    </p><pre class="screen">&gt; arm-none-symbianelf-qemu-system -M <em class="replaceable"><code>board</code></em>.dtb</pre><p>
+   </p></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id349068"></a>1.2.2. Compiling Device Trees</h3></div></div></div><p>
+    The Device Tree Compiler is a utility that converts human-readable
+    Flattened Device Tree source files into machine-readable binary
+    representation.  The following command converts a source file
+    (<code class="filename"><em class="replaceable"><code>board</code></em>.dts</code>) to a 
+    binary file
+    (<code class="filename"><em class="replaceable"><code>board</code></em>.dtb</code>).
+    </p><pre class="screen">&gt; arm-none-symbianelf-dtc <em class="replaceable"><code>board</code></em>.dts -O dtb -o <em class="replaceable"><code>board</code></em>.dtb</pre><p>
+   </p></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="chap-configuration.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="chap-configuration.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="ch01s03.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Chapter 1. Configuring the Virtual Platform </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> 1.3. Structure of Board Configuration Trees</td></tr></table></div></body></html>

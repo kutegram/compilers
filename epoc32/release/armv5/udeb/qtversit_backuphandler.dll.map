@@ -1,0 +1,578 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../../unhosted.s                         0x00000000   Number         0  switch8.o ABSOLUTE
+    M:\\epoc32\\build\\euser\\c_e18a23aea4fd210f\\edll_lib\\armv5\\udeb\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\\sf\\os\\kernelhwsrv\\kernel\\eka\\compsupp\\rvct\\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\epoc32\build\euser\c_e18a23aea4fd210f\edll_lib\armv5\udeb\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\dllexp.cpp 0x00000000   Number         0  dllexp.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    S:\sf\mw\qtmobility\build\Release\qtversit_backuphandler\moc\moc_backupvcardhandler.cpp 0x00000000   Number         0  moc_backupvcardhandler.o ABSOLUTE
+    S:\sf\mw\qtmobility\plugins\versit\backuphandler\backupvcardhandler.cpp 0x00000000   Number         0  backupvcardhandler.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    Symbian$$eit_base                        0x00008014   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$eit_limit                       0x00008018   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_base                   0x0000801c   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_limit                  0x00008020   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$reserved                        0x00008024   Data           4  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       52  ucppinit.o(.emb_text)
+    loop                                     0x0000803c   ARM Code       0  ucppinit.o(.emb_text)
+    ret                                      0x00008044   ARM Code       0  ucppinit.o(.emb_text)
+    base                                     0x00008054   Data           0  ucppinit.o(.emb_text)
+    limit                                    0x00008058   Data           0  ucppinit.o(.emb_text)
+    .text                                    0x00008284   Section      240  moc_backupvcardhandler.o(.text)
+    .text                                    0x00008374   Section     2660  backupvcardhandler.o(.text)
+    .text                                    0x00008dd8   Section       24  switch8.o(.text)
+    .text                                    0x00008df0   Section       80  uc_dll.o(.text)
+    .text                                    0x00008e40   Section      180  ucppfini.o(.text)
+    .text                                    0x00008ef4   Section        4  dllexp.o(.text)
+    .text.clean                              0x00008ef8   Section      568  backupvcardhandler.o(.text.clean)
+    i._ZN10QByteArrayD1Ev                    0x00009130   Section       24  backupvcardhandler.o(i._ZN10QByteArrayD1Ev)
+    i._ZN10QtMobility14DetailGroupMapD1Ev    0x00009148   Section       22  backupvcardhandler.o(i._ZN10QtMobility14DetailGroupMapD1Ev)
+    i._ZN10QtMobility14DetailGroupMapD1Ev.clean 0x0000915e   Section       10  backupvcardhandler.o(i._ZN10QtMobility14DetailGroupMapD1Ev.clean)
+    i._ZN10QtMobility21QVersitContactHandlerD0Ev 0x00009168   Section       26  backupvcardhandler.o(i._ZN10QtMobility21QVersitContactHandlerD0Ev)
+    i._ZN10QtMobility21QVersitContactHandlerD2Ev 0x00009182   Section        8  backupvcardhandler.o(i._ZN10QtMobility21QVersitContactHandlerD2Ev)
+    i._ZN10QtMobility28QVersitContactHandlerFactoryD0Ev 0x0000918a   Section       18  backupvcardhandler.o(i._ZN10QtMobility28QVersitContactHandlerFactoryD0Ev)
+    i._ZN10QtMobility28QVersitContactHandlerFactoryD2Ev 0x0000919c   Section        2  backupvcardhandler.o(i._ZN10QtMobility28QVersitContactHandlerFactoryD2Ev)
+    i._ZN10QtMobility37QVersitContactExporterDetailHandlerV2D0Ev 0x0000919e   Section       18  backupvcardhandler.o(i._ZN10QtMobility37QVersitContactExporterDetailHandlerV2D0Ev)
+    i._ZN10QtMobility37QVersitContactExporterDetailHandlerV2D2Ev 0x000091b0   Section        2  backupvcardhandler.o(i._ZN10QtMobility37QVersitContactExporterDetailHandlerV2D2Ev)
+    i._ZN10QtMobility39QVersitContactImporterPropertyHandlerV2D0Ev 0x000091b2   Section       18  backupvcardhandler.o(i._ZN10QtMobility39QVersitContactImporterPropertyHandlerV2D0Ev)
+    i._ZN10QtMobility39QVersitContactImporterPropertyHandlerV2D2Ev 0x000091c4   Section        2  backupvcardhandler.o(i._ZN10QtMobility39QVersitContactImporterPropertyHandlerV2D2Ev)
+    i._ZN11QStringListC1ERK7QString          0x000091c8   Section       36  backupvcardhandler.o(i._ZN11QStringListC1ERK7QString)
+    i._ZN11QStringListC1ERK7QString.clean    0x000091ec   Section       10  backupvcardhandler.o(i._ZN11QStringListC1ERK7QString.clean)
+    i._ZN11QStringListD1Ev                   0x000091f6   Section       14  backupvcardhandler.o(i._ZN11QStringListD1Ev)
+    i._ZN15QBasicAtomicInt3refEv             0x00009204   Section       24  backupvcardhandler.o(i._ZN15QBasicAtomicInt3refEv)
+    i._ZN15QBasicAtomicInt5derefEv           0x0000921c   Section       24  backupvcardhandler.o(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN18BackupVCardHandlerD0Ev            0x00009234   Section       22  backupvcardhandler.o(i._ZN18BackupVCardHandlerD0Ev)
+    i._ZN18BackupVCardHandlerD1Ev            0x0000924c   Section       44  backupvcardhandler.o(i._ZN18BackupVCardHandlerD1Ev)
+    i._ZN18BackupVCardHandlerD1Ev.clean      0x00009278   Section       10  backupvcardhandler.o(i._ZN18BackupVCardHandlerD1Ev.clean)
+    i._ZN25BackupVCardHandlerFactoryD0Ev     0x00009282   Section       22  moc_backupvcardhandler.o(i._ZN25BackupVCardHandlerFactoryD0Ev)
+    i._ZN25BackupVCardHandlerFactoryD1Ev     0x00009298   Section       22  moc_backupvcardhandler.o(i._ZN25BackupVCardHandlerFactoryD1Ev)
+    i._ZN25BackupVCardHandlerFactoryD1Ev.clean 0x000092ae   Section        4  moc_backupvcardhandler.o(i._ZN25BackupVCardHandlerFactoryD1Ev.clean)
+    i._ZN4QSetI7QStringED1Ev                 0x000092b2   Section       14  backupvcardhandler.o(i._ZN4QSetI7QStringED1Ev)
+    i._ZN7QStringC1ERKS_                     0x000092c0   Section       22  backupvcardhandler.o(i._ZN7QStringC1ERKS_)
+    i._ZN7QStringD1Ev                        0x000092d6   Section       24  backupvcardhandler.o(i._ZN7QStringD1Ev)
+    i._ZNK10QtMobility28QVersitContactHandlerFactory5indexEv 0x000092ee   Section        6  backupvcardhandler.o(i._ZNK10QtMobility28QVersitContactHandlerFactory5indexEv)
+    i._ZNK10QtMobility28QVersitContactHandlerFactory8profilesEv 0x000092f4   Section       16  backupvcardhandler.o(i._ZNK10QtMobility28QVersitContactHandlerFactory8profilesEv)
+    i._ZNK15QBasicAtomicIntneEi              0x00009304   Section       16  backupvcardhandler.o(i._ZNK15QBasicAtomicIntneEi)
+    i._ZNK7QString7isEmptyEv                 0x00009314   Section       18  backupvcardhandler.o(i._ZNK7QString7isEmptyEv)
+    i._ZNK9QListData3endEv                   0x00009326   Section       16  backupvcardhandler.o(i._ZNK9QListData3endEv)
+    i._ZNK9QListData5beginEv                 0x00009336   Section       16  backupvcardhandler.o(i._ZNK9QListData5beginEv)
+    i._ZThn4_N10QtMobility21QVersitContactHandlerD0Ev 0x00009346   Section       14  backupvcardhandler.o(i._ZThn4_N10QtMobility21QVersitContactHandlerD0Ev)
+    i._ZThn4_N10QtMobility21QVersitContactHandlerD1Ev 0x00009354   Section       16  backupvcardhandler.o(i._ZThn4_N10QtMobility21QVersitContactHandlerD1Ev)
+    i._ZThn4_N18BackupVCardHandlerD0Ev       0x00009364   Section       14  backupvcardhandler.o(i._ZThn4_N18BackupVCardHandlerD0Ev)
+    i._ZThn4_N18BackupVCardHandlerD1Ev       0x00009372   Section       14  backupvcardhandler.o(i._ZThn4_N18BackupVCardHandlerD1Ev)
+    i._ZThn8_N25BackupVCardHandlerFactoryD0Ev 0x00009380   Section       14  moc_backupvcardhandler.o(i._ZThn8_N25BackupVCardHandlerFactoryD0Ev)
+    i._ZThn8_N25BackupVCardHandlerFactoryD1Ev 0x0000938e   Section       14  moc_backupvcardhandler.o(i._ZThn8_N25BackupVCardHandlerFactoryD1Ev)
+    i._ZdlPvS_                               0x0000939c   Section        2  backupvcardhandler.o(i._ZdlPvS_)
+    i._ZnwjPv                                0x0000939e   Section        6  backupvcardhandler.o(i._ZnwjPv)
+    i._ZplRK7QStringS1_                      0x000093a4   Section       44  backupvcardhandler.o(i._ZplRK7QStringS1_)
+    i._ZplRK7QStringS1_.clean                0x000093d0   Section       10  backupvcardhandler.o(i._ZplRK7QStringS1_.clean)
+    t._ZN14QHashDummyNodeI7QString15QHashDummyValueEC1ERKS0_ 0x000093da   Section       24  backupvcardhandler.o(t._ZN14QHashDummyNodeI7QString15QHashDummyValueEC1ERKS0_)
+    t._ZN4QMapI7QString8QVariantE8freeDataEP8QMapData 0x000093f2   Section       64  backupvcardhandler.o(t._ZN4QMapI7QString8QVariantE8freeDataEP8QMapData)
+    t._ZN4QMapI7QString8QVariantED1Ev        0x00009432   Section       38  backupvcardhandler.o(t._ZN4QMapI7QString8QVariantED1Ev)
+    t._ZN4QSetI7QStringE6insertERKS0_        0x00009458   Section       46  backupvcardhandler.o(t._ZN4QSetI7QStringE6insertERKS0_)
+    t._ZN4QSetI7QStringEC1Ev                 0x00009488   Section       28  backupvcardhandler.o(t._ZN4QSetI7QStringEC1Ev)
+    t._ZN5QHashI7QString15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE 0x000094a4   Section       24  backupvcardhandler.o(t._ZN5QHashI7QString15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE)
+    t._ZN5QHashI7QString15QHashDummyValueE13detach_helperEv 0x000094bc   Section       60  backupvcardhandler.o(t._ZN5QHashI7QString15QHashDummyValueE13detach_helperEv)
+    t._ZN5QHashI7QString15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv 0x000094f8   Section       44  backupvcardhandler.o(t._ZN5QHashI7QString15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv)
+    t._ZN5QHashI7QString15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv.clean 0x00009524   Section       12  backupvcardhandler.o(t._ZN5QHashI7QString15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv.clean)
+    t._ZN5QHashI7QString15QHashDummyValueE6insertERKS0_RKS1_ 0x00009530   Section      208  backupvcardhandler.o(t._ZN5QHashI7QString15QHashDummyValueE6insertERKS0_RKS1_)
+    t._ZN5QHashI7QString15QHashDummyValueE6insertERKS0_RKS1_.clean 0x00009600   Section       12  backupvcardhandler.o(t._ZN5QHashI7QString15QHashDummyValueE6insertERKS0_RKS1_.clean)
+    t._ZN5QHashI7QString15QHashDummyValueE8freeDataEP9QHashData 0x0000960c   Section       20  backupvcardhandler.o(t._ZN5QHashI7QString15QHashDummyValueE8freeDataEP9QHashData)
+    t._ZN5QHashI7QString15QHashDummyValueED1Ev 0x00009620   Section       30  backupvcardhandler.o(t._ZN5QHashI7QString15QHashDummyValueED1Ev)
+    t._ZN5QHashIi7QStringE11deleteNode2EPN9QHashData4NodeE 0x0000963e   Section       24  backupvcardhandler.o(t._ZN5QHashIi7QStringE11deleteNode2EPN9QHashData4NodeE)
+    t._ZN5QHashIi7QStringE8freeDataEP9QHashData 0x00009658   Section       20  backupvcardhandler.o(t._ZN5QHashIi7QStringE8freeDataEP9QHashData)
+    t._ZN5QHashIi7QStringED1Ev               0x0000966c   Section       30  backupvcardhandler.o(t._ZN5QHashIi7QStringED1Ev)
+    t._ZN5QHashIiN10QtMobility14QContactDetailEE11deleteNode2EPN9QHashData4NodeE 0x0000968a   Section       24  backupvcardhandler.o(t._ZN5QHashIiN10QtMobility14QContactDetailEE11deleteNode2EPN9QHashData4NodeE)
+    t._ZN5QHashIiN10QtMobility14QContactDetailEE8freeDataEP9QHashData 0x000096a4   Section       20  backupvcardhandler.o(t._ZN5QHashIiN10QtMobility14QContactDetailEE8freeDataEP9QHashData)
+    t._ZN5QHashIiN10QtMobility14QContactDetailEED1Ev 0x000096b8   Section       30  backupvcardhandler.o(t._ZN5QHashIiN10QtMobility14QContactDetailEED1Ev)
+    t._ZN5QListI7QStringE13node_destructEPNS1_4NodeES3_ 0x000096d6   Section       26  backupvcardhandler.o(t._ZN5QListI7QStringE13node_destructEPNS1_4NodeES3_)
+    t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_ 0x000096f0   Section       36  backupvcardhandler.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_)
+    t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_.clean 0x00009714   Section       14  backupvcardhandler.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_.clean)
+    t._ZN5QListI7QStringE18detach_helper_growEii 0x00009722   Section      208  backupvcardhandler.o(t._ZN5QListI7QStringE18detach_helper_growEii)
+    t._ZN5QListI7QStringE18detach_helper_growEii.clean 0x000097f2   Section       16  backupvcardhandler.o(t._ZN5QListI7QStringE18detach_helper_growEii.clean)
+    t._ZN5QListI7QStringE4freeEPN9QListData4DataE 0x00009802   Section       58  backupvcardhandler.o(t._ZN5QListI7QStringE4freeEPN9QListData4DataE)
+    t._ZN5QListI7QStringE6appendERKS0_       0x0000983c   Section      120  backupvcardhandler.o(t._ZN5QListI7QStringE6appendERKS0_)
+    t._ZN5QListI7QStringE6appendERKS0_.clean 0x000098b4   Section       14  backupvcardhandler.o(t._ZN5QListI7QStringE6appendERKS0_.clean)
+    t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_ 0x000098c2   Section       82  backupvcardhandler.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_)
+    t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_.clean 0x00009914   Section       22  backupvcardhandler.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_.clean)
+    t._ZN5QListI7QStringED1Ev                0x0000992a   Section       32  backupvcardhandler.o(t._ZN5QListI7QStringED1Ev)
+    t._ZN5QListIN10QtMobility15QVersitPropertyEE13detach_helperEi 0x0000994a   Section       94  backupvcardhandler.o(t._ZN5QListIN10QtMobility15QVersitPropertyEE13detach_helperEi)
+    t._ZN5QListIN10QtMobility15QVersitPropertyEE13detach_helperEi.clean 0x000099a8   Section        8  backupvcardhandler.o(t._ZN5QListIN10QtMobility15QVersitPropertyEE13detach_helperEi.clean)
+    t._ZN5QListIN10QtMobility15QVersitPropertyEE13detach_helperEv 0x000099b0   Section       16  backupvcardhandler.o(t._ZN5QListIN10QtMobility15QVersitPropertyEE13detach_helperEv)
+    t._ZN5QListIN10QtMobility15QVersitPropertyEE13node_destructEPNS2_4NodeES4_ 0x000099c0   Section       38  backupvcardhandler.o(t._ZN5QListIN10QtMobility15QVersitPropertyEE13node_destructEPNS2_4NodeES4_)
+    t._ZN5QListIN10QtMobility15QVersitPropertyEE14node_constructEPNS2_4NodeERKS1_ 0x000099e6   Section       34  backupvcardhandler.o(t._ZN5QListIN10QtMobility15QVersitPropertyEE14node_constructEPNS2_4NodeERKS1_)
+    t._ZN5QListIN10QtMobility15QVersitPropertyEE14node_constructEPNS2_4NodeERKS1_.clean 0x00009a08   Section       14  backupvcardhandler.o(t._ZN5QListIN10QtMobility15QVersitPropertyEE14node_constructEPNS2_4NodeERKS1_.clean)
+    t._ZN5QListIN10QtMobility15QVersitPropertyEE18detach_helper_growEii 0x00009a16   Section      208  backupvcardhandler.o(t._ZN5QListIN10QtMobility15QVersitPropertyEE18detach_helper_growEii)
+    t._ZN5QListIN10QtMobility15QVersitPropertyEE18detach_helper_growEii.clean 0x00009ae6   Section       16  backupvcardhandler.o(t._ZN5QListIN10QtMobility15QVersitPropertyEE18detach_helper_growEii.clean)
+    t._ZN5QListIN10QtMobility15QVersitPropertyEE4freeEPN9QListData4DataE 0x00009af6   Section       58  backupvcardhandler.o(t._ZN5QListIN10QtMobility15QVersitPropertyEE4freeEPN9QListData4DataE)
+    t._ZN5QListIN10QtMobility15QVersitPropertyEE6appendERKS1_ 0x00009b30   Section      112  backupvcardhandler.o(t._ZN5QListIN10QtMobility15QVersitPropertyEE6appendERKS1_)
+    t._ZN5QListIN10QtMobility15QVersitPropertyEE6appendERKS1_.clean 0x00009ba0   Section       14  backupvcardhandler.o(t._ZN5QListIN10QtMobility15QVersitPropertyEE6appendERKS1_.clean)
+    t._ZN5QListIN10QtMobility15QVersitPropertyEE9node_copyEPNS2_4NodeES4_S4_ 0x00009bae   Section       92  backupvcardhandler.o(t._ZN5QListIN10QtMobility15QVersitPropertyEE9node_copyEPNS2_4NodeES4_S4_)
+    t._ZN5QListIN10QtMobility15QVersitPropertyEE9node_copyEPNS2_4NodeES4_S4_.clean 0x00009c0a   Section       22  backupvcardhandler.o(t._ZN5QListIN10QtMobility15QVersitPropertyEE9node_copyEPNS2_4NodeES4_S4_.clean)
+    t._ZN5QListIN10QtMobility15QVersitPropertyEEixEi 0x00009c20   Section       52  backupvcardhandler.o(t._ZN5QListIN10QtMobility15QVersitPropertyEEixEi)
+    t._ZN8QPointerI7QObjectED1Ev             0x00009c54   Section       14  backupvcardhandler.o(t._ZN8QPointerI7QObjectED1Ev)
+    t._ZNK10QtMobility15QLatin1ConstantILi5EEcv7QStringEv 0x00009c62   Section       18  backupvcardhandler.o(t._ZNK10QtMobility15QLatin1ConstantILi5EEcv7QStringEv)
+    t._ZNK10QtMobility15QLatin1ConstantILi9EEcv7QStringEv 0x00009c74   Section       18  backupvcardhandler.o(t._ZNK10QtMobility15QLatin1ConstantILi9EEcv7QStringEv)
+    t._ZNK4QMapI7QString8QVariantE14const_iteratorneERKS3_ 0x00009c86   Section       18  backupvcardhandler.o(t._ZNK4QMapI7QString8QVariantE14const_iteratorneERKS3_)
+    t._ZNK4QSetI7QStringE8containsERKS0_     0x00009c98   Section       34  backupvcardhandler.o(t._ZNK4QSetI7QStringE8containsERKS0_)
+    t._ZNK5QHashI7QString15QHashDummyValueE8findNodeERKS0_Pj 0x00009cba   Section      116  backupvcardhandler.o(t._ZNK5QHashI7QString15QHashDummyValueE8findNodeERKS0_Pj)
+    t._ZNK6QFlagsIN10QtMobility14QContactDetail16AccessConstraintEE8testFlagES2_ 0x00009d2e   Section       28  backupvcardhandler.o(t._ZNK6QFlagsIN10QtMobility14QContactDetail16AccessConstraintEE8testFlagES2_)
+    .extab.qt_plugin_instance                0x00009d4c   Data           0  backupvcardhandler.o(.ARM.extab)
+    .extab._ZNK25BackupVCardHandlerFactory8profilesEv 0x00009d64   Data           0  backupvcardhandler.o(.ARM.extab)
+    .extab._ZN18BackupVCardHandlerC1Ev       0x00009d84   Data           0  backupvcardhandler.o(.ARM.extab)
+    .extab._ZNK25BackupVCardHandlerFactory13createHandlerEv 0x00009d9c   Data           0  backupvcardhandler.o(.ARM.extab)
+    .extab._ZN18BackupVCardHandler14serializeValueEPN10QtMobility15QVersitPropertyERK8QVariant 0x00009dac   Data           0  backupvcardhandler.o(.ARM.extab)
+    .extab._ZN18BackupVCardHandler15detailProcessedERKN10QtMobility8QContactERKNS0_14QContactDetailERKNS0_15QVersitDocumentEP4QSetI7QStringEP5QListINS0_15QVersitPropertyEESH_ 0x00009fdc   Data           0  backupvcardhandler.o(.ARM.extab)
+    .extab._ZThn4_N18BackupVCardHandler15detailProcessedERKN10QtMobility8QContactERKNS0_14QContactDetailERKNS0_15QVersitDocumentEP4QSetI7QStringEP5QListINS0_15QVersitPropertyEESH_ 0x0000a09c   Data           0  backupvcardhandler.o(.ARM.extab)
+    .extab._ZplRK7QStringS1_                 0x0000a15c   Data           0  backupvcardhandler.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_ 0x0000a16c   Data           0  backupvcardhandler.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_ 0x0000a17c   Data           0  backupvcardhandler.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE18detach_helper_growEii 0x0000a1a0   Data           0  backupvcardhandler.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE6appendERKS0_  0x0000a1d0   Data           0  backupvcardhandler.o(.ARM.extab)
+    .extab._ZN11QStringListC1ERK7QString     0x0000a200   Data           0  backupvcardhandler.o(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility15QVersitPropertyEE9node_copyEPNS2_4NodeES4_S4_ 0x0000a210   Data           0  backupvcardhandler.o(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility15QVersitPropertyEE13detach_helperEi 0x0000a234   Data           0  backupvcardhandler.o(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility15QVersitPropertyEE14node_constructEPNS2_4NodeERKS1_ 0x0000a250   Data           0  backupvcardhandler.o(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility15QVersitPropertyEE18detach_helper_growEii 0x0000a260   Data           0  backupvcardhandler.o(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility15QVersitPropertyEE6appendERKS1_ 0x0000a290   Data           0  backupvcardhandler.o(.ARM.extab)
+    .extab._ZN18BackupVCardHandlerD1Ev       0x0000a2c0   Data           0  backupvcardhandler.o(.ARM.extab)
+    .extab._ZN5QHashI7QString15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv 0x0000a2d0   Data           0  backupvcardhandler.o(.ARM.extab)
+    .extab._ZN10QtMobility14DetailGroupMapD1Ev 0x0000a2e0   Data           0  backupvcardhandler.o(.ARM.extab)
+    .extab._ZN5QHashI7QString15QHashDummyValueE6insertERKS0_RKS1_ 0x0000a2f0   Data           0  backupvcardhandler.o(.ARM.extab)
+    .constdata$1                             0x0000a300   Data           0  moc_backupvcardhandler.o(.constdata)
+    qt_meta_data_BackupVCardHandlerFactory   0x0000a300   Data          60  moc_backupvcardhandler.o(.constdata)
+    .constdata                               0x0000a300   Section      104  moc_backupvcardhandler.o(.constdata)
+    qt_meta_stringdata_BackupVCardHandlerFactory 0x0000a33c   Data          27  moc_backupvcardhandler.o(.constdata)
+    .constdata$1                             0x0000a368   Data           0  backupvcardhandler.o(.constdata)
+    PropertyName                             0x0000a368   Data          22  backupvcardhandler.o(.constdata)
+    .constdata                               0x0000a368   Section      182  backupvcardhandler.o(.constdata)
+    DetailDefinitionParameter                0x0000a37e   Data           7  backupvcardhandler.o(.constdata)
+    FieldParameter                           0x0000a385   Data           6  backupvcardhandler.o(.constdata)
+    DatatypeParameter                        0x0000a38b   Data           9  backupvcardhandler.o(.constdata)
+    DatatypeParameterVariant                 0x0000a394   Data           8  backupvcardhandler.o(.constdata)
+    DatatypeParameterDate                    0x0000a39c   Data           5  backupvcardhandler.o(.constdata)
+    DatatypeParameterDateTime                0x0000a3a1   Data           9  backupvcardhandler.o(.constdata)
+    DatatypeParameterTime                    0x0000a3aa   Data           5  backupvcardhandler.o(.constdata)
+    DatatypeParameterBool                    0x0000a3af   Data           5  backupvcardhandler.o(.constdata)
+    DatatypeParameterInt                     0x0000a3b4   Data           4  backupvcardhandler.o(.constdata)
+    DatatypeParameterUInt                    0x0000a3b8   Data           5  backupvcardhandler.o(.constdata)
+    DatatypeParameterUrl                     0x0000a3bd   Data           4  backupvcardhandler.o(.constdata)
+    GroupPrefix                              0x0000a3c1   Data           2  backupvcardhandler.o(.constdata)
+    qt_plugin_verification_data              0x0000a3c3   Data          91  backupvcardhandler.o(.constdata)
+    .constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE 0x0000a420   Section        4  moc_backupvcardhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE 0x0000a424   Section        4  moc_backupvcardhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE 0x0000a428   Section        4  moc_backupvcardhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE 0x0000a42c   Section        4  moc_backupvcardhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE 0x0000a430   Section        4  moc_backupvcardhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE 0x0000a434   Section        1  moc_backupvcardhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE 0x0000a438   Section        4  moc_backupvcardhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE 0x0000a43c   Section        4  moc_backupvcardhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE 0x0000a440   Section        4  moc_backupvcardhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE 0x0000a444   Section        4  moc_backupvcardhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE 0x0000a448   Section        4  moc_backupvcardhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE 0x0000a44c   Section        4  moc_backupvcardhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE 0x0000a450   Section        4  moc_backupvcardhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE 0x0000a454   Section        4  moc_backupvcardhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    .constdata__ZTI18BackupVCardHandler      0x0000a458   Section       12  backupvcardhandler.o(.constdata__ZTI18BackupVCardHandler)
+    .constdata__ZTI25BackupVCardHandlerFactory 0x0000a464   Section       32  moc_backupvcardhandler.o(.constdata__ZTI25BackupVCardHandlerFactory)
+    .constdata__ZTIN10QtMobility21QVersitContactHandlerE 0x0000a484   Section       32  backupvcardhandler.o(.constdata__ZTIN10QtMobility21QVersitContactHandlerE)
+    .constdata__ZTIN10QtMobility28QVersitContactHandlerFactoryE 0x0000a4a4   Section        8  moc_backupvcardhandler.o(.constdata__ZTIN10QtMobility28QVersitContactHandlerFactoryE)
+    .constdata__ZTIN10QtMobility37QVersitContactExporterDetailHandlerV2E 0x0000a4ac   Section        8  backupvcardhandler.o(.constdata__ZTIN10QtMobility37QVersitContactExporterDetailHandlerV2E)
+    .constdata__ZTIN10QtMobility39QVersitContactImporterPropertyHandlerV2E 0x0000a4b4   Section        8  backupvcardhandler.o(.constdata__ZTIN10QtMobility39QVersitContactImporterPropertyHandlerV2E)
+    .constdata__ZTS18BackupVCardHandler      0x0000a4bc   Section       21  backupvcardhandler.o(.constdata__ZTS18BackupVCardHandler)
+    .constdata__ZTS25BackupVCardHandlerFactory 0x0000a4d1   Section       28  moc_backupvcardhandler.o(.constdata__ZTS25BackupVCardHandlerFactory)
+    .constdata__ZTSN10QtMobility21QVersitContactHandlerE 0x0000a4ed   Section       38  backupvcardhandler.o(.constdata__ZTSN10QtMobility21QVersitContactHandlerE)
+    .constdata__ZTSN10QtMobility28QVersitContactHandlerFactoryE 0x0000a513   Section       45  moc_backupvcardhandler.o(.constdata__ZTSN10QtMobility28QVersitContactHandlerFactoryE)
+    .constdata__ZTSN10QtMobility37QVersitContactExporterDetailHandlerV2E 0x0000a540   Section       54  backupvcardhandler.o(.constdata__ZTSN10QtMobility37QVersitContactExporterDetailHandlerV2E)
+    .constdata__ZTSN10QtMobility39QVersitContactImporterPropertyHandlerV2E 0x0000a576   Section       56  backupvcardhandler.o(.constdata__ZTSN10QtMobility39QVersitContactImporterPropertyHandlerV2E)
+    .constdata__ZTV18BackupVCardHandler      0x0000a5b0   Section       56  backupvcardhandler.o(.constdata__ZTV18BackupVCardHandler)
+    .constdata__ZTV25BackupVCardHandlerFactory 0x0000a5e8   Section      104  moc_backupvcardhandler.o(.constdata__ZTV25BackupVCardHandlerFactory)
+    .constdata__ZTVN10QtMobility21QVersitContactHandlerE 0x0000a650   Section       48  backupvcardhandler.o(.constdata__ZTVN10QtMobility21QVersitContactHandlerE)
+    .constdata__ZTVN10QtMobility28QVersitContactHandlerFactoryE 0x0000a680   Section       32  backupvcardhandler.o(.constdata__ZTVN10QtMobility28QVersitContactHandlerFactoryE)
+    .constdata__ZTVN10QtMobility37QVersitContactExporterDetailHandlerV2E 0x0000a6a0   Section       24  backupvcardhandler.o(.constdata__ZTVN10QtMobility37QVersitContactExporterDetailHandlerV2E)
+    .constdata__ZTVN10QtMobility39QVersitContactImporterPropertyHandlerV2E 0x0000a6b8   Section       24  backupvcardhandler.o(.constdata__ZTVN10QtMobility39QVersitContactImporterPropertyHandlerV2E)
+    .ARM.exidx                               0x0000a6d0   Section        8  ucppinit.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  backupvcardhandler.o(.data)
+    _ZGV_instance@qt_plugin_instance_0       0x00400000   Data           4  backupvcardhandler.o(.data)
+    .data                                    0x00400000   Section        8  backupvcardhandler.o(.data)
+    _instance@qt_plugin_instance_1           0x00400004   Data           4  backupvcardhandler.o(.data)
+    .data$0                                  0x00400008   Data           0  ucppfini.o(.data)
+    .data                                    0x00400008   Section        4  ucppfini.o(.data)
+    .data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE 0x0040000c   Section       12  moc_backupvcardhandler.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    .bss$5                                   0x00400018   Data           0  ucppfini.o(.bss)
+    .bss                                     0x00400018   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$VFPv2$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$IEEEJ$EBA8$UX$FPIC$INDIRECT$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    QtContacts{00010103}[2002ac7a].dll       0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtCore{00040703}[2001b2dc].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtVersit{00010103}[2002bfbf].dll         0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    euser{000a0000}[100039e5].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    libc{00010001}[10207369].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    qtversit_backuphandler{000a0000}[20031600].dll 0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    stdnew{000a0000}[20022178].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    qFree(void*)                              - Undefined Reference
+    _Z5qFreePv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qHash(const QString&)                     - Undefined Reference
+    _Z5qHashRK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::shared_null                   - Undefined Reference
+    _ZN10QByteArray11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QtMobility::QContactDetail::~QContactDetail()  - Undefined Reference
+    _ZN10QtMobility14QContactDetailD1Ev@QtContacts{00010103}[2002ac7a].dll  - Undefined Reference
+    QtMobility::QVersitProperty::insertParameter(const QString&, const QString&)  - Undefined Reference
+    _ZN10QtMobility15QVersitProperty15insertParameterERK7QStringS3_@QtVersit{00010103}[2002bfbf].dll  - Undefined Reference
+    QtMobility::QVersitProperty::setName(const QString&)  - Undefined Reference
+    _ZN10QtMobility15QVersitProperty7setNameERK7QString@QtVersit{00010103}[2002bfbf].dll  - Undefined Reference
+    QtMobility::QVersitProperty::setValue(const QVariant&)  - Undefined Reference
+    _ZN10QtMobility15QVersitProperty8setValueERK8QVariant@QtVersit{00010103}[2002bfbf].dll  - Undefined Reference
+    QtMobility::QVersitProperty::setGroups(const QStringList&)  - Undefined Reference
+    _ZN10QtMobility15QVersitProperty9setGroupsERK11QStringList@QtVersit{00010103}[2002bfbf].dll  - Undefined Reference
+    QtMobility::QVersitProperty::QVersitProperty(const QtMobility::QVersitProperty&)  - Undefined Reference
+    _ZN10QtMobility15QVersitPropertyC1ERKS0_@QtVersit{00010103}[2002bfbf].dll  - Undefined Reference
+    QtMobility::QVersitProperty::QVersitProperty()  - Undefined Reference
+    _ZN10QtMobility15QVersitPropertyC1Ev@QtVersit{00010103}[2002bfbf].dll  - Undefined Reference
+    QtMobility::QVersitProperty::~QVersitProperty()  - Undefined Reference
+    _ZN10QtMobility15QVersitPropertyD1Ev@QtVersit{00010103}[2002bfbf].dll  - Undefined Reference
+    QtMobility::QVersitContactHandlerFactory::ProfileBackup  - Undefined Reference
+    _ZN10QtMobility28QVersitContactHandlerFactory13ProfileBackupE@QtVersit{00010103}[2002bfbf].dll  - Undefined Reference
+    QDataStream::QDataStream(QByteArray*, QFlags<QIODevice::OpenModeFlag>)  - Undefined Reference
+    _ZN11QDataStreamC1EP10QByteArray6QFlagsIN9QIODevice12OpenModeFlagEE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDataStream::~QDataStream()               - Undefined Reference
+    _ZN11QDataStreamD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::changeGuard(QObject**, QObject*)  - Undefined Reference
+    _ZN11QMetaObject11changeGuardEPP7QObjectS1_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::removeGuard(QObject**)       - Undefined Reference
+    _ZN11QMetaObject11removeGuardEPP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QUrl::~QUrl()                             - Undefined Reference
+    _ZN4QUrlD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    User::LockedDec(int&)                     - Undefined Reference
+    _ZN4User9LockedDecERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::LockedInc(int&)                     - Undefined Reference
+    _ZN4User9LockedIncERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QObject::childEvent(QChildEvent*)         - Undefined Reference
+    _ZN7QObject10childEventEP11QChildEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::timerEvent(QTimerEvent*)         - Undefined Reference
+    _ZN7QObject10timerEventEP11QTimerEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::customEvent(QEvent*)             - Undefined Reference
+    _ZN7QObject11customEventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::eventFilter(QObject*, QEvent*)   - Undefined Reference
+    _ZN7QObject11eventFilterEPS_P6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN7QObject11qt_metacallEN11QMetaObject4CallEiPPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::qt_metacast(const char*)         - Undefined Reference
+    _ZN7QObject11qt_metacastEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connectNotify(const char*)       - Undefined Reference
+    _ZN7QObject13connectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::disconnectNotify(const char*)    - Undefined Reference
+    _ZN7QObject16disconnectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::staticMetaObject                 - Undefined Reference
+    _ZN7QObject16staticMetaObjectE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::event(QEvent*)                   - Undefined Reference
+    _ZN7QObject5eventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::QObject(QObject*)                - Undefined Reference
+    _ZN7QObjectC1EPS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::~QObject()                       - Undefined Reference
+    _ZN7QObjectD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromLatin1(const char*, int)     - Undefined Reference
+    _ZN7QString10fromLatin1EPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromLatin1_helper(const char*, int)  - Undefined Reference
+    _ZN7QString17fromLatin1_helperEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::free(QString::Data*)             - Undefined Reference
+    _ZN7QString4freeEPNS_4DataE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::append(const QString&)           - Undefined Reference
+    _ZN7QString6appendERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::number(int, int)                 - Undefined Reference
+    _ZN7QString6numberEii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::number(unsigned, int)            - Undefined Reference
+    _ZN7QString6numberEji@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMapData::continueFreeData(int)           - Undefined Reference
+    _ZN8QMapData16continueFreeDataEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::QVariant(const QByteArray&)     - Undefined Reference
+    _ZN8QVariantC1ERK10QByteArray@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::QVariant(const QString&)        - Undefined Reference
+    _ZN8QVariantC1ERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::~QVariant()                     - Undefined Reference
+    _ZN8QVariantD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDateTime::~QDateTime()                   - Undefined Reference
+    _ZN9QDateTimeD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::free_helper(void(*)(QHashData::Node*))  - Undefined Reference
+    _ZN9QHashData11free_helperEPFvPNS_4NodeEE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::shared_null                    - Undefined Reference
+    _ZN9QHashData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::allocateNode(int)              - Undefined Reference
+    _ZN9QHashData12allocateNodeEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::detach_helper2(void(*)(QHashData::Node*, void*), void(*)(QHashData::Node*), int, int)  - Undefined Reference
+    _ZN9QHashData14detach_helper2EPFvPNS_4NodeEPvEPFvS1_Eii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QHashData::rehash(int)                    - Undefined Reference
+    _ZN9QHashData6rehashEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach_grow(int*, int)         - Undefined Reference
+    _ZN9QListData11detach_growEPii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::shared_null                    - Undefined Reference
+    _ZN9QListData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::append()                       - Undefined Reference
+    _ZN9QListData6appendEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach(int)                    - Undefined Reference
+    _ZN9QListData6detachEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QtMobility::QContactDetail::variantValues() const  - Undefined Reference
+    _ZNK10QtMobility14QContactDetail13variantValuesEv@QtContacts{00010103}[2002ac7a].dll  - Undefined Reference
+    QtMobility::QContactDetail::definitionName() const  - Undefined Reference
+    _ZNK10QtMobility14QContactDetail14definitionNameEv@QtContacts{00010103}[2002ac7a].dll  - Undefined Reference
+    QtMobility::QContactDetail::accessConstraints() const  - Undefined Reference
+    _ZNK10QtMobility14QContactDetail17accessConstraintsEv@QtContacts{00010103}[2002ac7a].dll  - Undefined Reference
+    QtMobility::QVersitProperty::groups() const  - Undefined Reference
+    _ZNK10QtMobility15QVersitProperty6groupsEv@QtVersit{00010103}[2002bfbf].dll  - Undefined Reference
+    QUrl::toString(QFlags<QUrl::FormattingOption>) const  - Undefined Reference
+    _ZNK4QUrl8toStringE6QFlagsINS_16FormattingOptionEE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDate::toString(Qt::DateFormat) const     - Undefined Reference
+    _ZNK5QDate8toStringEN2Qt10DateFormatE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTime::toString(Qt::DateFormat) const     - Undefined Reference
+    _ZNK5QTime8toStringEN2Qt10DateFormatE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::operator ==(const QString&) const  - Undefined Reference
+    _ZNK7QStringeqERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::toDateTime() const              - Undefined Reference
+    _ZNK8QVariant10toDateTimeEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::type() const                    - Undefined Reference
+    _ZNK8QVariant4typeEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::toInt(bool*) const              - Undefined Reference
+    _ZNK8QVariant5toIntEPb@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::toUrl() const                   - Undefined Reference
+    _ZNK8QVariant5toUrlEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::toBool() const                  - Undefined Reference
+    _ZNK8QVariant6toBoolEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::toDate() const                  - Undefined Reference
+    _ZNK8QVariant6toDateEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::toTime() const                  - Undefined Reference
+    _ZNK8QVariant6toTimeEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::toUInt(bool*) const             - Undefined Reference
+    _ZNK8QVariant6toUIntEPb@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::toString() const                - Undefined Reference
+    _ZNK8QVariant8toStringEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QDateTime::toString(Qt::DateFormat) const  - Undefined Reference
+    _ZNK9QDateTime8toStringEN2Qt10DateFormatE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for QObject                      - Undefined Reference
+    _ZTI7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    vtable for __cxxabiv1::__class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv117__class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv120__si_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    vtable for __cxxabiv1::__vmi_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv121__vmi_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    operator delete (void*)                   - Undefined Reference
+    _ZdlPv@stdnew{000a0000}[20022178].dll     - Undefined Reference
+    operator <<(QDataStream&, const QVariant&)  - Undefined Reference
+    _ZlsR11QDataStreamRK8QVariant@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    operator new(unsigned)                    - Undefined Reference
+    _Znwj@stdnew{000a0000}[20022178].dll      - Undefined Reference
+    __aeabi_uidivmod                          - Undefined Reference
+    __aeabi_uidivmod@drtaeabi{000a0000}.dll   - Undefined Reference
+    __aeabi_unwind_cpp_pr0                    - Undefined Reference
+    __aeabi_unwind_cpp_pr0@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_begin_catch                         - Undefined Reference
+    __cxa_begin_catch@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_end_catch                           - Undefined Reference
+    __cxa_end_catch@drtaeabi{000a0000}.dll    - Undefined Reference
+    __cxa_end_cleanup                         - Undefined Reference
+    __cxa_end_cleanup@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_abort                         - Undefined Reference
+    __cxa_guard_abort@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_acquire                       - Undefined Reference
+    __cxa_guard_acquire@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_release                       - Undefined Reference
+    __cxa_guard_release@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_pure_virtual                        - Undefined Reference
+    __cxa_pure_virtual@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_rethrow                             - Undefined Reference
+    __cxa_rethrow@drtaeabi{000a0000}.dll      - Undefined Reference
+    strcmp                                    - Undefined Reference
+    strcmp@libc{00010001}[10207369].dll       - Undefined Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      52  ucppinit.o(.emb_text)
+    std::nothrow                             0x0000805c   ARM Code       0  ucppinit.o(.emb_text)
+    __PLT                                    0x0000805c   ARM Code       0  anon$$obj.o(.plt)
+    BackupVCardHandlerFactory::getStaticMetaObject() 0x00008285   Thumb Code     4  moc_backupvcardhandler.o(.text)
+    BackupVCardHandlerFactory::metaObject() const 0x00008289   Thumb Code    28  moc_backupvcardhandler.o(.text)
+    BackupVCardHandlerFactory::qt_metacast(const char*) 0x000082a5   Thumb Code    76  moc_backupvcardhandler.o(.text)
+    BackupVCardHandlerFactory::qt_metacall(QMetaObject::Call, int, void**) 0x000082f1   Thumb Code    36  moc_backupvcardhandler.o(.text)
+    qt_plugin_query_verification_data        0x00008375   Thumb Code     4  backupvcardhandler.o(.text)
+    qt_plugin_instance                       0x00008379   Thumb Code   142  backupvcardhandler.o(.text)
+    BackupVCardHandlerFactory::profiles() const 0x00008407   Thumb Code    46  backupvcardhandler.o(.text)
+    thunk{-8} to BackupVCardHandlerFactory::profiles() const 0x00008435   Thumb Code    18  backupvcardhandler.o(.text)
+    BackupVCardHandlerFactory::name() const  0x00008447   Thumb Code    34  backupvcardhandler.o(.text)
+    thunk{-8} to BackupVCardHandlerFactory::name() const 0x00008469   Thumb Code    18  backupvcardhandler.o(.text)
+    BackupVCardHandlerFactory::index() const 0x0000847b   Thumb Code     8  backupvcardhandler.o(.text)
+    thunk{-8} to BackupVCardHandlerFactory::index() const 0x00008483   Thumb Code    14  backupvcardhandler.o(.text)
+    BackupVCardHandler::BackupVCardHandler() 0x00008491   Thumb Code    70  backupvcardhandler.o(.text)
+    BackupVCardHandler::BackupVCardHandler__sub_object() 0x00008491   Thumb Code     0  backupvcardhandler.o(.text)
+    BackupVCardHandlerFactory::createHandler() const 0x000084d7   Thumb Code    30  backupvcardhandler.o(.text)
+    thunk{-8} to BackupVCardHandlerFactory::createHandler() const 0x000084f5   Thumb Code    14  backupvcardhandler.o(.text)
+    BackupVCardHandler::propertyProcessed(const QtMobility::QVersitDocument&, const QtMobility::QVersitProperty&, const QtMobility::QContact&, bool*, QList<QtMobility::QContactDetail>*) 0x00008503   Thumb Code    28  backupvcardhandler.o(.text)
+    BackupVCardHandler::documentProcessed(const QtMobility::QVersitDocument&, QtMobility::QContact*) 0x0000851f   Thumb Code    10  backupvcardhandler.o(.text)
+    BackupVCardHandler::serializeValue(QtMobility::QVersitProperty*, const QVariant&) 0x00008529   Thumb Code  1112  backupvcardhandler.o(.text)
+    BackupVCardHandler::detailProcessed(const QtMobility::QContact&, const QtMobility::QContactDetail&, const QtMobility::QVersitDocument&, QSet<QString>*, QList<QtMobility::QVersitProperty>*, QList<QtMobility::QVersitProperty>*) 0x00008981   Thumb Code   538  backupvcardhandler.o(.text)
+    thunk{-4} to BackupVCardHandler::detailProcessed(const QtMobility::QContact&, const QtMobility::QContactDetail&, const QtMobility::QVersitDocument&, QSet<QString>*, QList<QtMobility::QVersitProperty>*, QList<QtMobility::QVersitProperty>*) 0x00008b9b   Thumb Code   532  backupvcardhandler.o(.text)
+    BackupVCardHandler::contactProcessed(const QtMobility::QContact&, QtMobility::QVersitDocument*) 0x00008daf   Thumb Code    14  backupvcardhandler.o(.text)
+    thunk{-4} to BackupVCardHandler::contactProcessed(const QtMobility::QContact&, QtMobility::QVersitDocument*) 0x00008dbd   Thumb Code    22  backupvcardhandler.o(.text)
+    __ARM_switch8                            0x00008dd8   ARM Code      24  switch8.o(.text)
+    __rt_switch8                             0x00008dd8   ARM Code       0  switch8.o(.text)
+    _E32Dll_Body                             0x00008df0   ARM Code      76  uc_dll.o(.text)
+    __aeabi_atexit                           0x00008e40   ARM Code      40  ucppfini.o(.text)
+    __cxa_atexit                             0x00008e68   ARM Code      64  ucppfini.o(.text)
+    __cxa_finalize                           0x00008ea8   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x00008ed8   ARM Code      16  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x00008ef4   ARM Code       4  dllexp.o(.text)
+    QByteArray::~QByteArray()                0x00009131   Thumb Code    24  backupvcardhandler.o(i._ZN10QByteArrayD1Ev)
+    QByteArray::~QByteArray__sub_object()    0x00009131   Thumb Code     0  backupvcardhandler.o(i._ZN10QByteArrayD1Ev)
+    QtMobility::DetailGroupMap::~DetailGroupMap() 0x00009149   Thumb Code    22  backupvcardhandler.o(i._ZN10QtMobility14DetailGroupMapD1Ev)
+    QtMobility::DetailGroupMap::~DetailGroupMap__sub_object() 0x00009149   Thumb Code     0  backupvcardhandler.o(i._ZN10QtMobility14DetailGroupMapD1Ev)
+    QtMobility::QVersitContactHandler::~QVersitContactHandler__deallocating() 0x00009169   Thumb Code    26  backupvcardhandler.o(i._ZN10QtMobility21QVersitContactHandlerD0Ev)
+    QtMobility::QVersitContactHandler::~QVersitContactHandler() 0x00009183   Thumb Code     0  backupvcardhandler.o(i._ZN10QtMobility21QVersitContactHandlerD2Ev)
+    QtMobility::QVersitContactHandler::~QVersitContactHandler__sub_object() 0x00009183   Thumb Code     8  backupvcardhandler.o(i._ZN10QtMobility21QVersitContactHandlerD2Ev)
+    QtMobility::QVersitContactHandlerFactory::~QVersitContactHandlerFactory__deallocating() 0x0000918b   Thumb Code    18  backupvcardhandler.o(i._ZN10QtMobility28QVersitContactHandlerFactoryD0Ev)
+    QtMobility::QVersitContactHandlerFactory::~QVersitContactHandlerFactory() 0x0000919d   Thumb Code     0  backupvcardhandler.o(i._ZN10QtMobility28QVersitContactHandlerFactoryD2Ev)
+    QtMobility::QVersitContactHandlerFactory::~QVersitContactHandlerFactory__sub_object() 0x0000919d   Thumb Code     2  backupvcardhandler.o(i._ZN10QtMobility28QVersitContactHandlerFactoryD2Ev)
+    QtMobility::QVersitContactExporterDetailHandlerV2::~QVersitContactExporterDetailHandlerV2__deallocating() 0x0000919f   Thumb Code    18  backupvcardhandler.o(i._ZN10QtMobility37QVersitContactExporterDetailHandlerV2D0Ev)
+    QtMobility::QVersitContactExporterDetailHandlerV2::~QVersitContactExporterDetailHandlerV2() 0x000091b1   Thumb Code     0  backupvcardhandler.o(i._ZN10QtMobility37QVersitContactExporterDetailHandlerV2D2Ev)
+    QtMobility::QVersitContactExporterDetailHandlerV2::~QVersitContactExporterDetailHandlerV2__sub_object() 0x000091b1   Thumb Code     2  backupvcardhandler.o(i._ZN10QtMobility37QVersitContactExporterDetailHandlerV2D2Ev)
+    QtMobility::QVersitContactImporterPropertyHandlerV2::~QVersitContactImporterPropertyHandlerV2__deallocating() 0x000091b3   Thumb Code    18  backupvcardhandler.o(i._ZN10QtMobility39QVersitContactImporterPropertyHandlerV2D0Ev)
+    QtMobility::QVersitContactImporterPropertyHandlerV2::~QVersitContactImporterPropertyHandlerV2() 0x000091c5   Thumb Code     0  backupvcardhandler.o(i._ZN10QtMobility39QVersitContactImporterPropertyHandlerV2D2Ev)
+    QtMobility::QVersitContactImporterPropertyHandlerV2::~QVersitContactImporterPropertyHandlerV2__sub_object() 0x000091c5   Thumb Code     2  backupvcardhandler.o(i._ZN10QtMobility39QVersitContactImporterPropertyHandlerV2D2Ev)
+    QStringList::QStringList(const QString&) 0x000091c9   Thumb Code    32  backupvcardhandler.o(i._ZN11QStringListC1ERK7QString)
+    QStringList::QStringList__sub_object(const QString&) 0x000091c9   Thumb Code     0  backupvcardhandler.o(i._ZN11QStringListC1ERK7QString)
+    QStringList::~QStringList()              0x000091f7   Thumb Code    14  backupvcardhandler.o(i._ZN11QStringListD1Ev)
+    QStringList::~QStringList__sub_object()  0x000091f7   Thumb Code     0  backupvcardhandler.o(i._ZN11QStringListD1Ev)
+    QBasicAtomicInt::ref()                   0x00009205   Thumb Code    24  backupvcardhandler.o(i._ZN15QBasicAtomicInt3refEv)
+    QBasicAtomicInt::deref()                 0x0000921d   Thumb Code    24  backupvcardhandler.o(i._ZN15QBasicAtomicInt5derefEv)
+    BackupVCardHandler::~BackupVCardHandler__deallocating() 0x00009235   Thumb Code    22  backupvcardhandler.o(i._ZN18BackupVCardHandlerD0Ev)
+    BackupVCardHandler::~BackupVCardHandler() 0x0000924d   Thumb Code    38  backupvcardhandler.o(i._ZN18BackupVCardHandlerD1Ev)
+    BackupVCardHandler::~BackupVCardHandler__sub_object() 0x0000924d   Thumb Code     0  backupvcardhandler.o(i._ZN18BackupVCardHandlerD1Ev)
+    BackupVCardHandlerFactory::~BackupVCardHandlerFactory__deallocating() 0x00009283   Thumb Code    22  moc_backupvcardhandler.o(i._ZN25BackupVCardHandlerFactoryD0Ev)
+    BackupVCardHandlerFactory::~BackupVCardHandlerFactory() 0x00009299   Thumb Code    22  moc_backupvcardhandler.o(i._ZN25BackupVCardHandlerFactoryD1Ev)
+    BackupVCardHandlerFactory::~BackupVCardHandlerFactory__sub_object() 0x00009299   Thumb Code     0  moc_backupvcardhandler.o(i._ZN25BackupVCardHandlerFactoryD1Ev)
+    QSet<QString>::~QSet()                   0x000092b3   Thumb Code    14  backupvcardhandler.o(i._ZN4QSetI7QStringED1Ev)
+    QSet<QString>::~QSet__sub_object()       0x000092b3   Thumb Code     0  backupvcardhandler.o(i._ZN4QSetI7QStringED1Ev)
+    QString::QString(const QString&)         0x000092c1   Thumb Code    22  backupvcardhandler.o(i._ZN7QStringC1ERKS_)
+    QString::QString__sub_object(const QString&) 0x000092c1   Thumb Code     0  backupvcardhandler.o(i._ZN7QStringC1ERKS_)
+    QString::~QString()                      0x000092d7   Thumb Code    24  backupvcardhandler.o(i._ZN7QStringD1Ev)
+    QString::~QString__sub_object()          0x000092d7   Thumb Code     0  backupvcardhandler.o(i._ZN7QStringD1Ev)
+    QtMobility::QVersitContactHandlerFactory::index() const 0x000092ef   Thumb Code     6  backupvcardhandler.o(i._ZNK10QtMobility28QVersitContactHandlerFactory5indexEv)
+    QtMobility::QVersitContactHandlerFactory::profiles() const 0x000092f5   Thumb Code    16  backupvcardhandler.o(i._ZNK10QtMobility28QVersitContactHandlerFactory8profilesEv)
+    QBasicAtomicInt::operator !=(int) const  0x00009305   Thumb Code    16  backupvcardhandler.o(i._ZNK15QBasicAtomicIntneEi)
+    QString::isEmpty() const                 0x00009315   Thumb Code    18  backupvcardhandler.o(i._ZNK7QString7isEmptyEv)
+    QListData::end() const                   0x00009327   Thumb Code    16  backupvcardhandler.o(i._ZNK9QListData3endEv)
+    QListData::begin() const                 0x00009337   Thumb Code    16  backupvcardhandler.o(i._ZNK9QListData5beginEv)
+    thunk{-4} to QtMobility::QVersitContactHandler::~QVersitContactHandler__deallocating() 0x00009347   Thumb Code    14  backupvcardhandler.o(i._ZThn4_N10QtMobility21QVersitContactHandlerD0Ev)
+    thunk{-4} to QtMobility::QVersitContactHandler::~QVersitContactHandler() 0x00009355   Thumb Code    16  backupvcardhandler.o(i._ZThn4_N10QtMobility21QVersitContactHandlerD1Ev)
+    thunk{-4} to BackupVCardHandler::~BackupVCardHandler__deallocating() 0x00009365   Thumb Code    14  backupvcardhandler.o(i._ZThn4_N18BackupVCardHandlerD0Ev)
+    thunk{-4} to BackupVCardHandler::~BackupVCardHandler() 0x00009373   Thumb Code    14  backupvcardhandler.o(i._ZThn4_N18BackupVCardHandlerD1Ev)
+    thunk{-8} to BackupVCardHandlerFactory::~BackupVCardHandlerFactory__deallocating() 0x00009381   Thumb Code    14  moc_backupvcardhandler.o(i._ZThn8_N25BackupVCardHandlerFactoryD0Ev)
+    thunk{-8} to BackupVCardHandlerFactory::~BackupVCardHandlerFactory() 0x0000938f   Thumb Code    14  moc_backupvcardhandler.o(i._ZThn8_N25BackupVCardHandlerFactoryD1Ev)
+    operator delete (void*, void*)           0x0000939d   Thumb Code     2  backupvcardhandler.o(i._ZdlPvS_)
+    operator new(unsigned, void*)            0x0000939f   Thumb Code     6  backupvcardhandler.o(i._ZnwjPv)
+    operator +(const QString&, const QString&) 0x000093a5   Thumb Code    44  backupvcardhandler.o(i._ZplRK7QStringS1_)
+    QHashDummyNode<QString, QHashDummyValue>::QHashDummyNode(const QString&) 0x000093db   Thumb Code    24  backupvcardhandler.o(t._ZN14QHashDummyNodeI7QString15QHashDummyValueEC1ERKS0_)
+    QHashDummyNode<QString, QHashDummyValue>::QHashDummyNode__sub_object(const QString&) 0x000093db   Thumb Code     0  backupvcardhandler.o(t._ZN14QHashDummyNodeI7QString15QHashDummyValueEC1ERKS0_)
+    QMap<QString, QVariant>::freeData(QMapData*) 0x000093f3   Thumb Code    64  backupvcardhandler.o(t._ZN4QMapI7QString8QVariantE8freeDataEP8QMapData)
+    QMap<QString, QVariant>::~QMap()         0x00009433   Thumb Code    38  backupvcardhandler.o(t._ZN4QMapI7QString8QVariantED1Ev)
+    QMap<QString, QVariant>::~QMap__sub_object() 0x00009433   Thumb Code     0  backupvcardhandler.o(t._ZN4QMapI7QString8QVariantED1Ev)
+    QSet<QString>::insert(const QString&)    0x00009459   Thumb Code    46  backupvcardhandler.o(t._ZN4QSetI7QStringE6insertERKS0_)
+    QSet<QString>::QSet()                    0x00009489   Thumb Code    24  backupvcardhandler.o(t._ZN4QSetI7QStringEC1Ev)
+    QSet<QString>::QSet__sub_object()        0x00009489   Thumb Code     0  backupvcardhandler.o(t._ZN4QSetI7QStringEC1Ev)
+    QHash<QString, QHashDummyValue>::deleteNode2(QHashData::Node*) 0x000094a5   Thumb Code    24  backupvcardhandler.o(t._ZN5QHashI7QString15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE)
+    QHash<QString, QHashDummyValue>::detach_helper() 0x000094bd   Thumb Code    52  backupvcardhandler.o(t._ZN5QHashI7QString15QHashDummyValueE13detach_helperEv)
+    QHash<QString, QHashDummyValue>::duplicateNode(QHashData::Node*, void*) 0x000094f9   Thumb Code    44  backupvcardhandler.o(t._ZN5QHashI7QString15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv)
+    QHash<QString, QHashDummyValue>::insert(const QString&, const QHashDummyValue&) 0x00009531   Thumb Code   208  backupvcardhandler.o(t._ZN5QHashI7QString15QHashDummyValueE6insertERKS0_RKS1_)
+    QHash<QString, QHashDummyValue>::freeData(QHashData*) 0x0000960d   Thumb Code    16  backupvcardhandler.o(t._ZN5QHashI7QString15QHashDummyValueE8freeDataEP9QHashData)
+    QHash<QString, QHashDummyValue>::~QHash() 0x00009621   Thumb Code    30  backupvcardhandler.o(t._ZN5QHashI7QString15QHashDummyValueED1Ev)
+    QHash<QString, QHashDummyValue>::~QHash__sub_object() 0x00009621   Thumb Code     0  backupvcardhandler.o(t._ZN5QHashI7QString15QHashDummyValueED1Ev)
+    QHash<int, QString>::deleteNode2(QHashData::Node*) 0x0000963f   Thumb Code    24  backupvcardhandler.o(t._ZN5QHashIi7QStringE11deleteNode2EPN9QHashData4NodeE)
+    QHash<int, QString>::freeData(QHashData*) 0x00009659   Thumb Code    16  backupvcardhandler.o(t._ZN5QHashIi7QStringE8freeDataEP9QHashData)
+    QHash<int, QString>::~QHash()            0x0000966d   Thumb Code    30  backupvcardhandler.o(t._ZN5QHashIi7QStringED1Ev)
+    QHash<int, QString>::~QHash__sub_object() 0x0000966d   Thumb Code     0  backupvcardhandler.o(t._ZN5QHashIi7QStringED1Ev)
+    QHash<int, QtMobility::QContactDetail>::deleteNode2(QHashData::Node*) 0x0000968b   Thumb Code    24  backupvcardhandler.o(t._ZN5QHashIiN10QtMobility14QContactDetailEE11deleteNode2EPN9QHashData4NodeE)
+    QHash<int, QtMobility::QContactDetail>::freeData(QHashData*) 0x000096a5   Thumb Code    16  backupvcardhandler.o(t._ZN5QHashIiN10QtMobility14QContactDetailEE8freeDataEP9QHashData)
+    QHash<int, QtMobility::QContactDetail>::~QHash() 0x000096b9   Thumb Code    30  backupvcardhandler.o(t._ZN5QHashIiN10QtMobility14QContactDetailEED1Ev)
+    QHash<int, QtMobility::QContactDetail>::~QHash__sub_object() 0x000096b9   Thumb Code     0  backupvcardhandler.o(t._ZN5QHashIiN10QtMobility14QContactDetailEED1Ev)
+    QList<QString>::node_destruct(QList<QString>::Node*, QList<QString>::Node*) 0x000096d7   Thumb Code    26  backupvcardhandler.o(t._ZN5QListI7QStringE13node_destructEPNS1_4NodeES3_)
+    QList<QString>::node_construct(QList<QString>::Node*, const QString&) 0x000096f1   Thumb Code    36  backupvcardhandler.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_)
+    QList<QString>::detach_helper_grow(int, int) 0x00009723   Thumb Code   208  backupvcardhandler.o(t._ZN5QListI7QStringE18detach_helper_growEii)
+    QList<QString>::free(QListData::Data*)   0x00009803   Thumb Code    58  backupvcardhandler.o(t._ZN5QListI7QStringE4freeEPN9QListData4DataE)
+    QList<QString>::append(const QString&)   0x0000983d   Thumb Code   114  backupvcardhandler.o(t._ZN5QListI7QStringE6appendERKS0_)
+    QList<QString>::node_copy(QList<QString>::Node*, QList<QString>::Node*, QList<QString>::Node*) 0x000098c3   Thumb Code    82  backupvcardhandler.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_)
+    QList<QString>::~QList()                 0x0000992b   Thumb Code    32  backupvcardhandler.o(t._ZN5QListI7QStringED1Ev)
+    QList<QString>::~QList__sub_object()     0x0000992b   Thumb Code     0  backupvcardhandler.o(t._ZN5QListI7QStringED1Ev)
+    QList<QtMobility::QVersitProperty>::detach_helper(int) 0x0000994b   Thumb Code    94  backupvcardhandler.o(t._ZN5QListIN10QtMobility15QVersitPropertyEE13detach_helperEi)
+    QList<QtMobility::QVersitProperty>::detach_helper() 0x000099b1   Thumb Code    16  backupvcardhandler.o(t._ZN5QListIN10QtMobility15QVersitPropertyEE13detach_helperEv)
+    QList<QtMobility::QVersitProperty>::node_destruct(QList<QtMobility::QVersitProperty>::Node*, QList<QtMobility::QVersitProperty>::Node*) 0x000099c1   Thumb Code    38  backupvcardhandler.o(t._ZN5QListIN10QtMobility15QVersitPropertyEE13node_destructEPNS2_4NodeES4_)
+    QList<QtMobility::QVersitProperty>::node_construct(QList<QtMobility::QVersitProperty>::Node*, const QtMobility::QVersitProperty&) 0x000099e7   Thumb Code    34  backupvcardhandler.o(t._ZN5QListIN10QtMobility15QVersitPropertyEE14node_constructEPNS2_4NodeERKS1_)
+    QList<QtMobility::QVersitProperty>::detach_helper_grow(int, int) 0x00009a17   Thumb Code   208  backupvcardhandler.o(t._ZN5QListIN10QtMobility15QVersitPropertyEE18detach_helper_growEii)
+    QList<QtMobility::QVersitProperty>::free(QListData::Data*) 0x00009af7   Thumb Code    58  backupvcardhandler.o(t._ZN5QListIN10QtMobility15QVersitPropertyEE4freeEPN9QListData4DataE)
+    QList<QtMobility::QVersitProperty>::append(const QtMobility::QVersitProperty&) 0x00009b31   Thumb Code   106  backupvcardhandler.o(t._ZN5QListIN10QtMobility15QVersitPropertyEE6appendERKS1_)
+    QList<QtMobility::QVersitProperty>::node_copy(QList<QtMobility::QVersitProperty>::Node*, QList<QtMobility::QVersitProperty>::Node*, QList<QtMobility::QVersitProperty>::Node*) 0x00009baf   Thumb Code    92  backupvcardhandler.o(t._ZN5QListIN10QtMobility15QVersitPropertyEE9node_copyEPNS2_4NodeES4_S4_)
+    QList<QtMobility::QVersitProperty>::operator [](int) 0x00009c21   Thumb Code    52  backupvcardhandler.o(t._ZN5QListIN10QtMobility15QVersitPropertyEEixEi)
+    QPointer<QObject>::~QPointer()           0x00009c55   Thumb Code    14  backupvcardhandler.o(t._ZN8QPointerI7QObjectED1Ev)
+    QPointer<QObject>::~QPointer__sub_object() 0x00009c55   Thumb Code     0  backupvcardhandler.o(t._ZN8QPointerI7QObjectED1Ev)
+    QtMobility::QLatin1Constant<(int)5>::operator QString() const 0x00009c63   Thumb Code    18  backupvcardhandler.o(t._ZNK10QtMobility15QLatin1ConstantILi5EEcv7QStringEv)
+    QtMobility::QLatin1Constant<(int)9>::operator QString() const 0x00009c75   Thumb Code    18  backupvcardhandler.o(t._ZNK10QtMobility15QLatin1ConstantILi9EEcv7QStringEv)
+    QMap<QString, QVariant>::const_iterator::operator !=(const QMap<QString, QVariant>::const_iterator&) const 0x00009c87   Thumb Code    18  backupvcardhandler.o(t._ZNK4QMapI7QString8QVariantE14const_iteratorneERKS3_)
+    QSet<QString>::contains(const QString&) const 0x00009c99   Thumb Code    34  backupvcardhandler.o(t._ZNK4QSetI7QStringE8containsERKS0_)
+    QHash<QString, QHashDummyValue>::findNode(const QString&, unsigned*) const 0x00009cbb   Thumb Code   116  backupvcardhandler.o(t._ZNK5QHashI7QString15QHashDummyValueE8findNodeERKS0_Pj)
+    QFlags<QtMobility::QContactDetail::AccessConstraint>::testFlag(QtMobility::QContactDetail::AccessConstraint) const 0x00009d2f   Thumb Code    28  backupvcardhandler.o(t._ZNK6QFlagsIN10QtMobility14QContactDetail16AccessConstraintEE8testFlagES2_)
+    BackupVCardHandlerFactory::staticMetaObject 0x0000a358   Data          16  moc_backupvcardhandler.o(.constdata)
+    stlp_priv::_Integer_limits<signed char, (signed char)-128, (signed char)127, (int)-1, (bool)1>::digits 0x0000a420   Data           4  moc_backupvcardhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<bool, (bool)0, (bool)1, (int)1, (bool)0>::digits 0x0000a424   Data           4  moc_backupvcardhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    stlp_priv::_Integer_limits<char, (char)128, (char)127, (int)-1, (bool)1>::digits 0x0000a428   Data           4  moc_backupvcardhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned char, (unsigned char)0, (unsigned char)255, (int)-1, (bool)1>::digits 0x0000a42c   Data           4  moc_backupvcardhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::digits 0x0000a430   Data           4  moc_backupvcardhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::is_signed 0x0000a434   Data           1  moc_backupvcardhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    stlp_priv::_Integer_limits<unsigned, (unsigned)0, (unsigned)4294967295, (int)-1, (bool)1>::digits 0x0000a438   Data           4  moc_backupvcardhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long, (long)-2147483648, (long)2147483647, (int)-1, (bool)1>::digits 0x0000a43c   Data           4  moc_backupvcardhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long, (unsigned long)0, (unsigned long)4294967295, (int)-1, (bool)1>::digits 0x0000a440   Data           4  moc_backupvcardhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<short, (short)-32768, (short)32767, (int)-1, (bool)1>::digits 0x0000a444   Data           4  moc_backupvcardhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned short, (unsigned short)0, (unsigned short)65535, (int)-1, (bool)1>::digits 0x0000a448   Data           4  moc_backupvcardhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<wchar_t, (wchar_t)0, (wchar_t)65535, (int)-1, (bool)1>::digits 0x0000a44c   Data           4  moc_backupvcardhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long long, (long long)-9223372036854775808, (long long)9223372036854775807, (int)-1, (bool)1>::digits 0x0000a450   Data           4  moc_backupvcardhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long long, (unsigned long long)0, (unsigned long long)18446744073709551615, (int)-1, (bool)1>::digits 0x0000a454   Data           4  moc_backupvcardhandler.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    typeinfo for BackupVCardHandler          0x0000a458   Data          12  backupvcardhandler.o(.constdata__ZTI18BackupVCardHandler)
+    typeinfo for BackupVCardHandlerFactory   0x0000a464   Data          32  moc_backupvcardhandler.o(.constdata__ZTI25BackupVCardHandlerFactory)
+    typeinfo for QtMobility::QVersitContactHandler 0x0000a484   Data          32  backupvcardhandler.o(.constdata__ZTIN10QtMobility21QVersitContactHandlerE)
+    typeinfo for QtMobility::QVersitContactHandlerFactory 0x0000a4a4   Data           8  moc_backupvcardhandler.o(.constdata__ZTIN10QtMobility28QVersitContactHandlerFactoryE)
+    typeinfo for QtMobility::QVersitContactExporterDetailHandlerV2 0x0000a4ac   Data           8  backupvcardhandler.o(.constdata__ZTIN10QtMobility37QVersitContactExporterDetailHandlerV2E)
+    typeinfo for QtMobility::QVersitContactImporterPropertyHandlerV2 0x0000a4b4   Data           8  backupvcardhandler.o(.constdata__ZTIN10QtMobility39QVersitContactImporterPropertyHandlerV2E)
+    typeinfo name for BackupVCardHandler     0x0000a4bc   Data          21  backupvcardhandler.o(.constdata__ZTS18BackupVCardHandler)
+    typeinfo name for BackupVCardHandlerFactory 0x0000a4d1   Data          28  moc_backupvcardhandler.o(.constdata__ZTS25BackupVCardHandlerFactory)
+    typeinfo name for QtMobility::QVersitContactHandler 0x0000a4ed   Data          38  backupvcardhandler.o(.constdata__ZTSN10QtMobility21QVersitContactHandlerE)
+    typeinfo name for QtMobility::QVersitContactHandlerFactory 0x0000a513   Data          45  moc_backupvcardhandler.o(.constdata__ZTSN10QtMobility28QVersitContactHandlerFactoryE)
+    typeinfo name for QtMobility::QVersitContactExporterDetailHandlerV2 0x0000a540   Data          54  backupvcardhandler.o(.constdata__ZTSN10QtMobility37QVersitContactExporterDetailHandlerV2E)
+    typeinfo name for QtMobility::QVersitContactImporterPropertyHandlerV2 0x0000a576   Data          56  backupvcardhandler.o(.constdata__ZTSN10QtMobility39QVersitContactImporterPropertyHandlerV2E)
+    vtable for BackupVCardHandler            0x0000a5b0   Data          56  backupvcardhandler.o(.constdata__ZTV18BackupVCardHandler)
+    vtable for BackupVCardHandlerFactory     0x0000a5e8   Data         104  moc_backupvcardhandler.o(.constdata__ZTV25BackupVCardHandlerFactory)
+    vtable for QtMobility::QVersitContactHandler 0x0000a650   Data          48  backupvcardhandler.o(.constdata__ZTVN10QtMobility21QVersitContactHandlerE)
+    vtable for QtMobility::QVersitContactHandlerFactory 0x0000a680   Data          32  backupvcardhandler.o(.constdata__ZTVN10QtMobility28QVersitContactHandlerFactoryE)
+    vtable for QtMobility::QVersitContactExporterDetailHandlerV2 0x0000a6a0   Data          24  backupvcardhandler.o(.constdata__ZTVN10QtMobility37QVersitContactExporterDetailHandlerV2E)
+    vtable for QtMobility::QVersitContactImporterPropertyHandlerV2 0x0000a6b8   Data          24  backupvcardhandler.o(.constdata__ZTVN10QtMobility39QVersitContactImporterPropertyHandlerV2E)
+    .ARM.exidx$$Base                         0x0000a6d0   Number         0  ucppinit.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x0000a9b0   Number         0  backupvcardhandler.o(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x0000a9b0   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    __dso_handle                             0x00400008   Data           4  ucppfini.o(.data)
+    std::_Atomic_swap_struct<(int)1>::_S_swap_lock 0x0040000c   Data          12  moc_backupvcardhandler.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    dtor_rec                                 0x00400018   Data        2048  ucppfini.o(.bss)
+

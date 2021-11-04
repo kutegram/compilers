@@ -1,0 +1,897 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../../unhosted.s                         0x00000000   Number         0  switch8.o ABSOLUTE
+    M:\\epoc32\\build\\euser\\c_e18a23aea4fd210f\\edll_lib\\armv5\\udeb\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\\sf\\os\\kernelhwsrv\\kernel\\eka\\compsupp\\rvct\\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\epoc32\build\euser\c_e18a23aea4fd210f\edll_lib\armv5\udeb\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\dllexp.cpp 0x00000000   Number         0  dllexp.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    S:\sf\mw\qtmobility\build\Release\declarative_systeminfo\moc\moc_qdeclarativedeviceinfo_p.cpp 0x00000000   Number         0  moc_qdeclarativedeviceinfo_p.o ABSOLUTE
+    S:\sf\mw\qtmobility\build\Release\declarative_systeminfo\moc\moc_qdeclarativegeneralinfo_p.cpp 0x00000000   Number         0  moc_qdeclarativegeneralinfo_p.o ABSOLUTE
+    S:\sf\mw\qtmobility\build\Release\declarative_systeminfo\moc\moc_qdeclarativenetworkinfo_p.cpp 0x00000000   Number         0  moc_qdeclarativenetworkinfo_p.o ABSOLUTE
+    S:\sf\mw\qtmobility\build\Release\declarative_systeminfo\moc\moc_qdeclarativescreensaver_p.cpp 0x00000000   Number         0  moc_qdeclarativescreensaver_p.o ABSOLUTE
+    S:\sf\mw\qtmobility\plugins\declarative\systeminfo\qdeclarativedeviceinfo.cpp 0x00000000   Number         0  qdeclarativedeviceinfo.o ABSOLUTE
+    S:\sf\mw\qtmobility\plugins\declarative\systeminfo\qdeclarativegeneralinfo.cpp 0x00000000   Number         0  qdeclarativegeneralinfo.o ABSOLUTE
+    S:\sf\mw\qtmobility\plugins\declarative\systeminfo\qdeclarativenetworkinfo.cpp 0x00000000   Number         0  qdeclarativenetworkinfo.o ABSOLUTE
+    S:\sf\mw\qtmobility\plugins\declarative\systeminfo\qdeclarativescreensaver.cpp 0x00000000   Number         0  qdeclarativescreensaver.o ABSOLUTE
+    S:\sf\mw\qtmobility\plugins\declarative\systeminfo\systeminfo.cpp 0x00000000   Number         0  systeminfo.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    Symbian$$eit_base                        0x00008014   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$eit_limit                       0x00008018   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_base                   0x0000801c   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_limit                  0x00008020   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$reserved                        0x00008024   Data           4  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       52  ucppinit.o(.emb_text)
+    loop                                     0x0000803c   ARM Code       0  ucppinit.o(.emb_text)
+    ret                                      0x00008044   ARM Code       0  ucppinit.o(.emb_text)
+    base                                     0x00008054   Data           0  ucppinit.o(.emb_text)
+    limit                                    0x00008058   Data           0  ucppinit.o(.emb_text)
+    .text                                    0x000082bc   Section      840  moc_qdeclarativenetworkinfo_p.o(.text)
+    .text                                    0x00008604   Section      288  moc_qdeclarativescreensaver_p.o(.text)
+    .text                                    0x00008724   Section      468  moc_qdeclarativedeviceinfo_p.o(.text)
+    .text                                    0x000088f8   Section      200  moc_qdeclarativegeneralinfo_p.o(.text)
+    .text                                    0x000089c0   Section      272  systeminfo.o(.text)
+    netInfo()                                0x00008ad1   Thumb Code   164  qdeclarativenetworkinfo.o(.text)
+    .text                                    0x00008ad0   Section     1632  qdeclarativenetworkinfo.o(.text)
+    .text                                    0x00009130   Section      212  qdeclarativescreensaver.o(.text)
+    deviceInfo()                             0x00009205   Thumb Code   164  qdeclarativedeviceinfo.o(.text)
+    .text                                    0x00009204   Section      912  qdeclarativedeviceinfo.o(.text)
+    generalInfo()                            0x00009595   Thumb Code   164  qdeclarativegeneralinfo.o(.text)
+    .text                                    0x00009594   Section      348  qdeclarativegeneralinfo.o(.text)
+    .text                                    0x000096f0   Section       24  switch8.o(.text)
+    .text                                    0x00009708   Section       80  uc_dll.o(.text)
+    .text                                    0x00009758   Section      180  ucppfini.o(.text)
+    .text                                    0x0000980c   Section        4  dllexp.o(.text)
+    .text.clean                              0x00009810   Section       50  moc_qdeclarativenetworkinfo_p.o(.text.clean)
+    .text.clean                              0x00009844   Section       28  systeminfo.o(.text.clean)
+    .text.clean                              0x00009860   Section       60  qdeclarativenetworkinfo.o(.text.clean)
+    .text.clean                              0x0000989c   Section       24  qdeclarativescreensaver.o(.text.clean)
+    .text.clean                              0x000098b4   Section       48  qdeclarativedeviceinfo.o(.text.clean)
+    .text.clean                              0x000098e4   Section       28  qdeclarativegeneralinfo.o(.text.clean)
+    i._Z6qDebugv                             0x00009900   Section      132  qdeclarativedeviceinfo.o(i._Z6qDebugv)
+    i._Z6qDebugv.clean                       0x00009984   Section       24  qdeclarativedeviceinfo.o(i._Z6qDebugv.clean)
+    i._ZN10QByteArrayC1ERKS_                 0x0000999c   Section       20  systeminfo.o(i._ZN10QByteArrayC1ERKS_)
+    i._ZN10QByteArrayD1Ev                    0x000099b0   Section       24  systeminfo.o(i._ZN10QByteArrayD1Ev)
+    i._ZN15QBasicAtomicInt3refEv             0x000099c8   Section       24  systeminfo.o(i._ZN15QBasicAtomicInt3refEv)
+    i._ZN15QBasicAtomicInt5derefEv           0x000099e0   Section       24  moc_qdeclarativenetworkinfo_p.o(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN19QDeclarativePrivate12RegisterTypeD1Ev 0x000099f8   Section       20  systeminfo.o(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementI22QDeclarativeDeviceInfoED0Ev 0x00009a0c   Section       22  systeminfo.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI22QDeclarativeDeviceInfoED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGeneralInfoED0Ev 0x00009a22   Section       22  systeminfo.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGeneralInfoED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeNetworkInfoED0Ev 0x00009a38   Section       22  systeminfo.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeNetworkInfoED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeScreenSaverED0Ev 0x00009a4e   Section       22  systeminfo.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeScreenSaverED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemDisplayInfoEED0Ev 0x00009a64   Section       22  systeminfo.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemDisplayInfoEED0Ev)
+    i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemStorageInfoEED0Ev 0x00009a7a   Section       22  systeminfo.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemStorageInfoEED0Ev)
+    i._ZN22QDeclarativeDeviceInfoD0Ev        0x00009a90   Section       24  moc_qdeclarativedeviceinfo_p.o(i._ZN22QDeclarativeDeviceInfoD0Ev)
+    i._ZN22QDeclarativeDeviceInfoD1Ev        0x00009aa8   Section       14  moc_qdeclarativedeviceinfo_p.o(i._ZN22QDeclarativeDeviceInfoD1Ev)
+    i._ZN23QDeclarativeGeneralInfoD0Ev       0x00009ab6   Section       24  moc_qdeclarativegeneralinfo_p.o(i._ZN23QDeclarativeGeneralInfoD0Ev)
+    i._ZN23QDeclarativeGeneralInfoD1Ev       0x00009ace   Section       14  moc_qdeclarativegeneralinfo_p.o(i._ZN23QDeclarativeGeneralInfoD1Ev)
+    i._ZN28QSystemInfoDeclarativeModule13registerTypesEPKc 0x00009adc   Section      156  systeminfo.o(i._ZN28QSystemInfoDeclarativeModule13registerTypesEPKc)
+    i._ZN28QSystemInfoDeclarativeModuleD0Ev  0x00009b78   Section       24  systeminfo.o(i._ZN28QSystemInfoDeclarativeModuleD0Ev)
+    i._ZN28QSystemInfoDeclarativeModuleD1Ev  0x00009b90   Section       14  systeminfo.o(i._ZN28QSystemInfoDeclarativeModuleD1Ev)
+    i._ZN6QDebugD1Ev                         0x00009b9e   Section      160  qdeclarativedeviceinfo.o(i._ZN6QDebugD1Ev)
+    i._ZN6QDebugD1Ev.clean                   0x00009c3e   Section       20  qdeclarativedeviceinfo.o(i._ZN6QDebugD1Ev.clean)
+    i._ZN7QStringC1ERK13QLatin1String        0x00009c52   Section       26  qdeclarativenetworkinfo.o(i._ZN7QStringC1ERK13QLatin1String)
+    i._ZN7QStringC1Ev                        0x00009c6c   Section       24  systeminfo.o(i._ZN7QStringC1Ev)
+    i._ZN7QStringD1Ev                        0x00009c84   Section       24  moc_qdeclarativenetworkinfo_p.o(i._ZN7QStringD1Ev)
+    i._ZNK15QBasicAtomicIntntEv              0x00009c9c   Section       16  systeminfo.o(i._ZNK15QBasicAtomicIntntEv)
+    i._ZNK9QListData5beginEv                 0x00009cac   Section       16  moc_qdeclarativenetworkinfo_p.o(i._ZNK9QListData5beginEv)
+    i._ZThn8_N28QSystemInfoDeclarativeModule13registerTypesEPKc 0x00009cbc   Section       18  systeminfo.o(i._ZThn8_N28QSystemInfoDeclarativeModule13registerTypesEPKc)
+    i._ZThn8_N28QSystemInfoDeclarativeModuleD0Ev 0x00009cce   Section       14  systeminfo.o(i._ZThn8_N28QSystemInfoDeclarativeModuleD0Ev)
+    i._ZThn8_N28QSystemInfoDeclarativeModuleD1Ev 0x00009cdc   Section       18  systeminfo.o(i._ZThn8_N28QSystemInfoDeclarativeModuleD1Ev)
+    i._ZdlPvS_                               0x00009cee   Section        2  systeminfo.o(i._ZdlPvS_)
+    i._ZnwjPv                                0x00009cf0   Section        6  systeminfo.o(i._ZnwjPv)
+    i._ZplPKcRK10QByteArray                  0x00009cf6   Section       46  systeminfo.o(i._ZplPKcRK10QByteArray)
+    i._ZplPKcRK10QByteArray.clean            0x00009d24   Section       10  systeminfo.o(i._ZplPKcRK10QByteArray.clean)
+    i._ZplRK10QByteArrayPKc                  0x00009d2e   Section       46  systeminfo.o(i._ZplRK10QByteArrayPKc)
+    i._ZplRK10QByteArrayPKc.clean            0x00009d5c   Section       10  systeminfo.o(i._ZplRK10QByteArrayPKc.clean)
+    i._ZplRK10QByteArrayc                    0x00009d66   Section       46  systeminfo.o(i._ZplRK10QByteArrayc)
+    i._ZplRK10QByteArrayc.clean              0x00009d94   Section       10  systeminfo.o(i._ZplRK10QByteArrayc.clean)
+    t._Z15qmlRegisterTypeI22QDeclarativeDeviceInfoEiPKciiS2_ 0x00009da0   Section      280  systeminfo.o(t._Z15qmlRegisterTypeI22QDeclarativeDeviceInfoEiPKciiS2_)
+    t._Z15qmlRegisterTypeI22QDeclarativeDeviceInfoEiPKciiS2_.clean 0x00009eb8   Section       52  systeminfo.o(t._Z15qmlRegisterTypeI22QDeclarativeDeviceInfoEiPKciiS2_.clean)
+    t._Z15qmlRegisterTypeI23QDeclarativeGeneralInfoEiPKciiS2_ 0x00009eec   Section      280  systeminfo.o(t._Z15qmlRegisterTypeI23QDeclarativeGeneralInfoEiPKciiS2_)
+    t._Z15qmlRegisterTypeI23QDeclarativeGeneralInfoEiPKciiS2_.clean 0x0000a004   Section       52  systeminfo.o(t._Z15qmlRegisterTypeI23QDeclarativeGeneralInfoEiPKciiS2_.clean)
+    t._Z15qmlRegisterTypeI23QDeclarativeNetworkInfoEiPKciiS2_ 0x0000a038   Section      280  systeminfo.o(t._Z15qmlRegisterTypeI23QDeclarativeNetworkInfoEiPKciiS2_)
+    t._Z15qmlRegisterTypeI23QDeclarativeNetworkInfoEiPKciiS2_.clean 0x0000a150   Section       52  systeminfo.o(t._Z15qmlRegisterTypeI23QDeclarativeNetworkInfoEiPKciiS2_.clean)
+    t._Z15qmlRegisterTypeI23QDeclarativeScreenSaverEiPKciiS2_ 0x0000a184   Section      280  systeminfo.o(t._Z15qmlRegisterTypeI23QDeclarativeScreenSaverEiPKciiS2_)
+    t._Z15qmlRegisterTypeI23QDeclarativeScreenSaverEiPKciiS2_.clean 0x0000a29c   Section       52  systeminfo.o(t._Z15qmlRegisterTypeI23QDeclarativeScreenSaverEiPKciiS2_.clean)
+    t._Z15qmlRegisterTypeIN10QtMobility18QSystemDisplayInfoEEiPKciiS3_ 0x0000a2d0   Section      280  systeminfo.o(t._Z15qmlRegisterTypeIN10QtMobility18QSystemDisplayInfoEEiPKciiS3_)
+    t._Z15qmlRegisterTypeIN10QtMobility18QSystemDisplayInfoEEiPKciiS3_.clean 0x0000a3e8   Section       52  systeminfo.o(t._Z15qmlRegisterTypeIN10QtMobility18QSystemDisplayInfoEEiPKciiS3_.clean)
+    t._Z15qmlRegisterTypeIN10QtMobility18QSystemStorageInfoEEiPKciiS3_ 0x0000a41c   Section      280  systeminfo.o(t._Z15qmlRegisterTypeIN10QtMobility18QSystemStorageInfoEEiPKciiS3_)
+    t._Z15qmlRegisterTypeIN10QtMobility18QSystemStorageInfoEEiPKciiS3_.clean 0x0000a534   Section       52  systeminfo.o(t._Z15qmlRegisterTypeIN10QtMobility18QSystemStorageInfoEEiPKciiS3_.clean)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI22QDeclarativeDeviceInfoEEiPKcPT_ 0x0000a568   Section      164  systeminfo.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI22QDeclarativeDeviceInfoEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI23QDeclarativeGeneralInfoEEiPKcPT_ 0x0000a60c   Section      164  systeminfo.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI23QDeclarativeGeneralInfoEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI23QDeclarativeNetworkInfoEEiPKcPT_ 0x0000a6b0   Section      164  systeminfo.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI23QDeclarativeNetworkInfoEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI23QDeclarativeScreenSaverEEiPKcPT_ 0x0000a754   Section      164  systeminfo.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI23QDeclarativeScreenSaverEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility18QSystemDisplayInfoEEEiPKcPT_ 0x0000a7f8   Section      160  systeminfo.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility18QSystemDisplayInfoEEEiPKcPT_)
+    t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility18QSystemStorageInfoEEEiPKcPT_ 0x0000a898   Section      160  systeminfo.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility18QSystemStorageInfoEEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIP22QDeclarativeDeviceInfoEiPKcPT_ 0x0000a938   Section      140  systeminfo.o(t._Z17qRegisterMetaTypeIP22QDeclarativeDeviceInfoEiPKcPT_)
+    t._Z17qRegisterMetaTypeIP23QDeclarativeGeneralInfoEiPKcPT_ 0x0000a9c4   Section      140  systeminfo.o(t._Z17qRegisterMetaTypeIP23QDeclarativeGeneralInfoEiPKcPT_)
+    t._Z17qRegisterMetaTypeIP23QDeclarativeNetworkInfoEiPKcPT_ 0x0000aa50   Section      140  systeminfo.o(t._Z17qRegisterMetaTypeIP23QDeclarativeNetworkInfoEiPKcPT_)
+    t._Z17qRegisterMetaTypeIP23QDeclarativeScreenSaverEiPKcPT_ 0x0000aadc   Section      140  systeminfo.o(t._Z17qRegisterMetaTypeIP23QDeclarativeScreenSaverEiPKcPT_)
+    t._Z17qRegisterMetaTypeIPN10QtMobility18QSystemDisplayInfoEEiPKcPT_ 0x0000ab68   Section      136  systeminfo.o(t._Z17qRegisterMetaTypeIPN10QtMobility18QSystemDisplayInfoEEiPKcPT_)
+    t._Z17qRegisterMetaTypeIPN10QtMobility18QSystemStorageInfoEEiPKcPT_ 0x0000abf0   Section      136  systeminfo.o(t._Z17qRegisterMetaTypeIPN10QtMobility18QSystemStorageInfoEEiPKcPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI22QDeclarativeDeviceInfoEEvPT_ 0x0000ac78   Section       12  systeminfo.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI22QDeclarativeDeviceInfoEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI23QDeclarativeGeneralInfoEEvPT_ 0x0000ac84   Section       12  systeminfo.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI23QDeclarativeGeneralInfoEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI23QDeclarativeNetworkInfoEEvPT_ 0x0000ac90   Section       12  systeminfo.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI23QDeclarativeNetworkInfoEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI23QDeclarativeScreenSaverEEvPT_ 0x0000ac9c   Section       12  systeminfo.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI23QDeclarativeScreenSaverEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility18QSystemDisplayInfoEEEvPT_ 0x0000aca8   Section       12  systeminfo.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility18QSystemDisplayInfoEEEvPT_)
+    t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility18QSystemStorageInfoEEEvPT_ 0x0000acb4   Section       12  systeminfo.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility18QSystemStorageInfoEEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIP22QDeclarativeDeviceInfoEvPT_ 0x0000acc0   Section       12  systeminfo.o(t._Z21qMetaTypeDeleteHelperIP22QDeclarativeDeviceInfoEvPT_)
+    t._Z21qMetaTypeDeleteHelperIP23QDeclarativeGeneralInfoEvPT_ 0x0000accc   Section       12  systeminfo.o(t._Z21qMetaTypeDeleteHelperIP23QDeclarativeGeneralInfoEvPT_)
+    t._Z21qMetaTypeDeleteHelperIP23QDeclarativeNetworkInfoEvPT_ 0x0000acd8   Section       12  systeminfo.o(t._Z21qMetaTypeDeleteHelperIP23QDeclarativeNetworkInfoEvPT_)
+    t._Z21qMetaTypeDeleteHelperIP23QDeclarativeScreenSaverEvPT_ 0x0000ace4   Section       12  systeminfo.o(t._Z21qMetaTypeDeleteHelperIP23QDeclarativeScreenSaverEvPT_)
+    t._Z21qMetaTypeDeleteHelperIPN10QtMobility18QSystemDisplayInfoEEvPT_ 0x0000acf0   Section       12  systeminfo.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility18QSystemDisplayInfoEEvPT_)
+    t._Z21qMetaTypeDeleteHelperIPN10QtMobility18QSystemStorageInfoEEvPT_ 0x0000acfc   Section       12  systeminfo.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility18QSystemStorageInfoEEvPT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI22QDeclarativeDeviceInfoEEPvPKT_ 0x0000ad08   Section      150  systeminfo.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI22QDeclarativeDeviceInfoEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI22QDeclarativeDeviceInfoEEPvPKT_.clean 0x0000ad9e   Section        4  systeminfo.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI22QDeclarativeDeviceInfoEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI23QDeclarativeGeneralInfoEEPvPKT_ 0x0000ada2   Section      150  systeminfo.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI23QDeclarativeGeneralInfoEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI23QDeclarativeGeneralInfoEEPvPKT_.clean 0x0000ae38   Section        4  systeminfo.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI23QDeclarativeGeneralInfoEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI23QDeclarativeNetworkInfoEEPvPKT_ 0x0000ae3c   Section      150  systeminfo.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI23QDeclarativeNetworkInfoEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI23QDeclarativeNetworkInfoEEPvPKT_.clean 0x0000aed2   Section        4  systeminfo.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI23QDeclarativeNetworkInfoEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI23QDeclarativeScreenSaverEEPvPKT_ 0x0000aed6   Section      150  systeminfo.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI23QDeclarativeScreenSaverEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI23QDeclarativeScreenSaverEEPvPKT_.clean 0x0000af6c   Section        4  systeminfo.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI23QDeclarativeScreenSaverEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility18QSystemDisplayInfoEEEPvPKT_ 0x0000af70   Section      150  systeminfo.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility18QSystemDisplayInfoEEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility18QSystemDisplayInfoEEEPvPKT_.clean 0x0000b006   Section        4  systeminfo.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility18QSystemDisplayInfoEEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility18QSystemStorageInfoEEEPvPKT_ 0x0000b00a   Section      150  systeminfo.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility18QSystemStorageInfoEEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility18QSystemStorageInfoEEEPvPKT_.clean 0x0000b0a0   Section        4  systeminfo.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility18QSystemStorageInfoEEEPvPKT_.clean)
+    t._Z24qMetaTypeConstructHelperIP22QDeclarativeDeviceInfoEPvPKT_ 0x0000b0a4   Section       50  systeminfo.o(t._Z24qMetaTypeConstructHelperIP22QDeclarativeDeviceInfoEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIP23QDeclarativeGeneralInfoEPvPKT_ 0x0000b0d6   Section       50  systeminfo.o(t._Z24qMetaTypeConstructHelperIP23QDeclarativeGeneralInfoEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIP23QDeclarativeNetworkInfoEPvPKT_ 0x0000b108   Section       50  systeminfo.o(t._Z24qMetaTypeConstructHelperIP23QDeclarativeNetworkInfoEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIP23QDeclarativeScreenSaverEPvPKT_ 0x0000b13a   Section       50  systeminfo.o(t._Z24qMetaTypeConstructHelperIP23QDeclarativeScreenSaverEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIPN10QtMobility18QSystemDisplayInfoEEPvPKT_ 0x0000b16c   Section       50  systeminfo.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility18QSystemDisplayInfoEEPvPKT_)
+    t._Z24qMetaTypeConstructHelperIPN10QtMobility18QSystemStorageInfoEEPvPKT_ 0x0000b19e   Section       50  systeminfo.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility18QSystemStorageInfoEEPvPKT_)
+    t._ZN19QDeclarativePrivate10createIntoI22QDeclarativeDeviceInfoEEvPv 0x0000b1d0   Section       44  systeminfo.o(t._ZN19QDeclarativePrivate10createIntoI22QDeclarativeDeviceInfoEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoI22QDeclarativeDeviceInfoEEvPv.clean 0x0000b1fc   Section       12  systeminfo.o(t._ZN19QDeclarativePrivate10createIntoI22QDeclarativeDeviceInfoEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoI23QDeclarativeGeneralInfoEEvPv 0x0000b208   Section       44  systeminfo.o(t._ZN19QDeclarativePrivate10createIntoI23QDeclarativeGeneralInfoEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoI23QDeclarativeGeneralInfoEEvPv.clean 0x0000b234   Section       12  systeminfo.o(t._ZN19QDeclarativePrivate10createIntoI23QDeclarativeGeneralInfoEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoI23QDeclarativeNetworkInfoEEvPv 0x0000b240   Section       44  systeminfo.o(t._ZN19QDeclarativePrivate10createIntoI23QDeclarativeNetworkInfoEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoI23QDeclarativeNetworkInfoEEvPv.clean 0x0000b26c   Section       12  systeminfo.o(t._ZN19QDeclarativePrivate10createIntoI23QDeclarativeNetworkInfoEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoI23QDeclarativeScreenSaverEEvPv 0x0000b278   Section       44  systeminfo.o(t._ZN19QDeclarativePrivate10createIntoI23QDeclarativeScreenSaverEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoI23QDeclarativeScreenSaverEEvPv.clean 0x0000b2a4   Section       12  systeminfo.o(t._ZN19QDeclarativePrivate10createIntoI23QDeclarativeScreenSaverEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility18QSystemDisplayInfoEEEvPv 0x0000b2b0   Section       44  systeminfo.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility18QSystemDisplayInfoEEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility18QSystemDisplayInfoEEEvPv.clean 0x0000b2dc   Section       12  systeminfo.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility18QSystemDisplayInfoEEEvPv.clean)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility18QSystemStorageInfoEEEvPv 0x0000b2e8   Section       44  systeminfo.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility18QSystemStorageInfoEEEvPv)
+    t._ZN19QDeclarativePrivate10createIntoIN10QtMobility18QSystemStorageInfoEEEvPv.clean 0x0000b314   Section       12  systeminfo.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility18QSystemStorageInfoEEEvPv.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI22QDeclarativeDeviceInfoED1Ev 0x0000b320   Section       32  systeminfo.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI22QDeclarativeDeviceInfoED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI22QDeclarativeDeviceInfoED1Ev.clean 0x0000b340   Section       10  systeminfo.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI22QDeclarativeDeviceInfoED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGeneralInfoED1Ev 0x0000b34c   Section       32  systeminfo.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGeneralInfoED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGeneralInfoED1Ev.clean 0x0000b36c   Section       10  systeminfo.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGeneralInfoED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeNetworkInfoED1Ev 0x0000b378   Section       28  systeminfo.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeNetworkInfoED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeNetworkInfoED1Ev.clean 0x0000b394   Section       10  systeminfo.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeNetworkInfoED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeScreenSaverED1Ev 0x0000b3a0   Section       28  systeminfo.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeScreenSaverED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeScreenSaverED1Ev.clean 0x0000b3bc   Section       10  systeminfo.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeScreenSaverED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemDisplayInfoEED1Ev 0x0000b3c8   Section       28  systeminfo.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemDisplayInfoEED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemDisplayInfoEED1Ev.clean 0x0000b3e4   Section       10  systeminfo.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemDisplayInfoEED1Ev.clean)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemStorageInfoEED1Ev 0x0000b3f0   Section       28  systeminfo.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemStorageInfoEED1Ev)
+    t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemStorageInfoEED1Ev.clean 0x0000b40c   Section       10  systeminfo.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemStorageInfoEED1Ev.clean)
+    t._ZN20QGlobalStaticDeleterIN10QtMobility11QSystemInfoEED1Ev 0x0000b416   Section       38  qdeclarativegeneralinfo.o(t._ZN20QGlobalStaticDeleterIN10QtMobility11QSystemInfoEED1Ev)
+    t._ZN20QGlobalStaticDeleterIN10QtMobility17QSystemDeviceInfoEED1Ev 0x0000b43c   Section       38  qdeclarativedeviceinfo.o(t._ZN20QGlobalStaticDeleterIN10QtMobility17QSystemDeviceInfoEED1Ev)
+    t._ZN20QGlobalStaticDeleterIN10QtMobility18QSystemNetworkInfoEED1Ev 0x0000b462   Section       38  qdeclarativenetworkinfo.o(t._ZN20QGlobalStaticDeleterIN10QtMobility18QSystemNetworkInfoEED1Ev)
+    t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE13detach_helperEi 0x0000b488   Section      190  moc_qdeclarativenetworkinfo_p.o(t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE13detach_helperEi)
+    t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE13detach_helperEi.clean 0x0000b546   Section       16  moc_qdeclarativenetworkinfo_p.o(t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE13detach_helperEi.clean)
+    t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE13detach_helperEv 0x0000b556   Section       16  moc_qdeclarativenetworkinfo_p.o(t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE13detach_helperEv)
+    t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE13node_destructEPNS3_4NodeES5_ 0x0000b566   Section       26  qdeclarativenetworkinfo.o(t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE13node_destructEPNS3_4NodeES5_)
+    t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE14node_constructEPNS3_4NodeERKS2_ 0x0000b580   Section       30  qdeclarativenetworkinfo.o(t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE14node_constructEPNS3_4NodeERKS2_)
+    t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE18detach_helper_growEii 0x0000b59e   Section      220  qdeclarativenetworkinfo.o(t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE18detach_helper_growEii)
+    t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE18detach_helper_growEii.clean 0x0000b67a   Section       16  qdeclarativenetworkinfo.o(t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE18detach_helper_growEii.clean)
+    t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE4freeEPN9QListData4DataE 0x0000b68a   Section       58  qdeclarativenetworkinfo.o(t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE4freeEPN9QListData4DataE)
+    t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE6appendERKS2_ 0x0000b6c4   Section      116  qdeclarativenetworkinfo.o(t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE6appendERKS2_)
+    t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE6appendERKS2_.clean 0x0000b738   Section       14  qdeclarativenetworkinfo.o(t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE6appendERKS2_.clean)
+    t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE9node_copyEPNS3_4NodeES5_S5_ 0x0000b746   Section       78  qdeclarativenetworkinfo.o(t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE9node_copyEPNS3_4NodeES5_S5_)
+    t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE9node_copyEPNS3_4NodeES5_S5_.clean 0x0000b794   Section        8  qdeclarativenetworkinfo.o(t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE9node_copyEPNS3_4NodeES5_S5_.clean)
+    t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEED1Ev 0x0000b79c   Section       32  moc_qdeclarativenetworkinfo_p.o(t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEED1Ev)
+    t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEEaSERKS3_ 0x0000b7bc   Section       76  moc_qdeclarativenetworkinfo_p.o(t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEEaSERKS3_)
+    t._ZN8QPointerI7QObjectED1Ev             0x0000b808   Section       14  systeminfo.o(t._ZN8QPointerI7QObjectED1Ev)
+    .extab._ZN23QDeclarativeNetworkInfo11qt_metacallEN11QMetaObject4CallEiPPv 0x0000b818   Data           0  moc_qdeclarativenetworkinfo_p.o(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE13detach_helperEi 0x0000b850   Data           0  moc_qdeclarativenetworkinfo_p.o(.ARM.extab)
+    .extab.qt_plugin_instance                0x0000b88c   Data           0  systeminfo.o(.ARM.extab)
+    .extab._ZplRK10QByteArrayPKc             0x0000b8a4   Data           0  systeminfo.o(.ARM.extab)
+    .extab._ZplRK10QByteArrayc               0x0000b8b4   Data           0  systeminfo.o(.ARM.extab)
+    .extab._ZplPKcRK10QByteArray             0x0000b8c4   Data           0  systeminfo.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeI23QDeclarativeGeneralInfoEiPKciiS2_ 0x0000b8d4   Data           0  systeminfo.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeIN10QtMobility18QSystemDisplayInfoEEiPKciiS3_ 0x0000b944   Data           0  systeminfo.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeI22QDeclarativeDeviceInfoEiPKciiS2_ 0x0000b9b4   Data           0  systeminfo.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeI23QDeclarativeNetworkInfoEiPKciiS2_ 0x0000ba24   Data           0  systeminfo.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeI23QDeclarativeScreenSaverEiPKciiS2_ 0x0000ba94   Data           0  systeminfo.o(.ARM.extab)
+    .extab._Z15qmlRegisterTypeIN10QtMobility18QSystemStorageInfoEEiPKciiS3_ 0x0000bb04   Data           0  systeminfo.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoI23QDeclarativeGeneralInfoEEvPv 0x0000bb74   Data           0  systeminfo.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoIN10QtMobility18QSystemDisplayInfoEEEvPv 0x0000bb84   Data           0  systeminfo.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoI22QDeclarativeDeviceInfoEEvPv 0x0000bb94   Data           0  systeminfo.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoI23QDeclarativeNetworkInfoEEvPv 0x0000bba4   Data           0  systeminfo.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoI23QDeclarativeScreenSaverEEvPv 0x0000bbb4   Data           0  systeminfo.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate10createIntoIN10QtMobility18QSystemStorageInfoEEEvPv 0x0000bbc4   Data           0  systeminfo.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGeneralInfoED1Ev 0x0000bbd4   Data           0  systeminfo.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemDisplayInfoEED1Ev 0x0000bbe4   Data           0  systeminfo.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementI22QDeclarativeDeviceInfoED1Ev 0x0000bbf4   Data           0  systeminfo.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeNetworkInfoED1Ev 0x0000bc04   Data           0  systeminfo.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeScreenSaverED1Ev 0x0000bc14   Data           0  systeminfo.o(.ARM.extab)
+    .extab._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemStorageInfoEED1Ev 0x0000bc24   Data           0  systeminfo.o(.ARM.extab)
+    .extab._Z7netInfov                       0x0000bc34   Data           0  qdeclarativenetworkinfo.o(.ARM.extab)
+    .extab._ZN23QDeclarativeNetworkInfoC1EP7QObject 0x0000bc4c   Data           0  qdeclarativenetworkinfo.o(.ARM.extab)
+    .extab._ZN23QDeclarativeNetworkInfo14availableModesEv 0x0000bc5c   Data           0  qdeclarativenetworkinfo.o(.ARM.extab)
+    .extab._ZN23QDeclarativeNetworkInfo20networkStatusChangedEN10QtMobility18QSystemNetworkInfo11NetworkModeENS1_13NetworkStatusE 0x0000bc6c   Data           0  qdeclarativenetworkinfo.o(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE9node_copyEPNS3_4NodeES5_S5_ 0x0000bc7c   Data           0  qdeclarativenetworkinfo.o(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE18detach_helper_growEii 0x0000bc98   Data           0  qdeclarativenetworkinfo.o(.ARM.extab)
+    .extab._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE6appendERKS2_ 0x0000bcc8   Data           0  qdeclarativenetworkinfo.o(.ARM.extab)
+    .extab._ZN23QDeclarativeScreenSaverD1Ev  0x0000bcf8   Data           0  qdeclarativescreensaver.o(.ARM.extab)
+    .extab._ZN23QDeclarativeScreenSaver21setScreenSaverDelayedEb 0x0000bd08   Data           0  qdeclarativescreensaver.o(.ARM.extab)
+    .extab._Z10deviceInfov                   0x0000bd18   Data           0  qdeclarativedeviceinfo.o(.ARM.extab)
+    .extab._ZN22QDeclarativeDeviceInfo22startPowerStateChangedEv 0x0000bd30   Data           0  qdeclarativedeviceinfo.o(.ARM.extab)
+    .extab._Z6qDebugv                        0x0000bd48   Data           0  qdeclarativedeviceinfo.o(.ARM.extab)
+    .extab._ZN6QDebugD1Ev                    0x0000bd60   Data           0  qdeclarativedeviceinfo.o(.ARM.extab)
+    .extab._Z11generalInfov                  0x0000bd84   Data           0  qdeclarativegeneralinfo.o(.ARM.extab)
+    .constdata$1                             0x0000bd9c   Data           0  moc_qdeclarativenetworkinfo_p.o(.constdata)
+    qt_meta_data_QDeclarativeNetworkInfo     0x0000bd9c   Data         516  moc_qdeclarativenetworkinfo_p.o(.constdata)
+    .constdata                               0x0000bd9c   Section     1432  moc_qdeclarativenetworkinfo_p.o(.constdata)
+    qt_meta_stringdata_QDeclarativeNetworkInfo 0x0000bfa0   Data         881  moc_qdeclarativenetworkinfo_p.o(.constdata)
+    qt_meta_extradata_QDeclarativeNetworkInfo 0x0000c314   Data           8  moc_qdeclarativenetworkinfo_p.o(.constdata)
+    qt_meta_extradata2_QDeclarativeNetworkInfo 0x0000c31c   Data           8  moc_qdeclarativenetworkinfo_p.o(.constdata)
+    .constdata$1                             0x0000c334   Data           0  moc_qdeclarativescreensaver_p.o(.constdata)
+    qt_meta_data_QDeclarativeScreenSaver     0x0000c334   Data         124  moc_qdeclarativescreensaver_p.o(.constdata)
+    .constdata                               0x0000c334   Section      268  moc_qdeclarativescreensaver_p.o(.constdata)
+    qt_meta_stringdata_QDeclarativeScreenSaver 0x0000c3b0   Data         126  moc_qdeclarativescreensaver_p.o(.constdata)
+    .constdata$1                             0x0000c440   Data           0  moc_qdeclarativedeviceinfo_p.o(.constdata)
+    qt_meta_data_QDeclarativeDeviceInfo      0x0000c440   Data         360  moc_qdeclarativedeviceinfo_p.o(.constdata)
+    .constdata                               0x0000c440   Section     1060  moc_qdeclarativedeviceinfo_p.o(.constdata)
+    qt_meta_stringdata_QDeclarativeDeviceInfo 0x0000c5a8   Data         681  moc_qdeclarativedeviceinfo_p.o(.constdata)
+    .constdata$1                             0x0000c864   Data           0  moc_qdeclarativegeneralinfo_p.o(.constdata)
+    qt_meta_data_QDeclarativeGeneralInfo     0x0000c864   Data         120  moc_qdeclarativegeneralinfo_p.o(.constdata)
+    .constdata                               0x0000c864   Section      276  moc_qdeclarativegeneralinfo_p.o(.constdata)
+    qt_meta_stringdata_QDeclarativeGeneralInfo 0x0000c8dc   Data         140  moc_qdeclarativegeneralinfo_p.o(.constdata)
+    .constdata$1                             0x0000c978   Data           0  systeminfo.o(.constdata)
+    qt_meta_data_QSystemInfoDeclarativeModule 0x0000c978   Data          60  systeminfo.o(.constdata)
+    .constdata                               0x0000c978   Section      200  systeminfo.o(.constdata)
+    qt_meta_stringdata_QSystemInfoDeclarativeModule 0x0000c9b4   Data          30  systeminfo.o(.constdata)
+    qt_plugin_verification_data              0x0000c9d2   Data          91  systeminfo.o(.constdata)
+    .constdata$1                             0x0000ca40   Data           0  qdeclarativenetworkinfo.o(.constdata)
+    .constdata                               0x0000ca40   Section      320  qdeclarativenetworkinfo.o(.constdata)
+    .constdata$1                             0x0000cb80   Data           0  qdeclarativedeviceinfo.o(.constdata)
+    .constdata                               0x0000cb80   Section      172  qdeclarativedeviceinfo.o(.constdata)
+    .constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE 0x0000cc2c   Section        4  moc_qdeclarativenetworkinfo_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE 0x0000cc30   Section        4  moc_qdeclarativenetworkinfo_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE 0x0000cc34   Section        4  moc_qdeclarativenetworkinfo_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE 0x0000cc38   Section        4  moc_qdeclarativenetworkinfo_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE 0x0000cc3c   Section        4  moc_qdeclarativenetworkinfo_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE 0x0000cc40   Section        1  moc_qdeclarativenetworkinfo_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE 0x0000cc44   Section        4  moc_qdeclarativenetworkinfo_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE 0x0000cc48   Section        4  moc_qdeclarativenetworkinfo_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE 0x0000cc4c   Section        4  moc_qdeclarativenetworkinfo_p.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE 0x0000cc50   Section        4  moc_qdeclarativenetworkinfo_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE 0x0000cc54   Section        4  moc_qdeclarativenetworkinfo_p.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE 0x0000cc58   Section        4  moc_qdeclarativenetworkinfo_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE 0x0000cc5c   Section        4  moc_qdeclarativenetworkinfo_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE 0x0000cc60   Section        4  moc_qdeclarativenetworkinfo_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    .constdata__ZTI22QDeclarativeDeviceInfo  0x0000cc64   Section       12  moc_qdeclarativedeviceinfo_p.o(.constdata__ZTI22QDeclarativeDeviceInfo)
+    .constdata__ZTI23QDeclarativeGeneralInfo 0x0000cc70   Section       12  moc_qdeclarativegeneralinfo_p.o(.constdata__ZTI23QDeclarativeGeneralInfo)
+    .constdata__ZTI23QDeclarativeNetworkInfo 0x0000cc7c   Section       12  moc_qdeclarativenetworkinfo_p.o(.constdata__ZTI23QDeclarativeNetworkInfo)
+    .constdata__ZTI23QDeclarativeScreenSaver 0x0000cc88   Section       12  moc_qdeclarativescreensaver_p.o(.constdata__ZTI23QDeclarativeScreenSaver)
+    .constdata__ZTI28QSystemInfoDeclarativeModule 0x0000cc94   Section       12  systeminfo.o(.constdata__ZTI28QSystemInfoDeclarativeModule)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI22QDeclarativeDeviceInfoEE 0x0000cca0   Section       12  systeminfo.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI22QDeclarativeDeviceInfoEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGeneralInfoEE 0x0000ccac   Section       12  systeminfo.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGeneralInfoEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeNetworkInfoEE 0x0000ccb8   Section       12  systeminfo.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeNetworkInfoEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeScreenSaverEE 0x0000ccc4   Section       12  systeminfo.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeScreenSaverEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemDisplayInfoEEE 0x0000ccd0   Section       12  systeminfo.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemDisplayInfoEEE)
+    .constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemStorageInfoEEE 0x0000ccdc   Section       12  systeminfo.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemStorageInfoEEE)
+    .constdata__ZTS22QDeclarativeDeviceInfo  0x0000cce8   Section       25  moc_qdeclarativedeviceinfo_p.o(.constdata__ZTS22QDeclarativeDeviceInfo)
+    .constdata__ZTS23QDeclarativeGeneralInfo 0x0000cd01   Section       26  moc_qdeclarativegeneralinfo_p.o(.constdata__ZTS23QDeclarativeGeneralInfo)
+    .constdata__ZTS23QDeclarativeNetworkInfo 0x0000cd1b   Section       26  moc_qdeclarativenetworkinfo_p.o(.constdata__ZTS23QDeclarativeNetworkInfo)
+    .constdata__ZTS23QDeclarativeScreenSaver 0x0000cd35   Section       26  moc_qdeclarativescreensaver_p.o(.constdata__ZTS23QDeclarativeScreenSaver)
+    .constdata__ZTS28QSystemInfoDeclarativeModule 0x0000cd4f   Section       31  systeminfo.o(.constdata__ZTS28QSystemInfoDeclarativeModule)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI22QDeclarativeDeviceInfoEE 0x0000cd6e   Section       71  systeminfo.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI22QDeclarativeDeviceInfoEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGeneralInfoEE 0x0000cdb5   Section       72  systeminfo.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGeneralInfoEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeNetworkInfoEE 0x0000cdfd   Section       72  systeminfo.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeNetworkInfoEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeScreenSaverEE 0x0000ce45   Section       72  systeminfo.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeScreenSaverEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemDisplayInfoEEE 0x0000ce8d   Section       81  systeminfo.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemDisplayInfoEEE)
+    .constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemStorageInfoEEE 0x0000cede   Section       81  systeminfo.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemStorageInfoEEE)
+    .constdata__ZTV22QDeclarativeDeviceInfo  0x0000cf30   Section       56  moc_qdeclarativedeviceinfo_p.o(.constdata__ZTV22QDeclarativeDeviceInfo)
+    .constdata__ZTV23QDeclarativeGeneralInfo 0x0000cf68   Section       56  moc_qdeclarativegeneralinfo_p.o(.constdata__ZTV23QDeclarativeGeneralInfo)
+    .constdata__ZTV23QDeclarativeNetworkInfo 0x0000cfa0   Section       56  moc_qdeclarativenetworkinfo_p.o(.constdata__ZTV23QDeclarativeNetworkInfo)
+    .constdata__ZTV23QDeclarativeScreenSaver 0x0000cfd8   Section       56  moc_qdeclarativescreensaver_p.o(.constdata__ZTV23QDeclarativeScreenSaver)
+    .constdata__ZTV28QSystemInfoDeclarativeModule 0x0000d010   Section       88  systeminfo.o(.constdata__ZTV28QSystemInfoDeclarativeModule)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI22QDeclarativeDeviceInfoEE 0x0000d068   Section       56  systeminfo.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI22QDeclarativeDeviceInfoEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGeneralInfoEE 0x0000d0a0   Section       56  systeminfo.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGeneralInfoEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeNetworkInfoEE 0x0000d0d8   Section       56  systeminfo.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeNetworkInfoEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeScreenSaverEE 0x0000d110   Section       56  systeminfo.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeScreenSaverEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemDisplayInfoEEE 0x0000d148   Section       56  systeminfo.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemDisplayInfoEEE)
+    .constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemStorageInfoEEE 0x0000d180   Section       56  systeminfo.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemStorageInfoEEE)
+    __ARM_d__Z15qmlRegisterTypeI22QDeclarativeDeviceInfoEiPKciiS2_$58 0x0000d1b8   Data           0  systeminfo.o(__ARM_d__Z15qmlRegisterTypeI22QDeclarativeDeviceInfoEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI22QDeclarativeDeviceInfoEiPKciiS2_ 0x0000d1b8   Section       76  systeminfo.o(__ARM_d__Z15qmlRegisterTypeI22QDeclarativeDeviceInfoEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI23QDeclarativeGeneralInfoEiPKciiS2_$52 0x0000d204   Data           0  systeminfo.o(__ARM_d__Z15qmlRegisterTypeI23QDeclarativeGeneralInfoEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI23QDeclarativeGeneralInfoEiPKciiS2_ 0x0000d204   Section       76  systeminfo.o(__ARM_d__Z15qmlRegisterTypeI23QDeclarativeGeneralInfoEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI23QDeclarativeNetworkInfoEiPKciiS2_$61 0x0000d250   Data           0  systeminfo.o(__ARM_d__Z15qmlRegisterTypeI23QDeclarativeNetworkInfoEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI23QDeclarativeNetworkInfoEiPKciiS2_ 0x0000d250   Section       76  systeminfo.o(__ARM_d__Z15qmlRegisterTypeI23QDeclarativeNetworkInfoEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI23QDeclarativeScreenSaverEiPKciiS2_$64 0x0000d29c   Data           0  systeminfo.o(__ARM_d__Z15qmlRegisterTypeI23QDeclarativeScreenSaverEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeI23QDeclarativeScreenSaverEiPKciiS2_ 0x0000d29c   Section       76  systeminfo.o(__ARM_d__Z15qmlRegisterTypeI23QDeclarativeScreenSaverEiPKciiS2_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility18QSystemDisplayInfoEEiPKciiS3_$55 0x0000d2e8   Data           0  systeminfo.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility18QSystemDisplayInfoEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility18QSystemDisplayInfoEEiPKciiS3_ 0x0000d2e8   Section       76  systeminfo.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility18QSystemDisplayInfoEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility18QSystemStorageInfoEEiPKciiS3_$67 0x0000d334   Data           0  systeminfo.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility18QSystemStorageInfoEEiPKciiS3_)
+    __ARM_d__Z15qmlRegisterTypeIN10QtMobility18QSystemStorageInfoEEiPKciiS3_ 0x0000d334   Section       76  systeminfo.o(__ARM_d__Z15qmlRegisterTypeIN10QtMobility18QSystemStorageInfoEEiPKciiS3_)
+    .ARM.exidx                               0x0000d380   Section        8  ucppinit.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  systeminfo.o(.data)
+    _ZGV_instance@qt_plugin_instance_0       0x00400000   Data           4  systeminfo.o(.data)
+    .data                                    0x00400000   Section        8  systeminfo.o(.data)
+    _instance@qt_plugin_instance_1           0x00400004   Data           4  systeminfo.o(.data)
+    .data$0                                  0x00400008   Data           0  qdeclarativenetworkinfo.o(.data)
+    this_netInfo                             0x00400008   Data           8  qdeclarativenetworkinfo.o(.data)
+    .data                                    0x00400008   Section       16  qdeclarativenetworkinfo.o(.data)
+    _ZGVcleanup@_Z7netInfov_0                0x00400010   Data           4  qdeclarativenetworkinfo.o(.data)
+    cleanup@_Z7netInfov_1                    0x00400014   Data           4  qdeclarativenetworkinfo.o(.data)
+    .data$0                                  0x00400018   Data           0  qdeclarativedeviceinfo.o(.data)
+    this_deviceInfo                          0x00400018   Data           8  qdeclarativedeviceinfo.o(.data)
+    .data                                    0x00400018   Section       16  qdeclarativedeviceinfo.o(.data)
+    _ZGVcleanup@_Z10deviceInfov_0            0x00400020   Data           4  qdeclarativedeviceinfo.o(.data)
+    cleanup@_Z10deviceInfov_1                0x00400024   Data           4  qdeclarativedeviceinfo.o(.data)
+    .data$0                                  0x00400028   Data           0  qdeclarativegeneralinfo.o(.data)
+    this_generalInfo                         0x00400028   Data           8  qdeclarativegeneralinfo.o(.data)
+    .data                                    0x00400028   Section       16  qdeclarativegeneralinfo.o(.data)
+    _ZGVcleanup@_Z11generalInfov_0           0x00400030   Data           4  qdeclarativegeneralinfo.o(.data)
+    cleanup@_Z11generalInfov_1               0x00400034   Data           4  qdeclarativegeneralinfo.o(.data)
+    .data$0                                  0x00400038   Data           0  ucppfini.o(.data)
+    .data                                    0x00400038   Section        4  ucppfini.o(.data)
+    .data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE 0x0040003c   Section       12  moc_qdeclarativenetworkinfo_p.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    .data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI22QDeclarativeDeviceInfoEE14qt_metatype_idEvE11metatype_id 0x00400048   Section        4  systeminfo.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI22QDeclarativeDeviceInfoEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI23QDeclarativeGeneralInfoEE14qt_metatype_idEvE11metatype_id 0x0040004c   Section        4  systeminfo.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI23QDeclarativeGeneralInfoEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI23QDeclarativeNetworkInfoEE14qt_metatype_idEvE11metatype_id 0x00400050   Section        4  systeminfo.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI23QDeclarativeNetworkInfoEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI23QDeclarativeScreenSaverEE14qt_metatype_idEvE11metatype_id 0x00400054   Section        4  systeminfo.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI23QDeclarativeScreenSaverEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyIN10QtMobility18QSystemDisplayInfoEEE14qt_metatype_idEvE11metatype_id 0x00400058   Section        4  systeminfo.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyIN10QtMobility18QSystemDisplayInfoEEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyIN10QtMobility18QSystemStorageInfoEEE14qt_metatype_idEvE11metatype_id 0x0040005c   Section        4  systeminfo.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyIN10QtMobility18QSystemStorageInfoEEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIP22QDeclarativeDeviceInfoE14qt_metatype_idEvE11metatype_id 0x00400060   Section        4  systeminfo.o(.data__ZZN11QMetaTypeIdIP22QDeclarativeDeviceInfoE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIP23QDeclarativeGeneralInfoE14qt_metatype_idEvE11metatype_id 0x00400064   Section        4  systeminfo.o(.data__ZZN11QMetaTypeIdIP23QDeclarativeGeneralInfoE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIP23QDeclarativeNetworkInfoE14qt_metatype_idEvE11metatype_id 0x00400068   Section        4  systeminfo.o(.data__ZZN11QMetaTypeIdIP23QDeclarativeNetworkInfoE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIP23QDeclarativeScreenSaverE14qt_metatype_idEvE11metatype_id 0x0040006c   Section        4  systeminfo.o(.data__ZZN11QMetaTypeIdIP23QDeclarativeScreenSaverE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIPN10QtMobility18QSystemDisplayInfoEE14qt_metatype_idEvE11metatype_id 0x00400070   Section        4  systeminfo.o(.data__ZZN11QMetaTypeIdIPN10QtMobility18QSystemDisplayInfoEE14qt_metatype_idEvE11metatype_id)
+    .data__ZZN11QMetaTypeIdIPN10QtMobility18QSystemStorageInfoEE14qt_metatype_idEvE11metatype_id 0x00400074   Section        4  systeminfo.o(.data__ZZN11QMetaTypeIdIPN10QtMobility18QSystemStorageInfoEE14qt_metatype_idEvE11metatype_id)
+    .bss$5                                   0x00400078   Data           0  ucppfini.o(.bss)
+    .bss                                     0x00400078   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$VFPv2$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$IEEEJ$EBA8$UX$FPIC$INDIRECT$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    QtCore{00040703}[2001b2dc].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtDeclarative{00040703}[2001e623].dll    0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtNetwork{00040703}[2001b2de].dll        0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtSystemInfo{00010103}[2002ac7d].dll     0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    declarative_systeminfo{000a0000}[200315f9].dll 0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    euser{000a0000}[100039e5].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    libc{00010001}[10207369].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    stdnew{000a0000}[20022178].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    qt_message_output(QtMsgType, const char*)  - Undefined Reference
+    _Z17qt_message_output9QtMsgTypePKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QBasicAtomicPointer_testAndSetOrdered(void*volatile *, void*, void*)  - Undefined Reference
+    _Z37QBasicAtomicPointer_testAndSetOrderedPVPvS_S_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qFree(void*)                              - Undefined Reference
+    _Z5qFreePv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::append(const char*)           - Undefined Reference
+    _ZN10QByteArray6appendEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::append(const QByteArray&)     - Undefined Reference
+    _ZN10QByteArray6appendERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::append(char)                  - Undefined Reference
+    _ZN10QByteArray6appendEc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::realloc(int)                  - Undefined Reference
+    _ZN10QByteArray7reallocEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::QByteArray(const char*)       - Undefined Reference
+    _ZN10QByteArrayC1EPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QtMobility::QSystemInfo::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN10QtMobility11QSystemInfo11qt_metacallEN11QMetaObject4CallEiPPv@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemInfo::qt_metacast(const char*)  - Undefined Reference
+    _ZN10QtMobility11QSystemInfo11qt_metacastEPKc@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemInfo::connectNotify(const char*)  - Undefined Reference
+    _ZN10QtMobility11QSystemInfo13connectNotifyEPKc@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemInfo::disconnectNotify(const char*)  - Undefined Reference
+    _ZN10QtMobility11QSystemInfo16disconnectNotifyEPKc@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemInfo::staticMetaObject  - Undefined Reference
+    _ZN10QtMobility11QSystemInfo16staticMetaObjectE@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemInfo::QSystemInfo(QObject*)  - Undefined Reference
+    _ZN10QtMobility11QSystemInfoC1EP7QObject@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemInfo::~QSystemInfo()   - Undefined Reference
+    _ZN10QtMobility11QSystemInfoD1Ev@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemDeviceInfo::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN10QtMobility17QSystemDeviceInfo11qt_metacallEN11QMetaObject4CallEiPPv@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemDeviceInfo::qt_metacast(const char*)  - Undefined Reference
+    _ZN10QtMobility17QSystemDeviceInfo11qt_metacastEPKc@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemDeviceInfo::connectNotify(const char*)  - Undefined Reference
+    _ZN10QtMobility17QSystemDeviceInfo13connectNotifyEPKc@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemDeviceInfo::disconnectNotify(const char*)  - Undefined Reference
+    _ZN10QtMobility17QSystemDeviceInfo16disconnectNotifyEPKc@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemDeviceInfo::staticMetaObject  - Undefined Reference
+    _ZN10QtMobility17QSystemDeviceInfo16staticMetaObjectE@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemDeviceInfo::QSystemDeviceInfo(QObject*)  - Undefined Reference
+    _ZN10QtMobility17QSystemDeviceInfoC1EP7QObject@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemDeviceInfo::~QSystemDeviceInfo()  - Undefined Reference
+    _ZN10QtMobility17QSystemDeviceInfoD1Ev@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemDisplayInfo::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN10QtMobility18QSystemDisplayInfo11qt_metacallEN11QMetaObject4CallEiPPv@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemDisplayInfo::qt_metacast(const char*)  - Undefined Reference
+    _ZN10QtMobility18QSystemDisplayInfo11qt_metacastEPKc@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemDisplayInfo::staticMetaObject  - Undefined Reference
+    _ZN10QtMobility18QSystemDisplayInfo16staticMetaObjectE@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemDisplayInfo::QSystemDisplayInfo(QObject*)  - Undefined Reference
+    _ZN10QtMobility18QSystemDisplayInfoC1EP7QObject@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemDisplayInfo::~QSystemDisplayInfo()  - Undefined Reference
+    _ZN10QtMobility18QSystemDisplayInfoD1Ev@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemNetworkInfo::macAddress(QtMobility::QSystemNetworkInfo::NetworkMode)  - Undefined Reference
+    _ZN10QtMobility18QSystemNetworkInfo10macAddressENS0_11NetworkModeE@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemNetworkInfo::currentMode()  - Undefined Reference
+    _ZN10QtMobility18QSystemNetworkInfo11currentModeEv@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemNetworkInfo::networkName(QtMobility::QSystemNetworkInfo::NetworkMode)  - Undefined Reference
+    _ZN10QtMobility18QSystemNetworkInfo11networkNameENS0_11NetworkModeE@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemNetworkInfo::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN10QtMobility18QSystemNetworkInfo11qt_metacallEN11QMetaObject4CallEiPPv@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemNetworkInfo::qt_metacast(const char*)  - Undefined Reference
+    _ZN10QtMobility18QSystemNetworkInfo11qt_metacastEPKc@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemNetworkInfo::connectNotify(const char*)  - Undefined Reference
+    _ZN10QtMobility18QSystemNetworkInfo13connectNotifyEPKc@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemNetworkInfo::networkStatus(QtMobility::QSystemNetworkInfo::NetworkMode)  - Undefined Reference
+    _ZN10QtMobility18QSystemNetworkInfo13networkStatusENS0_11NetworkModeE@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemNetworkInfo::disconnectNotify(const char*)  - Undefined Reference
+    _ZN10QtMobility18QSystemNetworkInfo16disconnectNotifyEPKc@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemNetworkInfo::interfaceForMode(QtMobility::QSystemNetworkInfo::NetworkMode)  - Undefined Reference
+    _ZN10QtMobility18QSystemNetworkInfo16interfaceForModeENS0_11NetworkModeE@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemNetworkInfo::staticMetaObject  - Undefined Reference
+    _ZN10QtMobility18QSystemNetworkInfo16staticMetaObjectE@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemNetworkInfo::getStaticMetaObject()  - Undefined Reference
+    _ZN10QtMobility18QSystemNetworkInfo19getStaticMetaObjectEv@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemNetworkInfo::networkSignalStrength(QtMobility::QSystemNetworkInfo::NetworkMode)  - Undefined Reference
+    _ZN10QtMobility18QSystemNetworkInfo21networkSignalStrengthENS0_11NetworkModeE@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemNetworkInfo::QSystemNetworkInfo(QObject*)  - Undefined Reference
+    _ZN10QtMobility18QSystemNetworkInfoC1EP7QObject@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemNetworkInfo::~QSystemNetworkInfo()  - Undefined Reference
+    _ZN10QtMobility18QSystemNetworkInfoD1Ev@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemScreenSaver::screenSaverInhibited()  - Undefined Reference
+    _ZN10QtMobility18QSystemScreenSaver20screenSaverInhibitedEv@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemScreenSaver::setScreenSaverInhibit()  - Undefined Reference
+    _ZN10QtMobility18QSystemScreenSaver21setScreenSaverInhibitEv@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemScreenSaver::QSystemScreenSaver(QObject*)  - Undefined Reference
+    _ZN10QtMobility18QSystemScreenSaverC1EP7QObject@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemStorageInfo::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN10QtMobility18QSystemStorageInfo11qt_metacallEN11QMetaObject4CallEiPPv@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemStorageInfo::qt_metacast(const char*)  - Undefined Reference
+    _ZN10QtMobility18QSystemStorageInfo11qt_metacastEPKc@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemStorageInfo::staticMetaObject  - Undefined Reference
+    _ZN10QtMobility18QSystemStorageInfo16staticMetaObjectE@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemStorageInfo::QSystemStorageInfo(QObject*)  - Undefined Reference
+    _ZN10QtMobility18QSystemStorageInfoC1EP7QObject@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemStorageInfo::~QSystemStorageInfo()  - Undefined Reference
+    _ZN10QtMobility18QSystemStorageInfoD1Ev@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QMetaObject::changeGuard(QObject**, QObject*)  - Undefined Reference
+    _ZN11QMetaObject11changeGuardEPP7QObjectS1_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::removeGuard(QObject**)       - Undefined Reference
+    _ZN11QMetaObject11removeGuardEPP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::activate(QObject*, const QMetaObject*, int, void**)  - Undefined Reference
+    _ZN11QMetaObject8activateEP7QObjectPKS_iPPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::QTextStream(QString*, QFlags<QIODevice::OpenModeFlag>)  - Undefined Reference
+    _ZN11QTextStreamC1EP7QString6QFlagsIN9QIODevice12OpenModeFlagEE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::~QTextStream()               - Undefined Reference
+    _ZN11QTextStreamD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::operator <<(const QString&)  - Undefined Reference
+    _ZN11QTextStreamlsERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextStream::operator <<(char)            - Undefined Reference
+    _ZN11QTextStreamlsEc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QNetworkInterface::~QNetworkInterface()   - Undefined Reference
+    _ZN17QNetworkInterfaceD1Ev@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QNetworkInterface::operator =(const QNetworkInterface&)  - Undefined Reference
+    _ZN17QNetworkInterfaceaSERKS_@QtNetwork{00040703}[2001b2de].dll  - Undefined Reference
+    QDeclarativePrivate::qmlregister(QDeclarativePrivate::RegistrationType, void*)  - Undefined Reference
+    _ZN19QDeclarativePrivate11qmlregisterENS_16RegistrationTypeEPv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativePrivate::qdeclarativeelement_destructor(QObject*)  - Undefined Reference
+    _ZN19QDeclarativePrivate30qdeclarativeelement_destructorEP7QObject@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin11qt_metacallEN11QMetaObject4CallEiPPv@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::qt_metacast(const char*)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin11qt_metacastEPKc@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::initializeEngine(QDeclarativeEngine*, const char*)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin16initializeEngineEP18QDeclarativeEnginePKc@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::staticMetaObject  - Undefined Reference
+    _ZN27QDeclarativeExtensionPlugin16staticMetaObjectE@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::QDeclarativeExtensionPlugin__sub_object(QObject*)  - Undefined Reference
+    _ZN27QDeclarativeExtensionPluginC2EP7QObject@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    QDeclarativeExtensionPlugin::~QDeclarativeExtensionPlugin__sub_object()  - Undefined Reference
+    _ZN27QDeclarativeExtensionPluginD2Ev@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    User::LockedDec(int&)                     - Undefined Reference
+    _ZN4User9LockedDecERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::LockedInc(int&)                     - Undefined Reference
+    _ZN4User9LockedIncERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QObject::childEvent(QChildEvent*)         - Undefined Reference
+    _ZN7QObject10childEventEP11QChildEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::timerEvent(QTimerEvent*)         - Undefined Reference
+    _ZN7QObject10timerEventEP11QTimerEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::customEvent(QEvent*)             - Undefined Reference
+    _ZN7QObject11customEventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::eventFilter(QObject*, QEvent*)   - Undefined Reference
+    _ZN7QObject11eventFilterEPS_P6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN7QObject11qt_metacallEN11QMetaObject4CallEiPPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::qt_metacast(const char*)         - Undefined Reference
+    _ZN7QObject11qt_metacastEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connectNotify(const char*)       - Undefined Reference
+    _ZN7QObject13connectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::disconnectNotify(const char*)    - Undefined Reference
+    _ZN7QObject16disconnectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::staticMetaObject                 - Undefined Reference
+    _ZN7QObject16staticMetaObjectE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::event(QEvent*)                   - Undefined Reference
+    _ZN7QObject5eventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connect(const QObject*, const char*, const QObject*, const char*, Qt::ConnectionType)  - Undefined Reference
+    _ZN7QObject7connectEPKS_PKcS1_S3_N2Qt14ConnectionTypeE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::QObject(QObject*)                - Undefined Reference
+    _ZN7QObjectC1EPS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::~QObject()                       - Undefined Reference
+    _ZN7QObjectD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::shared_null                      - Undefined Reference
+    _ZN7QString11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromLatin1_helper(const char*, int)  - Undefined Reference
+    _ZN7QString17fromLatin1_helperEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::free(QString::Data*)             - Undefined Reference
+    _ZN7QString4freeEPNS_4DataE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromAscii(const char*, int)      - Undefined Reference
+    _ZN7QString9fromAsciiEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::operator =(const QString&)       - Undefined Reference
+    _ZN7QStringaSERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach_grow(int*, int)         - Undefined Reference
+    _ZN9QListData11detach_growEPii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::shared_null                    - Undefined Reference
+    _ZN9QListData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::append()                       - Undefined Reference
+    _ZN9QListData6appendEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach(int)                    - Undefined Reference
+    _ZN9QListData6detachEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaType::registerType(const char*, void(*)(void*), void*(*)(const void*))  - Undefined Reference
+    _ZN9QMetaType12registerTypeEPKcPFvPvEPFS2_PKvE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaType::registerTypedef(const char*, int)  - Undefined Reference
+    _ZN9QMetaType15registerTypedefEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QtMobility::QSystemDisplayInfo::metaObject() const  - Undefined Reference
+    _ZNK10QtMobility18QSystemDisplayInfo10metaObjectEv@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QtMobility::QSystemStorageInfo::metaObject() const  - Undefined Reference
+    _ZNK10QtMobility18QSystemStorageInfo10metaObjectEv@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    QString::toLocal8Bit() const              - Undefined Reference
+    _ZNK7QString11toLocal8BitEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for QDeclarativeExtensionPlugin  - Undefined Reference
+    _ZTI27QDeclarativeExtensionPlugin@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    typeinfo for QObject                      - Undefined Reference
+    _ZTI7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for QtMobility::QSystemInfo      - Undefined Reference
+    _ZTIN10QtMobility11QSystemInfoE@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    typeinfo for QtMobility::QSystemDeviceInfo  - Undefined Reference
+    _ZTIN10QtMobility17QSystemDeviceInfoE@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    typeinfo for QtMobility::QSystemDisplayInfo  - Undefined Reference
+    _ZTIN10QtMobility18QSystemDisplayInfoE@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    typeinfo for QtMobility::QSystemNetworkInfo  - Undefined Reference
+    _ZTIN10QtMobility18QSystemNetworkInfoE@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    typeinfo for QtMobility::QSystemStorageInfo  - Undefined Reference
+    _ZTIN10QtMobility18QSystemStorageInfoE@QtSystemInfo{00010103}[2002ac7d].dll  - Undefined Reference
+    typeinfo for std::bad_alloc               - Undefined Reference
+    _ZTISt9bad_alloc@stdnew{000a0000}[20022178].dll  - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv120__si_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    thunk{-8} to QDeclarativeExtensionPlugin::initializeEngine(QDeclarativeEngine*, const char*)  - Undefined Reference
+    _ZThn8_N27QDeclarativeExtensionPlugin16initializeEngineEP18QDeclarativeEnginePKc@QtDeclarative{00040703}[2001e623].dll  - Undefined Reference
+    operator delete (void*)                   - Undefined Reference
+    _ZdlPv@stdnew{000a0000}[20022178].dll     - Undefined Reference
+    operator new(unsigned)                    - Undefined Reference
+    _Znwj@stdnew{000a0000}[20022178].dll      - Undefined Reference
+    __aeabi_memcpy4                           - Undefined Reference
+    __aeabi_memcpy4@drtaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_unwind_cpp_pr0                    - Undefined Reference
+    __aeabi_unwind_cpp_pr0@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_begin_catch                         - Undefined Reference
+    __cxa_begin_catch@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_end_catch                           - Undefined Reference
+    __cxa_end_catch@drtaeabi{000a0000}.dll    - Undefined Reference
+    __cxa_end_cleanup                         - Undefined Reference
+    __cxa_end_cleanup@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_abort                         - Undefined Reference
+    __cxa_guard_abort@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_acquire                       - Undefined Reference
+    __cxa_guard_acquire@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_release                       - Undefined Reference
+    __cxa_guard_release@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_rethrow                             - Undefined Reference
+    __cxa_rethrow@drtaeabi{000a0000}.dll      - Undefined Reference
+    strcmp                                    - Undefined Reference
+    strcmp@libc{00010001}[10207369].dll       - Undefined Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      52  ucppinit.o(.emb_text)
+    std::nothrow                             0x0000805c   ARM Code       0  ucppinit.o(.emb_text)
+    __PLT                                    0x0000805c   ARM Code       0  anon$$obj.o(.plt)
+    QDeclarativeNetworkInfo::getStaticMetaObject() 0x000082bd   Thumb Code     4  moc_qdeclarativenetworkinfo_p.o(.text)
+    QDeclarativeNetworkInfo::metaObject() const 0x000082c1   Thumb Code    28  moc_qdeclarativenetworkinfo_p.o(.text)
+    QDeclarativeNetworkInfo::qt_metacast(const char*) 0x000082dd   Thumb Code    40  moc_qdeclarativenetworkinfo_p.o(.text)
+    QDeclarativeNetworkInfo::currentMobileNetworkCodeChanged(const QString&) 0x00008305   Thumb Code    30  moc_qdeclarativenetworkinfo_p.o(.text)
+    QDeclarativeNetworkInfo::currentMobileCountryCodeChanged(const QString&) 0x00008323   Thumb Code    30  moc_qdeclarativenetworkinfo_p.o(.text)
+    QDeclarativeNetworkInfo::modeChanged()   0x00008341   Thumb Code    18  moc_qdeclarativenetworkinfo_p.o(.text)
+    QDeclarativeNetworkInfo::nameChanged(const QString&) 0x00008353   Thumb Code    30  moc_qdeclarativenetworkinfo_p.o(.text)
+    QDeclarativeNetworkInfo::signalStrengthChanged(int) 0x00008371   Thumb Code    32  moc_qdeclarativenetworkinfo_p.o(.text)
+    QDeclarativeNetworkInfo::statusChanged(const QString&) 0x00008391   Thumb Code    30  moc_qdeclarativenetworkinfo_p.o(.text)
+    QDeclarativeNetworkInfo::qt_metacall(QMetaObject::Call, int, void**) 0x000083af   Thumb Code   588  moc_qdeclarativenetworkinfo_p.o(.text)
+    QDeclarativeScreenSaver::getStaticMetaObject() 0x00008605   Thumb Code     4  moc_qdeclarativescreensaver_p.o(.text)
+    QDeclarativeScreenSaver::metaObject() const 0x00008609   Thumb Code    28  moc_qdeclarativescreensaver_p.o(.text)
+    QDeclarativeScreenSaver::qt_metacast(const char*) 0x00008625   Thumb Code    40  moc_qdeclarativescreensaver_p.o(.text)
+    QDeclarativeScreenSaver::qt_metacall(QMetaObject::Call, int, void**) 0x0000864d   Thumb Code   206  moc_qdeclarativescreensaver_p.o(.text)
+    QDeclarativeDeviceInfo::getStaticMetaObject() 0x00008725   Thumb Code     4  moc_qdeclarativedeviceinfo_p.o(.text)
+    QDeclarativeDeviceInfo::metaObject() const 0x00008729   Thumb Code    28  moc_qdeclarativedeviceinfo_p.o(.text)
+    QDeclarativeDeviceInfo::qt_metacast(const char*) 0x00008745   Thumb Code    40  moc_qdeclarativedeviceinfo_p.o(.text)
+    QDeclarativeDeviceInfo::bluetoothStateChanged(bool) 0x0000876d   Thumb Code    32  moc_qdeclarativedeviceinfo_p.o(.text)
+    QDeclarativeDeviceInfo::currentProfileChanged(QtMobility::QSystemDeviceInfo::Profile) 0x0000878d   Thumb Code    32  moc_qdeclarativedeviceinfo_p.o(.text)
+    QDeclarativeDeviceInfo::powerStateChanged(QtMobility::QSystemDeviceInfo::PowerState) 0x000087ad   Thumb Code    32  moc_qdeclarativedeviceinfo_p.o(.text)
+    QDeclarativeDeviceInfo::batteryStatusChanged(QtMobility::QSystemDeviceInfo::BatteryStatus) 0x000087cd   Thumb Code    32  moc_qdeclarativedeviceinfo_p.o(.text)
+    QDeclarativeDeviceInfo::batteryLevelChanged(int) 0x000087ed   Thumb Code    30  moc_qdeclarativedeviceinfo_p.o(.text)
+    QDeclarativeDeviceInfo::qt_metacall(QMetaObject::Call, int, void**) 0x0000880b   Thumb Code   230  moc_qdeclarativedeviceinfo_p.o(.text)
+    QDeclarativeGeneralInfo::getStaticMetaObject() 0x000088f9   Thumb Code     4  moc_qdeclarativegeneralinfo_p.o(.text)
+    QDeclarativeGeneralInfo::metaObject() const 0x000088fd   Thumb Code    28  moc_qdeclarativegeneralinfo_p.o(.text)
+    QDeclarativeGeneralInfo::qt_metacast(const char*) 0x00008919   Thumb Code    40  moc_qdeclarativegeneralinfo_p.o(.text)
+    QDeclarativeGeneralInfo::currentLanguageChanged(const QString&) 0x00008941   Thumb Code    30  moc_qdeclarativegeneralinfo_p.o(.text)
+    QDeclarativeGeneralInfo::qt_metacall(QMetaObject::Call, int, void**) 0x0000895f   Thumb Code    88  moc_qdeclarativegeneralinfo_p.o(.text)
+    qt_plugin_query_verification_data        0x000089c1   Thumb Code     4  systeminfo.o(.text)
+    qt_plugin_instance                       0x000089c5   Thumb Code   134  systeminfo.o(.text)
+    QSystemInfoDeclarativeModule::getStaticMetaObject() 0x00008a4b   Thumb Code     4  systeminfo.o(.text)
+    QSystemInfoDeclarativeModule::metaObject() const 0x00008a4f   Thumb Code    28  systeminfo.o(.text)
+    QSystemInfoDeclarativeModule::qt_metacast(const char*) 0x00008a6b   Thumb Code    42  systeminfo.o(.text)
+    QSystemInfoDeclarativeModule::qt_metacall(QMetaObject::Call, int, void**) 0x00008a95   Thumb Code    36  systeminfo.o(.text)
+    QDeclarativeNetworkInfo::QDeclarativeNetworkInfo(QObject*) 0x00008b75   Thumb Code    32  qdeclarativenetworkinfo.o(.text)
+    QDeclarativeNetworkInfo::QDeclarativeNetworkInfo__sub_object(QObject*) 0x00008b75   Thumb Code     0  qdeclarativenetworkinfo.o(.text)
+    QDeclarativeNetworkInfo::~QDeclarativeNetworkInfo() 0x00008b95   Thumb Code    14  qdeclarativenetworkinfo.o(.text)
+    QDeclarativeNetworkInfo::~QDeclarativeNetworkInfo__sub_object() 0x00008b95   Thumb Code     0  qdeclarativenetworkinfo.o(.text)
+    QDeclarativeNetworkInfo::~QDeclarativeNetworkInfo__deallocating() 0x00008ba3   Thumb Code    22  qdeclarativenetworkinfo.o(.text)
+    QDeclarativeNetworkInfo::networkSignalStrength() 0x00008bb9   Thumb Code    12  qdeclarativenetworkinfo.o(.text)
+    QDeclarativeNetworkInfo::networkName()   0x00008bc5   Thumb Code    16  qdeclarativenetworkinfo.o(.text)
+    QDeclarativeNetworkInfo::macAddress()    0x00008bd5   Thumb Code    18  qdeclarativenetworkinfo.o(.text)
+    QDeclarativeNetworkInfo::statusToString(QtMobility::QSystemNetworkInfo::NetworkStatus) 0x00008be7   Thumb Code   220  qdeclarativenetworkinfo.o(.text)
+    QDeclarativeNetworkInfo::networkStatus() 0x00008cc3   Thumb Code    28  qdeclarativenetworkinfo.o(.text)
+    QDeclarativeNetworkInfo::useMode(QtMobility::QSystemNetworkInfo::NetworkMode) 0x00008cdf   Thumb Code     4  qdeclarativenetworkinfo.o(.text)
+    QDeclarativeNetworkInfo::mode()          0x00008ce3   Thumb Code     6  qdeclarativenetworkinfo.o(.text)
+    QDeclarativeNetworkInfo::interfaceForMode() 0x00008ce9   Thumb Code    18  qdeclarativenetworkinfo.o(.text)
+    QDeclarativeNetworkInfo::startStatusChanged() 0x00008cfb   Thumb Code    28  qdeclarativenetworkinfo.o(.text)
+    QDeclarativeNetworkInfo::startSignalStrengthChanged() 0x00008d17   Thumb Code    30  qdeclarativenetworkinfo.o(.text)
+    QDeclarativeNetworkInfo::startNameChanged() 0x00008d35   Thumb Code   292  qdeclarativenetworkinfo.o(.text)
+    QDeclarativeNetworkInfo::startModeChanged() 0x00008e59   Thumb Code    26  qdeclarativenetworkinfo.o(.text)
+    QDeclarativeNetworkInfo::startCurrentMobileCountryCodeChanged() 0x00008e73   Thumb Code    26  qdeclarativenetworkinfo.o(.text)
+    QDeclarativeNetworkInfo::startCurrentMobileNetworkCodeChanged() 0x00008e8d   Thumb Code    26  qdeclarativenetworkinfo.o(.text)
+    QDeclarativeNetworkInfo::availableModes() 0x00008ea7   Thumb Code    56  qdeclarativenetworkinfo.o(.text)
+    QDeclarativeNetworkInfo::modeToString(QtMobility::QSystemNetworkInfo::NetworkMode) 0x00008edf   Thumb Code   464  qdeclarativenetworkinfo.o(.text)
+    QDeclarativeNetworkInfo::networkStatusChanged(QtMobility::QSystemNetworkInfo::NetworkMode, QtMobility::QSystemNetworkInfo::NetworkStatus) 0x000090af   Thumb Code    54  qdeclarativenetworkinfo.o(.text)
+    QDeclarativeNetworkInfo::networkSignalStrengthChanged(QtMobility::QSystemNetworkInfo::NetworkMode, int) 0x000090e5   Thumb Code    24  qdeclarativenetworkinfo.o(.text)
+    QDeclarativeNetworkInfo::networkNameChanged(QtMobility::QSystemNetworkInfo::NetworkMode, const QString&) 0x000090fd   Thumb Code    24  qdeclarativenetworkinfo.o(.text)
+    QDeclarativeNetworkInfo::networkModeChanged(QtMobility::QSystemNetworkInfo::NetworkMode) 0x00009115   Thumb Code    20  qdeclarativenetworkinfo.o(.text)
+    QDeclarativeScreenSaver::QDeclarativeScreenSaver(QObject*) 0x00009131   Thumb Code    30  qdeclarativescreensaver.o(.text)
+    QDeclarativeScreenSaver::QDeclarativeScreenSaver__sub_object(QObject*) 0x00009131   Thumb Code     0  qdeclarativescreensaver.o(.text)
+    QDeclarativeScreenSaver::~QDeclarativeScreenSaver() 0x0000914f   Thumb Code    44  qdeclarativescreensaver.o(.text)
+    QDeclarativeScreenSaver::~QDeclarativeScreenSaver__sub_object() 0x0000914f   Thumb Code     0  qdeclarativescreensaver.o(.text)
+    QDeclarativeScreenSaver::~QDeclarativeScreenSaver__deallocating() 0x0000917b   Thumb Code    22  qdeclarativescreensaver.o(.text)
+    QDeclarativeScreenSaver::screenSaverDelayed() 0x00009191   Thumb Code     6  qdeclarativescreensaver.o(.text)
+    QDeclarativeScreenSaver::screenSaverInhibited() 0x00009197   Thumb Code     6  qdeclarativescreensaver.o(.text)
+    QDeclarativeScreenSaver::setScreenSaverDelayed(bool) 0x0000919d   Thumb Code    84  qdeclarativescreensaver.o(.text)
+    QDeclarativeScreenSaver::setScreenSaverInhibit() 0x000091f1   Thumb Code    16  qdeclarativescreensaver.o(.text)
+    QDeclarativeDeviceInfo::QDeclarativeDeviceInfo(QObject*) 0x000092a9   Thumb Code    24  qdeclarativedeviceinfo.o(.text)
+    QDeclarativeDeviceInfo::QDeclarativeDeviceInfo__sub_object(QObject*) 0x000092a9   Thumb Code     0  qdeclarativedeviceinfo.o(.text)
+    QDeclarativeDeviceInfo::startBatteryLevelChanged() 0x000092c1   Thumb Code    26  qdeclarativedeviceinfo.o(.text)
+    QDeclarativeDeviceInfo::startBatteryStatusChanged() 0x000092db   Thumb Code    26  qdeclarativedeviceinfo.o(.text)
+    QDeclarativeDeviceInfo::startPowerStateChanged() 0x000092f5   Thumb Code   352  qdeclarativedeviceinfo.o(.text)
+    QDeclarativeDeviceInfo::startCurrentProfileChanged() 0x00009455   Thumb Code    26  qdeclarativedeviceinfo.o(.text)
+    QDeclarativeDeviceInfo::startBluetoothStateChanged() 0x0000946f   Thumb Code    26  qdeclarativedeviceinfo.o(.text)
+    QDeclarativeDeviceInfo::declarativeBatteryLevelChanged(int) 0x00009489   Thumb Code    16  qdeclarativedeviceinfo.o(.text)
+    QDeclarativeDeviceInfo::declarativeBatteryStatusChanged(QtMobility::QSystemDeviceInfo::BatteryStatus) 0x00009499   Thumb Code    16  qdeclarativedeviceinfo.o(.text)
+    QDeclarativeDeviceInfo::declarativePowerStateChanged(QtMobility::QSystemDeviceInfo::PowerState) 0x000094a9   Thumb Code    16  qdeclarativedeviceinfo.o(.text)
+    QDeclarativeDeviceInfo::declarativeCurrentProfileChanged(QtMobility::QSystemDeviceInfo::Profile) 0x000094b9   Thumb Code    16  qdeclarativedeviceinfo.o(.text)
+    QDeclarativeDeviceInfo::declarativeBluetoothStateChanged(bool) 0x000094c9   Thumb Code    16  qdeclarativedeviceinfo.o(.text)
+    QDeclarativeGeneralInfo::QDeclarativeGeneralInfo(QObject*) 0x00009639   Thumb Code    24  qdeclarativegeneralinfo.o(.text)
+    QDeclarativeGeneralInfo::QDeclarativeGeneralInfo__sub_object(QObject*) 0x00009639   Thumb Code     0  qdeclarativegeneralinfo.o(.text)
+    QDeclarativeGeneralInfo::startCurrentLanguageChanged() 0x00009651   Thumb Code    26  qdeclarativegeneralinfo.o(.text)
+    QDeclarativeGeneralInfo::declarativeCurrentLanguageChanged(const QString&) 0x0000966b   Thumb Code    16  qdeclarativegeneralinfo.o(.text)
+    __ARM_switch8                            0x000096f0   ARM Code      24  switch8.o(.text)
+    __rt_switch8                             0x000096f0   ARM Code       0  switch8.o(.text)
+    _E32Dll_Body                             0x00009708   ARM Code      76  uc_dll.o(.text)
+    __aeabi_atexit                           0x00009758   ARM Code      40  ucppfini.o(.text)
+    __cxa_atexit                             0x00009780   ARM Code      64  ucppfini.o(.text)
+    __cxa_finalize                           0x000097c0   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x000097f0   ARM Code      16  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x0000980c   ARM Code       4  dllexp.o(.text)
+    qDebug()                                 0x00009901   Thumb Code   128  qdeclarativedeviceinfo.o(i._Z6qDebugv)
+    QByteArray::QByteArray(const QByteArray&) 0x0000999d   Thumb Code    20  systeminfo.o(i._ZN10QByteArrayC1ERKS_)
+    QByteArray::QByteArray__sub_object(const QByteArray&) 0x0000999d   Thumb Code     0  systeminfo.o(i._ZN10QByteArrayC1ERKS_)
+    QByteArray::~QByteArray()                0x000099b1   Thumb Code    24  systeminfo.o(i._ZN10QByteArrayD1Ev)
+    QByteArray::~QByteArray__sub_object()    0x000099b1   Thumb Code     0  systeminfo.o(i._ZN10QByteArrayD1Ev)
+    QBasicAtomicInt::ref()                   0x000099c9   Thumb Code    24  systeminfo.o(i._ZN15QBasicAtomicInt3refEv)
+    QBasicAtomicInt::deref()                 0x000099e1   Thumb Code    24  moc_qdeclarativenetworkinfo_p.o(i._ZN15QBasicAtomicInt5derefEv)
+    QDeclarativePrivate::RegisterType::~RegisterType() 0x000099f9   Thumb Code    20  systeminfo.o(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    QDeclarativePrivate::RegisterType::~RegisterType__sub_object() 0x000099f9   Thumb Code     0  systeminfo.o(i._ZN19QDeclarativePrivate12RegisterTypeD1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeDeviceInfo>::~QDeclarativeElement__deallocating() 0x00009a0d   Thumb Code    22  systeminfo.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI22QDeclarativeDeviceInfoED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeGeneralInfo>::~QDeclarativeElement__deallocating() 0x00009a23   Thumb Code    22  systeminfo.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGeneralInfoED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeNetworkInfo>::~QDeclarativeElement__deallocating() 0x00009a39   Thumb Code    22  systeminfo.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeNetworkInfoED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeScreenSaver>::~QDeclarativeElement__deallocating() 0x00009a4f   Thumb Code    22  systeminfo.o(i._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeScreenSaverED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QSystemDisplayInfo>::~QDeclarativeElement__deallocating() 0x00009a65   Thumb Code    22  systeminfo.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemDisplayInfoEED0Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QSystemStorageInfo>::~QDeclarativeElement__deallocating() 0x00009a7b   Thumb Code    22  systeminfo.o(i._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemStorageInfoEED0Ev)
+    QDeclarativeDeviceInfo::~QDeclarativeDeviceInfo__deallocating() 0x00009a91   Thumb Code    24  moc_qdeclarativedeviceinfo_p.o(i._ZN22QDeclarativeDeviceInfoD0Ev)
+    QDeclarativeDeviceInfo::~QDeclarativeDeviceInfo() 0x00009aa9   Thumb Code    14  moc_qdeclarativedeviceinfo_p.o(i._ZN22QDeclarativeDeviceInfoD1Ev)
+    QDeclarativeDeviceInfo::~QDeclarativeDeviceInfo__sub_object() 0x00009aa9   Thumb Code     0  moc_qdeclarativedeviceinfo_p.o(i._ZN22QDeclarativeDeviceInfoD1Ev)
+    QDeclarativeGeneralInfo::~QDeclarativeGeneralInfo__deallocating() 0x00009ab7   Thumb Code    24  moc_qdeclarativegeneralinfo_p.o(i._ZN23QDeclarativeGeneralInfoD0Ev)
+    QDeclarativeGeneralInfo::~QDeclarativeGeneralInfo() 0x00009acf   Thumb Code    14  moc_qdeclarativegeneralinfo_p.o(i._ZN23QDeclarativeGeneralInfoD1Ev)
+    QDeclarativeGeneralInfo::~QDeclarativeGeneralInfo__sub_object() 0x00009acf   Thumb Code     0  moc_qdeclarativegeneralinfo_p.o(i._ZN23QDeclarativeGeneralInfoD1Ev)
+    QSystemInfoDeclarativeModule::registerTypes(const char*) 0x00009add   Thumb Code    82  systeminfo.o(i._ZN28QSystemInfoDeclarativeModule13registerTypesEPKc)
+    QSystemInfoDeclarativeModule::~QSystemInfoDeclarativeModule__deallocating() 0x00009b79   Thumb Code    24  systeminfo.o(i._ZN28QSystemInfoDeclarativeModuleD0Ev)
+    QSystemInfoDeclarativeModule::~QSystemInfoDeclarativeModule() 0x00009b91   Thumb Code    14  systeminfo.o(i._ZN28QSystemInfoDeclarativeModuleD1Ev)
+    QSystemInfoDeclarativeModule::~QSystemInfoDeclarativeModule__sub_object() 0x00009b91   Thumb Code     0  systeminfo.o(i._ZN28QSystemInfoDeclarativeModuleD1Ev)
+    QDebug::~QDebug()                        0x00009b9f   Thumb Code   160  qdeclarativedeviceinfo.o(i._ZN6QDebugD1Ev)
+    QDebug::~QDebug__sub_object()            0x00009b9f   Thumb Code     0  qdeclarativedeviceinfo.o(i._ZN6QDebugD1Ev)
+    QString::QString(const QLatin1String&)   0x00009c53   Thumb Code    26  qdeclarativenetworkinfo.o(i._ZN7QStringC1ERK13QLatin1String)
+    QString::QString__sub_object(const QLatin1String&) 0x00009c53   Thumb Code     0  qdeclarativenetworkinfo.o(i._ZN7QStringC1ERK13QLatin1String)
+    QString::QString()                       0x00009c6d   Thumb Code    18  systeminfo.o(i._ZN7QStringC1Ev)
+    QString::QString__sub_object()           0x00009c6d   Thumb Code     0  systeminfo.o(i._ZN7QStringC1Ev)
+    QString::~QString()                      0x00009c85   Thumb Code    24  moc_qdeclarativenetworkinfo_p.o(i._ZN7QStringD1Ev)
+    QString::~QString__sub_object()          0x00009c85   Thumb Code     0  moc_qdeclarativenetworkinfo_p.o(i._ZN7QStringD1Ev)
+    QBasicAtomicInt::operator !() const      0x00009c9d   Thumb Code    16  systeminfo.o(i._ZNK15QBasicAtomicIntntEv)
+    QListData::begin() const                 0x00009cad   Thumb Code    16  moc_qdeclarativenetworkinfo_p.o(i._ZNK9QListData5beginEv)
+    thunk{-8} to QSystemInfoDeclarativeModule::registerTypes(const char*) 0x00009cbd   Thumb Code    18  systeminfo.o(i._ZThn8_N28QSystemInfoDeclarativeModule13registerTypesEPKc)
+    thunk{-8} to QSystemInfoDeclarativeModule::~QSystemInfoDeclarativeModule__deallocating() 0x00009ccf   Thumb Code    14  systeminfo.o(i._ZThn8_N28QSystemInfoDeclarativeModuleD0Ev)
+    thunk{-8} to QSystemInfoDeclarativeModule::~QSystemInfoDeclarativeModule() 0x00009cdd   Thumb Code    18  systeminfo.o(i._ZThn8_N28QSystemInfoDeclarativeModuleD1Ev)
+    operator delete (void*, void*)           0x00009cef   Thumb Code     2  systeminfo.o(i._ZdlPvS_)
+    operator new(unsigned, void*)            0x00009cf1   Thumb Code     6  systeminfo.o(i._ZnwjPv)
+    operator +(const char*, const QByteArray&) 0x00009cf7   Thumb Code    46  systeminfo.o(i._ZplPKcRK10QByteArray)
+    operator +(const QByteArray&, const char*) 0x00009d2f   Thumb Code    46  systeminfo.o(i._ZplRK10QByteArrayPKc)
+    operator +(const QByteArray&, char)      0x00009d67   Thumb Code    46  systeminfo.o(i._ZplRK10QByteArrayc)
+    qmlRegisterType<QDeclarativeDeviceInfo>(const char*, int, int, const char*) 0x00009da1   Thumb Code   238  systeminfo.o(t._Z15qmlRegisterTypeI22QDeclarativeDeviceInfoEiPKciiS2_)
+    qmlRegisterType<QDeclarativeGeneralInfo>(const char*, int, int, const char*) 0x00009eed   Thumb Code   238  systeminfo.o(t._Z15qmlRegisterTypeI23QDeclarativeGeneralInfoEiPKciiS2_)
+    qmlRegisterType<QDeclarativeNetworkInfo>(const char*, int, int, const char*) 0x0000a039   Thumb Code   238  systeminfo.o(t._Z15qmlRegisterTypeI23QDeclarativeNetworkInfoEiPKciiS2_)
+    qmlRegisterType<QDeclarativeScreenSaver>(const char*, int, int, const char*) 0x0000a185   Thumb Code   238  systeminfo.o(t._Z15qmlRegisterTypeI23QDeclarativeScreenSaverEiPKciiS2_)
+    qmlRegisterType<QtMobility::QSystemDisplayInfo>(const char*, int, int, const char*) 0x0000a2d1   Thumb Code   238  systeminfo.o(t._Z15qmlRegisterTypeIN10QtMobility18QSystemDisplayInfoEEiPKciiS3_)
+    qmlRegisterType<QtMobility::QSystemStorageInfo>(const char*, int, int, const char*) 0x0000a41d   Thumb Code   238  systeminfo.o(t._Z15qmlRegisterTypeIN10QtMobility18QSystemStorageInfoEEiPKciiS3_)
+    qRegisterMetaType<QDeclarativeListProperty<QDeclarativeDeviceInfo>>(const char*, T1*) 0x0000a569   Thumb Code   100  systeminfo.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI22QDeclarativeDeviceInfoEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QDeclarativeGeneralInfo>>(const char*, T1*) 0x0000a60d   Thumb Code   100  systeminfo.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI23QDeclarativeGeneralInfoEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QDeclarativeNetworkInfo>>(const char*, T1*) 0x0000a6b1   Thumb Code   100  systeminfo.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI23QDeclarativeNetworkInfoEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QDeclarativeScreenSaver>>(const char*, T1*) 0x0000a755   Thumb Code   100  systeminfo.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyI23QDeclarativeScreenSaverEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QtMobility::QSystemDisplayInfo>>(const char*, T1*) 0x0000a7f9   Thumb Code   100  systeminfo.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility18QSystemDisplayInfoEEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeListProperty<QtMobility::QSystemStorageInfo>>(const char*, T1*) 0x0000a899   Thumb Code   100  systeminfo.o(t._Z17qRegisterMetaTypeI24QDeclarativeListPropertyIN10QtMobility18QSystemStorageInfoEEEiPKcPT_)
+    qRegisterMetaType<QDeclarativeDeviceInfo*>(const char*, T1*) 0x0000a939   Thumb Code   100  systeminfo.o(t._Z17qRegisterMetaTypeIP22QDeclarativeDeviceInfoEiPKcPT_)
+    qRegisterMetaType<QDeclarativeGeneralInfo*>(const char*, T1*) 0x0000a9c5   Thumb Code   100  systeminfo.o(t._Z17qRegisterMetaTypeIP23QDeclarativeGeneralInfoEiPKcPT_)
+    qRegisterMetaType<QDeclarativeNetworkInfo*>(const char*, T1*) 0x0000aa51   Thumb Code   100  systeminfo.o(t._Z17qRegisterMetaTypeIP23QDeclarativeNetworkInfoEiPKcPT_)
+    qRegisterMetaType<QDeclarativeScreenSaver*>(const char*, T1*) 0x0000aadd   Thumb Code   100  systeminfo.o(t._Z17qRegisterMetaTypeIP23QDeclarativeScreenSaverEiPKcPT_)
+    qRegisterMetaType<QtMobility::QSystemDisplayInfo*>(const char*, T1*) 0x0000ab69   Thumb Code   100  systeminfo.o(t._Z17qRegisterMetaTypeIPN10QtMobility18QSystemDisplayInfoEEiPKcPT_)
+    qRegisterMetaType<QtMobility::QSystemStorageInfo*>(const char*, T1*) 0x0000abf1   Thumb Code   100  systeminfo.o(t._Z17qRegisterMetaTypeIPN10QtMobility18QSystemStorageInfoEEiPKcPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QDeclarativeDeviceInfo>>(T1*) 0x0000ac79   Thumb Code    12  systeminfo.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI22QDeclarativeDeviceInfoEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QDeclarativeGeneralInfo>>(T1*) 0x0000ac85   Thumb Code    12  systeminfo.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI23QDeclarativeGeneralInfoEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QDeclarativeNetworkInfo>>(T1*) 0x0000ac91   Thumb Code    12  systeminfo.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI23QDeclarativeNetworkInfoEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QDeclarativeScreenSaver>>(T1*) 0x0000ac9d   Thumb Code    12  systeminfo.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyI23QDeclarativeScreenSaverEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QtMobility::QSystemDisplayInfo>>(T1*) 0x0000aca9   Thumb Code    12  systeminfo.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility18QSystemDisplayInfoEEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeListProperty<QtMobility::QSystemStorageInfo>>(T1*) 0x0000acb5   Thumb Code    12  systeminfo.o(t._Z21qMetaTypeDeleteHelperI24QDeclarativeListPropertyIN10QtMobility18QSystemStorageInfoEEEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeDeviceInfo*>(T1*) 0x0000acc1   Thumb Code    12  systeminfo.o(t._Z21qMetaTypeDeleteHelperIP22QDeclarativeDeviceInfoEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeGeneralInfo*>(T1*) 0x0000accd   Thumb Code    12  systeminfo.o(t._Z21qMetaTypeDeleteHelperIP23QDeclarativeGeneralInfoEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeNetworkInfo*>(T1*) 0x0000acd9   Thumb Code    12  systeminfo.o(t._Z21qMetaTypeDeleteHelperIP23QDeclarativeNetworkInfoEvPT_)
+    qMetaTypeDeleteHelper<QDeclarativeScreenSaver*>(T1*) 0x0000ace5   Thumb Code    12  systeminfo.o(t._Z21qMetaTypeDeleteHelperIP23QDeclarativeScreenSaverEvPT_)
+    qMetaTypeDeleteHelper<QtMobility::QSystemDisplayInfo*>(T1*) 0x0000acf1   Thumb Code    12  systeminfo.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility18QSystemDisplayInfoEEvPT_)
+    qMetaTypeDeleteHelper<QtMobility::QSystemStorageInfo*>(T1*) 0x0000acfd   Thumb Code    12  systeminfo.o(t._Z21qMetaTypeDeleteHelperIPN10QtMobility18QSystemStorageInfoEEvPT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QDeclarativeDeviceInfo>>(const T1*) 0x0000ad09   Thumb Code   150  systeminfo.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI22QDeclarativeDeviceInfoEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QDeclarativeGeneralInfo>>(const T1*) 0x0000ada3   Thumb Code   150  systeminfo.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI23QDeclarativeGeneralInfoEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QDeclarativeNetworkInfo>>(const T1*) 0x0000ae3d   Thumb Code   150  systeminfo.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI23QDeclarativeNetworkInfoEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QDeclarativeScreenSaver>>(const T1*) 0x0000aed7   Thumb Code   150  systeminfo.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyI23QDeclarativeScreenSaverEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QtMobility::QSystemDisplayInfo>>(const T1*) 0x0000af71   Thumb Code   150  systeminfo.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility18QSystemDisplayInfoEEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeListProperty<QtMobility::QSystemStorageInfo>>(const T1*) 0x0000b00b   Thumb Code   150  systeminfo.o(t._Z24qMetaTypeConstructHelperI24QDeclarativeListPropertyIN10QtMobility18QSystemStorageInfoEEEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeDeviceInfo*>(const T1*) 0x0000b0a5   Thumb Code    50  systeminfo.o(t._Z24qMetaTypeConstructHelperIP22QDeclarativeDeviceInfoEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeGeneralInfo*>(const T1*) 0x0000b0d7   Thumb Code    50  systeminfo.o(t._Z24qMetaTypeConstructHelperIP23QDeclarativeGeneralInfoEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeNetworkInfo*>(const T1*) 0x0000b109   Thumb Code    50  systeminfo.o(t._Z24qMetaTypeConstructHelperIP23QDeclarativeNetworkInfoEPvPKT_)
+    qMetaTypeConstructHelper<QDeclarativeScreenSaver*>(const T1*) 0x0000b13b   Thumb Code    50  systeminfo.o(t._Z24qMetaTypeConstructHelperIP23QDeclarativeScreenSaverEPvPKT_)
+    qMetaTypeConstructHelper<QtMobility::QSystemDisplayInfo*>(const T1*) 0x0000b16d   Thumb Code    50  systeminfo.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility18QSystemDisplayInfoEEPvPKT_)
+    qMetaTypeConstructHelper<QtMobility::QSystemStorageInfo*>(const T1*) 0x0000b19f   Thumb Code    50  systeminfo.o(t._Z24qMetaTypeConstructHelperIPN10QtMobility18QSystemStorageInfoEEPvPKT_)
+    QDeclarativePrivate::createInto<QDeclarativeDeviceInfo>(void*) 0x0000b1d1   Thumb Code    38  systeminfo.o(t._ZN19QDeclarativePrivate10createIntoI22QDeclarativeDeviceInfoEEvPv)
+    QDeclarativePrivate::createInto<QDeclarativeGeneralInfo>(void*) 0x0000b209   Thumb Code    38  systeminfo.o(t._ZN19QDeclarativePrivate10createIntoI23QDeclarativeGeneralInfoEEvPv)
+    QDeclarativePrivate::createInto<QDeclarativeNetworkInfo>(void*) 0x0000b241   Thumb Code    38  systeminfo.o(t._ZN19QDeclarativePrivate10createIntoI23QDeclarativeNetworkInfoEEvPv)
+    QDeclarativePrivate::createInto<QDeclarativeScreenSaver>(void*) 0x0000b279   Thumb Code    38  systeminfo.o(t._ZN19QDeclarativePrivate10createIntoI23QDeclarativeScreenSaverEEvPv)
+    QDeclarativePrivate::createInto<QtMobility::QSystemDisplayInfo>(void*) 0x0000b2b1   Thumb Code    38  systeminfo.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility18QSystemDisplayInfoEEEvPv)
+    QDeclarativePrivate::createInto<QtMobility::QSystemStorageInfo>(void*) 0x0000b2e9   Thumb Code    38  systeminfo.o(t._ZN19QDeclarativePrivate10createIntoIN10QtMobility18QSystemStorageInfoEEEvPv)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeDeviceInfo>::~QDeclarativeElement() 0x0000b321   Thumb Code    26  systeminfo.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI22QDeclarativeDeviceInfoED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeDeviceInfo>::~QDeclarativeElement__sub_object() 0x0000b321   Thumb Code     0  systeminfo.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI22QDeclarativeDeviceInfoED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeGeneralInfo>::~QDeclarativeElement() 0x0000b34d   Thumb Code    26  systeminfo.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGeneralInfoED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeGeneralInfo>::~QDeclarativeElement__sub_object() 0x0000b34d   Thumb Code     0  systeminfo.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGeneralInfoED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeNetworkInfo>::~QDeclarativeElement() 0x0000b379   Thumb Code    24  systeminfo.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeNetworkInfoED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeNetworkInfo>::~QDeclarativeElement__sub_object() 0x0000b379   Thumb Code     0  systeminfo.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeNetworkInfoED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeScreenSaver>::~QDeclarativeElement() 0x0000b3a1   Thumb Code    24  systeminfo.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeScreenSaverED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QDeclarativeScreenSaver>::~QDeclarativeElement__sub_object() 0x0000b3a1   Thumb Code     0  systeminfo.o(t._ZN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeScreenSaverED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QSystemDisplayInfo>::~QDeclarativeElement() 0x0000b3c9   Thumb Code    24  systeminfo.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemDisplayInfoEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QSystemDisplayInfo>::~QDeclarativeElement__sub_object() 0x0000b3c9   Thumb Code     0  systeminfo.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemDisplayInfoEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QSystemStorageInfo>::~QDeclarativeElement() 0x0000b3f1   Thumb Code    24  systeminfo.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemStorageInfoEED1Ev)
+    QDeclarativePrivate::QDeclarativeElement<QtMobility::QSystemStorageInfo>::~QDeclarativeElement__sub_object() 0x0000b3f1   Thumb Code     0  systeminfo.o(t._ZN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemStorageInfoEED1Ev)
+    QGlobalStaticDeleter<QtMobility::QSystemInfo>::~QGlobalStaticDeleter() 0x0000b417   Thumb Code    38  qdeclarativegeneralinfo.o(t._ZN20QGlobalStaticDeleterIN10QtMobility11QSystemInfoEED1Ev)
+    QGlobalStaticDeleter<QtMobility::QSystemInfo>::~QGlobalStaticDeleter__sub_object() 0x0000b417   Thumb Code     0  qdeclarativegeneralinfo.o(t._ZN20QGlobalStaticDeleterIN10QtMobility11QSystemInfoEED1Ev)
+    QGlobalStaticDeleter<QtMobility::QSystemDeviceInfo>::~QGlobalStaticDeleter() 0x0000b43d   Thumb Code    38  qdeclarativedeviceinfo.o(t._ZN20QGlobalStaticDeleterIN10QtMobility17QSystemDeviceInfoEED1Ev)
+    QGlobalStaticDeleter<QtMobility::QSystemDeviceInfo>::~QGlobalStaticDeleter__sub_object() 0x0000b43d   Thumb Code     0  qdeclarativedeviceinfo.o(t._ZN20QGlobalStaticDeleterIN10QtMobility17QSystemDeviceInfoEED1Ev)
+    QGlobalStaticDeleter<QtMobility::QSystemNetworkInfo>::~QGlobalStaticDeleter() 0x0000b463   Thumb Code    38  qdeclarativenetworkinfo.o(t._ZN20QGlobalStaticDeleterIN10QtMobility18QSystemNetworkInfoEED1Ev)
+    QGlobalStaticDeleter<QtMobility::QSystemNetworkInfo>::~QGlobalStaticDeleter__sub_object() 0x0000b463   Thumb Code     0  qdeclarativenetworkinfo.o(t._ZN20QGlobalStaticDeleterIN10QtMobility18QSystemNetworkInfoEED1Ev)
+    QList<QtMobility::QSystemNetworkInfo::NetworkMode>::detach_helper(int) 0x0000b489   Thumb Code   190  moc_qdeclarativenetworkinfo_p.o(t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE13detach_helperEi)
+    QList<QtMobility::QSystemNetworkInfo::NetworkMode>::detach_helper() 0x0000b557   Thumb Code    16  moc_qdeclarativenetworkinfo_p.o(t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE13detach_helperEv)
+    QList<QtMobility::QSystemNetworkInfo::NetworkMode>::node_destruct(QList<QtMobility::QSystemNetworkInfo::NetworkMode>::Node*, QList<QtMobility::QSystemNetworkInfo::NetworkMode>::Node*) 0x0000b567   Thumb Code    26  qdeclarativenetworkinfo.o(t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE13node_destructEPNS3_4NodeES5_)
+    QList<QtMobility::QSystemNetworkInfo::NetworkMode>::node_construct(QList<QtMobility::QSystemNetworkInfo::NetworkMode>::Node*, const QtMobility::QSystemNetworkInfo::NetworkMode&) 0x0000b581   Thumb Code    30  qdeclarativenetworkinfo.o(t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE14node_constructEPNS3_4NodeERKS2_)
+    QList<QtMobility::QSystemNetworkInfo::NetworkMode>::detach_helper_grow(int, int) 0x0000b59f   Thumb Code   220  qdeclarativenetworkinfo.o(t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE18detach_helper_growEii)
+    QList<QtMobility::QSystemNetworkInfo::NetworkMode>::free(QListData::Data*) 0x0000b68b   Thumb Code    58  qdeclarativenetworkinfo.o(t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE4freeEPN9QListData4DataE)
+    QList<QtMobility::QSystemNetworkInfo::NetworkMode>::append(const QtMobility::QSystemNetworkInfo::NetworkMode&) 0x0000b6c5   Thumb Code   112  qdeclarativenetworkinfo.o(t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE6appendERKS2_)
+    QList<QtMobility::QSystemNetworkInfo::NetworkMode>::node_copy(QList<QtMobility::QSystemNetworkInfo::NetworkMode>::Node*, QList<QtMobility::QSystemNetworkInfo::NetworkMode>::Node*, QList<QtMobility::QSystemNetworkInfo::NetworkMode>::Node*) 0x0000b747   Thumb Code    78  qdeclarativenetworkinfo.o(t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEE9node_copyEPNS3_4NodeES5_S5_)
+    QList<QtMobility::QSystemNetworkInfo::NetworkMode>::~QList() 0x0000b79d   Thumb Code    32  moc_qdeclarativenetworkinfo_p.o(t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEED1Ev)
+    QList<QtMobility::QSystemNetworkInfo::NetworkMode>::~QList__sub_object() 0x0000b79d   Thumb Code     0  moc_qdeclarativenetworkinfo_p.o(t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEED1Ev)
+    QList<QtMobility::QSystemNetworkInfo::NetworkMode>::operator =(const QList<QtMobility::QSystemNetworkInfo::NetworkMode>&) 0x0000b7bd   Thumb Code    76  moc_qdeclarativenetworkinfo_p.o(t._ZN5QListIN10QtMobility18QSystemNetworkInfo11NetworkModeEEaSERKS3_)
+    QPointer<QObject>::~QPointer()           0x0000b809   Thumb Code    14  systeminfo.o(t._ZN8QPointerI7QObjectED1Ev)
+    QPointer<QObject>::~QPointer__sub_object() 0x0000b809   Thumb Code     0  systeminfo.o(t._ZN8QPointerI7QObjectED1Ev)
+    QDeclarativeNetworkInfo::staticMetaObject 0x0000c324   Data          16  moc_qdeclarativenetworkinfo_p.o(.constdata)
+    QDeclarativeScreenSaver::staticMetaObject 0x0000c430   Data          16  moc_qdeclarativescreensaver_p.o(.constdata)
+    QDeclarativeDeviceInfo::staticMetaObject 0x0000c854   Data          16  moc_qdeclarativedeviceinfo_p.o(.constdata)
+    QDeclarativeGeneralInfo::staticMetaObject 0x0000c968   Data          16  moc_qdeclarativegeneralinfo_p.o(.constdata)
+    QSystemInfoDeclarativeModule::staticMetaObject 0x0000ca30   Data          16  systeminfo.o(.constdata)
+    stlp_priv::_Integer_limits<signed char, (signed char)-128, (signed char)127, (int)-1, (bool)1>::digits 0x0000cc2c   Data           4  moc_qdeclarativenetworkinfo_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<bool, (bool)0, (bool)1, (int)1, (bool)0>::digits 0x0000cc30   Data           4  moc_qdeclarativenetworkinfo_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    stlp_priv::_Integer_limits<char, (char)128, (char)127, (int)-1, (bool)1>::digits 0x0000cc34   Data           4  moc_qdeclarativenetworkinfo_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned char, (unsigned char)0, (unsigned char)255, (int)-1, (bool)1>::digits 0x0000cc38   Data           4  moc_qdeclarativenetworkinfo_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::digits 0x0000cc3c   Data           4  moc_qdeclarativenetworkinfo_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::is_signed 0x0000cc40   Data           1  moc_qdeclarativenetworkinfo_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    stlp_priv::_Integer_limits<unsigned, (unsigned)0, (unsigned)4294967295, (int)-1, (bool)1>::digits 0x0000cc44   Data           4  moc_qdeclarativenetworkinfo_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long, (long)-2147483648, (long)2147483647, (int)-1, (bool)1>::digits 0x0000cc48   Data           4  moc_qdeclarativenetworkinfo_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long, (unsigned long)0, (unsigned long)4294967295, (int)-1, (bool)1>::digits 0x0000cc4c   Data           4  moc_qdeclarativenetworkinfo_p.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<short, (short)-32768, (short)32767, (int)-1, (bool)1>::digits 0x0000cc50   Data           4  moc_qdeclarativenetworkinfo_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned short, (unsigned short)0, (unsigned short)65535, (int)-1, (bool)1>::digits 0x0000cc54   Data           4  moc_qdeclarativenetworkinfo_p.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<wchar_t, (wchar_t)0, (wchar_t)65535, (int)-1, (bool)1>::digits 0x0000cc58   Data           4  moc_qdeclarativenetworkinfo_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long long, (long long)-9223372036854775808, (long long)9223372036854775807, (int)-1, (bool)1>::digits 0x0000cc5c   Data           4  moc_qdeclarativenetworkinfo_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long long, (unsigned long long)0, (unsigned long long)18446744073709551615, (int)-1, (bool)1>::digits 0x0000cc60   Data           4  moc_qdeclarativenetworkinfo_p.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    typeinfo for QDeclarativeDeviceInfo      0x0000cc64   Data          12  moc_qdeclarativedeviceinfo_p.o(.constdata__ZTI22QDeclarativeDeviceInfo)
+    typeinfo for QDeclarativeGeneralInfo     0x0000cc70   Data          12  moc_qdeclarativegeneralinfo_p.o(.constdata__ZTI23QDeclarativeGeneralInfo)
+    typeinfo for QDeclarativeNetworkInfo     0x0000cc7c   Data          12  moc_qdeclarativenetworkinfo_p.o(.constdata__ZTI23QDeclarativeNetworkInfo)
+    typeinfo for QDeclarativeScreenSaver     0x0000cc88   Data          12  moc_qdeclarativescreensaver_p.o(.constdata__ZTI23QDeclarativeScreenSaver)
+    typeinfo for QSystemInfoDeclarativeModule 0x0000cc94   Data          12  systeminfo.o(.constdata__ZTI28QSystemInfoDeclarativeModule)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QDeclarativeDeviceInfo> 0x0000cca0   Data          12  systeminfo.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI22QDeclarativeDeviceInfoEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QDeclarativeGeneralInfo> 0x0000ccac   Data          12  systeminfo.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGeneralInfoEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QDeclarativeNetworkInfo> 0x0000ccb8   Data          12  systeminfo.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeNetworkInfoEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QDeclarativeScreenSaver> 0x0000ccc4   Data          12  systeminfo.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeScreenSaverEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QtMobility::QSystemDisplayInfo> 0x0000ccd0   Data          12  systeminfo.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemDisplayInfoEEE)
+    typeinfo for QDeclarativePrivate::QDeclarativeElement<QtMobility::QSystemStorageInfo> 0x0000ccdc   Data          12  systeminfo.o(.constdata__ZTIN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemStorageInfoEEE)
+    typeinfo name for QDeclarativeDeviceInfo 0x0000cce8   Data          25  moc_qdeclarativedeviceinfo_p.o(.constdata__ZTS22QDeclarativeDeviceInfo)
+    typeinfo name for QDeclarativeGeneralInfo 0x0000cd01   Data          26  moc_qdeclarativegeneralinfo_p.o(.constdata__ZTS23QDeclarativeGeneralInfo)
+    typeinfo name for QDeclarativeNetworkInfo 0x0000cd1b   Data          26  moc_qdeclarativenetworkinfo_p.o(.constdata__ZTS23QDeclarativeNetworkInfo)
+    typeinfo name for QDeclarativeScreenSaver 0x0000cd35   Data          26  moc_qdeclarativescreensaver_p.o(.constdata__ZTS23QDeclarativeScreenSaver)
+    typeinfo name for QSystemInfoDeclarativeModule 0x0000cd4f   Data          31  systeminfo.o(.constdata__ZTS28QSystemInfoDeclarativeModule)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QDeclarativeDeviceInfo> 0x0000cd6e   Data          71  systeminfo.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI22QDeclarativeDeviceInfoEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QDeclarativeGeneralInfo> 0x0000cdb5   Data          72  systeminfo.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGeneralInfoEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QDeclarativeNetworkInfo> 0x0000cdfd   Data          72  systeminfo.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeNetworkInfoEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QDeclarativeScreenSaver> 0x0000ce45   Data          72  systeminfo.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeScreenSaverEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QtMobility::QSystemDisplayInfo> 0x0000ce8d   Data          81  systeminfo.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemDisplayInfoEEE)
+    typeinfo name for QDeclarativePrivate::QDeclarativeElement<QtMobility::QSystemStorageInfo> 0x0000cede   Data          81  systeminfo.o(.constdata__ZTSN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemStorageInfoEEE)
+    vtable for QDeclarativeDeviceInfo        0x0000cf30   Data          56  moc_qdeclarativedeviceinfo_p.o(.constdata__ZTV22QDeclarativeDeviceInfo)
+    vtable for QDeclarativeGeneralInfo       0x0000cf68   Data          56  moc_qdeclarativegeneralinfo_p.o(.constdata__ZTV23QDeclarativeGeneralInfo)
+    vtable for QDeclarativeNetworkInfo       0x0000cfa0   Data          56  moc_qdeclarativenetworkinfo_p.o(.constdata__ZTV23QDeclarativeNetworkInfo)
+    vtable for QDeclarativeScreenSaver       0x0000cfd8   Data          56  moc_qdeclarativescreensaver_p.o(.constdata__ZTV23QDeclarativeScreenSaver)
+    vtable for QSystemInfoDeclarativeModule  0x0000d010   Data          88  systeminfo.o(.constdata__ZTV28QSystemInfoDeclarativeModule)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QDeclarativeDeviceInfo> 0x0000d068   Data          56  systeminfo.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI22QDeclarativeDeviceInfoEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QDeclarativeGeneralInfo> 0x0000d0a0   Data          56  systeminfo.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeGeneralInfoEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QDeclarativeNetworkInfo> 0x0000d0d8   Data          56  systeminfo.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeNetworkInfoEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QDeclarativeScreenSaver> 0x0000d110   Data          56  systeminfo.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementI23QDeclarativeScreenSaverEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QtMobility::QSystemDisplayInfo> 0x0000d148   Data          56  systeminfo.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemDisplayInfoEEE)
+    vtable for QDeclarativePrivate::QDeclarativeElement<QtMobility::QSystemStorageInfo> 0x0000d180   Data          56  systeminfo.o(.constdata__ZTVN19QDeclarativePrivate19QDeclarativeElementIN10QtMobility18QSystemStorageInfoEEE)
+    .ARM.exidx$$Base                         0x0000d380   Number         0  ucppinit.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x0000d800   Number         0  systeminfo.o(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x0000d800   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    __dso_handle                             0x00400038   Data           4  ucppfini.o(.data)
+    std::_Atomic_swap_struct<(int)1>::_S_swap_lock 0x0040003c   Data          12  moc_qdeclarativenetworkinfo_p.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    QMetaTypeId<QDeclarativeListProperty<QDeclarativeDeviceInfo>>::qt_metatype_id()::metatype_id 0x00400048   Data           4  systeminfo.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI22QDeclarativeDeviceInfoEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeListProperty<QDeclarativeGeneralInfo>>::qt_metatype_id()::metatype_id 0x0040004c   Data           4  systeminfo.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI23QDeclarativeGeneralInfoEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeListProperty<QDeclarativeNetworkInfo>>::qt_metatype_id()::metatype_id 0x00400050   Data           4  systeminfo.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI23QDeclarativeNetworkInfoEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeListProperty<QDeclarativeScreenSaver>>::qt_metatype_id()::metatype_id 0x00400054   Data           4  systeminfo.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyI23QDeclarativeScreenSaverEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeListProperty<QtMobility::QSystemDisplayInfo>>::qt_metatype_id()::metatype_id 0x00400058   Data           4  systeminfo.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyIN10QtMobility18QSystemDisplayInfoEEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeListProperty<QtMobility::QSystemStorageInfo>>::qt_metatype_id()::metatype_id 0x0040005c   Data           4  systeminfo.o(.data__ZZN11QMetaTypeIdI24QDeclarativeListPropertyIN10QtMobility18QSystemStorageInfoEEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeDeviceInfo*>::qt_metatype_id()::metatype_id 0x00400060   Data           4  systeminfo.o(.data__ZZN11QMetaTypeIdIP22QDeclarativeDeviceInfoE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeGeneralInfo*>::qt_metatype_id()::metatype_id 0x00400064   Data           4  systeminfo.o(.data__ZZN11QMetaTypeIdIP23QDeclarativeGeneralInfoE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeNetworkInfo*>::qt_metatype_id()::metatype_id 0x00400068   Data           4  systeminfo.o(.data__ZZN11QMetaTypeIdIP23QDeclarativeNetworkInfoE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QDeclarativeScreenSaver*>::qt_metatype_id()::metatype_id 0x0040006c   Data           4  systeminfo.o(.data__ZZN11QMetaTypeIdIP23QDeclarativeScreenSaverE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QtMobility::QSystemDisplayInfo*>::qt_metatype_id()::metatype_id 0x00400070   Data           4  systeminfo.o(.data__ZZN11QMetaTypeIdIPN10QtMobility18QSystemDisplayInfoEE14qt_metatype_idEvE11metatype_id)
+    QMetaTypeId<QtMobility::QSystemStorageInfo*>::qt_metatype_id()::metatype_id 0x00400074   Data           4  systeminfo.o(.data__ZZN11QMetaTypeIdIPN10QtMobility18QSystemStorageInfoEE14qt_metatype_idEvE11metatype_id)
+    dtor_rec                                 0x00400078   Data        2048  ucppfini.o(.bss)
+

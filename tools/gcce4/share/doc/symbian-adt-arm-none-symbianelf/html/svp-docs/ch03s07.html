@@ -1,0 +1,36 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>3.7. Real-Time Clock</title><link rel="stylesheet" href="cs.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.74.0"><link rel="home" href="index.html" title="Symbian ADT Sourcery G++ Lite"><link rel="up" href="chap-devices.html" title="Chapter 3. Base Platform Devices"><link rel="prev" href="ch03s06.html" title="3.6. Interval Timer"><link rel="next" href="ch03s08.html" title="3.8. Pointer Controller"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">3.7. Real-Time Clock</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="ch03s06.html">Prev</a> </td><th width="60%" align="center">Chapter 3. Base Platform Devices</th><td width="20%" align="right"> <a accesskey="n" href="ch03s08.html">Next</a></td></tr></table><hr></div><div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="id359424"></a>3.7. Real-Time Clock</h2></div></div></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id359430"></a>3.7.1. Description</h3></div></div></div><p>
+    This device is a free-running reference clock.
+   </p><p>
+    The clock counts the number of nanoseconds
+    (10<sup>-9</sup>s) since the UNIX Epoch
+    (00:00:00 UTC, January 1, 1970).
+   </p><p>
+    For convenience the counter can also be read in seconds,
+    microseconds, and milliseconds.
+   </p><p>
+    Because the counter value is 64-bit, accesses are explicitly latched.
+    Issuing a read latch command (0-3) copies the current counter value
+    to the data register.  A write latch command (4) sets the counter
+    to the value in the data register.
+   </p></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id359459"></a>3.7.2. Device Properties</h3></div></div></div><div class="variablelist"><dl><dt><span class="term"><code class="literal">compatible</code></span></dt><dd><code class="literal">syborg,rtc</code></dd></dl></div></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="id359491"></a>3.7.3. Registers</h3></div></div></div><p>
+    </p><div class="table"><a name="id359499"></a><p class="title"><b>Table 3.6. Real-Time Clock Registers</b></p><div class="table-contents"><table summary="Real-Time Clock Registers" border="1"><colgroup><col><col><col><col><col></colgroup><thead><tr><th>Offset</th><th>Access</th><th>Reset</th><th>Name</th><th>Description</th></tr></thead><tbody><tr><td>0x000</td><td>R</td><td>0xc51d1004</td><td>ID</td><td><p>
+          Peripheral ID.
+        </p></td></tr><tr><td>0x004</td><td>W</td><td>N/A</td><td>LATCH</td><td><p>
+          Timer latch control.
+          </p><div class="variablelist"><dl><dt><span class="term"><code class="literal">0</code></span></dt><dd><p>
+              Read counter (nanoseconds).
+             </p></dd><dt><span class="term"><code class="literal">1</code></span></dt><dd><p>
+              Read counter (microseconds).
+             </p></dd><dt><span class="term"><code class="literal">2</code></span></dt><dd><p>
+              Read counter (milliseconds).
+             </p></dd><dt><span class="term"><code class="literal">3</code></span></dt><dd><p>
+              Read counter (seconds).
+             </p></dd><dt><span class="term"><code class="literal">4</code></span></dt><dd><p>
+              Write counter.
+             </p></dd></dl></div><p>
+        </p></td></tr><tr><td>0x008</td><td>RW</td><td>0x00000000</td><td>DATA_LOW</td><td><p>
+          The low (least significant) 32 bits of the data register.
+        </p></td></tr><tr><td>0x00c</td><td>RW</td><td>0x00000000</td><td>DATA_HIGH</td><td><p>
+          The high (most significant) 32 bits of the data register.
+        </p></td></tr></tbody></table></div></div><p><br class="table-break">
+   </p></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ch03s06.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="chap-devices.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="ch03s08.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">3.6. Interval Timer </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> 3.8. Pointer Controller</td></tr></table></div></body></html>

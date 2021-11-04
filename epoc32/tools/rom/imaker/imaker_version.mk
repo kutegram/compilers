@@ -1,0 +1,1 @@
+IMAKER_VERSION = iMaker 08.46.02, 14-Nov-2008.

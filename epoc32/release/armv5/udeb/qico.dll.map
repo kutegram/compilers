@@ -1,0 +1,496 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../../unhosted.s                         0x00000000   Number         0  switch8.o ABSOLUTE
+    M:\\epoc32\\build\\euser\\c_e18a23aea4fd210f\\edll_lib\\armv5\\udeb\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\\sf\\os\\kernelhwsrv\\kernel\\eka\\compsupp\\rvct\\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\epoc32\build\euser\c_e18a23aea4fd210f\edll_lib\armv5\udeb\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\dllexp.cpp 0x00000000   Number         0  dllexp.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    S:\sf\mw\qt\src\plugins\imageformats\ico\main.cpp 0x00000000   Number         0  main.o ABSOLUTE
+    S:\sf\mw\qt\src\plugins\imageformats\ico\qicohandler.cpp 0x00000000   Number         0  qicohandler.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    Symbian$$eit_base                        0x00008014   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$eit_limit                       0x00008018   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_base                   0x0000801c   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$code_seg_limit                  0x00008020   Data           4  uc_dll_.o(.emb_text)
+    Symbian$$reserved                        0x00008024   Data           4  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       52  ucppinit.o(.emb_text)
+    loop                                     0x0000803c   ARM Code       0  ucppinit.o(.emb_text)
+    ret                                      0x00008044   ARM Code       0  ucppinit.o(.emb_text)
+    base                                     0x00008054   Data           0  ucppinit.o(.emb_text)
+    limit                                    0x00008058   Data           0  ucppinit.o(.emb_text)
+    .text                                    0x000082bc   Section      588  main.o(.text)
+    readIconDirEntry(QIODevice*, ICONDIRENTRY*) 0x00008509   Thumb Code   104  qicohandler.o(.text)
+    .text                                    0x00008508   Section     5560  qicohandler.o(.text)
+    writeIconDirEntry(QIODevice*, const ICONDIRENTRY&) 0x00008571   Thumb Code   106  qicohandler.o(.text)
+    readIconDir(QIODevice*, ICONDIR*)        0x000085db   Thumb Code    76  qicohandler.o(.text)
+    writeIconDir(QIODevice*, const ICONDIR&) 0x00008627   Thumb Code    78  qicohandler.o(.text)
+    readBMPInfoHeader(QIODevice*, BMP_INFOHDR*) 0x00008675   Thumb Code   142  qicohandler.o(.text)
+    writeBMPInfoHeader(QIODevice*, const BMP_INFOHDR&) 0x00008703   Thumb Code   144  qicohandler.o(.text)
+    |L1.2260|                                0x00008ddc   Data           0  qicohandler.o(.text)
+    .text                                    0x00009ac0   Section       24  switch8.o(.text)
+    .text                                    0x00009ad8   Section       80  uc_dll.o(.text)
+    .text                                    0x00009b28   Section      180  ucppfini.o(.text)
+    .text                                    0x00009bdc   Section        4  dllexp.o(.text)
+    .text.clean                              0x00009be0   Section       60  main.o(.text.clean)
+    .text.clean                              0x00009c1c   Section      270  qicohandler.o(.text.clean)
+    i._Z4qRgbiii                             0x00009d2a   Section       28  qicohandler.o(i._Z4qRgbiii)
+    i._Z5qRgbaiiii                           0x00009d46   Section       26  qicohandler.o(i._Z5qRgbaiiii)
+    i._ZN10QByteArrayC1Ev                    0x00009d60   Section       24  qicohandler.o(i._ZN10QByteArrayC1Ev)
+    i._ZN10QByteArrayD1Ev                    0x00009d78   Section       24  qicohandler.o(i._ZN10QByteArrayD1Ev)
+    i._ZN10QICOPluginD0Ev                    0x00009d90   Section       24  main.o(i._ZN10QICOPluginD0Ev)
+    i._ZN10QICOPluginD1Ev                    0x00009da8   Section       14  main.o(i._ZN10QICOPluginD1Ev)
+    i._ZN11QStringListD1Ev                   0x00009db6   Section       14  main.o(i._ZN11QStringListD1Ev)
+    i._ZN15QBasicAtomicInt3refEv             0x00009dc4   Section       24  main.o(i._ZN15QBasicAtomicInt3refEv)
+    i._ZN15QBasicAtomicInt5derefEv           0x00009ddc   Section       24  main.o(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN7QStringC1ERKS_                     0x00009df4   Section      124  main.o(i._ZN7QStringC1ERKS_)
+    i._ZN7QStringD1Ev                        0x00009e70   Section       24  main.o(i._ZN7QStringD1Ev)
+    i._ZNK10QByteArray7isEmptyEv             0x00009e88   Section       18  main.o(i._ZNK10QByteArray7isEmptyEv)
+    i._ZNK9QListData3endEv                   0x00009e9a   Section       16  main.o(i._ZNK9QListData3endEv)
+    i._ZNK9QListData5beginEv                 0x00009eaa   Section       16  main.o(i._ZNK9QListData5beginEv)
+    i._ZThn8_N10QICOPluginD0Ev               0x00009eba   Section       14  main.o(i._ZThn8_N10QICOPluginD0Ev)
+    i._ZThn8_N10QICOPluginD1Ev               0x00009ec8   Section       18  main.o(i._ZThn8_N10QICOPluginD1Ev)
+    i._ZdlPvS_                               0x00009eda   Section        2  main.o(i._ZdlPvS_)
+    i._ZnwjPv                                0x00009edc   Section        6  main.o(i._ZnwjPv)
+    t._Z15qToLittleEndianIjEvT_Ph            0x00009ee2   Section       20  qicohandler.o(t._Z15qToLittleEndianIjEvT_Ph)
+    t._Z15qToLittleEndianItEvT_Ph            0x00009ef6   Section       20  qicohandler.o(t._Z15qToLittleEndianItEvT_Ph)
+    t._Z17qFromLittleEndianIjET_PKh          0x00009f0a   Section       28  qicohandler.o(t._Z17qFromLittleEndianIjET_PKh)
+    t._Z17qFromLittleEndianItET_PKh          0x00009f26   Section       20  qicohandler.o(t._Z17qFromLittleEndianItET_PKh)
+    t._ZN5QListI6QImageE13node_destructEPNS1_4NodeES3_ 0x00009f3a   Section       36  qicohandler.o(t._ZN5QListI6QImageE13node_destructEPNS1_4NodeES3_)
+    t._ZN5QListI6QImageE14node_constructEPNS1_4NodeERKS0_ 0x00009f5e   Section       34  qicohandler.o(t._ZN5QListI6QImageE14node_constructEPNS1_4NodeERKS0_)
+    t._ZN5QListI6QImageE14node_constructEPNS1_4NodeERKS0_.clean 0x00009f80   Section       14  qicohandler.o(t._ZN5QListI6QImageE14node_constructEPNS1_4NodeERKS0_.clean)
+    t._ZN5QListI6QImageE18detach_helper_growEii 0x00009f8e   Section      220  qicohandler.o(t._ZN5QListI6QImageE18detach_helper_growEii)
+    t._ZN5QListI6QImageE18detach_helper_growEii.clean 0x0000a06a   Section       16  qicohandler.o(t._ZN5QListI6QImageE18detach_helper_growEii.clean)
+    t._ZN5QListI6QImageE4freeEPN9QListData4DataE 0x0000a07a   Section       58  qicohandler.o(t._ZN5QListI6QImageE4freeEPN9QListData4DataE)
+    t._ZN5QListI6QImageE6appendERKS0_        0x0000a0b4   Section      116  qicohandler.o(t._ZN5QListI6QImageE6appendERKS0_)
+    t._ZN5QListI6QImageE6appendERKS0_.clean  0x0000a128   Section       14  qicohandler.o(t._ZN5QListI6QImageE6appendERKS0_.clean)
+    t._ZN5QListI6QImageE9node_copyEPNS1_4NodeES3_S3_ 0x0000a136   Section       90  qicohandler.o(t._ZN5QListI6QImageE9node_copyEPNS1_4NodeES3_S3_)
+    t._ZN5QListI6QImageE9node_copyEPNS1_4NodeES3_S3_.clean 0x0000a190   Section       22  qicohandler.o(t._ZN5QListI6QImageE9node_copyEPNS1_4NodeES3_S3_.clean)
+    t._ZN5QListI6QImageEC1Ev                 0x0000a1a8   Section       24  qicohandler.o(t._ZN5QListI6QImageEC1Ev)
+    t._ZN5QListI6QImageED1Ev                 0x0000a1c0   Section       32  qicohandler.o(t._ZN5QListI6QImageED1Ev)
+    t._ZN5QListI7QStringE13detach_helperEi   0x0000a1e0   Section       94  main.o(t._ZN5QListI7QStringE13detach_helperEi)
+    t._ZN5QListI7QStringE13detach_helperEi.clean 0x0000a23e   Section        8  main.o(t._ZN5QListI7QStringE13detach_helperEi.clean)
+    t._ZN5QListI7QStringE13detach_helperEv   0x0000a246   Section       16  main.o(t._ZN5QListI7QStringE13detach_helperEv)
+    t._ZN5QListI7QStringE13node_destructEPNS1_4NodeES3_ 0x0000a256   Section       26  main.o(t._ZN5QListI7QStringE13node_destructEPNS1_4NodeES3_)
+    t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_ 0x0000a270   Section       36  main.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_)
+    t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_.clean 0x0000a294   Section       14  main.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_.clean)
+    t._ZN5QListI7QStringE18detach_helper_growEii 0x0000a2a2   Section      208  main.o(t._ZN5QListI7QStringE18detach_helper_growEii)
+    t._ZN5QListI7QStringE18detach_helper_growEii.clean 0x0000a372   Section       16  main.o(t._ZN5QListI7QStringE18detach_helper_growEii.clean)
+    t._ZN5QListI7QStringE4freeEPN9QListData4DataE 0x0000a382   Section       58  main.o(t._ZN5QListI7QStringE4freeEPN9QListData4DataE)
+    t._ZN5QListI7QStringE6appendERKS0_       0x0000a3bc   Section      124  main.o(t._ZN5QListI7QStringE6appendERKS0_)
+    t._ZN5QListI7QStringE6appendERKS0_.clean 0x0000a438   Section       14  main.o(t._ZN5QListI7QStringE6appendERKS0_.clean)
+    t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_ 0x0000a446   Section       82  main.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_)
+    t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_.clean 0x0000a498   Section       22  main.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_.clean)
+    t._ZN5QListI7QStringED1Ev                0x0000a4ae   Section       32  main.o(t._ZN5QListI7QStringED1Ev)
+    t._ZN8QPointerI7QObjectED1Ev             0x0000a4ce   Section       14  main.o(t._ZN8QPointerI7QObjectED1Ev)
+    .extab.qt_plugin_instance                0x0000a4dc   Data           0  main.o(.ARM.extab)
+    .extab._ZNK10QICOPlugin4keysEv           0x0000a4f4   Data           0  main.o(.ARM.extab)
+    .extab._ZNK10QICOPlugin6createEP9QIODeviceRK10QByteArray 0x0000a514   Data           0  main.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_ 0x0000a524   Data           0  main.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE13detach_helperEi 0x0000a548   Data           0  main.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_ 0x0000a564   Data           0  main.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE18detach_helper_growEii 0x0000a574   Data           0  main.o(.ARM.extab)
+    .extab._ZN5QListI7QStringE6appendERKS0_  0x0000a5a4   Data           0  main.o(.ARM.extab)
+    .extab._ZN12QtIcoHandlerC1EP9QIODevice   0x0000a5d4   Data           0  qicohandler.o(.ARM.extab)
+    .extab._ZNK12QtIcoHandler7canReadEv      0x0000a5ec   Data           0  qicohandler.o(.ARM.extab)
+    .extab._ZN9ICOReader11read1BitBMPER6QImage 0x0000a5fc   Data           0  qicohandler.o(.ARM.extab)
+    .extab._ZN9ICOReader15read16_24_32BMPER6QImage 0x0000a614   Data           0  qicohandler.o(.ARM.extab)
+    .extab._ZN9ICOReader11read8BitBMPER6QImage 0x0000a62c   Data           0  qicohandler.o(.ARM.extab)
+    .extab._ZN9ICOReader11read4BitBMPER6QImage 0x0000a644   Data           0  qicohandler.o(.ARM.extab)
+    .extab._ZN9ICOReader14readColorTableER6QImage 0x0000a65c   Data           0  qicohandler.o(.ARM.extab)
+    .extab._ZN9ICOReader13findColorInfoER6QImage 0x0000a674   Data           0  qicohandler.o(.ARM.extab)
+    .extab._ZN9ICOReader6iconAtEi            0x0000a684   Data           0  qicohandler.o(.ARM.extab)
+    .extab._ZN12QtIcoHandler4readEP6QImage   0x0000a714   Data           0  qicohandler.o(.ARM.extab)
+    .extab._ZN9ICOReader5writeEP9QIODeviceRK5QListI6QImageE 0x0000a724   Data           0  qicohandler.o(.ARM.extab)
+    .extab._ZN12QtIcoHandler5writeERK6QImage 0x0000a794   Data           0  qicohandler.o(.ARM.extab)
+    .extab._ZN9ICOReader4readEP9QIODevice    0x0000a7a4   Data           0  qicohandler.o(.ARM.extab)
+    .extab._ZN5QListI6QImageE14node_constructEPNS1_4NodeERKS0_ 0x0000a7c4   Data           0  qicohandler.o(.ARM.extab)
+    .extab._ZN5QListI6QImageE9node_copyEPNS1_4NodeES3_S3_ 0x0000a7d4   Data           0  qicohandler.o(.ARM.extab)
+    .extab._ZN5QListI6QImageE18detach_helper_growEii 0x0000a7f8   Data           0  qicohandler.o(.ARM.extab)
+    .extab._ZN5QListI6QImageE6appendERKS0_   0x0000a828   Data           0  qicohandler.o(.ARM.extab)
+    .constdata$1                             0x0000a858   Data           0  main.o(.constdata)
+    qt_plugin_verification_data              0x0000a858   Data          90  main.o(.constdata)
+    .constdata                               0x0000a858   Section       90  main.o(.constdata)
+    .constdata$1                             0x0000a8b2   Data           0  qicohandler.o(.constdata)
+    pngMagicData@_ZN9ICOReader6iconAtEi_0    0x0000a8b2   Data           8  qicohandler.o(.constdata)
+    .constdata                               0x0000a8b2   Section        8  qicohandler.o(.constdata)
+    .constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE 0x0000a8bc   Section        4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE 0x0000a8c0   Section        4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE 0x0000a8c4   Section        4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE 0x0000a8c8   Section        4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE 0x0000a8cc   Section        4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE 0x0000a8d0   Section        1  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE 0x0000a8d4   Section        4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE 0x0000a8d8   Section        4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE 0x0000a8dc   Section        4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE 0x0000a8e0   Section        4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE 0x0000a8e4   Section        4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE 0x0000a8e8   Section        4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE 0x0000a8ec   Section        4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE 0x0000a8f0   Section        4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    .constdata__ZTI10QICOPlugin              0x0000a8f4   Section       12  main.o(.constdata__ZTI10QICOPlugin)
+    .constdata__ZTI12QtIcoHandler            0x0000a900   Section       12  qicohandler.o(.constdata__ZTI12QtIcoHandler)
+    .constdata__ZTS10QICOPlugin              0x0000a90c   Section       13  main.o(.constdata__ZTS10QICOPlugin)
+    .constdata__ZTS12QtIcoHandler            0x0000a919   Section       15  qicohandler.o(.constdata__ZTS12QtIcoHandler)
+    .constdata__ZTV10QICOPlugin              0x0000a928   Section       92  main.o(.constdata__ZTV10QICOPlugin)
+    .constdata__ZTV12QtIcoHandler            0x0000a984   Section       72  qicohandler.o(.constdata__ZTV12QtIcoHandler)
+    .ARM.exidx                               0x0000a9cc   Section        8  ucppinit.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  main.o(.data)
+    _ZGV_instance@qt_plugin_instance_0       0x00400000   Data           4  main.o(.data)
+    .data                                    0x00400000   Section        8  main.o(.data)
+    _instance@qt_plugin_instance_1           0x00400004   Data           4  main.o(.data)
+    .data$0                                  0x00400008   Data           0  ucppfini.o(.data)
+    .data                                    0x00400008   Section        4  ucppfini.o(.data)
+    .data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE 0x0040000c   Section       12  main.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    .bss$5                                   0x00400018   Data           0  ucppfini.o(.bss)
+    .bss                                     0x00400018   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$VFPv2$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$IEEEJ$EBA8$UX$FPIC$INDIRECT$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    QtCore{00040703}[2001b2dc].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    QtGui{00040703}[2001b2dd].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtrvct2_2{000a0000}.dll                 0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    euser{000a0000}[100039e5].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    libc{00010001}[10207369].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    qico{00040703}[2001e616].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    stdnew{000a0000}[20022178].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    qt_assert_x(const char*, const char*, const char*, int)  - Undefined Reference
+    _Z11qt_assert_xPKcS0_S0_i@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qFree(void*)                              - Undefined Reference
+    _Z5qFreePv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qstrcmp(const QByteArray&, const char*)   - Undefined Reference
+    _Z7qstrcmpRK10QByteArrayPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qMemCopy(void*, const void*, unsigned)    - Undefined Reference
+    _Z8qMemCopyPvPKvj@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qWarning(const char*, ...)                - Undefined Reference
+    _Z8qWarningPKcz@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qBadAlloc()                               - Undefined Reference
+    _Z9qBadAllocv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    qt_assert(const char*, const char*, int)  - Undefined Reference
+    _Z9qt_assertPKcS0_i@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::fromRawData(const char*, int)  - Undefined Reference
+    _ZN10QByteArray11fromRawDataEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::shared_null                   - Undefined Reference
+    _ZN10QByteArray11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::QByteArray(const char*)       - Undefined Reference
+    _ZN10QByteArrayC1EPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::changeGuard(QObject**, QObject*)  - Undefined Reference
+    _ZN11QMetaObject11changeGuardEPP7QObjectS1_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::removeGuard(QObject**)       - Undefined Reference
+    _ZN11QMetaObject11removeGuardEPP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QImageIOPlugin::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN14QImageIOPlugin11qt_metacallEN11QMetaObject4CallEiPPv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOPlugin::qt_metacast(const char*)  - Undefined Reference
+    _ZN14QImageIOPlugin11qt_metacastEPKc@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOPlugin::QImageIOPlugin__sub_object(QObject*)  - Undefined Reference
+    _ZN14QImageIOPluginC2EP7QObject@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOPlugin::~QImageIOPlugin__sub_object()  - Undefined Reference
+    _ZN14QImageIOPluginD2Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::setDevice(QIODevice*)    - Undefined Reference
+    _ZN15QImageIOHandler9setDeviceEP9QIODevice@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::setFormat(const QByteArray&)  - Undefined Reference
+    _ZN15QImageIOHandler9setFormatERK10QByteArray@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::setOption(QImageIOHandler::ImageOption, const QVariant&)  - Undefined Reference
+    _ZN15QImageIOHandler9setOptionENS_11ImageOptionERK8QVariant@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::QImageIOHandler__sub_object()  - Undefined Reference
+    _ZN15QImageIOHandlerC2Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::~QImageIOHandler__sub_object()  - Undefined Reference
+    _ZN15QImageIOHandlerD2Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    User::LockedDec(int&)                     - Undefined Reference
+    _ZN4User9LockedDecERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::LockedInc(int&)                     - Undefined Reference
+    _ZN4User9LockedIncERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QImage::invertPixels(QImage::InvertMode)  - Undefined Reference
+    _ZN6QImage12invertPixelsENS_10InvertModeE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::setColorCount(int)                - Undefined Reference
+    _ZN6QImage13setColorCountEi@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::setAlphaChannel(const QImage&)    - Undefined Reference
+    _ZN6QImage15setAlphaChannelERKS_@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::fill(unsigned)                    - Undefined Reference
+    _ZN6QImage4fillEj@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::fromData(const unsigned char*, int, const char*)  - Undefined Reference
+    _ZN6QImage8fromDataEPKhiPKc@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::scanLine(int)                     - Undefined Reference
+    _ZN6QImage8scanLineEi@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::setColor(int, unsigned)           - Undefined Reference
+    _ZN6QImage8setColorEij@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::setPixel(int, int, unsigned)      - Undefined Reference
+    _ZN6QImage8setPixelEiij@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::QImage(const QImage&)             - Undefined Reference
+    _ZN6QImageC1ERKS_@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::QImage(int, int, QImage::Format)  - Undefined Reference
+    _ZN6QImageC1EiiNS_6FormatE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::QImage()                          - Undefined Reference
+    _ZN6QImageC1Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::~QImage()                         - Undefined Reference
+    _ZN6QImageD1Ev@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::operator =(const QImage&)         - Undefined Reference
+    _ZN6QImageaSERKS_@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QBuffer::open(QFlags<QIODevice::OpenModeFlag>)  - Undefined Reference
+    _ZN7QBuffer4openE6QFlagsIN9QIODevice12OpenModeFlagEE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QBuffer::QBuffer(QByteArray*, QObject*)   - Undefined Reference
+    _ZN7QBufferC1EP10QByteArrayP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QBuffer::~QBuffer()                       - Undefined Reference
+    _ZN7QBufferD1Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::childEvent(QChildEvent*)         - Undefined Reference
+    _ZN7QObject10childEventEP11QChildEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::timerEvent(QTimerEvent*)         - Undefined Reference
+    _ZN7QObject10timerEventEP11QTimerEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::customEvent(QEvent*)             - Undefined Reference
+    _ZN7QObject11customEventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::eventFilter(QObject*, QEvent*)   - Undefined Reference
+    _ZN7QObject11eventFilterEPS_P6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connectNotify(const char*)       - Undefined Reference
+    _ZN7QObject13connectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::disconnectNotify(const char*)    - Undefined Reference
+    _ZN7QObject16disconnectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::event(QEvent*)                   - Undefined Reference
+    _ZN7QObject5eventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::fromLatin1_helper(const char*, int)  - Undefined Reference
+    _ZN7QString17fromLatin1_helperEPKci@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::free(QString::Data*)             - Undefined Reference
+    _ZN7QString4freeEPNS_4DataE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QVariant::QVariant(const QSize&)          - Undefined Reference
+    _ZN8QVariantC1ERK5QSize@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QIODevice::read(char*, long long)         - Undefined Reference
+    _ZN9QIODevice4readEPcx@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QIODevice::read(long long)                - Undefined Reference
+    _ZN9QIODevice4readEx@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QIODevice::write(const char*, long long)  - Undefined Reference
+    _ZN9QIODevice5writeEPKcx@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QIODevice::ungetChar(char)                - Undefined Reference
+    _ZN9QIODevice9ungetCharEc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach_grow(int*, int)         - Undefined Reference
+    _ZN9QListData11detach_growEPii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::shared_null                    - Undefined Reference
+    _ZN9QListData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::append()                       - Undefined Reference
+    _ZN9QListData6appendEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach(int)                    - Undefined Reference
+    _ZN9QListData6detachEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QImageIOPlugin::metaObject() const        - Undefined Reference
+    _ZNK14QImageIOPlugin10metaObjectEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::nextImageDelay() const   - Undefined Reference
+    _ZNK15QImageIOHandler14nextImageDelayEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::currentImageRect() const  - Undefined Reference
+    _ZNK15QImageIOHandler16currentImageRectEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::currentImageNumber() const  - Undefined Reference
+    _ZNK15QImageIOHandler18currentImageNumberEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::device() const           - Undefined Reference
+    _ZNK15QImageIOHandler6deviceEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::loopCount() const        - Undefined Reference
+    _ZNK15QImageIOHandler9loopCountEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImageIOHandler::setFormat(const QByteArray&) const  - Undefined Reference
+    _ZNK15QImageIOHandler9setFormatERK10QByteArray@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::bytesPerLine() const              - Undefined Reference
+    _ZNK6QImage12bytesPerLineEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::convertToFormat(QImage::Format, QFlags<Qt::ImageConversionFlag>) const  - Undefined Reference
+    _ZNK6QImage15convertToFormatENS_6FormatE6QFlagsIN2Qt19ImageConversionFlagEE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::createAlphaMask(QFlags<Qt::ImageConversionFlag>) const  - Undefined Reference
+    _ZNK6QImage15createAlphaMaskE6QFlagsIN2Qt19ImageConversionFlagEE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::hasAlphaChannel() const           - Undefined Reference
+    _ZNK6QImage15hasAlphaChannelEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::width() const                     - Undefined Reference
+    _ZNK6QImage5widthEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::height() const                    - Undefined Reference
+    _ZNK6QImage6heightEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::isNull() const                    - Undefined Reference
+    _ZNK6QImage6isNullEv@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QImage::scaled(const QSize&, Qt::AspectRatioMode, Qt::TransformationMode) const  - Undefined Reference
+    _ZNK6QImage6scaledERK5QSizeN2Qt15AspectRatioModeENS3_18TransformationModeE@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    QIODevice::isReadable() const             - Undefined Reference
+    _ZNK9QIODevice10isReadableEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QIODevice::isWritable() const             - Undefined Reference
+    _ZNK9QIODevice10isWritableEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QIODevice::isOpen() const                 - Undefined Reference
+    _ZNK9QIODevice6isOpenEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for QImageIOPlugin               - Undefined Reference
+    _ZTI14QImageIOPlugin@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    typeinfo for QImageIOHandler              - Undefined Reference
+    _ZTI15QImageIOHandler@QtGui{00040703}[2001b2dd].dll  - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv120__si_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    operator delete[] (void*)                 - Undefined Reference
+    _ZdaPv@stdnew{000a0000}[20022178].dll     - Undefined Reference
+    operator delete (void*)                   - Undefined Reference
+    _ZdlPv@stdnew{000a0000}[20022178].dll     - Undefined Reference
+    operator new[] (unsigned)                 - Undefined Reference
+    _Znaj@stdnew{000a0000}[20022178].dll      - Undefined Reference
+    operator new(unsigned)                    - Undefined Reference
+    _Znwj@stdnew{000a0000}[20022178].dll      - Undefined Reference
+    __ARM_ll_addls                            - Undefined Reference
+    __ARM_ll_addls@drtrvct2_2{000a0000}.dll   - Undefined Reference
+    __ARM_ll_addlu                            - Undefined Reference
+    __ARM_ll_addlu@drtrvct2_2{000a0000}.dll   - Undefined Reference
+    __ARM_ll_cmpu                             - Undefined Reference
+    __ARM_ll_cmpu@drtrvct2_2{000a0000}.dll    - Undefined Reference
+    __aeabi_memclr                            - Undefined Reference
+    __aeabi_memclr@drtaeabi{000a0000}.dll     - Undefined Reference
+    __aeabi_unwind_cpp_pr0                    - Undefined Reference
+    __aeabi_unwind_cpp_pr0@drtaeabi{000a0000}.dll  - Undefined Reference
+    __aeabi_vec_delete                        - Undefined Reference
+    __aeabi_vec_delete@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_begin_catch                         - Undefined Reference
+    __cxa_begin_catch@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_end_catch                           - Undefined Reference
+    __cxa_end_catch@drtaeabi{000a0000}.dll    - Undefined Reference
+    __cxa_end_cleanup                         - Undefined Reference
+    __cxa_end_cleanup@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_abort                         - Undefined Reference
+    __cxa_guard_abort@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_acquire                       - Undefined Reference
+    __cxa_guard_acquire@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_release                       - Undefined Reference
+    __cxa_guard_release@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_rethrow                             - Undefined Reference
+    __cxa_rethrow@drtaeabi{000a0000}.dll      - Undefined Reference
+    __cxa_vec_new2                            - Undefined Reference
+    __cxa_vec_new2@drtaeabi{000a0000}.dll     - Undefined Reference
+    memcmp                                    - Undefined Reference
+    memcmp@libc{00010001}[10207369].dll       - Undefined Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      52  ucppinit.o(.emb_text)
+    std::nothrow                             0x0000805c   ARM Code       0  ucppinit.o(.emb_text)
+    __PLT                                    0x0000805c   ARM Code       0  anon$$obj.o(.plt)
+    qt_plugin_query_verification_data        0x000082bd   Thumb Code     4  main.o(.text)
+    qt_plugin_instance                       0x000082c1   Thumb Code   134  main.o(.text)
+    QICOPlugin::keys() const                 0x00008347   Thumb Code   128  main.o(.text)
+    thunk{-8} to QICOPlugin::keys() const    0x000083c7   Thumb Code    18  main.o(.text)
+    QICOPlugin::capabilities(QIODevice*, const QByteArray&) const 0x000083d9   Thumb Code   198  main.o(.text)
+    QICOPlugin::create(QIODevice*, const QByteArray&) const 0x0000849f   Thumb Code    54  main.o(.text)
+    thunk{-8} to QICOPlugin::create(QIODevice*, const QByteArray&) const 0x000084d5   Thumb Code    22  main.o(.text)
+    ICOReader::ICOReader(QIODevice*)         0x00008793   Thumb Code    18  qicohandler.o(.text)
+    ICOReader::ICOReader__sub_object(QIODevice*) 0x00008793   Thumb Code     0  qicohandler.o(.text)
+    QtIcoHandler::QtIcoHandler(QIODevice*)   0x000087a5   Thumb Code    58  qicohandler.o(.text)
+    QtIcoHandler::QtIcoHandler__sub_object(QIODevice*) 0x000087a5   Thumb Code     0  qicohandler.o(.text)
+    QtIcoHandler::~QtIcoHandler()            0x000087df   Thumb Code    24  qicohandler.o(.text)
+    QtIcoHandler::~QtIcoHandler__sub_object() 0x000087df   Thumb Code     0  qicohandler.o(.text)
+    QtIcoHandler::~QtIcoHandler__deallocating() 0x000087f7   Thumb Code    22  qicohandler.o(.text)
+    ICOReader::canRead(QIODevice*)           0x0000880d   Thumb Code   454  qicohandler.o(.text)
+    QtIcoHandler::canRead() const            0x000089d3   Thumb Code    68  qicohandler.o(.text)
+    ICOReader::read1BitBMP(QImage&)          0x00008a17   Thumb Code   144  qicohandler.o(.text)
+    ICOReader::read16_24_32BMP(QImage&)      0x00008aa7   Thumb Code   276  qicohandler.o(.text)
+    ICOReader::read8BitBMP(QImage&)          0x00008bbb   Thumb Code   138  qicohandler.o(.text)
+    ICOReader::read4BitBMP(QImage&)          0x00008c45   Thumb Code   246  qicohandler.o(.text)
+    ICOReader::readBMP(QImage&)              0x00008d3b   Thumb Code    82  qicohandler.o(.text)
+    ICOReader::readColorTable(QImage&)       0x00008d8d   Thumb Code   202  qicohandler.o(.text)
+    ICOReader::findColorInfo(QImage&)        0x00008e57   Thumb Code    54  qicohandler.o(.text)
+    ICOReader::readBMPHeader(unsigned, BMP_INFOHDR*) 0x00008e8d   Thumb Code    66  qicohandler.o(.text)
+    ICOReader::readIconEntry(int, ICONDIRENTRY*) 0x00008ecf   Thumb Code    72  qicohandler.o(.text)
+    ICOReader::readHeader()                  0x00008f17   Thumb Code    70  qicohandler.o(.text)
+    ICOReader::count()                       0x00008f5d   Thumb Code    22  qicohandler.o(.text)
+    ICOReader::iconAt(int)                   0x00008f73   Thumb Code   796  qicohandler.o(.text)
+    QtIcoHandler::read(QImage*)              0x0000928f   Thumb Code    50  qicohandler.o(.text)
+    ICOReader::write(QIODevice*, const QList<QImage>&) 0x000092c1   Thumb Code  1516  qicohandler.o(.text)
+    QtIcoHandler::write(const QImage&)       0x000098ad   Thumb Code    48  qicohandler.o(.text)
+    QtIcoHandler::name() const               0x000098dd   Thumb Code    18  qicohandler.o(.text)
+    QtIcoHandler::imageCount() const         0x000098ef   Thumb Code    12  qicohandler.o(.text)
+    QtIcoHandler::jumpToImage(int)           0x000098fb   Thumb Code    40  qicohandler.o(.text)
+    QtIcoHandler::jumpToNextImage()          0x00009923   Thumb Code    18  qicohandler.o(.text)
+    QtIcoHandler::canRead(QIODevice*)        0x00009935   Thumb Code    34  qicohandler.o(.text)
+    QtIcoHandler::supportsOption(QImageIOHandler::ImageOption) const 0x00009957   Thumb Code    14  qicohandler.o(.text)
+    QtIcoHandler::option(QImageIOHandler::ImageOption) const 0x00009965   Thumb Code   200  qicohandler.o(.text)
+    ICOReader::read(QIODevice*)              0x00009a2d   Thumb Code    70  qicohandler.o(.text)
+    __ARM_switch8                            0x00009ac0   ARM Code      24  switch8.o(.text)
+    __rt_switch8                             0x00009ac0   ARM Code       0  switch8.o(.text)
+    _E32Dll_Body                             0x00009ad8   ARM Code      76  uc_dll.o(.text)
+    __aeabi_atexit                           0x00009b28   ARM Code      40  ucppfini.o(.text)
+    __cxa_atexit                             0x00009b50   ARM Code      64  ucppfini.o(.text)
+    __cxa_finalize                           0x00009b90   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x00009bc0   ARM Code      16  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x00009bdc   ARM Code       4  dllexp.o(.text)
+    qRgb(int, int, int)                      0x00009d2b   Thumb Code    28  qicohandler.o(i._Z4qRgbiii)
+    qRgba(int, int, int, int)                0x00009d47   Thumb Code    26  qicohandler.o(i._Z5qRgbaiiii)
+    QByteArray::QByteArray()                 0x00009d61   Thumb Code    18  qicohandler.o(i._ZN10QByteArrayC1Ev)
+    QByteArray::QByteArray__sub_object()     0x00009d61   Thumb Code     0  qicohandler.o(i._ZN10QByteArrayC1Ev)
+    QByteArray::~QByteArray()                0x00009d79   Thumb Code    24  qicohandler.o(i._ZN10QByteArrayD1Ev)
+    QByteArray::~QByteArray__sub_object()    0x00009d79   Thumb Code     0  qicohandler.o(i._ZN10QByteArrayD1Ev)
+    QICOPlugin::~QICOPlugin__deallocating()  0x00009d91   Thumb Code    24  main.o(i._ZN10QICOPluginD0Ev)
+    QICOPlugin::~QICOPlugin()                0x00009da9   Thumb Code    14  main.o(i._ZN10QICOPluginD1Ev)
+    QICOPlugin::~QICOPlugin__sub_object()    0x00009da9   Thumb Code     0  main.o(i._ZN10QICOPluginD1Ev)
+    QStringList::~QStringList()              0x00009db7   Thumb Code    14  main.o(i._ZN11QStringListD1Ev)
+    QStringList::~QStringList__sub_object()  0x00009db7   Thumb Code     0  main.o(i._ZN11QStringListD1Ev)
+    QBasicAtomicInt::ref()                   0x00009dc5   Thumb Code    24  main.o(i._ZN15QBasicAtomicInt3refEv)
+    QBasicAtomicInt::deref()                 0x00009ddd   Thumb Code    24  main.o(i._ZN15QBasicAtomicInt5derefEv)
+    QString::QString(const QString&)         0x00009df5   Thumb Code    40  main.o(i._ZN7QStringC1ERKS_)
+    QString::QString__sub_object(const QString&) 0x00009df5   Thumb Code     0  main.o(i._ZN7QStringC1ERKS_)
+    QString::~QString()                      0x00009e71   Thumb Code    24  main.o(i._ZN7QStringD1Ev)
+    QString::~QString__sub_object()          0x00009e71   Thumb Code     0  main.o(i._ZN7QStringD1Ev)
+    QByteArray::isEmpty() const              0x00009e89   Thumb Code    18  main.o(i._ZNK10QByteArray7isEmptyEv)
+    QListData::end() const                   0x00009e9b   Thumb Code    16  main.o(i._ZNK9QListData3endEv)
+    QListData::begin() const                 0x00009eab   Thumb Code    16  main.o(i._ZNK9QListData5beginEv)
+    thunk{-8} to QICOPlugin::~QICOPlugin__deallocating() 0x00009ebb   Thumb Code    14  main.o(i._ZThn8_N10QICOPluginD0Ev)
+    thunk{-8} to QICOPlugin::~QICOPlugin()   0x00009ec9   Thumb Code    18  main.o(i._ZThn8_N10QICOPluginD1Ev)
+    operator delete (void*, void*)           0x00009edb   Thumb Code     2  main.o(i._ZdlPvS_)
+    operator new(unsigned, void*)            0x00009edd   Thumb Code     6  main.o(i._ZnwjPv)
+    qToLittleEndian<unsigned>(T1, unsigned char*) 0x00009ee3   Thumb Code    20  qicohandler.o(t._Z15qToLittleEndianIjEvT_Ph)
+    qToLittleEndian<unsigned short>(T1, unsigned char*) 0x00009ef7   Thumb Code    20  qicohandler.o(t._Z15qToLittleEndianItEvT_Ph)
+    qFromLittleEndian<unsigned>(const unsigned char*) 0x00009f0b   Thumb Code    28  qicohandler.o(t._Z17qFromLittleEndianIjET_PKh)
+    qFromLittleEndian<unsigned short>(const unsigned char*) 0x00009f27   Thumb Code    20  qicohandler.o(t._Z17qFromLittleEndianItET_PKh)
+    QList<QImage>::node_destruct(QList<QImage>::Node*, QList<QImage>::Node*) 0x00009f3b   Thumb Code    36  qicohandler.o(t._ZN5QListI6QImageE13node_destructEPNS1_4NodeES3_)
+    QList<QImage>::node_construct(QList<QImage>::Node*, const QImage&) 0x00009f5f   Thumb Code    34  qicohandler.o(t._ZN5QListI6QImageE14node_constructEPNS1_4NodeERKS0_)
+    QList<QImage>::detach_helper_grow(int, int) 0x00009f8f   Thumb Code   220  qicohandler.o(t._ZN5QListI6QImageE18detach_helper_growEii)
+    QList<QImage>::free(QListData::Data*)    0x0000a07b   Thumb Code    58  qicohandler.o(t._ZN5QListI6QImageE4freeEPN9QListData4DataE)
+    QList<QImage>::append(const QImage&)     0x0000a0b5   Thumb Code   112  qicohandler.o(t._ZN5QListI6QImageE6appendERKS0_)
+    QList<QImage>::node_copy(QList<QImage>::Node*, QList<QImage>::Node*, QList<QImage>::Node*) 0x0000a137   Thumb Code    90  qicohandler.o(t._ZN5QListI6QImageE9node_copyEPNS1_4NodeES3_S3_)
+    QList<QImage>::QList()                   0x0000a1a9   Thumb Code    18  qicohandler.o(t._ZN5QListI6QImageEC1Ev)
+    QList<QImage>::QList__sub_object()       0x0000a1a9   Thumb Code     0  qicohandler.o(t._ZN5QListI6QImageEC1Ev)
+    QList<QImage>::~QList()                  0x0000a1c1   Thumb Code    32  qicohandler.o(t._ZN5QListI6QImageED1Ev)
+    QList<QImage>::~QList__sub_object()      0x0000a1c1   Thumb Code     0  qicohandler.o(t._ZN5QListI6QImageED1Ev)
+    QList<QString>::detach_helper(int)       0x0000a1e1   Thumb Code    94  main.o(t._ZN5QListI7QStringE13detach_helperEi)
+    QList<QString>::detach_helper()          0x0000a247   Thumb Code    16  main.o(t._ZN5QListI7QStringE13detach_helperEv)
+    QList<QString>::node_destruct(QList<QString>::Node*, QList<QString>::Node*) 0x0000a257   Thumb Code    26  main.o(t._ZN5QListI7QStringE13node_destructEPNS1_4NodeES3_)
+    QList<QString>::node_construct(QList<QString>::Node*, const QString&) 0x0000a271   Thumb Code    36  main.o(t._ZN5QListI7QStringE14node_constructEPNS1_4NodeERKS0_)
+    QList<QString>::detach_helper_grow(int, int) 0x0000a2a3   Thumb Code   208  main.o(t._ZN5QListI7QStringE18detach_helper_growEii)
+    QList<QString>::free(QListData::Data*)   0x0000a383   Thumb Code    58  main.o(t._ZN5QListI7QStringE4freeEPN9QListData4DataE)
+    QList<QString>::append(const QString&)   0x0000a3bd   Thumb Code   120  main.o(t._ZN5QListI7QStringE6appendERKS0_)
+    QList<QString>::node_copy(QList<QString>::Node*, QList<QString>::Node*, QList<QString>::Node*) 0x0000a447   Thumb Code    82  main.o(t._ZN5QListI7QStringE9node_copyEPNS1_4NodeES3_S3_)
+    QList<QString>::~QList()                 0x0000a4af   Thumb Code    32  main.o(t._ZN5QListI7QStringED1Ev)
+    QList<QString>::~QList__sub_object()     0x0000a4af   Thumb Code     0  main.o(t._ZN5QListI7QStringED1Ev)
+    QPointer<QObject>::~QPointer()           0x0000a4cf   Thumb Code    14  main.o(t._ZN8QPointerI7QObjectED1Ev)
+    QPointer<QObject>::~QPointer__sub_object() 0x0000a4cf   Thumb Code     0  main.o(t._ZN8QPointerI7QObjectED1Ev)
+    stlp_priv::_Integer_limits<signed char, (signed char)-128, (signed char)127, (int)-1, (bool)1>::digits 0x0000a8bc   Data           4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<bool, (bool)0, (bool)1, (int)1, (bool)0>::digits 0x0000a8c0   Data           4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    stlp_priv::_Integer_limits<char, (char)128, (char)127, (int)-1, (bool)1>::digits 0x0000a8c4   Data           4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned char, (unsigned char)0, (unsigned char)255, (int)-1, (bool)1>::digits 0x0000a8c8   Data           4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::digits 0x0000a8cc   Data           4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::is_signed 0x0000a8d0   Data           1  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    stlp_priv::_Integer_limits<unsigned, (unsigned)0, (unsigned)4294967295, (int)-1, (bool)1>::digits 0x0000a8d4   Data           4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long, (long)-2147483648, (long)2147483647, (int)-1, (bool)1>::digits 0x0000a8d8   Data           4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long, (unsigned long)0, (unsigned long)4294967295, (int)-1, (bool)1>::digits 0x0000a8dc   Data           4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<short, (short)-32768, (short)32767, (int)-1, (bool)1>::digits 0x0000a8e0   Data           4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned short, (unsigned short)0, (unsigned short)65535, (int)-1, (bool)1>::digits 0x0000a8e4   Data           4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<wchar_t, (wchar_t)0, (wchar_t)65535, (int)-1, (bool)1>::digits 0x0000a8e8   Data           4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long long, (long long)-9223372036854775808, (long long)9223372036854775807, (int)-1, (bool)1>::digits 0x0000a8ec   Data           4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long long, (unsigned long long)0, (unsigned long long)18446744073709551615, (int)-1, (bool)1>::digits 0x0000a8f0   Data           4  main.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    typeinfo for QICOPlugin                  0x0000a8f4   Data          12  main.o(.constdata__ZTI10QICOPlugin)
+    typeinfo for QtIcoHandler                0x0000a900   Data          12  qicohandler.o(.constdata__ZTI12QtIcoHandler)
+    typeinfo name for QICOPlugin             0x0000a90c   Data          13  main.o(.constdata__ZTS10QICOPlugin)
+    typeinfo name for QtIcoHandler           0x0000a919   Data          15  qicohandler.o(.constdata__ZTS12QtIcoHandler)
+    vtable for QICOPlugin                    0x0000a928   Data          92  main.o(.constdata__ZTV10QICOPlugin)
+    vtable for QtIcoHandler                  0x0000a984   Data          72  qicohandler.o(.constdata__ZTV12QtIcoHandler)
+    .ARM.exidx$$Base                         0x0000a9cc   Number         0  ucppinit.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x0000ac24   Number         0  main.o(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x0000ac24   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    __dso_handle                             0x00400008   Data           4  ucppfini.o(.data)
+    std::_Atomic_swap_struct<(int)1>::_S_swap_lock 0x0040000c   Data          12  main.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    dtor_rec                                 0x00400018   Data        2048  ucppfini.o(.bss)
+

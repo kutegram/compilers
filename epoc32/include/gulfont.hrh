@@ -1,0 +1,35 @@
+// GULFONT.HRH
+//
+// Copyright (c) Symbian Software Ltd 1997 - 2004. All rights reserved.
+//
+
+/** Bold font flag.
+@publishedAll 
+
+*/
+#define EGulFontFlagBold			0x01
+
+/** Italic font flag.
+@publishedAll 
+
+*/
+#define EGulFontFlagItalic			0x02
+
+/** Monospace font flag.
+@publishedAll 
+
+*/
+#define EGulFontFlagMono			0x04
+
+/**Double width font flag.
+@publishedAll 
+
+*/
+#define EGulFontFlagDoubleWidth		0x08
+
+/** Double height font flag.
+@publishedAll 
+
+*/
+#define EGulFontFlagDoubleHeight	0x10
+

@@ -1,0 +1,420 @@
+ARM Linker, RVCT2.2 [Build 686]
+
+================================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ../../unhosted.s                         0x00000000   Number         0  switch8.o ABSOLUTE
+    M:\\epoc32\\build\\euser\\c_e18a23aea4fd210f\\edll_lib\\armv5\\urel\\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\\sf\\os\\kernelhwsrv\\kernel\\eka\\compsupp\\rvct\\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\epoc32\build\euser\c_e18a23aea4fd210f\edll_lib\armv5\urel\uc_dll_.cpp 0x00000000   Number         0  uc_dll_.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\dllexp.cpp 0x00000000   Number         0  dllexp.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppfini.cpp 0x00000000   Number         0  ucppfini.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\compsupp\rvct\ucppinit.cpp 0x00000000   Number         0  ucppinit.o ABSOLUTE
+    M:\sf\os\kernelhwsrv\kernel\eka\euser\epoc\arm\uc_dll.cpp 0x00000000   Number         0  uc_dll.o ABSOLUTE
+    S:\sf\mw\qt\src\plugins\codecs\cn\main.cpp 0x00000000   Number         0  main.o ABSOLUTE
+    S:\sf\mw\qt\src\plugins\codecs\cn\qgb18030codec.cpp 0x00000000   Number         0  qgb18030codec.o ABSOLUTE
+    .emb_text                                0x00008000   Section       40  uc_dll_.o(.emb_text)
+    .emb_text                                0x00008028   Section       52  ucppinit.o(.emb_text)
+    loop                                     0x0000803c   ARM Code       0  ucppinit.o(.emb_text)
+    base                                     0x00008054   Data           0  ucppinit.o(.emb_text)
+    limit                                    0x00008058   Data           0  ucppinit.o(.emb_text)
+    gb4lin_to_gb(unsigned)                   0x0000815d   Thumb Code    70  qgb18030codec.o(.text)
+    .text                                    0x0000815c   Section     2804  qgb18030codec.o(.text)
+    qt_Gb18030ToUnicode(const unsigned char*, int&) 0x000081a3   Thumb Code   370  qgb18030codec.o(.text)
+    qt_UnicodeToGb18030(unsigned, unsigned char*) 0x00008315   Thumb Code   344  qgb18030codec.o(.text)
+    .text                                    0x00008c50   Section      684  main.o(.text)
+    .text                                    0x00008efc   Section       24  switch8.o(.text)
+    .text                                    0x00008f14   Section       60  uc_dll.o(.text)
+    .text                                    0x00008f50   Section      144  ucppfini.o(.text)
+    .text                                    0x00008fe0   Section        4  dllexp.o(.text)
+    .text.clean                              0x00008fe4   Section       88  qgb18030codec.o(.text.clean)
+    .text.clean                              0x0000903c   Section      120  main.o(.text.clean)
+    i._ZN10QByteArray4dataEv                 0x000090b4   Section       42  qgb18030codec.o(i._ZN10QByteArray4dataEv)
+    i._ZN10QByteArrayC1ERKS_                 0x000090de   Section       16  qgb18030codec.o(i._ZN10QByteArrayC1ERKS_)
+    i._ZN10QByteArrayC1Ev                    0x000090f0   Section       20  qgb18030codec.o(i._ZN10QByteArrayC1Ev)
+    i._ZN10QByteArrayD1Ev                    0x00009104   Section       24  qgb18030codec.o(i._ZN10QByteArrayD1Ev)
+    i._ZN12CNTextCodecsD0Ev                  0x0000911c   Section       16  main.o(i._ZN12CNTextCodecsD0Ev)
+    i._ZN12CNTextCodecsD1Ev                  0x0000912c   Section        8  main.o(i._ZN12CNTextCodecsD1Ev)
+    i._ZN12QGb2312CodecD0Ev                  0x00009134   Section       16  qgb18030codec.o(i._ZN12QGb2312CodecD0Ev)
+    i._ZN12QGb2312CodecD1Ev                  0x00009144   Section        8  qgb18030codec.o(i._ZN12QGb2312CodecD1Ev)
+    i._ZN13QGb18030Codec5_nameEv             0x0000914c   Section       16  main.o(i._ZN13QGb18030Codec5_nameEv)
+    i._ZN13QGb18030CodecD0Ev                 0x0000915c   Section       16  qgb18030codec.o(i._ZN13QGb18030CodecD0Ev)
+    i._ZN13QGb18030CodecD1Ev                 0x0000916c   Section        8  qgb18030codec.o(i._ZN13QGb18030CodecD1Ev)
+    i._ZN15QBasicAtomicInt3refEv             0x00009174   Section       18  qgb18030codec.o(i._ZN15QBasicAtomicInt3refEv)
+    i._ZN15QBasicAtomicInt5derefEv           0x00009186   Section       18  qgb18030codec.o(i._ZN15QBasicAtomicInt5derefEv)
+    i._ZN7QString4dataEv                     0x00009198   Section       38  qgb18030codec.o(i._ZN7QString4dataEv)
+    i._ZN7QStringC1Ev                        0x000091c0   Section       20  qgb18030codec.o(i._ZN7QStringC1Ev)
+    i._ZN7QStringD1Ev                        0x000091d4   Section       24  qgb18030codec.o(i._ZN7QStringD1Ev)
+    i._ZN9QGbkCodecD0Ev                      0x000091ec   Section       16  qgb18030codec.o(i._ZN9QGbkCodecD0Ev)
+    i._ZN9QGbkCodecD1Ev                      0x000091fc   Section        8  qgb18030codec.o(i._ZN9QGbkCodecD1Ev)
+    i._ZNK12QGb2312Codec4nameEv              0x00009204   Section        8  qgb18030codec.o(i._ZNK12QGb2312Codec4nameEv)
+    i._ZNK12QGb2312Codec7mibEnumEv           0x0000920c   Section        8  qgb18030codec.o(i._ZNK12QGb2312Codec7mibEnumEv)
+    i._ZNK13QGb18030Codec4nameEv             0x00009214   Section       20  qgb18030codec.o(i._ZNK13QGb18030Codec4nameEv)
+    i._ZNK13QGb18030Codec7aliasesEv          0x00009228   Section        8  qgb18030codec.o(i._ZNK13QGb18030Codec7aliasesEv)
+    i._ZNK13QGb18030Codec7mibEnumEv          0x00009230   Section        4  qgb18030codec.o(i._ZNK13QGb18030Codec7mibEnumEv)
+    i._ZNK15QBasicAtomicIntneEi              0x00009234   Section       14  qgb18030codec.o(i._ZNK15QBasicAtomicIntneEi)
+    i._ZNK9QGbkCodec4nameEv                  0x00009242   Section        8  qgb18030codec.o(i._ZNK9QGbkCodec4nameEv)
+    i._ZNK9QGbkCodec7aliasesEv               0x0000924a   Section        8  qgb18030codec.o(i._ZNK9QGbkCodec7aliasesEv)
+    i._ZNK9QGbkCodec7mibEnumEv               0x00009252   Section        4  qgb18030codec.o(i._ZNK9QGbkCodec7mibEnumEv)
+    i._ZNK9QListData3endEv                   0x00009256   Section       12  main.o(i._ZNK9QListData3endEv)
+    i._ZNK9QListData5beginEv                 0x00009262   Section       12  qgb18030codec.o(i._ZNK9QListData5beginEv)
+    i._ZThn8_N12CNTextCodecsD0Ev             0x0000926e   Section       10  main.o(i._ZThn8_N12CNTextCodecsD0Ev)
+    i._ZThn8_N12CNTextCodecsD1Ev             0x00009278   Section       10  main.o(i._ZThn8_N12CNTextCodecsD1Ev)
+    i._ZdlPvS_                               0x00009282   Section        2  qgb18030codec.o(i._ZdlPvS_)
+    i._ZeqRK10QByteArrayS1_                  0x00009284   Section       34  main.o(i._ZeqRK10QByteArrayS1_)
+    i._ZnwjPv                                0x000092a6   Section        4  qgb18030codec.o(i._ZnwjPv)
+    t._ZN5QListI10QByteArrayE13detach_helperEv 0x000092aa   Section       88  main.o(t._ZN5QListI10QByteArrayE13detach_helperEv)
+    t._ZN5QListI10QByteArrayE13detach_helperEv.clean 0x00009302   Section        8  main.o(t._ZN5QListI10QByteArrayE13detach_helperEv.clean)
+    t._ZN5QListI10QByteArrayE14node_constructEPNS1_4NodeERKS0_ 0x0000930a   Section       26  qgb18030codec.o(t._ZN5QListI10QByteArrayE14node_constructEPNS1_4NodeERKS0_)
+    t._ZN5QListI10QByteArrayE14node_constructEPNS1_4NodeERKS0_.clean 0x00009324   Section       12  qgb18030codec.o(t._ZN5QListI10QByteArrayE14node_constructEPNS1_4NodeERKS0_.clean)
+    t._ZN5QListI10QByteArrayE18detach_helper_growEii 0x00009330   Section      186  main.o(t._ZN5QListI10QByteArrayE18detach_helper_growEii)
+    t._ZN5QListI10QByteArrayE18detach_helper_growEii.clean 0x000093ea   Section        8  main.o(t._ZN5QListI10QByteArrayE18detach_helper_growEii.clean)
+    t._ZN5QListI10QByteArrayE4freeEPN9QListData4DataE 0x000093f2   Section       48  qgb18030codec.o(t._ZN5QListI10QByteArrayE4freeEPN9QListData4DataE)
+    t._ZN5QListI10QByteArrayE6appendERKS0_   0x00009424   Section      100  qgb18030codec.o(t._ZN5QListI10QByteArrayE6appendERKS0_)
+    t._ZN5QListI10QByteArrayE6appendERKS0_.clean 0x00009488   Section        8  qgb18030codec.o(t._ZN5QListI10QByteArrayE6appendERKS0_.clean)
+    t._ZN5QListI10QByteArrayE9node_copyEPNS1_4NodeES3_S3_ 0x00009490   Section       70  qgb18030codec.o(t._ZN5QListI10QByteArrayE9node_copyEPNS1_4NodeES3_S3_)
+    t._ZN5QListI10QByteArrayE9node_copyEPNS1_4NodeES3_S3_.clean 0x000094d6   Section       22  qgb18030codec.o(t._ZN5QListI10QByteArrayE9node_copyEPNS1_4NodeES3_S3_.clean)
+    t._ZN5QListI10QByteArrayEC1Ev            0x000094ec   Section       20  qgb18030codec.o(t._ZN5QListI10QByteArrayEC1Ev)
+    t._ZN5QListI10QByteArrayED1Ev            0x00009500   Section       30  qgb18030codec.o(t._ZN5QListI10QByteArrayED1Ev)
+    t._ZN5QListI10QByteArrayElsERKS0_        0x0000951e   Section       12  qgb18030codec.o(t._ZN5QListI10QByteArrayElsERKS0_)
+    t._ZN5QListI10QByteArrayEpLERKS1_        0x0000952c   Section      172  main.o(t._ZN5QListI10QByteArrayEpLERKS1_)
+    t._ZN5QListI10QByteArrayEpLERKS1_.clean  0x000095d8   Section        8  main.o(t._ZN5QListI10QByteArrayEpLERKS1_.clean)
+    t._ZN5QListIiE18detach_helper_growEii    0x000095e0   Section      164  main.o(t._ZN5QListIiE18detach_helper_growEii)
+    t._ZN5QListIiE18detach_helper_growEii.clean 0x00009684   Section        8  main.o(t._ZN5QListIiE18detach_helper_growEii.clean)
+    t._ZN5QListIiE4freeEPN9QListData4DataE   0x0000968c   Section       16  main.o(t._ZN5QListIiE4freeEPN9QListData4DataE)
+    t._ZN5QListIiE9node_copyEPNS0_4NodeES2_S2_ 0x0000969c   Section       28  main.o(t._ZN5QListIiE9node_copyEPNS0_4NodeES2_S2_)
+    t._ZN5QListIiED1Ev                       0x000096b8   Section       30  main.o(t._ZN5QListIiED1Ev)
+    t._ZN5QListIiEpLERKi                     0x000096d8   Section       60  main.o(t._ZN5QListIiEpLERKi)
+    t._ZN5QListIiEpLERKi.clean               0x00009714   Section       10  main.o(t._ZN5QListIiEpLERKi.clean)
+    t._ZN8QPointerI7QObjectED1Ev             0x0000971e   Section       12  main.o(t._ZN8QPointerI7QObjectED1Ev)
+    t._ZNK5QListI10QByteArrayE7isEmptyEv     0x0000972a   Section       18  main.o(t._ZNK5QListI10QByteArrayE7isEmptyEv)
+    t._ZNK5QListI10QByteArrayE8containsERKS0_ 0x0000973c   Section       54  main.o(t._ZNK5QListI10QByteArrayE8containsERKS0_)
+    .extab._ZNK13QGb18030Codec16convertToUnicodeEPKciPN10QTextCodec14ConverterStateE 0x00009774   Data           0  qgb18030codec.o(.ARM.extab)
+    .extab._ZNK13QGb18030Codec18convertFromUnicodeEPK5QChariPN10QTextCodec14ConverterStateE 0x00009784   Data           0  qgb18030codec.o(.ARM.extab)
+    .extab._ZN9QGbkCodec8_aliasesEv          0x00009794   Data           0  qgb18030codec.o(.ARM.extab)
+    .extab._ZNK9QGbkCodec16convertToUnicodeEPKciPN10QTextCodec14ConverterStateE 0x000097d4   Data           0  qgb18030codec.o(.ARM.extab)
+    .extab._ZNK9QGbkCodec18convertFromUnicodeEPK5QChariPN10QTextCodec14ConverterStateE 0x000097e4   Data           0  qgb18030codec.o(.ARM.extab)
+    .extab._ZNK12QGb2312Codec16convertToUnicodeEPKciPN10QTextCodec14ConverterStateE 0x000097f4   Data           0  qgb18030codec.o(.ARM.extab)
+    .extab._ZNK12QGb2312Codec18convertFromUnicodeEPK5QChariPN10QTextCodec14ConverterStateE 0x00009804   Data           0  qgb18030codec.o(.ARM.extab)
+    .extab._ZN5QListI10QByteArrayE9node_copyEPNS1_4NodeES3_S3_ 0x00009814   Data           0  qgb18030codec.o(.ARM.extab)
+    .extab._ZN5QListI10QByteArrayE6appendERKS0_ 0x00009838   Data           0  qgb18030codec.o(.ARM.extab)
+    .extab._ZN5QListI10QByteArrayE14node_constructEPNS1_4NodeERKS0_ 0x00009868   Data           0  qgb18030codec.o(.ARM.extab)
+    .extab.qt_plugin_instance                0x00009878   Data           0  main.o(.ARM.extab)
+    .extab._ZNK12CNTextCodecs5namesEv        0x00009890   Data           0  main.o(.ARM.extab)
+    .extab._ZNK12CNTextCodecs7aliasesEv      0x000098d0   Data           0  main.o(.ARM.extab)
+    .extab._ZNK12CNTextCodecs8mibEnumsEv     0x00009910   Data           0  main.o(.ARM.extab)
+    .extab._ZN12CNTextCodecs12createForMibEi 0x00009920   Data           0  main.o(.ARM.extab)
+    .extab._ZN12CNTextCodecs13createForNameERK10QByteArray 0x00009940   Data           0  main.o(.ARM.extab)
+    .extab._ZN5QListI10QByteArrayE18detach_helper_growEii 0x000099a8   Data           0  main.o(.ARM.extab)
+    .extab._ZN5QListI10QByteArrayEpLERKS1_   0x000099d8   Data           0  main.o(.ARM.extab)
+    .extab._ZN5QListIiE18detach_helper_growEii 0x000099f4   Data           0  main.o(.ARM.extab)
+    .extab._ZN5QListIiEpLERKi                0x00009a24   Data           0  main.o(.ARM.extab)
+    .extab._ZN5QListI10QByteArrayE13detach_helperEv 0x00009a40   Data           0  main.o(.ARM.extab)
+    .constdata$1                             0x00009a5c   Data           0  qgb18030codec.o(.constdata)
+    gb18030_to_ucs_index                     0x00009a5c   Data         924  qgb18030codec.o(.constdata)
+    .constdata                               0x00009a5c   Section    117816  qgb18030codec.o(.constdata)
+    ucs_to_gb18030_index                     0x00009df8   Data        1536  qgb18030codec.o(.constdata)
+    ucs_to_gb18030                           0x0000a3f8   Data       57678  qgb18030codec.o(.constdata)
+    gb18030_2byte_to_ucs                     0x00018546   Data       44092  qgb18030codec.o(.constdata)
+    gb18030_4byte_to_ucs                     0x00023182   Data       13586  qgb18030codec.o(.constdata)
+    .constdata$1                             0x00026694   Data           0  main.o(.constdata)
+    qt_plugin_verification_data              0x00026694   Data          91  main.o(.constdata)
+    .constdata                               0x00026694   Section      100  main.o(.constdata)
+    .constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE 0x000266f8   Section        4  qgb18030codec.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE 0x000266fc   Section        4  qgb18030codec.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE 0x00026700   Section        4  qgb18030codec.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE 0x00026704   Section        4  qgb18030codec.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE 0x00026708   Section        4  qgb18030codec.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE 0x0002670c   Section        1  qgb18030codec.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE 0x00026710   Section        4  qgb18030codec.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE 0x00026714   Section        4  qgb18030codec.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE 0x00026718   Section        4  qgb18030codec.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE 0x0002671c   Section        4  qgb18030codec.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE 0x00026720   Section        4  qgb18030codec.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE 0x00026724   Section        4  qgb18030codec.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE 0x00026728   Section        4  qgb18030codec.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    .constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE 0x0002672c   Section        4  qgb18030codec.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    .constdata__ZTI12CNTextCodecs            0x00026730   Section       12  main.o(.constdata__ZTI12CNTextCodecs)
+    .constdata__ZTI12QGb2312Codec            0x0002673c   Section       12  qgb18030codec.o(.constdata__ZTI12QGb2312Codec)
+    .constdata__ZTI13QGb18030Codec           0x00026748   Section       12  qgb18030codec.o(.constdata__ZTI13QGb18030Codec)
+    .constdata__ZTI9QGbkCodec                0x00026754   Section       12  qgb18030codec.o(.constdata__ZTI9QGbkCodec)
+    .constdata__ZTS12CNTextCodecs            0x00026760   Section       15  main.o(.constdata__ZTS12CNTextCodecs)
+    .constdata__ZTS12QGb2312Codec            0x0002676f   Section       15  qgb18030codec.o(.constdata__ZTS12QGb2312Codec)
+    .constdata__ZTS13QGb18030Codec           0x0002677e   Section       16  qgb18030codec.o(.constdata__ZTS13QGb18030Codec)
+    .constdata__ZTS9QGbkCodec                0x0002678e   Section       11  qgb18030codec.o(.constdata__ZTS9QGbkCodec)
+    .constdata__ZTV12CNTextCodecs            0x0002679c   Section      108  main.o(.constdata__ZTV12CNTextCodecs)
+    .constdata__ZTV12QGb2312Codec            0x00026808   Section       36  qgb18030codec.o(.constdata__ZTV12QGb2312Codec)
+    .constdata__ZTV13QGb18030Codec           0x0002682c   Section       36  qgb18030codec.o(.constdata__ZTV13QGb18030Codec)
+    .constdata__ZTV9QGbkCodec                0x00026850   Section       36  qgb18030codec.o(.constdata__ZTV9QGbkCodec)
+    .ARM.exidx                               0x00026874   Section        8  ucppinit.o(.ARM.exidx)
+    .data$0                                  0x00400000   Data           0  main.o(.data)
+    _ZGV_instance@qt_plugin_instance_0       0x00400000   Data           4  main.o(.data)
+    .data                                    0x00400000   Section        8  main.o(.data)
+    _instance@qt_plugin_instance_1           0x00400004   Data           4  main.o(.data)
+    .data$0                                  0x00400008   Data           0  ucppfini.o(.data)
+    .data                                    0x00400008   Section        4  ucppfini.o(.data)
+    .data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE 0x0040000c   Section       12  qgb18030codec.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    .bss$5                                   0x00400018   Data           0  ucppfini.o(.bss)
+    .bss                                     0x00400018   Section     2048  ucppfini.o(.bss)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THUMB_ISAv2$ARM_ISAv5$M$VFPv2$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$IEEEJ$EBA8$UX$FPIC$INDIRECT$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    QtCore{00040703}[2001b2dc].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    drtaeabi{000a0000}.dll                   0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    euser{000a0000}[100039e5].dll            0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    libc{00010001}[10207369].dll             0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    qcncodecs{00040703}[2001e615].dll        0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    stdnew{000a0000}[20022178].dll           0x00000000   Data           0  anon$$obj.o ABSOLUTE
+    SHT$$INIT_ARRAY$$Base                     - Undefined Weak Reference
+    SHT$$INIT_ARRAY$$Limit                    - Undefined Weak Reference
+    qFree(void*)                              - Undefined Reference
+    _Z5qFreePv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::shared_null                   - Undefined Reference
+    _ZN10QByteArray11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::resize(int)                   - Undefined Reference
+    _ZN10QByteArray6resizeEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::realloc(int)                  - Undefined Reference
+    _ZN10QByteArray7reallocEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QByteArray::QByteArray(const char*)       - Undefined Reference
+    _ZN10QByteArrayC1EPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextCodec::QTextCodec__sub_object()      - Undefined Reference
+    _ZN10QTextCodecC2Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextCodec::~QTextCodec__sub_object()     - Undefined Reference
+    _ZN10QTextCodecD2Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::changeGuard(QObject**, QObject*)  - Undefined Reference
+    _ZN11QMetaObject11changeGuardEPP7QObjectS1_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QMetaObject::removeGuard(QObject**)       - Undefined Reference
+    _ZN11QMetaObject11removeGuardEPP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextCodecPlugin::qt_metacall(QMetaObject::Call, int, void**)  - Undefined Reference
+    _ZN16QTextCodecPlugin11qt_metacallEN11QMetaObject4CallEiPPv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextCodecPlugin::qt_metacast(const char*)  - Undefined Reference
+    _ZN16QTextCodecPlugin11qt_metacastEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextCodecPlugin::create(const QString&)  - Undefined Reference
+    _ZN16QTextCodecPlugin6createERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextCodecPlugin::QTextCodecPlugin__sub_object(QObject*)  - Undefined Reference
+    _ZN16QTextCodecPluginC2EP7QObject@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextCodecPlugin::~QTextCodecPlugin__sub_object()  - Undefined Reference
+    _ZN16QTextCodecPluginD2Ev@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    User::LockedDec(int&)                     - Undefined Reference
+    _ZN4User9LockedDecERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    User::LockedInc(int&)                     - Undefined Reference
+    _ZN4User9LockedIncERi@euser{000a0000}[100039e5].dll  - Undefined Reference
+    QObject::childEvent(QChildEvent*)         - Undefined Reference
+    _ZN7QObject10childEventEP11QChildEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::timerEvent(QTimerEvent*)         - Undefined Reference
+    _ZN7QObject10timerEventEP11QTimerEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::customEvent(QEvent*)             - Undefined Reference
+    _ZN7QObject11customEventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::eventFilter(QObject*, QEvent*)   - Undefined Reference
+    _ZN7QObject11eventFilterEPS_P6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::connectNotify(const char*)       - Undefined Reference
+    _ZN7QObject13connectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::disconnectNotify(const char*)    - Undefined Reference
+    _ZN7QObject16disconnectNotifyEPKc@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QObject::event(QEvent*)                   - Undefined Reference
+    _ZN7QObject5eventEP6QEvent@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::shared_null                      - Undefined Reference
+    _ZN7QString11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::free(QString::Data*)             - Undefined Reference
+    _ZN7QString4freeEPNS_4DataE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::resize(int)                      - Undefined Reference
+    _ZN7QString6resizeEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QString::realloc()                        - Undefined Reference
+    _ZN7QString7reallocEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach_grow(int*, int)         - Undefined Reference
+    _ZN9QListData11detach_growEPii@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::shared_null                    - Undefined Reference
+    _ZN9QListData11shared_nullE@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::append()                       - Undefined Reference
+    _ZN9QListData6appendEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::detach(int)                    - Undefined Reference
+    _ZN9QListData6detachEi@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QListData::append2(const QListData&)      - Undefined Reference
+    _ZN9QListData7append2ERKS_@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextCodecPlugin::metaObject() const      - Undefined Reference
+    _ZNK16QTextCodecPlugin10metaObjectEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    QTextCodecPlugin::keys() const            - Undefined Reference
+    _ZNK16QTextCodecPlugin4keysEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for QTextCodec                   - Undefined Reference
+    _ZTI10QTextCodec@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    typeinfo for QTextCodecPlugin             - Undefined Reference
+    _ZTI16QTextCodecPlugin@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    vtable for __cxxabiv1::__si_class_type_info  - Undefined Reference
+    _ZTVN10__cxxabiv120__si_class_type_infoE@drtaeabi{000a0000}.dll  - Undefined Reference
+    thunk{-8} to QTextCodecPlugin::create(const QString&)  - Undefined Reference
+    _ZThn8_N16QTextCodecPlugin6createERK7QString@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    thunk{-8} to QTextCodecPlugin::keys() const  - Undefined Reference
+    _ZThn8_NK16QTextCodecPlugin4keysEv@QtCore{00040703}[2001b2dc].dll  - Undefined Reference
+    operator delete (void*)                   - Undefined Reference
+    _ZdlPv@stdnew{000a0000}[20022178].dll     - Undefined Reference
+    operator new(unsigned)                    - Undefined Reference
+    _Znwj@stdnew{000a0000}[20022178].dll      - Undefined Reference
+    __aeabi_memcpy                            - Undefined Reference
+    __aeabi_memcpy4                           - Undefined Reference
+    __aeabi_memcpy4@drtaeabi{000a0000}.dll    - Undefined Reference
+    __aeabi_memcpy@drtaeabi{000a0000}.dll     - Undefined Reference
+    __aeabi_uidivmod                          - Undefined Reference
+    __aeabi_uidivmod@drtaeabi{000a0000}.dll   - Undefined Reference
+    __aeabi_unwind_cpp_pr0                    - Undefined Reference
+    __aeabi_unwind_cpp_pr0@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_begin_catch                         - Undefined Reference
+    __cxa_begin_catch@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_end_catch                           - Undefined Reference
+    __cxa_end_catch@drtaeabi{000a0000}.dll    - Undefined Reference
+    __cxa_end_cleanup                         - Undefined Reference
+    __cxa_end_cleanup@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_abort                         - Undefined Reference
+    __cxa_guard_abort@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_acquire                       - Undefined Reference
+    __cxa_guard_acquire@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_guard_release                       - Undefined Reference
+    __cxa_guard_release@drtaeabi{000a0000}.dll  - Undefined Reference
+    __cxa_rethrow                             - Undefined Reference
+    __cxa_rethrow@drtaeabi{000a0000}.dll      - Undefined Reference
+    memcmp                                    - Undefined Reference
+    memcmp@libc{00010001}[10207369].dll       - Undefined Reference
+    Image$$ER_RO$$Base                       0x00008000   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    _E32Dll                                  0x00008000   ARM Code      40  uc_dll_.o(.emb_text)
+    Symbian$$CPP$$Exception$$Descriptor      0x00008014   Data           0  uc_dll_.o(.emb_text)
+    __cpp_initialize__aeabi_                 0x00008028   ARM Code      52  ucppinit.o(.emb_text)
+    std::nothrow                             0x0000805c   ARM Code       0  ucppinit.o(.emb_text)
+    __PLT                                    0x0000805c   ARM Code       0  anon$$obj.o(.plt)
+    qt_UnicodeToGbk(unsigned, unsigned char*) 0x0000846d   Thumb Code   312  qgb18030codec.o(.text)
+    QGb18030Codec::QGb18030Codec()           0x000085a5   Thumb Code    12  qgb18030codec.o(.text)
+    QGb18030Codec::QGb18030Codec__sub_object() 0x000085a5   Thumb Code     0  qgb18030codec.o(.text)
+    QGb18030Codec::convertToUnicode(const char*, int, QTextCodec::ConverterState*) const 0x000085b1   Thumb Code   364  qgb18030codec.o(.text)
+    QGb18030Codec::convertFromUnicode(const QChar*, int, QTextCodec::ConverterState*) const 0x0000871d   Thumb Code   302  qgb18030codec.o(.text)
+    QGbkCodec::QGbkCodec()                   0x0000884b   Thumb Code    12  qgb18030codec.o(.text)
+    QGbkCodec::QGbkCodec__sub_object()       0x0000884b   Thumb Code     0  qgb18030codec.o(.text)
+    QGbkCodec::_name()                       0x00008857   Thumb Code    10  qgb18030codec.o(.text)
+    QGbkCodec::_aliases()                    0x00008861   Thumb Code    80  qgb18030codec.o(.text)
+    QGbkCodec::_mibEnum()                    0x000088b1   Thumb Code     4  qgb18030codec.o(.text)
+    QGbkCodec::convertToUnicode(const char*, int, QTextCodec::ConverterState*) const 0x000088b5   Thumb Code   298  qgb18030codec.o(.text)
+    QGbkCodec::convertFromUnicode(const QChar*, int, QTextCodec::ConverterState*) const 0x000089df   Thumb Code   160  qgb18030codec.o(.text)
+    QGb2312Codec::QGb2312Codec()             0x00008a7f   Thumb Code    12  qgb18030codec.o(.text)
+    QGb2312Codec::QGb2312Codec__sub_object() 0x00008a7f   Thumb Code     0  qgb18030codec.o(.text)
+    QGb2312Codec::_name()                    0x00008a8b   Thumb Code    10  qgb18030codec.o(.text)
+    QGb2312Codec::_mibEnum()                 0x00008a95   Thumb Code     4  qgb18030codec.o(.text)
+    QGb2312Codec::convertToUnicode(const char*, int, QTextCodec::ConverterState*) const 0x00008a99   Thumb Code   250  qgb18030codec.o(.text)
+    QGb2312Codec::convertFromUnicode(const QChar*, int, QTextCodec::ConverterState*) const 0x00008b93   Thumb Code   168  qgb18030codec.o(.text)
+    qt_plugin_query_verification_data        0x00008c51   Thumb Code     4  main.o(.text)
+    qt_plugin_instance                       0x00008c55   Thumb Code   100  main.o(.text)
+    CNTextCodecs::names() const              0x00008cb9   Thumb Code    70  main.o(.text)
+    CNTextCodecs::aliases() const            0x00008cff   Thumb Code    70  main.o(.text)
+    CNTextCodecs::mibEnums() const           0x00008d45   Thumb Code    54  main.o(.text)
+    CNTextCodecs::createForMib(int)          0x00008d7b   Thumb Code    70  main.o(.text)
+    CNTextCodecs::createForName(const QByteArray&) 0x00008dc1   Thumb Code   290  main.o(.text)
+    __ARM_switch8                            0x00008efc   ARM Code      24  switch8.o(.text)
+    __rt_switch8                             0x00008efc   ARM Code       0  switch8.o(.text)
+    _E32Dll_Body                             0x00008f14   ARM Code      56  uc_dll.o(.text)
+    __aeabi_atexit                           0x00008f50   ARM Code      28  ucppfini.o(.text)
+    __cxa_atexit                             0x00008f6c   ARM Code      48  ucppfini.o(.text)
+    __cxa_finalize                           0x00008f9c   ARM Code      48  ucppfini.o(.text)
+    run_static_dtors                         0x00008fcc   ARM Code       8  ucppfini.o(.text)
+    __DLL_Export_Table__                     0x00008fe0   ARM Code       4  dllexp.o(.text)
+    QByteArray::data()                       0x000090b5   Thumb Code    42  qgb18030codec.o(i._ZN10QByteArray4dataEv)
+    QByteArray::QByteArray(const QByteArray&) 0x000090df   Thumb Code    16  qgb18030codec.o(i._ZN10QByteArrayC1ERKS_)
+    QByteArray::QByteArray__sub_object(const QByteArray&) 0x000090df   Thumb Code     0  qgb18030codec.o(i._ZN10QByteArrayC1ERKS_)
+    QByteArray::QByteArray()                 0x000090f1   Thumb Code    16  qgb18030codec.o(i._ZN10QByteArrayC1Ev)
+    QByteArray::QByteArray__sub_object()     0x000090f1   Thumb Code     0  qgb18030codec.o(i._ZN10QByteArrayC1Ev)
+    QByteArray::~QByteArray()                0x00009105   Thumb Code    24  qgb18030codec.o(i._ZN10QByteArrayD1Ev)
+    QByteArray::~QByteArray__sub_object()    0x00009105   Thumb Code     0  qgb18030codec.o(i._ZN10QByteArrayD1Ev)
+    CNTextCodecs::~CNTextCodecs__deallocating() 0x0000911d   Thumb Code    16  main.o(i._ZN12CNTextCodecsD0Ev)
+    CNTextCodecs::~CNTextCodecs()            0x0000912d   Thumb Code     8  main.o(i._ZN12CNTextCodecsD1Ev)
+    CNTextCodecs::~CNTextCodecs__sub_object() 0x0000912d   Thumb Code     0  main.o(i._ZN12CNTextCodecsD1Ev)
+    QGb2312Codec::~QGb2312Codec__deallocating() 0x00009135   Thumb Code    16  qgb18030codec.o(i._ZN12QGb2312CodecD0Ev)
+    QGb2312Codec::~QGb2312Codec()            0x00009145   Thumb Code     8  qgb18030codec.o(i._ZN12QGb2312CodecD1Ev)
+    QGb2312Codec::~QGb2312Codec__sub_object() 0x00009145   Thumb Code     0  qgb18030codec.o(i._ZN12QGb2312CodecD1Ev)
+    QGb18030Codec::_name()                   0x0000914d   Thumb Code    10  main.o(i._ZN13QGb18030Codec5_nameEv)
+    QGb18030Codec::~QGb18030Codec__deallocating() 0x0000915d   Thumb Code    16  qgb18030codec.o(i._ZN13QGb18030CodecD0Ev)
+    QGb18030Codec::~QGb18030Codec()          0x0000916d   Thumb Code     8  qgb18030codec.o(i._ZN13QGb18030CodecD1Ev)
+    QGb18030Codec::~QGb18030Codec__sub_object() 0x0000916d   Thumb Code     0  qgb18030codec.o(i._ZN13QGb18030CodecD1Ev)
+    QBasicAtomicInt::ref()                   0x00009175   Thumb Code    18  qgb18030codec.o(i._ZN15QBasicAtomicInt3refEv)
+    QBasicAtomicInt::deref()                 0x00009187   Thumb Code    18  qgb18030codec.o(i._ZN15QBasicAtomicInt5derefEv)
+    QString::data()                          0x00009199   Thumb Code    38  qgb18030codec.o(i._ZN7QString4dataEv)
+    QString::QString()                       0x000091c1   Thumb Code    16  qgb18030codec.o(i._ZN7QStringC1Ev)
+    QString::QString__sub_object()           0x000091c1   Thumb Code     0  qgb18030codec.o(i._ZN7QStringC1Ev)
+    QString::~QString()                      0x000091d5   Thumb Code    24  qgb18030codec.o(i._ZN7QStringD1Ev)
+    QString::~QString__sub_object()          0x000091d5   Thumb Code     0  qgb18030codec.o(i._ZN7QStringD1Ev)
+    QGbkCodec::~QGbkCodec__deallocating()    0x000091ed   Thumb Code    16  qgb18030codec.o(i._ZN9QGbkCodecD0Ev)
+    QGbkCodec::~QGbkCodec()                  0x000091fd   Thumb Code     8  qgb18030codec.o(i._ZN9QGbkCodecD1Ev)
+    QGbkCodec::~QGbkCodec__sub_object()      0x000091fd   Thumb Code     0  qgb18030codec.o(i._ZN9QGbkCodecD1Ev)
+    QGb2312Codec::name() const               0x00009205   Thumb Code     8  qgb18030codec.o(i._ZNK12QGb2312Codec4nameEv)
+    QGb2312Codec::mibEnum() const            0x0000920d   Thumb Code     4  qgb18030codec.o(i._ZNK12QGb2312Codec7mibEnumEv)
+    QGb18030Codec::name() const              0x00009215   Thumb Code    10  qgb18030codec.o(i._ZNK13QGb18030Codec4nameEv)
+    QGb18030Codec::aliases() const           0x00009229   Thumb Code     8  qgb18030codec.o(i._ZNK13QGb18030Codec7aliasesEv)
+    QGb18030Codec::mibEnum() const           0x00009231   Thumb Code     4  qgb18030codec.o(i._ZNK13QGb18030Codec7mibEnumEv)
+    QBasicAtomicInt::operator !=(int) const  0x00009235   Thumb Code    14  qgb18030codec.o(i._ZNK15QBasicAtomicIntneEi)
+    QGbkCodec::name() const                  0x00009243   Thumb Code     8  qgb18030codec.o(i._ZNK9QGbkCodec4nameEv)
+    QGbkCodec::aliases() const               0x0000924b   Thumb Code     8  qgb18030codec.o(i._ZNK9QGbkCodec7aliasesEv)
+    QGbkCodec::mibEnum() const               0x00009253   Thumb Code     4  qgb18030codec.o(i._ZNK9QGbkCodec7mibEnumEv)
+    QListData::end() const                   0x00009257   Thumb Code    12  main.o(i._ZNK9QListData3endEv)
+    QListData::begin() const                 0x00009263   Thumb Code    12  qgb18030codec.o(i._ZNK9QListData5beginEv)
+    thunk{-8} to CNTextCodecs::~CNTextCodecs__deallocating() 0x0000926f   Thumb Code    10  main.o(i._ZThn8_N12CNTextCodecsD0Ev)
+    thunk{-8} to CNTextCodecs::~CNTextCodecs() 0x00009279   Thumb Code    10  main.o(i._ZThn8_N12CNTextCodecsD1Ev)
+    operator delete (void*, void*)           0x00009283   Thumb Code     2  qgb18030codec.o(i._ZdlPvS_)
+    operator ==(const QByteArray&, const QByteArray&) 0x00009285   Thumb Code    34  main.o(i._ZeqRK10QByteArrayS1_)
+    operator new(unsigned, void*)            0x000092a7   Thumb Code     4  qgb18030codec.o(i._ZnwjPv)
+    QList<QByteArray>::detach_helper()       0x000092ab   Thumb Code    88  main.o(t._ZN5QListI10QByteArrayE13detach_helperEv)
+    QList<QByteArray>::node_construct(QList<QByteArray>::Node*, const QByteArray&) 0x0000930b   Thumb Code    26  qgb18030codec.o(t._ZN5QListI10QByteArrayE14node_constructEPNS1_4NodeERKS0_)
+    QList<QByteArray>::detach_helper_grow(int, int) 0x00009331   Thumb Code   186  main.o(t._ZN5QListI10QByteArrayE18detach_helper_growEii)
+    QList<QByteArray>::free(QListData::Data*) 0x000093f3   Thumb Code    48  qgb18030codec.o(t._ZN5QListI10QByteArrayE4freeEPN9QListData4DataE)
+    QList<QByteArray>::append(const QByteArray&) 0x00009425   Thumb Code    94  qgb18030codec.o(t._ZN5QListI10QByteArrayE6appendERKS0_)
+    QList<QByteArray>::node_copy(QList<QByteArray>::Node*, QList<QByteArray>::Node*, QList<QByteArray>::Node*) 0x00009491   Thumb Code    70  qgb18030codec.o(t._ZN5QListI10QByteArrayE9node_copyEPNS1_4NodeES3_S3_)
+    QList<QByteArray>::QList()               0x000094ed   Thumb Code    16  qgb18030codec.o(t._ZN5QListI10QByteArrayEC1Ev)
+    QList<QByteArray>::QList__sub_object()   0x000094ed   Thumb Code     0  qgb18030codec.o(t._ZN5QListI10QByteArrayEC1Ev)
+    QList<QByteArray>::~QList()              0x00009501   Thumb Code    30  qgb18030codec.o(t._ZN5QListI10QByteArrayED1Ev)
+    QList<QByteArray>::~QList__sub_object()  0x00009501   Thumb Code     0  qgb18030codec.o(t._ZN5QListI10QByteArrayED1Ev)
+    QList<QByteArray>::operator <<(const QByteArray&) 0x0000951f   Thumb Code    12  qgb18030codec.o(t._ZN5QListI10QByteArrayElsERKS0_)
+    QList<QByteArray>::operator +=(const QList<QByteArray>&) 0x0000952d   Thumb Code   168  main.o(t._ZN5QListI10QByteArrayEpLERKS1_)
+    QList<int>::detach_helper_grow(int, int) 0x000095e1   Thumb Code   164  main.o(t._ZN5QListIiE18detach_helper_growEii)
+    QList<int>::free(QListData::Data*)       0x0000968d   Thumb Code    16  main.o(t._ZN5QListIiE4freeEPN9QListData4DataE)
+    QList<int>::node_copy(QList<int>::Node*, QList<int>::Node*, QList<int>::Node*) 0x0000969d   Thumb Code    28  main.o(t._ZN5QListIiE9node_copyEPNS0_4NodeES2_S2_)
+    QList<int>::~QList()                     0x000096b9   Thumb Code    30  main.o(t._ZN5QListIiED1Ev)
+    QList<int>::~QList__sub_object()         0x000096b9   Thumb Code     0  main.o(t._ZN5QListIiED1Ev)
+    QList<int>::operator +=(const int&)      0x000096d9   Thumb Code    56  main.o(t._ZN5QListIiEpLERKi)
+    QPointer<QObject>::~QPointer()           0x0000971f   Thumb Code    12  main.o(t._ZN8QPointerI7QObjectED1Ev)
+    QPointer<QObject>::~QPointer__sub_object() 0x0000971f   Thumb Code     0  main.o(t._ZN8QPointerI7QObjectED1Ev)
+    QList<QByteArray>::isEmpty() const       0x0000972b   Thumb Code    18  main.o(t._ZNK5QListI10QByteArrayE7isEmptyEv)
+    QList<QByteArray>::contains(const QByteArray&) const 0x0000973d   Thumb Code    54  main.o(t._ZNK5QListI10QByteArrayE8containsERKS0_)
+    stlp_priv::_Integer_limits<signed char, (signed char)-128, (signed char)127, (int)-1, (bool)1>::digits 0x000266f8   Data           4  qgb18030codec.o(.constdata__ZN9stlp_priv15_Integer_limitsIaLan128ELa127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<bool, (bool)0, (bool)1, (int)1, (bool)0>::digits 0x000266fc   Data           4  qgb18030codec.o(.constdata__ZN9stlp_priv15_Integer_limitsIbLb0ELb1ELi1ELb0EE6digitsE)
+    stlp_priv::_Integer_limits<char, (char)128, (char)127, (int)-1, (bool)1>::digits 0x00026700   Data           4  qgb18030codec.o(.constdata__ZN9stlp_priv15_Integer_limitsIcLc128ELc127ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned char, (unsigned char)0, (unsigned char)255, (int)-1, (bool)1>::digits 0x00026704   Data           4  qgb18030codec.o(.constdata__ZN9stlp_priv15_Integer_limitsIhLh0ELh255ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::digits 0x00026708   Data           4  qgb18030codec.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<int, (int)-2147483648, (int)2147483647, (int)-1, (bool)1>::is_signed 0x0002670c   Data           1  qgb18030codec.o(.constdata__ZN9stlp_priv15_Integer_limitsIiLin2147483648ELi2147483647ELin1ELb1EE9is_signedE)
+    stlp_priv::_Integer_limits<unsigned, (unsigned)0, (unsigned)4294967295, (int)-1, (bool)1>::digits 0x00026710   Data           4  qgb18030codec.o(.constdata__ZN9stlp_priv15_Integer_limitsIjLj0ELj4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long, (long)-2147483648, (long)2147483647, (int)-1, (bool)1>::digits 0x00026714   Data           4  qgb18030codec.o(.constdata__ZN9stlp_priv15_Integer_limitsIlLln2147483648ELl2147483647ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long, (unsigned long)0, (unsigned long)4294967295, (int)-1, (bool)1>::digits 0x00026718   Data           4  qgb18030codec.o(.constdata__ZN9stlp_priv15_Integer_limitsImLm0ELm4294967295ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<short, (short)-32768, (short)32767, (int)-1, (bool)1>::digits 0x0002671c   Data           4  qgb18030codec.o(.constdata__ZN9stlp_priv15_Integer_limitsIsLsn32768ELs32767ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned short, (unsigned short)0, (unsigned short)65535, (int)-1, (bool)1>::digits 0x00026720   Data           4  qgb18030codec.o(.constdata__ZN9stlp_priv15_Integer_limitsItLt0ELt65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<wchar_t, (wchar_t)0, (wchar_t)65535, (int)-1, (bool)1>::digits 0x00026724   Data           4  qgb18030codec.o(.constdata__ZN9stlp_priv15_Integer_limitsIwLw0ELw65535ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<long long, (long long)-9223372036854775808, (long long)9223372036854775807, (int)-1, (bool)1>::digits 0x00026728   Data           4  qgb18030codec.o(.constdata__ZN9stlp_priv15_Integer_limitsIxLxn9223372036854775808ELx9223372036854775807ELin1ELb1EE6digitsE)
+    stlp_priv::_Integer_limits<unsigned long long, (unsigned long long)0, (unsigned long long)18446744073709551615, (int)-1, (bool)1>::digits 0x0002672c   Data           4  qgb18030codec.o(.constdata__ZN9stlp_priv15_Integer_limitsIyLy0ELy18446744073709551615ELin1ELb1EE6digitsE)
+    typeinfo for CNTextCodecs                0x00026730   Data          12  main.o(.constdata__ZTI12CNTextCodecs)
+    typeinfo for QGb2312Codec                0x0002673c   Data          12  qgb18030codec.o(.constdata__ZTI12QGb2312Codec)
+    typeinfo for QGb18030Codec               0x00026748   Data          12  qgb18030codec.o(.constdata__ZTI13QGb18030Codec)
+    typeinfo for QGbkCodec                   0x00026754   Data          12  qgb18030codec.o(.constdata__ZTI9QGbkCodec)
+    typeinfo name for CNTextCodecs           0x00026760   Data          15  main.o(.constdata__ZTS12CNTextCodecs)
+    typeinfo name for QGb2312Codec           0x0002676f   Data          15  qgb18030codec.o(.constdata__ZTS12QGb2312Codec)
+    typeinfo name for QGb18030Codec          0x0002677e   Data          16  qgb18030codec.o(.constdata__ZTS13QGb18030Codec)
+    typeinfo name for QGbkCodec              0x0002678e   Data          11  qgb18030codec.o(.constdata__ZTS9QGbkCodec)
+    vtable for CNTextCodecs                  0x0002679c   Data         108  main.o(.constdata__ZTV12CNTextCodecs)
+    vtable for QGb2312Codec                  0x00026808   Data          36  qgb18030codec.o(.constdata__ZTV12QGb2312Codec)
+    vtable for QGb18030Codec                 0x0002682c   Data          36  qgb18030codec.o(.constdata__ZTV13QGb18030Codec)
+    vtable for QGbkCodec                     0x00026850   Data          36  qgb18030codec.o(.constdata__ZTV9QGbkCodec)
+    .ARM.exidx$$Base                         0x00026874   Number         0  ucppinit.o(.ARM.exidx)
+    .ARM.exidx$$Limit                        0x00026a2c   Number         0  main.o(.ARM.exidx)
+    Image$$ER_RO$$Limit                      0x00026a2c   Number         0  anon$$obj.o(linker$$defined$$symbols)
+    __dso_handle                             0x00400008   Data           4  ucppfini.o(.data)
+    std::_Atomic_swap_struct<(int)1>::_S_swap_lock 0x0040000c   Data          12  qgb18030codec.o(.data__ZNSt19_Atomic_swap_structILi1EE12_S_swap_lockE)
+    dtor_rec                                 0x00400018   Data        2048  ucppfini.o(.bss)
+

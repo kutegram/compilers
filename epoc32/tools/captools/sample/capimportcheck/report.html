@@ -1,0 +1,779 @@
+<HTML>
+	<HEAD> 
+		<TITLE> 
+			CapImportCheck Report
+		</TITLE> 
+		<METAhttp-equiv="Pragma" content="no-cache">
+	</HEAD>
+	<BODY BGCOLOR="#FFFFFF" link="006699" vlink="006699" alink="#FF9900">
+	<FONT face="sans-serif"  color="#006699"  size="4">
+	<b>CapImportCheck Report</b>
+	<HR>
+	<FONT face="arial" color="#006699" size= "2">
+<br><table align="center" width=100% border=0 cellspacing=0 cellpadding=4 vspace=0 hspace=0>
+<tr bgcolor="#FF9920"><td><font face="sans-serif" size="3" color="#000000"><b>INPUT FILES</b></font></td></tr>
+</table><br>
+<br>
+<table align="center" width=60% border=1 cellspacing=0 cellpadding=3 vspace=0 hspace=0 bordercolor="#006699">
+<tr bgcolor="#C0E0C0" align="top">
+<td valign="top" width="0"><font face="sans-serif" ><b>Rom Log </b></font></td>
+<td valign="top" width="0"><font face="sans-serif" ><b>myRom.log </b></font></td>
+<tr bgcolor="#C0E0C0" align="top">
+<td valign="top" width="0"><font face="sans-serif" ><b>Symbian Capability List </b></font></td>
+<td valign="top" width="0"><font face="sans-serif" ><b>e32capability.h </b></font></td>
+<tr bgcolor="#C0E0C0" align="top">
+<td valign="top" width="0"><font face="sans-serif" ><b>Dependency Data File </b></font></td>
+<td valign="top" width="0"><font face="sans-serif" ><b>depsData.txt </b></font></td>
+</table><br>
+<table align="center" width=100% border=0 cellspacing=0 cellpadding=4 vspace=0 hspace=0>
+<tr bgcolor="#FF9920"><td><font face="sans-serif" size="3" color="#000000"><b>SUMMARY</b></font></td></tr>
+</table><br>
+<br>
+<table align="center" width=60% border=1 cellspacing=0 cellpadding=3 vspace=0 hspace=0 bordercolor="#006699">
+<tr bgcolor="#C0E0C0" align="top">
+<td valign="top" width="0"><font face="sans-serif" ><b>Total number of binaries with less capabilities than their importers </b></font></td>
+<td valign="top" width="50"><font face="sans-serif" ><b>6 </b></font></td>
+<tr bgcolor="#C0E0C0" align="top">
+<td valign="top" width="0"><font face="sans-serif" ><b>Total number of binaries with more capabilities than their importers </b></font></td>
+<td valign="top" width="50"><font face="sans-serif" ><b>2 </b></font></td>
+</table><br>
+<table align="center" width=100% border=0 cellspacing=0 cellpadding=4 vspace=0 hspace=0>
+<tr bgcolor="#FF9920"><td><font face="sans-serif" size="3" color="#000000"><b>DETAILS</b></font></td></tr>
+</table><br>
+<br>
+<table align="center" width=95% border=1 cellspacing=0 cellpadding=3 vspace=0 hspace=0 bordercolor="#006699">
+<tr bgcolor="#C0E0C0" align="top">
+<td valign="top" width="0"><font face="sans-serif" ><b>Number </b></font></td>
+<td valign="top" width="0"><font face="sans-serif" ><b>Imported binary & its existing capabilities </b></font></td>
+<td valign="top" width="0"><font face="sans-serif" ><b>Chain(s) of importers with additional capabilities </b></font></td>
+<td valign="top" width="0"><font face="sans-serif" ><b>Aggregate missing capabilities from imported binary </b></font></td>
+<td valign="top" width="0"><font face="sans-serif" ><b>Aggregate extra capabilities found in imported binary </b></font></td>
+<tr bgcolor="#E0E0E0" align="top">
+<td valign="top" width="0"><font face="sans-serif" >1 </font></td>
+<td valign="top" width="0"><font face="sans-serif" ><b>ecust.dll</b><ul>
+<li>TCB
+<li>CommDD
+<li>PowerMgmt
+<li>MultimediaDD
+<li>ReadDeviceData
+<li>WriteDeviceData
+<li>DRM
+<li>TrustedUI
+<li>ProtServ
+<li>DiskAdmin
+<li>NetworkControl
+<li>AllFiles
+<li>SwEvent
+<li>NetworkServices
+</ul>
+ </font></td>
+<td valign="top" width="0"><font face="sans-serif" ><ul>
+<li><b>monitor.dll</b>
+<ul>
+<li>LocalServices
+<li>ReadUserData
+<li>unknown(23)
+<li>unknown(24)
+<li>unknown(25)
+<li>unknown(26)
+<li>unknown(27)
+</ul>
+</ul>
+<hr><ul>
+<li><b>lcd.dll</b>
+<ul>
+<li>LocalServices
+<li>ReadUserData
+<li>unknown(23)
+<li>unknown(24)
+<li>unknown(25)
+<li>unknown(26)
+<li>unknown(27)
+</ul>
+</ul>
+<hr> </font></td>
+<td valign="top" width="0"><font face="sans-serif" ><ul>
+<li>LocalServices
+<li>ReadUserData
+<li>unknown(23)
+<li>unknown(24)
+<li>unknown(25)
+<li>unknown(26)
+<li>unknown(27)
+</ul>
+ </font></td>
+<td valign="top" width="0"><font face="sans-serif" ><ul>
+<li>None
+</ul>
+ </font></td>
+<tr bgcolor="#E0E0E0" align="top">
+<td valign="top" width="0"><font face="sans-serif" >2 </font></td>
+<td valign="top" width="0"><font face="sans-serif" ><b>ekern.exe</b><ul>
+<li>TCB
+<li>PowerMgmt
+<li>unknown(32)
+</ul>
+ </font></td>
+<td valign="top" width="0"><font face="sans-serif" ><ul>
+<li><b>kacotulla.dll</b>
+<ul>
+<li>CommDD
+</ul>
+</ul>
+<hr><ul>
+<li><b>ecust.dll</b>
+<ul>
+<li>CommDD
+<li>MultimediaDD
+<li>ReadDeviceData
+<li>WriteDeviceData
+<li>DRM
+<li>TrustedUI
+<li>ProtServ
+<li>DiskAdmin
+<li>NetworkControl
+<li>AllFiles
+<li>SwEvent
+<li>NetworkServices
+</ul>
+</ul>
+<hr><ul>
+<li><b>monitor.dll</b>
+<ul>
+<li>CommDD
+<li>MultimediaDD
+<li>ReadDeviceData
+<li>WriteDeviceData
+<li>DRM
+<li>TrustedUI
+<li>ProtServ
+<li>DiskAdmin
+<li>NetworkControl
+<li>AllFiles
+<li>SwEvent
+<li>NetworkServices
+<li>LocalServices
+<li>ReadUserData
+<li>unknown(23)
+<li>unknown(24)
+<li>unknown(25)
+<li>unknown(26)
+<li>unknown(27)
+</ul>
+</ul>
+<hr><ul>
+<li><b>power.dll</b>
+<ul>
+<li>CommDD
+<li>MultimediaDD
+<li>ReadDeviceData
+<li>WriteDeviceData
+<li>DRM
+<li>TrustedUI
+<li>ProtServ
+<li>DiskAdmin
+<li>NetworkControl
+<li>AllFiles
+<li>SwEvent
+<li>NetworkServices
+<li>LocalServices
+<li>ReadUserData
+<li>unknown(23)
+<li>unknown(24)
+<li>unknown(25)
+<li>unknown(26)
+<li>unknown(27)
+</ul>
+</ul>
+<hr><ul>
+<li><b>dma.dll</b>
+<ul>
+<li>CommDD
+<li>MultimediaDD
+<li>ReadDeviceData
+<li>WriteDeviceData
+<li>DRM
+<li>TrustedUI
+<li>ProtServ
+<li>DiskAdmin
+<li>NetworkControl
+<li>AllFiles
+<li>SwEvent
+<li>NetworkServices
+<li>LocalServices
+<li>ReadUserData
+<li>unknown(23)
+<li>unknown(24)
+<li>unknown(25)
+<li>unknown(26)
+<li>unknown(27)
+</ul>
+</ul>
+<hr><ul>
+<li><b>lcd.dll</b>
+<ul>
+<li>CommDD
+<li>MultimediaDD
+<li>ReadDeviceData
+<li>WriteDeviceData
+<li>DRM
+<li>TrustedUI
+<li>ProtServ
+<li>DiskAdmin
+<li>NetworkControl
+<li>AllFiles
+<li>SwEvent
+<li>NetworkServices
+<li>LocalServices
+<li>ReadUserData
+<li>unknown(23)
+<li>unknown(24)
+<li>unknown(25)
+<li>unknown(26)
+<li>unknown(27)
+</ul>
+</ul>
+<hr><ul>
+<li><b>elocd.ldd</b>
+<ul>
+<li>CommDD
+<li>MultimediaDD
+<li>ReadDeviceData
+<li>WriteDeviceData
+<li>DRM
+<li>TrustedUI
+<li>ProtServ
+<li>DiskAdmin
+<li>NetworkControl
+<li>AllFiles
+<li>SwEvent
+<li>NetworkServices
+<li>LocalServices
+<li>ReadUserData
+<li>WriteUserData
+<li>Location
+</ul>
+</ul>
+<hr><ul>
+<li><b>epbus.dll</b>
+<ul>
+<li>CommDD
+<li>MultimediaDD
+<li>ReadDeviceData
+<li>WriteDeviceData
+<li>DRM
+<li>TrustedUI
+<li>ProtServ
+<li>DiskAdmin
+<li>NetworkControl
+<li>AllFiles
+<li>SwEvent
+<li>NetworkServices
+<li>LocalServices
+<li>ReadUserData
+<li>WriteUserData
+</ul>
+</ul>
+<hr> </font></td>
+<td valign="top" width="0"><font face="sans-serif" ><ul>
+<li>CommDD
+<li>MultimediaDD
+<li>ReadDeviceData
+<li>WriteDeviceData
+<li>DRM
+<li>TrustedUI
+<li>ProtServ
+<li>DiskAdmin
+<li>NetworkControl
+<li>AllFiles
+<li>SwEvent
+<li>NetworkServices
+<li>LocalServices
+<li>ReadUserData
+<li>WriteUserData
+<li>Location
+<li>unknown(23)
+<li>unknown(24)
+<li>unknown(25)
+<li>unknown(26)
+<li>unknown(27)
+</ul>
+ </font></td>
+<td valign="top" width="0"><font face="sans-serif" ><ul>
+<li>unknown(32)
+</ul>
+ </font></td>
+<tr bgcolor="#E0E0E0" align="top">
+<td valign="top" width="0"><font face="sans-serif" >3 </font></td>
+<td valign="top" width="0"><font face="sans-serif" ><b>elocd.ldd</b><ul>
+<li>TCB
+<li>CommDD
+<li>PowerMgmt
+<li>MultimediaDD
+<li>ReadDeviceData
+<li>WriteDeviceData
+<li>DRM
+<li>TrustedUI
+<li>ProtServ
+<li>DiskAdmin
+<li>NetworkControl
+<li>AllFiles
+<li>SwEvent
+<li>NetworkServices
+<li>LocalServices
+<li>ReadUserData
+<li>WriteUserData
+<li>Location
+</ul>
+ </font></td>
+<td valign="top" width="0"><font face="sans-serif" >- </font></td>
+<td valign="top" width="0"><font face="sans-serif" ><ul>
+<li>None
+</ul>
+ </font></td>
+<td valign="top" width="0"><font face="sans-serif" ><ul>
+<li>Location
+</ul>
+ </font></td>
+<tr bgcolor="#E0E0E0" align="top">
+<td valign="top" width="0"><font face="sans-serif" >4 </font></td>
+<td valign="top" width="0"><font face="sans-serif" ><b>EmailEditor.dll</b><ul>
+<li>DRM
+<li>ProtServ
+<li>unknown(24)
+<li>unknown(25)
+<li>unknown(26)
+</ul>
+ </font></td>
+<td valign="top" width="0"><font face="sans-serif" ><ul>
+<li><i>med.dll</i>
+<li><b>MmsEditor.dll</b>
+<ul>
+<li>CommDD
+<li>PowerMgmt
+<li>MultimediaDD
+<li>ReadDeviceData
+<li>WriteDeviceData
+<li>TrustedUI
+<li>DiskAdmin
+<li>NetworkControl
+<li>AllFiles
+<li>SwEvent
+<li>NetworkServices
+<li>LocalServices
+<li>ReadUserData
+<li>unknown(23)
+<li>unknown(27)
+</ul>
+</ul>
+<hr><ul>
+<li><i>med.dll</i>
+<li><b>BioViewer.dll</b>
+<ul>
+<li>CommDD
+<li>PowerMgmt
+<li>MultimediaDD
+<li>ReadDeviceData
+<li>WriteDeviceData
+<li>TrustedUI
+<li>DiskAdmin
+<li>NetworkControl
+<li>AllFiles
+<li>SwEvent
+<li>NetworkServices
+<li>LocalServices
+<li>ReadUserData
+<li>unknown(23)
+<li>unknown(27)
+</ul>
+</ul>
+<hr> </font></td>
+<td valign="top" width="0"><font face="sans-serif" ><ul>
+<li>CommDD
+<li>PowerMgmt
+<li>MultimediaDD
+<li>ReadDeviceData
+<li>WriteDeviceData
+<li>TrustedUI
+<li>DiskAdmin
+<li>NetworkControl
+<li>AllFiles
+<li>SwEvent
+<li>NetworkServices
+<li>LocalServices
+<li>ReadUserData
+<li>unknown(23)
+<li>unknown(27)
+</ul>
+ </font></td>
+<td valign="top" width="0"><font face="sans-serif" ><ul>
+<li>None
+</ul>
+ </font></td>
+<tr bgcolor="#E0E0E0" align="top">
+<td valign="top" width="0"><font face="sans-serif" >5 </font></td>
+<td valign="top" width="0"><font face="sans-serif" ><b>kacotulla.dll</b><ul>
+<li>CommDD
+</ul>
+ </font></td>
+<td valign="top" width="0"><font face="sans-serif" ><ul>
+<li><b>ecust.dll</b>
+<ul>
+<li>TCB
+<li>PowerMgmt
+<li>MultimediaDD
+<li>ReadDeviceData
+<li>WriteDeviceData
+<li>DRM
+<li>TrustedUI
+<li>ProtServ
+<li>DiskAdmin
+<li>NetworkControl
+<li>AllFiles
+<li>SwEvent
+<li>NetworkServices
+</ul>
+</ul>
+<hr><ul>
+<li><b>monitor.dll</b>
+<ul>
+<li>TCB
+<li>PowerMgmt
+<li>MultimediaDD
+<li>ReadDeviceData
+<li>WriteDeviceData
+<li>DRM
+<li>TrustedUI
+<li>ProtServ
+<li>DiskAdmin
+<li>NetworkControl
+<li>AllFiles
+<li>SwEvent
+<li>NetworkServices
+<li>LocalServices
+<li>ReadUserData
+<li>unknown(23)
+<li>unknown(24)
+<li>unknown(25)
+<li>unknown(26)
+<li>unknown(27)
+</ul>
+</ul>
+<hr><ul>
+<li><b>dma.dll</b>
+<ul>
+<li>TCB
+<li>PowerMgmt
+<li>MultimediaDD
+<li>ReadDeviceData
+<li>WriteDeviceData
+<li>DRM
+<li>TrustedUI
+<li>ProtServ
+<li>DiskAdmin
+<li>NetworkControl
+<li>AllFiles
+<li>SwEvent
+<li>NetworkServices
+<li>LocalServices
+<li>ReadUserData
+<li>unknown(23)
+<li>unknown(24)
+<li>unknown(25)
+<li>unknown(26)
+<li>unknown(27)
+</ul>
+</ul>
+<hr><ul>
+<li><b>lcd.dll</b>
+<ul>
+<li>TCB
+<li>PowerMgmt
+<li>MultimediaDD
+<li>ReadDeviceData
+<li>WriteDeviceData
+<li>DRM
+<li>TrustedUI
+<li>ProtServ
+<li>DiskAdmin
+<li>NetworkControl
+<li>AllFiles
+<li>SwEvent
+<li>NetworkServices
+<li>LocalServices
+<li>ReadUserData
+<li>unknown(23)
+<li>unknown(24)
+<li>unknown(25)
+<li>unknown(26)
+<li>unknown(27)
+</ul>
+</ul>
+<hr><ul>
+<li><b>epbus.dll</b>
+<ul>
+<li>TCB
+<li>PowerMgmt
+<li>MultimediaDD
+<li>ReadDeviceData
+<li>WriteDeviceData
+<li>DRM
+<li>TrustedUI
+<li>ProtServ
+<li>DiskAdmin
+<li>NetworkControl
+<li>AllFiles
+<li>SwEvent
+<li>NetworkServices
+<li>LocalServices
+<li>ReadUserData
+<li>WriteUserData
+</ul>
+</ul>
+<hr> </font></td>
+<td valign="top" width="0"><font face="sans-serif" ><ul>
+<li>TCB
+<li>PowerMgmt
+<li>MultimediaDD
+<li>ReadDeviceData
+<li>WriteDeviceData
+<li>DRM
+<li>TrustedUI
+<li>ProtServ
+<li>DiskAdmin
+<li>NetworkControl
+<li>AllFiles
+<li>SwEvent
+<li>NetworkServices
+<li>LocalServices
+<li>ReadUserData
+<li>WriteUserData
+<li>unknown(23)
+<li>unknown(24)
+<li>unknown(25)
+<li>unknown(26)
+<li>unknown(27)
+</ul>
+ </font></td>
+<td valign="top" width="0"><font face="sans-serif" ><ul>
+<li>None
+</ul>
+ </font></td>
+<tr bgcolor="#E0E0E0" align="top">
+<td valign="top" width="0"><font face="sans-serif" >6 </font></td>
+<td valign="top" width="0"><font face="sans-serif" ><b>med.dll</b><ul>
+<li>DRM
+<li>ProtServ
+<li>unknown(24)
+<li>unknown(25)
+<li>unknown(26)
+</ul>
+ </font></td>
+<td valign="top" width="0"><font face="sans-serif" ><ul>
+<li><b>MmsEditor.dll</b>
+<ul>
+<li>CommDD
+<li>PowerMgmt
+<li>MultimediaDD
+<li>ReadDeviceData
+<li>WriteDeviceData
+<li>TrustedUI
+<li>DiskAdmin
+<li>NetworkControl
+<li>AllFiles
+<li>SwEvent
+<li>NetworkServices
+<li>LocalServices
+<li>ReadUserData
+<li>unknown(23)
+<li>unknown(27)
+</ul>
+</ul>
+<hr><ul>
+<li><b>BioViewer.dll</b>
+<ul>
+<li>CommDD
+<li>PowerMgmt
+<li>MultimediaDD
+<li>ReadDeviceData
+<li>WriteDeviceData
+<li>TrustedUI
+<li>DiskAdmin
+<li>NetworkControl
+<li>AllFiles
+<li>SwEvent
+<li>NetworkServices
+<li>LocalServices
+<li>ReadUserData
+<li>unknown(23)
+<li>unknown(27)
+</ul>
+</ul>
+<hr> </font></td>
+<td valign="top" width="0"><font face="sans-serif" ><ul>
+<li>CommDD
+<li>PowerMgmt
+<li>MultimediaDD
+<li>ReadDeviceData
+<li>WriteDeviceData
+<li>TrustedUI
+<li>DiskAdmin
+<li>NetworkControl
+<li>AllFiles
+<li>SwEvent
+<li>NetworkServices
+<li>LocalServices
+<li>ReadUserData
+<li>unknown(23)
+<li>unknown(27)
+</ul>
+ </font></td>
+<td valign="top" width="0"><font face="sans-serif" ><ul>
+<li>None
+</ul>
+ </font></td>
+<tr bgcolor="#E0E0E0" align="top">
+<td valign="top" width="0"><font face="sans-serif" >7 </font></td>
+<td valign="top" width="0"><font face="sans-serif" ><b>SmsEditor.dll</b><ul>
+<li>None
+</ul>
+ </font></td>
+<td valign="top" width="0"><font face="sans-serif" ><ul>
+<li><i>med.dll</i>
+<ul>
+<li>DRM
+<li>ProtServ
+<li>unknown(24)
+<li>unknown(25)
+<li>unknown(26)
+</ul>
+<li><b>EmailEditor.dll</b>
+<ul>
+<li>DRM
+<li>ProtServ
+<li>unknown(24)
+<li>unknown(25)
+<li>unknown(26)
+</ul>
+</ul>
+<hr><ul>
+<li><i>med.dll</i>
+<ul>
+<li>DRM
+<li>ProtServ
+<li>unknown(24)
+<li>unknown(25)
+<li>unknown(26)
+</ul>
+<li><b>MmsEditor.dll</b>
+<ul>
+<li>CommDD
+<li>PowerMgmt
+<li>MultimediaDD
+<li>ReadDeviceData
+<li>WriteDeviceData
+<li>DRM
+<li>TrustedUI
+<li>ProtServ
+<li>DiskAdmin
+<li>NetworkControl
+<li>AllFiles
+<li>SwEvent
+<li>NetworkServices
+<li>LocalServices
+<li>ReadUserData
+<li>unknown(23)
+<li>unknown(24)
+<li>unknown(25)
+<li>unknown(26)
+<li>unknown(27)
+</ul>
+</ul>
+<hr><ul>
+<li><i>med.dll</i>
+<ul>
+<li>DRM
+<li>ProtServ
+<li>unknown(24)
+<li>unknown(25)
+<li>unknown(26)
+</ul>
+<li><b>BioViewer.dll</b>
+<ul>
+<li>CommDD
+<li>PowerMgmt
+<li>MultimediaDD
+<li>ReadDeviceData
+<li>WriteDeviceData
+<li>DRM
+<li>TrustedUI
+<li>ProtServ
+<li>DiskAdmin
+<li>NetworkControl
+<li>AllFiles
+<li>SwEvent
+<li>NetworkServices
+<li>LocalServices
+<li>ReadUserData
+<li>unknown(23)
+<li>unknown(24)
+<li>unknown(25)
+<li>unknown(26)
+<li>unknown(27)
+</ul>
+</ul>
+<hr><ul>
+<li><i>MsgEditor.app</i>
+<ul>
+<li>DRM
+<li>unknown(24)
+<li>unknown(25)
+<li>unknown(26)
+</ul>
+</ul>
+<hr> </font></td>
+<td valign="top" width="0"><font face="sans-serif" ><ul>
+<li>CommDD
+<li>PowerMgmt
+<li>MultimediaDD
+<li>ReadDeviceData
+<li>WriteDeviceData
+<li>DRM
+<li>TrustedUI
+<li>ProtServ
+<li>DiskAdmin
+<li>NetworkControl
+<li>AllFiles
+<li>SwEvent
+<li>NetworkServices
+<li>LocalServices
+<li>ReadUserData
+<li>unknown(23)
+<li>unknown(24)
+<li>unknown(25)
+<li>unknown(26)
+<li>unknown(27)
+</ul>
+ </font></td>
+<td valign="top" width="0"><font face="sans-serif" ><ul>
+<li>None
+</ul>
+ </font></td>
+</table><br>
+<br><table align="center" width=100% border=0 cellspacing=0 cellpadding=2 vspace=0 hspace=0>
+<tr bgcolor="#006699"><td><font face="sans-serif" color="#FFFFFF"><b>LEGEND</b></font></td></tr>
+</table><br>
+
+<p><font color="#333333" face="sans-serif" size="2"><ul>
+<li>An import chain shows the relationship between a binary and all binaries that can load it, either directly or via another binary.
+<li>Binaries shown in <b>bold</b> in an error chain statically import the binary preceding them in the chain.
+<li>Binaries shown in <i>italic</i> dynamically import the binary preceding them.
+<li>Missing capabilities are calculated with respect to the root binary in the chain, and not between two adjacent binaries in an import chain.
+<li>Union of all missing capabilities needs to be assigned to the binary <i>in addition to</i> its existing capabilities.
+</ul>
+</font></p>
+        <HR>
+	<font face="sans-serif" color="#FF9920" size="1">
+	Report generated on 4/05/2004 13:56:15
+	</BODY>
+</HTML>
